@@ -4,43 +4,12 @@ uCloud - Manual de Usuário
 Introdução Visão Geral
 ======================
 
-..doc:: ucloud-visao-geral
-
-Governança Financeira
----------------------
-Billing (Faturamento dos Serviços)
--------------------------------
-Monitoração da Infraestrutura
--------------------------------
-Inventário (Assessment)
--------------------------------
-Operação da Infraestrutura
--------------------------------
-Integração e Interoperabilidade entre Plataformas (API Ucloud)
--------------------------------
+..doc:: ucloud-visao-geral-arqt
 
 Acesso a plataforma uCloud
 ==========================
 
-..doc:: acesso-inicial
-
-Dashboard
----------
-Seção Containers
-----------------
-Seção Gráficos de uso dos recursos
-----------------------------------
-Seção Últimas Tarefas
-~~~~~~~~~~~~~~~~~~~~~
-Seção Máquinas Virtuais
-~~~~~~~~~~~~~~~~~~~~~~~
-Seção Atalhos para os principais menus
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Solicitação de Nova Senha
-=========================
-Usuário não provisionado
-------------------------
+..doc:: ucloud-prim-acesso
 
 Menu de Usuário
 ===============
@@ -50,20 +19,16 @@ Menu de Usuário
 Menu Administração
 ==================
 
-..doc:: ucloud-menu-admin
+..doc:: ucloud-menu-administracao
 
 Menu Administração / Usuários
 =============================
 
-
-
-Visualizando um Usuário
------------------------
-Criando Novo Usuário
---------------------
+.. doc:: ucloud-menu-usuario
 
 Menu Administração / Grupos
 ===========================
+
 Visualizando Grupo
 ------------------
 Criando Novo Grupo
