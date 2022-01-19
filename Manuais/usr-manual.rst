@@ -4,80 +4,22 @@ uCloud - Manual de Usuário
 Introdução Visão Geral
 ======================
 
-..doc:: ucloud-visao-geral-arqt
+:doc:`ucloud-visao-geral-arqt`
 
 Acesso a plataforma uCloud
 ==========================
 
-..doc:: ucloud-prim-acesso
+:doc:`ucloud-prim-acesso`
 
 Menu de Usuário
 ===============
 
-..doc: ucloud-menu-usuario
+:doc:`ucloud-menu-usuario`
 
 Menu Administração
 ==================
 
-..doc:: ucloud-menu-administracao
-
-Menu Administração / Usuários
-=============================
-
-.. doc:: ucloud-menu-usuario
-
-Menu Administração / Grupos
-===========================
-
-Visualizando Grupo
-------------------
-Criando Novo Grupo
-------------------
-
-Menu Administração / Contrato
-=============================
-Governança Financeira via Contrato
-----------------------------------
-Isolamento Financeiro de Recursos Computacionais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Isolamento Lógico de Recursos Computacionais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Visualizando Contrato
----------------------
-Seção Geral
-~~~~~~~~~~~
-Seção Regras de Faturamento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Categorias de Preço
-~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Políticas de Alertas
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Preço dos Recursos
-~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Cota do Contrato
-~~~~~~~~~~~~~~~~~~~~~~
-Seção Contato Primário
-~~~~~~~~~~~~~~~~~~~~~~
-Seção Dados da Empresa
-~~~~~~~~~~~~~~~~~~~~~~
-Seção Virtual Datacenters Concedidos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Usuários
-~~~~~~~~~~~~~~
-Seção Grupos
-~~~~~~~~~~~~
-Seção Dados de Faturamento
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Perfis de Permissionamento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Produtos
-~~~~~~~~~~~~~~
-Seção Permissões Concedidas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seção Perfil de Faturamento de Container
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Provisionando Contrato
-----------------------
+:doc:`ucloud-menu-administracao`
 
 Menu Configuração
 =================

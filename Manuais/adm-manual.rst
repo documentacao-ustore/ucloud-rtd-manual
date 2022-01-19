@@ -144,10 +144,10 @@ Caso o cliente em questão deseja adicionar mais de um ambiente de provedor de s
 
 O profissional do integrador deve acessar o menu Container,  selecionar o botão “Conectar Container”, clicar com o cursor do mouse sobre o campo Tipo de Container e selecionar a opção AWS. Preencher os dados conforme os campos da tela abaixo:
 * Tipo de Container: Este campo é obrigatório, trata-se de um campo do tipo “drop down list”, quando o usuário clicar sobre este será apresentada a lista das opções de tipos provedores (públicos e privados) que são suportados pela Plataforma do uCloud.
-   * Selecionar a opção: AWS
+   * Selecionar a opção: **AWS**
 
 * Nome do Container: Este campo é obrigatório e deve ser informado o nome com o qual deseja identificar este container :
-   * Informar: Cliente1AWS
+   * Informar (*como exemplo*): **Cliente1AWS**
 
 * Access Key: Este campo é obrigatório e deve ser preenchido com a informação específica referente a credencial de acesso programático que foi criada diretamente na console da AWS para esta finalidade. Importante ressaltar que o conjunto de Access Key, só pode ser utilizado uma única tentativa, em caso de erro de digitação o conjunto de informações ficará invalidado e outra credencial de acesso programático deverá ser provisionada na console da AWS.
 
