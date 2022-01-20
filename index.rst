@@ -3,8 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: ucloud_peq.png
-
+.. image:: figuras/Ustore_Logo_Large.png
 .
 
 Bem vindo ao site de documentação da Ustore Brasil

@@ -122,20 +122,20 @@ Nossos clientes (e/ou integradores) podem utilizar a documentação da API da Pl
 A Plataforma do uCloud possui uma documentação da sua API, mas o acesso a documentação completa deve ser solicitada à Equipe de Atendimento ao Cliente (contato@usto.re) para que seja criada e enviada uma credencial de acesso à documentação da Plataforma do uCloud.
 A Equipe Ustore está preparada para auxiliar e avaliar as demandas de interoperabilidade e integração entre a Plataforma do uCloud e as plataformas que possuem e permitem o uso de API’s para a interoperabilidade.
 
-Arquitetura de Referência da Plataforma do uCloud
--------------------------------------------------
+Arquitetura da Plataforma do uCloud
+-----------------------------------
 
 Abaixo apresentamos uma arquitetura de referência para a Plataforma do uCloud com os seus componentes, os provedores e as integrações nativas.
 
-.. figure:: Ustore_future_vision-small.jpg
+.. figure:: figuras/uCloud_future_vision-small.jpg
 
-    Arquitetura e Referência da Plataforma uCloud
+    Arquitetura de Referência da Plataforma uCloud
 
 
 
 A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. A Ustore tem o compromisso de manter o desenvolvimento constante das suas Plataformas de Software e aplicar as melhores práticas (best practices) de DevOps vigentes no mercado de TI, na atualidade. Nosso compromisso versa na manutenção da compatibilidade de integração para que as mais recentes mudanças e implementações no console dos provedores, e de todos os softwares com os quais mantemos interoperabilidade, de forma que as novas funcionalidades estejam sempre disponíveis através da interface da Plataforma do uCloud. Utiliza-se um conjunto de práticas e ferramentas projetadas para aumentar a capacidade de uma organização fornecer aplicativos e serviços mais rapidamente do que os processos tradicionais de desenvolvimento de software.
 
-Acesso a plataforma uCloud
+Acesso a Plataforma uCloud
 ==========================
 
 O acesso à plataforma é feito através de um endereço de Internet, o usuário deve utilizar um navegador de Internet (Internet browser) e inserir o endereço da URL/link, assim o usuário visualiza a tela inicial de apresentação. Os navegadores de Internet compatíveis com a Plataforma do uCloud são: Microsoft Edge versão 86.x, Google Chrome versão 85.x, Firefox verão 80.x ou Opera versão 71.x.
@@ -145,9 +145,9 @@ O acesso à plataforma é feito através de um endereço de Internet, o usuário
 	
 Após iniciar uma sessão de Internet browser, o endereço/caminho para o acesso a aplicação deve ser preenchido conforme exemplo abaixo, da seguinte forma:
 
-`Link de exemplo com Endereço IP: <http://http://<ucloudserverTCP_IP_Address>:80>`_
+- Link de exemplo com Endereço IP: ``http://<ucloudserverTCP_IP_Address>:80``
 
-`Link de exemplo com Nome de Servidor: <http://ucloud_Server_Name.com/>`_
+- Link de exemplo com Nome de Servidor: ``http://ucloud_Server_Name.com/``
 
 Após entrar com o endereço corretamente, a tela do usuário será similar a figura abaixo:
 
