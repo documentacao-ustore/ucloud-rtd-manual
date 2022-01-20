@@ -1,11 +1,10 @@
 uCloud - Manual de Usuário
 ++++++++++++++++++++++++++
 
+.. figure:: /figuras/ucloud_logo_peq.png
+
 Introdução Visão Geral
 ======================
-
-Introdução
-==========
 
 As organizações empresariais adotaram a nuvem como solução para gerenciar seus ambientes e adotam uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud) de forma a alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios. 
 
