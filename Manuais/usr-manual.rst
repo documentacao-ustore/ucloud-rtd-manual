@@ -149,7 +149,7 @@ Após iniciar uma sessão de Internet browser, o endereço/caminho para o acesso
 
 Após entrar com o endereço corretamente, a tela do usuário será similar a figura abaixo:
 
-**??? Provavel figura ???**
+.. figure:: figuras/uCloud_acesso_platafform_001.png
 
 As credenciais para o login e senha devem ter sido provisionadas previamente na Plataforma do uCloud, por um usuário com perfil de Administrador (ou outro usuário com esta permissão).
 
@@ -159,6 +159,8 @@ Caso as credenciais de acesso não tenham sido provisionadas, não existam ou em
 
 Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o procedimento de login, ao usuário será apresentada a tela inicial da Plataforma do uCloud.
 
+.. figure:: figuras/uCloud_acesso_platafform_002.png
+
 Siga para o próximo tópico para a descrição detalhada das características da tela inicial (Dashboard) da Plataforma do uCloud.
 
 Menu de Usuário
@@ -166,20 +168,22 @@ Menu de Usuário
 
 A barra de menu do usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo:
   
-**menu_de_usuario_imagem Modo Expandido**
+.. figure:: figuras/uCloud_menu_usuario_001.png
 
-Algumas opções de menu possuem um submenu, as quais são apresentadas quando o usuário posiciona o mouse sobre a indicação    (sinal de menor “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, ver o exemplo na figura abaixo:
 
-**Exemplo de um Submenu**
+Algumas opções de menu possuem um submenu, as quais são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, ver o exemplo na figura abaixo:
 
-É possível ao usuário optar pela redução da apresentação da barra de Menu do Usuário para o modo de Somente Ícones, para ter uma maior área de apresentação. Para alternar entre o Menu do Usuário Modo Expandido e o Menu do Usuário Modo Ícones, existe um elemento gráfico verde com três barras   , de fácil identificação para o usuário. Este elemento estará presente em qualquer tela da Plataforma do uCloud.
+.. figure:: figuras/uCloud_menu_usuario_002.png
+
+É possível ao usuário optar pela redução da apresentação da barra de Menu do Usuário para o modo de Somente Ícones, para ter uma maior área de apresentação. Para alternar entre o Menu do Usuário Modo Expandido e o Menu do Usuário Modo Ícones, existe um elemento gráfico verde com três barras, de fácil identificação para o usuário. Este elemento estará presente em qualquer tela da Plataforma do uCloud.
 Quando o usuário clica sobre este elemento, a barra do Menu de Usuário será alternada para o Modo Ícones, conforme o exemplo na figura abaixo:
 
-**Menu de Usuário (Modo Ícones)**
+.. figure:: figuras/uCloud_menu_usuario_003.png
 
 Quando a barra de Menu do Usuário está em modo ícone, os submenus serão apresentados conforme a figura abaixo:
 
-**Abertura de Submenu em Modo Ícone**
+.. figure:: figuras/uCloud_menu_usuario_004.png
+
 
 As páginas seguintes detalham cada uma das opções do menu de usuário e suas respectivas funcionalidades.
 
@@ -187,6 +191,8 @@ Menu Administração
 ==================
 
 Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é importante esclarecer alguns pontos sobre a Plataforma do uCloud, nos conceitos existem três termos que serão amplamente utilizados no ambiente do uCloud:
+
+
 
 * **Contrato**: é a forma com o qual se define a relação ‘comercial’ entre o provedor e a empresa que o contratou. No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais.
 
