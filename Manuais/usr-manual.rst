@@ -201,7 +201,7 @@ Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é
 
 A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos e é primordial que o usuário utilize esta figura como referência para entender as relações::
   
-**imagem_arquitetura_contrato**
+.. figure:: /figuras/uCloud_menu_administracao_contrato_001.png
 
 É importante entender que um **Contrato** pode possuir vários grupos e cada *Grupo* pode conter vários *Usuários*. Entretanto, a Plataforma do uCloud permite somente que um Usuário faça parte de apenas um grupo e um único Grupo esteja vinculado a exclusivamente um contrato.
 
@@ -228,8 +228,8 @@ A Plataforma do uCloud possui bancos de dados próprios que armazenam as informa
 
 De acordo com o tipo de perfil do usuário que está acessando o sistema, a Plataforma do uCloud apresentará somente a relação de usuários que o perfil que está registrado e ativo pode gerenciar ou administrar.
 
-**lista_de_usuários_imagem**
-
+.. figure:: /figuras/uCloud_menu_administracao_usuario_001.png
+   
 Para proceder com o acesso à Plataforma do uCloud deve-se provisionar (cadastrar) um usuário com seu respectivo login e senha de acesso.
 
 Abaixo estão descritas as colunas apresentadas nesta lista de usuários:
@@ -242,8 +242,8 @@ Abaixo estão descritas as colunas apresentadas nesta lista de usuários:
 * **Busca Rápida**: O usuário poderá observar que logo abaixo do nome de cada coluna existe um campo em ‘branco’, este campo permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de eventos de login. Basta preencher o campo em ‘branco’ com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualizará a tela de forma a representar este padrão de busca.
 * **Coluna Perfil**: O campo de busca rápida, na coluna Perfil, possui um controle avançado em forma de um "*dropdownlist*" que permite aplicar um **filtro** de ‘tipo perfil’ para que a lista apresentada fique restrita somente à opção que foi selecionada. Para isto, basta clicar com o cursor do mouse neste campo, a Plataforma do uCloud apresenta as opções de filtragem.
 
-**coluna_perfil_imagem**  
-
+.. figure:: /figuras/uCloud_menu_administracao_usuario_002.png
+   
 Um usuário, provisionado, deve estar vinculado a apenas um dos seis **Tipos de Perfil** disponíveis, e esta definição decorre de qual função este usuário pode estar associado. Destes seis tipos, apenas *dois (02)* perfis (perfil *Usuário* e *Auditor*) são utilizados no dia a dia das operações na Plataforma do uCloud.
 
 O perfil **Auditor** tem uma função muito restrita, mas muito importante no controle e gerenciamento de custos do ambiente de recursos computacionais em nuvem (público e/ou privado).
@@ -252,20 +252,16 @@ O perfil **Usuário** é o mais fundamental e mais flexível, pois este pode ass
 
 Abaixo descrevemos os quatro tipos básicos de perfil de usuários na Plataforma do uCloud:
 
-* *Usuário*: é o perfil universal e todo outro perfil tem como premissa ser provisionado como um usuário da Plataforma do uCloud e que deve estar vinculado a um grupo e está limitado as permissões (acesso a menus) e cotas (limites financeiros ou de recursos) que podem ser individuais ou compartilhadas do grupo. Importante ressaltar que qualquer outro perfil descrito abaixo, são variações deste perfil inicial.
+* **Usuário**: é o perfil universal e todo outro perfil tem como premissa ser provisionado como um usuário da Plataforma do uCloud e que deve estar vinculado a um grupo e está limitado as permissões (acesso a menus) e cotas (limites financeiros ou de recursos) que podem ser individuais ou compartilhadas do grupo. Importante ressaltar que qualquer outro perfil descrito abaixo, são variações deste perfil inicial.
    * Este usuário não possui permissão de alterar nenhuma das suas permissões, as quais foram estabelecidas durante o seu provisionamento. Apenas um usuário com perfil de Administrador de Grupo e/ou de Contrato, poderá redefinir os limites (cotas) e permissões deste perfil de usuário.
    * Este usuário está identificado na listagem com a marca (flag) gráfica: ``user``
-
-* *Usuário Administrador de Contrato*: é um usuário, anteriormente provisionado, que está cadastrado no campo Administrador na tela de Contratos. Este perfil de usuário tem permissão de provisionar novos usuários bem como alterar alguns campos da tela de Contrato.
+* **Usuário Administrador de Contrato**: é um usuário, anteriormente provisionado, que está cadastrado no campo Administrador na tela de Contratos. Este perfil de usuário tem permissão de provisionar novos usuários bem como alterar alguns campos da tela de Contrato.
    * Este usuário possui permissão de alterar algumas das suas permissões estabelecidas durante o seu provisionamento, bem como alterar algumas das suas próprias permissões bem como as permissões de outros usuários. Apenas um usuário com perfil de Administrador de Grupo e/ou de Contrato, poderá redefinir os limites (cotas) e permissões deste perfil de usuário.
    * Este usuário está identificado na listagem com a marca (flag) gráfica: ``user`` - o termo User + uma estrela parcialmente preenchida - indica que este usuário é um Administrador de Contrato.
-
 * **Usuário Administrador de Grupo**: é um usuário, anteriormente provisionado, que está cadastrado no campo Administrador do Grupo na tela de Grupos. Este usuário possui permissão de alterar algumas de suas permissões estabelecidas durante o seu provisionamento, bem como alterar algumas das suas próprias permissões bem como as permissões de outros usuários. Apenas um usuário com perfil de Administrador de Grupo e/ou de Contrato, poderá redefinir os limites (cotas) e permissões deste perfil de usuário.
   * Este usuário está identificado na listagem com a marca (flag) gráfica: ``user`` - o termo User + uma estrela não preenchida - indica que este usuário é um Administrador de Grupo.
-
-* *Usuário Administrador de Contrato e Administrador de Grupo*: A Plataforma do uCloud permite que um usuário possa estar associado como Administrador de um Grupo e, simultaneamente, Administrador de um Contrato este usuário está identificado na listagem com a marca (flag) gráfica: ``user``, e uma estrela estará completamente preenchida indicando que este usuário é um Administrador de Grupo e de Contrato.
+* **Usuário Administrador de Contrato e Administrador de Grupo**: A Plataforma do uCloud permite que um usuário possa estar associado como Administrador de um Grupo e, simultaneamente, Administrador de um Contrato este usuário está identificado na listagem com a marca (flag) gráfica: ``user``, e uma estrela estará completamente preenchida indicando que este usuário é um Administrador de Grupo e de Contrato.
      * Esta dupla associação de perfil, permite a este usuário um alto nível de controle e administração do ambiente da empresa 
-
 * **Auditor**: é um usuário que tem acesso ao menu da Gestão Financeira e realiza o acompanhamento do faturamento do portal, bem como define as regras de precificação do contrato.
    * Este usuário, por premissa básica, não está associado a nenhuma permissão para operação e alteração de qualquer que sejam os recursos computacionais em qualquer provedor de serviço de nuvem (público e/ou privado). Este perfil tem acesso unicamente a análise financeira e de custos do contrato ao qual este usuário está vinculado, por intermédio de um grupo.
    * Este usuário está identificado na listagem com a marca (flag) gráfica: ``Auditor``, o termo indica que este usuário é um Auditor do Contrato.
@@ -277,12 +273,12 @@ Visualizando um Usuário
 -----------------------
 Na listagem de usuários é possível visualizar as informações de um usuário,  basta clicar com o mouse sobre a linha na qual o usuário se apresenta, a Plataforma do uCloud exibirá a tela com todas as informações do usuário provisionado na plataforma. Nesta tela é possível adicionar novas configurações ao perfil de um usuário. A tela de visualização de detalhes de um usuário está dividida em seções e será descrita abaixo:
 
-**usuário_listagem-imagem**
+.. figure:: /figuras/uCloud_menu_administracao_usuario_003.png
 
 * **Seção Geral**: A primeira seção desta tela apresenta os dados gerais do perfil do usuário provisionado na Plataforma do uCloud. Por meio desta tela será possível alterar alguns campos referentes ao usuário.
    * **Botão de Excluir Usuário**: Este botão pode ser usado para remover o usuário provisionado na Plataforma do uCloud de forma definitiva e irreversível. Basta o usuário clicar com o cursor do mouse sobre o botão, e será apresentada a tela solicitando a confirmação da ação, conforme a tela abaixo:
   
-   **imagem_confirma_exclusão**
+   .. figure:: /figuras/uCloud_menu_administracao_usuario_004.png
 
    Após a confirmação da Exclusão do usuário, este usuário e suas credenciais de acesso ficam indisponíveis imediatamente de forma irreversível, não sendo possível recuperar as informações deste usuário. Se a exclusão for acidental, este usuário deverá ser provisionado novamente.
 
@@ -312,7 +308,7 @@ Na listagem de usuários é possível visualizar as informações de um usuário
        * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o mouse no botão Aplicar para confirmar as alterações - de forma definitiva e imediata - para o usuário que está visualizando/alterando. Terminada esta ação a Plataforma do uCloud fechará esta tela e retorna à tela anterior, com seu conteúdo atualizado, apresentando a nova relação de permissões do usuário.
 
 * **Seção Políticas de Permissionamento do Usuário (eventual)**: Esta seção somente será apresentada para usuários que foram provisionados na Plataforma uCloud com o "checkbox" Criar Usuário na Nuvem habilitado. Esta seção apresenta todas as políticas de permissionamento únicas e específicas do ambiente do provedor de serviço de nuvem pública. Estas políticas são ‘importadas’ durante o processo de sincronização do container, e permitem um alto nível de controle granular das capacidades (permissões) que o usuário pode efetuar dentro do ambiente do provedor de serviço de nuvem. Quando o usuário é recém provisionado, este pode estar associado a nenhuma política de permissionamento, será necessário configurar manualmente as permissões.  
-   * **Botão Editar “  "**: Este botão permite ao usuário Administrador (ou usuário com autorização) acrescentar ou revogar políticas de permissionamento do ambiente do provedor de serviço de nuvem. Para isto, ele deve clicar no botão ‘Editar’ a partir daí será permitido ao usuário administrador adicionar ou excluir permissões específicas para o usuário desejado. Veja exemplo abaixo:
+   * **Botão Editar**: Este botão permite ao usuário Administrador (ou usuário com autorização) acrescentar ou revogar políticas de permissionamento do ambiente do provedor de serviço de nuvem. Para isto, ele deve clicar no botão ‘Editar’ a partir daí será permitido ao usuário administrador adicionar ou excluir permissões específicas para o usuário desejado. Veja exemplo abaixo:
    * Esta tela possui duas colunas distintas:
       * À esquerda são as políticas de permissionamento previamente adicionadas ao usuário. Ao lado de cada permissão existe um campo do tipo “check box” que, quando selecionado, exclui (revoga) a respectiva permissão deste usuário.
       * À direita estão as políticas de permissionamento disponíveis do ambiente do provedor de serviço de nuvem pública que podem ser adicionadas ao perfil individual deste usuário. Ao lado de cada permissão existe um campo do tipo “check box” que, quando selecionado, adiciona a respectiva permissão deste usuário.
@@ -350,9 +346,14 @@ Criando Novo Usuário
 Antes de tratar da criação de um usuário é importante estabelecer que para a Plataforma do uCloud um Usuário está vinculado a um Grupo e um Grupo está vinculado a um Contrato [Usuário<Grupo<Contrato].
 Desta forma, antes de iniciar a criação de um novo usuário, é importante verificar a existência do grupo ao qual este usuário será associado. Para criar um usuário é necessário selecionar a opção **Criar Usuário** conforme indicado abaixo. 
 
+.. figure:: /figuras/uCloud_menu_usuario_022.png
+   
 A seguir a descrição do correto preenchimento dos campos desta tela, para provisionar um usuário na Plataforma do uCloud, são eles:
 
 * **Grupo**: Este campo é obrigatório e o usuário deve informar um grupo previamente provisionado na Plataforma do uCloud, pois não será possível continuar o cadastramento de um usuário sem vincular este novo usuário a um grupo existente.
+
+.. figure:: /figuras/uCloud_menu_usuario_017.png
+
    * Pode-se informar parte do nome de um grupo e clicar com o cursor do mouse (ou a tecla Enter) para que a Plataforma do uCloud possa apresentar uma lista com todos os grupos que possuem a mesma sequência de caracteres informados, veja exemplo abaixo:
    * Quando encontrado o Grupo ao qual este novo usuário deverá estar vinculado, basta selecioná-lo e o campo se preencherá com o grupo específico.
    * *Importante ressaltar que será possível associar este usuário a mais de um grupo, caso seja necessário. Mas estes grupos devem estar vinculados a somente um único Contrato.*
@@ -365,6 +366,9 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
    * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
 
 * **Confirmar Senha**: Este campo é obrigatório e deve ser preenchido com a mesma sequência de caracteres informados no campo anterior. Caso a sequência informada neste campo seja diferente da anterior, será apresentado um pop-up com uma mensagem de erro na tela.
+
+.. figure:: /figuras/uCloud_menu_usuario_018.png
+
 * **Email**: Este campo é obrigatório, nele deve ser informado um endereço de correio eletrônico (e-mail) válido. Este endereço de correio eletrônico será fundamental durante o processo de redefinição de senha pelo usuário, pois a Plataforma do uCloud utiliza este e-mail para o envio de uma mensagem que permite ao usuário criar uma senha, para ele, de forma automática.
 
 .. attention::
@@ -377,9 +381,15 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 * **Cargo**: Este campo é obrigatório, mas é meramente informativo para identificar o cargo do usuário que se deseja provisionar.
 * **Empresa**: Este campo é obrigatório, mas é meramente informativo para identificar a organização a qual este usuário está associado.
-* *Tipo de Cota*: Este campo é obrigatório, trata-se de um campo do tipo “drop down list”, quando o usuário clicar sobre este será apresentada a lista das opções de tipos de cota disponíveis para provisionar um usuário, veja as opções abaixo:
+* **Tipo de Cota**: Este campo é obrigatório, trata-se de um campo do tipo “drop down list”, quando o usuário clicar sobre este será apresentada a lista das opções de tipos de cota disponíveis para provisionar um usuário, veja as opções abaixo:
+
+.. figure:: /figuras/uCloud_menu_usuario_019.png
+
    * **Cota de Grupo**: Quando selecionada esta opção o usuário compartilha dos limites (cotas) financeiros ou de recursos computacionais que estão definidos nas configurações do Grupo. Usuários com cota de grupo devem ficar atentos nas informações apresentadas na tela inicial (dashboard – veja item Dashboard) uma vez que a Plataforma do uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites disponíveis no grupo ao qual o usuário está vinculado.
-   * **Cota de Usuário**: Quando selecionada esta opção pelo usuário, a Plataforma do uCloud solicita que sejam informados os limites (cotas) financeiros ou de recursos computacionais específicos e individuais para este usuário, conforme a tela abaixo:
+   * **Cota de Usuário**: Quando selecionada esta opção pelo usuário, a Plataforma do uCloud solicita que sejam informados os limites (cotas) financeiros ou de recursos computacionais específicos e individuais para este usuário, conforme a tela abaixo;
+ 
+.. figure:: /figuras/uCloud_menu_usuario_020.png
+
       * **Cota de CPU**: Este campo é obrigatório e deve ser informado um número inteiro que representa o limite máximo de consumo do recurso computacional de CPUs para todas as máquinas virtuais criadas nos provedores de serviço de nuvem (público e/ou privado), por este usuário.
       * **Cota de Faturamento**: Este campo é opcional e deve ser informado um número inteiro que será estabelecido como limite máximo referente aos valores financeiros dos custos de consumo dos recursos computacionais para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado).
       * **Cota de Memória**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Memória para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado). Pode ser selecionado o limite em Gigabytes ou um limite em Terabytes.
@@ -400,6 +410,9 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
    - Na prática, qualquer novo recurso computacional (uma nova máquina virtual) que este usuário solicitar através da interface do uCloud: a solicitação não será enviada para o provedor de serviço de nuvem (público e/ou privado) de forma imediata, a solicitação ocorrerá em 2 tempos. No primeiro momento, ela aguarda a aprovação do Administrador do Grupo. No segundo tempo, após a aprovação do administrador do grupo (se aprovada) a solicitação segue no processo de criação/alteração solicitada por este usuário.
 * **Criar Usuário na Nuvem**: Este campo é um campo de seleção "checkbox" que indica as credenciais de login e senha deste usuário (informadas acima), elas serão enviadas ao provedor de serviço de nuvem pública para que seja provisionado um usuário com as mesmas credenciais de acesso no provedor de serviço de nuvem pública selecionado abaixo.
    * **Containers**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os containers configurados na Plataforma do uCloud. O usuário deve selecionar um provedor da lista.
+
+.. figure:: /figuras/uCloud_menu_usuario_021.png
+
 * **Permissões**: O usuário recebe/herda todas as permissões definidas no Grupo ao qual ele pertence, bem como as permissões estabelecidas no Contrato e por último as permissões específicas deste usuário. Esta tabela é opcional, ela permite adicionar ou revogar as permissões que este usuário recebe, o que permite efetuar ações ou acessar menus na Plataforma do uCloud. São cento e trinta e duas (132) permissões disponíveis que podem ser associadas ao usuário (todas ou apenas uma parte). Qualquer alteração efetuada nas permissões disponíveis (inclusão ou revogação) será aplicada de forma imediata no login deste usuário após a confirmação. Veja o item Configurações / Perfis de Permissionamento para uma forma alternativa de criar grupos de permissões customizados para sua empresa
    * **Botão Criar**: Após todos os campos obrigatórios e opcionais para provisionar o novo usuário estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar, assim a Plataforma do uCloud provisiona o novo usuário em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, significa que algum campo obrigatório permanece sem preenchimento (o usuário deve checar e corrigir) ou a sequência de caracteres da senha do login deve ser inferior a quatro (04) caracteres.
 
@@ -416,9 +429,11 @@ Se este recurso ultrapassar os limites estabelecidos para o grupo, da parte de q
 
 Estes limites podem ser ajustados a qualquer momento (aumento ou redução) da parte dos usuários com perfil de Administrador de Grupo ou Administrador de Contrato, apenas eles estão habilitados para alterar os valores limites (cotas) estabelecidos no grupo.
 
+.. figure:: /figuras/uCloud_menu_grupo_001.png
+
 A seguir a descrição das colunas apresentadas nesta lista de grupos:
 
-* **Botão Criar Grupo**: Quando selecionado este botão o processo está descrito no item.
+* **Botão Criar Grupo** .. figure:: /figuras/uCloud_botao_criar_grupo.png Quando selecionado este botão o processo está descrito no item.
 
 * **Nome**: Esta coluna apresenta o nome do Grupo. Como forma de simplificar a visualização, é possível clicar com o botão do mouse no título desta coluna, o resultado apresentado na Plataforma do uCloud apresenta a classificação da lista de grupos de forma alfabética crescente (a – z) ou decrescente (z – a).
 
@@ -437,42 +452,67 @@ Visualizando Grupo
 
 Estando na listagem de grupos é possível visualizar algumas informações de um grupo, para isto, basta clicar com o mouse sobre a linha à qual um grupo faz parte e a Plataforma do uCloud apresentará a tela com todas as informações de um grupo provisionado na plataforma. Através desta tela é possível adicionar novas configurações ao perfil de um usuário.
 
-A tela de visualização de detalhes de um usuário está dividida em seções, descrita abaixo:
+A tela de visualização de detalhes de um usuário está dividida em seções, descrita abaixo;
 
-* *Botão de Excluir Grupo*: Este botão pode ser usado para remover o grupo provisionado na Plataforma do uCloud de forma definitiva e irreversível. Basta o usuário clicar com o cursor do mouse sobre o botão, e será apresentada uma tela solicitando a confirmação da ação, conforme a tela abaixo:
+.. figure:: /figuras/uCloud_menu_grupo_002.png
+
+* **Botão de Excluir Grupo** .. figure:: /figuras/uCloud_botao_excluir_grupo.png Este botão pode ser usado para remover o grupo provisionado na Plataforma do uCloud de forma definitiva e irreversível. Basta o usuário clicar com o cursor do mouse sobre o botão, e será apresentada uma tela solicitando a confirmação da ação, conforme a tela abaixo;
+
+.. figure:: /figuras/uCloud_menu_grupo_003.png
+
      * Após a confirmação da Exclusão do grupo, este grupo e as configurações associadas a este estarão indisponíveis imediatamente de forma irreversível, não sendo possível recuperar as informações deste grupo. Se a exclusão for acidental, este usuário deverá ser provisionado novamente, ver o item  na página.
 
 .. warning:: A Plataforma do uCloud não permite remover um grupo quando existem ainda usuários vinculados ao grupo. Antes de excluir um grupo da plataforma certifique que todos seus usuários foram desvinculados do referido grupo para que seja possível a remoção do grupo seja definitiva.
 	
-* *Seção Geral*: Esta seção da tela apresenta as informações sobre o grupo que está provisionado e os campos apresentados nesta seção podem ter seu conteúdo alterado através desta tela. O que define a condição de alteração está relacionado com o ícone de edição a seguir:
+* **Seção Geral**: Esta seção da tela apresenta as informações sobre o grupo que está provisionado e os campos apresentados nesta seção podem ter seu conteúdo alterado através desta tela. O que define a condição de alteração está relacionado com o ícone de edição a seguir;
    * **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
    * **Ícone de Edição Inativo**: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
-   * **Ícone de Confirmação**: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-   * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
+   * **Ícone de Confirmação** ..imagen:: /figuras/uCloud_icone_confirma_verde.png: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+   * **Ícone de Cancelamento** ..imagen:: /figuras/uCloud_icone_cancela_vermelho.png: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
 
-* *Seção Permissões*: O Grupo recebe (herda) todas as permissões definidas no Contrato ao qual este grupo está vinculado. Esta tabela é opcional, mas permite adicionar ou revogar as permissões que este grupo possui para efetuar ações ou acessar menus na Plataforma do uCloud.
-   * **Botão Editar**: Para acrescentar ou revogar permissões para o usuário Administrador do Grupo (ou usuário autorizado com perfil semelhante ao administrador), basta clicar neste botão para que a Plataforma do uCloud apresente a tela para adicionar ou excluir permissões específicas para este grupo.
+* **Seção Permissões**: O Grupo recebe (herda) todas as permissões definidas no Contrato ao qual este grupo está vinculado. Esta tabela é opcional, mas permite adicionar ou revogar as permissões que este grupo possui para efetuar ações ou acessar menus na Plataforma do uCloud.
+
+.. figure:: /figuras/uCloud_menu_grupo_004.png
+
+   * **Botão Editar** .. figure:: /figuras/uCloud_botao_editar.png; Para acrescentar ou revogar permissões para o usuário Administrador do Grupo (ou usuário autorizado com perfil semelhante ao administrador), basta clicar neste botão para que a Plataforma do uCloud apresente a tela para adicionar ou excluir permissões específicas para este grupo.
+
+.. figure:: /figuras/uCloud_menu_grupo_005.png
+
    * Esta tela possui duas colunas distintas, à esquerda são as permissões definidas no Contrato que são repassadas para o Grupo vinculado ao contrato. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, exclui (revoga) a respectiva permissão deste usuário.
    * À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao grupo. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
    * **Utilizar as permissões padrões**: Ao selecionar este campo “checkbox”, e confirmar a ação, o Grupo receberá todas as permissões disponíveis na Plataforma do uCloud.
    * **Botão Aplicar**: Após o usuário certificar-se de que todas as alterações necessárias foram configuradas (inclusões ou exclusões),ele deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
 
-* *Seção Políticas de Permissionamento*: Seção Virtual Data Center: Nesta seção são listados todos os Virtual Data Centers (VDC) associados a este grupo. Um Virtual Data Center é um agrupamento ‘lógico’ de determinados recursos computacionais de nuvem (templates, flavors, redes, regiões globais, storage e máquinas virtuais) que possibilita um controle de governança financeira para a empresa. O usuário vinculado a este grupo, que possui um (ou mais) Virtual Data Center, somente poderá consumir os recursos computacionais disponíveis neste Virtual Data Center. Para mais informações veja no item Menu Virtual Data Center.
-   * **Botão Editar**: Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
+* **Seção Virtual Data Center**: Nesta seção são listados todos os Virtual Data Centers (VDC) associados a este grupo. Um Virtual Data Center é um agrupamento ‘lógico’ de determinados recursos computacionais de nuvem (templates, flavors, redes, regiões globais, storage e máquinas virtuais) que possibilita um controle de governança financeira para a empresa. O usuário vinculado a este grupo, que possui um (ou mais) Virtual Data Center, somente poderá consumir os recursos computacionais disponíveis neste Virtual Data Center. Para mais informações veja no item Menu Virtual Data Center.
+
+.. figure:: /figuras/uCloud_menu_grupo_006.png
+
+   * **Botão Editar** .. figure:: /figuras/uCloud_botao_editar.png; Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
+
+.. figure:: /figuras/uCloud_menu_grupo_007.png
+
    * Esta tela possui duas colunas distintas, à esquerda estão apresentados os Virtual Data Centers (VDCs) que foram vinculados a este Grupo (no momento do seu provisionamento). Ao lado de cada VDC existe um campo do tipo “checkbox” , ao selecioná-lo a Plataforma do uCloud exclui (desvincula) o VDC deste grupo.
    * À direita estão apresentados os Virtual Data Centers (VDCs) que estão vinculados ao contrato deste, ao qual este grupo pertence e que permite ser vinculado a este Grupo. Ao lado de cada VDC existe um campo do tipo “checkbox” , quando selecionado, vincula o VDC ao Grupo.
    * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
-   * **Coluna Ações / Botão Kick-Off**: Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
+   * **Coluna Ações / Botão Kick-Off** .. figure:: /figuras/uCloud_icone_cancela_vermelho.png ; Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
 
-* *Seção Usuários*: Esta seção da tela apresenta a lista de todos os usuários que estão vinculados ao grupo e o respectivo consumo individual de recursos computacionais. Através desta tela o usuário com perfil de Administrador do Grupo, pode acompanhar qual(is) usuário(s) consome(m) mais recursos computacionais nos provedores de nuvem (público e/ou privado)
-   * **Botão Criar Usuário**: Este botão permite provisionar um novo usuário na Plataforma do uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a Plataforma do uCloud apresenta a tela de Criando Novo Usuário.
-   * **Botão Adicionar Usuário Existente**: Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela.
+* **Seção Usuários**: Esta seção da tela apresenta a lista de todos os usuários que estão vinculados ao grupo e o respectivo consumo individual de recursos computacionais. Através desta tela o usuário com perfil de Administrador do Grupo, pode acompanhar qual(is) usuário(s) consome(m) mais recursos computacionais nos provedores de nuvem (público e/ou privado);
+
+.. figure:: /figuras/uCloud_menu_grupo_008.png
+
+   * **Botão Criar Usuário** .. figure:: /figuras/uCloud_botao_criar_usuario.png; Este botão permite provisionar um novo usuário na Plataforma do uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a Plataforma do uCloud apresenta a tela de Criando Novo Usuário.
+   * **Botão Adicionar Usuário Existente** .. image:: /figuras/uCloud_botao_adicionar_usuario_exist.png; Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela;
+
+.. figure:: /figuras/uCloud_menu_grupo_009.png
+
    * É necessário preencher o campo desta tela com alguns caracteres do login do usuário que se deseja associar e a Plataforma do uCloud apresenta uma lista com os logins de usuário que possuam os caracteres informados em sua identificação de login. Selecionar o usuário desejado com o botão do mouse e depois confirmar a ação através do botão verde OK. Esta tela será encerrada e a lista de usuários do grupo será atualizada - como resultado apresenta este usuário, neste grupo.
 
-Esta seção da tela possui uma lista com colunas, descritas a seguir:
-* **Login**: Esta coluna apresenta as credenciais de login do usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de login de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
+Esta seção da tela possui uma lista com colunas, descritas a seguir;
 
-* *Cota de CPU*: Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de CPU que foi definida para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de CPU de forma crescente ou decrescente.
+* **Login** : Esta coluna apresenta as credenciais de login do usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de login de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
+
+* **Cota de CPU** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de CPU que foi definida para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de CPU de forma crescente ou decrescente.
+
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
@@ -494,11 +534,11 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir:
 * **Uso do Disco**: Esta coluna apresenta a quantidade consumida do recurso computacional Disco de Armazenamento por este usuário específico. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista dos usuários com base no valor total de consumo do recurso Disco de Armazenamento, de forma crescente ou decrescente.
 * **Uso de IP**: Esta coluna apresenta a quantidade consumida do recurso computacional Endereços TCP-IP Público por este usuário específico. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor total de consumo do recurso Endereço IP, de forma crescente ou decrescente.
 * **Ações**: Esta coluna apresenta ícones que demonstram se o usuário está provisionado consumindo as cotas do Grupo ou possui cota individual. Para usuários com cotas individuais, existe um botão para editar os limites (cotas) dos recursos computacionais ou financeiros de um usuário com cotas individuais.
-   * **Ícone de Cota de Grupo**: Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
-   * **Ícone de Cota de Usuário**: Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
-   * **Botão Editar Cotas**: Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
+   * **Ícone de Cota de Grupo** .. imagem:: /figuras/uCloud_icone_cota_grupo.png ; Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
+   * **Ícone de Cota de Usuário** .. imagem:: /figuras/uCloud_icone_cota_individual.png ; Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
+   * **Botão Editar Cotas** .. imagem:: /figuras/uCloud_icone_editar_on.png; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
 
-**>>screenshot<<**
+.. figure:: /figuras/uCloud_menu_grupo_010.png
 
    * **Cota de CPU**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional das CPUs.
    * **Cota de Memória**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional de Memória.
@@ -520,12 +560,19 @@ Para a Plataforma do uCloud um “Grupo” tem duas atribuições básicas que s
 
 Para criar um grupo é preciso provisionar, previamente, um Contrato na Plataforma do uCloud, e vincular o grupo a um contrato existente.
 Importante ressaltar que somente os usuários com perfil de Administrador de Contrato, ou Administrador de Grupo estão habilitados para provisionar um grupo na Plataforma do uCloud.
-Abaixo se apresenta a tela para provisionar um grupo na Plataforma do uCloud
+Abaixo se apresenta a tela para provisionar um grupo na Plataforma do uCloud;
 
-* **Nome**: Este campo é obrigatório e deve ser preenchido com o nome do grupo.
-* **Contrato**: Este campo é obrigatório e deve ser informado o nome do contrato, ao qual o grupo está vinculado. Pode-se informar parte do nome de um contrato e clicar com o cursor do mouse (ou a tecla Enter) para que a Plataforma do uCloud possa apresentar uma lista com todos os grupos que possuem a mesma sequência de caracteres informados, veja exemplo abaixo:
+.. figure:: /figuras/uCloud_menu_grupo_011.png
+
+* **Nome**: *Este campo é obrigatório* e deve ser preenchido com o nome do grupo.
+* **Contrato**: *Este campo é obrigatório* e deve ser informado o nome do contrato, ao qual o grupo está vinculado. Pode-se informar parte do nome de um contrato e clicar com o cursor do mouse (ou a tecla Enter) para que a Plataforma do uCloud possa apresentar uma lista com todos os grupos que possuem a mesma sequência de caracteres informados, veja exemplo abaixo;
+
+.. figure:: /figuras/uCloud_menu_grupo_012.png
+
    * Serão listados apenas os contratos aos quais o perfil do usuário tem a permissão de visualizar. Assim que selecionado o grupo ficará vinculado ao contrato.
    * Assim que um contrato é selecionado, a Plataforma do uCloud apresenta, na coluna à direita desta tela, o grupo de Permissões que foram definidas no Contrato.
+
+.. figure:: /figuras/uCloud_menu_grupo_013.png
 
 * Todos os usuários que pertencem ao grupo recebem as mesmas permissões. Existem duas formas diferentes que podem ser utilizadas neste momento para repassar as permissões do contrato para o grupo.
    * **Utilizar as permissões padrões**: Esta opção engloba um conjunto padrão de permissões para o grupo, assim todos os usuários herdam este grupo de permissões padrão.
@@ -569,6 +616,7 @@ Este documento não cobre o procedimento do processo de provisionar um novo cont
 
 Somente usuários com perfil de Administrador de Contrato têm a permissão de visualizar esta lista de contratos da empresa. Este usuário terá acesso apenas aos contratos os quais o seu login de usuário está vinculado no campo de Administrador de Contrato.
   
+.. figure:: /figuras/uCloud_menu_contrato_001.png
 
 Abaixo seguem descritas as colunas apresentadas nesta tabela:
 * **Nome**: Esta coluna apresenta o nome do contrato da forma como está provisionado na Plataforma do uCloud.
@@ -622,18 +670,23 @@ Visualizando Contrato
 
 A Tela de visualização de contrato é a uma das mais extensas telas da Plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
 
+.. figure:: /figuras/uCloud_menu_contrato_002.png
+
 Seção Geral
 -----------
 
 Quando um contrato é provisionado no sistema, o usuário com perfil de Administrador informa os dados cadastrais básicos da organização, informações gerais para um contrato, tais como Identificação do contrato, nome da empresa, o código CNPJ para empresas (ou CPF no caso de pessoa física), a forma padrão de faturamento das máquinas deste contrato (este padrão de faturamento fica válido somente no caso de não existir regras de bilhetagem no restante do contrato).
+
+.. figure:: /figuras/uCloud_menu_contrato_003.png
 
 Deve ser informadas as credenciais de login de um usuário no campo Administrador, neste momento este usuário (simples) fica associado ao perfil de Administrador do Contrato. Veja a seção (card) abaixo:
 
 Abaixo detalhamento dos campos não mencionados:
 * **Public Gateway**: Este botão é válido apenas para ambientes em que o contrato está associado a um ambiente de um Data Center privado, no qual o ambiente de virtualização (hypervisor) é de controle da organização (on-premises). Para que este botão seja válido é necessário ao usuário, com perfil de Administrador da Plataforma uCloud, ter provisionado um Gateway SDN (Software Defined Network). Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração de um Gateway SDN.
 * **Experimental**: Durante o aprovisionamento do contrato o Administrador do Contrato informa os limites (cotas) financeiros e/ou dos recursos computacionais. Em seguida, pode-se acessar a configuração de contrato Experimental. 
-Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo:
-  
+Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo;
+
+.. figure:: /figuras/uCloud_menu_contrato_004.png
 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração do campo Experimental.
 
@@ -642,6 +695,9 @@ Seção Regras de Faturamento
 
 Nesta seção o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a Plataforma do uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair a taxa PTAX do último dia útil do mês. 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração do campo Experimental.
+
+.. figure:: /figuras/uCloud_menu_contrato_005.png
+
 * Quantidade de Casas Decimais: Este campo define a quantidade de casas decimais e é muito útil quando o Contrato possui valor em moeda estrangeira.
 * Perfil de Tagueamento: Ver opção de Menu Configurações / Tagueamento de Recursos USN.
 
@@ -650,6 +706,8 @@ Seção Categorias de Preço
 
 Nesta seção é possível provisionar as categorias de preço utilizadas para agrupar os preços do contrato, quando este contrato está associado a uma empresa do Governo municipal, estadual ou federal em que os valores a serem apresentados referente ao consumo dos recursos computacionais de nuvem deverão ser convertidos para a métrica de Unidade de Serviço de Nuvem (USN).
 A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços, divididos em categorias: os serviços de IaaS, PaaS e serviços técnicos. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade objetivamente definida a ser cobrada pelos serviços de computação em nuvem. A métrica de USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
+
+.. figure:: /figuras/uCloud_menu_contrato_021.png
 
 Conforme mencionado, o Administrador do Contrato, deverá efetuar o provisionamento de Categorias de Preço somente no caso deste contrato controlar algum órgão do Governo Brasileiro no âmbito municipal, estadual ou federal, única e somente este deve ser regido pela métrica de USN.
 Importante ressaltar que se deve ignorar provisionar qualquer Categorias de Preço quando o seu contrato for controlar os recursos computacionais de nuvem de uma organização privada.
@@ -660,8 +718,7 @@ Seção Políticas de Alertas
 
 A Plataforma do uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a Plataforma do uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo:
   
-**>>imagem_exemplo<<**
-
+.. figure:: /figuras/uCloud_menu_contrato_006.png
 
 Abaixo descrevemos as colunas desta seção da tela de contratos:
 * **Nome**: Esta coluna apresenta o nome de identificação da política de alerta definido durante seu provisionamento.
@@ -669,8 +726,8 @@ Abaixo descrevemos as colunas desta seção da tela de contratos:
 * **Política**: Essa coluna apresenta a forma definida que estabelece o limite do alerta.
 * **Valor**: Essa coluna apresenta o valor de limite superior definido para que a Plataforma do uCloud possa comparar e enviar o alerta para o usuário Administrador do Contrato.
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
-* **Botão Lata de Lixo “  ”**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Política de Alarme de forma imediata e definitiva.
-* **Botão Habilitar/Desabilitar “  ”**: Este botão é um tipo “checkbox” que o usuário pode atuar para alternar o seu modo atual. A cor verde indica que a política está HABILITADA. A cor vermelha indica que a política está DESABILITADA.
+* **Botão Lata de Lixo** .. imagem:: /figuras/uCloud_icone_lixo.png ; Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Política de Alarme de forma imediata e definitiva.
+* **Botão Habilitar/Desabilitar** .. imagem:: /figuras/uCloud_icone_habilita_verde.png / .. imagem:: /figuras/uCloud_icone_desabilita_vermelho.png; Este botão é um tipo “checkbox” que o usuário pode atuar para alternar o seu modo atual. A cor verde indica que a política está HABILITADA. A cor vermelha indica que a política está DESABILITADA.
 
 Para alternar entre os estados basta clicar com o cursor do mouse e o campo será ativado, apresentando a cor verde. Se estiver na cor verde, basta clicar com o mouse e o campo será desativado, apresentando a cor vermelha.
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração de uma Política de Alerta.
@@ -682,7 +739,7 @@ Esta seção permite que o Administrador do Contrato possa redefinir os valores 
 Apenas os valores dos recursos que foram informados serão recalculados pela Plataforma do uCloud, apresentados nos relatórios do menu Financeiro.
 Os recursos com valor igual a zero (0), terão o seu valor original cobrado pelo provedor de serviço de nuvem sem ser recalculado.
 
-**>>imagem_exemplo<<**
+.. figure:: /figuras/uCloud_menu_contrato_007.png
 
 Recomendamos fortemente que, qualquer alteração nos Valores dos Recursos altere os valores originalmente cobrados pelo provedor de serviços de nuvem.
 
@@ -694,7 +751,7 @@ Seção Cota do Contrato
 
 A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato apresenta os limites financeiros e os limites definidos para a quantidade dos recursos definidos para o contrato, pela organização.
 
-**>>imagem_exemplo<<**
+.. figure:: /figuras/uCloud_menu_contrato_007.png
 
 Abaixo segue o detalhamento dos valores da tela acima:
 * **Cota de Faturamento / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite financeiro (cota) do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de cem mil reais (R$100.000,00) e foi alocado para um (ou mais) grupo(s) um montante de três mil reais (R$3.000,00).
@@ -711,7 +768,7 @@ Seção Contato Primário
 
 Esta seção possibilita ao Administrador do Contrato informar os dados de contato de um responsável Financeiro, Fiscal ou Contábil referente a este contrato.
 
-**>>imagem_exemplo<<**
+.. figure:: /figuras/uCloud_menu_contrato_009.png
 
 Esta seção não é obrigatória, e o não preenchimento desta seção não impede, ou bloqueia, nenhuma funcionalidade do perfeito uso da Plataforma do uCloud. 
 Recomendamos o preenchimento destas informações para que a Plataforma do uCloud possa enviar informações automaticamente para o gestor do contrato.
@@ -722,10 +779,14 @@ Seção Administradores
 
 Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que possuem permissão de alterar qualquer um dos dados que compõem um contrato.
 
+.. figure:: /figuras/uCloud_menu_contrato_010.png
+
 Seção Dados da Empresa
 ----------------------
 
 Esta seção possibilita ao Administrador do Contrato informar os dados genéricos da empresa associada a este contrato.
+
+.. figure:: /figuras/uCloud_menu_contrato_009.png
 
 Esta seção não é obrigatória. No caso desta seção deixar de ser preenchida, isto não impede ou bloqueia as funcionalidades e o perfeito uso da Plataforma do uCloud.
 
@@ -735,6 +796,8 @@ Seção Virtual Datacenters Concedidos
 Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela Plataforma do uCloud – veja mais informações acima no item Administração de Contrato na página 58.
 Quando ocorre a vinculação de um VDC a um contrato, significa que o usuário administrador do contrato estabelece para a Plataforma do uCloud a concessão deste VDC ao contrato. Assim, para o usuário - com permissão de administrador do contrato - serão listados apenas os VDCs deste contrato. Em outras palavras, todas as telas da Plataforma do uCloud onde um VDC pode ser ofertado (solicitado) ao usuário selecionar, o usuário pode visualizar/solicitar apenas os VDCs listados nesta seção.
 
+.. figure:: /figuras/uCloud_menu_contrato_011.png
+
 Favor consultar *uCloud - Manual do Administrador*, para conhecer os procedimentos de como vincular um VDC a um contrato.
 
 Seção Usuários
@@ -743,13 +806,24 @@ Seção Usuários
 Nesta seção (card) estão listados todos os usuários que estão vinculados, indiretamente, ao contrato. A associação do usuário ao contrato é estabelecida, pela inclusão do usuário a um Grupo e a vinculação do Grupo ao Contrato. Desta forma, o usuário fica vinculado a um contrato, ele compartilha e consome os limites financeiros e os limites (cotas) dos recursos computacionais de nuvem.
 Nesta seção é possível verificar as cotas de cada usuário e o consumo dos recursos até o presente momento.
 
+.. figure:: /figuras/uCloud_menu_contrato_012.png
+
 Seção Grupos
 ------------
 
 Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do uCloud mostra ou lista as cotas que foram alocadas para cada Grupo vinculado ao Contrato. É possível verificar as cotas de cada grupo e o consumo dos recursos, dentro do grupo, até o momento da pesquisa.
-* **Botão “+Adicionar Grupo Existente”**: Através deste botão, o usuário com perfil de Administrador de Grupo, poderá vincular um grupo - previamente provisionado na Plataforma do uCloud - ao contrato que se está visualizando. Quando o usuário clicar com o cursor do mouse sobre este botão, será apresentada a seguinte tela:
-* **Grupo**: Neste campo o usuário precisa informar parte do nome de um grupo existente, como resultado a Plataforma do uCloud apresenta uma lista de todos os grupos que possuem parte dos caracteres informados. Basta o usuário selecionar o grupo desejado, o resultado é apresentado da seguinte forma:
-   * *Botão “Adicionar Grupo*: Neste momento, o usuário deve clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud efetive a vinculação do grupo selecionado ao contrato que se está visualizando.
+
+.. figure:: /figuras/uCloud_menu_contrato_013.png
+
+* **Botão “+Adicionar Grupo Existente”**: Através deste botão, o usuário com perfil de Administrador de Grupo, poderá vincular um grupo - previamente provisionado na Plataforma do uCloud - ao contrato que se está visualizando. Quando o usuário clicar com o cursor do mouse sobre este botão, será apresentada a seguinte tela;
+
+.. figure:: /figuras/uCloud_menu_contrato_014.png
+
+* **Grupo**: Neste campo o usuário precisa informar parte do nome de um grupo existente, como resultado a Plataforma do uCloud apresenta uma lista de todos os grupos que possuem parte dos caracteres informados. Basta o usuário selecionar o grupo desejado, o resultado é apresentado da seguinte forma;
+
+.. figure:: /figuras/uCloud_menu_contrato_015.png
+
+   * **Botão Adicionar Grupo**: Neste momento, o usuário deve clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud efetive a vinculação do grupo selecionado ao contrato que se está visualizando.
    * **Botão Ok**: Ao clicar com o cursor do mouse sobre este botão, a Plataforma do uCloud encerra esta tela e retorna à visualização do Contrato, e a relação de grupos vinculados ao contrato, atualizada com o novo grupo.
    * **Botão “+Criar Grupo”**: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na Plataforma do uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na Plataforma do uCloud no item Criando Novo Grupo na página 55 .
 
@@ -757,7 +831,9 @@ Seção Dados de Faturamento
 --------------------------
 
 Nesta seção são apresentadas as informações de Faturamento de um Contrato. Estas informações, geralmente, são necessárias para integrações automatizadas com sistemas de CRM, showback e chargeback.
-  
+
+.. figure:: /figuras/uCloud_menu_contrato_016.png
+
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos para informar os dados de Faturamento do Contrato.
 
 Seção Perfis de Permissionamento
@@ -766,11 +842,15 @@ Seção Perfis de Permissionamento
 Esta seção (card) se aplica ao usuário Administrador da Plataforma uCloud (perfil diferente do Administrador do Contrato), que tiver provisionado antecipadamente Perfis de Permissões através do menu Configurações / Perfis de Permissionamento. Somente um usuário com o perfil Administrador da Plataforma é responsável pela gerência de todos e dos demais grupos e permissões.
 Quando um Perfil de Permissionamento é vinculado ao Contrato, isto implica que todos seus Grupos e Usuários recebem as mesmas permissões para acessar os menus da plataforma definidas neste perfil, de forma a permitir aos usuários vinculados a este contrato acesso às funcionalidades da Plataforma do uCloud definidas neste perfil de permissionamento.
 
+.. figure:: /figuras/uCloud_menu_contrato_017.png
+
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de como provisionar um Perfil de Permissionamento e vincular um VDC a um contrato.
 
 Seção Produtos
 --------------
 Um produto pode ser visto como recurso, um software, o valor de uma licença específica, um serviço recorrente ou qualquer coisa que se seja necessário incluir em um Contrato. Importante ressaltar que o produto sempre será algo que não existe ou que não pode ser criado e gerenciado pela Plataforma do uCloud, diretamente no console dos provedores de nuvem pública e/ou privada. É indicado configurar um Produto quando a oferta é o Virtual Data Center como um todo, no caso de serviços, ofertas específicas para máquinas virtuais, é recomendado optar pelas assinaturas.
+
+.. figure:: /figuras/uCloud_menu_contrato_018.png
   
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de como adicionar um Produto a um contrato.
 
@@ -779,6 +859,8 @@ Seção Permissões Concedidas
 
 Esta seção (card) permite personalizar as permissões concedidas aos usuários com acesso às funcionalidades na Plataforma do uCloud, de forma global. Estas permissões básicas, definidas e vinculadas ao Contrato, implicam que todos seus Grupos e Usuários recebam as mesmas permissões de acesso às funcionalidades definidas nesta seção. Diferente do Perfil de Permissionamento, esta configuração permite que o usuário com perfil de Administrador de Contrato adicione ou remova, permissões não previstas no Perfil de Permissionamento. Permite também, remover/excluir permissões do Contrato.
 
+.. figure:: /figuras/uCloud_menu_contrato_019.png
+
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de como provisionar ou excluir Permissões vinculadas a um contrato.
 
 Seção Perfil de Faturamento de Container
@@ -786,6 +868,8 @@ Seção Perfil de Faturamento de Container
 
 Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A Plataforma do uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato. 
 Através desta configuração é possível que sejam definidos preços distintos por perfil de faturamento (preço fixo, recurso alocado ou recurso efetivamente utilizado) por tipo de container.
+
+.. figure:: /figuras/uCloud_menu_contrato_020.png
 
 Favor consultar uCloud - Manual do Administrador, para conhecer os procedimentos de como provisionar um contrato.
 
