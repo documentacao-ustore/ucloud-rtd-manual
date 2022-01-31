@@ -17,7 +17,7 @@ Neste repositório estão disponíveis somente os manuais de uso (Manual de Usu�
    :caption: Manuais:
 
    Manuais/usr-manual
-   Manuais/adm-manual
+   Manuais/usavings-usuario
 
 .. toctree::
    :maxdepth: 2
