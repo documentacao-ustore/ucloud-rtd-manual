@@ -1058,8 +1058,8 @@ Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nu
 * **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do respectivo Flavor Billing Profile. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 .. image:: https://cdn-icons-png.flaticon.com/512/1827/1827933.png
-   :alt: Icone de Edição
    :scale: 10 %
+   :alt: Ícone de Edição Ativa/Permitida
    :align: center
 
 Criando um Flavor Billing Profile
