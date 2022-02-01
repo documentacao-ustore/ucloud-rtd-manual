@@ -4,6 +4,8 @@
    contain the root `toctree` directive.
 
 .. image:: figuras/Ustore_Logo_Large.png
+   :aling: center
+.
 .
 
 Bem vindo ao site de documentação da Ustore Brasil

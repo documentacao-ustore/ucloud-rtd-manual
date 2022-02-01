@@ -55,7 +55,7 @@ Foram implementadas as seguintes novas funcionalidades
 #. Autorização de Acesso ao Billing dummy
 #. Eric escrevendo qualquer coisa dummy
 
-.. note:: Este é uma nota para realçar um ponto
+.. note:: **Este é uma nota para realçar um ponto*
 
 .. important:: Optional information to help a user be more successful
 
