@@ -1,14 +1,8 @@
-Documentação Ustore Brasil
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<<<<<<< HEAD
 .. image:: /figuras/Ustore_Logo_Large.png
    :alt: Logo Ustore Brasil
    :align: center
 =======
-.. image:: Ustore_Logo_Large.png
-   :aling: center
->>>>>>> ca5c275d389621259f79d9e99892d4ddfe66e415
 
 .
 
