@@ -203,12 +203,14 @@ Menu Administração
 Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é importante esclarecer alguns pontos sobre a Plataforma do uCloud, nos conceitos existem três termos que serão amplamente utilizados no ambiente do uCloud;
 
 * **Contrato**: é a forma com o qual se define a relação ‘comercial’ entre o provedor e a empresa que o contratou. No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais.
+
 * **Grupo**: é uma forma lógica definida unicamente dentro da Plataforma do uCloud que pode definir um grupo de usuários (ex.: DevOps), um departamento (ex.: vendas), uma iniciativa (ex.: VDI), ao qual vários usuários estão associados sendo parte integrante deste grupo. Estes ‘grupos’ não existem nos provedores de nuvem (público e/ou privado) existem somente dentro da Plataforma do uCloud.
+
 * **Usuário**: Um usuário é a entidade que possui acesso identificado à Plataforma do uCloud para efetuar ações nos recursos computacionais dos provedores (público e/ou privado).
 
 A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos e é primordial que o usuário utilize esta figura como referência para entender as relações;
   
-.. figure:: /figuras/uCloud_menu_administracao_contrato_001.png
+.. figure:: /figuras/uCloud_menu_administracao_contrato_002.png
    :align: center
 
 
@@ -807,13 +809,18 @@ A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato 
    :align: center
 
 Abaixo segue o detalhamento dos valores da tela acima:
-* **Cota de Faturamento / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite financeiro (cota) do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de cem mil reais (R$100.000,00) e foi alocado para um (ou mais) grupo(s) um montante de três mil reais (R$3.000,00).
-Importante mencionar: Outros grupos que venham a ser criados não podem ter locado valor acima deste limite financeiro.
-O valor informado aqui é uma referência, não impede qualquer usuário na criação de novos recursos computacionais ultrapassar este valor. O número informado aqui, será utilizado como base de referência para a definição de “Alerta de Consumo” conforme descrito na seção acima.
+* **Cota de Faturamento / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite financeiro (cota) do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de cem mil reais (R$100.000,00) e foi alocado para um (ou mais) grupo(s) um montante de três mil reais (R$3.000,00). O valor informado aqui é uma referência, não impede qualquer usuário na criação de novos recursos computacionais ultrapassar este valor *quando esta criação seja efetuada diretamente via console do provedor de nuvem pública/privada*. O número informado aqui, será utilizado como base de referência para a definição de “Alerta de Consumo” conforme descrito na seção acima.
+
+.. important:: *Outros grupos que venham a ser criados não podem ter locado valor acima deste limite financeiro.*
+
 * **Cota de IPs Públicos / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de Endereços TCP-IP do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de duzentos (200) recursos e já foi alocado para um (ou mais) grupo(s) um total de dez (10) Endereços TCP-IP.
+
 * **Cota de CPU / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de CPUs do contrato. Neste exemplo: o contrato tem um limite de trezentos e sessenta (360) CPUs e já foram alocadas para um (ou mais) grupo(s) um total de duzentas (200) CPUs.
+
 * **Cota de Memória / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de Memória do contrato. Neste exemplo: o contrato tem um limite de seiscentos e dez Gigabytes (610GB) e já foram alocadas para um (ou mais) grupo(s) um total de quinhentos Gigabytes (500GB).
+
 * **Cota do Disco / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de espaço em disco para armazenamento do contrato. Neste exemplo: o contrato tem um limite de cinquenta (50) Terabytes e já foram alocadas para um (ou mais) grupo(s) um total de trinta e nove (39) Terabytes.
+
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração de Cotas do Contrato.
 
 Seção Contato Primário
@@ -963,14 +970,23 @@ Seção Geral:
 Na seção Geral, os usuários definem as opções de quotas padrão por usuário do sistema, ou seja, ao criar um usuário se ele não tiver sua quota informada o sistema usará as cotas constantes na tela de aplicação.
 
 Abaixo esclarecemos os campos desta seção. Importante ressaltar que somente usuários com perfil de Administrador de Plataforma podem alterar os valores armazenados nestes campos.
+
 * **Botão “Sincronizar Active Directory”**: Este botão permite configurar a integração de um servidor de Active Directory para o ambiente de forma que possa validar, duplamente, as credenciais de usuários provisionados no ambiente de forma global. Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos corretos para configurar a sincronização com um servidor de Active Directory.
+
 * **Botão Ativação Automática “On/Off”**: Este botão tem função de permitir que todos os novos usuários provisionados via o processo descrito no item Criando Novo Usuário na página 41 sejam ativados de forma automática para se registrarem na Plataforma do uCloud.
+
 * **Cota Padrão de CPU**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional CPU. Será válido para todos os usuários. Deve-se informar um número inteiro.
+
 * **Cota Padrão da Memória**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional Memória. Será válido para todos os usuários. Deve-se informar um número inteiro no campo ao lado o Administrador da Plataforma pode selecionar se o limite será em Gigabytes ou em Megabytes.
+
 * **Cota Padrão do Disco**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional no Espaço de Armazenamento de Disco. Será válido para todos os usuários. Deve-se informar um número inteiro no campo ao lado, o Administrador da Plataforma pode selecionar se o limite será em Gigabytes, Megabytes ou em Terabytes.
+
 * **E-mail Administrador**: Neste campo deve constar o endereço do correio eletrônico (e-mail) do Administrador da Plataforma, para que este possa receber mensagens de alerta da Plataforma do uCloud, nas opções em que possuem esta funcionalidade.
+
 * **Valor do Dólar**: Este campo não é obrigatório (pode estar ‘em branco’) e deve constar o valor padrão geral (global) para a conversão da moeda de Dólares Americanos para Reais. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado. Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos corretos e provisionar um contrato.
+
 * **Valor dos Impostos**: Este campo não é obrigatório (pode estar ‘em branco’) nele deve constar o valor padrão geral (global) referente a Taxa de Impostos a ser aplicada sobre os valores das Faturas no menu Financeiro. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado. Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos corretos para provisionar um contrato.
+
 * **Valor da meta mensal**: Este campo não é obrigatório (pode estar ‘em branco’) e deve constar o valor padrão geral (global) da meta mensal de consumo de recursos financeiros. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado.
 
 .. important:: Importante ressaltar que no caso deste valor ser informado, poderão ser enviadas mensagens de alerta para o Administrador da Plataforma, porque houve um consumo financeiro mensal global acima deste valor estabelecido. Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos corretos para provisionar um contrato.
@@ -1014,7 +1030,8 @@ Importante ressaltar que a configuração das telas abaixo somente será necess�
 Seção Configurações de Rede
 ---------------------------
 
-Nesta tela são provisionadas as configurações de rede (de forma geral) que serão enviadas para o controlador SDN do ambiente do data center privado (on-premises). 
+Nesta tela são provisionadas as configurações de rede (de forma geral) que serão enviadas para o controlador SDN do ambiente do data center privado (on-premises).
+
 * **Range de VLAN Global**: Neste campo deve ser configurada a faixa (range) de endereços TCP-IP da rede privada.
 * **CIDR Global**: Neste campo deve ser informado o CIDR, ou endereçamento IP sem classes. Esta configuração de CIDR Global otimiza a distribuição dos endereços IP de 32 bits, permitindo máscaras de rede de qualquer tamanho.
 * **Prefixo CIDR do Usuário**: Neste campo devem ser informados os prefixos de endereços TCP-IP específicos da rede corporativa privada da empresa. Podem ser informados CIDRs de todas as classes de endereçamento TCP-IP, por exemplo: 255.0.0.0 (classe A); ou 255.255.0.0 (classe B) ou 255.255.255.0 (classe C), de acordo com a configuração do ambiente de rede da empresa que está sendo configurada na Plataforma do uCloud.
@@ -1029,12 +1046,19 @@ Quando conectamos um data center privado (on-premises) é necessário instalar u
 Importante mencionar que para a instalação do controlador de SDN é necessário consultar a equipe da Ustore, para auxiliar a empresa na correta instalação e configuração do servidor que executará a aplicação uSDN (Controlador SDN).
   
 * **IP**: Este campo apresenta o endereço TCP-IP onde está instalado o Controlador SDN, este endereço será utilizado pela API do uCloud que se conecta a este servidor.
+
 * **Porta**: Este campo apresenta a porta TCP-IP na qual a API do uCloud se conecta a este servidor.
+
 * **Interface VLAN**: Este campo apresenta o endereço da interface VLAN, que foi configurado no controlador SDN.
+
 * **Container Virtualizado**: Este campo apresenta o nome do Container (hypervisor) primário, existente no data center privado, que foi configurado para estar vinculado ao Controlador SDN.
+
 * **Container Controlador**: Este campo apresenta o nome do Container (hypervisor) primário, existente no data center privado, que foi configurado para estar vinculado ao Controlador SDN.
+
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
+
 * **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova este Controlador SDN de forma imediata e definitiva.
+
 * **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do Servidor de SDN respectivo. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 Solicite acesso ao documento Manual do Administrador da Plataforma do uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma do uCloud.
@@ -1047,12 +1071,19 @@ Para que o controlador SDN possa gerenciar os endereços que poderão ser acessa
 Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP-IP que sejam públicos, para quando um recurso computacional da nuvem privada (máquina virtual) necessitar de um endereço público, a Plataforma do uCloud possa interagir com o Gerenciador SDN e vincular um endereço TCP-IP Público para este recurso computacional (máquina virtual). 
 
 * **Nome**: Este campo apresenta o nome da rede que foi escolhido no momento do provisionamento da configuração da rede.
+
 * **CIDR**: Este campo apresenta o CIDR, ou endereçamento IP sem classes, acrescentado com a respectiva definição de bloco de endereços (“/xx”). Esta configuração de CIDR e a quantidade de blocos de endereços, deve ser definida pela equipe de engenharia de redes de dados da empresa.
+
 * **Range start**: Este campo apresenta o endereço TCP-IP inicial da faixa que se deseja disponibilizar.
+
 * **Range end**: Este campo apresenta o endereço TCP-IP final da faixa que se deseja disponibilizar.
+
 * **Gateway**: Este campo apresenta o endereço TCP-IP do Gateway de rede que transfere o tráfego de pacotes da rede local para a outras redes, neste caso a rede externa/pública.
+
 * **Container**: Este campo apresenta o nome do container o qual este Controlador SDN está conectado, para controlar e gerenciar as atribuições de endereçamentos TCP-IP.
+
 * **Ignored Address**: Este campo apresenta a lista de endereços TCP-IP, definidos pela equipe de rede da empresa, a ser ignorado e evitado, para serem assinalados a recursos computacionais. Os endereços apresentados nesta lista estão separados por vírgula.
+
 * **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo. Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova a configuração de Sub-Rede Pública de forma imediata e definitiva. Importante ressaltar que a Plataforma do uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível. Se a ação não foi intencional, o usuário deverá iniciar o processo de configuração da Sub-Rede Pública novamente desde seu início.
 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de como provisionar corretamente o Controlador SDN dentro do ambiente de rede privada.
@@ -1064,6 +1095,7 @@ Menu Configuração / Assinaturas
 
 Assinaturas são serviços vinculados a uma máquina virtual. As assinaturas têm que conter apenas as ofertas de serviços que devem ser cobrados mensalmente ou mês específico. No caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor será cobrado integralmente pelo agente de bilhetagem.
 São exemplos de assinaturas: gerenciamento, licenças de sistema operacional e monitoramento, entre outros. A figura abaixo apresenta exemplos de modalidades de assinaturas que uma máquina virtual pode possuir:
+
 * **Nome**: Este campo apresenta o nome informado no momento da sua configuração.
 * **Preço**: Este campo apresenta o valor mensal referente ao custo da assinatura, informado no momento de criar a assinatura.
 * **Descrição**: Este campo apresenta a descrição estendida da assinatura, que foi informado no momento da sua criação.
@@ -1075,6 +1107,7 @@ Criando Assinatura
 O processo de criação de assinatura é muito simples, importante mencionar que as assinaturas devem conter apenas as ofertas de serviços, ou qualquer custo adicional, que serão cobrados mensalmente.
 
 Abaixo a descrição dos campos para o provisionamento de uma nova assinatura:
+
 * **Nome**: Neste campo deve ser informado o nome desejado para identificar a assinatura. Não existe limite máximo para o nome desejado. O limite mínimo de caracteres para informar neste campo é um (01) caractere. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
 * **Preço**: Neste campo deve ser informado o valor mensal (número) referente ao custo da assinatura. Se o usuário informar um número inteiro (sem zeros), a Plataforma do uCloud assume somente o valor inteiro, seguido de zeros após a vírgula. Para valores com casas decimais, o usuário deve usar a "vírgula" seguido do valor referente decimal do valor mensal (por ex.: “123,90”).
 * **Descrição**: Neste campo o usuário informa uma descrição estendida que pode esclarecer a que se refere esta assinatura, este campo pode contar até duzentos e cinquenta e cinco caracteres (255). O limite mínimo de caracteres a informar neste campo é um (01) caractere. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
@@ -1092,13 +1125,21 @@ A configuração de um Flavor Billing Profile é muito útil para os containers 
 Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nuvem pública, o novo valor pode substituir o valor do provedor por um valor provisionado na Plataforma do uCloud definido pelo usuário. Importante ressaltar que esta ação pode criar diversos desdobramentos financeiros na fatura mensal do provedor de serviço de nuvem.
 
 * **Botão “Criar Flavor Billing Profile”**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma do uCloud apresenta a tela para configuração de um novo Flavor Billing Profile. O processo de configuração está descrito abaixo no item: Criando um Flavor Billing Profile na página 89.
+
 * **Nome**: Esta coluna apresenta o nome do Flavor Billing Profile, anteriormente informado no processo de criação.
+
 * **Custo de CPU**: Esta coluna apresenta o valor deste recurso computacional CPU. Este campo pode apresentar um valor igual a “0” (zero), caso este recurso seja controlado por seu valor fixo mensal.
+
 * **Custo de Memória**: Esta coluna apresenta o valor deste recurso computacional Memória. Este campo pode apresentar um valor igual a “0” (zero), caso este recurso seja controlado por seu valor fixo mensal.
+
 * **Custo de Disco**: Esta coluna apresenta o valor deste recurso computacional Disco. Este campo pode apresentar um valor igual a “0” (zero), caso este recurso seja controlado por seu valor fixo mensal.
+
 * **Preço Mensal Fixo**: Esta coluna apresenta o valor definido como um valor total fixo por mês. Este campo pode apresentar um valor igual a “0” (zero), caso este recurso seja definido pela somatória dos custos de CPU, memória e disco.
+
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
+
 * **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova o Flavor Billing Profile de forma imediata e definitiva. Importante ressaltar que esta ação não terá solicitação de nenhuma confirmação por parte do usuário, portanto será definitiva.
+
 * **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do respectivo Flavor Billing Profile. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 .. image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/3cfbcdaff9818c3e2c07d755d556fe1f34d7cf0d/black/png/22/edit.png?raw=true
@@ -1195,6 +1236,26 @@ Esta tela possui um botão de ação e duas seções (cards), descritos a seguir
 Criando um Perfil de Permissionamento
 -------------------------------------
 
+Ao criar um Perfil de Permissionamento é necessário seguir o processo descrito, importa mencionar que apenas um usuário com permissão de criar perfil é que pode realizar esta ação e executar com êxito.
+Para isto, o usuário deve clicar com o cursor do mouse no botão “Criar Perfil” assim a Plataforma do uCloud exibe a tela abaixo:
+
+* **Nome**: Este campo é obrigatório, o usuário deve inserir o nome do Perfil de Permissionamento. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres.
+
+* **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Permissionamento. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo cento e vinte (120) caracteres.
+
+* **Permissões**: Nesta coluna são apresentadas todas as permissões disponíveis na Plataforma do uCloud, as quais podem ser vinculadas ao Perfil de Permissionamento que se está a provisionar.
+
+* **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de permissões de forma alfabética crescente (a – z) ou decrescente (z – a).
+
+* **Busca Rápida**: O usuário pode observar que abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de nomes de permissões. Basta preencher o campo em branco com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
+
+* **“Checkbox” no título da coluna**: Ao selecionar este campo “checkbox”, presente no título da coluna, a Plataforma do uCloud atende a ação de selecionar todas as permissões ainda não vinculadas ao perfil de permissionamento. Desta forma, uma única ação seleciona todas as permissões de uma única vez.
+
+* **“Checkbox” de cada Permissão**: Esta coluna apresenta a lista de permissões disponíveis na Plataforma do uCloud. Ao lado de cada permissão existe um campo do tipo “checkbox”, ao ser selecionado, significa que a permissão será vinculada (habilitada) ao Perfil de Permissionamento.
+
+* **Botão Criar**: Após checar se todas as permissões desejadas foram configuradas, o usuário deve clicar com o botão do mouse no botão Criar para configurar as alterações, de forma definitiva e imediata. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Perfil de Permissionamento está cadastrado.
+
+Após esta ação a Plataforma do uCloud fecha a tela e retorna à tela anterior, sendo que o seu conteúdo atualizado apresenta o novo Perfil de Permissionamento, recém provisionado.
 
 Menu Configuração / Perfis de visualização
 ==========================================
