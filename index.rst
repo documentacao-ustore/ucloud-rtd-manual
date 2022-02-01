@@ -3,9 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: figuras/Ustore_Logo_Large.png
-   :aling: center
+.. image:: /figuras/Ustore_Logo_Large.png
+   :alt: Logo Ustore Brasil
+   :align: center
 
+.
 
 Bem vindo ao site de documentação da Ustore Brasil
 ==================================================
