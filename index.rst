@@ -1,11 +1,14 @@
-.. Documentação Ucloud master file, created by
-   sphinx-quickstart on Fri Jan 14 12:57:19 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Documentação Ustore Brasil
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+<<<<<<< HEAD
 .. image:: /figuras/Ustore_Logo_Large.png
    :alt: Logo Ustore Brasil
    :align: center
+=======
+.. image:: Ustore_Logo_Large.png
+   :aling: center
+>>>>>>> ca5c275d389621259f79d9e99892d4ddfe66e415
 
 .
 
