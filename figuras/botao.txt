@@ -1,0 +1,11 @@
+.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+
+.. |botaoadiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+
+.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
+
+.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
+
+.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
+
+.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png

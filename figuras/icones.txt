@@ -1,0 +1,15 @@
+.. |icone_cancel| image:: /figuras/uCloud_icone_cancela_vermelho.png
+
+.. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
+
+.. |icone_cota_grp| image:: /figuras/ucloud_icone_cota_grupo.png
+
+.. |icone_cota_indv| image:: /figuras/ucloud_icone_cota_individual.png
+
+.. |icone_desb_verm| image:: /figuras/uCloud_icone_desabilita_vermelho.png
+
+.. |icone_edita_on| image:: /figuras/uCloud_icone_editar_on.png
+
+.. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
+
+.. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png

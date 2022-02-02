@@ -4,6 +4,8 @@ uCloud - Manual de Usuário
 .. figure:: /figuras/ucloud_logo_peq.png
    :alt: Logo uCLoud
    :align: center
+=======
+
 
 Introdução Visão Geral
 ======================
@@ -305,12 +307,12 @@ Na listagem de usuários é possível visualizar as informações de um usuário
    :align: center
 
 Após a confirmação da Exclusão do usuário, este usuário e suas credenciais de acesso ficam indisponíveis imediatamente de forma irreversível, não sendo possível recuperar as informações deste usuário. Se a exclusão for acidental, este usuário deverá ser provisionado novamente.
-  * **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de terem seu conteúdo altera.
-  * **Ícone de Edição Inativo**: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
-  * **Ícone de Confirmação**: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-  * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o ícone de edição por engano ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+  * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de terem seu conteúdo altera.
+  * **Ícone de Edição Inativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
+  * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+  * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição por engano ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
   * **Barra de Rolagem**: Esta seção possui um grande conjunto de campos, para a completa visualização de todos o usuário deve utilizar a barra de rolagem ao lado direito desta seção. Se o usuário rolar o mouse, a tela desce e apresenta os campos que não estavam sendo visualizados, conforme a tela abaixo:
-  * **Apenas Leitura**: Este campo configura um usuário que não tem permissão de efetuar nenhuma ação através da Plataforma do uCloud, mas seu login está ativo e ele possui a capacidade de visualizar todas as telas, as quais ele tenha permissão.
+  * **Apenas Leitura** : Este campo configura um usuário que não tem permissão de efetuar nenhuma ação através da Plataforma do uCloud, mas seu login está ativo e ele possui a capacidade de visualizar todas as telas, as quais ele tenha permissão.
 
     * Este é um campo tipo “check box” que o usuário pode atuar para alternar o seu modo atual, desde que o seu perfil permita proceder a alteração. Se o ícone estiver na cor vermelha, basta clicar com o cursor do mouse e o campo será ativado para a cor verde. Caso o ícone esteja na cor verde, basta clicar com o mouse e o campo será desativado ficando na cor vermelha.
   
@@ -325,7 +327,7 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 
 
 * **Seção Permissões do Usuário**: Quando o usuário é criado ele herda/recebe todas as permissões definidas no Grupo ao qual ele pertence (ver próxima seção), bem como as permissões estabelecidas no Contrato. Esta tabela é opcional, mas permite adicionar, ou revogar, as permissões que este usuário possui para efetuar ações, ou acessar menus, na Plataforma do uCloud.
-  * **Botão Editar**: Para acrescentar ou revogar permissões para o usuário, o Administrador (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela que seja possível realizar o procedimento de adicionar ou excluir permissões específicas para este usuário. Veja exemplo abaixo:
+  * **Botão Editar** : Para acrescentar ou revogar permissões para o usuário, o Administrador (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela que seja possível realizar o procedimento de adicionar ou excluir permissões específicas para este usuário. Veja exemplo abaixo:
   Esta tela possui duas colunas distintas;
 
   À esquerda são as permissões previamente adicionadas ao usuário. Ao lado de cada permissão existe um campo do tipo “check box” que ao ser selecionado exclui (revoga) a respectiva permissão deste usuário.
@@ -513,8 +515,8 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
 * **Seção Geral**: Esta seção da tela apresenta as informações sobre o grupo que está provisionado e os campos apresentados nesta seção podem ter seu conteúdo alterado através desta tela. O que define a condição de alteração está relacionado com o ícone de edição a seguir;
    * **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
    * **Ícone de Edição Inativo**: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
-   * **Ícone de Confirmação**; Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-   * **Ícone de Cancelamento**; Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
+   * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+   * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
 
 * **Seção Permissões**: O Grupo recebe (herda) todas as permissões definidas no Contrato ao qual este grupo está vinculado. Esta tabela é opcional, mas permite adicionar ou revogar as permissões que este grupo possui para efetuar ações ou acessar menus na Plataforma do uCloud.
 
@@ -596,9 +598,9 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
 * **Uso de IP**: Esta coluna apresenta a quantidade consumida do recurso computacional Endereços TCP-IP Público por este usuário específico. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor total de consumo do recurso Endereço IP, de forma crescente ou decrescente.
 
 * **Ações**: Esta coluna apresenta ícones que demonstram se o usuário está provisionado consumindo as cotas do Grupo ou possui cota individual. Para usuários com cotas individuais, existe um botão para editar os limites (cotas) dos recursos computacionais ou financeiros de um usuário com cotas individuais.
-   * **Ícone de Cota de Grupo**; Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
-   * **Ícone de Cota de Usuário**; Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
-   * **Botão Editar Cotas**; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
+   * **Ícone de Cota de Grupo** |icone_cota_grp|; Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
+   * **Ícone de Cota de Usuário** |icone_cota_indv|; Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
+   * **Botão Editar Cotas** |botao_editar|; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
 
 .. figure:: /figuras/uCloud_menu_grupo_010.png
    :alt: menu de grupo
@@ -818,9 +820,9 @@ Abaixo descrevemos as colunas desta seção da tela de contratos:
 
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
 
-* **Botão Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Política de Alarme de forma imediata e definitiva.
+* **Botão Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Política de Alarme de forma imediata e definitiva.
 
-* **Botão Habilitar/Desabilitar**: Este botão é um tipo “checkbox” que o usuário pode atuar para alternar o seu modo atual. A cor verde indica que a política está HABILITADA. A cor vermelha indica que a política está DESABILITADA.
+* **Botão Habilitar/Desabilitar** |icone_habil_verde|/|icone_desb_verm|: Este botão é um tipo “checkbox” que o usuário pode atuar para alternar o seu modo atual. A cor verde indica que a política está HABILITADA. A cor vermelha indica que a política está DESABILITADA.
 
 Para alternar entre os estados basta clicar com o cursor do mouse e o campo será ativado, apresentando a cor verde. Se estiver na cor verde, basta clicar com o mouse e o campo será desativado, apresentando a cor vermelha.
 
@@ -928,7 +930,7 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do u
    :alt: menu de contrato
    :align: center
 
-* **Botão “+Adicionar Grupo Existente”**: Através deste botão, o usuário com perfil de Administrador de Grupo, poderá vincular um grupo - previamente provisionado na Plataforma do uCloud - ao contrato que se está visualizando. Quando o usuário clicar com o cursor do mouse sobre este botão, será apresentada a seguinte tela;
+* **Botão “+Adicionar Grupo Existente”** |botao_adiciona_grp|: Através deste botão, o usuário com perfil de Administrador de Grupo, poderá vincular um grupo - previamente provisionado na Plataforma do uCloud - ao contrato que se está visualizando. Quando o usuário clicar com o cursor do mouse sobre este botão, será apresentada a seguinte tela;
 
 .. figure:: /figuras/uCloud_menu_contrato_014.png
    :alt: menu de contrato
@@ -940,9 +942,9 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do u
    :alt: menu de contrato
    :align: center
 
-   * **Botão Adicionar Grupo**: Neste momento, o usuário deve clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud efetive a vinculação do grupo selecionado ao contrato que se está visualizando.
+   * **Botão Adicionar Grupo** |botao_adiciona|: Neste momento, o usuário deve clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud efetive a vinculação do grupo selecionado ao contrato que se está visualizando.
    * **Botão Ok**: Ao clicar com o cursor do mouse sobre este botão, a Plataforma do uCloud encerra esta tela e retorna à visualização do Contrato, e a relação de grupos vinculados ao contrato, atualizada com o novo grupo.
-   * **Botão “+Criar Grupo”**: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na Plataforma do uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na Plataforma do uCloud no item Criando Novo Grupo na página 55 .
+   * **Botão “+Criar Grupo”** |botao_adiciona_grp|: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na Plataforma do uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na Plataforma do uCloud no item Criando Novo Grupo na página 55 .
 
 Seção Dados de Faturamento
 --------------------------
@@ -1111,9 +1113,9 @@ Importante mencionar que para a instalação do controlador de SDN é necessári
 
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
 
-* **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova este Controlador SDN de forma imediata e definitiva.
+* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova este Controlador SDN de forma imediata e definitiva.
 
-* **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do Servidor de SDN respectivo. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
+* **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do Servidor de SDN respectivo. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 Solicite acesso ao documento Manual do Administrador da Plataforma do uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma do uCloud.
 
@@ -1138,7 +1140,7 @@ Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP
 
 * **Ignored Address**: Este campo apresenta a lista de endereços TCP-IP, definidos pela equipe de rede da empresa, a ser ignorado e evitado, para serem assinalados a recursos computacionais. Os endereços apresentados nesta lista estão separados por vírgula.
 
-* **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo. Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova a configuração de Sub-Rede Pública de forma imediata e definitiva. Importante ressaltar que a Plataforma do uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível. Se a ação não foi intencional, o usuário deverá iniciar o processo de configuração da Sub-Rede Pública novamente desde seu início.
+* **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo |icone_lixo|. Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova a configuração de Sub-Rede Pública de forma imediata e definitiva. Importante ressaltar que a Plataforma do uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível. Se a ação não foi intencional, o usuário deverá iniciar o processo de configuração da Sub-Rede Pública novamente desde seu início.
 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de como provisionar corretamente o Controlador SDN dentro do ambiente de rede privada.
 
@@ -1192,9 +1194,9 @@ Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nu
 
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
 
-* **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova o Flavor Billing Profile de forma imediata e definitiva. Importante ressaltar que esta ação não terá solicitação de nenhuma confirmação por parte do usuário, portanto será definitiva.
+* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova o Flavor Billing Profile de forma imediata e definitiva. Importante ressaltar que esta ação não terá solicitação de nenhuma confirmação por parte do usuário, portanto será definitiva.
 
-* **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do respectivo Flavor Billing Profile. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
+* **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do respectivo Flavor Billing Profile. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 .. image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/3cfbcdaff9818c3e2c07d755d556fe1f34d7cf0d/black/png/22/edit.png?raw=true
    :align: center
@@ -1257,19 +1259,19 @@ Esta tela possui um botão de ação e duas seções (cards), descritos a seguir
 
 * **Nome**: Neste campo é apresentado o nome (curto) do Perfil de Permissionamento, informado pelo usuário no momento do seu provisionamento. Caso o perfil do usuário, que está acessando esta tela, tenha a permissão de alteração de perfis de permissionamento, o ícone de edição estará ativo.
 
-* **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de alteração do seu conteúdo.
+* **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de alteração do seu conteúdo.
 
-* **Ícone de Confirmação**: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+* **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
 
-* **Ícone de Cancelamento**: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
+* **Ícone de Cancelamento** |icone_cancel|: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
 
 * **Descrição**: Neste campo é apresentada a descrição (extensa) do Perfil de Permissionamento, informado pelo usuário no momento do provisionamento.
 
-* **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
+* **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
 
-* **Ícone de Confirmação**: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+* **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
 
-* **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
+* **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
 
 * **Seção Permissões**: Nesta seção da tela são listadas as primeiras vinte e cinco (25) permissões vinculadas a este perfil de permissionamento. Importante relembrar que a Plataforma do uCloud possui mais de cento e cinquenta permissões, as quais são apresentadas com as iniciais de cada permissão.
 
@@ -1612,3 +1614,32 @@ Menu Inventário de Recursos
 ===========================
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
+
+
+.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+
+.. |botao_adiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+
+.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
+
+.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
+
+.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
+
+.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png
+
+.. |icone_cancel| image:: /figuras/uCloud_icone_cancela_vermelho.png
+
+.. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
+
+.. |icone_cota_grp| image:: /figuras/ucloud_icone_cota_grupo.png
+
+.. |icone_cota_indv| image:: /figuras/ucloud_icone_cota_individual.png
+
+.. |icone_desb_verm| image:: /figuras/uCloud_icone_desabilita_vermelho.png
+
+.. |icone_edita_on| image:: /figuras/uCloud_icone_editar_on.png
+
+.. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
+
+.. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png
