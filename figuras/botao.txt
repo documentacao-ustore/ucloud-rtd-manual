@@ -9,3 +9,49 @@
 .. |botao_editar| image:: /figuras/uCloud_botao_editar.png
 
 .. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png
+
+.. |botao_adiciona_aogrupo| image:: /figuras/uCloud_botao_adicionar_aogrupo.png
+
+.. |botao_adiciona_verde| image:: /figuras/uCloud_botao_adiciona_verde.png
+
+.. |botao_cnecta_container| image:: /figuras/uCloud_botao_conecta_container.png
+
+.. |botao_criar_VM| image:: /figuras/uCloud_botao_criar_VM.png
+
+.. |botao_desabilita| image:: /figuras/uCloud_botao_disable.png
+
+.. |botao_download| image:: /figuras/uCloud_botao_download.png
+
+.. |botao_enable| image:: /figuras/uCloud_botao_enable.png
+
+.. |botao_excluir| image:: /figuras/uCloud_botao_excluir.png
+
+.. |botao_exclui_VDC| image:: /figuras/uCloud_botao_excluir_VDC.png
+
+.. |botao_exclui_user| image:: /figuras/uCloud_botao_exclui_usuario.png
+
+.. |botao_exportar| image:: /figuras/uCloud_botao_exportar.png
+
+.. |botao_filtrar| image:: /figuras/uCloud_botao_filtrar.png
+
+.. |botao_lanca_acct| image:: /figuras/uCloud_botao_lancar_acct.png
+
+.. |botao_limpa_acct| image:: /figuras/uCloud_botao_limpar_acct.png
+
+.. |botao_pesquisar| image:: /figuras/uCloud_botao_pesquisar.png
+
+.. |botao_refresh| image:: /figuras/uCloud_botao_refresh.png
+
+.. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
+
+.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+
+.. |botao_adiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+
+.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
+
+.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
+
+.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
+
+.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png

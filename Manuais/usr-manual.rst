@@ -695,8 +695,11 @@ Somente usuários com perfil de Administrador de Contrato têm a permissão de v
 Abaixo seguem descritas as colunas apresentadas nesta tabela:
 
 * **Nome**: Esta coluna apresenta o nome do contrato da forma como está provisionado na Plataforma do uCloud.
+
 * **Admin**: Esta coluna apresenta as credenciais do usuário como está associado ao campo: Administrador do Contrato. Qualquer usuário (simples) pode ser associado a este campo, após esta ação o usuário fica associado ao perfil de Administrador de Contrato.
+
 * **CPF/CNPJ**: Esta coluna apresenta o conteúdo da identificação fiscal brasileira que pode corresponder a uma identificação de pessoa física (CPF) ou identificação fiscal de pessoa jurídica (CNPJ).
+
 * **Estado**: Esta coluna apresenta o estado deste contrato na Plataforma do uCloud, onde a situação do contrato pode ser uma das três opções abaixo:
 
   * **Em Produção**: Indica que o contrato está ativo e todos os recursos computacionais estão ativos e funcionais no provedor de serviço de nuvem; o campo Experimental (no formulário do Contrato) o seu estado está indicado como “Desabilitado”.
@@ -1094,8 +1097,11 @@ Seção Configurações de Rede
 Nesta tela são provisionadas as configurações de rede (de forma geral) que serão enviadas para o controlador SDN do ambiente do data center privado (on-premises).
 
 * **Range de VLAN Global**: Neste campo deve ser configurada a faixa (range) de endereços TCP-IP da rede privada.
+
 * **CIDR Global**: Neste campo deve ser informado o CIDR, ou endereçamento IP sem classes. Esta configuração de CIDR Global otimiza a distribuição dos endereços IP de 32 bits, permitindo máscaras de rede de qualquer tamanho.
+
 * **Prefixo CIDR do Usuário**: Neste campo devem ser informados os prefixos de endereços TCP-IP específicos da rede corporativa privada da empresa. Podem ser informados CIDRs de todas as classes de endereçamento TCP-IP, por exemplo: 255.0.0.0 (classe A); ou 255.255.0.0 (classe B) ou 255.255.255.0 (classe C), de acordo com a configuração do ambiente de rede da empresa que está sendo configurada na Plataforma do uCloud.
+
 * **Botão Network Sharing**: Este botão permite configurar a opção de que a rede que se está provisionando a configuração seja compartilhada (shared) ou não. Se este botão estiver com a opção “ON” ativa, significa que a configuração de rede será de uma rede que pode ser compartilhada. Se o botão estiver com a opção “OFF” ativa, significa que a configuração de rede será privada e os seus endereços TCP-IP serão privados.
 
 Solicite acesso ao documento Manual do Administrador da Plataforma do uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma do uCloud.
@@ -1158,8 +1164,11 @@ Assinaturas são serviços vinculados a uma máquina virtual. As assinaturas tê
 São exemplos de assinaturas: gerenciamento, licenças de sistema operacional e monitoramento, entre outros. A figura abaixo apresenta exemplos de modalidades de assinaturas que uma máquina virtual pode possuir:
 
 * **Nome**: Este campo apresenta o nome informado no momento da sua configuração.
+
 * **Preço**: Este campo apresenta o valor mensal referente ao custo da assinatura, informado no momento de criar a assinatura.
+
 * **Descrição**: Este campo apresenta a descrição estendida da assinatura, que foi informado no momento da sua criação.
+
 * **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo. Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova a assinatura de forma imediata e definitiva. Importante ressaltar que a Plataforma do uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível.
 
 Criando Assinatura
@@ -1170,8 +1179,11 @@ O processo de criação de assinatura é muito simples, importante mencionar que
 Abaixo a descrição dos campos para o provisionamento de uma nova assinatura:
 
 * **Nome**: Neste campo deve ser informado o nome desejado para identificar a assinatura. Não existe limite máximo para o nome desejado. O limite mínimo de caracteres para informar neste campo é um (01) caractere. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+
 * **Preço**: Neste campo deve ser informado o valor mensal (número) referente ao custo da assinatura. Se o usuário informar um número inteiro (sem zeros), a Plataforma do uCloud assume somente o valor inteiro, seguido de zeros após a vírgula. Para valores com casas decimais, o usuário deve usar a "vírgula" seguido do valor referente decimal do valor mensal (por ex.: “123,90”).
+
 * **Descrição**: Neste campo o usuário informa uma descrição estendida que pode esclarecer a que se refere esta assinatura, este campo pode contar até duzentos e cinquenta e cinco caracteres (255). O limite mínimo de caracteres a informar neste campo é um (01) caractere. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+
 * **Botão Criar**: Neste ponto, após preencher e finalizar todos os campos para provisionar uma assinatura, o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione a nova assinatura em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório precisa ser preenchido.
 
 Após confirmar a criação da nova assinatura, a Plataforma do uCloud encerra a tela de nova assinatura e retorna a lista atualizada de assinaturas existentes, com a nova assinatura apresentada na relação da tela. Eventualmente, pode existir um atraso para que a Plataforma do uCloud atualize a lista de assinaturas.
@@ -1218,10 +1230,15 @@ Quando o usuário clica com o cursor do mouse no botão “Criar Flavor Billing 
 Após o usuário selecionar o flavor desejado, a Plataforma do uCloud altera e retorna a tela conforme o exemplo abaixo:
 
 Para compreensão da imagem acima, segue abaixo a descrição dos campos da tela:
+
 * **Custo de CPU**: Este campo é obrigatório, o usuário deve informar o custo referente a quantidade de recursos de CPU do flavor selecionado no campo inicial. Por ser um campo obrigatório, o usuário deve informar um número inteiro correspondente para o valor mensal deste recurso, ou preencher com “zero (0)”, para os casos em que o flavor tenha um valor fixo mensal.
+
 * **Custo de Disco**: Este campo é obrigatório, o usuário deve informar o custo referente ao recurso de Disco do flavor selecionado no campo inicial. Por ser um campo obrigatório, o usuário deve informar um número inteiro correspondente para o valor mensal deste recurso, ou preencher com “zero (0)”, para os casos em que o flavor tenha um valor fixo mensal.
+
 * **Custo de Memória**: Este campo é obrigatório, o usuário deve informar o custo referente ao recurso de Memória do flavor selecionado no campo inicial. Por ser um campo obrigatório, o usuário deve informar um número inteiro correspondente para o valor mensal deste recurso, ou preencher com “zero (0)”, para os casos em que o flavor tenha um valor fixo mensal.
+
 * **Custo Fixo Mensal**: Este campo é obrigatório, o usuário deve informar o custo referente ao valor mensal do flavor selecionado no campo inicial. Por ser um campo obrigatório, o usuário deve informar um número inteiro correspondente para o valor mensal deste recurso, ou preencher com “zero (0)”, para os casos em que o flavor tenha custos específicos para os recursos de CPU, Memória e Disco.
+
 * **Botão Criar**: Após todos os campos para provisionar Flavor Billing Profile estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud possa provisionar o Flavor Billing Profile em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório precisa ser preenchido.
 
 Menu Configuração / Perfis de Permissionamento
@@ -1318,58 +1335,142 @@ Após esta ação a Plataforma do uCloud fecha a tela e retorna à tela anterior
 Menu Configuração / Perfis de visualização
 ==========================================
 
+O Perfil de Visualização permite ao usuário ‘visualizar’ as opções do menu de usuário. De certa forma, pode ser complementar ao Perfil de Permissionamento (descrito acima) para criar um controle bem granular do que um usuário pode ou não pode visualizar, das opções da barra de menu apresentadas à esquerda.
+
+Esta tela possui dois botões em sua parte superior, suas funções, são descritas a seguir:
+
+
 Criando Perfil de Visualização
 ------------------------------
+
+Para provisionar um novo perfil de visualização, o usuário deve clicar com o cursor do mouse sobre este botão, assim a Plataforma do uCloud apresenta a tela abaixo:
+
+.. incluir tela aqui (remover este comentário)
+
+* **Nome**: Este campo é obrigatório, o usuário deve inserir o nome do Perfil de Visualização. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres. Importante ressaltar que é recomendado utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+* **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Visualização. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo, cento e vinte (120) caracteres.
+* **Permissões**: Nesta coluna são apresentadas todas as opções de menu disponíveis na Plataforma do uCloud que podem ser vinculadas ao Perfil de Visualização que se está provisionando.
+* **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de opções de menu, de forma alfabética crescente (a – z) ou decrescente (z – a).
+
+  * **Busca Rápida**: O usuário pode observar o campo abaixo do nome da coluna, existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências, nesta lista de nomes de opções de menu. Basta preencher o campo em branco com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualiza a tela e representa este padrão de busca.
+  * **“Checkbox” no título da coluna**: Ao selecionar este campo “checkbox” presente no título da coluna, o usuário informa à Plataforma do uCloud a ação de selecionar todas as opções de menu ainda não vinculadas ao perfil de visualização. Desta forma, uma única ação seleciona todas as opções de menu de uma única vez.
+  * **“Checkbox” de cada Opção de Menu**: Esta coluna apresenta a lista das opções de menu disponíveis na Plataforma do uCloud. Ao lado de cada opção de menu existe um campo do tipo “checkbox”, selecioná-lo significa que a opção de menu será vinculada (habilitada) ao Perfil de Visualização.
+  * **Botão Criar**: Após certificar que todas as opções de menu desejadas foram configuradas, o usuário deve clicar com o botão do mouse no botão Criar para configurar as alterações, de forma definitiva e imediata. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Perfil de Visualização está cadastrado.
+
+Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo atualizado e apresenta o novo Perfil de Visualização recém provisionado.
+
 
 Editando Perfil de Visualização
 -------------------------------
 
+O usuário pode verificar que ao visualizar a lista de perfis existem dois ícones na coluna Ações:
+
+* Ações: Esta coluna apresenta dois ícones para que o usuário possa interagir com o perfil de visualização desejado:
+
+  * **Ícone Lata de Lixo |icone_lixo|**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud possa remover (excluir) este Perfil de Visualização, de forma imediata e definitiva.
+  * **Ícone Edição |icone_edita_on|**: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa apresentar uma tela que permite editar Perfil de Visualização respectivo. Importante mencionar que apenas o usuário com a permissão correta poderá editar as opções de menu de um Perfil de Visualização.
+
+.. incluir tela aqui (remover este comentário)
+
+* **Nome**: O usuário pode alterar o nome do Perfil de Visualização. O nome do perfil deve ter, no mínimo, três (03) caracteres, e no máximo setenta (70) caracteres. Importante recomendar a utilização apenas dos caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+* **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Visualização. A descrição do perfil deve ter, no mínimo, três (03) caracteres, e no máximo, cento e vinte (120) caracteres.
+* **Permissões**: Nesta coluna são apresentadas todas as opções de menu disponíveis na Plataforma do uCloud, elas podem ser vinculadas ao Perfil de Visualização que se está a provisionar.
+
+  * **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de opções de menu de forma alfabética,  crescente (a – z) ou decrescente (z – a).
+  * **Busca Rápida**: O usuário observa que abaixo do nome da coluna existe um campo em ‘branco’, este campo permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista, nomes de opções de menu. Basta preencher o campo em branco com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualiza a tela, e representa a informação neste padrão de busca.
+  * **“Checkbox” no título da coluna**: Ao selecionar este campo “checkbox”, presente no título da coluna, o clique informa à Plataforma do uCloud a ação de selecionar todas as opções do menu, ainda não vinculadas ao perfil de visualização. Desta forma, uma única ação seleciona todas as opções de menu de uma vez.
+  * **“Checkbox” de cada Opção de Menu**: Esta coluna apresenta a lista das opções de menu disponíveis na Plataforma do uCloud. Ao lado de cada opção de menu existe um campo do tipo “checkbox”, ao ser selecionado, isto significa que a opção de menu será vinculada (habilitada) ao Perfil de Visualização.
+  * **Botão Criar**: Após certificar que todas as opções desejadas no menu foram configuradas, o usuário pode clicar com o botão do mouse no botão Criar e configurar as alterações, de forma definitiva e imediata. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Perfil de Visualização está cadastrado.
+
+Após esta ação a Plataforma do uCloud fecha a tela e retorna à tela anterior, com o conteúdo atualizado que apresenta o novo Perfil de Visualização recém provisionado.
+
 Menu Configuração / Billing Admin
 =================================
+
+A configuração de Billing Admin é a forma como a Plataforma do uCloud identifica o arquivo da fatura (cobrança) dos valores, referentes aos custos dos recursos computacionais de nuvem, nas credenciais do cliente.
+Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
+A configuração de Billing Admin, na Plataforma do uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
+A Plataforma do uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
+Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma do uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato na página 58.
+Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma do uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
+Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
+  
+.. inserir tela (remover este comentario)
+
+.. important:: *Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.*
+
+Segue a descrição dos botões desta tela:
+
+* **Botão Lançar Accountant |botao_lanca_acct|**: Este botão apresenta a tela para provisionar um novo Billing Profile na Plataforma do uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de Plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
+* **Botão Limpar Histórico |botao_limpa_acct|**: ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação.
+* **Botão Refresh |botao_refresh|**: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim, toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes, então, executem a ação desejada. Para atualizar apenas o conteúdo das seções de tela (as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual aciona a execução e atualiza as informações contidas na base de dados da plataforma.
+
 Informações de Registro (LOG) do Billing Admin
 ----------------------------------------------
 
 Menu Configuração / Tagueamento de Recursos USN
 ===============================================
+
+
 Criação de um Tagueamento de Recurso USN
 ----------------------------------------
 
 Menu Máquinas Virtuais
 ======================
+
+
 Gerenciando uma Máquina Virtual
 -------------------------------
+
+
 Seção Geral
 ~~~~~~~~~~~
+
 Seção Performance Instantânea
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Seção Metrics (exclusivo AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Seção Interfaces de Rede
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 Seção Disco
 ~~~~~~~~~~~
+
 Seção Snapshots
 ~~~~~~~~~~~~~~~
+
 Seção Signatures (Exclusivo Azure e Google Cloud Platform)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Seção Histórico de Performance (Azure e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criando uma Máquina Virtual
 ---------------------------
+
 Wizard Etapa 1 (Seleção da Nuvem)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 2 (informações básicas da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 3 (informações básicas da máquina virtual – cont.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 4a (informações de segurança da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 4b (informações de segurança – Exclusivo Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 5a (User data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 5b (User data VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Wizard Etapa 6 (visualizar as configurações da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1617,6 +1718,51 @@ Menu Inventário de Recursos
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
 
+.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+
+.. |botaoadiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+
+.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
+
+.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
+
+.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
+
+.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png
+
+.. |botao_adiciona_aogrupo| image:: /figuras/uCloud_botao_adicionar_aogrupo.png
+
+.. |botao_adiciona_verde| image:: /figuras/uCloud_botao_adiciona_verde.png
+
+.. |botao_cnecta_container| image:: /figuras/uCloud_botao_conecta_container.png
+
+.. |botao_criar_VM| image:: /figuras/uCloud_botao_criar_VM.png
+
+.. |botao_desabilita| image:: /figuras/uCloud_botao_disable.png
+
+.. |botao_download| image:: /figuras/uCloud_botao_download.png
+
+.. |botao_enable| image:: /figuras/uCloud_botao_enable.png
+
+.. |botao_excluir| image:: /figuras/uCloud_botao_excluir.png
+
+.. |botao_exclui_VDC| image:: /figuras/uCloud_botao_excluir_VDC.png
+
+.. |botao_exclui_user| image:: /figuras/uCloud_botao_exclui_usuario.png
+
+.. |botao_exportar| image:: /figuras/uCloud_botao_exportar.png
+
+.. |botao_filtrar| image:: /figuras/uCloud_botao_filtrar.png
+
+.. |botao_lanca_acct| image:: /figuras/uCloud_botao_lancar_acct.png
+
+.. |botao_limpa_acct| image:: /figuras/uCloud_botao_limpar_acct.png
+
+.. |botao_pesquisar| image:: /figuras/uCloud_botao_pesquisar.png
+
+.. |botao_refresh| image:: /figuras/uCloud_botao_refresh.png
+
+.. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
 
 .. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
 
@@ -1645,3 +1791,23 @@ Editor de Etiquetas (tags) Nativo
 .. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
 
 .. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png
+
+.. |icone_abre_fatura| image:: /figuras/uCloud_icone_abrir_fatura.png
+
+.. |icone_agenda| image:: /figuras/uCloud_icone_agendar.png
+
+.. |icone_anexa_branco| image:: /figuras/uCloud_icone_anexar_branco.png
+
+.. |icone_conecta_rede| image:: /figuras/uCloud_icone_conecta_rede.png
+
+.. |icone_desconecta| image:: /figuras/uCloud_icone_desconectar.png
+
+.. |icone_download| image:: /figuras/uCloud_icone_download.png
+
+.. |icone_edita_user| image:: /figuras/uCloud_icone_edita_user.png
+
+.. |icone_private_net| image:: /figuras/uCloud_icone_private_template.png
+
+.. |icone_remove_user| image:: /figuras/uCloud_icone_remove_user.png
+
+.. |icone_visualiza| image:: /figuras/uCloud_icone_visualiza.png

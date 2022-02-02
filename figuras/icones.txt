@@ -13,3 +13,23 @@
 .. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
 
 .. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png
+
+.. |icone_abre_fatura| image:: /figuras/uCloud_icone_abrir_fatura.png
+
+.. |icone_agenda| image:: /figuras/uCloud_icone_agendar.png
+
+.. |icone_anexa_branco| image:: /figuras/uCloud_icone_anexar_branco.png
+
+.. |icone_conecta_rede| image:: /figuras/uCloud_icone_conecta_rede.png
+
+.. |icone_desconecta| image:: /figuras/uCloud_icone_desconectar.png
+
+.. |icone_download| image:: /figuras/uCloud_icone_download.png
+
+.. |icone_edita_user| image:: /figuras/uCloud_icone_edita_user.png
+
+.. |icone_private_net| image:: /figuras/uCloud_icone_private_template.png
+
+.. |icone_remove_user| image:: /figuras/uCloud_icone_remove_user.png
+
+.. |icone_visualiza| image:: /figuras/uCloud_icone_visualiza.png

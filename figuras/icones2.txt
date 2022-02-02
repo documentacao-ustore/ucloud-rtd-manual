@@ -1,0 +1,26 @@
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç D427-F961
+
+ Pasta de C:\Users\Erick\Documents\ucloud-rtd-manual\figuras
+
+02/02/2022  11:56               358 uCloud_icone_abrir_fatura.png
+02/02/2022  11:53               257 uCloud_icone_agendar.png
+02/02/2022  12:06               392 uCloud_icone_anexar_branco.png
+20/01/2022  11:36               339 uCloud_icone_cancela_vermelho.png
+02/02/2022  11:42               240 uCloud_icone_coluna_acionavel.png
+02/02/2022  12:04               405 uCloud_icone_conecta_rede.png
+20/01/2022  11:35               326 uCloud_icone_confirma_verde.png
+20/01/2022  11:53               465 ucloud_icone_cota_grupo.png
+20/01/2022  11:53               398 ucloud_icone_cota_individual.png
+21/01/2022  10:37               385 uCloud_icone_desabilita_vermelho.png
+02/02/2022  11:43               392 uCloud_icone_desconectar.png
+02/02/2022  11:56               324 uCloud_icone_download.png
+21/01/2022  10:23               341 uCloud_icone_editar_on.png
+02/02/2022  11:44               305 uCloud_icone_edita_user.png
+20/01/2022  12:00               403 uCloud_icone_habilita_verde.png
+20/01/2022  11:59               439 uCloud_icone_lixo.png
+02/02/2022  11:48               450 uCloud_icone_private_template.png
+02/02/2022  11:44               465 uCloud_icone_remove_user.png
+02/02/2022  11:57               336 uCloud_icone_visualiza.png
+              19 arquivo(s)          7.020 bytes
+               0 pasta(s)   112.949.633.024 bytes dispon°veis
