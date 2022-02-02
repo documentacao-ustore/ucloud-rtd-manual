@@ -744,6 +744,7 @@ Visualizando Contrato
 ---------------------
 
 A Tela de visualização de contrato é a uma das mais extensas telas da Plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
+
 .. figure:: /figuras/uCloud_menu_contrato_002.png
    :alt: menu de contrato
    :align: center
@@ -752,6 +753,7 @@ Seção Geral
 -----------
 
 Quando um contrato é provisionado no sistema, o usuário com perfil de Administrador informa os dados cadastrais básicos da organização, informações gerais para um contrato, tais como Identificação do contrato, nome da empresa, o código CNPJ para empresas (ou CPF no caso de pessoa física), a forma padrão de faturamento das máquinas deste contrato (este padrão de faturamento fica válido somente no caso de não existir regras de bilhetagem no restante do contrato).
+
 .. figure:: /figuras/uCloud_menu_contrato_003.png
    :alt: menu de contrato
    :align: center
@@ -803,7 +805,8 @@ Importante ressaltar que se deve ignorar provisionar qualquer Categorias de Pre�
 Seção Políticas de Alertas
 --------------------------
 
-A Plataforma do uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a Plataforma do uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo;
+A Plataforma do uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a Plataforma do uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo:
+
 .. figure:: /figuras/uCloud_menu_contrato_006.png
    :alt: menu de contrato
    :align: center
@@ -834,6 +837,7 @@ Seção Preço dos Recursos
 Esta seção permite que o Administrador do Contrato possa redefinir os valores dos recursos que estão sendo consumidos dentro deste contrato. Através desta tela é possível definir preços diferentes para os recursos cobrados pelo provedor de serviço de nuvem. Estes novos valores devem ser informados manual e individualmente, não sendo necessário que todos sejam informados.
 Apenas os valores dos recursos que foram informados serão recalculados pela Plataforma do uCloud, apresentados nos relatórios do menu Financeiro.
 Os recursos com valor igual a zero (0), terão o seu valor original cobrado pelo provedor de serviço de nuvem sem ser recalculado.
+
 .. figure:: /figuras/uCloud_menu_contrato_007.png
    :alt: figura da interface
    :align: center
@@ -847,6 +851,7 @@ Seção Cota do Contrato
 ----------------------
 
 A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato apresenta os limites financeiros e os limites definidos para a quantidade dos recursos definidos para o contrato, pela organização.
+
 .. figure:: /figuras/uCloud_menu_contrato_007.png
    :alt: figura da interface
    :align: center
@@ -1197,9 +1202,6 @@ Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nu
 * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova o Flavor Billing Profile de forma imediata e definitiva. Importante ressaltar que esta ação não terá solicitação de nenhuma confirmação por parte do usuário, portanto será definitiva.
 
 * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações do respectivo Flavor Billing Profile. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
-
-.. image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/3cfbcdaff9818c3e2c07d755d556fe1f34d7cf0d/black/png/22/edit.png?raw=true
-   :align: center
 
 Criando um Flavor Billing Profile
 ---------------------------------
