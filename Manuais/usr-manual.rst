@@ -1306,7 +1306,7 @@ Esta tela possui um botão de ação e duas seções (cards), descritos a seguir
   * **Botão “Não Cancele”**: Basta o usuário clicar sobre este botão (ou teclar “Esc”) para cancelar a ação, na situação de que tenha acidentalmente clicado sobre o botão de exclusão. Quando o usuário cancela a ação de exclusão a Plataforma do uCloud apresenta a seguinte tela:
   * **Botão “Sim Pode Excluir”**: Quando o usuário está seguro da ação de exclusão, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o Perfil de Permissionamento foi excluído da Plataforma do uCloud;
 
-.. image:: /figuras/ucloud_perfil_permissionamento_006.png
+.. image:: /figuras/ucloud_perfil_permissionamento_003.png
    :alt: Billing Profile
    :align: center
 
@@ -1331,6 +1331,10 @@ Esta tela possui um botão de ação e duas seções (cards), descritos a seguir
 
     * **Botão Editar** |botao_editar|: Este botão destina-se ao usuário que possuir a permissão de alteração de Perfil de Permissionamento, se ele desejar alterar o conjunto de permissões vinculadas a este perfil, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta a tela abaixo:
 
+.. image:: /figuras/ucloud_perfil_permissionamento_005.png
+   :alt: perfil de permissionamento
+   :align: center
+
       * Esta tela possui duas colunas distintas, à esquerda são as permissões previamente adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, pode excluir (revogar) a respectiva permissão deste usuário.
       * À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
       * “Checkbox” no título da coluna: Ao selecionar este campo “checkbox”, que está presente no título da coluna, ele informa a Plataforma do uCloud a ação de selecionar todas as permissões ainda não vinculadas ao perfil de permissionamento. Desta forma, uma única ação seleciona todas as permissões de uma única vez.
@@ -1340,11 +1344,15 @@ Criando um Perfil de Permissionamento
 -------------------------------------
 
 Ao criar um Perfil de Permissionamento é necessário seguir o processo descrito, importa mencionar que apenas um usuário com permissão de criar perfil é que pode realizar esta ação e executar com êxito.
-Para isto, o usuário deve clicar com o cursor do mouse no botão “Criar Perfil” assim a Plataforma do uCloud exibe a tela abaixo:
+Para isto, o usuário deve clicar com o cursor do mouse no botão “Criar Perfil” assim a Plataforma do uCloud exibe a tela abaixo;
 
-* **Nome**: Este campo é obrigatório, o usuário deve inserir o nome do Perfil de Permissionamento. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres.
+.. image:: /figuras/ucloud_perfil_permissionamento_007.png
+   :alt: perfil de permissionamento
+   :align: center
 
-* **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Permissionamento. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo cento e vinte (120) caracteres.
+* **Nome**: *Este campo é obrigatório*, o usuário deve inserir o nome do Perfil de Permissionamento. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres.
+
+* **Descrição**: *Este campo é obrigatório*, o usuário deve inserir uma descrição estendida do Perfil de Permissionamento. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo cento e vinte (120) caracteres.
 
 * **Permissões**: Nesta coluna são apresentadas todas as permissões disponíveis na Plataforma do uCloud, as quais podem ser vinculadas ao Perfil de Permissionamento que se está a provisionar.
 
@@ -1363,20 +1371,26 @@ Após esta ação a Plataforma do uCloud fecha a tela e retorna à tela anterior
 Menu Configuração / Perfis de visualização
 ==========================================
 
-O Perfil de Visualização permite ao usuário ‘visualizar’ as opções do menu de usuário. De certa forma, pode ser complementar ao Perfil de Permissionamento (descrito acima) para criar um controle bem granular do que um usuário pode ou não pode visualizar, das opções da barra de menu apresentadas à esquerda.
+O Perfil de Visualização permite ao usuário *visualizar* as opções do menu de usuário. De certa forma, pode ser complementar ao Perfil de Permissionamento (descrito acima) para criar um controle bem granular do que um usuário pode ou não pode visualizar, das opções da barra de menu apresentadas à esquerda.
 
-Esta tela possui dois botões em sua parte superior, suas funções, são descritas a seguir:
+.. image:: /figuras/ucloud_perfil_visualizacao_001.png
+   :alt: perfil de permissionamento
+   :align: center
 
+Esta tela possui dois botões em sua parte superior, suas funções, são descritas a seguir.
 
 Criando Perfil de Visualização
 ------------------------------
 
 Para provisionar um novo perfil de visualização, o usuário deve clicar com o cursor do mouse sobre este botão, assim a Plataforma do uCloud apresenta a tela abaixo:
 
-.. incluir tela aqui (remover este comentário)
+.. image:: /figuras/ucloud_perfil_visualizacao_002.png
+   :alt: perfil de permissionamento
+   :align: center
 
-* **Nome**: Este campo é obrigatório, o usuário deve inserir o nome do Perfil de Visualização. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres. Importante ressaltar que é recomendado utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
-* **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Visualização. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo, cento e vinte (120) caracteres.
+
+* **Nome**: *Este campo é obrigatório*, o usuário deve inserir o nome do Perfil de Visualização. O nome do perfil deve ter, no mínimo, três (03) caracteres e o limite máximo de setenta (70) caracteres. Importante ressaltar que é recomendado utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+* **Descrição**: *Este campo é obrigatório*, o usuário deve inserir uma descrição estendida do Perfil de Visualização. A descrição do perfil deve ter, no mínimo, três (03) caracteres e no máximo, cento e vinte (120) caracteres.
 * **Permissões**: Nesta coluna são apresentadas todas as opções de menu disponíveis na Plataforma do uCloud que podem ser vinculadas ao Perfil de Visualização que se está provisionando.
 * **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de opções de menu, de forma alfabética crescente (a – z) ou decrescente (z – a).
 
@@ -1398,7 +1412,10 @@ O usuário pode verificar que ao visualizar a lista de perfis existem dois ícon
   * **Ícone Lata de Lixo |icone_lixo|**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud possa remover (excluir) este Perfil de Visualização, de forma imediata e definitiva.
   * **Ícone Edição |icone_edita_on|**: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa apresentar uma tela que permite editar Perfil de Visualização respectivo. Importante mencionar que apenas o usuário com a permissão correta poderá editar as opções de menu de um Perfil de Visualização.
 
-.. incluir tela aqui (remover este comentário)
+.. image:: /figuras/ucloud_perfil_visualizacao_003.png
+   :alt: perfil de permissionamento
+   :align: center
+
 
 * **Nome**: O usuário pode alterar o nome do Perfil de Visualização. O nome do perfil deve ter, no mínimo, três (03) caracteres, e no máximo setenta (70) caracteres. Importante recomendar a utilização apenas dos caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
 * **Descrição**: Este campo é obrigatório, o usuário deve inserir uma descrição estendida do Perfil de Visualização. A descrição do perfil deve ter, no mínimo, três (03) caracteres, e no máximo, cento e vinte (120) caracteres.
@@ -1446,20 +1463,28 @@ Qualquer discrepância de valores, consultados na console do provedor pelo usuá
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma do uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
 
-
+.. image:: /figuras/ucloud_billing_admin_001.png
+   :alt: perfil de permissionamento
+   :align: center
+----
 
 Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
 Segue a descrição dos botões desta tela;
 
 * **Botão Lançar Accountant** |botao_lanca_acct|: Este botão apresenta a tela para provisionar um novo Billing Profile na Plataforma do uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de Plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
-* **Botão Limpar Histórico** |botao_limpa_acct|: ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação.
+* **Botão Limpar Histórico** |botao_limpa_acct|: *ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação*.
 * **Botão Refresh** |botao_refresh|: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim, toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes, então, executem a ação desejada. Para atualizar apenas o conteúdo das seções de tela (as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual aciona a execução e atualiza as informações contidas na base de dados da plataforma.
 
 Informações de Registro (LOG) do Billing Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 É permitido ao usuário com o perfil de Administrador do Contrato identificar potenciais discrepâncias de valores, que porventura sejam apresentadas no menu Financeiro, este usuário pode verificar se há algum problema na comunicação entre a Plataforma do uCloud e a console do provedor, através do botão “Log”.
-Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones a cada configuração provisionada:
+Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones a cada configuração provisionada;
+
+.. image:: /figuras/ucloud_billing_admin_002.png
+   :alt: perfil de permissionamento
+   :align: center
+----
 
 * **Nome**: Esta etiqueta identifica o nome do Billing Profile que foi informado no momento de sua configuração inicial.
 * **Indicador do Tipo de Execução**: Esta etiqueta identifica (“ASYNC”) o tipo de execução do processo de sincronização, selecionado no momento da sua configuração inicial.
@@ -1467,12 +1492,17 @@ Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones
 * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para informar a Plataforma do uCloud que remova (exclua) esta configuração de Billing Admin de forma imediata e definitiva. 
 * **Ícone LOG**: Basta o usuário clicar neste ícone que a Plataforma do uCloud apresenta uma tela que permite visualizar o registro de atividade (log) referente às tarefas de sincronização do Billing Profile com as bases de dados do uCloud. Este recurso é fundamental para identificar qualquer problema de comunicação da Plataforma do uCloud com o ambiente do provedor de serviço de nuvem pública, para obtenção do arquivo texto não formatado (*.CSV).
 
+.. image:: /figuras/ucloud_billing_admin_003.png
+   :alt: perfil de permissionamento
+   :align: center
+----
+
 Menu Configuração / Tagueamento de Recursos USN
 ===============================================
 
 Esta opção, do menu de funcionalidades, somente deve ser acessada quando o modelo Financeiro do contrato for vinculado a um Ministério, Órgão ou Agência do Governo Brasileiro. E que os valores dos recursos computacionais de nuvem pública, sejam convertidos para Unidade de Serviço de Nuvem (USN).
 
-.. note:: Empresas privadas **não necessitam** das facilidades de USN utiliada através deste menu.
+.. note:: |atencao| *Importante mencionar empresas privadas não necessitam nenhuma das facilidades de USN descritos neste menu*.
 
 No modelo de cobrança do recurso computacional de nuvem pública, todo recurso deve ter uma etiqueta (tag) na qual é aplicado um valor, em USN, a ser tarifado (billing) no ambiente da Plataforma do uCloud. Os recursos importados do arquivo de billing das nuvens públicas que não possuam nenhuma etiqueta (tag) no provedor de serviço de nuvens, no processo de importação, estes recursos recebem uma etiqueta (tag) na plataforma do uCloud, baseado no perfil de tagueamento adicionado ao contrato ao qual este recurso pertence.
 
@@ -1792,6 +1822,8 @@ Editor de Etiquetas (tags) Nativo
 .. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
 
 .. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
+
+.. |dica| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/asterisk.png?raw=true
 
 .. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
 
