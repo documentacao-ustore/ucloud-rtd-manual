@@ -18,6 +18,7 @@ Neste repositório estão disponíveis somente os manuais de uso (Manual de Usu�
 
    Manuais/usr-manual
    Manuais/usavings-usuario
+   Manuais/mangue-usuario
    Manuais/udrive-usuario
    Manuais/ulog-usuario
    Manuais/umonitor-usuario

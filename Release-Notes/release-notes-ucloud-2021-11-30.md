@@ -49,15 +49,13 @@ Foram implementadas as seguintes novas funcionalidades
 > [NOTE :fire:]
 > Este é uma nota para realçar um ponto
 
-> [TIP]
-> Optional information to help a user be more successful
+> .. note:: |dica| Optional information to help a user be more successful
 
 > [IMPORTANT]
-> Essential information required for user success
+> |atencao| Essential information required for user success
 
 > [CAUTION]
-> Negative potential consequences of an action
+> |importante| Negative potential consequences of an action
 
 > [WARNING] (**Atenção**)
 > Dangerous certain consequences of an action
-

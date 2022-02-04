@@ -55,11 +55,18 @@ Foram implementadas as seguintes novas funcionalidades
 #. Autorização de Acesso ao Billing dummy
 #. Eric escrevendo qualquer coisa dummy
 
-.. note:: **Este é uma nota para realçar um ponto*
+.. note:: |nota| **Este é uma nota para realçar um ponto**
 
-.. important:: Optional information to help a user be more successful
+.. important:: |importante| Optional information to help a user be more successful
 
-.. warning:: Essential information required for user success
+.. warning:: |atencao| Essential information required for user success
 
-.. tip:: Este é um TIP (dica) para o assunto.
+.. tip:: |dica| Este é um TIP (dica) para o assunto.
 
+.. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/16/hand-stop-o.png?raw=true
+
+.. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/16/hand-pointer-o.png?raw=true
+
+.. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/16/warning.png?raw=true
+
+.. |dica| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/16/asterisk.png?raw=true

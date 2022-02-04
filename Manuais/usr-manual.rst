@@ -411,7 +411,7 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 * **Telefone**: Este campo é obrigatório, e deve ser preenchido com um número de telefone de serviço móvel celular, utilizar o seguinte formato:
    * **Dois (02)** números que identificam o código de área do número de telefone de serviço móvel celular (XX). Não é necessário informar o número ‘zero (0)’ que antecede ao código de área no padrão brasileiro.
    * **nove (09)** números que identificam o número de telefone do serviço móvel celular do usuário. Não é necessário informar qualquer outro caractere para separação dos grupos de números de telefone serviço móvel celular.
-   * Exemplo de preenchimento: ``11999991234``
+   * Exemplo de preenchimento: ``(11)999991234``
 
 * **Cargo**: Este campo é obrigatório, mas é meramente informativo para identificar o cargo do usuário que se deseja provisionar.
 * **Empresa**: Este campo é obrigatório, mas é meramente informativo para identificar a organização a qual este usuário está associado.
@@ -421,20 +421,20 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
    :alt: Tipo de Cota de Usuário
    :align: center
 
-   * **Cota de Grupo**: Quando selecionada esta opção o usuário compartilha dos limites (cotas) financeiros ou de recursos computacionais que estão definidos nas configurações do Grupo. Usuários com cota de grupo devem ficar atentos nas informações apresentadas na tela inicial (dashboard – veja item Dashboard) uma vez que a Plataforma do uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites disponíveis no grupo ao qual o usuário está vinculado.
-   * **Cota de Usuário**: Quando selecionada esta opção pelo usuário, a Plataforma do uCloud solicita que sejam informados os limites (cotas) financeiros ou de recursos computacionais específicos e individuais para este usuário, conforme a tela abaixo;
+* **Cota de Grupo**: Quando selecionada esta opção o usuário compartilha dos limites (cotas) financeiros ou de recursos computacionais que estão definidos nas configurações do Grupo. Usuários com cota de grupo devem ficar atentos nas informações apresentadas na tela inicial (dashboard – veja item Dashboard) uma vez que a Plataforma do uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites disponíveis no grupo ao qual o usuário está vinculado.
+* **Cota de Usuário**: Quando selecionada esta opção pelo usuário, a Plataforma do uCloud solicita que sejam informados os limites (cotas) financeiros ou de recursos computacionais específicos e individuais para este usuário, conforme a tela abaixo;
  
 .. figure:: /figuras/uCloud_menu_usuario_020.png
    :alt: Cota Individual de usuário
    :align: center
 
-   * **Cota de CPU**: Este campo é obrigatório e deve ser informado um número inteiro que representa o limite máximo de consumo do recurso computacional de CPUs para todas as máquinas virtuais criadas nos provedores de serviço de nuvem (público e/ou privado), por este usuário.
-   * **Cota de Faturamento**: Este campo é opcional e deve ser informado um número inteiro que será estabelecido como limite máximo referente aos valores financeiros dos custos de consumo dos recursos computacionais para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado).
-   * **Cota de Memória**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Memória para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado). Pode ser selecionado o limite em Gigabytes ou um limite em Terabytes.
-   * **Cota de Disco**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Disco para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado). Pode ser selecionado o limite em Gigabytes ou um limite em Terabytes.
-   * **Cota de IPs Públicos**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de IPs Públicos para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado).
-   * Em outras palavras, os usuários sem cota individual podem consumir a cota definida no Grupo; quando definida uma cota para um usuário, uma parte da cota do Grupo é alocada para o usuário, esta parte da cota do Grupo não será acessível a outros usuários do Grupo.
-   * Quando um usuário se registra, ele deve observar as informações apresentadas na tela inicial (dashboard – veja item Dashboard na página ) pois a Plataforma do uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites definidos para este usuário.      
+* **Cota de CPU**: Este campo é obrigatório e deve ser informado um número inteiro que representa o limite máximo de consumo do recurso computacional de CPUs para todas as máquinas virtuais criadas nos provedores de serviço de nuvem (público e/ou privado), por este usuário.
+* **Cota de Faturamento**: Este campo é opcional e deve ser informado um número inteiro que será estabelecido como limite máximo referente aos valores financeiros dos custos de consumo dos recursos computacionais para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado).
+* **Cota de Memória**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Memória para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado). Pode ser selecionado o limite em Gigabytes ou um limite em Terabytes.
+* **Cota de Disco**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Disco para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado). Pode ser selecionado o limite em Gigabytes ou um limite em Terabytes.
+* **Cota de IPs Públicos**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de IPs Públicos para todas as máquinas virtuais criadas, por este usuário, nos provedores de serviço de nuvem (público e/ou privado).
+* Em outras palavras, os usuários sem cota individual podem consumir a cota definida no Grupo; quando definida uma cota para um usuário, uma parte da cota do Grupo é alocada para o usuário, esta parte da cota do Grupo não será acessível a outros usuários do Grupo.
+* Quando um usuário se registra, ele deve observar as informações apresentadas na tela inicial (dashboard – veja item Dashboard na página ) pois a Plataforma do uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites definidos para este usuário.
 
 .. note:: *Usuários com cotas individuais: esta cota individual será subtraída (retirada) da cota do Grupo ao qual este usuário está vinculado.* 
 
@@ -530,10 +530,12 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
    :alt: menu de usuário
    :align: center
 
-   * Esta tela possui duas colunas distintas, à esquerda são as permissões definidas no Contrato que são repassadas para o Grupo vinculado ao contrato. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, exclui (revoga) a respectiva permissão deste usuário.
-   * À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao grupo. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
-   * **Utilizar as permissões padrões**: Ao selecionar este campo “checkbox”, e confirmar a ação, o Grupo receberá todas as permissões disponíveis na Plataforma do uCloud.
-   * **Botão Aplicar**: Após o usuário certificar-se de que todas as alterações necessárias foram configuradas (inclusões ou exclusões),ele deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
+Abaixo descreveos os campos desta tela:
+
+* Esta tela possui duas colunas distintas, à esquerda são as permissões definidas no Contrato que são repassadas para o Grupo vinculado ao contrato. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, exclui (revoga) a respectiva permissão deste usuário.
+* À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao grupo. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
+* **Utilizar as permissões padrões**: Ao selecionar este campo “checkbox”, e confirmar a ação, o Grupo receberá todas as permissões disponíveis na Plataforma do uCloud.
+* **Botão Aplicar**: Após o usuário certificar-se de que todas as alterações necessárias foram configuradas (inclusões ou exclusões),ele deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
 
 * **Seção Virtual Data Center**: Nesta seção são listados todos os Virtual Data Centers (VDC) associados a este grupo. Um Virtual Data Center é um agrupamento ‘lógico’ de determinados recursos computacionais de nuvem (templates, flavors, redes, regiões globais, storage e máquinas virtuais) que possibilita um controle de governança financeira para a empresa. O usuário vinculado a este grupo, que possui um (ou mais) Virtual Data Center, somente poderá consumir os recursos computacionais disponíveis neste Virtual Data Center. Para mais informações veja no item Menu Virtual Data Center.
 
@@ -541,16 +543,16 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
    :alt: menu de usuário
    :align: center
 
-   * **Botão Editar**; Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
+* **Botão Editar** |botao_editar|; Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a Plataforma do uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
 
 .. figure:: /figuras/uCloud_menu_grupo_007.png
    :alt: menu de usuário
    :align: center
 
-  * Esta tela possui duas colunas distintas, à esquerda estão apresentados os Virtual Data Centers (VDCs) que foram vinculados a este Grupo (no momento do seu provisionamento). Ao lado de cada VDC existe um campo do tipo “checkbox” , ao selecioná-lo a Plataforma do uCloud exclui (desvincula) o VDC deste grupo.
-  * À direita estão apresentados os Virtual Data Centers (VDCs) que estão vinculados ao contrato deste, ao qual este grupo pertence e que permite ser vinculado a este Grupo. Ao lado de cada VDC existe um campo do tipo “checkbox” , quando selecionado, vincula o VDC ao Grupo.
-  * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
-  * **Coluna Ações / Botão Kick-Off** ; Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
+* Esta tela possui duas colunas distintas, à esquerda estão apresentados os Virtual Data Centers (VDCs) que foram vinculados a este Grupo (no momento do seu provisionamento). Ao lado de cada VDC existe um campo do tipo “checkbox” , ao selecioná-lo a Plataforma do uCloud exclui (desvincula) o VDC deste grupo.
+* À direita estão apresentados os Virtual Data Centers (VDCs) que estão vinculados ao contrato deste, ao qual este grupo pertence e que permite ser vinculado a este Grupo. Ao lado de cada VDC existe um campo do tipo “checkbox” , quando selecionado, vincula o VDC ao Grupo.
+* **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
+* **Coluna Ações / Botão Kick-Off** ; Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
 
 * **Seção Usuários**: Esta seção da tela apresenta a lista de todos os usuários que estão vinculados ao grupo e o respectivo consumo individual de recursos computacionais. Através desta tela o usuário com perfil de Administrador do Grupo, pode acompanhar qual(is) usuário(s) consome(m) mais recursos computacionais nos provedores de nuvem (público e/ou privado);
 
@@ -558,8 +560,8 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
    :alt: menu de usuário
    :align: center
 
-  * **Botão Criar Usuário**; Este botão permite provisionar um novo usuário na Plataforma do uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a Plataforma do uCloud apresenta a tela de Criando Novo Usuário.
-  * **Botão Adicionar Usuário Existente**; Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela;
+* **Botão Criar Usuário**; Este botão permite provisionar um novo usuário na Plataforma do uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a Plataforma do uCloud apresenta a tela de Criando Novo Usuário.
+* **Botão Adicionar Usuário Existente**; Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela;
 
 .. figure:: /figuras/uCloud_menu_grupo_009.png
    :alt: menu de usuário
@@ -576,19 +578,19 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
   * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
   * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
-* **Cota de Faturamento**: Esta coluna apresenta o número que representa o limite (cota) do valor financeiro que foi definido para o usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor financeiro de forma crescente ou decrescente.
+* **Cota de Faturamento** : Esta coluna apresenta o número que representa o limite (cota) do valor financeiro que foi definido para o usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor financeiro de forma crescente ou decrescente.
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
-* **Cota de Memória**: Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Memória que for definida para este usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor da quantidade de memória de forma crescente ou decrescente.
+* **Cota de Memória** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Memória que for definida para este usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor da quantidade de memória de forma crescente ou decrescente.
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
-* **Cota de Disco**: Esta coluna apresenta o número inteiro que representa o limite (cota) valor total de Disco de Armazenamento que for definido para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor total do Disco de Armazenamento de forma crescente ou decrescente.
+* **Cota de Disco** : Esta coluna apresenta o número inteiro que representa o limite (cota) valor total de Disco de Armazenamento que for definido para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor total do Disco de Armazenamento de forma crescente ou decrescente.
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
-* **Cota de IPs Públicos**: Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Endereços TCP-IP Públicos que foram definidos para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de IPs Públicos de forma crescente ou decrescente.
+* **Cota de IPs Públicos** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Endereços TCP-IP Públicos que foram definidos para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de IPs Públicos de forma crescente ou decrescente.
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
@@ -606,13 +608,14 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
    :alt: menu de grupo
    :align: center
 
-   * **Cota de CPU**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional das CPUs.
-   * **Cota de Memória**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional de Memória.
-   * **Cota de Disco**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional do Disco de Armazenamento.
-   * **Cota de IPs Públicos**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional de Endereços TCP-IP Público.
-   * **Cota de Faturamento**: Alterar, se necessário, o novo valor do limite (cota) do valor financeiro que for definido para o usuário.
-   * **Botão Editar**: Após checagem de que todas as alterações necessárias foram configuradas, o usuário deve clicar com o botão do mouse no botão Editar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está alterando.
-   * Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando as novas cotas do usuário.
+* **Cota de CPU**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional das CPUs.
+* **Cota de Memória**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional de Memória.
+* **Cota de Disco**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional do Disco de Armazenamento.
+* **Cota de IPs Públicos**: Alterar, se necessário, o novo valor de limite de quantidade do recurso computacional de Endereços TCP-IP Público.
+* **Cota de Faturamento**: Alterar, se necessário, o novo valor do limite (cota) do valor financeiro que for definido para o usuário.
+* **Botão Editar**: Após checagem de que todas as alterações necessárias foram configuradas, o usuário deve clicar com o botão do mouse no botão Editar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está alterando.
+
+Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando as novas cotas do usuário.
 
 
 Criando Novo Grupo
@@ -648,6 +651,7 @@ Assim que um contrato é selecionado, a Plataforma do uCloud apresenta, na colun
    :align: center
 
 Todos os usuários que pertencem ao grupo recebem as mesmas permissões. Existem duas formas diferentes que podem ser utilizadas neste momento para repassar as permissões do contrato para o grupo.
+
   * **Utilizar as permissões padrões**: Esta opção engloba um conjunto padrão de permissões para o grupo, assim todos os usuários herdam este grupo de permissões padrão.
   * **Definir manualmente as permissões**: Ao lado de cada linha de permissão existe um campo do tipo “check box”, ao ser selecionado, adiciona a respectiva permissão ao grupo e aos usuários pertencentes a este grupo. Este processo é detalhado, pois existem mais de cento e sessenta permissões na Plataforma do uCloud. Se o “check box” existente no topo da tabela for selecionado, significa marcar todas as permissões de uma única vez.
   * **Apenas permissões de leitura**: Este campo é do tipo “radio button” ao ser selecionado configura que este grupo (e os usuários que o compõem) estão restritos a visualizar as informações do ambiente de nuvem. Os usuários vinculados a este grupo não possuem permissão de criação e/ou modificação de qualquer recurso computacional nos provedores de nuvem (público e/ou privado).
@@ -687,7 +691,8 @@ O contrato é o primeiro item a ser provisionado na Plataforma do uCloud, logo a
 
 Este documento não cobre o procedimento do processo de provisionar um novo contrato.
 
-Somente usuários com perfil de Administrador de Contrato têm a permissão de visualizar esta lista de contratos da empresa. Este usuário terá acesso apenas aos contratos os quais o seu login de usuário está vinculado no campo de Administrador de Contrato.
+Somente usuários com perfil de Administrador de Contrato têm a permissão de visualizar esta lista de contratos da empresa. Este usuário terá acesso apenas aos contratos os quais o seu login de usuário está vinculado no campo de Administrador de Contrato:
+
 .. figure:: /figuras/uCloud_menu_contrato_001.png
    :alt: menu de contrato
    :align: center
@@ -1191,11 +1196,19 @@ Após confirmar a criação da nova assinatura, a Plataforma do uCloud encerra a
 Menu Configuração / Flavor Billing Profile
 ==========================================
 
-Esta opção permite definir o preço padrão por tipo de flavor a ser utilizado por qualquer usuário na Plataforma do uCloud, definindo seu custo de CPU, custo de memória e custo do disco.
-Flavor, é o termo genérico que todos os provedores de serviço de nuvem utilizam para identificar uma combinação de configuração de hardware (CPU, memória e disco). Podemos traduzir o termo flavor para tipos de instâncias. Cada tipo de flavor (instância) inclui um ou mais tamanhos de configurações de hardware e, desta forma, cada flavor possui um valor de custo referente ao conjunto dos seus recursos.
-Cada provedor tem um custo para cada tipo de flavor em sua lista de preços de recursos computacionais, portanto os valores já existem.
-A configuração de um Flavor Billing Profile é muito útil para os containers de ambientes de data center privado (hypervisor on-premises) desta forma é possível aplicar conceitos de custo de recursos computacionais de nuvem pública (flavors) para os ambientes de nuvem privada.
+Esta opção permite definir o preço padrão por tipo de *flavor* a ser utilizado por qualquer usuário na Plataforma do uCloud, definindo seu custo de CPU, custo de memória e custo do disco.
+
+*Flavor*, é o termo genérico que todos os provedores de serviço de nuvem utilizam para identificar uma combinação de configuração de hardware (CPU, memória e disco). Podemos traduzir o termo *flavor* para **tipos de instâncias**. Cada tipo de *flavor* (instância) inclui um ou mais tamanhos de configurações de hardware e, desta forma, cada *flavor* possui um valor de custo referente ao conjunto dos seus recursos.
+
+Cada provedor tem um custo para cada tipo de *flavor* em sua lista de preços de recursos computacionais, portanto os valores já existem.
+
+A configuração de um *Flavor Billing Profile* é muito útil para os containers de ambientes de data center privado (*hypervisor on-premises*) desta forma é possível aplicar conceitos de custo de recursos computacionais de nuvem pública (*flavors*) para os ambientes de nuvem privada.
+
 Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nuvem pública, o novo valor pode substituir o valor do provedor por um valor provisionado na Plataforma do uCloud definido pelo usuário. Importante ressaltar que esta ação pode criar diversos desdobramentos financeiros na fatura mensal do provedor de serviço de nuvem.
+
+.. image:: /figuras/ucloud_flavor_billing_profile.png
+   :alt: Billing Profile
+   :align: center
 
 * **Botão “Criar Flavor Billing Profile”**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma do uCloud apresenta a tela para configuração de um novo Flavor Billing Profile. O processo de configuração está descrito abaixo no item: Criando um Flavor Billing Profile na página 89.
 
@@ -1220,16 +1233,31 @@ Criando um Flavor Billing Profile
 
 Nesta etapa, será descrito o processo de como definir o valor padrão para um Flavor. Os valores de CPU, Memória e Disco apenas serão aplicados ao alterar a configuração padrão do flavor, principalmente nos casos de adição de discos extras.
 Caso seja mais prático é possível configurar um valor de referência que pode ser preenchido no campo “Valor Fixo Mensal”.
-Quando o usuário clica com o cursor do mouse no botão “Criar Flavor Billing Profile” a Plataforma do uCloud apresenta a seguinte tela:
+
+Quando o usuário clica com o cursor do mouse no botão “Criar Flavor Billing Profile” a Plataforma do uCloud apresenta a seguinte tela;
+
+.. image:: /figuras/ucloud_criar_billing_profile_001.png
+   :alt: Billing Profile
+   :align: center
+
 
 * **Flavor**: Este campo é um campo do tipo “Dropdown” e quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todos os flavors que existem na plataforma:
 
   * Todos os flavors do provedor de serviço de nuvem pública (importado após a configuração das credenciais de acesso a este provedor),
   * Todos os flavors provisionados para serem utilizados no container do data center privado.
 
+.. image:: /figuras/ucloud_criar_billing_profile_002.png
+   :alt: Billing Profile
+   :align: center
+
 Após o usuário selecionar o flavor desejado, a Plataforma do uCloud altera e retorna a tela conforme o exemplo abaixo:
 
 Para compreensão da imagem acima, segue abaixo a descrição dos campos da tela:
+
+.. image:: /figuras/ucloud_criar_billing_profile_003.png
+   :alt: Billing Profile
+   :align: center
+
 
 * **Custo de CPU**: Este campo é obrigatório, o usuário deve informar o custo referente a quantidade de recursos de CPU do flavor selecionado no campo inicial. Por ser um campo obrigatório, o usuário deve informar um número inteiro correspondente para o valor mensal deste recurso, ou preencher com “zero (0)”, para os casos em que o flavor tenha um valor fixo mensal.
 
@@ -1249,7 +1277,9 @@ Desta forma, para facilitar a associação de permissões existe a facilidade de
 O Perfil de Permissionamento habilita ou bloqueia o usuário a executar uma determinada funcionalidade da Plataforma do uCloud, através do Menu de Usuário e os Submenus. As funcionalidades podem ser visualizadas ou acessadas, mas, de acordo com o perfil selecionado, o usuário terá permissão ou não de executar tal funcionalidade.
 A seguir, um exemplo da tela com a lista de Perfis de Permissionamento:
 
-
+.. image:: /figuras/ucloud_perfil_permissionamento_001.png
+   :alt: Billing Profile
+   :align: center
 
 Para compreensão da imagem acima, segue abaixo a descrição das colunas:
 
@@ -1264,49 +1294,47 @@ Para compreensão da imagem acima, segue abaixo a descrição das colunas:
 Visualizar e Editar um Perfil de Permissionamento
 -------------------------------------------------
 Quando o usuário clica com o cursor do mouse em qualquer linha da tabela a Plataforma do uCloud apresenta a tela de visualização do Perfil de Permissionamento, conforme o exemplo da tela abaixo:
-  
+
+.. image:: /figuras/ucloud_perfil_permissionamento_002.png
+   :alt: Billing Profile
+   :align: center
 
 Esta tela possui um botão de ação e duas seções (cards), descritos a seguir:
 
-* **Botão Excluir**: O usuário deve clicar com o cursor do mouse sobre este botão quando for necessário remover um Perfil de Permissionamento previamente provisionado. Ao clicar neste botão, a Plataforma do uCloud apresenta o  seguinte pop-up (imagem abaixo), o usuário responde “sim, pode excluir” e assim confirma a remoção ou “não, cancelar” e desiste de excluir o perfil:
+* **Botão Excluir** |botao_excluir|: O usuário deve clicar com o cursor do mouse sobre este botão quando for necessário remover um Perfil de Permissionamento previamente provisionado. Ao clicar neste botão, a Plataforma do uCloud apresenta o  seguinte pop-up (imagem abaixo), o usuário responde “sim, pode excluir” e assim confirma a remoção ou “não, cancelar” e desiste de excluir o perfil:
 
-* **Botão “Não Cancele”**: Basta o usuário clicar sobre este botão (ou teclar “Esc”) para cancelar a ação, na situação de que tenha acidentalmente clicado sobre o botão de exclusão. Quando o usuário cancela a ação de exclusão a Plataforma do uCloud apresenta a seguinte tela:
+  * **Botão “Não Cancele”**: Basta o usuário clicar sobre este botão (ou teclar “Esc”) para cancelar a ação, na situação de que tenha acidentalmente clicado sobre o botão de exclusão. Quando o usuário cancela a ação de exclusão a Plataforma do uCloud apresenta a seguinte tela:
+  * **Botão “Sim Pode Excluir”**: Quando o usuário está seguro da ação de exclusão, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o Perfil de Permissionamento foi excluído da Plataforma do uCloud;
 
-* **Botão “Sim Pode Excluir”**: Quando o usuário está seguro da ação de exclusão, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o Perfil de Permissionamento foi excluído da Plataforma do uCloud.
+.. image:: /figuras/ucloud_perfil_permissionamento_006.png
+   :alt: Billing Profile
+   :align: center
 
 * **Seção Geral**: Nesta seção são apresentadas informações básicas em relação ao perfil de permissionamento:
 
-* **Nome**: Neste campo é apresentado o nome (curto) do Perfil de Permissionamento, informado pelo usuário no momento do seu provisionamento. Caso o perfil do usuário, que está acessando esta tela, tenha a permissão de alteração de perfis de permissionamento, o ícone de edição estará ativo.
+  * **Nome**: Neste campo é apresentado o nome (curto) do Perfil de Permissionamento, informado pelo usuário no momento do seu provisionamento. Caso o perfil do usuário, que está acessando esta tela, tenha a permissão de alteração de perfis de permissionamento, o ícone de edição estará ativo.
 
-* **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de alteração do seu conteúdo.
+    * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de alteração do seu conteúdo.
+    * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+    * **Ícone de Cancelamento** |icone_cancel|: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
 
-* **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+  * **Descrição**: Neste campo é apresentada a descrição (extensa) do Perfil de Permissionamento, informado pelo usuário no momento do provisionamento.
 
-* **Ícone de Cancelamento** |icone_cancel|: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
-
-* **Descrição**: Neste campo é apresentada a descrição (extensa) do Perfil de Permissionamento, informado pelo usuário no momento do provisionamento.
-
-* **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
-
-* **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-
-* **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
+    * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
+    * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+    * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
 
 * **Seção Permissões**: Nesta seção da tela são listadas as primeiras vinte e cinco (25) permissões vinculadas a este perfil de permissionamento. Importante relembrar que a Plataforma do uCloud possui mais de cento e cinquenta permissões, as quais são apresentadas com as iniciais de cada permissão.
 
-* **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e lista os nomes das permissões em ordem alfabética crescente (a – z) ou decrescente (z – a).
+  * **Mudar a Classificação**: Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e lista os nomes das permissões em ordem alfabética crescente (a – z) ou decrescente (z – a).
+  * **Busca Rápida**: O usuário observa que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista com os nomes das permissões. Basta preencher o campo em branco, com uma sequência de caracteres percebidos como relevantes e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
 
-* **Busca Rápida**: O usuário observa que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista com os nomes das permissões. Basta preencher o campo em branco, com uma sequência de caracteres percebidos como relevantes e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
+    * **Botão Editar** |botao_editar|: Este botão destina-se ao usuário que possuir a permissão de alteração de Perfil de Permissionamento, se ele desejar alterar o conjunto de permissões vinculadas a este perfil, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta a tela abaixo:
 
-* **Botão Editar**: Este botão destina-se ao usuário que possuir a permissão de alteração de Perfil de Permissionamento, se ele desejar alterar o conjunto de permissões vinculadas a este perfil, basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta a tela abaixo:
-
-* Esta tela possui duas colunas distintas, à esquerda são as permissões previamente adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, pode excluir (revogar) a respectiva permissão deste usuário.
-
-* À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
-
-* “Checkbox” no título da coluna: Ao selecionar este campo “checkbox”, que está presente no título da coluna, ele informa a Plataforma do uCloud a ação de selecionar todas as permissões ainda não vinculadas ao perfil de permissionamento. Desta forma, uma única ação seleciona todas as permissões de uma única vez.
-
-* **Botão Aplicar**: Após o usuário certificar-se de que todas as alterações necessárias foram configuradas (inclusões ou exclusões), ele deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está visualizando/alterando. Após esta ação a Plataforma do uCloud fecha esta tela e recupera a tela anterior com seu conteúdo atualizado que apresenta a nova relação de permissões deste usuário que se está visualizando ou alterando o perfil.
+      * Esta tela possui duas colunas distintas, à esquerda são as permissões previamente adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, pode excluir (revogar) a respectiva permissão deste usuário.
+      * À direita estão as permissões disponíveis na Plataforma do uCloud que podem ser adicionadas ao perfil. Ao lado de cada permissão existe um campo do tipo “checkbox” que, quando selecionado, adiciona a respectiva permissão deste usuário.
+      * “Checkbox” no título da coluna: Ao selecionar este campo “checkbox”, que está presente no título da coluna, ele informa a Plataforma do uCloud a ação de selecionar todas as permissões ainda não vinculadas ao perfil de permissionamento. Desta forma, uma única ação seleciona todas as permissões de uma única vez.
+      * **Botão Aplicar**: Após o usuário certificar-se de que todas as alterações necessárias foram configuradas (inclusões ou exclusões), ele deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está visualizando/alterando. Após esta ação a Plataforma do uCloud fecha esta tela e recupera a tela anterior com seu conteúdo atualizado que apresenta a nova relação de permissões deste usuário que se está visualizando ou alterando o perfil.
 
 Criando um Perfil de Permissionamento
 -------------------------------------
@@ -1401,15 +1429,56 @@ Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedo
 
 Segue a descrição dos botões desta tela:
 
-* **Botão Lançar Accountant |botao_lanca_acct|**: Este botão apresenta a tela para provisionar um novo Billing Profile na Plataforma do uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de Plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
-* **Botão Limpar Histórico |botao_limpa_acct|**: ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação.
-* **Botão Refresh |botao_refresh|**: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim, toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes, então, executem a ação desejada. Para atualizar apenas o conteúdo das seções de tela (as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual aciona a execução e atualiza as informações contidas na base de dados da plataforma.
+* **Botão Lançar Accountant** |botao_lanca_acct| : Este botão apresenta a tela para provisionar um novo Billing Profile na Plataforma do uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de Plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
+
+* **Botão Limpar Histórico** |botao_limpa_acct| : *ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação.*
+
+* **Botão Refresh** |botao_refresh| : A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim, toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes, então, executem a ação desejada. Para atualizar apenas o conteúdo das seções de tela (as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual aciona a execução e atualiza as informações contidas na base de dados da plataforma.
 
 Informações de Registro (LOG) do Billing Admin
 ----------------------------------------------
 
+A configuração de Billing Admin é a forma como a Plataforma do uCloud identifica o arquivo da fatura (cobrança) dos valores, referentes aos custos dos recursos computacionais de nuvem, nas credenciais do cliente.
+Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
+A configuração de Billing Admin, na Plataforma do uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
+A Plataforma do uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
+Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma do uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato na página 58.
+Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma do uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
+Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
+
+
+
+Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
+Segue a descrição dos botões desta tela;
+
+* **Botão Lançar Accountant** |botao_lanca_acct|: Este botão apresenta a tela para provisionar um novo Billing Profile na Plataforma do uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de Plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.
+* **Botão Limpar Histórico** |botao_limpa_acct|: ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da Plataforma do uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação.
+* **Botão Refresh** |botao_refresh|: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, assim, toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes, então, executem a ação desejada. Para atualizar apenas o conteúdo das seções de tela (as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual aciona a execução e atualiza as informações contidas na base de dados da plataforma.
+
+Informações de Registro (LOG) do Billing Admin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+É permitido ao usuário com o perfil de Administrador do Contrato identificar potenciais discrepâncias de valores, que porventura sejam apresentadas no menu Financeiro, este usuário pode verificar se há algum problema na comunicação entre a Plataforma do uCloud e a console do provedor, através do botão “Log”.
+Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones a cada configuração provisionada:
+
+* **Nome**: Esta etiqueta identifica o nome do Billing Profile que foi informado no momento de sua configuração inicial.
+* **Indicador do Tipo de Execução**: Esta etiqueta identifica (“ASYNC”) o tipo de execução do processo de sincronização, selecionado no momento da sua configuração inicial.
+* **Ícone de Status de Execução**: Esta etiqueta apresenta o status do processo de sincronização da Plataforma do uCloud com a console do provedor de serviço de nuvem pública.
+* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para informar a Plataforma do uCloud que remova (exclua) esta configuração de Billing Admin de forma imediata e definitiva. 
+* **Ícone LOG**: Basta o usuário clicar neste ícone que a Plataforma do uCloud apresenta uma tela que permite visualizar o registro de atividade (log) referente às tarefas de sincronização do Billing Profile com as bases de dados do uCloud. Este recurso é fundamental para identificar qualquer problema de comunicação da Plataforma do uCloud com o ambiente do provedor de serviço de nuvem pública, para obtenção do arquivo texto não formatado (*.CSV).
+
 Menu Configuração / Tagueamento de Recursos USN
 ===============================================
+
+Esta opção, do menu de funcionalidades, somente deve ser acessada quando o modelo Financeiro do contrato for vinculado a um Ministério, Órgão ou Agência do Governo Brasileiro. E que os valores dos recursos computacionais de nuvem pública, sejam convertidos para Unidade de Serviço de Nuvem (USN).
+
+.. note:: Empresas privadas **não necessitam** das facilidades de USN utiliada através deste menu.
+
+No modelo de cobrança do recurso computacional de nuvem pública, todo recurso deve ter uma etiqueta (tag) na qual é aplicado um valor, em USN, a ser tarifado (billing) no ambiente da Plataforma do uCloud. Os recursos importados do arquivo de billing das nuvens públicas que não possuam nenhuma etiqueta (tag) no provedor de serviço de nuvens, no processo de importação, estes recursos recebem uma etiqueta (tag) na plataforma do uCloud, baseado no perfil de tagueamento adicionado ao contrato ao qual este recurso pertence.
+
+Uma etiqueta (tag) é um rótulo no qual o usuário atribui um valor a um recurso computacional de nuvem pública. As etiquetas (tags) permitem categorizar seus recursos nas nuvens. Por exemplo, o usuário ou a organização, podem definir um conjunto de etiquetas (tag), para as instâncias do Amazon EC2, na sua conta que auxilie rastrear o nível do agrupamento (empilhamento de valores - stack) de cada recurso computacional de nuvem pública consumido.
+
+A seguir, será descrito o processo de criação de um perfil de etiquetamento de recursos computacionais de nuvem pública (tag profile) em USN.
 
 
 Criação de um Tagueamento de Recurso USN
@@ -1556,7 +1625,7 @@ Menu Financeiro (Ambiente Corporativo)
 ======================================
 Seção Minha Fatura
 ------------------
-Seção ‘X’ Contratos
+Seção X Contratos
 -------------------
 Fatura do Grupo no Contrato
 ---------------------------
@@ -1717,6 +1786,12 @@ Menu Inventário de Recursos
 ===========================
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
+
+.. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
+
+.. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
+
+.. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
 
 .. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
 

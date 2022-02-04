@@ -1,0 +1,395 @@
+Manual da API REST do uCloud para o DCI
+Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem distribuída.
+Versão 1.9
+Thullyo Cunha
+thullyo@usto.re
+Apresentação
+
+Este documento apresenta os procedimentos operacionais para a utilização da API REST da plataforma Ucloud para atendimento ao projeto do DCI. No sumário estão descritos os itens ou etapas necessárias para a correta operação do Ucloud via API REST para obtenção de dados da plataforma e execução das tarefas do DCI.
+
+MANUAL OPERACIONAL PARA OBTENÇÃO DE DADOS VIA API REST
+
+Apreciamos feedback, estamos em melhoria contínua dos nossos processos. Equipe Ustore
+Histórico de Mudanças Criado por Revisado por Autorizado por
+
+.. csv-table:: Histórico de Mudanças
+   :header: "Data", "Versão", "Revisado por", , "Comentário"
+   :widhts: 10, 10, 30, 40
+   "06/11/2020", "1.0", "TC", "Criação do documento"
+   "07/12/2020", "1.1", "TC", "Atualização do documento"
+   "17/12/2020", "1.2", "TC", "Atualização do documento"
+   "28/12/2020", "1.2", "TC", "Atualização do documento"
+11/01/2021
+1.2
+GA
+Revisão e Atualização do documento
+14/01/2021
+1.3
+David Bertelli
+Formatação
+05/05/2021
+1.4
+Rodrigo Assad
+Atualização de documento
+16/05/2021
+1.5
+Carlos Machado
+Atualização de documento –
+Requisição/retorno firstSale (Item 3)
+20/05/2021
+1.6
+Carlos Machado
+Atualização de documento –
+Requisição/retorno firstSale (Item 3 / 4)
+21/05/2021
+1.7
+Carlos Machado
+Atualização de documento
+16/06/2021
+1.8
+Lenildo Morais
+Atualização de documento - inclusão de tabela com códigos de erros, e inserção da chamada 152.
+04/10/2021
+1.9
+Pedro Henrique Silva
+Adição de Cancelamento de pedido, excursionamento, bloqueio e desbloqueio de circuito e mudança de velocidade.
+09/12/2021
+1.10
+Pedro Henrique Silva
+Adição de Requisições ao Odin, em cancelamento de primeira venda.
+01/02/2022
+1.11
+Pedro Henrique Silva
+Adição de Requisições ao Odin, em cancelamento de vendas subsequentes
+
+Sumário
+
+Apresentação 2
+
+Histórico de Mudanças 2
+1. Como fazer login: 5
+2. Como fazer a verificação de token: 6
+3. Como realizar primeira venda (Odin -> Ucloud): 7
+4. Requisição de retorno da primeira venda (Ucloud -> Odin): 9
+5. Como realizar solicitação de alocação de porta (Odin -> Ucloud): 12
+6. Requisição de retorno para alocação de porta (Ucloud -> Odin): 14
+7. Como realizar solicitação de desalocação de porta (Odin > Ucloud): 16
+8. Requisição de retorno para desalocação de porta (Ucloud -> Odin) 18
+9. Como realizar solicitação de ativação de circuito (Odin -> Ucloud): 19
+10. Requisição de retorno para ativação de circuito (Ucloud -> Odin): 20
+11. Como realizar solicitação de desativação de circuito (Odin -> Ucloud): 22
+12. Requisição de retorno para desativação de circuito (Ucloud -> Odin): 24
+13. Chamada 152 (Odin -> Ucloud): 25
+14. Chamada 1122 (Odin -> Ucloud): 28
+15. Mudança de velocidade de circuito (Odin -> Ucloud): 29
+16. Requisição de retorno para circuito bloqueado (Ucloud -> Odin): 30
+17. Como realizar solicitação de Bloqueio de Circuito (Odin -> Ulcoud): 31
+18. Requisição de retorno para circuito bloqueado (Ucloud -> Odin): 32
+19. Como realizar solicitação de Desbloqueio de Circuito (Odin -> Ucloud): 33
+20. Requisição de retorno para circuito desbloqueado (Ucloud -> Odin) 34
+21. Como realizar solicitação de Cancelamento de um pedido (Odin -> Ucloud): 35
+22. Requisição de retorno para cancelamento do pedido (Ucloud -> Odin): 36
+23. Como realizar consulta de excursionamento atual (APS -> Ucloud): 37
+24. Como realizar consulta de excursionamento de um período (APS -> Ucloud): 38
+Conclusão 40
+
+1. Como fazer login:
+
+Para efetuar o login e obter token de acesso:
+Request:
+Endpoint: /ucloud/rest/users/login
+Method: POST
+URL Params: n/a
+Header Params: n/a
+Body: Json { "login": "String", "password": "String" }
+Success Response:
+Code: 200
+Content: {response: [string]}
+Exemplo: 759c0384-7961-4702-9186-4f2f1177f3cc
+Error Response:
+Code: 422 UNPROCESSABLE ENTRY
+Content: {response : " Invalid login for user:” NOME_DO_USUARIO }
+Observações:
+• As credenciais usadas nesta operação serão de um usuário administrador do sistema do Ucloud.
+
+2. Como fazer a verificação de token:
+Essa chamada pode ser usada para verificar se um token ainda é válido.
+Request:
+Endpoint: /ucloud/rest/users/verify
+Method: POST
+URL Params: n/a Header Params:
+token=[string]
+Body: n/a
+Success Response:
+Code: 200
+Content: n/a
+Error Response:
+Code: 404
+Content: Content: {response : "Invalid token”}
+3. Como realizar primeira venda (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/firstsale
+Method: POST
+URL Params: n/a Header Params:
+token=[string]
+Body: Json { "sourceSystem_Id": "ODIN", "customerContactEmail": "email@claro.com", "customerFirstName": "Gustavo", "customerLastName":"Endi", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111", "serviceSiteLocalStationAcronA": "RJO DEO", "serviceSiteLocalStationAcronB": "SPO LP", "serviceSitePortBandA": 1, "serviceSitePortSubscriptionA_Id": "112236", "serviceSitePortBandB": 1, "serviceSitePortSubscriptionB_Id": "112237", "serviceSiteCircuitBandWidth": 300, "serviceSiteTypeCircuit": "VLAN", "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteVlan_Id": 5 }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false }
+Mensages de Erro CODE ERROR MESSAGE 400 Should be valid 400 Must be positive 400 Invalid or already exist 400 Cannot be null 500 Internal server error
+Observações:
+• As informações de conta, contrato, grupo, usuário e virtual datacenter podem ser armazenadas para repasse ao cliente que poderá acessar o sistema diretamente com seu usuário e senha (inicialmente a senha será aleatória e o usuário receberá notificação de mudança no primeiro login).
+• O domínio de typeCircuit pode ser “VLAN” ou “PORT”;
+• O domínio de vlan é campo inteiro podendo variar do número 2 ao 255 e será preenchido se typeCircuit = “VLAN”, caso contrário vlan não terá conteúdo;
+4. Requisição de retorno da primeira venda (Ucloud -> Odin):
+Request- Sucesso:
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false, "ports": [ { "seviceSitePort": "A", "serviceSitePortSubscription_Id": "112236", "serviceSiteFacingService_Id": "RJO DEO/DCI/0002", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativa ou não e motivo do erro" }, { "seviceSitePort": "B", "serviceSitePortSubscription_Id": "112237", "serviceSiteFacingService_Id": "SPO LP/DCI/0003", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativa ou não e motivo do erro", } ], "circuit": { "serviceSitePortSubscriptionA_Id": "112236", "serviceSitePortSubscriptionB_Id": "112237", "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativo ou não e motivo do erro" } }
+Request – Cancelamento de ordem em caso de falha
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-123355693124", "responseCode": "223", "responseMessage": " Cancelado pelo usuário com falha na operação", "failed": true, "ports": [ { "serviceSitePort": "A", "serviceSiteFacingService_Id": "RJO CR1/DCI/335", "serviceSitePortSubscription_Id": "112236", "serviceSiteStatusCode": 9, "serviceSiteStatusMessage": "Port unavailabled" }, { "serviceSitePort": "B", "serviceSiteFacingService_Id": "RJO CR1/DCI/335", "serviceSitePortSubscription_Id": "112237", "serviceSiteStatusCode": 15, "serviceSiteStatusMessage": "Port dealocated" } ], "circuit": { "serviceSitePortSubscriptionA_Id": "112236", "serviceSitePortSubscriptionB_Id": "112237", "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteFacingService_Id": "", "serviceSiteStatusCode": 0, "serviceSiteStatusMessage": "Circuit Cancelled" } }
+Request – Cancelamento de ordem pelo usuário
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-123355693124", "responseCode": "224", "responseMessage": "Ordem cancelada pelo usuário", "failed": true, "ports": [ { "serviceSitePort": "A", "serviceSiteFacingService_Id": "RJO CR1/DCI/335", "serviceSitePortSubscription_Id": "112236", "serviceSiteStatusCode": 9, "serviceSiteStatusMessage": "Port Cancelled" }, { "serviceSitePort": "B", "serviceSiteFacingService_Id": "SPO CR2/DCI/336", "serviceSitePortSubscription_Id": "112237", "serviceSiteStatusCode": 15, "serviceSiteStatusMessage": "Port Cancelled" } ], "circuit": { "serviceSitePortSubscriptionA_Id": "112236", "serviceSitePortSubscriptionB_Id": "112237", "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteFacingService_Id": "", "serviceSiteStatusCode": 0, "serviceSiteStatusMessage": "Circuit Cancelled" } }
+5. Como realizar solicitação de alocação de porta (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/port/allocation
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111", "serviceSiteLocalStationAcron": "RJO DEO", "serviceSitePortBand": 1, "serviceSitePortSubscription_Id": "112236" }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false }
+Mensagens de Erro CODE ERROR MESSAGE
+400 Cannot be null 500 Internal server error
+6. Requisição de retorno para alocação de porta (Ucloud -> Odin):
+Request:
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false, "ports": { "serviceSitePortSubscription_Id": "112236", "serviceSiteFacingService_Id": "RJO DEO/DCI/0002", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativa ou não e motivo do erro", } }
+Request – Cancelamento de ordem em caso de falha de alocação
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json
+{
+"targetSystem_Id": "ODIN",
+"throwerSystem_Id": "UCLOUD",
+"externalProposal_Id": "OdinP589223344346354562341",
+"responseCode": "223",
+"responseMessage": "Ordem cancelada por erro",
+"failed": true,
+"ports": {
+"serviceSitePort": null,
+"serviceSiteFacingService_Id": null,
+"serviceSitePortSubscription_Id": "96883523415534528997886512",
+"serviceSiteStatusCode": 16,
+"serviceSiteStatusMessage": "Mensagem do BPA: porta quebrada"
+}
+}
+Request – Cancelamento de ordem por usuário
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json
+{
+"targetSystem_Id": "ODIN",
+"throwerSystem_Id": "UCLOUD",
+"externalProposal_Id": "OdinP589223344346354562341",
+"responseCode": "224",
+"responseMessage": "Ordem cancelada por usuário",
+"failed": true,
+"ports": {
+"serviceSitePort": null,
+"serviceSiteFacingService_Id": null,
+"serviceSitePortSubscription_Id": "96883523415534528997886512",
+"serviceSiteStatusCode": 16,
+"serviceSiteStatusMessage": "Mensagem do BPA: porta quebrada"
+}
+}
+7. Como realizar solicitação de desalocação de porta (Odin > Ucloud):
+Request:
+Endpoint: /dci/rest/port/deallocation/{identificação da porta} Method: POST
+URL Params:
+{identificação da porta} = identificador único definido
+Header Params:
+token=[string]
+Body: Json { "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111", }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false }
+Mensagens de Erro CODE ERROR MESSAGE 400 Should be valid
+400 customerDocumentType should be valid: [CGC,CPF,PAS,CSL,EMB] 500 Internal server error
+Observações:
+• A identificação da porta será a informada pelo sistema solicitante (Odin) quando da alocação de porta ou da fistsale, exemplo “112236” fornecido em "serviceSitePortSubscription_Id"; será utilizada a assinatura do solicitante (Odin).
+8. Requisição de retorno para desalocação de porta (Ucloud -> Odin)
+Request:
+Endpoint: /services/IntegFluxoOdin/dci/req/ret. Method: POST
+URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false, "ports": { "serviceSitePortSubscription_Id": "112236", "serviceSiteFacingService_Id": "RJO DEO/DCI/0002", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativa ou não e motivo do erro", } }
+Observações:
+• A identificação da porta será a informada pelo sistema solicitante (Odin) quando da alocação de porta ou da fistsale, exemplo “112236” fornecido em "serviceSitePortSubscription_Id"; será utilizada a assinatura do solicitante (Odin).
+9. Como realizar solicitação de ativação de circuito (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/circuit/activation
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111", "serviceSiteCircuitBandWidth": 300, "serviceSiteCircuitSubscription_Id": "112238", }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false } Mensagens de Erro CODE ERROR MESSAGE 400 Cannot be null 500 Internal server error
+10. Requisição de retorno para ativação de circuito (Ucloud -> Odin):
+Request:
+Endpoint: /services/IntegFluxoOdin/dci/req/ret
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false, "ports": [ { "seviceSitePort": "A", "serviceSitePortSubscription_Id": "112236", "serviceSiteFacingService_Id": "RJO DEO/DCI/0002", }, { "seviceSitePort": "B", "serviceSitePortSubscription_Id": "112237", "serviceSiteFacingService_Id": "SPO LP/DCI/0003", } ], "circuit": { "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativo ou não e motivo do erro", } }
+Request – Cancelamento de ordem em caso de não uso do ticket de serviço no período estimado
+Endpoint:
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "OdinP11223344", "responseCode": "224", "responseMessage": "Ticket excedeu o tempo limite sem ativação", "failed": true, "circuit": { "serviceSiteCircuitSubscription_Id": "9998264564867991", "serviceSiteFacingService_Id": null, "serviceSiteStatusCode": 16, "serviceSiteStatusMessage": "Ticket deactivated" } }
+11. Como realizar solicitação de desativação de circuito (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/circuit/deactivation/{identificação do circuito} Method: DELETE
+URL Params:
+{identificação do circuito} = identificador único definido
+Header Params:
+token=[string]
+Body: Json { "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111", }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false }
+Mensagens de Erro CODE ERROR MESSAGE
+400 Cannot be null 500 Internal server error
+Observações:
+• O parâmetro “ucloudIdentifier” precisa ser armazenado pelo Odin, pois o endpoint necessita do identificador da porta no ucloud para realizar a solicitação.
+• A identificação do circuito será a informada pelo sistema solicitante (Odin) quando da ativação do circuito ou da fistsale, exemplo “112238” fornecido em "serviceSiteCircuitSubscription_Id"; será utilizada a assinatura do solicitante (Odin).
+12. Requisição de retorno para desativação de circuito (Ucloud -> Odin):
+Request:
+Endpoint: A ser definido pelo time do Odin
+Method: POST URL Params: n/a Header Params:
+token=[string]
+Body: Json { "targetSystem_Id": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239823", "responseCode": "200", "responseMessage": {}, "failed": false, "circuit": { "serviceSiteCircuitSubscription_Id": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteStatusCode": 500, "serviceSiteStatusMessage": "mensagem informando se o circuito está ativo ou não e motivo do erro", } }
+13. Chamada 152 (Odin -> Ucloud):
+Request:
+EndPoint: /dci/rest/designation
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json { "designation": "RJO CR1/SPO CR2/DCI/00047" }
+Response:
+Code: 201 Content:
+{ "customer": { "organization": { "name": "pereiraEmp", "tradeName": "pereiraEmp", "contactPerson": null, "nationalRegistration_Id": "16.826.461/0001-58" }, "size": null, "priority": null }, "customerAccount": { "id": "12369" }, "resultItem": { "code": "200", "message": "OK", "systemResponseThrower": "UCLOUD" }, "serviceConfiguration": { "customerFacingService": { "id": null, "specification": null, "status": null, "name": null, "interruptTime": null }, "resourceFacingService": { "id": "RJO IW/SPO LP/DCI/00012", "specification": {
+"type": "Circuit" }, "activationDate": "2021-10-07T11:17:55", "treatment": null, "mode": null, "cnoc": null, "baseVelocity": 300, "configurationType": "VLAN", "componentResourceFacingService": null, "physicalResource": [{ "site_Id": "A", "id": "RJO IW/DCI/68", "portCapacity": 1, "callRoom": "SALA 4", "resourceName": "router01.rjoam", "interfacePort": "100/0/0/1", "vlan": "VLAN", "csl_Id": "RJO", "dgodciposition": "SALA 4, FILA 1, BASTIDOR 3" }, { "site_Id": "B", "id": "SPO LP/DCI/69", "portCapacity": 10, "callRoom": "SALA 4", "resourceName": "router01.spomb", "interfacePort": "0/0/0/1", "vlan": "VLAN", "csl_Id": "SPO", "dgodciposition": "SALA 4, FILA 1, BASTIDOR 3" }] }, "party": { "customer": [{ "roleName": null, "site_Id": "A", "organization": { "tradeName": "IBM", "serviceSite": { "address": { "addressStreetNr": "138", "addressStreetType": "AV", "addressStreetName": "PASTEUR", "addressComplement": "GALPAO 2", "addressNeighborhood": "BOTAFOGO", "addressLocality": "RIO DE JANEIRO", "addressAcronymStateOrProvince": "RJ", "addressPostcode": "22290903", "addressLocalityCode": "RJO" } }
+} }, { "roleName": null, "site_Id": "B", "organization": { "tradeName": "EMBRATEL", "serviceSite": { "address": { "addressStreetNr": "200", "addressStreetType": "R", "addressStreetName": "ALDO DE AZEVEDO", "addressComplement": "GALPAO 2", "addressNeighborhood": "VILA MADALENA", "addressLocality": "SAO PAULO", "addressAcronymStateOrProvince": "SP", "addressPostcode": "5453030", "addressLocalityCode": "SPO" } } } }] } } }
+14. Chamada 1122 (Odin -> Ucloud):
+Request:
+EndPoint: /dci/rest/circuit/sir
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json { "designation": "RJO CR1/SPO CR2/DCI/00047" }
+Response:
+Code: 200 Content:
+{ "accountCle": "200", "activationDate": "01-03-2021 09:11:31", "serviceCode": "0268", "provider": "UCLOUD", "bandwidth": 700, "designation": "RJO CR1/SPO CR2/DCI/00047" }
+Error Response:
+Code: 404 Content:
+{ "timestamp": 1614875596523, "status": 404, "error": "Not Found", "message": "Circuito não encontrato para a designação: RJO CR1/SPO CR2/DCI/00047", "path": "/dci/rest/circuit/sir/RJO540242-BRE58685-DCI-1" }
+15. Mudança de velocidade de circuito (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/circuit/changebandwidth/{identificação do circuito}
+Method: POST
+URL Params: {identificação do circuito} = identificador único definido
+Header Params: token=[string]
+Body: Json
+{ "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239823", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "serviceSiteCircuitBandWidth": 300, "customer_Id": "000000000111111" }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239829", "responseCode": "200", "responseMessage": {}, "failed": false }
+16. Requisição de retorno para circuito bloqueado (Ucloud -> Odin):
+Request:
+Endpoint: A ser definido pelo time do Odin.
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239829", "responseCode": "200", "responseMessage": {}, "failed": false, "circuit": { "serviceSiteCircuitSubscription_Id ": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteCircuitBandWidth": 300, "serviceSiteStatusMessage": "Mensagem informando atualização da banda do circuito com sucesso" } }
+17. Como realizar solicitação de Bloqueio de Circuito (Odin -> Ulcoud):
+Request:
+Endpoint: /dci/rest/circuit/block/{identificação do circuito}
+Method: POST
+URL Params: {identificação do circuito} = identificador único definido
+Header Params: token=[string]
+Body: Json
+{ "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239828", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111" }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239828", "responseCode": "200", "responseMessage": {}, "failed": false }
+18. Requisição de retorno para circuito bloqueado (Ucloud -> Odin):
+Request:
+Endpoint: A ser definido pelo time do Odin.
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239829", "responseCode": "200", "responseMessage": {}, "failed": false, "circuit": { "serviceSiteCircuitSubscription_Id ": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteStatusCode": 5, "serviceSiteStatusMessage": "Mensagem informando circuito bloqueado com sucesso" } }
+19. Como realizar solicitação de Desbloqueio de Circuito (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/circuit/unlock/{identificação do circuito}
+Method: POST
+URL Params: {identificação do circuito} = identificador único definido
+Header Params: token=[string]
+Body: Json
+{ "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239828", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111" }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239828", "responseCode": "200", "responseMessage": {}, "failed": false }
+20. Requisição de retorno para circuito desbloqueado (Ucloud -> Odin)
+Request:
+Endpoint: A ser definido pelo time do Odin.
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json
+{ "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239829", "responseCode": "200", "responseMessage": {}, "failed": false, "circuit": { "serviceSiteCircuitSubscription_Id ": "112238", "serviceSiteFacingService_Id": "RJO DEO/SPO LP/DCI/0001", "serviceSiteStatusCode": 7, "serviceSiteStatusMessage": "Mensagem informando circuito desbloqueado com sucesso" } }
+21. Como realizar solicitação de Cancelamento de um pedido (Odin -> Ucloud):
+Request:
+Endpoint: /dci/rest/firstsale/{Identificação da Ordem}/cancel
+Method: POST
+URL Params: {Identificação da Ordem} = identificador único definido
+Header Params: token=[string]
+Body: Json
+{ "sourceSystem_Id": "ODIN", "customerName": "clienteTeste", "customerExternal_Id": {}, "externalProposal_Id": "UA-239828", "customerDocumentType": "CGC", "customerDocumentNum": "16.826.461/0001-58", "customer_Id": "000000000111111" }
+Response:
+Code: 201 Content: { "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239828", "responseCode": "200", "responseMessage": {}, "failed": false }
+22. Requisição de retorno para cancelamento do pedido (Ucloud -> Odin):
+Request:
+Endpoint: A ser definido pelo time do Odin.
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json
+{ "targetSystem_Id:": "ODIN", "throwerSystem_Id": "UCLOUD", "externalProposal_Id": "UA-239828", "responseCode": "200", "responseMessage": "Ordem de venda cancelada", "failed": false }
+23. Como realizar consulta de excursionamento atual (APS -> Ucloud):
+Request:
+Endpoint: /dci/rest/excursion
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: n/a
+Response:
+Content:
+{ "excursionDate":"01-04-1999", "excursions": [ { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0001", "excursionBandwidth":500 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0002", "excursionBandwidth":400 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0003", "excursionBandwidth":200 } ] }
+24. Como realizar consulta de excursionamento de um período (APS -> Ucloud):
+Request:
+Endpoint: /dci/rest/excursion/period
+Method: POST
+URL Params: n/a
+Header Params: token=[string]
+Body: Json
+{ "excursionStartDate": "28-09-2021", "excursionEndDate": "30-09-2021" }
+Response:
+Content: { [ { "excursionDate":"28/09/2021", "excursions": [ { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0005", "excursionBandwidth": 200 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0006", "excursionBandwidth":300 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0007", "excursionBandwidth":400 } ] }, { "excursionDate":"29/09/2021", "excursions": [ { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0005", "excursionBandwidth": 200 }, {
+"serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0006", "excursionBandwidth":300 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0007", "excursionBandwidth":400 } ] } { "excursionDate":"30/09/2021", "excursions": [ { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0005", "excursionBandwidth": 300 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0006", "excursionBandwidth":300 }, { "serviceSiteFacingService_Id":"RJO DEO/SPO LP/DCI/0007", "excursionBandwidth":400 } ] } ] }
+Conclusão
+Assim, este documento apresentou uma descrição geral dos procedimentos necessários para as operações do DCI através da API REST do Ucloud. A leitura deste guia de utilização permitirá ao usuário do sistema entender e utilizar as suas funcionalidades de maneira adequada.
+Equipe Ustore.
