@@ -214,7 +214,7 @@ Menu Administração
 
 Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é importante esclarecer alguns pontos sobre a Plataforma do uCloud, nos conceitos existem três termos que serão amplamente utilizados no ambiente do uCloud;
 
-* **Contrato**: é a forma com o qual se define a relação ‘comercial’ entre o provedor e a empresa que o contratou. No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais.
+* **Contrato**: é a forma com o qual se define a relação *comercial* entre o provedor e a empresa que o contratou. No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais.
 
 * **Grupo**: é uma forma lógica definida unicamente dentro da Plataforma do uCloud que pode definir um grupo de usuários (ex.: DevOps), um departamento (ex.: vendas), uma iniciativa (ex.: VDI), ao qual vários usuários estão associados sendo parte integrante deste grupo. Estes ‘grupos’ não existem nos provedores de nuvem (público e/ou privado) existem somente dentro da Plataforma do uCloud.
 
@@ -329,7 +329,7 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
   * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de terem seu conteúdo altera.
   * **Ícone de Edição Inativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
   * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-  * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição por engano ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+  * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
   * **Barra de Rolagem**: Esta seção possui um grande conjunto de campos, para a completa visualização de todos o usuário deve utilizar a barra de rolagem ao lado direito desta seção. Se o usuário rolar o mouse, a tela desce e apresenta os campos que não estavam sendo visualizados, conforme a tela abaixo:
   * **Apenas Leitura** : Este campo configura um usuário que não tem permissão de efetuar nenhuma ação através da Plataforma do uCloud, mas seu login está ativo e ele possui a capacidade de visualizar todas as telas, as quais ele tenha permissão.
 
@@ -553,7 +553,7 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
    * **Ícone de Edição Ativo**: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
    * **Ícone de Edição Inativo**: Todos os campos que possuem o ícone de edição inativo ou não são passíveis de terem seu conteúdo alterado através desta tela (ex.: valores das cotas de grupo) ou o perfil do usuário que está registrado e acessando esta tela, não possui permissão para alterar o conteúdo do(s) campo(s).
    * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-   * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
+   * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que as alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo irá retornar para os valores iniciais, antes de qualquer preenchimento ou alteração.
 
 * **Seção Permissões**: O Grupo recebe (herda) todas as permissões definidas no Contrato ao qual este grupo está vinculado. Esta tabela é opcional, mas permite adicionar ou revogar as permissões que este grupo possui para efetuar ações ou acessar menus na Plataforma do uCloud.
 
@@ -749,7 +749,7 @@ Este documento não cobre o procedimento do processo de provisionar um novo cont
 
 Somente usuários com perfil de Administrador de Contrato têm a permissão de visualizar esta lista de contratos da empresa. Este usuário terá acesso apenas aos contratos os quais o seu login de usuário está vinculado no campo de Administrador de Contrato:
 
-.. figure:: /figuras/uCloud_menu_contrato_001.png
+.. figure:: /figuras/ucloud_menu_contrato_001.png
    :alt: menu de contrato
    :align: center
 
@@ -811,7 +811,7 @@ Visualizando Contrato
 
 A Tela de visualização de contrato é a uma das mais extensas telas da Plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
 
-.. figure:: /figuras/uCloud_menu_contrato_002.png
+.. figure:: /figuras/ucloud_menu_contrato_002.png
    :alt: menu de contrato
    :align: center
 
@@ -822,7 +822,7 @@ Seção Geral
 
 Quando um contrato é provisionado no sistema, o usuário com perfil de Administrador informa os dados cadastrais básicos da organização, informações gerais para um contrato, tais como Identificação do contrato, nome da empresa, o código CNPJ para empresas (ou CPF no caso de pessoa física), a forma padrão de faturamento das máquinas deste contrato (este padrão de faturamento fica válido somente no caso de não existir regras de bilhetagem no restante do contrato).
 
-.. figure:: /figuras/uCloud_menu_contrato_003.png
+.. figure:: /figuras/ucloud_menu_contrato_003.png
    :alt: menu de contrato
    :align: center
 
@@ -837,7 +837,7 @@ Abaixo detalhamento dos campos não mencionados;
 
 Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo;
 
-.. figure:: /figuras/uCloud_menu_contrato_004.png
+.. figure:: /figuras/ucloud_menu_contrato_004.png
    :alt: menu de contrato
    :align: center
 
@@ -852,7 +852,7 @@ Nesta seção o Administrador do Contrato pode personalizar as regras de como os
 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração do campo Experimental.
 
-.. figure:: /figuras/uCloud_menu_contrato_005.png
+.. figure:: /figuras/ucloud_menu_contrato_005.png
    :alt: menu de contrato
    :align: center
 
@@ -868,7 +868,7 @@ Nesta seção é possível provisionar as categorias de preço utilizadas para a
 
 A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços, divididos em categorias: os serviços de IaaS, PaaS e serviços técnicos. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade objetivamente definida a ser cobrada pelos serviços de computação em nuvem. A métrica de USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
-.. figure:: /figuras/uCloud_menu_contrato_021.png
+.. figure:: /figuras/ucloud_menu_contrato_021.png
    :alt: menu de contrato
    :align: center
 
@@ -883,7 +883,7 @@ Seção Políticas de Alertas
 
 A Plataforma do uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a Plataforma do uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo:
 
-.. figure:: /figuras/uCloud_menu_contrato_006.png
+.. figure:: /figuras/ucloud_menu_contrato_006.png
    :alt: menu de contrato
    :align: center
 
@@ -916,7 +916,7 @@ Esta seção permite que o Administrador do Contrato possa redefinir os valores 
 Apenas os valores dos recursos que foram informados serão recalculados pela Plataforma do uCloud, apresentados nos relatórios do menu Financeiro.
 Os recursos com valor igual a zero (0), terão o seu valor original cobrado pelo provedor de serviço de nuvem sem ser recalculado.
 
-.. figure:: /figuras/uCloud_menu_contrato_007.png
+.. figure:: /figuras/ucloud_menu_contrato_007.png
    :alt: figura da interface
    :align: center
 
@@ -932,7 +932,7 @@ Seção Cota do Contrato
 
 A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato apresenta os limites financeiros e os limites definidos para a quantidade dos recursos definidos para o contrato, pela organização.
 
-.. figure:: /figuras/uCloud_menu_contrato_007.png
+.. figure:: /figuras/ucloud_menu_contrato_007.png
    :alt: figura da interface
    :align: center
 
@@ -958,7 +958,7 @@ Seção Contato Primário
 
 Esta seção possibilita ao Administrador do Contrato informar os dados de contato de um responsável Financeiro, Fiscal ou Contábil referente a este contrato.
 
-.. figure:: /figuras/uCloud_menu_contrato_009.png
+.. figure:: /figuras/ucloud_menu_contrato_009.png
    :alt: menu de contrato
    :align: center
 
@@ -973,7 +973,7 @@ Seção Administradores
 
 Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que possuem permissão de alterar qualquer um dos dados que compõem um contrato.
 
-.. figure:: /figuras/uCloud_menu_contrato_010.png
+.. figure:: /figuras/ucloud_menu_contrato_010.png
    :alt: menu de contrato
    :align: center
 
@@ -984,7 +984,7 @@ Seção Dados da Empresa
 
 Esta seção possibilita ao Administrador do Contrato informar os dados genéricos da empresa associada a este contrato.
 
-.. figure:: /figuras/uCloud_menu_contrato_009.png
+.. figure:: /figuras/ucloud_menu_contrato_009.png
    :alt: menu de contrato
    :align: center
 
@@ -998,7 +998,7 @@ Seção Virtual Datacenters Concedidos
 Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela Plataforma do uCloud – veja mais informações acima no item Administração de Contrato na página 58.
 Quando ocorre a vinculação de um VDC a um contrato, significa que o usuário administrador do contrato estabelece para a Plataforma do uCloud a concessão deste VDC ao contrato. Assim, para o usuário - com permissão de administrador do contrato - serão listados apenas os VDCs deste contrato. Em outras palavras, todas as telas da Plataforma do uCloud onde um VDC pode ser ofertado (solicitado) ao usuário selecionar, o usuário pode visualizar/solicitar apenas os VDCs listados nesta seção.
 
-.. figure:: /figuras/uCloud_menu_contrato_011.png
+.. figure:: /figuras/ucloud_menu_contrato_011.png
    :alt: menu de contrato
    :align: center
 
@@ -1012,7 +1012,7 @@ Seção Usuários
 Nesta seção (card) estão listados todos os usuários que estão vinculados, indiretamente, ao contrato. A associação do usuário ao contrato é estabelecida, pela inclusão do usuário a um Grupo e a vinculação do Grupo ao Contrato. Desta forma, o usuário fica vinculado a um contrato, ele compartilha e consome os limites financeiros e os limites (cotas) dos recursos computacionais de nuvem.
 Nesta seção é possível verificar as cotas de cada usuário e o consumo dos recursos até o presente momento.
 
-.. figure:: /figuras/uCloud_menu_contrato_012.png
+.. figure:: /figuras/ucloud_menu_contrato_012.png
    :alt: menu de contrato
    :align: center
 
@@ -1023,7 +1023,7 @@ Seção Grupos
 
 Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do uCloud mostra ou lista as cotas que foram alocadas para cada Grupo vinculado ao Contrato. É possível verificar as cotas de cada grupo e o consumo dos recursos, dentro do grupo, até o momento da pesquisa.
 
-.. figure:: /figuras/uCloud_menu_contrato_013.png
+.. figure:: /figuras/ucloud_menu_contrato_013.png
    :alt: menu de contrato
    :align: center
 
@@ -1031,7 +1031,7 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do u
 
 * **Botão “+Adicionar Grupo Existente”** |botao_adiciona_grp|: Através deste botão, o usuário com perfil de Administrador de Grupo, poderá vincular um grupo - previamente provisionado na Plataforma do uCloud - ao contrato que se está visualizando. Quando o usuário clicar com o cursor do mouse sobre este botão, será apresentada a seguinte tela;
 
-.. figure:: /figuras/uCloud_menu_contrato_014.png
+.. figure:: /figuras/ucloud_menu_contrato_014.png
    :alt: menu de contrato
    :align: center
 
@@ -1039,7 +1039,7 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma do u
 
 * **Grupo**: Neste campo o usuário precisa informar parte do nome de um grupo existente, como resultado a Plataforma do uCloud apresenta uma lista de todos os grupos que possuem parte dos caracteres informados. Basta o usuário selecionar o grupo desejado, o resultado é apresentado da seguinte forma;
 
-.. figure:: /figuras/uCloud_menu_contrato_015.png
+.. figure:: /figuras/ucloud_menu_contrato_015.png
    :alt: menu de contrato
    :align: center
 
@@ -1054,7 +1054,7 @@ Seção Dados de Faturamento
 
 Nesta seção são apresentadas as informações de Faturamento de um Contrato. Estas informações, geralmente, são necessárias para integrações automatizadas com sistemas de CRM, showback e chargeback.
 
-.. figure:: /figuras/uCloud_menu_contrato_016.png
+.. figure:: /figuras/ucloud_menu_contrato_016.png
    :alt: menu de contrato
    :align: center
 
@@ -1068,7 +1068,7 @@ Seção Perfis de Permissionamento
 Esta seção (card) se aplica ao usuário Administrador da Plataforma uCloud (perfil diferente do Administrador do Contrato), que tiver provisionado antecipadamente Perfis de Permissões através do menu Configurações / Perfis de Permissionamento. Somente um usuário com o perfil Administrador da Plataforma é responsável pela gerência de todos e dos demais grupos e permissões.
 Quando um Perfil de Permissionamento é vinculado ao Contrato, isto implica que todos seus Grupos e Usuários recebem as mesmas permissões para acessar os menus da plataforma definidas neste perfil, de forma a permitir aos usuários vinculados a este contrato acesso às funcionalidades da Plataforma do uCloud definidas neste perfil de permissionamento.
 
-.. figure:: /figuras/uCloud_menu_contrato_017.png
+.. figure:: /figuras/ucloud_menu_contrato_017.png
    :alt: menu de contrato
    :align: center
 
@@ -1080,7 +1080,7 @@ Seção Produtos
 --------------
 Um produto pode ser visto como recurso, um software, o valor de uma licença específica, um serviço recorrente ou qualquer coisa que se seja necessário incluir em um Contrato. Importante ressaltar que o produto sempre será algo que não existe ou que não pode ser criado e gerenciado pela Plataforma do uCloud, diretamente no console dos provedores de nuvem pública e/ou privada. É indicado configurar um Produto quando a oferta é o Virtual Data Center como um todo, no caso de serviços, ofertas específicas para máquinas virtuais, é recomendado optar pelas assinaturas.
 
-.. figure:: /figuras/uCloud_menu_contrato_018.png
+.. figure:: /figuras/ucloud_menu_contrato_018.png
    :alt: menu de contrato
    :align: center
 
@@ -1093,7 +1093,7 @@ Seção Permissões Concedidas
 
 Esta seção (card) permite personalizar as permissões concedidas aos usuários com acesso às funcionalidades na Plataforma do uCloud, de forma global. Estas permissões básicas, definidas e vinculadas ao Contrato, implicam que todos seus Grupos e Usuários recebam as mesmas permissões de acesso às funcionalidades definidas nesta seção. Diferente do Perfil de Permissionamento, esta configuração permite que o usuário com perfil de Administrador de Contrato adicione ou remova, permissões não previstas no Perfil de Permissionamento. Permite também, remover/excluir permissões do Contrato.
 
-.. figure:: /figuras/uCloud_menu_contrato_019.png
+.. figure:: /figuras/ucloud_menu_contrato_019.png
    :alt: menu de contrato
    :align: center
 
@@ -1107,7 +1107,7 @@ Seção Perfil de Faturamento de Container
 Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A Plataforma do uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato. 
 Através desta configuração é possível que sejam definidos preços distintos por perfil de faturamento (preço fixo, recurso alocado ou recurso efetivamente utilizado) por tipo de container.
 
-.. figure:: /figuras/uCloud_menu_contrato_020.png
+.. figure:: /figuras/ucloud_menu_contrato_020.png
    :alt: menu de contrato
    :align: center
 
@@ -1428,13 +1428,13 @@ Esta tela possui um botão de ação e duas seções (cards), descritos a seguir
 
     * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de alteração do seu conteúdo.
     * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
-    * **Ícone de Cancelamento** |icone_cancel|: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
+    * **Ícone de Cancelamento** |icone_cancela_vermelho|: No caso do usuário clicar sobre o ícone de edição por engano, ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente. Basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, e assim, cancelar a alteração. O conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
 
   * **Descrição**: Neste campo é apresentada a descrição (extensa) do Perfil de Permissionamento, informado pelo usuário no momento do provisionamento.
 
     * **Ícone de Edição Ativo** |icone_edita_on|: Todos os campos que possuem o ícone de edição ativo são passíveis de ter seu conteúdo alterado.
     * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
-    * **Ícone de Cancelamento** |icone_cancel|: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
+    * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou no caso de não desejar gravar a alteração permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. A alteração será cancelada e o conteúdo do campo retorna aos valores iniciais, ou seja, antes de qualquer preenchimento ou alteração.
 
 * **Seção Permissões**: Nesta seção da tela são listadas as primeiras vinte e cinco (25) permissões vinculadas a este perfil de permissionamento. Importante relembrar que a Plataforma do uCloud possui mais de cento e cinquenta permissões, as quais são apresentadas com as iniciais de cada permissão.
 
@@ -1685,6 +1685,7 @@ Após criado o perfil é possível editar
    :align: center
 
 ----
+
 É possível editar os valores e a descrição de cada etiqueta (*tag*) ao perfil de tagueamento deste contrato, através do processo abaixo:
 
 .. image:: /figuras/ucloud_criar_recurso_usn_006.png
@@ -2140,6 +2141,8 @@ Editor de Etiquetas (tags) Nativo
 .. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
 
 .. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
+
+.. |icone_cancela_vermelho| image:: /figuras/uCloud_icone_cancela_vermelho.png
 
 .. |icone_cota_grp| image:: /figuras/ucloud_icone_cota_grupo.png
 
