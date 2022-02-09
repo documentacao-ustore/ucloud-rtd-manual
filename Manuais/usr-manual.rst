@@ -1753,10 +1753,11 @@ Esta tela pode se apresentar muito extensa por listar todas as máquinas virtuai
 ----
 
 As colunas da tela listada anteriormente, está descrita abaixo:
-* **Botão “Criar Máquina Virtual** (|botao_criar_VM|): Este botão permite provisionar (criar) uma máquina virtual no(s) ambiente(s) do(s) provedor de serviço de nuvem (público e/ou privado). Os detalhes estão descritos no item Criando uma Máquina Virtual na página 131.
-* **Botão Refresh** (|botao_refresh|): A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
-* **Coluna Acionável**: Esta coluna apresenta uma forma alternativa de interagir com várias máquinas virtuais com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha ou várias, a Plataforma do uCloud apresenta ícone(s) acima desta coluna, eles representam ações ao usuário que podem ser executadas de uma única vez, para todas as linhas selecionadas. A seguir, são apresentados os seis ícones, suas ações são distintas:
+* **Botão “Criar Máquina Virtual** (|botao_criar_VM|): Este botão permite provisionar (criar) uma máquina virtual no(s) ambiente(s) do(s) provedor de serviço de nuvem (público e/ou privado). Os detalhes estão descritos no item Criando uma Máquina Virtual.
 
+* **Botão Refresh** (|botao_refresh|): A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
+
+* **Coluna Acionável**: Esta coluna apresenta uma forma alternativa de interagir com várias máquinas virtuais com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha ou várias, a Plataforma do uCloud apresenta ícone(s) acima desta coluna, eles representam ações ao usuário que podem ser executadas de uma única vez, para todas as linhas selecionadas. A seguir, são apresentados os seis ícones, suas ações são distintas:
   * **Ícone de Iniciar** (|icone_vm_start|): Este ícone permite ao usuário iniciar (Start – Boot) toda(s) máquina(s) virtual(is) que estiver com o status de “Stopped”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Stopped”.
   * **Ícone de Parar** (|icone_vm_stop|): Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Running”.
   * **Ícone de Reiniciar** (|icone_vm_reboot|): Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
@@ -1852,17 +1853,102 @@ A Plataforma do uCloud apresenta alguns ícones de botões, logo acima das seç�
 
 Adicionalmente, é necessário que a senha de usuário de conexão seja conhecida, sem a informação da senha correta, a Plataforma do uCloud não será capaz de iniciar a sessão de console.
 
-* **Botão Excluir** |uCloud_botao_excluir|: Este botão efetua a exclusão da máquina virtual do ambiente do provedor de serviço de nuvem. Esta ação é irreversível e definitiva, por isto, a Plataforma do uCloud apresenta uma tela para confirmação desta ação.
+* **Botão Excluir** |botao_excluir|: Este botão efetua a exclusão da máquina virtual do ambiente do provedor de serviço de nuvem. Esta ação é irreversível e definitiva, por isto, a Plataforma do uCloud apresenta uma tela para confirmação desta ação.
 
-* **Botão Não Cancelar**: Este botão permite ao usuário cancelar a ação e manter a máquina virtual tanto no provedor de serviço de nuvem quanto na interface da Plataforma do uCloud. Será apresentada uma tela informando, ao usuário, informando que a máquina virtual não será excluída.
-
-* **Botão Sim Pode Excluir**: Ao clicar com o cursor do mouse neste botão, a Plataforma do uCloud envia a solicitação de exclusão para o provedor de serviço de nuvem (público e/ou privado) no qual esta máquina virtual está sendo executada, e em seguida, remove a mesma das bases de dados do uCloud. Importante mencionar, que quaisquer recursos computacionais adicionais (disco adicional, IP Públicos, snapshot) associados a esta máquina virtual, não serão excluídos.
-
+  * **Botão Não Cancelar**: Este botão permite ao usuário cancelar a ação e manter a máquina virtual tanto no provedor de serviço de nuvem quanto na interface da Plataforma do uCloud. Será apresentada uma tela informando, ao usuário, informando que a máquina virtual não será excluída.
+  * **Botão Sim Pode Excluir**: Ao clicar com o cursor do mouse neste botão, a Plataforma do uCloud envia a solicitação de exclusão para o provedor de serviço de nuvem (público e/ou privado) no qual esta máquina virtual está sendo executada, e em seguida, remove a mesma das bases de dados do uCloud. Importante mencionar, que quaisquer recursos computacionais adicionais (disco adicional, IP Públicos, snapshot) associados a esta máquina virtual, não serão excluídos.
 
 A seguir descrição de cada seção (*card*) de forma individual:
 
 Seção Geral - VMs
 ~~~~~~~~~~~~~~~~~
+
+Esta seção permite visualizar as informações fundamentais e básicas da máquina virtual. 
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_025.png
+   :alt: altera Usuario
+   :align: center
+
+----
+
+* **Status**: Este campo apresenta o status corrente da máquina virtual. Importante ressaltar que status é obtido do provedor de serviço de nuvem, pois a máquina virtual está instalada e sendo executada na Infraestrutura do provedor de serviço de nuvem. A Plataforma do uCloud pode apresentar neste campo, o seguinte:
+
+  * **Running**: Indica que a máquina virtual está em funcionamento normal.
+  * **Stopped**: Indica no status que a máquina virtual está parada.
+  * **Suspended**: Indica que a máquina virtual está em um estado suspenso, possibilitando um tempo de inicialização (boot) mais rápido que o estado parado (stopped).
+  * **Unrecognized**: Este status pode ser apresentado, pois se refere a um estado, temporário, onde momentaneamente não foi possível distinguir se a máquina está parada ou rolando (falha de comunicação entre a Plataforma do uCloud e o console do provedor de serviço de nuvem pública).
+  * **Deallocated**: Este status é particular da nuvem Azure, refere-se a uma máquina virtual que se encontra parada, e não está sendo cobrada, este estado faz a liberação de alguns recursos e seu tempo para inicialização (boot) será maior. Para maiores detalhes, consultar material de documentação do Azure.
+  * **Orphan**: Este status somente será apresentado quando uma máquina não é encontrada no provedor de serviço de nuvem ou no ambiente de virtualização do datacenter privado (hypervisor).
+
+* **Nome**: Este campo apresenta o nome da máquina virtual que foi informado no momento da sua criação, no console do provedor de serviço de nuvem ou no momento que foi configurado através do uCloud.
+
+* **Criada em**: Este campo apresenta a data e a hora do provisionamento da máquina virtual (no formato DD/MM/AAAA HH:MM:SS). Adicionalmente é apresentada a informação do tempo total que esta máquina virtual está ativa (no formato dias, horas, minutos e segundos – XXd NNh YYm ZZs).
+
+* **Região**: Neste campo será apresentado o código (ou o nome) da região onde a máquina virtual foi vinculada, no momento do seu provisionamento, tanto no console do provedor de serviço de nuvem quanto através da interface da Plataforma do uCloud. Importante mencionar que cada provedor possui identificação de regiões específicas, este campo reflete suas especificidades.
+
+* **Zona de Disponibilidade**: *Este campo é opcional*, pois nem todos os provedores de serviço de nuvem possuem zonas de disponibilidade (zonas dentro de uma região). Este campo é apresentado nos casos em que o provedor possui esta informação.
+
+* **IPs Públicos**: Este campo apresenta o endereço TCP-IP Público Dinâmico (obtido do servidor DHCP interno do provedor de serviço de nuvem), o qual foi vinculado a esta máquina no momento do provisionamento da máquina virtual. Importante ressaltar que o Endereço TCP-IP Público Dinâmico, não é um endereço fixo. Este endereço pode ser alterado quando esta máquina virtual for reiniciada (reboot). Caso o usuário veja um Endereço TCP-IP, mas sem a indicação "Dinâmico", isto significa que esta máquina virtual possui um Endereço TCP-IP fixo, e este não será alterado mesmo após a máquina virtual ter sido reiniciada.
+
+* **IPs Privados**: Neste campo será apresentado o endereço TCP-IP vinculado a esta máquina virtual, no momento da sua criação. Importante ressaltar que este endereçamento TCP-IP pertence ao ambiente de rede privada do provedor de serviço de nuvem (obtido do servidor DHCP interno do provedor de serviço de nuvem) este endereço poderá ser alterado quando esta máquina virtual for reiniciada (reboot).
+
+* **Par de Chave**: Este campo apresenta o nome da chave criptográfica, informada durante o processo de provisionamento desta máquina virtual. No caso do uso de autenticação de chave pública SSH, é bastante típico o usuário criar (ou seja, provisionar) o par de chaves para si próprio. Cada par de chaves SSH inclui duas chaves:
+
+  * Uma chave pública que é copiada para o (s) servidor (es) SSH. Qualquer pessoa com uma cópia da chave pública pode criptografar dados que só podem ser lidos pela pessoa que possui a chave privada correspondente. Depois que um servidor SSH recebe uma chave pública de um usuário e a considera confiável, o servidor marca a chave como autorizada em seu arquivo authorized_keys. Essas chaves são chamadas de chaves autorizadas.
+
+  * Uma chave privada que permanece (apenas) com o usuário. A posse dessa chave é a prova da identidade do usuário. Apenas um usuário de posse de uma chave privada que corresponda à chave pública no servidor será capaz de se autenticar com sucesso. As chaves privadas precisam ser armazenadas e manuseadas com cuidado, nenhuma cópia da chave privada deve ser distribuída. As chaves privadas usadas para autenticação do usuário são chamadas de chaves de identidade.
+
+* **Grupo de Segurança**: Neste campo será apresentado o nome do Grupo de Segurança (Security Group) vinculado à máquina virtual, que controla as portas TCP-IP as quais podem ser utilizadas para acesso a esta máquina virtual. Um grupo de segurança atua como firewall virtual para as máquinas virtuais. O usuário pode criar diversos grupos de segurança e personalizar cada um com as regras que permitem tráfego de entrada ou de saída nas instâncias associadas.
+  
+  * **Botão de Alteração de Grupo de Segurança** |icone_edita_on|: Este botão permite ao usuário alterar a vinculação da máquina virtual ao Grupo de Segurança que está sendo apresentado na interface. Durante o provisionamento da máquina virtual, o usuário selecionou um Grupo de Segurança para controlar as portas TCP-IP desta máquina virtual. Para alterar o Grupo de Segurança que está vinculado a esta máquina virtual, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud alterna para o modo de edição do conteúdo deste campo. Neste momento, a Plataforma do uCloud apresenta uma lista “drop-box” com uma lista de todos os Grupos de Segurança que este usuário tem autorização de ver. Basta o usuário clicar com o botão do mouse sobre o Grupo de Segurança desejado.
+
+  * **Ícone de Confirmação** |icone_conf_verde|: Após selecionar o Grupo de Segurança desejado, será  permitido confirmar a intenção de alterar o conteúdo no campo desejado, em seguida, a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Concluída esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud e na configuração da máquina virtual no ambiente do provedor de serviço de nuvem pública.
+
+  * **Ícone de Cancelamento** |icone_cancela_vermelho|: Para o caso do usuário clicar sobre o ícone de edição por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
+ 
+* **Flavor**: Este campo apresenta o nome do flavor selecionado como a definição do tipo de hardware da máquina virtual. Um flavor define o tamanho dos recursos de computação (número de CPUs virtuais, memória e capacidade de armazenamento) que podem ser atribuídos automaticamente a instâncias da máquina virtual, em uma configuração de nuvem. Cada provedor de serviço de nuvem possui uma denominação específica para o ambiente do provedor. Importante mencionar que a configuração dos recursos (CPU, memória e disco) podem ser similares em diferentes provedores, mas sua nomenclatura é particular.
+
+* **Template**: Este campo apresenta o sistema operacional (template) selecionado no momento do provisionamento da máquina virtual.
+
+* **Virtual Datacenter**: Este campo apresenta o nome do Virtual Datacenter (VDC) ao qual esta máquina virtual está vinculada. Veja no item Virtual Datacenters: da página 184 a 195, para entender o conceito e saber como provisionar um Virtual Datacenter.
+
+  * **Botão para Mover para outro Virtual Datacenter** |icone_edita_vdc|: Este botão permite ao usuário alterar a vinculação da máquina virtual ao Virtual Datacenter que está sendo apresentado na interface. Durante o provisionamento da máquina virtual, a Plataforma do uCloud, vincula esta máquina virtual ao Virtual Datacenter que o usuário selecionou. Para mover a máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud alterna para o modo de edição do conteúdo deste campo. Para mover esta máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud habilita editar o conteúdo do campo. Assim o usuário pode digitar uma parte da sequência de caracteres do novo Virtual Datacenter, para que a Plataforma do uCloud apresenta uma lista que combina com a sequência de caracteres desejada:
+  
+.. image:: /figuras/ucloud_botao_edita_vdc.png
+   :alt: altera Usuario
+   :align: center
+
+----
+
+  * **Ícone de Confirmação** |icone_conf_verde|: Após selecionar o novo Virtual Datacenter, será  permitido confirmar a intenção de mover a máquina virtual para outro Virtual Datacenter, e a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Concluída esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud de forma permanente e imediata.
+  * **Ícone de Cancelamento** |icone_cancela_vermelho|: Para o caso do usuário clicar sobre o ícone de edição por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.[e]
+
+* **Usuário**: Este campo apresenta a credencial do usuário que estava conectado na Plataforma do uCloud, o qual foi o responsável pelo aprovisionamento da máquina virtual no provedor de serviço de nuvem. Esta informação pode ser alterada com os botões que se apresentam ao lado da tela:
+
+  * **Botão de Edição de Usuário** |icone_edita_user|: Este botão permite ao usuário alterar o nome do usuário que está vinculado a esta máquina virtual, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud habilita editar o conteúdo do campo. Assim o usuário pode digitar uma parte da sequência de caracteres do novo usuário, para que a Plataforma do uCloud recupere a lista de usuários com a informação que combina com a palavra digitada.
+
+.. image:: /figuras/ucloud_botao_change_user_vm.png
+   :alt: altera Usuario
+   :align: center
+
+----
+
+    * **Ícone de Confirmação** |icone_conf_verde|: Após selecionar o usuário desejado, é permitido confirmar a intenção de alterar o conteúdo no campo desejado, em seguida, a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Concluída esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+    * **Ícone de Cancelamento** |icone_cancela_vermelho|: Para o caso do usuário clicar sobre o ícone de edição por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
+
+* **Proteção Exclusão Acidental**: Este ícone indica se esta máquina virtual está com o parâmetro de exclusão acidental configurado, como: Desabilitado (vermelho) ou Habilitado (verde).
+  
+  * **Ícone Disable** |icone_desb_verm|: Este ícone indica que a proteção acidental está desabilitada. Isto significa que esta máquina pode ser excluída (apagada) sem restrição, apenas com a confirmação desta ação por parte do usuário que a está removendo (excluindo).
+
+  * **Ícone Enable** |icone_habil_verde|: Este ícone indica que a proteção acidental está habilitada. Isto significa que esta máquina não pode ser excluída (apagada). Para efetuar a remoção desta máquina virtual, é necessário que o usuário que provisionou a máquina virtual e a habilitou neste parâmetro, realize a alteração do parâmetro para: Desabilitado. Posteriormente, deve efetuar o procedimento de exclusão da máquina virtual, ao clicar no botão, que deve estar ativo.
+  
+* **Template Privado (opcional/variável)**: Este ícone |icone_private_net| permite ao usuário criar um tipo de hardware (“flavor”) personalizado. Este novo “flavor” pode ter um nome personalizado (diferente do nome no provedor de serviço de nuvem). Sua configuração é baseada nas configurações do hardware configurado na máquina virtual. Este recurso pode ser útil para personalizar opções de “flavors” específicos para o cenário da empresa.
+
+* **Identificador de Provedor**: Este campo apresenta a identificação da máquina virtual como nomenclatura baseada em recursos (RBN - Resource-based Naming) que é gerada automaticamente pelo próprio provedor de serviço de nuvem pública. A Plataforma do uCloud, não possui mecanismos para criar, ou alterar, o conteúdo desta informação. Consulte a documentação técnica online de cada provedor para mais informações.
+
+* **ID de Rede**: Este campo apresenta a identificação da interface de rede elástica é um componente de rede lógico de cada provedor de serviço de nuvem pública e que representa uma placa de rede virtual.
+
+* **Network ID do Provedor**: Este campo apresenta a identificação da Rede é um componente de rede lógico de cada provedor de serviço de nuvem pública e que representa uma placa de rede virtual.
 
 Seção Performance Instantânea
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2183,7 +2269,7 @@ Editor de Etiquetas (tags) Nativo
 
 .. |botao_adiciona_verde| image:: /figuras/uCloud_botao_adiciona_verde.png
 
-.. |botao_cnecta_container| image:: /figuras/uCloud_botao_conecta_container.png
+.. |botao_conecta_container| image:: /figuras/uCloud_botao_conecta_container.png
 
 .. |botao_criar_VM| image:: /figuras/uCloud_botao_criar_VM.png
 
@@ -2266,3 +2352,5 @@ Editor de Etiquetas (tags) Nativo
 .. |icone_vm_clone| image:: /figuras/ucloud_icone_vm_clone.png
 
 .. |icone_vm_resume| image:: /figuras/ucloud_icone_vm_resume.png
+
+.. |icone_edita_vdc| image:: /figuras/ucloud_icone_edita_vdc.png
