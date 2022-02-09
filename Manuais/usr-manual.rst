@@ -1753,15 +1753,15 @@ Esta tela pode se apresentar muito extensa por listar todas as máquinas virtuai
 ----
 
 As colunas da tela listada anteriormente, está descrita abaixo:
-* **Botão “Criar Máquina Virtual |botao_criar_VM|** : Este botão permite provisionar (criar) uma máquina virtual no(s) ambiente(s) do(s) provedor de serviço de nuvem (público e/ou privado). Os detalhes estão descritos no item Criando uma Máquina Virtual na página 131.
-* **Botão Refresh** |botao_refresh|: A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
+* **Botão “Criar Máquina Virtual** (|botao_criar_VM|): Este botão permite provisionar (criar) uma máquina virtual no(s) ambiente(s) do(s) provedor de serviço de nuvem (público e/ou privado). Os detalhes estão descritos no item Criando uma Máquina Virtual na página 131.
+* **Botão Refresh** (|botao_refresh|): A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
 * **Coluna Acionável**: Esta coluna apresenta uma forma alternativa de interagir com várias máquinas virtuais com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha ou várias, a Plataforma do uCloud apresenta ícone(s) acima desta coluna, eles representam ações ao usuário que podem ser executadas de uma única vez, para todas as linhas selecionadas. A seguir, são apresentados os seis ícones, suas ações são distintas:
 
-  * **Ícone de Iniciar |icone_vm_start|**: Este ícone permite ao usuário iniciar (Start – Boot) toda(s) máquina(s) virtual(is) que estiver com o status de “Stopped”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Stopped”.
-  * **Ícone de Parar |icone_vm_stop|**: Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Running”.
-  * **Ícone de Reiniciar |icone_vm_reboot|**: Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
-  * **Ícone de Suspender |icone_vm_suspend|**: Este ícone permite ao usuário suspender (Suspend) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
-  * **Ícone de Retomar |icone_vm_resume|**: Este ícone permite ao usuário retomar (Resume) toda(s) máquina(s) virtual(is) que estiver com o status de “Suspended”.
+  * **Ícone de Iniciar** (|icone_vm_start|): Este ícone permite ao usuário iniciar (Start – Boot) toda(s) máquina(s) virtual(is) que estiver com o status de “Stopped”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Stopped”.
+  * **Ícone de Parar** (|icone_vm_stop|): Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Running”.
+  * **Ícone de Reiniciar** (|icone_vm_reboot|): Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
+  * **Ícone de Suspender** (|icone_vm_suspend|): Este ícone permite ao usuário suspender (Suspend) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
+  * **Ícone de Retomar** (|icone_vm_resume|): Este ícone permite ao usuário retomar (Resume) toda(s) máquina(s) virtual(is) que estiver com o status de “Suspended”.
   * **Ícone de Lata do Lixo** (|icone_lixo|): Este ícone permite ao usuário excluir (Remove – Delete) toda(s) máquina(s) virtual(is) que estiver selecionada com o ícone selecionável (“  ” – check mark). Este ícone somente ficará ativo para excluir as máquinas virtuais que foram criadas pelo próprio usuário que está registrado na plataforma. Este ícone ficará inativo, se o usuário registrado, selecionar máquinas virtuais criadas por outros usuários.
   * **Ícone de Desconectar** (|icone_desconecta|): Este ícone permite ao usuário desconectar (unplug) as máquinas virtuais da Plataforma do uCloud. Importante ressaltar que esta ação não remove (delete) a máquina virtual do ambiente do provedor de serviço de nuvem. Esta ação removerá a máquina virtual do inventário da base de dados da Plataforma do uCloud, portanto, a máquina não mais será listada nesta tela.
 
@@ -1798,11 +1798,11 @@ Esta tela possui diversas seções (cards) ela é bem ampla e completa, por isto
 
 A Plataforma do uCloud apresenta alguns ícones de botões, logo acima das seções (cards) para gerenciar a máquina virtual.
 
-* **Ícone de Iniciar |icone_vm_start|**: Este ícone permite ao usuário iniciar (Start – Boot) a máquina virtual que estiver com o status de “Stopped”. Este ícone permanece inativo se alguma máquina virtual selecionada estiver com um status diferente de “Stopped”.
-* **Ícone de Parar |icone_vm_stop|**: Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”. Este ícone permanece inativo se alguma máquina virtual selecionada estiver com um status diferente de “Running”.
-* **Ícone de Reiniciar |icone_vm_reboot|**: Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”.
-* **Ícone de Suspender |icone_vm_suspend|**: Este ícone permite ao usuário suspender (Suspend) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”.
-* **Ícone de Retomar |icone_vm_resume|**: Este ícone permite ao usuário retomar (Resume) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Suspended”.
+* **Ícone de Iniciar** (|icone_vm_start|): Este ícone permite ao usuário iniciar (Start – Boot) a máquina virtual que estiver com o status de “Stopped”. Este ícone permanece inativo se alguma máquina virtual selecionada estiver com um status diferente de “Stopped”.
+* **Ícone de Parar** (|icone_vm_stop|): Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”. Este ícone permanece inativo se alguma máquina virtual selecionada estiver com um status diferente de “Running”.
+* **Ícone de Reiniciar** (|icone_vm_reboot|): Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”.
+* **Ícone de Suspender** (|icone_vm_suspend|): Este ícone permite ao usuário suspender (Suspend) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Running”.
+* **Ícone de Retomar** (|icone_vm_resume|): Este ícone permite ao usuário retomar (Resume) toda(s) a(s) máquina(s) virtual(is) que estiver(em) com o status de “Suspended”.
 
 .. comentado Ícone de Remote Desktop |icone_vm_rdp|: Este ícone permite efetuar o download do arquivo com as configurações para efetuar uma Conexão de Área de Trabalho Remota (Remote Desktop) nesta máquina virtual. Detalhe relevante: Somente para a(s) máquina(s) virtual(is) com o sistema operacional Microsoft Windows Server. Ao clicar com o cursor do mouse sobre este ícone a Plataforma do uCloud apresenta a tela para efetuar o download do arquivo de configuração:
 
@@ -1812,7 +1812,7 @@ A Plataforma do uCloud apresenta alguns ícones de botões, logo acima das seç�
 
 ..  comentado ----
 
-* **Ícone Remote Console |icone_vm_ssh|**: Este ícone permite ao usuário iniciar uma sessão de console do sistema operacional diretamente através da interface web da Plataforma do uCloud. Basta o usuário clicar com o cursor do mouse sobre este ícone, que a Plataforma do uCloud irá apresentar a tela abaixo:
+* **Ícone Remote Console** (|icone_vm_ssh|): Este ícone permite ao usuário iniciar uma sessão de console do sistema operacional diretamente através da interface web da Plataforma do uCloud. Basta o usuário clicar com o cursor do mouse sobre este ícone, que a Plataforma do uCloud irá apresentar a tela abaixo:
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_024.png
    :alt: perfil de permissionamento
