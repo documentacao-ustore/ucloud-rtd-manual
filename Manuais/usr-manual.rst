@@ -1758,6 +1758,7 @@ As colunas da tela listada anteriormente, está descrita abaixo:
 * **Botão Refresh** (|botao_refresh|): A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
 
 * **Coluna Acionável**: Esta coluna apresenta uma forma alternativa de interagir com várias máquinas virtuais com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha ou várias, a Plataforma do uCloud apresenta ícone(s) acima desta coluna, eles representam ações ao usuário que podem ser executadas de uma única vez, para todas as linhas selecionadas. A seguir, são apresentados os seis ícones, suas ações são distintas:
+* 
   * **Ícone de Iniciar** (|icone_vm_start|): Este ícone permite ao usuário iniciar (Start – Boot) toda(s) máquina(s) virtual(is) que estiver com o status de “Stopped”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Stopped”.
   * **Ícone de Parar** (|icone_vm_stop|): Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Running”.
   * **Ícone de Reiniciar** (|icone_vm_reboot|): Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
@@ -1858,6 +1859,8 @@ Adicionalmente, é necessário que a senha de usuário de conexão seja conhecid
   * **Botão Não Cancelar**: Este botão permite ao usuário cancelar a ação e manter a máquina virtual tanto no provedor de serviço de nuvem quanto na interface da Plataforma do uCloud. Será apresentada uma tela informando, ao usuário, informando que a máquina virtual não será excluída.
   * **Botão Sim Pode Excluir**: Ao clicar com o cursor do mouse neste botão, a Plataforma do uCloud envia a solicitação de exclusão para o provedor de serviço de nuvem (público e/ou privado) no qual esta máquina virtual está sendo executada, e em seguida, remove a mesma das bases de dados do uCloud. Importante mencionar, que quaisquer recursos computacionais adicionais (disco adicional, IP Públicos, snapshot) associados a esta máquina virtual, não serão excluídos.
 
+----
+
 A seguir descrição de cada seção (*card*) de forma individual:
 
 Seção Geral - VMs
@@ -1953,59 +1956,287 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
 Seção Performance Instantânea
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Seção Metrics (exclusivo AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Esta seção apresenta um gráfico que demonstra a ocupação, na máquina virtual, da CPU e da memória. Importante mencionar que a grande maioria dos sistemas operacionais, aloca 100% da memória disponível na máquina virtual, durante o processo de inicialização. Desta forma, o índice de memória pode ficar fixo no máximo da escala. Em relação ao índice de utilização da CPU, este apresenta a taxa de utilização corrente, e é atualizado constantemente.
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_026.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+.. important:: Importante mencionar que as estatísticas estão disponíveis de forma aberta para todos os provedores de serviço de nuvem. A Plataforma do uCloud coleta e armazena estas informações em suas bases de dados internas, para que esta informação possa ser utilizada por outros produtos do portfólio Ustore (por ex.: *uSavings*).
+
+----
+
+Seção Metrics (exclusivo **AWS**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Esta seção é apresentada, somente, para as máquinas virtuais que são criadas no ambiente da Amazon Web Services (AWS), pois somente este provedor informa estas estatísticas de forma aberta e gratuita.
+  
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_027.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+* **Type**: Esta coluna contém o tipo da informação que está sendo exibida:
+* **Network In**: Esta linha representa a quantidade de pacotes TCP-IP que trafegam em sentido entrada (in) para a máquina virtual – da rede externa  para a máquina virtual.
+* **Network Out**: Esta linha representa a quantidade de pacotes TCP-IP que trafegam em sentido saída (out) da máquina virtual – da máquina virtual para rede externa.
+* **Disk Read Ops**: Esta linha representa a quantidade de operações de acesso de leitura no disco rígido da máquina virtual.
+* **Disk Write Ops**: Esta linha representa a quantidade de operações de acesso de escrita no disco rígido da máquina virtual.
+* **Instantaneous**: Esta coluna apresenta o valor total instantâneo da métrica (type) da linha em que o valor é apresentado. O valor é instantâneo, ou seja, se refere ao momento em que se observa a máquina virtual.
+* **Accumulated**: Esta coluna apresenta o valor total acumulado da métrica (type) da linha em que o valor é apresentado. Este valor se refere ao acumulado nas bases de dados da Plataforma do uCloud, desde o momento em que a máquina virtual foi provisionada.
+
+----
 
 Seção Interfaces de Rede
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta seção apresenta as informações da interface de rede (interface Ethernet) vinculada a esta máquina virtual. Caso seja necessário, através desta seção é possível remover a interface de rede ou adicionar uma nova interface de rede Ethernet para esta máquina virtual.
+  
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_027.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+* **Botão Adicionar** |botao_adiciona_verde|: Quando uma máquina virtual é provisionada, sua configuração já possui uma interface de rede Ethernet vinculada a esta máquina. Caso seja necessário que esta máquina possua outra interface de rede Ethernet, o usuário deve clicar no botão Adicionar e a Plataforma do uCloud apresenta o campo tipo “dropdown” em que serão listadas todas as subnets configuradas para este Virtual Datacenter:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_028.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+  * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário clica com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+  * **Ícone de Cancelamento** |icone_cancela_vermelho|: No caso de usuário clicar sobre o ícone de edição por engano ou não desejar que a alteração seja armazenada (gravada) permanentemente, deve clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a alteração realizada. O conteúdo do campo retorna para os valores iniciais antes de qualquer preenchimento/alteração.
+
+.. note:: *Caso o usuário não consiga localizar a subnet desejada, ele deve abandonar este procedimento e consultar o item Redes. Efetuar o procedimento descrito como provisionar uma subnet dentro do ambiente do provedor de serviço de nuvem.*
+
+* **Dispositivo**: Esta coluna apresenta o nome do dispositivo vinculado a esta máquina virtual. Por padrão, estes dispositivos são nomeados com o termo inicial “eth0” – este sendo a primeira interface de rede Ethernet.
+* **Network**: Esta coluna apresenta a denominação da rede privada virtual encontrada no provedor de serviço de nuvem. Uma nuvem privada virtual (VPC) é um pool configurável sob demanda de recursos de computação compartilhados e alocados em um ambiente de nuvem pública, fornece um certo nível de isolamento entre as diferentes redes provisionadas.
+* **Subnet**: Esta coluna apresenta o CIDR ou endereçamento IP, sem classes, da forma como é provisionado na Plataforma do uCloud.
+* **IP**: Esta coluna apresenta o Endereço TCP-IP vinculado para esta máquina, pelo usuário, no momento de sua inicialização. Este endereço é gerenciado pelo servidor DHCP do provedor de serviço de nuvem, seguindo a máscara CIDR definida pela sua subnet.
+* **MAC**: Este campo apresenta o endereço físico da interface Ethernet.
+* **Ações**: Esta coluna apresenta dois ícones que permitem a interação do usuário com a interface de rede Ethernet definida:
+
+  * **Ícone de Edição Inativo** |icone_edita_on|: Importante ressaltar que em uma máquina virtual com apenas uma interface de rede Ethernet, este ícone estará sempre em modo ‘inativo’. Caso seja necessário alterar qualquer um dos parâmetros desta interface, o usuário deve excluir a interface e adicionar outra com as configurações desejadas.
+  * **Ícone de Edição Ativo** |icone_edita_on|: No caso desta máquina virtual possuir mais de uma interface de rede, este ícone permanece ativo, apenas para os dispositivos nos quais a edição é possível.
+  * **Ícone Lata de Lixo** |icone_lixo|: Ao clicar com o cursor do mouse sobre este botão esta interface de rede Ethernet é removida (excluída) da máquina virtual. A Plataforma do uCloud apresenta uma tela que solicita a confirmação da operação ao usuário.
+
+----
+
 Seção Disco
 ~~~~~~~~~~~
+
+Esta seção apresenta a lista de todos os recursos do disco de armazenamento vinculados a esta máquina virtual. 
+
+**Exemplo em Ambiente Azure**
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_030a.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+**Exemplo em Ambiente Amazon AWS**
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_030b.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+**Exemplo em Ambiente Google Cloud Platform**
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_030c.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+Estas telas apresentam as informaçõs referentes ao disco de armazenamento provisionado para esta máquina virtual, abaixo esclarecemos estas informações:
+
+* **Nome**: Esta coluna apresenta o nome do disco de armazenamento vinculado a máquina virtual. Importante ressaltar que cada provedor de serviço de nuvem utiliza metodologias distintas e próprias para assinalar um nome ao dispositivo em seus ambientes específicos. Alguns nomes podem ser muito extensos, e isto é específico de cada provedor.
+* **Tamanho**: Esta coluna apresenta o tamanho do disco de armazenamento e pode estar expresso em Gigabytes ou Terabytes.
+* **Tipo (Exclusivo AWS)**: Esta coluna somente é exibida para máquinas virtuais provisionadas no ambiente da AWS, apresenta(m) o(s) tipo(s) de disco(s). Consultar a documentação AWS para outros detalhes.
+* **Encrypted (Exclusivo AWS)**: Esta coluna apenas é exibida para máquinas virtuais provisionadas no ambiente da AWS, que apresentam o parâmetro de encriptação do(s) disco(s). Consultar a documentação AWS para outros detalhes.
+* **IOPS (Exclusivo AWS)**: Esta coluna somente é exibida para máquinas virtuais provisionadas no ambiente da AWS, apresenta o parâmetro da sigla para Input/Output Operations Per Second, ou Operações de Entrada e Saída por Segundo. É um índice de desempenho utilizado nas unidades de armazenamento de dados de encriptação do(s) disco(s). Consultar a documentação AWS para outros detalhes.
+* **Dispositivo**: Esta coluna apresenta a identificação da unidade lógica (LUN) específica de cada provedor de serviço de nuvem. Consultar a documentação específica de cada provedor para obter informações em relação à identificação e denominação de cada dispositivo.
+* **Storage**: Esta coluna apresenta a identificação do armazenamento que pode ser encontrado no menu Storage.
+* **Ações**: Esta coluna apresenta a opção de tres ícones, assim o usuário pode interagir com a interface de rede Ethernet definida:
+
+  * **Ícone de Edição Inativo** |icone_edita_on|: Importante ressaltar que uma máquina virtual com apenas um dispositivo de disco de armazenamento, este ícone estará sempre em modo ‘inativo’. Este ícone permite ao usuário alterar apenas o tamanho deste disco de armazenamento, todos os outros parâmetros listados não são passíveis de alteração, através desta tela. Caso seja necessário alterar qualquer um dos parâmetros deste disco de armazenamento, o usuário deve acessar o menu Storage, para efetuar a alteração dos parâmetros e configurações desejadas.
+  * **Ícone de Desconectar** |icone_desconecta|: Este ícone permite ao usuário desconectar (unplug) o dispositivo de armazenamento (disco) da máquina virtual. Importante ressaltar que esta ação não removerá (delete) o disco de armazenamento do ambiente do provedor de serviço de nuvem. Esta ação desvincula a unidade de disco de armazenamento da máquina virtual, portanto, o disco de armazenamento deixa de ser listado nesta tela. Ao clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresentará uma tela solicitando a confirmação da operação ao usuário:
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para remover (excluir) esta unidade de disco de armazenamento da interface da máquina virtual. Para executar esta ação é mandatório que a máquina virtual esteja inativa (shutdown), caso contrário a Plataforma do uCloud apresentará uma tela informado o erro. Estando a máquina virtual está inativa, e o usuário deseja excluir a unidade de disco de armazenamento, a Plataforma do uCloud apresenta uma tela que informa que esta ação possui uma responsabilidade e há impacto futuro, além do que, solicita a confirmação da operação ao usuário.
+
+* **Botão Adicionar** |uCloud_botao_adiciona_verde|: Cada provedor de serviço de nuvem, provisiona um recurso de disco de armazenamento de tamanhos específicos para cada máquina virtual provisionada em seu ambiente. Caso seja necessário adicionar um novo recurso de disco de armazenamento, basta o usuário clicar sobre o botão Adicionar para a Plataforma do uCloud apresentar as telas específicas para cada provedor de serviço de nuvem.
+
+* **Criar Disco no ambiente AWS**
+
+  * Ao configurar um novo disco de armazenamento, no ambiente AWS, a tela a seguir é apresentada:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_031a.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+  * **Nome**: Este campo é obrigatório e deve ser nomeado com a informação que se deseja identificar o disco.
+  * **Tamanho**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Disco de Armazenamento. Pode ser selecionado o limite em Megabytes, Gigabytes ou Terabytes.
+  * **Tipo de Disco**: Este campo é obrigatório ao clicá-lo a Plataforma do uCloud apresenta uma lista tipo “dropdown” que deve ser selecionada para configurar o tipo desejado de disco. Consultar a documentação da AWS para entender as características de cada tipo do recurso de disco existente na AWS. No momento da seleção são listados os seguintes tipos de disco:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_031b.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+  * **Ícone Criptografar Disco** (|icone_habil_verde|/|icone_desb_verm|): Este ícone indica se este disco de armazenamento será configurado para ter seu conteúdo encriptado. Este ícone alterna entre conteúdo Desabilitado (vermelho) ou Habilitado (verde). Selecionar a opção desejada.
+  * **Botão Criar**: Após preencher todos os campos obrigatórios, o usuário deve clicar com o cursor do mouse no botão verde Criar, a Plataforma do uCloud provisiona o novo Disco de Armazenamento e vincula a máquina virtual. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório falta ser preenchido.
+
+* **Para criar disco em ambiente Azure**
+
+  * Ao configurar um novo disco de armazenamento, no ambiente AWS, a tela a seguir é apresentada:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_032a.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+  * **Nome**: Este campo é obrigatório e deve ser nomeado com a informação que se deseja identificar o disco.
+  * **Selecionar Storage**: Este campo é obrigatório ao clicá-lo a Plataforma do uCloud apresenta a lista tipo “dropdown” que deve ser selecionada para configurar o tipo desejado de Storage. Consultar a documentação da Azure para entender as características de cada tipo de recurso de Storage existente na Azure. No momento da seleção são listados os seguintes tipos de storage:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_032b.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+  * **Tamanho**: Este campo é obrigatório e deve ser informado um número inteiro que será estabelecido como limite máximo de consumo do recurso computacional de Disco de Armazenamento. Pode ser selecionado o limite em Megabytes, Gigabytes ou Terabytes.
+  * **Botão Criar**: Após preencher todos os campos obrigatórios, o usuário deve clicar com o cu¬rsor do mouse no botão verde Criar, a Plataforma do uCloud provisiona o novo Disco de Armazenamento e vincula a máquina virtual. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório falta ser preenchido.
+
+----
 
 Seção Snapshots
 ~~~~~~~~~~~~~~~
 
+Esta seção apresenta todas as imagens de snapshots que foram criados referente ao(s) disco(s) que está(ão) vinculado(s) a esta máquina virtual.
+
+Um snapshot é uma cópia de segurança incremental de todo o disco de armazenamento (disk backup) vinculado à máquina virtual. O termo ‘incremental’ significa que: somente os blocos no dispositivo que tiverem mudado depois do snapshot mais recente serão salvos. Isso minimiza o tempo necessário para criá-lo e economiza custos de armazenamento, por evitar duplicar os dados. Cada snapshot contém todas as informações necessárias para restaurar seus dados (desde o momento em que o snapshot foi tirado). Importante ressaltar que o conteúdo de snapshot é completo e totalmente diferente de uma cópia de segurança de arquivo (file backup).
+
+Para obter outras informações, basta consultar a documentação com os detalhes e as características de snapshots de cada provedor de serviço de nuvem, para entender o que cada provedor de serviço de nuvem oferece.
+Ao excluir um snapshot, somente os dados exclusivos desse snapshot serão removidos.
+  
+
+
+* Botão Adicionar: Caso seja necessário adicionar um novo recurso de snapshot de um disco de armazenamento, basta o usuário clicar sobre o botão Adicionar, a Plataforma do uCloud pode apresentar campos para que o usuário possa informar o nome e assinalar qual o disco selecionado é indicado para provisionar o snapshot:
+* Nome: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 1 caractere) com o qual deseja identificar este snapshot. A sugestão é de utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, e a Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
+* Select a Disk: Este campo é obrigatório, ao ser selecionado a Plataforma do uCloud apresenta uma lista tipo “dropdown” que exibe todos os discos de armazenamento vinculados a esta máquina virtual, neste momento, deve ser selecionado o disco de armazenamento desejado:
+* Ícone de Confirmação “  ”: Após preenchido o campo ‘nome para o snapshot” deve ser selecionado o disco de armazenamento que se deseja criar a imagem da cópia de segurança (backup), em seguida a Plataforma do uCloud apresenta um ícone de confirmação. O usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação é enviada uma solicitação de provisionamento de uma imagem de disco (snapshot) para o provedor de serviço de nuvem, e a nova imagem deve aparecer listada nesta seção após algum tempo. Importante ressaltar que o tempo total para provisionar este snapshot é dependente do tamanho do disco e seu tipo (SSD ou HDD) e do ambiente computacional do provedor de serviço de nuvem. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
+* Ícone de Cancelamento “  ”: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja provisionar um snapshot para o disco selecionado, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a ação e retornar ao conteúdo da seção.
+* Nome: Nesta coluna é apresentado o nome do snapshot informado no momento do seu provisionamento. Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, a Plataforma do uCloud não tem controle (na remoção ou alteração) destas adições do(s) provedor(es).
+* Data: Nesta coluna é apresentada a data e o horário em que o snapshot foi criado. Esta data é estabelecida pelo provedor de serviço de nuvem, a Plataforma do uCloud apenas apresenta esta informação. Este campo está representado no formato padrão brasileiro (DD/MM/AAAA) e o horário no formato 24 horas (HH:MM:ss).
+* Ações: Esta coluna apresenta dois ícones para que o usuário possa interagir com cada ocorrência de um snapshot:
+* Ícone de Reverter Snapshot (“  ”): Basta o usuário clicar sobre este ícone e aplicar a reversão do disco da máquina virtual, com base na imagem do dia e a hora do snapshot selecionado. A Plataforma do uCloud apresenta uma tela de confirmação ao usuário:
+* Ambiente Amazon AWS: Para ambiente Amazon AWS esta ação é iniciada imediatamente - o disco de armazenamento da máquina virtual tem sua imagem revertida para o snapshot selecionado, após o tempo necessário desta atividade ser executada no ambiente Amazon AWS. Importante mencionar que a Plataforma do uCloud não tem controle sobre o tempo necessário para esta execução. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
+* Ambiente Azure: Para ambiente Azure esta ação necessita de atividade que deve ser executada pelo próprio usuário. O ambiente Azure não permite reverter uma imagem de snapshot de forma automática. A Plataforma do uCloud apresenta uma tela que solicita ao Azure gerar um link o qual contém o arquivo da imagem de disco de armazenamento:
+
+Após o ambiente Azure finalizar o processo de criar o arquivo de imagem, a Plataforma do uCloud apresenta outra tela que permite o download do arquivo da imagem do disco (snapshot).
+
+Este processo de download está vinculado à sessão do navegador de Internet (browser) e é armazenado no folder padrão, configurado nas preferências do navegador de Internet. Importante ressaltar que, se a sessão do navegador de Internet for encerrada, este processo de download do arquivo é interrompido. O usuário pode acompanhar o tempo para encerrar o processo do arquivo específico através das ferramentas de download do seu navegador de Internet de preferência (segue abaixo, um exemplo do navegador de Internet Ópera).
+  
+Após finalizar a transferência do arquivo da imagem de disco de armazenamento (snapshot), o usuário deve seguir as etapas descritas, conforme documentado no site do ambiente Azure - em seguida, aplicar a imagem à máquina virtual desejada.
+
+* Ícone Lata de Lixo (“  ”): Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a imagem de disco de armazenamento do ambiente do provedor de serviço de nuvem. Importante mencionar que a imagem de disco (snapshot) ocupa espaço de armazenamento dentro do ambiente do provedor de serviço de nuvem. A Plataforma do uCloud apresenta a tela abaixo, com a mensagem de confirmação da operação ao usuário:
+  
+.. warning:: |atencao| A ação de remoção da imagem de disco de armazenamento (snapshot) é definitiva e irreversível, pois não existem outras cópias desta imagem específica. Recomendamos ao usuário atenção redobrada ao confirmar esta ação.
+
+----
+
 Seção Signatures (Exclusivo Azure e Google Cloud Platform)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+----
 
 Seção Histórico de Performance (Azure e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Criando uma Máquina Virtual
 ---------------------------
+
+
+----
 
 Wizard Etapa 1 (Seleção da Nuvem)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Wizard Etapa 2 (informações básicas da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+----
 
 Wizard Etapa 3 (informações básicas da máquina virtual – cont.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Wizard Etapa 4a (informações de segurança da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+----
 
 Wizard Etapa 4b (informações de segurança – Exclusivo Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Wizard Etapa 5a (User data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+----
 
 Wizard Etapa 5b (User data VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Wizard Etapa 6 (visualizar as configurações da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Menu Scaling Groups
 ===================
+
+----
+
 Criando um Scaling Group AWS
 ----------------------------
+
+----
+
 Problemas Conhecidos com Grupo de Escalabilidade AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Criado um Scaling Group Azure
 -----------------------------
+
+
+----
 
 Menu Banco de Dados
 ===================
@@ -2015,102 +2246,235 @@ Gerenciando um Banco de Dados
 Seção Geral - Grupo Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+----
+
 Seção Grupos de Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Provisionando um Banco de Dados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Criação de Banco de Dados (MySQL & AWS)
 ---------------------------------------
+
+----
+
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (AWS)  [4 nivel]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 2 Seleção do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 3 Especificações do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 5 Especificações de Rede e Segurança (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Criação de Banco de Dados (MySQL & Azure)
 -----------------------------------------
+
+----
+
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 2 Seleção do Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 3 Especificações do Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 5 Especificações de Rede e Segurança (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Criação de Banco de Dados (MySQL & GCP)
 ---------------------------------------
+
+----
+
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 2 Seleção do Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 3 Especificações do Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 5 Especificações de Rede e Segurança (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
+
 Menu Virtual Datacenters
 ========================
+
+----
+
 Gerenciando Virtual Datacenters
 -------------------------------
+
+----
+
 Editando um Virtual Datacenter
 ------------------------------
+
+----
+
 Criando um Virtual Datacenter
 -----------------------------
 
+----
+
+
 Menu Financeiro
 ===============
+
+----
+
 Empresas Privadas
 -----------------
+
+----
+
 Empresas Públicas (USN)
 -----------------------
 
+----
+
 Menu Financeiro (Ambiente Corporativo)
 ======================================
+
+
 Seção Minha Fatura
 ------------------
+
+----
+
 Seção X Contratos
 -------------------
+
+----
+
 Fatura do Grupo no Contrato
 ---------------------------
+
+----
+
 Faturamento do Usuário
 ----------------------
+
+----
+
 Menu Financeiro (USN)
 ---------------------
+
+----
+
 Ambiente Governo Brasileiro
 ---------------------------
 
+
+----
+
 Menu Financeiro / USN Billing
 =============================
+
 Menu Financeiro / Relatório Consolidado de Faturamento
 ------------------------------------------------------
 
+
+----
+
 Menu Ordem de Serviço
 =====================
+
+
 Gerenciando a Ordem de Serviço
 ------------------------------
+
+----
+
 Seção Geral - Ordem de Serviço
 ------------------------------
 
+
+----
+
 Seção Estimativa de Custo (USN)
 -------------------------------
+
+----
+
 Configuração de Estimativa de Custo (UST)
 -----------------------------------------
+
+----
+
 De Acordo
 ---------
+
+
+----
 
 Menu Containers
 ===============
