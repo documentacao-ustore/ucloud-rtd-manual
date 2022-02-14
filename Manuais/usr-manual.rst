@@ -2007,6 +2007,7 @@ Esta seção apresenta as informações da interface de rede (interface Ethernet
    :align: center
 
 ----
+
   * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário clica com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
   * **Ícone de Cancelamento** |icone_cancela_vermelho|: No caso de usuário clicar sobre o ícone de edição por engano ou não desejar que a alteração seja armazenada (gravada) permanentemente, deve clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a alteração realizada. O conteúdo do campo retorna para os valores iniciais antes de qualquer preenchimento/alteração.
 
@@ -2031,6 +2032,7 @@ Seção Disco
 Esta seção apresenta a lista de todos os recursos do disco de armazenamento vinculados a esta máquina virtual. 
 
 **Exemplo em Ambiente Azure**
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_030a.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2038,6 +2040,7 @@ Esta seção apresenta a lista de todos os recursos do disco de armazenamento vi
 ----
 
 **Exemplo em Ambiente Amazon AWS**
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_030b.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2045,6 +2048,7 @@ Esta seção apresenta a lista de todos os recursos do disco de armazenamento vi
 ----
 
 **Exemplo em Ambiente Google Cloud Platform**
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_030c.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2066,7 +2070,7 @@ Estas telas apresentam as informaçõs referentes ao disco de armazenamento prov
   * **Ícone de Desconectar** |icone_desconecta|: Este ícone permite ao usuário desconectar (unplug) o dispositivo de armazenamento (disco) da máquina virtual. Importante ressaltar que esta ação não removerá (delete) o disco de armazenamento do ambiente do provedor de serviço de nuvem. Esta ação desvincula a unidade de disco de armazenamento da máquina virtual, portanto, o disco de armazenamento deixa de ser listado nesta tela. Ao clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresentará uma tela solicitando a confirmação da operação ao usuário:
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para remover (excluir) esta unidade de disco de armazenamento da interface da máquina virtual. Para executar esta ação é mandatório que a máquina virtual esteja inativa (shutdown), caso contrário a Plataforma do uCloud apresentará uma tela informado o erro. Estando a máquina virtual está inativa, e o usuário deseja excluir a unidade de disco de armazenamento, a Plataforma do uCloud apresenta uma tela que informa que esta ação possui uma responsabilidade e há impacto futuro, além do que, solicita a confirmação da operação ao usuário.
 
-* **Botão Adicionar** |uCloud_botao_adiciona_verde|: Cada provedor de serviço de nuvem, provisiona um recurso de disco de armazenamento de tamanhos específicos para cada máquina virtual provisionada em seu ambiente. Caso seja necessário adicionar um novo recurso de disco de armazenamento, basta o usuário clicar sobre o botão Adicionar para a Plataforma do uCloud apresentar as telas específicas para cada provedor de serviço de nuvem.
+* **Botão Adicionar** |botao_adiciona_verde|: Cada provedor de serviço de nuvem, provisiona um recurso de disco de armazenamento de tamanhos específicos para cada máquina virtual provisionada em seu ambiente. Caso seja necessário adicionar um novo recurso de disco de armazenamento, basta o usuário clicar sobre o botão Adicionar para a Plataforma do uCloud apresentar as telas específicas para cada provedor de serviço de nuvem.
 
 * **Criar Disco no ambiente AWS**
 
@@ -2127,17 +2131,18 @@ Ao excluir um snapshot, somente os dados exclusivos desse snapshot serão removi
   
 
 
-* Botão Adicionar: Caso seja necessário adicionar um novo recurso de snapshot de um disco de armazenamento, basta o usuário clicar sobre o botão Adicionar, a Plataforma do uCloud pode apresentar campos para que o usuário possa informar o nome e assinalar qual o disco selecionado é indicado para provisionar o snapshot:
-* Nome: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 1 caractere) com o qual deseja identificar este snapshot. A sugestão é de utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, e a Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
-* Select a Disk: Este campo é obrigatório, ao ser selecionado a Plataforma do uCloud apresenta uma lista tipo “dropdown” que exibe todos os discos de armazenamento vinculados a esta máquina virtual, neste momento, deve ser selecionado o disco de armazenamento desejado:
-* Ícone de Confirmação “  ”: Após preenchido o campo ‘nome para o snapshot” deve ser selecionado o disco de armazenamento que se deseja criar a imagem da cópia de segurança (backup), em seguida a Plataforma do uCloud apresenta um ícone de confirmação. O usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação é enviada uma solicitação de provisionamento de uma imagem de disco (snapshot) para o provedor de serviço de nuvem, e a nova imagem deve aparecer listada nesta seção após algum tempo. Importante ressaltar que o tempo total para provisionar este snapshot é dependente do tamanho do disco e seu tipo (SSD ou HDD) e do ambiente computacional do provedor de serviço de nuvem. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
-* Ícone de Cancelamento “  ”: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja provisionar um snapshot para o disco selecionado, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a ação e retornar ao conteúdo da seção.
-* Nome: Nesta coluna é apresentado o nome do snapshot informado no momento do seu provisionamento. Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, a Plataforma do uCloud não tem controle (na remoção ou alteração) destas adições do(s) provedor(es).
-* Data: Nesta coluna é apresentada a data e o horário em que o snapshot foi criado. Esta data é estabelecida pelo provedor de serviço de nuvem, a Plataforma do uCloud apenas apresenta esta informação. Este campo está representado no formato padrão brasileiro (DD/MM/AAAA) e o horário no formato 24 horas (HH:MM:ss).
-* Ações: Esta coluna apresenta dois ícones para que o usuário possa interagir com cada ocorrência de um snapshot:
-* Ícone de Reverter Snapshot (“  ”): Basta o usuário clicar sobre este ícone e aplicar a reversão do disco da máquina virtual, com base na imagem do dia e a hora do snapshot selecionado. A Plataforma do uCloud apresenta uma tela de confirmação ao usuário:
-* Ambiente Amazon AWS: Para ambiente Amazon AWS esta ação é iniciada imediatamente - o disco de armazenamento da máquina virtual tem sua imagem revertida para o snapshot selecionado, após o tempo necessário desta atividade ser executada no ambiente Amazon AWS. Importante mencionar que a Plataforma do uCloud não tem controle sobre o tempo necessário para esta execução. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
-* Ambiente Azure: Para ambiente Azure esta ação necessita de atividade que deve ser executada pelo próprio usuário. O ambiente Azure não permite reverter uma imagem de snapshot de forma automática. A Plataforma do uCloud apresenta uma tela que solicita ao Azure gerar um link o qual contém o arquivo da imagem de disco de armazenamento:
+* **Botão Adicionar** |botao_adiciona_verde|: Caso seja necessário adicionar um novo recurso de snapshot de um disco de armazenamento, basta o usuário clicar sobre o botão Adicionar, a Plataforma do uCloud pode apresentar campos para que o usuário possa informar o nome e assinalar qual o disco selecionado é indicado para provisionar o snapshot:
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 1 caractere) com o qual deseja identificar este snapshot. A sugestão é de utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, e a Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
+* **Select a Disk**: Este campo é obrigatório, ao ser selecionado a Plataforma do uCloud apresenta uma lista tipo “dropdown” que exibe todos os discos de armazenamento vinculados a esta máquina virtual, neste momento, deve ser selecionado o disco de armazenamento desejado:
+* **Ícone de Confirmação** |icone_conf_verde|: Após preenchido o campo ‘nome para o snapshot” deve ser selecionado o disco de armazenamento que se deseja criar a imagem da cópia de segurança (backup), em seguida a Plataforma do uCloud apresenta um ícone de confirmação. O usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação é enviada uma solicitação de provisionamento de uma imagem de disco (snapshot) para o provedor de serviço de nuvem, e a nova imagem deve aparecer listada nesta seção após algum tempo. Importante ressaltar que o tempo total para provisionar este snapshot é dependente do tamanho do disco e seu tipo (SSD ou HDD) e do ambiente computacional do provedor de serviço de nuvem. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
+* **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja provisionar um snapshot para o disco selecionado, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a ação e retornar ao conteúdo da seção.
+* **Nome**: Nesta coluna é apresentado o nome do snapshot informado no momento do seu provisionamento. Importante mencionar que este nome pode ser acrescentado com informações específicas do provedor de serviço de nuvem, a Plataforma do uCloud não tem controle (na remoção ou alteração) destas adições do(s) provedor(es).
+* **Data**: Nesta coluna é apresentada a data e o horário em que o snapshot foi criado. Esta data é estabelecida pelo provedor de serviço de nuvem, a Plataforma do uCloud apenas apresenta esta informação. Este campo está representado no formato padrão brasileiro (DD/MM/AAAA) e o horário no formato 24 horas (HH:MM:ss).
+* **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com cada ocorrência de um snapshot.
+
+  * **Ícone de Reverter Snapshot** |icone_revert_snap|: Basta o usuário clicar sobre este ícone e aplicar a reversão do disco da máquina virtual, com base na imagem do dia e a hora do snapshot selecionado. A Plataforma do uCloud apresenta uma tela de confirmação ao usuário:
+  * Ambiente Amazon AWS: Para ambiente Amazon AWS esta ação é iniciada imediatamente - o disco de armazenamento da máquina virtual tem sua imagem revertida para o snapshot selecionado, após o tempo necessário desta atividade ser executada no ambiente Amazon AWS. Importante mencionar que a Plataforma do uCloud não tem controle sobre o tempo necessário para esta execução. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
+  * Ambiente Azure: Para ambiente Azure esta ação necessita de atividade que deve ser executada pelo próprio usuário. O ambiente Azure não permite reverter uma imagem de snapshot de forma automática. A Plataforma do uCloud apresenta uma tela que solicita ao Azure gerar um link o qual contém o arquivo da imagem de disco de armazenamento:
 
 Após o ambiente Azure finalizar o processo de criar o arquivo de imagem, a Plataforma do uCloud apresenta outra tela que permite o download do arquivo da imagem do disco (snapshot).
 
@@ -2151,92 +2156,420 @@ Após finalizar a transferência do arquivo da imagem de disco de armazenamento 
 
 ----
 
-Seção Signatures (Exclusivo Azure e Google Cloud Platform)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Seção Signatures (**Exclusivo Azure e Google Cloud Platform**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta seção são listadas todas as assinaturas vinculadas à máquina virtual que se está observando. Assinaturas são serviços vinculados a uma máquina virtual, unicamente disponíveis para os provedores Azure e Google Cloud Platform. As assinaturas podem conter apenas as ofertas de serviços que devem ser cobrados mensalmente ou no mês específico. No caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor será cobrado integralmente pelo agente de bilhetagem.
+
+O usuário pode consultar o menu Configurações / Assinaturas.
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_034.png
+   :alt: Performance Instantânea de VM
+   :align: center
 
 ----
 
-Seção Histórico de Performance (Azure e GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* **Botão Adicionar** |botao_adiciona_verde|: Caso seja necessário vincular uma nova assinatura a esta máquina virtual, basta o usuário clicar sobre o botão Adicionar e a Plataforma do uCloud apresenta a tela com o exemplo abaixo;
 
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_034b.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+  * **Selecionar uma Assinatura**: Este campo é obrigatório ao ser selecionado, a Plataforma do uCloud apresenta uma lista tipo “dropdown” que exibe todos as assinaturas provisionadas na Plataforma do uCloud. O usuário deve selecionar a assinatura desejada:
+  * **Botão Adicionar** |botao_adiciona|: Após selecionar a assinatura desejada para vincular a esta máquina virtual, basta o usuário clicar sobre o botão Adicionar. Importante mencionar que o valor desta assinatura é adicionado aos custos mensais desta máquina virtual.
+  * **Botão Cancelar** |botao_cencela_verm|: Caso o usuário tenha clicado sobre o botão de adicionar, por engano, ou não deseja acrescentar a assinatura, basta clicar com o cursor do mouse sobre o ícone vermelho, neste momento a ação é cancelada e a tela retorna ao conteúdo da seção.
+  * **Nome**: Esta coluna apresenta o nome da assinatura informado no momento do seu provisionamento na Plataforma do uCloud.
+  * **Quantidade**: Esta coluna apresenta a quantidade de vezes que a assinatura incide sobre a máquina virtual até a data atual requerida.
+  * **Preço**: Esta coluna apresenta o valor financeiro da assinatura vinculada na máquina virtual
+  * **Data**: Esta coluna exibe a data na qual a assinatura é vinculada à máquina virtual.
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a assinatura da máquina virtual observada. Importante ressaltar, que no caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor é cobrado integralmente pelo agente de bilhetagem.
+
+Seção Histórico de Performance (**Exclusivo Azure e GCP**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Esta seção permite ao usuário gerar um gráfico de performance da máquina virtual, gráfico que apresenta as informações dos recursos de memória RAM e o uso de ciclos de CPU, durante um período específico que pode ser definido pelo usuário.
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_035a.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+* Data Inicial: O período específico pode ser definido pelo usuário, basta informar a data inicial que se deseja avaliar a performance da máquina virtual, o usuário deve clicar sobre o ícone do calendário |icone_agenda| e selecionar a data inicial do período;
+  
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+* Data Final: Em seguida, o usuário deve informar a data final do período que deseja avaliar a performance da máquina virtual, assim ao clicar sobre o ícone do calendário |icone_agenda| o usuário deve selecionar a data final do período que se quer avaliar;
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_035c.png
+   :alt: Performance Instantânea de VM
+   :align: center
+
+----
+
+* Botão Pesquisar |botao_pesquisar|: Para que a Plataforma do uCloud possa apresentar as informações referentes ao histórico de performance desta máquina virtual, o usuário deve clicar com o cursor do mouse sobre o botão “pesquisar” e aguardar os valores serem calculados para a montagem e apresentação do gráfico.
 
 ----
 
 Criando uma Máquina Virtual
 ---------------------------
 
+A Plataforma do uCloud, está perfeitamente integrada via API Rest as consoles dos provedores de serviço denuvem pública e/ou privada, e possibilita ao usuário enviar comandos para as respectivas consoles de cada provedor de nuvem e provisionar uma máquina virtual em seus ambientes nativos. *Muito importante ressaltar que não existem máquinas virtuais criadas dentro da Plataforma do uCloud, estes recursos computacionais (máquinas virtuais) são provisionados através da Plataforma do uCloud e, portanto, existem somente no ambiente destino selecionado*.
+
+Antes de iniciar este processo de criação de máquinas virtuais, verificar se a Plataforma do uCloud possui os pré-requisitos para completar o processo de ponta-a-ponta, de forma correta. Devem existir os seguintes pré-requisitos para qualquer ambiente de provedor de serviço de nuvem:
+
+A. Provisionar/Existir um Virtual Datacenter (ver item Virtual Datacenter / Criar Virtual Datacenter);
+B. Provisionar/Existir uma sub-rede (ver item Rede / Rede / Criar Rede);
+C. Provisionar/Existir um Grupo de Segurança (ver item Rede / Grupo de Segurança / Criar Grupo de Segurança).
+
+.. important:: |atencao| *Importante ressaltar que os tópicos acima são fundamentais, caso não sejam previamente provisionados, o usuário será obrigado a interromper o processo de criação da máquina virtual e efetuar o provisionamento criação dos tópicos acima.*
+
+Para uniformizar e simplificar o processo de provisionamento de uma máquina virtual, a Plataforma do uCloud foi desenhada para auxiliar e guiar o usuário (iniciante ou expert) nas principais etapas de parâmetros e configurações. Este processo de criação de uma máquina virtual é apoiado por uma “Wizard in” que serve para simplificar e direcionar o usuário, solicitando os parâmetros necessários para provisionar uma máquina virtual em qualquer provedor de serviço de recursos computacionais de nuvem (público e/ou privado).
+
+* **Botão Criar Máquina Virtual** |botao_criar_VM|: Este botão permite ao usuário provisionar (criar) uma máquina virtual no ambiente do provedor de serviço de nuvem desejado (público e/ou privado). Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma do uCloud apresenta a tela inicial do *Wizard*.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_001.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+Iremos detalhar cada etapa do assistente *Wizard* de forma separada a seguir.
 
 ----
 
 Wizard Etapa 1 (Seleção da Nuvem)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem, conforme apresentado nesta tela.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_002.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
+
+O exemplo da tela acima, reforça a posição de que a Plataforma do uCloud é um verdadeiro ambiente multi-cloud, pois são apresentados três provedores diferentes. Neste exemplo, a empresa usuária da Plataforma do uCloud possui relação comercial com cada provedor individualmente. Foram provisionados acessos com cada ambiente e neste ponto o usuário pode selecionar o ambiente destino no qual deseja provisionar uma máquina virtual.
+Importante ressaltar que apenas são apresentados os ícones dos provedores que a empresa usuária fornece acesso para seu(s) provedor(es) do serviço de nuvem, desta forma, se a empresa usuária fornecer apenas um único provedor, pode existir apenas um único ícone nesta etapa do wizard, conforme o exemplo abaixo:
+  
+.. image:: /figuras/ucloud_criar_maquina_virtual_003.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Botão Cancelar** |botao_cencela_verm|: O usuário pode usar este botão para cancelar o processo de criação de uma máquina virtual, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Máquina Virtual. A Plataforma do uCloud fecha a tela do wizard e retorna à tela anterior.
+* **Botão Voltar** |botao_voltar|: Este botão se encontra inativo, por se tratar da primeira etapa do processo, portanto não existe etapa anterior para retornar.
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre o ícone de um dos provedores, em seguida, clicar com o cursor do mouse sobre o botão Próximo, a Plataforma do uCloud apresenta a tela do *Wizard Etapa 2* (ver abaixo).
+  * *Caso o usuário não tenha selecionado um ícone de provedor, a Plataforma do uCloud apresentará a seguinte tela, a qual abre um aviso*:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_004.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Botão Voltar** |botao_voltar|: Ao clicar com o cursor do mouse sobre este botão, o usuário retorna à etapa anterior, o que permite selecionar o ambiente do provedor de serviço de nuvem desejado.
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até que todos os parâmetros necessários sejam preenchidos ou atendidos, para o correto provisionamento da máquina virtual no provedor selecionado.
 
 Wizard Etapa 2 (informações básicas da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa são solicitados alguns parâmetros básicos para o correto provisionamento da máquina virtual no provedor de serviço de nuvem:
+  
+.. image:: /figuras/ucloud_criar_maquina_virtual_005.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
+
+* **Tipo de Faturamento**: Este campo é obrigatório, quando o usuário clica com o cursor do mouse sobre este campo a Plataforma do uCloud apresenta uma lista com as opções disponíveis:
+
+  * **Reservado por CPU**: Quando o usuário escolhe este tipo de faturamento, indica selecionar uma máquina virtual de instância reservada paga no primeiro mês, no período de um ano (12 meses) no provedor. A forma de cálculo do uso da máquina é a ocupação do CPU desta.
+  * **Reservado por Memória**: No momento que o usuário elege este tipo de faturamento, determina selecionar uma máquina virtual de instância reservada paga no primeiro mês, no período de um ano (12 meses) no provedor. O cálculo do uso da máquina é a ocupação da memória desta.
+  * **Sob Demanda por CPU**: Quando o usuário escolhe este tipo de faturamento, indica selecionar uma máquina virtual que será cobrada por uso mês-a-mês no provedor. A forma de cálculo do uso da máquina será a ocupação do CPU desta.
+  * **Sob Demanda por Memória**: No momento que o usuário elege este tipo de faturamento, determina selecionar uma máquina virtual que será cobrada por uso mês-a-mês no provedor. A forma de cálculo do uso da máquina é a ocupação da memória desta.
+
+* **Nome**: Este campo é obrigatório o usuário deve nomear (no mínimo 3 caracteres) com o termo que deseja identificar este snapshot. A sugestão é utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido). Importante mencionar que este nome poderá ser acrescido com informações específicas do provedor de serviço de nuvem. A Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
+
+* **Virtual Datacenter**: Este campo é obrigatório do tipo “dropdown” quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todos os Virtual Datacenters que foram provisionados e vinculados ao provedor de serviço de nuvem selecionado na Etapa 1. Importante mencionar que este campo determina o conteúdo de outros campos tanto nesta etapa quanto em outras etapas deste wizard.
+
+.. note:: *Caso não exista nenhum Virtual Datacenter que tenha sido provisionado antecipadamente, é necessário interromper este processo de máquina virtual para provisionar um Virtual Datacenter, é recomendado seguir o processo descrito no item Criação de Virtual DataCenter.*
+
+* **Regiões**: Este campo é obrigatório do tipo “dropdown” , quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as regiões globais de presença do provedor de serviço de nuvem - que foram configuradas no Virtual Datacenter, selecionado no campo anterior.
+
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
+
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 3 (ver abaixo).
 
 Wizard Etapa 3 (informações básicas da máquina virtual – cont.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta seção é a continuação da etapa anterior em que são solicitados alguns parâmetros básicos para o correto provisionamento da máquina virtual, no provedor do serviço de nuvem:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_006.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
+
+* **Conjunto de Disponibilidade (somente Azure)**: Este campo é obrigatório e exclusivo aos provisionamentos na nuvem Azure. Este campo é do tipo “dropdown” por isto, quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os Conjuntos de Disponibilidade, configurados previamente e/ou informados pelo usuário. Um conjunto de disponibilidade garante que as VMs sejam distribuídas entre vários domínios de falha nos datacenters do Azure, além de serem implantadas em hosts com janelas de manutenção diferentes. O usuário possui duas opções controladas por ícones tipo “radio button” que está descrito a seguir:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_007.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  * **Selecione**: Este ícone é obrigatório, ao ser selecionado, transforma o campo abaixo em um campo do tipo “dropdown”. Permite ao usuário clicar com o cursor do mouse e recuperar, na Plataforma do uCloud, uma lista de todos os Conjuntos de Disponibilidade configurados no provedor de serviço de nuvem. O usuário pode selecionar o Conjunto de Disponibilidade desejado.
+  
+  * **Criar**: Este ícone é obrigatório quando selecionado transforma o campo abaixo em um campo do tipo “texto livre”. Esta opção é válida quando o usuário deseja criar um Grupo de Disponibilidade novo no ambiente Azure. O usuário deve informar o novo nome, clicar com o cursor do mouse no campo abaixo ou pressionar a tecla TAB, assim pode seguir ao próximo campo.
+
+* **Templates**: Este campo é obrigatório do tipo “dropdown” ao ser clicado pelo usuário, a Plataforma do uCloud lista todos os Templates do provedor de serviço de nuvem, previamente escolhidos no Virtual Datacenter, operação detalhada no Wizard Etapa 2.
+
+* **Flavors**: Este campo é obrigatório do tipo “dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud recupera e lista de todos os flavors do provedor de serviço de nuvem, previamente configuradas no Virtual Datacenter selecionado no Wizard Etapa 2.
+
+.. note:: *A Plataforma do uCloud pode apresentar uma mensagem de erro, caso o flavor selecionado não seja compatível com o Tipo de Faturamento, selecionado na etapa anterior.*
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_008.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  * O usuário pode escolher outro flavor que não apresente esta mensagem de erro ou retornar a Wizard Etapa 2 e efetuar a mudança na seleção de Tipo de Faturamento.
+
+.. important:: Importante ressaltar que o Botão Criar não se torna ativo, no caso de ocorrer qualquer mensagem de erro que tenha sido apresentada em qualquer etapa deste wizard.
+
+* **Sub-redes**: Este campo é obrigatório do tipo “dropdown”  quando o usuário clica com o cursor do mouse a Plataforma do uCloud recupera e lista todas as sub-redes (subnets) que foram configuradas anteriormente para este provedor de serviço de nuvem.
+
+  * Caso nenhuma Sub-rede tenha sido provisionada antecipadamente, será necessário interromper este processo de máquina virtual e provisionar uma sub-rede, o usuário deve seguir o processo descrito no item Redes / Redes / Criar Redes.
+
+* Defina o número de máquinas virtuais que serão criadas: Este campo é obrigatório nele o usuário deve informar um número inteiro, tal número representa a quantidade de máquinas virtuais a serem provisionadas no ambiente do provedor de serviço de nuvem (no mínimo 1 máquina virtual). Este campo não pode ser deixado em branco.
+
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
+
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 4 (ver abaixo).
 
 Wizard Etapa 4a (informações de segurança da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa o usuário deve informar os parâmetros de segurança para o correto provisionamento da máquina virtual no provedor de serviço de nuvem:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_009.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
+
+* Par de Chaves: Este campo é obrigatório do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista as duas opções disponíveis:
+  
+  * Opção 1: Escolher Chave Existente: Quando escolhida esta opção, significa que o usuário pode selecionar algum par de chave, previamente configurado na Plataforma do uCloud. Ver o item Rede / Par de Chave, para acompanhar o processo “Provisionar um novo par de chave”.
+    * Selecionar Par de Chaves: Este campo é obrigatório e do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista apenas as chaves que este usuário possui (ou chaves que foram criadas por um usuário com o perfil de acesso superior – no exemplo acima o usuário é ‘root’) e que estão vinculadas ao ambiente do provedor de serviço de nuvem. Para vincular esta chave à máquina virtual que será provisionada, basta o usuário clicar com o mouse em alguma das chaves existentes,
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_010.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  * Opção 2: Criar Novo Par de Chaves: Este campo é obrigatório quando selecionado significa que o usuário deseja criar um arquivo de Par de Chave - online - durante o processo de provisionamento da máquina virtual.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_011.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  * **Nome da Chave**: *Este campo é obrigatório* nele o usuário deve informar o nome do Par de Chave que deseja criar. A sugestão é utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+  * **Botão Download** |botao_download|: Este botão é habilitado somente após o usuário informar o nome da chave no campo anterior. O usuário deve clicar com o botão do mouse sobre este botão para que a Plataforma do uCloud possa iniciar o download do arquivo texto, com a chave de autenticação SSH para esta máquina virtual. O download do arquivo de texto (.pem) é executado pelo navegador de Internet utilizado pelo usuário, no momento da operação.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_011b.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  Este processo de download está vinculado à sessão do navegador de Internet (browser) armazenado no folder padrão configurado nas preferências do navegador de Internet. Importante ressaltar que no caso da sessão do navegador de Internet ser encerrada, este processo de download do arquivo é interrompido. O usuário pode acompanhar o tempo para encerrar o processo do arquivo específico através das ferramentas de download do seu navegador de Internet de preferência (abaixo está um exemplo do navegador de Internet Opera).
+  Após finalizar a transferência do arquivo texto com a chave privada de autenticação (.pem) o usuário está apto a efetuar a conexão no console da máquina virtual utilizando qualquer ferramenta de sessão SSH da sua preferência.
+
+.. important:: |atencao| *Importante ressaltar que a etapa de efetuar o download do arquivo texto com a chave de autenticação SSH é de suma importância, este arquivo permite a primeira conexão SSH na máquina virtual. Sem este arquivo é impossível se conectar (pela primeira vez) ao prompt do sistema operacional da máquina virtual.*
+
+* **Grupo de Segurança**: Este campo é obrigatório do tipo *dropdown*  quando o usuário clicar com o cursor do mouse na Plataforma do uCloud é recuperada uma lista de todos os grupos de segurança provisionados na Plataforma do uCloud. Basta o usuário selecionar o Grupo de Segurança desejado para vincular a máquina virtual.
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
 
 Wizard Etapa 4b (informações de segurança – Exclusivo Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa o usuário deve informar os parâmetros de segurança para o correto provisionamento das máquinas virtuais no provedor de serviço de nuvem Azure, a etapa quatro possui campos - alguns deles exclusivos. Neste momento, a Plataforma do uCloud adapta o wizard de forma a solicitar parâmetros necessários para o ambiente da nuvem.
+Para o ambiente Azure, o método de autenticação é unicamente através de uma senha, nesta etapa existe um campo do tipo “texto livre” que possibilita informar a sequência de caracteres da senha.
+
+A seguir é apresentada a tela referente Wizard Etapa 4b, para máquinas virtuais do Azure:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_012.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
+
+* **Senha**: Este campo é obrigatório, o usuário deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”, conforme a documentação encontrada no site da Azure. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres, deve conter caracteres de três das seguintes categorias:
+  * *Letras maiúsculas e minúsculas (A a Z)*
+  * *Números inteiros de base 10 (de 0 a 9)*
+  * **Caracteres não alfanuméricos** (caracteres especiais): (~ ! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /).
+
+* **Grupo de Segurança**: Este campo é obrigatório do tipo *dropdown* quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta uma lista de todos os Grupos de Segurança provisionados na Plataforma do uCloud. Basta o usuário selecionar o grupo de segurança desejado para vincular à máquina virtual.
+
+.. important:: |atencao| Mesmo que os símbolos de moedas como o euro (€) ou a libra britânica (£) não fazem parte dos caracteres especiais recomendamos FORTEMENTE QUE NUNCA SEJAM UTILIZADOS em senhas de máquinas virtuais.*
+
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
 
 Wizard Etapa 5a (User data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta etapa permite ao usuário inserir um código script de inicialização para um certo nível de personalização do ambiente operacional da máquina virtual.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_013.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
 
 ----
 
-Wizard Etapa 5b (User data VMware)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* **User Data**: Este campo não é obrigatório, ele pode ser deixado em branco (sem conteúdo). Caso seja necessário, o usuário pode inserir neste campo o conteúdo de um script de inicialização que pode ser na linguagem Powershell ou YAML para configuração de parâmetros do ambiente do sistema operacional da máquina virtual. Basta o usuário inserir o conteúdo do script neste campo, através do recurso copiar/colar (copy/paste).
 
+* **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
+
+.. note:: Importante ressaltar, que esta etapa pode ser executada neste momento, sem que seja obrigatório passar pela última etapa (etapa seis) do wizard.
+
+----
+
+Wizard Etapa 5b (**User data VMware**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para as máquinas virtuais provisionadas no ambiente on-premises VMware, a etapa cinco possui campos, alguns deles exclusivos, desta forma a Plataforma do uCloud adapta o wizard e solicita os parâmetros necessários para o ambiente on-premises VMware.
+Abaixo é apresentada a tela referente a Etapa 5a, para máquinas virtuais na VMware:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_014.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Assinaturas**: Este campo é opcional, do tipo “dropdown” . Quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta todas as Assinaturas anteriormente provisionadas no ambiente. Basta o usuário selecionar a(s) assinatura(s) desejada(s) para adicionar ao custo mensal da máquina virtual. Para provisionar novas assinaturas ou editar as existentes basta ler o item Configurações / Assinaturas na página .
+* **Botão Attach**: Depois de selecionar a assinatura desejada, basta o usuário clicar com o cursor do mouse sobre o botão Attach para vincular (adicionar) o valor mensal da assinatura ao custo da máquina virtual que está provisionando.
+* **Botão Excluir**: Este botão é necessário quando o usuário vincular uma assinatura a máquina virtual por engano e desejar remover esta assinatura antes de submeter o comando de criar esta máquina virtual. Basta selecionar a assinatura desejada e clicar com o cursor do mouse sobre o botão Excluir. O valor mensal da assinatura é removido do custo da máquina virtual provisionada.
+* **Endereço DHCP**: Este ícone permite ao usuário alternar entre duas opções, a opção padrão: Endereço DHCP (dinâmico) - a máquina virtual provisionada no ambiente VMware, recebe seu Endereço TCP-IP de forma dinâmica com base no Servidor DHCP on-premises.
+* **Endereço Estático**: Quando o usuário alterna para a 2ª opção: Endereço Estático - a interface da Plataforma do uCloud apresenta campos específicos que devem ser preenchidos para o correto provisionamento da máquina virtual.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_014b.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **IP**: Este campo é obrigatório do tipo “dropdown”. Quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista de todos os endereços TCP-IP disponíveis na rede on-premises. Basta o usuário clicar com o cursor do mouse sobre o endereço desejado para vincular este à máquina virtual que se está provisionando.
+* **Netmask**: Este campo é obrigatório, o usuário deve informar a máscara de rede TCP-IP desejada e adequada para receber o Endereço TCP-IP informado no campo anterior.
+* **Gateway**: Este campo é obrigatório, o usuário deve informar o Endereço TCP-IP do Gateway da sub-rede (subnet) selecionada nos campos acima.
+* **DNS**: Este campo é obrigatório, o usuário deve informar o Endereço TCP-IP do Servidor DNS (Domain Name Server) específico botão criarque resolve o nome da máquina virtual.
+
+* **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
+
+* **Botão Criar** |botao_criar_on|: Nesta etapa todos os parâmetros fundamentais para a criação da máquina virtual devem ter sido informados corretamente, o usuário percebe que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão criar para que a Plataforma do uCloud envie todos os parâmetros da máquina virtual para o provedor de serviço de nuvem (via API-Rest) selecionado, para o completo provisionamento da máquina virtual.
+
+.. note:: |nota| Importante ressaltar, que o usuário está livre para pressionar o Botão Criar Verde sem que seja obrigatório passar pela última etapa (etapa seis) do wizard. Caso este botão não esteja habilitado |botao_criar_off| significa afirmar que algum parâmetro anterior não foi informado ou foi deixado em branco, por este motivo a Plataforma do uCloud impede o provisionamento da máquina virtual.
 
 ----
 
 Wizard Etapa 6 (visualizar as configurações da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta é a etapa final, momento que a Plataforma do uCloud apresenta o resumo de todas as informações referentes aos parâmetros e configurações para o provisionamento da máquina virtual no provedor de serviço de nuvem:
+  
+.. image:: /figuras/ucloud_criar_maquina_virtual_015.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Sumário**:
+  * Máquina Virtual: <nome>
+  * Template: <sistema operacional>
+  * Virtual Data Center: <nome do Virtual Datacenter>
+  * Host:
+  * Provedor Cloud: <Identificação do Provedor de serviço de nuvem>
+  * Redes: Subnet <CIDR da sub-rede TCP-IP>
+  * Flavor: <Identificação do Flavor – configuração do hardware>
+  * Vcpus: <Quantidade de CPUs>
+  * Memória: <Total de Memória RAM>
+
+* **Ícone Agendar** |icone_habil_verde|/|icone_desb_verm|: Este ícone permite ao usuário agendar o provisionamento da máquina virtual, o valor padrão de apresentação é Desabilitado (cor vermelho).
+
+* **Ícone Calendário** |icone_agenda|: Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar o pop-up na tela e permitir ao usuário selecionar a data desejada, conforme abaixo:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_015b.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+  * **Ícone setas (🡩/🡫)**: Inicialmente a Plataforma do uCloud apresenta o calendário com o dia e horário corrente, em destaque azul. Basta o usuário clicar com o cursor do mouse sobre o dia desejado e/ou nos ícones de setas para selecionar outro mês. Quando selecionado, este será o dia programado para que a Plataforma do uCloud possa enviar a tarefa para o provedor de serviço de nuvem para o provisionamento da máquina virtual.
+  * **Hora / Minuto**: Este campo é apresentado no padrão 24 horas, basta o usuário selecionar a hora e minuto desejado. Quando selecionado, este será o horário programado para que a Plataforma do uCloud possa enviar a tarefa ao provedor de serviço de nuvem para o provisionamento da máquina virtual.
+
+* **Suas cotas**: Os gráficos apresentados representam os limites (cotas) referentes aos recursos computacionais de Disco, CPU e memória. Isto permite ao usuário identificar se o provisionamento desta nova máquina virtual está dentro dos limites definidos para seu usuário ou grupo. Importante ressaltar que no caso do usuário ter consumido toda sua cota, a Plataforma do uCloud não procede com o provisionamento desta máquina virtual.
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_015c.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Estimativa de preço**: Esta informação é obtida diretamente dos valores públicos (abertos) de máquinas virtuais do provedor de serviço de nuvem pública selecionado na Wizard Etapa 1. Esta informação é relevante, para o caso do usuário ter consumido todos os seus limites (cotas), esta informação confirma a possibilidade de que esta máquina virtual não seja criada. Caso o ambiente seja multi-nuvem e o usuário tenha a permissão de provisionar máquinas virtuais em mais de um provedor de serviço de nuvem a Plataforma do uCloud apresenta um comparativo de preços dos diversos provedores aos quais o usuário está vinculado:
+
+.. image:: /figuras/ucloud_criar_maquina_virtual_015d.png
+   :alt: Wizard para criar Maquina Virtual
+   :align: center
+
+----
+
+* **Botão Voltar** |botao_voltar|: Este botão pode ser útil por permitir ao usuário retornar a etapa anterior e informar algum parâmetro que tenha sido deixado sem preenchimento.
+
+* **Botão Criar** |botao_criar_on|: Nesta última etapa todos os parâmetros fundamentais para a criação da máquina virtual devem ter sido informados corretamente, o usuário percebe que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão criar para que a Plataforma do uCloud envie todos os parâmetros da máquina virtual para o provedor de serviço de nuvem (via API-Rest) selecionado, para o completo provisionamento da máquina virtual.
+
+* Caso este botão não esteja habilitado (cor cinza |botao_criar_off|), significa afirmar que algum parâmetro anterior foi deixado em branco, por este motivo a Plataforma do uCloud impede o provisionamento da máquina virtual.
+
+* Após clicar com o cursor do mouse sobre o botão Criar a Plataforma do uCloud encerra a tela do wizard, envia a *Tarefa* de provisionamento da máquina virtual para o provedor de serviço de nuvem selecionado na Wizard Etapa 1, em seguida, atualiza a lista do inventário de máquinas virtuais apresentando a nova máquina virtual nesta lista.
+
+.. important:: |atencao| Importante mencionar que após criar uma nova máquina virtual a atualização da relação de máquinas virtuais na interface da Plataforma do uCloud pode não ser imediata, o uCloud não tem controle do tempo que o provedor de serviço de nuvem necessita para coletar todos os recursos computacionais necessários (CPU, memória, Disco, outros) para configurar a máquina virtual.
+
+O usuário pode acompanhar a evolução do processamento da sua solicitação no ambiente do provedor de serviço de nuvem através do menu **Tarefas**.
 
 ----
 
 Menu Scaling Groups
 ===================
 
-----
 
 Criando um Scaling Group AWS
 ----------------------------
 
-----
 
 Problemas Conhecidos com Grupo de Escalabilidade AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-----
+
 
 Criado um Scaling Group Azure
 -----------------------------
 
 
-----
 
 Menu Banco de Dados
 ===================
@@ -2247,17 +2580,15 @@ Seção Geral - Grupo Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-----
 
 Seção Grupos de Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-----
+
 
 Provisionando um Banco de Dados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-----
 
 Criação de Banco de Dados (MySQL & AWS)
 ---------------------------------------
@@ -2661,6 +2992,16 @@ Editor de Etiquetas (tags) Nativo
 
 .. |botao_refresh| image:: /figuras/uCloud_botao_refresh.png
 
+.. |botao_proximo| image:: /figuras/ucloud_botao_proximo.png
+
+.. |botao_voltar| image:: /figuras/ucloud_botao_voltar.png
+
+.. |botao_criar_off| image:: /figuras/ucloud_botao_criar_cinza.png
+
+.. |botao_criar_on| image:: /figuras/ucloud_botao_criar_verde.png
+
+.. |botao_cencela_verm| image:: /figuras/ucloud_botao_cancela_verm.png
+
 .. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
 
 .. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
@@ -2718,3 +3059,5 @@ Editor de Etiquetas (tags) Nativo
 .. |icone_vm_resume| image:: /figuras/ucloud_icone_vm_resume.png
 
 .. |icone_edita_vdc| image:: /figuras/ucloud_icone_edita_vdc.png
+
+.. |icone_revert_snap| image:: /figuras/ucloud_icone_revert_snap.png
