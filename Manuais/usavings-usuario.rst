@@ -1,7 +1,7 @@
 uSavings - Manual do Usuário
 ++++++++++++++++++++++++++++
 
-.. image:: /figuras/usavings-logo-gde.png
+.. image:: /figuras/uSavings-logo-gde.png
     :alt: logo usavings
     :align: center
 ======
@@ -15,4 +15,3 @@ Texto H2
 
 Texto H3
 ~~~~~~~~
-
