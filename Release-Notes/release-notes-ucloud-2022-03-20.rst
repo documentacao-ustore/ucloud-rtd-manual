@@ -146,7 +146,6 @@ As funcionalidades disponíveis são as seguintes:
 #. Ativação de Máquina Virtual (Start/Boot)
 #. Cópia Instantânea de um volume (Disk Snapshot)
 #. Executar um, ou mais, scripts/playbooks com sintaxe:
-
   a. Ansible
   b. Terraform
   c. Puppet
@@ -199,6 +198,7 @@ A sequência de caracteres que representa o token que permite que as credenciais
 .. important:: A Plataforma uCloud não efetua nenhuma validação prévia se a cadeia de caracteres referente ao token de acesso ao Github é válida ou não. A Plataforma uCloud não irá apresentar qualquer mensagem informativa referente à inclusão deste token à credencial de um usuário.
 
 Atualmente a Plataforma uCloud suporta as seguintes ferramentas de IaC:
+
 * Ansible
 * Terraform
 * Puppet*
@@ -221,6 +221,7 @@ Para este exemplo, não iremos descrever e fica a critério do leitor a sua melh
 
 .. figure:: /figuras/ucloud_workflows001b.png
    :alt: Logo uCLoud
+   |scale| 60 %
    :align: center
 
 ----
@@ -414,7 +415,7 @@ Com a combinação do novo Perfil de Permissionamento em conjunto da funcionalid
 Conclusão
 =========
 
-Este conjunto de novas funcionalidades e ampliação de conceito de funcionalidades existente é parte integrante da mais recente atualização de versão da Plataforma uCloud (`4.1-switchRoles104`), atende a diversas demandas do mercado e de nossos clientes, com o conteúdo deste documento as o desenvolvimento desta nova versão a Ustore reafirma o compromisso da constante evolução de nossa plataforma e o alinhamento com as necessidades do mercado e de nossos clientes.
+Este conjunto de novas funcionalidades e ampliação de conceito de funcionalidades existente é parte integrante da mais recente atualização de versão da Plataforma uCloud (``4.1-switchRoles104``), atende a diversas demandas do mercado e de nossos clientes, com o conteúdo deste documento as o desenvolvimento desta nova versão a Ustore reafirma o compromisso da constante evolução de nossa plataforma e o alinhamento com as necessidades do mercado e de nossos clientes.
 
 .. |icone_lapis_workflow| image:: /figuras/ucloud_icone_edita_workflow.png
 .. |botao_adicionacarrinho| image:: /figuras/ucloud_botao_colocacarrinho.png
