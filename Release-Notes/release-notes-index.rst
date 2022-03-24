@@ -6,17 +6,10 @@ Notas de evolução da Plataforma uCloud (*Release Notes*).
 Estes documentos são distribuídos em períodos diferentes das atualizações de versão.
 
 
-Release Notes 30-set-2021
+Release Notes 20-mar-2022
 -------------------------
 
-Introducao
-~~~~~~~~~~
-
-Correcoes
-~~~~~~~~~
-
-Implementacao
-~~~~~~~~~~~~~
+::doc:`release-notes-ucloud-2022-03-20`
 
 
 Release Notes 30-out-2021
