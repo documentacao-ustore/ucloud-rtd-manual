@@ -30,6 +30,7 @@ Novas implementações
 --------------------
 
 Abaixo apresentamos a lista de novas implementações:
+
 * Switch Roles
 * Workflows
 * Catálogo de Serviços
