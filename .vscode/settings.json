@@ -1,4 +1,4 @@
 {
     "restructuredtext.confPath": "${workspaceFolder}",
-    "esbonio.sphinx.confDir": "c:\\Users\\Erick\\OneDrive\\Documentos\\ucloud-rtd-manual"
+    "esbonio.sphinx.confDir": "${workspaceFolder}"
 }
