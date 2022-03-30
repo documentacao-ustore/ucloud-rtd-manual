@@ -238,7 +238,7 @@ Para este exemplo, não iremos descrever e fica a critério do leitor a sua melh
 
 .. figure:: /figuras/ucloud_workflows001b.png
    :alt: Logo uCLoud
-   |scale| 60 %
+   :scale: 60 %
    :align: center
 
 ----
