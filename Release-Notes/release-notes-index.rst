@@ -12,8 +12,3 @@ Release Notes 20-mar-2022
 ::doc:`release-notes-ucloud-2022-03-20`
 
 
-Release Notes 30-out-2021
--------------------------
-
-::doc:`release-notes-ucloud-2021-11-31`
-

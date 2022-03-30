@@ -85,8 +85,11 @@ Switch Roles
 ============
 
 Quando um usuário de infraestrutura multi-nuvem precisa alternar entre diversos consoles de provedores de nuvem, o processo de login com diversas credenciais em diversos consoles gera um gasto de tempo e pode incorrer em erros de digitação de logins e senhas.
+
 A plataforma do uCloud por ser um ambiente multi-nuvem permite que o usuário possa interagir com os recursos computacionais existentes em diversos provedores de nuvem diferentes de forma simultânea.
+
 Ao iniciar uma sessão na Plataforma uCloud (login) o usuário obtém um conjunto específico de permissões para executar ações que pertencem ao contrato ao qual o usuário está vinculado. O(s) usuário(s) pertencem a um Grupo, e os Grupos pertencem a um contrato. Portanto, as credenciais de acesso do usuário estão vinculadas a um, ou mais, Contratos, Este contrato pode estar provisionado para ter acesso a um (ou mais) credenciais de acesso aos ambientes dos provedores de nuvem pública e/ou privada.
+
 Veja a figura abaixo, que demonstra a vinculação do usuário a um, ou mais, contratos:
   
 .. figure:: /figuras/ucloud_arquitetura_conceitual001.png
@@ -96,15 +99,19 @@ Veja a figura abaixo, que demonstra a vinculação do usuário a um, ou mais, co
 ----
 
 O primeiro aspecto da figura acima é que podemos verificar que este cliente possui dois contratos diferentes. O Contrato A está associado a somente um provedor de nuvem pública (ex: AWS) e o Contrato B está associado a dois provedores de nuvem pública diferentes (ex: AWS e Azure).
-Switch Roles - Cenário Exemplo
-Na figura acima podemos visualizar que os usuários Mariah, João e Carlos pertencem a somente um único contrato e este contrato possui somente um único provedor (ex: AWS).
-O usuário Josué está associado a dois contratos diferentes e para evitar que este usuário tenha de alternar entre sessões de registro diferentes (encerrar uma sessão e iniciar outra com outra credencial), a Ustore desenvolveu e implementou a funcionalidade de Switch Roles.
-Desta forma apenas o usuário Josué, através da funcionalidade, de Switch Roles pode alternar entre os contratos aos quais ele está vinculado, simplesmente alternando entre os contratos aos quais ele está vinculado.
-O usuário Josué é responsável pela total gestão da infraestrutura do ambiente Azure, porém, no ambiente da AWS, ele pode somente visualizar os recursos computacionais, pois não possui a permissão de operar estes recursos computacionais (ex: Read Only).
-Através da funcionalidade Switch Roles será possível aplicar esta mudança de papel sem a necessidade de troca do usuário, isso será feito com um através da seleção de contrato e/ou container que este usuário deseja acessar.
 
 Switch Roles - Cenário Exemplo
 ------------------------------
+
+Na figura acima podemos visualizar que os usuários Mariah, João e Carlos pertencem a somente um único contrato e este contrato possui somente um único provedor (ex: AWS).
+
+O usuário Josué está associado a dois contratos diferentes e para evitar que este usuário tenha de alternar entre sessões de registro diferentes (encerrar uma sessão e iniciar outra com outra credencial), a Ustore desenvolveu e implementou a funcionalidade de Switch Roles.
+
+Desta forma apenas o usuário Josué, através da funcionalidade, de Switch Roles pode alternar entre os contratos aos quais ele está vinculado, simplesmente alternando entre os contratos aos quais ele está vinculado.
+
+O usuário Josué é responsável pela total gestão da infraestrutura do ambiente Azure, porém, no ambiente da AWS, ele pode somente visualizar os recursos computacionais, pois não possui a permissão de operar estes recursos computacionais (ex: Read Only).
+
+Através da funcionalidade Switch Roles será possível aplicar esta mudança de papel sem a necessidade de troca do usuário, isso será feito com um através da seleção de contrato e/ou container que este usuário deseja acessar.
 
 A funcionalidade de Switch Roles fica posicionada no canto superior direito da área de tela da Plataforma do uCloud (ao lado do nome do usuário) - veja a tela abaixo:
 
@@ -124,6 +131,7 @@ Basta o usuário clicar com o cursor do mouse sobre o nome do contrato e a Plata
 ----
 
 Ao selecionar o contrato desejado a Plataforma do uCloud irá atualizar a informação apresentada no canto superior direito da sessão do usuário.
+
 Importante ressaltar que essa janela pop-up lista somente os contratos aos quais o usuário está vinculado. Caso existam outros contratos provisionados na Plataforma uCloud, o usuário não terá acesso a nenhum destes outros contratos.
   
 .. figure:: /figuras/ucloud_dashboard_switch_roles003.png
@@ -133,7 +141,9 @@ Importante ressaltar que essa janela pop-up lista somente os contratos aos quais
 ----
 
 A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu nível de acesso bem como obter acesso a diferentes contratos com diferentes regras de permissões para cada contrato sem ter de encerrar a sua sessão na Plataforma uCloud.
+
 Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
+
 A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico **Perfil de Permissionamento**, neste documento.
 
 Fluxos de Trabalho - Workflows
@@ -162,6 +172,7 @@ Ativação de Máquina Virtual (Start/Boot)
 ----------------------------------------
 
 Seguindo o exemplo de desligamento programado, o usuário pode utilizar a funcionalidade de workflows para ativar (start) um servidor em um horário programado para que as aplicações que estão sendo executadas neste servidor, estejam disponíveis para os usuários durante o horário comercial.
+
 Esta ação pode ser programada para ser executada diariamente em um horário pré-determinado (ex: executar start de segunda a sexta-feira às 05 horas). Desta forma revertendo assim, o desligamento diário e durante os finais de semana; deixando a infraestrutura do servidor e suas aplicações disponível para seus usuários durante o horário comercial.
 
 Esta implementação pode reduzir os custos recorrentes de recursos de servidores que foram contratados como cobrança por utilização. 
@@ -214,10 +225,15 @@ Workflows de Scripts/Playbooks - Exemplos de Uso
 ------------------------------------------------
 
 Vamos usar o exemplo abaixo para imaginarmos um Fluxo de trabalho (workflow) que irá executar uma sequência de ações pré-determinadas e cada uma destas ações pode ser um script/playbook independente.
+
 O objetivo final é ter uma nova máquina virtual, idêntica do ponto de vista de configuração de hardware, sistema operacional e suas atualizações de pacotes de software (patches e hotfixes do Sis.Op.), iniciar esta nova máquina virtual e executar um script/playbook que promove a instalação de softwares complementares e enviar uma notificação de “Sucesso” para indicar que o processo de provisionamento desta máquina virtual foi finalizado.
+
 Mas no caso de que qualquer scripts/playbooks retorne algum erro durante sua execução, desejamos que o recurso computacional da máquina virtual, seja apagado/removido, e enviar uma notificação de “ERRO” para indicar a interrupção do processo de provisionamento desta máquina virtual.
+
 Para este cenário iremos assumir o conceito que cada bloco de ação é um arquivo independente e presente no repositório do Github e através da interface da Plataforma uCloud o usuário pode ‘programar’ a sequência em que cada script/playbook será executado, criando assim um “Fluxo de Trabalho - um Workflow”.
+
 Usando o fluxo gráfico abaixo em que cada caixa (box) representa um script/playbook que está armazenado no repositório do Github.
+
 Para este exemplo, não iremos descrever e fica a critério do leitor a sua melhor metodologia de execução da tarefa de “Envio de Notificação”. O leitor pode se utilizar de qualquer metodologia, aplicação, meio disponível ou preferível para esta finalidade.
 
 .. figure:: /figuras/ucloud_workflows001b.png
@@ -236,10 +252,15 @@ Assumindo que o usuário está com uma sessão ativa na Plataforma uCloud, e sua
 ----
 
 Este é apenas uma figura que apresenta um exemplo da funcionalidade de Fluxo de Trabalho (Workflow) da Plataforma uCloud, depois de configurada por um usuário.
+
 Foi provisionado um workflow denominado “ClonarVM-Ansible”, este fluxo executa a sequência de “Task Associadas” e na coluna Prioridade existe o número sequencial no qual o usuário programou para esta atividade ocorra.
+
 No exemplo acima, demonstramos a possibilidade de execução sequencial, a tarefa com prioridade 2 será executada somente ao final da 1, e assim sucessivamente e na sequência informada, pois este fluxo depende da execução do script/playbook anterior para que o próximo seja executado, existe uma certa dependência sequencial.
+
 Apenas como comentário a Plataforma uCloud permite, também, que dois scripts/playbooks sejam executados em paralelo, tendo ambos o mesmo número no campo Prioridade, mesmo que estejam apresentados na lista de Tasks Associadas, o que determina a execução em paralelo é o número informado na prioridade.
+
 Um detalhe que pode ser muito interessante, é que o usuário pode provisionar um workflow interativo, que pode solicitar informações complementares para a execução, como por exemplo solicitar que seja informado o “nome da Máquina Virtual” antes de executar o script/playbook de clonar uma máquina virtual.
+
 Antes da execução do script, o usuário pode clicar com o cursor do mouse sobre o ícone com a figura o lápis |icone_lapis_workflow|, para que o usuário entre/edite as informações necessárias para execução do script/playbook. Neste momento a Plataforma uCloud irá apresentar uma janela pop up para que o usuário entre com a informação desejada, conforme o exemplo abaixo:
 
 .. figure:: /figuras/ucloud_workflows009b.png
@@ -375,6 +396,7 @@ Na figura abaixo podemos visualizar que o usuário Mariah, João e Carlos perten
 ----
   
 O usuário Josué está vinculado a dois contratos diferentes e possui a capacidade de efetuar Switch Roles entre estes dois contratos.
+
 Ainda para ilustrar este exemplo, com a nova implementação de Perfil de Permissionamento, seria possível criar diferentes conjuntos de permissões e vincular cada conjunto (Perfil de Permissionamento) a cada usuário e provisionar um nível de granularidade bem específico.
 
 Cenário exemplo (AWS):
@@ -385,8 +407,8 @@ Cenário exemplo (AWS):
 +===============================+===========+====================+============+
 | AWS DevOps Full               | Maria     | DevOps             | Full       |
 +-------------------------------+-----------+--------------------+------------+
-|| AWS DevOps RO                || João     || DevOps            || Read Only |
-|| AWS Homolog Full             ||          || Homolog           || Full      |
+|| AWS DevOps RO                ||          || DevOps            || Read Only |
+|| AWS Homolog Full             ||  João    || Homolog           || Full      |
 +-------------------------------+-----------+--------------------+------------+
 | AWS Homolog Full              | Carlos    |  Homolog           | Full       |
 +-------------------------------+-----------+--------------------+------------+
@@ -403,8 +425,8 @@ Cenário Exemplo (AZURE e AWS):
 +-------------------------------+-----------+--------------------+-------------+
 | Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão   |
 +===============================+===========+====================+=============+
-|| Azure Infra RO               || Josué    || Infra Azure       || Read Only  |
-|| AWS Infra Full               ||          || Infra AWS         || Full       |
+|| Azure Infra RO               ||          || Infra Azure       || Read Only  |
+|| AWS Infra Full               ||  Josué   || Infra AWS         || Full       |
 +-------------------------------+-----------+--------------------+-------------+
 
 Este é um exemplo da simplicidade e da transparência que advém da ampliação e alteração do novo Perfil de Permissionamento, que permite vincular conjuntos de permissões diferentes ao mesmo usuário, que estão vinculados a contratos diferentes. Podemos verificar que o usuário *Josué* possui acesso irrestrito (*full*) para a infraestrutura do VDC Infra AWS (Contrato AWS) e acesso apenas leitura (*read only*) para o VDC Infra AZURE (Contrato Azure).
