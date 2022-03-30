@@ -270,7 +270,7 @@ Antes da execução do script, o usuário pode clicar com o cursor do mouse sobr
 
 ----
 
-A Plataforma uCloud permite ao usuário adicionar a quantidade de campos desejados e suas tags/etiquetas para a execução de uma Tarefas Associada. Adicionalmente permite que o usuário configure quais tags/etiquetas são obrigatórias seu preenchimento, ou personalizar com um conteúdo inicial que será assumido como padrão/default.
+A Plataforma uCloud permite ao usuário adicionar a quantidade de campos desejados e suas *tags/etiquetas* para a execução de uma Tarefas Associada. Adicionalmente permite que o usuário configure quais tags/etiquetas são obrigatórias seu preenchimento, ou personalizar com um conteúdo inicial que será assumido como padrão/default.
 
 Catálogo de Serviços
 ====================
@@ -407,8 +407,8 @@ Cenário exemplo (AWS):
 +===============================+===========+====================+============+
 | AWS DevOps Full               | Maria     | DevOps             | Full       |
 +-------------------------------+-----------+--------------------+------------+
-|| AWS DevOps RO                ||          || DevOps            || Read Only |
-|| AWS Homolog Full             ||  João    || Homolog           || Full      |
+|| AWS DevOps RO                || João     || DevOps            || Read Only |
+|| AWS Homolog Full             ||          || Homolog           || Full      |
 +-------------------------------+-----------+--------------------+------------+
 | AWS Homolog Full              | Carlos    |  Homolog           | Full       |
 +-------------------------------+-----------+--------------------+------------+
@@ -425,8 +425,8 @@ Cenário Exemplo (AZURE e AWS):
 +-------------------------------+-----------+--------------------+-------------+
 | Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão   |
 +===============================+===========+====================+=============+
-|| Azure Infra RO               ||          || Infra Azure       || Read Only  |
-|| AWS Infra Full               ||  Josué   || Infra AWS         || Full       |
+|| Azure Infra RO               || Josué    || Infra Azure       || Read Only  |
+|| AWS Infra Full               ||          || Infra AWS         || Full       |
 +-------------------------------+-----------+--------------------+-------------+
 
 Este é um exemplo da simplicidade e da transparência que advém da ampliação e alteração do novo Perfil de Permissionamento, que permite vincular conjuntos de permissões diferentes ao mesmo usuário, que estão vinculados a contratos diferentes. Podemos verificar que o usuário *Josué* possui acesso irrestrito (*full*) para a infraestrutura do VDC Infra AWS (Contrato AWS) e acesso apenas leitura (*read only*) para o VDC Infra AZURE (Contrato Azure).
