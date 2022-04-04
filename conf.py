@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Documentação Ucloud'
+project = 'Documentação Ustore-BR'
 copyright = '2022, Ustore Brasil'
 author = 'Ustore Brasil'
 
 # The full version, including alpha/beta/rc tags
-release = '2.5'
+release = '4.0'
 
 
 # -- General configuration ---------------------------------------------------
