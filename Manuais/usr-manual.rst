@@ -2738,9 +2738,7 @@ Quando o usuário clicar com o cursor do mouse em uma das linhas da lista de Ban
    :alt: Scaling Group AWS - Exemplo
    :align: center
 
-----  
-
-
+----
 
 Seção Geral - Grupo Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2776,112 +2774,439 @@ Seção Grupos de Segurança
 
 Provisionando um Banco de Dados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Importante esclarecer os parâmetros que devem ser informados para completar o processo de provisionar uma instância de Banco de Dados solicitados na interface da Plataforma do uCloud, são os parâmetros disponíveis para integração via API-Rest. Caso o usuário possua experiência de interação direta via o console do seu provedor, este poderá notar algumas pequenas diferenças.
+Para criar um banco de dados o usuário seleciona a nuvem pública e, logo o portal uCloud indica quais as opções de banco de dados disponíveis em cada provedor de serviço de nuvem, pois são estas as opções e suas respectivas edições, elas são diferentes para cada provedor de serviço de nuvem pública (AWS, Azure e GCP). Cada um destes provedores possui diferentes conjuntos de suporte para os mecanismos de gerenciamento de bancos de dados, através da comunicação via API a Plataforma do uCloud apresenta estas opções ao usuário.
+O processo de criação de uma instância de Banco de Dados (RDS – Relational Database System) é segmentado em várias etapas e cada mecanismo (“engine”) de gerenciamento de banco de dados possui parâmetros diferentes que são solicitados pela Plataforma do uCloud.
+O usuário deve sempre consultar a documentação online das opções de instâncias de Bancos de Dados do seu provedor(es) de serviço de nuvem da sua preferência para compreender qual o Gerenciador (“engine”) de bancos de dados e seus parâmetros são os mais adequados e atendem às necessidades do usuário.
+Devido a uma grande diversidade de opções de criação de bases de dados e seus parâmetros em diferentes provedores de serviço de nuvem, para apresentar as diferenças entre provedores de serviço de nuvem, a seguir é documentado apenas os processos de criação de uma instância de base de dados com o software MySQL em três diferentes provedores.
+Desta forma o usuário pode acompanhar as caraterísticas de cada ambiente de nuvem pública e seus parâmetros específicos.
 
 Criação de Banco de Dados (MySQL & AWS)
 ---------------------------------------
+Nas telas a seguir serão utilizadas as telas de exemplo para o provedor AWS, o qual demonstra as características e o suporte a diversos mecanismos de gerenciamento de bases de dados e seus parâmetros.
 
-----
 
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (AWS)  [4 nivel]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A seguir são utilizadas as telas de exemplo para o provedor AWS que demonstra o suporte a diversos mecanismos de gerenciamento bases de dados, apenas para apoiar a conectividade da Plataforma do uCloud com a API e para apoiar a didática da criação de uma Instância de Banco de Dados em um provedor de nuvem pública.
+Importante ressaltar que, para efeito didático e apenas como exemplo, são seguidas as etapas de criação de um Banco de Dados MySQL.
+A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do provedor determina o conteúdo das telas seguintes.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
 
 ----
 
+Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem **AWS** apresentado nesta tela.
+  
 Etapa 2 Seleção do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Esta tela permite ao usuário selecionar qual o mecanismo (“*engine*”) de gerenciamento de bancos de dados. A seguir é apresentada uma tela capturada do ambiente da **AWS**, apenas como um exemplo didático.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
 
 ----
+
+Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do MySQL provedor de serviço de nuvem apresentado nesta tela.
+* **Botão Selecione**: Após selecionar qualquer uma das opções de bancos de dados, o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 3 Especificações do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente computacional que dará suporte para a execução da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Região**: Este campo é obrigatório do tipo “dropdown” , quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as regiões do provedor de serviço de nuvem selecionado na Etapa 1. Importante mencionar que cada provedor possui identificação de regiões específicas, este campo reflete suas especificidades.
+* **Zona de Disponibilidade**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta ao  usuário uma lista com todas as regiões do provedor de serviço de nuvem selecionado na Etapa 1. O usuário  deve ter em mente que nem todos os provedores de serviço de nuvem possuem zonas de disponibilidade (zonas dentro de uma região). O campo é apresentado apenas nos casos em que o provedor possui esta informação.
+* **Versão**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as versões do Banco de Dados MySQL disponíveis no ambiente do provedor de serviço de nuvem.
+* **Flavor**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta ao  usuário uma lista com todas as configurações de hardware (“flavor”), criadas pelo provedor de serviço de nuvem e dedicadas (especializadas) para executar instâncias de Bancos de Dados.
+* **Multi-AZ Deployment**: As implantações Multi-AZ do Amazon RDS proporcionam disponibilidade e durabilidade melhores para instâncias de banco de dados (DB) do RDS, o que as torna a solução ideal para cargas de trabalho de banco de dados de produção. No momento de provisionar uma Instância de DB Multi-AZ, o Amazon RDS cria automaticamente uma Instância de DB principal e replica de forma síncrona os dados para uma instância de espera em uma Zona de Disponibilidade (AZ) diferente.
+* **Tipo de Storage**: Este campo é obrigatório do tipo “dropdown”, ao clicar neste campo com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as opções de tipos de discos de armazenamento (“storage”). Outras informações consultar a documentação online da AWS (usado neste exemplo como forma didática) para entender as diferenças entre as características entre a opção General Purpose SSD e SSD Provisioned IOPS.
+* **Tamanho do Disco**: Este campo é obrigatório ele deve ser preenchido com um número inteiro que define o tamanho máximo do recurso computacional de Disco de Armazenamento. Este número deve ser informado em Gigabytes.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_004.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo um [1] e no máximo oito [8] caracteres) com o qual deseja identificar o Banco de Dados. É indicado utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Nome do Banco de Dados**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo um [1] e no máximo oito [8] caracteres) com o qual deseja nomear o arquivo do Banco de Dados. É indicado utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Usuário**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres (no mínimo um [1] e no máximo quinze [15] caracteres) a ser utilizada para identificar as credenciais do usuário “Master” no processo de login no Gerenciador Banco de Dados. É indicado utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Senha**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior que quatro [4] caracteres alfanuméricos. O preenchimento deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”. A recomendação é utilizar no mínimo oito [8] e no máximo setenta e dois [72] caracteres e deve conter caracteres de três [3] das seguintes categorias:
+
+  * Letras maiúsculas e minúsculas (A a Z)
+  * Números de base 10 (de 0 a 9)
+  * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
+
+* **Confirmar Senha**: Este campo é obrigatório ele deve ser preenchido com a mesma sequência de caracteres informados no campo anterior. Caso a sequência informada neste campo seja diferente da anterior, o botão Próximo permanece inativo.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 5 Especificações de Rede e Segurança (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
+
+.. image:: /figuras/ucloud_databases_005.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Rede**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista somente com as redes provisionadas na Região selecionadas na Etapa 3.
+* **Publicamente Acessível**: Este campo é obrigatório do tipo “dropdown”, no caso do usuário clicar com o cursor do mouse sobre ele, a Plataforma do uCloud apresenta uma lista com apenas duas opções SIM ou NÃO. Quando o usuário seleciona a opção SIM, o provedor de serviço de nuvem vincula um Endereço TCP-IP Público a esta instância de Banco de Dados, com a finalidade de ser acessível através da Internet.
+* **Zona de Disponibilidade**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas
+* **Grupo de Segurança**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todos os Grupos de Segurança (Security Group) que foram provisionados para a mesma Região e Rede informados nas etapas anteriores.
+* **Porta do Banco de Dados**: Este campo é obrigatório, deve ser preenchido com a Porta TCP-IP específica para o acesso ao Bancos de Dados, a Plataforma do uCloud apresenta a Porta TCP-IP padrão 3306. A sugestão é manter esta informação.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode clicar e retornar a Etapa 1, na seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros que definirão o processo de cópia de segurança (backup) da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanece armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um [1] indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” [0] isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
+* **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
+
+  * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup é efetuada na data agendada.
+  * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup ser efetuado
+    * *Exemplo*: Início às 2h00 UTC duração 2 horas, significa que a rotina de backup inicia às 2h00 da manhã UTC e encerra às 4h00 manhã UTC (tempo máximo de 2 horas).
+
+* **Ícone Agendar**: Este permite ao usuário agendar o provisionamento do Banco de Dados, o valor padrão é Desabilitado (botão na cor vermelha).
+
+.. image:: /figuras/ucloud_databases_006b.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+  * **Ícone Desabilitado** (|icone_desb_verm|): Este ícone indica que não existe agendamento estabelecido. Isto significa que este Banco de Dados será provisionado imediatamente no ambiente do provedor de serviço de nuvem, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
+  * **Ícone Habilitado** (|icone_habil_verde|): Este ícone indica que o usuário pretende agendar uma data para que o Banco de Dados seja provisionado no ambiente do provedor de serviço de nuvem. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da Plataforma do uCloud. Ao alternar o ícone para habilitado (cor verde), a Plataforma do uCloud permite que o usuário preencha o campo com a data desejada.
+  * **Ícone Calendário** (|icone_agenda|): Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar o pop-up, permitindo ao usuário selecionar a data desejada, conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_databases_006b.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+  * **Ícone setas (🡩/🡫)**: Inicialmente a Plataforma do uCloud apresenta o calendário com o dia e horário corrente, em destaque na cor azul. Para acionar o calendário, basta o usuário clicar com o cursor do mouse sobre o dia desejado, e pode clicar nos ícones de setas para selecionar outro mês. Quando selecionado, este será o dia programado para a Plataforma do uCloud enviar a tarefa para o provedor de serviço de nuvem no provisionamento da máquina virtual.
+  * **Hora / Minuto**: Este campo é apresentado no padrão de 24 horas e basta o usuário selecionar a hora e minuto desejado. Quando selecionado, este será o horário programado para que a Plataforma do uCloud possa enviar a tarefa para o provedor de serviço de nuvem para o provisionamento da máquina virtual.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da última etapa de seleção do Banco de Dados.
+* **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
+  Caso este botão não esteja habilitado (cor cinza) significa que algum parâmetro anterior foi deixado em branco, desta forma, a Plataforma do uCloud não permite o provisionamento do Banco de Dados.
 
 Criação de Banco de Dados (MySQL & Azure)
 -----------------------------------------
 
-----
+Nas telas a seguir na ilustração, será utilizada a tela com o exemplo para o provedor Azure, ele demonstra as pequenas diferenças de suporte a mecanismos de gerenciamento de bases de dados e seus parâmetros.
+Na tela a seguir apresentada pela Plataforma do uCloud, a seleção do provedor determina o conteúdo das telas seguintes.
 
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+A seguir são utilizadas as telas de exemplo para o provedor Azure que demonstra o suporte a apenas dois mecanismos de gerenciamento de bases de dados.
+*Importante ressaltar que, para efeito didático e apenas como exemplo, seguem as etapas de criação de um Banco de Dados MySQL.*
+A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do provedor determina o conteúdo das telas seguintes.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do **MySQL** provedor de serviço de nuvem apresentado nesta tela.
+
+* **Botão Selecione**: Após selecionar qualquer uma das opções de banco de dados o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 2 Seleção do Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da Azure, apenas como um exemplo didático.
+
+.. image:: /figuras/ucloud_databases_008.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do MySQL provedor de serviço de nuvem apresentado nesta tela.
+* **Botão Selecione**: Após selecionar qualquer uma das opções de banco de dados o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 3 Especificações do Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente computacional Azure que dará suporte para a execução da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_009.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **VDC**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todos os Virtual Datacenters vinculados ao ambiente Azure.
+* **Região**: Este campo é obrigatório do tipo “dropdown” , quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as regiões do provedor de serviço de nuvem selecionado na Etapa 1. Importante mencionar que cada provedor possui identificação de regiões específicas, este campo reflete suas especificidades.
+* **Flavor**: Este campo é obrigatório do tipo “dropdown” , quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as configurações de hardware (“flavor”), criadas pelo provedor de serviço de nuvem e dedicadas (especializadas) para executar instâncias de Bancos de Dados.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_010.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo dois [2] e no máximo oito [8] caracteres) com o qual deseja identificar o Banco de Dados. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Usuário**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres (no mínimo um [1] e no máximo quinze [15] caracteres) que é utilizada para identificar as credenciais do usuário “Master” para o processo de login no Gerenciador Banco de Dados. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Senha**: Este campo é obrigatório, ele deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+  * Letras maiúsculas e minúsculas (A a Z)
+  * Números de base 10 (de 0 a 9)
+  * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
+
+* **Confirmar Senha**: Este campo é obrigatório, ele deve ser preenchido com a mesma sequência de caracteres informados no campo anterior. Caso a sequência informada neste campo seja diferente da anterior, o botão Próximo permanece inativo.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 5 Especificações de Rede e Segurança (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
+
+.. image:: /figuras/ucloud_databases_011.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Rede**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista somente com redes provisionadas na Região selecionada na Etapa 3.
+* **Subnet**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas sub-redes (subnets) vinculadas a rede informada no campo acima.
+* **Grupo de Segurança**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todos os Grupos de Segurança (Security Group) que foram provisionados para a mesma Região e Rede informados nas etapas anteriores.
+* **Porta do Banco de Dados**: Este campo é obrigatório ele deve ser preenchido com a Porta TCP-IP específica para o acesso a Bancos de Dados, a Plataforma do uCloud apresenta a Porta TCP-IP padrão 3306. É sugerido manter esta informação.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros para definir o processo de cópia de segurança (backup) da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanecerá armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um (01) indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” (0) isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
+* **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
+  * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup será efetuada na data agendada.
+  * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup seja efetuado.
+
+    * *Exemplo*: Início às 2h00 UTC duração 2 horas, significa que a rotina de backup inicia às 2h00 da manhã UTC e encerra às 4h00 manhã UTC (tempo máximo de 2 horas).
+
+* **Ícone Agendar**: Este permite ao usuário agendar o provisionamento do Banco de Dados, o valor padrão é Desabilitado (cor vermelho).
+
+.. image:: /figuras/ucloud_databases_006b.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+  * **Ícone Desabilitado** (|icone_desb_verm|): Este ícone indica que não existe agendamento estabelecido. Isto significa que este Banco de Dados será provisionado imediatamente no ambiente do provedor de serviço de nuvem, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
+  * **Ícone Habilitado** (|icone_habil_verde|): Este ícone indica que o usuário pretende agendar uma data para que o Banco de Dados seja provisionado no ambiente do provedor de serviço de nuvem. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da Plataforma do uCloud. Ao alternar o ícone para habilitado (cor verde), a Plataforma do uCloud permite que o usuário preencha o campo com a data desejada.
+  * **Ícone Calendário** (|icone_agenda|): Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar o pop-up, permitindo ao usuário selecionar a data desejada, conforme a tela abaixo:
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da última etapa de seleção do Banco de Dados.
+* **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
+  Caso este botão não esteja habilitado (cor cinza) significa que algum parâmetro anterior foi deixado em branco, desta forma, a Plataforma do uCloud não permite o provisionamento do Banco de Dados.
 
 Criação de Banco de Dados (MySQL & GCP)
 ---------------------------------------
+
+Nas telas a seguir na ilustração, será utilizada a tela com o exemplo para o provedor Google Cloud Platform (GCP), ele demonstra as pequenas diferenças de suporte a mecanismos de gerenciamento de bases de dados e seus parâmetros.
+Na tela a seguir apresentada pela Plataforma do uCloud, a seleção do provedor determina o conteúdo das telas seguintes.
+
+.. image:: /figuras/ucloud_databases_013.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
 
 ----
 
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nas telas seguintes utilizaremos telas de exemplo para o provedor GCP que demonstra o suporte a apenas dois mecanismos de gerenciamento de bases de dados.
+Importante ressaltar que, para efeito didático e apenas como exemplo, iremos seguir as etapas de criação de um Banco de Dados MySQL.
+A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do provedor determina o conteúdo das telas seguintes.
+
+.. image:: /figuras/ucloud_databases_003.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem Google Cloud apresentado nesta tela.
 
 Etapa 2 Seleção do Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da GCP, apenas como um exemplo didático.
+
+.. image:: /figuras/ucloud_databases_013.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do **MySQL** provedor de serviço de nuvem apresentado nesta tela.
+* **Botão Selecione**: Após selecionar qualquer uma das opções de bancos de dados o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 3 Especificações do Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa o usuário deverá informar os parâmetros iniciais do ambiente computacional GCP que dará suporte para a execução da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_014.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Região**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as regiões do provedor de serviço de nuvem selecionado na Etapa 1. Importante mencionar que cada provedor possui identificação de regiões específicas, este campo reflete suas especificidades.
+* **Flavor**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as configurações de hardware (“flavor”), criadas pelo provedor de serviço de nuvem e dedicadas (especializadas) para executar instâncias de Bancos de Dados.
+* **Tipo de Storage**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas as opções de tipos de discos de armazenamento (“storage”). Para mais informação consultar a documentação online da GCP (usado neste exemplo como forma didática) para entender as diferenças entre as características entre a opção SSD e HDD.
+* **Tamanho do Disco**: Este campo é obrigatório ele deve ser informado como um número inteiro que define o tamanho máximo do recurso computacional de Disco de Armazenamento. Este número deve ser informado em Gigabytes. Importante ressaltar que no ambiente GCP o tamanho máximo do disco de armazenamento (tamanho do arquivo de banco de dados) está relacionado com o flavor selecionado no campo acima. O usuário deve verificar a mensagem em vermelho abaixo do campo flavor.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_015.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo dois [2] e no máximo oito [8] caracteres) com o qual deseja identificar o Banco de Dados. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Usuário**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres (no mínimo um [1] e no máximo quinze [15] caracteres) que é utilizada para identificar as credenciais do usuário “Master” para o processo de login no Gerenciador Banco de Dados. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Senha**: Este campo é obrigatório, ele deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+  * Letras maiúsculas e minúsculas (A a Z)
+  * Números de base 10 (de 0 a 9)
+  * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
+
+* **Confirmar Senha**: Este campo é obrigatório, ele deve ser preenchido com a mesma sequência de caracteres informados no campo anterior. Caso a sequência informada neste campo seja diferente da anterior, o botão Próximo permanece inativo.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 5 Especificações de Rede e Segurança (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
+
+.. image:: /figuras/ucloud_databases_016.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Rede**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista somente com redes provisionadas na Região selecionada na Etapa 3.
+* **Subnet**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todas sub-redes (subnets) vinculadas a rede informada no campo acima.
+* **Grupo de Segurança**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todos os Grupos de Segurança (Security Group) que foram provisionados para a mesma Região e Rede informados nas etapas anteriores.
+* **Porta do Banco de Dados**: Este campo é obrigatório ele deve ser preenchido com a Porta TCP-IP específica para o acesso a Bancos de Dados, a Plataforma do uCloud apresenta a Porta TCP-IP padrão 3306. É sugerido manter esta informação.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
 Etapa 6 Parâmetro de Cópia de Segurança (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Nesta etapa devem ser informados os parâmetros para definir o processo de cópia de segurança (backup) da instância de banco de dados.
+
+.. image:: /figuras/ucloud_databases_017.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
 ----
+
+* **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanecerá armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um (01) indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” (0) isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
+* **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
+  * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup será efetuada na data agendada.
+  * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup seja efetuado.
+
+    * *Exemplo*: Início às 2h00 UTC duração 2 horas, significa que a rotina de backup inicia às 2h00 da manhã UTC e encerra às 4h00 manhã UTC (tempo máximo de 2 horas).
+
+* **Ícone Agendar**: Este permite ao usuário agendar o provisionamento do Banco de Dados, o valor padrão é Desabilitado (cor vermelho).
+
+.. image:: /figuras/ucloud_databases_006b.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+  * **Ícone Desabilitado** (|icone_desb_verm|): Este ícone indica que não existe agendamento estabelecido. Isto significa que este Banco de Dados será provisionado imediatamente no ambiente do provedor de serviço de nuvem, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
+  * **Ícone Habilitado** (|icone_habil_verde|): Este ícone indica que o usuário pretende agendar uma data para que o Banco de Dados seja provisionado no ambiente do provedor de serviço de nuvem. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da Plataforma do uCloud. Ao alternar o ícone para habilitado (cor verde), a Plataforma do uCloud permite que o usuário preencha o campo com a data desejada.
+  * **Ícone Calendário** (|icone_agenda|): Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar o pop-up, permitindo ao usuário selecionar a data desejada, conforme a tela abaixo:
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse, por engano, sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
+* **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
+* **Botão Próximo**: Este botão se encontra inativo, por se tratar da última etapa de seleção do Banco de Dados.
+* **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
+  Caso este botão **não esteja habilitado (cor cinza)** significa que algum parâmetro anterior foi deixado em branco, desta forma, a Plataforma do uCloud não permite o provisionamento do Banco de Dados.
 
 
 Menu Virtual Datacenters
