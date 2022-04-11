@@ -222,7 +222,7 @@ Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é
 
 A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos e é primordial que o usuário utilize esta figura como referência para entender as relações;
   
-.. figure:: /figuras/uCloud_menu_administracao_contrato_002.png
+.. figure:: /figuras/ucloud_arquitetura_conceitual001.png
    :align: center
 
 ----
@@ -366,12 +366,14 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 * **Seção Permissões do Grupo**: Esta seção somente apresenta as permissões que foram definidas nas configurações do Grupo ao qual este usuário está vinculado. A Plataforma do uCloud não permite que as permissões listadas aqui possam ser alteradas através desta tela. Para ter contato e conhecer as permissões definidas no grupo, veja o item Administração / Grupos. Se forem necessárias alterações de qualquer permissão listadas aqui, estas alterações devem ser efetuadas nas configurações do Grupo.
 
 * **Seção Grupos Secundários**: Nesta seção é possível associar um usuário a mais de um grupo na Plataforma do uCloud. Na seção Geral, é possível verificar o Grupo principal ao qual o usuário está vinculado.
+
    * **Botão Editar**: Para vincular este usuário a um grupo secundário, ou desvincular este usuário de um grupo secundário, o Administrador (ou usuário com autorização) deve clicar neste botão Editar para que a Plataforma do uCloud possa apresentar a tela que permite desvincular o usuário de grupos secundários. Veja exemplo abaixo:
    * À direita estão listados os grupos que estão vinculados ao contrato do grupo principal ao qual este usuário foi provisionado originalmente. A Plataforma do uCloud lista somente os grupos que estão vinculados ao contrato vigente. Ao lado de cada grupo existe um campo do tipo “check box” que, quando selecionado, vincula o grupo selecionado a este usuário.
    * À esquerda estão listados os grupos secundários que este usuário está vinculado. Ao lado de cada grupo existe um campo do tipo “check box” que, quando selecionado, desvincula o grupo selecionado deste usuário.
    * **Botão Aplicar**: Após certificar que todas as vinculações, ou remoção, foram configuradas, o usuário deve clicar no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está visualizando/alterando. Após esta ação a Plataforma do uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
   
-* *Seção Perfis de Visualização*: Esta seção permite que o administrador do contrato possa selecionar quais opções do Menu do Usuário, este usuário poderá visualizar. Através desta funcionalidade, o administrador pode personalizar como este usuário interage com a Plataforma do uCloud. É possível acompanhar o processo de definição destes perfis no item Configurações / Perfis de Visualização. Esta configuração retira ou adiciona as opções da barra de Menu de Usuário, de forma que para o usuário não há como saber que tal função existe. A possibilidade de saber, seria acompanhar outro usuário utilizando a plataforma com outras opções de Menu de Usuário visíveis.
+* **Seção Perfis de Visualização**: Esta seção permite que o administrador do contrato possa selecionar quais opções do Menu do Usuário, este usuário poderá visualizar. Através desta funcionalidade, o administrador pode personalizar como este usuário interage com a Plataforma do uCloud. É possível acompanhar o processo de definição destes perfis no item Configurações / Perfis de Visualização. Esta configuração retira ou adiciona as opções da barra de Menu de Usuário, de forma que para o usuário não há como saber que tal função existe. A possibilidade de saber, seria acompanhar outro usuário utilizando a plataforma com outras opções de Menu de Usuário visíveis.
+
    * **Botão Adicionar**: Para adicionar este usuário a um perfil de visualização, ou desvincular este usuário de um grupo secundário, o Administrador (ou usuário com autorização) deve clicar neste botão Adicionar para que a Plataforma do uCloud possa apresentar a tela que possibilita associar o usuário a um dos perfis de visualização configurados na plataforma. Veja exemplo abaixo:
    * Pode-se informar parte do nome de um grupo e clicar com o cursor do mouse (ou a tecla Enter) para que a Plataforma do uCloud apresente uma lista com todos os grupos que possuem a mesma sequência de caracteres informados. Este campo é sensível a maiúsculas e/ou minúsculas, somente irá listar os Perfis de Visualização que combinam exatamente com a parte do texto que foi digitado (se nada for listado, digitar o texto com outra combinação de maiúsculas e ou minúsculas.
 
@@ -380,6 +382,7 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 .. note:: |atencao| *Importante ressaltar que os perfis listados na tela exemplo não existem e foram criados apenas para fins ilustrativos.*
 
 * **Seção Últimos Logins**: Nesta seção serão listados todos os eventos em que este usuário se conectou (login) na Plataforma do uCloud. Veja a tela exemplo abaixo:
+
    * **Data do Login**: Este campo apresenta a data e a hora em que o usuário inicia uma sessão na Plataforma do uCloud, utilizando o seu login. A informação está apresentada no formato de data no padrão brasileiro (Dia/Mês/Ano Hora:Minuto:segundo).
    * **Data de Logout**: Este campo apresenta a data e a hora em que o usuário encerra uma sessão na Plataforma do uCloud, utilizando o seu login. A informação está apresentada no formato de data no padrão brasileiro (Dia/Mês/Ano Hora:Minuto:segundo).
    * **Tempo da Sessão**: Este campo apresenta o total de tempo que este login de usuário permanecer conectado a Plataforma do uCloud, no formato de horas, minutos e segundos (ex.: 6h 18m 33s).
@@ -387,6 +390,7 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
    * **Busca Rápida**: O usuário pode notar que logo abaixo do nome de cada coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de eventos de login. Basta preencher o campo em branco com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualizará a tela de forma a representar este padrão de busca.
 
 * **Seção Máquinas Virtuais**: Esta seção apresenta uma lista das máquinas virtuais (VMs) ou cargas de trabalho (workloads) que foram criadas por este usuário, durante uma sessão ativa na Plataforma do uCloud.
+
    * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de máquinas virtuais (VMs) deste usuário. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
 
 Criando Novo Usuário
@@ -415,7 +419,8 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 * **Nome**: Este campo é obrigatório e deve ser preenchido com o nome do usuário que se está provisionando.
 * **Login**: Este campo é obrigatório e deve ser preenchido com a sequência de caracteres que será utilizada para identificar o usuário durante o processo de login no uCloud.
-* *Senha*: Este campo é obrigatório e deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior do que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”, conforme a documentação encontrada no site da Azure. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+* **Senha**: Este campo é obrigatório e deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior do que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”, conforme a documentação encontrada no site da Azure. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+
    * Letras maiúsculas e minúsculas (A a Z)
    * Números de base 10 (de 0 a 9)
    * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
@@ -430,13 +435,13 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 * **Email**: Este campo é obrigatório, nele deve ser informado um endereço de correio eletrônico (e-mail) válido. Este endereço de correio eletrônico será fundamental durante o processo de redefinição de senha pelo usuário, pois a Plataforma do uCloud utiliza este e-mail para o envio de uma mensagem que permite ao usuário criar uma senha, para ele, de forma automática.
 
-.. attention::
-    A Plataforma do uCloud **não efetua** qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
+.. attention:: A Plataforma do uCloud **não efetua** qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
 
 * **Telefone**: Este campo é obrigatório, e deve ser preenchido com um número de telefone de serviço móvel celular, utilizar o seguinte formato:
+
    * **Dois (02)** números que identificam o código de área do número de telefone de serviço móvel celular (XX). Não é necessário informar o número ‘zero (0)’ que antecede ao código de área no padrão brasileiro.
    * **nove (09)** números que identificam o número de telefone do serviço móvel celular do usuário. Não é necessário informar qualquer outro caractere para separação dos grupos de números de telefone serviço móvel celular.
-   * Exemplo de preenchimento: ``(11)999991234``
+   * Exemplo de preenchimento: `(11)999991234`
 
 * **Cargo**: Este campo é obrigatório, mas é meramente informativo para identificar o cargo do usuário que se deseja provisionar.
 * **Empresa**: Este campo é obrigatório, mas é meramente informativo para identificar a organização a qual este usuário está associado.
@@ -478,6 +483,7 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
   * Na prática, qualquer novo recurso computacional (uma nova máquina virtual) que este usuário solicitar através da interface do uCloud: a solicitação não será enviada para o provedor de serviço de nuvem (público e/ou privado) de forma imediata, a solicitação ocorrerá em 2 tempos. No primeiro momento, ela aguarda a aprovação do Administrador do Grupo. No segundo tempo, após a aprovação do administrador do grupo (se aprovada) a solicitação segue no processo de criação/alteração solicitada por este usuário.
 
 * **Criar Usuário na Nuvem**: Este campo é um campo de seleção "checkbox" que indica as credenciais de login e senha deste usuário (informadas acima), elas serão enviadas ao provedor de serviço de nuvem pública para que seja provisionado um usuário com as mesmas credenciais de acesso no provedor de serviço de nuvem pública selecionado abaixo.
+
    * **Containers**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os containers configurados na Plataforma do uCloud. O usuário deve selecionar um provedor da lista.
 
 .. figure:: /figuras/uCloud_menu_usuario_021.png
@@ -486,7 +492,8 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 ----
 
-* **Permissões**: O usuário recebe/herda todas as permissões definidas no Grupo ao qual ele pertence, bem como as permissões estabelecidas no Contrato e por último as permissões específicas deste usuário. Esta tabela é opcional, ela permite adicionar ou revogar as permissões que este usuário recebe, o que permite efetuar ações ou acessar menus na Plataforma do uCloud. São cento e trinta e duas (132) permissões disponíveis que podem ser associadas ao usuário (todas ou apenas uma parte). Qualquer alteração efetuada nas permissões disponíveis (inclusão ou revogação) será aplicada de forma imediata no login deste usuário após a confirmação. Veja o item Configurações / Perfis de Permissionamento para uma forma alternativa de criar grupos de permissões customizados para sua empresa
+* **Permissões**: O usuário recebe/herda todas as permissões definidas no Grupo ao qual ele pertence, bem como as permissões estabelecidas no Contrato e por último as permissões específicas deste usuário. Esta tabela é opcional, ela permite adicionar ou revogar as permissões que este usuário recebe, o que permite efetuar ações ou acessar menus na Plataforma do uCloud. São cento e trinta e duas (132) permissões disponíveis que podem ser associadas ao usuário (todas ou apenas uma parte). Qualquer alteração efetuada nas permissões disponíveis (inclusão ou revogação) será aplicada de forma imediata no login deste usuário após a confirmação. Veja o item Configurações / Perfis de Permissionamento para uma forma alternativa de criar grupos de permissões customizados para sua empresa.
+
    * **Botão Criar**: Após todos os campos obrigatórios e opcionais para provisionar o novo usuário estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar, assim a Plataforma do uCloud provisiona o novo usuário em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, significa que algum campo obrigatório permanece sem preenchimento (o usuário deve checar e corrigir) ou a sequência de caracteres da senha do login deve ser inferior a quatro (04) caracteres.
 
 Administração / Grupos
@@ -628,18 +635,22 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
   * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
 * **Cota de Faturamento** : Esta coluna apresenta o número que representa o limite (cota) do valor financeiro que foi definido para o usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor financeiro de forma crescente ou decrescente.
+
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
 * **Cota de Memória** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Memória que for definida para este usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor da quantidade de memória de forma crescente ou decrescente.
+
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
 * **Cota de Disco** : Esta coluna apresenta o número inteiro que representa o limite (cota) valor total de Disco de Armazenamento que for definido para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor total do Disco de Armazenamento de forma crescente ou decrescente.
+
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
 * **Cota de IPs Públicos** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de Endereços TCP-IP Públicos que foram definidos para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de IPs Públicos de forma crescente ou decrescente.
+
    * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
    * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
@@ -649,6 +660,7 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
 * **Uso de IP**: Esta coluna apresenta a quantidade consumida do recurso computacional Endereços TCP-IP Público por este usuário específico. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de usuários com base no valor total de consumo do recurso Endereço IP, de forma crescente ou decrescente.
 
 * **Ações**: Esta coluna apresenta ícones que demonstram se o usuário está provisionado consumindo as cotas do Grupo ou possui cota individual. Para usuários com cotas individuais, existe um botão para editar os limites (cotas) dos recursos computacionais ou financeiros de um usuário com cotas individuais.
+
    * **Ícone de Cota de Grupo** |icone_cota_grp|; Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
    * **Ícone de Cota de Usuário** |icone_cota_indv|; Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
    * **Botão Editar Cotas** |botao_editar|; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
@@ -2555,36 +2567,212 @@ O usuário pode acompanhar a evolução do processamento da sua solicitação no
 
 Menu Scaling Groups
 ===================
+Este menu apresenta ao usuário os Grupos de Escalabilidade (Scaling Groups) provisionados na Plataforma do uCloud. Esta funcionalidade é comum a qualquer provedor de serviço de nuvem. Os nomes desta funcionalidade diferem em cada provedor, mas os conceitos são universais. O Grupo de Escalabilidade possibilita que novas instâncias de uma máquina virtual sejam criadas, tendo como base a máquina inicial (clonagem). Estas novas instâncias serão criadas e iniciadas automaticamente, de forma a suportar a carga de conexão em paralelo (horizontal). O Grupo de Escalabilidade tanto pode iniciar novas máquinas, bem como desligar as máquinas criadas quando a demanda de conexões diminuir - dentro dos parâmetros definidos na criação - se comporta automaticamente, aumentando ou diminuindo a quantidade de instâncias de máquinas virtuais, com base no consumo monitorado e controlado.
 
+Grupo de Escalabilidade é um recurso integrado de serviços em nuvem, serviços móveis, máquinas virtuais e sites que ajuda os aplicativos a ter o melhor desempenho quando há mudanças na demanda. Importante mencionar que ‘desempenho’ pode significar coisas diferentes para aplicativos diferentes. Alguns aplicativos são limitados pela CPU, outros pela memória. Por exemplo, você pode ter um aplicativo da web que lida com milhões de solicitações durante o dia e nenhum à noite. A escala automática pode escalar seu serviço por qualquer um deles - ou por uma métrica personalizada definida pelo usuário.
+
+Antes de iniciar este processo de criação de um Grupo de Escalabilidade, verifique se a Plataforma do uCloud possui os pré-requisitos para completar o processo de ponta-a-ponta de forma correta. Devem existir os seguintes pré-requisitos para qualquer ambiente de provedor de serviço de nuvem:
+
+* Ao menos uma máquina virtual ativa (status: *Running*) que será utilizada como referência para clonagem;
+* Provisionamento de Balanceador (*Load Balancer*) (ver item Rede / Balanceador);
+* Provisionamento de um Grupo de Segurança (ver item Rede / Grupo de Segurança / Criar Grupo de Segurança).
+
+Importante ressaltar que os tópicos acima são fundamentais, caso não tenham sido previamente provisionados, o usuário será obrigado a interromper a criação do Grupo de Escalabilidade e providenciar a criação dos tópicos acima.
+Atualmente apenas dois provedores possuem interface via API-Rest, para suportar o processo de provisionamento de um Grupo de Escalabilidade, Amazon AWS e Azure.
+
+Abaixo segue descrição de ambos os processos, pois cada provedor de serviço de nuvem pública possui parâmetros específicos para o correto provisionamento de um Grupo de Escalabilidade em seu ambiente.
 
 Criando um Scaling Group AWS
 ----------------------------
 
+Um Grupo de Escalabilidade monitora os recursos das máquinas virtuais e ajusta automaticamente a capacidade para manter um desempenho constante e previsível pelo menor custo possível.
+
+Com o Grupo de Escalabilidade, é fácil estabelecer a escalabilidade de aplicativos para vários recursos em diversos serviços em questão de minutos. O serviço oferece uma interface de usuário simples e eficiente que permite criar planos de escalabilidade para recursos. Importante ressaltar que não haverá nenhum impacto, ou perda, de funcionalidade ao provisionar um Grupo de Escalabilidade seja diretamente no console do ambiente da AWS, seja através da interface da Plataforma do uCloud.
+
+Antes de iniciar a criação de um Grupo de Escalabilidade, o usuário deve navegar nas opções de menu da Plataforma do uCloud, e certificar se o ambiente possui os pré-requisitos listados abaixo:
+
+* Ao menos uma máquina virtual ativa (status: Running) que será utilizada como referência para clonagem;
+* Provisionamento de Balanceador (Load Balancer) (ver item Rede / Balanceador);
+* Provisionamento de um Grupo de Segurança configurado de acordo com os listeners do balanceador (ver item Rede / Grupo de Segurança / Criar Grupo de Segurança).
+
+A tela apresentada abaixo permite ao usuário provisionar um Grupo de Escalabilidade (Auto Scaling na AWS), importante ressaltar que os parâmetros apresentados nesta interface são os parâmetros disponíveis para integração via API-Rest. Caso o usuário possua experiência de interação direta via o console da AWS, este poderá notar algumas pequenas diferenças.
+
+.. image:: /figuras/ucloud_scaling_group_AWS_001.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+Abaixo segue a descrição do correto preenchimento da tela para provisionar um Grupo de Escalabilidade no ambiente da AWS:
+
+* **Nome**: Este campo é obrigatório o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar este Grupo de Escalabilidade. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido). Importante mencionar que este nome pode ser acrescentado com as informações específicas do provedor de serviço de nuvem, a Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
+* **Balanceador**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud lista todos os Balanceadores que foram provisionados na Plataforma do uCloud e estão vinculados ao provedor de serviço de nuvem Amazon AWS.
+* **Instância de Lançamento**: Este campo é obrigatório do tipo “dropdown” quando o usuário clicar com o cursor do mouse a Plataforma do uCloud lista todas as máquinas virtuais provisionadas no ambiente da Amazon AWS. O usuário deve selecionar a máquina virtual a ser utilizada como ‘o padrão’ para o processo de clonagens e crescimento do Grupo de Escalabilidade. Importante ressaltar que para o perfeito funcionamento do Grupo de Escalabilidade, a máquina virtual selecionada deve estar operacional e ativa (Status:Running), caso contrário o Grupo de Escalabilidade deixa de efetuar a função para a qual foi provisionado.
+* **Valor Máximo**: Este campo é obrigatório o usuário deve informar um número inteiro que representa a quantidade máxima de instâncias que podem ser criadas (clonadas) no ambiente da AWS para suportar a performance máxima desejada.
+* **Valor Mínimo**: Este campo é obrigatório o usuário deve informar um número inteiro que representa a quantidade mínima de instâncias que devem existir (serão mantidas ativas) no ambiente da AWS para suportar a performance média desejada.
+* **Políticas**: Estes campos são obrigatórios o usuário deve informar os parâmetros de performance - mínimo e máximo - ao ser atingido, o mínimo ou máximo, deve ser disparado o evento de aumento ou redução da quantidade de máquinas virtuais:
+* **Ação**: Esta coluna apresenta o tipo de política que foi configurada. O usuário pode criar uma ação tanto para o aumento quanto para diminuição do número de máquinas virtuais.
+* **Tipo**: Esta coluna apresenta qual o tipo de recurso computacional definido para ser monitorado na máquina virtual, em relação ao critério da ação da coluna anterior. O usuário pode estabelecer que a tomada de decisão para o Grupo de Escalabilidade seja baseada no recurso computacional CPU ou na  Memória.
+* **Condição**: Nesta coluna o usuário nota que existe apenas um sinal matemático de maior-ou-igual (“>=”) para a condição de aumento de quantidade de máquinas virtuais, ou um sinal de menor-ou-igual (“<=”) para a condição de diminuição da quantidade de máquinas virtuais. A Plataforma do uCloud não permite ao usuário alterar estas condições para uma condição diferente, existem apenas as duas acima citadas.
+* **Quantidade %**: Neste campo o usuário pode definir um número inteiro, de duas casas (nn), sem casas decimais, que indica o valor máximo de ocupação do recurso computacional (CPU ou Memória). Este valor será o limite máximo (threshold) de referência que o ambiente de nuvem da AWS utiliza para iniciar a ação (aumento/diminuição) ao qual este percentual está vinculado.
+* **Tempo**: Este campo é obrigatório do tipo “dropdown” ,  quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta uma lista de três opções de limite de tempo (1, 3 ou 5 minutos). Este é o limite de tempo no qual o recurso computacional deve se manter no percentual de ocupação informado acima, limite este que o ambiente de nuvem da AWS utiliza para iniciar a ação (aumento/diminuição) ao qual este limite está vinculado.
+* **Ações**: Esta coluna apresenta apenas o ícone de Lata de Lixo “  ”, basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Política de Aumento ou Diminuição de forma imediata e definitiva.
+* **Botão “+Adicionar Política de Diminuir”**: Este botão pode ser utilizado para adicionar uma nova linha de controle para diminuição de máquinas virtuais, por exemplo, tendo como base em um recurso computacional diferente do pré-existente.
+* **Botão “+Adicionar Política de Aumentar”**: Este botão pode ser utilizado para adicionar uma nova linha de controle para aumento de máquinas virtuais, por exemplo, tendo como base em um recurso computacional diferente do pré-existente.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Grupo de Escalabilidade. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Grupo de Escalabilidade no ambiente Amazon AWS, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar , logo a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento do Grupo de Escalabilidade.
+
+  Caso este botão **não esteja habilitado (cor cinza)**, significa que algum parâmetro anterior foi deixado em branco, a Plataforma do uCloud não permitirá o provisionamento da máquina virtual até que o parâmetro seja preenchido..
 
 Problemas Conhecidos com Grupo de Escalabilidade AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Importante ressaltar: Considerar que o gerenciamento das condições de ocupação de CPU e memória - para o aumento ou diminuição da quantidade de máquinas virtuais, é gerenciado unicamente pela AWS - os problemas podem estar nos critérios conflitantes para a criação ou no monitoramento.
 
+* **Erros na criação**:
+  
+  * Informações inseridas incorretamente no formulário (como números negativos, por exemplo);
+  * Instância de lançamento desligada durante a criação;
+  * Recursos (balanceador, por exemplo) existentes no uCloud, mas inexistentes na AWS por terem sido deletados diretamente no console AWS;
+
+* **Erros no monitoramento**:
+
+  * O status das máquinas do Grupo de Escalabilidade são mantidos atualizados pela Plataforma do uCloud a cada 30 segundos, problemas de comunicação Internet com o console da AWS podem fazer com que essas máquinas não sejam atualizadas na tela do uCloud.
 
 Criado um Scaling Group Azure
 -----------------------------
 
+O ambiente Microsoft Azure possui uma tela/formulário mais extenso e, portanto, uma tela específica para esta finalidade. Abaixo segue descrição do correto preenchimento da tela para provisionar um Grupo de Escalabilidade (Virtual Machine Scale Set) no ambiente da Azure:
+
+.. image:: /figuras/ucloud_scaling_group_AZURE_001.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+* **Nome**: Este campo é obrigatório o usuário deve informar o nome (no mínimo 3 caracteres no máximo 15 caracteres) com o qual deseja identificar este Grupo de Escalabilidade. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido). Importante mencionar que este nome pode ser acrescido com informações específicas do provedor de serviço de nuvem, a Plataforma do uCloud não tem controle (remoção ou alteração) destas adições do(s) provedor(es).
+* **Container**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresentará uma lista com o(s) provedore(s) de serviço de nuvem Azure configurados no ambiente da Plataforma do uCloud, basta o usuário selecionar o provedor desejado.
+* **Virtual DataCenter**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta uma lista de Virtual Datacenter(s) vinculados ao provedor de serviço de nuvem Azure, configurados no ambiente da Plataforma do uCloud. Basta o usuário selecionar o provedor desejado. Importante mencionar que este campo determina o conteúdo de outros campos deste formulário de provisionamento de um Grupo de Escalabilidade Azure.
+* **Região**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta uma lista com a(s) região(ões) de presença global do provedor de serviço de nuvem Azure. Estas regiões são configuradas e vinculadas ao Virtual Datacenter selecionado anteriormente, basta o usuário selecionar a região desejada.
+* **Contagem de instâncias**: Este campo é obrigatório,  o usuário deve informar um número inteiro que representa a quantidade padrão (default) de instâncias de máquinas virtuais que deve existir no ambiente da Azure para suportar a performance média desejada.
+* **Template**: Este campo é obrigatório do tipo “dropdown”,  quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com os templates do provedor de serviço de nuvem Azure. Estes templates são configurados e vinculados ao Virtual Datacenter selecionado anteriormente, basta o usuário selecionar o template desejado.
+* **Flavor**: Este campo é obrigatório do tipo “dropdown”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com os flavors do provedor de serviço de nuvem Azure. Estes flavors são configurados e vinculados ao Virtual Datacenter selecionado anteriormente, basta o usuário selecionar o flavor desejado.
+* **Usuário**: Este campo é obrigatório, deve ser preenchido com a sequência de caracteres que será utilizada para identificar as credenciais do usuário ‘Administrador’ para o processo de login no sistema operacional da máquina virtual. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Senha**: Este campo é obrigatório, o usuário deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”, conforme a documentação encontrada no site da Azure. A recomendação é de no mínimo doze (12) caracteres, a sequência deve conter caracteres de três das seguintes categorias:
+
+  * Letras maiúsculas e minúsculas (A a Z)
+  * Números de base 10 (de 0 a 9)
+  * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica (€/£) não são contados como caracteres especiais para essa configuração de política.
+
+* **Rótulo do Nome de Domínio**: Este campo é obrigatório, o usuário deve informar o nome do Balanceador de Carga, que foi provisionado para o ambiente Azure.
+* **Porta do balanceador**: Este campo é obrigatório, o usuário deve informar o número da Porta TCP-IP configurada no balanceador, previamente provisionado (pré-requisito), uma vez que é esta a Porta TCP-IP a ser utilizada para monitorar o nível de ocupação do recurso computacional que será definido a seguir  na seção Políticas.
+* **Valor Máximo**: Este campo é obrigatório, o usuário deve informar um número inteiro que representa a quantidade máxima de instâncias que podem ser criadas (clonadas) no ambiente da Azure para suportar a performance máxima desejada.
+* **Valor Mínimo**: Este campo é obrigatório, o usuário deve informar um número inteiro que representa a quantidade mínima de instâncias que devem existir (serão mantidas ativas) no ambiente da Azure para suportar a performance média desejada.
+* **Políticas**: Estes campos são obrigatórios, o usuário deve informar os parâmetros de performance, mínimo e máximo, quando estes patamares são atingidos é disparado o evento de aumento ou redução da quantidade de máquinas virtuais:
+
+  * **Ação**: Esta coluna apresenta o tipo de política que foi configurada. O usuário pode criar uma ação tanto para o aumento quanto para diminuição do número de máquinas virtuais.
+  * **Tipo**: Esta coluna apresenta qual o tipo de recurso computacional definido a ser monitorado na máquina virtual, em relação ao critério da ação da coluna anterior. O usuário pode estabelecer que a tomada de decisão para o Grupo de Escalabilidade seja baseada no recurso computacional CPU ou Memória.
+  * **Condição**: Nesta coluna o usuário nota que existe apenas um sinal matemático de maior-ou-igual (“>=”) para a condição de aumento da quantidade de máquinas virtuais ou um sinal de menor-ou-igual (“<=”) para a condição de diminuição da quantidade de máquinas virtuais. A Plataforma do uCloud impede o usuário de alterar estas condições para uma condição diferente, existem apenas as duas acima citadas.
+  * **Quantidade %**: Neste campo o usuário pode definir um número inteiro, de duas casas (nn), sem casas decimais, que indica o valor máximo de ocupação do recurso computacional (CPU ou Memória). Este valor será o limite máximo (threshold) de referência que o ambiente de nuvem da AWS utilizará para iniciar a ação (aumento/diminuição) ao qual este percentual está vinculado.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Grupo de Escalabilidade. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Grupo de Escalabilidade no ambiente Azure, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão criar para que a Plataforma do uCloud envie todos os parâmetros para o ambiente da AWS, para o completo provisionamento do Grupo de Escalabilidade.
+
+  Caso este botão **não esteja habilitado (cor cinza)**, significa que algum parâmetro anterior foi deixado em branco, a Plataforma do uCloud não permitirá o provisionamento da máquina virtual até que o parâmetro seja preenchido.
 
 
 Menu Banco de Dados
 ===================
+
+Uma instância de banco de dados é um ambiente de banco de dados isolado e pode ser provisionado apenas nos provedores de serviço computacional de nuvem pública. Os ambientes de nuvem privada (“on-premises”), não possuem a camada de aplicação (API) que permitem implementar esta funcionalidade da mesma forma como em um provedor de serviço de nuvem pública.
+
+A instância de banco de dados pode conter vários bancos de dados criados pelo usuário. É possível acessar a instância de banco de dados usando as mesmas ferramentas e os mesmos aplicativos usados com uma instância de banco de dados independente.
+
+Cada instância de banco de dados executa um mecanismo (“engine”) de gerenciamento de banco de dados, e o usuário deve ter em mente as particularidades de cada gerenciador de banco de dados antes de iniciar o provisionamento.
+
+Importante ressaltar que cada provedor de serviço computacional de nuvem pública (AWS, Azure e GCP) possui diferentes conjuntos de suporte para mecanismos de gerenciamento de bancos de dados:
+
++=========================+=====+=======+=====+
+| Vendor Data Base Engine | AWS | Azure | GCP |
++=========================+=====+=======+=====+
+| MySQL                   | SIM | SIM   | SIM |
+| MariaDB                 | SIM | Não   | Não |
+| PostgreSQL              | SIM | Não   | SIM |
+| Microsoft SQL Server    | SIM | SIM   | Não |
+| Oracle                  | SIM | Não   | Não |
++=========================+=====+=======+=====+
+
+Cada mecanismo de banco de dados tem seus próprios recursos com suporte, cada versão de um mecanismo de banco de dados pode incluir recursos específicos. Além disso, cada mecanismo de banco de dados tem um conjunto de parâmetros em um parameter group de banco de dados que controlam o comportamento dos bancos de dados que ele gerencia.
+Para obter mais informações, consulte a documentação online sobre bancos de dados de seu(s) provedor(es) de serviço de nuvem específico.
+Quando o usuário acessa esta opção de menu, a Plataforma do uCloud apresenta uma tela com o inventário completo de todas as instâncias de Bancos de Dados (RDS) que foram provisionadas por todos os usuários vinculados ao(s) contrato(s) que o usuário está associado.
+Esta tela pode ser muito extensa pois apresenta todas as instâncias de Bancos de Dados encontradas. No exemplo abaixo, estão listadas apenas algumas instâncias de Bancos de Dados:
+
+.. image:: /figuras/ucloud_databases_001.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----
+
+* **Busca Rápida**: O usuário pode observar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de nomes de opções de menu. Basta preencher o campo em branco com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca refletida na relação de máquinas virtuais na lista.
+* **Nome**: Nesta coluna é apresentado o nome da máquina virtual informado no momento da sua criação no console do provedor de serviço de nuvem, pode também ser informado no momento que foi configurado através do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a).
+* **Container**: Esta coluna apresenta o nome do Provedor de Serviço de Nuvem (“container”) informado no momento do provisionamento da instância de Banco de Dados. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de containers de forma alfabética crescente (a – z) ou decrescente (z – a).
+* **Região**: Esta coluna apresenta o nome da Região do provedor de serviço de nuvem informada no momento do provisionamento da instância de Banco de Dados. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes das regiões de forma alfabética crescente (a – z) ou decrescente (z – a).
+* **Usuário**: Nesta coluna é apresentado o nome das credenciais do usuário que está com uma sessão ativa na Plataforma do uCloud, no momento do provisionamento da instância de Banco de Dados. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de containers de forma alfabética crescente (a – z) ou decrescente (z – a).
+* **CPU**: Esta coluna apresenta a quantidade de CPU que está associada ao hardware (“flavor”) selecionado no momento do provisionamento da instância de Banco de Dados. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de grupos com base no valor da quantidade de CPU, de forma crescente ou decrescente.
+* **Memória**: Nesta coluna é apresentado o número da quantidade de memória RAM que está associada ao hardware (“flavor”) selecionado no momento do provisionamento da instância de Banco de Dados, expressa sempre em Gigabytes. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de máquinas virtuais com base no tamanho da memória, de forma crescente ou decrescente.
+* **Status**: Esta coluna apresenta o status corrente da instância de Banco de Dados (“RDS”). Importante ressaltar que o status é obtido do provedor de serviço de nuvem, pois a instância de Banco de Dados está instalada e sendo executada nas infraestruturas do provedor de serviço de nuvem. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica o status da lista de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a). A Plataforma do uCloud apresenta os seguintes status:
+
+  * **Available**: Status que indica que a instância de Banco de Dados está em funcionamento normal.
+  * **Unknown**: Este status pode ser apresentado, pois se refere a um estado temporário, onde momentaneamente não é possível distinguir se a instância de Banco de Dados está parada ou rodando (falha de comunicação entre a Plataforma do uCloud e o console do provedor de serviço de nuvem pública).
+
+* **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a Instância de Banco de Dados:
+  * **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta instância de Banco de Dados, de forma imediata e definitiva.
+  * **Ícone Reiniciar**: Basta clicar sobre este ícone quando o usuário necessita reiniciar a instância de Banco de Dados respectiva. Importante mencionar que reiniciar uma instância de banco de dados é necessário, geralmente, por motivos de manutenção. Por exemplo: Se o usuário fizer determinadas modificações ou alterar o parameter group de banco de dados associado à instância de banco de dados, todas as documentações online sugerem que é necessário reiniciar uma instância de Banco de Dados para que as alterações sejam implementadas.
+
+
 Gerenciando um Banco de Dados
 -----------------------------
+Quando o usuário clicar com o cursor do mouse em uma das linhas da lista de Bancos de Dados, a Plataforma do uCloud apresenta uma tela com algumas seções (cards), a seguir é apresentada a descrição de cada seção:
+
+.. image:: /figuras/ucloud_databases_002.png
+   :alt: Scaling Group AWS - Exemplo
+   :align: center
+
+----  
+
+
 
 Seção Geral - Grupo Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+* **Status**: Este campo apresenta a situação atual da instância de banco de dados no ambiente do provedor de serviço de nuvem.
+* **Container**: Este campo apresenta o nome do provedor de serviço de nuvem pública (“container”), provisionado na Plataforma do uCloud, o qual foi selecionado no momento do provisionamento da instância de banco de dados.
+* **Região**: Este campo apresenta o nome da região global do provedor de serviço de nuvem pública (“container”) o qual foi selecionado no momento do provisionamento da instância de banco de dados.
+* **Nome**: Este campo apresenta o nome da instância de banco de dados, o qual foi selecionado no momento do provisionamento da instância de banco de dados.
+* **Engine**: Este campo apresenta o nome do mecanismo (“engine”) de banco de dados e sua versão, o qual foi selecionado no momento do provisionamento da instância de banco de dados.
+* **Nome do banco de dados**: Este campo apresenta o nome do arquivo do banco de dados, informado no momento do provisionamento da instância de banco de dados.
+* **ARN (exclusivo AWS)**: Este campo apresenta o nome de recurso Amazon (“ARN – Amazon Resource Name”), somente será apresentado para bancos de dados criados no ambiente da Amazon AWS. Consultar a documentação específica do seu provedor de serviço de nuvem pública.
+* **Usuário**: Este campo apresenta o nome do usuário master da instância de banco de dados, informado no momento do provisionamento da instância de banco de dados.
+* **Identificador (exclusivo AWS)**: Este campo apresenta o identificador do recurso (“Resource ID”), somente é apresentado para bancos de dados criados no ambiente da Amazon AWS. Consultar a documentação específica do seu provedor de serviço de nuvem pública.
+* **Flavor**: Este campo apresenta o nome do flavor (configuração do hardware) da máquina virtual que executa a instância de banco de dados, nome informado no momento do provisionamento da instância de banco de dados.
+* **Tipo do Storage**: Este campo apresenta o tipo do storage que armazena o arquivo do banco de dados, informado no momento do provisionamento da instância de banco de dados.
+* **Tamanho do disco**: Este campo apresenta o tamanho do disco de armazenamento, informado no momento do provisionamento da instância de banco de dados.
+* **EndPoint**: Este campo apresenta a identificação que o provedor de serviço de nuvem pública assinalou a esta instância de banco de dados, procedimento realizado para que se possa conectar um servidor HTML (web) a esta instância de banco de dados. Importante ressaltar que alguns provedores de serviço de nuvem pública não geram automaticamente esta informação. Consultar a documentação específica do seu provedor de serviço de nuvem pública.
+* **Porta**: Este campo apresenta o número da Porta TCP-IP informado no momento do provisionamento da instância de banco de dados.
+* **Rede**: Este campo apresenta o nome da rede TCP-IP que foi provisionada na Plataforma do uCloud, selecionada no momento do provisionamento da instância de banco de dados. Importante mencionar que esta rede está vinculada à região global do provedor de serviço de nuvem pública.
+* **Publicamente acessível**: Este campo apresenta a seguinte informação: Se esta instância de banco de dados pode ser acessada através de uma rede pública (Internet). Parâmetro informado no momento do provisionamento da instância de banco de dados.
+* **Multi AZ**: Este campo apresenta o parâmetro sobre a existência das réplicas da instância de banco de dados em diferentes Zonas de Disponibilidade (“Availability Zone”) da Região Global do provedor de serviço de nuvem pública. Importante ressaltar que alguns provedores de serviço de nuvem pública não possuem suporte para diferentes Zonas de Disponibilidade (“Multi AZ”). Consultar a documentação específica de seu provedor de serviço de nuvem pública sobre o suporte para esta funcionalidade.
+* **Backup automático**: Este campo apresenta o parâmetro referente ao número de dias que a cópia de segurança (backup) permanece armazenada no ambiente do provedor de serviço de nuvem, parâmetro informado no momento do provisionamento da instância de banco de dados.
+* **Janela de Backup**: Este campo apresenta o parâmetro referente ao agendamento de cópia de segurança (backup) informado no momento do provisionamento da instância de banco de dados.
+* Último momento restaurável: Este campo apresenta a data e a hora, da cópia de segurança mais recente do banco de dados.
+* **Criado por**: Este campo apresenta uma identificação gerada, internamente, pelo provedor de serviço de nuvem pública. Importante mencionar que esta identificação não é necessariamente a mesma das credenciais do usuário registrado na Plataforma do uCloud.
 
 Seção Grupos de Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+* **Nome**: Esta coluna apresenta o nome do Grupo de Segurança (security group) vinculado ao Banco de Dados, no momento do provisionamento da instância de banco de dados.
+* **Criado Por**: Esta coluna apresenta a identificação da credencial de login do usuário responsável pela criação do Grupo de Segurança.
+* **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com as configurações do Grupo de Segurança:
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova este Grupo de Segurança de forma imediata e definitiva.
+  * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa apresentar uma tela que permite editar as configurações do Grupo de Segurança respectivo.
 
 Provisionando um Banco de Dados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
