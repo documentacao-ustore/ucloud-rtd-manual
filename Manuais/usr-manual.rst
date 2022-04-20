@@ -2975,6 +2975,7 @@ Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gere
 ----
 
 Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do MySQL provedor de serviço de nuvem apresentado nesta tela.
+
 * **Botão Selecione**: Após selecionar qualquer uma das opções de banco de dados o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
@@ -3012,6 +3013,7 @@ Nesta etapa devem ser informados os parâmetros de acesso à instância de banco
 * **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo dois [2] e no máximo oito [8] caracteres) com o qual deseja identificar o Banco de Dados. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
 * **Usuário**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres (no mínimo um [1] e no máximo quinze [15] caracteres) que é utilizada para identificar as credenciais do usuário “Master” para o processo de login no Gerenciador Banco de Dados. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
 * **Senha**: Este campo é obrigatório, ele deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+
   * Letras maiúsculas e minúsculas (A a Z)
   * Números de base 10 (de 0 a 9)
   * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
@@ -3045,7 +3047,7 @@ Etapa 6 Parâmetro de Cópia de Segurança (MySQL & Azure)
 
 Nesta etapa devem ser informados os parâmetros para definir o processo de cópia de segurança (backup) da instância de banco de dados.
 
-.. image:: /figuras/ucloud_databases_003.png
+.. image:: /figuras/ucloud_databases_012.png
    :alt: Scaling Group AWS - Exemplo
    :align: center
 
@@ -3053,6 +3055,7 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 
 * **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanecerá armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um (01) indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” (0) isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
 * **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
+
   * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup será efetuada na data agendada.
   * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup seja efetuado.
 
@@ -3112,6 +3115,7 @@ Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gere
 ----
 
 Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do **MySQL** provedor de serviço de nuvem apresentado nesta tela.
+
 * **Botão Selecione**: Após selecionar qualquer uma das opções de bancos de dados o usuário deve clicar com o cursor do mouse no botão Selecionar para a Plataforma do uCloud apresentar a tela da Etapa 3, descrito a seguir.
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Banco de Dados, caso tenha clicado no cursor do mouse por engano sobre o botão “Criar Banco de Dados”. A Plataforma do uCloud encerra a tela do Banco de Dados e retorna à tela anterior.
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
@@ -3150,6 +3154,7 @@ Nesta etapa devem ser informados os parâmetros de acesso à instância de banco
 * **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo dois [2] e no máximo oito [8] caracteres) com o qual deseja identificar o Banco de Dados. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
 * **Usuário**: Este campo é obrigatório ele deve ser preenchido com a sequência de caracteres (no mínimo um [1] e no máximo quinze [15] caracteres) que é utilizada para identificar as credenciais do usuário “Master” para o processo de login no Gerenciador Banco de Dados. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
 * **Senha**: Este campo é obrigatório, ele deve ser preenchido com a sequência de caracteres da senha do usuário. Importante ressaltar que esta sequência deve ser maior que quatro (04) caracteres alfanuméricos. Deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”. A recomendação é de no mínimo oito (08) e no máximo setenta e dois (72) caracteres e deve conter caracteres de três das seguintes categorias:
+
   * Letras maiúsculas e minúsculas (A a Z)
   * Números de base 10 (de 0 a 9)
   * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
@@ -3191,6 +3196,7 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 
 * **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanecerá armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um (01) indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” (0) isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
 * **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
+  
   * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup será efetuada na data agendada.
   * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup seja efetuado.
 
@@ -3221,6 +3227,13 @@ Menu Virtual Datacenters
 Um Virtual Datacenters (VDC) corresponde a um agrupamento lógico de recursos computacionais de um container e que pode ser associado a um contrato. Este termo é exclusivo para o ambiente da Plataforma do uCloud, e não existe nada similar em qualquer provedor de serviço de nuvem.
 
 A representação do *Virtual Datacenter* conforme a figura abaixo, exemplifica a estrutura lógica da organização decorrente de um Virtual Datacenter. No exemplo abaixo, está referenciado o provedor de serviço Amazon AWS, mas o VDC, pode ser vinculado a qualquer provedor de serviço computacional de rede público e/ou privado.
+
+.. image:: /figuras/ucloud_virtualdatacenter_conceito.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
 
 Um VDC contém uma segmentação (sub-grupo) virtual de recursos computacionais específicos de um provedor de serviço de nuvem, pode ser utilizado para representar:
 
@@ -3283,12 +3296,15 @@ A seguir cada seção está descrita de forma individual, para detalhar suas inf
 
 * **Seção Redes**: Esta seção apresenta somente as Redes TCP-IP (e subnets) do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
-
 * **Seção Templates**: Esta seção apresenta somente os templates do provedor de serviço de nuvem, que foram definidos para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
 * **Seção Flavors**: Esta seção apresenta somente os flavors do provedor de serviço de nuvem, inicialmente definidos e disponíveis aos usuários quando da seleção do VDC.
 
 * **Seção Storages**: Esta seção apresenta somente opções de armazenamento (storage) do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+
+* **Seção Grupos de Segurança**: Esta seção apresenta somente os Grupos de Segurança do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+
+* **Seção Catálogo**: Esta seção apresenta somente as Ofertas do Catálogo de Serviços que o usuário Administrador do Contrato provisionou e selecionou para ficarem disponíveis aos usuários quando estes selecionarem o VDC.
 
 * **Seção Máquinas Virtuais**: Esta seção apresenta a lista de todas as máquinas virtuais que foram criadas ao selecionar o VDC durante o processo de provisionamento de uma máquina virtual.
 
@@ -3319,7 +3335,52 @@ A seguir cada seção está descrita de forma individual, para detalhar suas inf
 Editando um Virtual Datacenter
 ------------------------------
 
+Esta ação permite ao usuário alterar o conjunto de recursos computacionais disponíveis no VDCs, de forma que a Plataforma do uCloud apresenta as características corretas onde este VDC for necessário.
+
+* **Seção Geral**: Esta seção apresenta as características gerais do Virtual Datacenter. Nesta seção é possível alterar a lista de recursos computacionais que serão visualizados pelo usuário, ao selecionar este VDC.
+
+.. image:: /figuras/ucloud_virtualdatacenter003.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
 ----
+
+  * **Ícone de Edição Ativo** |icone_edita_vdc|: Através deste ícone, o usuário pode alterar o conjunto de recursos computacionais vinculados a este VDC. Importante mencionar que os recursos apresentados, são exclusivos do provedor de serviço de nuvem ao qual este VDC está vinculado. Portanto, a tela apresentada abaixo pode se adaptar a características únicas de cada provedor de serviço de nuvem (público e/ou privado). Ao clicar com o cursor do mouse sobre o ícone, a Plataforma do uCloud apresenta a seguinte tela para o usuário (o exemplo usa o ambiente da Amazon AWS):
+
+  * **Ícone para Ampliar a Seleção** |icone_amplia_vdc|: Para que a Plataforma do uCloud possa apresentar a lista de recursos computacionais respectivos de cada seção abaixo, o usuário deve clicar com o cursor do mouse sobre o ícone de cada seção desejada.
+    Quando o usuário amplia a seção desejada, os procedimentos para incluir (ou excluir) são os mesmos para qualquer uma das seções a seguir, portanto as informações usam como exemplo a seção Regiões, pois os processos são idênticos.
+
+  * **Coluna Acionável**: Cada linha está representada por um caixa selecionável (tipo “check box”). Quando o usuário seleciona uma linha, ou várias, a Plataforma do uCloud apresenta o ícone com status marcado, e um número ao lado do nome da seção com a quantidade selecionada de linhas referente a seção. Veja o exemplo abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter006.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * Se o usuário deseja selecionar todas as linhas da seção de uma única vez, este deve clicar com o cursor do mouse no ícone acionável que fica localizado na linha do cabeçalho da seção. Desta forma, a Plataforma do uCloud preenche todos os ícones de forma imediata e atualiza o número de linhas selecionadas no título da seção, de acordo com a quantidade de opções da seção. Veja o exemplo abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter007.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+É necessário repetir estes procedimentos para cada uma das seções, até que a relação de recursos computacionais de nuvem, de cada seção, atinja a quantidade e características ideais para o seu uso na Plataforma do uCloud.
+
+* **Regiões**: Esta seção apresenta todas as regiões globais disponíveis no provedor de serviço de nuvem, após a seleção somente as regiões que foram definidas permanecem disponíveis aos usuários, quando o mesmo selecionar o VDC.
+* **Templates**: Esta seção apresenta todos os templates disponíveis no provedor de serviço de nuvem, após a seleção somente as regiões que foram definidas permanecem disponíveis aos usuários, no momento de selecionar o VDC.
+* **Redes**: Esta seção apresenta todas as Redes existentes, bem como, as que foram provisionadas no provedor de serviço de nuvem. Após a seleção somente as Redes que foram definidas ficarão disponíveis aos usuários, ao selecionar o VDC.
+* **Storage**: Esta seção apresenta todos os tipos de storages disponíveis no provedor de serviço de nuvem, após a seleção somente os storages que foram definidos ficarão disponíveis para os usuários quando estes selecionarem o VDC.
+* **Flavors**: Esta seção apresenta todos os flavors disponíveis no provedor de serviço de nuvem, após a seleção somente os flavors previamente definidos permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+* **Máquinas Virtuais**: Esta seção, quando expandida, apresenta a lista de todas as máquinas virtuais que foram criadas e selecionado o provedor de serviço de nuvem ao qual o VDC está vinculado. O usuário pode incluir, ou remover, máquinas virtuais vinculadas ao VDC. Este número será considerado no parâmetro Max.Máquinas Virtuais, que permite definir que este VDC tenha um número específico de máquinas virtuais.
+* **Grupos de Segurança**: Esta seção, quando expandida, apresenta a lista de todos os Grupos de Segurança foram provisionados e disponíveis no provedor de serviço de nuvem ao qual o VDC está vinculado. O usuário pode incluir, ou remover, Grupos de Segurança vinculadas ao VDC.
+* **Catálogo**: Esta seção, quando expandida, apresenta a lista de todas as Ofertas do Catálogo de Serviços que o usuário Administrador do Contrato provisionou e selecionou para ficar visível para os usuários ao quais o VDC está vinculado.
+
+Importante ressaltar que toda alteração, seja de inclusão ou de remoção de recursos computacionais, reflete de forma imediata na Plataforma do uCloud. Portanto, caso um usuário não seja capaz de visualizar um recurso computacional de nuvem (ex.: um template ou um flavor), o usuário com perfil de acesso correto, pode adicionar o recurso computacional e este recurso será imediatamente visualizado por todos os outros usuários
 
 Criando um Virtual Datacenter
 -----------------------------
@@ -3633,6 +3694,8 @@ Editor de Etiquetas (tags) Nativo
 .. |icone_abre_fatura| image:: /figuras/uCloud_icone_abrir_fatura.png
 
 .. |icone_agenda| image:: /figuras/uCloud_icone_agendar.png
+
+.. |icone_amplia_vdc| image:: /figuras/ucloud_icone_amplia_vdc.png
 
 .. |icone_anexa_branco| image:: /figuras/uCloud_icone_anexar_branco.png
 
