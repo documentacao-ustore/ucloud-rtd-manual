@@ -3212,10 +3212,97 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 Menu Virtual Datacenters
 ========================
 
+Um Virtual Datacenters (VDC) corresponde a um agrupamento lógico de recursos computacionais de um container e que pode ser associado a um contrato. Este termo é exclusivo para o ambiente da Plataforma do uCloud, e não existe nada similar em qualquer provedor de serviço de nuvem.
+
+A representação do *Virtual Datacenter* conforme a figura abaixo, exemplifica a estrutura lógica da organização decorrente de um Virtual Datacenter. No exemplo abaixo, está referenciado o provedor de serviço Amazon AWS, mas o VDC, pode ser vinculado a qualquer provedor de serviço computacional de rede público e/ou privado.
+
+Um VDC contém uma segmentação (sub-grupo) virtual de recursos computacionais específicos de um provedor de serviço de nuvem, pode ser utilizado para representar:
+
+* um departamento;
+* uma subsidiária;
+* um grupo de usuários;
+* uma iniciativa.
+
+Este conceito de agrupamento de recursos computacionais apoia o pilar de Governança Financeira das empresas, de forma que restringe os usuários de consumir recursos computacionais diferentes dos que foram disponibilizados a eles e estão disponíveis no Virtual Datacenter.
+
+A segmentação de recursos computacionais, pode retirar da lista disponível para o usuário, os recursos computacionais mais caros, se necessário, desta forma, um usuário não pode consumir um recurso computacional de alto custo (ex.: máquinas virtuais com 12 CPUs e 120 Giga RAM). Um provedor de serviço de nuvem pode possuir uma relação muito grande de Templates (configuração de hardware) e de tipos de sistemas operacionais (flavors), de regiões de presença global, de tipos de armazenamento (storage), entre outros. Todos estes recursos computacionais são passíveis de serem retirados da lista para o usuário. Importante ressaltar que o recurso computacional não é excluído do ambiente do provedor de serviço de nuvem, o recurso computacional tem a sua apresentação "inibida" ao usuário na interface da Plataforma do uCloud.
+
+O Virtual Datacenter (VDC) é utilizado em vários pontos, telas, formulários na Plataforma do uCloud, a seleção de um VDC por parte do usuário, restringe a lista de recursos computacionais apresentados. Caso o usuário não possua acesso a um recurso computacional específico, este pode ser adicionado (ou removido) de forma muito fácil e rápida, e o efeito desta alteração é imediato na Plataforma do uCloud.
+
+Quando o usuário acessa a opção de menu Virtual Datacenter, a Plataforma do uCloud apresenta uma listagem de todos os VDCs provisionados no ambiente, conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter001.png
+   :alt: Virtual Datacenter - Exemplo
+   :align: center
+
 ----
 
 Gerenciando Virtual Datacenters
 -------------------------------
+
+Quando o usuário clicar com o cursor do mouse em uma das linhas da lista de VDCs, a Plataforma do uCloud apresenta uma tela com diversas seções (cards), segue abaixo a descrição de cada seção:
+
+.. image:: /figuras/ucloud_virtualdatacenter002.png
+   :alt: Virtual Datacenter - Exemplo
+   :align: center
+
+----
+
+A seguir cada seção está descrita de forma individual, para detalhar suas informações e funcionalidades.
+
+* **Botão Excluir Virtual Datacenter** |botao_exclui_VDC|: O usuário deve clicar com o cursor do mouse sobre este botão quando for necessário remover um Virtual Datacenter previamente provisionado. Importante ressaltar que o conceito de VDC existe somente dentro da Plataforma do uCloud e todo recurso computacional de nuvem, existe dentro do ambiente do provedor de serviço. Desta forma, a exclusão de um Virtual Datacenter não expurga (remove) qualquer máquina virtual existente. Quando clicar sobre este botão a Plataforma do uCloud apresenta uma tela para o usuário possa confirmar a remoção.
+
+* **Seção Geral**: Esta seção apresenta as características gerais do Virtual Datacenter. Nesta seção é possível alterar a lista dos recursos computacionais que serão visualizados pelo usuário, quando selecionado este VDC.
+
+  * **Nome**: Este campo apresenta o nome do VDC com o qual este foi identificado no momento do seu provisionamento na Plataforma do uCloud.
+  * **Container**: Este campo apresenta o nome do provedor de serviço de nuvem, ao qual este VDC está vinculado. A vinculação de um VDC a um provedor de serviço de nuvem é única e exclusiva.
+  * **Ícone de Desconectar** |icone_desconecta|: Este ícone permite ao usuário desconectar (unplug) o Virtual Datacenter do provedor de serviço de nuvem. O efeito desta ação causa impacto em todas as máquinas virtuais vinculadas a este VDC na Plataforma do uCloud. Importante ressaltar que esta ação não remove (delete) a máquina virtual do ambiente do provedor de serviço de nuvem. Esta ação remove o Virtual Datacenter do inventário da base de dados da Plataforma do uCloud, portanto, não mais será listado em qualquer tela ou formulário. Quando o usuário clicar com o cursor do mouse sobre este ícone a Plataforma do uCloud apresenta uma tela para o usuário possa confirmar a ação.
+  * **Ícone de Edição Ativo (|icone_edita_on|)**: Através deste ícone, o usuário pode alterar a lista de recursos computacionais específicos do VDC. Este procedimento será coberto no item Editando um Virtual Datacenter.
+  * **Max.Máquinas Virtuais**: Este campo permite para a empresa um possa ter controle de Governança de Custos, pois pode definir que este VDC fique limitado a um número específico de máquinas virtuais, de forma que a Plataforma do uCloud poderá não efetuar o provisionamento de uma nova máquina virtual quando este limite for alcançado. O valor padrão (default) é ‘99999’ que praticamente significa ‘ilimitado’.
+
+    * **Ícone de Edição Ativo** |icone_edita_on|: Através deste ícone, o usuário pode alterar o valor informado no campo da quantidade máxima de máquinas virtuais do VDC. Após clicar com o cursor do mouse no ícone de edição, a Plataforma do uCloud permite ao usuário informar um número inteiro (1 – 99.999) que estabelece o limite máximo da quantidade de máquinas virtuais vinculadas a este VDC.
+    * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud.
+    * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo retorna para os valores iniciais, antes de qualquer preenchimento ou alteração.
+
+* **Seção Regiões**: Esta seção apresenta somente as regiões globais, do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+
+.. image:: /figuras/ucloud_virtualdatacenter004.png
+   :alt: Virtual Datacenter - Exemplo
+   :align: center
+
+----
+
+* **Seção Redes**: Esta seção apresenta somente as Redes TCP-IP (e subnets) do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+
+
+* **Seção Templates**: Esta seção apresenta somente os templates do provedor de serviço de nuvem, que foram definidos para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+
+* **Seção Flavors**: Esta seção apresenta somente os flavors do provedor de serviço de nuvem, inicialmente definidos e disponíveis aos usuários quando da seleção do VDC.
+
+* **Seção Storages**: Esta seção apresenta somente opções de armazenamento (storage) do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+
+* **Seção Máquinas Virtuais**: Esta seção apresenta a lista de todas as máquinas virtuais que foram criadas ao selecionar o VDC durante o processo de provisionamento de uma máquina virtual.
+
+  * **Nome**: Nesta coluna será apresentado o nome da máquina virtual informado no momento da sua criação no console do provedor de serviço de nuvem, ou quando configurado através do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Usuário**: Esta coluna apresenta as credenciais do usuário registrado, em uma sessão na Plataforma do uCloud, o qual foi o responsável pelo provisionamento da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **IP Privado**: Esta coluna apresenta o endereço TCP-IP vinculado a esta máquina virtual no momento de sua criação. Importante ressaltar que este endereçamento TCP-IP pertence ao ambiente de rede privada do provedor de serviço de nuvem (recebe do servidor DHCP interno do provedor) e, este endereço, pode mudar quando a máquina virtual for reiniciada (reboot). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP de forma crescente ou decrescente.
+  * **IP Público**: Esta coluna pode estar em ‘branco’, pois nesta coluna é apresentado o endereço TCP-IP Público que foi vinculado a esta máquina virtual em um momento posterior ao provisionamento da máquina virtual. O Endereço TCP-IP Público, é um endereço fixo e pode incorrer em custos mensais para sua manutenção e vinculação a uma máquina virtual provisionada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
+  * **Memória**: Nesta coluna é apresentado o número da quantidade de memória RAM configurada nesta máquina virtual, expressa sempre em Gigabytes. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de máquinas virtuais com base no tamanho da memória de forma crescente ou decrescente.
+  * **CPUs**: Nesta coluna é apresentado o número da quantidade de CPU(s) configurada nesta máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de máquinas virtuais com base na quantidade de CPU(s), de forma crescente ou decrescente.
+  * **Status**: Esta coluna apresenta o status corrente da máquina virtual. Importante ressaltar que status é obtido do provedor de serviço de nuvem, pois a máquina virtual está instalada e sendo executada na infraestrutura do provedor de serviço de nuvem. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica o status da lista de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a). A Plataforma do uCloud apresenta os seguintes status:
+
+    * **Running**: Status indica que a máquina virtual está em funcionamento normal.
+    * **Stopped**: Status indica que a máquina virtual está parada.
+    * **Suspended**: Este status indica que a máquina virtual está em um estado suspenso, demanda um tempo de inicialização (boot) mais rápido que o estado parado (stopped).
+    * **Unrecognized**: Este status pode ser apresentado, pois se refere a um estado, temporário, onde momentaneamente não foi possível distinguir se a máquina está parada ou rodando (falha de comunicação entre a Plataforma do uCloud e o console do provedor de serviço de nuvem pública).
+    * **Deallocated**: Este status é particular da nuvem Azure, e se refere a uma máquina virtual que se encontra parada, e que não está sendo cobrada. Este estado faz a liberação de alguns recursos e seu tempo para inicialização (boot) será maior. Para maiores detalhes, consultar material de documentação do Azure.
+    * **Orphan**: Este status somente será apresentado quando uma máquina não é encontrada no provedor de serviço de nuvem ou no ambiente de virtualização do datacenter privado (hypervisor).
+
+  * **Ações Ícone de Desconectar** |icone_desconecta|: Este ícone permite ao usuário desconectar (unplug) a máquina virtual do Virtual Datacenter. Importante ressaltar que esta ação não remove (delete) a máquina virtual do ambiente do provedor de serviço de nuvem. Quando o usuário clicar com o cursor do mouse sobre este ícone a Plataforma do uCloud desconecta a máquina virtual do VDC de forma imediata, apresenta uma mensagem pop-up, no canto superior direito da tela a qual solicita confirmar a ação:
+
+.. image:: /figuras/ucloud_virtualdatacenter005.png
+   :alt: Virtual Datacenter - Exemplo
+   :align: center
 
 ----
 
