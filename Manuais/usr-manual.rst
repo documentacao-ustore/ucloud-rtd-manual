@@ -2730,8 +2730,9 @@ Esta tela pode ser muito extensa pois apresenta todas as instâncias de Bancos d
   * **Unknown**: Este status pode ser apresentado, pois se refere a um estado temporário, onde momentaneamente não é possível distinguir se a instância de Banco de Dados está parada ou rodando (falha de comunicação entre a Plataforma do uCloud e o console do provedor de serviço de nuvem pública).
 
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a Instância de Banco de Dados:
-  * **Ícone Lata de Lixo**: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta instância de Banco de Dados, de forma imediata e definitiva.
-  * **Ícone Reiniciar**: Basta clicar sobre este ícone quando o usuário necessita reiniciar a instância de Banco de Dados respectiva. Importante mencionar que reiniciar uma instância de banco de dados é necessário, geralmente, por motivos de manutenção. Por exemplo: Se o usuário fizer determinadas modificações ou alterar o parameter group de banco de dados associado à instância de banco de dados, todas as documentações online sugerem que é necessário reiniciar uma instância de Banco de Dados para que as alterações sejam implementadas.
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta instância de Banco de Dados, de forma imediata e definitiva.
+  * **Ícone Reiniciar** |icone_vm_reboot|: Basta clicar sobre este ícone quando o usuário necessita reiniciar a instância de Banco de Dados respectiva. Importante mencionar que reiniciar uma instância de banco de dados é necessário, geralmente, por motivos de manutenção. Por exemplo: Se o usuário fizer determinadas modificações ou alterar o parameter group de banco de dados associado à instância de banco de dados, todas as documentações online sugerem que é necessário reiniciar uma instância de Banco de Dados para que as alterações sejam implementadas.
 
 
 Gerenciando um Banco de Dados
@@ -2773,6 +2774,7 @@ Seção Grupos de Segurança
 * **Nome**: Esta coluna apresenta o nome do Grupo de Segurança (security group) vinculado ao Banco de Dados, no momento do provisionamento da instância de banco de dados.
 * **Criado Por**: Esta coluna apresenta a identificação da credencial de login do usuário responsável pela criação do Grupo de Segurança.
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com as configurações do Grupo de Segurança:
+
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova este Grupo de Segurança de forma imediata e definitiva.
   * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa apresentar uma tela que permite editar as configurações do Grupo de Segurança respectivo.
 
@@ -2798,6 +2800,7 @@ A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do prove
 
 .. image:: /figuras/ucloud_databases_003.png
    :alt: Scaling Group AWS - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -2808,8 +2811,9 @@ Etapa 2 Seleção do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Esta tela permite ao usuário selecionar qual o mecanismo (“*engine*”) de gerenciamento de bancos de dados. A seguir é apresentada uma tela capturada do ambiente da **AWS**, apenas como um exemplo didático.
 
-.. image:: /figuras/ucloud_databases_003.png
+.. image:: /figuras/ucloud_databases_013b.png
    :alt: Scaling Group AWS - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -2825,8 +2829,9 @@ Etapa 3 Especificações do Banco de Dados (MySQL & AWS)
 
 Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente computacional que dará suporte para a execução da instância de banco de dados.
 
-.. image:: /figuras/ucloud_databases_003.png
+.. image:: /figuras/ucloud_databases_004.png
    :alt: Scaling Group AWS - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -2963,7 +2968,7 @@ Etapa 2 Seleção do Banco de Dados (MySQL & Azure)
 
 Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da Azure, apenas como um exemplo didático.
 
-.. image:: /figuras/ucloud_databases_008.png
+.. image:: /figuras/ucloud_databases_013c.png
    :alt: Scaling Group AWS - Exemplo
    :align: center
 
@@ -3075,13 +3080,9 @@ Criação de Banco de Dados (MySQL & GCP)
 ---------------------------------------
 
 Nas telas a seguir na ilustração, será utilizada a tela com o exemplo para o provedor Google Cloud Platform (GCP), ele demonstra as pequenas diferenças de suporte a mecanismos de gerenciamento de bases de dados e seus parâmetros.
+
 Na tela a seguir apresentada pela Plataforma do uCloud, a seleção do provedor determina o conteúdo das telas seguintes.
 
-.. image:: /figuras/ucloud_databases_013.png
-   :alt: Scaling Group AWS - Exemplo
-   :align: center
-
-----
 
 Etapa 1 Seleção do Provedor de Serviço de Nuvem (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3092,6 +3093,7 @@ A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do prove
 
 .. image:: /figuras/ucloud_databases_003.png
    :alt: Scaling Group AWS - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -3103,7 +3105,7 @@ Etapa 2 Seleção do Banco de Dados (MySQL & GCP)
 
 Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da GCP, apenas como um exemplo didático.
 
-.. image:: /figuras/ucloud_databases_013.png
+.. image:: /figuras/ucloud_databases_013d.png
    :alt: Scaling Group AWS - Exemplo
    :align: center
 
