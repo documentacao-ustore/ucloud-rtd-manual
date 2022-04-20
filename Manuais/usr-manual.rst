@@ -2692,15 +2692,19 @@ Cada instância de banco de dados executa um mecanismo (“engine”) de gerenci
 
 Importante ressaltar que cada provedor de serviço computacional de nuvem pública (AWS, Azure e GCP) possui diferentes conjuntos de suporte para mecanismos de gerenciamento de bancos de dados:
 
-+=========================+=====+=======+=====+
-| Vendor Data Base Engine | AWS | Azure | GCP |
-+=========================+=====+=======+=====+
-| MySQL                   | SIM | SIM   | SIM |
-| MariaDB                 | SIM | Não   | Não |
-| PostgreSQL              | SIM | Não   | SIM |
-| Microsoft SQL Server    | SIM | SIM   | Não |
-| Oracle                  | SIM | Não   | Não |
-+=========================+=====+=======+=====+
++-------------------------+---------+-----------+---------+
+| Vendor Data Base Engine |   AWS   |   Azure   |   GCP   |
++=========================+=========+===========+=========+
+| MySQL                   | **SIM** | **SIM**   | **SIM** |
++-------------------------+---------+-----------+---------+
+| MariaDB                 | **SIM** | *Não*     | *Não*   |
++-------------------------+---------+-----------+---------+
+| PostgreSQL              | **SIM** | *Não*     | **SIM** |
++-------------------------+---------+-----------+---------+
+| Microsoft SQL Server    | **SIM** | **SIM**   | *Não*   |
++-------------------------+---------+-----------+---------+
+| Oracle                  | **SIM** | *Não*     | *Não*   |
++-------------------------+---------+-----------+---------+
 
 Cada mecanismo de banco de dados tem seus próprios recursos com suporte, cada versão de um mecanismo de banco de dados pode incluir recursos específicos. Além disso, cada mecanismo de banco de dados tem um conjunto de parâmetros em um parameter group de banco de dados que controlam o comportamento dos bancos de dados que ele gerencia.
 Para obter mais informações, consulte a documentação online sobre bancos de dados de seu(s) provedor(es) de serviço de nuvem específico.
