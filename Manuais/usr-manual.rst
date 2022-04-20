@@ -3237,6 +3237,7 @@ Quando o usuário acessa a opção de menu Virtual Datacenter, a Plataforma do u
 
 .. image:: /figuras/ucloud_virtualdatacenter001.png
    :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -3248,6 +3249,7 @@ Quando o usuário clicar com o cursor do mouse em uma das linhas da lista de VDC
 
 .. image:: /figuras/ucloud_virtualdatacenter002.png
    :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -3272,6 +3274,7 @@ A seguir cada seção está descrita de forma individual, para detalhar suas inf
 
 .. image:: /figuras/ucloud_virtualdatacenter004.png
    :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
@@ -3306,6 +3309,7 @@ A seguir cada seção está descrita de forma individual, para detalhar suas inf
 
 .. image:: /figuras/ucloud_virtualdatacenter005.png
    :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
    :align: center
 
 ----
