@@ -3537,7 +3537,7 @@ O usuário deve repetir estes procedimentos para cada uma das seções abaixo, a
 
 Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de recursos computacionais reflete de forma imediata na Plataforma do uCloud. Caso um usuário não seja capaz de visualizar um recurso computacional de nuvem (por exemplo: um template ou um flavor), ao proceder a adição do recurso computacional, este recurso será imediatamente visualizado por todos os outros usuários.
 
-klksjd laksj
+
 
 Menu Financeiro
 ===============
