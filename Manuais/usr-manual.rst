@@ -445,12 +445,13 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
     * **Utilizar as permissões padrões**: Ao selecionar este campo “check box”, e confirmar a ação, o usuário receberá todas as permissões de usuário disponíveis na Plataforma do uCloud.
     * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o mouse no botão Aplicar para confirmar as alterações - de forma definitiva e imediata - para o usuário que está visualizando/alterando. Terminada esta ação a Plataforma do uCloud fechará esta tela e retorna à tela anterior, com seu conteúdo atualizado, apresentando a nova relação de permissões do usuário.
 
-* **Seção Políticas de Permissionamento do Usuário (eventual)**: Esta seção somente será apresentada para usuários que foram provisionados na Plataforma uCloud com o "checkbox" Criar Usuário na Nuvem habilitado. Esta seção apresenta todas as políticas de permissionamento únicas e específicas do ambiente do provedor de serviço de nuvem pública. Estas políticas são ‘importadas’ durante o processo de sincronização do container, e permitem um alto nível de controle granular das capacidades (permissões) que o usuário pode efetuar dentro do ambiente do provedor de serviço de nuvem. Quando o usuário é recém provisionado, este pode estar associado a nenhuma política de permissionamento, será necessário configurar manualmente as permissões.  
+* **Seção Políticas de Permissionamento do Usuário (eventual)**: Esta seção somente será apresentada para usuários que foram provisionados na Plataforma uCloud com o "checkbox" Criar Usuário na Nuvem habilitado. Esta seção apresenta todas as políticas de permissionamento únicas e específicas do ambiente do provedor de serviço de nuvem pública. Estas políticas são ‘importadas’ durante o processo de sincronização do container, e permitem um alto nível de controle granular das capacidades (permissões) que o usuário pode efetuar dentro do ambiente do provedor de serviço de nuvem. Quando o usuário é recém provisionado, este pode estar associado a nenhuma política de permissionamento, será necessário configurar manualmente as permissões.
+
   * **Botão Editar**: Este botão permite ao usuário Administrador (ou usuário com autorização) acrescentar ou revogar políticas de permissionamento do ambiente do provedor de serviço de nuvem. Para isto, ele deve clicar no botão ‘Editar’ a partir daí será permitido ao usuário administrador adicionar ou excluir permissões específicas para o usuário desejado. Veja exemplo abaixo:
-  Esta tela possui duas colunas distintas;
 
   * À esquerda são as políticas de permissionamento previamente adicionadas ao usuário. Ao lado de cada permissão existe um campo do tipo “check box” que, quando selecionado, exclui (revoga) a respectiva permissão deste usuário.
   * À direita estão as políticas de permissionamento disponíveis do ambiente do provedor de serviço de nuvem pública que podem ser adicionadas ao perfil individual deste usuário. Ao lado de cada permissão existe um campo do tipo “check box” que, quando selecionado, adiciona a respectiva permissão deste usuário.
+  
   * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o usuário que se está visualizando/alterando. Após esta ação, a Plataforma do uCloud fechará esta tela e retornará à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
    
 * **Seção Permissões do Grupo**: Esta seção somente apresenta as permissões que foram definidas nas configurações do Grupo ao qual este usuário está vinculado. A Plataforma do uCloud não permite que as permissões listadas aqui possam ser alteradas através desta tela. Para ter contato e conhecer as permissões definidas no grupo, veja o item Administração / Grupos. Se forem necessárias alterações de qualquer permissão listadas aqui, estas alterações devem ser efetuadas nas configurações do Grupo.
@@ -593,7 +594,7 @@ Na Plataforma uCloud, o termo Grupo estabelece um conceito que permite alocar um
 
 Importante ressaltar que o conceito de ''Grupos" existe somente para a Plataforma do uCloud e não existe nada similar nos provedores de serviço de nuvem pública ou privada.
 
-Um Grupo de usuários pode ser um Departamento, uma Unidade de Negócio, um Centro de Custos, uma Filial. Quando se define um limite de quantidade de recursos computacionais ou um limite financeiro para um grupo, significa que a Plataforma do uCloud registra este limite. 
+Um Grupo de usuários pode ser um Departamento, uma Unidade de Negócio, um Centro de Custos, uma Filial. Quando se define um limite de quantidade de recursos computacionais ou um limite financeiro para um grupo, significa que a Plataforma do uCloud registra este limite.
 
 Se este recurso ultrapassar os limites estabelecidos para o grupo, da parte de qualquer usuário vinculado a este grupo, a Plataforma do uCloud nega (bloqueia) a criação ou alteração de determinada quantidade de recurso computacional, uma vez que este novo recurso computacional não poderá ultrapassar estes limites.
 
@@ -895,7 +896,7 @@ Isolamento Lógico de Recursos Computacionais
 
 A Plataforma do uCloud implementa um conceito de Virtual Data Center (VDC), que permite à organização definir um conjunto lógico que seja apenas uma pequena parte (subgrupo) da ampla quantidade dos recursos computacionais de um provedor de nuvem. O conceito de um Virtual Data Center é exclusivo do ambiente da Plataforma do uCloud, não existe nenhum conceito similar (ou próximo) nos ambientes dos provedores de serviço de nuvem.
 
-Quando a organização define um VDC, este fica vinculado a um Contrato, logo somente os recursos do provedor de serviços de nuvem deste contrato serão disponibilizados para sua correta personalização. 
+Quando a organização define um VDC, este fica vinculado a um Contrato, logo somente os recursos do provedor de serviços de nuvem deste contrato serão disponibilizados para sua correta personalização.
 
 Como mencionado acima, um Grupo de Usuários faz parte de um contrato, e o grupo de usuários pode ser vinculado no mínimo a um (01) único VDC. Desta forma, os usuários do grupo serão apresentados somente ao subconjunto de recursos computacionais específicos do VDC vinculado ao seu grupo.
 
@@ -935,7 +936,7 @@ Deve ser informadas as credenciais de login de um usuário no campo Administrado
 Abaixo detalhamento dos campos não mencionados;
 
 * **Public Gateway**: Este botão é válido apenas para ambientes em que o contrato está associado a um ambiente de um Data Center privado, no qual o ambiente de virtualização (hypervisor) é de controle da organização (on-premises). Para que este botão seja válido é necessário ao usuário, com perfil de Administrador da Plataforma uCloud, ter provisionado um Gateway SDN (Software Defined Network). Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração de um Gateway SDN.
-* **Experimental**: Durante o provisionamento do contrato o Administrador do Contrato informa os limites (cotas) financeiros e/ou dos recursos computacionais. Em seguida, pode-se acessar a configuração de contrato Experimental. 
+* **Experimental**: Durante o provisionamento do contrato o Administrador do Contrato informa os limites (cotas) financeiros e/ou dos recursos computacionais. Em seguida, pode-se acessar a configuração de contrato Experimental.
 
 Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo;
 
@@ -950,7 +951,7 @@ Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, pa
 Seção Regras de Faturamento
 ---------------------------
 
-Nesta seção o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a Plataforma do uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair a taxa PTAX do último dia útil do mês. 
+Nesta seção o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a Plataforma do uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair a taxa PTAX do último dia útil do mês.
 
 Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, para conhecer os procedimentos de configuração do campo Experimental.
 
@@ -960,6 +961,7 @@ Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, pa
 
 ----
 
+Podem ser:
 #. Quantidade de Casas Decimais: Este campo define a quantidade de casas decimais e é muito útil quando o Contrato possui valor em moeda estrangeira.
 #. Perfil de Tagueamento: Ver opção de Menu Configurações / Tagueamento de Recursos USN.
 
@@ -1026,9 +1028,8 @@ Os recursos com valor igual a zero (0), terão o seu valor original cobrado pelo
 
 Recomendamos fortemente que, qualquer alteração nos Valores dos Recursos altere os valores originalmente cobrados pelo provedor de serviços de nuvem.
 
-..  attention::
-	*Lembramos ao usuário: ao informar qualquer novo valor, este ‘novo valor’ altera o valor da fatura mensal a ser cobrada pelo provedor, e qualquer diferença, multa ou penalidade contratual advindas destas alterações não são responsabilidade da Ustore ou da Plataforma do uCloud, pois a plataforma está desempenhando o função pela qual foi desenhada a efetuar.*
-	
+..  attention:: *Lembramos ao usuário: ao informar qualquer novo valor, este ‘novo valor’ altera o valor da fatura mensal a ser cobrada pelo provedor, e qualquer diferença, multa ou penalidade contratual advindas destas alterações não são responsabilidade da Ustore ou da Plataforma do uCloud, pois a plataforma está desempenhando o função pela qual foi desenhada a efetuar.*
+
 Seção Cota do Contrato
 ----------------------
 
@@ -1066,7 +1067,7 @@ Esta seção possibilita ao Administrador do Contrato informar os dados de conta
 
 ----
 
-Esta seção não é obrigatória, e o não preenchimento desta seção não impede, ou bloqueia, nenhuma funcionalidade do perfeito uso da Plataforma do uCloud. 
+Esta seção não é obrigatória, e o não preenchimento desta seção não impede, ou bloqueia, nenhuma funcionalidade do perfeito uso da Plataforma do uCloud.
 Recomendamos o preenchimento destas informações para que a Plataforma do uCloud possa enviar informações automaticamente para o gestor do contrato.
 
 
@@ -1206,7 +1207,7 @@ Favor consultar o documento: Manual do Administrador da Plataforma do uCloud, pa
 Seção Perfil de Faturamento de Container
 ----------------------------------------
 
-Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A Plataforma do uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato. 
+Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A Plataforma do uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato.
 Através desta configuração é possível que sejam definidos preços distintos por perfil de faturamento (preço fixo, recurso alocado ou recurso efetivamente utilizado) por tipo de container.
 
 .. figure:: /figuras/ucloud_menu_contrato_020.png
@@ -1318,7 +1319,7 @@ Seção Controlador SDN
 
 Quando conectamos um data center privado (on-premises) é necessário instalar uma solução de SDN previamente. Uma vez que o ambiente do servidor de SDN, do cliente, esteja configurado e disponível, o usuário deve selecionar o container no qual ele está associado. O controlador SDN já prevê a existência de dois nós de gerenciamento em alta disponibilidade indicados nos campos primário e secundário. Um controlador não deve estar vinculado a mais de um container.
 Importante mencionar que para a instalação do controlador de SDN é necessário consultar a equipe da Ustore, para auxiliar a empresa na correta instalação e configuração do servidor que executará a aplicação uSDN (Controlador SDN).
-  
+
 * **IP**: Este campo apresenta o endereço TCP-IP onde está instalado o Controlador SDN, este endereço será utilizado pela API do uCloud que se conecta a este servidor.
 
 * **Porta**: Este campo apresenta a porta TCP-IP na qual a API do uCloud se conecta a este servidor.
@@ -1342,7 +1343,7 @@ Menu Configuração / Sub-Redes Públicas
 
 Quando a empresa configura um servidor de SDN para controlar as configurações de sua rede privada, são controlados e gerenciados apenas endereços restritos (privados). Estes endereços não podem ser acessados de máquinas que estejam em outras redes.
 Para que o controlador SDN possa gerenciar os endereços que poderão ser acessados de forma externa (pública) é fundamental que a equipe de segurança e redes, estabeleça a faixa (range) de endereços que serão públicos e a informação destes endereços seja repassada para o Controlador SDN.
-Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP-IP que sejam públicos, para quando um recurso computacional da nuvem privada (máquina virtual) necessitar de um endereço público, a Plataforma do uCloud possa interagir com o Gerenciador SDN e vincular um endereço TCP-IP Público para este recurso computacional (máquina virtual). 
+Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP-IP que sejam públicos, para quando um recurso computacional da nuvem privada (máquina virtual) necessitar de um endereço público, a Plataforma do uCloud possa interagir com o Gerenciador SDN e vincular um endereço TCP-IP Público para este recurso computacional (máquina virtual).
 
 * **Nome**: Este campo apresenta o nome da rede que foi escolhido no momento do provisionamento da configuração da rede.
 
@@ -1661,7 +1662,7 @@ A Plataforma do uCloud não cria valores - o ator responsável por gerar e adici
 Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma do uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato na página 58.
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma do uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
-  
+
 .. inserir tela (remover este comentario)
 
 .. important:: |importante| *Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma do uCloud onde está descrito o processo correto de provisionar um Billing Admin.*
@@ -1713,7 +1714,7 @@ Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones
 * **Nome**: Esta etiqueta identifica o nome do Billing Profile que foi informado no momento de sua configuração inicial.
 * **Indicador do Tipo de Execução**: Esta etiqueta identifica (“ASYNC”) o tipo de execução do processo de sincronização, selecionado no momento da sua configuração inicial.
 * **Ícone de Status de Execução**: Esta etiqueta apresenta o status do processo de sincronização da Plataforma do uCloud com a console do provedor de serviço de nuvem pública.
-* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para informar a Plataforma do uCloud que remova (exclua) esta configuração de Billing Admin de forma imediata e definitiva. 
+* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para informar a Plataforma do uCloud que remova (exclua) esta configuração de Billing Admin de forma imediata e definitiva.
 * **Ícone LOG**: Basta o usuário clicar neste ícone que a Plataforma do uCloud apresenta uma tela que permite visualizar o registro de atividade (log) referente às tarefas de sincronização do Billing Profile com as bases de dados do uCloud. Este recurso é fundamental para identificar qualquer problema de comunicação da Plataforma do uCloud com o ambiente do provedor de serviço de nuvem pública, para obtenção do arquivo texto não formatado (.CSV).
 
 .. image:: /figuras/ucloud_billing_admin_003.png
@@ -1779,7 +1780,7 @@ Após criado o perfil é possível editar
 
 ----
 
-1. Troca o perfil do contrato 
+1. Troca o perfil do contrato
 2. Edita o perfil
 
 .. image:: /figuras/ucloud_criar_recurso_usn_005.png
@@ -1815,7 +1816,7 @@ Neste ponto também será possívelalterar as configurações provisionadas ao P
 3. Buscar os recursos sem tag no contrato, por período selecionado.
 4. Criar um novo perfil.
 5. Exportar em xlsx a listagem de recursos no contrato que não tem tag.
-6. Adicionar ao perfil os recursos. 
+6. Adicionar ao perfil os recursos.
 
 Após completar os passos acima descritos, para configurar o Perfil de Tagueamento, será necessário iniciar o processo de aplicação das etiquetas (tags) aos dados do billing. Ao final do processo, todos os valores referentes às novas etiquetas haverão sido aplicadas às etiquetas (tags) configuradas no perfil do usuário e aos dados de billing do contrato selecionado.
 
@@ -1839,7 +1840,7 @@ Quando configurada a comunicação entre a Plataforma do uCloud e a console do p
   Com o inventário disponível diretamente dentro da Plataforma do uCloud, o usuário pode operar cada uma das máquinas virtuais, independente de em qual provedor de nuvem este recurso está provisionado. Será descrito, a seguir, as possíveis operações a serem aplicadas aos recursos computacionais existentes nos provedores de nuvem (público e/ou privado).
 
   A menção *operar* significa o leitor que é a capacidade do usuário comandar certas ações diretamente nestas máquinas virtuais, como ações de: parar (*shutdown*), reiniciar (*restart*), suspender (*suspend*), remover (*delete*), para citar algumas operações básicas.
-  
+
   Através da interface da Plataforma do uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Este também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, snapshot, entre outros).
 
 Menu Máquinas Virtuais
@@ -1860,7 +1861,7 @@ As colunas da tela listada anteriormente, está descrita abaixo:
 * **Botão Refresh** (|botao_refresh|): A Plataforma do uCloud se comunica com a console dos provedores através da API Rest, assim toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório que o usuário clique com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da plataforma.
 
 * **Coluna Acionável**: Esta coluna apresenta uma forma alternativa de interagir com várias máquinas virtuais com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha ou várias, a Plataforma do uCloud apresenta ícone(s) acima desta coluna, eles representam ações ao usuário que podem ser executadas de uma única vez, para todas as linhas selecionadas. A seguir, são apresentados os seis ícones, suas ações são distintas:
-* 
+
   * **Ícone de Iniciar** (|icone_vm_start|): Este ícone permite ao usuário iniciar (Start – Boot) toda(s) máquina(s) virtual(is) que estiver com o status de “Stopped”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Stopped”.
   * **Ícone de Parar** (|icone_vm_stop|): Este ícone permite ao usuário parar (Stop – Shutdown) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”. Este ícone ficará inativo se alguma máquina virtual selecionada permanecer com um status diferente de “Running”.
   * **Ícone de Reiniciar** (|icone_vm_reboot|): Este ícone permite ao usuário reiniciar (Restart – Reboot) toda(s) máquina(s) virtual(is) que estiver com o status de “Running”.
@@ -1885,7 +1886,7 @@ As colunas da tela listada anteriormente, está descrita abaixo:
     * **Unrecognized**: Este status pode ser apresentado, pois se refere a um estado, temporário, onde momentaneamente não foi possível distinguir se a máquina está parada ou ‘rodando’ (falha de comunicação entre a Plataforma do uCloud e o console do provedor de serviço de nuvem pública).
     * **Deallocated**: Este status é particular da nuvem Azure e se refere a uma máquina virtual que se encontra parada, não está sendo cobrada, este estado faz a liberação de alguns recursos e seu tempo para inicialização (boot) será maior. Para maiores detalhes, consultar material de documentação do Azure.
     * **Orphan**: Este status somente será apresentado quando uma máquina não é encontrada no provedor de serviço de nuvem ou no ambiente de virtualização do datacenter privado (hypervisor).
-  
+
   * **TAGs (Etiquetas)**: Esta coluna apresenta as TAGs (etiquetas) que foram provisionadas diretamente através da console do provedor de serviço de nuvem pública, quanto através da Plataforma do uCloud (Menu Inventário de Recursos).
 
 Gerenciando uma Máquina Virtual
@@ -1949,7 +1950,7 @@ A Plataforma do uCloud apresenta alguns ícones de botões, logo acima das seç�
 .. comentario incluir tela de SSH do uCloud
 
 .. attention:: |atencao| Importante ressaltar que a porta informada deve estar aberta para a rede pública Internet na configuração de Grupo de Segurança (Security Group) vinculada a esta máquina virtual. Caso o Grupo de Segurança vinculado a esta máquina não esteja configurado com a referida porta do protocolo, a Plataforma do uCloud não será capaz de iniciar uma sessão de console.
- 
+
 .. note:: |nota| Importante ressaltar que cada sistema operacional somente permite iniciar sessões do console através de um protocolo específico, consulte a documentação técnica do sistema operacional em questão para selecionar o protocolo correto.
 
 .. important:: |importante| **ATENÇÃO**: caso o usuário selecione a opção VNC (Virtual Network Computing) é importante mencionar que esta modalidade necessita de um software adicional que funciona em um modelo cliente / servidor. Caso este componente server não esteja instalado, ou seu serviço não estiver ativo, na máquina virtual desejada, a Plataforma do uCloud não será capaz de iniciar uma sessão de console através desta opção.
@@ -1968,7 +1969,7 @@ A seguir descrição de cada seção (*card*) de forma individual:
 Seção Geral - VMs
 ~~~~~~~~~~~~~~~~~
 
-Esta seção permite visualizar as informações fundamentais e básicas da máquina virtual. 
+Esta seção permite visualizar as informações fundamentais e básicas da máquina virtual.
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_025.png
    :alt: altera Usuario
@@ -2004,13 +2005,13 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
   * Uma chave privada que permanece (apenas) com o usuário. A posse dessa chave é a prova da identidade do usuário. Apenas um usuário de posse de uma chave privada que corresponda à chave pública no servidor será capaz de se autenticar com sucesso. As chaves privadas precisam ser armazenadas e manuseadas com cuidado, nenhuma cópia da chave privada deve ser distribuída. As chaves privadas usadas para autenticação do usuário são chamadas de chaves de identidade.
 
 * **Grupo de Segurança**: Neste campo será apresentado o nome do Grupo de Segurança (Security Group) vinculado à máquina virtual, que controla as portas TCP-IP as quais podem ser utilizadas para acesso a esta máquina virtual. Um grupo de segurança atua como firewall virtual para as máquinas virtuais. O usuário pode criar diversos grupos de segurança e personalizar cada um com as regras que permitem tráfego de entrada ou de saída nas instâncias associadas.
-  
+
   * **Botão de Alteração de Grupo de Segurança** |icone_edita_on|: Este botão permite ao usuário alterar a vinculação da máquina virtual ao Grupo de Segurança que está sendo apresentado na interface. Durante o provisionamento da máquina virtual, o usuário selecionou um Grupo de Segurança para controlar as portas TCP-IP desta máquina virtual. Para alterar o Grupo de Segurança que está vinculado a esta máquina virtual, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud alterna para o modo de edição do conteúdo deste campo. Neste momento, a Plataforma do uCloud apresenta uma lista “drop-box” com uma lista de todos os Grupos de Segurança que este usuário tem autorização de ver. Basta o usuário clicar com o botão do mouse sobre o Grupo de Segurança desejado.
 
   * **Ícone de Confirmação** |icone_conf_verde|: Após selecionar o Grupo de Segurança desejado, será  permitido confirmar a intenção de alterar o conteúdo no campo desejado, em seguida, a Plataforma do uCloud apresenta um ícone de confirmação. Após finalizar a alteração do conteúdo do campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Concluída esta ação, a informação do campo é alterada permanentemente nas bases de dados da Plataforma do uCloud e na configuração da máquina virtual no ambiente do provedor de serviço de nuvem pública.
 
   * **Ícone de Cancelamento** |icone_cancela_vermelho|: Para o caso do usuário clicar sobre o ícone de edição por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
- 
+
 * **Flavor**: Este campo apresenta o nome do flavor selecionado como a definição do tipo de hardware da máquina virtual. Um flavor define o tamanho dos recursos de computação (número de CPUs virtuais, memória e capacidade de armazenamento) que podem ser atribuídos automaticamente a instâncias da máquina virtual, em uma configuração de nuvem. Cada provedor de serviço de nuvem possui uma denominação específica para o ambiente do provedor. Importante mencionar que a configuração dos recursos (CPU, memória e disco) podem ser similares em diferentes provedores, mas sua nomenclatura é particular.
 
 * **Template**: Este campo apresenta o sistema operacional (template) selecionado no momento do provisionamento da máquina virtual.
@@ -2018,7 +2019,7 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
 * **Virtual Datacenter**: Este campo apresenta o nome do Virtual Datacenter (VDC) ao qual esta máquina virtual está vinculada. Veja no item Virtual Datacenters: da página 184 a 195, para entender o conceito e saber como provisionar um Virtual Datacenter.
 
   * **Botão para Mover para outro Virtual Datacenter** |icone_edita_vdc|: Este botão permite ao usuário alterar a vinculação da máquina virtual ao Virtual Datacenter que está sendo apresentado na interface. Durante o provisionamento da máquina virtual, a Plataforma do uCloud, vincula esta máquina virtual ao Virtual Datacenter que o usuário selecionou. Para mover a máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud alterna para o modo de edição do conteúdo deste campo. Para mover esta máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma do uCloud habilita editar o conteúdo do campo. Assim o usuário pode digitar uma parte da sequência de caracteres do novo Virtual Datacenter, para que a Plataforma do uCloud apresenta uma lista que combina com a sequência de caracteres desejada:
-  
+
 .. image:: /figuras/ucloud_botao_edita_vdc.png
    :alt: altera Usuario
    :align: center
@@ -2042,11 +2043,11 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
     * **Ícone de Cancelamento** |icone_cancela_vermelho|: Para o caso do usuário clicar sobre o ícone de edição por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de qualquer preenchimento ou alteração.
 
 * **Proteção Exclusão Acidental**: Este ícone indica se esta máquina virtual está com o parâmetro de exclusão acidental configurado, como: Desabilitado (vermelho) ou Habilitado (verde).
-  
+
   * **Ícone Disable** |icone_desb_verm|: Este ícone indica que a proteção acidental está desabilitada. Isto significa que esta máquina pode ser excluída (apagada) sem restrição, apenas com a confirmação desta ação por parte do usuário que a está removendo (excluindo).
 
   * **Ícone Enable** |icone_habil_verde|: Este ícone indica que a proteção acidental está habilitada. Isto significa que esta máquina não pode ser excluída (apagada). Para efetuar a remoção desta máquina virtual, é necessário que o usuário que provisionou a máquina virtual e a habilitou neste parâmetro, realize a alteração do parâmetro para: Desabilitado. Posteriormente, deve efetuar o procedimento de exclusão da máquina virtual, ao clicar no botão, que deve estar ativo.
-  
+
 * **Template Privado (opcional/variável)**: Este ícone |icone_private_net| permite ao usuário criar um tipo de hardware (“flavor”) personalizado. Este novo “flavor” pode ter um nome personalizado (diferente do nome no provedor de serviço de nuvem). Sua configuração é baseada nas configurações do hardware configurado na máquina virtual. Este recurso pode ser útil para personalizar opções de “flavors” específicos para o cenário da empresa.
 
 * **Identificador de Provedor**: Este campo apresenta a identificação da máquina virtual como nomenclatura baseada em recursos (RBN - Resource-based Naming) que é gerada automaticamente pelo próprio provedor de serviço de nuvem pública. A Plataforma do uCloud, não possui mecanismos para criar, ou alterar, o conteúdo desta informação. Consulte a documentação técnica online de cada provedor para mais informações.
@@ -2074,7 +2075,7 @@ Seção Metrics (exclusivo **AWS**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção é apresentada, somente, para as máquinas virtuais que são criadas no ambiente da Amazon Web Services (AWS), pois somente este provedor informa estas estatísticas de forma aberta e gratuita.
-  
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_027.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2095,7 +2096,7 @@ Seção Interfaces de Rede
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta as informações da interface de rede (interface Ethernet) vinculada a esta máquina virtual. Caso seja necessário, através desta seção é possível remover a interface de rede ou adicionar uma nova interface de rede Ethernet para esta máquina virtual.
-  
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_027.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2131,7 +2132,7 @@ Esta seção apresenta as informações da interface de rede (interface Ethernet
 Seção Disco
 ~~~~~~~~~~~
 
-Esta seção apresenta a lista de todos os recursos do disco de armazenamento vinculados a esta máquina virtual. 
+Esta seção apresenta a lista de todos os recursos do disco de armazenamento vinculados a esta máquina virtual.
 
 **Exemplo em Ambiente Azure**
 
@@ -2230,7 +2231,7 @@ Um snapshot é uma cópia de segurança incremental de todo o disco de armazenam
 
 Para obter outras informações, basta consultar a documentação com os detalhes e as características de snapshots de cada provedor de serviço de nuvem, para entender o que cada provedor de serviço de nuvem oferece.
 Ao excluir um snapshot, somente os dados exclusivos desse snapshot serão removidos.
-  
+
 
 
 * **Botão Adicionar** |botao_adiciona_verde|: Caso seja necessário adicionar um novo recurso de snapshot de um disco de armazenamento, basta o usuário clicar sobre o botão Adicionar, a Plataforma do uCloud pode apresentar campos para que o usuário possa informar o nome e assinalar qual o disco selecionado é indicado para provisionar o snapshot:
@@ -2249,11 +2250,11 @@ Ao excluir um snapshot, somente os dados exclusivos desse snapshot serão removi
 Após o ambiente Azure finalizar o processo de criar o arquivo de imagem, a Plataforma do uCloud apresenta outra tela que permite o download do arquivo da imagem do disco (snapshot).
 
 Este processo de download está vinculado à sessão do navegador de Internet (browser) e é armazenado no folder padrão, configurado nas preferências do navegador de Internet. Importante ressaltar que, se a sessão do navegador de Internet for encerrada, este processo de download do arquivo é interrompido. O usuário pode acompanhar o tempo para encerrar o processo do arquivo específico através das ferramentas de download do seu navegador de Internet de preferência (segue abaixo, um exemplo do navegador de Internet Ópera).
-  
+
 Após finalizar a transferência do arquivo da imagem de disco de armazenamento (snapshot), o usuário deve seguir as etapas descritas, conforme documentado no site do ambiente Azure - em seguida, aplicar a imagem à máquina virtual desejada.
 
 * Ícone Lata de Lixo (“  ”): Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a imagem de disco de armazenamento do ambiente do provedor de serviço de nuvem. Importante mencionar que a imagem de disco (snapshot) ocupa espaço de armazenamento dentro do ambiente do provedor de serviço de nuvem. A Plataforma do uCloud apresenta a tela abaixo, com a mensagem de confirmação da operação ao usuário:
-  
+
 .. warning:: |atencao| A ação de remoção da imagem de disco de armazenamento (snapshot) é definitiva e irreversível, pois não existem outras cópias desta imagem específica. Recomendamos ao usuário atenção redobrada ao confirmar esta ação.
 
 ----
@@ -2300,7 +2301,7 @@ Esta seção permite ao usuário gerar um gráfico de performance da máquina vi
 ----
 
 * Data Inicial: O período específico pode ser definido pelo usuário, basta informar a data inicial que se deseja avaliar a performance da máquina virtual, o usuário deve clicar sobre o ícone do calendário |icone_agenda| e selecionar a data inicial do período;
-  
+
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
    :alt: Performance Instantânea de VM
    :align: center
@@ -2359,7 +2360,7 @@ Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do prov
 
 O exemplo da tela acima, reforça a posição de que a Plataforma do uCloud é um verdadeiro ambiente multi-cloud, pois são apresentados três provedores diferentes. Neste exemplo, a empresa usuária da Plataforma do uCloud possui relação comercial com cada provedor individualmente. Foram provisionados acessos com cada ambiente e neste ponto o usuário pode selecionar o ambiente destino no qual deseja provisionar uma máquina virtual.
 Importante ressaltar que apenas são apresentados os ícones dos provedores que a empresa usuária fornece acesso para seu(s) provedor(es) do serviço de nuvem, desta forma, se a empresa usuária fornecer apenas um único provedor, pode existir apenas um único ícone nesta etapa do wizard, conforme o exemplo abaixo:
-  
+
 .. image:: /figuras/ucloud_criar_maquina_virtual_003.png
    :alt: Wizard para criar Maquina Virtual
    :align: center
@@ -2384,7 +2385,7 @@ Wizard Etapa 2 (informações básicas da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa são solicitados alguns parâmetros básicos para o correto provisionamento da máquina virtual no provedor de serviço de nuvem:
-  
+
 .. image:: /figuras/ucloud_criar_maquina_virtual_005.png
    :alt: Wizard para criar Maquina Virtual
    :align: center
@@ -2430,7 +2431,7 @@ Esta seção é a continuação da etapa anterior em que são solicitados alguns
 ----
 
   * **Selecione**: Este ícone é obrigatório, ao ser selecionado, transforma o campo abaixo em um campo do tipo “dropdown”. Permite ao usuário clicar com o cursor do mouse e recuperar, na Plataforma do uCloud, uma lista de todos os Conjuntos de Disponibilidade configurados no provedor de serviço de nuvem. O usuário pode selecionar o Conjunto de Disponibilidade desejado.
-  
+
   * **Criar**: Este ícone é obrigatório quando selecionado transforma o campo abaixo em um campo do tipo “texto livre”. Esta opção é válida quando o usuário deseja criar um Grupo de Disponibilidade novo no ambiente Azure. O usuário deve informar o novo nome, clicar com o cursor do mouse no campo abaixo ou pressionar a tecla TAB, assim pode seguir ao próximo campo.
 
 * **Templates**: Este campo é obrigatório do tipo “dropdown” ao ser clicado pelo usuário, a Plataforma do uCloud lista todos os Templates do provedor de serviço de nuvem, previamente escolhidos no Virtual Datacenter, operação detalhada no Wizard Etapa 2.
@@ -2471,7 +2472,7 @@ Nesta etapa o usuário deve informar os parâmetros de segurança para o correto
 ----
 
 * Par de Chaves: Este campo é obrigatório do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista as duas opções disponíveis:
-  
+
   * Opção 1: Escolher Chave Existente: Quando escolhida esta opção, significa que o usuário pode selecionar algum par de chave, previamente configurado na Plataforma do uCloud. Ver o item Rede / Par de Chave, para acompanhar o processo “Provisionar um novo par de chave”.
     * Selecionar Par de Chaves: Este campo é obrigatório e do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista apenas as chaves que este usuário possui (ou chaves que foram criadas por um usuário com o perfil de acesso superior – no exemplo acima o usuário é ‘root’) e que estão vinculadas ao ambiente do provedor de serviço de nuvem. Para vincular esta chave à máquina virtual que será provisionada, basta o usuário clicar com o mouse em alguma das chaves existentes,
 
@@ -2594,7 +2595,7 @@ Wizard Etapa 6 (visualizar as configurações da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta é a etapa final, momento que a Plataforma do uCloud apresenta o resumo de todas as informações referentes aos parâmetros e configurações para o provisionamento da máquina virtual no provedor de serviço de nuvem:
-  
+
 .. image:: /figuras/ucloud_criar_maquina_virtual_015.png
    :alt: Wizard para criar Maquina Virtual
    :align: center
@@ -2720,7 +2721,7 @@ Problemas Conhecidos com Grupo de Escalabilidade AWS
 Importante ressaltar: Considerar que o gerenciamento das condições de ocupação de CPU e memória - para o aumento ou diminuição da quantidade de máquinas virtuais, é gerenciado unicamente pela AWS - os problemas podem estar nos critérios conflitantes para a criação ou no monitoramento.
 
 * **Erros na criação**:
-  
+
   * Informações inseridas incorretamente no formulário (como números negativos, por exemplo);
   * Instância de lançamento desligada durante a criação;
   * Recursos (balanceador, por exemplo) existentes no uCloud, mas inexistentes na AWS por terem sido deletados diretamente no console AWS;
@@ -2896,7 +2897,7 @@ A Plataforma do uCloud apresenta a tela abaixo ao usuário, a seleção do prove
 ----
 
 Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem **AWS** apresentado nesta tela.
-  
+
 Etapa 2 Seleção do Banco de Dados (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Esta tela permite ao usuário selecionar qual o mecanismo (“*engine*”) de gerenciamento de bancos de dados. A seguir é apresentada uma tela capturada do ambiente da **AWS**, apenas como um exemplo didático.
@@ -3286,7 +3287,7 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 
 * **Período de Retenção do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com números que representam o número de dias que a cópia de segurança (backup) permanecerá armazenada no ambiente do provedor de serviço de nuvem. Um número maior ou igual a um (01) indica que o usuário tem interesse em manter uma cópia de segurança (backup) ativo. Caso o usuário selecione “zero” (0) isto configura que o usuário não manterá nenhuma cópia de segurança (backup) do banco de dados no ambiente.
 * **Janela do Backup**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta as duas opções disponíveis:
-  
+
   * **Sem Preferência**: Esta opção indica que o usuário não deseja programar a cópia de backup em uma janela de tempo específica. Desta forma, a rotina de backup será efetuada na data agendada.
   * **Selecionar Janela**: Esta opção permite ao usuário determinar o horário da programação da cópia de segurança. Esta definição de data e hora, utiliza o agendamento em Tempo Universal Coordenado (UTC – Coordinated Universal Time). Quando selecionada esta opção, a Plataforma do uCloud apresenta campos para o usuário definir o horário de início da rotina de backup e o tempo máximo para que este backup seja efetuado.
 
@@ -3537,22 +3538,21 @@ O usuário deve repetir estes procedimentos para cada uma das seções abaixo, a
 
 Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de recursos computacionais reflete de forma imediata na Plataforma do uCloud. Caso um usuário não seja capaz de visualizar um recurso computacional de nuvem (por exemplo: um template ou um flavor), ao proceder a adição do recurso computacional, este recurso será imediatamente visualizado por todos os outros usuários.
 
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UaIvrDWrIWM" frameborder="0" allowfullscreen></iframe>
 
 
 Menu Financeiro
 ===============
 
-----
-
 Empresas Privadas
 -----------------
 
-----
 
 Empresas Públicas (USN)
 -----------------------
 
-----
 
 Menu Financeiro (Ambiente Corporativo)
 ======================================
@@ -3561,33 +3561,27 @@ Menu Financeiro (Ambiente Corporativo)
 Seção Minha Fatura
 ------------------
 
-----
 
 Seção X Contratos
 -------------------
 
-----
 
 Fatura do Grupo no Contrato
 ---------------------------
 
-----
 
 Faturamento do Usuário
 ----------------------
 
-----
 
 Menu Financeiro (USN)
 ---------------------
 
-----
 
 Ambiente Governo Brasileiro
 ---------------------------
 
 
-----
 
 Menu Financeiro / USN Billing
 =============================
@@ -3596,8 +3590,6 @@ Menu Financeiro / Relatório Consolidado de Faturamento
 ------------------------------------------------------
 
 
-----
-
 Menu Ordem de Serviço
 =====================
 
@@ -3605,29 +3597,23 @@ Menu Ordem de Serviço
 Gerenciando a Ordem de Serviço
 ------------------------------
 
-----
 
 Seção Geral - Ordem de Serviço
 ------------------------------
 
 
-----
-
 Seção Estimativa de Custo (USN)
 -------------------------------
 
-----
 
 Configuração de Estimativa de Custo (UST)
 -----------------------------------------
 
-----
 
 De Acordo
 ---------
 
 
-----
 
 Menu Containers
 ===============
