@@ -245,6 +245,96 @@ A opção Administração apresenta campos que variam de acordo com o perfil do 
   |atencao| *O Perfil Administrador não será coberto neste documento. Entre em contato com seu ponto focal na Ustore para obter o documento específico: Manual do Administrador da Plataforma uCloud.
   Por segurança, melhores práticas e por padrão, existe apenas um (01) usuário provisionado com este tipo de perfil*.
 	
+Switch Roles
+------------
+
+Quando um usuário de infraestrutura multi-nuvem precisa alternar entre diversos consoles de provedores de nuvem, o processo de login com diversas credenciais em diversos consoles gera um gasto de tempo e pode incorrer em erros de digitação de logins e senhas.
+A plataforma do uCloud por ser um ambiente multi-nuvem permite que o usuário possa interagir com os recursos computacionais existentes em diversos provedores de nuvem diferentes de forma simultânea.
+Ao iniciar uma sessão na Plataforma uCloud (login) o usuário obtém um conjunto específico de permissões para executar ações que pertencem ao contrato ao qual o usuário está vinculado. O(s) usuário(s) pertencem a um Grupo, e os Grupos pertencem a um contrato. Portanto, as credenciais de acesso do usuário estão vinculadas a um, ou mais, contratos, Este contrato pode estar provisionado para ter acesso a um (ou mais) credenciais de acesso aos ambientes dos provedores de nuvem pública e/ou privada.
+Veja a figura abaixo, que demonstra a vinculação do usuário a um, ou mais, contratos:
+
+.. figure:: /figuras/ucloud_arquitetura_conceitual001.png
+   :align: center
+
+----
+
+O primeiro aspecto da figura acima é que podemos verificar que este cliente possui dois contratos diferentes. O **Contrato A** está associado a somente um provedor de nuvem pública (ex: **AWS**) e o **Contrato B** está associado a dois provedores de nuvem pública diferentes (ex: **AWS** e **Azure**).
+
+Switch Roles - Cenário Exemplo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Na figura acima podemos visualizar que os usuários Mariah, João e Carlos pertencem a somente um único contrato e este contrato possui somente um único provedor (ex: AWS).
+O usuário **Josué** está associado a dois contratos diferentes e para evitar que este usuário tenha de alternar entre sessões de registro diferentes (encerrar uma sessão e iniciar outra com outra credencial), a Ustore desenvolveu e implementou a funcionalidade de **Switch Roles**.
+Desta forma **apenas** o usuário Josué, através da funcionalidade de Switch Roles pode alternar entre os contratos aos quais ele está vinculado, simplesmente alternando entre os contratos aos quais ele está vinculado.
+O usuário Josué é responsável pela total gestão da infraestrutura do ambiente Azure, porém, no ambiente da AWS, ele pode somente visualizar os recursos computacionais, pois não possui a permissão de operar estes recursos computacionais (ex: Read Only).
+Através da funcionalidade Switch Roles será possível aplicar esta mudança de papel sem a necessidade de troca do usuário, isso será feito com um através da seleção de contrato e/ou container que este usuário deseja acessar.
+Ainda para ilustrar este exemplo, com a nova implementação de Perfil de Permissionamento, seria possível criar diferentes conjuntos de permissões e vincular cada conjunto (Perfil de Permissionamento) a cada usuário e provisionar um nível de granularidade bem específico.
+
+Cenário exemplo (AWS):
+~~~~~~~~~~~~~~~~~~~~~~
+
++-------------------------------+-----------+--------------------+------------+
+| Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão  |
++===============================+===========+====================+============+
+| AWS DevOps Full               | Maria     | DevOps             | Full       |
++-------------------------------+-----------+--------------------+------------+
+|| AWS DevOps *Read Only*       || João     || DevOps            || Read Only |
+|| AWS Homolog Full             ||          || Homolog           || Full      |
++-------------------------------+-----------+--------------------+------------+
+| AWS Homolog Full              | Carlos    |  Homolog           | Full       |
++-------------------------------+-----------+--------------------+------------+
+| AWS Infra Full                | Josué     | Infra              | Full       |
++-------------------------------+-----------+--------------------+------------+
+
+Atualmente é possível provisionar quatro (04) Perfis de Permissionamento diferentes e vincular cada perfil a um usuário específico. No exemplo da tabela acima, é possível visualizar que o usuário João possui dois conjuntos de permissões diferentes que são específicas para cada conjunto de infraestruturas virtuais (Virtual Datacenter - VDC) que este usuário pode acessar. Vemos que o usuário João tem acesso irrestrito ao VDC Homolog, e somente visualização ao VDC DevOps.
+Vejamos o exemplo do usuário Josué que possui características diferentes para cada contrato.
+
+Cenário Exemplo (AZURE e AWS):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-------------------------------+-----------+--------------------+-------------+
+| Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão   |
++===============================+===========+====================+=============+
+|| Azure Infra RO               || Josué    || Infra Azure       || Read Only  |
+|| AWS Infra Full               ||          || Infra AWS         || Full       |
++-------------------------------+-----------+--------------------+-------------+
+
+Este é um exemplo da simplicidade e da transparência que advém da ampliação e alteração do novo Perfil de Permissionamento, que permite vincular conjuntos de permissões diferentes ao mesmo usuário, que estão vinculados a contratos diferentes. Podemos verificar que o usuário *Josué* possui acesso irrestrito (*full*) para a infraestrutura do VDC Infra AWS (Contrato AWS) e acesso apenas leitura (*read only*) para o VDC Infra AZURE (Contrato Azure).
+
+Anteriormente o usuário teria de ter duas credenciais diferentes (ex: `josue.aws/senhaABC` e `josue.azure/senha123`) e efetuar diversas sessões de login diferentes na Plataforma uCloud.
+
+Com a combinação do novo Perfil de Permissionamento em conjunto da funcionalidade Switch Roles será possível aplicar esta mudança de tipos de permissões sem a necessidade de troca do usuário, isso será feito com um através da seleção de contrato e/ou container que este usuário deseja acessar.
+
+Switch Roles - Utilizando
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A funcionalidade de Switch Roles fica posicionada no canto superior direito da área de tela da Plataforma do uCloud (ao lado do nome do usuário) - veja a tela abaixo:
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles001.png
+   :align: center
+
+----
+
+Basta o usuário clicar com o cursor do mouse sobre o nome do contrato e a Plataforma do uCloud apresenta uma janela pop-up que apresenta ao usuário a lista de contratos aos quais este está vinculado para que ele selecione o contrato desejado.
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles002.png
+   :scale: 60 %
+   :align: center
+
+----
+
+Ao selecionar o contrato desejado a Plataforma do uCloud irá atualizar a informação apresentada no canto superior direito da sessão do usuário.
+Importante ressaltar que essa janela pop-up lista somente os contratos aos quais o usuário está vinculado. Caso existam outros contratos provisionados na Plataforma uCloud, o usuário não terá acesso a nenhum destes outros contratos.
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles003.png
+   :align: center
+
+----
+
+A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu nível de acesso bem como obter acesso a diferentes contratos com diferentes regras de permissões para cada contrato sem ter de encerrar a sua sessão na Plataforma uCloud.
+Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
+A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico Perfil de Permissionamento, neste documento.
+
 Menu Administração / Usuários
 -----------------------------
 
@@ -3385,8 +3475,67 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção de 
 Criando um Virtual Datacenter
 -----------------------------
 
+Acessar o menu Virtual Datacenters, basta o usuário clicar sobre o botão “Criar Virtual Datacenter”, conforme a figura abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
 ----
 
+O processo inicia quando a Plataforma do uCloud apresenta a primeira tela “Criar Virtual Datacenter”:
+
+.. image:: /figuras/ucloud_virtualdatacenter008a.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Container**: Este campo é obrigatório do tipo “dropdown”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta uma lista com todos os provedores de serviço de nuvem configurados no ambiente da Plataforma do uCloud, neste momento, basta o usuário selecionar o provedor desejado. *Importante ressaltar que o termo ‘container’ significa nome do provedor de serviço computacional de nuvem (público e/ou privado) previamente configurado no ambiente do uCloud. Esta seleção determina como a Plataforma do uCloud apresenta as próximas telas*.
+
+  Assim que o usuário selecionar o provedor de serviço de nuvem (container) a Plataforma do uCloud apresenta a tela abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter008b.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres, no máximo 15 caracteres) com o qual deseja identificar este Virtual Datacenter. Sugestão: utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (*ASCII Extendido)*.
+
+* **Ícone para Ampliar a Seleção** |icone_amplia_vdc|: Para que a Plataforma do uCloud possa apresentar a lista de recursos computacionais respectivos de cada seção, o usuário deve clicar com o cursor do mouse sobre o ícone de cada seção desejada.
+  Quando o usuário amplia a seção desejada, os procedimentos para incluir (ou excluir) são os mesmos para qualquer uma das seções abaixo, portanto os esclarecimentos a seguir usam como exemplo a seção de Regiões, os processos são idênticos.
+
+* **Coluna Acionável**: Cada linha está representada por um caixa selecionável (tipo “check box”). Quando o usuário seleciona uma linha, ou várias, a Plataforma do uCloud apresenta o ícone com status marcado, e um número ao lado do nome da seção com a quantidade selecionada de linhas referente a seção. Veja o exemplo abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter006.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * Se o usuário deseja selecionar todas as linhas da seção de uma única vez, este deve clicar com o cursor do mouse no ícone acionável que fica localizado na linha do cabeçalho da seção. Desta forma, a Plataforma do uCloud preenche todos os ícones de forma imediata e atualiza o número de linhas selecionadas no título da seção, de acordo com a quantidade de opções da seção. Veja o exemplo abaixo:
+
+.. image:: /figuras/ucloud_virtualdatacenter007.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+O usuário deve repetir estes procedimentos para cada uma das seções abaixo, até que a relação de recursos computacionais de nuvem de cada seção abaixo, fique na quantidade e características ideais para o seu uso na Plataforma do uCloud.
+
+* **Regiões**: Esta seção apresenta todas as Regiões globais disponíveis no provedor de serviço de nuvem, após a seleção somente as regiões previamente definidas permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+* **Templates**: Esta seção apresenta todos os Templates disponíveis no provedor de serviço de nuvem, após a seleção somente os templates previamente definidos permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+* **Redes**: Esta seção apresenta todas as Redes existentes, bem como as que foram provisionadas, no provedor de serviço de nuvem. Após a seleção somente as Redes previamente definidas permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+* **Storage**: Esta seção apresenta todos os tipos de Storages disponíveis no provedor de serviço de nuvem, após a seleção somente os storages previamente definidos permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+* **Flavors**: Esta seção apresenta todos os Flavors disponíveis no provedor de serviço de nuvem, após a seleção somente os flavors previamente definidos permanecem disponíveis aos usuários, quando estes selecionarem o VDC.
+
+Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de recursos computacionais reflete de forma imediata na Plataforma do uCloud. Caso um usuário não seja capaz de visualizar um recurso computacional de nuvem (por exemplo: um template ou um flavor), ao proceder a adição do recurso computacional, este recurso será imediatamente visualizado por todos os outros usuários.
 
 Menu Financeiro
 ===============
