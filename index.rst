@@ -4,7 +4,6 @@
    :align: center
 =======
 
-.
 
 Bem vindo ao site de documentação da Ustore Brasil
 ==================================================
