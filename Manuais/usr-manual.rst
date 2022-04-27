@@ -3540,8 +3540,7 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=_uBTkmLgNJg" frameborder="0" allowfullscreen></iframe>
-
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_uBTkmLgNJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Menu Financeiro
 ===============
