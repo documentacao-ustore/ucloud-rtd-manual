@@ -3851,22 +3851,291 @@ B. **Túnel VPN**: um link criptografado em que os dados podem transmitir da red
 C. **Customer Gateway**: um recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente.
 D. **Virtual Private Gateway**: é um dispositivo físico ou uma aplicação de software, situada no ambiente do cliente que será o ponto de conexão do Site-to-Site VPN.
 
+.. image:: /figuras/ucloud_menu_vpn001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Quando o usuário acessar o menu VPN, a Plataforma do uCloud apresentará todas as VPNs (e os seus componentes) vinculados ao contrato ao qual o usuário registrado está vinculado. Esta lista inclui todas as VPNs provisionadas por todos os usuários do mesmo contrato.
+O menu VPN contém todas as VPNs criadas por um usuário em um ambiente de nuvem pública ou on-premisses.
 
 Quando o usuário acessar o menu VPN, a Plataforma do uCloud apresentará todas as VPNs (e os seus componentes) vinculados ao contrato ao qual o usuário registrado está vinculado. Esta lista inclui todas as VPNs provisionadas por todos os usuários do mesmo contrato.
 
 O menu VPN contém todas as VPNs criadas por um usuário em um ambiente de nuvem pública ou on-premisses.
 
+.. image:: /figuras/ucloud_menu_vpn002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+.. note:: Os Endereços TCP-IP apresentados na tela acima são ilustrativos.
+
+Esta tela possui uma seção para cada configuração, segue detalhamento das informações apresentadas nas colunas de cada seção:
+
+* **Seção Customer Gateway**:
+
+  * **Container**: Esta coluna apresenta o nome do Container no qual o Customer Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
+  * **Região**: Esta coluna apresenta o nome da Região Global, a qual o Customer Gateway está vinculado, selecionada pelo usuário logado, no momento do provisionamento.
+  * **Nome**: Esta coluna apresenta o nome informado pelo usuário durante o provisionamento do Customer Gateway.
+  * **Endereço IP**: Esta coluna apresenta o CIDR do Endereço TCP-IP, informado pelo usuário durante o provisionamento do Customer Gateway.
+  * **BGP ASN**: Esta coluna apresenta a informação do Border Gateway Protocol (BGP) e do Autonomous System Number (ASN) ele é disponibilizado apenas quando um Customer Gateway elege o roteamento dinâmico. Quando selecionado o roteamento estático, esta coluna pode apresentar o CIDR do Endereço TCP-IP.
+  * **Criado Por**: Esta coluna apresenta o nome do usuário que estava com a sessão ativa na Plataforma do uCloud no momento da criação, foi o responsável pelo provisionamento do Customer Gateway.
+  * **Ações**: Esta coluna apresenta apenas um ícone de ação, ela permite ao usuário remover o Customer Gateway. O usuário deve clicar com o cursor do mouse sobre o Ícone Lata de Lixo e a Plataforma do uCloud apresenta uma tela ‘pop up’ , a qual solicita ao usuário confirmar a exclusão da configuração de Customer Gateway :
+
+* **Seção Virtual Private Gateway**:
+
+  * **Container**: Esta coluna apresenta o nome do Container no qual o Virtual Private Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
+  * **Região**: Esta coluna apresenta o nome da Região Global, a qual o Virtual Private Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
+  * **Nome**: Esta coluna apresenta o nome informado pelo usuário durante o provisionamento do Virtual Private Gateway.
+  * **Rede**: Esta coluna apresenta a identificação da Rede (e o CIDR do Endereço TCP-IP) selecionado pelo usuário durante o provisionamento do Virtual Private Gateway. Somente podem ser vinculadas às Redes que foram criadas para a Região apresentada na coluna anterior.
+  * **Criado Por**: Esta coluna apresenta o nome do usuário que estava com a sessão ativa na Plataforma do uCloud no momento da criação, o responsável pelo provisionamento do Virtual Private Gateway.
+  * **Ações**: Esta coluna pode apresentar três ícones de ação, ela permite ao usuário interagir com o Virtual Private Gateway selecionado:
+
+    * **Ícone Conectar a uma Rede** : Quando o usuário necessita vincular o Virtual Private Gateway a uma rede existente na Região, basta clicar com o cursor do mouse sobre este ícone e a Plataforma do uCloud apresenta a tela abaixo, nela o usuário pode selecionar a Rede que deseja vincular ao Virtual Private Gateway.
+
+.. image:: /figuras/ucloud_menu_vpn003.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+    O campo Rede é um campo do tipo *drop down*, basta o usuário clicar com o cursor do mouse sobre o campo para a Plataforma do uCloud apresentar uma lista de todas as redes provisionadas para a Região. Após selecionar a rede desejada o usuário deve clicar com o cursor do mouse sobre o botão “Attach” para vincular o Virtual Private Gateway à rede. Neste momento, a Plataforma do uCloud fecha esta tela e retorna à tela anterior.
+
+    * **Ícone Desconectar VM**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud desconecta a rede do Virtual Private Gateway, de forma definitiva e imediata. Esta ação não exclui (delete) a rede da região do ambiente provedor de serviço de nuvem (pública e/ou privada).
+    * **Ícone Lata de Lixo**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela *pop up* a qual solicita ao usuário confirmar a exclusão da configuração de Customer Gateway, ver a seguir o exemplo:
+
+* **Seção VPN**
+
+  * **Container**: Esta coluna apresenta o nome do Container no qual o Túnel VPN está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
+  * **Região**: Esta coluna apresenta o nome da Região Global, a qual o Túnel VPN está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
+  * **Nome**: Esta coluna apresenta o nome informado pelo usuário durante o provisionamento do Túnel VPN.
+  * **Virtual Private Gateway**: Esta coluna apresenta o nome do Virtual Private Gateway ao qual o Túnel VPN está vinculado.
+  * **Customer Gateway**: Esta coluna apresenta o nome do Customer Gateway ao qual o Túnel VPN está vinculado.
+  * **Static IP Prefixes**: Esta coluna apresenta a identificação CIDR (Endereços TCP-IP) do lado do gateway do cliente (no local) que tem permissão para se comunicar pelos túneis de VPN. O padrão é 0.0.0.0/0 (todo e qualquer endereço de dentro da rede corporativa).
+  * **Criado Por**: Esta coluna apresenta o nome do usuário que estava com a sessão ativa na Plataforma do uCloud no momento da criação, o responsável pelo provisionamento do Túnel VPN.
+  * **Ações**: Esta coluna apresenta dois ícones de ação, ela permite ao usuário interagir com o Túnel VPN selecionado:
+    * **Ícone de Download**: Para que o usuário possa efetuar o download da configuração do Túnel VPN, ele necessita clicar com o cursor do mouse sobre este ícone ‘Download’ para a Plataforma do uCloud apresentar a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_vpn004.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+    Cada campo apresentado nesta tela é do tipo “drop down”, basta o usuário clicar sobre o campo e a Plataforma do uCloud apresenta as opções disponíveis a serem selecionadas pelo usuário.
+    Após selecionar uma das três opções desta tela, basta o usuário clicar no botão “Download” para que a Plataforma do uCloud possa armazenar esse arquivo de configuração no folder ou diretório padrão para download configurado no navegador de Internet (Internet Browser) do usuário. Depois de encontrar o arquivo, o usuário deve seguir os procedimentos especificados pelo fabricante selecionado para iniciar e estabelecer a conexão segura do Túnel VPN da sua rede corporativa local com o ambiente de rede do provedor de serviço de nuvem pública.
+    * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela 'pop up’ com a solicitação de que o usuário confirme a exclusão da configuração do Túnel VPN.
+
+.. important:: As opções disponíveis são extraídas diretamente do ambiente selecionado do provedor de serviço de nuvem pública (Container), a Plataforma do uCloud não limita ou adiciona qualquer uma das opções apresentadas. Cada ambiente de provedor de serviço de nuvem pública possui suporte a determinadas plataformas e suas versões de software de VPN do fornecedor preferido.
+
+
 Criar a VPN em 3 Passos
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+Caro usuário, mais uma vez é enfatizada, fortemente, a ação de buscar informação e conhecimento ao consultar a documentação online do provedor de serviço de nuvem pública específico, para verificar a disponibilidade de fornecedores de tecnologia de VPN, antes de iniciar o provisionamento da conectividade VPN.
+Ao criar uma VPN em nuvem pública o usuário deve seguir a seguinte ordem no processo de provisionar corretamente uma conexão VPN (Túnel VPN), é necessário provisionar cada item isolado e sequencialmente:
+1. Customer Gateway,
+2. Private Gateway
+3. Túnel VPN.
+
+Abaixo segue a descrição de cada etapa do processo:
 
 Criar Customer Gateway
 ~~~~~~~~~~~~~~~~~~~~~~
 
+A primeira atividade do processo de criação é o provisionamento de um Customer Gateway, um recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente. Para isso, o usuário deve seguir os seguintes passos:
+
+* Botão “Criar Customer Gateway”: O usuário deve clicar com o cursor do mouse sobre o botão Customer Gateway e a Plataforma do uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/ucloud_menu_vpn005.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Abaixo a descrição dos campos desta tela:
+
+* **Usuário**: Este campo aparece na tela preenchido (por padrão), apresenta as credenciais do usuário logado, ou seja, com sessão ativa na Plataforma do uCloud. Este usuário é vinculado e identificado como o responsável pelo provisionamento deste Customer Gateway.
+* **Container**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta a relação de todos os Containers aos quais o usuário, com uma sessão ativa, está vinculado.
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome (no mínimo 3 caracteres - no máximo 15 caracteres) com o qual deseja identificar este Customer Gateway. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Região**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todas as Regiões Globais, as quais o usuário, com uma sessão ativa, possui permissão para visualizar ou está vinculado.
+* **Roteamento**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista as duas opções:
+
+  * **Estático**: Quando selecionada esta opção cabe ao usuário informar o Endereço TCP-IP estático, no campo a seguir.
+  * **Dinâmico Requer (BGP)**: Quando selecionada esta opção, o usuário deve informar o Endereço TCP-IP do Border Gateway Protocol (BGP) ASN do seu gateway client. O usuário pode usar um ASN existente atribuído à sua rede. No caso de não ter um, pode usar um ASN privado no intervalo 64512-65534.
+
+* **Endereço IP**: Este campo é obrigatório, o usuário deve informar o Endereço TCP-IP do gateway da VPN: Por representar um CIDR da rede interna do provedor, o usuário deve verificar se existe alguma Rede (Sub-rede) anteriormente provisionada para a região global selecionada no campo anterior.
+* **Agendar**: Este ícone permite ao usuário agendar o provisionamento do Customer Gateway, o valor padrão é Desabilitado (cor vermelha).
+* **Ícone Desabilitado** |icone_habilita_off|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Customer Gateway será imediatamente provisionado no ambiente do provedor de serviço de nuvem pública, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
+* **Ícone Habilitado** |icone_habilita_on|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Customer Gateway, no ambiente do provedor de serviço de nuvem pública. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas, pela empresa usuária da Plataforma do uCloud. Quando o usuário clicar no botão e alterar o ícone para habilitado (cor verde), a Plataforma do uCloud permite inserir a data desejada.
+* **Ícone Calendário** |icone_calendario|: Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar na tela o ‘pop-up’ que permite o usuário selecionar a data desejada, conforme a imagem abaixo:
+
+.. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Customer Gateway. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Customer Gateway, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente do provedor de serviço de nuvem pública, para o completo provisionamento de um Customer Gateway. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Customer Gateway, o recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente.
+
 Criar Private Gateway
 ~~~~~~~~~~~~~~~~~~~~~
 
+Após a criação do Customer Gateway o usuário deve criar o Virtual Private Gateway, o dispositivo físico e/ou uma aplicação de software, situada no ambiente do cliente que será o ponto de conexão do Site-to-Site VPN. O qual deve ser vinculado ao Customer Gateway.
+
+* **Botão “Criar Virtual Private Gateway”**: Para criar o Virtual Private Gateway o usuário deve clicar com o cursor do mouse sobre este botão, como resultado a Plataforma do uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/ucloud_menu_vpn006.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A seguir a descrição detalhada dos campos desta tela:
+
+* **Usuário**: Este campo aparece na tela preenchido (por padrão) com as credenciais do usuário logado, com uma sessão ativa na Plataforma do uCloud. Este usuário é vinculado ao Private Gateway e é identificado como o usuário responsável pelo provisionamento.
+* **Container**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todos os Containers, aos quais o usuário, com uma sessão ativa, está vinculado.
+* **Região**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todas as Regiões Globais, as quais o usuário, com uma sessão ativa, possui permissão para visualizar ou está vinculado.
+* **Nome**: Este campo é obrigatório nele o usuário deve informar o nome (no mínimo 3 caracteres - no máximo 15 caracteres) com o qual deseja identificar este Private Gateway. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Private Gateway. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Private Gateway, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente do provedor de serviço de nuvem pública, para o completo provisionamento de um Private Gateway. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Private Gateway. O dispositivo físico ou uma aplicação de software, situada no ambiente do cliente que será o ponto de conexão do Site-to-Site VPN.
+
 Criar Túnel VPN
 ~~~~~~~~~~~~~~~
+
+Para criar o túnel VPN que é um link criptografado em que os dados podem transmitir da rede do cliente para a rede do provedor de serviço de nuvem pública e vice-versa. E que cada conexão VPN pode incluir dois túneis VPN, os quais podem ser utilizados simultaneamente, para a alta disponibilidade.
+Deste modo, após a criação do Customer Gateway o usuário deve criar o Virtual Private Gateway que será vinculado ao Customer Gateway. O usuário deve clicar no botão Criar VPN e a plataforma do uCloud exibe a tela a seguir:
+
+.. image:: /figuras/ucloud_menu_vpn007.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Abaixo segue a descrição dos campos desta tela:
+
+* **Usuário**: Este campo (por padrão) aparece na tela preenchido com as credenciais do usuário logado que está com uma sessão ativa na Plataforma do uCloud. Este usuário será vinculado ao Túnel VPN para ser identificado como o usuário responsável pelo provisionamento deste.
+* **Container**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todos os Containers, aos quais o usuário, com uma sessão ativa, está vinculado.
+* **Virtual Datacenter (exclusivo para Azure)**: Este campo é do tipo “drop down”, apresentado apenas quando selecionada uma nuvem Azure como provedor de serviço de nuvem pública. Basta o usuário clicar com o cursor do mouse, a Plataforma do uCloud exibe a lista de todos os VDC’s vinculados ao ambiente Azure.
+* **Região**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todas as Regiões Globais, as quais o usuário, com uma sessão ativa, possui permissão para visualizar ou está vinculado.
+* **Nome**: Este campo é obrigatório e o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar este Túnel VPN. Sugerimos utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Virtual Private Gateway**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a lista com todos os Virtual Private Gateway provisionados e vinculados ao Container e Região os quais o usuário, com uma sessão ativa, foi vinculado.
+* **Customer Gateway**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud exibe a lista de todos os Customer Gateway provisionados e vinculados ao Container, Região e Virtual Private Gateway os quais o usuário, com uma sessão ativa, foi vinculado.
+* **Senha**: Este campo é obrigatório, o usuário deve seguir a recomendação de uso de senhas “fortes e de alta complexidade”, conforme a documentação encontrada nos websites online dos provedores de serviço de nuvem pública. Ela deve ser preenchida com a sequência de caracteres da senha do usuário.
+  **Importante ressaltar**: esta sequência deve ser no mínimo de oito (08) caracteres alfanuméricos e no máximo setenta e dois (72) caracteres, ela deve conter caracteres de três das seguintes categorias:
+
+  * Letras maiúsculas e minúsculas (A a Z);
+  * Números de base 10 (de 0 a 9);
+  * Caracteres não alfanuméricos (caracteres especiais): (~! @ # $% ^& * -+ = ' | \ \ () {} \ []:; "' <>,.? /) – Importante ressaltar que símbolos de moeda como o euro ou a libra britânica não são contados como caracteres especiais para essa configuração de política.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Túnel VPN. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Túnel VPN, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente do provedor de serviço de nuvem pública, para o completo provisionamento de um Túnel VPN. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Túnel VPN.
+
+Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um ‘pop up’ para exibir as três opções de sub-menus, neste momento o usuário deve preencher as seguintes informações:
+
+.. image:: /figuras/ucloud_menu_vpn008.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+**Aba: General**
+
+  * **Usuário**: Este campo (por padrão) aparece na tela preenchido com as credenciais do usuário logado, com uma sessão ativa na Plataforma do uCloud. Este usuário é vinculado ao VPN IPSec e identificado como o responsável pelo provisionamento. Ou seja, o usuário é o proprietário do container no qual o Gateway será criado.
+  * **Nome**: Este campo é obrigatório nele o usuário deve informar o nome (no mínimo 3 caracteres - no máximo 15 caracteres) com o qual deseja identificar esta VPN. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido). Ou seja, o nome da VPN a ser criada.
+  * **Container**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação de todos os Containers, aos quais o usuário está vinculado, com uma sessão ativa. Neste container a VPN é criada.
+  * **Virtual Datacenter (exclusivo para Azure)**: Este campo é do tipo “drop down", apresentado apenas quando selecionada uma nuvem Azure como provedor de serviço de nuvem pública. Basta o usuário clicar com o cursor do mouse, a Plataforma do uCloud exibe a lista de todos os VDC’s vinculados ao ambiente Azure no qual a VPN está vinculada. Ou seja, o VDC no qual a VPN é criada.
+  * **Subnet**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a lista de todas as Sub-Redes, as quais o usuário está com uma sessão ativa e a VPN está vinculada. É a Subnet na qual a CPN será criada.
+  * **Redes Remotas**: Este campo é obrigatório, o usuário deve informar o Endereço TCP-IP CIDR das redes que são roteadas pela VPN.
+
+**Aba: Network**
+
+* **IPsec Remote Gateway**: Este campo é obrigatório nele o usuário deve informar o Endereço TCP-IP do Gateway da VPN Remota.
+* **Rede Remota**: Este campo é obrigatório neste o usuário deve informar o Endereço TCP-IP CIDR das redes a serem roteadas pela VPN.
+* **Shared Secret PSK**: Este campo é obrigatório nele o usuário deve informar a Shared Key definida para esta VPN.
+* **Remote IKE ID**: Este campo é obrigatório nele o usuário deve informar ID do IKE (Internet Key Exchange) da rede remota.
+* **Local IKE ID**: Este campo é obrigatório, o usuário deve informar ID do IKE (Internet Key Exchange) da rede local.
+
+**Aba: Proposal**
+
+  Ao clicar neste último submenu, são exibidas fases novas nos sub-menus internos, são elas: (i) o IKE (Phase 1) Proposal e (ii) o IKE (Phase 2) Proposal. A seguir documentadas:
+
+.. image:: /figuras/ucloud_menu_vpn009.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  **Sub-menu interno : IKE (Phase 1) Proposal**
+
+    * **DH Group**: Este campo é obrigatório nele o usuário deve definir o tamanho das chaves podendo ser de 256 bits a 2048 bits com ou sem curvas elípticas.
+    * **Encryption**: Este campo é obrigatório, neste o usuário deve informar os algoritmos de criptografia simétrica podendo ser AES 128 e 256.
+    * **Authentication**: Este campo é obrigatório nele o usuário deve informar o método de autenticação, pode ser SHA1.
+    * **Lifetime (seconds)**: Este campo é obrigatório, neste o usuário deve informar o tempo de vida do IKE (Fase 1) Proposal
+
+  **Sub-menu interno: IKE (Phase 2) Proposal**
+
+    * **Active PFS**: Este campo é obrigatório nele o usuário deve configurar e/ou analisar se habilita a opção de não repetir chaves já negociadas.
+    * **Encryption**: Este campo é obrigatório, o usuário deve informar os algoritmos de criptografia simétrica podendo ser AES 128 e 256.
+    * **Authentication**: Este campo é obrigatório nele o usuário deve informar o método de autenticação, pode ser SHA1.
+    * **Lifetime (seconds)**: Este campo é obrigatório, o usuário deve informar o tempo de vida do IKE (Fase 2) Proposal.
+
+  Ao finalizar ou concluir todas as fases acima descritas e detalhadas, a Plataforma do uCloud acrescenta a recente configuração do Túnel VPN na lista da tela inicial, na seção Túnel VPN, conforme apresenta a tela abaixo:
+
+  O usuário pode perceber que a coluna Ações exibe dois ícones, abaixo detalhados:
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela solicitando ao usuário confirmar a exclusão da configuração da VPN, com a frase: “Tem certeza? A VPN não pode ser recuperada” apresenta duas opções: “Não, cancelar” e “Sim, pode excluir”
+  * **Ícone Download da Configuração**: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma do uCloud apresenta a tela abaixo, nomeada ‘Selecione”. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
+
+.. image:: /figuras/ucloud_menu_vpn010.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  O usuário pode perceber que a coluna Ações exibe dois ícones, abaixo detalhados:
+  
+    * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela solicitando ao usuário confirmar a exclusão da configuração da VPN.
+    * **Ícone Download da Configuração** |icone_download|: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma do uCloud apresenta a tela abaixo, nomeada ‘Selecione”. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
+
+.. image:: /figuras/ucloud_menu_vpn011.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  A seguir a descrição detalhada dos campos da tela acima:
+  * **Vendor**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a listagem com todas as opções de plataformas disponíveis no ambiente do provedor de serviço de nuvem pública. Importante ressaltar: as opções mostradas neste campo são extraídas do ambiente do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas. Apenas a título ilustrativo é demonstrado um resultado específico das opções de fornecedores para um ambiente de Túnel VPN para AWS:
+
+.. image:: /figuras/ucloud_menu_vpn012.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * **Platform**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação com todas as opções de plataformas disponíveis no ambiente do provedor de serviço de nuvem pública, elas são específicas do fornecedor de tecnologia da VPN selecionado no campo Vendor. Importante ressaltar: as opções mostradas neste campo são extraídas do ambiente do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas.
+  * **Software**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação com todas as opções de versões de software, as plataformas disponíveis no ambiente do provedor de serviço de nuvem pública, elas são específicas do fornecedor de tecnologia da VPN selecionado no campo Vendor.
+
+  Importante ressaltar: as opções mostradas neste campo são extraídas do ambiente do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas.
+
+  * **Botão Cancelar**: O usuário pode usar este botão para cancelar o download da configuração do Túnel VPN. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+  * **Botão Download**: Após o usuário informar todos os parâmetros fundamentais basta clicar com o cursor do mouse sobre o botão Download e a Plataforma do uCloud inicia a transferência do arquivo de configuração no folder ou diretório padrão para descarregamento, configurado no navegador de Internet (Internet browser) do usuário. Após encontrar o arquivo o usuário deve seguir os procedimentos especificados pelo fabricante selecionado para iniciar e estabelecer a conexão segura do Túnel VPN da sua rede corporativa local com o ambiente de rede do provedor de serviço de nuvem pública.
 
 Menu Storage
 ============
