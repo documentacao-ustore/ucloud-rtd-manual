@@ -3584,13 +3584,13 @@ Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam 
 | Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Fixo] Dólar | x | Taxa de Faturamento |
 +------------------+----------------------------+---+----------------------------------------------+
 | Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Dia] PTAX   | x | Taxa de Faturamento |
-+==================+============================+===+====================+===+=====================+
++------------------+----------------------------+---+----------------------------------------------+
 
 Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta forma, as fórmulas se comportam de forma diferente:
 
 +==================+===========================+===+=====================+===+=====================+
 | Valor Reais (R$) | Valor R$ Total do Consumo | x | Valor [Fixo] 1,00   | x | Taxa de Faturamento |
-+==================+===========================+===+=====================+===+=====================+
++------------------+---------------------------+---+---------------------+---+---------------------+
 
 .. note:: Importante ressaltar que para o cenário de provedores que armazeman seus valores em Reais, o usuário Administrador do Contrato deve alterar o campo valor da **Moeda** para 1,00 e **Tipo de Cotação** FIXA.
 
@@ -3598,7 +3598,7 @@ Quando o usuário possui a Plataforma do uCloud conectada a um ambiente de Data 
 
 +==================+===========================+===+=====================+
 | Valor Reais (R$) | Valor R$ Total de Consumo | x | Taxa de Faturamento |
-+==================+===========================+===+=====================+
++------------------+---------------------------+---+---------------------+
 
 
 .. attention:: O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
@@ -3635,7 +3635,7 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 +-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
 || Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
 ||                  || em USN/h         || x || do Consumo USN    || X || [Fixa]     || X ||                     |
-+===================+===================+=+==+=====================+===+=============+====+======================+
++-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
 
 
 
