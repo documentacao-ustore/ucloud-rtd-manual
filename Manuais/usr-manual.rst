@@ -3657,18 +3657,22 @@ Quando o usuário acessar o Menu Financeiro, a Plataforma do uCloud apresenta a 
 A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros diferentes:
 
 * **Painéis Baseados em Consumo**: Este conjunto de relatórios em tela (*dashboards*) se referem aos valores acumulados dos recursos computacionais consumidos/utilizados no mês corrente até o dia corrente ou até o último período (ou janela) de processamento dos valores pelo provedor.
+
   O termo *janela* se refere ao período que o provedor efetua a gravação dos valores dos recursos computacionais no arquivo de Bucket. O tempo médio desta janela de tempo está por volta de dez (10) horas.
+
   Isto significa que poderão haver discrepâncias de apresentação de valores caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
 
 .. note:: Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a Plataforma uCloud não poderá ser responsabilizada em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
 
 * **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) apenas do período ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios.
+
   Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento será o dia inicial do mês subsequente ao consumo. Por exemplo, um contrato que tem data de faturamento com vencimento no dia 8, a fatura do mês de agosto será no dia 08/08 e fará referência aos valores consumidos/utilizados durante todo o mês anterior a esta data (no exemplo acima, do dia 08 do mês 07 (julho) ao dia 07 do mês 08, agosto)
+
   Este conceito é o mesmo aplicado aos valores das contas de serviços de concessionárias de serviços, que cobra os valores de serviços fornecidos no mês anterior.
 
-.. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
+  Para ilustrar um cenário, caso o campo “Dia da Fatura” esteja preenchido com o dia primeiro do mês (1), o período do faturamento inicia às 0 horas, 0 minutos e 0 segundos do dia primeiro do mês e encerra às 23 horas, 59 minutos e 59 segundos do dia 30/31 do mês anterior.
 
-Para ilustrar um cenário, caso o campo “Dia da Fatura” esteja preenchido com o dia primeiro do mês (1), o período do faturamento inicia às 0 horas, 0 minutos e 0 segundos do dia primeiro do mês e encerra às 23 horas, 59 minutos e 59 segundos do dia 30/31 do mês anterior.
+.. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
 
 
 Seção Minha Fatura
@@ -3730,8 +3734,10 @@ De Acordo
 
 Menu Containers
 ===============
+
 Gerenciando um Container
 ------------------------
+
 Criando Novo Container
 ----------------------
 
@@ -3769,97 +3775,461 @@ Criar Rede em Provedores de Serviço de Nuvem Público (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Criar Rede em Ambiente Privado (ex: VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 IPs Públicos
 ------------
+
 Solicitando um IP -Público (AWS e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Solicitando um IP Público (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Solicitando um IP Público (ambiente privado VMware vCenter)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Grupos de Segurança e ACLs
 --------------------------
+
 Gerenciar Grupo de segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Grupo de Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 Par de Chaves
 -------------
+
 Gerenciar um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criando um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 Importando um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Balanceadores
 -------------
+
 Gerenciando Balanceador
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 Criando Balanceador (Ambientes AWS e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criando Balanceador (Ambiente Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Zonas DNS
 ---------
+
 Gerenciar Zona DNS Pública
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Zona DNS Pública (AWS e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Zona DNS Pública (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Zona DNS Privada - Observação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 VPN
 ---
+
 Criar a VPN em 3 Passos
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Customer Gateway
 ~~~~~~~~~~~~~~~~~~~~~~
+
 Criar Private Gateway
 ~~~~~~~~~~~~~~~~~~~~~
+
 Criar Túnel VPN
 ~~~~~~~~~~~~~~~
 
 Menu Storage
 ============
+
+Depois do provisionamento de um Container (provedor de nuvem pública), a Plataforma do uCloud efetua a ‘importação’ de todas as suas características e recursos computacionais existentes, deste modo permite ao usuário interação neste ambiente através da interface do uCloud, um dos recursos computacionais disponíveis é o recurso de armazenamento (Storage).
+
+Este tipo de recurso não está habilitado para ser alterado através da Plataforma do uCloud, toda e qualquer alteração deve ser efetuada por meio do console específico de cada provedor de serviço de nuvem pública. Portanto, o usuário tem disponível apenas a facilidade de visualizar as características do recurso computacional através da interface da Plataforma do uCloud.
+
+Quando o usuário acessa o menu Storage, a Plataforma do uCloud apresenta uma lista com os recursos de armazenamento provisionados no ambiente do provedor de serviço de nuvem pública.
+
+.. image:: /figuras/ucloud_menu_storage001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A seguir a descrição das características de cada coluna:
+* **Nome do Container**: Esta coluna apresenta o nome do container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo ‘Busca Rápida - abaixo do título desta coluna’, a Plataforma do uCloud apresenta a listagem com todos os containers que o usuário registrado está vinculado, para restringir a lista de recursos do Storage, específicos do container selecionado.
+
+.. note:: Para a Plataforma uCloud, um container representa um provedor de serviço de nuvem (pública e/ou privada).
+
+* **Nome**: Esta coluna apresenta o nome do recurso computacional do Storage (armazenamento) tal como existente no ambiente do provedor de serviço de nuvem pública. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de recursos computacionais do Storage.
+* **Tamanho**: Esta coluna apresenta o tamanho total do recurso computacional do Storage (armazenamento) da mesma maneira que este existe no ambiente do provedor de serviço de nuvem pública.
+* **Utilizado**: Esta coluna apresenta o valor total da ocupação do recurso computacional do Storage (armazenamento) tal como este se encontra no ambiente do provedor de serviço de nuvem pública.
+* **Uso**: Esta coluna apresenta o percentual de ocupação do recurso computacional do Storage (armazenamento) da mesma maneira como este se encontra no ambiente do provedor de serviço de nuvem pública.
+* **Upload**: Esta coluna apresenta a informação sobre este recurso computacional do Storage (armazenamento) que está habilitado para receber os dados para serem armazenados diretamente de uma rede externa, esta informação é obtida diretamente do ambiente do provedor de serviço de nuvem pública.
+
+
 Visualizando um Storage
 -----------------------
-Seção Templates
----------------
+
+Para visualizar um Storage na Plataforma do uCloud é necessário o usuário clicar com o cursor do mouse sobre qualquer linha de um recurso do Storage, logo o uCloud apresenta a tela abaixo, a qual está segmentada em diversas seções:
+
+.. image:: /figuras/ucloud_menu_storage002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A seguir a descrição dos campos de cada seção da tela acima:
+
+* **Seção Geral**: Esta seção apresenta as informações básicas referente ao recurso de armazenamento (Storage) as quais são obtidas direto do ambiente do provedor de serviço de nuvem pública ao qual está vinculado.
+  
+  * **Nome**: Este campo apresenta o nome do recurso computacional extraído do ambiente do provedor de serviço de nuvem pública. Este campo não é passível de alteração.
+  * **Display Name**: Este campo apresenta o nome do recurso computacional da forma como o usuário preferir que este seja identificado, com o objetivo de facilitar sua visualização na interface da Plataforma do uCloud. **Importante ressaltar: que este nome é válido apenas para a interface da Plataforma do uCloud**
+  * **Tipo do Storage**: O conteúdo apresentado neste campo está relacionado, principalmente, aos ambientes de armazenamento das nuvens privadas (on-premises) e, a cada tipo de ambiente de nuvem privada que pode apresentar um tipo específico. Este campo pode apresentar o tipo do Storage do provedor de nuvem pública, caso este apresente-se configurado e a API do provedor entregue esta informação (por ex.: OBJECT).
+  * **Container**: Este campo apresenta o nome do container ao qual este recurso de armazenamento (Storage) está vinculado.
+  * **Tipo do Container**: Este campo apresenta uma identificação simplificada do nome do provedor de serviço de nuvem pública e/ou privada, ao qual o recurso de armazenamento (Storage) está vinculado.
+  * **Compartilhamento**: Este campo apresenta a característica de compartilhamento deste recurso computacional de armazenamento (Storage) por ex.: Não Compartilhado.
+
+* **Seção Tamanho**: Esta seção apresenta o tamanho total do volume de armazenamento deste recurso computacional e a sua taxa de ocupação no presente momento. O valor da ocupação, no presente momento, se refere à soma de todos os recursos de armazenamento presentes nas máquinas virtuais na seção abaixo.
+
+Para os ambientes de nuvem pública a informação pode estar indisponível, por uma característica intrínseca destes ambientes. Nestas nuvens públicas, de um certo ponto de vista, estes recursos são infinitos.
+
+Por outro lado, para os ambientes de nuvem privada, a Plataforma do uCloud obtém esta informação diretamente do ambiente do hypervisor. A seguir, a apresentação de um exemplo desta seção em: Ambiente de nuvem privada.
+
+
+.. image:: /figuras/ucloud_menu_storage003.png
+   :alt: Virtual Datacenter - Exemp
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Seção Máquinas Virtuais**: Esta seção apresenta a relação de todas as máquinas virtuais que possuem um recurso computacional de disco, os quais estão vinculados à mesma região, na qual o recurso computacional de armazenamento está associado.
+
+.. image:: /figuras/ucloud_menu_storage004.png
+   :alt: Virtual Datacenter - Exemp
+   :scale: 60 %
+   :align: center
+
+----
+
+  * **Máquina Virtual**: Esta coluna apresenta o nome da máquina virtual informado pelo usuário, no momento que esta é provisionada através da Plataforma do uCloud ou por intermédio do console do provedor de serviço de nuvem pública/privada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
+
+  * **Zona de Disponibilidade**: Esta coluna apresenta o nome da Zona de Disponibilidade do provedor de serviço de nuvem pública/privada ao qual o recurso de disco está vinculado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
+
+  * **Nome do Disco**: Esta coluna apresenta o nome do disco informado pelo o usuário no momento em que este é provisionado através da Plataforma do uCloud ou por intermédio do console do provedor de serviço de nuvem pública/privada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
+  
+  * **Tamanho do Disco**: Esta coluna apresenta o tamanho total do volume do disco definido pelo usuário no momento em que o disco é provisionado. Estes valores podem ser representados em Gigabytes (Gb) ou Terabytes (Tb).
+
+* **Seção Discos Órfãos**: Esta seção apresenta todos os recursos de discos que não estão associados a uma máquina virtual. A denominação de ‘disco órfão' ocorre depois que uma máquina virtual é removida (apagada), esta conta com um o recurso de disco extra que é adicionado devido a alguma necessidade específica (como recurso adicional). Quando a máquina virtual (com “disco extra”) é removida o recurso disco se mantém vinculado ao valor da conta da organização (‘Contrato’) mas sem estar vinculado a uma máquina virtual ativa.
+
+A Plataforma do uCloud obtém esta informação de forma regular e constante, através do processo de sincronização do arquivo de Billing.
+
+.. image:: /figuras/ucloud_menu_storage005.png
+   :alt: Virtual Datacenter - Exemp
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Nome do Disco**: Esta coluna apresenta o nome do disco informado pelo o usuário, no momento em que este é provisionado através da Plataforma do uCloud ou por intermédio do console do provedor de serviço de nuvem pública/privada.
+* **Zona de Disponibilidade**: Esta coluna apresenta o nome da Zona de Disponibilidade do provedor de serviço de nuvem pública/privada ao qual o recurso de disco está vinculado.
+* **Ações**: Esta coluna pode apresentar dois ícones de ação “Anexar” e “Remover” os quais permitem ao usuário interagir com o disco órfão selecionado:
+
+  * **Ícone de Anexar**: Basta clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar uma tela que permite vincular (anexar) o disco a uma máquina virtual específica.
+
+.. image:: /figuras/ucloud_menu_storage006.png
+   :alt: Virtual Datacenter - Exemp
+   :scale: 60 %
+   :align: center
+
+----
+
+    * **Máquina Virtual**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista todas as máquinas virtuais existentes e provisionadas na mesma Zona de Disponibilidade, na qual o recurso do armazenamento (storage) está vinculado ao ambiente do provedor de serviço de nuvem pública.
+    * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de “Anexar” um disco a uma máquina virtual. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+    * **Botão Anexar**: Após o usuário selecionar a máquina virtual desejada, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão “Anexar” para que a Plataforma do uCloud possa efetuar o processo de Anexar o disco órfão.
+
+* **Ícone de Remover** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud remove (exclui) este disco, de forma imediata e definitiva. Esta ação é efetivada na região de disponibilidade na qual o armazenamento (storage) está vinculado, o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - *Favor consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada*.
 
 Menu Flavors
 ============
+
+Um Flavor é a definição do tamanho dos recursos de computação (número de CPUs virtuais, memória e capacidade de armazenamento) que podem ser atribuídos automaticamente a instâncias da máquina virtual em uma configuração de nuvem.
+
+Os ambientes dos provedores de nuvem privada (on-premises) não possuem o conceito de flavors, pois o usuário pode configurar o recurso computacional da forma como desejar. Esta ‘liberdade’ é característica destes ambientes e pode dificultar a movimentação destas máquinas virtuais entre nuvens, o que proporciona um ambiente de recuperação de desastres de maneira transparente.
+
+A Plataforma do uCloud permite ao usuário de nuvem privada criar flavors de máquinas virtuais para que encontrem-se compatíveis com as configurações disponíveis nos provedores de nuvem pública. Esta padronização permite a movimentação entre as diversas nuvens (públicas e privadas), de forma transparente e simplificada.
+
+Outro grande benefício da padronização de flavors nos ambientes de nuvem privada é a sua potencial comparação de custos mensais de uma respectiva configuração de um flavor, entre os diversos ambientes de nuvens (públicas e/ou privadas).
+
+O processo de sincronização da Plataforma do uCloud com o container permite extrair todas as configurações de flavors existentes no ambiente do provedor de serviço de nuvem pública, após serem extraídas podem ser listadas na tela, conforme exemplo abaixo:
+
+.. image:: /figuras/ucloud_menu_flavor001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A seguir a descrição detalhada das colunas desta lista:
+
+* **Container**: Esta coluna apresenta o nome do flavor. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo *Busca Rápida - abaixo do título desta coluna*, a Plataforma do uCloud apresenta a listagem com todos os containers que o usuário registrado está vinculado, para restringir o resultado de Flavors específicos do container listado.
+* **Nome**: Esta coluna apresenta o nome do flavor como identificado no provedor do serviço de nuvem (pública). Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo *Busca Rápida - abaixo do título desta coluna*, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres, para restringir o resultado de Flavors listados.
+* **vCPUs**: Esta coluna apresenta o número da quantidade dos recursos de CPU definidos neste Flavor. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo *Busca Rápida - abaixo do título desta coluna*, a Plataforma do uCloud permite ao usuário digitar uma sequência de números, para restringir os resultados de Flavors listados.
+* **Memória**: Esta coluna apresenta o número com a quantidade dos recursos da memória definidos neste Flavor. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo *Busca Rápida - abaixo do título desta coluna*, a Plataforma do uCloud permite ao usuário digitar uma sequência de números, para restringir o resultado de Flavors listados. Este valor está representado em Gigabytes (GB).
+* **Ações**: Esta coluna pode apresentar apenas um ícone de ação para que o usuário possa interagir com o Flavor selecionado:
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud permite remover (excluir) a configuração do Flavor, de forma imediata e definitiva. A Plataforma do uCloud apresenta a tela de *pop up* para solicitar a confirmação do usuário.
+
+.. note:: Importante ressaltar: esta ação remove a configuração do Flavor apenas da base de dados interna da Plataforma do uCloud, de forma permanente; Esta ação não efetua a remoção do Flavor do ambiente do provedor de serviço de nuvem pública.
+
 Visualizando um Flavor
 ----------------------
 
+A Plataforma do uCloud apresenta a tela abaixo, quando o usuário seleciona um flavor específico.
+
+.. image:: /figuras/ucloud_menu_flavor002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A seguir a descrição dos campos desta tela:
+
+* Botão Excluir: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud permite remover (excluir) este Flavor da base de dados interna do uCloud, de forma imediata e definitiva. Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresenta uma tela para confirmar a ação do usuário.
+
+* **Nome**: Este campo apresenta o nome do flavor como identificado no provedor de serviço de nuvem (pública).
+* **Container**: Este campo apresenta o nome do container ao qual este flavor está vinculado.
+* **vCPU**: Este campo apresenta o número com a quantidade de recursos CPU definido neste Flavor.
+* **Memória**: Este campo apresenta o número da quantidade de recursos de memória definido neste Flavor. Este valor está representado em Gigabytes (GB).
+* **Disco**: Este campo apresenta o valor do tamanho do recurso de disco de armazenamento definido neste Flavor. Este valor pode ser apresentado em Gigabytes (GB) ou em Terabytes (TB). Esta é a única configuração do flavor que pode ser personalizada pelo usuário.
+
+  * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud alterna para o modo edição, permite ao usuário corrigir o conteúdo do campo desejado e alterar a configuração do tamanho do disco de armazenamento do Flavor.
+
+.. attention:: É importante ressaltar que qualquer alteração das configurações de um disco de armazenamento de um Flavor, gera impacto nos valores mensais dos custos de armazenamento do billing deste provedor de nuvem pública. A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar desta ação.
+
+  * **Campo de Tamanho do Disco**: O usuário deve informar um número inteiro que representa o tamanho do disco de armazenamento do Flavor. Este campo não aceita valores separados com "vírgula" ou "ponto". Pode ser selecionado o limite em **Gigabytes (GB)** ou em **Terabytes (TB)**.
+  * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário deseja confirmar a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo é alterada permanentemente na base de dados da Plataforma do uCloud.
+  * **Ícone de Cancelamento** |icone_cancela_vermelho|: No caso do usuário clicar sobre o ícone de edição, por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+
 Menu Workflows
 ==============
+
 Editando Workflow
 -----------------
+
 Criando Workflow
 ----------------
+
 Criando Tarefas Associadas
 --------------------------
+
 Tarefa de Iniciar e Parar Máquina Virtual
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Tarefa de Criar Imagem de Disco (Snapshot)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Tarefa de Script
 ~~~~~~~~~~~~~~~~
 
 Menu Tarefas
 ============
+
+Neste menu Tarefas é por meio da API Rest que a Plataforma do uCloud, envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
+
+Importante ressaltar que não é a Plataforma do uCloud que está responsável por executar as ações, mas sim o ambiente do provedor de serviço de nuvem (pública e/ou privada) onde o recurso computacional está localizado. Este ambiente operacional (hypervisor) é o encarregado de executar a tarefa enviada através da API Rest. Caso o resultado não seja refletido na interface da tela do usuário de forma imediata, significa que o console destino pode necessitar um tempo para executar esta tarefa e somente após o término da execução da tarefa o resultado será apresentado na interface do uCloud.
+
+A Plataforma do uCloud armazena em suas bases de dados internas todas as ações efetuadas (direta ou indiretamente), seja por usuários ou por atividades de manutenção automática de rotinas internas, ou por agendamentos de tarefas.
+
+O menu **Tarefas** apresenta a lista de ações que foram provisionadas na Plataforma do uCloud e estão sendo executadas nos seus respectivos ambientes, o usuário pode acompanhar o percentual de andamento destas tarefas, seu resultado de sucesso ou a mensagem de erro referente a alguma restrição do ambiente destino.
+
+Neste menu, também, serão listadas as tarefas que estão agendadas para uma data futura e tarefas que aguardam a ação de um usuário ‘aprovador’ - o usuário deve ter o perfil de Administrador de Grupo ou Administrador de Contrato.
+
+.. image:: /figuras/ucloud_menu_tarefas001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+As informações apresentadas nesta tela, demonstram todas as ações solicitadas e executadas por todos os usuários, pode ser utilizado com a função de um Log Segurança, pois registra cada evento solicitado pelo usuário e seus resultados (sucesso ou erro), e se a ação está aderente ao anteriormente definido, pelas políticas de permissionamento vinculadas ao usuário para cada ambiente de provedor de serviço de nuvem (pública e/ou privada).
+
+Abaixo segue descrito o significado das duas (ou três) abas e suas respectivas colunas.
+
+.. image:: /figuras/ucloud_menu_tarefas002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Botão Procurar**: A lista de tarefas pode ser muito extensa (datas antigas) ou no caso do ambiente da empresa possuir uma grande quantidade de usuários. Basta o usuário clicar com o cursor do mouse sobre o botão Procurar e a plataforma do uCloud apresenta alguns campos para refinar a pesquisa:
+
+  * **Início**: Neste campo o usuário pode informar a data inicial que deseja selecionar para filtrar o resultado na lista de tarefas apresentadas nesta tela.
+  * **Data Final**: Neste campo o usuário pode informar a data final que deseja selecionar para filtrar o resultado na lista de tarefas apresentadas nesta tela.
+  * **User**: Neste campo o usuário pode informar a identificação da credencial de login de um usuário específico para filtrar o resultado na lista de tarefas apresentadas nesta tela.
+  * **Status**: Este campo é um campo do tipo “dropdown” quando o usuário clicar com cursor do mouse a Plataforma do uCloud apresenta uma lista de opções de Status de uma tarefa, e permite filtrar o resultado na lista de tarefas apresentadas nesta tela. Os tipos de status podem ser os seguintes:
+
+    * Successful:
+    * Running
+    * Cancelled
+    * Failed
+    * Created
+    * Scheduled
+    * Not Approved
+    * Approved
+    * Approvation Pending
+
+* **Botão Refresh**: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, toda ação solicitada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes então executem a ação desejada. Para que a plataforma do uCloud possa atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas em nossas bases de dados.
+
 Aba Tarefas
 -----------
+
+Esta "aba/tab" é a apresentação padrão/default da Plataforma do uCloud, ela apresenta todas atividades constantes em sua base de dados, em ordem de data e hora, classificados em ordem decrescente (do mais recente para o mais antigo), conforme o exemplo da tela abaixo:
+
+.. image:: /figuras/ucloud_menu_tarefas003.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Quando o usuário acessar esta tela a Plataforma do uCloud apresenta o registro (log) de atividades de todos os usuários, a tela possui as seguintes colunas:
+
+* **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da Plataforma do uCloud, a qual é enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* Usuário: Esta coluna apresenta as credenciais de login do usuário solicitado na execução da operação, através da interface da Plataforma do uCloud.
+* **Detalhes**: Este ícone de sinal de adição (“+”) permanece indisponível para as operações que exibem o status de “Successful”. Este ícone fica habilitado somente nas operações que apresentam o status “Failed” e, basta o usuário posicionar o cursor do mouse sobre o ícone para que a mensagem de erro seja apresentada. Veja o exemplo abaixo no ítem Status.
+* **Progresso**: Esta coluna apresenta uma barra que representa a porcentagem da evolução da execução da operação, no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Data de Início**: Esta coluna apresenta a data (Padrão Brasileiro: dia/mês/ano) e o horário (formato de 24 horas) do início da operação, no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Duração**: Esta coluna apresenta o tempo decorrido, necessário, para que o ambiente do provedor de serviço de nuvem (pública e/ou privada) possa completar a operação solicitada. Importante ressaltar que este tempo de duração pertence exclusivamente ao ambiente do provedor de serviço de nuvem (pública e/ou privada), a Plataforma do uCloud não interfere na duração das operações no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Status**: Esta coluna apresenta o status resultante da operação solicitada, ela permite apresentar os seguintes resultados:
+
+  * *Successful*:
+  * *Running*
+  * *Cancelled*
+  * *Created*
+  * *Scheduled*
+  * *Not Approved*
+  * *Approved*
+  * *Approbation Pending*
+  * *Failed*: Este status pode representar um erro referente a algum limite do usuário definido no ambiente da Plataforma do uCloud, no caso de ocorrência, entrar em contato com a equipe de suporte da Ustore, para o melhor entendimento da causa do referido erro; no exemplo abaixo, o usuário ultrapassa o limite de consumo definido dentro da Plataforma do uCloud para o usuário:
+
+.. image:: /figuras/ucloud_menu_tarefas004.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * *Failed*: Este status pode representar mensagens de erro que retornam (via API-Rest) do ambiente do provedor de serviço de nuvem pública, no caso de ocorrência, entrar em contato com a equipe de suporte da Ustore, para o melhor entendimento da causa do referido erro; o exemplo abaixo apresenta um erro do provedor AWS:
+
+.. image:: /figuras/ucloud_menu_tarefas005.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
 Aba Aprovações Pendentes
 ------------------------
+
+Esta "aba/tab" apresenta a lista de todas as operações de usuários que dependem da aprovação de um Administrador de Grupo, ou Administrador de Contrato, em ordem de data e hora, classificados em ordem decrescente (do mais recente para o mais antigo), conforme o exemplo da tela abaixo:
+
+.. image:: /figuras/ucloud_menu_tarefas006.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Esta "aba/tab" possui as seguintes colunas:
+
+* **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da Plataforma do uCloud, a qual foi enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da Plataforma do uCloud.
+* **Aprovação**: Esta coluna apresenta dois ícones para que o Administrador do Grupo ou o usuário Administrador do Contrato possam interagir com esta solicitação:
+* **Ícone de Confirmação**: Quando o usuário deseja confirmar a operação solicitada, basta clicar com o cursor do mouse no botão verde para confirmar a operação. A confirmação da solicitação significa que a operação será enviada para o ambiente do provedor de serviço de nuvem (pública e/ou provada) para ser executada.
+* **Ícone de Cancelamento** “”: Quando o usuário deseja recusar a solicitação da operação, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a solicitação da operação. O cancelamento da solicitação significa que a operação não será enviada para o ambiente do provedor de serviço de nuvem (pública e/ou provada) para ser executada.
+* **Status**: Esta coluna apresenta o status resultante da aprovação ou cancelamento da operação solicitada.
+
 Aba Tarefas Agendadas
 ---------------------
 
+Esta "aba/tab" apresenta o ambiente no qual o usuário pode verificar as tarefas agendadas para serem executadas em uma data futura (agendamento de provisionamento de máquina virtual ou uma tarefa de um Workflow), conforme o exemplo abaixo:
+
+.. image:: /figuras/ucloud_menu_tarefas007.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Esta "aba/tab" possui as seguintes colunas:
+
+* **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da Plataforma do uCloud, a qual foi enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da Plataforma do uCloud.
+* **Data da Criação**: Esta coluna apresenta a data (Padrão Brasileiro: dia/mês/ano) e o horário (formato de 24 horas) da operação, solicitada pelo usuário.
+* **Data da Execução**: Esta coluna apresenta a data (Padrão Brasileiro: dia/mês/ano) e o horário (formato de 24 horas) programado para execução da operação, solicitada pelo usuário.
+* **Tempo restante**: Esta coluna apresenta o tempo (no formato de horas padrão 24 horas) faltante até completar a data e hora programada, para a execução da operação. Este tempo é calculado, constantemente, tem como base a hora corrente que o usuário está consultando esta lista.
+* **Ações**: Esta coluna apresenta somente o ícone de remoção (“”) que permite ao usuário remover/apagar o agendamento da tarefa, a ação cancela a execução da tarefa na data e hora programada.
+
 Menu Inventário de Recursos
 ===========================
+
+A Plataforma do uCloud quando corretamente configurada, com as credenciais de acesso ao provedor de serviços de nuvem, extrai um inventário de todos os recursos existentes no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+
+Esta tela de inventário de recursos lista todos os recursos computacionais existentes no provedor de serviço de nuvem, as quais se tem as credenciais de acesso com a permissão de visualizar. Na barra de menu, o usuário encontra a opção Inventário de Recursos, ao selecionar esta opção do menu, é apresentada a seguinte tela abaixo:
+
+.. image:: /figuras/ucloud_menu_inventario_recursos001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+Através do acesso a esta tela, a Plataforma uCloud permite ao usuário adicionar ou alterar, a informação da etiqueta (tag) que está vinculada a um recurso computacional das nuvens (pública e/ou privada). Esta funcionalidade permite aumentar a granularidade de governança e controle de custos.
+
+A Plataforma do uCloud extrai a informação (download) do provedor, se o usuário já houver vinculado uma etiqueta (tag), diretamente no console do provedor de serviço de nuvem, esta informação será apresentada na lista de recursos existentes.
+
+Nas situações em que o usuário não vincular qualquer etiqueta (tag) ao recurso, a coluna será apresentada em branco. Através do acesso a esta tela é possível tanto adicionar, quanto alterar a informação da etiqueta (tag) de um recurso presente na lista.
+
+Na coluna **Tag** o usuário pode encontrar a informação necessária, referente a etiqueta (tag) existente, vinculada ao recurso.
+
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
+
+Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_edita_on| que permite ao usuário alterar a informação da etiqueta (tag) da linha do recurso selecionado. Basta o usuário clicar com o cursor do mouse sobre o ícone, e a Plataforma do uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/ucloud_menu_inventario_recursos002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Ações**: Nesta coluna o usuário pode encontrar dois ícones diferentes:
+
+  * **Ícone Lata de Lixo** |icone_lixo|): Este ícone permite ao usuário apagar toda a informação referente às etiquetas (tags) do recurso que está sendo editado. Importante ressaltar que esta ação é definitiva, da mesma forma ela é aplicada no recurso do provedor de serviço de nuvem, após a sincronização da ação com a console do provedor.
+
+  * **Ícone de Edição Ativo** |icone_edita_on| Este ícone permite ao usuário alterar o conteúdo da etiqueta (tag) da linha do recurso selecionado, quando selecionado apresenta os campos abaixo:
+
+    * **Chave**: Neste campo, o usuário deve preencher com a sequência de caracteres referente a chave (key) que deseja vincular ao recurso.
+    * **Valor**: Neste campo o usuário deve preencher com informação referente ao valor que deseja vincular a chave do recurso.
+    * **Botão Criar**: Após certificar que todas as informações - a chave e o seu valor - foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Criar para aplicar alterações, de forma definitiva e imediata. Este botão é obrigatório, no caso do usuário efetuar a remoção das informações existentes a uma etiqueta (tag), após clicar no botão Lata de Lixo. Em seguida, o usuário deve clicar sobre este botão para a Plataforma do uCloud fechar esta tela e retornar à tela anterior, com seu conteúdo atualizado.
+
 
 .. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
 
