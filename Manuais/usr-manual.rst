@@ -3621,20 +3621,20 @@ Em casos específicos de recursos sem *TAG* assume-se o valor que vem informado 
 
 Neste ambiente, a Plataforma do uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 
-* Preço de Recurso em USN por Hora
-* Taxa de faturamento
-* Tipo de cotação (fixa/variável)
-* Dia de cotação da moeda (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil)
+* *Preço de Recurso em USN por Hora*
+* *Taxa de faturamento*
+* *Tipo de cotação* (fixa/variável)
+* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil)
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
-+---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
-||**Valor Reais (R$)**||Valor do Recurso||   ||Somatória Mensal||   ||Valor US$ ||   ||Taxa de Faturamento|
-||  *Total Mensal*    ||em USN/h        || x ||do Consumo USN  || X ||[Dia] PTAX|| X ||                   |
-+---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
-||**Valor Reais (R$)**||Valor do Recurso||   ||Somatória Mensal||   ||Valor US$ ||   ||Taxa de Faturamento|
-||  *Total Mensal*    || em USN/h       || x ||do Consumo USN  || X ||[Fixa]    || X ||                   |
-+---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
++-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
+|| **Valor Reais (R$)** || Valor do Recurso ||   || Somatória Mensal ||   || Valor US$  ||   || Taxa de Faturamento |
+||     Total Mensal     || em USN/h         || x || do Consumo USN   || X || [Dia] PTAX || X ||                     |
++-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
+|| **Valor Reais (R$)** || Valor do Recurso ||   || Somatória Mensal ||   || Valor US$  ||   || Taxa de Faturamento |
+||    Total Mensal      || em USN/h         || x || do Consumo USN   || X || [Fixa]     || X ||                     |
++-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
 
 
 .. [1] Informações gerais obtidas da monografia: *Desafios da contratação de serviços em nuvem no setor público*: critérios para a contratação no Senado Federal (Rubens Vasconcellos Terra Neto – 2019) - Instituto Legislativo Brasileiro ILB – Senado Federal Brasileiro. https://www2.senado.leg.br/bdsf/handle/id/569196.
@@ -3851,7 +3851,7 @@ D. **Virtual Private Gateway**: é um dispositivo físico ou uma aplicação de 
 
 .. image:: /figuras/ucloud_menu_vpn001.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
+   :scale: 30 %
    :align: center
 
 ----
