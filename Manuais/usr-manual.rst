@@ -3839,6 +3839,23 @@ Criar Zona DNS Privada - Observação
 VPN
 ---
 
+O termo conexão Virtual Private Network (VPN) possui sentido amplo, mas, neste documento, o termo se refere especificamente à conexão entre as redes do ambiente de rede do provedor de serviço de nuvem pública (dentro da qual estão os recursos computacionais de nuvem) e sua rede local (com seus recursos computacionais dentro da rede corporativa). A VPN de local para local oferece suporte para as conexões VPN da Internet Protocol Security (IPsec).
+
+Por padrão, os recursos de máquinas virtuais existem dentro do ambiente do provedor de serviço de nuvem pública, portanto, não podem comunicar-se com sua rede corporativa local, pois a rede do provedor é uma rede remota. O usuário pode habilitar o acesso a esta rede remota, basta criar uma conexão VPN e configurar o roteamento para transmitir o tráfego através desta conexão.
+
+Importante estabelecer alguns conceitos básicos neste documento, pois o processo de provisionamento de uma VPN envolve algumas etapas, como descrito:
+
+O usuário pode seguir os principais conceitos do Site-to-Site VPN:
+A. **Conexão VPN**: uma conexão para o tráfego seguro de pacotes de dados TCP-IP em uma conexão encriptada entre a sua rede local corporativa e o ambiente de rede do provedor de serviço de nuvem pública.
+B. **Túnel VPN**: um link criptografado em que os dados podem transmitir da rede do cliente para a rede do provedor de serviço de nuvem pública ou vice-versa. Cada conexão VPN pode incluir dois túneis VPN, os quais o usuário pode usar simultaneamente, para alta disponibilidade.
+C. **Customer Gateway**: um recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente.
+D. **Virtual Private Gateway**: é um dispositivo físico ou uma aplicação de software, situada no ambiente do cliente que será o ponto de conexão do Site-to-Site VPN.
+
+
+Quando o usuário acessar o menu VPN, a Plataforma do uCloud apresentará todas as VPNs (e os seus componentes) vinculados ao contrato ao qual o usuário registrado está vinculado. Esta lista inclui todas as VPNs provisionadas por todos os usuários do mesmo contrato.
+
+O menu VPN contém todas as VPNs criadas por um usuário em um ambiente de nuvem pública ou on-premisses.
+
 Criar a VPN em 3 Passos
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -4018,12 +4035,11 @@ A seguir a descrição dos campos desta tela:
 * **Disco**: Este campo apresenta o valor do tamanho do recurso de disco de armazenamento definido neste Flavor. Este valor pode ser apresentado em Gigabytes (GB) ou em Terabytes (TB). Esta é a única configuração do flavor que pode ser personalizada pelo usuário.
 
   * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud alterna para o modo edição, permite ao usuário corrigir o conteúdo do campo desejado e alterar a configuração do tamanho do disco de armazenamento do Flavor.
-
-.. attention:: É importante ressaltar que qualquer alteração das configurações de um disco de armazenamento de um Flavor, gera impacto nos valores mensais dos custos de armazenamento do billing deste provedor de nuvem pública. A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar desta ação.
-
   * **Campo de Tamanho do Disco**: O usuário deve informar um número inteiro que representa o tamanho do disco de armazenamento do Flavor. Este campo não aceita valores separados com "vírgula" ou "ponto". Pode ser selecionado o limite em **Gigabytes (GB)** ou em **Terabytes (TB)**.
   * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário deseja confirmar a intenção de alterar o conteúdo do campo desejado, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo é alterada permanentemente na base de dados da Plataforma do uCloud.
   * **Ícone de Cancelamento** |icone_cancela_vermelho|: No caso do usuário clicar sobre o ícone de edição, por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+
+.. attention:: É importante ressaltar que qualquer alteração das configurações de um disco de armazenamento de um Flavor, poderá criar alteração nos valores mensais dos custos de armazenamento do billing deste provedor de nuvem pública. A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar desta ação.
 
 Menu Workflows
 ==============
