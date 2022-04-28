@@ -3580,7 +3580,7 @@ A Plataforma do uCloud efetua a sincronização do conteúdo deste arquivo em su
 
 Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$) e a forma que a Plataforma uCloud efetuar a conversão para Real Brasileiro é:
 
-+==================+============================+===+====================+===+=====================+
++------------------+----------------------------+---+----------------------------------------------+
 | Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Fixo] Dólar | x | Taxa de Faturamento |
 +------------------+----------------------------+---+----------------------------------------------+
 | Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Dia] PTAX   | x | Taxa de Faturamento |
@@ -3588,7 +3588,7 @@ Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam 
 
 Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta forma, as fórmulas se comportam de forma diferente:
 
-+==================+===========================+===+=====================+===+=====================+
++------------------+---------------------------+---+---------------------+---+---------------------+
 | Valor Reais (R$) | Valor R$ Total do Consumo | x | Valor [Fixo] 1,00   | x | Taxa de Faturamento |
 +------------------+---------------------------+---+---------------------+---+---------------------+
 
@@ -3596,7 +3596,7 @@ Recentemente, algumas operações brasileiras de provedores de serviço de nuvem
 
 Quando o usuário possui a Plataforma do uCloud conectada a um ambiente de Data Center Privado (on-premises), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deverá calcular estes valores e informá-los na Plataforma do uCloud. A Plataforma uCloud calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
 
-+==================+===========================+===+=====================+
++------------------+---------------------------+---+---------------------+
 | Valor Reais (R$) | Valor R$ Total de Consumo | x | Taxa de Faturamento |
 +------------------+---------------------------+---+---------------------+
 
@@ -3629,7 +3629,7 @@ Neste ambiente, a Plataforma do uCloud após baixar o arquivo de billing do prov
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
-+===================+===================+====+====================+====+=============+====+======================+
++-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
 || Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
 ||                  || em USN/h         || x || do Consumo USN    || X || [Dia] PTAX || X ||                     |
 +-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
