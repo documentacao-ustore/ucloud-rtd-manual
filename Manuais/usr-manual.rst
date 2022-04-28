@@ -3573,33 +3573,32 @@ Empresas Privadas
 Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo .CSV).
 
 A Plataforma do uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internar e calcula conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
-* Taxa de faturamento;
-* Moeda;
-* Tipo de cotação (fixa ou variável)
-* Dia de cotação da moeda (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
+* *Taxa de faturamento*
+* *Moeda*
+* *Tipo de cotação* (fixa ou variável)
+* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
 
 Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$) e a forma que a Plataforma uCloud efetuar a conversão para Real Brasileiro é:
 
-+------------------+----------------------------+---+----------------------------------------------+
-| Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Fixo] Dólar | x | Taxa de Faturamento |
-+------------------+----------------------------+---+----------------------------------------------+
-| Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Dia] PTAX   | x | Taxa de Faturamento |
-+------------------+----------------------------+---+----------------------------------------------+
++--------------------+--------------------------+---+------------------+---+-------------------+
+|**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Fixo] Dólar| x |Taxa de Faturamento|
++--------------------+--------------------------+---+------------------+---+-------------------+
+|**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Dia] PTAX  | x |Taxa de Faturamento|
++--------------------+--------------------------+---+------------------+---+-------------------+
 
 Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta forma, as fórmulas se comportam de forma diferente:
 
-+------------------+---------------------------+---+---------------------+---+---------------------+
-| Valor Reais (R$) | Valor R$ Total do Consumo | x | Valor [Fixo] 1,00   | x | Taxa de Faturamento |
-+------------------+---------------------------+---+---------------------+---+---------------------+
++--------------------+-------------------------+---+-----------------+---+-------------------+
+|**Valor Reais (R$)**|Valor R$ Total do Consumo| x |Valor [Fixo] 1,00| x |Taxa de Faturamento|
++--------------------+-------------------------+---+-----------------+---+-------------------+
 
 .. note:: Importante ressaltar que para o cenário de provedores que armazeman seus valores em Reais, o usuário Administrador do Contrato deve alterar o campo valor da **Moeda** para 1,00 e **Tipo de Cotação** FIXA.
 
 Quando o usuário possui a Plataforma do uCloud conectada a um ambiente de Data Center Privado (on-premises), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deverá calcular estes valores e informá-los na Plataforma do uCloud. A Plataforma uCloud calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
 
-+------------------+---------------------------+---+---------------------+
-| Valor Reais (R$) | Valor R$ Total de Consumo | x | Taxa de Faturamento |
-+------------------+---------------------------+---+---------------------+
-
++--------------------+-------------------------+---+-------------------+
+|**Valor Reais (R$)**|Valor R$ Total de Consumo| x |Taxa de Faturamento|
++--------------------+-------------------------+---+-------------------+
 
 .. attention:: O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
 
@@ -3629,14 +3628,13 @@ Neste ambiente, a Plataforma do uCloud após baixar o arquivo de billing do prov
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
-+-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
-|| Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
-||                  || em USN/h         || x || do Consumo USN    || X || [Dia] PTAX || X ||                     |
-+-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
-|| Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
-||                  || em USN/h         || x || do Consumo USN    || X || [Fixa]     || X ||                     |
-+-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
-
++---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
+||**Valor Reais (R$)**||Valor do Recurso||   ||Somatória Mensal||   ||Valor US$ ||   ||Taxa de Faturamento|
+||  *Total Mensal*    ||em USN/h        || x ||do Consumo USN  || X ||[Dia] PTAX|| X ||                   |
++---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
+||**Valor Reais (R$)**||Valor do Recurso||   ||Somatória Mensal||   ||Valor US$ ||   ||Taxa de Faturamento|
+||  *Total Mensal*    || em USN/h       || x ||do Consumo USN  || X ||[Fixa]    || X ||                   |
++---------------------+-----------------+----+-----------------+----+-----------+----+--------------------+
 
 
 .. [1] Informações gerais obtidas da monografia: *Desafios da contratação de serviços em nuvem no setor público*: critérios para a contratação no Senado Federal (Rubens Vasconcellos Terra Neto – 2019) - Instituto Legislativo Brasileiro ILB – Senado Federal Brasileiro. https://www2.senado.leg.br/bdsf/handle/id/569196.
