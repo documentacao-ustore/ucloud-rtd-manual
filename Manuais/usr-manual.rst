@@ -3571,25 +3571,35 @@ Empresas Privadas
 -----------------
 
 Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo .CSV).
+
 A Plataforma do uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internar e calcula conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 * Taxa de faturamento;
 * Moeda;
-* Tipo de cotação (fixa/variável);
-* Dia de cotação da moeda (válido somente para cotação variável).
+* Tipo de cotação (fixa ou variável)
+* Dia de cotação da moeda (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
 
 Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$) e a forma que a Plataforma uCloud efetuar a conversão para Real Brasileiro é:
 
-Valor Real (R$) = (*Valor US$* Total de Consumo * Valor [Fixo] Dólar) * Taxa de Faturamento;
-
-Valor Real (R$) = (*Valor US$* Total de Consumo * Valor [Dia] de Cotação Dólar) * Taxa de Faturamento;
-
-Quando o usuário possui a Plataforma do uCloud conectada a um ambiente de Data Center Privado (on-premises), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) é indicado individualmente, logo a própria empresa deve calcular estes valores, informá-los na Plataforma do uCloud, para que esta possa efetuar o controle do consumo de cada recurso, o que permite totalizar o valor de cada recurso, com base no seu uso mensal.
-
-Valor Real (R$) = (**Valor R$** Total de Consumo) * Taxa de Faturamento.
++==================+============================+===+====================+===+=====================+
+| Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Fixo] Dólar | x | Taxa de Faturamento |
++------------------+----------------------------+---+----------------------------------------------+
+| Valor Reais (R$) | Valor US$ Total de Consumo | x | Valor [Dia] PTAX   | x | Taxa de Faturamento |
++==================+============================+===+====================+===+=====================+
 
 Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta forma, as fórmulas se comportam de forma diferente:
 
-Valor Real (R$): (**Valor R$** Total do Consumo) * Taxa de Faturamento.
++==================+===========================+===+=====================+===+=====================+
+| Valor Reais (R$) | Valor R$ Total do Consumo | x | Valor [Fixo] 1,00   | x | Taxa de Faturamento |
++==================+===========================+===+=====================+===+=====================+
+
+.. note:: Importante ressaltar que para o cenário de provedores que armazeman seus valores em Reais, o usuário Administrador do Contrato deve alterar o campo valor da **Moeda** para 1,00 e **Tipo de Cotação** FIXA.
+
+Quando o usuário possui a Plataforma do uCloud conectada a um ambiente de Data Center Privado (on-premises), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deverá calcular estes valores e informá-los na Plataforma do uCloud. A Plataforma uCloud calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
+
++==================+===========================+===+=====================+
+| Valor Reais (R$) | Valor R$ Total de Consumo | x | Taxa de Faturamento |
++==================+===========================+===+=====================+
+
 
 .. attention:: O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
 
@@ -3604,22 +3614,30 @@ Esta abordagem única e especial, permite a qualquer órgão de Governo brasilei
 
 A definição de valores dos recursos computacionais de nuvem, pode ser individualizado e constar no corpo de cada edital (de cada órgão interessado na contratação de serviços de processamento de nuvem), este documento relacionado ao edital deve vir acompanhado de um Anexo, no qual o órgão define os valores específicos.
 
-Os preços dos recursos em USN são definidos através das tags, no provisionamento de um ‘contrato’ na Plataforma do uCloud, a plataforma possibilita adicionar / configurar tags que identificam cada recurso listado no anexo, com o respectivo valor em USN.
+Os preços dos recursos em USN são definidos através das tags, na seção **Preço dos Recursos** do Contrato na Plataforma uCloud, a plataforma possibilita adicionar / configurar tags que identificam cada recurso listado no anexo, com o respectivo valor em USN.
 
 Para calcular o custo do recurso em USN, é feita a somatória da quantidade utilizada do recurso pelo preço que foi definido; no caso de recursos que são máquinas virtuais, o preço é multiplicado pela quantidade de CPU, ou pela quantidade de memória em GB. O que define será por CPU ou por memória é a tag aplicada aos recursos. Se não houver tag do tipo USN no recurso, o cálculo não é feito.
 
-Em casos específicos de recursos ‘sem tag’ assume-se o valor que vem informado no arquivo de Billing (.CSV) do provedor de serviço de nuvem pública.
+Em casos específicos de recursos sem *TAG* assume-se o valor que vem informado no arquivo de Billing (.CSV) do provedor de serviço de nuvem pública.
 
 Neste ambiente, a Plataforma do uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 
-* Preço de Recurso em USN;
-* Taxa de faturamento;
-* Tipo de cotação (fixa/variável);
-* Dia de cotação da moeda (somente variável)
+* Preço de Recurso em USN por Hora
+* Taxa de faturamento
+* Tipo de cotação (fixa/variável)
+* Dia de cotação da moeda (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil)
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
-⮚ Valor em USN = (*Cotação do tipo de recurso em USN* * *Valor Total do Consumo do Recurso USN*) * (**Cotação do dólar**) * Taxa de faturamento
++===================+===================+====+====================+====+=============+====+======================+
+|| Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
+||                  || em USN/h         || x || do Consumo USN    || X || [Dia] PTAX || X ||                     |
++-------------------+-------------------+----+--------------------+----+-------------+----+----------------------+
+|| Valor Reais (R$) || Valor do Recurso ||   || Somatória Mensal  ||   || Valor US$  ||   || Taxa de Faturamento |
+||                  || em USN/h         || x || do Consumo USN    || X || [Fixa]     || X ||                     |
++===================+===================+=+==+=====================+===+=============+====+======================+
+
+
 
 .. [1] Informações gerais obtidas da monografia: *Desafios da contratação de serviços em nuvem no setor público*: critérios para a contratação no Senado Federal (Rubens Vasconcellos Terra Neto – 2019) - Instituto Legislativo Brasileiro ILB – Senado Federal Brasileiro. https://www2.senado.leg.br/bdsf/handle/id/569196.
 
@@ -3638,8 +3656,20 @@ Quando o usuário acessar o Menu Financeiro, a Plataforma do uCloud apresenta a 
 
 A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros diferentes:
 
-* **Painéis Baseados em Consumo**: Este conjunto de relatórios em tela
-* **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) que apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) do período referente ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios. Estes relatórios têm o objetivo
+* **Painéis Baseados em Consumo**: Este conjunto de relatórios em tela (*dashboards*) se referem aos valores acumulados dos recursos computacionais consumidos/utilizados no mês corrente até o dia corrente ou até o último período (ou janela) de processamento dos valores pelo provedor.
+  O termo *janela* se refere ao período que o provedor efetua a gravação dos valores dos recursos computacionais no arquivo de Bucket. O tempo médio desta janela de tempo está por volta de dez (10) horas.
+  Isto significa que poderão haver discrepâncias de apresentação de valores caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
+
+.. note:: Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a Plataforma uCloud não poderá ser responsabilizada em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
+
+* **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) apenas do período ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios.
+  Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento será o dia inicial do mês subsequente ao consumo. Por exemplo, um contrato que tem data de faturamento com vencimento no dia 8, a fatura do mês de agosto será no dia 08/08 e fará referência aos valores consumidos/utilizados durante todo o mês anterior a esta data (no exemplo acima, do dia 08 do mês 07 (julho) ao dia 07 do mês 08, agosto)
+  Este conceito é o mesmo aplicado aos valores das contas de serviços de concessionárias de serviços, que cobra os valores de serviços fornecidos no mês anterior.
+
+.. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
+
+Para ilustrar um cenário, caso o campo “Dia da Fatura” esteja preenchido com o dia primeiro do mês (1), o período do faturamento inicia às 0 horas, 0 minutos e 0 segundos do dia primeiro do mês e encerra às 23 horas, 59 minutos e 59 segundos do dia 30/31 do mês anterior.
+
 
 Seção Minha Fatura
 ------------------
