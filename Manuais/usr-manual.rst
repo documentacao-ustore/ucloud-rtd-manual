@@ -3630,10 +3630,10 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 
 +-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
 || **Valor Reais (R$)** || Valor do Recurso ||   || Somatória Mensal ||   || Valor US$  ||   || Taxa de Faturamento |
-||     Total Mensal     || em USN/h         || x || do Consumo USN   || X || [Dia] PTAX || X ||                     |
+||    Total Mensal      || em USN/h         || x || do Consumo USN   || x || [Dia] PTAX || x ||                     |
 +-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
 || **Valor Reais (R$)** || Valor do Recurso ||   || Somatória Mensal ||   || Valor US$  ||   || Taxa de Faturamento |
-||    Total Mensal      || em USN/h         || x || do Consumo USN   || X || [Fixa]     || X ||                     |
+||    Total Mensal      || em USN/h         || x || do Consumo USN   || x || [Fixa]     || x ||                     |
 +-----------------------+-------------------+----+-------------------+----+-------------+----+----------------------+
 
 
@@ -3736,11 +3736,13 @@ Menu Containers
 O termo Containers na Plataforma do uCloud é utilizado para representar um Hypervisor, seja este público e/ou privado. Um container é uma abstração lógica para agrupar todos os recursos (máquinas virtuais, servidores, discos, storages) de um determinado tipo de hypervisor. Por exemplo, um container privado representa a conexão com uma instância do VMware vCenter, com um Pool do XenSever ou com o Keystone do Openstack.
 
 Em relação aos provedores de serviço de nuvem pública, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas de nuvem pública:
+
 * Amazon Web Services (AWS)
 * Google Cloud Platform (GCP)
 * Microsoft Azure
 
 Atualmente, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
+
 * VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7);
 * vCloud
 * Openstack
@@ -3754,11 +3756,88 @@ Depois do provisionamento de um container, a Plataforma do uCloud efetua a ‘im
 
 Quando o usuário acessa o menu Containers, a Plataforma do uCloud apresenta uma lista com os containers provisionados no ambiente do uCloud.
 
+.. image:: /figuras/ucloud_menu_container001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 80 %
+   :align: center
+
+----
+
+* **Botão Conectar Container**: Este botão permite ao usuário configurar e conectar um novo container.
+* **Botão Refresh**: A Plataforma do uCloud se comunica com o console dos provedores através da API Rest, toda ação executada ou configurada, nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes então executem a ação desejada. Ao atualizar apenas o conteúdo das seções de tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, em seguida ao clique, a Plataforma do uCloud executa apenas a atualização das informações contidas em nossas bases de dados.
+* **Nome**: Esta coluna apresenta o nome do container informado e identificado no momento do seu provisionamento na Plataforma do uCloud.
+* **Endereço do Container**: Esta coluna apresenta o endereço lógico do container, esta informação é extraída automaticamente do ambiente do provedor de serviço de nuvem (público e/ou privado).
+* **Tipo**: Esta coluna apresenta o tipo do container, em outras palavras, o tipo do provedor de serviço de nuvem (público/privado) de forma resumida.
+
 Gerenciando um Container
 ------------------------
 
+Ao selecionar o menu Container, a Plataforma do uCloud, apresenta uma extensa tela com diversas seções (card). Para efeito didático, houve um recorte na imagem total da tela, com o objetivo de descrever e detalhar cada seção de forma individual.
+
+.. image:: /figuras/ucloud_menu_container002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 80 %
+   :align: center
+
+----
+
+A seguir a descrição detalhada de cada seção:
+
+* **Botão Sync Container**: Este botão pode ser acionado quando o usuário deseja sincronizar todos os dados referente a ‘importação’ do container de um provedor de serviço de nuvem pública (AWS, Azure, GCP) com a Plataforma uCloud. Importante ressaltar que a sincronização do container é automática, ocorrendo a cada período de duas (02) horas. Este botão pode ser útil ao usuário que deseja ativar a sincronização de forma manual a qualquer instante.
+* **Botão Rebuild Consoles**: Este botão pode ser acionado quando o usuário deseja sincronizar todos os dados referente a ‘importação’ do container de um provedor de serviço de nuvem privada (VMware, vCloud, Hyper-v, KVM, Openstack) com a Plataforma uCloud. Este botão pode ser útil ao usuário que deseja ativar a sincronização de forma manual a qualquer instante.
+* **Botão Excluir Container**: O usuário deve clicar com o cursor do mouse sobre este botão quando for necessário remover um Container previamente provisionado. Importante ressaltar que a remoção do container irá somente “desconectar” a Plataforma do uCloud das credenciais de acesso do provedor de serviço de nuvem (público e/ou privado). Portanto, a exclusão de um Container não expurga (remove) qualquer máquina virtual existente. Quando clicar sobre este botão a Plataforma do uCloud solicita a confirmação da remoção do Container.
+
+* **Seção Geral**: Esta seção apresenta as informações básicas referentes ao container, conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_container003.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 80 %
+   :align: center
+
+----
+
+  * **Nome**: Este campo apresenta o nome informado pelo usuário no momento da configuração do Container. Veja no documento Manual do Administrador uCloud para detalhes e procedimentos de configuração de um container na Plataforma do uCloud.
+
+  * **Provider Name**: Este campo apresenta a identificação genérica do Container informado pelo usuário no momento da configuração do container. Veja no documento Manual do Administrador uCloud para detalhes e procedimentos de configuração de um container na Plataforma do uCloud.
+
+  * **Endereço IP**: Este campo apresenta a identificação do Endereço TCP-IP do provedor de serviço de nuvem pública. Este campo é preenchido e atualizado automaticamente pela conexão da Plataforma do uCloud com o provedor de serviço de nuvem pública, o usuário não tem nenhuma interação com este conteúdo.
+
+  * **Tipo do Container**: Este campo exibe o nome do tipo do Container que a Plataforma do uCloud apresenta na lista tipo “dropdown” selecionado no processo de configuração de um container pelo usuário.
+
+  * **Dono**: Este campo apresenta as credenciais do usuário responsável pelo provisionamento e configuração do container no ambiente da Plataforma do uCloud. Importante ressaltar que apenas o usuário com perfil “Administrador” pode efetuar a configuração de um container. Veja no documento Manual do Administrador uCloud para detalhes e procedimentos de configuração de um container na Plataforma do uCloud.
+
+  * **Configurações do Financeiro**: Neste campo está representada a configuração de como a Plataforma do uCloud deve obter o arquivo de billing do provedor de serviço de nuvem pública (.CSV). Cada provedor (AWS, Azure e GCP) possui uma configuração específica e particular, consultar o documento Manual do Administrador uCloud para detalhes e procedimentos de configuração do billing de um container na Plataforma do uCloud. **ATENÇÃO não alterar ou apagar a configuração provisionada neste campo, esta ação irá remover e apagar toda a informação para a obtenção do billing dos recursos computacionais deste provedor de serviço de nuvem**.
+
+  * **Configurações de monitoramento e Kubernetes**: Este campo permite informar uma credencial que permite o monitoramento de recursos computacinais de nuvem, bem como o *token* de acesso para o ambiente de monitoramento Kubernete. **ATENÇÃO Não altere ou apague a informação contida neste campo, esta ação irá desligar e desconectar por completo o ambiente de monitoramento deste container**.
+
+  * **Enviar Alerta de Erro de Faturamento**: Este botão quando ativado irá enviar qualquer mensagem de correio eletrônico, para o email das credenciais informadas no campo Dono acima, nos eventos que a Plataforma do uCloud defrontar com qualquer tipo de incoerência (um erro) durante o processo de sincronização do arquivo de billing (.csv) do provedor de serviço de nuvem pública.
+
+  * **Sincronização Automática**: Este botão permite ao usuário selecionar a ativação do processo de sincronização do container de forma automática ou não. Importante mencionar: quando selecionado ‘Auto Sync: Não’ o usuário deve efetuar a sincronização manual das informações do container.
+
+* **Seção Template**: Nesta seção estão listadas todas as opções referente ao recurso computacional template (sistema operacional) específico do provedor de serviço de nuvem pública selecionado. Esta relação não é passível de ser editada nesta tela, pois esta relação é obtida no processo de sincronização do container. O usuário vinculado, como Administrador de Grupo ou Administrador de Contrato, pode restringir a exibição destas opções através da edição de recursos do Virtual Datacenter. Veja o item Editando um Virtual Datacenter.
+
+* **Seção Storages**: Nesta seção estão listadas todas as opções referente ao recurso computacional storage (armazenamento) específico do provedor de serviço de nuvem pública selecionado. Esta relação não é passível de ser editada nesta tela, pois esta relação é obtida no processo de sincronização do container.
+
+* **Seção Flavors**: Nesta seção estão listadas todas as opções referente ao recurso computacional flavor (configuração do hardware da máquina virtual, CPU, memória e disco) específico do provedor de serviço de nuvem pública selecionado. Esta relação não é passível de ser editada nesta tela, pois esta relação é obtida no processo de sincronização do container. O usuário vinculado, como Administrador de Grupo ou Administrador de Contrato, pode restringir a exibição destas opções através da edição de recursos do Virtual Datacenter. Veja o item Editando um Virtual Datacenter.
+
+* **Seção Regiões**: Nesta seção estão listadas todas as opções referente ao recurso computacional Região Global específica do provedor de serviço de nuvem pública selecionado. Esta relação não é passível de ser editada nesta tela, pois esta relação é obtida no processo de sincronização do container. O usuário vinculado como Administrador de Grupo ou Administrador de Contrato, pode restringir a exibição destas opções através da edição de recursos do Virtual Datacenter. Veja o item Editando um Virtual Datacenter.
+
+* **Seção Redes**: Nesta seção estão listadas todas as opções referente ao recurso computacional de rede de dados, específica do provedor de serviço de nuvem pública selecionado. Esta relação não é passível de ser editada nesta tela, pois a relação é obtida no processo de sincronização do container. O usuário vinculado como Administrador de Grupo ou Administrador de Contrato, pode restringir a exibição destas opções através da edição de recursos do Virtual Datacenter. Veja o item Editando um Virtual Datacenter.
+
+* **Seção Políticas de Permissionamento**: Nesta seção é possível criar Políticas de Permissionamento específicas para cada ambiente do provedor de serviço de nuvem pública. Desta forma mesmo que esta seja provisionada através da Plataforma uCloud, a política de permissionamento ficará válida para quaisquer ações efetuadas através da interface da Plataforma uCloud e, também, fica válida para quaisquer ações efetuadas pelo usuário diretamente no console do provedor de serviço de nuvem pública.
+
+* **Seção Máquinas Virtuais**: Nesta seção a Plataforma uCloud apresenta a lista de máquinas virtuais que existiam no ambiente do provedor de serviço de nuvem pública e, durante o processo de provisionamento do container, o usuário Administrador do Contrato selecionou a opção *Importar sem Recursos desligado*. Esta opção desligada indica a Plataforma uCloud para importar todos os recursos computacionais de serviço de nuvem pública exitentes. Desta forma, após a conexão do Container e terminada a sincronização, serão exibidas nesta tabela todas as máquinas virtuais previamente exitentes no ambiente e que ficarão vinculadas a este container. Esta relação de máquinas virtuais poderá ser alterada (adição e remoção) por decorrência de quaisquer alterações no ambiente do provedor de serviço de nuvem pública - sejam estas ações executadas através do console do provedor ou através do provisionamento/operação de recursos computacionais através da interface da Plataforma uCloud.
+
+* **Seção Notificações**: Esta seção apresenta uma relação diária de mensagens (*log*) do ambiente do provedor de serviço de nuvam pública, decorrente da comunicação via API-Rest com a Plataforma uCloud. Esta relação pode ser útil para identificar potenciais problemas de comunicação da Plataform uCloud com o console do provedor de serviço de nuvem pública.
+
+
 Criando Novo Container
 ----------------------
+
+O processo de provisionamento de Container é restrito para usuários com perfil Administrdor de Contrato e com permissão de criação de novas credenciais no console do provedor de serviço de nuvem.
+
+Entre em contato com a equipe de Suporte Tecnico (chamados@usto.re) e solicite o acesso a documentação específica do processo de provisionamento de credenciais IAM no console do provedor de serviço de nuvem pública e, também, acesso a documentação do Administrador da Plataforma uCloud, para provisionar um novo container para seu ambiente.
+
 
 Menu Hosts
 ==========
@@ -3766,6 +3845,7 @@ Menu Hosts
 O termo “Hosts” na Plataforma do uCloud é utilizado para representar um servidor físico (hardware) encarregado de dar suporte e executar um hypervisor on-premises (privado). Portanto, somente após o completo provisionamento do recurso de hardware (physical host - servidor físico) este deve ser provisionado e vinculado a uma nuvem privada (container) na Plataforma do uCloud. Por exemplo, um novo servidor privado que seja responsável por executar uma instância do VMware vCenter ou um Pool do XenServer ou com o Keystone do OpenStack.
 
 Atualmente, a Plataforma do uCloud está preparada para conectar-se com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
+
 * VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7)
 * vCloud
 * OpenStack versão Mitaka ou superior
@@ -3932,7 +4012,7 @@ D. **Virtual Private Gateway**: é um dispositivo físico ou uma aplicação de 
 
 .. image:: /figuras/ucloud_menu_vpn001.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 30 %
+   :scale: 10 %
    :align: center
 
 ----
@@ -4022,9 +4102,9 @@ Caro usuário, mais uma vez é enfatizada, fortemente, a ação de buscar inform
 
 Ao criar uma VPN em nuvem pública o usuário deve seguir a seguinte ordem no processo de provisionar corretamente uma conexão VPN (Túnel VPN), é necessário provisionar cada item isolado e sequencialmente:
 
-#. Customer Gateway,
+#. Customer Gateway
 #. Private Gateway
-#. Túnel VPN.
+#. Túnel VPN
 
 Abaixo segue a descrição de cada etapa do processo.
 
@@ -4055,9 +4135,9 @@ Abaixo a descrição dos campos desta tela:
 
 * **Endereço IP**: Este campo é obrigatório, o usuário deve informar o Endereço TCP-IP do gateway da VPN: Por representar um CIDR da rede interna do provedor, o usuário deve verificar se existe alguma Rede (Sub-rede) anteriormente provisionada para a região global selecionada no campo anterior.
 * **Agendar**: Este ícone permite ao usuário agendar o provisionamento do Customer Gateway, o valor padrão é Desabilitado (cor vermelha).
-* **Ícone Desabilitado** |icone_habilita_off|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Customer Gateway será imediatamente provisionado no ambiente do provedor de serviço de nuvem pública, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
-* **Ícone Habilitado** |icone_habilita_on|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Customer Gateway, no ambiente do provedor de serviço de nuvem pública. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas, pela empresa usuária da Plataforma do uCloud. Quando o usuário clicar no botão e alterar o ícone para habilitado (cor verde), a Plataforma do uCloud permite inserir a data desejada.
-* **Ícone Calendário** |icone_calendario|: Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar na tela o ‘pop-up’ que permite o usuário selecionar a data desejada, conforme a imagem abaixo:
+* **Ícone Desabilitado** |icone_desb_verm|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Customer Gateway será imediatamente provisionado no ambiente do provedor de serviço de nuvem pública, basta o usuário clicar com o cursor do mouse no botão Criar (cor verde).
+* **Ícone Habilitado** |icone_habil_verde|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Customer Gateway, no ambiente do provedor de serviço de nuvem pública. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas, pela empresa usuária da Plataforma do uCloud. Quando o usuário clicar no botão e alterar o ícone para habilitado (cor verde), a Plataforma do uCloud permite inserir a data desejada.
+* **Ícone Calendário** |icone_agenda|: Basta o usuário clicar sobre o ícone do calendário para a Plataforma do uCloud apresentar na tela o ‘pop-up’ que permite o usuário selecionar a data desejada, conforme a imagem abaixo:
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
    :alt: Virtual Datacenter - Exemplo
