@@ -112,7 +112,7 @@ Integração e Interoperabilidade entre Plataformas (*API Ucloud*)
 
 Interoperabilidade é a habilidade de dois ou mais sistemas (computadores, meios de comunicação, redes, software e outros componentes de tecnologia da informação) de interagir e de intercambiar dados de acordo com um método definido, de forma a obter os resultados esperados. Interoperabilidade define se dois componentes de um sistema, desenvolvidos com ferramentas diferentes, de fornecedores diferentes, podem ou não atuar em conjunto.
 
-A comunicação entre estes 'sistemas' se baseia no consumo de uma interface de programação de aplicação (API) que possibilita o envio e recebimento de chamadas para execução de alguma atividade ou extrair de algum tipo de informação armazenada.  A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.
+A comunicação entre estes "sistemas" se baseia no consumo de uma interface de programação de aplicação (API) que possibilita o envio e recebimento de chamadas para execução de alguma atividade ou extrair de algum tipo de informação armazenada.  A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.
 
 Por meio de APIs, desenvolvedores podem estabelecer comunicação (interoperabilidade) entre softwares e aplicativos capazes de se comunicar com outras plataformas.
 
@@ -592,7 +592,7 @@ Administração / Grupos
 
 Na Plataforma uCloud, o termo Grupo estabelece um conceito que permite alocar uma determinada quantidade de recursos computacionais, ou recursos financeiros, que poderão ser consumidos por todos os usuários que estão vinculados ao grupo, criando assim uma pequena ‘célula’ de governança financeira. A Plataforma do uCloud pode conter diversos Grupos para que a governança financeira fique mais próxima do cenário real da organização.
 
-Importante ressaltar que o conceito de ''Grupos" existe somente para a Plataforma do uCloud e não existe nada similar nos provedores de serviço de nuvem pública ou privada.
+Importante ressaltar que o conceito de ""Grupos" existe somente para a Plataforma do uCloud e não existe nada similar nos provedores de serviço de nuvem pública ou privada.
 
 Um Grupo de usuários pode ser um Departamento, uma Unidade de Negócio, um Centro de Custos, uma Filial. Quando se define um limite de quantidade de recursos computacionais ou um limite financeiro para um grupo, significa que a Plataforma do uCloud registra este limite.
 
@@ -754,7 +754,7 @@ Esta seção da tela possui uma lista com colunas, descritas a seguir;
 
    * **Ícone de Cota de Grupo** |icone_cota_grp|; Este ícone será apresentado nas linhas de usuários que estão associados a cota de grupo.
    * **Ícone de Cota de Usuário** |icone_cota_indv|; Este ícone será apresentado nas linhas de usuários que estão associados a cota individual.
-   * **Botão Editar Cotas** |botao_editar|; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão 'Editar Cotas' a Plataforma do uCloud apresenta a tela abaixo:
+   * **Botão Editar Cotas** |botao_editar|; Este botão é apresentado somente nas linhas de usuários que estão associados às cotas individuais. Exclusivamente estará ativo se o perfil do usuário que está registrado e acessando esta tela for um administrador de grupo ou de contrato e possuir a permissão para alterar o conteúdo do(s) campo(s). Quando for pressionado o botão "Editar Cotas" a Plataforma do uCloud apresenta a tela abaixo:
 
 .. figure:: /figuras/uCloud_menu_grupo_010.png
    :alt: menu de grupo
@@ -885,7 +885,7 @@ Isolamento Financeiro de Recursos Computacionais
 
 A Plataforma uCloud estabelece o conceito de Grupo que permite a alocação de uma determinada quantidade de recursos computacionais, ou valores financeiros, os quais podem ser consumidos por todos os usuários que estão vinculados ao Grupo, assim é criada uma pequena ‘célula’ de governança financeira. A Plataforma do uCloud pode conter diversos Grupos, deste modo, a governança financeira fica mais próxima do cenário real da organização.
 
-Importante ressaltar que o conceito de ''Grupos" permanece somente para a Plataforma do uCloud e nada similar existe nos provedores de serviço de nuvem pública ou privada.
+Importante ressaltar que o conceito de ""Grupos" permanece somente para a Plataforma do uCloud e nada similar existe nos provedores de serviço de nuvem pública ou privada.
 
 Um Grupo que contém usuários, pode ser um Departamento, uma Unidade de Negócio, um Centro de Custos, uma Filial. Quando se define um limite de quantidade de recursos computacionais ou um limite financeiro a um grupo, significa que a Plataforma do uCloud nega (bloqueia) a criação ou alteração de um recurso computacional, se este ultrapassar os limites estabelecidos para o grupo, por qualquer usuário vinculado a este grupo - Uma vez definido o limite de recurso do grupo, este novo recurso computacional não pode ultrapassar estes limites.
 
@@ -3733,6 +3733,27 @@ De Acordo
 Menu Containers
 ===============
 
+O termo Containers na Plataforma do uCloud é utilizado para representar um Hypervisor, seja este público e/ou privado. Um container é uma abstração lógica para agrupar todos os recursos (máquinas virtuais, servidores, discos, storages) de um determinado tipo de hypervisor. Por exemplo, um container privado representa a conexão com uma instância do VMware vCenter, com um Pool do XenSever ou com o Keystone do Openstack.
+
+Em relação aos provedores de serviço de nuvem pública, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas de nuvem pública:
+* Amazon Web Services (AWS)
+* Google Cloud Platform (GCP)
+* Microsoft Azure
+
+Atualmente, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
+* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7);
+* vCloud
+* Openstack
+* Xen Server
+* XCP-NG
+* KVM
+
+A Plataforma do uCloud, além das funções de CSB, também é um agregador de funcionalidades que permite aos usuários, de forma simples e centralizada, o controle de diversas consoles de gerenciadores de ambientes virtualizados (hypervisors) seja do ambiente privado on-premisses quanto do ambiente de fornecedores de nuvem pública. Agregamos funcionalidades de monitoração, fluxo de trabalho na nuvem (Cloud Work Flow) e implementar um repositório ‘biblioteca’ centralizado de arquivos (playbooks) de referência para uso de ferramentas de infraestrutura como código (Infrastructure as a Code).
+
+Depois do provisionamento de um container, a Plataforma do uCloud efetua a ‘importação’ de todas as suas características e recursos computacionais para que o usuário possa interagir neste ambiente através da interface do uCloud. A qualquer momento um container pode ser descontado do uCloud, esta operação é considerada operação interna ao banco do uCloud, por isso não causa nenhuma modificação ou ação no ambiente do cliente. Durante a importação, as máquinas virtuais do container devem ser ‘importadas’ para um Virtual Datacenter (VDC) e, este VDC deve estar desvinculado de qualquer outro container.
+
+Quando o usuário acessa o menu Containers, a Plataforma do uCloud apresenta uma lista com os containers provisionados no ambiente do uCloud.
+
 Gerenciando um Container
 ------------------------
 
@@ -3742,8 +3763,67 @@ Criando Novo Container
 Menu Hosts
 ==========
 
+O termo “Hosts” na Plataforma do uCloud é utilizado para representar um servidor físico (hardware) encarregado de dar suporte e executar um hypervisor on-premises (privado). Portanto, somente após o completo provisionamento do recurso de hardware (physical host - servidor físico) este deve ser provisionado e vinculado a uma nuvem privada (container) na Plataforma do uCloud. Por exemplo, um novo servidor privado que seja responsável por executar uma instância do VMware vCenter ou um Pool do XenServer ou com o Keystone do OpenStack.
+
+Atualmente, a Plataforma do uCloud está preparada para conectar-se com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
+* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7)
+* vCloud
+* OpenStack versão Mitaka ou superior
+* Xen Server versão 7.0 ou superior
+* XCP-NG versão 7.5 ou superior
+* KVM
+
+Depois do provisionamento de um host, a Plataforma do uCloud efetua a ‘importação’ de todas as suas características e dos recursos computacionais, desta forma o usuário pode interagir neste ambiente através da interface do uCloud.
+
+A qualquer momento um host pode ser desconectado da plataforma do uCloud, esta operação é considerada uma operação interna ao banco do uCloud, desta forma não causa modificação ou ação no ambiente do cliente. Durante a importação, as máquinas virtuais do container devem ser ‘importadas’ para um Virtual Datacenter (VDC) e este VDC não pode estar vinculado a qualquer outro container.
+
+Quando o usuário acessar o Menu “Hosts” a Plataforma do uCloud exibe a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_hosts001.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 80 %
+   :align: center
+
+----
+
+Abaixo segue a descrição das colunas desta lista de hosts:
+
+* **Nome**: Esta coluna apresenta o nome do Host informado pelo usuário no momento do seu provisionamento, ele pode apresentar um Endereço TCP-IP para os Hosts que foram identificados no campo ‘Nome’. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de Hosts.
+* **IP**: Esta coluna apresenta o Endereço TCP-IP do Host, informado pelo usuário no momento do seu provisionamento. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de Hosts.
+* **Nome do Container**: Esta coluna apresenta o nome do Container ao qual o Host está vinculado, no momento do seu provisionamento. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de Hosts.
+
 Visualizando um Host
 --------------------
+
+Quando o usuário clica com o cursor do mouse sobre uma das linhas querepresenta um *Host* provisionado a Plataforma uCloud apresenta a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_hosts002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 80 %
+   :align: center
+
+----
+
+Abaixo descrevemos o conteúdo de cada seção desta tela.
+
+* **Seção General**: Esta seção apresenta os dados iniciais referente ao *host*:
+  * **Nome**: Este campo apresenta o nome do *host* que foi informado no momento de seu provisionamento.
+  * **Endereço IP**: Este campo apresenta o endereço TCP-IP que foi informado no momento de seu provisionamento.
+  * **Container**: Este campo apresenta o nome do *Container - Nuvem* que este host foi vinculado. Este campo é obtido da informação do campo nome do *Container*, que foi informado no momento do provisionamento.
+  * **Tipo do Container**: Este campo apresenta a informação do tipo do container, que foi selecionado no momento do provisionamento do *Container*.
+
+* **Seção Custo**: Esta seção apresenta a smatória dos valores de todas as instâncias virtuais (máquinas virtuais) que estão sendo executadas neste respectivo *host*. Os valores das máquinas vão ser calculados, apenas, se o valor do host for cadastrado antes para o mês correspondente.
+* **Seção Performance Instantânea**: Esta seção apresenta um gráfico com a informação de ocupação de Memória e vCPUs deste host. No momento inicial de consulta desta tela, a Plataforma uCloud pode não apresentar um gráfico em branco. A Plataforma uCLoud coleta e atualiza a informação de ocupação de memória total e utilização de CPU a cada 5 minutos.
+* **Seção Máquinas Virtuais**: Esta seção apresenta a lista de máquinas virtuais que foram provisionadas e existem na infraestrutura do host.
+
+  * **Nome**: Nesta coluna será apresentado o nome da máquina virtual informado no momento da sua criação no console do provedor de serviço de nuvem, ou quando configurado através do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Usuário**: Esta coluna apresenta as credenciais do usuário registrado, em uma sessão na Plataforma do uCloud, o qual foi o responsável pelo provisionamento da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **IP Privado**: Esta coluna apresenta o endereço TCP-IP vinculado a esta máquina virtual no momento de sua criação. Importante ressaltar que este endereçamento TCP-IP pertence ao ambiente de rede privada do provedor de serviço de nuvem (recebe do servidor DHCP interno do provedor) e, este endereço, pode mudar quando a máquina virtual for reiniciada (reboot). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP de forma crescente ou decrescente.
+  * **IP Público**: Esta coluna pode estar em ‘branco’, pois nesta coluna é apresentado o endereço TCP-IP Público que foi vinculado a esta máquina virtual em um momento posterior ao provisionamento da máquina virtual. O Endereço TCP-IP Público, é um endereço fixo e pode incorrer em custos mensais para sua manutenção e vinculação a uma máquina virtual provisionada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
+  * **Memória**: Nesta coluna é apresentado o número da quantidade de memória RAM configurada nesta máquina virtual, expressa sempre em Gigabytes. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de máquinas virtuais com base no tamanho da memória de forma crescente ou decrescente.
+  * **CPUs**: Nesta coluna é apresentado o número da quantidade de CPU(s) configurada nesta máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de máquinas virtuais com base na quantidade de CPU(s), de forma crescente ou decrescente.
+  * **Busca Rápida**: O usuário poderá observar que logo abaixo do nome de cada coluna existe um campo em ‘branco’, este campo permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de eventos de login. Basta preencher o campo em ‘branco’ com uma sequência de caracteres que possam ser relevantes e a Plataforma do uCloud atualizará a tela de forma a representar este padrão de busca.
+
 
 Menu Redes
 ==========
@@ -3844,6 +3924,7 @@ Por padrão, os recursos de máquinas virtuais existem dentro do ambiente do pro
 Importante estabelecer alguns conceitos básicos neste documento, pois o processo de provisionamento de uma VPN envolve algumas etapas, como descrito:
 
 O usuário pode seguir os principais conceitos do Site-to-Site VPN:
+
 A. **Conexão VPN**: uma conexão para o tráfego seguro de pacotes de dados TCP-IP em uma conexão encriptada entre a sua rede local corporativa e o ambiente de rede do provedor de serviço de nuvem pública.
 B. **Túnel VPN**: um link criptografado em que os dados podem transmitir da rede do cliente para a rede do provedor de serviço de nuvem pública ou vice-versa. Cada conexão VPN pode incluir dois túneis VPN, os quais o usuário pode usar simultaneamente, para alta disponibilidade.
 C. **Customer Gateway**: um recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente.
@@ -3874,7 +3955,7 @@ O menu VPN contém todas as VPNs criadas por um usuário em um ambiente de nuvem
 
 Esta tela possui uma seção para cada configuração, segue detalhamento das informações apresentadas nas colunas de cada seção:
 
-* **Seção Customer Gateway**:
+* **Seção Customer Gateway**: Esta seção apresenta as informações específicas do Custmer Gateway.
 
   * **Container**: Esta coluna apresenta o nome do Container no qual o Customer Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
   * **Região**: Esta coluna apresenta o nome da Região Global, a qual o Customer Gateway está vinculado, selecionada pelo usuário logado, no momento do provisionamento.
@@ -3882,9 +3963,9 @@ Esta tela possui uma seção para cada configuração, segue detalhamento das in
   * **Endereço IP**: Esta coluna apresenta o CIDR do Endereço TCP-IP, informado pelo usuário durante o provisionamento do Customer Gateway.
   * **BGP ASN**: Esta coluna apresenta a informação do Border Gateway Protocol (BGP) e do Autonomous System Number (ASN) ele é disponibilizado apenas quando um Customer Gateway elege o roteamento dinâmico. Quando selecionado o roteamento estático, esta coluna pode apresentar o CIDR do Endereço TCP-IP.
   * **Criado Por**: Esta coluna apresenta o nome do usuário que estava com a sessão ativa na Plataforma do uCloud no momento da criação, foi o responsável pelo provisionamento do Customer Gateway.
-  * **Ações**: Esta coluna apresenta apenas um ícone de ação, ela permite ao usuário remover o Customer Gateway. O usuário deve clicar com o cursor do mouse sobre o Ícone Lata de Lixo e a Plataforma do uCloud apresenta uma tela ‘pop up’ , a qual solicita ao usuário confirmar a exclusão da configuração de Customer Gateway :
+  * **Ações**: Esta coluna apresenta apenas um ícone de ação |icone_lixo|, ela permite ao usuário remover o Customer Gateway. O usuário deve clicar com o cursor do mouse sobre o Ícone Lata de Lixo e a Plataforma do uCloud apresenta uma tela *pop up* , a qual solicita ao usuário confirmar a exclusão da configuração de Customer Gateway.
 
-* **Seção Virtual Private Gateway**:
+* **Seção Virtual Private Gateway**: Esta seção apresenta as informações específicas do Private Gateway.
 
   * **Container**: Esta coluna apresenta o nome do Container no qual o Virtual Private Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
   * **Região**: Esta coluna apresenta o nome da Região Global, a qual o Virtual Private Gateway está vinculado, selecionado pelo usuário logado, no momento do provisionamento.
@@ -3893,7 +3974,7 @@ Esta tela possui uma seção para cada configuração, segue detalhamento das in
   * **Criado Por**: Esta coluna apresenta o nome do usuário que estava com a sessão ativa na Plataforma do uCloud no momento da criação, o responsável pelo provisionamento do Virtual Private Gateway.
   * **Ações**: Esta coluna pode apresentar três ícones de ação, ela permite ao usuário interagir com o Virtual Private Gateway selecionado:
 
-    * **Ícone Conectar a uma Rede** : Quando o usuário necessita vincular o Virtual Private Gateway a uma rede existente na Região, basta clicar com o cursor do mouse sobre este ícone e a Plataforma do uCloud apresenta a tela abaixo, nela o usuário pode selecionar a Rede que deseja vincular ao Virtual Private Gateway.
+    * **Ícone Conectar a uma Rede** |icone_conecta_rede|: Quando o usuário necessita vincular o Virtual Private Gateway a uma rede existente na Região, basta clicar com o cursor do mouse sobre este ícone e a Plataforma do uCloud apresenta a tela abaixo, nela o usuário pode selecionar a Rede que deseja vincular ao Virtual Private Gateway.
 
 .. image:: /figuras/ucloud_menu_vpn003.png
    :alt: Virtual Datacenter - Exemplo
@@ -3928,7 +4009,8 @@ Esta tela possui uma seção para cada configuração, segue detalhamento das in
 
     Cada campo apresentado nesta tela é do tipo “drop down”, basta o usuário clicar sobre o campo e a Plataforma do uCloud apresenta as opções disponíveis a serem selecionadas pelo usuário.
     Após selecionar uma das três opções desta tela, basta o usuário clicar no botão “Download” para que a Plataforma do uCloud possa armazenar esse arquivo de configuração no folder ou diretório padrão para download configurado no navegador de Internet (Internet Browser) do usuário. Depois de encontrar o arquivo, o usuário deve seguir os procedimentos especificados pelo fabricante selecionado para iniciar e estabelecer a conexão segura do Túnel VPN da sua rede corporativa local com o ambiente de rede do provedor de serviço de nuvem pública.
-    * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela 'pop up’ com a solicitação de que o usuário confirme a exclusão da configuração do Túnel VPN.
+
+    * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela "pop up’ com a solicitação de que o usuário confirme a exclusão da configuração do Túnel VPN.
 
 .. important:: As opções disponíveis são extraídas diretamente do ambiente selecionado do provedor de serviço de nuvem pública (Container), a Plataforma do uCloud não limita ou adiciona qualquer uma das opções apresentadas. Cada ambiente de provedor de serviço de nuvem pública possui suporte a determinadas plataformas e suas versões de software de VPN do fornecedor preferido.
 
@@ -3937,19 +4019,21 @@ Criar a VPN em 3 Passos
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Caro usuário, mais uma vez é enfatizada, fortemente, a ação de buscar informação e conhecimento ao consultar a documentação online do provedor de serviço de nuvem pública específico, para verificar a disponibilidade de fornecedores de tecnologia de VPN, antes de iniciar o provisionamento da conectividade VPN.
-Ao criar uma VPN em nuvem pública o usuário deve seguir a seguinte ordem no processo de provisionar corretamente uma conexão VPN (Túnel VPN), é necessário provisionar cada item isolado e sequencialmente:
-1. Customer Gateway,
-2. Private Gateway
-3. Túnel VPN.
 
-Abaixo segue a descrição de cada etapa do processo:
+Ao criar uma VPN em nuvem pública o usuário deve seguir a seguinte ordem no processo de provisionar corretamente uma conexão VPN (Túnel VPN), é necessário provisionar cada item isolado e sequencialmente:
+
+#. Customer Gateway,
+#. Private Gateway
+#. Túnel VPN.
+
+Abaixo segue a descrição de cada etapa do processo.
 
 Criar Customer Gateway
 ~~~~~~~~~~~~~~~~~~~~~~
 
 A primeira atividade do processo de criação é o provisionamento de um Customer Gateway, um recurso lógico do provedor de serviço de nuvem pública que fornece informações para o provedor sobre o dispositivo de gateway do cliente. Para isso, o usuário deve seguir os seguintes passos:
 
-* Botão “Criar Customer Gateway”: O usuário deve clicar com o cursor do mouse sobre o botão Customer Gateway e a Plataforma do uCloud apresenta a seguinte tela:
+* **Botão “Criar Customer Gateway”**: O usuário deve clicar com o cursor do mouse sobre o botão Customer Gateway e a Plataforma do uCloud apresenta a seguinte tela:
 
 .. image:: /figuras/ucloud_menu_vpn005.png
    :alt: Virtual Datacenter - Exemplo
@@ -3977,7 +4061,6 @@ Abaixo a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -4040,7 +4123,7 @@ Abaixo segue a descrição dos campos desta tela:
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de um Túnel VPN. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Túnel VPN, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente do provedor de serviço de nuvem pública, para o completo provisionamento de um Túnel VPN. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Túnel VPN.
 
-Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um ‘pop up’ para exibir as três opções de sub-menus, neste momento o usuário deve preencher as seguintes informações:
+Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um *pop up* para exibir as três opções de sub-menus, neste momento o usuário deve preencher as seguintes informações:
 
 .. image:: /figuras/ucloud_menu_vpn008.png
    :alt: Virtual Datacenter - Exemplo
@@ -4129,11 +4212,11 @@ Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um ‘pop up’ par
 
   * **Platform**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação com todas as opções de plataformas disponíveis no ambiente do provedor de serviço de nuvem pública, elas são específicas do fornecedor de tecnologia da VPN selecionado no campo Vendor. Importante ressaltar: as opções mostradas neste campo são extraídas do ambiente do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas.
   * **Software**: Este campo é do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud apresenta a relação com todas as opções de versões de software, as plataformas disponíveis no ambiente do provedor de serviço de nuvem pública, elas são específicas do fornecedor de tecnologia da VPN selecionado no campo Vendor.
-
-  Importante ressaltar: as opções mostradas neste campo são extraídas do ambiente do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas.
-
   * **Botão Cancelar**: O usuário pode usar este botão para cancelar o download da configuração do Túnel VPN. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
   * **Botão Download**: Após o usuário informar todos os parâmetros fundamentais basta clicar com o cursor do mouse sobre o botão Download e a Plataforma do uCloud inicia a transferência do arquivo de configuração no folder ou diretório padrão para descarregamento, configurado no navegador de Internet (Internet browser) do usuário. Após encontrar o arquivo o usuário deve seguir os procedimentos especificados pelo fabricante selecionado para iniciar e estabelecer a conexão segura do Túnel VPN da sua rede corporativa local com o ambiente de rede do provedor de serviço de nuvem pública.
+
+.. note:: As opções mostradas no campo *Software* são obtidas via API diretamente do ambiente nativo do provedor de serviço de nuvem pública, a Plataforma uCloud não adiciona ou limita as opções exibidas.
+
 
 Menu Storage
 ============
@@ -4210,14 +4293,11 @@ Por outro lado, para os ambientes de nuvem privada, a Plataforma do uCloud obté
 ----
 
   * **Máquina Virtual**: Esta coluna apresenta o nome da máquina virtual informado pelo usuário, no momento que esta é provisionada através da Plataforma do uCloud ou por intermédio do console do provedor de serviço de nuvem pública/privada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
-
   * **Zona de Disponibilidade**: Esta coluna apresenta o nome da Zona de Disponibilidade do provedor de serviço de nuvem pública/privada ao qual o recurso de disco está vinculado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
-
   * **Nome do Disco**: Esta coluna apresenta o nome do disco informado pelo o usuário no momento em que este é provisionado através da Plataforma do uCloud ou por intermédio do console do provedor de serviço de nuvem pública/privada. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica e exibe a lista de nomes das máquinas virtuais, de forma alfabética na ordem crescente (a – z) ou decrescente (z – a).
-  
   * **Tamanho do Disco**: Esta coluna apresenta o tamanho total do volume do disco definido pelo usuário no momento em que o disco é provisionado. Estes valores podem ser representados em Gigabytes (Gb) ou Terabytes (Tb).
 
-* **Seção Discos Órfãos**: Esta seção apresenta todos os recursos de discos que não estão associados a uma máquina virtual. A denominação de ‘disco órfão' ocorre depois que uma máquina virtual é removida (apagada), esta conta com um o recurso de disco extra que é adicionado devido a alguma necessidade específica (como recurso adicional). Quando a máquina virtual (com “disco extra”) é removida o recurso disco se mantém vinculado ao valor da conta da organização (‘Contrato’) mas sem estar vinculado a uma máquina virtual ativa.
+* **Seção Discos Órfãos**: Esta seção apresenta todos os recursos de discos que não estão associados a uma máquina virtual. A denominação de ‘disco órfão" ocorre depois que uma máquina virtual é removida (apagada), esta conta com um o recurso de disco extra que é adicionado devido a alguma necessidade específica (como recurso adicional). Quando a máquina virtual (com “disco extra”) é removida o recurso disco se mantém vinculado ao valor da conta da organização (‘Contrato’) mas sem estar vinculado a uma máquina virtual ativa.
 
 A Plataforma do uCloud obtém esta informação de forma regular e constante, através do processo de sincronização do arquivo de Billing.
 
