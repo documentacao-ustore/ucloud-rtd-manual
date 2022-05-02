@@ -4654,12 +4654,13 @@ Na coluna **Tag** o usuário pode encontrar a informação necessária, referent
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
 
-Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_edita_on| que permite ao usuário alterar a informação da etiqueta (tag) da linha do recurso selecionado. Basta o usuário clicar com o cursor do mouse sobre o ícone, e a Plataforma do uCloud apresenta a seguinte tela:
+Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_edita_on| que permite ao usuário adicionar uma nova tag para o recurso computacional, bem como alterar a informação da etiqueta (tag) da linha do recurso selecionado. Quando o usuário clicar com o cursor do mouse sobre o ícone, em um recurso computacional que não possua nenhuma tag a Plataforma uCloud apresenta a seguinte tela:
 
-.. image:: /figuras/ucloud_menu_inventario_recursos002.png
+.. image:: /figuras/ucloud_menu_inventario_recursos003.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
+   :class: with-border
 
 ----
 
@@ -4667,7 +4668,15 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 
   * **Ícone Lata de Lixo** |icone_lixo|): Este ícone permite ao usuário apagar toda a informação referente às etiquetas (tags) do recurso que está sendo editado. Importante ressaltar que esta ação é definitiva, da mesma forma ela é aplicada no recurso do provedor de serviço de nuvem, após a sincronização da ação com a console do provedor.
 
-  * **Ícone de Edição Ativo** |icone_edita_on| Este ícone permite ao usuário alterar o conteúdo da etiqueta (tag) da linha do recurso selecionado, quando selecionado apresenta os campos abaixo:
+  * **Ícone de Edição Ativo** |icone_edita_on| Este ícone permite ao usuário tanto adicionar nova(s) tag(s), bem como alterar o conteúdo da tag da linha do recurso selecionado, quando selecionado a Plataforma uCloud apresenta a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_inventario_recursos002.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+   :class: with-border
+
+----
 
     * **Chave**: Neste campo, o usuário deve preencher com a sequência de caracteres referente a chave (key) que deseja vincular ao recurso.
     * **Valor**: Neste campo o usuário deve preencher com informação referente ao valor que deseja vincular a chave do recurso.
