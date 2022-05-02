@@ -3908,31 +3908,401 @@ Abaixo descrevemos o conteúdo de cada seção desta tela.
 Menu Redes
 ==========
 
+Esta opção de menu é útil aos usuários da Plataforma do uCloud, devido a diversidade de funcionalidades encontradas no seu submenu. Através deste menu o usuário pode criar Subnets, Grupos de Segurança, Par de Chaves, VPN entre outros.
+
 Redes
 -----
+
+Ao utilizar este submenu o usuário poderá provisionar novos segmentos de rede TCP-IP, bem como suas respectivas sub-redes para atender ao isolamento de tráfego de projetos ou para atender a demanda da arquitetura lógica de rede de um ambiente de servidores, tanto na nuvem pública quanto na nuvem privada.
+
+A criação de sub-redes auxilia tanto do ponto de vista da segurança da infraestrutura à conectividade entre ambientes virtualizados, quanto sobre otimizar o tráfego de pacotes TCP-IP. A infraestrutura de rede pode ajudar o usuário a obter o máximo da sua nuvem ou ambiente de TI híbrido.
+
+.. attention:: Todas as Redes (e sub-redes) existentes e listadas na tela da Plataforma uCloud são pré-existentes, ou foram provisionadas, nos ambientes do provedor de serviço de nuvem pública e/ou privada. Portanto, qualquer alteração ou exclusão (delete) de uma rede pode afetar o ambiente operacional ou a comunicação entre as máquinas virtuais (as cargas de trabalho),  entre as aplicações instaladas no respectivo ambiente. Portanto, a Plataforma do uCloud não tem responsabilidade sobre as ações executadas (através da sua interface) por um usuário registrado no ambiente de rede de um provedor de serviço de nuvem pública e/ou privada.
+
+Gerenciar Rede
+--------------
+
+No submenu Redes é permitido gerenciar as redes nos diversos ambientes suportados pela plataforma do uCloud, sejam eles on-premises ou nos provedores de serviço de nuvem pública. Devido ao fato da Plataforma do uCloud ser um ambiente híbrido multi-cloud, o usuário pode notar que cada ambiente de nuvem (pública e/ou privada) está representado nesta tela com abas (tabs).
+
+Ao clicar com o cursor do mouse sobre a aba do provedor de nuvem desejado, a Plataforma do uCloud apresenta a lista de Redes (e sub-redes) específicas do provedor selecionado:
+
+.. image:: /figuras/ucloud_menu_rede001.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+.. note:: Atenção: para atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão **Refresh**, ele executa apenas a atualização das informações contidas na base de dados da plataforma do uCloud.
+
+A seguir a descrição e os detalhes com as informações sobre as colunas desta lista:
+
+* **Botão “Criar Rede”**: Caso o usuário necessite criar uma rede no ambiente do provedor de serviço de nuvem (público ou privado), basta clicar com o cursor do mouse sobre este botão, em seguida acompanhar as instruções nos itens abaixo: A. Criar Rede em Provedores de Serviço de Nuvem Pública e B. Criar Rede Privada.
+
+* **Botão Refresh**: A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, portanto, toda ação executada e/ou configurada na plataforma do uCloud passa a ser apresentada imediatamente na tela do usuário, a qual envia as ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada.
+
+* **Nome**: Esta coluna apresenta o nome da rede informada pelo usuário no momento do seu provisionamento. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de redes.
+
+* **Subnets**: Esta coluna apresenta uma lista de todas as sub-redes provisionadas para esta rede, no momento da sua criação. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna, a Plataforma do uCloud permite ao usuário digitar uma sequência de números para limitar a lista de sub-redes.
+
+* **Região**: Esta coluna apresenta a Região Global do provedor de serviço de nuvem pública, na qual a Rede e suas sub-redes estão vinculadas. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no título desta coluna a plataforma do uCloud permite ao usuário digitar uma sequência de caracteres para limitar a lista de regiões.
+
+* **Ação**: Esta coluna apresenta dois ícones, os quais permitem ao usuário interação com a Rede selecionada:
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma do uCloud remova esta Rede (e sub-redes) de forma imediata e definitiva. Esta ação é efetivada no ambiente de rede selecionado (público e/ou privado) e o tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+  * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite editar as configurações da respectiva Rede, conforme a tela abaixo.
+
+.. image:: /figuras/ucloud_menu_rede002.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+Abaixo a descrição das seções presentes nesta tela:
+
+.. attention:: Para atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas na base de dados da plataforma do uCloud.
+
+* **Seção Geral**: Esta seção apresenta as informações genéricas da rede que foram informadas pelo usuário no momento do seu provisionamento:
+
+  * **Nome**: Neste campo consta o nome informado pelo usuário, para identificar esta rede no ambiente do provedor de serviço de nuvem (público e/ou privado).
+  * **CIDR (exclusivo AWS)**: Este campo será exibido, exclusivamente, para as Redes da aba (tab) AWS, ele apresenta o CIDR informado no momento do provisionamento da Rede pelo usuário no ambiente da AWS.
+  * **Tipo**: Para as redes criadas nos provedores de serviço de nuvem pública, este campo será sempre identificado com a etiqueta “NONE” ela indica que trata-se de um tipo de rede pública controlada pelo ambiente do provedor de serviço de nuvem pública. Para as redes criadas nos ambientes privados (on-premises) este campo será nomeado com a etiqueta “VLAN”, que identifica que esta é uma rede virtual criada através da interface com o SDN (Software Defined Network).
+  * **Nome do Container**: Este campo apresenta o nome do container ao qual a Rede está vinculada.
+  * **Internet Gateway (exclusivo AWS)**: Este campo será exibido somente para Redes da aba (tab) AWS, ele apresenta a etiqueta que identifica se a rede está conectada a um Internet Gateway no ambiente da AWS. Esta etiqueta pode representar que a conexão ao Gateway está ativa (Enable) ou inativa (Disable).
+  * **Botão Habilitar/Desabilitar (exclusivo AWS)**: Este botão é um tipo “checkbox” que o usuário pode operar para trocar o seu modo atual. A cor verde indica que a conexão com Gateway está HABILITADA. A cor vermelha indica que a conexão com o Gateway está DESABILITADA. Para alternar entre os estados, basta clicar com o cursor do mouse e o campo será ativado apresentando a cor verde (habilitado). Estando na cor verde, basta clicar com o mouse e o campo será desativado exibindo a cor vermelha (desabilitado).
+
+* **Seção Sub Redes**: Nesta seção são apresentadas as especificações técnicas da rede e sua(s) respectiva(s) sub-rede(s).
+
+  * **Botão Refresh**: A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, portanto, toda ação executada e/ou configurada na plataforma do uCloud passa a ser exibida imediatamente na tela do usuário, a qual envia as ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada.
+  * **Botão “Adicionar Sub-Rede”**: Caso o usuário necessite criar uma sub-rede no ambiente do provedor de serviço de nuvem (público ou privado), basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta a tela seguinte ao usuário, é indicado acompanhar as instruções nos itens abaixo:
+  * **Nome (válido para todas Redes)**: Esta coluna apresenta o nome da sub-rede informado pelo usuário no momento do seu provisionamento.
+  * **CIDR (válido para todas Redes)**: Este campo apresenta a máscara do endereçamento TCP-IP da sub-rede, informado pelo usuário no momento do seu provisionamento. Esta máscara está representada conforme o padrão definido na RFC 1519.
+
+    No caso do usuário clicar com o cursor do mouse em qualquer um dos CIDR apresentados nesta lista, a Plataforma do uCloud apresenta uma tela que relaciona o nome das máquinas virtuais que estão associadas a esta Subnet, seus respectivos endereços MAC e TCP-IP, veja o exemplo abaixo:
+
+.. image:: /figuras/ucloud_menu_rede003.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+    * **Zona de Disponibilidade (exclusivo AWS)**: Esta coluna será apresentada exclusivamente para as redes da aba (tab) AWS, ela apresenta a Região Global na qual a sub-rede está vinculada, selecionada no momento do provisionamento realizado pelo usuário no ambiente da AWS.
+
+    * **Range-Start (apenas Azure & GCP)**: Esta coluna apresenta o endereço TCP-IP inicial da sub-rede informada pelo usuário no momento do provisionamento.
+
+    * **Range-End (apenas Azure & GCP)**: Esta coluna apresenta o endereço TCP-IP final da sub-rede informada pelo usuário no momento do provisionamento.
+
+    * **Gateway (apenas Azure & GCP)**: Esta coluna apresenta o endereço TCP-IP do Gateway de rede informado pelo usuário no momento do provisionamento da sub-rede.
+
+    * **Conectar ao SDN (apenas Azure & GCP)**: Esta coluna apresenta a informação se a sub-rede permanece conectada ao endereço TCP-IP do servidor que está executando o software do SDN.
+
+    * **Ações (válido para todas as redes)**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a sub-rede selecionada:
+
+       * Ícone Lata de Lixo |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud remover esta sub-rede de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+
+       * Ícone Edição |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa alternar todos os campos das colunas para o modo edição, de forma que o usuário possa corrigir o conteúdo dos campos e alterar as configurações da respectiva Sub-Rede. ATENÇÃO: Importante ressaltar que qualquer alteração das configurações de uma sub-rede, gerará impacto nos ambientes computacionais, nas máquinas virtuais vinculadas a esta sub-rede, nas comunicações entre aplicações e o acesso dos usuários (tanto às máquinas virtuais, como às aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam derivar desta ação.
+
+       * Ícone de Confirmação |icone_confirma|: Quando o usuário deseja confirmar a intenção de alterar o conteúdo do campo escolhido, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+
+       * Ícone de Cancelamento |icone_cancela|: No caso do usuário clicar sobre o ícone de edição, por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+
+* **Seção Contratos Associados**: Esta seção apresenta informações referente à vinculação da da Rede ao Virtual Datacenter que está presente no contrato. Portanto, esta vinculação é indireta.
+
+  * **Nome**: Este campo apresenta o nome do contrato no qual a Rede está vinculada através da associação ao Virtual Datacenter e ao qual esta Rede pertence.
+
+* **Botão “Adicionar Sub-Rede”**: Caso o usuário necessite criar uma sub-rede no ambiente do provedor de serviço de nuvem (público ou privado), basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud apresenta as telas específicas para cada provedor específico (AWS, Azure, GCP, VMware) basta acompanhar as instruções abaixo.
 
 Adicionar “Sub-Rede” no ambiente AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+A seguir a descrição dos campos a provisionar uma “Sub-rede” no ambiente AWS selecionado:
+
+.. image:: /figuras/ucloud_menu_rede004.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Sub-Rede. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+* **Zona de Disponibilidade**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista todas as Zonas de Disponibilidade livres para o ambiente da AWS.
+* **Descrição**: Este campo é opcional e de livre digitação, seu conteúdo pode ser utilizado para descrever o objetivo da Sub-Rede.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Sub-rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o botão Criar alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Sub-Rede.
 
 Adicionar “Sub-Rede” no ambiente Azure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A seguir a descrição dos campos para provisionar uma “sub-rede” no ambiente AZURE selecionado:
+
+.. image:: /figuras/ucloud_menu_rede004b.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Sub-Rede. Sugerimos utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+* **Range Start**: Este campo é obrigatório, o usuário deve informar o primeiro endereço TCP-IP (inicial) a ser provisionado para esta sub-rede.
+* **Range End**: Este campo é obrigatório, o usuário deve informar o último endereço TCP-IP (final) a ser provisionado para esta sub-rede.
+* **Gateway**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway para esta sub-rede.
+* **Botão Cancelar**: O usuário pode acionar este botão para cancelar o processo de criação de uma Sub-Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede. Caso este botão não esteja habilitado (cor cinza), significa que o usuário deixou de preencher algum parâmetro, logo a Plataforma do uCloud não permite o provisionamento da Sub-Rede até que tudo esteja preenchido.
+
 Adicionar “Sub-Rede” no ambiente GCP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A seguir a descrição dos campos a provisionar uma “Sub-Rede” no ambiente GCP selecionado:
+
+.. image:: /figuras/ucloud_menu_rede004c.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Sub-Rede. Sugerimos utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+* **Range Start**: Este campo é obrigatório, o usuário deve informar o primeiro endereço TCP-IP (inicial) a ser provisionado para esta sub-rede.
+* **Range End**: Este campo é obrigatório, o usuário deve informar o último endereço TCP-IP (final) a ser provisionado para esta sub-rede.
+* **Gateway**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway para esta sub-rede.
+* **SDN Interface IP**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway SDN específico da Google Cloud Platform (GCP). *Consultar a documentação online do ambiente da GCP para entender as características do ambiente de Nuvem Privada Virtual (Virtual Private Cloud - VPC) GCP e como a infraestrutura de rede VPC do Google Cloud é desenvolvida com base em um modelo de rede definida por software (SDN, na sigla em inglês)*.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Sub-Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede. Caso este botão não esteja habilitado (cor cinza), significa que o usuário deixou de preencher algum parâmetro, logo a Plataforma do uCloud não permite o provisionamento da Sub-Rede até que tudo esteja preenchido.
+
 Adicionar “Sub-Rede” no ambiente Privado (ex.: VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A seguir a descrição dos campos a provisionar uma “Sub-Rede” no ambiente privado VMWare:
+
+.. image:: /figuras/ucloud_menu_rede004d.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+* **Edit Subnet**: Quando o usuário inicia a criação de uma rede privada, a Plataforma do uCloud integrada com o módulo uSDN, preenche os campos desta tela de forma automática com configurações pré-definidas. Caso o usuário necessite alterar as configurações automáticas, deve clicar com o cursor do mouse sobre este campo tipo “checkbox”, ao ser selecionado permite editar os campos da tela com as configurações desejadas, desde que o perfil do usuário que está logado permita proceder a alteração.
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Sub-Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+* **Range Start**: Este campo é obrigatório, o usuário deve informar o primeiro endereço TCP-IP (inicial) a ser provisionado para esta Sub-rede.
+* **Range End**: Este campo é obrigatório, o usuário deve informar o último endereço TCP-IP (final) a ser provisionado para esta Sub-rede.
+* **Gateway**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway para esta Sub-rede.
+* **Conectar ao SDN**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse no botão Conectar ao SDN a Plataforma do uCloud apresenta as duas opções disponíveis:
+
+  * **TRUE**: Esta opção quando selecionada confirma que o módulo do uSDN gerenciará o provisionamento da Sub-Rede na rede local do Data Center Privado.
+  * **FALSE**: Esta opção quando selecionada confirma que as configurações de rede informadas, já existem no ambiente de rede do usuário e este provisionamento não será gerenciado através do módulo do uSDN. *ATENÇÃO: é importante ressaltar a recomendação para entrar em contato com a área de Suporte Técnico da Ustore antes de selecionar esta opção, pois o controle desta Sub-rede será de inteira responsabilidade da área técnica da empresa usuária da Plataforma do uCloud*.
+
+* **Descrição**: Este campo é opcional e de livre digitação, seu conteúdo pode ser utilizado para descrever o objetivo da Sub-Rede.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Sub-Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede.Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Sub-Rede.
+
+.. note:: Este manual não tem o objetivo de documentar todos os outros ambientes de redes privadas, favor entrar em contato com o suporte da Ustore para esclarecimentos detalhados específicos do seu ambiente privado.
+
+Criar Nova Rede
+---------------
+
+Conforme mencionado acima, o usuário pode provisionar novos segmentos de rede TCP-IP bem como suas respectivas sub redes para atender ao isolamento de tráfego de projetos ou para atender a demandas de arquitetura lógica de rede de um ambiente de servidores, tanto na nuvem pública quanto na nuvem privada. A Plataforma do uCloud conecta-se diretamente, via API-Rest, com o ambiente dos provedores de serviço de nuvem pública e envia tarefas a estes ambientes para provisionar novas redes em seus respectivos espaços.
+
+De natureza igual a acima mencionada, para ambientes on-premises o uCloud possui o módulo uSDN que é uma solução Ustore para a função de SDN/NFV (Software Defined Network / Network Function Virtualization [2]_) que tem a incumbência de ser a interface com os elementos de gestão de redes do hypervisors em Data Center Privados suportados pelo uCloud. Este módulo permite a gestão de segmentos de redes. Importante ressaltar que sem a presença do módulo uSDN a plataforma do uCloud não possui a capacidade de “Criar Redes” em ambientes privados.
+
+No momento que o usuário clica com o cursor do mouse sobre o botão “Criar Rede”, a plataforma do uCloud inicia o processo solicitando ao usuário o container, conforme o exemplo da tela abaixo:
+
+.. image:: /figuras/ucloud_menu_rede005.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+Importante ressaltar que alguns provedores de serviço de nuvem pública não solicitam o endereçamento TCP-IP inicial, após a criação da rede o usuário deve acionar quantas sub-redes forem necessárias para acomodar seu ambiente computacional de rede TCP-IP.
+
+Abaixo segue a descrição de ambos processos de criação de redes, tanto em ambientes de provedores de serviço de nuvem pública quanto nos ambientes de redes privadas.
+
+
+.. [2] *A virtualização de funções de rede (Network Functions Virtualization - NFV) é uma maneira de virtualizar serviços de rede, como roteadores, firewalls e balanceadores de carga, que tradicionalmente são executados em hardware proprietário*.
+
 Criar Rede em Provedores de Serviço de Nuvem Pública
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para criar uma nova rede na AWS, o usuário deve solicitar a opção ‘Criar Rede’ e indicar:
+
+a. o container no qual deve ser associado esta nova rede;
+b. o nome da rede;
+c. o CIDR associado a esta rede;
+d. a região na qual esta rede será criada.
+
+Após o procedimento acima, o usuário deve criar uma sub-rede dentro da rede que foi criada. Deste modo ele deve informar:
+
+a. nome da sub-rede;
+b. CIDR da mesma;
+c. Zona de disponibilidade;
+d. e uma descrição sobre a mesma.
+
+Alguns provedores de rede pública exigem que outras informações sejam passadas para a criação das redes. O uCloud possui botões e labels explicativos para estes casos.
+
+
 Criar Rede em Ambiente Privado (On-Premisses)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para ambientes on-premisses, o uCloud possui um módulo próprio de SDN/NFV que se comunica com os elementos de gestão de redes dos hypervisors suportados pelo uCloud que permite a gestão de segmentos de redes.
+
+Neste caso, ao selecionar a opção ‘Criar rede’ o usuário deve informar:
+
+* o container a ser utilizado;
+* o tipo de isolamento da rede, normalmente VLAN;
+* o nome a ser atribuído ao segmento de rede;
+* Se quiser especificar um VLAN ID pre-configurado no uCloud, deve marcar a opção editar VLAN ID. Se não fizer, o uCloud seleciona uma VLAN da sua lista de VLANs.
+
+Após esta etapa o usuário deverá solicitar a criação da sub-rede dentro da rede criada. Neste caso, precisa informar:
+
+* Nome da sub-rede;
+* CIDR a ser utilizado. É possível, redes distintas terem o mesmo CIDR;
+* Range Start, endereço de IP inicial pertencente ao CIDR que será utilizado para a alocação;
+* Range End, endereço de IP final pertencente ao CIDR que será utilizado para a alocação;
+* Gateway, endereço IP do gateway a ser utilizado;
+* Conectar ao SDN, no caso desta sub-rede estar ou não conectada ao módulo de SDN/NFV da Ustore;
+* Descrição da sub-rede.
+
+.. image:: /figuras/ucloud_menu_rede006.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+
 Criar Rede em Provedores de Serviço de Nuvem Público (AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Caso o usuário necessite selecionar um ambiente na AWS para provisionar uma nova rede, a tela será alterada conforme os campos exibidos abaixo:
+
+.. image:: /figuras/ucloud_menu_rede007.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+A seguir a descrição detalhada dos campos da tela apresentada:
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+* **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da AWS.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão Criar alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
+
 Criar Rede em Provedores de Serviço de Nuvem Público (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Caso o usuário necessite selecionar um ambiente na Azure para provisionar uma nova rede, antes de iniciar o processo de criação a Plataforma do uCloud apresenta uma mensagem de aviso informando ao usuário não efetuar a criação de novas redes em regiões em que sua assinatura dos serviços deste provedor não esteja vinculada:
+
+.. image:: /figuras/ucloud_menu_rede008a.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+Muito importante o objetivo da mensagem acima, pois a API deste provedor pode bloquear a tentativa de criação de uma nova rede em regiões diferentes. Após o usuário clicar com o cursor do mouse sobre o botão “OK” a plataforma do uCloud exibe a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_rede008.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+A seguir a descrição detalhada dos campos da tela exibida acima:
+
+* **Virtual Datacenter**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todos os Virtual Datacenters provisionados na Plataforma do uCloud. Importante ressaltar que o usuário deve selecionar um Virtual Datacenter que esteja vinculado ao ambiente Microsoft Azure, pois todos os provedores de serviço de nuvem devem ser apresentados na lista. Recomendamos muita atenção para evitar criar uma rede que corre o risco de não ser visualizada no ambiente Azure, posteriormente.
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por
+* **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da AWS.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
+
 Criar Rede em Provedores de Serviço de Nuvem Público (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Caso o usuário necessite selecionar um ambiente na GCP para provisionar uma nova rede, a tela será alterada com apresentada conforme os campos exibidos abaixo:
+
+.. image:: /figuras/ucloud_menu_rede009.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+A seguir a descrição detalhada dos campos da tela exibida acima:
+
+* Nome: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+* Região: Este campo é obrigatório, do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da GCP.
+* Botão Cancelar: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* Botão Criar: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
+
 Criar Rede em Ambiente Privado (ex: VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para ambientes on-premises o uCloud possui o módulo uSDN que é uma solução Ustore para a função de SDN/NFV (Software Defined Network / Network Function Virtualization [2]_) que tem a incumbência de ser a interface com os elementos de gestão de redes do hypervisors em Data Center Privados suportados pelo uCloud. Este módulo permite a gestão de segmentos de redes.
+
+.. image:: /figuras/ucloud_menu_rede010.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+Neste caso ao selecionar a opção de criação de redes o usuário deve informar:
+
+* **Tipo de Isolamento**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta a opção para este ambiente (neste caso VMware) é obrigatório selecionar a opção VLAN.
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+* **VLAN ID**: Este campo é opcional, pois a conexão da Plataforma do uCloud com o módulo do uSDN, deve assinalar a próxima identificação disponível configurada no ambiente privado de rede corporativa.
+* **Edit VLAN ID**: Quando o usuário inicia a criação de uma rede privada, a Plataforma do uCloud integrada com o módulo uSDN, preenche os campos desta tela de forma automática com as configurações pré-definidas. Caso o usuário necessite configurar uma VLAN ID específica, este deve clicar com o cursor do mouse sobre o campo tipo “checkbox”, quando selecionado permite ao usuário editar os campos anteriores com as configurações desejadas, desde que o perfil do usuário logado permita proceder a alteração.
+
+Após esta etapa o usuário deve iniciar o provisionamento de uma Sub-rede dentro da Rede Privada criada. Neste caso deve preencher o que segue abaixo:
+
+.. image:: /figuras/ucloud_menu_rede011.png
+   :alt: Menu Rede - Exemplo
+   :scale: 80 %
+   :align: center
+   :class: with-shadow
+
+----
+
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar a Sub-rede. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na Sub-rede e, por consequência, a quantidade de bits que identificam hosts dentro da Sub-rede. (por exemplo: 192.1.0.0/23)
+* **Range Start**: Este campo é obrigatório, o usuário deve informar o primeiro endereço TCP-IP (inicial) a ser provisionado para esta Sub-rede.
+* **Range End**: Este campo é obrigatório e o usuário deve informar o último endereço TCP-IP (final) a ser provisionado para esta Sub-rede.
+* **Gateway**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway para esta Sub-rede.
+* **Conectar ao SDN**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse no botão Conectar ao SDN a Plataforma do uCloud apresenta as duas opções disponíveis:
+
+  * **TRUE**: Esta opção quando selecionada confirma que o módulo do uSDN gerenciará o provisionamento da Sub-Rede na rede local do Data Center Privado.
+  * **FALSE**: Esta opção quando selecionada confirma que as configurações de rede informadas, já existem no ambiente de rede do usuário e este provisionamento não será gerenciado através do módulo do uSDN. *ATENÇÃO: é importante ressaltar a recomendação para entrar em contato com a área de Suporte Técnico da Ustore antes de selecionar esta opção, pois o controle desta Sub-rede será de inteira responsabilidade da área técnica da empresa usuária da Plataforma do uCloud*.
+
+* **Descrição**: Este campo é opcional e de livre digitação, seu conteúdo pode ser utilizado para descrever o objetivo da Sub-Rede.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Sub-Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, e a Plataforma do uCloud não permite o provisionamento da Sub-Rede.
+
+.. note:: *Este manual não tem o objetivo de documentar todos os outros ambientes de redes privadas, favor entrar em contato com o suporte da Ustore para esclarecimentos detalhados específicos do seu ambiente privado*.
 
 IPs Públicos
 ------------
