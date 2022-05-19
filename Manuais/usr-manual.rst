@@ -4363,9 +4363,13 @@ Caso o usuário necessite selecionar um ambiente na AWS para provisionar uma nov
 A seguir a descrição detalhada dos campos da tela apresentada:
 
 * **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+
 * **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por consequência, a quantidade de bits que identificam hosts dentro da rede. (por exemplo: 192.1.0.0/23)
+
 * **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da AWS.
+
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão Criar alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
 
 Criar Rede em Provedores de Serviço de Nuvem Público (Azure)
@@ -4394,10 +4398,15 @@ Muito importante o objetivo da mensagem acima, pois a API deste provedor pode bl
 A seguir a descrição detalhada dos campos da tela exibida acima:
 
 * **Virtual Datacenter**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todos os Virtual Datacenters provisionados na Plataforma do uCloud. Importante ressaltar que o usuário deve selecionar um Virtual Datacenter que esteja vinculado ao ambiente Microsoft Azure, pois todos os provedores de serviço de nuvem devem ser apresentados na lista. Recomendamos muita atenção para evitar criar uma rede que corre o risco de não ser visualizada no ambiente Azure, posteriormente.
+
 * **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+
 * **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na rede e, por
+
 * **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da AWS.
+
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
 
 Criar Rede em Provedores de Serviço de Nuvem Público (GCP)
@@ -4415,10 +4424,14 @@ Caso o usuário necessite selecionar um ambiente na GCP para provisionar uma nov
 
 A seguir a descrição detalhada dos campos da tela exibida acima:
 
-* Nome: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
-* Região: Este campo é obrigatório, do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da GCP.
-* Botão Cancelar: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
-* Botão Criar: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
+* **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar esta Rede. A sugestão é utilizar apenas os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres especiais, de pontuação ou caracteres acentuados (ASCII Estendido).
+
+* **Região**: Este campo é obrigatório, do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud lista todas as Regiões Globais do ambiente da GCP.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite o provisionamento da Rede.
+
 
 Criar Rede em Ambiente Privado (ex: VMware)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4451,17 +4464,24 @@ Após esta etapa o usuário deve iniciar o provisionamento de uma Sub-rede dentr
 ----
 
 * **Nome**: Este campo é obrigatório, o usuário deve informar o nome (no mínimo 3 caracteres) que deseja identificar a Sub-rede. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+
 * **CIDR**: Este campo é obrigatório, o usuário deve informar a máscara do endereçamento TCP-IP. O endereçamento CIDR usa a notação ‘/’ (barra) para indicar a quantidade de bits que o usuário deseja identificar na Sub-rede e, por consequência, a quantidade de bits que identificam hosts dentro da Sub-rede. (por exemplo: 192.1.0.0/23)
+
 * **Range Start**: Este campo é obrigatório, o usuário deve informar o primeiro endereço TCP-IP (inicial) a ser provisionado para esta Sub-rede.
+
 * **Range End**: Este campo é obrigatório e o usuário deve informar o último endereço TCP-IP (final) a ser provisionado para esta Sub-rede.
+
 * **Gateway**: Este campo é obrigatório, o usuário deve informar o endereço TCP-IP do Gateway para esta Sub-rede.
+
 * **Conectar ao SDN**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse no botão Conectar ao SDN a Plataforma do uCloud apresenta as duas opções disponíveis:
 
   * **TRUE**: Esta opção quando selecionada confirma que o módulo do uSDN gerenciará o provisionamento da Sub-Rede na rede local do Data Center Privado.
   * **FALSE**: Esta opção quando selecionada confirma que as configurações de rede informadas, já existem no ambiente de rede do usuário e este provisionamento não será gerenciado através do módulo do uSDN. *ATENÇÃO: é importante ressaltar a recomendação para entrar em contato com a área de Suporte Técnico da Ustore antes de selecionar esta opção, pois o controle desta Sub-rede será de inteira responsabilidade da área técnica da empresa usuária da Plataforma do uCloud*.
 
 * **Descrição**: Este campo é opcional e de livre digitação, seu conteúdo pode ser utilizado para descrever o objetivo da Sub-Rede.
+
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de criação de uma Sub-Rede. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
+
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação da Sub-Rede no ambiente AWS, o botão ‘Criar’ alterna para o modo ativo (cor verde). Ao clicar com o cursor do mouse sobre o botão Criar, a Plataforma do uCloud envia todos os parâmetros para o ambiente da AWS, para o completo provisionamento de uma Sub-Rede. Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, e a Plataforma do uCloud não permite o provisionamento da Sub-Rede.
 
 .. note:: *Este manual não tem o objetivo de documentar todos os outros ambientes de redes privadas, favor entrar em contato com o suporte da Ustore para esclarecimentos detalhados específicos do seu ambiente privado*.
@@ -4487,6 +4507,8 @@ Como esclarecimento, após o processo de provisionamento de uma máquina virtual
 
 Após o provisionamento do Endereço TCP-IP Público, o usuário pode associar este a qualquer máquina virtual, tendo em vista que este usuário tem a permissão de gerenciar.
 
+.. attention:: Importante ressaltar que todas as ações relativas a endereços TCP-IP Público podem gerar impacto nos ambientes computacionais, nas máquinas virtuais que utilizam os Endereços TCP-IP Públicos. A ação de remover um endereço público retorna a máquina virtual para um Endereço IP Privado e "dinâmico (DHCP)", logo pode haver problemas para se conectar com o console desta máquina virtual, nas comunicações entre as aplicações e o acesso dos usuários (tanto às máquinas virtuais, como as aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar devido a ação de remover um endereço TCP-IP Público de uma máquina virtual.
+
 Quando o usuário acessar esta tela, a Plataforma do uCloud apresenta uma lista com todos os provedores de serviço de nuvem (pública e/ou privada), os quais o usuário registrado na plataforma do uCloud tem a permissão de gerenciar.
 
 .. image:: /figuras/ucloud_ip_publico002.png
@@ -4503,13 +4525,9 @@ A seguir a descrição detalhada das colunas e campos da tela exibida acima:
 
 * **Botão Refresh**: A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, portanto, toda ação executada e/ou configurada na plataforma do uCloud passa a ser exibida imediatamente na tela do usuário, a qual envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada.
 
-.. attention:: Para atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas na base de dados da plataforma do uCloud.
+* **Nome do Container**: Esta coluna apresenta o nome registrado para o Container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo "Busca Rápida - abaixo do título da coluna", a Plataforma do uCloud lista todos os Containers que o usuário registrado está vinculado, para restringir a lista de Endereços TCP-IP Públicos específicos do Container selecionado.
 
-* **Nome do Container**: Esta coluna apresenta o nome registrado para o Container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo ‘Busca Rápida - abaixo do título da coluna’, a Plataforma do uCloud lista todos os Containers que o usuário registrado está vinculado, para restringir a lista de Endereços TCP-IP Públicos específicos do Container selecionado.
-
-.. important:: Para a Plataforma do uCloud, um Container representa um provedor de serviço de nuvem (público e/ou privado).
-
-* **IP Público**: Esta coluna pode estar em ‘branco’, pois nesta coluna será apresentado o Endereço TCP-IP Público que foi solicitado para ser provisionado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
+* **IP Público**: Esta coluna pode estar em "branco", pois nesta coluna será apresentado o Endereço TCP-IP Público que foi solicitado para ser provisionado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
 
 * **IP Privado**: Esta coluna apresenta o endereço TCP-IP vinculado a esta máquina virtual no momento da sua criação. Importante ressaltar que este endereçamento TCP-IP pertence ao ambiente de rede privada do provedor de serviço de nuvem (recebe do servidor DHCP interno do provedor). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de endereços TCP-IP de forma crescente ou decrescente.
 
@@ -4521,14 +4539,14 @@ A seguir a descrição detalhada das colunas e campos da tela exibida acima:
 
 * **Ações**: Esta coluna apresenta três opções de ação a ser realizada pelo usuário por intermédio dos ícones e ele possa interagir com o Endereço TCP-IP Público selecionado:
 
-  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud remove (exclui) este Endereço TCP-IP Público do ambiente do provedor de serviço de nuvem (pública e/ou privada), de forma imediata e definitiva. 
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud remove (exclui) este Endereço TCP-IP Público do ambiente do provedor de serviço de nuvem (pública e/ou privada), de forma imediata e definitiva.
+
   Este ícone é apresentado somente para os Endereços TCP-IP Públicos, os que não estão associados a qualquer máquina virtual. O tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada. Além disso, esta ação remove o custo recorrente do recurso da conta do provedor de serviço de nuvem (pública e/ou privada).
+
   Quando o usuário clicar com o cursor do mouse sobre este ícone “Lata de Lixo” a Plataforma do uCloud apresenta uma tela para confirmar a ação do usuário.
 
   * **Ícone de Desassociar da VM** |icone_desassocia_vm|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud desvincule o Endereço TCPIP Público da máquina virtual, de forma definitiva e imediata. Esta ação não remove o custo recorrente do recurso da conta do provedor de serviço de nuvem (pública e/ou privada) e, não apaga o Endereço TCP-IP Público do ambiente do provedor de serviço de nuvem (pública e/ou privada).
-  Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresenta uma tela e uma pergunta, para confirmar a ação do usuário.
-
-.. attention:: Importante ressaltar que esta ação pode gerar impacto nos ambientes computacionais, nas máquinas virtuais que utilizam o Endereço TCP-IP Público. Esta ação retorna a máquina virtual para um Endereço IP Privado e ‘dinâmico’, logo pode haver problemas para se conectar com esta máquina virtual, nas comunicações entre as aplicações e o acesso dos usuários (tanto às máquinas virtuais, como as aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar devido a esta ação.
+    Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresenta uma tela e uma pergunta, para confirmar a ação do usuário.
 
   * **Ícone de Associar a VM** |icone_associa_vm|: Basta o usuário clicar com o cursor do mouse sobre este ícone quando for necessário associar o Endereço TCP-IP Público a uma máquina virtual. Quando selecionado o ícone desejado, a Plataforma do uCloud apresenta uma tela abaixo, a qual deve ser preenchida para efetuar a associação:
 
@@ -4542,15 +4560,15 @@ A seguir a descrição detalhada das colunas e campos da tela exibida acima:
 
 A seguir a descrição dos campos a serem preenchidos para associar IP Público:
 
- * **Usuário**: Este campo é obrigatório, ele aparece preenchido com o login do usuário registrado corrente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar as máquinas virtuais específicas que foram provisionadas por este, no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de Edição “ ” e digitar os caracteres que fazem parte do login do usuário que deve ser vinculado a este Grupo de Segurança, em seguida, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado, basta selecionar o login desejado da lista.
+.. note:: Somente usuários com perfil de Administrador de Grupo ou Administrador de Contrato, tem permissão e podem completar esta operação.
 
-.. important:: Somente usuários com perfil de Administrador de Grupo ou Administrador de Contrato, tem permissão e podem completar esta operação.
+* **Usuário**: Este campo é obrigatório, ele aparece preenchido com o login do usuário registrado corrente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar as máquinas virtuais específicas que foram provisionadas por este, no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de Edição “ ” e digitar os caracteres que fazem parte do login do usuário que deve ser vinculado a este Grupo de Segurança, em seguida, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado, basta selecionar o login desejado da lista.
 
-  * **Máquina Virtual**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta a relação de máquinas virtuais criadas pelo login do usuário, informado no campo anterior. É necessário selecionar a máquina virtual desejada, o usuário deve clicar com o cursor do mouse no botão ‘cor verde’ para confirmar a associação do Endereço TCP-IP Público com a máquina virtual. O tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+* **Máquina Virtual**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta a relação de máquinas virtuais criadas pelo login do usuário, informado no campo anterior. É necessário selecionar a máquina virtual desejada, o usuário deve clicar com o cursor do mouse no botão ‘cor verde’ para confirmar a associação do Endereço TCP-IP Público com a máquina virtual. O tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
 
 * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de Endereços TCP-IP Públicos. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
 
-Solicitando um IP -Público (AWS e GCP)
+Solicitando um IP -Público (**AWS e GCP**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Público a plataforma do uCloud apresenta a seguinte tela:
@@ -4573,10 +4591,10 @@ A seguir a descrição detalhada dos campos desta tela:
 
 * **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de solicitação de um Endereço TCP-IP Público. A Plataforma do uCloud encerra a tela e retorna à tela anterior.
 
-* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a solicitação de Endereço(s) TCP-IP Público(s), nos ambientes AWS e GCP, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão ‘Criar’ para que a Plataforma do uCloud envie todos os parâmetros para os ambientes, para a tarefa de solicitar o(s) Endereço(s) TCP-IP Público(s).
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a solicitação de Endereço(s) TCP-IP Público(s), nos ambientes AWS e GCP, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão "Criar" para que a Plataforma do uCloud envie todos os parâmetros para os ambientes, para a tarefa de solicitar o(s) Endereço(s) TCP-IP Público(s).
   Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite a solicitação de um Endereço TCP-IP Público.
 
-Solicitando um IP Público (Azure)
+Solicitando um IP Público (**Azure**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Público a plataforma do uCloud apresenta a seguinte tela:
@@ -4604,8 +4622,8 @@ A seguir a descrição detalhada dos campos desta tela:
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a solicitação de Endereço(s) TCP-IP Público(s), no ambiente Azure, o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão ‘Criar’ para que a Plataforma do uCloud envie todos os parâmetros para os ambientes, na tarefa de solicitar o(s) Endereço(s) TCP-IP Público(s).
   Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma do uCloud não permite a solicitação de um Endereço TCP-IP Público.
 
-Solicitando um IP Público (ambiente privado VMware vCenter)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Solicitando um IP Público (ambiente privado ex: **VMware vCenter**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Importante mencionar que este manual não tem o objetivo de documentar todos os outros ambientes de redes privadas, favor entrar em contato com o suporte da Ustore para esclarecimentos detalhados específicos de seu ambiente privado.
 
@@ -4622,7 +4640,6 @@ A seguir a descrição detalhada dos campos da tela exibida acima:
 * **IPV4**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicacom o cursor do mouse a Plataforma do uCloud apresenta as duas opções que o usuário deseja para a versão do protocolo TCP-IP:
 
   * **IPV4**: Para solicitar um Endereço TCP-IP na versão 4, com o padrão 32 bits.
-
   * **IPV6**: Para solicitar um Endereço TCP-IP na versão 6, com o padrão 128 bits.
 
 * **Ícone Agendar**: Este ícone permite ao usuário agendar o provisionamento da solicitação do Endereço TCP-IP Público, o valor padrão é Desabilitado (vermelho).
@@ -4667,7 +4684,7 @@ Lista de Controle de Acesso (Access-Control List - ACL) é uma lista de permiss�
 
 A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, portanto, toda ação executada e/ou configurada na plataforma do uCloud passa a ser apresentada imediatamente na tela do usuário, a qual envia as ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada.
 
-Ao acessar este menu ‘Grupo de Segurança’ a Plataforma do uCloud apresenta ao usuário a tela com a lista geral dos Grupos de Segurança provisionados anteriormente no uCloud, conforme a tela a seguir:
+Ao acessar este menu "Grupo de Segurança" a Plataforma do uCloud apresenta ao usuário a tela com a lista geral dos Grupos de Segurança provisionados anteriormente no uCloud, conforme a tela a seguir:
 
 .. image:: /figuras/ucloud_grupo_seguranca002.png
    :alt: Menu Rede - IP Público
@@ -4689,9 +4706,7 @@ A seguir a descrição detalhada das colunas desta tela:
 
 O usuário pode notar que alguns nomes podem ser extremamente extensos ou diferentes dos quais o usuário criou, isto pode ocorrer quando um Grupo de Segurança foi provisionado diretamente no console do provedor de serviço de nuvem pública e o processo de sincronização da Plataforma do uCloud com o Container extrai este nome diretamente do ambiente do provedor de serviço de nuvem pública. Importante ressaltar que estes nomes são considerados críticos e devem ser alterados diretamente no console do provedor de serviço de nuvem pública. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de Grupos de Segurança de forma alfabética, em ordem crescente (a – z) ou decrescente (z – a).
 
-* **Nome do Container**: Esta coluna apresenta o nome do Container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo ‘Busca Rápida - abaixo do título da coluna’, a Plataforma do uCloud lista todos os Containers que o usuário registrado está vinculado, para restringir a lista de Grupos de Segurança específicos ao Container selecionado.
-
-.. important:: Para a Plataforma do uCloud, um container representa um provedor de serviço de nuvem (público e/ou privado).
+* **Nome do Container**: Esta coluna apresenta o nome do Container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo "Busca Rápida - abaixo do título da coluna", a Plataforma do uCloud lista todos os Containers que o usuário registrado está vinculado, para restringir a lista de Grupos de Segurança específicos ao Container selecionado.
 
 * **Criado Por**: Esta coluna apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud e é o responsável pelo provisionamento do Grupo de Segurança. No caso desta coluna estar em branco, sem informação alguma, significa que o Grupo de Segurança foi provisionado diretamente no console do provedor de serviço de nuvem pública, e o processo de sincronização da Plataforma do uCloud importou este Grupo de Segurança. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de Grupos de Segurança de forma alfabética, na ordem crescente (a – z) ou decrescente (z – a).
 
@@ -4722,27 +4737,30 @@ A seguir a descrição detalhada de cada seção desta tela:
   Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud exibe um ‘pop up’ na tela e solicita ao usuário confirmar a ação.
 
 * **Seção Geral**: Esta seção apresenta as informações genéricas do Grupo de Segurança.
+
 * **Seção Regras**: Esta seção apresenta duas ‘abas’ (tabs) as quais apresentam as regras (de entrada e saída) configuradas para este Grupo de Segurança; assim, o usuário deve clicar com o cursor do mouse sobre cada aba com o objetivo de visualizar as respectivas configurações, separadamente. Por padrão, a Plataforma do uCloud apresenta o conteúdo das configurações da ‘aba’: Entrada.
+
 * **Botão Editar Regras**: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa alternar todos os campos das colunas para o modo de edição, de forma a possibilitar ao usuário corrigir o conteúdo dos campos e alterar as configurações da aba selecionada (entrada ou saída) do Grupo de Segurança.
 
   * **Botão Salvar Regras**: Basta clicar com o cursor do mouse sobre este botão para confirmar a alteração do conteúdo no campo desejado. Após finalizar a alteração do conteúdo deste campo, o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação, a informação no campo será alterada permanentemente nas bases de dados da Plataforma do uCloud e nas configurações no ambiente do provedor de serviço de nuvem (pública e/ou privada).
   * **Botão de Adicionar Regra**: Basta clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud acrescentar uma nova linha em branco, deste modo o usuário poderá adicionar uma nova regra ao Grupo de Segurança. Ver o procedimento de criação de regras no item abaixo: B. Criar Grupo de Segurança.
   * **Botão de Cancelamento**: Caso o usuário tenha clicado sobre o ícone de edição, por engano, ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de proceder qualquer preenchimento ou alteração.
 
+* **Seção Máquinas Virtuais Associadas**: Nesta seção estão listadas todas as máquinas virtuais, as quais este Grupo de Segurança está vinculado para controlar o tráfego de pacotes de dados TCP-IP. Basta clicar com o cursor do mouse sobre o nome da máquina virtual, para a Plataforma do uCloud apresentar a tela de Gerenciando Máquina Virtual (Menu Máquina Virtual).
+
 .. attention:: |atencao| Importante ressaltar que qualquer alteração das configurações de um Grupo de Segurança rede, podem gerar impacto nos ambientes computacionais, nas máquinas virtuais vinculadas, nas comunicações entre as aplicações e o acesso dos usuários (tanto às máquinas virtuais, como as aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar desta ação.
 
-* **Seção Máquinas Virtuais Associadas**: Nesta seção estão listadas todas as máquinas virtuais, as quais este Grupo de Segurança está vinculado para controlar o tráfego de pacotes de dados TCP-IP. Basta clicar com o cursor do mouse sobre o nome da máquina virtual, para a Plataforma do uCloud apresentar a tela de Gerenciando Máquina Virtual (Menu Máquina Virtual).
 
 Criar Grupo de Segurança
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 O processo de provisionamento de um Grupo de Segurança, para criá-lo é efetuado através da tela da Plataforma do uCloud
 
+.. note:: Importante ressaltar que somente os usuários com perfil de Administrador de Grupo ou Administrador de Contrato, podem completar esta operação.
+
 A seguir a descrição detalhada dos campos desta tela:
 
 * **Usuário**: Este campo é obrigatório, ele vem preenchido com o login do usuário registrado presente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar os Grupos de Segurança específicos, provisionados por este no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de edição “ ” e digitar os caracteres que fazem parte do login do usuário que ficará vinculado a este Grupo de Segurança, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado. Basta selecionar o login desejado na lista.
-
-.. important:: Importante ressaltar que somente os usuários com perfil de Administrador de Grupo ou Administrador de Contrato, podem completar esta operação.
 
 * **Container**: Este campo é obrigatório do tipo “drop down”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta relação de todos os containers provisionados na Plataforma do uCloud, aos quais o usuário está vinculado para uso.
 
@@ -4796,47 +4814,333 @@ A seguir a descrição detalhada dos campos desta tela:
 
   Caso este botão não esteja habilitado (cor cinza), isto significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não conclui o provisionamento do Grupo de Segurança.
 
-.. important:: Importante ressaltar que a Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, toda ação executada e/ou configurada na plataforma do uCloud passa a ser apresentada imediatamente na tela do usuário, a qual envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
-
 
 Par de Chaves
 -------------
 
+O menu **Par de Chaves** contém todas as chaves criadas por um usuário para acessar as suas máquinas, sejam em ambientes de nuvem pública ou on-premisses.
+
+O usuário pode criar uma chave nova, para isso ele deve indicar o container e o nome da chave, ou ainda, o usuário pode importar uma chave pública. Para executar esta operação, ele deve indicar o container, o nome e a chave.
+
+Um Par de Chaves consiste em uma chave privada e uma chave pública, trata-se de um conjunto de credenciais de segurança usadas para provar a identidade ao conectar-se a uma máquina virtual. De um lado, o provedor de serviço de nuvem (pública e/ou privada) armazena a chave pública, do outro lado o usuário armazena a chave privada. Para o usuário poder conectar-se ao prompt do sistema operacional da máquina virtual criada deve utilizar a chave privada, ao invés de uma senha, para um acesso seguro e autenticado. Qualquer usuário com a chave privada pode conectarse às máquinas virtuais, por isso, é importante armazenar as chaves privadas em um lugar seguro.
+
+Durante o processo de criação de uma máquina virtual, um par de chaves será solicitado para permanecer vinculado a esta máquina virtual. No caso do usuário planejar conectar-se usando SSH, ele deve especificar um par de chaves. É possível escolher um par de chaves existentes ou criar um novo.
+
+A Plataforma do uCloud permite importar chaves SSH no caso da empresa usuária já possuir as chaves SSH próprias. Ao conectar-se ao prompt da máquina virtual usando SSH, o usuário deve especificar a chave privada que corresponde ao conteúdo da chave pública para fazer login. Para obter outras informações sobre como conectar-se à sua máquina virtual, favor consultar a documentação online do seu provedor de serviço de nuvem.
+
+Ao acessar o menu Par de Chaves, a Plataforma do uCloud apresenta ao usuário uma tela com a lista que contém todas as chaves criadas por todos os usuários, elas são destinadas ao acesso às suas máquinas virtuais existentes em todos os provedores de serviço de nuvem nuvem (pública e/ou privada) que o seu login de acesso permite visualizar.
+
+.. image:: /figuras/ucloud_par_de_chaves001.png
+   :alt: Menu Rede - IP Público
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição detalhada das colunas desta tela:
+
+* **Botão “Criar Par de Chaves”**: Caso o usuário necessite criar um novo Grupo de Segurança no ambiente do provedor de serviço de nuvem (pública e/ou privada), basta clicar com o cursor do mouse sobre este botão, depois seguir as instruções no item abaixo: B. Criar Par de Chaves.
+
+* **Botão “Importar Par de Chaves”**: Caso o usuário necessite criar um novo Grupo de Segurança no ambiente do provedor de serviço de nuvem (pública e/ou privada), basta clicar com o cursor do mouse sobre este botão, e prosseguir nas instruções no item abaixo: C. Importar Par de Chaves.
+
+* **Botão Refresh**: A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, toda ação executada e/ou configurada na plataforma do uCloud passa a ser apresentada imediatamente na tela do usuário, a qual envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. Para atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas nas bases de dados da Plataforma do uCloud.
+
+* **Nome do Container**: Esta coluna apresenta o nome do Container. Como forma de simplificar a visualização, ao clicar com o cursor do mouse no campo ‘Busca Rápida - abaixo do título desta coluna’, a Plataforma do uCloud lista todos os Containers que o usuário registrado está vinculado, para restringir a lista de Grupos de Segurança específicos ao Container selecionado. Lembrando que para a Plataforma do uCloud, um Container representa um provedor de serviço de nuvem (pública e/ou privada).
+
+* **Nome**: Esta coluna apresenta o nome do Par de Chave informado pelo usuário no momento que este foi provisionado através da Plataforma do uCloud. O usuário pode notar que alguns nomes podem ser extremamente extensos ou diferentes dos quais o usuário tenha criado, geralmente, estes nomes ocorrem quando um Par de Chaves foi provisionado diretamente no console do provedor de serviço de nuvem pública e o processo de sincronização da Plataforma do uCloud com o Container extrai este nome diretamente do ambiente do provedor de serviço de nuvem pública.
+
+.. important:: |importante| Estes nomes considerados críticos, devem ser alterados diretamente no console do provedor de serviço de nuvem pública. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres para aproximar a busca desejada e recuperar na lista, a Plataforma do uCloud filtra o conteúdo indexado e lista todas as incidências de nomes que contenham a sequência digitada.
+
+* **Fingerprint**: Esta coluna apresenta o conteúdo do fingerprint (impressão digital) do Par de Chaves gerado a partir dos seus pares de chaves. De forma genérica, uma impressão digital será calculada usando uma função hash SHA-1. O usuário pode usar a impressão digital SSH2 exibida nesta coluna para verificar se a chave privada pertencente a sua máquina local corresponde à chave pública armazenada no provedor de serviço de nuvem (pública e/ou privada).
+
+* **Criado Por**: Esta coluna apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud e foi o responsável pelo provisionamento do Par de Chaves. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres para aproximar a busca desejada e recuperar na lista, a Plataforma do uCloud filtra o conteúdo indexado e lista todas as incidências de login de usuário que contenham a sequência digitada.
+
+* **Ação**: Esta coluna apresenta apenas um ícone para que o usuário possa interagir com a rede selecionada:
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) este Par de Chaves, de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+
+    * Ao excluir um par de chaves, o usuário só exclui a cópia da chave pública do provedor de serviço de nuvem (pública e/ou privada). Aexclusão de um par de chaves não afeta a chave privada, armazenada no seu computador pessoal, e também, não afeta a chave pública em nenhuma instância já executada usando esse par de chaves. O usuário não poderá provisionar uma nova máquina virtual usando um par de chaves excluído, mas pode continuar a conectar-se a quaisquer instâncias executadas usando um par de chaves excluído, desde que este ainda tenha o arquivo de chaves privadas (.pem).
+    * Importante mencionar: se o usuário houver provisionado um Scaling Group (Grupo de Escalabilidade), é relevante certificar-se de que o par de chaves que está sendo excluído não esteja especificado na sua configuração de execução. Os provedores de serviço de nuvem (pública e/ou privada) utilizam a chave pública armazenada para a máquina virtual padrão para ser clonada no evento de lançamento de uma nova instância da máquina virtual, e a falta da chave pública pode detectar uma instância não íntegra; e, por consequência, a execução da instância falha se o Par de Chaves não for encontrado. A Plataforma uCloud não pode ser responsabilizada por problemas que possam resultar desta ação.
+
 Gerenciar um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Quando o usuário clicar com cursor do mouse no nome de um Par de Chaves, a Plataforma do uCloud apresenta uma tela com as informações específicas deste:
+
+.. image:: /figuras/ucloud_par_de_chaves002.png
+   :alt: Menu Rede - IP Público
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição detalhada das seções e dos campos a preencher nesta tela:
+
+* **Seção Geral**
+  * **Nome**: Este campo indica o nome do Par de Chaves informado pelo usuário durante o seu provisionamento. No caso de haver um nome extremamente longo ou diferente do que o usuário criou, isto indica que este Par de Chaves foi provisionado diretamente no console do provedor de serviço de nuvem pública e o processo de sincronização da Plataforma do uCloud com o container extraiu este nome diretamente do ambiente do provedor de serviço de nuvem pública
+  * **Usuário**: Este campo apresenta as credenciais de login do usuário que está registrado na Plataforma do uCloud, o responsável pelo provisionamento do Par de Chaves. No caso deste campo não apresentar informação alguma (estar em branco), isto indica que o Par de Chaves foi provisionado diretamente no console do provedor de serviço de nuvem pública, o processo de sincronização da Plataforma do uCloud importou este Par de Chaves.
+  * **Descrição**: Este campo apresenta o conteúdo que descreve o objetivo deste Par de Chaves, desde que tenha sido informado pelo usuário no momento do provisionamento.
+
+* **Seção Máquinas Virtuais**
+  * **Nome**: Esta coluna indica o nome da Máquina Virtual informado pelo usuário durante o processo do seu provisionamento. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista com os nomes das máquinas virtuais, de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Usuário**: Esta coluna apresenta as credenciais de login do usuário que está registrado na Plataforma do uCloud, o responsável pelo provisionamento da Máquina Virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista de nomes de máquinas virtuais, de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **IP Privado**: Esta coluna apresenta o Endereço TCP-IP Privado que o provedor de serviço de nuvem (pública e/ou privada) associou a esta máquina virtual no momento de sua criação. Este Endereço TCP-IP é um endereço estático. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica uma lista de endereços TCP-IP, de forma crescente ou decrescente.
+  * **IP Público**: Esta coluna apresenta o Endereço TCP-IP Público solicitado ao provedor de serviço de nuvem (pública e/ou privada) que foi vinculado pelo usuário a esta máquina virtual. Caso a informação desta coluna permaneça em branco, isto significa que esta máquina virtual possui um Endereço TCPIP Público dinâmico que é fornecido pelo ambiente do provedor de serviço de nuvem (pública e/ou privada). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
+  * **Memória**: Esta coluna apresenta a configuração da quantidade de memória RAM da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista de endereços TCP-IP, de forma crescente ou decrescente.
+  * **CPUs**: Esta coluna apresenta a configuração da quantidade de CPUs da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista de endereços TCP-IP, de forma crescente ou decrescente. ○ Status: Esta coluna apresenta o status da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera com base no status da máquina e classifica a lista de nomes de máquinas virtuais, de forma alfabética crescente (a – z) ou decrescente (z – a).
 
 Criando um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+O usuário pode criar um novo Par de Chaves, para isso ele deve vincular o Par de Chaves ao Container e ao nome do usuário que importou (ou criou) uma chave pública, desta forma é mandatório informar os containers, o usuário e o nome do Par de Chaves.
+
+.. image:: /figuras/ucloud_par_de_chaves003.png
+   :alt: Menu Rede - IP Público
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+Abaixo segue a descrição dos campos desta tela:
+
+.. important:: Somente os usuários com perfil de Administrador de Grupo ou Administrador de Contrato, podem completar esta operação.
+
+* **Usuário**: Este campo é obrigatório ele vem preenchido com o login do usuário registrado presente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar o Par de Chaves específico que foi provisionado por ele. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de Edição “ ” e digitar os caracteres que fazem parte do login do usuário que será vinculado a este Par de Chaves, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado. Em seguida, o usuário deve selecionar na lista o login desejado para associar ao Par de Chaves.
+* **Container**: Este campo é obrigatório do tipo “drop down”, ao clicar com o cursor do mouse a Plataforma do uCloud apresenta relação de todos os containers provisionados na Plataforma do uCloud, aos quais o usuário está vinculado para uso.
+* **Nome da Chave**: Este campo é obrigatório, nele o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar este Par de Chaves. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de provisionamento de um Par de Chaves. Após clicar, a Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais das regras de um Par de Chaves, nos ambientes do provedor de serviços de nuvem (pública e/ou privada), o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar para que a Plataforma do uCloud possa enviar todos os parâmetros para os ambientes, de forma a provisionar um Grupo de Segurança. Caso este botão não esteja habilitado (cor cinza), isto significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não conclui o provisionamento do Par de Chaves.
+
 Importando um Par de Chaves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+O processo de importação de Par de Chaves permite e possibilita a uma organização que já possui suas chaves públicas levar estas chaves para o ambiente do provedor de serviços de nuvem (pública e/ou privada). A importação não substitui as chaves públicas que o provedor de serviço de nuvem possui, este processo adiciona novas chaves públicas e padroniza o processo de vinculação das chaves corporativas com as máquinas virtuais criadas no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+
+.. important:: O usuário deve consultar a documentação online do seu provedor de serviço de nuvem, no qual será armazenada a nova chave pública, para conhecer as características corretas do formato do arquivo da chave pública. O usuário pode utilizar o software da sua preferência (prompt de Linux ou aplicação Windows) para gerar a sua chave privada. A Plataforma do uCloud não possui a funcionalidade de geração de Chaves Públicas.
+
+Quando o usuário clicar com o cursor do mouse sobre o botão de Importar Par de Chaves, a Plataforma do uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/ucloud_par_de_chaves004.png
+   :alt: Menu Rede - IP Público
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição detalhada destes campos:
+
+* **Usuário**: Este campo é obrigatório e vem preenchido com o login do usuário registrado corrente na Plataforma do uCloud. Este usuário será utilizado como referência para filtrar os Paresde Chaves específicos que foram provisionados por este, no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de edição “ ” e digitar os caracteres que fazem parte do login do usuário que ficará vinculado a este grupo de segurança, que a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado. Basta selecionar o login desejado da lista. Importante ressaltar que somente usuários com perfil de Administrador de Grupo ou Administrador de Contrato, poderão completar esta operação.
+* **Container**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta a relação de todos os containers provisionados na Plataforma do uCloud, aos quais o usuário está vinculado para uso.
+* **Nome da Chave**: Este campo é obrigatório, nele o usuário deve informar o nome (no mínimo 3 caracteres) com o qual deseja identificar este Par de Chaves. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Conteúdo da Chave Pública**: Este campo é obrigatório, o usuário deve colar (paste) o conteúdo da chave pública neste campo.
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de provisionamento de um Par de Chaves. Após clicar, a Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais das regras de um Par de Chaves, nos ambientes do provedor de serviços de nuvem (pública e/ou privada), o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar para que a Plataforma do uCloud possa enviar todos os parâmetros para os ambientes, de forma a provisionar um Par de Chave.
+  Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não conclui o provisionamento do Par de Chaves.
 
 Balanceadores
 -------------
 
+O menu Balanceadores contém todos os balanceadores de carga criados por um usuário para acessar as suas máquinas, sejam em ambientes de nuvem pública ou onpremisses. Para criar um balanceador o usuário deve informar os dados exigidos por cada provedor, porém alguns são sempre solicitados por todos, tais como:
+a. container no qual o balanceador está associado;
+b. nome do balanceador;
+c. protocolo: HTTP, HTTPS ou TCP;
+d. porta TCP associada ao balanceador;
+e. membros, máquinas virtuais, as quais o balanceador de carga solicita os dados.
+
+Para as informações específicas de cada provedor de nuvem e/ou ambiente onpremisses o uCloud exibe os Hints explicativos, ou seja, as sugestões e dicas explicativas.
+
+.. image:: /figuras/ucloud_balanceador001.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+Um Balanceador distribui o tráfego (carga de trabalho) entre duas ou mais máquinas virtuais. Usar um Balanceador (Classic Load Balancer) aumenta a disponibilidade e a tolerância às falhas dos aplicativos.
+O usuário deve configurar as “verificações de integridade” que monitoram a “saúde” e a integridade das máquinas virtuais, para permitir ao balanceador enviar solicitações apenas para as máquinas virtuais que estão em condições ideais de funcionamento. A Plataforma do uCloud apresenta o status da(s) máquina(s) virtual(is) identificando tanto o bom funcionamento quanto qualquer alteração das condições ideais de verificação da saúde e da integridade de uma ou várias máquinas virtuais(is).
+Quando o usuário acessar o menu Balanceadores, a Plataforma do uCloud apresenta uma tela com a lista de todos os Balanceadores de Carga provisionados por um usuário para acessar as suas máquinas sejam em ambientes de nuvem públicas e/ou privadas (onpremises).
+
+.. image:: /figuras/ucloud_balanceador002.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+Abaixo segue a descrição das colunas desta lista:
+
+* **Container**: Esta coluna apresenta o nome do Container ao qual o Balanceador está vinculado. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres que deseja encontrar na lista, a Plataforma do uCloud recupera o conteúdo da lista com todas as incidências de nomes que contenham a sequência digitada. Lembrando que para a Plataforma do uCloud, um container representa um provedor de serviço de nuvem (público e/ou privado).
+* **Endereço**: O usuário pode notar que alguns endereços podem ser extremamente extensos, pois estes endereços são obtidos do provedor de serviço de nuvem pública através do processo de sincronização da Plataforma do uCloud com o Container. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres que deseja encontrar na lista, em seguida a Plataform do uCloud recupera o conteúdo da lista com todas as incidências de nomes que contenham a sequência digitada.
+* **Nome**: Esta coluna apresenta o nome do Balanceador informado pelo usuário no momento que este foi provisionado através da Plataforma do uCloud. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres que deseja encontrar na lista, a Plataforma do uCloud recupera o conteúdo da lista com todas as incidências de nomes que contenham a sequência digitada.
+* **Criado Por**: Esta coluna apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud e é o responsável pelo provisionamento do Balanceador. No caso desta coluna estar em branco, sem informação alguma, significa que o Grupo de Segurança foi provisionado diretamente no console do provedor de serviço de nuvem pública, e o processo de sincronização da Plataforma do uCloud importou este Balanceador. Como forma de simplificar a visualização, o usuário pode digitar uma sequência de caracteres para aproximar a busca desejada e recuperar na lista, a Plataforma do uCloud recupera o conteúdo indexado e lista todas as incidências de nomes que contenham a sequência digitada.
+* **Ações**: Esta coluna pode apresentar dois ícones para que o usuário possa interagir com o Balanceador selecionado:
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) este Balanceador do ambiente do provedor de serviço de nuvem (pública e/ou privada), de forma imediata e definitiva.
+  * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa apresentar uma tela que permite a edição das configurações do Balanceador, o usuário pode seguir as instruções no item a seguir: A. Gerenciando Balanceador.
+
+.. nota:: O tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada. Esta ação também remove o custo recorrente do recurso da conta do provedor de serviço de nuvem (pública e/ou privada). Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresenta uma tela para confirmar a ação do usuário.
+
+
 Gerenciando Balanceador
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+Quando o usuário clicar com o cursor do mouse sobre o nome de um Balanceador, a Plataforma do uCloud apresenta a tela dividida em seções conforme abaixo:
+
+.. image:: /figuras/ucloud_balanceador003.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição detalhada dos campos de cada seção:
+
+* **Seção Geral**: Nesta seção são apresentadas informações básicas do Balanceador.
+
+  * **Container**: Este campo apresenta o nome do Container ao qual o Balanceador está vinculado.
+  * **Região**: Este campo apresenta a Região Global do provedor de serviço de nuvem pública que foi selecionada pelo usuário logado durante o provisionamento do Balanceador.
+  * **Rede**: Este campo apresenta a Rede (e Sub-rede) do provedor de serviço de nuvem pública selecionada pelo usuário logado durante o provisionamento do Balanceador.
+  * **Endereço**: Este campo apresenta o Endereço do Balanceador obtido do provedor de serviço de nuvem pública através do processo de sincronização da Plataforma do uCloud com o Container. Este endereço é gerado internamente pelo provedor de serviço de nuvem pública, a Plataforma do uCloud não possui qualquer controle ou interação.
+  * **Nome**: Este campo apresenta o nome do Balanceador informado pelo usuário durante o seu provisionamento.
+  * **Criado por**: Este campo apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud e é o responsável pelo provisionamento do Balanceador.
+  * **Certificate**: Este ícone “ ” permite que o usuário possa adicionar (upload) as configurações de um certificado digital SSL para um Balanceador. Quando o usuário clicar com o cursor do mouse sobre este ícone a Plataforma do uCloud apresenta a tela abaixo:
+
+.. image:: /figuras/ucloud_balanceador004.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+Abaixo segue a descrição dos campos:
+
+* **Certificate Name**: Este campo é obrigatório, o usuário deve informar o nome com o qual deseja identificar o certificado que será importado.
+* **Certiicate Public Key**: Este campo é obrigatório, o usuário deve informar a sequência de caracteres específicos da chave pública do certificado que será importado.
+* **Certificate Private Key**: Este campo é obrigatório, o usuário deve informar a sequência de caracteres específicos da chave privada do certificado que será importado.
+* **Certificate Chain**: Este campo é obrigatório, o usuário deve informar a sequência de caracteres específicos da chave pública do certificado que será importado.
+
+* **Seção Listeners**: Esta seção apresenta a configuração das portas de ‘escuta (listeners)’ que é a forma como o Balanceador pode verificar a disponibilidade/integridade da aplicação/serviço que está sendo executada na máquina virtual.
+  * **Protocolo**: Esta coluna apresenta o tipo de Protocolo TCP-IP selecionado para ser a ‘escuta’ e verificar a disponibilidade da aplicação/serviço. As opções padrões são:
+    * HTTP
+    * HTTPS
+    * TCP
+    * SSL
+
+  * **Porta**: Esta coluna apresenta a Porta TCP-IP padrão que está relacionada diretamente com o tipo do Protocolo TCP-IP selecionado no campo anterior. Qualquer assinalamento diferente das portas padronizadas pode gerar impacto na eficiência do Balanceador, pois uma alteração nesta configuração deve estar em sincronia com a aplicação/serviço no sistema operacional da máquina virtual.
+  * **Instance Protocol**: Esta coluna apresenta o tipo de Protocolo TCP-IP selecionado para ser o ‘escutado’, está configurado desta mesma forma no prompt do sistema operacional da máquina virtual para verificar a disponibilidade da aplicação/serviço. As opções padrões são as mesmas descritas acima na coluna Protocol.
+  * **Instance Port**: Esta coluna apresenta a Porta TCP-IP padrão que está relacionada diretamente com o tipo do Protocolo TCP-IP selecionado no campo anterior, ele deve estar configurado desta mesma forma no prompt do sistema operacional da máquina virtual para verificar a disponibilidade da aplicação/serviço.
+  * **Ações**: Esta coluna pode apresentar apenas um ícone para que o usuário possa interagir com o Balanceador selecionado:
+    * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) esta configuração de Listener deste Balanceador, de forma imediata e definitiva. ○ Botão Adicionar: Basta clicar com o cursor do mouse sobre o botão ‘Adicionar’ quando o usuário precisar acrescer um Protocolo adicional como Listener neste Balanceador. A Plataforma do uCloud acrescenta uma nova linha nesta lista, com todos os campos em branco, assim o usuário pode configurar como
+
+  * **Botão Adicionar**: Basta clicar com o curor do mouse sobre o botão ‘Adicionar’ quando o usuário precisar acrescer um Protocolo adicional como Listener neste Balanceador. A Plataforma do uCloud acrescenta uma nova linha nesta lista, com todos os campos em branco, assim o usuário pode configurar como for necessário, conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_balanceador005.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir, a descrição simplificada das colunas:
+
+* **Protocolo**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar nele, com o cursor do mouse, a Plataforma do uCloud listará as mesmas opções descritas no campo Protocolo acima descrito.
+* **Porta**: Este campo é obrigatório, o usuário deve informar as Portas TCP-IP Padrão para o tipo do Protocolo selecionado no campo anterior.
+* **Instance Protocol**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar nele, com o cursor do mouse, a Plataforma do uCloud lista as mesmas opções descritas no campo Protocolo acima descrito. ○ Instance Port: Este campo é obrigatório, o usuário deve informar as Portas TCP-IP Padrão para o tipo do Protocolo selecionado no campo anterior.
+* **Ações**: Esta coluna pode apresentar dois ícones, os quais permitem ao usuário a interação com o Balanceador selecionado:
+  * **Ícone de Confirmação**: Quando o usuário desejar confirmar a configuração dos parâmetros informados na linha, a tela da Plataforma do uCloud apresenta a opção deste ícone de confirmação. Após ter finalizado a inclusão do novo parâmetro de um Listener o usuário deve clicar com o cursor do mouse no botão verde para confirmar a inclusão.
+  * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o Botão de Adicionar, por engano ou não desejar que a inclusão de um novo Listener seja armazenado (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. Após acionar o ícone vermelho, ele cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+
+* **Seção Health Check**: Esta seção apresenta os parâmetros configurados que permitem verificar a “integridade e saúde” da máquina virtual, assim é possível estabelecer um período de tempo limite (threshold) ocioso configurado que se aplica às suas conexões. Se nenhum pacote houver sido enviado ou recebido até o tempo limite do período de inatividade finalizar, o Balanceador encerra a conexão automaticamente. Favor consultar a documentação online do seu provedor de serviço de nuvem pública, para verificar as melhores indicações para cada ambiente.
+  * **Ping Target**: Neste campo o usuário deve informar a combinação Tipo do Protocolo:Porta TCP-IP padrão que será utilizada para conectar-se com a instância (ex. TCP:80). Este parâmetro é importante, pois no caso do Balanceador não conseguir conectar-se com a máquina virtual na porta TCP-IP específica, dentro do período de tempo limite de resposta configurado, a máquina virtual será considerada fora de serviço (out-of-service).
+  * **Timeout**: Neste campo o usuário deve informar um número inteiro, ele representa a quantidade de tempo (em segundos) de espera ao receber uma resposta da verificação de integridade. Os valores podem variar entre 2 a 60 segundos - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem, para validar os valores específicos do seu ambiente.
+  * **Interval**: Neste campo o usuário deve informar um número inteiro que representa a quantidade (em segundos) de tempo entre cada verificação de integridade. Os valores podem variar entre 5 a 300 segundos - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem para validar os valores específicos do seu ambiente.
+  * **Unhealthy threshold**: Neste campo o usuário deve informar um número inteiro que representa a quantidade de verificações de integridade consecutivas com falha que devem ocorrer antes do Balanceador declarar uma máquina virtual fora de serviço (out-of-service) - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem para validar os valores específicos do seu ambiente..
+  * **Healthy threshold**: Neste campo o usuário deve informar um número inteiro que representa a quantidade de verificações de integridade consecutivas bemsucedidas que devem ocorrer para o Balanceador declarar uma máquina virtual em serviço (in-service) - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem para validar os valores específicos do seu ambiente.
+  * **Botão Editar**: Basta o usuário clicar sobre este botão Editar e a Plataforma do uCloud alterna todos os campos das colunas para o modo edição, de forma a permitir o usuário corrigir o conteúdo dos campos e alterar as configurações específicas do Health Check.
+
+.. important:: Importante mencionar: a Porta TCP-IP deste campo deve conter a mesma informada no campo Porta, na Seção Listener.
+
+* **Seção Máquinas Virtuais**: Nesta seção a Plataforma uCloud apresenta a lista de máquinas virtuais que estão sendo monitoradas pelo Balanceador para equilibrar a carga de trabalho da aplicação/servidor.
+  * **Nome**: Esta coluna apresenta uma lista com o nome das máquinas virtuais que estão vinculadas ao Balanceador.
+  * **Status**: Esta coluna apresenta o status da “saúde” obtido de cada máquina que atende os parâmetros das configurações da seção Health Check, no qual cada máquina virtual pode apresentar o status:
+  * **InService**: Máquina virtual em serviço efetivo (OPERACIONAL).
+  * **OutOfService**: Máquina virtual fora de serviço efetivo (NÃOOPERACIONAL)
+  * **Ações**: Esta coluna apresenta apenas o Ícone de Desconectar VM |icone_associa_vm|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud desconecte a máquina virtual selecionada do Balanceador, de forma definitiva e imediata. Esta ação não exclui (delete) a máquina virtual do ambiente do provedor de serviço de nuvem (pública e/ou privada). Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud apresenta uma mensagem pop-up no canto superior direito que solicita a confirmação da ação pelo usuário.
+
+.. image:: /figuras/ucloud_balanceador006.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+  * **Botão Adicionar**: Basta clicar com o cursor do mouse sobre o botão Adicionar, quando for necessário que o usuário acrescente a uma nova máquina virtual um Balanceador. A Plataforma do uCloud acrescenta uma nova linha nesta lista conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_balanceador007.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição simplificada das colunas:
+
+  * **Nome**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar neste campo com o cursor do mouse, a Plataforma do uCloud lista todas as máquinas virtuais ativas, as que pertençam ao mesmo provedor e com as quais o usuário com a sessão ativa tem permissão de interagir.
+  * **Ações**: Esta coluna pode apresentar dois ícones, os quais permitem ao usuário a interação com o Balanceador selecionado:
+    * **Ícone de Confirmação**: Quando o usuário deseja confirmar a configuração dos parâmetros informados na linha, a tela da Plataforma do uCloud apresenta a opção deste ícone de confirmação. Após ter finalizado a inclusão o usuário deve clicar com o cursor do mouse no botão verde para confirmar a inclusão.
+    * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o Botão de Adicionar, por engano ou não desejar que a inclusão de uma nova máquina virtual seja finalizada, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho para cancelar a alteração.
+
+* **Seção Grupos de Segurança**: Esta seção apresenta o Grupo de Segurança que configura a segurança das Portas TCP-IP e controla o tráfego de pacotes de dados TCP-IP de entrada e saída das máquinas virtuais que estão vinculadas a este Balanceador.
+
+  * **Nome**: Esta coluna apresenta o nome do Grupo de Segurança conforme informado pelo usuário, no momento do seu provisionamento.
+  * **Criado Por**: Esta coluna apresenta a credencial de login do usuário responsável pelo provisionamento do Grupo de Segurança.
+  * **Ações**: Esta coluna apresenta apenas o Ícone de Desconectar Grupo de Segurança , basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa desconectar o Grupo de Segurança das máquinas virtuais vinculadas ao Balanceador, de forma definitiva e imediata. Esta ação não exclui (delete) o Grupo de Segurança do ambiente do provedor de serviço de nuvem (pública e/ou privada).
+  * **Botão Adicionar**: Basta clicar com o cursor do mouse sobre o botão adicionar, quando for necessário para que o usuário acrescente um novo Grupo de Segurança para as máquinas virtuais deste Balanceador. A Plataforma do uCloud acrescentará uma nova linha nesta lista conforme a tela abaixo:
+
+.. image:: /figuras/ucloud_balanceador007.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição simplificada das colunas:
+
+  * **Nome**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar neste campo com o cursor do mouse, a Plataforma do uCloud lista todos os Grupos de Segurança que pertençam ao mesmo provedor e com os quais o usuário com a sessão ativa tem permissão de interagir. ○ Ações: Esta coluna pode apresentar dois ícones, os quais permitem ao usuário a interação com o Balanceador selecionado:
+    * **Ícone de Confirmação**: Quando o usuário deseja confirmar a configuração dos parâmetros informados nesta linha, a Plataforma do uCloud apresenta um ícone de confirmação, no qual o usuário deve clicar com o cursor do mouse no ícone verde para confirmar a inclusão.
+    * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o Botão de Adicionar, por engano ou não desejar que a inclusão de uma nova máquina virtual ocorra, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho para cancelar a alteração.
+
 
 Criando Balanceador (Ambientes AWS e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+
 Criando Balanceador (Ambiente Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Zonas DNS
----------
-
-Gerenciar Zona DNS Pública
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Criar Zona DNS Pública (AWS e GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Criar Zona DNS Pública (Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Criar Zona DNS Privada - Observação
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Zonas DNS
+.. ---------
+.. todos ites de DNS abaixo estão comentados, não aparecem no texto html
+.. Gerenciar Zona DNS Pública
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Criar Zona DNS Pública (AWS e GCP)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Criar Zona DNS Pública (Azure)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Criar Zona DNS Privada - Observação
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 VPN
 ---

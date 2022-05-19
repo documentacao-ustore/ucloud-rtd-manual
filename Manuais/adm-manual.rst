@@ -26,6 +26,7 @@ As atividades para todas as etapas, devem ser efetuadas por um usuário da organ
 
 Primeira Etapa: Criação do Usuário (perfil Administrador)
 ---------------------------------------------------------
+
 Criar usuário com perfil *Administrador* que será responsável por conectar os containers e configurar *Billing Settings (Bucket)*, criar Grupo, VDC e Contrato.
 
 Esse usuário não será um usuário normal que deve ser utilizado para provisionar recursos computacionais na(s) nuvem(ns) do(s) provedores de serviço, pois ele é uma abstração das nuvens conectadas.
