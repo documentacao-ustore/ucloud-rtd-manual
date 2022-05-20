@@ -5125,22 +5125,286 @@ A seguir a descrição simplificada das colunas:
 Criando Balanceador (Ambientes AWS e GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+O processo de provisionamento de um Balanceador por intermédio da Plataforma do uCloud é sempre efetuado através de uma interface via API-Rest, desta forma os parâmetros necessários para os ambientes dos provedores de nuvens públicas Amazon Web Services (AWS) e Google Cloud Platform (GCP) solicitam informações similares e a tela de provisionamento para ambos é similar.
+Quando o usuário clicar com cursor do mouse sobre o botão Criar Balanceador, a Plataforma do uCloud apresenta a tela global abaixo:
+
+.. image:: /figuras/ucloud_balanceador008.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+.. important:: Somente usuários com perfil de Administrador de Grupo ou Administrador de Contrato, tem permissão e podem completar esta operação.
+
+A seguir a descrição detalhada dos campos desta tela:
+
+* Usuário: Este campo é obrigatório, ele aparece preenchido com o login do usuário registrado corrente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar as máquinas virtuais específicas que foram provisionadas por este, no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de Edição “ ” e digitar os caracteres que fazem parte do login do usuário que deve ser vinculado a este Balanceador, em seguida, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado, basta selecionar o login desejado da lista.
+* Container: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta relação de todos os containers provisionados aos quais o usuário está vinculado para uso. Quando o usuário seleciona os provedores AWS ou GCP, a plataforma do uCloud é alterada e apresenta a tela abaixo a ser preenchida:
+
+.. image:: /figuras/ucloud_balanceador009.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição dos campos desta tela:
+
+* **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse, neste campo, a Plataforma do uCloud apresenta a relação de todas as Regiões Globais que o provedor de serviço de nuvem selecionado acima possui presença.
+* **Rede**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta relação de todas as Redes que foram provisionadas para o ambiente do provedor de serviço de nuvem, as quais o usuário com a sessão ativa possui permissão de visualizar.
+* **Internal**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse a Plataforma do uCloud apresenta duas opções para que o usuário possa configurar se este Balanceador será para provisionado para atender uma das opções abaixo:
+  * **YES**: Selecionar esta opção quando o usuário deseja distribuir o tráfego apenas entre as máquinas virtuais dentro das redes internas do seu ambiente no provedor de serviço de nuvem (pública e/ou privada). Esta opção não contempla qualquer tráfego entrante externo da rede pública (Internet).
+  * **NO**: Selecionar esta opção quando o usuário deseja distribuir o tráfego entrante da rede pública (Internet) para as máquinas virtuais dentro das redes internas do seu ambiente no provedor de serviço de nuvem (pública e/ou privada). Esta opção não contempla qualquer tráfego interno do seu ambiente.
+
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome (no mínimo 3 caracteres - no máximo 15 caracteres) com o qual deseja identificar o Balanceador. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+
+* **Aba/Tab Listener**: Esta aba é obrigatória, ela permite ao usuário configurar os parâmetros do Protocolo e Porta TCP-IP, do Balanceador e da Máquina Virtual para ser a ‘escuta’ e verificar a disponibilidade da aplicação/serviço. Abaixo a descrição simplificada das colunas:
+
+.. image:: /figuras/ucloud_balanceador010.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+  * **Botão Adicionar**: O usuário deve clicar com o cursor do mouse sobre o botão Adicionar, para acrescentar uma nova linha de configuração de Listener ao Balanceador. A Plataforma do uCloud acrescenta uma nova linha nesta lista, com os campos a preencher, conforme a tela acima:
+  * **Protocolo do Balanceador**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar nele, com o cursor do mouse, a Plataforma do uCloud lista as mesmas opções descritas no campo Protocolo acima descrito. Este campo configura os parâmetros do Protocolo TCP-IP aplicado ao Balanceador.
+  * **Porta do Balanceador**: Este campo é obrigatório, o usuário deve informar as Portas TCP-IP Padrão para o tipo do Protocolo selecionado no campo anterior. Este campo configura os parâmetros da Porta TCP-IP aplicado ao Balanceador.
+  * **Protocolo da Instância**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar nele, com o cursor do mouse, a Plataforma do uCloud lista as mesmas opções especificadas no campo Protocolo acima descrito. Este campo configura os parâmetros do Protocolo TCP-IP aplicado à Máquina Virtual.
+  * **Porta da Instância**: Este campo é obrigatório, o usuário deve informar as Portas TCP-IP Padrão para o tipo do protocolo selecionado no campo anterior. Este campo configura os parâmetros da Porta TCP-IP aplicado à Máquina Virtual.
+  * **Ação**: Esta coluna apresenta apenas o Ícone da Lata de Lixo “ ”: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) esta configuração de Listener deste Balanceador, de forma imediata e definitiva.
+
+* **Aba/Tab Máquina Virtual**: Esta aba é obrigatória, ela permite ao usuário vincular as máquinas virtuais que tem seu tráfego monitorado através do Balanceador para equilibrar as cargas de trabalho. Abaixo a descrição simplificada da coluna:
+
+.. image:: /figuras/ucloud_balanceador011.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+  * **Botão Adicionar**: O usuário deve clicar com o cursor do mouse sobre o botão Adicionar, para acrescentar uma nova máquina virtual ao Balanceador. O usuário deve repetir este procedimento até incluir todas as máquinas virtuais que tem seu tráfego controlado pelo Balanceador (quantas forem necessárias). A Plataforma do uCloud acrescenta uma nova linha nesta lista, com os campos a preencher, conforme a tela acima:
+  * **Nome**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar neste campo com o cursor do mouse, a Plataforma do uCloud lista todas as máquinas virtuais ativas, as que pertençam ao mesmo provedor (região e rede/sub-rede), com as quais o usuário com a sessão ativa tem permissão de interagir.
+  * **Ação**: Esta coluna apresenta apenas o Ícone da Lata de Lixo “ ”: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) esta máquina virtual deste Balanceador, de forma imediata e definitiva.
+
+* **Aba/Tab Grupos de Segurança**: Esta aba é obrigatória, e permite ao usuário vincular um (ou mais) Grupo de Segurança às máquinas virtuais que terão seu tráfego monitorado para equilibrar o tráfego da carga de trabalho. Abaixo a descrição simplificada da coluna.
+
+.. image:: /figuras/ucloud_balanceador012.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+  * **Botão Adicionar**: O usuário deve clicar com o cursor do mouse sobre o botão Adicionar, para acrescentar um novo Grupo de Segurança ao Balanceador. O usuário deve repetir este procedimento até incluir todos os Grupos de Segurança (quantos forem necessários). A Plataforma do uCloud acrescenta uma nova linha nesta lista, com os campos a preencher, conforme a tela acima:
+  * **Nome**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar neste campo com o cursor do mouse, a Plataforma do uCloud lista todos os Grupos de Segurança provisionados para o provedor de serviço de nuvem (região e rede/sub-rede) e com as quais o usuário com a sessão ativa tem permissão de interagir.
+  * **Ação**: Esta coluna apresenta apenas o Ícone da Lata de Lixo |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove este Grupo de Segurança deste Balanceador, de forma imediata e definitiva.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de provisionamento de um Balanceador. Após clicar, a Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para o correto funcionamento do Balanceador, nos ambientes do provedor de serviços de nuvem (pública e/ou privada), o usuário pode checar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para os ambientes, de forma a provisionar um Balanceador.
+  Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Balanceador.
 
 
 Criando Balanceador (Ambiente Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+O processo de provisionamento de um Balanceador por intermédio da Plataforma do uCloud é sempre efetuado através de uma interface via API-Rest, desta forma os parâmetros necessários para o ambiente do provedor de nuvem pública Microsoft Azure possui diferenças sutis em relação aos provedores anteriormente apresentados.
+
+Quando o usuário clicar com cursor do mouse sobre o botão Criar Balanceador, a Plataforma do uCloud apresenta a tela global abaixo:
+
+.. image:: /figuras/ucloud_balanceador008.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+
+.. important:: Somente usuários com perfil de Administrador de Grupo ou Administrador de Contrato, tem permissão e podem completar esta operação.
+
+A seguir a descrição dos campos desta tela:
+
+* **Usuário**: Este campo é obrigatório, ele aparece preenchido com o login do usuário registrado corrente na Plataforma do uCloud. Este usuário é utilizado como referência para filtrar as máquinas virtuais específicas que foram provisionadas por este, no campo abaixo. Se for necessário alterar a vinculação ao usuário, basta clicar com o cursor do mouse sobre o botão de Edição “ ” e digitar os caracteres que fazem parte do login do usuário que deve ser vinculado a este Balanceador, em seguida, a Plataforma do uCloud apresenta uma lista de logins de usuário que possuem a sequência de caracteres digitado. Basta selecionar o login desejado da lista.
+
+* **Container**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma do uCloud apresenta relação de todos os containers aos quais o usuário está vinculado. Quando o usuário seleciona o provedor Azure, a plataforma do uCloud é alterada e apresenta um aviso referente ao ambiente do provedor de serviço de nuvem Microsoft Azure, pois é mandatório ao usuário selecionar apenas as máquinas virtuais que estejam associadas a um único Grupo de Disponibilidade, favor visualizar a tela abaixo:
+
+.. image:: /figuras/ucloud_balanceador013.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+Após o usuário clicar com o cursor do mouse no botão OK para aceitar o aviso, a Plataforma do uCloud apresenta a tela seguinte, a qual solicita provisionar um Balanceador no ambiente do provedor de serviço de nuvem pública Azure:
+
+.. image:: /figuras/ucloud_balanceador014.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+A seguir a descrição dos campos desta tela:
+
+* **Virtual Datacenter**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse, neste campo, a Plataforma do uCloud apresenta relação de todos os Virtual Datacenters vinculados a Azure, aos quais o usuário com uma sessão registrada está vinculado.
+* **Região**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar com o cursor do mouse, neste campo, a Plataforma do uCloud apresenta a relação de todas as Regiões Globais Azure que estão presentes na configuração do Virtual Datacenter selecionado no campo anterior.
+* **Rede**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse, neste campo, a Plataforma do uCloud apresenta a relação de todas as Redes da Azure que estão presentes na configuração do Virtual Datacenter selecionado no campo anterior
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome (no mínimo 3 caracteres - no máximo 15 caracteres) com o qual deseja identificar o Balanceador. A sugestão é utilizar somente os caracteres ASCII padrão (letras ou números), não usar espaços em branco caracteres de pontuação ou caracteres acentuados (ASCII Estendido).
+* **Protocolo**: Este campo é obrigatório do tipo “drop down”, nele o usuário clica com o cursor do mouse e a Plataforma do uCloud apresenta a relação de todos os Tipos de Protocolo TCP-IP disponíveis, apenas para o ambiente do provedor de serviço de nuvem pública Azure, que serão configurados ao Balanceador (Favor consultar a documentação online do provedor para esclarecer o comportamento do Balanceador em relação a cada tipo de protocolo):
+  * TCP
+  * UDP
+*  **Porta**: Este campo é obrigatório, o usuário deve informar o número (inteiro) referente as Portas TCP-IP Padrão para o tipo do Protocolo selecionado no campo anterior. Este campo configura os parâmetros da Porta TCP-IP aplicado ao Balanceador.
+
+* **Aba/Tab Máquina Virtual**: Esta aba é obrigatória, ela permite ao usuário vincular as máquinas virtuais que tem seu tráfego monitorado através do Balanceador para equilibrar as cargas de trabalho. Abaixo a descrição simplificada da coluna:
+
+.. image:: /figuras/ucloud_balanceador015.png
+   :alt: Menu Rede - Balanceador
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+  * **Botão Adicionar**: O usuário deve clicar com o cursor do mouse sobre o botão Adicionar, para acrescentar uma nova máquina virtual ao Balanceador. O usuário deve repetir este procedimento até incluir todas as máquinas virtuais que tem o seu tráfego controlado pelo Balanceador (quantas forem necessárias). A Plataforma do uCloud acrescenta uma nova linha nesta lista, com campos a preencher, conforme a tela acima:
+  * **Nome**: Este campo é obrigatório do tipo “drop down”, quando o usuário clicar neste campo com o cursor do mouse, a Plataforma do uCloud lista todas as máquinas virtuais ativas, as que pertençam ao mesmo provedor (região e rede/sub-rede), com as quais o usuário com a sessão ativa tem permissão de interagir.
+  * **Ação**: Esta coluna apresenta apenas o **Ícone da Lata de Lixo** |icone_lixo|. Basta clicar com o cursor do mouse sobre este botão “Lata de Lixo” e a Plataforma do uCloud remove (exclui) esta máquina virtual deste Balanceador, de forma imediata e definitiva.
+
+* **Botão Cancelar**: O usuário pode usar este botão para cancelar o processo de provisionamento de um Balanceador. Após clicar, a Plataforma do uCloud encerra a tela e retorna à tela anterior.
+* **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para o correto funcionamento do Balanceador, nos ambientes do provedor de serviços de nuvem (pública e/ou privada), o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a Plataforma do uCloud envia todos os parâmetros para os ambientes, de forma a provisionar um Balanceador.
+  Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a Plataforma do uCloud não permitirá o provisionamento do Balanceador.
+
+
 .. Zonas DNS
 .. ---------
 .. todos ites de DNS abaixo estão comentados, não aparecem no texto html
+
+.. O serviço Domain Name System (DNS) é um serviço hierárquico e distribuído lobalmente de gestão de nomes para computadores, serviços ou qualquer máquina conectada à Internet ou a uma rede privada, O sistema de nomes de domínio (DNS) converte nomes legíveis por humanos (www.exemplo.com) em endereços IP numéricos (192.0.2.1) legíveis e utilizados pelos computadores para conexões entre si. Todos os provedores do serviço de nuvem pública (AWS, Azure e GCP) possuem a facilidade de criar uma Zona DNS.
+.. O Sistema de Nomes de Domínio (DNS) é a lista telefônica da Internet. Os seres humanos acessam informações on-line por meio de nomes de domínio, como ustore.com.br. Os navegadores da Internet interagem por meio de endereços IP (Protocolo de Internet). O DNS converte nomes de domínio em endereços IP para que os navegadores possam carregar os recursos da Internet.
+.. Para os ambientes de nuvem privada (on-premises) um pré-requisito a ser atendido é o fato da Plataforma do uCloud estar corretamente configurada e integrada ao servidor de Rede Definida por Software (SDN) privado (o módulo uSDN) - caso contrário não é possível provisionar Zonas DNS através da interface da Plataforma uCloud. Não é o objetivo deste documento descrever todos os ambientes de nuvem privada, pois cada ambiente possui características únicas, a integração do servidor de SDN (e suas funcionalidades) com a rede de dados corporativa (Corporate LAN) pode não permitir o provisionamento de uma Zona DNS, através da API Rest, como projetado na Plataforma do uCloud.
+.. O menu Zonas DNS contém todas as zonas de DNS criadas por um usuário em um ambiente de nuvem pública ou on-premises. Para criar uma zona DNS, o usuário deve indicar o container e o nome da zona DNS e uma descrição sobre a Zona DNS a ser criada. Após criado tal zona de DNS, o usuário pode selecionar para editar a mesma e adicionar registros ou editar registros para a zona criada.
+
+.. .. image:: /figuras/ucloud_menu_DNS001.png
+   :alt: Menu Rede - Zona DNS
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+.. Quando o usuário acessa o menu Zonas DNS, a Plataforma do uCloud apresenta uma lista com todas as zonas de DNS criadas por um usuário no ambiente de um provedor de serviço de nuvem (pública e/ou privada).
+
+.. .. image:: /figuras/ucloud_menu_DNS002.png
+   :alt: Menu Rede - Zona DNS
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+.. A seguir a descrição das colunas desta tela:
+
+.. * **Botão “Criar Zona DNS”**: Caso o usuário necessite criar uma Zona DNS no ambiente do provedor de serviço de nuvem privada, basta clicar com o cursor do mouse sobre este botão, favor acompanhar as instruções nos itens abaixo: D. Criar Zona DNS Privada - Observação.
+.. * **Botão Criar “Zona DNS Pública”**: Caso o usuário necessite criar uma Zona DNS no ambiente do provedor de serviço de nuvem pública, basta clicar com o cursor do mouse sobre este botão, favor acompanhar as instruções nos itens abaixo: B. Criar ZONA DNS Pública (AWS e GCP) e C. Criar ZONA DNS Pública (Azure).
+.. * **Botão Refresh**: A Plataforma do uCloud comunica-se com o console dos provedores através da API Rest, portanto, toda ação executada e/ou configurada na plataforma do uCloud passa a ser apresentada imediatamente na tela do usuário, a qual envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada.
+
+.. .. attention:: Para que o atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, ele executa apenas a atualização das informações contidas na base de dados da plataforma do uCloud.
+
+.. * **Container**: Esta coluna apresenta o nome do Container em que a Zona DNS foi provisionada.
+.. * **Domínio**: Esta coluna apresenta o nome do Domínio, da forma que foi informado pelo usuário no momento deste ser provisionado através da Plataforma do uCloud.
+.. * **Descrição**: Esta coluna apresenta o conteúdo do campo que descreve o domínio, informado pelo usuário no momento deste ser provisionado através da Plataforma do uCloud.
+.. * **Criado Por**: Esta coluna apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud e é o responsável pelo provisionamento da Zona DNS.
+.. * **Ação**: Esta coluna apresenta duas opções de ação a ser realizada pelo usuário, por intermédio dos ícones e o usuário possa interagir com a Zona DNS selecionada:
+
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud remove (exclui) esta Zona DNS, de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+  * **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma do uCloud apresenta uma tela que permite a edição das configurações da Zona DNS, o usuário pode seguir as instruções do item: A. Gerenciar Zona DNS.
+
+.. * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de Zonas DNS. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma do uCloud atualiza a tela de forma a representar este padrão de busca.
+
 .. Gerenciar Zona DNS Pública
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Inicialmente, importa destacar que o objetivo deste documento não é esclarecer o leitor nas características técnicas da funcionalidade e seus parâmetros, Zona DNS.
+
+.. Indicamos fortemente ao usuário procurar certificar-se de que possui o correto embasamento técnico para alterar qualquer parâmetro de uma Zona DNS existente.
+
+.. Qualquer alteração nos parâmetros de uma Zona DNS pode desencadear impactos negativos na experiência dos usuários externos (na web, Internet). Favor consultar a documentação online de seu provedor de serviço de nuvem pública para compreender o correto comportamento da Zona DNS por ele oferecida.
+
+.. Quando o usuário clicar com o cursor do mouse sobre algum domínio apresentado na lista ou no ícone de edição, a Plataforma do uCloud apresenta uma tela com as informações específicas de uma Zona DNS pública, conforme a tela abaixo:
+
+.. .. image:: /figuras/ucloud_menu_DNS003.png
+   :alt: Menu Rede - Zona DNS
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+.. A seguir, a descrição das seções desta tela:
+
+.. * **Botão Excluir “Zona DNS”**: Basta o usuário clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud remove (exclui) esta Zona DNS do ambiente do provedor de serviço de nuvem (pública e/ou privada), de forma imediata e definitiva.
+
+..  O tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - favor consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada. Esta ação também remove o custo recorrente do recurso da conta do provedor de serviço de nuvem (pública e/ou privada).
+
+..  Quando o usuário clicar com o cursor do mouse sobre este ícone, a Plataforma do uCloud exibe um ‘pop up’ na tela e solicita confirmar a ação do usuário:
+
+.. * **Seção Geral**: Nesta seção são apresentadas as informações genéricas da rede que foram informadas pelo usuário no momento do seu provisionamento:
+
+..   * Container (exclusivo AWS): Este campo apresenta o nome do Container ao qual a Zona DNS está vinculada.
+..   * Rede (exclusivo AWS): Este campo apresenta o nome da Rede (e Sub-Rede) ao qual a Zona DNS está vinculada.
+..   * Domínio: Este campo apresenta o nome do domínio provisionado no ambiente do provedor de serviço de nuvem pública.
+..   * Descrição: Este campo apresenta a descrição referente ao domínio provisionado no ambiente do provedor de serviço de nuvem pública.
+..   * Criado por: Este campo apresenta as credenciais de login do usuário que estava registrado na Plataforma do uCloud, ele será o responsável pelo provisionamento da Zona DNS.
+
+.. * **Seção Registros do DNS**: Nesta seção são apresentadas as informações técnicas e específicas da Zona DNS, as quais são obtidas através sincronização da Plataforma do uCloud com o ambiente do provedor de serviço de nuvem pública.
+..   * **Registro**: Este campo apresenta a lista de todos os registros dos nomes que foram provisionados pelos usuário(s) a partir da criação do domínio. Favor consultar a documentação online do seu provedor de serviço de nuvem pública para entender as características específicas para o ambiente do provedor de serviço.
+..   * **Tipo**: Este campo apresenta a característica específica do Tipo de registro (ex.: servidor de nome {NS} e de início de autoridade {SOA} para a ZonaDNS). Favor consultar a documentação online do seu provedor de serviço de nuvem pública para entender as características específicas para o ambiente do provedor de serviço.
+..   * **TTL**: A configuração de TTL (Time To Live) de um registro determina por quanto tempo o usuário deseja que os resolvedores de DNS armazenem o registro e usem as informações em cache. A configuração de TTL típica para o registro de Name Service é de 172.800 segundos ou dois dias. Favor consultar a documentação online do seu provedor de serviço de nuvem pública para entender as características específicas para o ambiente do provedor de serviço.
+
+..   * **Valor**: Este campo apresenta o conteúdo do registro anteriormente provisionado pelo usuário. Favor consultar a documentação online do seuprovedor de serviço de nuvem pública para entender as características específicas para ambiente do provedor de serviço.
+
+..   * **Ações**: Esta coluna pode apresentar apenas uma ação ao exibir o Ícone Edição “ ”, quando o usuário clicar sobre este ícone a Plataforma do uCloud alterna todos os campos das colunas, para o modo ‘Edição’, de forma que permite o usuário corrigir o conteúdo dos campos e alterar as configurações do registro selecionado:
+
+..     * **Ícone de Confirmação**: Quando o usuário deseja confirmar aconfiguração dos parâmetros informados nesta linha, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado aconfiguração do registro, o usuário deve clicar com o cursor do mouse no botão verde para confirmar as alterações ou inclusão.
+..     * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre um botão por engano ou não deseja que a inclusão de um novo registro seja armazenado (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. O ícone vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração:
+
+..   * **Botão “Adicionar Registro DNS”**: Caso o usuário necessite criar um novo Registro DNS no ambiente do provedor de serviço de nuvem (público ou privado), basta clicar com o cursor do mouse sobre este botão e a Plataforma do uCloud acrescenta uma nova linha nesta lista com todos os campos em branco, permite ao usuário configurar da forma necessária, conforme a tela abaixo:
+
+.. .. image:: /figuras/ucloud_menu_DNS004.png
+   :alt: Menu Rede - Zona DNS
+   :scale: 80 %
+   :align: center
+   :class: with-border
+
+----
+
+.. Após incluir todas as informações necessárias para provisionar o novo registro, basta o usuário clicar com o cursor do mouse no Ícone de Confirmação o que permite a Plataforma do uCloud provisionar o novo registro, de forma definitiva no ambiente do provedor de serviço de nuvem pública. Favor consultar a documentação online do seu provedor de serviço de nuvem pública, se precisar entender as características específicas para ambiente do provedor de serviço.
+
 .. Criar Zona DNS Pública (AWS e GCP)
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. nunca vi o processo não sei como documentar
+
+
 .. Criar Zona DNS Pública (Azure)
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. nunca vi o processo não sei como documentar
+
 .. Criar Zona DNS Privada - Observação
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Para os ambientes de nuvem privada (on-premises) um pré-requisito é o de que a Plataforma do uCloud esteja corretamente configurada e integrada ao servidor de SDN privado (módulo uSDN), caso contrário não é possível provisionar Zonas DNS através da interface da Plataforma uCloud. Não é objetivo deste documento descrever todos os ambientes de nuvem privada, pois cada ambiente possui características únicas, a integração do servidor de SDN (suas funcionalidades) com a rede de dados corporativa (Corporate LAN) pode não permitir o provisionamento de uma Zona DNS, através da API Rest, como projetado na Plataforma do uCloud.
+
+.. Favor entrar em contato com a Equipe de Suporte Técnico da Ustore para verificar se a integração do módulo uSDN está corretamente configurado no seu ambiente e integrado com a rede corporativa local (LAN).
+
+.. A Equipe de Suporte Técnico pode apresentar as melhores práticas e orientar o correto processo de provisionamento de Zona DNS em ambiente de rede corporativa privada (on-premises).
 
 VPN
 ---
