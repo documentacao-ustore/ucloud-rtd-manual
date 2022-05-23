@@ -11,7 +11,8 @@ uSavings - Manual do Usuário
 INTRODUÇÃO Visão Geral
 =========================
 
-Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto,.
+Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto.
+
 Importa esclarecer que ele se encontra em constante desenvolvimento e evolução, por isto, as telas apresentadas neste documento podem sofrer alterações a qualquer momento, por conta da evolução do software.
 
 O que é uSavings?
@@ -49,13 +50,7 @@ A ferramenta é relevante para a tomada de decisão nas organizações, pois ao 
 
 A aplicação uSavings pode referenciar sugestões de redução da configuração – ‘rightsizing’ de máquinas virtuais, caso tenham sido previamente criadas com ‘super configurações’ e/ou apresentarem um baixo consumo no histórico de performance. **Direciona** a possibilidade de ampliar a relação custo-consumo, **não a executa**. O objetivo da implantação da plataforma uSavings é indicar à organização a possibilidade e/ou caminho para aumentar a economia dos seus custos, no próximo período de cobrança do provedor de serviço de nuvem.
 
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  ATENÇÃO   |  A organização munida das informações, entregues pela aplicação uSavings, deve entrar em contato com o provedor do serviço de nuvem sobre ‘rightsizing’.  |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ".."   | atenção "::" A organização munida das informações, entregues pela aplicação uSavings, deve entrar em contato com o provedor do serviço de nuvem sobre ‘rightsizing’. |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. attention:: A organização munida das informações, entregues pela aplicação uSavings, deve entrar em contato com o provedor do serviço de nuvem sobre ‘rightsizing’.
 
 Ao adquirir a plataforma uSavings, as organizações podem ter em mãos uma valiosa ferramenta estratégica e de inteligência de negócio (BI) que indica o melhor caminho para ampliar a relação “custo-benefício” das suas infraestruturas virtuais e, também, a melhor forma de maximizar os recursos das máquinas virtuais criadas nos provedores de serviços de nuvem.
 
@@ -64,23 +59,23 @@ Ao adquirir a plataforma uSavings, as organizações podem ter em mãos uma vali
 
 As otimizações a seguir podem ser propostas com base em sugestões de:
 
-a) Rightsizing:
-~~~~~~~~~~~~~~~
+Rightsizing:
+~~~~~~~~~~~~
 
 Consiste na sugestão da melhor combinação de CPU e memória, com o objetivo de minimizar os custos e maximizar o desempenho. A ferramenta coleta métricas de desempenho para determinar o consumo médio e máximo de recursos de uma instância em um período configurável e recomenda uma modificação para um tipo de configuração de máquina virtual ‘VM’ de menor configuração ou de configuração apropriada para o projeto.
 
-b) Custos Comparativos:
-~~~~~~~~~~~~~~~~~~~~~~~
+Custos Comparativos:
+~~~~~~~~~~~~~~~~~~~~
 
 Apresenta ao usuário a relação atual das suas máquinas virtuais ‘VMs’ e uma sugestão do que seria a ‘melhor configuração’ em cada provedor de nuvem. Permite ao usuário avaliar qual provedor está com o menor custo em determinada máquina virtual ‘VM’ , na data que foi obtido o valor deste custo.
 
-c) Monitoramento de Recursos Ociosos:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Monitoramento de Recursos Ociosos:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O monitoramento de recursos ociosos permite checar se os recursos estão em uso. É possível monitorar os recursos criados e não utilizados.
 
-d) Instâncias Reservadas:
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Instâncias Reservadas:
+~~~~~~~~~~~~~~~~~~~~~~
 
 Sobre a instância reservada, a aplicação uSavings consegue mostrar ao cliente-usuário que no caso da alteração de uma máquina *on-demand* para uma máquina reservada – a instância reservada consegue exibir o quanto é possível economizar em relação a atual máquina.
 
@@ -93,8 +88,8 @@ Ao utilizar o provedor AWS, as instâncias reservadas (*Reserved Instances - RIs
 Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos computacionais, para outro tipo de tarefa, o provedor pode encerrar estas instâncias a qualquer momento (ou seja, forçar a interrupção destas VMs) sem obrigação da prévia comunicação.
 
 
-2. INTERFACE e MENU
-===================
+INTERFACE e MENU
+================
 
 A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
 
@@ -111,7 +106,7 @@ Para o caso de o acesso ser realizado direto na web a Figura 3 abaixo será most
 
 - [ ] inserir *Figura3 Tela de acesso inicial*
 
-O usuário deve preencher os campos **‘login’** e **‘senha’**, com as credenciais recebidas do administrador da plataforma. Clicar em **‘Entrar’**. Após este procedimento, a tela inicial do Dashboard será apresentada. 
+O usuário deve preencher os campos **login** e **senha**, com as credenciais recebidas do administrador da plataforma. Clicar em **‘Entrar’**. Após este procedimento, a tela inicial do Dashboard será apresentada. 
 
 Se a tela de Dashboard não for apresentada, isto significa que algum dos campos estão preenchidos com informações inconsistentes, ou seja, ‘login’ ou ‘senha’ inexistentes e/ou pode ter havido um erro na digitação das informações. É importante checar e repetir a operação.
 

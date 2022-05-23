@@ -6087,14 +6087,77 @@ Quando o usuário clicar com o cursor do mouse sobre o botão Criar Workflow, lo
 Criando Tarefas Associadas
 --------------------------
 
+
+
 Tarefa de Iniciar e Parar Máquina Virtual
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Seguindo o exemplo de desligamento programado, o usuário pode utilizar a funcionalidade de workflows para ativar (start) um servidor em um horário programado para que as aplicações que estão sendo executadas neste servidor, estejam disponíveis para os usuários durante o horário comercial.
+
+Esta ação pode ser programada para ser executada diariamente em um horário pré-determinado (ex: executar start de segunda a sexta-feira às 05 horas). Desta forma revertendo assim, o desligamento diário e durante os finais de semana; deixando a infraestrutura do servidor e suas aplicações disponível para seus usuários durante o horário comercial.
+
+Esta implementação pode reduzir os custos recorrentes de recursos de servidores que foram contratados como cobrança por utilização. 
+
+Estas funcionalidades de desligamento e ativação programada, pode não ser muito efetiva para redução de custos operacionais para determinados tipos de recursos como instâncias reservadas (Reserved Instances), ou as instâncias SPOT. Cada provedor de serviço de nuvem pública possui um custo pré-fixado para a contratação destas modalidades de infraestrutura de máquinas virtuais e o desligamento não acarreta uma redução no custo de utilização.
+
 
 Tarefa de Criar Imagem de Disco (Snapshot)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta atividade pode ser entendida (ou confundida) com a atividade de cópia de segurança (*backup*), mas é importante esclarecer que esta funcionalidade apenas executa uma função nativa dos consoles dos provedores de serviço de nuvem pública e/ou privada, que é a cópia instantânea de um volume de disco em um horário determinado pelo usuário.
+
+Em sistemas de computador, uma cópia instantânea de volume ou captura instantânea de volume (do Inglês: snapshot, tradução literal: foto instantânea) é o estado de um sistema em um determinado ponto no tempo. O termo foi cunhado como uma analogia ao usado em fotografia. Pode se referir a uma cópia real do estado de um sistema ou a um recurso fornecido por determinados sistemas.
+
+Importante mencionar que uma das diferenças entre um storage snapshot e um backup é que o snapshot é armazenado no mesmo local dos dados originais. Portanto, depende completamente da confiabilidade da origem. Isso significa que, no caso de um desastre ou danos aos dados de origem, o snapshot está totalmente comprometido ou ficaria inacessível.
+
+Um disk snapshot não efetua o processo de validação da integridade lógica do processo de cópia do(s) arquivo(s) individualmente, simplesmente executa a ação de cópia instantânea de todo o disco associado a infraestrutura que compreende o servidor.
+
+O usuário pode provisionar a ação de criação de um *disk snapshot* em dias e/ou horários programados e deixar que a Plataforma uCloud envie esta solicitação (via API-REST) para o console do provedor de serviço de nuvem para que o provedor inicie este disk snapshot.
+
+
 Tarefa de Script
 ~~~~~~~~~~~~~~~~
+
+Esta atividade pode ser entendida (ou confundida) com a atividade de cópia de segurança (*backup*), mas é importante esclarecer que esta funcionalidade apenas executa uma função nativa dos consoles dos provedores de serviço de nuvem pública e/ou privada, que é a cópia instantânea de um volume de disco em um horário determinado pelo usuário.
+
+Em sistemas de computador, uma cópia instantânea de volume ou captura instantânea de volume (do Inglês: snapshot, tradução literal: foto instantânea) é o estado de um sistema em um determinado ponto no tempo. O termo foi cunhado como uma analogia ao usado em fotografia. Pode se referir a uma cópia real do estado de um sistema ou a um recurso fornecido por determinados sistemas.
+
+Importante mencionar que uma das diferenças entre um storage snapshot e um backup é que o snapshot é armazenado no mesmo local dos dados originais. Portanto, depende completamente da confiabilidade da origem. Isso significa que, no caso de um desastre ou danos aos dados de origem, o snapshot está totalmente comprometido ou ficaria inacessível.
+
+Um disk snapshot não efetua o processo de validação da integridade lógica do processo de cópia do(s) arquivo(s) individualmente, simplesmente executa a ação de cópia instantânea de todo o disco associado a infraestrutura que compreende o servidor.
+
+O usuário pode provisionar a ação de criação de um *disk snapshot* em dias e/ou horários programados e deixar que a Plataforma uCloud envie esta solicitação (via API-REST) para o console do provedor de serviço de nuvem para que o provedor inicie este disk snapshot.
+
+Executar scripts/playbooks Ansible, Terraform, Puppet
+-----------------------------------------------------
+
+Um princípio fundamental de Desenvolvimento e Operação (*DevOps*) é tratar a infraestrutura da mesma forma que os desenvolvedores tratam o código. Um código de um aplicativo tem um formato e uma sintaxe. Se o código não for escrito de acordo com as regras da linguagem de programação, os aplicativos não poderão ser criados. O conteúdo do código é armazenado em um algum sistema de Controle e Gerenciamento de Versionamento, em outras palavras uma plataforma que controla a origem e que registra todo o histórico de desenvolvimento de código, alterações e correções de bugs.
+
+Atualmente o mercado criou o conceito de provisionar Infraestrutura como Código (*IaC - Infrastructure as Code*) que significa aplicar o mesmo rigor do desenvolvimento de código de aplicativo ao provisionamento de infraestrutura. Todas as configurações de um recurso computacional de nuvem pública, devem ser definidas de forma declarativa e armazenadas em um sistema de controle de versão e colaboração (ex: Github, Gitlab), o mesmo que o código do aplicativo. O provisionamento, orquestração e implantação de infraestrutura também devem dar suporte ao uso da infraestrutura como código.
+
+Tradicionalmente, a infraestrutura era provisionada usando uma combinação de scripts e processos manuais. Estes scripts podem ser armazenados em sistemas de controle de versão ou documentados passo a passo em arquivos de texto ou playbooks. Se esses scripts ou playbooks não forem atualizados com frequência, eles podem se tornar um obstáculo nas implantações. Isso resulta na criação de novos ambientes nem sempre repetíveis, confiáveis ou consistentes. Portanto, este é o ponto fundamental da adoção e uso de uma plataforma de repositórios com controle de versionamento, pois é fundamental que o usuário utilize apenas as últimas versões dos *scripts/playbooks* que foram atualizados e revisados.
+
+A funcionalidade de Fluxos de Trabalho (*workflows*) para ambiente de nuvem pública e/ou privada, permite ao profissional de TI conectado na Plataforma uCloud criar uma sequência automática de ativações de arquivos de scripts playbooks para controlar a sequência de ações para provisionar um recurso computacional com as características de configuração, sistema operacional, pacotes de softwares e regras de segurança requeridas pela regulamentação (compliance) de maneira confiável e com a utilização de scripts automatizados.
+
+Por padrão, a Plataforma uCloud utiliza a integração nativa com a *Plataforma Github*, e o proprietário deste repositório autoriza usuários a se conectarem neste repositório através de um código de identificação (Token) que deve ser gerado unicamente através de uma sessão no Github, para cada usuário ou usuários. Este token deve possuir a permissão de se conectar neste repositório para ter acesso aos arquivos de scripts/playbooks armazenados e versionados.
+
+A sequência de caracteres que representa o token que permite que as credenciais de login da Plataforma uCloud possa ter acesso ao repositório Github, deve ser informado no cadastro de usuários da Plataforma uCloud, sem esta configuração, o usuário não poderá acessar o repositório de scripts/playbooks para criar o fluxo de trabalho (workflow).
+
+.. important:: A Plataforma uCloud não efetua nenhuma validação prévia se a cadeia de caracteres referente ao token de acesso ao Github é válida ou não. A Plataforma uCloud não irá apresentar qualquer mensagem informativa referente à inclusão deste token à credencial de um usuário.
+
+Atualmente a Plataforma uCloud suporta as seguintes ferramentas de IaC:
+
+* Ansible
+* Terraform
+* Puppet*
+
+Importante mencionar que a Plataforma uCloud não é, por ela mesma, um ambiente de armazenamento e controle de versionamento dos arquivos de playbooks. No presente momento a Plataforma do uCloud permite a integração à uma ferramenta de controle de repositório de arquivos de scripts/playbooks, esta função é reservada a uma ferramenta externa.
+
+.. note:: A Plataforma uCloud, não efetua qualquer validação prévia da coerência ou consistência da estrutura e sintaxe escrita no arquivo de script/playbook; desta forma qualquer erro pré-existente na sintaxe do texto do script, será executado de forma literal, podendo gerar (ou não) um erro que pode ser visualizado através da interface do uCloud.
+
+.. warning:: Puppet = *Atenção a Plataforma uCloud permite criar um workflow que irá ativar um script/playbooks na sintaxe Puppet, mas para que um profissional possa utilizar script/playbook Puppet será necessário um ambiente adicional (na forma de uma infraestrutura de servidor). Este servidor que será encarregado da EXECUÇÃO dos referidos script/playbooks. A Plataforma uCloud não desempenha a função de suporte para a execução de scripts/playbooks Puppet*.
+
+
 
 Menu Tarefas
 ============
