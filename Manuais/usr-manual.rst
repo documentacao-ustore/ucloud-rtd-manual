@@ -148,7 +148,7 @@ O acesso à plataforma é feito através de um endereço de Internet, o usuário
 
 A Plataforma uCloud está adaptada para que sua interface seja apresentada nos idiomas **Português (nativo), Espanhol e Inglês**. Esta configuração é executada pelo próprio usuário. Em seu perfil é possível selecionar o idioma de apresentação da interface, sem a necessidade de alterar a configuração de idioma de sua sessão do navegador de internt (browser).
 
-.. figure:: /figuras/ucloud_idioma_plataforma.jpg
+.. figure:: /figuras/ucloud_idioma_plataforma.png
    :alt: Idioma da Plataforma uCloud
    :align: center
 
@@ -231,8 +231,8 @@ Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é
 
 * **Usuário**: Um usuário é a entidade que possui acesso identificado à Plataforma do uCloud para efetuar ações nos recursos computacionais dos provedores (público e/ou privado).
 
-A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos e é primordial que o usuário utilize esta figura como referência para entender as relações;
-  
+A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos e é primordial que o usuário utilize esta figura como referência para entender as relações.
+
 .. figure:: /figuras/ucloud_arquitetura_conceitual001.png
    :align: center
 
@@ -257,9 +257,8 @@ A opção Administração apresenta campos que variam de acordo com o perfil do 
 #. **Usuários Administradores**: São usuários com perfil de acesso total e podem efetuar intervenções globais nas configurações da plataforma. Este perfil de usuário é exclusivo da Ustore ou de um único perfil de usuário da organização que efetuou a aquisição das licenças da Plataforma do uCloud. Este usuário administrador possui permissão para gerenciar todas as funcionalidades e recursos globais ofertados pela plataforma.
 
 .. note::
-  |atencao| *O Perfil Administrador não será coberto neste documento. Entre em contato com seu ponto focal na Ustore para obter o documento específico: Manual do Administrador da Plataforma uCloud.
-  Por segurança, melhores práticas e por padrão, existe apenas um (01) usuário provisionado com este tipo de perfil*.
-	
+  |atencao| *O Perfil Administrador não será coberto neste documento. Entre em contato com seu ponto focal na Ustore para obter o documento específico: Manual do Administrador da Plataforma uCloud. Por segurança, melhores práticas e por padrão, existe apenas um (01) usuário provisionado com este tipo de perfil*.
+
 Switch Roles
 ------------
 
@@ -490,11 +489,13 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 
   * **Idioma**: Este campo é do tipo "dropdown" e permite ao usuário trocar o idioma da interface da Plataforma uCloud. Basta clicar com o cursos do moue sobre este campo (em modo edição ativa) para apresentar as opções de idiomas **Português (nativo), Espanhol e Inglês**. Basta selecionar o idioma desejado que a Plataforma uCloud altera a interface de forma imediata.
 
-.. figure:: /figuras/ucloud_idioma_plataforma.jpg
+.. figure:: /figuras/ucloud_idioma_plataforma.png
    :alt: Idioma da Plataforma uCloud
    :align: center
 
 ----
+
+.. note:: Importante ressaltar que a Plataforma do uCloud não efetua qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
 
   * **Telefone**: Este campo não é obrigatório, e pode ser utilizado para armazenar o número de telefone (fixo ou móvel) do usuário. Este é uma informação apenas para consulta, a Plataforma uCloud não possui qualquer integração com plataformas de telefonia pública, privada ou móvel e deve ser preenchido com um número de telefone fixo ou do serviço móvel celular, utilizando o seguinte formato:
 
@@ -504,8 +505,6 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 
   * **Correio Eletrônico**: Este campo é obrigatório, nele deve ser informado um endereço de correio eletrônico (e-mail) válido. Este endereço de correio eletrônico será fundamental durante o processo de redefinição de senha pelo usuário, pois a Plataforma do uCloud utiliza este e-mail para o envio de uma mensagem que permite ao usuário criar uma senha, para ele, de forma automática. Adicionalmente a plataforma uCloud para o referido correio eletrônico uma mensagem para o processo de validação de **DUPLO FATOR DE AUTENTICAÇÃO**.
 
-.. note:: Importante ressaltar que a Plataforma do uCloud não efetua qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
-	
   * **Cargo**: Este campo não é obrigatório, seu conteúdo é meramente informativo para identificar o cargo do usuário que se deseja provisionar.
 
   * **Apenas Leitura** : Este campo configura um usuário que não tem permissão de efetuar nenhuma ação através da Plataforma do uCloud, mas seu login está ativo e ele possui a capacidade de visualizar todas as telas, as quais ele tenha permissão.
@@ -631,9 +630,9 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 ----
 
-* **Email**: Este campo é obrigatório, nele deve ser informado um endereço de correio eletrônico (e-mail) válido. Este endereço de correio eletrônico será fundamental durante o processo de redefinição de senha pelo usuário, pois a Plataforma do uCloud utiliza este e-mail para o envio de uma mensagem que permite ao usuário criar uma senha, para ele, de forma automática.
-
 .. attention:: A Plataforma do uCloud **não efetua** qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
+
+* **Email**: Este campo é obrigatório, nele deve ser informado um endereço de correio eletrônico (e-mail) válido. Este endereço de correio eletrônico será fundamental durante o processo de redefinição de senha pelo usuário, pois a Plataforma do uCloud utiliza este e-mail para o envio de uma mensagem que permite ao usuário criar uma senha, para ele, de forma automática.
 
 * **Telefone**: Este campo é obrigatório, e deve ser preenchido com um número de telefone fixo ou de serviço móvel celular, utilizar o seguinte formato:
 
@@ -681,7 +680,9 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 * **Habilitar Primeiro Acesso**: Este campo é um campo opcional do tipo de seleção  “check box”, que permite que o usuário possa alterar sua senha de acesso no primeiro acesso deste usuário a Plataforma do uCloud. Quando selecionado, a Plataforma do uCloud irá apresentar um ‘pop-up’ solicitando ao usuário informar uma nova senha, para substituir a senha inicialmente provisionada para este usuário,
 
+----
 .. warning:: A Plataforma do uCloud não irá permitir que o usuário inicie uma sessão ativa sem antes o usuário substituir a senha originalmente informada. Após o usuário informar a nova senha, será armazenada de forma encriptada nas bases de dados internas, neste momento a sessão do usuário se torna ativa para iniciar a o uso da Plataforma do uCloud normalmente.
+----
 
 * **Ativar Autenticação Multifator**: Este campo é um campo de seleção “check box” que indica se este usuário terá seu processo de autenticação na plataforma (login) sendo verificado duplamente antes de aprovar que este usuário tenha acesso a Plataforma do uCloud. Será enviada uma mensagem para o correio eletrônico informado no campo **e-mail** com um link/url para o usuário confirmar a segunda etapa de autenticação.
 
@@ -1189,6 +1190,7 @@ A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato 
 ----
 
 Abaixo segue o detalhamento dos valores da tela acima:
+
 * **Cota de Faturamento / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite financeiro (cota) do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de cem mil reais (R$100.000,00) e foi alocado para um (ou mais) grupo(s) um montante de três mil reais (R$3.000,00). O valor informado aqui é uma referência, não impede qualquer usuário na criação de novos recursos computacionais ultrapassar este valor *quando esta criação seja efetuada diretamente via console do provedor de nuvem pública/privada*. O número informado aqui, será utilizado como base de referência para a definição de “Alerta de Consumo” conforme descrito na seção acima.
 
 .. important:: |importante| *Outros grupos que venham a ser criados não podem ter locado valor acima deste limite financeiro.*
@@ -4832,7 +4834,7 @@ Ao acessar o menu Par de Chaves, a Plataforma do uCloud apresenta ao usuário um
 
 .. image:: /figuras/ucloud_par_de_chaves001.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4869,7 +4871,7 @@ Quando o usuário clicar com cursor do mouse no nome de um Par de Chaves, a Plat
 
 .. image:: /figuras/ucloud_par_de_chaves002.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4878,11 +4880,13 @@ Quando o usuário clicar com cursor do mouse no nome de um Par de Chaves, a Plat
 A seguir a descrição detalhada das seções e dos campos a preencher nesta tela:
 
 * **Seção Geral**
+
   * **Nome**: Este campo indica o nome do Par de Chaves informado pelo usuário durante o seu provisionamento. No caso de haver um nome extremamente longo ou diferente do que o usuário criou, isto indica que este Par de Chaves foi provisionado diretamente no console do provedor de serviço de nuvem pública e o processo de sincronização da Plataforma do uCloud com o container extraiu este nome diretamente do ambiente do provedor de serviço de nuvem pública
   * **Usuário**: Este campo apresenta as credenciais de login do usuário que está registrado na Plataforma do uCloud, o responsável pelo provisionamento do Par de Chaves. No caso deste campo não apresentar informação alguma (estar em branco), isto indica que o Par de Chaves foi provisionado diretamente no console do provedor de serviço de nuvem pública, o processo de sincronização da Plataforma do uCloud importou este Par de Chaves.
   * **Descrição**: Este campo apresenta o conteúdo que descreve o objetivo deste Par de Chaves, desde que tenha sido informado pelo usuário no momento do provisionamento.
 
 * **Seção Máquinas Virtuais**
+
   * **Nome**: Esta coluna indica o nome da Máquina Virtual informado pelo usuário durante o processo do seu provisionamento. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista com os nomes das máquinas virtuais, de forma alfabética crescente (a – z) ou decrescente (z – a).
   * **Usuário**: Esta coluna apresenta as credenciais de login do usuário que está registrado na Plataforma do uCloud, o responsável pelo provisionamento da Máquina Virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica a lista de nomes de máquinas virtuais, de forma alfabética crescente (a – z) ou decrescente (z – a).
   * **IP Privado**: Esta coluna apresenta o Endereço TCP-IP Privado que o provedor de serviço de nuvem (pública e/ou privada) associou a esta máquina virtual no momento de sua criação. Este Endereço TCP-IP é um endereço estático. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud recupera e classifica uma lista de endereços TCP-IP, de forma crescente ou decrescente.
@@ -4897,7 +4901,7 @@ O usuário pode criar um novo Par de Chaves, para isso ele deve vincular o Par d
 
 .. image:: /figuras/ucloud_par_de_chaves003.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4924,7 +4928,7 @@ Quando o usuário clicar com o cursor do mouse sobre o botão de Importar Par de
 
 .. image:: /figuras/ucloud_par_de_chaves004.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4954,7 +4958,7 @@ Para as informações específicas de cada provedor de nuvem e/ou ambiente onpre
 
 .. image:: /figuras/ucloud_balanceador001.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4966,7 +4970,7 @@ Quando o usuário acessar o menu Balanceadores, a Plataforma do uCloud apresenta
 
 .. image:: /figuras/ucloud_balanceador002.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -4993,7 +4997,7 @@ Quando o usuário clicar com o cursor do mouse sobre o nome de um Balanceador, a
 
 .. image:: /figuras/ucloud_balanceador003.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5013,7 +5017,7 @@ A seguir a descrição detalhada dos campos de cada seção:
 
 .. image:: /figuras/ucloud_balanceador004.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5043,7 +5047,7 @@ Abaixo segue a descrição dos campos:
 
 .. image:: /figuras/ucloud_balanceador005.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5059,6 +5063,7 @@ A seguir, a descrição simplificada das colunas:
   * **Ícone de Cancelamento**: Caso o usuário tenha clicado sobre o Botão de Adicionar, por engano ou não desejar que a inclusão de um novo Listener seja armazenado (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho. Após acionar o ícone vermelho, ele cancela as alterações e o conteúdo do campo retorna aos valores iniciais, antes de proceder qualquer preenchimento ou alteração.
 
 * **Seção Health Check**: Esta seção apresenta os parâmetros configurados que permitem verificar a “integridade e saúde” da máquina virtual, assim é possível estabelecer um período de tempo limite (threshold) ocioso configurado que se aplica às suas conexões. Se nenhum pacote houver sido enviado ou recebido até o tempo limite do período de inatividade finalizar, o Balanceador encerra a conexão automaticamente. Favor consultar a documentação online do seu provedor de serviço de nuvem pública, para verificar as melhores indicações para cada ambiente.
+
   * **Ping Target**: Neste campo o usuário deve informar a combinação Tipo do Protocolo:Porta TCP-IP padrão que será utilizada para conectar-se com a instância (ex. TCP:80). Este parâmetro é importante, pois no caso do Balanceador não conseguir conectar-se com a máquina virtual na porta TCP-IP específica, dentro do período de tempo limite de resposta configurado, a máquina virtual será considerada fora de serviço (out-of-service).
   * **Timeout**: Neste campo o usuário deve informar um número inteiro, ele representa a quantidade de tempo (em segundos) de espera ao receber uma resposta da verificação de integridade. Os valores podem variar entre 2 a 60 segundos - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem, para validar os valores específicos do seu ambiente.
   * **Interval**: Neste campo o usuário deve informar um número inteiro que representa a quantidade (em segundos) de tempo entre cada verificação de integridade. Os valores podem variar entre 5 a 300 segundos - Favor consultar a documentação online do ambiente do provedor de serviço de nuvem para validar os valores específicos do seu ambiente.
@@ -5069,6 +5074,7 @@ A seguir, a descrição simplificada das colunas:
 .. important:: Importante mencionar: a Porta TCP-IP deste campo deve conter a mesma informada no campo Porta, na Seção Listener.
 
 * **Seção Máquinas Virtuais**: Nesta seção a Plataforma uCloud apresenta a lista de máquinas virtuais que estão sendo monitoradas pelo Balanceador para equilibrar a carga de trabalho da aplicação/servidor.
+
   * **Nome**: Esta coluna apresenta uma lista com o nome das máquinas virtuais que estão vinculadas ao Balanceador.
   * **Status**: Esta coluna apresenta o status da “saúde” obtido de cada máquina que atende os parâmetros das configurações da seção Health Check, no qual cada máquina virtual pode apresentar o status:
   * **InService**: Máquina virtual em serviço efetivo (OPERACIONAL).
@@ -5077,7 +5083,7 @@ A seguir, a descrição simplificada das colunas:
 
 .. image:: /figuras/ucloud_balanceador006.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5087,7 +5093,7 @@ A seguir, a descrição simplificada das colunas:
 
 .. image:: /figuras/ucloud_balanceador007.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5109,7 +5115,7 @@ A seguir a descrição simplificada das colunas:
 
 .. image:: /figuras/ucloud_balanceador007.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5883,11 +5889,200 @@ A seguir a descrição dos campos desta tela:
 Menu Workflows
 ==============
 
+Atualmente todo profissional de infraestrutura de TI utiliza diversos *consoles* diferentes para provisionar recursos computacionais, seja dentro da empresa (data center privado) ou em em algum provedor(es) de nuvem(ns). Desta forma, se manter atualizado e preparado, em todas as "consoles" é um dos desafios atuais para qualquer profissional de TI.
+
+Na tentativa de aumentar a produtividade e reduzir o grau de dependência destes *consoles* o mercado desenvolveu o conceito de Infraestrutura como Código (IaC - Infrastructure as a Code). Mas este conceito endereça somente o momento do provisionamento inicial (mesmo com o uso de scripts para instalação de padrões e softwares), mas podem existir demandas em que o profissional de TI terá de se conectar ao *console* do ambiente para executar alguma intervenção na infraestrutura que não é possível através do conceito de IaaC. Estar conectado e ficar alternando entre os diversos consoles de nuvem, demanda uma grande especialização e conhecimento do profissional de TI.
+
+O mercado também criou a demanda de programar a execução de uma sequência de diversos scripts dentro de um fluxo controlado e encadeado de forma que um erro em um destes scripts pode interromper todo o fluxo para evitar o provisionamento de uma infraestrutura computacional sem a devida qualidade.
+
+Mas, muito importante é o nível de permissão das respectivas ações deste profissional seja na nuvem pública ou na nuvem privada. Independente se o profissional executa as ações via console ou via script automatizado, as plataformas de CSB devem possuir mecanismos que de provisionar um Perfil de Permissionamento e que estes possam ser vinculados às credenciais de acesso do usuário para controlar, adequar ou restringir as ações deste usuário.
+
+Os Fluxos de Trabalho (workflows) em ambiente de recursos computacionais, de nuvem pública, automatizam tarefas repetitivas de maneira confiável e podem converter processos manuais em fluxos de trabalho digitais provisionados através da interface da Plataforma do uCloud. Ao usar os Fluxos de Trabalho (workflows) em um ambiente de nuvem pública, as organizações podem reduzir as etapas manuais e melhorar a eficiência dos seus fluxos de trabalho, rapidamente, a um custo consideravelmente menor.
+
+A funcionalidade de Fluxos de Trabalho pode desempenhar diversas ações de operação na infraestrutura de recursos computacionais de nuvem pública e/ou privada.
+
+As funcionalidades disponíveis são as seguintes:
+
+#. Desligamento de Máquina Virtual (Shutdown)
+#. Ativação de Máquina Virtual (Start/Boot)
+#. Cópia Instantânea de um volume (Disk Snapshot)
+#. Executar um, ou mais, scripts/playbooks com sintaxe:
+
+  #. Ansible
+  #. Terraform
+  #. Puppet
+
+Direct Execution
+----------------
+
+Nete menu a Plataforma do uCloud permite provisionar, personalizar e inspecionar o comprtamento de um Fluxo de Trabalho e aplicar estes em um recurso computacional (por ex.: máquina virtual) do ambiente do provedor de serviço de nuvem pública e/ou nuvem privada.
+
+Quando o usuário seleciona a opção Direct Execution do menu, a seguinte tela é apresentada:
+
+.. figure:: /figuras/ucloud_workflow_dir_exec001.png
+   :alt: Menu Workflows
+   :scale: 60 %
+   :align: center
+
+----
+
+A descrição detalhada dos campos desta tabela segue abaixo:
+
+Através desta tela é possível provisionar um novo fluxo de trabalho ou inspecionar o resultado das ações do script(s)/playbook(s) que está(ão) vinculado(s)
+
+* **Nome**: Nesta tela o usuário pode iniciar o provisionamento de um novo fluxo de trabalho para execução direta. O limite mínimo de caracteres para informar neste campo é três (03) e o máximo é de sessenta e quatro (64) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Este campo deve ser preenchido com o nome desejado pelo usuário para identificar o seu Fluxo de Trabalho para execução direta (*Direct Execution*).
+* **Descrição**: Neste campo o usuário pode preencher com uma descrição das funcionalidades do fluxo de trabalho.
+* **Manual**: Este campo é do tipo "radio button" que configura definitivamente que este fluxo de trabalho somente pode ser executado através de uma intervenção direta do usuário, que deve selcionar este fluxo de trabalho e decidir por sua execução.
+* **Automático**: Este campo é do tipo "radio button" que configura definitivamente que este fluxo de trabalho será executado automaticamente sem a necessidade de intervenção direta do usuário. Quando selecionado esta opção, a Plataforma uCloud atualiza a interface e apresenta um novo campo para o usuário selecionar a opção de automação do fluxo de trabalho.
+
+  * **Selecionar Intervalo**: Este campo é do tipo "dropdown" e permite que o usuário programe uma data e/ou hora para a execução deste fluxo de trabalho. As opções são as seguintes:
+    * **Uma Vez**: Esta opção configura que este fluxo de trabalho será executado somente uma única vez sem que ocorram repetições automáticas de sua execução. Quando selecionado esta opção a Plataforma uCloud apresenta dois novos campos:
+
+      * **Data**: Neste campo o usuário deve informar o dia, o mês e o ano que deseja programar a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia selecionado n campo acima.
+
+    * **Uma vez no dia**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho.
+
+    * **Uma vez na semana**: Esta opção configura que este fluxo de trabalho será executado semanalmente e contínuamente todos os semanas do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+
+      * **Dia da Semana**: Este campo é do tipo "dropdown" e o usuário deve selecionar o dia da semana que deseja programar a execução deste fluxo de trabalho. Importantemencionar que esta opção significa que este fluxo de trabalho será executado semanalmente e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia da semana selecionado n campo acima.
+
+    * **Uma vez no mês**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Dia do Mês**: Neste campo o usuário deve informar o número inteiro que representa o dia do mês que deseja que este fluxo de trabalho seja executado. Importantemencionar que esta opção significa que este fluxo de trabalho será executado mensal e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho pra o dia do mês selecionado no campo anterior.
+
+* **Repetir mesmo com erro**: Este campo é do tipo "radio-button" e configura que o fluxo d trabalho seja executado por completo, mesmo que existe algum erro em seu código, ou que a plataforma do provedor de serviço de nuvem Pública e/ou Privara, retorne algum erro referente à execução do script(s)/playboo(s).
+* **Parar em caso de erro**: Este campo é do tipo "radio-button" e configura que o fluxo d trabalho seja encerrado quando alguma das tasks associadas encontrem algum erro durante sua execução em seu código do script(s)/playbook(s), ou encontrem algum erro na execução dentro da plataforma do provedor de serviço de nuvem Pública e/ou Privada.
+
+* **Botão Criar Workflow**: Este botão permite provisionar (criar) um Fluxo de Trabalho no ambiente da Plataforma do uCloud. A descrição detalhada está no item Criando um Workflow a seguir.
+
+* **Seção Workflows Existentes**: Nesta seção a PlataformauCloud apresenta uma relação de todos os fluxos de trabalh que foram provisionados pelo usuário.
+
+  * **Botão “Refresh”**: A Plataforma do uCloud se comunica com suas bases de dados internas constantemente, mas sendo esta interface HTML, podem existir atrasos (delays) de comunicação entre o computador do usuário e as instâncias de recursos computacionais que estão suportando e executando a aplicação do uCloud. Para atualizar apenas o conteúdo das seções da tela (ou as informações contidas nestas seções) é mandatório ao usuário clicar com o mouse sobre o botão Refresh, o qual executa apenas a atualização das informações contidas em nossas bases de dados.
+  * **Nome**: Esta coluna apresenta o nome do Fluxo de Trabalho informado no momento do seu provisionamento através da interface da Plataforma do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes das máquinas virtuais, em forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Intervalo**: Esta coluna apresenta o período do intervalo de tempo do Fluxo de Trabalho informado no momento do seu provisionamento através da interface da Plataforma do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de intervalos, de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Status**: Esta coluna apresenta o status atual do Fluxo de Trabalho. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma do uCloud classifica a lista de nomes de intervalos de forma alfabética crescente (a – z) ou decrescente (z – a). A Plataforma do uCloud pode representar o status de duas formas diferentes:
+  
+    * **Ativo**: Este status indica que este Fluxo de Trabalho pode ser recorrente, portanto fica ativo indefinidamente, seu status está no modo "Habilitado". Este status pode representar, também, que este Fluxo de Trabalho foi agendado para uma data e horário a frente do horário atual, portanto se manterá ativo até o momento da sua execução.
+
+    * **Concluído**: Este status indica que o Fluxo de Trabalho já executou a sua atividade em uma data anterior e se encontra parado. Este status pode indicar que um usuário alternou a disponibilidade do Fluxo de Trabalho para ‘Desabilitado’.
+
 Editando Workflow
 -----------------
 
+Para editar um Fluxo de Trabalho, basta o usuário clicar com o cursor do mouse sobre qualquer uma das linhas da lista, em seguida, a Plataforma do uCloud exibe a tela:
+
+.. figure:: /figuras/ucloud_workflow_dir_exec003.png
+   :alt: Menu Workflows
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Seção Nome**: Nesta seção são apresentadas as informações básicas associadas ao Fluxo de Trabalho e a sua configuração de execução:
+
+  * **Nome**: Campo preenchido pelo usuário para identificar o Fluxo de Trabalho, no momento do seu provisionamento na Plataforma do uCloud.
+  * **Ativo/Parado**: (|icone_wf_ativo|/|icone_wf_parado|): O ícone indica se este Fluxo de Trabalho está configurado como Desabilitado (vermelho = "STOP") ou Habilitado (verde - "ATIVO").
+  * **Última execução**: O campo apresenta informação de data e hora que este Fluxo de Trabalho foi executado alguma vez até a presente data. Fluxos de Trabalho configurados com reperições contínuas (sem data de limite), este campo apresenta o texto "nunca".
+  * **Configuração**: Campo que apresenta as características configuradas para este Fluxo de Trabalho que podem ser:
+    * **Repetir mesmo com erro**: Indica que este Fluxo de Trabalho será executado mesmo que o ambiente computacional possa apresentar algum erro durante sua execução.
+    * **Parar em caso de erro**: Indica que este Fluxo de Trabalho será interrompido se o ambiente computacional apresentar algum erro durante sua execução.
+
+  * **Número de execuções**: Este campo representa a quantidade de execuções de cada uma das Tarefas Associadas ao Fluxo de Trabalho. Caso a programação da configuração de agendamento futuro (data e/ou hora) não tenha sido alcançada este campo pode ser representado com zero ("0").
+  * **Intervalo**: Este campo apresenta a configuração do tipo de intervalo selecionado:
+    * Uma vez.
+    * Uma vez ao Dia.
+    * Uma vez na Semana.
+    * Uma vez ao Mês.
+
+  * **Data**: Este campo apresenta a data no calendário, que foi selecionada para que o Fluxo de Trabalho seja executado.
+  * **Hora**: Este campo apresenta o horário selecionado para que o Fluxo de Trabalho seja executado. O campo utiliza a notação de 24 horas e sua apresentação está com a máscara HH-mm-seg (hora - minuto - segundo).
+  * **Editar**: Basta o usuário clicar com o cursor do mouse sobre esta palavra e a Plataforma uCloud irá permitir que o usuário reconfigurar completamente o agendamento de execução dete fluxo de trabalho.
+  * **Excluir**: Basta clicar com o cursor do mouse sobre esta palavra que a Plataforma uCloud remove toda a configuração de agendamento deste fluxo de trabalho de forma imediata e definitiva. A Plataforma uCLoud apresenta uma tela solicitando a confirmação da ação.
+
+* **Seção Task Associada**: Esta seção apresenta todas as Tarefas Associadas para serem executadas no Fluxo de Trabalho, seguindo a ordem das suas Prioridades. Para outras informações, consultar o processo no item Criando Tarefas Associadas.
+  * **Icone Lápis** |icone_lapis_workflow|: Este ícone fica ativo *SOMENTE* para os fluxos de trabalho que foram provisionados para que o usuário entre algum tipo de informação para a correta execução deste fluxo de trabalho. Basta o usuário pode clicar com o cursor do mouse sobre o ícone e a Plataforma uCloud apresenta uma janela pop up para que o usuário entre com a informação desejada, conforme o exemplo abaixo:
+
+.. figure:: /figuras/ucloud_workflows009b.png
+   :alt: Logo uCLoud
+   :scale: 50 %
+   :align: center
+
+----
+
+  * **Prioridade**: Esta coluna representa o número referente a ordem de prioridade, a qual esta Tarefa Associada será executada. Sendo zero ("0") a mais alta prioridade, o que significa que esta tarefa será a primeira a ser executada na data e hora programada.
+  * **Nome**: Esta coluna apresenta o nome da tarefa associada, informado pelo usuário no momento da sua configuração.
+  * **Tipo**: Esta coluna apresenta o tipo da tarefa, selecionada pelo usuário no momento da sua criação.
+  * **Status**: Esta coluna apresenta o presente estado desta tarefa para a data e hora correntes; que pode ser Erro ("ERROR"), Aguardando ("Waiting") ou Executada ("CONCLUDED"). A Plataforma uCloud permite visualizar o registro de mensagens de erro (log) ou registro das mensagens de finalização, quando o status da task associada se apresenta como "ERROR" ou "CONCLUDED". A Plataforma uCloud ativa o icone |icone_log_wf|. Basta o usuário clicar com o cursor do mouse sobre este ícone que a Plataforma uCloud apresenta uma janela pop-up com a informação do **log** de registro da(s) atividade(s) do script(s)/Playbook(s) para acompanhamento do usuário. Veja o exemplo de log de sucesso abaixo:
+
+.. figure:: /figuras/ucloud_workflows010.png
+   :alt: LOG Workflow - Sucesso
+   :scale: 50 %
+   :align: center
+
+----
+
+  * **Ações**: Esta coluna apresenta apenas o ícone de Lata de Lixo |icone_lixo|, basta clicar com o cursor do mouse sobre este botão, para que a Plataforma do uCloud remova esta Tarefa Associada, de forma imediata e definitiva.
+
 Criando Workflow
 ----------------
+
+O processo de criação de um fluxo de trabalho é efetuado em duas (02) etapas:
+
+a. Criação do Cabeçalho (nome e intervalo de execução)
+b. Inclusão de uma ou mais tarefas associadas
+
+A primeira etapa é efetuada completada quando o usuário acessa o menu Workflows / Direct Execution e preenche os campos anaixo:
+
+* **Nome**: Nesta tela o usuário pode iniciar o provisionamento de um novo fluxo de trabalho para execução direta. O limite mínimo de caracteres para informar neste campo é três (03) e o máximo é de sessenta e quatro (64) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Este campo deve ser preenchido com o nome desejado pelo usuário para identificar o seu Fluxo de Trabalho para execução direta (*Direct Execution*).
+* **Descrição**: Neste campo o usuário pode preencher com uma descrição das funcionalidades do fluxo de trabalho.
+* **Manual**: Este campo é do tipo "radio button" que configura definitivamente que este fluxo de trabalho somente pode ser executado através de uma intervenção direta do usuário, que deve selcionar este fluxo de trabalho e decidir por sua execução.
+* **Automático**: Este campo é do tipo "radio button" que configura definitivamente que este fluxo de trabalho será executado automaticamente sem a necessidade de intervenção direta do usuário. Quando selecionado esta opção, a Plataforma uCloud atualiza a interface e apresenta um novo campo para o usuário selecionar a opção de automação do fluxo de trabalho.
+
+  * **Selecionar Intervalo**: Este campo é do tipo "dropdown" e permite que o usuário programe uma data e/ou hora para a execução deste fluxo de trabalho. As opções são as seguintes:
+    * **Uma Vez**: Esta opção configura que este fluxo de trabalho será executado somente uma única vez sem que ocorram repetições automáticas de sua execução. Quando selecionado esta opção a Plataforma uCloud apresenta dois novos campos:
+
+      * **Data**: Neste campo o usuário deve informar o dia, o mês e o ano que deseja programar a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia selecionado n campo acima.
+
+    * **Uma vez no dia**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho.
+
+    * **Uma vez na semana**: Esta opção configura que este fluxo de trabalho será executado semanalmente e contínuamente todos os semanas do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+
+      * **Dia da Semana**: Este campo é do tipo "dropdown" e o usuário deve selecionar o dia da semana que deseja programar a execução deste fluxo de trabalho. Importantemencionar que esta opção significa que este fluxo de trabalho será executado semanalmente e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia da semana selecionado n campo acima.
+
+    * **Uma vez no mês**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Dia do Mês**: Neste campo o usuário deve informar o número inteiro que representa o dia do mês que deseja que este fluxo de trabalho seja executado. Importantemencionar que esta opção significa que este fluxo de trabalho será executado mensal e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+      * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho pra o dia do mês selecionado no campo anterior.
+
+* **Repetir mesmo com erro**: Este campo é do tipo "radio-button" e configura que o fluxo d trabalho seja executado por completo, mesmo que existe algum erro em seu código, ou que a plataforma do provedor de serviço de nuvem Pública e/ou Privara, retorne algum erro referente à execução do script(s)/playboo(s).
+* **Parar em caso de erro**: Este campo é do tipo "radio-button" e configura que o fluxo d trabalho seja encerrado quando alguma das tasks associadas encontrem algum erro durante sua execução em seu código do script(s)/playbook(s), ou encontrem algum erro na execução dentro da plataforma do provedor de serviço de nuvem Pública e/ou Privada.
+
+* **Botão Criar Workflow**: Este botão permite provisionar (criar) um Fluxo de Trabalho no ambiente da Plataforma do uCloud. A descrição detalhada está no item Criando um Workflow a seguir.
+
+Nesta ponto a Plataforma uCloud irá apresentar uma mensagem na tela, informando ao usuário que o Fluxo de Trabalh foi criado e adionado à lista da seção **Workflows Existentes**.
+
+Caso o nome do fluxo de trabalho não seja apresentado imediatamente, basta o usuário clicar com o botão Refresh 
+
+
+Após o usuário 
+
+
+
+Quando o usuário clicar com o cursor do mouse sobre o botão Criar Workflow, logo a Plataforma do uCloud apresenta a seguinte tela:
+
+* **Nome**: Este campo é obrigatório nele deve ser informado o nome desejado para identificar o Fluxo de Trabalho (workflow). Não existe limite máximo para o nome desejado. O limite mínimo de caracteres para informar neste campo é de três (03) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
+* **Descrição**: Este campo é obrigatório, o usuário deve informar uma descrição que permita qualquer usuário identificar a função do Fluxo de Trabalho (workflow). Não existe limite máximo para a descrição desejada.
+* Selecionar Intervalo: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será exibida a lista das opções de tipos de cota disponíveis para provisionar um usuário, veja as opções abaixo:
+  * Uma vez: Este campo é obrigatório ao ser selecionado, a Plataforma do uCloud apresenta dois campos, para que o usuário possa configurar o agendamento (dia, mês, hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o ícone do calendário (“ ”) para definir a Data (dia, mês e ano); e clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
+  * Uma vez ao Dia: Este campo é obrigatório ao ser selecionado a Plataforma do uCloud apresenta um campo logo abaixo, para que o usuário possa configurar o horário do agendamento (hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
+  * Uma vez na Semana: Este campo é obrigatório, ao ser selecionado a Plataforma do uCloud apresenta dois campos abaixo, para que o usuário possa configurar o agendamento (dia da semana, hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o campo Dia da Semana, para definir o dia desejado; clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para selecionar a Hora e minuto para o evento.
+  * Uma vez ao Mês: Este campo é obrigatório, quando selecionado a Plataforma do uCloud apresenta dois campos abaixo, para que o usuário possa configurar o agendamento (dia do mês, hora e minuto) do evento deste Fluxo de Trabalho. No campo Dia do Mês, o usuário deve informar um número inteiro que define o dia (apenas números de 1 a 30). O usuário deve clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
+* **Botão Criar**: Após preencher todos os campos obrigatórios para provisionar o novo Fluxo de Trabalho (workflow), o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione o novo workflow em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório foi deixado sem preenchimento, ou a sequência de caracteres do nome pode ser inferior a três (03) caracteres. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Workflow está criado.
 
 Criando Tarefas Associadas
 --------------------------
@@ -6218,3 +6413,15 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 .. |icone_edita_vdc| image:: /figuras/ucloud_icone_edita_vdc.png
 
 .. |icone_revert_snap| image:: /figuras/ucloud_icone_revert_snap.png
+
+.. |icone_wf_ativo| image:: /figuras/ucloud_icone_wf_ativo.png
+
+.. |icone_wf_parado| image:: /figuras/ucloud_icone_wf_parado.png
+
+.. |icone_lapis_workflow| image:: /figuras/ucloud_icone_edita_workflow.png
+
+.. |botao_adicionacarrinho| image:: /figuras/ucloud_botao_colocacarrinho.png
+
+.. |botao_finalizapedido| image:: /figuras/ucloud_botao_finalizapedido.png
+
+.. |icone_log_wf| image:: /figuras/ucloud_icone_info_workflow.png

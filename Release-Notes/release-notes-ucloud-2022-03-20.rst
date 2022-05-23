@@ -24,6 +24,7 @@ O mercado também criou a demanda de programar a execução de uma sequência de
 Mas, muito importante é o nível de permissão das respectivas ações deste profissional seja na nuvem pública ou na nuvem privada. Independente se o profissional executa as ações via console ou via script automatizado, as plataformas de CSB devem possuir mecanismos que de provisionar um Perfil de Permissionamento e que estes possam ser vinculados às credenciais de acesso do usuário para controlar, adequar ou restringir as ações deste usuário.
 
 Atenta à evolução constante do mercado brasileiro e às demandas de nossos usuários, a Ustore apresenta as novas funcionalidades que podem transformar a forma de gerenciar nuvens públicas e privadas com o uCloud.
+
 Entre as novidades da nova versão destaca o Switch Roles, o Perfil de Permissionamento, o Catálogo de Serviços e o Workflow; que descreveremos a seguir.
 
 Novas implementações
@@ -440,5 +441,7 @@ Conclusão
 Este conjunto de novas funcionalidades e ampliação de conceito de funcionalidades existente é parte integrante da mais recente atualização de versão da Plataforma uCloud (``4.1-switchRoles104``), atende a diversas demandas do mercado e de nossos clientes, com o conteúdo deste documento as o desenvolvimento desta nova versão a Ustore reafirma o compromisso da constante evolução de nossa plataforma e o alinhamento com as necessidades do mercado e de nossos clientes.
 
 .. |icone_lapis_workflow| image:: /figuras/ucloud_icone_edita_workflow.png
+
 .. |botao_adicionacarrinho| image:: /figuras/ucloud_botao_colocacarrinho.png
+
 .. |botao_finalizapedido| image:: /figuras/ucloud_botao_finalizapedido.png
