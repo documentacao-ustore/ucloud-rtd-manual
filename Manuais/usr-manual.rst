@@ -6000,9 +6000,10 @@ Para editar um Fluxo de Trabalho, basta o usuário clicar com o cursor do mouse 
   * **Data**: Este campo apresenta a data no calendário, que foi selecionada para que o Fluxo de Trabalho seja executado.
   * **Hora**: Este campo apresenta o horário selecionado para que o Fluxo de Trabalho seja executado. O campo utiliza a notação de 24 horas e sua apresentação está com a máscara HH-mm-seg (hora - minuto - segundo).
   * **Editar**: Basta o usuário clicar com o cursor do mouse sobre esta palavra e a Plataforma uCloud irá permitir que o usuário reconfigurar completamente o agendamento de execução dete fluxo de trabalho.
-  * **Excluir**: Basta clicar com o cursor do mouse sobre esta palavra que a Plataforma uCloud remove toda a configuração de agendamento deste fluxo de trabalho de forma imediata e definitiva. A Plataforma uCLoud apresenta uma tela solicitando a confirmação da ação.
+  * **Excluir**: Basta clicar com o cursor do mouse sobre esta palavra que a Plataforma uCloud remove toda a configuração de agendamento deste fluxo de trabalho de forma imediata e definitiva. A Plataforma uCloud apresenta uma tela solicitando a confirmação da ação.
 
 * **Seção Task Associada**: Esta seção apresenta todas as Tarefas Associadas para serem executadas no Fluxo de Trabalho, seguindo a ordem das suas Prioridades. Para outras informações, consultar o processo no item Criando Tarefas Associadas.
+
   * **Icone Lápis** |icone_lapis_workflow|: Este ícone fica ativo *SOMENTE* para os fluxos de trabalho que foram provisionados para que o usuário entre algum tipo de informação para a correta execução deste fluxo de trabalho. Basta o usuário pode clicar com o cursor do mouse sobre o ícone e a Plataforma uCloud apresenta uma janela pop up para que o usuário entre com a informação desejada, conforme o exemplo abaixo:
 
 .. figure:: /figuras/ucloud_workflows009b.png
@@ -6031,10 +6032,20 @@ Criando Workflow
 
 O processo de criação de um fluxo de trabalho é efetuado em duas (02) etapas:
 
-a. Criação do Cabeçalho (nome e intervalo de execução)
-b. Inclusão de uma ou mais tarefas associadas
+1ª Definição do Fluxo de Trabalho (nome e intervalo de execução)
+2ª Inclusão de uma ou mais Tasks Associadas
+
+Definição do Fluxo de Trabalho
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A primeira etapa é efetuada completada quando o usuário acessa o menu Workflows / Direct Execution e preenche os campos anaixo:
+
+.. figure:: /figuras/ucloud_workflow_dir_exec001b.png
+   :alt: LOG Workflow - Sucesso
+   :scale: 50 %
+   :align: center
+
+----
 
 * **Nome**: Nesta tela o usuário pode iniciar o provisionamento de um novo fluxo de trabalho para execução direta. O limite mínimo de caracteres para informar neste campo é três (03) e o máximo é de sessenta e quatro (64) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido). Este campo deve ser preenchido com o nome desejado pelo usuário para identificar o seu Fluxo de Trabalho para execução direta (*Direct Execution*).
 * **Descrição**: Neste campo o usuário pode preencher com uma descrição das funcionalidades do fluxo de trabalho.
@@ -6066,23 +6077,41 @@ A primeira etapa é efetuada completada quando o usuário acessa o menu Workflow
 
 Nesta ponto a Plataforma uCloud irá apresentar uma mensagem na tela, informando ao usuário que o Fluxo de Trabalh foi criado e adionado à lista da seção **Workflows Existentes**.
 
-Caso o nome do fluxo de trabalho não seja apresentado imediatamente, basta o usuário clicar com o botão Refresh 
+.. figure:: /figuras/ucloud_workflows015.png
+   :alt: LOG Workflow - Sucesso
+   :scale: 50 %
+   :align: center
 
+----
 
-Após o usuário 
+A Plataforma uCloud apresenta a mensagem acima o usuário pode não ter notado a mensagem. O menu Tarefas é outra forma que existe para que o usuário possa confirmar o provisionamento do Fluxo de Trabalho na Plataforma uCloud.
 
+No canto superior direito da tela do navegador de internet (browser) o usuário pode clicar com o cursor do mouse sobre o ícone do sino |icone_sino| que a Plataforma uCloud irá apresentar a lista de Tarefas que foram efetuadas pelo usuário com a sessão ativa, para confirmar o correto provisionamento do Fluxo de Trabalho, conforme a tela abaixo:
 
+.. figure:: /figuras/ucloud_workflows016.png
+   :alt: LOG Workflow - Sucesso
+   :scale: 50 %
+   :align: center
 
-Quando o usuário clicar com o cursor do mouse sobre o botão Criar Workflow, logo a Plataforma do uCloud apresenta a seguinte tela:
+----
 
-* **Nome**: Este campo é obrigatório nele deve ser informado o nome desejado para identificar o Fluxo de Trabalho (workflow). Não existe limite máximo para o nome desejado. O limite mínimo de caracteres para informar neste campo é de três (03) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar os caracteres acentuados (ASCII Extendido).
-* **Descrição**: Este campo é obrigatório, o usuário deve informar uma descrição que permita qualquer usuário identificar a função do Fluxo de Trabalho (workflow). Não existe limite máximo para a descrição desejada.
-* Selecionar Intervalo: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será exibida a lista das opções de tipos de cota disponíveis para provisionar um usuário, veja as opções abaixo:
-  * Uma vez: Este campo é obrigatório ao ser selecionado, a Plataforma do uCloud apresenta dois campos, para que o usuário possa configurar o agendamento (dia, mês, hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o ícone do calendário (“ ”) para definir a Data (dia, mês e ano); e clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
-  * Uma vez ao Dia: Este campo é obrigatório ao ser selecionado a Plataforma do uCloud apresenta um campo logo abaixo, para que o usuário possa configurar o horário do agendamento (hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
-  * Uma vez na Semana: Este campo é obrigatório, ao ser selecionado a Plataforma do uCloud apresenta dois campos abaixo, para que o usuário possa configurar o agendamento (dia da semana, hora e minuto) do evento deste Fluxo de Trabalho. O usuário deve clicar com o cursor do mouse sobre o campo Dia da Semana, para definir o dia desejado; clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para selecionar a Hora e minuto para o evento.
-  * Uma vez ao Mês: Este campo é obrigatório, quando selecionado a Plataforma do uCloud apresenta dois campos abaixo, para que o usuário possa configurar o agendamento (dia do mês, hora e minuto) do evento deste Fluxo de Trabalho. No campo Dia do Mês, o usuário deve informar um número inteiro que define o dia (apenas números de 1 a 30). O usuário deve clicar com o cursor do mouse sobre o ícone do relógio (“ ”) para definir a Hora e minuto para o evento.
-* **Botão Criar**: Após preencher todos os campos obrigatórios para provisionar o novo Fluxo de Trabalho (workflow), o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione o novo workflow em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório foi deixado sem preenchimento, ou a sequência de caracteres do nome pode ser inferior a três (03) caracteres. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Workflow está criado.
+Caso o nome do fluxo de trabalho não seja apresentado imediatamente, basta o usuário clicar com o botão Refresh |icone_refresh| para que a Plataform uCloud atualizar a relação na seção Workflows Existentes.
+
+Inclusão de Task Associadas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Neste ponto o usuário clica com o curor do mouse sobre nome do Fluxo de Trabalho recém criado e a Platafrmo uCloud apresenta a tela para adicionar tasks associadas:
+
+.. figure:: /figuras/ucloud_workflows018.png
+   :alt: LOG Workflow - Sucesso
+   :scale: 50 %
+   :align: center
+
+----
+
+* **Seção Nome**: Nesta seção são apresentadas as informações básicas associadas ao Fluxo de Trabalho e a sua configuração de execução:
+
+* **Seção Task Associada**: Esta seção apresenta uma relação de todas as Tarefas Associadas para serem executadas no Fluxo de Trabalho, seguindo a ordem das suas Prioridades. Descreveremos todo o processo de criação/inclusão no item Criando Tarefas Associadas.
 
 Criando Tarefas Associadas
 --------------------------
@@ -6096,9 +6125,16 @@ Seguindo o exemplo de desligamento programado, o usuário pode utilizar a funcio
 
 Esta ação pode ser programada para ser executada diariamente em um horário pré-determinado (ex: executar start de segunda a sexta-feira às 05 horas). Desta forma revertendo assim, o desligamento diário e durante os finais de semana; deixando a infraestrutura do servidor e suas aplicações disponível para seus usuários durante o horário comercial.
 
-Esta implementação pode reduzir os custos recorrentes de recursos de servidores que foram contratados como cobrança por utilização. 
+Esta implementação pode reduzir os custos recorrentes de recursos de servidores que foram contratados como cobrança por utilização.
 
 Estas funcionalidades de desligamento e ativação programada, pode não ser muito efetiva para redução de custos operacionais para determinados tipos de recursos como instâncias reservadas (Reserved Instances), ou as instâncias SPOT. Cada provedor de serviço de nuvem pública possui um custo pré-fixado para a contratação destas modalidades de infraestrutura de máquinas virtuais e o desligamento não acarreta uma redução no custo de utilização.
+
+.. figure:: /figuras/ucloud_workflows019.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
 
 
 Tarefa de Criar Imagem de Disco (Snapshot)
@@ -6488,3 +6524,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 .. |botao_finalizapedido| image:: /figuras/ucloud_botao_finalizapedido.png
 
 .. |icone_log_wf| image:: /figuras/ucloud_icone_info_workflow.png
+
+.. |icone_refresh| image:: /figuras/ucloud_icone_refresh.png
+
+.. |icone_sino| image:: /figuras/ucloud_icone_sino.png
