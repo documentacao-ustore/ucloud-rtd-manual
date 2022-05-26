@@ -5908,9 +5908,9 @@ As funcionalidades disponíveis são as seguintes:
 #. Cópia Instantânea de um volume (Disk Snapshot)
 #. Executar um, ou mais, scripts/playbooks com sintaxe:
 
-  #. Ansible
-  #. Terraform
-  #. Puppet
+  a. Ansible
+  b. Terraform
+  c. Puppet
 
 Direct Execution
 ----------------
@@ -5950,6 +5950,7 @@ Através desta tela é possível provisionar um novo fluxo de trabalho ou inspec
       * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia da semana selecionado n campo acima.
 
     * **Uma vez no mês**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+  
       * **Dia do Mês**: Neste campo o usuário deve informar o número inteiro que representa o dia do mês que deseja que este fluxo de trabalho seja executado. Importantemencionar que esta opção significa que este fluxo de trabalho será executado mensal e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
       * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho pra o dia do mês selecionado no campo anterior.
 
@@ -6030,15 +6031,17 @@ Para editar um Fluxo de Trabalho, basta o usuário clicar com o cursor do mouse 
 Criando Workflow
 ----------------
 
-O processo de criação de um fluxo de trabalho é efetuado em duas (02) etapas:
+O processo de criação de um fluxo de trabalho deve ser efetuado em duas (02) etapas e todos os Fluxos de Trabalho devem seguir esta etapas obrigatóriamente:
 
-1ª Definição do Fluxo de Trabalho (nome e intervalo de execução)
-2ª Inclusão de uma ou mais Tasks Associadas
+A. Definição do Fluxo de Trabalho (nome e intervalo de execução)
+B. Inclusão de uma ou mais Tasks Associadas
+
+Abaixo descrevemos cada uma das etapas indivudualmente.
 
 Definição do Fluxo de Trabalho
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A primeira etapa é efetuada completada quando o usuário acessa o menu Workflows / Direct Execution e preenche os campos anaixo:
+A primeira de provisionamento de um Fluxo de Trabalho deve ser efetuada no momento que o usuário acessa o menu Workflows / Direct Execution e preenche os campos (em destaque) da tela anaixo:
 
 .. figure:: /figuras/ucloud_workflow_dir_exec001b.png
    :alt: LOG Workflow - Sucesso
@@ -6067,6 +6070,7 @@ A primeira etapa é efetuada completada quando o usuário acessa o menu Workflow
       * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho para o dia da semana selecionado n campo acima.
 
     * **Uma vez no mês**: Esta opção configura que este fluxo de trabalho será executado diária e contínuamente todos os dias do ano, repetidamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
+  
       * **Dia do Mês**: Neste campo o usuário deve informar o número inteiro que representa o dia do mês que deseja que este fluxo de trabalho seja executado. Importantemencionar que esta opção significa que este fluxo de trabalho será executado mensal e continuamente, até que o usuáario exclua ou interrompa a execução deste fluxo de trabalho.
       * **Horas**: Neste campo o usuário deve informar a hora e minuto que deseja programar a execução deste fluxo de trabalho pra o dia do mês selecionado no campo anterior.
 
@@ -6084,9 +6088,9 @@ Nesta ponto a Plataforma uCloud irá apresentar uma mensagem na tela, informando
 
 ----
 
-A Plataforma uCloud apresenta a mensagem acima o usuário pode não ter notado a mensagem. O menu Tarefas é outra forma que existe para que o usuário possa confirmar o provisionamento do Fluxo de Trabalho na Plataforma uCloud.
+A Plataforma uCloud apresenta a mensagem acima, mas existe a possibilidade que esta mensagem (temporária) possa não ter sido notadapelo usuário. Uma outra forma de validar se a Plataforma uCloud confirmou o provisionamento do Fluxo de Tarefas, o usuário pode acessar o menu **Tarefas** onde é possível confirmar o provisionamento do Fluxo de Trabalho nas bases de dados internas da Plataforma uCloud.
 
-No canto superior direito da tela do navegador de internet (browser) o usuário pode clicar com o cursor do mouse sobre o ícone do sino |icone_sino| que a Plataforma uCloud irá apresentar a lista de Tarefas que foram efetuadas pelo usuário com a sessão ativa, para confirmar o correto provisionamento do Fluxo de Trabalho, conforme a tela abaixo:
+No canto superior direito da tela do navegador de internet (browser) o usuário pode clicar com o cursor do mouse sobre o ícone do sino |icone_sino| que a Plataforma uCloud irá apresentar a lista de Tarefas amis recentes que foram efetuadas pelo usuário com a sessão ativa, para confirmar o correto provisionamento do Fluxo de Trabalho, conforme a tela abaixo:
 
 .. figure:: /figuras/ucloud_workflows016.png
    :alt: LOG Workflow - Sucesso
@@ -6095,12 +6099,14 @@ No canto superior direito da tela do navegador de internet (browser) o usuário 
 
 ----
 
-Caso o nome do fluxo de trabalho não seja apresentado imediatamente, basta o usuário clicar com o botão Refresh |icone_refresh| para que a Plataform uCloud atualizar a relação na seção Workflows Existentes.
+Caso o nome do fluxo de trabalho não seja apresentado imediatamente, basta o usuário clicar com o botão Refresh |icone_refresh| para que a Plataform uCloud atualizar a relação na seção Workflows Existentes, e o Fluxo de Trabalho recém provisionado aparecerá sempre no final da lista (veriicar o *último da lista*).
+
+Neste ponto o usuário pode seguir para a próxima etapa da criação do Fluxo de Trabalho.
 
 Inclusão de Task Associadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Neste ponto o usuário clica com o curor do mouse sobre nome do Fluxo de Trabalho recém criado e a Platafrmo uCloud apresenta a tela para adicionar tasks associadas:
+Neste ponto o usuário clica com o cursor do mouse sobre nome do Fluxo de Trabalho recém provisionado e a Platafrmo uCloud apresenta a tela para adicionar tasks associadas:
 
 .. figure:: /figuras/ucloud_workflows018.png
    :alt: LOG Workflow - Sucesso
@@ -6111,30 +6117,91 @@ Neste ponto o usuário clica com o curor do mouse sobre nome do Fluxo de Trabalh
 
 * **Seção Nome**: Nesta seção são apresentadas as informações básicas associadas ao Fluxo de Trabalho e a sua configuração de execução:
 
-* **Seção Task Associada**: Esta seção apresenta uma relação de todas as Tarefas Associadas para serem executadas no Fluxo de Trabalho, seguindo a ordem das suas Prioridades. Descreveremos todo o processo de criação/inclusão no item Criando Tarefas Associadas.
+* **Seção Task Associada**: Esta seção apresenta uma relação de todas as Tarefas Associadas para serem executadas no Fluxo de Trabalho, seguindo a ordem das suas Prioridades.
+
+O processo de inclusão de Tasks Associadas pode desempenhar diversas funções, e iremos descrevere suas opções e cada um de seus processos no item Criando Tarefas Associadas.
 
 Criando Tarefas Associadas
 --------------------------
 
+Os Fluxos de Trabalho (workflows) em ambiente de recursos computacionais, de nuvem pública, automatizam tarefas repetitivas de maneira confiável e podem converter processos manuais em fluxos de trabalho digitais provisionados através da interface da Plataforma do uCloud. Ao usar os Fluxos de Trabalho (workflows) em um ambiente de nuvem pública, as organizações podem reduzir as etapas manuais e melhorar a eficiência dos seus fluxos de trabalho, rapidamente, a um custo consideravelmente menor.
 
+A funcionalidade de Fluxos de Trabalho pode desempenhar diversas ações de operação na infraestrutura de recursos computacionais de nuvem pública e/ou privada.
 
-Tarefa de Iniciar e Parar Máquina Virtual
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+As funcionalidades disponíveis são as seguintes:
 
-Seguindo o exemplo de desligamento programado, o usuário pode utilizar a funcionalidade de workflows para ativar (start) um servidor em um horário programado para que as aplicações que estão sendo executadas neste servidor, estejam disponíveis para os usuários durante o horário comercial.
+#. Desligamento de Máquina Virtual (Shutdown)
+#. Ativação de Máquina Virtual (Start/Boot)
+#. Cópia Instantânea de um volume (Disk Snapshot)
+#. Executar um, ou mais, scripts/playbooks com sintaxe:
 
-Esta ação pode ser programada para ser executada diariamente em um horário pré-determinado (ex: executar start de segunda a sexta-feira às 05 horas). Desta forma revertendo assim, o desligamento diário e durante os finais de semana; deixando a infraestrutura do servidor e suas aplicações disponível para seus usuários durante o horário comercial.
+  a. Ansible
+  b. Terraform
+  c. Puppet
+
+Tarefa de Desligamento/Ativação Programado de Máquina Virtual
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+O exemplo de desligamento programado, pode ser muito útil para se utilizar da funcionalidade de workflows para desligar (*shutdown*) de um servidor em um horário programado (por ex.: sexta-feira às 23h59) para que as cobranças decorrentes do uso deste servidor sejam interrompidas durante o fim de emana e a empresa possa receber o benefício de economia de custos referentes ao consumo desta infraestrutura.
+
+.. attention:: As aplicações que estão sendo executadas neste servidor, não estarão disponíveis para os usuários durante o horário que esta infraestrutura estiver inoperante.
+
+Esta ação pode ser programada para ser executada diariamente em um horário pré-determinado (ex.: executar desligamento de segunda à sexta-feira às 20 horas). Com a programação semanal (uma vez por semana) é possível criar o agendamente para o desligamento durante os finais de semana; deixando a infraestrutura do servidor e suas aplicações disponível para seus usuários fora do horário comercial (período noturno das 20 às 06 horas) e durante o fim de semana (sábado e domingo).
+
+A Tarefa de desligamento, pode ser seguida de uma programação de ativação (*boot*) do mesmo recurso computacinal de forma diária (ex: executar o início de segunda à sexta-feira às 06 horas). Para os casos que exista somente a programação semanal para o fim de semana (sabado e domingo) o usuário pode criar uma programação semanal para re-iniciar a infraestrutura computacional toda segunda-feira às 06 horas.
 
 Esta implementação pode reduzir os custos recorrentes de recursos de servidores que foram contratados como cobrança por utilização.
 
-Estas funcionalidades de desligamento e ativação programada, pode não ser muito efetiva para redução de custos operacionais para determinados tipos de recursos como instâncias reservadas (Reserved Instances), ou as instâncias SPOT. Cada provedor de serviço de nuvem pública possui um custo pré-fixado para a contratação destas modalidades de infraestrutura de máquinas virtuais e o desligamento não acarreta uma redução no custo de utilização.
+Esta funcionalidade de desligamento e ativação programada, pode não ser muito efetiva para redução de custos operacionais para determinados tipos de recursos como instâncias reservadas (Reserved Instances) e SPOT Instances.
 
-.. figure:: /figuras/ucloud_workflows019.png
+.. note:: Cada provedor de serviço de nuvem pública possui um custo pré-fixado para a contratação destas modalidades de infraestrutura de máquinas virtuais e o desligamento programado poderá não acarretar nenhuma redução no custo mensal de utilização.
+
+O usuário deve acessar o menu Workflow / Direct Execution, e após nomear seu fluxo, basta clicar com o cursor o mouse sobre o nome do fluxo de trabalho para adicionar uma **Task Associada** conforma a tela abaixo:
+
+.. figure:: /figuras/ucloud_workflows018.png
    :alt: Workflow - Start/Stop Virtual Machine
    :scale: 50 %
    :align: center
 
 ----
+
+Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar Tasks Associadas** e a Plataforma do uCloud apresenta a tela para 
+
+.. figure:: /figuras/ucloud_workflows019b.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome da Tarefa Associada que deseja provisionar. O nome da Tarefa Associada deve ter no mínimo quatro (04) caracteres e o limite máximo de setenta (70) caracteres. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+* **Tipo**: Este campo é obrigatório, trata-se de um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista das opções de tipos de Tarefas Associadas disponíveis na Plataforma do uCloud, ver as opções abaixo:
+
+  * **Iniciar Máquina Virtual**: Esta opção permite ao usuário criar uma tarefa de iniciar (boot/start) uma máquina virtual, seguindo uma determinada prioridade no Fluxo de Trabalho (workflow). Quando selecionado este tipo de ação, a Plataforma do uCloud apresenta os campos específicos nesta tela e o usuário deve consultar a seguir o item
+  * **Parar Máquina Virtual**: Esta opção permite ao usuário criar uma tarefa de parar (shutdown/stop) uma máquina virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow). Quando selecionado este tipo de ação, a Plataforma do uCloud apresenta campos específicos nesta tela e o usuário deve consultar abaixo o item A.Tarefa de Iniciar e Parar Máquina Virtual.
+
+* **Prioridade**: Este campo é obrigatório, nele o usuário deve informar um número inteiro que indica a ordem de prioridade que esta Tarefa Associada será executada. Sendo zero ("1") a mais alta prioridade, o que significa que a tarefa com o menor número informado será a primeira a ser executada na data e hora programada. Este campo permite ao usuário encadear várias tarefas, em outras palavras, executar as Tarefas Associadas em uma sequência específica, de acordo com a prioridade. Importante ressaltar que na eventual existência de duas tarefas diferentes e ambas com a mesma prioridade estas serão executadas em paralelo, a Plataforma do uCloud executa Tarefas Associadas de forma sequencial (uma a uma).
+
+* **Virtual Datacenter**: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista de todos os Virtual Datacenters aos quais este usuário está vinculado, ele tem permissão para utilizar os recursos computacionais deste VDC. Importante ressaltar que a seleção de um VDC, restringe (filtra) a relação de máquinas que estão vinculadas (e/ou são exclusivas) deste Virtual Datacenter.
+
+* **Máquina Virtual**: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista de todas as máquinas virtuais as quais este usuário tem permissão de acesso e as máquinas virtuais estão vinculadas ao VDC informado acima. Importante ressaltar que a seleção de um VDC, restringe (filtra) a relação de máquinas que estão vinculadas (e/ou são exclusivas) deste Virtual Datacenter.
+
+* **Botão Criar**: Após preencher todos os campos obrigatórios para provisionar uma nova Tarefa Associada de Iniciar ou Parar, uma máquina virtual, o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione a nova Tarefa Associada em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório foi deixado sem preenchimento ou a sequência de caracteres do nome pode ser inferior a quatro (04) caracteres. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que a nova Tarefa Associada foi criada.
+
+Após o clicar com o cursor do mouse sobre o botão Criar, a Plataforma uCloud atualiza a Seção Task Associadas com a referida tarefa que fará parte do Fluxo de Trabalho conforme o exemplo abaixo (a tela abaix é meramente ilustrativa para efeito de demonstração):
+
+.. figure:: /figuras/ucloud_workflows019c.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Para os casos em que o usuário tenha inserido algum erro no campo Nome ou no campo Tipo, o usuário deve remover (apagar) a linha com erro, para isto deve clicar com o cursor do mouse sobre o icone |icone_lixo|. Após a remoção da linha o usuário deve efetuar o provisionamento correto novamente.
+
+Se o usuário clicar com o cursor do mouse sobre o botão "**+Executar Agora**" a Plataforma do uCloud irá iniciar a execução da sequência de Tasks Associadas dentro deste Fluxo de Trabalho (somente uma ou todas as Tasks Associadas seguindo a sequência definida no campo Prioridade).
+
+Após a execução a Plataforma uCloud irá atualizar a coluna **Status** e apresentar na(s) linha(s) de cada Task Associada o botão |icone_log_wf|, que apresenta o conteúdo da informação do *log* de registro das ações referentes a execução desta Task Associada (erro ou sucesso).
 
 
 Tarefa de Criar Imagem de Disco (Snapshot)
@@ -6150,30 +6217,59 @@ Um disk snapshot não efetua o processo de validação da integridade lógica do
 
 O usuário pode provisionar a ação de criação de um *disk snapshot* em dias e/ou horários programados e deixar que a Plataforma uCloud envie esta solicitação (via API-REST) para o console do provedor de serviço de nuvem para que o provedor inicie este disk snapshot.
 
+O usuário deve acessar o menu Workflow / Direct Execution, e após nomear seu fluxo, basta clicar com o cursor o mouse sobre o nome do fluxo de trabalho para adicionar uma **Task Associada** conforma a tela abaixo:
+
+.. figure:: /figuras/ucloud_workflows018.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar Tasks Associadas** e a Plataforma do uCloud apresenta a tela para 
+
+.. figure:: /figuras/ucloud_workflows019d.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome da Tarefa Associada que deseja provisionar. O nome da Tarefa Associada deve ter no mínimo quatro (04) caracteres e o limite máximo de setenta (70) caracteres. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+
+* **Tipo**: Este campo é obrigatório, trata-se de um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista das opções de tipos de Tarefas Associadas disponíveis na Plataforma do uCloud, ver as opções abaixo:
+
+  * **Criar Snapshot**: Esta opção permite ao usuário criar uma tarefa para que seja iniciada a operação de armazenamento da imagem de disco (snapshot) da máquina virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow). Quando selecionado este tipo de ação, a Plataforma do uCloud apresenta campos específicos nesta tela e o usuário deve consultar abaixo o item B.Tarefa Criar Imagem de Disco (Snapshot).
+
+* **Prioridade**: Este campo é obrigatório, nele o usuário deve informar um número inteiro que indica a ordem de prioridade que esta Tarefa Associada será executada. Sendo zero ("1") a mais alta prioridade, o que significa que a tarefa com o menor número informado será a primeira a ser executada na data e hora programada. Este campo permite ao usuário encadear várias tarefas, em outras palavras, executar as Tarefas Associadas em uma sequência específica, de acordo com a prioridade. Importante ressaltar que na eventual existência de duas tarefas diferentes e ambas com a mesma prioridade estas serão executadas em paralelo, a Plataforma do uCloud executa Tarefas Associadas de forma sequencial (uma a uma).
+
+* **Virtual Datacenter**: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista de todos os Virtual Datacenters aos quais este usuário está vinculado, ele tem permissão para utilizar os recursos computacionais deste VDC. Importante ressaltar que a seleção de um VDC, restringe (filtra) a relação de máquinas que estão vinculadas (e/ou são exclusivas) deste Virtual Datacenter.
+
+* **Máquina Virtual**: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista de todas as máquinas virtuais as quais este usuário tem permissão de acesso e as máquinas virtuais estão vinculadas ao VDC informado acima. Importante ressaltar que a seleção de um VDC, restringe (filtra) a relação de máquinas que estão vinculadas (e/ou são exclusivas) deste Virtual Datacenter.
+
+* **Nome Snapshot**: Este campo é obrigatório nele o usuário deve informar o nome da Imagem de Disco (snapshot) que deseja provisionar. O nome da Tarefa Associada deve ter no mínimo quatro (04) caracteres e no limite máximo de setenta (70) caracteres. Sugerimos utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+
+* **Disco**: Este campo é obrigatório, ele é um campo do tipo “dropdown”, quando o usuário clicar sobre ele, será apresentada a lista de todos os recursos de discos de armazenamento vinculados à máquina virtual selecionada acima.
+
+* **Botão Criar**: Após preencher todos os campos obrigatórios para provisionar uma nova Tarefa Associada de Iniciar ou Parar, uma máquina virtual, o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione a nova Tarefa Associada em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório foi deixado sem preenchimento ou a sequência de caracteres do nome pode ser inferior a quatro (04) caracteres. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que a nova Tarefa Associada foi criada.
+
+Após o clicar com o cursor do mouse sobre o botão Criar, a Plataforma uCloud atualiza a Seção Task Associadas com a referida tarefa que fará parte do Fluxo de Trabalho conforme o exemplo abaixo (a tela abaix é meramente ilustrativa para efeito de demonstração):
+
+.. figure:: /figuras/ucloud_workflows019e.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Para os casos em que o usuário tenha inserido algum erro no campo Nome ou no campo Tipo, o usuário deve remover (apagar) a linha com erro, para isto deve clicar com o cursor do mouse sobre o icone |icone_lixo|. Após a remoção da linha o usuário deve efetuar o provisionamento correto novamente.
+
+Se o usuário clicar com o cursor do mouse sobre o botão "**+Executar Agora**" a Plataforma do uCloud irá iniciar a execução da sequência de Tasks Associadas dentro deste Fluxo de Trabalho (somente uma ou todas as Tasks Associadas seguindo a sequência definida no campo Prioridade).
+
+Após a execução a Plataforma uCloud irá atualizar a coluna **Status** e apresentar na(s) linha(s) de cada Task Associada o botão |icone_log_wf|, que apresenta o conteúdo da informação do *log* de registro das ações referentes a execução desta Task Associada (erro ou sucesso).
 
 Tarefa de Script
 ~~~~~~~~~~~~~~~~
-
-Esta atividade pode ser entendida (ou confundida) com a atividade de cópia de segurança (*backup*), mas é importante esclarecer que esta funcionalidade apenas executa uma função nativa dos consoles dos provedores de serviço de nuvem pública e/ou privada, que é a cópia instantânea de um volume de disco em um horário determinado pelo usuário.
-
-Em sistemas de computador, uma cópia instantânea de volume ou captura instantânea de volume (do Inglês: snapshot, tradução literal: foto instantânea) é o estado de um sistema em um determinado ponto no tempo. O termo foi cunhado como uma analogia ao usado em fotografia. Pode se referir a uma cópia real do estado de um sistema ou a um recurso fornecido por determinados sistemas.
-
-Importante mencionar que uma das diferenças entre um storage snapshot e um backup é que o snapshot é armazenado no mesmo local dos dados originais. Portanto, depende completamente da confiabilidade da origem. Isso significa que, no caso de um desastre ou danos aos dados de origem, o snapshot está totalmente comprometido ou ficaria inacessível.
-
-Um disk snapshot não efetua o processo de validação da integridade lógica do processo de cópia do(s) arquivo(s) individualmente, simplesmente executa a ação de cópia instantânea de todo o disco associado a infraestrutura que compreende o servidor.
-
-O usuário pode provisionar a ação de criação de um *disk snapshot* em dias e/ou horários programados e deixar que a Plataforma uCloud envie esta solicitação (via API-REST) para o console do provedor de serviço de nuvem para que o provedor inicie este disk snapshot.
-
-Executar scripts/playbooks Ansible, Terraform, Puppet
------------------------------------------------------
-
-Um princípio fundamental de Desenvolvimento e Operação (*DevOps*) é tratar a infraestrutura da mesma forma que os desenvolvedores tratam o código. Um código de um aplicativo tem um formato e uma sintaxe. Se o código não for escrito de acordo com as regras da linguagem de programação, os aplicativos não poderão ser criados. O conteúdo do código é armazenado em um algum sistema de Controle e Gerenciamento de Versionamento, em outras palavras uma plataforma que controla a origem e que registra todo o histórico de desenvolvimento de código, alterações e correções de bugs.
-
-Atualmente o mercado criou o conceito de provisionar Infraestrutura como Código (*IaC - Infrastructure as Code*) que significa aplicar o mesmo rigor do desenvolvimento de código de aplicativo ao provisionamento de infraestrutura. Todas as configurações de um recurso computacional de nuvem pública, devem ser definidas de forma declarativa e armazenadas em um sistema de controle de versão e colaboração (ex: Github, Gitlab), o mesmo que o código do aplicativo. O provisionamento, orquestração e implantação de infraestrutura também devem dar suporte ao uso da infraestrutura como código.
-
-Tradicionalmente, a infraestrutura era provisionada usando uma combinação de scripts e processos manuais. Estes scripts podem ser armazenados em sistemas de controle de versão ou documentados passo a passo em arquivos de texto ou playbooks. Se esses scripts ou playbooks não forem atualizados com frequência, eles podem se tornar um obstáculo nas implantações. Isso resulta na criação de novos ambientes nem sempre repetíveis, confiáveis ou consistentes. Portanto, este é o ponto fundamental da adoção e uso de uma plataforma de repositórios com controle de versionamento, pois é fundamental que o usuário utilize apenas as últimas versões dos *scripts/playbooks* que foram atualizados e revisados.
-
-A funcionalidade de Fluxos de Trabalho (*workflows*) para ambiente de nuvem pública e/ou privada, permite ao profissional de TI conectado na Plataforma uCloud criar uma sequência automática de ativações de arquivos de scripts playbooks para controlar a sequência de ações para provisionar um recurso computacional com as características de configuração, sistema operacional, pacotes de softwares e regras de segurança requeridas pela regulamentação (compliance) de maneira confiável e com a utilização de scripts automatizados.
 
 Por padrão, a Plataforma uCloud utiliza a integração nativa com a *Plataforma Github*, e o proprietário deste repositório autoriza usuários a se conectarem neste repositório através de um código de identificação (Token) que deve ser gerado unicamente através de uma sessão no Github, para cada usuário ou usuários. Este token deve possuir a permissão de se conectar neste repositório para ter acesso aos arquivos de scripts/playbooks armazenados e versionados.
 
@@ -6193,6 +6289,101 @@ Importante mencionar que a Plataforma uCloud não é, por ela mesma, um ambiente
 
 .. warning:: Puppet = *Atenção a Plataforma uCloud permite criar um workflow que irá ativar um script/playbooks na sintaxe Puppet, mas para que um profissional possa utilizar script/playbook Puppet será necessário um ambiente adicional (na forma de uma infraestrutura de servidor). Este servidor que será encarregado da EXECUÇÃO dos referidos script/playbooks. A Plataforma uCloud não desempenha a função de suporte para a execução de scripts/playbooks Puppet*.
 
+O usuário deve acessar o menu Workflow / Direct Execution, e após nomear seu fluxo, basta clicar com o cursor o mouse sobre o nome do fluxo de trabalho para adicionar uma **Task Associada** conforma a tela abaixo:
+
+.. figure:: /figuras/ucloud_workflows018.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar Tasks Associadas** e a Plataforma do uCloud apresenta a tela para 
+
+.. figure:: /figuras/ucloud_workflows019d.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+* **Nome**: Este campo é obrigatório, nele o usuário deve informar o nome da Tarefa Associada que deseja provisionar. O nome da Tarefa Associada deve ter no mínimo quatro (04) caracteres e o limite máximo de setenta (70) caracteres. Como sugestão, utilizar somente os caracteres ASCII padrão, não usar espaços em branco ou caracteres acentuados (ASCII Extendido).
+
+* **Tipo**: Este campo é obrigatório, trata-se de um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista das opções de tipos de Tarefas Associadas disponíveis na Plataforma do uCloud, ver as opções abaixo:
+
+  * **Ansible**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Ansible**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).
+  * **Terraform**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Terraform**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).
+  * **Puppet**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Puppet**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).  *ATENÇÃO execução dos script(s)/playbook(s) Puppet é mandatório a existência de uma infraestrutura de servidor para executá-los*.
+
+* **Prioridade**: Este campo é obrigatório, nele o usuário deve informar um número inteiro que indica a ordem de prioridade que esta Tarefa Associada será executada. Sendo zero ("1") a mais alta prioridade, o que significa que a tarefa com o menor número informado será a primeira a ser executada na data e hora programada. Este campo permite ao usuário encadear várias tarefas, em outras palavras, executar as Tarefas Associadas em uma sequência específica, de acordo com a prioridade. Importante ressaltar que na eventual existência de duas tarefas diferentes e ambas com a mesma prioridade estas serão executadas em paralelo, a Plataforma do uCloud executa Tarefas Associadas de forma sequencial (uma a uma).
+
+* **Tipo de gerenciador de repositórios**: Este campo é obrigatório, trata-se de um campo do tipo “dropdown”, quando o usuário clicar sobre este, será apresentada a lista das opções de tipos de Tarefas Associadas disponíveis na Plataforma do uCloud, ver as opções abaixo:
+
+  * **Github**: Selecione esta opção somente se o usuário possui (em seu perfil de usuário) um "Token" que permite acesso ao repositório de arquivos de scrit(s)/palybook(s) estiver armazenado em um ambiente Github.
+  * **Gitlab**: Selecione esta opção somente se o usuário possui (em seu perfil de usuário) um "Token" que permite acesso ao repositório de arquivos de scrit(s)/palybook(s) estiver armazenado em um ambiente Gitlab.
+
+.. attention:: |atencao| Importante ressaltar que cada ambiente (Github/Gitlab) é isolado e completamente independentes entre si, pois são empresas completamente diferentes, o prefixo "Git" não significa que as plataformas são as mesmas. Os acessos são diferentes e específicas de cada um, e o seu respectivo "token" de acesso de um serviço não é reconhecido pelo outro serviço. O usuário de um serviço encontra seus arquivos UNICAMENTE no ambiente que este usuário possui autenticação para navegar via "token" de usuário.
+
+* **Repositório**: Neste campo o usuário deve informar o link do repositório existente em um servidor público Github. Este campo deve ser informado com o permalink do arquivo desejado. Exemplo: ´´repositorio/folder_repositorio´´. Este permalink deve ser obtido através da acesso na interface do serviço selecionado no campo anterior (Github/Gitlab).
+
+* **Container**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os containers configurados na Plataforma do uCloud. O usuário deve selecionar um provedor da lista.
+
+* **Máquina Virtual**: |icone_habil_verde|/|icone_desb_verm|: Este botão é um tipo “checkbox” que o usuário pode atuar para indicar que o script/playbook será executado em uma máquina virtual específica. Após esta seleção a Plataform uCloud apresenta os campos abaixo:
+
+  * **Virtual Datacenter**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os Virtual Datacenters os quais o usuário  está vinculado. O usuário deve selecionar um VDC da lista.
+  * **Máquina Virtual**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todas as máquinas virtuais do respectivo Virtual Datacenters selecionado pelo usuário. O usuário deve selecionar uma máquina virtual da lista.
+
+* **Visualização**: ericericeric
+
+* **Versão do Python**: O Python é um ambiente de interpretação de linguagem de programação orientada a objetos e de alto nível com semântica dinâmica que cuida da implantação de aplicativos, gerenciamento de configuração, execução de tarefas e orquestração de vários nós. Este ambiente é mandatório para executar os script/playbook e deve estar instalado no ambiente da máquina virtual que foi informada no campo acima. O usuário deve selecionar a versão correta do Python instalada no ambiente da máquina virtual.
+
+* **Usuário**: Este campo é obrigatório, e deve er preenchido com a credencial de usuário que possui acesso ao prompt do console da máquina virtual informada no campo acima, via uma sessão SSH. Importante ressaltar que a Plataforma uCloud não verifica antecipadamente se a credencial informada é válida e aceita para iniciar uma sessão SSH na máquina virtual informada. Qualquer erro de conexão deverá ser verificado no ícone de "**log**" de registro da Task Associada, somente após este ser executado ao menos uma vez.
+
+* **Botão SSH**: Para associar um arquivo de chave SSH, o usuário deve clicar com o cursor do mouse sobre este botão para encontrar e selecionar o arquivo da chave SSH, específica para a máquina virtual, a qual deseja executar o script Ansible ou Puppet. Importante mencionar que a Plataforma do uCloud não valida se o arquivo SSH selecionado pertence realmente à máquina virtual na qual se deseja executar o script Ansible ou Puppet. Não será apresentada qualquer mensagem de erro na interface da Plataforma do uCloud, na situação em que a chave SSH não pertença a máquina virtual.
+
+* **Campos Personalizados**: Estes campos podem ser utilizados pelo desenvolvedor do script/playbook para solicitar que usuário entre informções "variáveis" e necessárias para a correta execução do script/playbook. Estes campos enviam o conteúdo das "variáveis" antes da execução dos script/playbook.
+  
+  * **Label**: Este campo é meramente informativo e será utilizado pela Plataform uCloud para identificar seu conteúdo em uma janela popup a ser apresentado ao usuário.
+  * **Chave**: Este campo é importante e determina a identificação da "variável" (seu nome) que foi provisionada pelo desenvolvedor do script/playbook para ser recebida dentro de seu códig de execução.
+  * **Valor Padrão**: Este campo é importante e determina a o contaúdo inicial/padrão da "variável" que foi provisionada pelo desenvolvedor do script/playbook para ser recebida dentro de seu códig de execução. Importante ressaltar que a Plataforma uCloud não aceita valores nulos (campo em "branco").
+  * **Pedir para Preencher**: Este campo é do tipo "check box" e permite que o desenvolvedor do script/playbook determine (sim/não) para que a Plataform uCloud solicite que o usuário informe o conteúdo para esta "variável", sendo solicitada ao usuário antes da execução do script/playbook.
+  * **Obrigatório**: Este campo é do tipo "check box" e permite que o desenvolvedor do script/playbook determine (sim/não) para que a Plataform uCloud solicite o preenchimento obrigatório deste conjunto chave/valor e o usuário deve informe um conteúdo para esta "variável", antes da execução do script/playbook.
+  * **Botão Adicionar**: Basta o usuário clicar com o cursor do mouse sobre este botão para que a Plataforma uCloud adicione o conjunto que define a "variável" (chave e valor) na lista abaixo. Imprtante mencionar que a Plataforma uCloud aceita mais de um conjunto de "variáveis" (chave/valor"), de forma a atender à demanda de preenchimento da quantidade de "variáveis" necessárioas para a correta execução do script/playbook criado pelo desenvolvedor.
+
+* **Botão Criar**: Após preencher todos os campos obrigatórios para provisionar uma nova Tarefa Associada de Iniciar ou Parar, uma máquina virtual, o usuário pode clicar com o cursor do mouse no botão verde Criar para que a Plataforma do uCloud provisione a nova Tarefa Associada em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, isto indica que algum campo obrigatório foi deixado sem preenchimento ou a sequência de caracteres do nome pode ser inferior a quatro (04) caracteres. A Plataforma do uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que a nova Tarefa Associada foi criada.
+
+Após o clicar com o cursor do mouse sobre o botão Criar, a Plataforma uCloud atualiza a Seção Task Associadas com a referida tarefa que fará parte do Fluxo de Trabalho conforme o exemplo abaixo (a tela abaixo é meramente ilustrativa para efeito de demonstração):
+
+.. figure:: /figuras/ucloud_workflows019e.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Para os casos em que o usuário tenha inserido algum erro no campo Nome ou no campo Tipo, o usuário deve remover (apagar) a linha com erro, para isto deve clicar com o cursor do mouse sobre o icone |icone_lixo|. Após a remoção da linha o usuário deve efetuar o provisionamento correto novamente.
+
+Se o usuário clicar com o cursor do mouse sobre o botão "**+Executar Agora**" a Plataforma do uCloud irá iniciar a execução da sequência de Tasks Associadas dentro deste Fluxo de Trabalho (somente uma ou todas as Tasks Associadas seguindo a sequência definida no campo Prioridade).
+
+Após a execução a Plataforma uCloud irá atualizar a coluna **Status** e apresentar na(s) linha(s) de cada Task Associada o botão |icone_log_wf|, que apresenta o conteúdo da informação do *log* de registro das ações referentes a execução desta Task Associada (erro ou sucesso).
+
+Abaixo apresentamos um exemplo da tela de *log* de **falha**:
+
+.. figure:: /figuras/ucloud_workflows010b.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Abaixo apresentamos um exemplo da tela de *log* de **sucesso**:
+
+.. figure:: /figuras/ucloud_workflows012.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
 
 
 Menu Tarefas
