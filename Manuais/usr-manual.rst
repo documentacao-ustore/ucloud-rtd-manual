@@ -6298,9 +6298,9 @@ O usuário deve acessar o menu Workflow / Direct Execution, e após nomear seu f
 
 ----
 
-Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar Tasks Associadas** e a Plataforma do uCloud apresenta a tela para 
+Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar Tasks Associadas** e a Plataforma do uCloud apresenta a tela para configurar as Tasks Associadas:
 
-.. figure:: /figuras/ucloud_workflows019d.png
+.. figure:: /figuras/ucloud_workflows019f.png
    :alt: Workflow - Start/Stop Virtual Machine
    :scale: 50 %
    :align: center
@@ -6324,7 +6324,7 @@ Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar
 
 .. attention:: |atencao| Importante ressaltar que cada ambiente (Github/Gitlab) é isolado e completamente independentes entre si, pois são empresas completamente diferentes, o prefixo "Git" não significa que as plataformas são as mesmas. Os acessos são diferentes e específicas de cada um, e o seu respectivo "token" de acesso de um serviço não é reconhecido pelo outro serviço. O usuário de um serviço encontra seus arquivos UNICAMENTE no ambiente que este usuário possui autenticação para navegar via "token" de usuário.
 
-* **Repositório**: Neste campo o usuário deve informar o link do repositório existente em um servidor público Github. Este campo deve ser informado com o permalink do arquivo desejado. Exemplo: ´´repositorio/folder_repositorio´´. Este permalink deve ser obtido através da acesso na interface do serviço selecionado no campo anterior (Github/Gitlab).
+* **Repositório**: Neste campo o usuário deve informar o link do repositório existente em um servidor público Github. Este campo deve ser informado com o permalink do arquivo desejado. Exemplo: ``repositorio/folder_repositorio``. Este permalink deve ser obtido através da acesso na interface do serviço selecionado no campo anterior (Github/Gitlab).
 
 * **Container**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma do uCloud lista todos os containers configurados na Plataforma do uCloud. O usuário deve selecionar um provedor da lista.
 
@@ -6354,7 +6354,7 @@ Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar
 
 Após o clicar com o cursor do mouse sobre o botão Criar, a Plataforma uCloud atualiza a Seção Task Associadas com a referida tarefa que fará parte do Fluxo de Trabalho conforme o exemplo abaixo (a tela abaixo é meramente ilustrativa para efeito de demonstração):
 
-.. figure:: /figuras/ucloud_workflows019e.png
+.. figure:: /figuras/ucloud_workflows019g.png
    :alt: Workflow - Start/Stop Virtual Machine
    :scale: 50 %
    :align: center
@@ -6376,6 +6376,7 @@ Abaixo apresentamos um exemplo da tela de *log* de **falha**:
 
 ----
 
+
 Abaixo apresentamos um exemplo da tela de *log* de **sucesso**:
 
 .. figure:: /figuras/ucloud_workflows012.png
@@ -6384,6 +6385,52 @@ Abaixo apresentamos um exemplo da tela de *log* de **sucesso**:
    :align: center
 
 ----
+
+
+Client Server (Puppet)
+----------------------
+
+Puppet é uma ferramenta que ajuda a gerenciar e automatizar a configuração de servidores. Isso se executa escrevendo código de infraestrutura em Domain-Specific Language (DSL) do Puppet — Puppet Code — que você pode usar com uma ampla variedade de dispositivos e sistemas operacionais. O código Puppet é declarativo, o que significa que você descreve o estado desejado de seus sistemas, não as etapas necessárias para chegar lá. Puppet então automatiza o processo de colocar esses sistemas nesse estado e mantê-los lá. O Puppet faz isso por meio do servidor primário Puppet e de um agente Puppet. O servidor primário Puppet é o servidor que armazena o código que define o estado desejado. O agente Puppet traduz seu código em comandos e o executa nos sistemas que você especificar, no que é chamado de execução do Puppet.
+
+O diagrama abaixo mostra como funciona a arquitetura do agente do servidor de uma execução do Puppet.
+
+.. figure:: /figuras/puppet_run.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+O Puppet Server é um aplicativo executado na Java Virtual Machine (JVM) no servidor primário. Além de hospedar terminais para o serviço de autoridade de certificação, ele também alimenta o compilador de catálogos, que compila catálogos de configuração para nós de agentes, usando código Puppet e várias outras fontes de dados.
+
+O servidor primário e o agente fazem parte da plataforma Puppet, descrita em A plataforma Puppet — junto com fatos, catálogos e relatórios (informações extraídas do site de Documentação Online Puppet [*]_).
+
+Quando o uuário acessa o menu Workflows / Client Server a Plataforma uCloud apresenta a lista de todos os Puppet Servers provisionados encarregados de executar a JVM, conforme o exemplo da tela abaixo:
+
+.. figure:: /figuras/ucloud_workflows020a.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+Provisionar um Puppet Server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para os casos em que não exista um servidor primário ativo, a Plataforma uCloud permite, através de sua interface, o completo provisionamento de uma infraestrutura de servidor primário no ambiente do provedor de serviço de nuvem desejado pelo usuário (Azure, AWS, GCP).
+
+Basta o usuário clicar sobre o botão **Criar** que a Plataforma uCloud apresenta a tela abaixo com todas as configurações necessárias para o perfeito provisionamento de uma infraestrutura de servidor com a configuração necessária para executar o JVM do ambiente Puppet.
+
+.. figure:: /figuras/ucloud_workflows020b.png
+   :alt: Workflow - Start/Stop Virtual Machine
+   :scale: 50 %
+   :align: center
+
+----
+
+ ericericeric
+
+.. [*] Open Source Puppet site: https://puppet.com/docs/puppet/6/puppet_overview.html
 
 
 Menu Tarefas
