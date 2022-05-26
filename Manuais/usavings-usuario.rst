@@ -59,8 +59,8 @@ O recorte no organograma, **Figura 2**, destaca a parte pertinente no diagrama, 
 * (ii) Por Billing*
 (ii)	**Por Billing**, A bilhetagem do banco de dados do uCloud suporta diversas nuvens, ela difere do alcance da aplicação do uSavings. O banco de dados do uCloud pode comportar todos os tipos de billing disponíveis. Já na regra de negócio do uSavings, só é possível fazer uma sugestão assertiva com o billing para a AWS e AZURE, como mostra o diagrama, na **Figura 2**.
 
-1.3 Como economizar recursos?
------------------------------
+Como economizar recursos?
+-------------------------
 
 A vantagem da implantação do uSavings nas organizações é a possibilidade de receber informação sobre recursos ociosos que foram criados, e até executados anteriormente, atualmente não utilizados. Informação que pode possibilitar a economia de recursos.
 
@@ -74,8 +74,8 @@ A aplicação uSavings pode referenciar sugestões de redução da configuraçã
 
 Ao adquirir a plataforma uSavings, as organizações podem ter em mãos uma valiosa ferramenta estratégica e de inteligência de negócio (BI) que indica o melhor caminho para ampliar a relação “custo-benefício” das suas infraestruturas virtuais e, também, a melhor forma de maximizar os recursos das máquinas virtuais criadas nos provedores de serviços de nuvem.
 
-1.4 Otimizações recomendadas após o monitoramento
--------------------------------------------------
+Otimizações recomendadas após o monitoramento
+---------------------------------------------
 
 As otimizações a seguir podem ser propostas com base em sugestões de:
 
@@ -115,8 +115,8 @@ A interface inicial apresentada ao usuário é um painel de controle (*Dashboard
 
 O uSavings permite criar manualmente uma lista de máquinas virtuais ‘VMs’ com configurações específicas (uma configuração privada e/ou ‘imaginária’), para o caso do usuário que deseja obter a relação completa das suas máquinas virtuais e prefere conectar-se de forma manual.
 
-2.1 Como acessar a plataforma uSavings
---------------------------------------
+Como acessar a plataforma uSavings
+----------------------------------
 
 O acesso à plataforma uSavings é realizado pela web, podendo ser utilizado qualquer um dos navegadores: **Firefox**, **Google Chrome** ou **Microsoft Edge**, em diversos sistemas operacionais, a exemplo do **Microsoft Windows** 10 ou 11.
 
