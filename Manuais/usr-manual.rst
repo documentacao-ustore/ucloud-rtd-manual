@@ -100,13 +100,13 @@ Em relação aos provedores de serviço de nuvem pública, a Plataforma do uClou
 
 Atualmente, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
 
-* **VMware** (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7);
+* **VMware** (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior);
 * **vCloud**
-* Hyper-v (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016)
+* **Hyper-v** (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior)
 * **Openstack** 
 * **Xen Server** 
-* XCP-NG
-* KVM
+* **XCP-NG**
+* **KVM**
 
 A Plataforma do uCloud, além das funções de CSB (*Cloud Service Broker*), também é um agregador de funcionalidades que permite aos usuários, de forma simples e centralizada, o controle de diversos consoles de gerenciadores de ambientes virtualizados (*hypervisors*) seja do ambiente privado on-premises quanto do ambiente de fornecedores de nuvem pública. Agrega as funcionalidades de monitoração, fluxo de trabalho na nuvem (*Cloud Workflow*) e possibilita implementar um repositório biblioteca centralizado de arquivos (playbooks) de referência para uso de ferramentas de infraestrutura como código (*Infrastructure as a Code*).
 
@@ -150,6 +150,7 @@ A Plataforma uCloud está adaptada para que sua interface seja apresentada nos i
 
 .. figure:: /figuras/ucloud_idioma_plataforma.png
    :alt: Idioma da Plataforma uCloud
+   :scale: 50 %
    :align: center
 
 ----
@@ -368,6 +369,7 @@ A Plataforma do uCloud possui bancos de dados próprios que armazenam as informa
 De acordo com o tipo de perfil do usuário que está acessando o sistema, a Plataforma do uCloud apresentará somente a relação de usuários que o perfil que está registrado e ativo pode gerenciar ou administrar.
 
 .. figure:: /figuras/ucloud_menu_administracao_usuario_001.png
+   :scale: 60 %
    :align: center
 
 ----
@@ -435,6 +437,7 @@ Visualizando um Usuário
 Na listagem de usuários é possível visualizar as informações de um usuário,  basta clicar com o mouse sobre a linha na qual o usuário se apresenta, a Plataforma do uCloud exibirá a tela com todas as informações do usuário provisionado na plataforma. Nesta tela é possível adicionar novas configurações ao perfil de um usuário. A tela de visualização de detalhes de um usuário está dividida em seções e será descrita abaixo:
 
 .. figure:: /figuras/ucloud_menu_administracao_usuario_003.png
+   :scale: 60 %
    :align: center
 
 ----
@@ -491,11 +494,10 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 
 .. figure:: /figuras/ucloud_idioma_plataforma.png
    :alt: Idioma da Plataforma uCloud
+   :scale: 50 %
    :align: center
 
 ----
-
-.. note:: Importante ressaltar que a Plataforma do uCloud não efetua qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
 
   * **Telefone**: Este campo não é obrigatório, e pode ser utilizado para armazenar o número de telefone (fixo ou móvel) do usuário. Este é uma informação apenas para consulta, a Plataforma uCloud não possui qualquer integração com plataformas de telefonia pública, privada ou móvel e deve ser preenchido com um número de telefone fixo ou do serviço móvel celular, utilizando o seguinte formato:
 
@@ -520,6 +522,9 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
   * **Aprovação do Administrador**: Este campo configura que todas as ações e solicitações efetuadas na interface da Plataforma do uCloud, deste usuário, deverão ser aprovadas por um usuário Administrador do Grupo. Esta é uma funcionalidade para aumentar o controle de governança de custos e operações.
 
     * Este é um campo tipo “check box” que o usuário pode atuar para alternar o seu modo atual, desde que o perfil permita alterar. Se o ícone estiver na cor vermelha, basta clicar com o cursor do mouse e o campo será ativado para a cor verde. Caso o ícone esteja na cor verde, basta clicar com o mouse e o campo será desativado ficando na cor vermelha.
+
+
+.. note:: Importante ressaltar que a Plataforma do uCloud não efetua qualquer validação prévia referente a existência do e-mail informado ou seu efetivo funcionamento. No caso de inexistência do e-mail destino, ou erro em sua digitação, o usuário ficará impossibilitado de executar a redefinição da sua senha de acesso. Neste caso deverá contactar o administrador do seu grupo/contrato.
 
 
 * **Seção Permissões do Usuário**: Quando o usuário é criado ele herda/recebe todas as permissões definidas no Grupo ao qual ele pertence (ver próxima seção), bem como as permissões estabelecidas no Contrato. Esta tabela é opcional, mas permite adicionar, ou revogar, as permissões que este usuário possui para efetuar ações, ou acessar menus, na Plataforma do uCloud.
@@ -2408,8 +2413,8 @@ Ao excluir um snapshot, somente os dados exclusivos desse snapshot serão removi
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com cada ocorrência de um snapshot.
 
   * **Ícone de Reverter Snapshot** |icone_revert_snap|: Basta o usuário clicar sobre este ícone e aplicar a reversão do disco da máquina virtual, com base na imagem do dia e a hora do snapshot selecionado. A Plataforma do uCloud apresenta uma tela de confirmação ao usuário:
-  * Ambiente Amazon AWS: Para ambiente Amazon AWS esta ação é iniciada imediatamente - o disco de armazenamento da máquina virtual tem sua imagem revertida para o snapshot selecionado, após o tempo necessário desta atividade ser executada no ambiente Amazon AWS. Importante mencionar que a Plataforma do uCloud não tem controle sobre o tempo necessário para esta execução. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
-  * Ambiente Azure: Para ambiente Azure esta ação necessita de atividade que deve ser executada pelo próprio usuário. O ambiente Azure não permite reverter uma imagem de snapshot de forma automática. A Plataforma do uCloud apresenta uma tela que solicita ao Azure gerar um link o qual contém o arquivo da imagem de disco de armazenamento:
+  * **Ambiente Amazon AWS**: Para ambiente Amazon AWS esta ação é iniciada imediatamente - o disco de armazenamento da máquina virtual tem sua imagem revertida para o snapshot selecionado, após o tempo necessário desta atividade ser executada no ambiente Amazon AWS. Importante mencionar que a Plataforma do uCloud não tem controle sobre o tempo necessário para esta execução. O usuário pode acompanhar a evolução desta solicitação através do menu Tarefas.
+  * **Ambiente Azure**: Para ambiente Azure esta ação necessita de atividade que deve ser executada pelo próprio usuário. O ambiente Azure não permite reverter uma imagem de snapshot de forma automática. A Plataforma do uCloud apresenta uma tela que solicita ao Azure gerar um link o qual contém o arquivo da imagem de disco de armazenamento:
 
 Após o ambiente Azure finalizar o processo de criar o arquivo de imagem, a Plataforma do uCloud apresenta outra tela que permite o download do arquivo da imagem do disco (snapshot).
 
@@ -2417,7 +2422,7 @@ Este processo de download está vinculado à sessão do navegador de Internet (b
 
 Após finalizar a transferência do arquivo da imagem de disco de armazenamento (snapshot), o usuário deve seguir as etapas descritas, conforme documentado no site do ambiente Azure - em seguida, aplicar a imagem à máquina virtual desejada.
 
-* Ícone Lata de Lixo (“  ”): Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a imagem de disco de armazenamento do ambiente do provedor de serviço de nuvem. Importante mencionar que a imagem de disco (snapshot) ocupa espaço de armazenamento dentro do ambiente do provedor de serviço de nuvem. A Plataforma do uCloud apresenta a tela abaixo, com a mensagem de confirmação da operação ao usuário:
+* **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a imagem de disco de armazenamento do ambiente do provedor de serviço de nuvem. Importante mencionar que a imagem de disco (snapshot) ocupa espaço de armazenamento dentro do ambiente do provedor de serviço de nuvem. A Plataforma do uCloud apresenta a tela abaixo, com a mensagem de confirmação da operação ao usuário:
 
 .. warning:: |atencao| A ação de remoção da imagem de disco de armazenamento (snapshot) é definitiva e irreversível, pois não existem outras cópias desta imagem específica. Recomendamos ao usuário atenção redobrada ao confirmar esta ação.
 
@@ -2464,7 +2469,7 @@ Esta seção permite ao usuário gerar um gráfico de performance da máquina vi
 
 ----
 
-* Data Inicial: O período específico pode ser definido pelo usuário, basta informar a data inicial que se deseja avaliar a performance da máquina virtual, o usuário deve clicar sobre o ícone do calendário |icone_agenda| e selecionar a data inicial do período;
+* **Data Inicial**: O período específico pode ser definido pelo usuário, basta informar a data inicial que se deseja avaliar a performance da máquina virtual, o usuário deve clicar sobre o ícone do calendário |icone_agenda| e selecionar a data inicial do período;
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_035b.png
    :alt: Performance Instantânea de VM
@@ -2472,7 +2477,7 @@ Esta seção permite ao usuário gerar um gráfico de performance da máquina vi
 
 ----
 
-* Data Final: Em seguida, o usuário deve informar a data final do período que deseja avaliar a performance da máquina virtual, assim ao clicar sobre o ícone do calendário |icone_agenda| o usuário deve selecionar a data final do período que se quer avaliar;
+* **Data Final**: Em seguida, o usuário deve informar a data final do período que deseja avaliar a performance da máquina virtual, assim ao clicar sobre o ícone do calendário |icone_agenda| o usuário deve selecionar a data final do período que se quer avaliar;
 
 .. image:: /figuras/ucloud_menu_maquinas_virtuais_035c.png
    :alt: Performance Instantânea de VM
@@ -2480,7 +2485,7 @@ Esta seção permite ao usuário gerar um gráfico de performance da máquina vi
 
 ----
 
-* Botão Pesquisar |botao_pesquisar|: Para que a Plataforma do uCloud possa apresentar as informações referentes ao histórico de performance desta máquina virtual, o usuário deve clicar com o cursor do mouse sobre o botão “pesquisar” e aguardar os valores serem calculados para a montagem e apresentação do gráfico.
+* **Botão Pesquisar** |botao_pesquisar|: Para que a Plataforma do uCloud possa apresentar as informações referentes ao histórico de performance desta máquina virtual, o usuário deve clicar com o cursor do mouse sobre o botão “pesquisar” e aguardar os valores serem calculados para a montagem e apresentação do gráfico.
 
 ----
 
@@ -2635,9 +2640,9 @@ Nesta etapa o usuário deve informar os parâmetros de segurança para o correto
 
 ----
 
-* Par de Chaves: Este campo é obrigatório do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista as duas opções disponíveis:
+* **Par de Chaves**: Este campo é obrigatório do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista as duas opções disponíveis:
 
-  * Opção 1: Escolher Chave Existente: Quando escolhida esta opção, significa que o usuário pode selecionar algum par de chave, previamente configurado na Plataforma do uCloud. Ver o item Rede / Par de Chave, para acompanhar o processo “Provisionar um novo par de chave”.
+  * **Opção 1**: Escolher Chave Existente: Quando escolhida esta opção, significa que o usuário pode selecionar algum par de chave, previamente configurado na Plataforma do uCloud. Ver o item Rede / Par de Chave, para acompanhar o processo “Provisionar um novo par de chave”.
     * Selecionar Par de Chaves: Este campo é obrigatório e do tipo “dropdown” quando o usuário clicar com o cursor do mouse, a Plataforma do uCloud lista apenas as chaves que este usuário possui (ou chaves que foram criadas por um usuário com o perfil de acesso superior – no exemplo acima o usuário é ‘root’) e que estão vinculadas ao ambiente do provedor de serviço de nuvem. Para vincular esta chave à máquina virtual que será provisionada, basta o usuário clicar com o mouse em alguma das chaves existentes,
 
 .. image:: /figuras/ucloud_criar_maquina_virtual_010.png
@@ -2646,7 +2651,7 @@ Nesta etapa o usuário deve informar os parâmetros de segurança para o correto
 
 ----
 
-  * Opção 2: Criar Novo Par de Chaves: Este campo é obrigatório quando selecionado significa que o usuário deseja criar um arquivo de Par de Chave - online - durante o processo de provisionamento da máquina virtual.
+  * **Opção 2**: Criar Novo Par de Chaves: Este campo é obrigatório quando selecionado significa que o usuário deseja criar um arquivo de Par de Chave - online - durante o processo de provisionamento da máquina virtual.
 
 .. image:: /figuras/ucloud_criar_maquina_virtual_011.png
    :alt: Wizard para criar Maquina Virtual
@@ -3485,7 +3490,7 @@ A representação do *Virtual Datacenter* conforme a figura abaixo, exemplifica 
 
 .. image:: /figuras/ucloud_virtualdatacenter_conceito.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
+   :scale: 70 %
    :align: center
 
 ----
@@ -3702,7 +3707,7 @@ O usuário deve repetir estes procedimentos para cada uma das seções abaixo, a
 
 Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de recursos computacionais reflete de forma imediata na Plataforma do uCloud. Caso um usuário não seja capaz de visualizar um recurso computacional de nuvem (por exemplo: um template ou um flavor), ao proceder a adição do recurso computacional, este recurso será imediatamente visualizado por todos os outros usuários.
 
-.. raw:: html
+.. .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/_uBTkmLgNJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -3807,6 +3812,18 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 Menu Financeiro (Ambiente Corporativo)
 ======================================
 
+Antes de iniciarmos a apresentação dos relatórios é importante esclarecer o conceito de Contrato e os benefícios para as empresas quando adotam a Plataforma do uCloud para melhorar o controle e monitoração da Governança de Custos e de Recursos Computacionais.
+
+O Contrato é o ponto principal onde a organização usuária da Plataforma uCloud estabelece a forma como gerencia os aspectos comerciais, os limites financeiros (ou dos recursos computacionais), define seus valores para recursos computacionais de forma individualizada (isto é válido somente para uma nuvem privada), vincula os grupos e os usuários.
+
+No contrato se estabelece a forma da conversão da moeda estrangeira para a moeda local (e o valor de conversão é fixo ou variável) e as taxas de impostos aplicadas aos custos do contrato.
+
+Entre vários aspectos do Contrato, na Seção Regras de Faturamento o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a Plataforma uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair o valor da taxa PTAX referente ao dia que está informado no Contrato.
+
+No Contrato o usuário seleciona e define em qual a moeda os valores de todos os Relatórios Financeiros serão apresentados.
+
+.. note:: Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
+
 Quando o usuário acessar o Menu Financeiro, a Plataforma do uCloud apresenta a tela abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro001.png
@@ -3820,7 +3837,7 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
 * **Painéis Baseados em Consumo**: Este conjunto de relatórios em tela (*dashboards*) se referem aos valores acumulados dos recursos computacionais consumidos/utilizados no mês corrente até o dia corrente ou até o último período (ou janela) de processamento dos valores pelo provedor.
 
-  O termo *janela* se refere ao período que o provedor efetua a gravação dos valores dos recursos computacionais no arquivo de Bucket. O tempo médio desta janela de tempo está por volta de dez (10) horas.
+  O termo *janela* se refere ao período que o provedor efetua a gravação dos valores dos recursos computacionais no arquivo de Bucket. O tempo médio desta janela de tempo está por volta de doze (12) horas.
 
   Isto significa que poderão haver discrepâncias de apresentação de valores caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
 
@@ -3837,62 +3854,79 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 .. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
 
 
-Seção Minha Fatura
-------------------
-
-
-Seção X Contratos
--------------------
-
-
-Fatura do Grupo no Contrato
+Painéis Baseados em Consumo
 ---------------------------
 
+Como mencionado, este custo se refere aos valores acumulados do consumo dos recursos computacionais no mês corrente até o dia corrente ou até a última ‘janela’ de processamento dos valores pelo provedor.
 
-Faturamento do Usuário
-----------------------
+Histórico de Serviço
+~~~~~~~~~~~~~~~~~~~~
 
-
-Menu Financeiro (USN)
----------------------
-
-
-Ambiente Governo Brasileiro
----------------------------
+Em uma abordagem de trabalho de FinOps tudo começa por identificar quais são os recursos com mais consumo. Neste caso o menu histórico de serviços o cliente poderá visualizar a listagem dos recursos que mais são consumidos em sua fatura. Eles são agrupados por ProductName e por Product Family.
+Ao selecionar a opção do menu HISTÓRICO DE SERVIÇO será solicitado que escolha um CONTRATO, tipo de INTERVALO e o PERÍODO, através desse relatório é possível analisar os custos de forma detalhada conforme apresentado nas imagens abaixo.
 
 
+Custo Cadenciado
+~~~~~~~~~~~~~~~~
 
-Menu Financeiro / USN Billing
-=============================
-
-Menu Financeiro / Relatório Consolidado de Faturamento
-------------------------------------------------------
-
-
-Menu Ordem de Serviço
-=====================
+Custo Relacional de Produto
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Gerenciando a Ordem de Serviço
-------------------------------
+Visualização de Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Seção Geral - Ordem de Serviço
-------------------------------
+Custos de Budgets
+~~~~~~~~~~~~~~~~~
 
 
-Seção Estimativa de Custo (USN)
--------------------------------
+Painéis Baseados em Fatura
+--------------------------
 
 
-Configuração de Estimativa de Custo (UST)
------------------------------------------
+Minha Fatura
+~~~~~~~~~~~~
+
+Financeiro
+~~~~~~~~~~
+
+Relatório Consolidado de Faturamento
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-De Acordo
----------
+Tendência de faturamento 
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Menu Financeiro (USN)
+.. ---------------------
+
+.. Ambiente Governo Brasileiro
+.. ---------------------------
 
 
+.. Menu Financeiro / USN Billing
+.. =============================
+
+
+.. Menu Ordem de Serviço
+.. =====================
+
+.. Gerenciando a Ordem de Serviço
+.. ------------------------------
+
+.. Seção Geral - Ordem de Serviço
+.. ------------------------------
+
+.. Seção Estimativa de Custo (USN)
+.. -------------------------------
+
+.. Configuração de Estimativa de Custo (UST)
+.. -----------------------------------------
+
+
+.. De Acordo
+.. ---------
 
 Menu Containers
 ===============
@@ -3907,7 +3941,8 @@ Em relação aos provedores de serviço de nuvem pública, a Plataforma do uClou
 
 Atualmente, a Plataforma do uCloud está preparada para se conectar com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
 
-* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7);
+* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)
+* Hyper-v (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior)
 * vCloud
 * Openstack
 * Xen Server
@@ -4010,7 +4045,8 @@ O termo “Hosts” na Plataforma do uCloud é utilizado para representar um ser
 
 Atualmente, a Plataforma do uCloud está preparada para conectar-se com as seguintes plataformas (hypervisors) de gerenciamento de ambiente de nuvem privada:
 
-* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7)
+* VMware (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)
+* Hyper-v (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior)
 * vCloud
 * OpenStack versão Mitaka ou superior
 * Xen Server versão 7.0 ou superior
@@ -4167,13 +4203,13 @@ Abaixo a descrição das seções presentes nesta tela:
 
     * **Ações (válido para todas as redes)**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a sub-rede selecionada:
 
-       * Ícone Lata de Lixo |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud remover esta sub-rede de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+       * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud remover esta sub-rede de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada será totalmente dependente do tempo do ambiente destino (público e/ou privado). A Plataforma do uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
 
-       * Ícone Edição |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa alternar todos os campos das colunas para o modo edição, de forma que o usuário possa corrigir o conteúdo dos campos e alterar as configurações da respectiva Sub-Rede. ATENÇÃO: Importante ressaltar que qualquer alteração das configurações de uma sub-rede, gerará impacto nos ambientes computacionais, nas máquinas virtuais vinculadas a esta sub-rede, nas comunicações entre aplicações e o acesso dos usuários (tanto às máquinas virtuais, como às aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam derivar desta ação.
+       * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a Plataforma do uCloud possa alternar todos os campos das colunas para o modo edição, de forma que o usuário possa corrigir o conteúdo dos campos e alterar as configurações da respectiva Sub-Rede. ATENÇÃO: Importante ressaltar que qualquer alteração das configurações de uma sub-rede, gerará impacto nos ambientes computacionais, nas máquinas virtuais vinculadas a esta sub-rede, nas comunicações entre aplicações e o acesso dos usuários (tanto às máquinas virtuais, como às aplicações por estas executadas). A Plataforma uCloud não pode ser responsabilizada por problemas que possam derivar desta ação.
 
-       * Ícone de Confirmação |icone_confirma|: Quando o usuário deseja confirmar a intenção de alterar o conteúdo do campo escolhido, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
+       * **Ícone de Confirmação** |icone_confirma|: Quando o usuário deseja confirmar a intenção de alterar o conteúdo do campo escolhido, a Plataforma do uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo será alterada permanentemente nas bases de dados da Plataforma do uCloud.
 
-       * Ícone de Cancelamento |icone_cancela|: No caso do usuário clicar sobre o ícone de edição, por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
+       * **Ícone de Cancelamento** |icone_cancela|: No caso do usuário clicar sobre o ícone de edição, por engano ou no caso de não desejar que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o botão vermelho. O botão vermelho cancela as alterações e o conteúdo do campo retorna para os valores iniciais, antes de proceder qualquer preenchimento ou alteração.
 
 * **Seção Contratos Associados**: Esta seção apresenta informações referente à vinculação da da Rede ao Virtual Datacenter que está presente no contrato. Portanto, esta vinculação é indireta.
 
@@ -4495,7 +4531,7 @@ O menu **IPs Públicos** permite ao usuário do uCloud solicitar um endereço IP
 
 .. image:: /figuras/ucloud_ip_publico001.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4515,7 +4551,7 @@ Quando o usuário acessar esta tela, a Plataforma do uCloud apresenta uma lista 
 
 .. image:: /figuras/ucloud_ip_publico002.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4554,7 +4590,7 @@ A seguir a descrição detalhada das colunas e campos da tela exibida acima:
 
 .. image:: /figuras/ucloud_ip_publico003.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4577,7 +4613,7 @@ Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Públi
 
 .. image:: /figuras/ucloud_ip_publico004.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4603,7 +4639,7 @@ Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Públi
 
 .. image:: /figuras/ucloud_ip_publico004b.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4654,7 +4690,7 @@ A seguir a descrição detalhada dos campos da tela exibida acima:
 
 .. image:: /figuras/ucloud_calendario.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4676,7 +4712,7 @@ Um Grupo de Segurança atua como “firewall” virtual para as máquinas virtua
 
 .. image:: /figuras/ucloud_grupo_seguranca001.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4690,7 +4726,7 @@ Ao acessar este menu "Grupo de Segurança" a Plataforma do uCloud apresenta ao u
 
 .. image:: /figuras/ucloud_grupo_seguranca002.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4726,7 +4762,7 @@ A Plataforma do uCloud permite ao usuário alterar as configurações de um Grup
 
 .. image:: /figuras/ucloud_grupo_seguranca003.png
    :alt: Menu Rede - IP Público
-   :scale: 80 %
+   :scale: 60 %
    :align: center
    :class: with-border
 
@@ -4928,7 +4964,7 @@ Quando o usuário clicar com o cursor do mouse sobre o botão de Importar Par de
 
 .. image:: /figuras/ucloud_par_de_chaves004.png
    :alt: Menu Rede - IP Público
-   :scale: 50 %
+   :scale: 30 %
    :align: center
    :class: with-border
 
@@ -5136,7 +5172,7 @@ Quando o usuário clicar com cursor do mouse sobre o botão Criar Balanceador, a
 
 .. image:: /figuras/ucloud_balanceador008.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5151,7 +5187,7 @@ A seguir a descrição detalhada dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador009.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5171,7 +5207,7 @@ A seguir a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador010.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5188,7 +5224,7 @@ A seguir a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador011.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5202,7 +5238,7 @@ A seguir a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador012.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5226,7 +5262,7 @@ Quando o usuário clicar com cursor do mouse sobre o botão Criar Balanceador, a
 
 .. image:: /figuras/ucloud_balanceador008.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5243,7 +5279,7 @@ A seguir a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador013.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5253,7 +5289,7 @@ Após o usuário clicar com o cursor do mouse no botão OK para aceitar o aviso,
 
 .. image:: /figuras/ucloud_balanceador014.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
@@ -5274,7 +5310,7 @@ A seguir a descrição dos campos desta tela:
 
 .. image:: /figuras/ucloud_balanceador015.png
    :alt: Menu Rede - Balanceador
-   :scale: 80 %
+   :scale: 50 %
    :align: center
    :class: with-border
 
