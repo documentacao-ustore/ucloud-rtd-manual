@@ -9,8 +9,10 @@ uSavings - Manual do Usuário
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
+------
 
-APRESENTAÇÃO
+
+Apresentação
 ============
 
 Este documento tem como objetivo apresentar as principais características e funcionalidades relacionadas a aplicação *uSavings*. Neste Manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
@@ -25,7 +27,7 @@ Sugestões, favor enviar correio eletrônico para *manual@usto.re*.
 
 
 
-INTRODUÇÃO: Visão Geral
+Introdução: Visão geral
 =======================
 
 Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto,.
@@ -45,9 +47,7 @@ A plataforma do uSavings obtém e extrai a informação dos dados históricos da
     : alt: organograma de funcionamento do usavings
     : scale: 60%
     : align: center
-    : class: with-border
-
---- 
+-------------------
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud ou ‘VM’, é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o Flavor, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do Flavor que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
@@ -55,9 +55,7 @@ A imagem acima representa o organograma de funcionamento do uSavings: nele a má
     : alt: recorte do organograma 
     : scale: 60%
     : align: center
-    : class: with-border
-
---- 
+-------------------
 
 O recorte no organograma, destaca a parte pertinente no diagrama, ela representa a forma sugestiva da aplicação do uSavings. Existem duas maneiras para recomendar as melhorias para uma determinada Virtual Machine: (i) por Flavor e (ii) por Billing.
 
@@ -118,7 +116,7 @@ Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos comp
 -------------------------------------------------------------------------------------------------------------------
 
 
-INTERFACE e MENU
+Interface: Menu inicial
 ================
 
 A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
@@ -138,9 +136,7 @@ Para o caso de o acesso ser realizado direto na web a Figura 3 abaixo será most
     : alt: tela de acesso inicial
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
---- 
+------------------- 
 
 O usuário deve preencher os campos **‘login’** e **‘senha’**, com as credenciais recebidas do administrador da plataforma. Clicar em **‘Entrar’**. Após este procedimento, a tela inicial do Dashboard será apresentada. 
 
@@ -150,17 +146,15 @@ Se a tela de Dashboard não for apresentada, isto significa que algum dos campos
     : alt: Tela de problema no acesso 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
---- 
+------------------- 
 
 No caso de insucesso ao logar, será apresentada ao usuário acima, com a seguinte orientação: **(i)** checar as credenciais e **(ii)** repetir a operação.
 
 ---
 
 
-VISÃO GERAL do MENU SUPERIOR
-============================
+Visão geral
+===========
 
 De início, antes de adentrar na sessão do **Dashboard** é relevante entender o impacto de algumas ferramentas existentes no menu superior.
 
@@ -168,9 +162,8 @@ De início, antes de adentrar na sessão do **Dashboard** é relevante entender 
     : alt: recorte Menu superior 
     : scale: 60%
     : align: center
-    : class: with-border/fig
+-------------------
 
----
 No recorte do menu superior, acima demonstrado na **Figura 5**, são exibidos componentes relevantes, a seguir descritos em detalhe, Na ordem: da esquerda para a direita:
 
 Ícone de Troca de Contrato
@@ -188,9 +181,7 @@ Este ícone
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | troca_contrato | imag
 
@@ -207,9 +198,7 @@ Como introdução sobre a usabilidade deste recorte da tela:
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | | image::
 
@@ -221,9 +210,7 @@ Pode-se afirmar que o termo *Clouds* é empregado para abstrair um agrupamento d
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | configuracoes_clouds | image::
 
@@ -235,9 +222,7 @@ No menu de configurações existe a parte de criação de *Clouds*, alteração 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | configuracao_alteracao_atividade| image::
 
@@ -252,9 +237,7 @@ Este ícone
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | | image::
 
@@ -266,9 +249,7 @@ Este ícone
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | | image::
 
@@ -283,9 +264,7 @@ Este ícone
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | | image::
 
@@ -302,9 +281,7 @@ Este ícone
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | | image::
 
@@ -312,7 +289,7 @@ desloga o usuário da plataforma.
 
 ------------------------------------------------------------------------------------------------------------------
 
-VISÃO GERAL do *DASHBOARD*
+Painel de controle *Dashboard*
 ==========================
 
 A interface inicial do uSavings exibida ao usuário é um painel de controle *(Dashboard)*.
@@ -323,9 +300,7 @@ A interface inicial do uSavings exibida ao usuário é um painel de controle *(D
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | menu_entrada_dashboard | image::
 
@@ -337,9 +312,7 @@ Este painel, **Figura 7**, exibe alguns dados na tela que retratam um resumo da 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_inicial_dashboard_funcionalidades | image::
 
@@ -351,9 +324,7 @@ Na primeira parte da tela inicial, **Figura 8**, **são espelhados somente os se
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | container_conectado_plataforma_ucloud | image::
 
@@ -378,9 +349,7 @@ O primeiro *card* **Latest Months**, apresenta a bilhetagem ocorrida no período
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | latest_months | image::
 
@@ -392,9 +361,7 @@ Tal valor é coletado a partir de valores gerados pelo *job* do uSavings, respon
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | grafico_investimentos_real_versus_meses | image::
 
@@ -413,9 +380,7 @@ Neste *card* são detalhadas as informações a respeito do percentual de econom
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | custos_consolidados | image::
 
@@ -446,9 +411,7 @@ Todos os valores são exibidos em dólar, sem tributação de impostos. Os preç
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | grafico_actual_flavors | image::
 
@@ -467,9 +430,7 @@ A coluna azul representa o gasto atual, a coluna verde sugere a economia que pod
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | sugested_flavors | image::
 
@@ -483,9 +444,7 @@ Os valores apresentados se referem ao período da coleta de dados (o período m�
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_entrada_dashboard_12 | image::
 
@@ -497,9 +456,7 @@ Esta análise inicial é calculada com base no uso, ou seja, na ocupação dos r
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_entrada_dashboard_22 | image::
 
@@ -507,7 +464,7 @@ O resultado desta análise é a sugestão da melhor combinação de CPU e memór
 
 -------------------------------------------------------------------------------------------------------------------
 
-MENU LATERAL de *FUNCIONALIDADES*
+Menu *Funcionalidades*
 =================================
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
@@ -518,9 +475,7 @@ No lado esquerdo do menu de entrada da plataforma do uSavings são listados os m
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | submenu_funcionalidades | image::
 
@@ -535,9 +490,7 @@ No menu Virtual Machines são apresentadas todas as máquinas virtuais da infrae
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | virtual_machines | image::
 
@@ -549,9 +502,7 @@ Esta exibição permite a seleção do container específico para a análise de 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | menu_virtual_machines | image::
 
@@ -563,9 +514,7 @@ Esta exibição permite a seleção do container específico para a análise de 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_container | image::
 
@@ -584,9 +533,7 @@ Após selecionar o container, as informações são apresentadas em colunas, seg
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | informações_container | image::
 
@@ -605,9 +552,7 @@ Para receber o resultado de sugestão de mudança de *Flavor*, o usuário deve s
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | container_selecionado | image::
 
@@ -619,9 +564,7 @@ Como resultado desta operação será exibida a **Figura 25**, a qual apresenta 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | resultado_estimado_selecao | image::
 
@@ -641,9 +584,7 @@ Selecionar a nuvem *(container)* que deseja analisar.
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_nuvem_vm | image::
 
@@ -656,9 +597,7 @@ Escolher a região que roda a *Virtual Machine* selecionada.
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_região_vm | image::
 
@@ -674,9 +613,7 @@ Exportar o relatório para visualização em planilha excel, na máquina do usu�
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | relatorio_exportado_excel | image::
 
@@ -689,9 +626,7 @@ Existe a opção de analisar as informações de performance, na coluna Performa
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | coluna_performance | image::
 
@@ -704,9 +639,7 @@ Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | performance_maquinas | image::
 
@@ -723,9 +656,7 @@ Na aplicação do uSavings, a funcionalidade “Compare Clouds” permite realiz
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | submenu_funcionalidades | image::
 
@@ -741,9 +672,7 @@ Existem duas maneiras de realizar esta análise comparativa, comparar por Billin
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_inicial_compare_clouds | image::
 
@@ -755,9 +684,7 @@ Nesta **Figura 32** são apresentadas duas barras com a possibilidade de realiza
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecao_compare_billing_compare_container | image::
 
@@ -774,7 +701,7 @@ Antes de selecionar o container ou a nuvem que se deseja comparar, é necessári
 .. note:: **Significado** de *Estar bilhetado* existência da fatura de consumo em determinado período, pelo menos um mês.                                                                                                                
 
 
-**PASSO A PASSO**
+**Etapas do passo a passo**
 
 **1º Passo** 
 
@@ -790,9 +717,7 @@ Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **A
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | recorte_compare_billing | image::
 
@@ -808,9 +733,7 @@ Ao selecionar a nuvem, o usuário deve preencher no calendário o período corre
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecao_periodo_bilhetagem_nuvem_comparada | image::
 
@@ -826,9 +749,7 @@ Selecionar as nuvens que participarão da análise comparativa de valores. O que
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_nuvens_analise_comparar_valores | image::
 
@@ -842,9 +763,7 @@ Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a pró
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | escolher_regiao_nuvem_1 | image::
 
@@ -860,9 +779,7 @@ Após selecionar a região por nuvem, a aplicação uSavings apresenta a Figura 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | resultado_escolha_regiao | image::
 
@@ -881,13 +798,11 @@ O segundo comparativo oferecido pela aplicação uSavings é a análise por Cont
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecao_comparativo_container | image::
 
-**PASSO A PASSO**
+**Etapas do passo a passo**
 
 **1º Passo**
 
@@ -899,9 +814,7 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_container_nuvem_compara | image::
 
@@ -915,9 +828,7 @@ Selecionar o container **Figura 41**, a ser comparado com a nuvem apresentada na
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecionar_container_nuvem | image::
 
@@ -931,9 +842,7 @@ Selecionar a região e clicar em Next para finalizar a operação e obter o resu
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_escolha_regiao_cloud | image::
 
@@ -943,9 +852,7 @@ Selecionar a região e clicar em Next para finalizar a operação e obter o resu
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | comparativo_container_nuvem | image::
 
@@ -971,9 +878,7 @@ A **Figura 44** exibe alguns cards demonstrando valores sobre as sugestões na m
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | cards_precos_consolidados | image::
 
@@ -985,9 +890,7 @@ A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | representacao_grafica_preco_nuvem | image::
 
@@ -1001,9 +904,7 @@ Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuv
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_resultado | image::
 
@@ -1020,9 +921,7 @@ No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se de
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | relatorio_exportado_csv | image::
 
@@ -1040,9 +939,7 @@ A penúltima funcionalidade do submenu uSavings está nomeada *Imaginary Cloud*.
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | submenu_funcionalidade | image::
 
@@ -1054,9 +951,7 @@ O submenu *Imaginary Cloud* permite criar um ambiente imaginário, na intenção
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_inicial_imaginary_cloud | image::
 
@@ -1068,9 +963,7 @@ Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criado
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_imaginary_vm | image:: 
 
@@ -1084,9 +977,7 @@ Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquer
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_imaginary_load_balancer | image::
 
@@ -1100,9 +991,7 @@ A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esque
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_imaginary_storage | image::
 
@@ -1116,9 +1005,7 @@ A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda par
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_imaginary_ip | image::
 
@@ -1132,9 +1019,7 @@ A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a d
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_imaginary_database | image::
 
@@ -1148,9 +1033,7 @@ Na tela *Imaginary Database*, as dez informações apresentadas da esquerda para
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | imaginary_clouds_containers | image::
 
@@ -1162,9 +1045,7 @@ A partir deste ambiente é permitido ao usuário criar ambiente imaginário (con
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_ambiente_imaginario | image::
 
@@ -1174,9 +1055,7 @@ A partir deste ambiente é permitido ao usuário criar ambiente imaginário (con
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_deletar_ambiente_imaginario_container | image::
 
@@ -1192,9 +1071,7 @@ Após toda esta imaginação de cenários, a aplicação fornece documentação 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_container_imaginario | image::
 
@@ -1206,9 +1083,7 @@ Após a criação do container imaginário, podemos seguir criando outros recurs
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_virtual_machine | image::
 
@@ -1220,9 +1095,7 @@ Começando com a criação da *Virtual Machine*, temos uma série de inputs que 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | import_export_csv | image::
 
@@ -1234,9 +1107,7 @@ Após a sua criação, são apresentados os resultados na tela, em dois formatos
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | comparativo_criar_load_balancer | image::
 
@@ -1250,9 +1121,7 @@ Os resultados são apresentados em formato de tabela, a qual mostra o preço do 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_storage_imaginary_cloud | image::
 
@@ -1264,9 +1133,7 @@ Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *input
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_storage | image::
 
@@ -1278,9 +1145,7 @@ Após a criação de um *Storage*, a tela de apresentação será semelhante a e
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | resultado_criacao_storage | image::
 
@@ -1292,9 +1157,7 @@ Para a penúltima opção de criação temos o IP, que segue a mesma lógica, ne
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_ip | image::
 
@@ -1306,9 +1169,7 @@ O formato de apresentação da tela do IP será semelhante aos itens já explica
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_database_imaginary_cloud | image::
 
@@ -1320,9 +1181,7 @@ Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, mem�
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | criar_database_imaginary_cloud_2 | image::
 
@@ -1341,9 +1200,7 @@ A última funcionalidade do menu uSavings é o *Container Hint*, ela apresenta o
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | container_hint | image::
 
@@ -1355,9 +1212,7 @@ A funcionalidade está disponível para as contas conectadas e integradas com a 
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | selecao_tipo_nuvem_container | image::
 
@@ -1371,9 +1226,7 @@ Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a im
     : alt: 
     : scale: 60%
     : align: center
-    : class: with-border/fig
-
----
+-------------------
 
 .. | tela_recursos_nao_utilizados | image::
 
@@ -1397,14 +1250,14 @@ Assim, o usuário pode realizar a pesquisa e descobrir quais recursos não são 
 
 --------------------------------------------------------------------------------------------------------------------
 
-uCLOUD
+uCloud
 ======
 
 Ao clicar neste menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
 
 --------------------------------------------------------------------------------------------------------------------
 
-CONCLUSÃO
+Conclusão
 =========
 
 Assim, este documento conclui a descrição geral dos procedimentos necessários para o uso. A leitura deste manual de utilização permitirá ao usuário da aplicação utilizar as suas funcionalidades de maneira adequada. 
