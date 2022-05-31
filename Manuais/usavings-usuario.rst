@@ -76,11 +76,12 @@ A plataforma do uSavings obtém e extrai a informação dos dados históricos da
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud ou ‘VM’, é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o Flavor, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do Flavor que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
-.. image:: /fig_usavings/002_recorte_organograma.png 
-    : alt: recorte do organograma 
-    : scale: 60%
-    : align: center
--------------------
+.. image:: /figuras/fig_usavings/002_recorte_organograma.png 
+    :alt: recorte do organograma 
+    :scale: 60%
+    :align: center
+======
+
 
 O recorte no organograma, destaca a parte pertinente no diagrama, ela representa a forma sugestiva da aplicação do uSavings. Existem duas maneiras para recomendar as melhorias para uma determinada Virtual Machine: (i) por Flavor e (ii) por Billing.
 
