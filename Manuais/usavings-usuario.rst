@@ -33,6 +33,23 @@ Introdução: Visão geral
 Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto.
 Importa esclarecer que ele se encontra em constante desenvolvimento e evolução, por isto, as telas apresentadas neste documento podem sofrer alterações a qualquer momento, por conta da evolução do software.
 
+A presente tendência, a cada momento mais forte, da migração de recursos computacionais das nuvens privadas ou ambientes de *co-location*, para o ambiente  dos provedores de nuvem pública, representa um dos grandes desafios das organizações que é a Governança de Custos decorrentes do alto uso destes recursos computacionais e, consequentemente, as empresas não conseguem obter as devidas visualizações destes custos no futuro.
+
+Atualmente, a quase totalidade de plataformas de *Cloud Service Broker (CSB)* podem apresentar sugestões de redução de custos, porém, a obtenção de alguns valores são dependentes de um serviço (ou ação) humana, para obter tais valores.
+
+Os provedores de serviço de nuvem pública, continua e initerruptamente, disponibilizam novas configurações de hardware (*flavors*) com características similares, mas valores, por vezes, muito diferentes. Neste momento, fica a critério de um especialista de arquitetura efetuar uma busca por configurações de hardware possíveis e compatíveis.
+
+A Plataforma uSavings preenche estas atividades de forma automatizada para que as comparações de configurações de hardware e/ou custos recorrentes possam ser apresentados de forma mais clara para o usuário desta plataforma.
+
+A Plataforma uSavings, obtém o inventário de todos os recursos computacionais de nuvem pública com a sua integração com a Plataforma uCloud. Portanto, a relação de recursos computacionais de servidores apresentado na interface da Plataforma uSavings é a representação fiel do seu ambiente encontrado no provedor de serviço de nuvem pública, desta forma, a realidade existente em seu ambiente.
+
+Todos as opções de alternativas de configuração de hardware são informadas como **sugestões** pois fica a critério do usuário efetuar a troca (reconfiguração) do hardware do recurso computacional (*flavor*) no melhor momento para o seu ambiente.
+
+Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
+
+A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataform uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
+
+
 O que é uSavings?
 -----------------
 
@@ -49,6 +66,11 @@ A plataforma do uSavings obtém e extrai a informação dos dados históricos da
    : align: center
 
 ----
+
+.. image:: \fig_usavings\organograma_funcionamento_usavings001.png
+    :alt: 
+    :align: center
+======
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud ou ‘VM’, é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o Flavor, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do Flavor que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
