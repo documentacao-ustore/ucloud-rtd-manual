@@ -1,0 +1,3 @@
+.wy-grid-for-nav .rst-other-versions .injected > dl:nth-child(3n+3){
+  display:none;
+}
