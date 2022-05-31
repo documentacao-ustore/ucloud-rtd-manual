@@ -43,7 +43,7 @@ Como funciona?
 
 A plataforma do uSavings obtém e extrai a informação dos dados históricos da própria Virtual Machine, ou seja, da máquina virtual e da bilhetagem de cada provedor de nuvem pública – a coleta destes dados é iniciada com a integração à Plataforma do uCloud. A aplicação apresenta um painel consolidado e sugestões dos gastos do cliente em cada provedor de nuvem, entregando assim, informações precisas para a melhor tomada de decisão sobre os custos alocados dos recursos de infraestrutura da organização.
 
-.. figure:: /fig_usavings/organograma_funcionamento_usavings001.png
+.. figure:: ucloud-rtd-manual/fig_usavings/organograma_funcionamento_usavings001.png
    : alt: Organograma de funcionamento do usavings
    : scale: 30 %
    : align: center
