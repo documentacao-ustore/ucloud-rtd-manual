@@ -68,10 +68,10 @@ A plataforma do uSavings obtém e extrai a informação dos dados históricos da
 
 ----
 
-.. image:: figuras\fig_usavings\organograma_funcionamento_usavings001.png
+.. image:: figuras\ucloud_acesso_platafform_001.png
     :scale: 30%
     :align: center
-======
+
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud ou ‘VM’, é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o Flavor, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do Flavor que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
