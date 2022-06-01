@@ -164,11 +164,10 @@ Para o acesso inicial é necessário solicitar as credenciais ao administrador -
 
 Para o caso de o acesso ser realizado direto na web a Figura 3 abaixo será mostrada ao usuário. Neste momento, ele deve inserir as credenciais recebidas.
 
-.. image:: /fig_usavings/003_tela_acesso_inicial 
-    : alt: tela de acesso inicial
-    : scale: 60%
-    : align: center
-------------------- 
+.. image:: /figuras/fig_usavings/003_tela_acesso_inicial.png 
+    :alt: tela de acesso inicial
+    :align: center
+====
 
 O usuário deve preencher os campos **‘login’** e **‘senha’**, com as credenciais recebidas do administrador da plataforma. Clicar em **‘Entrar’**. Após este procedimento, a tela inicial do Dashboard será apresentada. 
 
