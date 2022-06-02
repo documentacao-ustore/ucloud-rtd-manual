@@ -78,7 +78,7 @@ A imagem acima representa o organograma de funcionamento do uSavings: nele a má
 
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte do organograma do usavings
-    :scale: 50%
+    :scale:
     :align: center
 ====
 
@@ -170,11 +170,10 @@ Se a tela de Dashboard não for apresentada, isto significa que algum dos campos
 
 .. image:: /figuras/fig_usavings/004_tela_problema_acesso.png 
     :alt: tela de problema no acesso 
-    :scale: 30%
     :align: center
 ----
 
-No caso de insucesso ao logar, será apresentada ao usuário acima, com a seguinte orientação: **(i)** checar as credenciais e **(ii)** repetir a operação.
+No caso de insucesso ao logar, será apresentada ao usuário a imagem acima, com a seguinte orientação: **(i)** checar as credenciais e **(ii)** repetir a operação.
 
 ----
 
@@ -186,7 +185,7 @@ De início, antes de adentrar na sessão do **Dashboard** é relevante entender 
 
 .. image:: /figuras/fig_usavings/005_recorte_menu_superior.png 
     :alt: recorte do menu superior 
-    :scale: 50%
+    :scale:
     :align: center
 ----
 
@@ -203,7 +202,7 @@ Este ícone
 
 .. image:: /figuras/fig_usavings/006_troca_contrato.png 
     :alt: troca de contrato 
-    :scale: 60%
+    :scale:
     :align: center
 ----
 
@@ -310,7 +309,7 @@ Painel de controle *Dashboard*
 
 A interface inicial do uSavings exibida ao usuário é um painel de controle *(Dashboard)*.
 
-.. image:: /figuras/fig_usavings/009_menu_entrada_dashboard.png" 
+.. image:: /figuras/fig_usavings/009_menu_entrada_dashboard.png
     :alt: menu de entrada do dashboard 
     :scale: 60%
     :align: center
@@ -328,7 +327,7 @@ Na primeira parte da tela inicial, apresentada na imagem acima, **são espelhado
 
 .. image:: /figuras/fig_usavings/011_container_conectado_plataforma_ucloud.png 
     :alt: container conectado na plataforma uCloud 
-    :scale: 60%
+    :scale: 50%
     :align: center
 ----
 
