@@ -29,7 +29,7 @@ Sugestões, favor enviar correio eletrônico para *manual@usto.re*.
 -----------
 
 
-Introdução: Visão geral
+Introdução: Visão e posicionamento
 =======================
 
 Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto.
@@ -43,24 +43,24 @@ Os provedores de serviço de nuvem pública, continua e initerruptamente, dispon
 
 A Plataforma uSavings preenche estas atividades de forma automatizada para que as comparações de configurações de hardware e/ou custos recorrentes possam ser apresentados de forma mais clara para o usuário desta plataforma.
 
-A Plataforma uSavings, obtém o inventário de todos os recursos computacionais de nuvem pública com a sua integração com a Plataforma uCloud. Portanto, a relação de recursos computacionais de servidores apresentado na interface da Plataforma uSavings é a representação fiel do seu ambiente encontrado no provedor de serviço de nuvem pública, desta forma, a realidade existente em seu ambiente.
+A Plataforma uSavings, obtém o inventário de todos os recursos computacionais de nuvem pública através da sua integração com a Plataforma uCloud. Portanto, a relação de recursos computacionais de servidores apresentado na interface da Plataforma uSavings é a representação fiel do seu ambiente encontrado no provedor de serviço de nuvem pública, desta forma, a realidade existente em seu ambiente.
 
-Todos as opções de alternativas de configuração de hardware são informadas como **sugestões** pois fica a critério do usuário efetuar a troca (reconfiguração) do hardware do recurso computacional (*flavor*) no melhor momento para o seu ambiente.
+Todas as opções de alternativas de configuração de hardware são informadas como **sugestões**, pois fica a critério do usuário efetuar a troca (reconfiguração) do hardware do recurso computacional (*flavor*) no melhor momento para o seu ambiente.
 
-Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
+Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma, o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
 
-A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataform uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
+A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataforma uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
 
 
 O que é uSavings?
 -----------------
 
-O uSavings é uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais (das máquinas virtuais, abreviado como VMs) nas diferentes nuvens, é por meio desta análise que a aplicação recomenda modificações, no caso de a organização acolher ou apoiar esta sugestão, tal decisão poderá permitir gerar o máximo de economia financeira e otimização dos recursos criados e/ou executados. A aplicação uSavings é um “cost advisor", ou seja, um consultor de custos que permite aconselhar o usuário como reduzir os custos da sua infraestrutura, bilhetada pela Plataforma uCloud, nos diversos provedores de serviços de nuvem - AWS, Azure, Google, IBM e VMWare.
+O uSavings é uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais (das máquinas virtuais, abreviado como VMs) nas diferentes nuvens, é por meio desta análise que a aplicação recomenda modificações. No caso de a organização acolher ou apoiar esta sugestão, tal decisão poderá permitir gerar o máximo de economia financeira e otimização dos recursos criados e/ou executados. A aplicação uSavings é um “cost advisor", ou seja, um consultor de custos que permite aconselhar o usuário como reduzir os custos da sua infraestrutura, bilhetada pela Plataforma uCloud, nos diversos provedores de serviços de nuvem - AWS, Azure, Google, IBM e VMWare.
 
 Como funciona?
 --------------
 
-A plataforma do uSavings obtém e extrai a informação dos dados históricos da própria Virtual Machine, ou seja, da máquina virtual e da bilhetagem de cada provedor de nuvem pública – a coleta destes dados é iniciada com a integração à Plataforma do uCloud. A aplicação apresenta um painel consolidado e sugestões dos gastos do cliente em cada provedor de nuvem, entregando assim, informações precisas para a melhor tomada de decisão sobre os custos alocados dos recursos de infraestrutura da organização.
+A plataforma do uSavings além de obter dados das diversas nuvens, extrai a informação dos dados históricos da própria Virtual Machine (máquina virtual) e da bilhetagem de cada provedor de nuvem pública – a coleta destes dados é iniciada com a integração à Plataforma do uCloud. A aplicação apresenta um painel consolidado e sugestões dos gastos do cliente em cada provedor de nuvem, entregando assim, informações precisas para a melhor tomada de decisão sobre os custos alocados dos recursos de infraestrutura da organização.
 
 .. image:: /figuras/fig_usavings/organograma_funcionamento_usavings001.png
     :alt: organograma de funcionamento do usavings
@@ -68,7 +68,7 @@ A plataforma do uSavings obtém e extrai a informação dos dados históricos da
 ====
 
 
-A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud ou ‘VM’, é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o Flavor, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do Flavor que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
+A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud (VM), é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o *Flavor*, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do *Flavor* que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
 .. || figure:: /figuras/fig_usavings/002_recorte_organograma.png
    :alt: recorte_organograma do usavings
@@ -78,28 +78,27 @@ A imagem acima representa o organograma de funcionamento do uSavings: nele a má
 
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte do organograma do usavings
+    :scale: 50%
     :align: center
 ====
 
 
 O recorte no organograma, destaca a parte pertinente no diagrama, ela representa a forma sugestiva da aplicação do uSavings. Existem duas maneiras para recomendar as melhorias para uma determinada Virtual Machine: (i) por Flavor e (ii) por Billing.
 
-* *Por Flavor*
-  * **Por Flavor**, o uSavings checa o Flavor alocado na máquina, e sugere uma possibilidade de melhoria – esta melhoria se relaciona ao custo beneficio – a aplicação publica os resultados em diversos formatos (gráficos ou porcentagem) e mostra qual será a melhor cloud a ser utilizada para economizar recursos, para a VM. Este parâmetro, por dedução, entende que a máquina fica ligada o tempo todo.
+* **Por Flavor** - O uSavings checa o *Flavor* alocado na máquina, e sugere uma possibilidade de melhoria – esta melhoria se relaciona ao custo beneficio – a aplicação publica os resultados em diversos formatos (gráficos ou porcentagem) e mostra qual será a melhor cloud a ser utilizada para economizar recursos, para a VM. Este parâmetro, por dedução, entende que a máquina fica ligada o tempo todo.
 
-* *Por Billing*
-  * **Por Billing**, A bilhetagem do banco de dados do uCloud suporta diversas nuvens, ela difere do alcance da aplicação do uSavings. O banco de dados do uCloud pode comportar todos os tipos de billing disponíveis. Já na regra de negócio do uSavings, só é possível fazer uma sugestão assertiva com o billing para a AWS e AZURE, como mostra o diagrama, na figura recorte do organograma.
+* **Por Billing** - A bilhetagem do banco de dados do uCloud suporta diversas nuvens, ela difere do alcance da aplicação do uSavings. O banco de dados do uCloud pode comportar todos os tipos de billing disponíveis. Já na regra de negócio do uSavings, só é possível fazer uma sugestão assertiva com o billing para a AWS e AZURE, como mostra o diagrama, na figura recorte do organograma, apresentada acima deste parágrafo.
 
 Como economizar recursos?
 -------------------------
 
-A vantagem da implantação do uSavings nas organizações é a possibilidade de receber informação sobre recursos ociosos que foram criados, e até executados anteriormente, atualmente não utilizados. Informação que pode possibilitar a economia de recursos.
+A vantagem da implantação do uSavings nas organizações é a possibilidade de receber informação sobre recursos ociosos que foram criados, e até, executados anteriormente, atualmente não utilizados. Informação que pode possibilitar a economia de recursos.
 
 Pelo fato da aplicação do uSavings ser uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais nas diferentes nuvens, a aplicação uSavings exibe os recursos ociosos criados. 
 
 A ferramenta é relevante para a tomada de decisão nas organizações, pois ao analisar a informação obtida pela aplicação entrega resultados reais. Isto contribui para uma decisão organizacional capaz de gerar economia financeira e otimização dos recursos criados e/ou executados.
 
-A aplicação uSavings pode referenciar sugestões de redução da configuração – ‘rightsizing’ de máquinas virtuais, caso tenham sido previamente criadas com ‘super configurações’ e/ou apresentarem um baixo consumo no histórico de performance. **Direciona** a possibilidade de ampliar a relação custo-consumo, **não a executa**. O objetivo da implantação da plataforma uSavings é indicar à organização a possibilidade e/ou caminho para aumentar a economia dos seus custos, no próximo período de cobrança do provedor de serviço de nuvem.
+A aplicação uSavings pode referenciar sugestões de redução da configuração – ‘rightsizing’ de máquinas virtuais, caso tenham sido previamente criadas com ‘super configurações’ e/ou apresentarem um baixo consumo no histórico de performance. **Direciona** a possibilidade de ampliar a relação custo-consumo, a aplicaçãoout **não a executa**. O objetivo da implantação da plataforma uSavings é indicar à organização a possibilidade e/ou caminho para aumentar a economia dos seus custos, no próximo período de cobrança do provedor de serviço de nuvem.
 
 .. attention:: A organização munida das informações, entregues pela aplicação uSavings, deve entrar em contato com o provedor do serviço de nuvem sobre ‘rightsizing’.
 
@@ -171,7 +170,7 @@ Se a tela de Dashboard não for apresentada, isto significa que algum dos campos
 
 .. image:: /figuras/fig_usavings/004_tela_problema_acesso.png 
     :alt: tela de problema no acesso 
-    :scale: 60%
+    :scale: 30%
     :align: center
 ----
 
@@ -187,7 +186,7 @@ De início, antes de adentrar na sessão do **Dashboard** é relevante entender 
 
 .. image:: /figuras/fig_usavings/005_recorte_menu_superior.png 
     :alt: recorte do menu superior 
-    :scale: 60%
+    :scale: 50%
     :align: center
 ----
 
