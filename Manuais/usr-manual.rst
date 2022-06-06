@@ -4019,9 +4019,9 @@ O relatório CUSTO CADENCIADO apresenta a variação de valores dos recursos com
 
 Adicionalmente, a Plataforma uCloud demonstra a variação dos valores dos recuros computacionais em dois quadros diferentes:
 
-**A**: *Um primeiro quadro* que apresenta a variação de valores com o período iniciando no primeiro dia calendário (dia 01) do mês corrente até o dia que o usuário estiver consultando este relatório na Plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22).
+A. *Um primeiro quadro* que apresenta a variação de valores com o período iniciando no primeiro dia calendário (dia 01) do mês corrente até o dia que o usuário estiver consultando este relatório na Plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22).
 
-**B**: *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública.
+B. *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública.
 
   A infromação referente a variação de valores do mês anterior versus mês atual permite identificar e visualizar variação dos valores financeiros comparado ao mês anterior e a **previsão** de valores de fechamento da fatura para o mês corrente.
 
@@ -4043,7 +4043,7 @@ No momento que o contrato é selecionado a Plataforma uCloud iniciar o processam
 
 .. image:: /figuras/ucloud_menu_financeiro003b.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -4059,7 +4059,7 @@ Abaixo descrevemos as seções deste relatório.
 
   * **Quadro Laranja**: Este *primeiro quadro* apresenta a somatória dos custos de todos recursos computacionais referente ao período iniciando no primeiro dia calendário do mês corrente (dia 01) até o presente dia que o usuário estiver efetuando a consulta deste relatório na Plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22). Na parte superior deste quadro a Plataforma uCloud apresenta o valor total de custos referente ao período atual. Neste quadro a plataforma uCloud apresenta em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do período do mes anterior. Na parte inferior deste quadro a Plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do período do mês anterior.
 
-  **Quadro Branco**: Este *segundo quadro* apresenta a *previsão* do valor para o fechamento do mês dos custos de todos os recursos computacionais para o mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública). Esta *previsão* é obtida pela cálculo da variação aritmética dos valores dos seis (06) últimos meses armazenados na base de dados internas da Plataforma uCloud. Estando o usuário em visualizando este relatório em uma data anterior à data de fechamento da fatura, será uma previsão. Esta *previsão* pode ser bem assertiva caso o usuário visualize este relatório em uma data próxima ao fechamento da fatura (por ex.: dia 29 do mês corrente). Neste quadro, também, a plataforma uCloud apresenta em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do mes anterior. Na parte inferior deste quadro a Plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do mês anterior.
+  * **Quadro Branco**: Este *segundo quadro* apresenta a *previsão* do valor para o fechamento do mês dos custos de todos os recursos computacionais para o mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública). Esta *previsão* é obtida pela cálculo da variação aritmética dos valores dos seis (06) últimos meses armazenados na base de dados internas da Plataforma uCloud. Estando o usuário em visualizando este relatório em uma data anterior à data de fechamento da fatura, será uma previsão. Esta *previsão* pode ser bem assertiva caso o usuário visualize este relatório em uma data próxima ao fechamento da fatura (por ex.: dia 29 do mês corrente). Neste quadro, também, a plataforma uCloud apresenta em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do mes anterior. Na parte inferior deste quadro a Plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do mês anterior.
 
 A Plataforma uCloud utiliza um ícone para demonstrar a tendência destes resultados e utilizando os seguintes ícones:
 
@@ -4067,7 +4067,7 @@ A Plataforma uCloud utiliza um ícone para demonstrar a tendência destes result
 * **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
 * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
 
-Para os casos em que uma empresa utilize a Plataforma uCloud antes do período de seis (06) meses, podem não existir dados de faturamento armazenados tanto no billing/bucket do provedor quanto nas bases de dados internas, e a Plataforma uCloud pode apresentar estes quadros com valores zerados (em branco), conforme o exeplo abaixo:
+Para os casos em que uma empresa se utilize a Plataforma uCloud em um período inferior a seis (06) meses, podem não existir dados de faturamento armazenados que sejam suficientes para cálculo destas variações - dados insuficientes tanto no billing/bucket do provedor quanto nas bases de dados internas. Nestas situações a Plataforma uCloud poderá apresentar estes quadros com valores zerados (em branco), conforme o exeplo abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro003m.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
@@ -4075,9 +4075,9 @@ Para os casos em que uma empresa utilize a Plataforma uCloud antes do período d
    :align: center
 ----
 
-.. attention:: |atencao| Isto **não é um erro**, significa que: pode não existir valores e/ou dados armazenados nas bases de dados internas; ou a configuração de acesso ao arquivo de billing/bucket não está corretamente provisionda; ou não foi efetuado/iniciado o processado de cálculo do billing até o presente momento. Nestes casos pedimos que entre em contato com a Equipe de Suporte da Ustore (chamados@usto.re) para lhe acompanhar na correta configuração de suas credenciais aos ambientes de provedores de nuvem pública.
+.. attention:: |atencao| Isto **não é um erro**, significa que: podem não existir valores e/ou dados armazenados nas bases de dados internas; ou a configuração de acesso ao arquivo de billing/bucket não está corretamente provisionda; ou não foi efetuado/iniciado o processado de cálculo do billing até o presente momento. Nestes casos pedimos que entre em contato com a Equipe de Suporte da Ustore (chamados@usto.re) para lhe acompanhar na correta configuração de suas credenciais aos ambientes de provedores de nuvem pública.
 
-* **Seção Top 15 Custo por Grupo**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Grupos que acumulam os maiores valores de custos de recursos computacionais. A quantidade de Grupos apresentada está diretamente relacionada com a organização dos Grupos provisionados no Contrato de seu ambiente na Plataforma uCloud. Importante mencionar que mesmo que existam vários Grupos, somente os que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+* **Seção Top 15 Custo por Grupo**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Grupos que acumulam os maiores valores de custos de recursos computacionais. A quantidade de Grupos apresentada está diretamente relacionada com a organização dos Grupos provisionados no Contrato de seu ambiente na Plataforma uCloud. Importante mencionar que mesmo que existam vários Grupos, somente os quinze (15) Grupos que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro003e.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
@@ -4087,15 +4087,19 @@ Para os casos em que uma empresa utilize a Plataforma uCloud antes do período d
 
 Abaixo descrevemos as colunas deste seção:
 
-* **Grupos**: Esta coluna apresenta o nome do(s) Grupo(s) da forma como foram provisionados na Plataforma uCloud.
-* **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
-* **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
-* **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+  * **Grupos**: Esta coluna apresenta o nome do(s) Grupo(s) da forma como foram provisionados na Plataforma uCloud.
+  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **ìcone Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
+
+    * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
+    * **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+    * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+
+----
 
 * **Seção Top 15 Custo por Serviços**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Serviços (*PRODUCT NAME*) do provedor de serviço de nuvem pública que acumulam os maiores valores no mês atual. A quantidade de Serviços (*product name*) apresentada está diretamente relacionada com a soma total de seus valores acumulados no arquivo de *billing* e armazanados nas bases de dados internas da Plataforma uCloud. Importante mencionar que mesmo que existam uma grande diversidade de outros serviços (*product name*), somente os quinze (15) que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
@@ -4105,15 +4109,21 @@ Abaixo descrevemos as colunas deste seção:
    :align: center
 ----
 
-* **Serviços**: Esta coluna apresenta o nome dos Serviços (*product name*) da forma como estão expressos no arquivo de *billing* do provedor de serviço de nuvem pública.
-* **Mês Atual**: Esta coluna apresenta a somatória do valores de todos as incidênciaas deste Serviço do provedor de nuvem pública, do mês corrente (atual).
-* **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-* **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
-* **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
-* **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+  * **Serviços**: Esta coluna apresenta o nome dos Serviços (*product name*) da forma como estão expressos no arquivo de *billing* do provedor de serviço de nuvem pública.
+  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos as incidênciaas deste Serviço do provedor de nuvem pública, do mês corrente (atual).
+  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **ìcone de Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
+
+    * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
+    * **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+    * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+
+----
+
+* **Resumo deste Relatório**:
 
 No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
 
