@@ -1,0 +1,3 @@
+.rst-other-versions .injected > dl:nth-child(3){
+  display:none;
+}
