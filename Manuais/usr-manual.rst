@@ -4077,6 +4077,8 @@ Para os casos em que uma empresa se utilize a Plataforma uCloud em um período i
 
 .. attention:: |atencao| Isto **não é um erro**, significa que: podem não existir valores e/ou dados armazenados nas bases de dados internas; ou a configuração de acesso ao arquivo de billing/bucket não está corretamente provisionda; ou não foi efetuado/iniciado o processado de cálculo do billing até o presente momento. Nestes casos pedimos que entre em contato com a Equipe de Suporte da Ustore (chamados@usto.re) para lhe acompanhar na correta configuração de suas credenciais aos ambientes de provedores de nuvem pública.
 
+----
+
 * **Seção Top 15 Custo por Grupo**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Grupos que acumulam os maiores valores de custos de recursos computacionais. A quantidade de Grupos apresentada está diretamente relacionada com a organização dos Grupos provisionados no Contrato de seu ambiente na Plataforma uCloud. Importante mencionar que mesmo que existam vários Grupos, somente os quinze (15) Grupos que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro003e.png
@@ -4088,11 +4090,11 @@ Para os casos em que uma empresa se utilize a Plataforma uCloud em um período i
 Abaixo descrevemos as colunas deste seção:
 
   * **Grupos**: Esta coluna apresenta o nome do(s) Grupo(s) da forma como foram provisionados na Plataforma uCloud.
-  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo  - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo  - valores do fechamento do mês anterior armazenado nas baes de dados internas.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo  - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
   * **ìcone Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
 
     * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
@@ -4110,11 +4112,11 @@ Abaixo descrevemos as colunas deste seção:
 ----
 
   * **Serviços**: Esta coluna apresenta o nome dos Serviços (*product name*) da forma como estão expressos no arquivo de *billing* do provedor de serviço de nuvem pública.
-  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos as incidênciaas deste Serviço do provedor de nuvem pública, do mês corrente (atual).
-  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
-  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo.
+  * **Mês Atual**: Esta coluna apresenta a projeção de valores de todos as incidências deste Serviço (*product name*) do provedor de nuvem pública, para o mês corrente (atual) - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Último mês**: Esta coluna apresenta a somatória de valores Serviços (*product name*) no provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês) - valores do fechamento do mês anterior armazenado nas baes de dados internas.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o Serviço (*product name*) para o mês atual - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica (*delta*) do valor financeiro para o mês atual, comparado com o mês anterior - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Δ%**: Esta coluna apresenta a diferença percentual (*delta*) do valor financeiro para o mês atual, comparado com o mês anterior - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
   * **ìcone de Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
 
     * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
@@ -4123,13 +4125,15 @@ Abaixo descrevemos as colunas deste seção:
 
 ----
 
-* **Resumo deste Relatório**:
+* **Resumo deste Relatório**
 
 No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
 
 Logo abaixo temos o gasto efetuado no mesmo intervalo de tempo mas referente ao mês anterior, no exemplo, referente ao mês de JUNHO (06/21) entre os dias 01 à 22. Conforme imagem abaixo. Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
 
 Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês passado) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
+
+====
 
 Relatório Custo Relacional de Produto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
