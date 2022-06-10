@@ -63,15 +63,8 @@ A plataforma do uSavings além de obter dados das diversas nuvens, extrai a info
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud (VM), é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o *Flavor*, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do *Flavor* que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
-.. || figure:: /figuras/fig_usavings/002_recorte_organograma.png
-   :alt: recorte_organograma do usavings
-   :scale: 30%
-   :align: center
-   :class: with-border
-
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte do organograma do usavings
-    :scale:
     :align: center
 ====
 
@@ -130,7 +123,7 @@ Ao utilizar o provedor AWS, as instâncias reservadas (*Reserved Instances - RIs
 
 Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos computacionais, para outro tipo de tarefa, o provedor pode encerrar estas instâncias a qualquer momento (ou seja, forçar a interrupção destas VMs) sem obrigação da prévia comunicação.
 
------------------------------------------------------------------------------------------------------
+----
 
 
 Menu inicial
@@ -177,8 +170,7 @@ Visão geral
 De início, antes de adentrar na sessão do **Dashboard** é relevante entender o impacto de algumas ferramentas existentes no menu superior.
 
 .. image:: /figuras/fig_usavings/005_recorte_menu_superior.png 
-    :alt: recorte do menu superior 
-    :scale:
+    :alt: recorte do menu superior
     :align: center
 ----
 
@@ -194,12 +186,9 @@ Este ícone
 é um ponto relevante a fazer uma ressalva, ao partir da premissa de que há a possibilidade de um usuário cadastrado na plataforma do uCloud fazer parte **de mais de um grupo** de usuários. Logo ele pode fazer parte de mais de um contrato. E, existe a possibilidade de selecionar um outro contrato, este contrato selecionado pode conter outros recursos atrelados a este contrato. 
 
 .. image:: /figuras/fig_usavings/006_troca_contrato.png 
-    :alt: troca de contrato 
-    :scale:
+    :alt: troca de contrato
     :align: center
 ----
-
-.. | troca_contrato | imag
 
 Este ícone de troca de contrato apresenta todos os contratos nos quais o usuário logado na plataforma uSavings participa. Assim, é permitido ao usuário trocar entre eles livremente. A troca de contrato pode implicar na troca dos recursos que serão apresentados ao usuário, pois cada contrato pode ter uma determinada característica, na sequência deste manual de uso do uSavings estas minucias serão descritas.
 
@@ -219,18 +208,14 @@ Como introdução sobre a usabilidade deste recorte da tela:
 Pode-se afirmar que o termo *Clouds* é empregado para abstrair um agrupamento de *Flavors* de uma determinada Cloud, sendo este agrupamento tanto de *Flavors* reais quanto imaginários.
 
 .. image:: /figuras/fig_usavings/007_configuracoes_clouds.png 
-    :alt: configuracoes de clouds 
-    :scale: 60%
+    :alt: configuracoes de clouds
     :align: center
------
-
-.. | configuracoes_clouds | image:: /figuras/fig_usavings/007_configuracoes_clouds.png
+----
 
 No menu de configurações existe a parte de criação de *Clouds*, alteração da atividade das *Clouds* e a área de criação de novas *Clouds*.
 
 .. image:: /figuras/fig_usavings/008_configuracao_alteracao_atividade.png 
-    :alt: configuracao de alteracao de atividade 
-    :scale: 60%
+    :alt: configuracao de alteracao de atividade
     :align: center
 ----
 
@@ -295,7 +280,7 @@ Este ícone
 
 desloga o usuário da plataforma.
 
-------------------------------------------------------------------------------------------------------------------
+----
 
 Painel de controle *Dashboard*
 ==============================
@@ -303,24 +288,21 @@ Painel de controle *Dashboard*
 A interface inicial do uSavings exibida ao usuário é um painel de controle *(Dashboard)*.
 
 .. image:: /figuras/fig_usavings/009_menu_entrada_dashboard.png
-    :alt: menu de entrada do dashboard 
-    :scale: 60%
+    :alt: menu de entrada do dashboard
     :align: center
 ----
 
 Este painel, imagem apresentada acima, exibe alguns dados na tela que retratam um resumo da atual infraestrutura endereçável e acessível pela plataforma, estes dados são compostos de segmentações denominadas *Cards*.
 
 .. image:: /figuras/fig_usavings/010_tela_inicial_dashboard_funcionalidades.png 
-    :alt: tela inicial: dashboard e funcionalidades 
-    :scale: 60%
+    :alt: tela inicial: dashboard e funcionalidades
     :align: center
 ----
 
 Na primeira parte da tela inicial, apresentada na imagem acima, **são espelhados somente os serviços de nuvem** que a organização **possui na plataforma do uCloud** e **autoriza a integração**, sendo o acesso pela aplicação uSavings.
 
 .. image:: /figuras/fig_usavings/011_container_conectado_plataforma_ucloud.png 
-    :alt: container conectado na plataforma uCloud 
-    :scale: 50%
+    :alt: container conectado na plataforma uCloud
     :align: center
 ----
 
