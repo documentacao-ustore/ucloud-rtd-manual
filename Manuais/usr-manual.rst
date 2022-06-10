@@ -12,7 +12,7 @@ Introdução Visão Geral
 
 As organizações empresariais adotaram a nuvem como solução para gerenciar seus ambientes e adotam uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud).
 
-Para alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios. 
+Para alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios.
 
 A Plataforma uCloud foi desenvolvida para estes cenários, independente de quantos provedores (públicos e/ou privados) existam, o usuário poderá interagir com suas plataformas de Infraestrutura como Serviço (Infrastructure as a Service – IaaS), Plataforma como Serviço (Platform as a Service – PaaS).
 
@@ -29,7 +29,7 @@ Além do controle da infraestrutura, a Plataforma uCloud permite que empresas us
 * Para um grupo de usuários (ver o item Grupos, no Menu Administração)
 * Para um usuário/indivíduo (ver o item Usuários, no Menu Administração)
 
-Desta forma, a organização aplicará critérios de governança financeira e controle de custos, como também poderá acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface. 
+Desta forma, a organização aplicará critérios de governança financeira e controle de custos, como também poderá acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface.
 
 A adoção da aplicação de limites (cotas) financeiros e/ou recursos computacionais em diversos níveis alcança o nível de usuário, assim o controle de custos será efetivo e permitirá evitar que o orçamento da organização seja surpreendida em situações que o custo da infraestrutura computacional seja exorbitante ou acima dos valores pré-estabelecidos.
 
@@ -44,7 +44,7 @@ Importante ressaltar que, individualmente, a Plataforma uCloud não atende a tod
 
 O quesito suportado pelo uCloud é o ponto de Informação (Inform), os outros pontos desta melhor prática de FinOps: a Otimização e a Operação pertencem aos outros produtos do portfólio da Ustore que complementa a Plataforma uCloud.
 
-Deve-se esclarecer que a Plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública dos quais a Plataforma uCloud extrai (download) o arquivo de billing (faturamento) destes provedores e adiciona estas informações em suas bases de dados internas. Para que, posteriormente, de acordo com os critérios comerciais do contrato possam ser aplicados e estes custos calculados e convertidos para a moeda corrente no Brasil. 
+Deve-se esclarecer que a Plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública dos quais a Plataforma uCloud extrai (download) o arquivo de billing (faturamento) destes provedores e adiciona estas informações em suas bases de dados internas. Para que, posteriormente, de acordo com os critérios comerciais do contrato possam ser aplicados e estes custos calculados e convertidos para a moeda corrente no Brasil.
 
 Desta forma, o usuário permanece informado da evolução dos custos e poderá acompanhar se estes custos encontram-se dentro dos critérios da governança financeira da organização.
 
@@ -55,16 +55,16 @@ Exclusivamente, os usuários com um perfil específico podem ‘visualizar custo
 Monitoração da Infraestrutura
 -----------------------------
 
-Uma funcionalidade importante da Plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar eventos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados. 
+Uma funcionalidade importante da Plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar eventos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados.
 
-Todas essas facilidades reduzem os custos para as organizações, uma vez que elimina a necessidade de contratação de serviços de monitoração dos provedores, pois tal serviço pode representar altos custos os quais podem impactar de forma negativa no orçamento (ultrapassar o limite) destinado para infraestrutura de nuvem pública. 
+Todas essas facilidades reduzem os custos para as organizações, uma vez que elimina a necessidade de contratação de serviços de monitoração dos provedores, pois tal serviço pode representar altos custos os quais podem impactar de forma negativa no orçamento (ultrapassar o limite) destinado para infraestrutura de nuvem pública.
 
 Esta funcionalidade permite integrar a um ambiente de gerenciamento de Service Desk para controle IT Service Management (gerenciamento de serviços de TI).
 
 Inventário (Assessment)
 -----------------------
 
-A Plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada provedor de serviço de nuvem (público e/ou privado). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”. 
+A Plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada provedor de serviço de nuvem (público e/ou privado). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”.
 
 Esta credencial operativa é fornecida pelo administrador do serviço de nuvem e são credenciais que são geradas nas contas dos provedores que somente tem permissão de interagirem com a console do provedor público de nuvem através de uma API, não são credenciais normais com informações padrão de login e senha. Desta forma, a segurança e as regras de regulamentação de segurança da informação estão previstas e atendidas em sua totalidade.
 
@@ -74,11 +74,11 @@ Com este inventário disponível diretamente dentro da Plataforma uCloud, o usu�
 
 Importante mencionar que a Plataforma uCloud não possui nenhum recurso computacional, estes recursos existem nas nuvens dos provedores de serviço de nuvem pública ou nos ambientes de virtualização (hypervisors) instalados em seu Data Center privado. Através da API Rest a Plataforma uCloud, envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
 
-O usuário poderá acompanhar o resultado de qualquer uma das ações de operação nos recursos computacionais de forma quase que imediata, vale lembrar que não é a Plataforma uCloud que executa as ações, e sim, o ambiente onde a máquina virtual existe (seja ele público e/ou privado). Este é o encarregado de executar a tarefa enviada através da API Rest. 
+O usuário poderá acompanhar o resultado de qualquer uma das ações de operação nos recursos computacionais de forma quase que imediata, vale lembrar que não é a Plataforma uCloud que executa as ações, e sim, o ambiente onde a máquina virtual existe (seja ele público e/ou privado). Este é o encarregado de executar a tarefa enviada através da API Rest.
 
-Caso o resultado não seja refletido na interface da tela do usuário, o console destino pode levar um certo tempo para executar esta tarefa e somente após o término da execução da tarefa o resultado será apresentado na interface do uCloud. 
+Caso o resultado não seja refletido na interface da tela do usuário, o console destino pode levar um certo tempo para executar esta tarefa e somente após o término da execução da tarefa o resultado será apresentado na interface do uCloud.
 
-Existe uma opção de menu onde o usuário poderá acompanhar o percentual de andamento destas tarefas, seu resultado de sucesso ou a mensagem de erro referente a alguma restrição do ambiente destino. 
+Existe uma opção de menu onde o usuário poderá acompanhar o percentual de andamento destas tarefas, seu resultado de sucesso ou a mensagem de erro referente a alguma restrição do ambiente destino.
 
 Importante ressaltar que podem existir restrições aplicadas ao usuário provisionado na Plataforma uCloud, restrições ao usuário porque ele pode haver exaurido seu limite, sua cota financeira ou de recursos computacionais, desta forma a Plataforma uCloud gerar um aviso de erro: “limite de cota excedido” por exemplo. Estes cenários serão descritos no menu Tarefas.
 
@@ -103,8 +103,8 @@ Atualmente, a Plataforma uCloud está preparada para se conectar com as seguinte
 * **VMware** (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior);
 * **vCloud**
 * **Hyper-v** (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior)
-* **Openstack** 
-* **Xen Server** 
+* **Openstack**
+* **Xen Server**
 * **XCP-NG**
 * **KVM**
 
@@ -369,7 +369,7 @@ A Plataforma uCloud possui bancos de dados próprios que armazenam as informaç�
 De acordo com o tipo de perfil do usuário que está acessando o sistema, a Plataforma uCloud apresentará somente a relação de usuários que o perfil que está registrado e ativo pode gerenciar ou administrar.
 
 .. figure:: /figuras/uCloud_menu_administracao_usuario_001.png
-   :scale: 60 %
+   :scale: 80 %
    :align: center
 
 ----
@@ -390,7 +390,7 @@ Abaixo estão descritas as colunas apresentadas nesta lista de usuários:
 
 * **Busca Rápida**: O usuário poderá observar que logo abaixo do nome de cada coluna existe um campo em ‘branco’, este campo permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de eventos de login. Basta preencher o campo em ‘branco’ com uma sequência de caracteres que possam ser relevantes e a Plataforma uCloud atualizará a tela de forma a representar este padrão de busca.
 
-* **Coluna Perfil**: O campo de busca rápida, na coluna Perfil, possui um controle avançado em forma de um "*dropdownlist*" que permite aplicar um **filtro** de ‘tipo perfil’ para que a lista apresentada fique restrita somente à opção que foi selecionada. Para isto, basta clicar com o cursor do mouse neste campo, a Plataforma uCloud apresenta as opções de filtragem./
+* **Coluna Perfil**: O campo de busca rápida, na coluna Perfil, possui um controle avançado em forma de um "*dropdownlist*" que permite aplicar um **filtro** de ‘tipo perfil’ para que a lista apresentada fique restrita somente à opção que foi selecionada. Para isto, basta clicar com o cursor do mouse neste campo, a Plataforma uCloud apresenta as opções de filtragem.
 
 .. figure:: /figuras/uCloud_menu_administracao_usuario_002.png
    :align: center
@@ -3859,12 +3859,12 @@ Painéis Baseados em Consumo
 
 Como mencionado, este custo se refere aos valores acumulados do consumo dos recursos computacionais no mês corrente até o dia corrente ou até a última ‘janela’ de processamento dos valores pelo provedor.
 
-Histórico de Serviço
-~~~~~~~~~~~~~~~~~~~~
+Relatório Histórico de Serviço
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este relatório permite ao administrador de custos acompanhaar a evolução (mensal, semanal ou diária) dos custos de cada PRODUCT NAME registrado no provedor de serviço denuvem pública. Estes custos são separados em custos com e sem etiquetas (*tags*).
 
-U us de etiquetas (*tag*) é a formamais usual e inicial para que as empresas possam aplicar algumaidentificação aos custos recorrentes desua infraestutura de nuvem pública. Acontece que os provedores possuem, cada um individualmente, a característia de **nao permiter** aplicar etiquetas (*tags*) em todos seus serviços e produtos.
+O recurso de etiquetas (*tag*) é a forma mais usual e a forma indicada pelo provedor de serviço de nuvem pública para que as empresas possam aplicar alguma identificação aos custos recorrentes desua infraestutura de nuvem pública. Cada provedores possuem suas  características específicas de quais serviços ou produtos **não são passíveis (não é permitido)** aplicar etiquetas (*tags*), em utras palavras não seráo todos seus serviços e produtos que podem receber uma etiqueta (*tag*).
 
 A característica de *não permitir vincular etiquetas (tags)* em todos seus produtos pode levar às empresas a um erro conceitual para a aplicação e distribuição de custos por departamentos, centros de custos, projetos ou qualquer outra aplicação para as etiquetas (*tags*).
 
@@ -3897,6 +3897,7 @@ Quando selecionado este relatório, a Plataforma uCloud apresenta a tela abaixo,
 Abaixo descrevemos os campos para apresentação deste relatório:
 
 * **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando fazemos uma análise comparando mensalmente o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a Plataforma uClous apresenta as opções:
+  
   * **MENSAL**: Quando selecionada a análise mensal o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo iremos selecionar o campo PERÍODO então MENSAL, dessa forma o calendário com os meses ficará disponível para seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, selecionamos os últimos 3 meses, conforme imagem abaixo.
 
 .. image:: /figuras/ucloud_menu_financeiro002c.png
@@ -3926,6 +3927,7 @@ Abaixo descrevemos os campos para apresentação deste relatório:
 
 * **Período**: A Plataforma uCloud altera este campo em após o usuário selecionar o período no campo anteritor. Este campo é obrigatório.
 * **Container**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a Plataforma uCloud apresenta relação de todos os containers provisionados aos quais o usuário está vinculado para uso.
+
 * **Linked Account**: O termo Containers na Plataforma uCloud é utilizado para representar um ambiente de nuvem seja este público e/ou privado. Um container é uma abstração lógica para agrupar todos os recursos (máquinas virtuais, servidores, discos, storages) de um determinado tipo de hypervisor. Todos os provedores adotam uma estrutura organizacional **LÓGICA** para criar seu ambiente de totalização de custos. Para a Plataforma uCloud, provisioná-se um **Contêiner** que pode ser a conta "**RAIZ**" da empresa. A Plataforma uCloud denomina "**Sub Account**" as subdivisões desta conta principal (Unidades Oranizacionais-OU, Contas Filhas, etc.) que as empresas possam criar para alocar custos de computação de nuvem para diferentes unidades, centros de custos etc. Este campo é do tipo "dropdown" e irá listar todas as *Sub Accounts* que foram provisionadas para a conta raiz, conforme exemplo na tela abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro002f.png
@@ -4001,44 +4003,405 @@ No quadrante visualização de dados por custo o painel irá apresentar os itens
 
 ----
 
-* **Cobranças Diretas**: A categoria DIRETAS é a somatória dos valores de todos os produtos e/ou serviços os quais o provedor de serviço de nuvem pública permite vincular alguma forma de identificação, ou etiqueta (TAG), que quando vinculada aos recursos computacionais pelo proprietário do(s) recurso(s) é a forma mais usual para identificação e alocação dos valores recorrentes entre departamentos, centros de custos, projetos, iniciativas etc.
+* **Cobranças Diretas**: A categoria DIRETAS é a somatória dos valores de todos os produtos e/ou serviços os quais o provedor de serviço de nuvem pública **permite SIM vincular** alguma forma de identificação, ou etiqueta (*TAG*), que quando vinculada aos recursos computacionais pelo proprietário do(s) recurso(s) é a forma mais usual para identificação e alocação dos valores recorrentes entre departamentos, centros de custos, projetos, iniciativas etc.
 
-* **Cobranças Indiretas**: A categoria INDIRETAS é a somatória dos valores de todos os produtos e serviços que os provedores de serviço de nuvem pública **NÃO PERMITEM** que sejam assinaladas quaquer tipo de etiqueta (TAG) vinculada aos recursos computacionais pelo proprietário do(s) recurso(s). Cada provedor de serviço de nuvem pública tem a sua especificidade de quais 
+* **Cobranças Indiretas**: A categoria INDIRETAS é a somatória dos valores de todos os produtos e serviços que os provedores de serviço de nuvem pública **NÃO PERMITE/ACEITA** que sejam assinaladas quaquer tipo de etiqueta (*TAG*) seja vinculada aos recursos computacionais pelo proprietário do(s) recurso(s). Cada provedor de serviço de nuvem pública tem a sua especificidade em quais produtos e serviços as etiquetas não são passiveis de serem vinculadas.
 
-.. note:: Não é objetivo deste relatório apresentar as respectivas etiquetas (*tags*) no corpo do relatório, mas sim apresentar ao administrador de custos o total de valores os quais será possível identificar o departamento, centro de custo, projeto que são atribuídas via etiquetas (*tag*). A Plataforma uCloud permite ao administrador de custos consultar os valores por etiqueta (*tag*) em diversos outros relatórios financeiros.
+A informação explicitamente segmentada e apresentada na forma deste relatório pode apoiar a tomada de decisão (*insights*) para alinhar a distribuição dos custos internamente na empresa (*charge back*). Esta apresentação está apoiada nas melhores práticas de *FinOps* para a correta identificação de custos recorrentes de recursos computacionais de nuvem pública.
 
-
-Custo Cadenciado
-~~~~~~~~~~~~~~~~
-
-Custo Relacional de Produto
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. note:: |nota| Não é objetivo deste relatório apresentar as respectivas etiquetas (*tags*) no corpo do relatório, mas sim apresentar ao administrador de custos o total de valores os quais será possível identificar o departamento, centro de custo, projeto que são atribuídas via etiquetas (*tag*). A Plataforma uCloud permite ao administrador de custos consultar os valores por etiqueta (*tag*) em diversos outros relatórios financeiros.
 
 
-Visualização de Recursos
-~~~~~~~~~~~~~~~~~~~~~~~~
+Relatório Custo Cadenciado
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+O relatório CUSTO CADENCIADO apresenta a variação de valores dos recursos computacionais de cada serviço (PRODUCT NAME) e demonstra a variação de seus de valores no mês corrente (atual) comparado somente com os valores do mês anterior. A Plataforma uCloud não permite mudar a visualização para outros meses.
+
+Adicionalmente, a Plataforma uCloud demonstra a variação dos valores dos recuros computacionais em dois quadros diferentes:
+
+A. *Um primeiro quadro* que apresenta a variação de valores com o período iniciando no primeiro dia calendário (dia 01) do mês corrente até o dia que o usuário estiver consultando este relatório na Plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22).
+
+B. *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública.
+
+  A infromação referente a variação de valores do mês anterior versus mês atual permite identificar e visualizar variação dos valores financeiros comparado ao mês anterior e a **previsão** de valores de fechamento da fatura para o mês corrente.
+
+  Importante ressaltar que mesmo que não existam dados de *billing ou bucket* provedor de serviço de nuvem pública,a Plataforma uCloud utiliza um algoritimo que projeta os valores (mesmo que estes valores não existam), com base na média de consumo dos seis (06) últimos meses armazenados nas bases de dados internas da Plataforma uCloud.
+
+Com a visão deste relatório é possível identificar e visualizar os diferentes tipos de custos - tanto os normalmente esperados, bem como os sazonais ou inesperados - para o fechamento do mês. Este relatório permite identificar e projetar uma melhor alocação de fluxo de caixa contábil da empresa.
+
+Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para moeda Real brasileiro (R$) - mesmo que o provedor armazene os valores em Dólares americanos. O valor da Taxa de Conversão Dólar <> Real está informada no Contrato na seção *Regras de Faturamento*.
+
+* **Contrato**: A Plataforma uCloud irá apresentar uma lista com somente os contratos aos quais o usuário está vinculado, o usuário deve informar ou selecionar apenas um contrato por vez. Ao selecionar o contrato desejado a Platafoam uClous irá apresentar a tela abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro002.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 80 %
+   :align: center
+----
+
+No momento que o contrato é selecionado a Plataforma uCloud iniciar o processamento e cálculo dos valores armazenados em sua base de dados interna e apresenta a tela do relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003b.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 60 %
+   :align: center
+----
+
+Abaixo descrevemos as seções deste relatório.
+
+* **Quadros de Períodos**: Nesta seção são apresentados os dois quadros com as informações de valores do período e do mês
+
+.. image:: /figuras/ucloud_menu_financeiro003d.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 80 %
+   :align: center
+----
+
+  * **Quadro Laranja**: Este *primeiro quadro* apresenta a somatória dos custos de todos recursos computacionais referente ao período iniciando no primeiro dia calendário do mês corrente (dia 01) até o presente dia que o usuário estiver efetuando a consulta deste relatório na Plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22). Na parte superior deste quadro a Plataforma uCloud apresenta o valor total de custos referente ao período atual. Neste quadro a plataforma uCloud apresenta em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do período do mes anterior. Na parte inferior deste quadro a Plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do período do mês anterior.
+
+  * **Quadro Branco**: Este *segundo quadro* apresenta a *previsão* do valor para o fechamento do mês dos custos de todos os recursos computacionais para o mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública). Esta *previsão* é obtida pela cálculo da variação aritmética dos valores dos seis (06) últimos meses armazenados na base de dados internas da Plataforma uCloud. Estando o usuário em visualizando este relatório em uma data anterior à data de fechamento da fatura, será uma previsão. Esta *previsão* pode ser bem assertiva caso o usuário visualize este relatório em uma data próxima ao fechamento da fatura (por ex.: dia 29 do mês corrente). Neste quadro, também, a plataforma uCloud apresenta em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do mes anterior. Na parte inferior deste quadro a Plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do mês anterior.
+
+A Plataforma uCloud utiliza um ícone para demonstrar a tendência destes resultados e utilizando os seguintes ícones:
+
+* **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
+* **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+* **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+
+Para os casos em que uma empresa se utilize a Plataforma uCloud em um período inferior a seis (06) meses, podem não existir dados de faturamento armazenados que sejam suficientes para cálculo destas variações - dados insuficientes tanto no billing/bucket do provedor quanto nas bases de dados internas. Nestas situações a Plataforma uCloud poderá apresentar estes quadros com valores zerados (em branco), conforme o exeplo abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro003m.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 80 %
+   :align: center
+----
+
+.. attention:: |atencao| Isto **não é um erro**, significa que: podem não existir valores e/ou dados armazenados nas bases de dados internas; ou a configuração de acesso ao arquivo de billing/bucket não está corretamente provisionda; ou não foi efetuado/iniciado o processado de cálculo do billing até o presente momento. Nestes casos pedimos que entre em contato com a Equipe de Suporte da Ustore (chamados@usto.re) para lhe acompanhar na correta configuração de suas credenciais aos ambientes de provedores de nuvem pública.
+
+----
+
+* **Seção Top 15 Custo por Grupo**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Grupos que acumulam os maiores valores de custos de recursos computacionais. A quantidade de Grupos apresentada está diretamente relacionada com a organização dos Grupos provisionados no Contrato de seu ambiente na Plataforma uCloud. Importante mencionar que mesmo que existam vários Grupos, somente os quinze (15) Grupos que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003e.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 80 %
+   :align: center
+----
+
+Abaixo descrevemos as colunas deste seção:
+
+  * **Grupos**: Esta coluna apresenta o nome do(s) Grupo(s) da forma como foram provisionados na Plataforma uCloud.
+  * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo  - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Último mês**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês), que estão vinculados a todos os usuários que fazem parte deste Grupo  - valores do fechamento do mês anterior armazenado nas baes de dados internas.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o mês atual de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo  - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Δ%**: Esta coluna apresenta a diferença percentual do valor financeiro para o mês atual, comparado com o mês anterior, de todos os recursos computacionais que estão vinculados a todos os usuários que fazem parte deste Grupo - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **ìcone Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
+
+    * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
+    * **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+    * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+
+----
+
+* **Seção Top 15 Custo por Serviços**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Serviços (*PRODUCT NAME*) do provedor de serviço de nuvem pública que acumulam os maiores valores no mês atual. A quantidade de Serviços (*product name*) apresentada está diretamente relacionada com a soma total de seus valores acumulados no arquivo de *billing* e armazanados nas bases de dados internas da Plataforma uCloud. Importante mencionar que mesmo que existam uma grande diversidade de outros serviços (*product name*), somente os quinze (15) que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003p.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 80 %
+   :align: center
+----
+
+  * **Serviços**: Esta coluna apresenta o nome dos Serviços (*product name*) da forma como estão expressos no arquivo de *billing* do provedor de serviço de nuvem pública.
+  * **Mês Atual**: Esta coluna apresenta a projeção de valores de todos as incidências deste Serviço (*product name*) do provedor de nuvem pública, para o mês corrente (atual) - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Último mês**: Esta coluna apresenta a somatória de valores Serviços (*product name*) no provedor de nuvem pública, do mês imediatamente anterior ao mês atual (último mês) - valores do fechamento do mês anterior armazenado nas baes de dados internas.
+  * **Projeção**: Esta coluna apresenta a projeção do valor para o Serviço (*product name*) para o mês atual - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Projeção Δ**: Esta coluna apresenta a diferença numérica (*delta*) do valor financeiro para o mês atual, comparado com o mês anterior - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **Δ%**: Esta coluna apresenta a diferença percentual (*delta*) do valor financeiro para o mês atual, comparado com o mês anterior - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
+  * **ìcone de Indicador de Tendência**: Esta coluna apresenta um ícone que representa a tendência da variação dos valores do mês atual frente o mês anterior.
+
+    * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
+    * **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+    * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
+
+----
+
+* **Seção Exportar Relatórios**: 
+
+Esta seção, na parte inferior da tela, permite exportar relatórios no formato CSV de todos os serviços, consumo e gastos de maneira detalhada, sendo permitido selecionar intervalos MENSAL, SEMANAL e DIÁRIO, a critério do usuário.
+
+.. image:: /figuras/ucloud_menu_financeiro003c.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 50 %
+   :align: center
+----
+
+  * **Botão Exportar Detalhado**: Nesta opção a Plataforma uCloud cria um arquivo CSV com o nome CADENCE-DETAILED-NOME_DO_CONTRATO-MES-ANO.CSV apresentará 8 Colunas.
+
+  * **Botão Exportar Serviços**: Nesta opção a Plataforma uCloud cria um arquivo CSV com o nome CADENCE-SERVICES-NOME_DO_CONTRATO-MES-ANO.CSV apresentará 5 Colunas.
+
+.. image:: /figuras/ucloud_menu_financeiro003c.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 50 %
+   :align: center
+----
+
+  * **Botão Exportar Relatório Δ**: Nesta opção a Plataforma uCloud cria um arquivo CSV que irá demonstrar a diferença do consumo dos *Product Name* e *Family Name* dos provedores com os dados do mês atual, comparando com o mês anterior. De possse dessa informação é possível ter visibilidade de como cada um dos serviços estão se comportando, podendo assim tomar ações de controle e apuração mais efetiva e direcionada focada no *PRODUCT NAME* da nuvem.
+
+  No arquivo CSV, a coluna VARIAÇÃO MÊS ANTERIOR % irá mostrar o percentual da variação e a coluna VARIAÇÃO MÊS ANTERIOR $ irá mostrar a variação em dólar. Conforme imagens abaixo, Financeiro/Custo Cadenciado/Intervalo/Período/Exportar Relatório Detalhado.
+
+  O export de relatório delta é enviado por email, caso queira ver em tela este se encontra no quadrante acima do exporte relatórios, mostrado anteriormente.
+
+  Para receber o relatório por email basta inserir um email válido e clicar em enviar conforme imagem abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro003k.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :scale: 50 %
+   :align: center
+----
+
+  A Plataforma uCloud pode demandar um certo tempo para selecionar, calcular e enviar este arquivo. Mas ao final do processamento, envia o arquivo CSV e confirma o envio com uma mensagem popup ao usuário.
+
+.. note:: Para os casos em que o usuário não receba qualquer email, verificar a pasta SPAM/Lixo com e-mail origem *noreply@dominio.com.br*. Alguns sistemas de e-mail bloqueiam, mensagens com "noreply@...", ou encaminham automaticamente para a pasta/folder SPAM/Lixo.
+
+----
+
+* **Resumo deste Relatório**
+
+No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
+
+Logo abaixo temos o gasto efetuado no mesmo intervalo de tempo mas referente ao mês anterior, no exemplo, referente ao mês de JUNHO (06/21) entre os dias 01 à 22. Conforme imagem abaixo. Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
+
+Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês passado) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
+
+====
+
+Relatório Custo Relacional de Produto
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
+
+Relatório Visualização de Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Importante mencionar que no presente momento, a Plataforma do uCloud somente consegue apresentar o relatório de “*Visualização de Recursos*” apenas com os dados do provedor de serviço de nuvem pública **AWS** (*Amazon Web Services*), por razão das características de granularidade das informações existentes no arquivo *Cost and Usage Report* (**CUR**) - arquivo texto formato CSV que contém o billing da AWS. Estamos trabalhando para inclusão de outros provedores de serviço de nuvem pública. A evolução e inclusão de outros provedores de serviço de nuvem pública será tema do documento Release Notes ou nas evoluções da Plataforma uCloud.
+
+.. important:: Até o presente mmento, a Plataforma do uCloud, não disponibila qualquer ação sobre os botões referente a outros provedores (Azure, GCP e Oracle), estes botões não estão ativos!
+
+----
+
+Ao selecionar a opção do menu VISUALIZAÇÃO DE RECURSOS será solicitado que escolha um CONTRATO, o tipo de INTERVALO e o PERÍODO, através desse relatório é possível analisar os custos de forma detalhada conforme apresentado nas imagens abaixo.
+
+Quando selecionado este relatório, a Plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
+
+.. image:: /figuras/ucloud_menu_financeiro002.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+* **Contrato**: A Plataforma uCloud irá apresentar uma lista com somente os contratos aos quais o usuário está vinculado, o usuário deve informar ou selecionar apenas um contrato por vez. Ao selecionar o contrato desejado a Platafoam uClous irá apresentar a tela abaixo:
+
+No momento que o contrato é selecionado a Plataforma uCloud iniciar o processamento e cálculo dos valores armazenados em sua base de dados interna e apresenta a tela do relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro005a.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 60 %
+   :align: center
+----
+
+Abaixo descrevemos os campos para apresentação deste relatório:
+
+* **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando fazemos uma análise comparando mensalmente o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a Plataforma uClous apresenta as opções:
+  
+  * **MENSAL**: Quando selecionada a análise mensal o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo iremos selecionar o campo PERÍODO então MENSAL, dessa forma o calendário com os meses ficará disponível para seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, selecionamos os últimos 3 meses, conforme imagem abaixo.
+
+.. image:: /figuras/ucloud_menu_financeiro002c.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * **SEMANAL**: Este filtro permite ter uma visão mais granular do consumo, podendo entender e identificar picos de consumos em semanas aos longos dos meses. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinada semana e não em outra. Importante ressaltar que no presente momento a Plataforma do uCloud trabalha apenas com o conceito de semanas fechadas do mês (domingo a sábado), e estas semanas são numeradas sequencialmente de 1 a 52 e apresentadas ao lado esquerdo do calendário apresentado. O campo PERÍODO irá mostrar o calendário SEMANAL. Conforme imagem abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro002d.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+  * **DIÁRIO**: Este filtro permite ter uma visão na menor granularidade de período possível. Com esta granularidade será possível entender e identificar picos de consumos ao longo dos dias. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinado dia e não em outro. O campo PERÍODO irá mostrar o calendário DIÁRIO. Conforme imagem abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro002e.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Botão Pesquisar**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma uCloud iniciar o cálculo e apresentação do relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro005b.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+O relatório de visualização de recursos entrega de maneira detalhada quais os tipos de combinação de memória e CPU, conhecido como FLAVORS, as máquinas virtuais, os bancos de dados e os autoscale estão utilizando.
+
+Com essa visibilidade é possível tomar decisões no âmbito financeiro e no operacional, auxiliando na decisão de qual flavor é melhor financeiramente e tecnicamente para determinado sistema e ou projeto.
+
+Os provedores possuem centenas de tipos de flavors que por sua vez possuem custos e performance diferentes, por essa razão esse relatório é uma ótima ferramenta para toda equipe de TI.
+
+A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos computacionais que acumulam valores e custos mensais. O usuário pode selecionar qual tipo de recurso que deseja visualizar conforme o exemplo da imagem abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro005g.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+* **Botão VM**: Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma uCloud apresenta o relatório que demonstra o Custo Total do consumo realizado do serviço de Compute, ou seja, quanto foi gasto em dólares com máquinas virtuais (CPU e memória) agrupados por tipos de flavors.
+
+É possível saber quanto custou cada tipo de flavor individualmente passando o mouse em cima das barras coloridasA figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+  * **Custo Total**: Este campo a Plataforma uCloud apresenta o valor total acumulado no mês dos recursos (*product Name*) máquina virtual. Este valor é a somatória de máquinas virtuais isoladas (por consumo mensal ou instância reservada) e o valor das instâncias de escalabilidade horizontal (*Autoscale*).
+
+  * **Custo Autoscale**: Este campo apresenta o valor acumulado no mês dos recursos máquina virtual UNICAMENTE referente aos recursos de máquina virtual que foram provisionadas automaticamente via o recurso de **Autoscale**. A funcionalidade de *Autoscale* comum a todos os provedores de serviço de nuvem pública, permite aumentar e diminuir, de maneira automática, o número de máquinas virtuais para manter o nível de serviço disponível e performático, a partir de premissas definidas com base no percentual de consumo de memória e ou CPU pré estabelecidos. Geralmente estas máquinas virtuais são provisionadas e desprovisionadas (removidas) automaticamente com intervalos e períodos de execução não esperados, podendo ser criadas e removidas em questões de minutos.
+
+  * **Custo sem Autoscale**: Este campo a Plataforma uCloud apresenta o valor total acumulado no mês dos recursos (*product Name*) máquina virtual *sem o AUTOSCALE*, ou seja, o gasto das máquinas reais que estão sendo utilizadas que acabam tendo um impacto financeiro muito mais significativo que necessita análise.
+
+----
+
+* **Seção Custo por Flavor**: Nesta seçãao a Plataforma uCloud apresenta um gráfico de barra, com detalhes de todos os flavors utilizados, separado por cores. Quando o usuário o passar o cursos do mouse sobre a cor desejada, a Plataforma uClous apresenta o nome do tipo de flavor e o seu CUSTO TOTAL acumulado no mês. Para os cenários em que sã selecionados mais de um mês, uma semana, um dia a Plataforma uCLoud apresenta cada período agrupado em barras que representam cada período. Esta visualizção é extremamente útil para acompanhar a variação de valores do recurso computacional entre cada período (as barras).
+
+----
+
+* **Seção Tabela de Custo pos Flavor**: Esta seção apresenta a origem dos valores dos botões acima e é a base de dados para a geração do gráfico. Esta tabela possui algumas colunas e descrevemos as colunas abaixo.
+
+  * **Digite o Nome do Flavor**: Neste campo o usuário pode digitar qualquer combinação de caracteres que identificaam os *flavors* para restrigir a apresentação destes nesta tabela.
+  * **Flavor**: Nesta coluna a Plataforma uCloud apresenta o identificação do *flavor* conforme está identificado no provedr de serviço de nuem pública (na ilustração estão presentes apenas as identificações de *flavors* presentes na AWS). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de nomes de *flavors** de forma alfabética crescente (a – z) ou decrescente (z – a).
+  * **Quantidade**: Nesta coluna a Plataforma uCloud apresenta a quantidade total de instâncias de máquinas virtuais que existem no arquivo de billing do provedor de serviço de nuvem pública. Importante ressaltar que aqui está o volume total de instâncias e representam tanto máquinas virtuais isoladas (individuais) quanto as máquinas virtuais possuem configuração de *autoscale*. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de valores de *flavors* de forma numérica crescente ou decrescente.
+  * **Linked Account**: Nesta coluna a Plataforma uCloud apresenta a identificação da *Linked Account* em que a(s) máquina(s) vitual(is) estáo vinculadas. A *Linked Account* é um termo da AWS e é uma forma de agrupamento (ou sub-agrupamento) de diversas contas AWS em uma única conta Master IAM. É importante salientar que a partir do momento que essas contas são consolidadas em uma mesma conta Master IAM, o seu faturamento também é consolidado. Adicionalmente, a cobrança da utilização da nuvem AWS é feita também com preços por volume, o uso da combinação e consolidação de várias contas em uma mesma organização pode acarretar em descontos através da qualificação da conta principal ou da conta pagadora. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud irá agrupar a lista de *flavors* de forma a apresentar *Linked Accounts* de forma agrupada.
+  * **Custo**: Nesta coluna a Plataforma uCloud apresenta a somatória dos valores da(s) máquina(s) virtual(is) com o seu valor no(s) mês(es) de consulta do relatório. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de valores dos custos de forma numérica crescente ou decrescente.
+  * **AutoScale**: Nesta coluna a Plataforma uCloud, apresenta a indicação se esta máquina virtual possui uma configuração de *autoscale* SIM ou NÃO vinculada a este *flavor*. Esta informação é importante para que o administrador de custos possa efetuar o cálculo correto do custo indivudual de cada tipo de *flavor* e identificar os tipos de *flavor* que são mais dispendiosos ou mais econônicos. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud irá agrupar a lista de *flavors* de forma a apresentar *Autoscale* SIM e *Autoscale* NÃO.
+
+----
+
+* **Botão Banco de Dados**: Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma uCloud apresenta o relatório que demonstra o Custo Total do consumo realizado do serviço de Banco de dados (**RDS**), ou seja, quanto foi gasto em valores com máquinas virtuais (CPU e memória) para suportar os bancos de dados, agrupados por tipos de *flavors* ou por *Linked Accounts*. Esse relatório irá apresentar o Custo Total do consumo realizado do serviço de Compute, ou seja, quanto foi gasto em dólares com máquinas virtuais (CPU e memória) agrupados por tipos de flavors.
+
+.. image:: /figuras/ucloud_menu_financeiro005c.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+Existem três quadros neste relatório com informações de inteligência de negócios para avaliar os custos relativos ao suporte para execução de instâncias de banco de dados no provedor de serviço de nuvem pública.
+
+ É possível saber a quantidade de instâncias de banco de dados ativas e o valor total no período selecionado, a quantidade de cópias instantâneas (*snapshots*) e a quantidade de maquinas virtuais na modalidade de **Instância Reservada** vinculadas unicamente para execução de bancos de dados. A figura acima é meramente ilustrativa e serve apenas como exemplo:
+
+  * **Quantidade de RDS**: Neste quadro a Plataforma uCloud apresenta a quantidade total de instâncias de banco de dados ativas e a somatória do respectivo valor total de RDS para o período selecionado.
+
+  * **Quantidade de Snapshots de RDS**: Neste quadro a Plataforma uCloud apresenta a quantidade total de quantidade de cópias instantâneas (*snapshots*) que foram criadas no período selecionado.
+
+  * **Quantidade de instancias reservadas de RDS**: Neste quadro a Plataforma uCloud apresenta a quantidade total de maquinas virtuais na modalidade de **Instância Reservada** vinculadas unicamente para execução de bancos de dados.
+
+* **Seção Quantidade de gasto por RDS por Flavor/Linked Account**: Nesta seçãao a Plataforma uCloud apresenta um gráfico de barra, com detalhes de todos os flavors utilizados, separado por cores, que estão vinculados à execução de instâncias de base de dados. Quando o usuário o passar o cursos do mouse sobre a cor desejada, a Plataforma uCloud apresenta o nome do tipo de flavor e o seu CUSTO TOTAL acumulado no mês. No lado superior direito desta seção o usuário encontra um botão onde é possível alternar a forma como a Plataforma uCloud agrupa os valores deste gráfico.
+
+  * **Quantidade de gasto por RDS por Flavor/Visualizar por Linked**: Este gráfico apresenta um gráfico de barras sobrepostas, separados por cores, com o nome e o valor de cada *flavor* existente no período selecionado. Quando o usuário passa com o cursor do mouse sobre a cor desejada a Plataforma uCloud apresenta uma etiqueta que identifica o *flavor* e o valor total referente ao período selecionado. Para os cenários em que são selecionados mais de um mês, uma semana, um dia a Plataforma uCLoud apresenta cada período agrupado em barras que representam cada período. Esta visualizção é extremamente útil para acompanhar a variação de valores do recurso computacional entre cada período (as barras). A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro005h.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+
+* **Quantidade de gasto por RDS por Linked/Visualizar por Flavor**: Este gráfico apresenta um gráfico de barra com o nome e o valor de cada *Linked Account* existente no período selecionado. Quando o usuário passa com o cursor do mouse sobre a barra desejada a Plataforma uCloud apresenta uma etiqueta que identifica a *Linked Account* e o valor total referente ao período selecionado. Para os cenários em que são selecionados mais de um mês, uma semana, um dia a Plataforma uCloud apresenta cada período agrupado em barras que representam cada período. Esta visualizção é extremamente útil para acompanhar a variação de valores do recurso computacional de cada *Linked Account* entre cada período (as barras). A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro005j.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+* **Botão Storage**:
+
+.. image:: /figuras/ucloud_menu_financeiro005d.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
 
 
 Custos de Budgets
 ~~~~~~~~~~~~~~~~~
 
+.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
+.. Teste de Nivel 4
+.. ################
+
 
 Painéis Baseados em Fatura
 --------------------------
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
 Minha Fatura
 ~~~~~~~~~~~~
 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
+
 Financeiro
 ~~~~~~~~~~
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
 
 Relatório Consolidado de Faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
-Tendência de faturamento 
+
+Tendência de faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
 
 .. Menu Financeiro (USN)
 .. ---------------------
@@ -6197,7 +6560,7 @@ Para editar um Fluxo de Trabalho, basta o usuário clicar com o cursor do mouse 
   * **Tipo**: Esta coluna apresenta o tipo da tarefa, selecionada pelo usuário no momento da sua criação.
   * **Status**: Esta coluna apresenta o presente estado desta tarefa para a data e hora correntes; que pode ser Erro ("ERROR"), Aguardando ("Waiting") ou Executada ("CONCLUDED"). A Plataforma uCloud permite visualizar o registro de mensagens de erro (log) ou registro das mensagens de finalização, quando o status da task associada se apresenta como "ERROR" ou "CONCLUDED". A Plataforma uCloud ativa o icone |icone_log_wf|. Basta o usuário clicar com o cursor do mouse sobre este ícone que a Plataforma uCloud apresenta uma janela pop-up com a informação do **log** de registro da(s) atividade(s) do script(s)/Playbook(s) para acompanhamento do usuário. Veja o exemplo de log de sucesso abaixo:
 
-.. figure:: /figuras/ucloud_workflows010.png
+.. figure:: /figuras/ucloud_workflows012.png
    :alt: LOG Workflow - Sucesso
    :scale: 50 %
    :align: center
@@ -6511,7 +6874,12 @@ Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar
   * **Virtual Datacenter**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todos os Virtual Datacenters os quais o usuário  está vinculado. O usuário deve selecionar um VDC da lista.
   * **Máquina Virtual**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todas as máquinas virtuais do respectivo Virtual Datacenters selecionado pelo usuário. O usuário deve selecionar uma máquina virtual da lista.
 
-* **Visualização**: ericericeric
+* **Visualização**: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
 
 * **Versão do Python**: O Python é um ambiente de interpretação de linguagem de programação orientada a objetos e de alto nível com semântica dinâmica que cuida da implantação de aplicativos, gerenciamento de configuração, execução de tarefas e orquestração de vários nós. Este ambiente é mandatório para executar os script/playbook e deve estar instalado no ambiente da máquina virtual que foi informada no campo acima. O usuário deve selecionar a versão correta do Python instalada no ambiente da máquina virtual.
 
@@ -6606,7 +6974,12 @@ Basta o usuário clicar sobre o botão **Criar** que a Plataforma uCloud apresen
 
 ----
 
- ericericeric
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
 
 .. [*] Open Source Puppet site: https://puppet.com/docs/puppet/6/puppet_overview.html
 
@@ -6952,3 +7325,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 .. |icone_graph_large| image:: /figuras/ucloud_icone_big_graph.png
 
 .. |icone_troca_mes| image:: /figuras/ucloud_icone_mes.png
+
+.. |icone_seta_acima| image:: /figuras/ucloud_icone_fatur_acima.png
+.. |icone seta_abaixo| image:: /figuras/ucloud_icone_fatur_abaixo.png
+.. |icone_neutro| image:: /figuras/ucloud_icone_fatur_estavel.png
