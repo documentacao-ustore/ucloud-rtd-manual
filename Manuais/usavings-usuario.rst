@@ -19,18 +19,11 @@ Este documento tem como objetivo apresentar as principais características e fun
 
 Neste Manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
 
-Aprecisamos o *feedback* com o seu relato de experiência da nossa aplicação. 
-
-Sugestões, favor enviar correio eletrônico para *manual@usto.re*.
-
-**Equipe Ustore**
-
-
 -----------
 
 
-Introdução: Visão e posicionamento
-=======================
+Visão e posicionamento
+======================
 
 Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto.
 Importa esclarecer que ele se encontra em constante desenvolvimento e evolução, por isto, as telas apresentadas neste documento podem sofrer alterações a qualquer momento, por conta da evolução do software.
@@ -140,8 +133,8 @@ Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos comp
 -----------------------------------------------------------------------------------------------------
 
 
-Interface: Menu inicial
-=======================
+Menu inicial
+============
 
 A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
 
