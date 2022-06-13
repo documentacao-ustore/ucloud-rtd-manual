@@ -413,8 +413,8 @@ Menu *Funcionalidades*
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
 .. image:: /figuras/fig_usavings/019_submenu_funcionalidades.png
-    : alt: submenu funcionalidades
-    : align: center
+    :alt: submenu funcionalidades
+    :align: center
 ----
 
 Virtual Machines
@@ -486,70 +486,45 @@ No caso da inexistência das máquinas virtuais, consultar o Manual do uCloud, n
 **1º Passo** 
 Selecionar a nuvem *(container)* que deseja analisar.
 
-- [ ] inserir *Figura26 Selecionar nuvem na VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/026_selecionar_nuvem_vm.png 
+    :alt: selecionar nuvem na vm 
     :align: center
 ----
-
-.. | selecionar_nuvem_vm | image::
 
 **2º Passo** 
 Escolher a região que roda a *Virtual Machine* selecionada.
 
-- [ ] inserir *Figura27 Selecionar a região VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/027_selecionar_regiao_vm.png 
+    :alt: selecionar a regiao vm 
     :align: center
 ----
-
-.. | selecionar_região_vm | image::
 
 **3º Passo** 
-O resultado da seleção é exibido conforme a **Figura 25**, a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
+O resultado da seleção é exibido conforme a imagem *Resultado estimado da seleção* posicionada acima do tópico Caso de uso, que é a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
 
 **4º Passo**
-Exportar o relatório para visualização em planilha excel, na máquina do usuário, o resultado será semelhante a **Figura 26** abaixo:
+Exportar o relatório para visualização em planilha excel, na máquina do usuário. O resultado será semelhante a imagem *Relatório exportado ao excel* apresentado abaixo:
 
-- [ ] inserir *Figura28 Relatório exportado ao excel*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/028_relatorio_exportado_excel.png 
+    :alt: relatorio exportado ao excel 
     :align: center
 ----
-
-.. | relatorio_exportado_excel | image::
 
 **5º Passo**
-Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na *Figura 29*. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
+Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na imagem a seguir. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
 
-- [ ] inserir *Figura 29 Coluna Performance*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/029_coluna_performance.png 
+    :alt: coluna performance 
     :align: center
 ----
-
-.. | coluna_performance | image::
 
 **6º Passo** 
 Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 
-- [ ] inserir *Figura 30 Performance das máquinas*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/030_performance_maquinas.png 
+    :alt: performance das maquinas
     :align: center
 ----
-
-.. | performance_maquinas | image::
 
 O relatório de performance proporciona a visualização do gráfico com a média do consumo de CPU e da memória da virtual máquina selecionada, num período de aproximadamente 15 a 20 dias.
 
@@ -558,15 +533,10 @@ Compare Clouds
 
 Na aplicação do uSavings, a funcionalidade “Compare Clouds” permite realizar análise comparativa **Por Billing** ou **Por Container** dos custos entre a nuvem utilizada e as nuvens escolhidas para comparar.
 
-- [ ] inserir *Figura 31 Submenu de funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/031_submenu_funcionalidades.png 
+    :alt: submenu de funcionalidades 
     :align: center
 ----
-
-.. | submenu_funcionalidades | image::
 
 Para que as unidades se tornem disponíveis é necessário a integração com a plataforma uCloud, neste caso, as contas precisam estar conectadas e sincronizadas, respeitando as definições de regras de segurança. 
 
@@ -574,34 +544,24 @@ O *Compare Clouds* permite realizar a análise comparativa entre a própria nuve
 
 Existem duas maneiras de realizar esta análise comparativa, comparar por Billing ou por Container.
 
-- [ ] inserir *Figura 32Tela inicial Compare Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/032_tela_inicial_compare_clouds.png 
+    :alt: tela inicial compare clouds 
     :align: center
 ----
 
-.. | tela_inicial_compare_clouds | image::
+Na imagem acima são apresentadas duas barras com a possibilidade de realizar a análise comparativa: **Comparar por Bilhetagem** e **Comparar por Container**. Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a seguir:
 
-Nesta **Figura 32** são apresentadas duas barras com a possibilidade de realizar a análise comparativa: **Comparar por Bilhetagem** e **Comparar por Container**. Ao clicar na barra pretendida ela assume a cor laranja, conforme a *Figura 33* a seguir:
-
-- [ ] inserir *Figura 33 Seleção Compare by Billing ou Compare by Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/033_selecao_compare_billing_compare_container.png 
+    :alt: selecao compare billing compare container
     :align: center
 ----
-
-.. | selecao_compare_billing_compare_container | image::
 
 Reforçando, para que as unidades estejam disponíveis, **é imprescindível** integrar com a plataforma do uCloud.
 
 Comparar por Billing
 ~~~~~~~~~~~~~~~~~~~~
 
-Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e Azure, **Figura 33**.
+Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e Azure, ver a imagem acima.
 
 Antes de selecionar o container ou a nuvem que se deseja comparar, é necessário checar se a plataforma do uCloud está bilhetada. Pelo menos um (1) container deve estar bilhetado e conectado à plataforma uCloud.
 
@@ -619,77 +579,55 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
 
 Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **AWS** ou **AZURE**, em seguida clicar em **NEXT**.
 
-- [ ] inserir *Figura 34 Recorte Compare by Billing*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/034_recorte_compare_billing.png 
+    :alt: recorte compare by billing
     :align: center
 ----
-
-.. | recorte_compare_billing | image::
 
 Neste caso, a nuvem **AWS** está selecionada. Ao clicar em **NEXT**, a aplicação do uSavings apresenta a próxima tela com a pergunta: “Que nuvens participarão deste comparativo?” E solicita, ao usuário, selecionar as nuvens que deseja realizar a análise comparativa dos valores. 
 
 **3º Passo**
 
-Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise. 
+Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise.
 
-- [ ] inserir *Figura 35 Seleção período bilhetagem e nuvem a ser comparada*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/035_selecao_periodo_bilhetagem_nuvem_comparada.png 
+    :alt: selecao periodo bilhetagem e nuvem a ser comparada 
     :align: center
 ----
-
-.. | selecao_periodo_bilhetagem_nuvem_comparada | image::
 
 O período é importante, pois os valores da nuvem podem sofrer alteração devido o provedor de nuvem. Por esta razão é possível escolher um determinado intervalo de tempo. Este intervalo será calculado com base no Billing gerado pelo uCloud.
 
 **4º Passo**
 
-Selecionar as nuvens que participarão da análise comparativa de valores. O que inclui nuvens que o usuário não tem necessariamente conectada à plataforma do uCloud, como por exemplo, as nuvens IBM e GOOGLE, conforme *Figura 36*.
+Selecionar as nuvens que participarão da análise comparativa de valores. O que inclui nuvens que o usuário não tem necessariamente conectada à plataforma do uCloud, como por exemplo, as nuvens IBM e GOOGLE, conforme a seguir.
 
-- [ ] inserir *Figura 36 Selecionar as nuvens para a análise comparativa dos valores*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/036_selecionar_nuvens_analise_comparar_valores.png 
+    :alt: selecionar as nuvens para a analise comparativa dos valores 
     :align: center
 ----
-
-.. | selecionar_nuvens_analise_comparar_valores | image::
 
 **5º Passo**
 
 Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a próxima tela destina-se a escolha da região. Importa saber que esta região corresponde ao *Flavor* cadastrado na base de dados.
 
-- [ ] inserir *Figura 37 Escolher a Região por nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_1.png 
+    :alt: escolher a regiao por nuvem_1 
     :align: center
 ----
 
-.. | escolher_regiao_nuvem_1 | image::
-
-.. | escolher_regiao_nuvem_2 | image:: 
+.. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_2.png 
+    :alt: escolher a regiao por nuvem_2 
+    :align: center
+----
 
 **6º Passo**
 
-Após selecionar a região por nuvem, a aplicação uSavings apresenta a Figura 38 com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
+Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem *Resultado após a escolha da região* com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
 
-- [ ] inserir *Figura 38 Resultado após escolha da Região*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/038_resultado_escolha_regiao.png 
+    :alt: resultado apos a escolha da regiao 
     :align: center
 ----
-
-.. | resultado_escolha_regiao | image::
 
 Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. 
 
@@ -700,15 +638,10 @@ Comparar por Container
 
 O segundo comparativo oferecido pela aplicação uSavings é a análise por Container. É necessário selecionar e avançar a sequência do processo para obter o resultado pretendido que é a análise comparativa por container. Para o processo acontecer é primordial selecionar uma outra nuvem, além da nuvem inicial escolhida. 
 
-- [ ] inserir *Figura 39 Seleção do Comparativo por Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/039_selecao_comparativo_container.png 
+    :alt: selecao do comparativo por container 
     :align: center
 ----
-
-.. | selecao_comparativo_container | image::
 
 **Etapas do passo a passo**
 
@@ -716,15 +649,10 @@ O segundo comparativo oferecido pela aplicação uSavings é a análise por Cont
 
 Para realizar a análise comparativa, inicialmente, clicar no botão **Compare by Container**.
 
-- [ ] inserir *Figura 40 Selecionar container e nuvem a comparar*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/040_selecionar_container_nuvem_compara.png 
+    :alt: selecionar container e nuvem a comparar
     :align: center
 ----
-
-.. | selecionar_container_nuvem_compara | image::
 
 **2º Passo**
 
