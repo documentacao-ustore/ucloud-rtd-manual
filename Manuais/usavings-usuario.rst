@@ -656,41 +656,26 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
 
 **2º Passo**
 
-Selecionar o container **Figura 41**, a ser comparado com a nuvem apresentada na **Figura 40**, ver imagem anterior, o recorte localizado no lado esquerdo.
+Selecionar o container conforme a imagem apresentada abaixo. Este container será comparado com a nuvem selecionada anteriormente, ver imagem anterior, localizar o campo ontem estão todas as nuvens, no lado esquerdo da imagem anterior.
 
-- [ ] inserir *Figura 41 Selecionar container ou nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/041_selecionar_container_nuvem.png 
+    :alt: selecionar container ou nuvem 
     :align: center
 ----
-
-.. | selecionar_container_nuvem | image::
 
 **3º Passo**
 
 Selecionar a região e clicar em Next para finalizar a operação e obter o resultado.
 
-- [ ] inserir *Figura 42 Tela de escolha de região por cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/042_tela_escolha_regiao_cloud.png 
+    :alt: tela de escolha de regiao por cloud
     :align: center
 ----
 
-.. | tela_escolha_regiao_cloud | image::
-
-- [ ] inserir *Figura 43 Comparativo por Container versus nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/043_comparativo_container_nuvem.png 
+    :alt: comparativo por container versus nuvem
     :align: center
 ----
-
-.. | comparativo_container_nuvem | image::
 
 O resultado será apresentado e assim o usuário chega no último step.
 
@@ -706,60 +691,40 @@ A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de
 
 Análise e exportação das informações coletadas.
 
-A **Figura 44** exibe alguns cards demonstrando valores sobre as sugestões na mesma nuvem e nas nuvens escolhidas. Os resultados podem ser visualizados direto na aplicação uSavings, ou exportados para um relatório em formato .csv.
+A imagem abaixo exibe alguns cards demonstrando valores sobre as sugestões na mesma nuvem e nas nuvens escolhidas. Os resultados podem ser visualizados direto na aplicação uSavings, ou exportados para um relatório em formato .csv.
 
-- [ ] inserir *Figura 44 Cards de preços consolidados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/044_cards_precos_consolidados.png 
+    :alt: cards de precos consolidados
     :align: center
 ----
-
-.. | cards_precos_consolidados | image::
 
 A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de informação e selecioná-las de acordo com a necessidade de informação. Este comparativo de nuvem possibilita perceber que há dois tipos de comparativo: ON DEMAND e RESERVED.
 
-- [ ] inserir *Figura 45 Representação gráfica dos preços das nuvens*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/045_representacao_grafica_preco_nuvem.png 
+    :alt: representacao grafica dos precos das nuvens
     :align: center
 ----
 
-.. | representacao_grafica_preco_nuvem | image::
-
-A coluna verde é a análise que exibe o menor valor, pois ela representa o menor custo, este custo é a sugestão de troca de *Flavor* dentro da própria nuvem. As colunas centrais representam as estimativas das outras nuvens, em relação a coluna da direita (cor azul) que representa a nuvem atual com o valor atual de custo do contrato.
+A coluna verde espelha a análise que exibe o menor valor, pois ela representa o menor custo, este custo é a sugestão de troca de *Flavor* dentro da própria nuvem. As colunas centrais representam as estimativas das outras nuvens, em relação a coluna da direita (cor azul) que representa a nuvem atual com o valor atual de custo do contrato.
 
 Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuvens, é apresentada a combinação entre CPU, memória e o respectivo custo.
 
-- [ ] inserir *Figura 46 Tela de resultado*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/046_tela_resultado.png 
+    :alt: tela de resultado
     :align: center
 ----
 
-.. | tela_resultado | image::
-
 Nesta tela, é possível ver o comparativo dos *flavors* e nuvens. Além disso, ao passar o mouse sobre os diferentes *flavors*, será exibida a combinação de CPU, memória e seu respectivo custo. Nesta tabela também é possível alterar as sugestões feitas pelo uSavings, caso não se adeque ao uso do usuário e da organização.
 
-A **Figura 46** exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta. 
+A imagem acima, *Tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta. 
 Ao clicar nesta informação, será aberto um menu que permite ao usuário alterar o *Flavor* sugerido na nuvem.
 
 No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs g1-small serão calculadas como e2-small. Consultar no relatório exportado no formato .CSV Figura abaixo:
 
-- [ ] inserir *Figura 47 Relatório exportado em .csv*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
+    :alt: relatorio exportado em csv
     :align: center
 ----
-
-.. | relatorio_exportado_csv | image::
 
 Tal procedimento não altera o *Flavor* das *Virtual Machines* nas nuvens, apenas calcula as estimativas de alteração de *Flavor* que deve ser realizada no console das nuvens ou na plataforma do uCloud.
 
@@ -767,133 +732,83 @@ Tal procedimento não altera o *Flavor* das *Virtual Machines* nas nuvens, apena
 Imaginary Cloud
 ---------------
 
-A penúltima funcionalidade do submenu uSavings está nomeada *Imaginary Cloud*.
+A penúltima funcionalidade do submenu uSavings está nomeada como *Imaginary Cloud*.
 
-- [ ] inserir *Figura 48 Submenu de funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/048_submenu_funcionalidade.png 
+    :alt: submenu de funcionalidades
     :align: center
 ----
-
-.. | submenu_funcionalidade | image::
 
 O submenu *Imaginary Cloud* permite criar um ambiente imaginário, na intenção de prever o custo da infraestrutura do usuário/cliente ao utilizar as diferentes nuvens públicas.
 
-- [ ] inserir *Figura 49 Tela inicial Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/049_tela_inicial_imaginary_cloud.png 
+    :alt: tela inicial imaginary cloud
     :align: center
 ----
-
-.. | tela_inicial_imaginary_cloud | image::
 
 Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criados e é possível Deletar Container. Assim como, visualizar as *Virtual Machines*. *Load Balancer*, *Storage*, *IP* e *Database*. A seguir, o detalhamento das telas e a descrição das colunas destes 5 itens:
 
-- [ ] inserir *Figura 50 Tela Imaginary VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/050_tela_imaginary_vm.png 
+    :alt: tela imaginary vm
     :align: center
-----
-
-.. | tela_imaginary_vm | image:: 
+---- 
 
 Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquerda para direita: 
 
 **(i)** deletar máquina virtual; **(ii)** nome; **(iii)** memória; **(iv)** vCPU; **(v)** preço atual em dólar; **(vi)** sistema operacional; **(vii)** IBM; **(viii)** Google; **(ix)** Azure; **(x)** AWS.
 
-- [ ] inserir *Figura 51 Tela Imaginary Load Balancers*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/051_tela_imaginary_load_balancer.png 
+    :alt: tela imaginary load balancers
     :align: center
 ----
-
-.. | tela_imaginary_load_balancer | image::
 
 A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esquerda para a direita: 
 
 **(i)** deletar load balancer; **(ii)** nome; **(iii)** instâncias; **(iv)** Regras; **(v)** Dados por mês; **(vi)** AZURE; **(vii)** GCP; **(viii)** AWS.
 
-- [ ] inserir *Figura 52 Tela Imaginary Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/052_tela_imaginary_storage.png 
+    :alt: tela imaginary storage
     :align: center
 ----
-
-.. | tela_imaginary_storage | image::
 
 A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda para a direita:
 
 **(i)** deletar storage; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
 
-- [ ] inserir *Figura 53 Tela Imaginary IP*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/053_tela_imaginary_ip.png 
+    :alt: tela imaginary ip
     :align: center
 ----
-
-.. | tela_imaginary_ip | image::
 
 A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a direita: 
 
 **(i)** deletar IP; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
 
-- [ ] inserir *Figura 54 Tela Imaginary Database*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/054_tela_imaginary_database.png 
+    :alt: tela imaginary database
     :align: center
 ----
-
-.. | tela_imaginary_database | image::
 
 Na tela *Imaginary Database*, as dez informações apresentadas da esquerda para direita: 
 
 **(i)** deletar Database; **(ii)** nome; **(iii)** vCPUs; **(iv)** memória; **(v)** storage; **(vi)** banco de dados; **(vii)** Multi-Zone; **(viii)** AWS; **(ix)** AZURE; **(x)** GCP.
 
-- [ ] inserir *Figura 55 Imaginary Clouds tela Containers*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/055_imaginary_clouds_containers.png 
+    :alt: imaginary clouds tela containers
     :align: center
 ----
-
-.. | imaginary_clouds_containers | image::
 
 A partir deste ambiente é permitido ao usuário criar ambiente imaginário (container) e deletar os containers criados.
 
-- [ ] inserir *Figura 56 Tela Criar ambiente imaginário - Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/056_criar_ambiente_imaginario.png 
+    :alt: criar ambiente imaginario container
     :align: center
 ----
 
-.. | criar_ambiente_imaginario | image::
-
-- [ ] inserir *Figura 57 Tela Deletar ambiente imaginário - Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/057_tela_deletar_ambiente_imaginario_container.png 
+    :alt: tela deletar ambiente imaginario container
     :align: center
 ----
-
-.. | tela_deletar_ambiente_imaginario_container | image::
 
 O ambiente *Imaginary Cloud* possibilita a criação de máquinas, importe de arquivo .csv com o inventário da infraestrutura, permite a criação de container e apresentação de uma tela com o custo das diferentes nuvens.
 
@@ -901,77 +816,47 @@ Estas telas de ambiente imaginário são resultado da intenção de prever o cus
 
 Após toda esta imaginação de cenários, a aplicação fornece documentação em formato .CSV, pronto para importação e uso em reuniões de tomada de decisão.
 
-- [ ] inserir *Figura 58 Criar container Imaginário*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/058_criar_container_imaginario.png 
+    :alt: criar container imaginario
     :align: center
 ----
-
-.. | criar_container_imaginario | image::
 
 Após a criação do container imaginário, podemos seguir criando outros recursos e comparar seus preços para as diferentes nuvens, mostrando também qual seria a nuvem que provêm o menor preço para os dados desejados.
 
-- [ ] inserir *Figura 59 Criar Virtual Machine*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/059_criar_virtual_machine.png 
+    :alt: criar virtual machine
     :align: center
 ----
-
-.. | criar_virtual_machine | image::
 
 Começando com a criação da *Virtual Machine*, temos uma série de inputs que devem ser preenchidos, começando pelo campo Nome até outras opções como vCPU, memória e sistema operacional desejado, além disso, deve-se estipular o quanto de orçamento existiria para “pagar” por essa *Virtual Machine*.
 
-- [ ] inserir *Figura 60 Import e Export CSV*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/060_import_export_csv.png
+    :alt: import e export csv
     :align: center
 ----
-
-.. | import_export_csv | image::
 
 Após a sua criação, são apresentados os resultados na tela, em dois formatos: **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das clouds que o produto cobre; **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
 
-- [ ] inserir *Figura 61 Comparativo ao Criar Load Balancer*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
+    :alt: comparativo ao criar load balancer
     :align: center
 ----
-
-.. | comparativo_criar_load_balancer | image::
 
 Temos a opção de criar um *Load Balancer* imaginário da mesma forma, com 4 *inputs* essa criação também necessita de um nome – O *input* Nome será necessário para todas as opções de criação - e de 3 novos *inputs*: instâncias, Regras de transferência e dados por mês em GB. 
 
 Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo será a nuvem GCP. É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
 
-- inserir *Figura 62 Criar Storage no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/062_criar_storage_imaginary_cloud.png 
+    :alt: criar storage imaginary cloud
     :align: center
 ----
-
-.. | criar_storage_imaginary_cloud | image::
 
 Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *inputs* que consistem nos *inputs*: nome, instâncias, quantidade de transações e tamanho em GB.
 
-- [ ] inserir *Figura 63 Criar Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/063_criar_storage.png 
+    :alt: criar storage
     :align: center
 ----
-
-.. | criar_storage | image::
 
 Após a criação de um *Storage*, a tela de apresentação será semelhante a exibição do *Load Balancer*.
 
