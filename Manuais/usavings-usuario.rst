@@ -321,8 +321,6 @@ Latest Months
 
 O primeiro *card* **Latest Months**, apresenta a bilhetagem ocorrida no período relacionado aos últimos seis (6) meses, ou seja, serão listados todos os valores investidos em determinada conta, por um período relacionado aos últimos 6 meses.
 
-- [ ] inserir *Figura12 *
-
 .. image:: /figuras/fig_usavings/012_latest_months.png 
     :alt: Latest months
     :align: center
