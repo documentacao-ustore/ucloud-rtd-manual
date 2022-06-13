@@ -412,7 +412,7 @@ Menu *Funcionalidades*
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
-.. image:: /figuras/fig_usavings/019_submenu_funcionalidades.png 
+.. image:: /figuras/fig_usavings/019_submenu_funcionalidades.png
     : alt: submenu funcionalidades
     : align: center
 ----
@@ -450,7 +450,7 @@ Após selecionar o container, as informações são apresentadas em colunas, seg
   * 5. o custo mensal do flavor sugerido; 
   * 6. o valor anual da máquina virtual.
 
-.. image:: /figuras/fig_usavings/023_informações_container.png 
+.. image:: /figuras/fig_usavings/023_informacoes_container.png 
     :alt: informações container
     :align: center
 ----
