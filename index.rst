@@ -28,7 +28,4 @@ Neste repositório estão disponíveis somente os manuais de uso (Manual de Usu�
    :hidden:
    :caption: Release-Notes:
 
-   Release-Notes/release-notes-ucloud-2022-03-20
-
-..    Release-Notes/release-notes-index
-.. End_Index
+   Release-Notes/release-notes-index
