@@ -321,29 +321,21 @@ Latest Months
 
 O primeiro *card* **Latest Months**, apresenta a bilhetagem ocorrida no período relacionado aos últimos seis (6) meses, ou seja, serão listados todos os valores investidos em determinada conta, por um período relacionado aos últimos 6 meses.
 
-- [ ] inserir *Figura12 Latest months*
+- [ ] inserir *Figura12 *
 
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/012_latest_months.png 
+    :alt: Latest months
     :align: center
 ----
-
-.. | latest_months | image::
 
 Tal valor é coletado a partir de valores gerados pelo *job* do uSavings, responsável por sumarizar o Billing da plataforma do uCloud.
 
-- [ ] Inserir *Figura13 Gráfico de investimentos em Real x 6 últimos meses*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/013_grafico_investimentos_real_versus_meses.png 
+    :alt: grafico de investimentos em real x 6 ultimos meses 
     :align: center
 ----
 
-.. | grafico_investimentos_real_versus_meses | image::
-
-O gráfico constante na **Figura 13** apresenta o valor do custo em Dólar *versus* o período requerido dos últimos 6 meses.
+O gráfico constante na imagem acima apresenta o valor do custo em Dólar *versus* o período requerido dos últimos 6 meses.
 
 Consolidated Cost
 -----------------
@@ -352,17 +344,12 @@ O segundo *card* **Consolidated Cost** exibe algumas sugestões na tela do Dashb
 
 Neste *card* são detalhadas as informações a respeito do percentual de economia, diferença de custo, custo corrente despendido, custo otimizado e *Flavors* utilizados e/ou sugeridos pela aplicação. Valores apresentados em dólar.
 
-- [ ] inserir *Figura14 Custos Consolidados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/014_custos_consolidados.png 
+    :alt: custos consolidados 
     :align: center
 ----
 
-.. | custos_consolidados | image::
-
-Ao observar a **Figura 14**, o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
+Ao observar a imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
 
 As informações detalhadas, neste *Card* de custos consolidados, apresentam uma riqueza de detalhes para o entendimento entre a melhor combinação de CPU, memória e disco, com foco na redução dos custos:
 
@@ -383,17 +370,12 @@ Este terceiro *Card* apresenta o *Flavor* das máquinas selecionadas deste conta
 
 Todos os valores são exibidos em dólar, sem tributação de impostos. Os preços têm origem na tabela importada diretamente do provedor de nuvem e inserida no banco de dados desta aplicação. O preço é calculado a partir da quantidade de horas que compõem o mês.
 
-- [ ] inserir *Figura15 Gráfico Actual Flavors*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/015_grafico_actual_flavors.png 
+    :alt: gráfico actual flavors 
     :align: center
 ----
 
-.. | grafico_actual_flavors | image::
-
-As informações contidas na **Figura 15**, acima, se referem ao ambiente AWS, onde cada item difere em relação ao tamanho da memória, vCPU, preço e sistema operacional e, ao final, é apresentado o valor total do custo dos *Flavors* atualmente utilizados.
+As informações contidas na imagem acima, se referem ao ambiente AWS, onde cada item difere em relação ao tamanho da memória, vCPU, preço e sistema operacional e, ao final, é apresentado o valor total do custo dos *Flavors* atualmente utilizados.
 
 Sugested Flavors
 ----------------
@@ -402,99 +384,64 @@ Este *Card* apresenta um outro tipo de gráfico, a partir do *card Actual Flavor
 
 A coluna azul representa o gasto atual, a coluna verde sugere a economia que pode ser gerada, no caso da aplicação das sugestões de melhoria de consumo dos recursos apresentadas pela plataforma do uSavings.
 
-- [ ] inserir *Figura16 Sugested Flavors*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/016_sugested_flavors.png 
+    :alt: sugested flavors
     :align: center
 ----
-
-.. | sugested_flavors | image::
 
 Os gráficos e as informações apresentadas são uma **análise inicial** da economia potencial dos valores que a organização pode se beneficiar ao adotar as recomendações sugeridas pela plataforma uSavings. 
 
 Os valores apresentados se referem ao período da coleta de dados (o período mínimo inicial é de quinze dias). Quanto mais longo for o período da coleta de informações, mais confiável será a estimativa da economia calculada.
 
-- [ ] inserir *Figura17 Tela entrada Dashboard (parte 1/2)*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/017_tela_entrada_dashboard_1.2.png 
+    :alt: tela entrada dashboard (parte 1/2)
     :align: center
 ----
-
-.. | tela_entrada_dashboard_12 | image::
 
 Esta análise inicial é calculada com base no uso, ou seja, na ocupação dos recursos computacionais das máquinas virtuais ‘VMs’ dentro do período armazenado na base de dados da plataforma uSavings.
 
-- [ ] inserir *Figura18 Tela entrada Dashboard (parte 2/2)*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/018_tela_entrada_dashboard_2.2.png 
+    :alt: tela entrada dashboard (parte 2/2)
     :align: center
 ----
 
-.. | tela_entrada_dashboard_22 | image::
-
 O resultado desta análise é a sugestão da melhor combinação de CPU e memória. Sugestão que objetiva a redução dos custos e a maximização do desempenho *(rightsizing)*. A análise não faz o cálculo comparativo entre os valores de configuração das máquinas virtuais ‘VMs’ em outros provedores.
 
--------------------------------------------------------------------------------------------------------------------
+----
 
 Menu *Funcionalidades*
 ======================
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
-- [ ] inserir *Figura19 Submenu das Funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    : alt: 
-    : scale: 60%
+.. image:: /figuras/fig_usavings/019_submenu_funcionalidades.png 
+    : alt: submenu funcionalidades
     : align: center
 ----
-
-.. | submenu_funcionalidades | image::
 
 Virtual Machines
 ----------------
 
 No menu Virtual Machines são apresentadas todas as máquinas virtuais da infraestrutura do usuário (ou seja, o inventário de todas as máquinas virtuais ‘VMs’ das contas pertencentes à organização).
 
-- [ ] inserir *Figura20 Virtual Machines*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/020_virtual_machines.png 
+    :alt: virtual machines
     :align: center
 ----
-
-.. | virtual_machines | image::
 
 Esta exibição permite a seleção do container específico para a análise de custos e sugestão de mudança de *flavor* na mesma cloud das máquinas virtuais listadas. Todas a informações apresentadas podem ser exportadas em relatório formato .csv.
 
-- [ ] inserir *Figura21 Menu Virtual Machines*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/021_menu_virtual_machines.png 
+    :alt: menu virtual machines
     :align: center
 ----
-
-.. | menu_virtual_machines | image::
 
 É relevante ressaltar que o container apontado deve estar contido no uCloud, ou seja, o container a ser analisado deve estar conectado e sincronizado na plataforma uCloud.
 
-- [ ] inserir *Figura22 Selecionar Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/022_selecionar_container.png
+    :alt: selecionar container
     :align: center
 ----
-
-.. | selecionar_container | image::
 
 Após selecionar o container, as informações são apresentadas em colunas, seguindo a ordem da 1ª até a 6ª coluna: 
 
@@ -505,15 +452,10 @@ Após selecionar o container, as informações são apresentadas em colunas, seg
   * 5. o custo mensal do flavor sugerido; 
   * 6. o valor anual da máquina virtual.
 
-- [ ] inserir *Figura23 Informações Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/023_informações_container.png 
+    :alt: informações container
     :align: center
 ----
-
-.. | informações_container | image::
 
 As sugestões exibidas *(Rightsizing)* são baseadas no consumo de CPU das máquinas virtuais, do período que ela foi criada até o presente momento. As métricas são coletadas e o cálculo é baseado nas médias de consumo, logo em seguida, a sugestão é apresentada. 
 
@@ -522,29 +464,19 @@ A análise do consumo de memória pode fazer parte do cálculo, caso o provedor 
 *Rightsizing* - sugestão de mudança de *Flavor*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para receber o resultado de sugestão de mudança de *Flavor*, o usuário deve selecionar o container desejado, **Figura 24**. A aplicação uSavings gera a listagem e o comparativo de preços. Basta clicar e aguardar.
+Para receber o resultado de sugestão de mudança de *Flavor*, o usuário deve selecionar o container desejado, conforme a imagem apresentada a seguir. A aplicação uSavings gera a listagem e o comparativo de preços. Basta clicar e aguardar.
 
-- [ ] inserir *Figura24 Container selecionado*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/024_container_selecionado.png 
+    :alt: container selecionado
     :align: center
 ----
 
-.. | container_selecionado | image::
+Como resultado para esta operação será exibida a imagem abaixo, a qual apresenta em blocos as diversas informações, como: o *Flavor* e o Custo atual, a sugestão de *Flavor* e o custo estimado deste novo *Flavor*. Por último, exibe o custo da reserva do *Flavor* sugerido e estimado para 1 ano.
 
-Como resultado desta operação será exibida a **Figura 25**, a qual apresenta em blocos as diversas informações, como: o *Flavor* e o Custo atual, a sugestão de *Flavor* e o custo estimado deste novo *Flavor*. Por último, exibe o custo da reserva do *Flavor* sugerido e estimado para 1 ano.
-
-- [ ] inserir *Figura25 Resultado estimado na seleção*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/025_resultado_estimado_selecao.png 
+    :alt: resultado estimado selecao 
     :align: center
 ----
-
-.. | resultado_estimado_selecao | image::
 
 Caso de uso
 ~~~~~~~~~~~
