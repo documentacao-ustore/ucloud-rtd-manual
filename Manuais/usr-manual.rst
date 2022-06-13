@@ -115,7 +115,7 @@ Integração e Interoperabilidade entre Plataformas (*API Ucloud*)
 
 Interoperabilidade é a habilidade de dois ou mais sistemas (computadores, meios de comunicação, redes, software e outros componentes de tecnologia da informação) de interagir e de intercambiar dados de acordo com um método definido, de forma a obter os resultados esperados. Interoperabilidade define se dois componentes de um sistema, desenvolvidos com ferramentas diferentes, de fornecedores diferentes, podem ou não atuar em conjunto.
 
-A comunicação entre estes "sistemas" se baseia no consumo de uma interface de programação de aplicação (API) que possibilita o envio e recebimento de chamadas para execução de alguma atividade ou extrair de algum tipo de informação armazenada.  A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.
+A comunicação entre estes "sistemas" se baseia no consumo de uma interface de programação de aplicação (API) que possibilita o envio e recebimento de chamadas para execução de alguma atividade ou extrair de algum tipo de informação armazenada. A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.
 
 Por meio de APIs, desenvolvedores podem estabelecer comunicação (interoperabilidade) entre softwares e aplicativos capazes de se comunicar com outras plataformas.
 
@@ -219,12 +219,12 @@ Quando a barra de Menu do Usuário está em modo ícone, os submenus serão apre
 
 ----
 
-As páginas seguintes detalham cada uma das opções do menu de usuário e suas respectivas funcionalidades.
+O conteúdo abaixo detalha cada uma das opções do menu de usuário e suas respectivas funcionalidades.
 
 Menu Administração 
 ==================
 
-Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é importante esclarecer alguns pontos sobre a Plataforma uCloud, nos conceitos existem três termos que serão amplamente utilizados no ambiente do uCloud;
+Ao apresentar alguns conceitos sobre o ambiente de administração do uCloud, é importante esclarecer alguns pontos sobre a Plataforma uCloud, nos conceitos existem três termos que serão amplamente utilizados no ambiente do uCloud.
 
 * **Contrato**: é a forma com o qual se define a relação *comercial* entre o provedor e a empresa que o contratou. No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais.
 
@@ -378,7 +378,7 @@ Para proceder com o acesso à Plataforma uCloud deve-se provisionar (cadastrar) 
 
 Abaixo estão descritas as colunas apresentadas nesta lista de usuários:
 
-* **Botão Criar Usuário**: Quando selecionado este botão, o processo está descrito no item Criando Novo Usuário, veja na página 41.
+* **Botão Criar Usuário**: Quando selecionado este botão, o processo está descrito no item Criando Novo Usuário.
 
 * **Login**: Esta coluna apresenta as credenciais de login do usuário. Como forma de simplificar a visualização, se clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de login de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
 
@@ -477,7 +477,7 @@ Após a confirmação da Exclusão do usuário, este usuário e suas credenciais
 
     Por padrão, somente o próprio usuário pode alterar sua própria senhas. Estando em uma sessão ativa o usuário pode alterar sua própria senha, clicando com o cursor do mouse sobre a identificação de seu usuário, no canto superior direito da tela da Plataforma uCloud e logo em seguida clicar com o cursor do moue sobre o texto **Configurações da Conta**, conforme a tela abaixo:
 
-.. figure:: /figuras/uCloud_menu_administracao_usuario_004b.png
+.. figure:: /figuras/ucloud_menu_administracao_usuario_004b.png
    :align: center
 
 ----
@@ -679,7 +679,7 @@ A seguir a descrição do correto preenchimento dos campos desta tela, para prov
 
 * Em outras palavras, os usuários sem cota individual podem consumir a cota definida no Grupo; quando definida uma cota para um usuário, uma parte da cota do Grupo é alocada para o usuário, esta parte da cota do Grupo não será acessível a outros usuários do Grupo.
 
-* Quando um usuário se registra, ele deve observar as informações apresentadas na tela inicial (dashboard – veja item Dashboard na página ) pois a Plataforma uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites definidos para este usuário.
+* Quando um usuário se registra, ele deve observar as informações apresentadas na tela inicial (dashboard – veja item Dashboard) pois a Plataforma uCloud nega a criação de quaisquer recursos computacionais ou consumo de valores financeiros que ultrapassem os limites definidos para este usuário.
 
 .. note:: |atencao| *Usuários com cotas individuais: esta cota individual será subtraída (retirada) da cota do Grupo ao qual este usuário está vinculado*.
 
@@ -767,7 +767,7 @@ A tela de visualização de detalhes de um usuário está dividida em seções, 
 
 ----
 
-* Após a confirmação da Exclusão do grupo, este grupo e as configurações associadas a este estarão indisponíveis imediatamente de forma irreversível, não sendo possível recuperar as informações deste grupo. Se a exclusão for acidental, este usuário deverá ser provisionado novamente, ver o item  na página.
+* Após a confirmação da Exclusão do grupo, este grupo e as configurações associadas a este estarão indisponíveis imediatamente de forma irreversível, não sendo possível recuperar as informações deste grupo. Se a exclusão for acidental, este usuário deverá ser provisionado novamente.
 
 .. warning:: A Plataforma uCloud não permite remover um grupo quando existem ainda usuários vinculados ao grupo. Antes de excluir um grupo da plataforma certifique que todos seus usuários foram desvinculados do referido grupo para que seja possível a remoção do grupo seja definitiva.
 	
@@ -1011,11 +1011,8 @@ Somente usuários com perfil de Administrador de Contrato têm a permissão de v
 Abaixo seguem descritas as colunas apresentadas nesta tabela:
 
 * **Nome**: Esta coluna apresenta o nome do contrato da forma como está provisionado na Plataforma uCloud.
-
 * **Admin**: Esta coluna apresenta as credenciais do usuário como está associado ao campo: Administrador do Contrato. Qualquer usuário (simples) pode ser associado a este campo, após esta ação o usuário fica associado ao perfil de Administrador de Contrato.
-
 * **CPF/CNPJ**: Esta coluna apresenta o conteúdo da identificação fiscal brasileira que pode corresponder a uma identificação de pessoa física (CPF) ou identificação fiscal de pessoa jurídica (CNPJ).
-
 * **Estado**: Esta coluna apresenta o estado deste contrato na Plataforma uCloud, onde a situação do contrato pode ser uma das três opções abaixo:
 
   * **Em Produção**: Indica que o contrato está ativo e todos os recursos computacionais estão ativos e funcionais no provedor de serviço de nuvem; o campo Experimental (no formulário do Contrato) o seu estado está indicado como “Desabilitado”.
@@ -1086,10 +1083,9 @@ Deve ser informadas as credenciais de login de um usuário no campo Administrado
 Abaixo detalhamento dos campos não mencionados;
 
 * **Public Gateway**: Este botão é válido apenas para ambientes em que o contrato está associado a um ambiente de um Data Center privado, no qual o ambiente de virtualização (hypervisor) é de controle da organização (on-premises). Para que este botão seja válido é necessário ao usuário, com perfil de Administrador da Plataforma uCloud, ter provisionado um Gateway SDN (Software Defined Network). Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos de configuração de um Gateway SDN.
-
 * **Experimental**: Durante o provisionamento do contrato o Administrador do Contrato informa os limites (cotas) financeiros e/ou dos recursos computacionais. Em seguida, pode-se acessar a configuração de contrato Experimental.
 
-Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo;
+Através desta configuração é possível estabelecer a data de validade (expiração) do contrato, bem como um limite percentual, que ao ser atingido envia uma mensagem de ‘alerta’ de custo do contrato ou de consumo dos recursos computacionais. Adicionalmente, o usuário pode definir para quem o e-mail de alerta deve ser enviado (Administrador da Plataforma, Administrador do Contrato ou todos os usuários vinculados ao contrato). Veja o exemplo na tela abaixo.
 
 .. figure:: /figuras/ucloud_menu_contrato_004.png
    :alt: menu de contrato
@@ -1120,7 +1116,6 @@ Seção Categorias de Preço
 -------------------------
 
 Nesta seção é possível provisionar as categorias de preço utilizadas para agrupar os preços do contrato, quando este contrato está associado a uma empresa do Governo municipal, estadual ou federal em que os valores a serem apresentados referente ao consumo dos recursos computacionais de nuvem deverão ser convertidos para a métrica de Unidade de Serviço de Nuvem (USN).
-
 A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços, divididos em categorias: os serviços de IaaS, PaaS e serviços técnicos. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade objetivamente definida a ser cobrada pelos serviços de computação em nuvem. A métrica de USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
 .. figure:: /figuras/ucloud_menu_contrato_021.png
@@ -1147,17 +1142,11 @@ A Plataforma uCloud possibilita, ao usuário com perfil de Administrador do Cont
 Abaixo descrevemos as colunas desta seção da tela de contratos:
 
 * **Nome**: Esta coluna apresenta o nome de identificação da política de alerta definido durante seu provisionamento.
-
 * **Recurso**: Essa coluna apresenta o tipo de recurso definido para que a Plataforma uCloud monitore o consumo.
-
 * **Política**: Essa coluna apresenta a forma definida que estabelece o limite do alerta.
-
 * **Valor**: Essa coluna apresenta o valor de limite superior definido para que a Plataforma uCloud possa comparar e enviar o alerta para o usuário Administrador do Contrato.
-
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
-
 * **Botão Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma uCloud remova esta Política de Alarme de forma imediata e definitiva.
-
 * **Botão Habilitar/Desabilitar** |icone_habil_verde|/|icone_desb_verm|: Este botão é um tipo “checkbox” que o usuário pode atuar para alternar o seu modo atual. A cor verde indica que a política está HABILITADA. A cor vermelha indica que a política está DESABILITADA.
 
 Para alternar entre os estados basta clicar com o cursor do mouse e o campo será ativado, apresentando a cor verde. Se estiver na cor verde, basta clicar com o mouse e o campo será desativado, apresentando a cor vermelha.
@@ -1201,11 +1190,8 @@ Abaixo segue o detalhamento dos valores da tela acima:
 .. important:: |importante| *Outros grupos que venham a ser criados não podem ter locado valor acima deste limite financeiro.*
 
 * **Cota de IPs Públicos / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de Endereços TCP-IP do contrato. O primeiro número é a definição do limite superior do contrato, e o segundo número, representa o valor que já foi “alocado” para um (ou vários) grupo(s) que estão vinculados a este contrato. Neste exemplo: o contrato tem um limite de duzentos (200) recursos e já foi alocado para um (ou mais) grupo(s) um total de dez (10) Endereços TCP-IP.
-
 * **Cota de CPU / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de CPUs do contrato. Neste exemplo: o contrato tem um limite de trezentos e sessenta (360) CPUs e já foram alocadas para um (ou mais) grupo(s) um total de duzentas (200) CPUs.
-
 * **Cota de Memória / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de Memória do contrato. Neste exemplo: o contrato tem um limite de seiscentos e dez Gigabytes (610GB) e já foram alocadas para um (ou mais) grupo(s) um total de quinhentos Gigabytes (500GB).
-
 * **Cota do Disco / Alocada**: Neste campo o usuário com perfil de Administrador do Contrato cliente pode definir o limite numérico (cota) da quantidade de recurso de espaço em disco para armazenamento do contrato. Neste exemplo: o contrato tem um limite de cinquenta (50) Terabytes e já foram alocadas para um (ou mais) grupo(s) um total de trinta e nove (39) Terabytes.
 
 Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos de configuração de Cotas do Contrato.
@@ -1253,7 +1239,7 @@ Esta seção não é obrigatória. No caso desta seção deixar de ser preenchid
 Seção Virtual Datacenters Concedidos
 ------------------------------------
 
-Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela Plataforma uCloud – veja mais informações acima no item Administração de Contrato na página 58.
+Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela Plataforma uCloud – veja mais informações acima no item Administração de Contrato.
 
 Quando ocorre a vinculação de um VDC a um contrato, significa que o usuário administrador do contrato estabelece para a Plataforma uCloud a concessão deste VDC ao contrato. Assim, para o usuário - com permissão de administrador do contrato - serão listados apenas os VDCs deste contrato. Em outras palavras, todas as telas da Plataforma uCloud onde um VDC pode ser ofertado (solicitado) ao usuário selecionar, o usuário pode visualizar/solicitar apenas os VDCs listados nesta seção.
 
@@ -1306,10 +1292,8 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A Plataforma uClo
 ----
 
    * **Botão Adicionar Grupo** |botao_adiciona|: Neste momento, o usuário deve clicar com o cursor do mouse sobre este botão para que a Plataforma uCloud efetive a vinculação do grupo selecionado ao contrato que se está visualizando.
-
    * **Botão Ok**: Ao clicar com o cursor do mouse sobre este botão, a Plataforma uCloud encerra esta tela e retorna à visualização do Contrato, e a relação de grupos vinculados ao contrato, atualizada com o novo grupo.
-
-   * **Botão “+Criar Grupo”** |botao_adiciona_grp|: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na Plataforma uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na Plataforma uCloud no item Criando Novo Grupo na página 55 .
+   * **Botão “+Criar Grupo”** |botao_adiciona_grp|: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na Plataforma uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na Plataforma uCloud no item Criando Novo Grupo.
 
 Seção Dados de Faturamento
 --------------------------
@@ -1328,7 +1312,6 @@ Seção Perfis de Permissionamento
 --------------------------------
 
 Esta seção (card) se aplica ao usuário Administrador da Plataforma uCloud (perfil diferente do Administrador do Contrato), que tiver provisionado antecipadamente Perfis de Permissões através do menu Configurações / Perfis de Permissionamento. Somente um usuário com o perfil Administrador da Plataforma é responsável pela gerência de todos e dos demais grupos e permissões.
-
 Quando um Perfil de Permissionamento é vinculado ao Contrato, isto implica que todos seus Grupos e Usuários recebem as mesmas permissões para acessar os menus da plataforma definidas neste perfil, de forma a permitir aos usuários vinculados a este contrato acesso às funcionalidades da Plataforma uCloud definidas neste perfil de permissionamento.
 
 .. figure:: /figuras/ucloud_menu_contrato_017.png
@@ -1369,7 +1352,6 @@ Seção Perfil de Faturamento de Container
 ----------------------------------------
 
 Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A Plataforma uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato.
-
 Através desta configuração é possível que sejam definidos preços distintos por perfil de faturamento (preço fixo, recurso alocado ou recurso efetivamente utilizado) por tipo de container.
 
 .. figure:: /figuras/ucloud_menu_contrato_020.png
@@ -1383,15 +1365,13 @@ Favor consultar uCloud - Manual do Administrador, para conhecer os procedimentos
 Provisionando Contrato
 ----------------------
 
-É relevante ressaltar que não é objetivo deste documento descrever o processo de provisionamento de um contrato, pois apenas os usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma uCloud onde descrevemos o processo como provisionar um contrato.
+Importante ressaltar que não é objetivo deste documento descrever o processo de provisionamento de um contrato, pois apenas os usuários com perfil de Administrador da Plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da Plataforma uCloud onde descrevemos o processo como provisionar um contrato.
 
 Menu Configuração
 =================
 
 O menu configuração permite que o usuário com perfil de Administrador da Plataforma defina os parâmetros básicos do sistema. Estes parâmetros serão utilizados em várias áreas e outros menus da Plataforma uCloud de forma global.
-
 A Plataforma uCloud é um ambiente, por definição, multi-empresas (multi tenant). Portanto, todos os parâmetros definidos impactam todas as empresas, seus contratos e todos os usuários de forma global. Este impacto é de responsabilidade do usuário com o perfil de Administrador da Plataforma, que possui o perfeito conhecimento e compreensão de todas as implicações destas configurações globais.
-
 Os submenus descritos a seguir permitem configurações que terão impacto em muitas atividades e rotinas de todos os usuários e empresas provisionados.
 
 
@@ -1404,25 +1384,17 @@ Seção Geral:
 ~~~~~~~~~~~~
 
 Na seção Geral, os usuários definem as opções de quotas padrão por usuário do sistema, ou seja, ao criar um usuário se ele não tiver sua quota informada o sistema usará as cotas constantes na tela de aplicação.
-
 Abaixo esclarecemos os campos desta seção. Importante ressaltar que somente usuários com perfil de Administrador de Plataforma podem alterar os valores armazenados nestes campos.
 
 * **Botão “Sincronizar Active Directory”**: Este botão permite configurar a integração de um servidor de Active Directory para o ambiente de forma que possa validar, duplamente, as credenciais de usuários provisionados no ambiente de forma global. Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos corretos para configurar a sincronização com um servidor de Active Directory.
 
-* **Botão Ativação Automática “On/Off”**: Este botão tem função de permitir que todos os novos usuários provisionados via o processo descrito no item Criando Novo Usuário na página 41 sejam ativados de forma automática para se registrarem na Plataforma uCloud.
-
+* **Botão Ativação Automática “On/Off”**: Este botão tem função de permitir que todos os novos usuários provisionados via o processo descrito no item Criando Novo Usuário sejam ativados de forma automática para se registrarem na Plataforma uCloud.
 * **Cota Padrão de CPU**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional CPU. Será válido para todos os usuários. Deve-se informar um número inteiro.
-
 * **Cota Padrão da Memória**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional Memória. Será válido para todos os usuários. Deve-se informar um número inteiro no campo ao lado o Administrador da Plataforma pode selecionar se o limite será em Gigabytes ou em Megabytes.
-
 * **Cota Padrão do Disco**: O conteúdo informado neste campo será utilizado, de forma global, como o padrão de cota de quantidade de recurso computacional no Espaço de Armazenamento de Disco. Será válido para todos os usuários. Deve-se informar um número inteiro no campo ao lado, o Administrador da Plataforma pode selecionar se o limite será em Gigabytes, Megabytes ou em Terabytes.
-
 * **E-mail Administrador**: Neste campo deve constar o endereço do correio eletrônico (e-mail) do Administrador da Plataforma, para que este possa receber mensagens de alerta da Plataforma uCloud, nas opções em que possuem esta funcionalidade.
-
 * **Valor do Dólar**: Este campo não é obrigatório (pode estar ‘em branco’) e deve constar o valor padrão geral (global) para a conversão da moeda de Dólares Americanos para Reais. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado. Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos corretos e provisionar um contrato.
-
 * **Valor dos Impostos**: Este campo não é obrigatório (pode estar ‘em branco’) nele deve constar o valor padrão geral (global) referente a Taxa de Impostos a ser aplicada sobre os valores das Faturas no menu Financeiro. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado. Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos corretos para provisionar um contrato.
-
 * **Valor da meta mensal**: Este campo não é obrigatório (pode estar ‘em branco’) e deve constar o valor padrão geral (global) da meta mensal de consumo de recursos financeiros. Este valor será a referência padrão, caso não exista nenhuma configuração no contrato provisionado.
 
 .. important:: |importante| Importante ressaltar que no caso deste valor ser informado, poderão ser enviadas mensagens de alerta para o Administrador da Plataforma, porque houve um consumo financeiro mensal global acima deste valor estabelecido. Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos corretos para provisionar um contrato.
@@ -1434,7 +1406,6 @@ Seção Preço dos Recursos
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 A seção Preço dos Recursos permite definir os preços por hora de consumo para CPU, Memória e Disco, os valores cobrados por taxa de transferência e por recursos de rede.
-
 Solicite acesso ao documento Manual do Administrador da Plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma uCloud.
 
 Seção Configurações de Usuários LDAP Server
@@ -1453,9 +1424,9 @@ A seção Configuração da Rede, indica a listagem do controlador SDN e as opç
 
   * A **SDN** (Rede Definida por Software – *Software Defined Network*) é uma abordagem de arquitetura de rede que permite controlar ou "programar" a rede de maneira central e inteligente usando aplicativos de software. Ela ajuda as empresas a gerenciar toda a rede de modo consistente e holístico, seja qual for o fornecedor de equipamentos de rede.
 
-* Para acompanhar o ritmo, o mundo está adotando a tecnologia de SDN para revolucionar o design e as operações de rede.
+Para acompanhar o ritmo, o mundo está adotando a tecnologia de SDN para revolucionar o design e as operações de rede.
 
-* A SDN permite o gerenciamento consistente da rede, que pode ser constituída por peças de tecnologia complexas.
+A SDN permite o gerenciamento consistente da rede, que pode ser constituída por peças de tecnologia complexas.
 
 A Ustore possui em seu portfólio o produto uSDN para complementar ambientes de data center privado (on-premises) para transformar o ambiente privado de forma a simplificar a configuração de parâmetros de rede de dados através da interface da Plataforma uCloud.
 
@@ -1471,11 +1442,8 @@ Seção Configurações de Rede
 Nesta tela são provisionadas as configurações de rede (de forma geral) que serão enviadas para o controlador SDN do ambiente do data center privado (on-premises).
 
 * **Range de VLAN Global**: Neste campo deve ser configurada a faixa (range) de endereços TCP-IP da rede privada.
-
 * **CIDR Global**: Neste campo deve ser informado o CIDR, ou endereçamento IP sem classes. Esta configuração de CIDR Global otimiza a distribuição dos endereços IP de 32 bits, permitindo máscaras de rede de qualquer tamanho.
-
 * **Prefixo CIDR do Usuário**: Neste campo devem ser informados os prefixos de endereços TCP-IP específicos da rede corporativa privada da empresa. Podem ser informados CIDRs de todas as classes de endereçamento TCP-IP, por exemplo: 255.0.0.0 (classe A); ou 255.255.0.0 (classe B) ou 255.255.255.0 (classe C), de acordo com a configuração do ambiente de rede da empresa que está sendo configurada na Plataforma uCloud.
-
 * **Botão Network Sharing**: Este botão permite configurar a opção de que a rede que se está provisionando a configuração seja compartilhada (shared) ou não. Se este botão estiver com a opção “ON” ativa, significa que a configuração de rede será de uma rede que pode ser compartilhada. Se o botão estiver com a opção “OFF” ativa, significa que a configuração de rede será privada e os seus endereços TCP-IP serão privados.
 
 Solicite acesso ao documento Manual do Administrador da Plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma uCloud.
@@ -1488,19 +1456,12 @@ Quando conectamos um data center privado (on-premises) é necessário instalar u
 Importante mencionar que para a instalação do controlador de SDN é necessário consultar a equipe da Ustore, para auxiliar a empresa na correta instalação e configuração do servidor que executará a aplicação uSDN (Controlador SDN).
 
 * **IP**: Este campo apresenta o endereço TCP-IP onde está instalado o Controlador SDN, este endereço será utilizado pela API do uCloud que se conecta a este servidor.
-
 * **Porta**: Este campo apresenta a porta TCP-IP na qual a API do uCloud se conecta a este servidor.
-
 * **Interface VLAN**: Este campo apresenta o endereço da interface VLAN, que foi configurado no controlador SDN.
-
 * **Container Virtualizado**: Este campo apresenta o nome do Container (hypervisor) primário, existente no data center privado, que foi configurado para estar vinculado ao Controlador SDN.
-
 * **Container Controlador**: Este campo apresenta o nome do Container (hypervisor) primário, existente no data center privado, que foi configurado para estar vinculado ao Controlador SDN.
-
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com a política definida:
-
 * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a Plataforma uCloud remova este Controlador SDN de forma imediata e definitiva.
-
 * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a Plataforma uCloud apresenta uma tela que permite editar as configurações do Servidor de SDN respectivo. Importante mencionar que apenas o usuário com perfil de Administrador de Plataforma, poderá editar os valores informados nesta tela.
 
 Solicite acesso ao documento Manual do Administrador da Plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da Plataforma uCloud.
@@ -1515,19 +1476,12 @@ Para que o controlador SDN possa gerenciar os endereços que poderão ser acessa
 Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP-IP que sejam públicos, para quando um recurso computacional da nuvem privada (máquina virtual) necessitar de um endereço público, a Plataforma uCloud possa interagir com o Gerenciador SDN e vincular um endereço TCP-IP Público para este recurso computacional (máquina virtual).
 
 * **Nome**: Este campo apresenta o nome da rede que foi escolhido no momento do provisionamento da configuração da rede.
-
 * **CIDR**: Este campo apresenta o CIDR, ou endereçamento IP sem classes, acrescentado com a respectiva definição de bloco de endereços (“/xx”). Esta configuração de CIDR e a quantidade de blocos de endereços, deve ser definida pela equipe de engenharia de redes de dados da empresa.
-
 * **Range start**: Este campo apresenta o endereço TCP-IP inicial da faixa que se deseja disponibilizar.
-
 * **Range end**: Este campo apresenta o endereço TCP-IP final da faixa que se deseja disponibilizar.
-
 * **Gateway**: Este campo apresenta o endereço TCP-IP do Gateway de rede que transfere o tráfego de pacotes da rede local para a outras redes, neste caso a rede externa/pública.
-
 * **Container**: Este campo apresenta o nome do container o qual este Controlador SDN está conectado, para controlar e gerenciar as atribuições de endereçamentos TCP-IP.
-
 * **Ignored Address**: Este campo apresenta a lista de endereços TCP-IP, definidos pela equipe de rede da empresa, a ser ignorado e evitado, para serem assinalados a recursos computacionais. Os endereços apresentados nesta lista estão separados por vírgula.
-
 * **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo |icone_lixo|. Basta clicar com o cursor do mouse sobre este botão para que a Plataforma uCloud remova a configuração de Sub-Rede Pública de forma imediata e definitiva. Importante ressaltar que a Plataforma uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível. Se a ação não foi intencional, o usuário deverá iniciar o processo de configuração da Sub-Rede Pública novamente desde seu início.
 
 Favor consultar o documento: Manual do Administrador da Plataforma uCloud, para conhecer os procedimentos de como provisionar corretamente o Controlador SDN dentro do ambiente de rede privada.
@@ -1585,7 +1539,7 @@ Caso seja utilizado um flavor atual (existente) de um provedor de serviço de nu
 
 ----
 
-* **Botão “Criar Flavor Billing Profile”**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma uCloud apresenta a tela para configuração de um novo Flavor Billing Profile. O processo de configuração está descrito abaixo no item: Criando um Flavor Billing Profile na página 89.
+* **Botão “Criar Flavor Billing Profile”**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma uCloud apresenta a tela para configuração de um novo Flavor Billing Profile. O processo de configuração está descrito abaixo no item: Criando um Flavor Billing Profile.
 
 * **Nome**: Esta coluna apresenta o nome do Flavor Billing Profile, anteriormente informado no processo de criação.
 
@@ -1667,7 +1621,7 @@ A seguir, um exemplo da tela com a lista de Perfis de Permissionamento:
 
 Para compreensão da imagem acima, segue abaixo a descrição das colunas:
 
-* **Botão Criar Perfil**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma uCloud apresenta a tela para configuração de um novo Perfil de Permissionamento. O processo de configuração está descrito abaixo no item Criar um Perfil, página 95.
+* **Botão Criar Perfil**: Quando o usuário clicar com o cursor do mouse sobre este botão, a Plataforma uCloud apresenta a tela para configuração de um novo Perfil de Permissionamento. O processo de configuração está descrito abaixo no item Criar um Perfil.
 
 * **Nome do Perfil**: Esta coluna apresenta o nome do Perfil de Permissionamento que foi informado no momento da sua criação. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de perfis de permissionamento de forma alfabética crescente (a – z) ou decrescente (z – a) com base no nome do perfil.
 
@@ -1832,7 +1786,7 @@ A configuração de Billing Admin é a forma como a Plataforma uCloud identifica
 Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
 A configuração de Billing Admin, na Plataforma uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
 A Plataforma uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
-Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato na página 58.
+Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato.
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
 
@@ -1855,7 +1809,7 @@ A configuração de Billing Admin é a forma como a Plataforma uCloud identifica
 Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
 A configuração de Billing Admin, na Plataforma uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
 A Plataforma uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
-Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato na página 58.
+Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da Plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato.
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a Plataforma uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
 
@@ -2185,7 +2139,7 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
 
 * **Template**: Este campo apresenta o sistema operacional (template) selecionado no momento do provisionamento da máquina virtual.
 
-* **Virtual Datacenter**: Este campo apresenta o nome do Virtual Datacenter (VDC) ao qual esta máquina virtual está vinculada. Veja no item Virtual Datacenters: da página 184 a 195, para entender o conceito e saber como provisionar um Virtual Datacenter.
+* **Virtual Datacenter**: Este campo apresenta o nome do Virtual Datacenter (VDC) ao qual esta máquina virtual está vinculada. Veja no item Virtual Datacenters, para entender o conceito e saber como provisionar um Virtual Datacenter.
 
   * **Botão para Mover para outro Virtual Datacenter** |icone_edita_vdc|: Este botão permite ao usuário alterar a vinculação da máquina virtual ao Virtual Datacenter que está sendo apresentado na interface. Durante o provisionamento da máquina virtual, a Plataforma uCloud, vincula esta máquina virtual ao Virtual Datacenter que o usuário selecionou. Para mover a máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma uCloud alterna para o modo de edição do conteúdo deste campo. Para mover esta máquina virtual para outro Virtual Datacenter, basta clicar com o cursor do mouse sobre este botão e a interface da Plataforma uCloud habilita editar o conteúdo do campo. Assim o usuário pode digitar uma parte da sequência de caracteres do novo Virtual Datacenter, para que a Plataforma uCloud apresenta uma lista que combina com a sequência de caracteres desejada:
 
@@ -2735,7 +2689,7 @@ Abaixo é apresentada a tela referente a Etapa 5a, para máquinas virtuais na VM
 
 ----
 
-* **Assinaturas**: Este campo é opcional, do tipo “dropdown” . Quando o usuário clicar com o cursor do mouse a Plataforma uCloud apresenta todas as Assinaturas anteriormente provisionadas no ambiente. Basta o usuário selecionar a(s) assinatura(s) desejada(s) para adicionar ao custo mensal da máquina virtual. Para provisionar novas assinaturas ou editar as existentes basta ler o item Configurações / Assinaturas na página .
+* **Assinaturas**: Este campo é opcional, do tipo “dropdown” . Quando o usuário clicar com o cursor do mouse a Plataforma uCloud apresenta todas as Assinaturas anteriormente provisionadas no ambiente. Basta o usuário selecionar a(s) assinatura(s) desejada(s) para adicionar ao custo mensal da máquina virtual. Para provisionar novas assinaturas ou editar as existentes basta ler o item Configurações / Assinaturas.
 * **Botão Attach**: Depois de selecionar a assinatura desejada, basta o usuário clicar com o cursor do mouse sobre o botão Attach para vincular (adicionar) o valor mensal da assinatura ao custo da máquina virtual que está provisionando.
 * **Botão Excluir**: Este botão é necessário quando o usuário vincular uma assinatura a máquina virtual por engano e desejar remover esta assinatura antes de submeter o comando de criar esta máquina virtual. Basta selecionar a assinatura desejada e clicar com o cursor do mouse sobre o botão Excluir. O valor mensal da assinatura é removido do custo da máquina virtual provisionada.
 * **Endereço DHCP**: Este ícone permite ao usuário alternar entre duas opções, a opção padrão: Endereço DHCP (dinâmico) - a máquina virtual provisionada no ambiente VMware, recebe seu Endereço TCP-IP de forma dinâmica com base no Servidor DHCP on-premises.
@@ -4165,13 +4119,14 @@ Esta seção, na parte inferior da tela, permite exportar relatórios no formato
 
 ----
 
-* **Resumo deste Relatório**
+**Resumo do Relatório Custo Cadenciado**
+########################################
 
 No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
 
 Logo abaixo temos o gasto efetuado no mesmo intervalo de tempo mas referente ao mês anterior, no exemplo, referente ao mês de JUNHO (06/21) entre os dias 01 à 22. Conforme imagem abaixo. Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
 
-Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês passado) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
+Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês anterior) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
 
 ====
 
@@ -4261,6 +4216,9 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 
 A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos computacionais que acumulam valores e custos mensais. O usuário pode selecionar qual tipo de recurso que deseja visualizar conforme o exemplo da imagem abaixo:
 
+**Visualização de Custos por Máquinas Virtuais**
+################################################
+
 .. image:: /figuras/ucloud_menu_financeiro005g.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
    :scale: 80 %
@@ -4292,6 +4250,15 @@ A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos com
   * **Custo**: Nesta coluna a Plataforma uCloud apresenta a somatória dos valores da(s) máquina(s) virtual(is) com o seu valor no(s) mês(es) de consulta do relatório. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de valores dos custos de forma numérica crescente ou decrescente.
   * **AutoScale**: Nesta coluna a Plataforma uCloud, apresenta a indicação se esta máquina virtual possui uma configuração de *autoscale* SIM ou NÃO vinculada a este *flavor*. Esta informação é importante para que o administrador de custos possa efetuar o cálculo correto do custo indivudual de cada tipo de *flavor* e identificar os tipos de *flavor* que são mais dispendiosos ou mais econônicos. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud irá agrupar a lista de *flavors* de forma a apresentar *Autoscale* SIM e *Autoscale* NÃO.
 
+----
+
+**Visualização de Custos por Banco de Dados**
+#############################################
+
+.. image:: /figuras/ucloud_menu_financeiro005k.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
 ----
 
 * **Botão Banco de Dados**: Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma uCloud apresenta o relatório que demonstra o Custo Total do consumo realizado do serviço de Banco de dados (**RDS**), ou seja, quanto foi gasto em valores com máquinas virtuais (CPU e memória) para suportar os bancos de dados, agrupados por tipos de *flavors* ou por *Linked Accounts*. Esse relatório irá apresentar o Custo Total do consumo realizado do serviço de Compute, ou seja, quanto foi gasto em dólares com máquinas virtuais (CPU e memória) agrupados por tipos de flavors.
@@ -4331,13 +4298,31 @@ Existem três quadros neste relatório com informações de inteligência de neg
    :align: center
 ----
 
-* **Botão Storage**:
+
+**Visualização de Custos por Storage**
+######################################
+
+.. image:: /figuras/ucloud_menu_financeiro005m.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+* **Botão Storage**: Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma uCloud apresenta o relatório que demonstra o Custo Total do consumo do serviço de armazenamento de dados (*Storage*), ou seja, apresenta a quantidade alocada referente ao serviço de armazenamento de dados. Esse relatório irá apresentar o número referente ao total de área de armazenamento (tamanho em *Gigabytes*), e um gráfico com o nome e a percentual de tamanho das maiores área de armazenamento, referente ao período de consulta.
 
 .. image:: /figuras/ucloud_menu_financeiro005d.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
    :scale: 80 %
    :align: center
 ----
+
+* **Seção Total de Storage**: Este quadro apresenta o valor total de alocação de armazenamento existente referente ao período de consulta. O número apresentado neste quadro está sempre expresso em *Gigabytes*.
+
+* **Seção Bucket**: Este quadro apresenta número total de áreas de armaznamento que e encontram ativas, para o período de consulta.
+
+* **Seção Storage**: Este quadro apresenta uma lita com o(s) nome(s), e o respectivo tamanho alocagdo (em *Gigabytes*), das principais áreas de armazenamento ativas e existentes referente ao perído consultado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título do nome do Storage, a Plataforma uCloud classifica a lista de nomes de *storages* de forma alfabética crescente (a – z) ou decrescente (z – a). Ao clicar com o botão do mouse no título do tamanho (total), a Plataforma uCloud classifica a lista tamanho crescente ou decrescente.
+
+* **Grafico Consumo por tipo de armazenameto**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreass do gráfico, a Plataforma uCloud apresenta uma janela popup com a(s) informação(ões) de cada nome de área de armazenamento.
 
 
 Custos de Budgets
@@ -4356,11 +4341,20 @@ Custos de Budgets
 Painéis Baseados em Fatura
 --------------------------
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+Os valores apresentados nesta opção de menu deve levar em conta que a Plataforma do uCloud possui três tipos de usuários que podemos identificar como ‘perfis básicos’ conforme descritos abaixo:
+
+  A. **Usuários do sistema**: são os usuários regulares que acessam o sistema para consumir os recursos.
+  B. **Usuários Administradores de Grupo**: são usuários que estão associados a um grupo de usuários, eles podem provisionar e alterar outros usuários na plataforma.
+  C. **Usuários Administradores de Contrato**: são os usuários que estão associados a um contrato e sobre este contrato podem definir regras de bilhetagem, provisionar e alterar outros usuários na plataforma.
+
+Quando um **Usuário do Sistema** inicia uma sessão na Plataforma do uCloud, e possui a permissão de visualizar o Menu Financeiro e a opção Minha Fatura, os valores apresentados nos relatórios se referem somente aos recursos computacionais que este usuário está vinculado e possui permissão de visualizar o menu “Fatura” e os seus custos. Este usuário não possui permissão de visualizar os valores da Fatura de outro usuário, ou do Grupo ao qual este faz parte ou o valor total do Contrato.
+
+Quando um **Usuário Administrador de Grupo** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário e de todos os usuários que estão vinculados ao Grupo. Este usuário não tem a permissão de visualizar o valor total do Contrato.
+
+Quando um **Usuário Administrador de Contrato** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário.
+Este usuário possui perfil para permissão para visualizar o valor total acumulado do(s) Contrato(s) aos quais seu usuário foi provisionado no campo Administrador. Por consequência este usuário pode visualizar o consumo no(s) grupo(s) que foram vinculados ao(s) contrato(s), e por fim os valores de todos os usuários que estão vinculados aos Grupos.
+
+Para ilustrar este relatório e os seus valores, iremos utilizar uma credencial com o nível de Usuário Administrador de Contrato neste documento. As imagens utilizadas são meramente ilustrativas e servem apenas como exemplo.
 
 
 Minha Fatura
@@ -4381,6 +4375,22 @@ Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
 Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
 Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+
+* Máquinas Virtuais
+
+* Assinaturas
+
+* Snapshots
+
+* IPs Públicos
+
+* Balanceadores
+
+* Zonas DNS
+
+* VPNs
+
+* Itens não gerenciados
 
 
 Relatório Consolidado de Faturamento
@@ -5112,7 +5122,7 @@ A seguir a descrição dos campos a serem preenchidos para associar IP Público:
 * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de Endereços TCP-IP Públicos. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma uCloud atualiza a tela de forma a representar este padrão de busca.
 
 Solicitando um IP -Público (**AWS e GCP**)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Público a plataforma do uCloud apresenta a seguinte tela:
 
@@ -5138,7 +5148,7 @@ A seguir a descrição detalhada dos campos desta tela:
   Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser atendido e o campo está em branco, a Plataforma uCloud não permite a solicitação de um Endereço TCP-IP Público.
 
 Solicitando um IP Público (**Azure**)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quando o usuário clica com o cursor do mouse sobre o botão Solicitar IP Público a plataforma do uCloud apresenta a seguinte tela:
 
@@ -5905,11 +5915,11 @@ A seguir a descrição dos campos desta tela:
 
 .. * **Seção Geral**: Nesta seção são apresentadas as informações genéricas da rede que foram informadas pelo usuário no momento do seu provisionamento:
 
-..   * Container (exclusivo AWS): Este campo apresenta o nome do Container ao qual a Zona DNS está vinculada.
-..   * Rede (exclusivo AWS): Este campo apresenta o nome da Rede (e Sub-Rede) ao qual a Zona DNS está vinculada.
-..   * Domínio: Este campo apresenta o nome do domínio provisionado no ambiente do provedor de serviço de nuvem pública.
-..   * Descrição: Este campo apresenta a descrição referente ao domínio provisionado no ambiente do provedor de serviço de nuvem pública.
-..   * Criado por: Este campo apresenta as credenciais de login do usuário que estava registrado na Plataforma uCloud, ele será o responsável pelo provisionamento da Zona DNS.
+..  * Container (exclusivo AWS): Este campo apresenta o nome do Container ao qual a Zona DNS está vinculada.
+..  * Rede (exclusivo AWS): Este campo apresenta o nome da Rede (e Sub-Rede) ao qual a Zona DNS está vinculada.
+..  * Domínio: Este campo apresenta o nome do domínio provisionado no ambiente do provedor de serviço de nuvem pública.
+..  * Descrição: Este campo apresenta a descrição referente ao domínio provisionado no ambiente do provedor de serviço de nuvem pública.
+..  * Criado por: Este campo apresenta as credenciais de login do usuário que estava registrado na Plataforma uCloud, ele será o responsável pelo provisionamento da Zona DNS.
 
 .. * **Seção Registros do DNS**: Nesta seção são apresentadas as informações técnicas e específicas da Zona DNS, as quais são obtidas através sincronização da Plataforma uCloud com o ambiente do provedor de serviço de nuvem pública.
 ..   * **Registro**: Este campo apresenta a lista de todos os registros dos nomes que foram provisionados pelos usuário(s) a partir da criação do domínio. Favor consultar a documentação online do seu provedor de serviço de nuvem pública para entender as características específicas para o ambiente do provedor de serviço.
@@ -6218,7 +6228,7 @@ Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um *pop up* para ex
   O usuário pode perceber que a coluna Ações exibe dois ícones, abaixo detalhados:
 
   * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma uCloud apresenta uma tela solicitando ao usuário confirmar a exclusão da configuração da VPN, com a frase: “Tem certeza? A VPN não pode ser recuperada” apresenta duas opções: “Não, cancelar” e “Sim, pode excluir”
-  * **Ícone Download da Configuração**: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma uCloud apresenta a tela abaixo, nomeada ‘Selecione”. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
+  * **Ícone Download da Configuração**: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma uCloud apresenta a tela abaixo, nomeada ‘Selecione'. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
 
 .. image:: /figuras/ucloud_menu_vpn010.png
    :alt: Virtual Datacenter - Exemplo
@@ -6230,7 +6240,7 @@ Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um *pop up* para ex
   O usuário pode perceber que a coluna Ações exibe dois ícones, abaixo detalhados:
   
     * **Ícone Lata de Lixo** |icone_lixo|: Basta o usuário clicar sobre este ícone e a Plataforma uCloud apresenta uma tela solicitando ao usuário confirmar a exclusão da configuração da VPN.
-    * **Ícone Download da Configuração** |icone_download|: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma uCloud apresenta a tela abaixo, nomeada ‘Selecione”. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
+    * **Ícone Download da Configuração** |icone_download|: Basta o usuário clicar com o cursor do mouse sobre este ícone e a Plataforma uCloud apresenta a tela abaixo, nomeada ‘Selecione'. Nela o usuário pode eleger qual é o fornecedor em sua rede corporativa para obter o script de configuração de acesso e para estabelecer o Túnel VPN correto ao seu ambiente:
 
 .. image:: /figuras/ucloud_menu_vpn011.png
    :alt: Virtual Datacenter - Exemplo
@@ -6854,7 +6864,7 @@ Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar
 
   * **Ansible**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Ansible**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).
   * **Terraform**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Terraform**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).
-  * **Puppet**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Puppet**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow).  *ATENÇÃO execução dos script(s)/playbook(s) Puppet é mandatório a existência de uma infraestrutura de servidor para executá-los*.
+  * **Puppet**: Esta opção permite ao usuário vincular um arquivo texto com um um script **Puppet**, para que este seja executado em uma máquina determinada virtual seguindo uma determinada prioridade no Fluxo de Trabalho (workflow). *ATENÇÃO execução dos script(s)/playbook(s) Puppet é mandatório a existência de uma infraestrutura de servidor para executá-los*.
 
 * **Prioridade**: Este campo é obrigatório, nele o usuário deve informar um número inteiro que indica a ordem de prioridade que esta Tarefa Associada será executada. Sendo zero ("1") a mais alta prioridade, o que significa que a tarefa com o menor número informado será a primeira a ser executada na data e hora programada. Este campo permite ao usuário encadear várias tarefas, em outras palavras, executar as Tarefas Associadas em uma sequência específica, de acordo com a prioridade. Importante ressaltar que na eventual existência de duas tarefas diferentes e ambas com a mesma prioridade estas serão executadas em paralelo, a Plataforma uCloud executa Tarefas Associadas de forma sequencial (uma a uma).
 
@@ -7161,9 +7171,9 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 
 * **Ações**: Nesta coluna o usuário pode encontrar dois ícones diferentes:
 
-  * **Ícone Lata de Lixo** |icone_lixo|): Este ícone permite ao usuário apagar toda a informação referente às etiquetas (tags) do recurso que está sendo editado. Importante ressaltar que esta ação é definitiva, da mesma forma ela é aplicada no recurso do provedor de serviço de nuvem, após a sincronização da ação com a console do provedor.
+  * **Ícone Lata de Lixo** |icone_lixo|: Este ícone permite ao usuário apagar toda a informação referente às etiquetas (tags) do recurso que está sendo editado. Importante ressaltar que esta ação é definitiva, da mesma forma ela é aplicada no recurso do provedor de serviço de nuvem, após a sincronização da ação com a console do provedor.
 
-  * **Ícone de Edição Ativo** |icone_edita_on| Este ícone permite ao usuário tanto adicionar nova(s) tag(s), bem como alterar o conteúdo da tag da linha do recurso selecionado, quando selecionado a Plataforma uCloud apresenta a tela abaixo:
+  * **Ícone de Edição Ativo** |icone_edita_on|: Este ícone permite ao usuário tanto adicionar nova(s) tag(s), bem como alterar o conteúdo da tag da linha do recurso selecionado, quando selecionado a Plataforma uCloud apresenta a tela abaixo:
 
 .. image:: /figuras/ucloud_menu_inventario_recursos002.png
    :alt: Virtual Datacenter - Exemplo
@@ -7327,5 +7337,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 .. |icone_troca_mes| image:: /figuras/ucloud_icone_mes.png
 
 .. |icone_seta_acima| image:: /figuras/ucloud_icone_fatur_acima.png
+
 .. |icone seta_abaixo| image:: /figuras/ucloud_icone_fatur_abaixo.png
+
 .. |icone_neutro| image:: /figuras/ucloud_icone_fatur_estavel.png
