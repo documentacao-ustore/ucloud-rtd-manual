@@ -19,18 +19,11 @@ Este documento tem como objetivo apresentar as principais características e fun
 
 Neste Manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
 
-Aprecisamos o *feedback* com o seu relato de experiência da nossa aplicação. 
-
-Sugestões, favor enviar correio eletrônico para *manual@usto.re*.
-
-**Equipe Ustore**
-
-
 -----------
 
 
-Introdução: Visão e posicionamento
-=======================
+Visão e posicionamento
+======================
 
 Este documento descreve a aplicação uSavings, a visão e o posicionamento do produto.
 Importa esclarecer que ele se encontra em constante desenvolvimento e evolução, por isto, as telas apresentadas neste documento podem sofrer alterações a qualquer momento, por conta da evolução do software.
@@ -70,15 +63,8 @@ A plataforma do uSavings além de obter dados das diversas nuvens, extrai a info
 
 A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud (VM), é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o *Flavor*, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do *Flavor* que se sabe o quanto determinada máquina custará no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
-.. || figure:: /figuras/fig_usavings/002_recorte_organograma.png
-   :alt: recorte_organograma do usavings
-   :scale: 30%
-   :align: center
-   :class: with-border
-
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte do organograma do usavings
-    :scale:
     :align: center
 ====
 
@@ -137,11 +123,11 @@ Ao utilizar o provedor AWS, as instâncias reservadas (*Reserved Instances - RIs
 
 Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos computacionais, para outro tipo de tarefa, o provedor pode encerrar estas instâncias a qualquer momento (ou seja, forçar a interrupção destas VMs) sem obrigação da prévia comunicação.
 
------------------------------------------------------------------------------------------------------
+----
 
 
-Interface: Menu inicial
-=======================
+Menu inicial
+============
 
 A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
 
@@ -184,8 +170,7 @@ Visão geral
 De início, antes de adentrar na sessão do **Dashboard** é relevante entender o impacto de algumas ferramentas existentes no menu superior.
 
 .. image:: /figuras/fig_usavings/005_recorte_menu_superior.png 
-    :alt: recorte do menu superior 
-    :scale:
+    :alt: recorte do menu superior
     :align: center
 ----
 
@@ -201,12 +186,9 @@ Este ícone
 é um ponto relevante a fazer uma ressalva, ao partir da premissa de que há a possibilidade de um usuário cadastrado na plataforma do uCloud fazer parte **de mais de um grupo** de usuários. Logo ele pode fazer parte de mais de um contrato. E, existe a possibilidade de selecionar um outro contrato, este contrato selecionado pode conter outros recursos atrelados a este contrato. 
 
 .. image:: /figuras/fig_usavings/006_troca_contrato.png 
-    :alt: troca de contrato 
-    :scale:
+    :alt: troca de contrato
     :align: center
 ----
-
-.. | troca_contrato | imag
 
 Este ícone de troca de contrato apresenta todos os contratos nos quais o usuário logado na plataforma uSavings participa. Assim, é permitido ao usuário trocar entre eles livremente. A troca de contrato pode implicar na troca dos recursos que serão apresentados ao usuário, pois cada contrato pode ter uma determinada característica, na sequência deste manual de uso do uSavings estas minucias serão descritas.
 
@@ -226,18 +208,14 @@ Como introdução sobre a usabilidade deste recorte da tela:
 Pode-se afirmar que o termo *Clouds* é empregado para abstrair um agrupamento de *Flavors* de uma determinada Cloud, sendo este agrupamento tanto de *Flavors* reais quanto imaginários.
 
 .. image:: /figuras/fig_usavings/007_configuracoes_clouds.png 
-    :alt: configuracoes de clouds 
-    :scale: 60%
+    :alt: configuracoes de clouds
     :align: center
------
-
-.. | configuracoes_clouds | image:: /figuras/fig_usavings/007_configuracoes_clouds.png
+----
 
 No menu de configurações existe a parte de criação de *Clouds*, alteração da atividade das *Clouds* e a área de criação de novas *Clouds*.
 
 .. image:: /figuras/fig_usavings/008_configuracao_alteracao_atividade.png 
-    :alt: configuracao de alteracao de atividade 
-    :scale: 60%
+    :alt: configuracao de alteracao de atividade
     :align: center
 ----
 
@@ -302,7 +280,7 @@ Este ícone
 
 desloga o usuário da plataforma.
 
-------------------------------------------------------------------------------------------------------------------
+----
 
 Painel de controle *Dashboard*
 ==============================
@@ -310,24 +288,21 @@ Painel de controle *Dashboard*
 A interface inicial do uSavings exibida ao usuário é um painel de controle *(Dashboard)*.
 
 .. image:: /figuras/fig_usavings/009_menu_entrada_dashboard.png
-    :alt: menu de entrada do dashboard 
-    :scale: 60%
+    :alt: menu de entrada do dashboard
     :align: center
 ----
 
 Este painel, imagem apresentada acima, exibe alguns dados na tela que retratam um resumo da atual infraestrutura endereçável e acessível pela plataforma, estes dados são compostos de segmentações denominadas *Cards*.
 
 .. image:: /figuras/fig_usavings/010_tela_inicial_dashboard_funcionalidades.png 
-    :alt: tela inicial: dashboard e funcionalidades 
-    :scale: 60%
+    :alt: tela inicial: dashboard e funcionalidades
     :align: center
 ----
 
 Na primeira parte da tela inicial, apresentada na imagem acima, **são espelhados somente os serviços de nuvem** que a organização **possui na plataforma do uCloud** e **autoriza a integração**, sendo o acesso pela aplicação uSavings.
 
 .. image:: /figuras/fig_usavings/011_container_conectado_plataforma_ucloud.png 
-    :alt: container conectado na plataforma uCloud 
-    :scale: 50%
+    :alt: container conectado na plataforma uCloud
     :align: center
 ----
 
@@ -346,29 +321,19 @@ Latest Months
 
 O primeiro *card* **Latest Months**, apresenta a bilhetagem ocorrida no período relacionado aos últimos seis (6) meses, ou seja, serão listados todos os valores investidos em determinada conta, por um período relacionado aos últimos 6 meses.
 
-- [ ] inserir *Figura12 Latest months*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/012_latest_months.png 
+    :alt: Latest months
     :align: center
 ----
-
-.. | latest_months | image::
 
 Tal valor é coletado a partir de valores gerados pelo *job* do uSavings, responsável por sumarizar o Billing da plataforma do uCloud.
 
-- [ ] Inserir *Figura13 Gráfico de investimentos em Real x 6 últimos meses*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/013_grafico_investimentos_real_versus_meses.png 
+    :alt: grafico de investimentos em real x 6 ultimos meses 
     :align: center
 ----
 
-.. | grafico_investimentos_real_versus_meses | image::
-
-O gráfico constante na **Figura 13** apresenta o valor do custo em Dólar *versus* o período requerido dos últimos 6 meses.
+O gráfico constante na imagem acima apresenta o valor do custo em Dólar *versus* o período requerido dos últimos 6 meses.
 
 Consolidated Cost
 -----------------
@@ -377,17 +342,12 @@ O segundo *card* **Consolidated Cost** exibe algumas sugestões na tela do Dashb
 
 Neste *card* são detalhadas as informações a respeito do percentual de economia, diferença de custo, custo corrente despendido, custo otimizado e *Flavors* utilizados e/ou sugeridos pela aplicação. Valores apresentados em dólar.
 
-- [ ] inserir *Figura14 Custos Consolidados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/014_custos_consolidados.png 
+    :alt: custos consolidados 
     :align: center
 ----
 
-.. | custos_consolidados | image::
-
-Ao observar a **Figura 14**, o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
+Ao observar a imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
 
 As informações detalhadas, neste *Card* de custos consolidados, apresentam uma riqueza de detalhes para o entendimento entre a melhor combinação de CPU, memória e disco, com foco na redução dos custos:
 
@@ -408,17 +368,12 @@ Este terceiro *Card* apresenta o *Flavor* das máquinas selecionadas deste conta
 
 Todos os valores são exibidos em dólar, sem tributação de impostos. Os preços têm origem na tabela importada diretamente do provedor de nuvem e inserida no banco de dados desta aplicação. O preço é calculado a partir da quantidade de horas que compõem o mês.
 
-- [ ] inserir *Figura15 Gráfico Actual Flavors*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/015_grafico_actual_flavors.png 
+    :alt: gráfico actual flavors 
     :align: center
 ----
 
-.. | grafico_actual_flavors | image::
-
-As informações contidas na **Figura 15**, acima, se referem ao ambiente AWS, onde cada item difere em relação ao tamanho da memória, vCPU, preço e sistema operacional e, ao final, é apresentado o valor total do custo dos *Flavors* atualmente utilizados.
+As informações contidas na imagem acima, se referem ao ambiente AWS, onde cada item difere em relação ao tamanho da memória, vCPU, preço e sistema operacional e, ao final, é apresentado o valor total do custo dos *Flavors* atualmente utilizados.
 
 Sugested Flavors
 ----------------
@@ -427,99 +382,64 @@ Este *Card* apresenta um outro tipo de gráfico, a partir do *card Actual Flavor
 
 A coluna azul representa o gasto atual, a coluna verde sugere a economia que pode ser gerada, no caso da aplicação das sugestões de melhoria de consumo dos recursos apresentadas pela plataforma do uSavings.
 
-- [ ] inserir *Figura16 Sugested Flavors*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/016_sugested_flavors.png 
+    :alt: sugested flavors
     :align: center
 ----
-
-.. | sugested_flavors | image::
 
 Os gráficos e as informações apresentadas são uma **análise inicial** da economia potencial dos valores que a organização pode se beneficiar ao adotar as recomendações sugeridas pela plataforma uSavings. 
 
 Os valores apresentados se referem ao período da coleta de dados (o período mínimo inicial é de quinze dias). Quanto mais longo for o período da coleta de informações, mais confiável será a estimativa da economia calculada.
 
-- [ ] inserir *Figura17 Tela entrada Dashboard (parte 1/2)*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/017_tela_entrada_dashboard_1.2.png 
+    :alt: tela entrada dashboard (parte 1/2)
     :align: center
 ----
-
-.. | tela_entrada_dashboard_12 | image::
 
 Esta análise inicial é calculada com base no uso, ou seja, na ocupação dos recursos computacionais das máquinas virtuais ‘VMs’ dentro do período armazenado na base de dados da plataforma uSavings.
 
-- [ ] inserir *Figura18 Tela entrada Dashboard (parte 2/2)*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/018_tela_entrada_dashboard_2.2.png 
+    :alt: tela entrada dashboard (parte 2/2)
     :align: center
 ----
 
-.. | tela_entrada_dashboard_22 | image::
-
 O resultado desta análise é a sugestão da melhor combinação de CPU e memória. Sugestão que objetiva a redução dos custos e a maximização do desempenho *(rightsizing)*. A análise não faz o cálculo comparativo entre os valores de configuração das máquinas virtuais ‘VMs’ em outros provedores.
 
--------------------------------------------------------------------------------------------------------------------
+----
 
 Menu *Funcionalidades*
 ======================
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
-- [ ] inserir *Figura19 Submenu das Funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    : alt: 
-    : scale: 60%
-    : align: center
+.. image:: /figuras/fig_usavings/019_submenu_funcionalidades.png
+    :alt: submenu funcionalidades
+    :align: center
 ----
-
-.. | submenu_funcionalidades | image::
 
 Virtual Machines
 ----------------
 
 No menu Virtual Machines são apresentadas todas as máquinas virtuais da infraestrutura do usuário (ou seja, o inventário de todas as máquinas virtuais ‘VMs’ das contas pertencentes à organização).
 
-- [ ] inserir *Figura20 Virtual Machines*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/020_virtual_machines.png 
+    :alt: virtual machines
     :align: center
 ----
-
-.. | virtual_machines | image::
 
 Esta exibição permite a seleção do container específico para a análise de custos e sugestão de mudança de *flavor* na mesma cloud das máquinas virtuais listadas. Todas a informações apresentadas podem ser exportadas em relatório formato .csv.
 
-- [ ] inserir *Figura21 Menu Virtual Machines*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/021_menu_virtual_machines.png 
+    :alt: menu virtual machines
     :align: center
 ----
-
-.. | menu_virtual_machines | image::
 
 É relevante ressaltar que o container apontado deve estar contido no uCloud, ou seja, o container a ser analisado deve estar conectado e sincronizado na plataforma uCloud.
 
-- [ ] inserir *Figura22 Selecionar Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/022_selecionar_container.png
+    :alt: selecionar container
     :align: center
 ----
-
-.. | selecionar_container | image::
 
 Após selecionar o container, as informações são apresentadas em colunas, seguindo a ordem da 1ª até a 6ª coluna: 
 
@@ -530,15 +450,10 @@ Após selecionar o container, as informações são apresentadas em colunas, seg
   * 5. o custo mensal do flavor sugerido; 
   * 6. o valor anual da máquina virtual.
 
-- [ ] inserir *Figura23 Informações Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/023_informacoes_container.png 
+    :alt: informações container
     :align: center
 ----
-
-.. | informações_container | image::
 
 As sugestões exibidas *(Rightsizing)* são baseadas no consumo de CPU das máquinas virtuais, do período que ela foi criada até o presente momento. As métricas são coletadas e o cálculo é baseado nas médias de consumo, logo em seguida, a sugestão é apresentada. 
 
@@ -547,29 +462,19 @@ A análise do consumo de memória pode fazer parte do cálculo, caso o provedor 
 *Rightsizing* - sugestão de mudança de *Flavor*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para receber o resultado de sugestão de mudança de *Flavor*, o usuário deve selecionar o container desejado, **Figura 24**. A aplicação uSavings gera a listagem e o comparativo de preços. Basta clicar e aguardar.
+Para receber o resultado de sugestão de mudança de *Flavor*, o usuário deve selecionar o container desejado, conforme a imagem apresentada a seguir. A aplicação uSavings gera a listagem e o comparativo de preços. Basta clicar e aguardar.
 
-- [ ] inserir *Figura24 Container selecionado*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/024_container_selecionado.png 
+    :alt: container selecionado
     :align: center
 ----
 
-.. | container_selecionado | image::
+Como resultado para esta operação será exibida a imagem abaixo, a qual apresenta em blocos as diversas informações, como: o *Flavor* e o Custo atual, a sugestão de *Flavor* e o custo estimado deste novo *Flavor*. Por último, exibe o custo da reserva do *Flavor* sugerido e estimado para 1 ano.
 
-Como resultado desta operação será exibida a **Figura 25**, a qual apresenta em blocos as diversas informações, como: o *Flavor* e o Custo atual, a sugestão de *Flavor* e o custo estimado deste novo *Flavor*. Por último, exibe o custo da reserva do *Flavor* sugerido e estimado para 1 ano.
-
-- [ ] inserir *Figura25 Resultado estimado na seleção*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/025_resultado_estimado_selecao.png 
+    :alt: resultado estimado selecao 
     :align: center
 ----
-
-.. | resultado_estimado_selecao | image::
 
 Caso de uso
 ~~~~~~~~~~~
@@ -581,70 +486,45 @@ No caso da inexistência das máquinas virtuais, consultar o Manual do uCloud, n
 **1º Passo** 
 Selecionar a nuvem *(container)* que deseja analisar.
 
-- [ ] inserir *Figura26 Selecionar nuvem na VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/026_selecionar_nuvem_vm.png 
+    :alt: selecionar nuvem na vm 
     :align: center
 ----
-
-.. | selecionar_nuvem_vm | image::
 
 **2º Passo** 
 Escolher a região que roda a *Virtual Machine* selecionada.
 
-- [ ] inserir *Figura27 Selecionar a região VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/027_selecionar_regiao_vm.png 
+    :alt: selecionar a regiao vm 
     :align: center
 ----
-
-.. | selecionar_região_vm | image::
 
 **3º Passo** 
-O resultado da seleção é exibido conforme a **Figura 25**, a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
+O resultado da seleção é exibido conforme a imagem *Resultado estimado da seleção* posicionada acima do tópico Caso de uso, que é a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
 
 **4º Passo**
-Exportar o relatório para visualização em planilha excel, na máquina do usuário, o resultado será semelhante a **Figura 26** abaixo:
+Exportar o relatório para visualização em planilha excel, na máquina do usuário. O resultado será semelhante a imagem *Relatório exportado ao excel* apresentado abaixo:
 
-- [ ] inserir *Figura28 Relatório exportado ao excel*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/028_relatorio_exportado_excel.png 
+    :alt: relatorio exportado ao excel 
     :align: center
 ----
-
-.. | relatorio_exportado_excel | image::
 
 **5º Passo**
-Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na *Figura 29*. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
+Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na imagem a seguir. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
 
-- [ ] inserir *Figura 29 Coluna Performance*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/029_coluna_performance.png 
+    :alt: coluna performance 
     :align: center
 ----
-
-.. | coluna_performance | image::
 
 **6º Passo** 
 Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 
-- [ ] inserir *Figura 30 Performance das máquinas*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/030_performance_maquinas.png 
+    :alt: performance das maquinas
     :align: center
 ----
-
-.. | performance_maquinas | image::
 
 O relatório de performance proporciona a visualização do gráfico com a média do consumo de CPU e da memória da virtual máquina selecionada, num período de aproximadamente 15 a 20 dias.
 
@@ -653,15 +533,10 @@ Compare Clouds
 
 Na aplicação do uSavings, a funcionalidade “Compare Clouds” permite realizar análise comparativa **Por Billing** ou **Por Container** dos custos entre a nuvem utilizada e as nuvens escolhidas para comparar.
 
-- [ ] inserir *Figura 31 Submenu de funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/031_submenu_funcionalidades.png 
+    :alt: submenu de funcionalidades 
     :align: center
 ----
-
-.. | submenu_funcionalidades | image::
 
 Para que as unidades se tornem disponíveis é necessário a integração com a plataforma uCloud, neste caso, as contas precisam estar conectadas e sincronizadas, respeitando as definições de regras de segurança. 
 
@@ -669,34 +544,24 @@ O *Compare Clouds* permite realizar a análise comparativa entre a própria nuve
 
 Existem duas maneiras de realizar esta análise comparativa, comparar por Billing ou por Container.
 
-- [ ] inserir *Figura 32Tela inicial Compare Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/032_tela_inicial_compare_clouds.png 
+    :alt: tela inicial compare clouds 
     :align: center
 ----
 
-.. | tela_inicial_compare_clouds | image::
+Na imagem acima são apresentadas duas barras com a possibilidade de realizar a análise comparativa: **Comparar por Bilhetagem** e **Comparar por Container**. Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a seguir:
 
-Nesta **Figura 32** são apresentadas duas barras com a possibilidade de realizar a análise comparativa: **Comparar por Bilhetagem** e **Comparar por Container**. Ao clicar na barra pretendida ela assume a cor laranja, conforme a *Figura 33* a seguir:
-
-- [ ] inserir *Figura 33 Seleção Compare by Billing ou Compare by Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/033_selecao_compare_billing_compare_container.png 
+    :alt: selecao compare billing compare container
     :align: center
 ----
-
-.. | selecao_compare_billing_compare_container | image::
 
 Reforçando, para que as unidades estejam disponíveis, **é imprescindível** integrar com a plataforma do uCloud.
 
 Comparar por Billing
 ~~~~~~~~~~~~~~~~~~~~
 
-Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e Azure, **Figura 33**.
+Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e Azure, ver a imagem acima.
 
 Antes de selecionar o container ou a nuvem que se deseja comparar, é necessário checar se a plataforma do uCloud está bilhetada. Pelo menos um (1) container deve estar bilhetado e conectado à plataforma uCloud.
 
@@ -714,77 +579,55 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
 
 Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **AWS** ou **AZURE**, em seguida clicar em **NEXT**.
 
-- [ ] inserir *Figura 34 Recorte Compare by Billing*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/034_recorte_compare_billing.png 
+    :alt: recorte compare by billing
     :align: center
 ----
-
-.. | recorte_compare_billing | image::
 
 Neste caso, a nuvem **AWS** está selecionada. Ao clicar em **NEXT**, a aplicação do uSavings apresenta a próxima tela com a pergunta: “Que nuvens participarão deste comparativo?” E solicita, ao usuário, selecionar as nuvens que deseja realizar a análise comparativa dos valores. 
 
 **3º Passo**
 
-Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise. 
+Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise.
 
-- [ ] inserir *Figura 35 Seleção período bilhetagem e nuvem a ser comparada*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/035_selecao_periodo_bilhetagem_nuvem_comparada.png 
+    :alt: selecao periodo bilhetagem e nuvem a ser comparada 
     :align: center
 ----
-
-.. | selecao_periodo_bilhetagem_nuvem_comparada | image::
 
 O período é importante, pois os valores da nuvem podem sofrer alteração devido o provedor de nuvem. Por esta razão é possível escolher um determinado intervalo de tempo. Este intervalo será calculado com base no Billing gerado pelo uCloud.
 
 **4º Passo**
 
-Selecionar as nuvens que participarão da análise comparativa de valores. O que inclui nuvens que o usuário não tem necessariamente conectada à plataforma do uCloud, como por exemplo, as nuvens IBM e GOOGLE, conforme *Figura 36*.
+Selecionar as nuvens que participarão da análise comparativa de valores. O que inclui nuvens que o usuário não tem necessariamente conectada à plataforma do uCloud, como por exemplo, as nuvens IBM e GOOGLE, conforme a seguir.
 
-- [ ] inserir *Figura 36 Selecionar as nuvens para a análise comparativa dos valores*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/036_selecionar_nuvens_analise_comparar_valores.png 
+    :alt: selecionar as nuvens para a analise comparativa dos valores 
     :align: center
 ----
-
-.. | selecionar_nuvens_analise_comparar_valores | image::
 
 **5º Passo**
 
 Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a próxima tela destina-se a escolha da região. Importa saber que esta região corresponde ao *Flavor* cadastrado na base de dados.
 
-- [ ] inserir *Figura 37 Escolher a Região por nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_1.png 
+    :alt: escolher a regiao por nuvem_1 
     :align: center
 ----
 
-.. | escolher_regiao_nuvem_1 | image::
-
-.. | escolher_regiao_nuvem_2 | image:: 
+.. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_2.png 
+    :alt: escolher a regiao por nuvem_2 
+    :align: center
+----
 
 **6º Passo**
 
-Após selecionar a região por nuvem, a aplicação uSavings apresenta a Figura 38 com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
+Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem *Resultado após a escolha da região* com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
 
-- [ ] inserir *Figura 38 Resultado após escolha da Região*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/038_resultado_escolha_regiao.png 
+    :alt: resultado apos a escolha da regiao 
     :align: center
 ----
-
-.. | resultado_escolha_regiao | image::
 
 Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. 
 
@@ -795,15 +638,10 @@ Comparar por Container
 
 O segundo comparativo oferecido pela aplicação uSavings é a análise por Container. É necessário selecionar e avançar a sequência do processo para obter o resultado pretendido que é a análise comparativa por container. Para o processo acontecer é primordial selecionar uma outra nuvem, além da nuvem inicial escolhida. 
 
-- [ ] inserir *Figura 39 Seleção do Comparativo por Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/039_selecao_comparativo_container.png 
+    :alt: selecao do comparativo por container 
     :align: center
 ----
-
-.. | selecao_comparativo_container | image::
 
 **Etapas do passo a passo**
 
@@ -811,53 +649,33 @@ O segundo comparativo oferecido pela aplicação uSavings é a análise por Cont
 
 Para realizar a análise comparativa, inicialmente, clicar no botão **Compare by Container**.
 
-- [ ] inserir *Figura 40 Selecionar container e nuvem a comparar*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/040_selecionar_container_nuvem_compara.png 
+    :alt: selecionar container e nuvem a comparar
     :align: center
 ----
-
-.. | selecionar_container_nuvem_compara | image::
 
 **2º Passo**
 
-Selecionar o container **Figura 41**, a ser comparado com a nuvem apresentada na **Figura 40**, ver imagem anterior, o recorte localizado no lado esquerdo.
+Selecionar o container conforme a imagem apresentada abaixo. Este container será comparado com a nuvem selecionada anteriormente, ver imagem anterior, localizar o campo ontem estão todas as nuvens, no lado esquerdo da imagem anterior.
 
-- [ ] inserir *Figura 41 Selecionar container ou nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/041_selecionar_container_nuvem.png 
+    :alt: selecionar container ou nuvem 
     :align: center
 ----
-
-.. | selecionar_container_nuvem | image::
 
 **3º Passo**
 
 Selecionar a região e clicar em Next para finalizar a operação e obter o resultado.
 
-- [ ] inserir *Figura 42 Tela de escolha de região por cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/042_tela_escolha_regiao_cloud.png 
+    :alt: tela de escolha de regiao por cloud
     :align: center
 ----
 
-.. | tela_escolha_regiao_cloud | image::
-
-- [ ] inserir *Figura 43 Comparativo por Container versus nuvem*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/043_comparativo_container_nuvem.png 
+    :alt: comparativo por container versus nuvem
     :align: center
 ----
-
-.. | comparativo_container_nuvem | image::
 
 O resultado será apresentado e assim o usuário chega no último step.
 
@@ -873,60 +691,40 @@ A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de
 
 Análise e exportação das informações coletadas.
 
-A **Figura 44** exibe alguns cards demonstrando valores sobre as sugestões na mesma nuvem e nas nuvens escolhidas. Os resultados podem ser visualizados direto na aplicação uSavings, ou exportados para um relatório em formato .csv.
+A imagem abaixo exibe alguns cards demonstrando valores sobre as sugestões na mesma nuvem e nas nuvens escolhidas. Os resultados podem ser visualizados direto na aplicação uSavings, ou exportados para um relatório em formato .csv.
 
-- [ ] inserir *Figura 44 Cards de preços consolidados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/044_cards_precos_consolidados.png 
+    :alt: cards de precos consolidados
     :align: center
 ----
-
-.. | cards_precos_consolidados | image::
 
 A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de informação e selecioná-las de acordo com a necessidade de informação. Este comparativo de nuvem possibilita perceber que há dois tipos de comparativo: ON DEMAND e RESERVED.
 
-- [ ] inserir *Figura 45 Representação gráfica dos preços das nuvens*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/045_representacao_grafica_preco_nuvem.png 
+    :alt: representacao grafica dos precos das nuvens
     :align: center
 ----
 
-.. | representacao_grafica_preco_nuvem | image::
-
-A coluna verde é a análise que exibe o menor valor, pois ela representa o menor custo, este custo é a sugestão de troca de *Flavor* dentro da própria nuvem. As colunas centrais representam as estimativas das outras nuvens, em relação a coluna da direita (cor azul) que representa a nuvem atual com o valor atual de custo do contrato.
+A coluna verde espelha a análise que exibe o menor valor, pois ela representa o menor custo, este custo é a sugestão de troca de *Flavor* dentro da própria nuvem. As colunas centrais representam as estimativas das outras nuvens, em relação a coluna da direita (cor azul) que representa a nuvem atual com o valor atual de custo do contrato.
 
 Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuvens, é apresentada a combinação entre CPU, memória e o respectivo custo.
 
-- [ ] inserir *Figura 46 Tela de resultado*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/046_tela_resultado.png 
+    :alt: tela de resultado
     :align: center
 ----
 
-.. | tela_resultado | image::
-
 Nesta tela, é possível ver o comparativo dos *flavors* e nuvens. Além disso, ao passar o mouse sobre os diferentes *flavors*, será exibida a combinação de CPU, memória e seu respectivo custo. Nesta tabela também é possível alterar as sugestões feitas pelo uSavings, caso não se adeque ao uso do usuário e da organização.
 
-A **Figura 46** exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta. 
+A imagem acima, *Tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta. 
 Ao clicar nesta informação, será aberto um menu que permite ao usuário alterar o *Flavor* sugerido na nuvem.
 
 No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs g1-small serão calculadas como e2-small. Consultar no relatório exportado no formato .CSV Figura abaixo:
 
-- [ ] inserir *Figura 47 Relatório exportado em .csv*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
+    :alt: relatorio exportado em csv
     :align: center
 ----
-
-.. | relatorio_exportado_csv | image::
 
 Tal procedimento não altera o *Flavor* das *Virtual Machines* nas nuvens, apenas calcula as estimativas de alteração de *Flavor* que deve ser realizada no console das nuvens ou na plataforma do uCloud.
 
@@ -934,133 +732,83 @@ Tal procedimento não altera o *Flavor* das *Virtual Machines* nas nuvens, apena
 Imaginary Cloud
 ---------------
 
-A penúltima funcionalidade do submenu uSavings está nomeada *Imaginary Cloud*.
+A penúltima funcionalidade do submenu uSavings está nomeada como *Imaginary Cloud*.
 
-- [ ] inserir *Figura 48 Submenu de funcionalidades*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/048_submenu_funcionalidade.png 
+    :alt: submenu de funcionalidades
     :align: center
 ----
-
-.. | submenu_funcionalidade | image::
 
 O submenu *Imaginary Cloud* permite criar um ambiente imaginário, na intenção de prever o custo da infraestrutura do usuário/cliente ao utilizar as diferentes nuvens públicas.
 
-- [ ] inserir *Figura 49 Tela inicial Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/049_tela_inicial_imaginary_cloud.png 
+    :alt: tela inicial imaginary cloud
     :align: center
 ----
-
-.. | tela_inicial_imaginary_cloud | image::
 
 Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criados e é possível Deletar Container. Assim como, visualizar as *Virtual Machines*. *Load Balancer*, *Storage*, *IP* e *Database*. A seguir, o detalhamento das telas e a descrição das colunas destes 5 itens:
 
-- [ ] inserir *Figura 50 Tela Imaginary VM*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/050_tela_imaginary_vm.png 
+    :alt: tela imaginary vm
     :align: center
-----
-
-.. | tela_imaginary_vm | image:: 
+---- 
 
 Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquerda para direita: 
 
 **(i)** deletar máquina virtual; **(ii)** nome; **(iii)** memória; **(iv)** vCPU; **(v)** preço atual em dólar; **(vi)** sistema operacional; **(vii)** IBM; **(viii)** Google; **(ix)** Azure; **(x)** AWS.
 
-- [ ] inserir *Figura 51 Tela Imaginary Load Balancers*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/051_tela_imaginary_load_balancer.png 
+    :alt: tela imaginary load balancers
     :align: center
 ----
-
-.. | tela_imaginary_load_balancer | image::
 
 A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esquerda para a direita: 
 
 **(i)** deletar load balancer; **(ii)** nome; **(iii)** instâncias; **(iv)** Regras; **(v)** Dados por mês; **(vi)** AZURE; **(vii)** GCP; **(viii)** AWS.
 
-- [ ] inserir *Figura 52 Tela Imaginary Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/052_tela_imaginary_storage.png 
+    :alt: tela imaginary storage
     :align: center
 ----
-
-.. | tela_imaginary_storage | image::
 
 A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda para a direita:
 
 **(i)** deletar storage; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
 
-- [ ] inserir *Figura 53 Tela Imaginary IP*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/053_tela_imaginary_ip.png 
+    :alt: tela imaginary ip
     :align: center
 ----
-
-.. | tela_imaginary_ip | image::
 
 A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a direita: 
 
 **(i)** deletar IP; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
 
-- [ ] inserir *Figura 54 Tela Imaginary Database*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/054_tela_imaginary_database.png 
+    :alt: tela imaginary database
     :align: center
 ----
-
-.. | tela_imaginary_database | image::
 
 Na tela *Imaginary Database*, as dez informações apresentadas da esquerda para direita: 
 
 **(i)** deletar Database; **(ii)** nome; **(iii)** vCPUs; **(iv)** memória; **(v)** storage; **(vi)** banco de dados; **(vii)** Multi-Zone; **(viii)** AWS; **(ix)** AZURE; **(x)** GCP.
 
-- [ ] inserir *Figura 55 Imaginary Clouds tela Containers*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/055_imaginary_clouds_containers.png 
+    :alt: imaginary clouds tela containers
     :align: center
 ----
-
-.. | imaginary_clouds_containers | image::
 
 A partir deste ambiente é permitido ao usuário criar ambiente imaginário (container) e deletar os containers criados.
 
-- [ ] inserir *Figura 56 Tela Criar ambiente imaginário - Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/056_criar_ambiente_imaginario.png 
+    :alt: criar ambiente imaginario container
     :align: center
 ----
 
-.. | criar_ambiente_imaginario | image::
-
-- [ ] inserir *Figura 57 Tela Deletar ambiente imaginário - Container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/057_tela_deletar_ambiente_imaginario_container.png 
+    :alt: tela deletar ambiente imaginario container
     :align: center
 ----
-
-.. | tela_deletar_ambiente_imaginario_container | image::
 
 O ambiente *Imaginary Cloud* possibilita a criação de máquinas, importe de arquivo .csv com o inventário da infraestrutura, permite a criação de container e apresentação de uma tela com o custo das diferentes nuvens.
 
@@ -1068,125 +816,75 @@ Estas telas de ambiente imaginário são resultado da intenção de prever o cus
 
 Após toda esta imaginação de cenários, a aplicação fornece documentação em formato .CSV, pronto para importação e uso em reuniões de tomada de decisão.
 
-- [ ] inserir *Figura 58 Criar container Imaginário*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/058_criar_container_imaginario.png 
+    :alt: criar container imaginario
     :align: center
 ----
-
-.. | criar_container_imaginario | image::
 
 Após a criação do container imaginário, podemos seguir criando outros recursos e comparar seus preços para as diferentes nuvens, mostrando também qual seria a nuvem que provêm o menor preço para os dados desejados.
 
-- [ ] inserir *Figura 59 Criar Virtual Machine*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/059_criar_virtual_machine.png 
+    :alt: criar virtual machine
     :align: center
 ----
-
-.. | criar_virtual_machine | image::
 
 Começando com a criação da *Virtual Machine*, temos uma série de inputs que devem ser preenchidos, começando pelo campo Nome até outras opções como vCPU, memória e sistema operacional desejado, além disso, deve-se estipular o quanto de orçamento existiria para “pagar” por essa *Virtual Machine*.
 
-- [ ] inserir *Figura 60 Import e Export CSV*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/060_import_export_csv.png
+    :alt: import e export csv
     :align: center
 ----
-
-.. | import_export_csv | image::
 
 Após a sua criação, são apresentados os resultados na tela, em dois formatos: **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das clouds que o produto cobre; **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
 
-- [ ] inserir *Figura 61 Comparativo ao Criar Load Balancer*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
+    :alt: comparativo ao criar load balancer
     :align: center
 ----
-
-.. | comparativo_criar_load_balancer | image::
 
 Temos a opção de criar um *Load Balancer* imaginário da mesma forma, com 4 *inputs* essa criação também necessita de um nome – O *input* Nome será necessário para todas as opções de criação - e de 3 novos *inputs*: instâncias, Regras de transferência e dados por mês em GB. 
 
 Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo será a nuvem GCP. É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
 
-- inserir *Figura 62 Criar Storage no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/062_criar_storage_imaginary_cloud.png 
+    :alt: criar storage imaginary cloud
     :align: center
 ----
-
-.. | criar_storage_imaginary_cloud | image::
 
 Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *inputs* que consistem nos *inputs*: nome, instâncias, quantidade de transações e tamanho em GB.
 
-- [ ] inserir *Figura 63 Criar Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/063_criar_storage.png 
+    :alt: criar storage
     :align: center
 ----
-
-.. | criar_storage | image::
 
 Após a criação de um *Storage*, a tela de apresentação será semelhante a exibição do *Load Balancer*.
 
-- [ ] inserir *Figura 64 Resultado da criação do Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/064_resultado_criacao_storage.png 
+    :alt: resultado da criacao do storage
     :lign: center
 ----
 
-.. | resultado_criacao_storage | image::
-
 Para a penúltima opção de criação temos o IP, que segue a mesma lógica, necessitando somente de 2 *Inputs*: Nome e quantidade de IPs.
 
-- [ ] inserir *Figura 65 Criar IP*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/065_criar_ip.png 
+    :alt: criar ip
     :align: center
 ----
-
-.. | criar_ip | image::
 
 O formato de apresentação da tela do IP será semelhante aos itens já explicados acima nesse manual. A última opção a ser descrita para criação imaginária é o Database.
 
-- [ ] inserir *Figura 66 Criar Database no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/066_criar_database_imaginary_cloud.png 
+    :alt: criar database no imaginary cloud
     :align: center
 ----
-
-.. | criar_database_imaginary_cloud | image::
 
 Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multi zona, ou não.
 
-- [ ] inserir *Figura 67 Criar Database no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud.png 
+    :alt: criar database imaginary cloud
     :align: center
 ----
-
-.. | criar_database_imaginary_cloud_2 | image::
 
 Após a criação também receberemos uma tabela com os dados que foram criados e os preços existentes de mercado.
 
@@ -1197,41 +895,26 @@ Container Hint
 
 A última funcionalidade do menu uSavings é o *Container Hint*, ela apresenta os recursos que aparentemente não estão sendo utilizados ou estão gerando custos supostamente desnecessários. 
 
-- [ ] inserir *Figura 68 Menu Container Hint*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/068_container_hint.png 
+    :alt: menu container_hint
     :align: center
 ----
-
-.. | container_hint | image::
 
 A funcionalidade está disponível para as contas conectadas e integradas com a plataforma do uCloud.
 
-- [ ] inserir *Figura 69 Seleção por tipo de nuvem ou container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/069_selecao_tipo_nuvem_container.png 
+    :alt: selecao por tipo de nuvem ou container
     :align: center
 ----
 
-.. | selecao_tipo_nuvem_container | image::
-
-Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta **Figura 69** podem ser selecionados os tipos de provedores de nuvens: 
+Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta imagem de seleção por tipo de nuvem ou container, podem ser selecionados os tipos de provedores de nuvens: 
 
 **(i)** GCP; **(ii)** AWS; **(iii)** AZURE; **(iv)** VMWare ou selecionar um container.
 
-- inserir *Figura 70 Tela de recursos não utilizados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/070_tela_recursos_nao_utilizados.png 
+    :alt: tela de recursos nao utilizados
     :align: center
 ----
-
-.. | tela_recursos_nao_utilizados | image::
 
 O usuário deve selecionar uma das quatro nuvens que deseja pesquisar para descobrir quais recursos aparentemente não estão sendo utilizados ou estão gerando custos supostamente desnecessários.
 
@@ -1251,21 +934,21 @@ Após selecionar a nuvem desejada, a tela apresenta uma lista que possibilita pe
 
 Assim, o usuário pode realizar a pesquisa e descobrir quais recursos não são utilizados ou geram custos desnecessários para a organização.
 
---------------------------------------------------------------------------------------------------------------------
+----
 
 uCloud
 ======
 
 Ao clicar neste menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
 
---------------------------------------------------------------------------------------------------------------------
+----
 
 Conclusão
 =========
 
 Assim, este documento conclui a descrição geral dos procedimentos necessários para o uso. A leitura deste manual de utilização permitirá ao usuário da aplicação utilizar as suas funcionalidades de maneira adequada. 
 
-Equipe Ustore
+**Equipe Ustore**
 
 
 
