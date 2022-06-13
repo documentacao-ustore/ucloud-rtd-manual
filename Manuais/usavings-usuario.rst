@@ -860,51 +860,31 @@ Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *input
 
 Após a criação de um *Storage*, a tela de apresentação será semelhante a exibição do *Load Balancer*.
 
-- [ ] inserir *Figura 64 Resultado da criação do Storage*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/064_resultado_criacao_storage.png 
+    :alt: resultado da criacao do storage
     :lign: center
 ----
 
-.. | resultado_criacao_storage | image::
-
 Para a penúltima opção de criação temos o IP, que segue a mesma lógica, necessitando somente de 2 *Inputs*: Nome e quantidade de IPs.
 
-- [ ] inserir *Figura 65 Criar IP*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/065_criar_ip.png 
+    :alt: criar ip
     :align: center
 ----
-
-.. | criar_ip | image::
 
 O formato de apresentação da tela do IP será semelhante aos itens já explicados acima nesse manual. A última opção a ser descrita para criação imaginária é o Database.
 
-- [ ] inserir *Figura 66 Criar Database no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/066_criar_database_imaginary_cloud.png 
+    :alt: criar database no imaginary cloud
     :align: center
 ----
-
-.. | criar_database_imaginary_cloud | image::
 
 Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multi zona, ou não.
 
-- [ ] inserir *Figura 67 Criar Database no Imaginary Cloud*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud.png 
+    :alt: criar database imaginary cloud
     :align: center
 ----
-
-.. | criar_database_imaginary_cloud_2 | image::
 
 Após a criação também receberemos uma tabela com os dados que foram criados e os preços existentes de mercado.
 
@@ -915,41 +895,26 @@ Container Hint
 
 A última funcionalidade do menu uSavings é o *Container Hint*, ela apresenta os recursos que aparentemente não estão sendo utilizados ou estão gerando custos supostamente desnecessários. 
 
-- [ ] inserir *Figura 68 Menu Container Hint*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/068_container_hint.png 
+    :alt: menu container_hint
     :align: center
 ----
-
-.. | container_hint | image::
 
 A funcionalidade está disponível para as contas conectadas e integradas com a plataforma do uCloud.
 
-- [ ] inserir *Figura 69 Seleção por tipo de nuvem ou container*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/069_selecao_tipo_nuvem_container.png 
+    :alt: selecao por tipo de nuvem ou container
     :align: center
 ----
 
-.. | selecao_tipo_nuvem_container | image::
-
-Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta **Figura 69** podem ser selecionados os tipos de provedores de nuvens: 
+Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta imagem de seleção por tipo de nuvem ou container, podem ser selecionados os tipos de provedores de nuvens: 
 
 **(i)** GCP; **(ii)** AWS; **(iii)** AZURE; **(iv)** VMWare ou selecionar um container.
 
-- inserir *Figura 70 Tela de recursos não utilizados*
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
+.. image:: /figuras/fig_usavings/070_tela_recursos_nao_utilizados.png 
+    :alt: tela de recursos nao utilizados
     :align: center
 ----
-
-.. | tela_recursos_nao_utilizados | image::
 
 O usuário deve selecionar uma das quatro nuvens que deseja pesquisar para descobrir quais recursos aparentemente não estão sendo utilizados ou estão gerando custos supostamente desnecessários.
 
@@ -969,21 +934,21 @@ Após selecionar a nuvem desejada, a tela apresenta uma lista que possibilita pe
 
 Assim, o usuário pode realizar a pesquisa e descobrir quais recursos não são utilizados ou geram custos desnecessários para a organização.
 
---------------------------------------------------------------------------------------------------------------------
+----
 
 uCloud
 ======
 
 Ao clicar neste menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
 
---------------------------------------------------------------------------------------------------------------------
+----
 
 Conclusão
 =========
 
 Assim, este documento conclui a descrição geral dos procedimentos necessários para o uso. A leitura deste manual de utilização permitirá ao usuário da aplicação utilizar as suas funcionalidades de maneira adequada. 
 
-Equipe Ustore
+**Equipe Ustore**
 
 
 
