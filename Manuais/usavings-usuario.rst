@@ -349,8 +349,8 @@ O resultado desta análise é a sugestão da melhor combinação de CPU e memór
 
 ----
 
-Menu *Funcionalidades*
-======================
+Menu Funcionalidades
+====================
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
@@ -823,7 +823,7 @@ O formato de apresentação da tela do IP será semelhante aos itens já explica
 
 Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multi zona, ou não.
 
-.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud.png 
+.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud_2.png 
     :alt: criar database imaginary cloud
     :align: center
 ----
