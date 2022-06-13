@@ -161,7 +161,6 @@ Se a tela de Dashboard não for apresentada, isto significa que algum dos campos
 
 No caso de insucesso ao logar, será apresentada ao usuário a imagem acima, com a seguinte orientação: **(i)** checar as credenciais e **(ii)** repetir a operação.
 
-----
 
 
 Visão geral
@@ -179,11 +178,7 @@ Para isso, o recorte do menu superior demonstrado na imagem acima, exibe compone
 Ícone de Troca de Contrato
 --------------------------
 
-Este ícone 
-
-.. |icone_ustore| image:: /figuras/fig_usavings/icone_ustore.png   
-  
-é um ponto relevante a fazer uma ressalva, ao partir da premissa de que há a possibilidade de um usuário cadastrado na plataforma do uCloud fazer parte **de mais de um grupo** de usuários. Logo ele pode fazer parte de mais de um contrato. E, existe a possibilidade de selecionar um outro contrato, este contrato selecionado pode conter outros recursos atrelados a este contrato. 
+Este ícone |icone_ustore| é um ponto relevante a fazer uma ressalva, ao partir da premissa de que há a possibilidade de um usuário cadastrado na plataforma do uCloud fazer parte **de mais de um grupo** de usuários. Logo ele pode fazer parte de mais de um contrato. E, existe a possibilidade de selecionar um outro contrato, este contrato selecionado pode conter outros recursos atrelados a este contrato. 
 
 .. image:: /figuras/fig_usavings/006_troca_contrato.png 
     :alt: troca de contrato
@@ -195,15 +190,7 @@ Este ícone de troca de contrato apresenta todos os contratos nos quais o usuár
 Ícone de Configuração de Clouds
 -------------------------------
 
-Como introdução sobre a usabilidade deste recorte da tela:
-
-- [ ] inserir ícone
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
-    :align: center
------
+Como introdução sobre a usabilidade deste recorte da tela: |icone_configuracao|
 
 Pode-se afirmar que o termo *Clouds* é empregado para abstrair um agrupamento de *Flavors* de uma determinada Cloud, sendo este agrupamento tanto de *Flavors* reais quanto imaginários.
 
@@ -222,65 +209,20 @@ No menu de configurações existe a parte de criação de *Clouds*, alteração 
 Ícone Lista de Troca de Idiomas
 -------------------------------
 
-Este ícone
+Este ícone |icone_lista_troca_idioma| permite trocar o idioma na plataforma uSavings, a plataforma originalmente está em português e pode ser alternada para o Espanhol e para o Inglês, basta apenas clicar no ícone com as bandeiras: |icone_bandeira_troca_idioma|
 
-- [ ] inserir ícone
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
-    :align: center
-----
-
-.. | | image::
-
-  permite trocar o idioma na plataforma uSavings, a plataforma originalmente está em português e pode ser alternada para o Espanhol e para o Inglês, basta apenas clicar no ícone com as bandeiras:
-
-  - [ ] inserir ícone das bandeiras
-
-  .. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
-    :align: center
-----
-
-.. | | image::
+.. |icone_bandeira_troca_idioma| image:: /figuras/fig_usavings/icone_bandeira_troca_idioma.png
 
 Ícone Nome do Usuário Logado
 ----------------------------
 
-Este ícone
-
-- [ ] inserir ícone ucloud
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
-    :align: center
-----
-
-.. | | image::
-
-apresenta o nome do usuário que está logado na plataforma uSavings.
+Este ícone |icone_nome_usuario_logado| apresenta o nome do usuário que está logado na plataforma uSavings.
 
 Ícone de LogOut
 ---------------
 
-Este ícone
+Este ícone |icone_logout| desloga o usuário da plataforma.
 
-- [ ] inserir ícone
-
-.. image:: /figuras/fig_usavings/ 
-    :alt: 
-    :scale: 60%
-    :align: center
-----
-
-.. | | image::
-
-desloga o usuário da plataforma.
-
-----
 
 Painel de controle *Dashboard*
 ==============================
@@ -407,8 +349,8 @@ O resultado desta análise é a sugestão da melhor combinação de CPU e memór
 
 ----
 
-Menu *Funcionalidades*
-======================
+Menu Funcionalidades
+====================
 
 No lado esquerdo do menu de entrada da plataforma do uSavings são listados os menus de funcionalidades, são eles: *Virtual Machines*, *Compare Clouds*, *Imaginary Cloud*, *Container Hint* e o menu de acesso à plataforma uCloud.
 
@@ -566,7 +508,7 @@ Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), �
 Antes de selecionar o container ou a nuvem que se deseja comparar, é necessário checar se a plataforma do uCloud está bilhetada. Pelo menos um (1) container deve estar bilhetado e conectado à plataforma uCloud.
 
 
-.. note:: **Significado** de *Estar bilhetado* existência da fatura de consumo em determinado período, pelo menos um mês.                                                                                                                
+.. note:: **Significado** do termo *estar bilhetado*: é a existência da fatura de consumo em determinado período, período mínimo de pelo menos um mês.                                                                                                                
 
 
 **Etapas do passo a passo**
@@ -881,7 +823,7 @@ O formato de apresentação da tela do IP será semelhante aos itens já explica
 
 Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multi zona, ou não.
 
-.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud.png 
+.. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud_2.png 
     :alt: criar database imaginary cloud
     :align: center
 ----
@@ -957,6 +899,18 @@ Edição 2 v.7
 20/05/2022
 
 
+
+.. |icone_ustore| image:: /figuras/fig_usavings/icone_ustore.png 
+
+.. |icone_configuracao| image:: /figuras/fig_usavings/icone_configuracao.png
+
+.. |icone_lista_troca_idioma| image:: /figuras/fig_usavings/icone_lista_troca_idioma.png
+
+.. |icone_bandeira_troca_idioma| image:: /figuras/fig_usavings/icone_bandeira_troca_idioma.png
+
+.. |icone_nome_usuario_logado| image:: /figuras/fig_usavings/icone_nome_usuario_logado.png
+
+.. |icone_logout| image:: /figuras/fig_usavings/icone_logout.png
 
 
 
