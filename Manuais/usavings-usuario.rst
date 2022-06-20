@@ -44,7 +44,6 @@ Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões*
 
 A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataforma uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
 
-
 O que é uSavings?
 -----------------
 
@@ -289,7 +288,7 @@ Neste *card* são detalhadas as informações a respeito do percentual de econom
     :align: center
 ----
 
-Ao observar a imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
+Na imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
 
 As informações detalhadas, neste *Card* de custos consolidados, apresentam uma riqueza de detalhes para o entendimento entre a melhor combinação de CPU, memória e disco, com foco na redução dos custos:
 
@@ -484,7 +483,7 @@ Para que as unidades se tornem disponíveis é necessário a integração com a 
 
 O *Compare Clouds* permite realizar a análise comparativa entre a própria nuvem, assim como comparar com outras nuvens. Bem como comparar com as nuvens públicas que não estejam conectadas à plataforma do uCloud, como por exemplo: IBM, AZURE, Google, AWS. 
 
-Existem duas maneiras de realizar esta análise comparativa, comparar por Billing ou por Container.
+Existem duas maneiras de realizar esta análise comparativa, comparar **por Billing** ou **por Container**.
 
 .. image:: /figuras/fig_usavings/032_tela_inicial_compare_clouds.png 
     :alt: tela inicial compare clouds 
@@ -553,12 +552,12 @@ Selecionar as nuvens que participarão da análise comparativa de valores. O que
 Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a próxima tela destina-se a escolha da região. Importa saber que esta região corresponde ao *Flavor* cadastrado na base de dados.
 
 .. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_1.png 
-    :alt: escolher a regiao por nuvem_1 
+    :alt: escolher a regiao por nuvem 1 
     :align: center
 ----
 
 .. image:: /figuras/fig_usavings/037_escolher_regiao_nuvem_2.png 
-    :alt: escolher a regiao por nuvem_2 
+    :alt: escolher a regiao por nuvem 2 
     :align: center
 ----
 
@@ -598,7 +597,7 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
 
 **2º Passo**
 
-Selecionar o container conforme a imagem apresentada abaixo. Este container será comparado com a nuvem selecionada anteriormente, ver imagem anterior, localizar o campo ontem estão todas as nuvens, no lado esquerdo da imagem anterior.
+Selecionar o container conforme a imagem apresentada abaixo. Este container será comparado com a nuvem selecionada anteriormente, ver imagem anterior, localizar o campo ondem estão todas as nuvens, no lado esquerdo da imagem anterior.
 
 .. image:: /figuras/fig_usavings/041_selecionar_container_nuvem.png 
     :alt: selecionar container ou nuvem 
@@ -658,10 +657,11 @@ Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuv
 
 Nesta tela, é possível ver o comparativo dos *flavors* e nuvens. Além disso, ao passar o mouse sobre os diferentes *flavors*, será exibida a combinação de CPU, memória e seu respectivo custo. Nesta tabela também é possível alterar as sugestões feitas pelo uSavings, caso não se adeque ao uso do usuário e da organização.
 
-A imagem acima, *Tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta. 
+A imagem acima, *Tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta.
+
 Ao clicar nesta informação, será aberto um menu que permite ao usuário alterar o *Flavor* sugerido na nuvem.
 
-No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs g1-small serão calculadas como e2-small. Consultar no relatório exportado no formato .CSV Figura abaixo:
+No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs *g1-small* serão calculadas como *e2-small*. Consultar no relatório exportado no formato .CSV Figura abaixo:
 
 .. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
     :alt: relatorio exportado em csv
@@ -777,7 +777,9 @@ Começando com a criação da *Virtual Machine*, temos uma série de inputs que 
     :align: center
 ----
 
-Após a sua criação, são apresentados os resultados na tela, em dois formatos: **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das clouds que o produto cobre; **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
+Após a sua criação, são apresentados os resultados na tela, em dois formatos: 
+ * **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das clouds que o produto cobre; 
+ * **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
 
 .. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
     :alt: comparativo ao criar load balancer
