@@ -8,6 +8,8 @@ uSavings - Manual de Utilización
 ======
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
+
+
 ------
 
 
@@ -21,7 +23,7 @@ Este documento tiene como objetivo presentar las principales características y 
 Visión y posicionamiento
 ========================
 
-Este documento describe la aplicación uSavings, La visión y posicionamiento del producto debe entenderse considerando que está en constante desarrollo y evolución. Como resultado, las pantallas presentadas en este documento pueden estar sujetas a cambios en cualquier momento debido al desarrollo del software.
+Este documento describe la aplicación uSavings, la visión y posicionamiento del producto debe entenderse considerando que está en constante desarrollo y evolución. Como resultado, las pantallas presentadas en este documento pueden estar sujetas a cambios en cualquier momento debido al desarrollo del software.
 
 La tendencia actual, cada vez más fuerte, de migración de recursos de cómputo desde nubes privadas o entornos de *co-ubicación*, hacia el entorno de proveedores de nube pública, representa uno de los grandes desafíos para las organizaciones, que es la Gobernanza de Costos derivada de el alto uso de estos recursos informáticos y, en consecuencia, las empresas no son capaces de obtener las visiones adecuadas de estos costos en el futuro.
 
@@ -31,7 +33,7 @@ Los proveedores de servicios de nube pública proporcionan continua e ininterrum
 
 La plataforma uSavings automáticamente completa estas actividades para que las comparaciones de configuraciones de hardware y/o costos recurrentes puedan presentarse más claramente al usuario de esta plataforma.
 
-La plataforma uSavings realiza un inventario de todos los recursos de computación en la nube pública a través de su integración con la plataforma uCloud . Por lo tanto, la lista de recursos computacionales del servidor que se presenta en la interfaz de uSavings Platform es una representación fiel de su entorno que se encuentra en el proveedor de servicios de nube pública, por lo tanto, la realidad existente en su entorno.
+La plataforma uSavings realiza un inventario de todos los recursos de computación en la nube pública a través de su integración con la plataforma uCloud . Por lo tanto, la lista de recursos computacionales del servidor que se presenta en la interfaz de la Plataforma uSavings es una representación fiel de su entorno que se encuentra en el proveedor de servicios de nube pública, por lo tanto, la realidad existente en su entorno.
 
 Todas las opciones alternativas de configuración de hardware se informan como **sugerencias**, ya que depende del usuario cambiar (reconfigurar) el hardware del recurso computacional (*flavor* ) en el mejor momento para su entorno.
 
