@@ -770,7 +770,7 @@ Após a criação do container imaginário, podemos seguir criando outros recurs
     :align: center
 ----
 
-Começando com a criação da *Virtual Machine*, temos uma série de inputs que devem ser preenchidos, começando pelo campo Nome até outras opções como vCPU, memória e sistema operacional desejado, além disso, deve-se estipular o quanto de orçamento existiria para “pagar” por essa *Virtual Machine*.
+Começando com a criação da *Virtual Machine*, temos uma série de *inputs* que devem ser preenchidos, começando pelo campo Nome até outras opções como vCPU, memória e sistema operacional desejado, além disso, deve-se estipular o quanto de orçamento existiria para *“pagar”* por essa *Virtual Machine*.
 
 .. image:: /figuras/fig_usavings/060_import_export_csv.png
     :alt: import e export csv
@@ -778,7 +778,7 @@ Começando com a criação da *Virtual Machine*, temos uma série de inputs que 
 ----
 
 Após a sua criação, são apresentados os resultados na tela, em dois formatos: 
- * **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das clouds que o produto cobre; 
+ * **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das *clouds* que o produto cobre; 
  * **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
 
 .. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
@@ -823,7 +823,7 @@ O formato de apresentação da tela do IP será semelhante aos itens já explica
     :align: center
 ----
 
-Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multi zona, ou não.
+Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, memória em GB, Storage em GB, engine que será utilizada e, se deve ser multizona, ou não.
 
 .. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud_2.png 
     :alt: criar database imaginary cloud
@@ -853,7 +853,7 @@ A funcionalidade está disponível para as contas conectadas e integradas com a 
 
 Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta imagem de seleção por tipo de nuvem ou container, podem ser selecionados os tipos de provedores de nuvens: 
 
-**(i)** GCP; **(ii)** AWS; **(iii)** AZURE; **(iv)** VMWare ou selecionar um container.
+**(i)** GCP; **(ii)** AWS; **(iii)** AZURE; **(iv)** VMware ou selecionar um container.
 
 .. image:: /figuras/fig_usavings/070_tela_recursos_nao_utilizados.png 
     :alt: tela de recursos nao utilizados
