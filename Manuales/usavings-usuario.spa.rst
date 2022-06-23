@@ -50,15 +50,15 @@ de los recursos creados y/o ejecutados. La aplicación uSavings es un “cost ad
 ¿Cómo funciona?
 ---------------
 
-La plataforma de uSavings obtiene y extrae información de los datos históricos de la Virtual Machine, es decir, desde la máquina virtual y desde el lanzamiento de cada proveedor de nube pública – la recopilación de estos datos comienza con la integración con la Plataforma del uCloud. La aplicación presenta un Dashboard consolidado y sugerencias de gasto de los clientes en cada proveedor de la nube, entregando así información precisa para una mejor toma de decisiones sobre los costos asignados de los recursos de infraestructura de la organización.
+La plataforma de uSavings obtiene y extrae información de los datos históricos de la Virtual Machine, es decir, desde la máquina virtual y desde el lanzamiento de cada proveedor de nube pública – la recopilación de estos datos comienza con la integración a la Plataforma del uCloud. La aplicación presenta un *Dashboard* consolidado y sugerencias de gasto de los clientes en cada proveedor de la nube, entregando así información precisa para una mejor toma de decisiones sobre los costos asignados de los recursos de infraestructura de la organización.
 
 .. image:: /figuras/fig_usavings/organograma_funcionamento_usavings001.png
     :alt: organigrama operativo usavings
     :align: center
 ====
 
-La imagen de arriba representa el organigrama de uSavings: en él, la máquina virtual de uCloud, o 'VM', es uno de los elementos principales de este flujo, como se muestra en el diagrama anterior. El siguiente elemento presentado es Flavor, permite saber cuánta memoria, vCPU y otros recursos son utilizados por la máquina. Por lo tanto, es desde Flavor que sabes cuánto costará una máquina en particular a fin de mes. Con estos datos, es posible que la plataforma uSavings sugiera al cliente 
-ahorros de recursos en la factura mensual.
+La imagen de arriba representa el organigrama de uSavings: en él, la máquina virtual de uCloud, es uno de los elementos principales de este flujo, como se muestra en el diagrama anterior. 
+El siguiente elemento presentado es *Flavor*, permite saber cuánta memoria, vCPU y otros recursos son utilizados por la máquina. Por lo tanto, es desde el *Flavor* que sabes cuánto costará una máquina, en particular, a fin de mes. Con estos datos, es posible que la plataforma uSavings sugiera al cliente ahorros de recursos en la factura mensual.
 
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte del organigrama de usavings
@@ -69,7 +69,7 @@ El recorte en el organigrama, resalta la parte relevante del diagrama, represent
 
 * **Por Flavor** - uSavings verifica el *Flavor* asignado en la máquina y sugiere una posibilidad de mejora - esta mejora está relacionada con el costo beneficio - la aplicación publica los resultados en diferentes formatos (gráficos o porcentajes) y muestra cuál será el mejor cloud que se utilizará para ahorrar recursos, para la máquina virtual. Este parámetro, por deducción, significa que la máquina está encendida todo el tiempo.
 
-* **Por Billing** - La facturación de la base de datos de uCloud admite múltiples nubes, difiere del alcance de la aplicación uSavings. La base de datos de uCloud puede admitir todos los tipos de billing disponibles. En la regla de negocio uSavings solo es posible realizar una sugerencia asertiva con billing para AWS y AZURE, como se muestra en la figura recortada el diagrama, presentado arriba de este párrafo.
+* **Por Billing** - La facturación de la base de datos de uCloud admite múltiples nubes, difiere del alcance de la aplicación uSavings. La base de datos de uCloud puede admitir todos los tipos de billing disponibles. En la regla de negocio uSavings solo es posible realizar una sugerencia asertiva con billing para AWS y AZURE, como se muestra en la figura recortada de el diagrama, presentado arriba de este párrafo.
 
 ¿Cómo ahorrar recursos?
 -----------------------
@@ -78,12 +78,13 @@ La ventaja de implementar uSavings en las organizaciones es la posibilidad de re
 
 Debido a que la aplicación uSavings es una herramienta que analiza en tiempo real el consumo de la infraestructura de recursos de cómputo en las diferentes nubes, la aplicación uSavings muestra los recursos ociosos creados.
 
-La herramienta es relevante para la toma de decisiones en las organizaciones, ya que al analizar la información que obtiene la aplicación entrega resultados reales. Esto contribuye a una decisión organizacional capaz de generar ahorros financieros y optimizar los recursos creados y/o ejecutados.
+La herramienta es relevante para la toma de decisiones en las organizaciones, ya que al analizar la información que obtiene, la aplicación entrega resultados reales. Esto contribuye a una decisión organizacional capaz de generar ahorros financieros y optimizar los recursos creados y/o ejecutados.
 
-La aplicación uSavings puede hacer referencia a sugerencias de reducción de configuración – ‘rightsizing’ de máquinas virtuales, si fueron creadas previamente con ‘super configuraciones’ y/o presentan un bajo consumo en el historial de rendimiento. **Dirige** la posibilidad de ampliar la relación costo-consumo, no **ejecutarla**. El propósito de implementar la plataforma uSavings es indicarle a la organización la posibilidad y/o camino para incrementar su ahorro de costos, en el 
+La aplicación uSavings puede hacer referencia a sugerencias de reducción de configuración – *‘rightsizing’* de máquinas virtuales, si fueron creadas previamente con ‘super configuraciones’ y/o presentan un bajo consumo en el historial de rendimiento. **Dirige** la posibilidad de ampliar la relación costo-consumo, no **ejecutarla**. 
+El propósito de implementar la plataforma uSavings es indicarle a la organización la posibilidad y/o camino para incrementar su ahorro de costos, en el 
 próximo período de facturación del proveedor de servicios en la nube.
 
-.. attention:: La organización a la que se le proporcionó la información, proporcionada por la aplicación uSavings, debe comunicarse con el proveedor de servicios en la nube para obtener información sobre el ‘rightsizing’.
+.. attention:: La organización a la que se le proporcionó la información, proporcionada por la aplicación uSavings, debe comunicarse con el proveedor de servicios en la nube para obtener información sobre el *‘rightsizing’*.
 
 Al adquirir la plataforma uSavings, las organizaciones pueden tener a mano una valiosa herramienta estratégica y de inteligencia de negocios (*Business Inteligence*) que les indica la mejor manera de incrementar la relación “costo-beneficio” de sus infraestructuras virtuales y también la mejor forma de maximizar los recursos de las mismas máquinas creadas en proveedores de servicios en la nube.
 
@@ -95,18 +96,18 @@ Se pueden proponer las siguientes optimizaciones con base en las sugerencias de:
 Rightsizing :
 ~~~~~~~~~~~
 
-Consiste en sugerir la mejor combinación de CPU y memoria, con el objetivo de minimizar costos y maximizar el rendimiento. La herramienta recopila métricas de rendimiento para determinar el consumo de recursos promedio y máximo de una instancia durante un período de tiempo configurable y recomienda una modificación a un tipo de configuración de máquina virtual "VM" de configuración más baja o apropiada para el proyecto.
+Consiste en sugerir la mejor combinación de CPU y memoria, con el objetivo de minimizar costos y maximizar el rendimiento. La herramienta recopila métricas de rendimiento para determinar el consumo de recursos promedio y máximo de una instancia durante un período de tiempo configurable y recomienda una modificación a un tipo de configuración de máquina virtual, sea la configuración más baja o apropiada para el proyecto.
 
 Costos Comparativos :
 -------------------
 
-Presenta al usuario la lista actual de sus máquinas virtuales 'VM' y una sugerencia de cuál sería la 'mejor configuración' en cada proveedor de nube. Permite al usuario evaluar qué proveedor tiene el costo más bajo en una determinada máquina virtual 'VM', en la fecha en que se obtuvo el valor 
+Presenta al usuario la lista actual de sus máquinas virtuales y una sugerencia de cuál sería la 'mejor configuración' en cada proveedor de nube. Permite al usuario evaluar qué proveedor tiene el costo más bajo en una determinada máquina virtual, en la fecha en que se obtuvo el valor 
 de este costo.
 
 Seguimiento de Recursos Ociosos :
 -------------------------------
 
-Supervisar los recursos inactivos le permite comprobar si los recursos están en uso. Puede monitorear los recursos creados y no utilizados.
+Supervisar los recursos inactivos, le permite comprobar si los recursos están en uso. El usuario-cliente puede monitorear los recursos creados y no utilizados.
 
 Instancias Reservadas :
 ---------------------
@@ -115,22 +116,23 @@ Sobre la instancia reservada, la aplicación uSavings puede mostrarle al usuario
 
 **Por ejemplo:**
 
-Al utilizar el proveedor de AWS, Instancias reservadas (*Reserved Instances - RIs*) de la *Amazon EC2* son una de las formas más obvias de controlar los costos de cómputo, lo que permite al usuario reservar capacidad de cómputo EC2 a cambio de tarifas por hora significativamente reducidas.
+Al utilizar el proveedor de AWS, las Instancias reservadas (*Reserved Instances - RIs*) de la *Amazon EC2* son una de las formas más obvias de controlar los costos de cómputo, lo que permite al usuario reservar capacidad de cómputo *EC2* a cambio de tarifas por hora significativamente reducidas.
 
-Es importante señalar y reforzar al cliente/usuario que las Instancias reservadas (AWS, AZURE o instancia previa Google) no son instancias que el usuario pueda crear y ejecutar por un precio más bajo que las instancias normales. Y debe tenerse en cuenta que no hay garantía de que estos 
-servicios informáticos estén dedicados al cliente o estén disponibles y accesibles los 365 días del año.
+Es importante señalar y reforzar al cliente/usuario que las Instancias reservadas (AWS, AZURE o instancia previa Google) no son instancias que el usuario pueda crear y ejecutar por un precio más bajo que las instancias normales. Y debe tenerse en cuenta que, no hay garantía de que estos 
+servicios informáticos estén dedicados al cliente, o estén disponibles y accesibles los 365 días del año.
 
-Si el proveedor de servicios en la nube necesita tener acceso a estos recursos informáticos, para otro tipo de tarea, el proveedor puede terminar estas instancias en cualquier momento (es decir, forzar la interrupción de estas VM) sin comunicación previa.
+Si el proveedor de servicios en la nube necesita tener acceso a estos recursos informáticos, para otro tipo de tarea, el proveedor puede terminar estas instancias en cualquier momento (es decir, forzar la interrupción de estas maquinas virtuales) sin comunicación previa.
 
 ----
 
 Menú inicial
 ============
 
-La interfaz inicial que se presenta al usuario es un Dashboard que muestra un resumen de la infraestructura actual, direccionable y accesible a través de la plataforma uCloud. Al acceder a la interfaz de uSavings, el usuario se conecta automáticamente a sus 'VMs' de infraestructura de máquina virtual actual. De esta forma, el usuario visualiza los costes actuales de las máquinas virtuales 'VM' existentes, puede comparar los costes de sus máquinas virtuales entre los distintos 
+La interfaz inicial que se presenta al usuario es un *Dashboard* que muestra un resumen de la infraestructura actual, direccionable y accesible a través de la plataforma uCloud. Al acceder a la interfaz de uSavings, el usuario se conecta automáticamente a sus 'VMs' de infraestructura de máquina virtual actual. 
+De esta forma, el usuario visualiza los costes actuales de las máquinas virtuales existentes, puede comparar los costes de sus máquinas virtuales entre los distintos 
 proveedores de servicios de infraestructura de nube pública.
 
-El uSavings permite crear manualmente una lista de máquinas virtuales 'VM' con configuraciones específicas (una configuración privada y/o 'imaginaria'), en el caso del usuario que quiera obtener la lista completa de sus máquinas virtuales y prefiera conectarse manual.
+El uSavings permite crear manualmente una lista de máquinas virtuales con configuraciones específicas (una configuración privada y/o 'imaginaria'), en el caso del usuario que quiera obtener la lista completa de sus máquinas virtuales y prefiera conectarse manual.
 
 ¿ Cómo acceder a la plataforma uSavings?
 ---------------------------------------
@@ -150,9 +152,9 @@ En caso de que el acceso se realice directamente en la web, se le mostrará al u
     :align: center
 ====
 
-El usuario deberá llenar los campos de **‘login’** y **‘senha’**, con las credenciales recibidas del administrador de la plataforma. Haga clic en **'Entrar'**. Después de este procedimiento, se presentará la pantalla de presentación del Dashboard.
+El usuario deberá llenar los campos de **‘login’** y **‘senha’**, con las credenciales recibidas del administrador de la plataforma. Haga clic en **'Entrar'**. Después de este procedimiento, se presentará la pantalla de presentación del *Dashboard*.
 
-Si la pantalla del *Dashboard* no se muestra, significa que algunos de los campos están llenos de información inconsistente, es decir, ‘login‘ o ‘contraseña’ no existe y/o puede haber habido un error al escribir la información. Es importante comprobar y repetir la operación.
+Si la pantalla del *Dashboard* no se muestra, significa que algunos de los campos están llenos de información inconsistente, es decir, *‘login‘* o ‘contraseña’ no existe y/o puede haber un error al escribir la información. Es importante comprobar y repetir la operación.
 
 .. image:: /figuras/fig_usavings/004_tela_problema_acesso.png 
     :alt: pantalla de problema de acesso 
