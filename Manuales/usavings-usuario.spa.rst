@@ -636,10 +636,10 @@ Se mostrará el resultado y así el usuario llega al último step.
 Después de realizar el análisis comparativo y presentar el resultado, este documento sigue con la descripción del siguiente paso, cuando los datos comparativos están en pantalla.
 
 
-Analizar y Exportar las información recopilada
+Analizar y Exportar la información recopilada
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La plataforma uSavings permite al usuario navegar por cada una de estas unidades de información y seleccionarlas de acuerdo con la necesidad de información.
+La plataforma uSavings permite al usuario navegar por cada una de estas unidades de información y se las seleccionar de acuerdo con la necesidad de información.
 
 **4º Paso**
 
@@ -652,7 +652,7 @@ La imagen abajo presenta algunas tarjetas que demuestran valores sobre las suger
     :align: center
 ----
 
-La plataforma uSavings permite al usuario navegar por cada una de estas unidades de información y seleccionarlas de acuerdo con la necesidad de información. Esta comparación de nubes permite ver que hay dos tipos de comparación: ON DEMAND y RESERVED.
+La plataforma uSavings permite al usuario navegar por cada una de estas unidades de información y seleccionarlas de acuerdo con la necesidad de información. Esta comparación de nubes permite ver que hay dos tipos de comparación: *ON DEMAND* y *RESERVED*.
 
 .. image:: /figuras/fig_usavings/045_representacao_grafica_preco_nuvem.png 
     :alt: representación gráfica de los precios de las nubes
@@ -710,7 +710,16 @@ En la pantalla de inicio de *Imaginary Cloud* se pueden ver los Contenedores cre
 
 En la pantalla *Imaginary Virtual Machine*, son diez las piezas de información presentadas de izquierda a derecha:
 
-**(i)** eliminar maquina virtual; **(ii)** nombre; **(iii)** memoria; **(iv)** vCPU; **(v)** precio corriente en dólares; **(vi)** sistema operativo; **(vii)** IBM; **(viii)** Google; **(ix)** Azure; **(x)** AWS.
+  * **(i)** eliminar maquina virtual; 
+  * **(ii)** nombre; 
+  * **(iii)** memoria; 
+  * **(iv)** vCPU;
+  * **(v)** precio corriente en dólares; 
+  * **(vi)** sistema operativo; 
+  * **(vii)** IBM; 
+  * **(viii)** Google; 
+  * **(ix)** Azure; 
+  * **(x)** AWS.
 
 .. image:: /figuras/fig_usavings/051_tela_imaginary_load_balancer.png 
     :alt: pantalla imaginary load balancers
