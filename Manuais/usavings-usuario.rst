@@ -9,7 +9,7 @@ uSavings - Manual do Usuário
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
-------
+----
 
 
 Apresentação
@@ -19,7 +19,7 @@ Este documento tem como objetivo apresentar as principais características e fun
 
 Neste Manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
 
------------
+----
 
 
 Visão e posicionamento
@@ -44,13 +44,13 @@ Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões*
 
 A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataforma uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
 
-O que é uSavings?
------------------
+O que é uSavings ?
+------------------
 
 O uSavings é uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais (das máquinas virtuais, abreviado como VMs) nas diferentes nuvens, é por meio desta análise que a aplicação recomenda modificações. No caso de a organização acolher ou apoiar esta sugestão, tal decisão poderá permitir gerar o máximo de economia financeira e otimização dos recursos criados e/ou executados. A aplicação uSavings é um “cost advisor", ou seja, um consultor de custos que permite aconselhar o usuário como reduzir os custos da sua infraestrutura, bilhetada pela Plataforma uCloud, nos diversos provedores de serviços de nuvem - AWS, Azure, Google, IBM e VMWare.
 
-Como funciona?
---------------
+Como funciona ?
+---------------
 
 A plataforma do uSavings além de obter dados das diversas nuvens, extrai a informação dos dados históricos da própria Virtual Machine (máquina virtual) e da bilhetagem de cada provedor de nuvem pública – a coleta destes dados é iniciada com a integração à Plataforma do uCloud. A aplicação apresenta um painel consolidado e sugestões dos gastos do cliente em cada provedor de nuvem, entregando assim, informações precisas para a melhor tomada de decisão sobre os custos alocados dos recursos de infraestrutura da organização.
 
@@ -74,8 +74,8 @@ O recorte no organograma, destaca a parte pertinente no diagrama, ela representa
 
 * **Por Billing** - A bilhetagem do banco de dados do uCloud suporta diversas nuvens, ela difere do alcance da aplicação do uSavings. O banco de dados do uCloud pode comportar todos os tipos de billing disponíveis. Já na regra de negócio do uSavings, só é possível fazer uma sugestão assertiva com o billing para a AWS e AZURE, como mostra o diagrama, na figura recorte do organograma, apresentada acima deste parágrafo.
 
-Como economizar recursos?
--------------------------
+Como economizar recursos ?
+--------------------------
 
 A vantagem da implantação do uSavings nas organizações é a possibilidade de receber informação sobre recursos ociosos que foram criados, e até, executados anteriormente, atualmente não utilizados. Informação que pode possibilitar a economia de recursos.
 
@@ -348,6 +348,7 @@ O resultado desta análise é a sugestão da melhor combinação de CPU e memór
 
 ----
 
+
 Menu Funcionalidades
 ====================
 
@@ -424,7 +425,7 @@ Para iniciar o passo a passo deste caso de uso, é relevante lembrar que as máq
 
 No caso da inexistência das máquinas virtuais, consultar o Manual do uCloud, no tópico: Como conectar e importar *Virtual Machine*. 
 
-**1º Passo** 
+**1º Passo :** 
 Selecionar a nuvem *(container)* que deseja analisar.
 
 .. image:: /figuras/fig_usavings/026_selecionar_nuvem_vm.png 
@@ -432,7 +433,7 @@ Selecionar a nuvem *(container)* que deseja analisar.
     :align: center
 ----
 
-**2º Passo** 
+**2º Passo :** 
 Escolher a região que roda a *Virtual Machine* selecionada.
 
 .. image:: /figuras/fig_usavings/027_selecionar_regiao_vm.png 
@@ -440,10 +441,10 @@ Escolher a região que roda a *Virtual Machine* selecionada.
     :align: center
 ----
 
-**3º Passo** 
+**3º Passo :** 
 O resultado da seleção é exibido conforme a imagem *Resultado estimado da seleção* posicionada acima do tópico Caso de uso, que é a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
 
-**4º Passo**
+**4º Passo :**
 Exportar o relatório para visualização em planilha excel, na máquina do usuário. O resultado será semelhante a imagem *Relatório exportado ao excel* apresentado abaixo:
 
 .. image:: /figuras/fig_usavings/028_relatorio_exportado_excel.png 
@@ -451,7 +452,7 @@ Exportar o relatório para visualização em planilha excel, na máquina do usu�
     :align: center
 ----
 
-**5º Passo**
+**5º Passo :**
 Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na imagem a seguir. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
 
 .. image:: /figuras/fig_usavings/029_coluna_performance.png 
@@ -459,7 +460,7 @@ Existe a opção de analisar as informações de performance, na coluna Performa
     :align: center
 ----
 
-**6º Passo** 
+**6º Passo :** 
 Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 
 .. image:: /figuras/fig_usavings/030_performance_maquinas.png 
@@ -512,11 +513,11 @@ Antes de selecionar o container ou a nuvem que se deseja comparar, é necessári
 
 **Etapas do passo a passo**
 
-**1º Passo** 
+**1º Passo :** 
 
 Para realizar a análise comparativa, inicialmente, clicar no botão **Compare by Billing**. Checar se a plataforma do uCloud está bilhetada, ao menos um container deve estar bilhetado e conectado à plataforma.
 
-**2º Passo**
+**2º Passo :**
 
 Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **AWS** ou **AZURE**, em seguida clicar em **NEXT**.
 
@@ -527,7 +528,7 @@ Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **A
 
 Neste caso, a nuvem **AWS** está selecionada. Ao clicar em **NEXT**, a aplicação do uSavings apresenta a próxima tela com a pergunta: “Que nuvens participarão deste comparativo?” E solicita, ao usuário, selecionar as nuvens que deseja realizar a análise comparativa dos valores. 
 
-**3º Passo**
+**3º Passo :**
 
 Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise.
 
@@ -538,7 +539,7 @@ Ao selecionar a nuvem, o usuário deve preencher no calendário o período corre
 
 O período é importante, pois os valores da nuvem podem sofrer alteração devido o provedor de nuvem. Por esta razão é possível escolher um determinado intervalo de tempo. Este intervalo será calculado com base no Billing gerado pelo uCloud.
 
-**4º Passo**
+**4º Passo :**
 
 Selecionar as nuvens que participarão da análise comparativa de valores. O que inclui nuvens que o usuário não tem necessariamente conectada à plataforma do uCloud, como por exemplo, as nuvens IBM e GOOGLE, conforme a seguir.
 
@@ -547,7 +548,7 @@ Selecionar as nuvens que participarão da análise comparativa de valores. O que
     :align: center
 ----
 
-**5º Passo**
+**5º Passo :**
 
 Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a próxima tela destina-se a escolha da região. Importa saber que esta região corresponde ao *Flavor* cadastrado na base de dados.
 
@@ -561,7 +562,7 @@ Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a pró
     :align: center
 ----
 
-**6º Passo**
+**6º Passo :**
 
 Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem *Resultado após a escolha da região* com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
 
@@ -586,7 +587,7 @@ O segundo comparativo oferecido pela aplicação uSavings é a análise por Cont
 
 **Etapas do passo a passo**
 
-**1º Passo**
+**1º Passo :**
 
 Para realizar a análise comparativa, inicialmente, clicar no botão **Compare by Container**.
 
@@ -595,7 +596,7 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
     :align: center
 ----
 
-**2º Passo**
+**2º Passo :**
 
 Selecionar o container conforme a imagem apresentada abaixo. Este container será comparado com a nuvem selecionada anteriormente, ver imagem anterior, localizar o campo ondem estão todas as nuvens, no lado esquerdo da imagem anterior.
 
@@ -604,7 +605,7 @@ Selecionar o container conforme a imagem apresentada abaixo. Este container ser�
     :align: center
 ----
 
-**3º Passo**
+**3º Passo :**
 
 Selecionar a região e clicar em Next para finalizar a operação e obter o resultado.
 
@@ -628,7 +629,7 @@ Analisar e Exportar as informações coletadas
 
 A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de informação e selecioná-las de acordo com a necessidade de informação.
 
-**4º Passo**
+**4º Passo :**
 
 Análise e exportação das informações coletadas.
 
@@ -697,7 +698,16 @@ Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criado
 
 Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquerda para direita: 
 
-**(i)** deletar máquina virtual; **(ii)** nome; **(iii)** memória; **(iv)** vCPU; **(v)** preço atual em dólar; **(vi)** sistema operacional; **(vii)** IBM; **(viii)** Google; **(ix)** Azure; **(x)** AWS.
+  * **(i)** deletar máquina virtual; 
+  * **(ii)** nome; 
+  * **(iii)** memória; 
+  * **(iv)** vCPU; 
+  * **(v)** preço atual em dólar; 
+  * **(vi)** sistema operacional; 
+  * **(vii)** IBM; 
+  * **(viii)** Google; 
+  * **(ix)** Azure; 
+  * **(x)** AWS.
 
 .. image:: /figuras/fig_usavings/051_tela_imaginary_load_balancer.png 
     :alt: tela imaginary load balancers
@@ -706,7 +716,14 @@ Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquer
 
 A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esquerda para a direita: 
 
-**(i)** deletar load balancer; **(ii)** nome; **(iii)** instâncias; **(iv)** Regras; **(v)** Dados por mês; **(vi)** AZURE; **(vii)** GCP; **(viii)** AWS.
+  * **(i)** deletar load balancer; 
+  * **(ii)** nome; 
+  * **(iii)** instâncias; 
+  * **(iv)** Regras; 
+  * **(v)** Dados por mês; 
+  * **(vi)** AZURE; 
+  * **(vii)** GCP; 
+  * **(viii)** AWS.
 
 .. image:: /figuras/fig_usavings/052_tela_imaginary_storage.png 
     :alt: tela imaginary storage
@@ -715,7 +732,12 @@ A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esque
 
 A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda para a direita:
 
-**(i)** deletar storage; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
+  * **(i)** deletar storage; 
+  * **(ii)** nome; 
+  * **(iii)** quantidade de IP; 
+  * **(iv)** GCP; 
+  * **(v)** AZURE; 
+  * **(vi)** AWS.
 
 .. image:: /figuras/fig_usavings/053_tela_imaginary_ip.png 
     :alt: tela imaginary ip
@@ -724,7 +746,12 @@ A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda par
 
 A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a direita: 
 
-**(i)** deletar IP; **(ii)** nome; **(iii)** quantidade de IP; **(iv)** GCP; **(v)** AZURE; **(vi)** AWS.
+  * **(i)** deletar IP; 
+  * **(ii)** nome; 
+  * **(iii)** quantidade de IP; 
+  * **(iv)** GCP; 
+  * **(v)** AZURE; 
+  * **(vi)** AWS.
 
 .. image:: /figuras/fig_usavings/054_tela_imaginary_database.png 
     :alt: tela imaginary database
@@ -733,7 +760,16 @@ A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a d
 
 Na tela *Imaginary Database*, as dez informações apresentadas da esquerda para direita: 
 
-**(i)** deletar Database; **(ii)** nome; **(iii)** vCPUs; **(iv)** memória; **(v)** storage; **(vi)** banco de dados; **(vii)** Multi-Zone; **(viii)** AWS; **(ix)** AZURE; **(x)** GCP.
+  * **(i)** deletar Database; 
+  * **(ii)** nome; 
+  * **(iii)** vCPUs; 
+  * **(iv)** memória; 
+  * **(v)** storage; 
+  * **(vi)** banco de dados; 
+  * **(vii)** Multi-Zone; 
+  * **(viii)** AWS; 
+  * **(ix)** AZURE; 
+  * **(x)** GCP.
 
 .. image:: /figuras/fig_usavings/055_imaginary_clouds_containers.png 
     :alt: imaginary clouds tela containers
@@ -756,7 +792,7 @@ O ambiente *Imaginary Cloud* possibilita a criação de máquinas, importe de ar
 
 Estas telas de ambiente imaginário são resultado da intenção de prever o custo da infraestrutura do usuário/cliente ao utilizar as diferentes nuvens públicas. E, cada uma destas colunas representa o custo do que seria realizado, incluindo o custo da migração.
 
-Após toda esta imaginação de cenários, a aplicação fornece documentação em formato .CSV, pronto para importação e uso em reuniões de tomada de decisão.
+Após toda esta imaginação de cenários, a aplicação fornece documentação em formato .csv, pronto para importação e uso em reuniões de tomada de decisão.
 
 .. image:: /figuras/fig_usavings/058_criar_container_imaginario.png 
     :alt: criar container imaginario
@@ -853,7 +889,10 @@ A funcionalidade está disponível para as contas conectadas e integradas com a 
 
 Ao conectar a conta da nuvem pública na plataforma do uCloud será listada a imagem acima. Nesta imagem de seleção por tipo de nuvem ou container, podem ser selecionados os tipos de provedores de nuvens: 
 
-**(i)** GCP; **(ii)** AWS; **(iii)** AZURE; **(iv)** VMware ou selecionar um container.
+  * **(i)** GCP; 
+  * **(ii)** AWS; 
+  * **(iii)** AZURE; 
+  * **(iv)** VMware ou selecionar um container.
 
 .. image:: /figuras/fig_usavings/070_tela_recursos_nao_utilizados.png 
     :alt: tela de recursos nao utilizados
@@ -883,7 +922,7 @@ Assim, o usuário pode realizar a pesquisa e descobrir quais recursos não são 
 uCloud
 ======
 
-Ao clicar neste menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
+O último menu de funcionalidade apresenta a possibilidade de ir a plataforma uCloud, apenas clicando sobre este menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
 
 ----
 
