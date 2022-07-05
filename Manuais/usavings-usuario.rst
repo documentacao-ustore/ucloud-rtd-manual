@@ -426,6 +426,7 @@ Para iniciar o passo a passo deste caso de uso, é relevante lembrar que as máq
 No caso da inexistência das máquinas virtuais, consultar o Manual do uCloud, no tópico: Como conectar e importar *Virtual Machine*. 
 
 **1º Passo :** 
+
 Selecionar a nuvem *(container)* que deseja analisar.
 
 .. image:: /figuras/fig_usavings/026_selecionar_nuvem_vm.png 
@@ -434,6 +435,7 @@ Selecionar a nuvem *(container)* que deseja analisar.
 ----
 
 **2º Passo :** 
+
 Escolher a região que roda a *Virtual Machine* selecionada.
 
 .. image:: /figuras/fig_usavings/027_selecionar_regiao_vm.png 
@@ -442,9 +444,11 @@ Escolher a região que roda a *Virtual Machine* selecionada.
 ----
 
 **3º Passo :** 
-O resultado da seleção é exibido conforme a imagem *Resultado estimado da seleção* posicionada acima do tópico Caso de uso, que é a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.CSV**. Basta clicar no botão **Export CSV**.
+
+O resultado da seleção é exibido conforme a imagem *Resultado estimado da seleção* posicionada acima do tópico Caso de uso, que é a lista de todas as *Virtual Machines*. Nesta mesma tela, no canto superior direito, é permitido exportar a lista de resultado em formato **.csv**. Basta clicar no botão **Export .csv**.
 
 **4º Passo :**
+
 Exportar o relatório para visualização em planilha excel, na máquina do usuário. O resultado será semelhante a imagem *Relatório exportado ao excel* apresentado abaixo:
 
 .. image:: /figuras/fig_usavings/028_relatorio_exportado_excel.png 
@@ -453,6 +457,7 @@ Exportar o relatório para visualização em planilha excel, na máquina do usu�
 ----
 
 **5º Passo :**
+
 Existe a opção de analisar as informações de performance, na coluna Performance, conforme grifado na imagem a seguir. Logo após a coluna Nome, a coluna Performance apresenta um ícone com símbolo de * (asterisco).
 
 .. image:: /figuras/fig_usavings/029_coluna_performance.png 
@@ -461,6 +466,7 @@ Existe a opção de analisar as informações de performance, na coluna Performa
 ----
 
 **6º Passo :** 
+
 Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 
 .. image:: /figuras/fig_usavings/030_performance_maquinas.png 
@@ -469,6 +475,7 @@ Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 ----
 
 O relatório de performance proporciona a visualização do gráfico com a média do consumo de CPU e da memória da virtual máquina selecionada, num período de aproximadamente 15 a 20 dias.
+
 
 Compare Clouds
 --------------
@@ -491,7 +498,13 @@ Existem duas maneiras de realizar esta análise comparativa, comparar **por Bill
     :align: center
 ----
 
-Na imagem acima são apresentadas duas barras com a possibilidade de realizar a análise comparativa: **Comparar por Bilhetagem** e **Comparar por Container**. Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a seguir:
+Na imagem acima são apresentadas duas barras com a possibilidade de realizar a análise comparativa: 
+
+  * **Comparar por Bilhetagem** 
+  e 
+  * **Comparar por Container**. 
+  
+Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a seguir:
 
 .. image:: /figuras/fig_usavings/033_selecao_compare_billing_compare_container.png 
     :alt: selecao compare billing compare container
@@ -658,11 +671,11 @@ Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuv
 
 Nesta tela, é possível ver o comparativo dos *flavors* e nuvens. Além disso, ao passar o mouse sobre os diferentes *flavors*, será exibida a combinação de CPU, memória e seu respectivo custo. Nesta tabela também é possível alterar as sugestões feitas pelo uSavings, caso não se adeque ao uso do usuário e da organização.
 
-A imagem acima, *Tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta.
+A imagem acima, *tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta.
 
 Ao clicar nesta informação, será aberto um menu que permite ao usuário alterar o *Flavor* sugerido na nuvem.
 
-No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs *g1-small* serão calculadas como *e2-small*. Consultar no relatório exportado no formato .CSV Figura abaixo:
+No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs *g1-small* serão calculadas como *e2-small*. Consultar na figura abaixo que apresenta o relatório exportado no formato .csv:
 
 .. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
     :alt: relatorio exportado em csv
@@ -699,11 +712,11 @@ Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criado
 Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquerda para direita: 
 
   * **(i)** deletar máquina virtual; 
-  * **(ii)** nome; 
-  * **(iii)** memória; 
+  * **(ii)** Nome; 
+  * **(iii)** Memória; 
   * **(iv)** vCPU; 
-  * **(v)** preço atual em dólar; 
-  * **(vi)** sistema operacional; 
+  * **(v)** Preço atual em dólar; 
+  * **(vi)** Sistema operacional; 
   * **(vii)** IBM; 
   * **(viii)** Google; 
   * **(ix)** Azure; 
@@ -716,9 +729,9 @@ Na tela *Imaginary Virtual Machine*, as dez informações apresentadas da esquer
 
 A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esquerda para a direita: 
 
-  * **(i)** deletar load balancer; 
-  * **(ii)** nome; 
-  * **(iii)** instâncias; 
+  * **(i)** Deletar load balancer; 
+  * **(ii)** Nome; 
+  * **(iii)** Instâncias; 
   * **(iv)** Regras; 
   * **(v)** Dados por mês; 
   * **(vi)** AZURE; 
@@ -732,9 +745,9 @@ A tela *Imaginary Load Balancers* apresenta oito informações na tela, da esque
 
 A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda para a direita:
 
-  * **(i)** deletar storage; 
-  * **(ii)** nome; 
-  * **(iii)** quantidade de IP; 
+  * **(i)** Deletar storage; 
+  * **(ii)** Nome; 
+  * **(iii)** Quantidade de IP; 
   * **(iv)** GCP; 
   * **(v)** AZURE; 
   * **(vi)** AWS.
@@ -746,9 +759,9 @@ A tela *Imaginary Storage* apresenta seis informações na tela, da esquerda par
 
 A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a direita: 
 
-  * **(i)** deletar IP; 
-  * **(ii)** nome; 
-  * **(iii)** quantidade de IP; 
+  * **(i)** Deletar IP; 
+  * **(ii)** Nome; 
+  * **(iii)** Quantidade de IP; 
   * **(iv)** GCP; 
   * **(v)** AZURE; 
   * **(vi)** AWS.
@@ -760,12 +773,12 @@ A tela *Imaginary IP* apresenta seis informações na tela, da esquerda para a d
 
 Na tela *Imaginary Database*, as dez informações apresentadas da esquerda para direita: 
 
-  * **(i)** deletar Database; 
-  * **(ii)** nome; 
+  * **(i)** Deletar Database; 
+  * **(ii)** Nome; 
   * **(iii)** vCPUs; 
-  * **(iv)** memória; 
-  * **(v)** storage; 
-  * **(vi)** banco de dados; 
+  * **(iv)** Memória; 
+  * **(v)** Storage; 
+  * **(vi)** Banco de dados; 
   * **(vii)** Multi-Zone; 
   * **(viii)** AWS; 
   * **(ix)** AZURE; 
@@ -790,7 +803,7 @@ A partir deste ambiente é permitido ao usuário criar ambiente imaginário (con
 
 O ambiente *Imaginary Cloud* possibilita a criação de máquinas, importe de arquivo .csv com o inventário da infraestrutura, permite a criação de container e apresentação de uma tela com o custo das diferentes nuvens.
 
-Estas telas de ambiente imaginário são resultado da intenção de prever o custo da infraestrutura do usuário/cliente ao utilizar as diferentes nuvens públicas. E, cada uma destas colunas representa o custo do que seria realizado, incluindo o custo da migração.
+Estas telas de ambiente imaginário são resultado da intenção de prever o custo da infraestrutura do usuário/cliente ao utilizar as diferentes nuvens públicas. Cada uma destas colunas representa o custo do que seria realizado, incluindo o custo da migração.
 
 Após toda esta imaginação de cenários, a aplicação fornece documentação em formato .csv, pronto para importação e uso em reuniões de tomada de decisão.
 
@@ -815,7 +828,7 @@ Começando com a criação da *Virtual Machine*, temos uma série de *inputs* qu
 
 Após a sua criação, são apresentados os resultados na tela, em dois formatos: 
  * **(i)** os gráficos relacionando as VMs com os Flavors desejados para cada uma das *clouds* que o produto cobre; 
- * **(ii)** uma tabela .CSV que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
+ * **(ii)** uma tabela .csv que pode ser exportada para a necessidade do usuário de outras informações além das apresentadas no gráfico, caso o gráfico não seja suficiente ou satisfatório.
 
 .. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
     :alt: comparativo ao criar load balancer
@@ -866,7 +879,7 @@ Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, mem�
     :align: center
 ----
 
-Após a criação também receberemos uma tabela com os dados que foram criados e os preços existentes de mercado.
+Após a criação será recebida uma tabela com os dados que foram criados e os preços existentes de mercado.
 
 Caso o usuário considere necessário deletar o *Imaginary Cloud*, após a criação de todos esses itens, temos a opção de apagar qualquer um deles a qualquer momento, no caso de apagar os itens dentro do container deve-se clicar no símbolo de lixeira a esquerda da tabela. Para apagar o container deve-se clicar nele e preencher um modal com o nome do item que se deseja deletar.
 
@@ -922,7 +935,7 @@ Assim, o usuário pode realizar a pesquisa e descobrir quais recursos não são 
 uCloud
 ======
 
-O último menu de funcionalidade apresenta a possibilidade de ir a plataforma uCloud, apenas clicando sobre este menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
+O último menu de funcionalidade apresenta a possibilidade de ir à plataforma uCloud, apenas clicando sobre este menu a aplicação uSavings encaminha o usuário à plataforma do uCloud.
 
 ----
 
