@@ -709,12 +709,12 @@ En la pantalla de inicio de *Imaginary Cloud* se pueden ver los Contenedores cre
 
 En la pantalla *Imaginary Virtual Machine*, son diez las piezas de información presentadas de izquierda a derecha:
 
-  * **(i)** eliminar maquina virtual; 
-  * **(ii)** nombre; 
-  * **(iii)** memoria; 
+  * **(i)** Eliminar maquina virtual; 
+  * **(ii)** Nombre; 
+  * **(iii)** Memoria; 
   * **(iv)** vCPU;
-  * **(v)** precio corriente en dólares; 
-  * **(vi)** sistema operativo; 
+  * **(v)** Precio corriente en dólares; 
+  * **(vi)** Sistema operativo; 
   * **(vii)** IBM; 
   * **(viii)** Google; 
   * **(ix)** Azure; 
@@ -727,9 +727,9 @@ En la pantalla *Imaginary Virtual Machine*, son diez las piezas de información 
 
 La pantalla *Imaginary Load Balancers* muestra ocho piezas de información en la pantalla, de izquierda a derecha:
 
-  * **(i)** eliminar load balancer; 
-  * **(ii)** nombre; 
-  * **(iii)** instancias; 
+  * **(i)** Eliminar load balancer; 
+  * **(ii)** Nombre; 
+  * **(iii)** Instancias; 
   * **(iv)** Reglas; 
   * **(v)** Datos por mes; 
   * **(vi)** AZURE; 
@@ -743,9 +743,9 @@ La pantalla *Imaginary Load Balancers* muestra ocho piezas de información en la
 
 La pantalla *Imaginary Storage* muestra seis piezas de información en la pantalla, de izquierda a derecha:
 
-  * **(i)** eliminar storage; 
-  * **(ii)** nombre; 
-  * **(iii)** cantidad de IP; 
+  * **(i)** Eliminar storage; 
+  * **(ii)** Nombre; 
+  * **(iii)** Cantidad de IP; 
   * **(iv)** GCP; 
   * **(v)** AZURE; 
   * **(vi)** AWS.
@@ -758,9 +758,9 @@ La pantalla *Imaginary Storage* muestra seis piezas de información en la pantal
 La pantalla *Imaginary IP* muestra seis piezas de información en la pantalla, de 
 izquierda a derecha:
 
-  * **(i)** eliminar IP; 
-  * **(ii)** nombre; 
-  * **(iii)** cantidad de IP; 
+  * **(i)** Eliminar IP; 
+  * **(ii)** Nombre; 
+  * **(iii)** Cantidad de IP; 
   * **(iv)** GCP; 
   * **(v)** AZURE; 
   * **(vi)** AWS.
@@ -772,12 +772,12 @@ izquierda a derecha:
 
 En la pantalla Imaginary Database, las diez piezas de información presentadas de izquierda a derecha:
 
-  * **(i)** eliminar Database; 
-  * **(ii)** nombre; 
+  * **(i)** Eliminar Database; 
+  * **(ii)** Nombre; 
   * **(iii)** vCPUs; 
-  * **(iv)** memoria; 
-  * **(v)** storage; 
-  * **(vi)** banco de datos; 
+  * **(iv)** Memoria; 
+  * **(v)** Storage; 
+  * **(vi)** Banco de datos; 
   * **(vii)** Multi-Zone; 
   * **(viii)** AWS; 
   * **(ix)** AZURE; 
@@ -827,9 +827,9 @@ Comenzando con la creación de la Máquina Virtual, tenemos una serie de entrada
 
 Después de su creación, los resultados se presentan en la pantalla, en dos formatos: 
 
- * **1.** Los gráficos que relacionan las máquinas virtuales con los Flavors deseados para 
-cada una de las nubes que cubre el producto; 
- * **2.** Un cuadro .CSV que se puede exportar a la necesidad del usuario de información distinta de las presentadas en el gráfico, si el gráfico no es suficiente o satisfactorio.
+ * **1.** Los gráficos que relacionan las máquinas virtuales con los Flavors deseados para cada una de las nubes que cubre el producto; 
+
+ * **2.** Un cuadro formato.csv que se puede exportar a la necesidad del usuario de información distinta de las presentadas en el gráfico, si el gráfico no es suficiente o satisfactorio.
 
 .. image:: /figuras/fig_usavings/061_comparativo_criar_load_balancer.png 
     :alt: comparación al crear load balancer
@@ -883,7 +883,9 @@ Para que la operación tenga éxito necesitaremos rellenar nombre, vCPU, memoria
 
 Después de la creación también recibiremos una tabla con los datos que se crearon y los precios de mercado existentes.
 
-Si el usuario lo considera necesario eliminar el *Imaginary Cloud*, Después de crear todos estos elementos, tenemos la opción de eliminar cualquiera de ellos en cualquier momento, en caso de eliminar los elementos dentro del contenedor se debe hacer clic en el símbolo de la papelera a la izquierda de la tabla. Para eliminar el contenido o debe hacer clic en él y rellenar un modal con el nombre del elemento que desea eliminar.
+Si el usuario lo considera necesario eliminar el *Imaginary Cloud*, Después de crear todos estos elementos, tenemos la opción de eliminar cualquiera de ellos en cualquier momento, en caso de eliminar los elementos dentro del contenedor se debe hacer clic en el símbolo de la papelera a la izquierda de la tabla. 
+
+Para eliminar el contenido o debe hacer clic en él y rellenar un modal con el nombre del elemento que desea eliminar.
 
 
 Contenedor Hint
@@ -919,32 +921,26 @@ El usuario debe seleccionar una de las cuatro nubes que quiere buscar para averi
 
 Después de seleccionar la nube deseada, la pantalla presenta una lista que le permite buscar las siguientes características:
 
-* **Disks** - Enumera los discos que se crearon y no están asociados a ninguna 
-máquina virtual;
+* **Disks** - Enumera los discos que se crearon y no están asociados a ninguna máquina virtual;
 
-* **Public IP** - – Enumera las direcciones IP públicas que se han solicitado en algún 
-momento que generan costos y no están asociadas a ninguna máquina virtual;
+* **Public IP** - – Enumera las direcciones IP públicas que se han solicitado en algún momento que generan costos y no están asociadas a ninguna máquina virtual;
 
-* **Disk Snapshot** - Enumera todas las instantáneas de los discos creados, no 
-distingue a mano cuáles de ellos deben o no deben eliminarse;
+* **Disk Snapshot** - Enumera todas las instantáneas de los discos creados, no distingue a mano cuáles de ellos deben o no deben eliminarse;
 
-* **VM Snapshot** - Enumera todas las instantáneas de las máquinas virtuales 
-creadas, no distingue cuáles de ellas deben o no deben eliminarse.
+* **VM Snapshot** - Enumera todas las instantáneas de las máquinas virtuales creadas, no distingue cuáles de ellas deben o no deben eliminarse.
 
-* **Load Balancer** - Enumera todos los Load Balancer creados, pero no distingue 
-cuáles de ellos deben o no deben borrarse.
+* **Load Balancer** - Enumera todos los Load Balancer creados, pero no distingue cuáles de ellos deben o no deben borrarse.
 
 * **Virtual Machine** - Enumera todas las máquinas virtuales creadas.
 
-Así, el usuario puede realizar la búsqueda y averiguar qué recursos no se utilizan o 
-generan costes innecesarios para la organización.
+Así, el usuario puede realizar la búsqueda y averiguar qué recursos no se utilizan o generan costes innecesarios para la organización.
 
 ----
 
 uCloud
 ------
 
-El menú de funcionalidad presenta la posibilidad de ir a la plataforma uCloud solamente con un hacer de clic en este menú, la aplicación uSavings envía el usuario a la plataforma uCloud.
+El último menú de funcionalidad presenta la posibilidad de ir a la plataforma uCloud solamente con un hacer de clic en este menú, la aplicación uSavings envía el usuario a la plataforma uCloud.
 
 -------
 
