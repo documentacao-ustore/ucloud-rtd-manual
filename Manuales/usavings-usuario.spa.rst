@@ -673,7 +673,7 @@ La imagen arriba muestra los detalles por cada *Virtual Machine* y costos por nu
 
 Al hacer clic en esta información, se abrirá un menú que le permite al usuario cambiar el *Flavor* sugerido en la nube.
 
-Si selecciona otro *Flavor*, la aplicación uSavings le preguntará si desea cambiarlo por otros similares o parecidos. Si es así, todas las máquinas virtuales *g1-small* se calcularán como *e2-small*. Ver el informe exportado en formato .CSV imagen siguiente:
+Si selecciona otro *Flavor*, la aplicación uSavings le preguntará si desea cambiarlo por otros similares o parecidos. Si es así, todas las máquinas virtuales *g1-small* se calcularán como *e2-small*. Ver el informe exportado en formato.csv imagen siguiente:
 
 .. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
     :alt: informe exportado en .csv
@@ -800,11 +800,11 @@ A partir de este entorno, el usuario puede crear un entorno imaginario (contened
     :align: center
 ----
 
-El ambiente Imaginary Cloud permite la creación de máquinas, importar desde un archivo .csv con el inventario de infraestructura, permite la creación de un contenedor y presentación de una pantalla con el costo de las diferentes nubes.
+El ambiente Imaginary Cloud permite la creación de máquinas, importar desde un archivo.csv con el inventario de infraestructura, permite la creación de un contenedor y presentación de una pantalla con el costo de las diferentes nubes.
 
 Estas pantallas de entorno imaginario son el resultado de la intención de predecir el coste de la infraestructura del usuario/cliente al utilizar las diferentes nubes públicas. Y cada una de estas columnas representa el costo de lo que se lograría, incluido el costo de la migración.
 
-Después de toda esta imaginación de escenarios, la aplicación brinda documentación en formato .CSV, lista para importar y usar en reuniones de toma de decisiones.
+Después de toda esta imaginación de escenarios, la aplicación brinda documentación en formato.csv, lista para importar y usar en reuniones de toma de decisiones.
 
 .. image:: /figuras/fig_usavings/058_criar_container_imaginario.png 
     :alt: crear contenedor imaginario
