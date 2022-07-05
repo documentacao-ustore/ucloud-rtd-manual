@@ -500,8 +500,7 @@ Existem duas maneiras de realizar esta análise comparativa, comparar **por Bill
 
 Na imagem acima são apresentadas duas barras com a possibilidade de realizar a análise comparativa: 
 
-  * **Comparar por Bilhetagem** 
-  e 
+  * **Comparar por Bilhetagem** e 
   * **Comparar por Container**. 
   
 Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a seguir:
