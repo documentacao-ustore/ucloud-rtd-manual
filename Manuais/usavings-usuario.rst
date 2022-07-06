@@ -531,7 +531,7 @@ Para realizar a análise comparativa, inicialmente, clicar no botão **Compare b
 
 **2º Passo :**
 
-Selecionar a nuvem contendo todos os seus containers, *Figura 34*. Clicar em **AWS** ou **AZURE**, em seguida clicar em **NEXT**.
+Selecionar a nuvem contendo todos os seus containers, imagem abaixo. Clicar em **AWS** ou **AZURE**, em seguida clicar em **NEXT**.
 
 .. image:: /figuras/fig_usavings/034_recorte_compare_billing.png 
     :alt: recorte compare by billing
@@ -576,7 +576,7 @@ Neste caso, ao selecionar qualquer uma das nuvens públicas relacionadas, a pró
 
 **6º Passo :**
 
-Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem *Resultado após a escolha da região* com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
+Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem *"Resultado após a escolha da região"* com o resultado por extenso da região selecionada. E um botão que permite apagar a região, para a possibilidade de erro e escolha de outra região.
 
 .. image:: /figuras/fig_usavings/038_resultado_escolha_regiao.png 
     :alt: resultado apos a escolha da regiao 
@@ -590,7 +590,7 @@ Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e 
 Comparar por Container
 ~~~~~~~~~~~~~~~~~~~~~~
 
-O segundo comparativo oferecido pela aplicação uSavings é a análise por Container. É necessário selecionar e avançar a sequência do processo para obter o resultado pretendido que é a análise comparativa por container. Para o processo acontecer é primordial selecionar uma outra nuvem, além da nuvem inicial escolhida. 
+O segundo comparativo oferecido pela aplicação uSavings é a análise por **Container**. É necessário selecionar e avançar a sequência do processo para obter o resultado pretendido que é a análise comparativa por container. Para o processo acontecer é primordial selecionar uma outra nuvem, além da nuvem inicial escolhida. 
 
 .. image:: /figuras/fig_usavings/039_selecao_comparativo_container.png 
     :alt: selecao do comparativo por container 
@@ -652,7 +652,7 @@ A imagem abaixo exibe alguns cards demonstrando valores sobre as sugestões na m
     :align: center
 ----
 
-A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de informação e selecioná-las de acordo com a necessidade de informação. Este comparativo de nuvem possibilita perceber que há dois tipos de comparativo: ON DEMAND e RESERVED.
+A plataforma uSavings permite ao usuário navegar em cada uma destas unidades de informação e selecioná-las de acordo com a necessidade de informação. Este comparativo de nuvem possibilita perceber que há dois tipos de comparativo: *ON DEMAND* e *RESERVED*.
 
 .. image:: /figuras/fig_usavings/045_representacao_grafica_preco_nuvem.png 
     :alt: representacao grafica dos precos das nuvens
@@ -670,11 +670,11 @@ Ao baixar a tela, a segunda parte do comparativo dos *Flavors* **versus** as nuv
 
 Nesta tela, é possível ver o comparativo dos *flavors* e nuvens. Além disso, ao passar o mouse sobre os diferentes *flavors*, será exibida a combinação de CPU, memória e seu respectivo custo. Nesta tabela também é possível alterar as sugestões feitas pelo uSavings, caso não se adeque ao uso do usuário e da organização.
 
-A imagem acima, *tela de resultado* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta.
+Na imagem acima *"Tela de resultado"* exibe o detalhamento por cada *Virtual Machine* e os custos por nuvem, o usuário pode passar o mouse e visualizar o custo do *Flavor* na nuvem distinta.
 
 Ao clicar nesta informação, será aberto um menu que permite ao usuário alterar o *Flavor* sugerido na nuvem.
 
-No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs *g1-small* serão calculadas como *e2-small*. Consultar na figura abaixo que apresenta o relatório exportado no formato .csv:
+No caso de selecionar outro *Flavor* a aplicação do uSavings perguntará se deseja alterá-lo para outros semelhantes ou iguais. No caso afirmativo, todas as VMs *"g1-small"* serão calculadas como *"e2-small"*. Consultar na figura abaixo que apresenta o relatório exportado no formato .csv :
 
 .. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
     :alt: relatorio exportado em csv
@@ -701,7 +701,7 @@ O submenu *Imaginary Cloud* permite criar um ambiente imaginário, na intenção
     :align: center
 ----
 
-Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criados e é possível Deletar Container. Assim como, visualizar as *Virtual Machines*. *Load Balancer*, *Storage*, *IP* e *Database*. A seguir, o detalhamento das telas e a descrição das colunas destes 5 itens:
+Na tela inicial do *Imaginary Cloud* podem ser visualizados os Containers criados, além de ser possível **Deletar Container**. Assim como, visualizar as *Virtual Machines*. *Load Balancer*, *Storage*, *IP* e *Database*. A seguir, o detalhamento das telas e a descrição das colunas destes 5 itens:
 
 .. image:: /figuras/fig_usavings/050_tela_imaginary_vm.png 
     :alt: tela imaginary vm
@@ -834,16 +834,25 @@ Após a sua criação, são apresentados os resultados na tela, em dois formatos
     :align: center
 ----
 
-Temos a opção de criar um *Load Balancer* imaginário da mesma forma, com 4 *inputs* essa criação também necessita de um nome – O *input* Nome será necessário para todas as opções de criação - e de 3 novos *inputs*: instâncias, Regras de transferência e dados por mês em GB. 
+A aplicação possui a opção de criar um *Load Balancer* imaginário da mesma forma, com 4 *inputs* essa criação também necessita de um nome – O *input* Nome será necessário para todas as opções de criação - e de 3 novos *inputs*: 
 
-Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo será a nuvem GCP. É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
+  * Instâncias, 
+  * Regras de transferência e 
+  * Dados por mês em GB. 
+
+Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar, que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo será a nuvem GCP. É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
 
 .. image:: /figuras/fig_usavings/062_criar_storage_imaginary_cloud.png 
     :alt: criar storage imaginary cloud
     :align: center
 ----
 
-Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *inputs* que consistem nos *inputs*: nome, instâncias, quantidade de transações e tamanho em GB.
+Seguindo o processo, criar um *Storage* imaginário da mesma forma, com 4 *inputs* que consistem nos *inputs*: 
+
+  * Nome, 
+  * Instâncias, 
+  * Quantidade de transações e 
+  * Tamanho em GB.
 
 .. image:: /figuras/fig_usavings/063_criar_storage.png 
     :alt: criar storage
@@ -857,7 +866,10 @@ Após a criação de um *Storage*, a tela de apresentação será semelhante a e
     :lign: center
 ----
 
-Para a penúltima opção de criação temos o IP, que segue a mesma lógica, necessitando somente de 2 *Inputs*: Nome e quantidade de IPs.
+Para a penúltima opção de criação temos o IP, que segue a mesma lógica, necessitando somente de 2 *Inputs*: 
+
+  * Nome e 
+  * Quantidade de IPs.
 
 .. image:: /figuras/fig_usavings/065_criar_ip.png 
     :alt: criar ip
@@ -881,6 +893,7 @@ Para que a operação seja bem-sucedida precisaremos preencher Nome, vCPUs, mem�
 Após a criação será recebida uma tabela com os dados que foram criados e os preços existentes de mercado.
 
 Caso o usuário considere necessário deletar o *Imaginary Cloud*, após a criação de todos esses itens, temos a opção de apagar qualquer um deles a qualquer momento, no caso de apagar os itens dentro do container deve-se clicar no símbolo de lixeira a esquerda da tabela. Para apagar o container deve-se clicar nele e preencher um modal com o nome do item que se deseja deletar.
+
 
 Container Hint
 --------------
