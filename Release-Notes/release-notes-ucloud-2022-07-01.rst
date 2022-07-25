@@ -20,6 +20,15 @@ Atenta à evolução constante do mercado brasileiro e às demandas dos nossos u
 
 Além da ampliação do conceito existente, este release notes detalha o update ocorrido na plataforma uCloud, constante na (tag.5.2-b35) atendendo às diversas demandas mercadológicas dos nossos clientes, capazes de transformar a forma de gerenciar nuvens públicas e privadas com a plataforma uCloud.
 
+sasdasdasd
+asdasdaosiduo diua sdoiua dsoiaus doiausd oiu osiud oaids
+asdasdasdasdasdasda
+ aasd asdas asda sdas asdasd asd asda sd
+
+asdasdad
+
+
+
 **Novas implementações**
 ------------------------
 
