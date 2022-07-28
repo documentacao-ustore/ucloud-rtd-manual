@@ -4119,8 +4119,7 @@ Esta seção, na parte inferior da tela, permite exportar relatórios no formato
 
 ----
 
-**Resumo do Relatório Custo Cadenciado**
-########################################
+* **Resumo do Relatório Custo Cadenciado**
 
 No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
 
@@ -4288,10 +4287,9 @@ A última parte deste relatório a Plataforma uCloud apresenta a lista com as in
 
 * **Valor**: Nesta coluna a Plataforma uCloud apresenta a somatória dos custos referente ao período selecionado.
 
-**Resumo do Relatório Custo Relacional de Produto**
-###################################################
+* **Resumo do Relatório Custo Relacional de Produto**
 
-Atravé deste relatório o usuário pode comparar os custos de *Família de Produtos* tanto dentro de uma (ou várias) *Linked Account*, bem como alternar para a visão da evolução dos custos de *Família de Produtos* dentro de um período selecionado (diário, semanal, mensal).
+Através deste relatório o usuário pode comparar os custos de *Família de Produtos* tanto dentro de uma (ou várias) *Linked Account*, bem como alternar para a visão da evolução dos custos de *Família de Produtos* dentro de um período selecionado (diário, semanal, mensal).
 
 Este relatório tem uma grande valia na inteligência de negócio, pois pode ajudar ao Administrador de Custos preparar visões Orcamentárias (*Previsto vs. Realizado*) que não estavam muito claras, devido a aomplexidade de análise dos arquivos de *billing (CSV)* do provedor de serviço de nuvem pública, quando existem diversas *Linked Accounts* no cenário de organização de contas.
 
@@ -4361,8 +4359,7 @@ Abaixo descrevemos os campos para apresentação deste relatório:
 
 A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos computacionais que acumulam valores e custos mensais. O usuário pode selecionar qual tipo de recurso que deseja visualizar entre: Máquinas Virtuais, Banco de Dados e *Storage*.
 
-**Visualização de Custos por Máquinas Virtuais**
-################################################
+**Seção Visualização de Custos por Máquinas Virtuais**
 
 * **Botão VM**: Quando o usuário clicar com o cursor do mouse sobre este botão a Plataforma uCloud apresenta o relatório que demonstra o Custo Total do consumo realizado do serviço de Compute, ou seja, quanto foi gasto em dólares com máquinas virtuais (CPU e memória) agrupados por tipos de flavors.
 
@@ -4410,7 +4407,6 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 ----
 
 **Visualização de Custos por Banco de Dados**
-#############################################
 
 .. image:: /figuras/ucloud_menu_financeiro005k.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -4457,7 +4453,6 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 
 **Visualização de Custos por Storage**
-######################################
 
 .. image:: /figuras/ucloud_menu_financeiro005m.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -4574,30 +4569,128 @@ Por padrao a Plataforma uCloud apresenta os três primeiros quadros:
   * **Botão Detalhes**: 
 
 
-Financeiro
-~~~~~~~~~~
+Botão Financeiro
+~~~~~~~~~~~~~~~~
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+Este relatório financeiro  faz parte dos Relatóris Baseados em Fatura, desta forma a Plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mes corrente (meses com faturamente fechado). Caso o usuário consulte desejar consultar os valores do mês corrente, e a data atual, não estiver próxima ao fechamento a Plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser considerados válidos até o fechamento das mesmas.
 
-* Máquinas Virtuais
+.. note:: Importante mencionar que este botão será visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão ficará oculto, não será apresentado na interface da Plataforma uCloud.
 
-* Assinaturas
+Este relatório permite uma navegação profunda (*drill down*) dos valores de consumo dos recursos computacionais de nuvem pública/privada desde o nivel mais abrangente que é o Contrato, passando pelo consumo do(s) Grupo(s), chegando a profundidade da listagem completa e detalhada de todos os recusos computacionais, com seus valores (diretos e indiretos), vinculados a um usuário específico.
 
-* Snapshots
+Primeiramente devemos recordar como a Plataforma uCloud se organiza internamente para efetuar a totalização de valores financeiros de um contrato. Vamos usar a figura abaixo para descrever este processo.
 
-* IPs Públicos
+.. image:: /figuras/ucloud_menu_financeiro013.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 80 %
+   :align: center
+----
 
-* Balanceadores
+A imagem representa a existência de um Contrato que possui vinculado a este, Virtual Datacenters (VDCs), Usuários e Grupos.
 
-* Zonas DNS
+Todos os usuários provisionados iniciam com o perfil *Usuários de Sistema*, mas este usuário poderá ser vinculado a um Grupo como Administrador de Grupo ou a um Contrato como Administrador de Contrato. Neste momento a Plataforma uCloud altera e aplica o Perfil de Permissionamento deste(s) usuário(s) e aplica o conjunto de permissões corretos para este usuário (Admin de Grupo e/ou Admin de Contrato). A Plataforma uCloud permite que um usuário possa acumular, de forma simultânea, as funções de Administrador de Grupo e Administrador de Grupo para qualquer Usuário de Sistema provisionado.
 
-* VPNs
+Todo e qualquer recurso computacional, de provedor de nuvem pública/privada (ex.: Máquina Virtual, Storage, Bases de Dados, etc), está sempre vinculado a um usuário provisionado no contrato e este usuário associado a um Grupo.
 
-* Itens não gerenciados
+* **Valor Total do Contrato**: O valor total de consumo dos recursos computacionais de todo o Contrato em um período (*mês*) é a somatória dos valores de consumo no período (*mês*) de todos os recursos computacionais vinculados a **todos os usuários vinculados ao CONTRATO**.
+
+* **Valor Total do Grupo**: O valor total de consumo de recurso computacional de um Grupo em um período (mês) é a somatória dos valores de consumo no período (mês) de todos os recursos computacionais vinculados a **todos os usuários vinculados ao GRUPO**.
+
+Este relatório Financeiro, permite ao usuário com perfil de Administrador de Contrato, conhecer em detalhes ("*drill down*) os valores do Total do Contrato, valores do Total de um Grupo, valores do Total de um Usuário.
+
+O último nível de apresentação de valores (Valores de Consumo de um Usuário), A Plataforma do uCLoud relaciona uma relação detalhada e completa de todos os valores diretos dos recursos computacionais (e de valores indiretos ex.: Transferência de Dados - *Data Transfer*) que estão no arquivo de billing do provedor de serviço de nuvem pública/privada.
+
+Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o botão de “Financeiro”, a Plataforma do uCloud apresenta uma tela para o Usuário Adminstrador de Contrato selecionar qual o contrato será utilizado para apresentar os quadrantes conforme imagem abaixo.
+
+.. image:: /figuras/ucloud_menu_financeiro002.png
+   :alt: Menu Financeiro - Relatorio Visualização de Recursos
+   :scale: 80 %
+   :align: center
+----
+
+A Plataforma do uCloud permite visualizar os dados financeiros de apenas um único contrato, e abaixo apresentamos um exemplo do resumo financeiro de um contrato (a figura abaixo é meramente ilustrativa):
+
+.. image:: /figuras/ucloud_menu_financeiro013a.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 80 %
+   :align: center
+----
+
+Abaixo descrevemos como interpretar os campos e botões iniciais.
+
+* **Campo Período**: Este campo pe apresentado com o mês corrente que a sessão do usuário está acessando este relatório. Quando o usuário clicar com o cursor do mouse sobre este campo, a Platafora uCloud apresenta um *popup* que permite ao usuário informar um mês anterior ao corrente.
+
+.. image:: /figuras/ucloud_menu_financeiro013f.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 50 %
+   :align: center
+----
+
+* **Botão Exportar**: Este botão permite ao usuário expostar os dados brutos que estão nas bases de dados da Plataforma uCloud. Estes dados foram utilizados para o cálculo e apresentação em tela deste relatório. Basta o usuário clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar as duas opções para exportação dos dados:
+  
+  * **PDF**: Esta opção indica para a Plataforma uCloud que o usuário deseja ue a informação simplificada seja apresentada em um arquivo de formato aberto Portable Document Format (*PDF*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Platafrma uCloud irá iniciar o *download* de um relatório somelhante ao apresentado abaixo (imagem meramente ilustrativa):
+
+.. image:: /figuras/ucloud_menu_financeiro013b.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 50 %
+   :align: center
+----
+
+  * **CSV**: Esta opção indica para a Plataforma uCloud que o usuário deseja ue a informação simplificada seja apresentada em um arquivo texto de formato Comma-Separated Values (*CSV*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Platafrma uCloud irá iniciar o *download* de um relatório somelhante ao apresentado abaixo (imagem meramente ilustrativa - os dados com as identificações foram suprimidos):
+
+.. image:: /figuras/ucloud_menu_financeiro013e.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 50 %
+   :align: center
+----
+
+  O usuário pode utilizar qualquer aplicação de Planilhas de Cálculo para a visualização do conteúdo deste arquivo. Importante ressaltar que para a correta importação dos dados e visualização do conteúdo deste arquivo texto o usuário deverá selecionar a coluna inicial toda e utilizar a opção de "Separador VÍRGULA" na opção de importação de arquivo texto para colunas da ferramenta de Planilha de Cálculo (ex.: MS-Excel), conforme o exemplo abaixo:
+
+.. image:: /figuras/ucloud_menu_financeiro013d.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 50 %
+   :align: center
+----
+
+  O resultado será uma planilha de cálculo apresentada acima com os valores separados pos colunas, que o usuário poderá manipular estes dados da forma como melhor lhe convém.
+
+Abaixo descrevemos os quadros apresentados neste relatório:
+
+.. image:: /figuras/ucloud_menu_financeiro013a.png
+   :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
+   :scale: 80 %
+   :align: center
+----
+
+* **Quadro Fatura do Contrato**: Este quadro apresenta as informações do nome do contrato selecionado e as informações referente a conversão de valores monetários de moeda (quando houver) que foram provisionados no Contrato (Seção Informações Financeiras)
+* **Quadro Gráfico de Barras**:
+* **Quadro Gráfico de Pizza**:
+* **Quadro Grupos**:
+
+valor apresentado abaixo, associado a fatura do mês 8, de R $58.619,01 é referente ao consumo dos dias 01/07/21 até 31/07/21. Portanto, o custo acima é referente a FATURA à ser paga no mês de 08 (agosto) seguindo as regras de faturamento cadastradas no CONTRATO, conforme imagem abaixo.
+
+É possível ver uma visão mais granulada por usuários, para isso expandir a opção DETALHES escolher o GRUPO que deseja listar os usuários, conforme mostra a imagem abaixo. Caso o CONTRATO tenha mais de 1 grupo, o painel irá listar todos os GRUPOS e seus respectivos custos. Ao acessar o custo do GRUPO, o painel irá apresentar a seguinte imagem.
+
+Para ter a visão de gastos por usuário, expanda a opção DETALHES conforme imagem abaixo.
+
+Selecione o usuário que deseja consultar, como na imagem abaixo;
+
+
+* **Máquinas Virtuais**:
+
+* **Assinaturas**:
+
+* **Snapshots**:
+
+* **IPs Públicos**:
+
+* **Balanceadores**:
+
+* **Zonas DNS**:
+
+* **VPNs**:
+
+* **Itens não gerenciados**:
 
 
 Relatório Consolidado de Faturamento
@@ -7091,12 +7184,7 @@ Neste ponto o usuário deve clicar com o cursor do mouse sobre o botão **+Criar
   * **Virtual Datacenter**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todos os Virtual Datacenters os quais o usuário  está vinculado. O usuário deve selecionar um VDC da lista.
   * **Máquina Virtual**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todas as máquinas virtuais do respectivo Virtual Datacenters selecionado pelo usuário. O usuário deve selecionar uma máquina virtual da lista.
 
-* **Visualização**: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-
+* **Visualização**: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 * **Versão do Python**: O Python é um ambiente de interpretação de linguagem de programação orientada a objetos e de alto nível com semântica dinâmica que cuida da implantação de aplicativos, gerenciamento de configuração, execução de tarefas e orquestração de vários nós. Este ambiente é mandatório para executar os script/playbook e deve estar instalado no ambiente da máquina virtual que foi informada no campo acima. O usuário deve selecionar a versão correta do Python instalada no ambiente da máquina virtual.
 
@@ -7191,11 +7279,7 @@ Basta o usuário clicar sobre o botão **Criar** que a Plataforma uCloud apresen
 
 ----
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
 .. [*] Open Source Puppet site: https://puppet.com/docs/puppet/6/puppet_overview.html
