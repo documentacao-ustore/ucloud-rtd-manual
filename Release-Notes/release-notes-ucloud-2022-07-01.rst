@@ -409,80 +409,53 @@ Com a necessidade das organizações de manter um desempenho consistente, elas t
 
 A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos listados a seguir: 
 
-.. table:: Funcionalidades Oracle Cloud Infrastructure (OCI)
-   :widths: auto
++---------------------+---------------------+--------------------+----------------+
+| Import de Container | Sync de Container   | Grupo de Segurança | Rede           |
++=====================+=====================+====================+================+
+| Máquina Virtual     | Máquina Virtual     | Criar Criar        |                |
++---------------------+---------------------+--------------------+----------------+
+| Rede                | Rede                | Deletar Deletar    |                |
++---------------------+---------------------+--------------------+----------------+
+| Sub-rede            | Sub-Rede            | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| Grupo de Segurança  | Grupo de Segurança  | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| Região              | Região              | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| Flavors             | Flavors             | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| Templates           | Templates           | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| Storages            | Storages            | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
+| IP Público          | IP Público          | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
 
-   =====================  ====================  ====================  ==================
-   Import de Container    Sync de Container      Grupo de Segurança       Rede
-   =====================  ====================  ====================  ==================
-    Máquina Virtual        Máquina Virtual       Criar                 Criar
-    Rede                   Rede                  Deletar               Deletar
-    Sub-rede               Sub-Rede              .                     .
-    Grupo de Segurança     Grupo de Segurança    .                     .
-    Região                 Região                .                     .
-    Flavors                Flavors               .                     .
-    Templates              Templates             .                     .
-    Storages               Storages              .                     .
-    IP Público             IP Público            .                     .
++---------------------+---------------------+--------------------+----------------+
+|   Par de Chaves     |    Balanceador      |  Invent. Recursos  | Storage        |
++=====================+=====================+====================+================+
+| Criar               | Criar               | Listar             | Criar bucket   |
++---------------------+---------------------+--------------------+----------------+
+| Deletar             | Deletar             | Criar TAG          | Deletar Bucket |
++---------------------+---------------------+--------------------+----------------+
+| .                   | Anexar Máquina      | Editar TAG         | .              |
++---------------------+---------------------+--------------------+----------------+
+| .                   | Desanexar Máquina   | Deletar TAG        | .              |
++---------------------+---------------------+--------------------+----------------+
 
-.. table:: Funcionalidades Oracle Cloud Infrastructure (OCI)
-   :widths: auto
-
-   =====================  ====================  ====================  ==================
-    Sub-Rede               Máquina Virtual       Disco Órfão             IP Público
-   =====================  ====================  ====================  ==================
-    Criar                   Iniciar              Criar                 Criar
-    Deletar                 Parar                Deletar               Deletar
-    .                       Reiniciar            Anexar a Máquina      Anexar a Máquina
-    .                       Performance da VM    Desanexar da Máq.     Desanexar da Máq.
-    .                       Criar                .                     .
-    .                       Deletar              .                     .
-    .                       Atualizar            .                     .
-    .                       Criar Disco          .                     .
-    .                       Deletar Disco        .                     .
-    .                       Criar Snapshot       .                     .
-    .                       Deletar Snapshot     .                     .
-    .                       Criar Placa de       .                     .
-    .                         Rede               .                     .
-    .                       Deletar Placa        .                     .
-    .                         de Rede            .                     .
-    .                       Anexar Disco da      .                     .
-    .                         Máq, Virtual       .                     .
-    .                       Desanexar Disco      .                     .
-    .                         de Máq. Virtual    .                     .
-
-.. table:: Funcionalidades Oracle Cloud Infrastructure (OCI)
-   :widths: auto
-
-   =====================  ====================  ====================  ==================
-    Par de Chaves            Balanceador          Invent. Recursos      Storage
-   =====================  ====================  ====================  ==================
-    Criar                   Criar                 Listar                Criar bucket
-    Deletar                 Deletar               Criar TAG             Deletar Bucket
-    .                       Anexar Máquina        Editar TAG            .
-    .                       Desanexar Máquina     Deletar TAG           .
-
-.. table:: Funcionalidades Oracle Cloud Infrastructure (OCI)
-   :widths: auto
-
-   =====================  ====================  ====================  ==================
-    DNS                    Scaling Group         Banco de Dados             VPN
-   =====================  ====================  ====================  ==================
-    Criar                   Criar                 Criar                Criar
-    Deletar                 Deletar               Deletar              Deletar
-    Adicionar Registro      .                     Reiniciar            Listar
-    Deletar Registro        .                     DBVM Performance     .
-    Editar Registro         .                     .                    .
- 
-
-.. +=====================+====================+====================+=================+
-.. +---------------------+--------------------+--------------------+-----------------+
-.. +---------------------+--------------------+--------------------+-----------------+
-.. +---------------------+--------------------+--------------------+-----------------+
-.. +---------------------+--------------------+--------------------+-----------------+
-.. +---------------------+--------------------+--------------------+-----------------+
-.. +=====================+====================+====================+=================+
-.. +=====================+====================+====================+=================+
++---------------------+---------------------+--------------------+----------------+
+| DNS                 | Scaling Group       | Banco de Dados     | VPN            |
++=====================+=====================+====================+================+
+| Criar               | Criar               | Criar              | Criar          |
++---------------------+---------------------+--------------------+----------------+
+| Deletar             | Deletar             | Deletar            | Deletar        |
++---------------------+---------------------+--------------------+----------------+
+| Adicionar Registro  | .                   | Reiniciar          | Listar         |
++---------------------+---------------------+--------------------+----------------+
+| Deletar Registro    | .                   | DBVM Performance   | .              |
++---------------------+---------------------+--------------------+----------------+
+| Editar Registro     | .                   | .                  | .              |
++---------------------+---------------------+--------------------+----------------+
 
 Devemos de salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (ou *SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para integração com a Oracle Cloud Infrastructure.
 
