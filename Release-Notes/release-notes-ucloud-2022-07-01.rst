@@ -1,5 +1,5 @@
 **Notas Maio - 2022**
-+++++++++++++++++++++
+=====================
 
 Plataforma uCloud versão: `Update tag 5.2-b35`
 
@@ -134,7 +134,7 @@ Neste capítulo estão elencadas as novas implementações e serão esclarecidas
 
 #. Account 
 #. TAGs Virtuais
-#. Oracle OPS
+#. Oracle Cloud Infrastructure (OCI) - *apenas as funcionalidade de operação*.
 
 **Descrição de Account**
 ========================
@@ -173,7 +173,7 @@ No portal, os Tiers são categorizados nos níveis de 1 a 12 e calculados a part
 | Valor Mensal  | $1.500 | $3.000 | $4.000 | $6.000 | $8.000 | $16.000 | $24.000 | $32.000 | $40.000 | $64.000 |
 +---------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 
-.. attention:: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
+.. attention:: ATENÇÃO: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
 
 **Exemplo de Casos de Uso:**
 ----------------------------
@@ -230,6 +230,8 @@ Estas TAGs (etiquetas) após vinculadas a um recurso  são utilizadas para categ
 
 ----
 
+.. note:: A figura acima é um exemplo e as informações presentes são meramente ilustrativas.
+
 Na imagem acima utilizamos duas máquinas virtuais como exemplo para ilustrar a vinculação de TAG a recursos. Um detalhe que é muito pouco mencionado é que os provedores de serviço de nuvem pública não permitem vincular TAGs a todos os seus produtos e/ou serviços (consulte a documentação do provedor para saber quais recursos são passíveis de terem uma TAG vinculada ao recurso).
 
 No exemplo acima vinculamos “**duas** TAGs diferentes” ao mesmo recurso (máquina virtual) desta forma induzimos que os relatórios financeiros por TAG totalizaram o valor do custo da TAG duas vezes (o mesmo valor em cada TAGs) e, para este exemplo, nesta situação dobrar o custo dentro do mesmo período.
@@ -257,6 +259,9 @@ Vejamos abaixo como a nova implementação de TAGs Virtuais permite automatizar 
 
 ----
 
+.. note:: A figura acima é um exemplo e as informações presentes são meramente ilustrativas.
+
+
 No exemplo acima, sempre que a Plataforma uCloud executar a sincronização do arquivo CSV de *billing/bucket*, **automaticamente** as TAGs serão vinculadas para todos os registros (linhas) recursos no arquivo de billing os quais a correlação de *Product Name ou Product Family ou Identificador do Recurso* for encontrada.
 
 As “TAGs Virtuais” são aplicadas nos recursos da nuvem (por exemplo: máquinas virtuais, bancos de dados) para que seja possível criar classificações por projetos, divisões por centro de custos, entre outros tipos de agrupamentos. Estas chaves e valores de TAGs podem ou não ser refletidas nos *reports* de *billing* disponíveis para consulta somente através do console do provedor de nuvem pública. Assim, os recursos importados do arquivo de *bucket/billing* que existe nos provedores das nuvens públicas que por quaisquer política destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*”. Mas é muito importante ressaltar que essas “TAGs Virtuais” existem somente na base de dados da Plataforma uCloud, não sendo escrita (ou sincronizada) para o *bucket/billing* que existe no ambiente do provedor de serviço de nuvem pública.
@@ -282,6 +287,8 @@ Este processo executa uma comparação de cada linha do arquivo de *billing* e q
    :align: center
 
 ----
+
+.. note:: A tabela acima é um exemplo e as informações presentes são meramente ilustrativas.
 
 Este processo pode levar algum tempo pois é executado com comparação de strig de caracteres de cada linha do **billing** individualmente.
 
@@ -316,7 +323,7 @@ No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restriç
 * **Comprimento máximo do valor**: 256 caracteres
 * **Caracteres permitidos**: Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
 
-* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres:+ - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
+* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
 
 .. note:: Para qualquer recurso, cada chave da etiqueta deve ser exclusiva e pode ter apenas um valor.
 
@@ -407,7 +414,9 @@ A figura acima apresenta a aplicação das “TAGs virtuais'', por meio do Accou
 
 Com a necessidade das organizações de manter um desempenho consistente, elas tendem a adotar a estratégia de utilizar vários provedores de nuvens públicas. Para atender a esta demanda, a Ustore lança a nova implementação “Oracle Cloud Infrastructure (OCI)”, integrando a nuvem pública OCI ao portal uCloud.
 
-A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos listados a seguir: 
+Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidade de operação de infraestrutua OCI, de acordo com a lista de funcionaldades abaixo listada.
+
+A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
 
 +---------------------+---------------------+--------------------+----------------+
 | Import de Container | Sync de Container   | Grupo de Segurança | Rede           |
@@ -460,5 +469,7 @@ A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disp
 Devemos de salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (ou *SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para integração com a Oracle Cloud Infrastructure.
 
 O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, quanto da ampliação de novas funcionalidades presentes em outras evoluções do SDK Oracle, permitindo assim novas funcionalidades em futuras evoluções de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos respectivos futuros Release Notes da Plataforma uCloud.
+
+.. note:: No presente momento para este Release Notes (Julho, 2022) a API do SDK para o OCI não permite o suporte para implementação de coleta e cálculo de *billing* da infraestrutura presente no ambiente OCI. Aguardamos a evolução do SDK e API Oracle Cloud Infrastructure para implementar a funcionalidade de *billing* para OCI.
 
 Este conjunto de novas funcionalidades implementadas e descritas, contidas neste documento, geraram o desenvolvimento desta nova versão (`update tag 5.2-b35`). Assim, a Ustore reafirma o constante compromisso de evolução da plataforma e o alinhamento às necessidades do mercado e dos seus clientes.
