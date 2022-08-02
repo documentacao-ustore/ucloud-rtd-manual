@@ -14,19 +14,19 @@ Plataforma uCloud versão: `Update tag 5.2-b35`
 Apresentação
 ============
 
-Em geral, o profissional de infraestrutura de TI utiliza diversos consoles para provisionar recursos computacionais, seja dentro da organização (datacenter privado) ou em algum provedor de nuvem. A computação em nuvem é uma evolução dos serviços e produtos de tecnologia da informação sob demanda, chamada por Brantner et al., 2008 de Utility Computing, a qual objetiva fornecer componentes básicos como: armazenamento, processamento e largura de banda de uma rede através de provedores especializados com um custo baixo por unidade utilizada. Na contemporaneidade, manter-se atualizado e preparado, em todas as «consoles» é um desafio para este profissional.
+Em geral, o profissional de infraestrutura de TI utiliza diversos consoles para provisionar recursos computacionais, seja dentro da organização (datacenter privado) ou em algum provedor de nuvem. A computação em nuvem é uma evolução dos serviços e produtos de tecnologia da informação sob demanda, chamada por Brantner et al., 2008 de *Utility Computing*, a qual objetiva fornecer componentes básicos como: armazenamento, processamento e largura de banda de uma rede através de provedores especializados com um custo baixo por unidade utilizada. Na contemporaneidade, manter-se atualizado e preparado, em todas as «consoles» é um desafio para este profissional.
 
 Na tentativa de aumentar a produtividade e reduzir o grau de dependência destes consoles o mercado desenvolveu o conceito de Infraestrutura como Código (IaaC - Infrastructure as a Code). Este conceito endereça somente o momento do provisionamento inicial (mesmo com o uso de scripts para instalação de padrões e softwares), podem existir demandas em que o profissional de TI deverá conectar-se à console do ambiente, para executar alguma intervenção na infraestrutura que não seja possível mediante o conceito de IaaC. Estar conectado e ficar alternando entre os diversos consoles de nuvem, demanda uma grande especialização e conhecimento do profissional de TI.
 
 As plataformas de CSB (*Cloud Service Broker*) foram desenvolvidas para ocupar esse nicho e concentrar o inventário dos recursos computacionais de nuvens públicas e privadas em uma única interface e que transfere ao usuário o controle e a operação destes recursos multi-nuvem.
 
-Como mencionado, o próprio mercado desenvolveu as metodologias de provisionamento de recursos computacionais através de scripts automatizados (também chamados de playbooks). Dentre estes formatos existem alguns que o mercado mundial adotou mais largamente, pode-se citar o Ansible, Terraform e Puppet.
+Como mencionado, o próprio mercado desenvolveu as metodologias de provisionamento de recursos computacionais através de scripts automatizados (também chamados de *playbooks*). Dentre estes formatos existem alguns que o mercado mundial adotou mais largamente, pode-se citar o Ansible, Terraform e Puppet.
 
-O mercado também criou a demanda de programar a execução de uma sequência de diversos scripts dentro de um fluxo controlado e encadeado, de forma que um erro em um destes scripts pode interromper todo o fluxo para evitar o provisionamento de uma infraestrutura computacional sem a devida qualidade.
+O mercado também criou a demanda de programar a execução de uma sequência de diversos *scripts* dentro de um fluxo controlado e encadeado, de forma que um erro em um destes *scripts* pode interromper todo o fluxo para evitar o provisionamento de uma infraestrutura computacional sem a devida qualidade.
 
 Atenta à evolução constante do mercado brasileiro e às demandas dos nossos usuários, a Ustore apresenta as novas implementações, as correções, as integrações, as atualizações no menu de funcionalidades e sua descrição detalhada. 
 
-Além da ampliação do conceito existente, este release notes detalha o update ocorrido na plataforma uCloud, constante na (tag.5.2-b35) atendendo às diversas demandas mercadológicas dos nossos clientes, capazes de transformar a forma de gerenciar nuvens públicas e privadas com a plataforma uCloud.
+Além da ampliação do conceito existente, este release notes detalha o update ocorrido na plataforma uCloud, constante na *(tag.5.2-b35)* atendendo às diversas demandas mercadológicas dos nossos clientes, capazes de transformar a forma de gerenciar nuvens públicas e privadas com a plataforma uCloud.
 
 
 Novas implementações
@@ -34,9 +34,9 @@ Novas implementações
 
 As novidades apresentadas a seguir foram categorizadas em:
 
-- As ações corretivas para adequação às mudanças ocorridas nos provedores de nuvens;
-- As integrações realizadas no portal;
-- Atualizações globais em alguns menus de funcionalidades do  portal.
+* ** As ações corretivas para adequação às mudanças ocorridas nos provedores de nuvens;
+* ** As integrações realizadas no portal;
+* ** Atualizações globais em alguns menus de funcionalidades do  portal.
 
 Além das inovações mais robustas, elencadas em três temas. Estas novas implementações serão descritas, em detalhe, no transcorrer deste documento.
 
@@ -91,7 +91,7 @@ IBM Cloud
 ---------
 Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, podemos listar a seguinte alteração:
 
-#. Implementação da regra de negócio para desabilitar a edição da única NIC (Network Interface Card) da Máquina Virtual.
+#. Implementação da regra de negócio para desabilitar a edição da única NIC *(Network Interface Card)* da Máquina Virtual.
 
 VMware 6.5 ou superior (vCenter/vSphere)
 ----------------------------------------
@@ -140,35 +140,35 @@ Neste capítulo estão elencadas as novas implementações e serão esclarecidas
 
 #. Account 
 #. TAGs Virtuais
-#. Oracle Cloud Infrastructure (OCI) - *apenas as funcionalidade de operação*.
+#. Oracle Cloud Infrastructure (OCI) - *apenas as funcionalidades de operação*.
 
 Descrição de Account
 ====================
 
 A Plataforma uCloud pode ser implantada de duas formas diferentes:
 
-A. Instalação dedicada (on-premises)
+A. Instalação dedicada *(on-premises)*
 
 Para o cenário da instalação dedicada (on-premises) a funcionalidade de Account pode não ser aplicada,provavelmente esta instalação pertence somente a uma única empresa, e esta empresa não compartilhará a Plataforma uCloud entre outras organizações. Ainda neste cenário, vamos assumir que a instalação da Plataforma uCloud será utilizada apenas na(s) nuvem(ns) própria(s) (públicas e/ou privadas).
 
-B. Instalação compartilhada como serviço (SaaS - Software as a Service)
+B. Instalação compartilhada como serviço *(SaaS - Software as a Service)*
 
-A funcionalidade Account foi concebida para o cenário de instalação compartilhada (SaaS), onde a empresa (chamaremos de **organização**) tem o objetivo de prestação de serviço de 'Cloud Service Broker' com a Plataforma uCloud entre suas diversas operações (regionais ou internacionais) e para seus diversos clientes-finais.
+A funcionalidade Account foi concebida para o cenário de instalação compartilhada *(SaaS)*, onde a empresa (chamaremos de **organização**) tem o objetivo de prestação de serviço de 'Cloud Service Broker' com a Plataforma uCloud entre suas diversas operações (regionais ou internacionais) e para seus diversos clientes-finais.
 
-O cenário acima descrito da Plataforma uCloud SaaS é ideal para provedor de serviço de conectividade/comunicação (*organização*) que pode compartilhar a Plataforma uCloud entre suas operações regionais e, também, entre seus clientes finais que desejam os benefícios de uma operação, governança financeira e billing.
+O cenário acima descrito da Plataforma uCloud *SaaS* é ideal para provedor de serviço de conectividade/comunicação (**organização**) que pode compartilhar a Plataforma uCloud entre suas operações regionais e, também, entre os seus clientes finais que desejam os benefícios de uma operação, governança financeira e *billing*.
 
 Esta funcionalidade auxilia o gerenciamento e o controle do ambiente da organização, de maneira centralizada, por sua regra de negócio possibilita criar as “Contas” e alocar os Contratos, os Grupos e os seus Usuários (elementos pertencentes ao universo "*Switch Roles*”).
 
-Possibilita organizar e compartilhar os recursos entre as “Contas” criadas, além de aplicar as políticas de controle de serviço aos **contratos**, **grupos** e **usuários**, otimizando a melhoria da governança. Esta nova modelagem insere a camada “Conta” no menu de funcionalidades **Administração** que representa um novo processo para promover o alinhamento em torno da funcionalidade “Contas” e conduzir as organizações a obter um maior controle.
+Possibilita organizar e compartilhar os recursos entre as “Contas” criadas, além de aplicar as políticas de controle de serviço aos **contratos**, **grupos** e **usuários**, otimizando a melhoria da governança. Esta nova modelagem insere a camada “Conta” no menu **Administração** a qual representa um novo processo para promover o alinhamento em torno da funcionalidade “Contas” e, assim, conduzir as organizações a obter um maior controle.
 
 Esta funcionalidade “**Contas**” tem como objetivo entregar à organização a possibilidade de segmentar clientes por porte (máquinas virtuais), por volume de receita (custos financeiros), possibilita entender o desempenho por “Conta” e filtrar o seu histórico por linha de negócio.
 
 Segmentação por Quantidade de Máquinas Virtuais (Exemplo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para exemplificar uma forma de como cobrar pela “oferta de serviço” de Gerenciamento de Centralizado Nuvem pela Plataforma uCloud, iremos utilizar o exemplo de 'níveis de consumo' de infraestrutura computacional com base no número de Máquinas Virtuais Gerenciadas pela Plataforma do uCloud, e que iremos denominar de “Tier”. Os Tiers representam o modelo de cobrança existente na funcionalidade "Contas", a regra de negócio criada estabelece contabilizar os recursos obtidos e gerados por uma determinada conta.
+Para exemplificar uma forma de como cobrar pela “oferta de serviço” de Gerenciamento Centralizado Nuvem pela Plataforma uCloud, utilizaremos o exemplo de 'níveis de consumo' de infraestrutura computacional com base no número de Máquinas Virtuais Gerenciadas pela Plataforma do uCloud, denominado de “Tier”. Os Tiers representam o modelo de cobrança existente na funcionalidade "Contas", a regra de negócio criada estabelece contabilizar os recursos obtidos e gerados por uma determinada conta.
 
-No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
+No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo *((número de máquinas versus custo/valor))*. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
 
 +----------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 | Tier           |    A   |    B   |   C    |    D   |   E    |    F    |    G    |    H    |    I    |    J    |
@@ -192,20 +192,27 @@ Segmentação por Contas
 ----------------------
 Existem duas classes de “Contas” elas estão categorizados em dois tipos, as contas do tipo **Integrator** e do tipo **Producer**, detalhadas a seguir:
 
-#. **Conta Integrator**
-  Esta conta é responsável por criar os perfis das contas integrator e producer, ao criar estes perfis alimenta os tiers e os pacotes, além de estabelecer, a conta producer sua regra de uso. Para exemplificar: Funciona como uma espécie de *cluster*, aglomerando ou categorizando outras corporações.
+* **A. Conta Integrator**
+  Esta conta é responsável por criar os perfis das contas integrator e producer, ao criar estes perfis alimenta os tiers e os pacotes, além de estabelecer, a conta producer sua regra de uso. 
+  
+  Para exemplificar: 
+  
+  Funciona como uma espécie de *cluster*, aglomerando ou categorizando outras corporações.
 
   * Por exemplo:
+
     Para o caso de uma **corporação** multinacional utilizando uma conta Integrator, ela pode ser considerada “Conta Integrator” para os países que a compõem: México, Brasil, Chile e Colômbia.
+
     A corporação é responsável por criar outras contas e escalar as permissões de outros usuários. Ela tem como particularidade a lista de todas as contas producer, a lista de todos os contratos associados e pode aplicar as regras de negócio.
 
-#. **Conta Producer**
+* **B. Conta Producer**
   Esta conta producer pertence à organização que consome o recurso, representa uma unidade de menor agrupamento e pode operar todo o portal.
 
   * Por exemplo:
+
     Na continuação do exemplo acima, esta corporação multinacional cria as “contas producer” para as organizações que pertencem a ela dentro de um determinado país listado acima, no Brasil, a organização possui as empresas A e B que administram os contratos a1 e b1.
 
-Abaixo apresentamos uma ilustração que apresenta o conceito completo da abrangência da funcionalidade ***Account*** implementada na Plataforma uCloud. Os nomes e denominações utilizados são meramente ilustrativos.
+Abaixo segue uma ilustração que apresenta o conceito completo da abrangência da funcionalidade ***Account*** implementada na Plataforma uCloud. Os nomes e denominações utilizados são meramente ilustrativos.
 
 .. figure:: /figuras/ucloud_arquitetura_conceitual003.png
    :align: center
@@ -244,7 +251,7 @@ No exemplo acima vinculamos “**duas** TAGs diferentes” ao mesmo recurso (má
 
 Mas devemos ressaltar que para o ambiente do provedor de serviço de nuvem pública, uma vez criada uma TAG esta não será vinculada automaticamente a qualquer recurso (ou serviços decorrentes da existência do recurso). O usuário deve primeiro criar a(s) TAG(s) e depois vincular manualmente a(s) TAG(s) ao(s) recurso(s) desejado(s). Por ser um processo manual e executado por um usuário no console do provedor de serviço de nuvem, o recurso de TAGs pode consumir muito tempo do Administrador de Custos de nuvem pública. Pode existir uma quantidade muito grande de linhas no arquivo de billing/bucket para o Administrador de Custos verificar. Este processo de verificação e de vinculação de TAGs é contínuo e manual.
 
-.. important:: **Nota importante:** Pelo fato das TAGs serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *TAGs virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
+.. important:: Pelo fato das TAGs serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *TAGs virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
  
 A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de billing (CSV) do provedor de serviço de nuvem pública e, consequentemente, recebe todas as TAGs existentes no provedor.
  
@@ -296,7 +303,7 @@ Este processo executa uma comparação de cada linha do arquivo de *billing* e q
 
 .. note:: A tabela acima é um exemplo e as informações presentes são meramente ilustrativas.
 
-Este processo pode levar algum tempo pois é executado com comparação de strig de caracteres de cada linha do **billing** individualmente.
+Este processo pode levar algum tempo, pois é executado com comparação de strig de caracteres de cada linha do **billing** individualmente.
 
 Com este processo a Plataforma uCloud complementa a nova funcionalidade de TAGs Virtuais mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem TAGs Virtuais. 
 
@@ -325,11 +332,12 @@ Restrições das TAGs
 No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restrições básicas a serem aplicadas:
 
 * **Número máximo de TAGs por recurso**: 50
-* **Comprimento máximo da chave**: 128 caracteres
-* **Comprimento máximo do valor**: 256 caracteres
+* **Tamanho máximo da chave**: 128 caracteres
+* **Tamanho máximo do valor**: 256 caracteres
 * **Caracteres permitidos**: Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
 
 * Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
+
 
 .. note:: Para qualquer recurso, cada chave da etiqueta deve ser exclusiva e pode ter apenas um valor.
 
@@ -377,9 +385,9 @@ A seguir a tela que apresenta a nova implementação no portal uCloud:
 
 Com a adição da nova funcionalidade no portal e a possibilidade de empregar as “TAGs Virtuais” para recuperar a informação previamente tagueada do recurso utilizado em qualquer provedor de nuvem, de forma única, onde a utilização pode ocorrer em dois fluxos, a seguir detalhados:
 
-1. Vinculação de uma TAG para um recursos da nuvem através da especificação de uma sequência de caracteres que identifica um **ProductName** e/ou **ProductFamily** e/ou **Identificador da Nuvem**.
+1. Vinculação de uma TAG para um recurso da nuvem através da especificação de uma sequência de caracteres que identifica um **[ProductName]** e/ou **[ProductFamily]** e/ou **[Identificador da Nuvem]**.
 
-  a. Para esse fluxo o usuário pode especificar, por exemplo, que o recurso pertencente ao ProductName Amazon Elastic Compute Cloud, no [ProductFamily] Data Transfer, vinculado ao identificador da nuvem i-0e85640d78d096974 tenha as TAGs especificadas no formulário, mesmo que essas TAGs não sejam fornecidas pela nuvem.
+  a. Para esse fluxo o usuário pode especificar, por exemplo, que o recurso pertencente ao *ProductName Amazon Elastic Compute Cloud*, no [ProductFamily] **Data Transfer**, vinculado ao identificador da nuvem i-0e85640d78d096974 tenha as TAGs especificadas no formulário, mesmo que essas TAGs não sejam fornecidas pela nuvem.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual005.png
    :align: center
@@ -391,7 +399,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 ----
 
-  b. Vincular o Perfil de TAGs Virtuais criado, à nuvem (*continer*) provisionada na Plataforma uCloud
+  b. Vincular o Perfil de TAGs Virtuais criado, à nuvem (*container*) provisionada na Plataforma uCloud
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual009.png
    :align: center
@@ -403,7 +411,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
   a. Para esse fluxo, será possível habilitar que no ato da coleta de dados de bilhetagem da nuvem, os recursos obtidos que não venham por padrão com a TAG do provedor de nuvem, sejam normalizados com as TAGs que estão associadas a este recurso.
 
     * Se já houver uma TAG com a mesma chave do outro lado, a TAG não será sobrescrita.
-    * Todos os hyper Identifiers que pertencerem ao mesmo [productName].
+    * Todos os *hyper Identifiers* que pertencerem ao mesmo [productName].
 
 No momento de exportar o relatório de faturamento as “TAGs Virtuais” retornam normalizadas, de acordo com os recursos usados nas TAGs.
 
@@ -415,41 +423,75 @@ No momento de exportar o relatório de faturamento as “TAGs Virtuais” retorn
 A figura acima apresenta a aplicação das “TAGs virtuais'', por meio do Accountant *virtual-tag-applier*, e sua normalização, utilizando o Accountant *virtual-tag-normalizer*.
 
 
-Oracle Cloud Infrastructure
----------------------------
+Oracle Cloud Infrastructure (OCI)
+---------------------------------
 
 Com a necessidade das organizações de manter um desempenho consistente, elas tendem a adotar a estratégia de utilizar vários provedores de nuvens públicas. Para atender a esta demanda, a Ustore lança a nova implementação “Oracle Cloud Infrastructure (OCI)”, integrando a nuvem pública OCI ao portal uCloud.
 
 Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidade de operação de infraestrutua OCI, de acordo com a lista de funcionaldades abaixo listada.
 
-A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
+A partir deste release notes, o nosso portal passa a dar suporte à nuvem, disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
 
-+---------------------+---------------------+--------------------+----------------+
-| Import de Container | Sync de Container   | Grupo de Segurança | Rede           |
-+=====================+=====================+====================+================+
-| Máquina Virtual     | Máquina Virtual     | Criar Criar        |                |
-+---------------------+---------------------+--------------------+----------------+
-| Rede                | Rede                | Deletar Deletar    |                |
-+---------------------+---------------------+--------------------+----------------+
-| Sub-rede            | Sub-Rede            | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| Grupo de Segurança  | Grupo de Segurança  | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| Região              | Região              | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| Flavors             | Flavors             | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| Templates           | Templates           | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| Storages            | Storages            | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
-| IP Público          | IP Público          | .                  | .              |
-+---------------------+---------------------+--------------------+----------------+
++---------------------+-----------------------+--------------------+----------------+
+| Import de Container | Sync de Container     | Grupo de Segurança | Rede           |
++=====================+=======================+====================+================+
+| Máquina Virtual     | Máquina Virtual       | Criar              | Criar          |
++---------------------+-----------------------+--------------------+----------------+
+| Rede                | Rede                  | Deletar            | Deletar        |
++---------------------+-----------------------+--------------------+----------------+
+| Sub-rede            | Sub-Rede              | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| Grupo de Segurança  | Grupo de Segurança    | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| Região              | Região                | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| Flavors             | Flavors               | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| Templates           | Templates             | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| Storages            | Storages              | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+| IP Público          | IP Público            | .                  | .              |
++---------------------+-----------------------+--------------------+----------------+
+
++---------------------+-----------------------+--------------------+------------------+
+| Sub-Rede            | Máquina Virtual       |    Disco Órfão     | IP Público       |
++=====================+=======================+====================+==================+
+|  Criar              | Iniciar               | Criar              | Criar            |
++---------------------+-----------------------+--------------------+------------------+
+|  Deletar            | Parar                 | Deletar            | Deletar          |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Reiniciar             | Anexar máquina     | Anexar máquina   |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Performance da VM     | Desanexar máquina  | Desanexar máquina|
++---------------------+-----------------------+--------------------+------------------+
+|                     | Criar                 | .                  | .                |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Deletar               | .                  | .                |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Atualizar             | .                  | .                |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Criar Disco           | .                  | .                |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Criar Snapshot        | .                  | .                |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Deletar Snapshot      |                    |                  |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Criar Placa de Rede   |                    |                  |
++---------------------+-----------------------+--------------------+------------------+
+|                     | Deletar Placa de Rede |                    |                  |
++---------------------|-----------------------|--------------------+------------------+
+|                     | Anexar o disco da     |                    |                  |
+|                     | máquina da máquina    |                    |                  |
++---------------------|-----------------------|--------------------|------------------+
+|                     | Desanexar o disco     |                    |                  |
+|                     | da máquina            |                    |                  |
++---------------------+-----------------------+--------------------|------------------+
 
 +---------------------+---------------------+--------------------+----------------+
 |   Par de Chaves     |    Balanceador      |  Invent. Recursos  | Storage        |
 +=====================+=====================+====================+================+
-| Criar               | Criar               | Listar             | Criar bucket   |
+| Criar               | Criar               | Listar             | Criar Bucket   |
 +---------------------+---------------------+--------------------+----------------+
 | Deletar             | Deletar             | Criar TAG          | Deletar Bucket |
 +---------------------+---------------------+--------------------+----------------+
@@ -472,10 +514,10 @@ A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disp
 | Editar Registro     | .                   | .                  | .              |
 +---------------------+---------------------+--------------------+----------------+
 
-Devemos de salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (ou *SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para integração com a Oracle Cloud Infrastructure.
+Deve-se salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (*SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para a integração com a Oracle Cloud Infrastructure.
 
-O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, quanto da ampliação de novas funcionalidades presentes em outras evoluções do SDK Oracle, permitindo assim novas funcionalidades em futuras evoluções de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos respectivos futuros Release Notes da Plataforma uCloud.
+O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, como a ampliação das novas funcionalidades presentes em outras evoluções do SDK Oracle, permitem no futuro a evolução de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos futuros Release Notes da Plataforma uCloud.
 
-.. note:: No presente momento para este Release Notes (Julho, 2022) a API e o SDK para o OCI ainda não permitem o suporte completo para implementação de coleta e cálculo de *billing* da infraestrutura presente no ambiente OCI. Aguardamos a evolução do SDK e API Oracle Cloud Infrastructure para implementar a funcionalidade de *billing* para OCI.
+.. note:: No presente momento neste Release Notes (maio, 2022) a API e o SDK para o OCI ainda não permite o suporte completo para implementação de coleta e cálculo de *billing* da infraestrutura presente no ambiente OCI. Aguardamos a evolução do SDK e API Oracle Cloud Infrastructure para implementar a funcionalidade de *billing* para OCI.
 
 Este conjunto de novas funcionalidades implementadas e descritas, contidas neste documento, geraram o desenvolvimento desta nova versão (`update tag 5.2-b35`). Assim, a Ustore reafirma o constante compromisso de evolução da plataforma e o alinhamento às necessidades do mercado e dos seus clientes.
