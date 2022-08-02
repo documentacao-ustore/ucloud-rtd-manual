@@ -1,6 +1,5 @@
-Manual de Administración y Operación de uCloud
-++++++++++++++++++++++++++++++++++++++++++++++
-
+uCloud - Manual del Usuário
++++++++++++++++++++++++++++
 
 .. image:: /figuras/ucloud_logo_peq.png
    :alt: logo ucloud
@@ -9,9 +8,6 @@ Manual de Administración y Operación de uCloud
 ----
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
-
-
------
 
 Presentación
 ============
