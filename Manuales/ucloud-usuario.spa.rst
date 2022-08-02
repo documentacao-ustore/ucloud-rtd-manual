@@ -170,41 +170,316 @@ Nuestro compromiso es mantener la compatibilidad de integración, para que los �
 
 Se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la capacidad de una organización para entregar aplicaciones y servicios más rápido que los procesos tradicionales de desarrollo de software.
 
-Consulte la documentación específica acerca de roadmap de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
+Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
 
 
 Acceso a la plataforma uCloud
 =============================
 
+El acceso a la plataforma se realiza a través de una dirección de Internet, el usuario debe utilizar un navegador de Internet *(Internet browser)* e introducir la dirección URL/enlace, para que el usuario vea la pantalla de presentación inicial. Los navegadores de Internet 
+compatibles con la Plataforma uCloud son: Microsoft Edge versión 86.x, Google Chrome versión 85.x, Firefox verano 80.x u Opera versión 71.x.
+
+La Plataforma uCloud está adaptada para que su interfaz se presente en **Portugués (nativo), Español e Inglés**. Esta configuración la realiza el usuario. En su perfil es posible seleccionar el idioma de presentación de la interfaz, sin tener que cambiar la configuración de idioma de su sesión de navegador de Internet.
+
+.. figure:: /figuras/ucloud_idioma_plataforma.png
+   :alt: Idioma de la Plataforma uCloud
+   :scale: 50 %
+   :align: center
+
+----
+
+.. attention::
+    *Es importante tener en cuenta que la plataforma uCloud **no es compatible con Microsoft Internet Explorer (IE)** en ninguna versión, ya que las tecnologías de este navegador están desactualizadas y no soportan la evolución de las páginas HTML actuales.*
+
+Después de iniciar sesión en un Internet browser, la dirección/ruta de acceso para la aplicación debe rellenarse como ejemplo a continuación, de la siguiente manera:
+
+- Ejemplo de enlace con dirección IP: ``http://<ucloudserverTCP_IP_Address>:80``
+
+- Enlace de ejemplo con el nombre del servidor: ``http://ucloud_Server_Name.com/``
+
+Después de ingresar la dirección correctamente, la pantalla del usuario será similar a la figura a continuación:
+
+.. figure:: /figuras/uCloud_acesso_platafform_001.png
+   :alt: Pantalla de inicio de sesión de la Plataforma uCloud
+   :align: center
+
+----
+
+Las credenciales de inicio de sesión y la contraseña deben haber sido aprovisionadas previamente en la Plataforma uCloud por un usuario con un perfil de administrador (u otro usuario con este permiso).
+
+El usuario debe informar sus datos de inicio de sesión y contraseña en los campos y hacer clic en el cursor del mouse en el botón **Entrar**.
+
+Si las credenciales de acceso no han sido aprovisionadas, no existen o en el último caso, el usuario no recuerda la información correcta de sus credenciales, no tendrá acceso a la plataforma. Ver el Item **Solicitud de Nueva Contraseña**, en caso de que el usuario oscurezca algún tipo de información para proceder con el inicio de sesión de acceso a la Plataforma uCloud.
+
+Después de ingresar sus credenciales de acceso (nombre de usuario y contraseña), realice el procedimiento de inicio de sesión, al usuario se le presentará la pantalla a continuación:
+
+.. figure:: /figuras/uCloud_acesso_platafform_002.png
+   :alt: Dashboard uCloud
+   :align: center
+
+----
+
+La siguiente es una descripción detallada de las características de la pantalla de inicio *(Dashboard)* de la plataforma uCloud.
+
+
 Dashboard
 ---------
+
+Después de informar al usuario y la contraseña, puede ver la pantalla principal del portal de uCloud, como se muestra en la pantalla a continuación, tiene un menú en el lado izquierdo con una lista de opciones, y cada opción representa una pantalla de administración de uCloud, algunas pantallas solo estarán disponibles de acuerdo con el nivel de acceso del usuario.
+
+El usuario puede notar que la pantalla del panel de control está dividida en secciones, que se describen a continuación:
+
 
 Sección Contenedores
 --------------------
 
+En esta sección se presentan todos los proveedores de la nube (públicos y /o privados) donde cada contenedor está representado con un "botón" en la interfaz, como se muestra a continuación:
+
+.. figure:: /figuras/uCloud_acesso_platafform_003.png
+   :alt: sección contenedores dashboard
+   :align: center
+
+----
+
+Con cada necesidad de buscar información del contenedor el usuario interesado, debe seleccionar con el mouse el "botón" que representa el 
+contenedor. 
+
+Por lo tanto, para que el usuario pueda verificar sus cuotas y asignación de recursos, simplemente seleccione el contenedor elegido en la sección Gráficos de Uso de Recursos. Luego, al final de la selección, se cambiará la imagen de la pantalla y mostrará como resultado la representación de la asignación respectiva que se refiere al contenedor seleccionado.
+
+Debido a que la Plataforma uCloud es un entorno híbrido de múltiples nubes, se mostrarán tantos botones como sea necesario para representar todas las nubes (públicas y/o privadas) que se hayan configurado en el entorno de uCloud.
+
+En el caso de que solo haya un botón, esto significa que el cliente tiene un único proveedor de servicios en la nube configurado en su entorno.
+
+Consulte el elemento **Contenedores** para comprender los procesos de cómo configurar un proveedor de servicios en la nube (público y/o privado) en la plataforma uCloud.
+
 Sección de Gráficos de uso de recursos
 --------------------------------------
+
+En esta sección el usuario puede comprobar la cantidad de recursos computacionales disponibles (cuota límite) y los valores totales que ya han sido utilizados/consumidos por ella:
+
+.. figure:: /figuras/uCloud_acesso_platafform_004.png
+   :alt: sección graficos de uso de recursos
+   :align: center
+
+----
+
+Estos límites (cuotas) han sido definidos y/o asignados al usuario, siguen los estándares y reglas de negocio de la organización, que estaban asociados con este usuario en el momento del aprovisionamiento de sus credenciales en la Plataforma uCloud.
+
+Consulte los elementos Grupos y Usuarios para configurar o cambiar los límites (cuotas) de recursos computacionales o financieros, tanto para grupos como para un límite individual para un usuario específico.
+
 
 Sección Últimas Tareas
 ----------------------
 
+La plataforma uCloud es un entorno que se comunica con las consolas de los proveedores de la nube o con el hipervisor utilizado internamente en
+Datacenter en su organización a través de la API Rest. De esta forma, todas las acciones -actividades- funciones solicitadas a través de la Plataforma uCloud se 'encapsulan' como si fueran un `mensaje` y se envían a la consola de destino para que la consola realice las ´tareas´ enviadas.
+
+.. figure:: /figuras/uCloud_acesso_platafform_005.png
+   :alt: sección últimas tareas
+   :align: center
+
+----
+
+En consecuencia, la sección Tareas presenta la última lista de acciones - actividades - roles solicitados por el usuario que está registrado y activo (login) en la Plataforma uCloud.
+
+En esta sección, se presentará una lista de algunas tareas, que demuestran el porcentaje realizado y lo(s) resultado(s) respectivo(s) de esta(s) acción(es), ya sea para acciones completas exitosas o incompletas, debido a algún error recibido como respuesta de la consola de destino (pública y/o privada).
+
+Consulte otros detalles en el elemento **Tareas**.
+
 Sección Máquinas Virtuales
 --------------------------
+
+En esta sección, se enumerarán las máquinas virtuales que han experimentado interacciones o cambios recientes a través de la interfaz de la plataforma uCloud.
+
+.. figure:: /figuras/uCloud_acesso_platafform_006.png
+   :alt: sección últimas tareas
+   :align: center
+
+----
+
+Importante destacar un punto: Máquina virtual que ha sido cambiada en cualquiera de sus características, a través de la consola del proveedor de servicios en la nube (pública y/o privada), esta máquina virtual no formará parte de esta lista. La plataforma uCloud enumera solo las máquinas virtuales que han sido cambiadas por usuarios registrados y activos (inicio de sesión) en la plataforma uCloud.
+
+Consulte el elemento **Menú de Usuario** para comprender las funcionalidades de cada opción de menú hacer.
+
 
 Accesos directos de la sección a los menús principales
 ------------------------------------------------------
 
+En esta sección se presentan accesos directos a las características más frecuentes de la Plataforma uCloud, de una forma más accesible y directa.
+
+.. figure:: /figuras/uCloud_acesso_platafform_007.png
+   :alt: sección últimas tareas
+   :align: center
+
+----
+
+Se puede acceder a todos los accesos directos presentados hasta ahora a través de sus respectivas funciones en el Menú de Usuario, que se coloca en la barra lateral izquierda en la interfaz de la plataforma uCloud.
+
+Es importante tener en cuenta que el usuario activo (login) puede tener restricciones en ciertas opciones de menú, dependiendo del perfil asociado a ese usuario, determinado por la organización a la que está asociado el usuario. 
+
+De esta forma, se enumerarán los accesos directos correspondientes al perfil del usuario al que se permitirá el acceso.
+
 Solicitud de Nueva Contraseña
 -----------------------------
+
+Si el usuario no recuerda sus datos para iniciar sesión en la Plataforma uCloud, la aplicación le permite recuperar la contraseña de acceso durante el proceso de inicio de sesión o si el usuario recibe el mensaje en la esquina superior de la pantalla con una advertencia emergente **"Usuario o contraseña incorrectos"** como se muestra en la figura a continuación:
+
+.. figure:: /figuras/uCloud_nova_senha_001.png
+   :alt: solicitud de nueva contraseña
+   :align: center
+
+----
+
+El usuario debe hacer clic en el cursor del mouse en la opción **"¿Olvidó su contraseña?"** como se detalla en la siguiente figura:
+
+.. figure:: /figuras/uCloud_nova_senha_002.png
+   :alt: solicitud de nueva contraseña
+   :align: center
+
+----
+
+Si la información de inicio de sesión del usuario existe, pero si necesita ingresar una nueva contraseña, la Plataforma uCloud presentará al usuario el formulario para el cambio.
+
+.. figure:: /figuras/uCloud_nova_senha_003.png
+   :alt: solicitud de nueva contraseña
+   :align: center
+
+----
+
+En el primer campo, el usuario informa la dirección de correo electrónico que está registrada y en el segundo campo debe rellenar con la información de inicio de sesión del usuario que se aprovisionó en la Plataforma uCloud.
+
+Después de informar un correo electrónico válido y una cuenta de usuario para el acceso, el usuario debe hacer clic en el cursor del mouse en el botón verde `Edición`, la interfaz mostrará el siguiente mensaje:
+
+.. figure:: /figuras/uCloud_nova_senha_004.png
+   :alt: solicitud de cambiar contraseña
+   :align: center
+
+----
+
+El usuario debe comprobar el recibimiento de un mensaje en su buzón de correo electrónico con las instrucciones para restablecer la contraseña. El usuario debe proceder como se describe en el correo electrónico y restablecer su contraseña de acceso.
+
+.. figure:: /figuras/uCloud_nova_senha_005.png
+   :alt: solicitud de cambiar contraseña
+   :align: center
+
+----
+
+Debe verificar que el dominio "@ucloud.usto.re" esté bloqueado en su lista de mensajes no deseados (spam) para permitirle recibirlo.
+
+Cuando el usuario hace clic en el cursor del mouse sobre el enlace/url presente en su correo electrónico, el usuario será llevado a una sesión de su navegador *(browser)* de Internet conectado a la plataforma uCloud, se mostrará la pantalla a continuación:
+
+.. figure:: /figuras/uCloud_nova_senha_006.png
+   :alt: solicitud de cambiar contraseña
+   :align: center
+
+----
+
+Después de que el usuario informe de la nueva cadena en el campo **Nueva Contraseña**, el usuario debe volver a introducirla en el siguiente campo **Confirmar Contraseña** igual a la notificada en el campo anterior.
+
+Después de confirmar la nueva contraseña, el usuario debe hacer clic en el cursor del mouse en el botón **Guardar**, la interfaz mostrará el siguiente mensaje:
+
+.. figure:: /figuras/uCloud_nova_senha_007.png
+   :alt: cambiar contraseña
+   :align: center
+
+----
+
+Después de este procedimiento, el usuario puede realizar el proceso de inicio de sesión utilizando la información del usuario y la nueva contraseña. La nueva contraseña estará disponible de inmediato, y no tiene que esperar ningún período para la vigencia de la misma.
+
 
 Usuario no aprovisionado
 ------------------------
 
+Si la información de inicio de sesión del usuario no se ha registrado previamente o la combinación de datos de correo electrónico e inicio de sesión, la Plataforma uCloud mostrará un mensaje *pop-up*, en la esquina superior derecha de la pantalla, con la información de que los datos informados para cambiar la contraseña no existen en la Plataforma uCloud.
+
+.. figure:: /figuras/uCloud_user_nao_provisionado_001.png
+   :alt: usuario no aprovisionado
+   :align: center
+
+----
+
+En este caso, simplemente póngase en contacto con el administrador de la plataforma uCloud de su organización para que puedan aprovisionar sus datos para el inicio de sesión. Solo un usuario correctamente aprovisionado tendrá su acceso efectivo.
+
+
 Menú de Usuario
 ===============
 
+La barra de menú del usuario se encuentra a la izquierda de la pantalla y se muestra inicialmente en modo expandido, como en la figura a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_001.png
+   :alt: menú de usuario modo expandido
+   :align: center
+
+----
+
+Algunas opciones de menú tienen un submenú, que se presenta cuando el usuario coloca el mouse sobre la indicación (signo inferior "<"). Al hacer clic en este icono, la interfaz presenta el submenú de esta opción al usuario, vea el ejemplo en la figura a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_002.png
+   :alt: ejemplo de un submenú
+   :align: center
+
+----
+
+Es posible que el usuario elija reducir la presentación de la barra de Menú de Usuario al modo Solo icono, para tener un área de presentación más grande. Para cambiar entre el Modo Expandido del Menú de Usuario y los Iconos del Modo de Menú de Usuario, hay un gráfico verde con tres barras , fácil de identificar para el usuario. Este elemento estará presente en cualquier pantalla de la Plataforma uCloud.
+
+Cuando el usuario hace clic en este elemento, la barra de Menú de Usuario se cambiará a los Iconos de Modo, como se muestra en la figura a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_003.png
+   :alt: menú de usuario modo iconos
+   :align: center
+
+----
+
+Cuando la barra de Menú de Usuario está en modo de icono, los submenús se mostrarán como se muestra a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_004.png
+   :alt: abrir un submenú en modo icono 
+   :align: center
+
+----
+
+Las siguientes páginas detallan cada una de las opciones del menú de usuario y su funcionalidad.
+
+
+
 Menú de Administración
 ======================
+
+Al presentar algunos conceptos sobre el entorno de administración de uCloud, es importante aclarar algunos puntos sobre la Plataforma uCloud, en los conceptos existen tres términos que serán ampliamente utilizados en el entorno de uCloud:
+
+* **Contrato:** Es la forma en la que se define la relación *'comercial'* entre el prestador y la empresa que te contrató. En el contrato se definen los costos, el margen financiero, la tasa de conversión de moneda, los costos de recursos (opcional) y la cuota general (límite) que puede ser una cuota financiera o una cuota de recursos computacionales.
+
+* **Grupo:** Es una forma lógica definida únicamente dentro de la Plataforma uCloud que puede definir un grupo de usuarios (por ejemplo, DevOps), un departamento (por ejemplo, ventas), una iniciativa (por ejemplo, VDI), a la que se asocian múltiples usuarios como parte integral de este grupo. Estos "grupos" no existen en los proveedores de nube (públicos y/o privados) existen solo dentro de la Plataforma uCloud.
+
+* **Usuario:** Un usuario es la entidad que ha identificado el acceso a la Plataforma uCloud para tomar medidas sobre los recursos informáticos de los proveedores (públicos y/o privados).
+
+La siguiente figura ejemplifica, en una imagen, la relación entre estos tres términos y es fundamental que el usuario utilice esta figura como referencia para entender los enlaces.
+
+.. figure:: /figuras/ucloud_arquitetura_conceitual001.png
+   :align: center
+
+----
+
+Es importante entender que un **Contrato** puede tener múltiples usuarios y varios grupos; cada **Grupo** puede contener estos usuarios. Sin embargo, la Plataforma uCloud permite que un Usuario forme parte de un solo contrato y un grupo, y un solo Grupo está vinculado a un solo contrato.
+
+En el siguiente documento se describe que al configurar las cuotas (límites financieros o de recursos) del contrato, estos límites serán compartidos/divididos por cada uno de los grupos existentes, y por lo tanto los usuarios se limitan a las cuotas del grupo al que están incluidos.
+
+Es posible señalar, en la figura anterior, que el término Virtual DataCenter (VDC) este término es una asignación lógica de máquinas virtuales que permite a las organizaciones definir uno (o más) grupos de servidores que forman parte de una nube. Un VDC puede representar un departamento, una subsidiaria o un grupo de usuarios, y otra información en el elemento **Virtual DataCenter**.
+
+El término 'Administración' varía en función del perfil del usuario que está accediendo al sistema en ese momento. uCloud tiene cinco perfiles diferentes, que generalmente podemos describir a continuación:
+
+#. **Usuarios del sistema:** son usuarios habituales los que acceden al sistema para consumir recursos. Existe la posibilidad de *Usuarios con perfil de solo lectura*, quienes pueden designar usuarios regulares o habituales que solo pueden acceder a la Plataforma uCloud para ver la información.
+
+#. **Usuarios Administradores de Contrato:** son los usuarios que están asociados a un contrato y en este contrato pueden definir reglas de boletería, provisión y cambio de otros usuarios en la plataforma.
+
+#. **Usuarios Administradores de Grupo:** son usuarios que están asociados a un grupo de usuarios, pueden aprovisionar y cambiar a otros usuarios en la plataforma.
+
+
+
+
+
+
+
 
 Switch Roles
 ------------
