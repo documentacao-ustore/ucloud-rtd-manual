@@ -1,11 +1,18 @@
-**Notas Maio - 2022**
-+++++++++++++++++++++
+uCloud - Notas Julho - 2022
+===========================
+
+.. figure:: /figuras/ucloud_logo_peq.png
+   :alt: Logo uCLoud
+   :scale: 50 %
+   :align: center
+
+----
 
 Plataforma uCloud versão: `Update tag 5.2-b35`
 
 
-**Apresentação**
-================
+Apresentação
+============
 
 Em geral, o profissional de infraestrutura de TI utiliza diversos consoles para provisionar recursos computacionais, seja dentro da organização (datacenter privado) ou em algum provedor de nuvem. A computação em nuvem é uma evolução dos serviços e produtos de tecnologia da informação sob demanda, chamada por Brantner et al., 2008 de Utility Computing, a qual objetiva fornecer componentes básicos como: armazenamento, processamento e largura de banda de uma rede através de provedores especializados com um custo baixo por unidade utilizada. Na contemporaneidade, manter-se atualizado e preparado, em todas as «consoles» é um desafio para este profissional.
 
@@ -22,8 +29,8 @@ Atenta à evolução constante do mercado brasileiro e às demandas dos nossos u
 Além da ampliação do conceito existente, este release notes detalha o update ocorrido na plataforma uCloud, constante na (tag.5.2-b35) atendendo às diversas demandas mercadológicas dos nossos clientes, capazes de transformar a forma de gerenciar nuvens públicas e privadas com a plataforma uCloud.
 
 
-**Novas implementações**
-========================
+Novas implementações
+====================
 
 As novidades apresentadas a seguir foram categorizadas em:
 
@@ -38,20 +45,20 @@ Além das inovações mais robustas, elencadas em três temas. Estas novas imple
 #. Oracle Cloud Infrastructure
 
 
-**Ações Corretivas**
-====================
+Ações Corretivas
+================
 
 Neste release notes estão listadas todas as ações corretivas implementadas, motivadas devido certas situações reportadas à nossa equipe de desenvolvimento.
 
 
-**Amazon Web Services (AWS)**
------------------------------
+Amazon Web Services (AWS)
+-------------------------
 
 Em relação à interação com o provedor de serviço de nuvem pública AWS, não houve nenhuma alteração, correção, nova implementação ou nova funcionalidade.
 
 
-**Microsoft Azure (Azure)**
----------------------------
+Microsoft Azure (Azure)
+-----------------------
 
 Em relação à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar as seguintes alterações:
 
@@ -59,8 +66,8 @@ Em relação à interação com o provedor de serviço de nuvem pública Microso
 #. Ajuste ao modelo de tratamento da deleção de discos associados a Máquinas Virtuais. Essa melhoria foi necessária por haver mudança na maneira como a deleção é feita na nuvem. Adaptação no PMC para acompanhar esta melhoria.
 
 
-**Google Cloud Plataform (GCP)**
---------------------------------
+Google Cloud Plataform (GCP)
+----------------------------
 
 Em relação à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), podemos listar as seguintes alterações:
 
@@ -75,39 +82,39 @@ Em relação à interação com o provedor de serviço de nuvem pública Google 
   * Milão, Itália, Europa: europe-west8
   * Paris, França, Europa: europe-west-9
 
-**Huawei Cloud (Huawei)**
--------------------------
+Huawei Cloud (Huawei)
+---------------------
 
 Em relação à interação com o provedor de serviço de nuvem pública Huawei Cloud, não houve nenhuma alteração, correção, nova implementação ou nova funcionalidade.
 
-**IBM Cloud**
--------------
+IBM Cloud
+---------
 Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, podemos listar a seguinte alteração:
 
 #. Implementação da regra de negócio para desabilitar a edição da única NIC (Network Interface Card) da Máquina Virtual.
 
-**VMware 6.5 ou superior (vCenter/vSphere)**
---------------------------------------------
+VMware 6.5 ou superior (vCenter/vSphere)
+----------------------------------------
 
 Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), podemos listar as seguintes alterações:
 
 #. Atualização na forma de criar sub-rede para se adequar a nova versão do uSDN.
 #. Comportamento anômalo corrigido, várias conexões abriam ao mesmo tempo.
 
-**vCloud**
-----------
+VMware vCloud
+-------------
 
 Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), podemos listar as seguintes alterações:
 
 - Correção da importação de container.
 - Atualização da API para a versão 35.0.
 
-**Integrações**
-===============
+Integrações
+===========
 - Houve uma implementação e melhoria da comunicação com o agente de monitoramento (Mangue/uCloud).
 
-**Atualizações**
-================
+Atualizações
+============
 
 Abaixo relacionamos a lista de atualizações que foram implementadas na Plataforma uCloud:
 
@@ -115,35 +122,34 @@ Abaixo relacionamos a lista de atualizações que foram implementadas na Platafo
 #. Atualização da tabela de preço dos flavors.
 #. Revisão da comunicação nas mensagens de exceção do portal, foco na interação do usuário com o conteúdo e  experiência de uso.
 
-
-**Menu Virtual Datacenter (VDC)**
----------------------------------
+Menu Virtual Datacenter (VDC)
+-----------------------------
 
 #. Redução do tempo de carregamento dentro da tela de edição do VDC de um container.
 
-**Menu Perfis de Visualização**
--------------------------------
+Menu Perfis de Visualização
+---------------------------
 
 #. Adição dos módulos uLog e uMonitor como opção de seleção em Perfis de Visualização.
 
-**Descritivo das Novas Implementações**
-=======================================
+Descritivo das Novas Implementações
+===================================
 
 Abaixo descreveremos as características técnicas e operacionais de três das novas implementações que foram aplicadas para esta nova versão/release da Plataforma uCloud.
 Neste capítulo estão elencadas as novas implementações e serão esclarecidas no transcorrer deste documento.
 
 #. Account 
 #. TAGs Virtuais
-#. Oracle OPS
+#. Oracle Cloud Infrastructure (OCI) - *apenas as funcionalidade de operação*.
 
-**Descrição de Account**
-========================
+Descrição de Account
+====================
 
 A Plataforma uCloud pode ser implantada de duas formas diferentes:
 
 A. Instalação dedicada (on-premises)
 
-Para o cenário da instalação dedicada (on-premises) a funcionalidade de Account pode não ser muito aplicável, muito provavelmente esta instalação pertence somente a uma única empresa, e esta empresa não irá compartilhar a Plataforma uCloud entre diversos clientes. Vamos assumir que a instalação da Plataforma uCloud será utilizada apenas as nuvens próprias (públicas e privadas).
+Para o cenário da instalação dedicada (on-premises) a funcionalidade de Account pode não ser aplicada,provavelmente esta instalação pertence somente a uma única empresa, e esta empresa não compartilhará a Plataforma uCloud entre outras organizações. Ainda neste cenário, vamos assumir que a instalação da Plataforma uCloud será utilizada apenas na(s) nuvem(ns) própria(s) (públicas e/ou privadas).
 
 B. Instalação compartilhada como serviço (SaaS - Software as a Service)
 
@@ -157,33 +163,33 @@ Possibilita organizar e compartilhar os recursos entre as “Contas” criadas, 
 
 Esta funcionalidade “**Contas**” tem como objetivo entregar à organização a possibilidade de segmentar clientes por porte (máquinas virtuais), por volume de receita (custos financeiros), possibilita entender o desempenho por “Conta” e filtrar o seu histórico por linha de negócio.
 
-**Segmentação por Porte de Máquinas Virtuais (Exemplo)**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Segmentação por Quantidade de Máquinas Virtuais (Exemplo)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para exemplificar uma forma de como cobrar pela “oferta de serviço” de Gerenciamento de Centralizado Nuvem pela Plataforma uCloud, iremos utilizar o exemplo de 'níveis de consumo' de infraestrutura computacional com base no número de Máquinas Virtuais Gerenciadas pela Plataforma do uCloud, e que iremos denominar de “Tier”. Os Tiers representam o modelo de cobrança existente na funcionalidade "Contas", a regra de negócio criada estabelece contabilizar os recursos obtidos e gerados por uma determinada conta.
 
-No portal, os Tiers são categorizados nos níveis de 1 a 12 e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
+No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
 
-+---------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
-| Tier          |    A   |    B   |   C    |    D   |   E    |    F    |    G    |    H    |    I    |    J    |
-+===============+========+========+========+========+========+=========+=========+=========+=========+=========+
-| Quantidade de |        |        |        |        |        |         |         |         |         |         |
-| Máqs.Virtuais |   20   |   30   |   50   |   75   |   100  |   150   |   200   |   250   |   300   |   500   |
-+---------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
-| Valor Mensal  | $1.500 | $3.000 | $4.000 | $6.000 | $8.000 | $16.000 | $24.000 | $32.000 | $40.000 | $64.000 |
-+---------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
++----------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
+| Tier           |    A   |    B   |   C    |    D   |   E    |    F    |    G    |    H    |    I    |    J    |
++================+========+========+========+========+========+=========+=========+=========+=========+=========+
+|| Quantidade de ||       ||       ||       ||       ||       ||        ||        ||        ||        ||        |
+|| Máqs.Virtuais || ≤ 20  || ≤ 30  || ≤ 50  || ≤ 75  || ≤ 100 || ≤ 150  || ≤ 200  || ≤ 250  || ≤ 300  || ≤ 500  |
++----------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
+| Valor Mensal   | $1.500 | $3.000 | $4.000 | $6.000 | $8.000 | $16.000 | $24.000 | $32.000 | $40.000 | $64.000 |
++----------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 
-.. attention:: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
+.. attention:: ATENÇÃO: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
 
-**Exemplo de Casos de Uso:**
-----------------------------
+Exemplo de Casos de Uso
+------------------------
 
 * *Contrato Empresa Galáxia (qtde. VMs 20)*:
 
 Apenas no objetivo de exemplificar um cenário, iremos descrever oferta de serviços de utilização da Plataforma uCloud na modalidade SaaS (Software como Serviço) para a empresa Galáxia, e na sua “Conta” existem 20 máquinas virtuais (ativas e gerenciadas pela  Plataforma uCloud), se enquadra no nível Tier “A” - sendo o valor mensal a ser investido pela Empresa Galáxia será R$ 1,500 reais ou dólares (a depender do país que a empresa está estabelecida). Uma observação importante, caso a conta utilize somente 18 máquinas, esta ainda será classificada no Tier “A”.
 
-**Segmentação por Contas**
---------------------------
+Segmentação por Contas
+----------------------
 Existem duas classes de “Contas” elas estão categorizados em dois tipos, as contas do tipo **Integrator** e do tipo **Producer**, detalhadas a seguir:
 
 #. **Conta Integrator**
@@ -214,10 +220,10 @@ Com a criação desta funcionalidade o administrador da conta pode gerenciar as 
 
 Adicionalmente, a funcionalidade “Contas” possibilita utilizar as políticas de controle que estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença.
 
-Ao estabelecer esses padrões de permissão, acessos e visualizações aos recursos, organiza e qualifica o privilégio que cada usuário terá dentro dos ambientes dos provedores de nuvem pública em que cada contrato/grupo/usuário pertence, criando assim, permissões diferentes e necessárias para criar controles minuciosos em casa conta.
+Ao estabelecer esses padrões de permissão, acessos e visualizações aos recursos, organiza e qualifica o privilégio que cada usuário terá dentro dos ambientes dos provedores de nuvem pública em que cada contrato/grupo/usuário pertence, criando assim, permissões diferentes e necessárias para criar controles minuciosos em cada conta.
 
-**Descrição de TAGs Virtuais**
-==============================
+Descrição de TAGs Virtuais
+==========================
 
 Num contexto amplo, uma *TAG* (um rótulo ou uma etiqueta) é uma palavra chave que assina ou identifica um determinado recurso computacional (ou serviço decorrente da existência deste) armazenado em um provedor de nuvem, repositório ou banco de dados. As *TAGs* são um tipo de metadado, capazes de fornecer informação que descreve o dado, isto facilita a busca automatizada para a  recuperação de informações. Uma *TAG* é um rótulo no qual o usuário atribui uma **Chave** e um **Valor** a um recurso computacional de nuvem pública.
 
@@ -230,6 +236,8 @@ Estas TAGs (etiquetas) após vinculadas a um recurso  são utilizadas para categ
 
 ----
 
+.. note:: A figura acima é um exemplo e as informações presentes são meramente ilustrativas.
+
 Na imagem acima utilizamos duas máquinas virtuais como exemplo para ilustrar a vinculação de TAG a recursos. Um detalhe que é muito pouco mencionado é que os provedores de serviço de nuvem pública não permitem vincular TAGs a todos os seus produtos e/ou serviços (consulte a documentação do provedor para saber quais recursos são passíveis de terem uma TAG vinculada ao recurso).
 
 No exemplo acima vinculamos “**duas** TAGs diferentes” ao mesmo recurso (máquina virtual) desta forma induzimos que os relatórios financeiros por TAG totalizaram o valor do custo da TAG duas vezes (o mesmo valor em cada TAGs) e, para este exemplo, nesta situação dobrar o custo dentro do mesmo período.
@@ -241,8 +249,8 @@ Mas devemos ressaltar que para o ambiente do provedor de serviço de nuvem públ
 A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de billing (CSV) do provedor de serviço de nuvem pública e, consequentemente, recebe todas as TAGs existentes no provedor.
  
  
-**As TAGs Virtuais da Plataforma uCloud**
------------------------------------------
+As TAGs Virtuais da Plataforma uCloud
+-------------------------------------
 
 Mencionamos acima que o processo de vincular uma TAGs a um recurso é manual, consome muito tempo e, principalmente, não se repete de forma automática para novos serviços de um recurso que já tenha uma TAG vinculada.
 
@@ -257,6 +265,9 @@ Vejamos abaixo como a nova implementação de TAGs Virtuais permite automatizar 
 
 ----
 
+.. note:: A figura acima é um exemplo e as informações presentes são meramente ilustrativas.
+
+
 No exemplo acima, sempre que a Plataforma uCloud executar a sincronização do arquivo CSV de *billing/bucket*, **automaticamente** as TAGs serão vinculadas para todos os registros (linhas) recursos no arquivo de billing os quais a correlação de *Product Name ou Product Family ou Identificador do Recurso* for encontrada.
 
 As “TAGs Virtuais” são aplicadas nos recursos da nuvem (por exemplo: máquinas virtuais, bancos de dados) para que seja possível criar classificações por projetos, divisões por centro de custos, entre outros tipos de agrupamentos. Estas chaves e valores de TAGs podem ou não ser refletidas nos *reports* de *billing* disponíveis para consulta somente através do console do provedor de nuvem pública. Assim, os recursos importados do arquivo de *bucket/billing* que existe nos provedores das nuvens públicas que por quaisquer política destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*”. Mas é muito importante ressaltar que essas “TAGs Virtuais” existem somente na base de dados da Plataforma uCloud, não sendo escrita (ou sincronizada) para o *bucket/billing* que existe no ambiente do provedor de serviço de nuvem pública.
@@ -267,8 +278,8 @@ A “*TAG Virtual*” deve ser aplicada pelo cliente usuário dentro do portal u
 
 As organizações que utilizam processos automatizados para gerenciar a infraestrutura incluem as TAGs adicionais específicas para automatização, em geral, criam agrupamentos relevantes a fim de organizar os recursos nas dimensões técnicas, comerciais e de segurança. 
 
-**Normalização de TAGs Virtuais**
----------------------------------
+Normalização de TAGs Virtuais
+-----------------------------
 
 Importante mencionar que a existência contínua de um recurso no provedor de serviço de nuvem, gera novos serviços ou produtos que decorrem da existência/manutenção do recurso na nuvem do provedor de serviço de nuvem pública (ex.: *snapshots*).
 
@@ -283,12 +294,14 @@ Este processo executa uma comparação de cada linha do arquivo de *billing* e q
 
 ----
 
+.. note:: A tabela acima é um exemplo e as informações presentes são meramente ilustrativas.
+
 Este processo pode levar algum tempo pois é executado com comparação de strig de caracteres de cada linha do **billing** individualmente.
 
 Com este processo a Plataforma uCloud complementa a nova funcionalidade de TAGs Virtuais mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem TAGs Virtuais. 
 
-**Quando utilizar?**
---------------------
+Quando utilizar
+----------------
 
 A partir desta nova implementação, direcionada à classificação, normalização e visualização das informações obtidas dos diversos provedores de nuvem pública, a nova funcionalidade “TAGs Virtuais” possibilita "*etiquetar/taguear*", ou seja, marcar os recursos que por alguma regra ou definição, não tenha sido possível encontrar registrada no billing de determinado provedor de nuvem utilizado pela organização ou cliente usuário.
 
@@ -306,8 +319,8 @@ A nova implementação do portal uCloud possibilita apresentar no relatório fin
 
 Assim, os recursos importados do arquivo de billing das nuvens públicas que por quaisquer políticas destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*” dentro do portal. 
 
-**Restrições das TAGs**
------------------------
+Restrições das TAGs
+-------------------
 
 No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restrições básicas a serem aplicadas:
 
@@ -316,7 +329,7 @@ No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restriç
 * **Comprimento máximo do valor**: 256 caracteres
 * **Caracteres permitidos**: Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
 
-* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres:+ - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
+* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
 
 .. note:: Para qualquer recurso, cada chave da etiqueta deve ser exclusiva e pode ter apenas um valor.
 
@@ -324,8 +337,8 @@ No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restriç
 
 .. warning:: O prefixo **aws** é reservado para uso da Amazon Web Service (AWS). Não é possível editar nem excluir a chave ou o valor de uma TAG quando ela tem uma chave de TAG com esse prefixo. As TAGs com o prefixo aws: não contam para as TAGs por limite de recurso.
 
-**Como utilizar?**
-------------------
+Como utilizar
+-------------
 
 Esta nova implementação possibilita taguear os recursos ausentes de marcação na bilhetagem das nuvens, seja por regra ou definição. O que resulta em ganho de informação relevante daqueles recursos que deixariam de ser categorizados e recuperados. 
 
@@ -402,12 +415,14 @@ No momento de exportar o relatório de faturamento as “TAGs Virtuais” retorn
 A figura acima apresenta a aplicação das “TAGs virtuais'', por meio do Accountant *virtual-tag-applier*, e sua normalização, utilizando o Accountant *virtual-tag-normalizer*.
 
 
-**Oracle Cloud Infrastructure**
--------------------------------
+Oracle Cloud Infrastructure
+---------------------------
 
 Com a necessidade das organizações de manter um desempenho consistente, elas tendem a adotar a estratégia de utilizar vários provedores de nuvens públicas. Para atender a esta demanda, a Ustore lança a nova implementação “Oracle Cloud Infrastructure (OCI)”, integrando a nuvem pública OCI ao portal uCloud.
 
-A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos listados a seguir: 
+Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidade de operação de infraestrutua OCI, de acordo com a lista de funcionaldades abaixo listada.
+
+A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
 
 +---------------------+---------------------+--------------------+----------------+
 | Import de Container | Sync de Container   | Grupo de Segurança | Rede           |
@@ -460,5 +475,7 @@ A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disp
 Devemos de salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (ou *SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para integração com a Oracle Cloud Infrastructure.
 
 O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, quanto da ampliação de novas funcionalidades presentes em outras evoluções do SDK Oracle, permitindo assim novas funcionalidades em futuras evoluções de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos respectivos futuros Release Notes da Plataforma uCloud.
+
+.. note:: No presente momento para este Release Notes (Julho, 2022) a API e o SDK para o OCI ainda não permitem o suporte completo para implementação de coleta e cálculo de *billing* da infraestrutura presente no ambiente OCI. Aguardamos a evolução do SDK e API Oracle Cloud Infrastructure para implementar a funcionalidade de *billing* para OCI.
 
 Este conjunto de novas funcionalidades implementadas e descritas, contidas neste documento, geraram o desenvolvimento desta nova versão (`update tag 5.2-b35`). Assim, a Ustore reafirma o constante compromisso de evolução da plataforma e o alinhamento às necessidades do mercado e dos seus clientes.
