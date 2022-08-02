@@ -450,7 +450,7 @@ A partir deste release notes, o nosso portal passa a dar suporte à nuvem e disp
 | **Sub-rede** | **Máquina Virtual**   | **Disco Órfão**     | **IP Público**      |
 +==============+=======================+=====================+=====================+
 | Criar        | Iniciar               | Criar               | Criar               |
-+--------------+------  ---------------+---------------------+---------------------+
++--------------+-----------------------+---------------------+---------------------+
 | Deletar      | Parar                 | Deletar             | Deletar             |
 +--------------+-----------------------+---------------------+---------------------+
 | .            | Reiniciar             | Anexar a uma VM     | Anexar a uma VM     |
