@@ -48,16 +48,13 @@ Otro aspecto de la Plataforma de uCloud es la reducción de costos de certificac
 Billing (Facturación de los Servicios)
 --------------------------------------
 
-La Plataforma de uCloud proporciona a las organizaciones empresariales información sobre los costes recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un entorno multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de **Cloud 
-Financial Management - FinOps** (Gestión financiera de la nube).
+La Plataforma de uCloud proporciona a las organizaciones empresariales información sobre los costes recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un entorno multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de **Cloud Financial Management - FinOps** (Gestión financiera de la nube).
 
-Es importante resaltar que, individualmente, la Plataforma de uCloud no atiende a los tres pilares de la práctica de *FinOps* por *default*. Ustore posee otros productos que pueden ser complementarios y el conjunto de productos tiene potencial para actuar como un entorno capaz de englobar y atender la 
-práctica de *FinOps*.
+Es importante resaltar que, individualmente, la Plataforma de uCloud no atiende a los tres pilares de la práctica de *FinOps* por *default*. Ustore posee otros productos que pueden ser complementarios y el conjunto de productos tiene potencial para actuar como un entorno capaz de englobar y atender la práctica de *FinOps*.
 
 El requisito soportado por uCloud es el punto de **Información** *(Inform)*, los otros puntos de esta mejor práctica de *FinOps*: la **Optimización** y la **Operación** pertenecen a los otros productos de la cartera de Ustore que complementa la Plataforma de uCloud.
 
-Se debe aclarar que la Plataforma de uCloud no crea ni genera valores de recursos computacionales, estos valores se generan en los proveedores de nube pública de los que la Plataforma de uCloud **extrae** *(descargar)* el archivo de **Billing** *(facturación)* de estos proveedores y añade esta información en sus 
-bases de datos internas. Para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
+Se debe aclarar que la Plataforma de uCloud no crea ni genera valores de recursos computacionales, estos valores se generan en los proveedores de nube pública de los que la Plataforma de uCloud **extrae** *(descargar)* el archivo de **Billing** *(facturación)* de estos proveedores y añade esta información en sus bases de datos internas. Para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
 
 De esta forma, el usuario permanece **informado** de la evolución de los costos y podrá seguir si estos costos se encuentran dentro de los criterios de la gobernanza financiera de la organización.
 
@@ -68,26 +65,22 @@ Exclusivamente, los usuarios con un perfil específico pueden 'visualizar costos
 Monitoreo de la Infraestructura
 -------------------------------
 
-Una funcionalidad importante de la Plataforma de uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar eventos y alarmas que se han generado en los entornos de nube (público y/o privado), activar notificaciones y crear informes personalizados. 
+Una funcionalidad importante de la Plataforma de uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar eventos y alarmas que se han generado en los entornos de nube (público y/o privado), activar notificaciones y crear informes personalizados.
 
-Todas estas facilidades reducen los costos para las organizaciones, una vez que elimina la necesidad de contratación de servicios de monitoreo de los proveedores, pues tal servicio puede representar altos costos los cuales pueden impactar de forma negativa en el presupuesto (sobrepasar el límite) 
-destinado a infraestructura de nube pública. 
+Todas estas facilidades reducen los costos para las organizaciones, una vez que elimina la necesidad de contratación de servicios de monitoreo de los proveedores, pues tal servicio puede representar altos costos los cuales pueden impactar de forma negativa en el presupuesto (sobrepasar el límite) destinado a infraestructura de nube pública.
 
-Esta funcionalidad permite integrar a un entorno de gestión de Service Desk 
-para control *IT Service Management* (gestión de servicios de TI).
+Esta funcionalidad permite integrar a un entorno de gestión de Service Desk para control *IT Service Management* (gestión de servicios de TI).
 
-Inventario *(Assessment)*
------------------------
+Inventario (*Assessment*)
+-------------------------
 
 La plataforma de uCloud se conecta a los proveedores de la nube mediante el registro de credenciales de acceso específicas de cada proveedor de servicios en la nube (público y/o privado). Para ello, las empresas deben proporcionar credenciales de modo **"operativo"**.
 
-Esta credencial operativa es proporcionada por el administrador del servicio en la nube y son credenciales que se generan en las cuentas de los proveedores que solo tienen permiso para interactuar con la consola del proveedor público en la nube a través de una API, no son credenciales normales con información estándar de inicio de sesión y contraseña. De esta forma, la seguridad y las 
-normas de regulación de seguridad de la información están previstas y atendidas en su totalidad.
+Esta credencial operativa es proporcionada por el administrador del servicio en la nube y son credenciales que se generan en las cuentas de los proveedores que solo tienen permiso para interactuar con la consola del proveedor público en la nube a través de una API, no son credenciales normales con información estándar de inicio de sesión y contraseña. De esta forma, la seguridad y las normas de regulación de seguridad de la información están previstas y atendidas en su totalidad.
 
 Como las credenciales *operativas* se configuran en la Plataforma de uCloud, la primera actividad es sincronizar la configuración y el inventario de recursos informáticos existentes en el proveedor (máquinas virtuales - cargas de trabajo). Este inventario de máquinas virtuales se extrae y se agrega a las bases de datos de uCloud para que la presentación en la pantalla del usuario sea rápida.
 
-Con este inventario disponible directamente dentro de la Plataforma de uCloud, el usuario podrá operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los 
-recursos computacionales existentes en los proveedores de nube (público y/o privado).
+Con este inventario disponible directamente dentro de la Plataforma de uCloud, el usuario podrá operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los recursos computacionales existentes en los proveedores de nube (público y/o privado).
 
 Operación de la Infraestructura
 -------------------------------
@@ -158,10 +151,10 @@ Switch Roles
 Switch Roles - Escenario de Ejemplo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Escenario de Ejemplo *(AWS)*:
+Escenario de Ejemplo (*AWS*):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Escenario de Ejemplo *(AZURE y AWS)*:
+Escenario de Ejemplo (*AZURE y AWS*):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Switch Roles - Utilizando
