@@ -1,4 +1,4 @@
-uCloud - Notas Julho - 2022
+uCloud - Notas Maio - 2022
 ===========================
 
 .. figure:: /figuras/ucloud_logo_peq.png
@@ -34,9 +34,9 @@ Novas implementações
 
 As novidades apresentadas a seguir foram categorizadas em:
 
-* ** As ações corretivas para adequação às mudanças ocorridas nos provedores de nuvens;
-* ** As integrações realizadas no portal;
-* ** Atualizações globais em alguns menus de funcionalidades do  portal.
+* As ações corretivas para adequação às mudanças ocorridas nos provedores de nuvens;
+* As integrações realizadas no portal;
+* Atualizações globais em alguns menus de funcionalidades do  portal.
 
 Além das inovações mais robustas, elencadas em três temas. Estas novas implementações serão descritas, em detalhe, no transcorrer deste documento.
 
@@ -149,7 +149,7 @@ A Plataforma uCloud pode ser implantada de duas formas diferentes:
 
 A. Instalação dedicada *(on-premises)*
 
-Para o cenário da instalação dedicada (on-premises) a funcionalidade de Account pode não ser aplicada,provavelmente esta instalação pertence somente a uma única empresa, e esta empresa não compartilhará a Plataforma uCloud entre outras organizações. Ainda neste cenário, vamos assumir que a instalação da Plataforma uCloud será utilizada apenas na(s) nuvem(ns) própria(s) (públicas e/ou privadas).
+Para o cenário da instalação dedicada *(on-premises)* a funcionalidade de Account pode não ser aplicada,provavelmente esta instalação pertence somente a uma única empresa, e esta empresa não compartilhará a Plataforma uCloud entre outras organizações. Ainda neste cenário, vamos assumir que a instalação da Plataforma uCloud será utilizada apenas na(s) nuvem(ns) própria(s) (públicas e/ou privadas).
 
 B. Instalação compartilhada como serviço *(SaaS - Software as a Service)*
 
@@ -168,7 +168,7 @@ Segmentação por Quantidade de Máquinas Virtuais (Exemplo)
 
 Para exemplificar uma forma de como cobrar pela “oferta de serviço” de Gerenciamento Centralizado Nuvem pela Plataforma uCloud, utilizaremos o exemplo de 'níveis de consumo' de infraestrutura computacional com base no número de Máquinas Virtuais Gerenciadas pela Plataforma do uCloud, denominado de “Tier”. Os Tiers representam o modelo de cobrança existente na funcionalidade "Contas", a regra de negócio criada estabelece contabilizar os recursos obtidos e gerados por uma determinada conta.
 
-No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo *((número de máquinas versus custo/valor))*. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
+No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculados a partir das regras estabelecidas com a utilização de dois parâmetros: - certo número de máquinas virtuais  gera determinado custo máximo *(número de máquinas versus custo/valor)*. No caso de uma conta criada, ao atingir um dos parâmetros, imediatamente, a aplicação escala para o próximo nível. Segue a descrição dos níveis dos Tiers:
 
 +--------------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 | **Tier**           |  **A** |  **B** |  **C** |  **D** | **E**  |  **F**  |  **G**  |  **H**  |  **I**  |  **J**  |
@@ -195,7 +195,7 @@ Existem duas classes de “Contas” elas estão categorizados em dois tipos, as
 * **A. Conta Integrator**
   Esta conta é responsável por criar os perfis das contas integrator e producer, ao criar estes perfis alimenta os tiers e os pacotes, além de estabelecer, a conta producer sua regra de uso. 
   
-  Para exemplificar: 
+  * Para exemplificar: 
   
   Funciona como uma espécie de *cluster*, aglomerando ou categorizando outras corporações.
 
@@ -263,7 +263,7 @@ Mencionamos acima que o processo de vincular uma TAGs a um recurso é manual, co
 
 A nova funcionalidade de TAGs Virtuais da Plataforma uCloud cria uma automação para o processo de vinculação de TAGs a recursos existentes no ambiente do provedor de serviço de nuvem pública.
 
-O processamento de TAG Virtual da Plataforma uCloud, pode vincular automaticamente uma TAG específica a um recurso a ser selecionado com base em *Nome de Produto e/ou Família de Produto e/ou Identificador do Recurso*. Importante ressaltar que a conjunção “e/ou” demonstra o alto grau de granularidade que o usuário pode selecionar para atender ao uso específico de sua necessidade.
+O processamento de TAG Virtual da Plataforma uCloud, pode vincular automaticamente uma TAG específica a um recurso a ser selecionado com base em *Nome de Produto* e/ou *Família de Produto* e/ou *Identificador do Recurso*. Importante ressaltar que a conjunção “e/ou” demonstra o alto grau de granularidade que o usuário pode selecionar para atender ao uso específico de sua necessidade.
 
 Vejamos abaixo como a nova implementação de TAGs Virtuais permite automatizar a vinculação de TAGs em recursos.
 
@@ -275,7 +275,7 @@ Vejamos abaixo como a nova implementação de TAGs Virtuais permite automatizar 
 .. note:: A figura acima é um exemplo e as informações presentes são meramente ilustrativas.
 
 
-No exemplo acima, sempre que a Plataforma uCloud executar a sincronização do arquivo CSV de *billing/bucket*, **automaticamente** as TAGs serão vinculadas para todos os registros (linhas) recursos no arquivo de billing os quais a correlação de *Product Name ou Product Family ou Identificador do Recurso* for encontrada.
+No exemplo acima, sempre que a Plataforma uCloud executar a sincronização do arquivo CSV de *billing/bucket*, **automaticamente** as TAGs serão vinculadas para todos os registros (linhas) recursos no arquivo de billing os quais a correlação de *Product Name* ou *Product Family* ou *Identificador do Recurso* for encontrada.
 
 As “TAGs Virtuais” são aplicadas nos recursos da nuvem (por exemplo: máquinas virtuais, bancos de dados) para que seja possível criar classificações por projetos, divisões por centro de custos, entre outros tipos de agrupamentos. Estas chaves e valores de TAGs podem ou não ser refletidas nos *reports* de *billing* disponíveis para consulta somente através do console do provedor de nuvem pública. Assim, os recursos importados do arquivo de *bucket/billing* que existe nos provedores das nuvens públicas que por quaisquer política destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*”. Mas é muito importante ressaltar que essas “TAGs Virtuais” existem somente na base de dados da Plataforma uCloud, não sendo escrita (ou sincronizada) para o *bucket/billing* que existe no ambiente do provedor de serviço de nuvem pública.
 
@@ -303,9 +303,9 @@ Este processo executa uma comparação de cada linha do arquivo de *billing* e q
 
 .. note:: A tabela acima é um exemplo e as informações presentes são meramente ilustrativas.
 
-Este processo pode levar algum tempo, pois é executado com comparação de strig de caracteres de cada linha do **billing** individualmente.
+Este processo pode levar algum tempo, pois é executado com comparação de *string* de caracteres de cada linha do **billing** individualmente.
 
-Com este processo a Plataforma uCloud complementa a nova funcionalidade de TAGs Virtuais mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem TAGs Virtuais. 
+Com este processo a Plataforma uCloud complementa a nova funcionalidade de TAGs Virtuais, mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem TAGs Virtuais. 
 
 Quando utilizar
 ----------------
@@ -431,6 +431,8 @@ Com a necessidade das organizações de manter um desempenho consistente, elas t
 Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidade de operação de infraestrutua OCI, de acordo com a lista de funcionaldades abaixo listada.
 
 A partir deste release notes, o nosso portal passa a dar suporte à nuvem, disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
+
+
 
 +-------------------------+-------------------------+------------------------+---------------------+
 | **Import de Container** | **Sync de Container**   | **Grupo de Segurança** | **Rede**            |
