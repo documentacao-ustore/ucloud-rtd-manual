@@ -82,12 +82,73 @@ Como las credenciales *operativas* se configuran en la Plataforma de uCloud, la 
 
 Con este inventario disponible directamente dentro de la Plataforma de uCloud, el usuario podrá operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los recursos computacionales existentes en los proveedores de nube (público y/o privado).
 
+Es importante mencionar que la Plataforma de uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su DataCenter privado. A través de la API Rest, la Plataforma de uCloud, envía acciones (tareas) al administrador de entorno de nube específico (público y/o privado) para que realicen la acción deseada.
+
+El usuario podrá seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la Plataforma de uCloud la que **ejecuta** las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la API Rest.
+
+Si el resultado no se refleja en la interfaz de la pantalla del usuario, la consola de destino puede tardar un cierto tiempo en realizar esta tarea y solo después de que finalice la ejecución de la tarea se mostrará el resultado en la interfaz de uCloud.
+
+Existe una opción de menú donde el usuario podrá seguir el porcentaje de progreso de estas tareas, su resultado de éxito o el mensaje de error referente a alguna restricción del entorno destino.
+
+Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la Plataforma de uCloud, restricciones al usuario porque puede haber agotado su límite, su cuota financiera o de recursos computacionales, de esta forma la Plataforma de uCloud generar un aviso de 
+error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describen en el menú Tareas.
+
 Operación de la Infraestructura
 -------------------------------
+
+La mención operar significa al lector que es la capacidad del usuario comandar ciertas acciones directamente en estas máquinas virtuales, como acciones de:
+
+ * Parar (shutdown)
+ * Reiniciar (restart) 
+ * Suspender (suspend)
+ * Remover (delete)
+ * para citar algunas operaciones básicas.
+
+A través de la interfaz de la Plataforma de uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También puede ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta máquina virtual (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
+
+En cuanto a los proveedores de servicios de nube pública, la Plataforma de uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
+
+* ** Amazon Web Services *(AWS)*
+* ** Google Cloud Plataform *(GCP)*
+* ** Microsoft *Azure*
+* ** IBM Cloud
+* ** Huawei Cloud
+* ** Oracle Cloud Infrastructure *(OCI)*
+
+Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
+
+* ** VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
+* ** vCloud
+* ** Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
+* ** Openstack
+* ** Xen Server
+* ** XCP-NG
+* ** KVM
+
+La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
+de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
+*(Infrastructure as a Code)*.
 
 
 Integración e Interoperabilidad Multiplataforma *(API de uCloud)*
 =================================================================
+
+La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas informáticos y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con diferentes herramientas, de diferentes proveedores, pueden o no actuar juntos.
+
+La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. Las siglas API provienen de la expresión inglesa *Application Programming Interface* que, traducida al portugués, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la API es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
+
+A través de las API, los desarrolladores pueden establecer comunicación (interoperabilidad) entre programas y aplicaciones capaces de comunicarse con otras plataformas.
+
+El principal ejemplo es la integración nativa y directa de la Plataforma uCloud con la consola de los proveedores de nubes públicas, todo ello mediante la interoperabilidad a través de la API de las consolas de los proveedores.
+
+Otro ejemplo muy común de uso de la Plataforma uCloud es la emisión de facturas para los sistemas de showback y chargeback, así como el envío de información y alertas sobre los recursos gestionados.
+
+Nuestros clientes (y/o integradores) pueden utilizar la documentación de la API de la Plataforma uCloud con sus plataformas internas para complementar o automatizar ciertas actividades o acciones que están más allá de las capacidades nativas de la Plataforma uCloud. Por ejemplo: *consultar y extraer de la Plataforma uCloud el coste de la factura de los objetos de valor de un proveedor de la nube pública a través de una aplicación financiera/contable para la emisión de facturas*.
+
+La Plataforma uCloud dispone de documentación de su API, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se cree y envíe una credencial de acceso a la documentación de la Plataforma uCloud.
+
+El Equipo de Ustore está preparado para ayudar y evaluar las demandas de interoperabilidad e integración entre la Plataforma uCloud y las plataformas que tienen y permiten el uso de APIs para la interoperabilidad.
+
 
 
 Arquitectura de Referencia de la Plataforma uCloud
