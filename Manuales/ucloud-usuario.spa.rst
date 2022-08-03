@@ -108,22 +108,22 @@ A través de la interfaz de la Plataforma de uCloud, el usuario puede enviar com
 
 En cuanto a los proveedores de servicios de nube pública, la Plataforma de uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
 
-* ** Amazon Web Services *(AWS)*
-* ** Google Cloud Plataform *(GCP)*
-* ** Microsoft *Azure*
-* ** IBM Cloud
-* ** Huawei Cloud
-* ** Oracle Cloud Infrastructure *(OCI)*
+* Amazon Web Services *(AWS)*
+* Google Cloud Plataform *(GCP)*
+* Microsoft *Azure*
+* IBM Cloud
+* Huawei Cloud
+* Oracle Cloud Infrastructure *(OCI)*
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
 
-* ** VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
-* ** vCloud
-* ** Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
-* ** Openstack
-* ** Xen Server
-* ** XCP-NG
-* ** KVM
+* VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
+* vCloud
+* Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
+* Openstack
+* Xen Server
+* XCP-NG
+* KVM
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
 de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
@@ -173,7 +173,7 @@ Se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la 
 Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
 
 
-Acceso a la plataforma uCloud
+Acceso a la Plataforma uCloud
 =============================
 
 El acceso a la plataforma se realiza a través de una dirección de Internet, el usuario debe utilizar un navegador de Internet *(Internet browser)* e introducir la dirección URL/enlace, para que el usuario vea la pantalla de presentación inicial. Los navegadores de Internet 
@@ -658,22 +658,22 @@ Información de Registro *(LOG)* de Billing Admin
 Menú Máquinas Virtuales
 =======================
 
-  *1. **Gobernanza Financiera**
+ .. *1. **Gobernanza Financiera**
 
-  *2. **Billing (Facturación de los Servicios)**
+ .. *2. **Billing (Facturación de los Servicios)**
 
-  *3. **Supervisión de la Infraestructura**
+ .. *3. **Supervisión de la Infraestructura**
 
-  *4. **Inventario (*Assessment*)**
+ .. *4. **Inventario (*Assessment*)**
 
-La plataforma de uCloud se conecta ...
+.. La plataforma de uCloud se conecta ...
 
-  *5. **Operación de la Infraestructura**
+..  *5. **Operación de la Infraestructura**
 
-Con el inventario disponible ...
+.. Con el inventario disponible ...
 
-Menú Máquinas Virtuales
------------------------
+Submenú Máquinas Virtuales
+--------------------------
 
 Administración de una Máquina Virtual
 -------------------------------------
@@ -1093,17 +1093,17 @@ Creación de oferta a través de la carga de Archivo JSON
 .. Menú Workflows / Catálogo de Servicios
 .. ======================================
 
-Menú Trabajos
-=============
+Menú Tareas
+===========
 
-Pestana Trabajos
-----------------
+Pestana Tareas
+--------------
 
 Pestana Aprobaciones Pendientes
 -------------------------------
 
-Pestana Trabajos Programados
-----------------------------
+Pestana Tareas Programados
+--------------------------
 
 Menú Inventário de Recursos
 ===========================
