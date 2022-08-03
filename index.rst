@@ -36,3 +36,4 @@ Neste repositório estão disponíveis somente os manuais de uso (Manual de Usu�
    :caption: Manual Español:
 
    Manuales/usavings-usuario.spa
+   Manuales/ucloud-usuario.spa
