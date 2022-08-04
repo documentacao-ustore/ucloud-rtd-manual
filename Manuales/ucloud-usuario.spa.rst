@@ -1054,7 +1054,7 @@ Menú Workflows
 Workflows / Direct Execution
 ============================
 
-Editando Workflows---
+Editando Workflows
 ------------------
 
 Creando Workflow
