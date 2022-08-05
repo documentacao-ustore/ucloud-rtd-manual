@@ -428,7 +428,7 @@ Oracle Cloud Infrastructure (OCI)
 
 Com a necessidade das organizações de manter um desempenho consistente, elas tendem a adotar a estratégia de utilizar vários provedores de nuvens públicas. Para atender a esta demanda, a Ustore lança a nova implementação “Oracle Cloud Infrastructure (OCI)”, integrando a nuvem pública OCI ao portal uCloud.
 
-Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidade de operação de infraestrutua OCI, de acordo com a lista de funcionaldades abaixo listada.
+Este novo release da Plataforma uCloud, disponibiliza somente as funcionalidades de operação de infraestrutura OCI, de acordo com a lista abaixo.
 
 A partir deste release notes, o nosso portal passa a dar suporte à nuvem, disponibiliza os recursos e funcionalidade de Operação do embitne OCI listados a seguir:
 
@@ -521,7 +521,7 @@ A partir deste release notes, o nosso portal passa a dar suporte à nuvem, dispo
 
 Deve-se salientar que a atual lista das funcionalidades acima está diretamente relacionada com a disponibilidade de funcionalidades presentes no atual conjuto de desenvolvimento de software (*SDK - Software Development Kit*) publicado pela Oracle, e que foi utilizado pela equipe de DevOps da Ustore (maio/2022) para a integração com a Oracle Cloud Infrastructure.
 
-O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, como a ampliação das novas funcionalidades presentes em outras evoluções do SDK Oracle, permitem no futuro a evolução de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos futuros Release Notes da Plataforma uCloud.
+O desenvolvimento contínuo tanto da equipe de DevOps da Ustore, como a ampliação das novas funcionalidades presentes em outras evoluções do SDK Oracle, proporciona a evolução de releases e/ou versões da Plataforma uCloud, que serão relacionadas nos futuros Release Notes da Plataforma uCloud.
 
 .. note:: No presente momento neste Release Notes (maio, 2022) a API e o SDK para o OCI ainda não permite o suporte completo para implementação de coleta e cálculo de *billing* da infraestrutura presente no ambiente OCI. Aguardamos a evolução do SDK e API Oracle Cloud Infrastructure para implementar a funcionalidade de *billing* para OCI.
 
