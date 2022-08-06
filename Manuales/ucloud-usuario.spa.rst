@@ -1121,7 +1121,165 @@ Conclusión
 
 
 
+.. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
 
+.. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
+
+.. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
+
+.. |dica| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/asterisk.png?raw=true
+
+.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+
+.. |botao_adiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+
+.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
+
+.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
+
+.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
+
+.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png
+
+.. |botao_adiciona_aogrupo| image:: /figuras/uCloud_botao_adicionar_aogrupo.png
+
+.. |botao_adiciona_verde| image:: /figuras/uCloud_botao_adiciona_verde.png
+
+.. |botao_conecta_container| image:: /figuras/uCloud_botao_conecta_container.png
+
+.. |botao_criar_VM| image:: /figuras/uCloud_botao_criar_VM.png
+
+.. |botao_desabilita| image:: /figuras/uCloud_botao_disable.png
+
+.. |botao_download| image:: /figuras/uCloud_botao_download.png
+
+.. |botao_enable| image:: /figuras/uCloud_botao_enable.png
+
+.. |botao_excluir| image:: /figuras/uCloud_botao_excluir.png
+
+.. |botao_exclui_VDC| image:: /figuras/uCloud_botao_excluir_VDC.png
+
+.. |botao_exclui_user| image:: /figuras/uCloud_botao_exclui_usuario.png
+
+.. |botao_exportar| image:: /figuras/uCloud_botao_exportar.png
+
+.. |botao_filtrar| image:: /figuras/uCloud_botao_filtrar.png
+
+.. |botao_lanca_acct| image:: /figuras/uCloud_botao_lancar_acct.png
+
+.. |botao_limpa_acct| image:: /figuras/uCloud_botao_limpar_acct.png
+
+.. |botao_pesquisar| image:: /figuras/uCloud_botao_pesquisar.png
+
+.. |botao_refresh| image:: /figuras/uCloud_botao_refresh.png
+
+.. |botao_proximo| image:: /figuras/ucloud_botao_proximo.png
+
+.. |botao_voltar| image:: /figuras/ucloud_botao_voltar.png
+
+.. |botao_criar_off| image:: /figuras/ucloud_botao_criar_cinza.png
+
+.. |botao_criar_on| image:: /figuras/ucloud_botao_criar_verde.png
+
+.. |botao_cencela_verm| image:: /figuras/ucloud_botao_cancela_verm.png
+
+.. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
+
+.. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
+
+.. |icone_cancela_vermelho| image:: /figuras/uCloud_icone_cancela_vermelho.png
+
+.. |icone_cota_grp| image:: /figuras/ucloud_icone_cota_grupo.png
+
+.. |icone_cota_indv| image:: /figuras/ucloud_icone_cota_individual.png
+
+.. |icone_desb_verm| image:: /figuras/uCloud_icone_desabilita_vermelho.png
+
+.. |icone_edita_on| image:: /figuras/uCloud_icone_editar_on.png
+
+.. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
+
+.. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png
+
+.. |icone_abre_fatura| image:: /figuras/uCloud_icone_abrir_fatura.png
+
+.. |icone_agenda| image:: /figuras/uCloud_icone_agendar.png
+
+.. |icone_amplia_vdc| image:: /figuras/ucloud_icone_amplia_vdc.png
+
+.. |icone_anexa_branco| image:: /figuras/uCloud_icone_anexar_branco.png
+
+.. |icone_conecta_rede| image:: /figuras/uCloud_icone_conecta_rede.png
+
+.. |icone_desconecta| image:: /figuras/uCloud_icone_desconectar.png
+
+.. |icone_download| image:: /figuras/uCloud_icone_download.png
+
+.. |icone_edita_user| image:: /figuras/uCloud_icone_edita_user.png
+
+.. |icone_private_net| image:: /figuras/uCloud_icone_private_template.png
+
+.. |icone_remove_user| image:: /figuras/uCloud_icone_remove_user.png
+
+.. |icone_visualiza| image:: /figuras/uCloud_icone_visualiza.png
+
+.. |icone_vm_start| image:: /figuras/ucloud_icone_vm_start.png
+
+.. |icone_vm_stop| image:: /figuras/ucloud_icone_vm_stop.png
+
+.. |icone_vm_reboot| image:: /figuras/ucloud_icone_vm_reboot.png
+
+.. |icone_vm_suspend| image:: /figuras/ucloud_icone_vm_suspend.png
+
+.. |icone_vm_desconecta| image:: /figuras/ucloud_icone_vm_desconecta.png
+
+.. |icone_vm_ssh| image:: /figuras/ucloud_icone_vm_ssh.png
+
+.. |icone_vm_rdp| image:: /figuras/ucloud_icone_vm_rdp.png
+
+.. |icone_vm_clone| image:: /figuras/ucloud_icone_vm_clone.png
+
+.. |icone_vm_resume| image:: /figuras/ucloud_icone_vm_resume.png
+
+.. |icone_edita_vdc| image:: /figuras/ucloud_icone_edita_vdc.png
+
+.. |icone_revert_snap| image:: /figuras/ucloud_icone_revert_snap.png
+
+.. |icone_wf_ativo| image:: /figuras/ucloud_icone_wf_ativo.png
+
+.. |icone_wf_parado| image:: /figuras/ucloud_icone_wf_parado.png
+
+.. |icone_lapis_workflow| image:: /figuras/ucloud_icone_edita_workflow.png
+
+.. |botao_adicionacarrinho| image:: /figuras/ucloud_botao_colocacarrinho.png
+
+.. |botao_finalizapedido| image:: /figuras/ucloud_botao_finalizapedido.png
+
+.. |icone_log_wf| image:: /figuras/ucloud_icone_info_workflow.png
+
+.. |icone_refresh| image:: /figuras/ucloud_icone_refresh.png
+
+.. |icone_sino| image:: /figuras/ucloud_icone_sino.png
+
+.. |icone_grafico_barra01| image:: /figuras/ucloud_icone_grafico01.png
+
+.. |icone_grafico_barra02| image:: /figuras/ucloud_icone_grafico02.png
+
+.. |icone_graph_large| image:: /figuras/ucloud_icone_big_graph.png
+
+.. |icone_troca_mes| image:: /figuras/ucloud_icone_mes.png
+
+.. |icone_seta_acima| image:: /figuras/ucloud_icone_fatur_acima.png
+
+.. |icone_seta_abaixo| image:: /figuras/ucloud_icone_fatur_abaixo.png
+
+.. |icone_neutro| image:: /figuras/ucloud_icone_fatur_estavel.png
+
+.. |icone_next_ativo| image:: /figuras/ucloud_icone_next_activo.png
+
+.. |icone_next_off| image:: /figuras/ucloud_icone_next_off.png
+
+.. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
 
 
 
