@@ -9,14 +9,14 @@ uCloud - Manual del Usuário
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
 
-Presentación
-============
+.. Presentación
+.. ============
 
-Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de Cloud Service Broker (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
+.. Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de Cloud Service Broker (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
 
-En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
+.. En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
 
-----
+.. ----
 
 Introducción
 ============
@@ -170,7 +170,7 @@ Nuestro compromiso es mantener la compatibilidad de integración, para que los �
 
 Se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la capacidad de una organización para entregar aplicaciones y servicios más rápido que los procesos tradicionales de desarrollo de software.
 
-Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
+.. Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
 
 
 Acceso a la Plataforma uCloud
@@ -474,9 +474,13 @@ El término 'Administración' varía en función del perfil del usuario que est�
 
 #. **Usuarios Administradores de Grupo:** son usuarios que están asociados a un grupo de usuarios, pueden aprovisionar y cambiar a otros usuarios en la plataforma.
 
+#. **Usuario Administrador Financiero:** son usuarios con un perfil para acceder a la información financiera de uCloud.
+
+#. **Usuario Administrador:** son usuarios con perfil de acceso completo y pueden realizar intervenciones globales en la configuración de la plataforma. Este perfil de usuario es exclusivo de Ustore o de un perfil de usuario único de la organización que compró las licencias de la plataforma uCloud. Este usuario administrador tiene permiso para administrar todas las funciones y recursos globales que ofrece la plataforma. 
 
 
-
+.. note::
+  |atencao| *El perfil de administrador no se tratará en este documento. Por favor, póngase en contacto con su punto focal en Ustore para obtener el documento específico: Manual del administrador de la plataforma uCloud. Por seguridad, las mejores prácticas indican que  solo debe haber un usuario aprovisionado con este tipo de perfil.*
 
 
 
