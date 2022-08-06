@@ -108,30 +108,30 @@ A través de la interfaz de la Plataforma de uCloud, el usuario puede enviar com
 
 En cuanto a los proveedores de servicios de nube pública, la Plataforma de uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
 
-* Amazon Web Services *(AWS)*
-* Google Cloud Plataform *(GCP)*
-* Microsoft *Azure*
-* IBM Cloud
-* Huawei Cloud
-* Oracle Cloud Infrastructure *(OCI)*
+  * Amazon Web Services *(AWS)*
+  * Google Cloud Plataform *(GCP)*
+  * Microsoft *Azure*
+  * IBM Cloud
+  * Huawei Cloud
+  * Oracle Cloud Infrastructure *(OCI)*
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
 
-* VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
-* vCloud
-* Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
-* Openstack
-* Xen Server
-* XCP-NG
-* KVM
+  * VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
+  * vCloud
+  * Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
+  * Openstack
+  * Xen Server
+  * XCP-NG
+  * KVM
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
 de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
 *(Infrastructure as a Code)*.
 
 
-Integración e Interoperabilidad Multiplataforma *(API de uCloud)*
-=================================================================
+Integración e Interoperabilidad Multiplataforma *(API uCloud)*
+=============================================================
 
 La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas informáticos y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con diferentes herramientas, de diferentes proveedores, pueden o no actuar juntos.
 
@@ -193,9 +193,9 @@ La Plataforma uCloud está adaptada para que su interfaz se presente en **Portug
 
 Después de iniciar sesión en un Internet browser, la dirección/ruta de acceso para la aplicación debe rellenarse como ejemplo a continuación, de la siguiente manera:
 
-- Ejemplo de enlace con dirección IP: ``http://<ucloudserverTCP_IP_Address>:80``
+  * Ejemplo de enlace con dirección IP: ``http://<ucloudserverTCP_IP_Address>:80``
 
-- Enlace de ejemplo con el nombre del servidor: ``http://ucloud_Server_Name.com/``
+  * Enlace de ejemplo con el nombre del servidor: ``http://ucloud_Server_Name.com/``
 
 Después de ingresar la dirección correctamente, la pantalla del usuario será similar a la figura a continuación:
 
@@ -447,11 +447,11 @@ Menú de Administración
 
 Al presentar algunos conceptos sobre el entorno de administración de uCloud, es importante aclarar algunos puntos sobre la Plataforma uCloud, en los conceptos existen tres términos que serán ampliamente utilizados en el entorno de uCloud:
 
-* **Contrato:** Es la forma en la que se define la relación *'comercial'* entre el prestador y la empresa que te contrató. En el contrato se definen los costos, el margen financiero, la tasa de conversión de moneda, los costos de recursos (opcional) y la cuota general (límite) que puede ser una cuota financiera o una cuota de recursos computacionales.
+  * **Contrato:** Es la forma en la que se define la relación *'comercial'* entre el prestador y la empresa que te contrató. En el contrato se definen los costos, el margen financiero, la tasa de conversión de moneda, los costos de recursos (opcional) y la cuota general (límite) que puede ser una cuota financiera o una cuota de recursos computacionales.
 
-* **Grupo:** Es una forma lógica definida únicamente dentro de la Plataforma uCloud que puede definir un grupo de usuarios (por ejemplo, DevOps), un departamento (por ejemplo, ventas), una iniciativa (por ejemplo, VDI), a la que se asocian múltiples usuarios como parte integral de este grupo. Estos "grupos" no existen en los proveedores de nube (públicos y/o privados) existen solo dentro de la Plataforma uCloud.
+  * **Grupo:** Es una forma lógica definida únicamente dentro de la Plataforma uCloud que puede definir un grupo de usuarios (por ejemplo, DevOps), un departamento (por ejemplo, ventas), una iniciativa (por ejemplo, VDI), a la que se asocian múltiples usuarios como parte integral de este grupo. Estos "grupos" no existen en los proveedores de nube (públicos y/o privados) existen solo dentro de la Plataforma uCloud.
 
-* **Usuario:** Un usuario es la entidad que ha identificado el acceso a la Plataforma uCloud para tomar medidas sobre los recursos informáticos de los proveedores (públicos y/o privados).
+  * **Usuario:** Un usuario es la entidad que ha identificado el acceso a la Plataforma uCloud para tomar medidas sobre los recursos informáticos de los proveedores (públicos y/o privados).
 
 La siguiente figura ejemplifica, en una imagen, la relación entre estos tres términos y es fundamental que el usuario utilice esta figura como referencia para entender los enlaces.
 
@@ -468,15 +468,15 @@ Es posible señalar, en la figura anterior, que el término Virtual DataCenter (
 
 El término 'Administración' varía en función del perfil del usuario que está accediendo al sistema en ese momento. uCloud tiene cinco perfiles diferentes, que generalmente podemos describir a continuación:
 
-#. **Usuarios del sistema:** son usuarios habituales los que acceden al sistema para consumir recursos. Existe la posibilidad de *Usuarios con perfil de solo lectura*, quienes pueden designar usuarios regulares o habituales que solo pueden acceder a la Plataforma uCloud para ver la información.
+  #. **Usuarios del sistema:** son usuarios habituales los que acceden al sistema para consumir recursos. Existe la posibilidad de *Usuarios con perfil de solo lectura*, quienes pueden designar usuarios regulares o habituales que solo pueden acceder a la Plataforma uCloud para ver la información.
 
-#. **Usuarios Administradores de Contrato:** son los usuarios que están asociados a un contrato y en este contrato pueden definir reglas de boletería, provisión y cambio de otros usuarios en la plataforma.
+  #. **Usuarios Administradores de Contrato:** son los usuarios que están asociados a un contrato y en este contrato pueden definir reglas de boletería, provisión y cambio de otros usuarios en la plataforma.
 
-#. **Usuarios Administradores de Grupo:** son usuarios que están asociados a un grupo de usuarios, pueden aprovisionar y cambiar a otros usuarios en la plataforma.
+  #. **Usuarios Administradores de Grupo:** son usuarios que están asociados a un grupo de usuarios, pueden aprovisionar y cambiar a otros usuarios en la plataforma.
 
-#. **Usuario Administrador Financiero:** son usuarios con un perfil para acceder a la información financiera de uCloud.
+  #. **Usuario Administrador Financiero:** son usuarios con un perfil para acceder a la información financiera de uCloud.
 
-#. **Usuario Administrador:** son usuarios con perfil de acceso completo y pueden realizar intervenciones globales en la configuración de la plataforma. Este perfil de usuario es exclusivo de Ustore o de un perfil de usuario único de la organización que compró las licencias de la plataforma uCloud. Este usuario administrador tiene permiso para administrar todas las funciones y recursos globales que ofrece la plataforma. 
+  #. **Usuario Administrador:** son usuarios con perfil de acceso completo y pueden realizar intervenciones globales en la configuración de la plataforma. Este perfil de usuario es exclusivo de Ustore o de un perfil de usuario único de la organización que compró las licencias de la plataforma uCloud. Este usuario administrador tiene permiso para administrar todas las funciones y recursos globales que ofrece la plataforma. 
 
 
 .. note::
