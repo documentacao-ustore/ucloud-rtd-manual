@@ -42,6 +42,9 @@ Lanzamiento: Mayo - Año 2022
 
 
 
+
+
+
 .. |icone_clikhere| image:: /figuras/ucloud_icone_vm_start.png
 
 .. |icone_ingles| image:: /figuras/ucloud_icone_bandeira_english.png
