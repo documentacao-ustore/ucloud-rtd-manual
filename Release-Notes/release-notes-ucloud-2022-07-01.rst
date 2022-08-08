@@ -12,7 +12,7 @@ Plataforma uCloud versão: `Update tag 5.2-b35`
 
 
 Apresentação
-============
+=============
 
 Em geral, o profissional de infraestrutura de TI utiliza diversos consoles para provisionar recursos computacionais, seja dentro da organização (datacenter privado) ou em algum provedor de nuvem. A computação em nuvem é uma evolução dos serviços e produtos de tecnologia da informação sob demanda, chamada por Brantner et al., 2008 de *Utility Computing*, a qual objetiva fornecer componentes básicos como: armazenamento, processamento e largura de banda de uma rede através de provedores especializados com um custo baixo por unidade utilizada. Na contemporaneidade, manter-se atualizado e preparado, em todas as «consoles» é um desafio para este profissional.
 
