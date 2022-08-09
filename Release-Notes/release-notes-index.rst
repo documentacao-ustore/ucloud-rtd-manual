@@ -27,7 +27,7 @@ Lançamento: Março
 ::doc:`release-notes-ucloud-2022-03-20` |icone_clikhere|
 
 
-.... |icone_espanhol|
+.. .. |icone_espanhol|
 
 ..   ----
 
