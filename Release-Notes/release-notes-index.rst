@@ -7,7 +7,7 @@ uCloud - Release Notes
 ----
 
 
-Release Notes Português
+Release Notes - versão Português
 -----------------------
 
 As notas de evolução da Plataforma uCloud (*Release Notes*) são distribuídas em períodos diferentes das atualizações de versão.
@@ -32,7 +32,7 @@ Lançamento: Março
 ----
 
 
-Release Notes Español
+Release Notes - versión Español
 ---------------------
 
 Las notas de evolución de la plataforma ucloud (*Notas de la versión*) se distribuyen en diferentes momentos a las actualizaciones de la versión.
