@@ -925,7 +925,7 @@ Después de seleccionar la nube deseada, la pantalla presenta una lista que le p
 
 * **Public IP** - – Enumera las direcciones IP públicas que se han solicitado en algún momento que generan costos y no están asociadas a ninguna máquina virtual;
 
-* **Disk Snapshot** - Enumera todas las instantáneas de los discos creados, no distingue a mano cuáles de ellos deben o no deben eliminarse;
+* **Disk Snapshot** - Enumera todas las instantáneas de los discos creados, no distingue cuáles de ellos deben o no deben eliminarse;
 
 * **VM Snapshot** - Enumera todas las instantáneas de las máquinas virtuales creadas, no distingue cuáles de ellas deben o no deben eliminarse.
 
