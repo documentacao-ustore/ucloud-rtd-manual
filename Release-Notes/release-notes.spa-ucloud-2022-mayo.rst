@@ -178,7 +178,7 @@ Para ejemplificar una forma de cobrar por la "oferta de servicio" de Gestión Ce
 
 En el portal, los Tiers se clasifican en los niveles A a J (1 a 10) y se calculan en función de las reglas establecidas mediante dos parámetros: - Un determinado número de máquinas virtuales genera un determinado coste máximo *(número de máquinas frente a coste/valor)*. En el caso de una cuenta creada, al alcanzar uno de los parámetros, inmediatamente, la aplicación escala al siguiente nivel. A continuación, se describen los niveles de los Tiers:
 
-+---------+
++--------------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 | **Tier**           |  **A** |  **B** |  **C** |  **D** | **E**  |  **F**  |  **G**  |  **H**  |  **I**  |  **J**  |
 +====================+========+========+========+========+========+=========+=========+=========+=========+=========+
 || **Quantidade de** ||       ||       ||       ||       ||       ||        ||        ||        ||        ||        |
@@ -456,4 +456,3 @@ El desarrollo continuo promovido por el equipo de DevOps de Ustore, como la ampl
 .. note:: En el momento presente en este Release Notes (mayo, 2022) la API y el SDK para OCI aún no permiten un soporte completo para la implementación del cobro y el cálculo de billing de la infraestructura presente en el ambiente OCI. Esperamos la evolución del SDK y API Oracle Cloud Infrastructure para implementar la funcionalidad de billing para OCI.
 
 Este conjunto de nuevas funcionalidades implementadas y descritas, contenidas en este documento, generaron el desarrollo de esta nueva versión (*update tag 5.2-b35*).  Así, Ustore reafirma su compromiso constante con la evolución de la plataforma y el alineamiento a las necesidades del mercado y de sus clientes.
-
