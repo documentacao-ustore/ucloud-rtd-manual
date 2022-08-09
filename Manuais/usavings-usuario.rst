@@ -932,9 +932,9 @@ Após selecionar a nuvem desejada, a tela apresenta uma lista que possibilita pe
 
   * **Public IP** - Lista os IPs públicos que foram solicitados em algum momento que geram custos e não estão associados a nenhuma máquina virtual;
 
-  * **Disk Snapshot** - Lista todos os discos snapshots criados, mão não distingue quais deles devem ou não ser apagados;
+  * **Disk Snapshot** - Lista todos os discos snapshots criados, não distingue quais deles devem ou não ser apagados;
 
-  * **VM Snapshot** - Lista todos os snapshots das máquinas virtuais criados, mão não distingue quais deles devem ou não ser apagados.
+  * **VM Snapshot** - Lista todos os snapshots das máquinas virtuais criados, não distingue quais deles devem ou não ser apagados.
 
   * **Load Balancer** - Lista todos os Load Balancer criados, mas não distingue quais deles devem ou não ser apagados.
 
