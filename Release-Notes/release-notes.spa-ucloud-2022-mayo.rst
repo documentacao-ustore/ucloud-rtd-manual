@@ -444,7 +444,7 @@ Este nuevo release de la Plataforma uCloud, ofrece solamente las funcionalidades
 
 A partir de este release notes, nuestro portal da soporte a la nube, proporciona los recursos y funcionalidades de Operación de embitne OCI que se enumeran a continuación:
 
-.. figure:: /figuras/ucloud_oracleoci002.png
+.. figure:: /figuras/ucloud_oracleoci0002.png
    :align: center
 
 ----
