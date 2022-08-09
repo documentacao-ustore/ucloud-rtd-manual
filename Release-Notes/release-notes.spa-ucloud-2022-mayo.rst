@@ -390,7 +390,7 @@ Podemos resumir que el proceso de utilización de la funcionalidad de los TAGs v
 
 A continuación se muestra la pantalla con la nueva implementación en el portal uCloud:
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual004.png
+.. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa001.png
    :align: center
 
 ----
@@ -401,7 +401,8 @@ Con la incorporación de la nueva funcionalidad en el portal y la posibilidad de
 
    \ a. \ Para este flujo el usuario puede especificar, por ejemplo, que el recurso perteneciente al *ProductName Amazon Elastic Compute Cloud*, en [*ProductFamily*] **Data Transfer**, vinculado al identificador de la nube i-0e85640d78d096974 tenga los TAGs especificados en el formulario, aunque estos TAGs no sean proporcionados por la nube.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual005.png
+
+. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa002.png
    :align: center
 
 ----
