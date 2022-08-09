@@ -1,19 +1,20 @@
 uCloud - Release Notes
 ======================
 
-
 .. .. |icone_portugues|
 
 .. ----
 
 
-Release Notes - versão Português
------------------------
+Ano 2022
+~~~~~~~~
+
+Versão Português
+----------------
 
 As notas de evolução da Plataforma uCloud (*Release Notes*) são distribuídas em períodos diferentes das atualizações de versão.
 
-Ano 2022
-~~~~~~~~
+
 
 Lançamento: Maio 
 ~~~~~~~~~~~~~~~~
@@ -32,13 +33,14 @@ Lançamento: Março
 ..   ----
 
 
-Release Notes - versión Español
----------------------
+
+
+Versión Español
+---------------
 
 Las notas de evolución de la plataforma ucloud (*Notas de la versión*) se distribuyen en diferentes momentos a las actualizaciones de la versión.
 
-Año 2022
-~~~~~~~~
+
 
 Lanzamiento: Mayo
 ~~~~~~~~~~~~~~~~~
