@@ -402,19 +402,19 @@ Con la incorporación de la nueva funcionalidad en el portal y la posibilidad de
    \ a. \ Para este flujo el usuario puede especificar, por ejemplo, que el recurso perteneciente al *ProductName Amazon Elastic Compute Cloud*, en [*ProductFamily*] **Data Transfer**, vinculado al identificador de la nube i-0e85640d78d096974 tenga los TAGs especificados en el formulario, aunque estos TAGs no sean proporcionados por la nube.
 
 
-. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa002.png
+.. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa002.png
    :align: center
 
 ----
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual008.png
+.. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa003.png
    :align: center
 
 ----
 
    \ b. \ Vincular el perfil de TAGs Virtuales creado, a la nube (*container*) aprovisionada en la plataforma uCloud.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual009.png
+.. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa004.png
    :align: center
 
 ----
@@ -429,7 +429,7 @@ Con la incorporación de la nueva funcionalidad en el portal y la posibilidad de
 
 En el momento de exportar el informe de facturación los "TAGs Virtuales" vuelven normalizados, según los recursos utilizados en los TAGs.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual010.png
+.. figure:: /figuras/fig_release_note_maio_spa/ucloud_menu_configuração_tag_virtual_spa005.png
    :align: center
 
 ----
