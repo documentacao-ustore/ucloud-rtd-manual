@@ -625,8 +625,7 @@ A continuación se presentan las columnas presentadas en esta lista de usuarios:
 
 * **Perfil**: Esta columna muestra el perfil del usuario que fue informado durante el proceso de su aprovisionamiento en la Plataforma uCloud. Como una forma de simplificar la visualización, si hace clic en el botón del mouse en el título de esta columna, la plataforma uCloud ordena la lista de perfiles de usuario alfabéticamente (a - z) o descendente (z - a).
 
-* **Búsqueda Rápida**: El usuario puede notar que justo debajo del nombre de cada columna hay un campo 'en blanco', este campo le permite realizar una búsqueda rápida del contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de eventos de inicio de sesión. Simplemente complete el campo 'blanco' con una cadena que pueda ser relevante, y la plataforma uCloud actualizará la pantalla 
-para representar ese patrón de búsqueda.
+* **Búsqueda Rápida**: El usuario puede notar que justo debajo del nombre de cada columna hay un campo 'en blanco', este campo le permite realizar una búsqueda rápida del contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de eventos de inicio de sesión. Simplemente complete el campo 'blanco' con una cadena que pueda ser relevante, y la plataforma uCloud actualizará la pantalla para representar ese patrón de búsqueda.
 
 * **Columna de perfil**: El campo de búsqueda rápida en la columna Perfil tiene un control avanzado en forma de *"dropdownlist"* que le permite aplicar un **filtro** de 'tipo de perfil' para que la lista presentada esté restringida solo a la opción seleccionada. Para hacer esto, simplemente haga clic en el cursor del mouse en este campo, la Plataforma uCloud muestra las opciones de filtrado.
 
@@ -653,8 +652,7 @@ A continuación se muestra la descripción de los cuatro tipos básicos del perf
 
   * Este usuario está identificado en el listado con la marca gráfica (flag): ``user`` - el término **User +** una estrella parcialmente rellenada - indica que este usuario es un Administrador de Contrato.
 
-* **Usuario Administrador de Grupo**: es un usuario, previamente aprovisionado, que está registrado en el campo Administrador del Grupo en la pantalla de Grupos. Este usuario tiene permiso para cambiar algunos de sus permisos establecidos durante su aprovisionamiento, así como cambiar algunos de sus propios permisos, así como los permisos de otros usuarios. Solo un usuario con el perfil de administrador de grupo y/o 
-de acuerdo puede restablecer los límites (cuotas) y permisos de este perfil de usuario.
+* **Usuario Administrador de Grupo**: es un usuario, previamente aprovisionado, que está registrado en el campo Administrador del Grupo en la pantalla de Grupos. Este usuario tiene permiso para cambiar algunos de sus permisos establecidos durante su aprovisionamiento, así como cambiar algunos de sus propios permisos, así como los permisos de otros usuarios. Solo un usuario con el perfil de administrador de grupo y/o de acuerdo puede restablecer los límites (cuotas) y permisos de este perfil de usuario.
 
   * Este usuario está identificado en el listado con la marca (flag) gráfica: ``user`` - el término **User +** una estrella no rellena - indica que este usuario es un Administrador de Grupo.
 
