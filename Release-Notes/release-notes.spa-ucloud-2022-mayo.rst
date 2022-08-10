@@ -206,7 +206,7 @@ Existen dos clases de "*Contas*" que se clasifican en dos tipos, las cuentas de 
   * Por ejemplo: 
 
   Para el caso de una **corporación** multinacional que utiliza una cuenta *Integrator*, se puede considerar una "Cuenta Integrator" para los países que la componen: México, Brasil, Chile y Colombia.
-  La corporación es responsable de crear otras cuentas y escalar los permisos de otros usuarios. Tiene como particularidad la lista de todas las cuentas Producer, la lista de todos los contratos asociados y puede aplicar las reglas de negocio.
+  La corporación es responsable de crear otras cuentas y escalar los permisos de otros usuarios. Tiene como particularidad la lista de todas las cuentas *Producer*, la lista de todos los contratos asociados y puede aplicar las reglas de negocio.
 
 * \ B. \ **Cuenta Producer** Esta cuenta *Producer* pertenece a la organización que consume el recurso, representa una unidad de agrupación menor y puede operar todo el portal.
 
@@ -314,7 +314,7 @@ A partir de esta nueva implementación, orientada a la clasificación, normaliza
 
 Dado que cada nube presenta diferentes informes de los recursos utilizados, la dificultad para el profesional de TI conseguir normalizar y comprender la clasificación presentada por las diversas nubes, o incluso la información suprimida por la ausencia de *TAGs* que agrupan en un formato relevante, informaciones preciosas, sean cuantitativas, cualitativas o financieras, facilitando a la organización y/o a su cliente usuario la posibilidad de tomar decisiones asertivas, mediante el uso de esta nueva implementación, denominada "TAGs Virtuales". Desarrollado por Ustore como una solución para satisfacer esta ausencia, demandada en los "*reports*" que tienen un comportamiento similar en los distintos proveedores de la nube, como AWS, Azure, Google entre otros.
 
-El portal uCloud genera el report financiero, este informe recupera informaciones por nombre de producto o por TAG. Es el portal ucloud el que ofrece este servicio único de "TAGs virtuales" que permite y/o facilita la gestión y clasificación de determinados recursos que ya no reciben TAGs en la nube, como se ha dicho anteriormente, por reglas o políticas internas establecidas por los propios proveedores.
+El portal uCloud genera el report financiero, este informe recupera informaciones por nombre de producto o por *TAG*. Es el portal ucloud el que ofrece este servicio único de "TAGs virtuales" que permite y/o facilita la gestión y clasificación de determinados recursos que ya no reciben *TAGs* en la nube, como se ha dicho anteriormente, por reglas o políticas internas establecidas por los propios proveedores.
 
 Es necesario utilizar esta nueva implementación, cuando la organización y el cliente usuario necesitan recuperar informaciones por *TAG* o nombre de producto de forma diferente, en las diversas nubes, ya que cada proveedor de nube, como Google, AWS y Azure trata el informe de registro de *billing* de forma diferenciada. Y cada una de ellas utiliza nomenclaturas propias para cada tipo de recurso ofrecido.
 
