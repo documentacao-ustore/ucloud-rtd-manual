@@ -9,12 +9,12 @@ uCloud - Manual del Usuário
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
 
-.. Presentación
-.. ============
+Presentación
+============
 
-.. Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de Cloud Service Broker (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
+Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de Cloud Service Broker (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
 
-.. En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
+En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
 
 .. ----
 
@@ -117,13 +117,13 @@ En cuanto a los proveedores de servicios de nube pública, la Plataforma de uClo
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
 
-  * VMware *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
-  * vCloud
-  * Hyper-v *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
-  * Openstack
-  * Xen Server
-  * XCP-NG
-  * KVM
+  * `VMware` *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
+  * `vCloud`
+  * `Hyper-v` *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
+  * `Openstack`
+  * `Xen Server`
+  * `XCP-NG`
+  * `KVM`
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
 de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
@@ -241,8 +241,7 @@ En esta sección se presentan todos los proveedores de la nube (públicos y /o p
 
 ----
 
-Con cada necesidad de buscar información del contenedor el usuario interesado, debe seleccionar con el mouse el "botón" que representa el 
-contenedor. 
+Con cada necesidad de buscar información del contenedor el usuario interesado, debe seleccionar con el mouse el "botón" que representa el contenedor. 
 
 Por lo tanto, para que el usuario pueda verificar sus cuotas y asignación de recursos, simplemente seleccione el contenedor elegido en la sección Gráficos de Uso de Recursos. Luego, al final de la selección, se cambiará la imagen de la pantalla y mostrará como resultado la representación de la asignación respectiva que se refiere al contenedor seleccionado.
 
@@ -271,8 +270,7 @@ Consulte los elementos Grupos y Usuarios para configurar o cambiar los límites 
 Sección Últimas Tareas
 ----------------------
 
-La plataforma uCloud es un entorno que se comunica con las consolas de los proveedores de la nube o con el hipervisor utilizado internamente en
-Datacenter en su organización a través de la API Rest. De esta forma, todas las acciones -actividades- funciones solicitadas a través de la Plataforma uCloud se 'encapsulan' como si fueran un `mensaje` y se envían a la consola de destino para que la consola realice las ´tareas´ enviadas.
+La plataforma uCloud es un entorno que se comunica con las consolas de los proveedores de la nube o con el hipervisor utilizado internamente en Datacenter en su organización a través de la API Rest. De esta forma, todas las acciones -actividades- funciones solicitadas a través de la Plataforma uCloud se 'encapsulan' como si fueran un `mensaje` y se envían a la consola de destino para que la consola realice las ´tareas´ enviadas.
 
 .. figure:: /figuras/uCloud_acesso_platafform_005.png
    :alt: sección últimas tareas
@@ -464,7 +462,7 @@ Es importante entender que un **Contrato** puede tener múltiples usuarios y var
 
 En el siguiente documento se describe que al configurar las cuotas (límites financieros o de recursos) del contrato, estos límites serán compartidos/divididos por cada uno de los grupos existentes, y por lo tanto los usuarios se limitan a las cuotas del grupo al que están incluidos.
 
-Es posible señalar, en la figura anterior, que el término Virtual DataCenter (VDC) este término es una asignación lógica de máquinas virtuales que permite a las organizaciones definir uno (o más) grupos de servidores que forman parte de una nube. Un VDC puede representar un departamento, una subsidiaria o un grupo de usuarios, y otra información en el elemento **Virtual DataCenter**.
+Es posible señalar, en la figura anterior, que el término *Virtual DataCenter (VDC)* este término es una asignación lógica de máquinas virtuales que permite a las organizaciones definir uno (o más) grupos de servidores que forman parte de una nube. Un VDC puede representar un departamento, una subsidiaria o un grupo de usuarios, y otra información en el elemento **Virtual DataCenter**.
 
 El término 'Administración' varía en función del perfil del usuario que está accediendo al sistema en ese momento. uCloud tiene cinco perfiles diferentes, que generalmente podemos describir a continuación:
 
@@ -480,7 +478,7 @@ El término 'Administración' varía en función del perfil del usuario que est�
 
 
 .. note::
-  |atencao| *El perfil de administrador no se tratará en este documento. Por favor, póngase en contacto con su punto focal en Ustore para obtener el documento específico: Manual del administrador de la plataforma uCloud. Por seguridad, las mejores prácticas indican que  solo debe haber un usuario aprovisionado con este tipo de perfil.*
+  |atencao| *El perfil de administrador no se tratará en este documento. Por favor, póngase en contacto con su punto focal en Ustore para obtener el documento específico: Manual del Administrador de la Plataforma uCloud. Por seguridad, las mejores prácticas indican que  solo debe haber un usuario aprovisionado con este tipo de perfil.*
 
 
 
@@ -488,20 +486,191 @@ El término 'Administración' varía en función del perfil del usuario que est�
 Switch Roles
 ------------
 
+Cuando un usuario de infraestructura multinube necesita cambiar entre varias consolas de proveedores de nube, el proceso de inicio de sesión de varias credenciales en varias consolas lleva tiempo y puede incurrir en errores tipográficos de inicio de sesión y contraseña.
+
+La plataforma uCloud como entorno multinube permite al usuario interactuar con los recursos informáticos existentes a través de múltiples proveedores de nube diferentes simultáneamente.
+
+Cuando inicia sesión en la plataforma uCloud (inicio de sesión), el usuario obtiene un conjunto específico de permisos para realizar acciones que pertenecen al contrato al que está vinculado el usuario. Los usuarios pertenecen a un Grupo y los Grupos pertenecen a un contrato. Por lo tanto, las credenciales de acceso de usuario están vinculadas a uno o más contratos, este acuerdo puede aprovisionarse para tener acceso a una (o más) credenciales de acceso a los entornos de proveedores de nube pública y/o privada.
+
+Vea la siguiente figura, que muestra el enlace del usuario a uno o más contratos:
+
+.. figure:: /figuras/ucloud_arquitetura_conceitual001.png
+   :align: center
+
+----
+
+El primer aspecto de la figura anterior es que podemos comprobar que este cliente tiene dos contratos diferentes. El **Contrato A** está asociado con un solo proveedor de nube pública (por ejemplo, *AWS*) y el **Contrato B** está asociado con dos proveedores de nube pública diferentes (por ejemplo, *AWS* y *Azure*).
+
+
+
+
 Switch Roles - Escenario de Ejemplo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+En la figura anterior podemos ver que los usuarios Maria, João y Carlos pertenecen a un solo contrato y este contrato tiene un solo proveedor (por ejemplo, *AWS*).
+
+El usuario **Josué** está asociado con dos acuerdos diferentes, y para evitar que este usuario tenga que cambiar entre diferentes sesiones de inscripción (terminando una sesión e iniciando otra con otra credencial), Ustore ha desarrollado e implementado la funcionalidad **Switch Roles**.
+
+De esta manera, **solo** el usuario Josué, a través de la funcionalidad de *Switch Roles* puede cambiar entre los contratos a los que está vinculado, simplemente cambiando entre los contratos vinculados.
+
+El usuario **Josué** es responsable de administrar completamente la infraestructura del entorno de Azure, pero en el entorno de AWS, solo puede ver los recursos computacionales porque no tiene permiso para operar estos recursos informáticos (por ejemplo, *Read Only*).
+
+A través de la funcionalidad *Switch Roles* será posible aplicar este cambio de rol, sin necesidad de intercambio de usuarios, esto se hará a través de la selección de contrato y/o contenedor al que este usuario quiera acceder.
+
+También para ilustrar este ejemplo, con la nueva implementación de Perfil de Permisos, puede crear diferentes conjuntos de permisos y vincular cada conjunto (Perfil de Permisos) a cada usuario y aprovisionar un nivel muy específico de granularidad.
+
+
 Escenario de Ejemplo (*AWS*):
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
++----------------------------+---------+--------------------+-----------+
+| Perfil de Permisos         | Usuario | Virtual Datacenter | Permiso   |
++============================+=========+====================+===========+
+| AWS DevOps Full            | Maria   | DevOps             | Full      |
++----------------------------+---------+--------------------+-----------+
+| AWS DevOps *Read Only*     | João    | DevOps             | Read Only |
+| AWS Homolog Full           |         | Homolog            | Full      |
++----------------------------+---------+--------------------+-----------+
+| AWS Homolog Full           | Carlos  |  Homolog           | Full      |
++----------------------------+---------+--------------------+-----------+
+| AWS Infra Full             | Josué   | Infra              | Full      |
++----------------------------+---------+--------------------+-----------+
+
+
+Actualmente puede aprovisionar cuatro (04) Perfiles de Permisos diferentes y vincular cada perfil a un usuario específico. 
+
+En el ejemplo de la tabla anterior, puede ver que el usuario **João** tiene dos conjuntos diferentes de permisos que son específicos de cada conjunto de infraestructuras virtuales *(Virtual Datacenter-VDC)* al que este usuario puede acceder. Se concluye que el usuario João tiene acceso sin restricciones a VDC Homolog, y solo visualización a VDC DevOps.
+
+Considere el ejemplo a continuación del usuario **Josué** que tiene diferentes características para cada contrato.
+
 
 Escenario de Ejemplo (*AZURE y AWS*):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Switch Roles - Utilizando
-~~~~~~~~~~~~~~~~~~~~~~~~~
+
++----------------------------+---------+--------------------+-----------+
+| Perfil de Permisos         | Usuario | Virtual Datacenter | Permiso   |
++============================+=========+====================+===========+
+| Azure Infra RO             | Josué   | Infra Azure        | Read Only |
+| AWS Infra Full             |         | Infra AWS          | Full      |
++----------------------------+---------+--------------------+-----------+
+
+Este es un ejemplo de la simplicidad y transparencia que proviene de expandir y cambiar el nuevo Perfil de Permissionization, que le permite vincular diferentes conjuntos de permisos al mismo usuario, que están vinculados a diferentes contratos. Podemos verificar que el usuario de **Josué** tiene acceso sin restricciones *(full)* a la infraestructura de VDC Infra AWS (Contrato AWS) y acceso de solo lectura *(read only)* al VDC de Infra AZURE (Contrato Azure).
+
+Anteriormente, el usuario tenía dos credenciales diferentes (por ejemplo, `josue.aws/passwordABC` y `josue.azure/password123``) y, por lo tanto, realizaba varias sesiones de inicio de sesión diferentes en la Plataforma uCloud.
+
+Con la combinación del nuevo Perfil de Permisos en conjunto con la funcionalidad *Switch Roles* será posible aplicar este cambio del tipo de permisos, sin necesidad de intercambio de usuarios, esto se hará a través de la selección del contrato y/o contenedor al que este usuario quiera acceder.
+
+
+Switch Roles - Utilizando :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+La funcionalidad de Switch Roles se encuentra en la esquina superior derecha de la interfaz de la Plataforma de uCloud (junto al nombre de usuario) - ver la siguiente pantalla:
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles001.png
+   :align: center
+
+----
+
+Simplemente haga clic en el usuario con el cursor del mouse sobre el nombre del contrato y la Plataforma uCloud muestra una ventana pop-up, que resulta el usuario de la lista de contratos a los que está vinculado el usuario para que seleccione el contrato deseado.
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles002.png
+   :scale: 60 %
+   :align: center
+
+----
+
+Al seleccionar el contrato deseado, la Plataforma uCloud actualizará la información presentada en la esquina superior derecha de la sesión del usuario.
+
+Es importante tener en cuenta que esta ventana pop-up enumera solo los contratos a los que está vinculado el usuario. Si hay otros acuerdos aprovisionados en la Plataforma uCloud, no tendrá acceso a ninguno de estos otros acuerdos.
+
+.. figure:: /figuras/ucloud_dashboard_switch_roles003.png
+   :align: center
+
+----
+
+La función Switch Roles permite a un usuario cambiar tanto su nivel de acceso como obtener acceso a diferentes contratos con diferentes reglas de permisos para cada contrato sin tener que cerrar sesión en la Plataforma uCloud.
+
+Con esta nueva funcionalidad, un solo usuario puede acceder, por ejemplo, a la nube de Azure y a la nube de AWS con la capacidad de tener responsabilidades, permisos y niveles de acceso completamente diferentes y específicos para cada uno de los entornos de proveedores de nube pública.
+
+La personalización de los permisos de actividad que puede tener el usuario se aclarará en el tema **Perfil de Permiso** de este documento.
+
 
 Menú Administración / Usuarios
 ------------------------------
+
+
+La plataforma uCloud tiene sus propias bases de datos que almacenan la información de los usuarios, como el inicio de sesión y la contraseña, de manera segura y encriptada. La pantalla de inicio del **Menú de Administración** muestra la lista de usuarios aprovisionados, la información de inicio de sesión de un usuario, el grupo al que está asociado el usuario y el tipo de perfil para este inicio de sesión.
+
+Dependiendo del tipo de perfil de usuario que esté accediendo al sistema, la Plataforma uCloud solo presentará la relación de usuario que el perfil que está registrado y activo puede gestionar o administrar.
+
+.. figure:: /figuras/uCloud_menu_administracao_usuario_001.png
+   :scale: 80 %
+   :align: center
+
+----
+
+Para proceder con el acceso a la Plataforma uCloud, debe aprovisionar (registrar) a un usuario con su respectivo nombre de usuario y contraseña de acceso.
+
+A continuación se presentan las columnas presentadas en esta lista de usuarios:
+
+* **Botón Crear Usuario**: Cuando se selecciona este botón, el proceso se describe en el elemento **Crear Nuevo Usuario**.
+
+* **Login**: Esta columna presenta las credenciales de login del usuario. Como una forma de simplificar la visualización, si hace clic en el botón del mouse en el título de esta columna, la plataforma uCloud ordena la lista de inicio de sesión de los usuarios alfabéticamente de forma ascendente (a - z) o descendente (z - a).
+
+* **Nombre**: Esta columna muestra el nombre del usuario que se informó durante el proceso de aprovisionamiento en la plataforma uCloud. Como una forma de simplificar la visualización, si hace clic con el botón del mouse en el título de esta columna, la plataforma uCloud ordena la lista de nombres de usuario alfabéticamente de forma ascendente (a – z) o descendente (z – a).
+
+* **Grupo**: Esta columna presenta el grupo principal del usuario que fue informado durante el proceso de su aprovisionamiento en la plataforma uCloud. Como una forma de simplificar la visualización, si hace clic en el botón del mouse en el título de esta columna, la plataforma uCloud ordena la lista de grupos de usuarios alfabéticamente (a - z) o descendente (z - a).
+
+* **Perfil**: Esta columna muestra el perfil del usuario que fue informado durante el proceso de su aprovisionamiento en la Plataforma uCloud. Como una forma de simplificar la visualización, si hace clic en el botón del mouse en el título de esta columna, la plataforma uCloud ordena la lista de perfiles de usuario alfabéticamente (a - z) o descendente (z - a).
+
+* **Búsqueda Rápida**: El usuario puede notar que justo debajo del nombre de cada columna hay un campo 'en blanco', este campo le permite realizar una búsqueda rápida del contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de eventos de inicio de sesión. Simplemente complete el campo 'blanco' con una cadena que pueda ser relevante, y la plataforma uCloud actualizará la pantalla 
+para representar ese patrón de búsqueda.
+
+* **Columna de perfil**: El campo de búsqueda rápida en la columna Perfil tiene un control avanzado en forma de *"dropdownlist"* que le permite aplicar un **filtro** de 'tipo de perfil' para que la lista presentada esté restringida solo a la opción seleccionada. Para hacer esto, simplemente haga clic en el cursor del mouse en este campo, la Plataforma uCloud muestra las opciones de filtrado.
+
+.. figure:: /figuras/uCloud_menu_administracao_usuario_002.png
+   :align: center
+
+----
+
+Un usuario, aprovisionado, debe estar vinculado a solo uno de los seis **Tipos de Perfiles** disponibles, esta definición se deriva del rol con el que se puede asociar este usuario. De estos seis tipos, solo *dos (02)* perfiles (perfil de *usuario* y perfil de *auditor*) se utilizan en las operaciones diarias en la plataforma uCloud.
+
+El perfil de **Auditor** tiene un papel muy estrecho pero muy importante en el control y la gestión de los costes del entorno de recursos de computación en la nube (público y/o privado).
+
+El perfil de Usuario es el más fundamental y flexible, ya que puede asumir diferentes niveles de permisos y funciones de operación, gestión y administración del entorno empresarial en uCloud.
+
+A continuación se muestra la descripción de los cuatro tipos básicos del perfil de usuario en la plataforma uCloud, que son:
+
+* **Usuario**: es el perfil universal y todo otro perfil tiene como premisa ser aprovisionado como un usuario de la Plataforma de uCloud y que debe estar vinculado a un grupo y está limitado los permisos (acceso a menús) y cuotas (límites financieros o de recursos) que pueden ser individuales o compartidas por el grupo. Es importante destacar que cualquier otro perfil descrito a continuación, son variaciones de este perfil inicial.
+  * Este usuario no tiene permiso para cambiar ninguno de sus permisos, los cuales se establecieron durante su aprovisionamiento. Solo un usuario con el perfil de administrador de grupo y/o de acuerdo puede restablecer los límites (cuotas) y permisos de este perfil de usuario.
+  * Este usuario está identificado en el listado con la marca gráfica (flag): ``user``
+
+* **Usuario Administrador de Contrato**: es un usuario, anteriormente provisionado, que está registrado en el campo Administrador en la pantalla de Contratos. Este perfil de usuario tiene permiso para aprovisionar nuevos usuarios, así como cambiar algunos campos de la pantalla de Contrato.
+
+  * Este usuario tiene el privilegio de cambiar algunos de sus permisos establecidos durante su aprovisionamiento, así como cambiar algunos de sus propios permisos, así como los permisos de otros usuarios. Solo un usuario con el perfil de administrador de grupo y/o de acuerdo puede restablecer los límites (cuotas) y permisos de este perfil de usuario.
+
+  * Este usuario está identificado en el listado con la marca gráfica (flag): ``user`` - el término **User +** una estrella parcialmente rellenada - indica que este usuario es un Administrador de Contrato.
+
+* **Usuario Administrador de Grupo**: es un usuario, previamente aprovisionado, que está registrado en el campo Administrador del Grupo en la pantalla de Grupos. Este usuario tiene permiso para cambiar algunos de sus permisos establecidos durante su aprovisionamiento, así como cambiar algunos de sus propios permisos, así como los permisos de otros usuarios. Solo un usuario con el perfil de administrador de grupo y/o 
+de acuerdo puede restablecer los límites (cuotas) y permisos de este perfil de usuario.
+
+  * Este usuario está identificado en el listado con la marca (flag) gráfica: ``user`` - el término **User +** una estrella no rellena - indica que este usuario es un Administrador de Grupo.
+
+* **Usuario Administrador de Contrato y Administrador de Grupo**: La Plataforma de uCloud permite que un usuario pueda estar asociado como Administrador de un Grupo y, simultáneamente, Administrador de un Contrato este usuario está identificado en la lista con la marca (flag) gráfica: ``user`` y una estrella estará completamente llena indicando que este usuario es un Administrador de Grupo y de Contrato.
+  
+  * Esta doble asociación de perfil permite a este usuario un alto nivel de control y administración del entorno de la empresa.
+  
+* **Auditor**: es un usuario que tiene acceso al menú de la Gestión Financiera y realiza el seguimiento de la facturación del portal, así como define las reglas de fijación de precios del contrato.
+
+  * Este usuario, por premisa básica, no está asociado a ningún permiso para operación y alteración de cualquiera que sea el recurso computacional, en uno u otro proveedor de servicio de nube (público y/o privado). Este perfil tiene acceso únicamente al análisis financiero y de costos del contrato al que este usuario está vinculado, por intermedio de un grupo.
+  * Este usuario está identificado en el listado con la marca (flag) gráfica: ``user`` el término indica que este usuario es un Auditor del Contrato.
+
+Los otros cuatro perfiles (**Administrator, Service, VDI User, VDI Administrator**) son perfiles internos de la Plataforma de uCloud, no estarán cubiertos en este documento. Póngase en contacto con su punto focal en Ustore para obtener los documentos específicos: *Manual del Administrador de la Plataforma uCloud y 
+Manual del Entorno VDI Ustore*
+
+
 
 Visualización de un Usuario
 ---------------------------
