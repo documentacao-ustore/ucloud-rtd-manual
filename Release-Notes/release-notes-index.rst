@@ -48,6 +48,11 @@ Lanzamiento: Mayo
 ::doc:`release-notes.spa-ucloud-2022-mayo` |icone_clikhere|
 
 
+.. .. |icone_ingles|
+
+..   ----
+
+
 
 
 English version
