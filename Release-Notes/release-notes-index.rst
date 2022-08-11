@@ -62,7 +62,7 @@ uCloud Platform evolution notes (Release Notes) are distributed at different tim
 
 
 
-release: may
+Release: May
 ~~~~~~~~~~~~
 
 ::doc:`release-notes.ing-ucloud-2022-mayo` |icone_clikhere|
