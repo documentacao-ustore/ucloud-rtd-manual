@@ -29,7 +29,7 @@ Lançamento: Março
 Versión Español
 ~~~~~~~~~~~~~~~
 
-Las notas de evolución de la plataforma ucloud (*Notas de la versión*) se distribuyen en diferentes momentos a las actualizaciones de la versión.
+Las notas de evolución de la plataforma uCloud (*Notas de la versión*) se distribuyen en diferentes momentos a las actualizaciones de la versión.
 
 
 
