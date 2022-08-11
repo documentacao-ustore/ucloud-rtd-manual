@@ -55,7 +55,7 @@ Lanzamiento: Mayo
 
 
 
-English version
+English Version
 ---------------
 
 uCloud Platform evolution notes (Release Notes) are distributed at different times than version updates.
