@@ -692,54 +692,57 @@ La pantalla de visualización de detalles de un usuario se divide en secciones y
 
 ----
 
-Tras la confirmación de la Eliminación del usuario, este usuario y sus credenciales de acceso no estarán disponibles de forma irreversible de inmediato y no será posible recuperar la información de este usuario. Si la eliminación es accidental, este usuario debe ser aprovisionado de nuevo, ver el elemento Crear Nuevo Usuario.
+Tras la confirmación de la Eliminación del usuario, este usuario y sus credenciales de acceso no estarán disponibles de forma **irreversible de inmediato** y no será posible recuperar la información de este usuario. Si la eliminación es accidental, este usuario debe ser aprovisionado de nuevo, ver el elemento **Crear Nuevo Usuario**.
 
   * **Icono de Edición Activo** |icone_edita_on|: Todos los campos que tienen el icono de edición activo pueden cambiar su contenido.
   
-  * **Icono de Edición Inactivo** | icone_edita-on|: Todos los campos que tienen el icono de edición inactivo o no son susceptibles de tener su contenido alterado a través de esta pantalla (ej.: valores de las cuotas de grupo) o el perfil del usuario que está registrado y accediendo a esta pantalla, no tiene permiso para cambiar el contenido del (de los) campo(s).
+  * **Icono de Edición Inactivo** |icone_edita-on|: Todos los campos que tienen el icono de edición inactivo o no son susceptibles de tener su contenido alterado a través de esta pantalla (ej.: valores de las cuotas de grupo) o el perfil del usuario que está registrado y accediendo a esta pantalla, no tiene permiso para cambiar el contenido del (de los) campo(s).
 
-  * **Icono de Confirmación** | icone_conf_verde|: Cuando el usuario confirma su intención de cambiar el contenido del campo deseado, la Plataforma de uCloud muestra un icono de confirmación. Después de haber finalizado el cambio del contenido del campo el usuario debe hacer clic con el cursor del mouse en el botón verde para confirmar el cambio. Después de esta acción la información del campo se modificará permanentemente en las bases de datos de la Plataforma de uCloud.
+  * **Icono de Confirmación** |icone_conf_verde|: Cuando el usuario confirma su intención de cambiar el contenido del campo deseado, la Plataforma de uCloud muestra un icono de confirmación. Después de haber finalizado el cambio del contenido del campo el usuario debe hacer clic con el cursor del mouse en el botón verde para confirmar el cambio. Después de esta acción la información del campo se modificará permanentemente en las bases de datos de la Plataforma de uCloud.
 
-  * **Icono de Cancelación** | icone_cancela_vermelho|: En caso de que el usuario haya hecho clic sobre el icono de edición por error o no desee que el cambio se almacene (grabada) permanentemente, basta con que el usuario haga clic con el cursor del mouse sobre el icono rojo. El icono rojo cancela los cambios y el contenido del campo vuelve a los valores iniciales antes de realizar cualquier relleno o cambio.
+  * **Icono de Cancelación** |icone_cancela_vermelho|: En caso de que el usuario haya hecho clic sobre el icono de edición por error o no desee que el cambio se almacene (grabada) permanentemente, basta con que el usuario haga clic con el cursor del mouse sobre el icono rojo. El icono rojo cancela los cambios y el contenido del campo vuelve a los valores iniciales antes de realizar cualquier relleno o cambio.
 
   * **Barra de Desplazamiento**: Esta sección posee un gran conjunto de campos, para la completa visualización de todo el usuario debe utilizar la barra de desplazamiento al lado derecho de esta sección. Si el usuario desplaza el mouse, la pantalla se desplaza hacia abajo y muestra los campos que no se estaban visualizando, como se muestra a continuación:
 
 .. figure:: /figuras/uCloud_menu_administracao_usuario_005.png
+   :alt: menú administración usuario 
    :align: center
+
+----
 
   * **Solo Lectura**: Este campo configura a un usuario que no tiene permiso para realizar ninguna acción a través de la Plataforma de uCloud, pero su inicio de sesión está activo y tiene la capacidad de ver todas las pantallas que tiene permiso.
 
-.. important::
-  * Este es un campo tipo "checkbox" que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
+.. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
+
 
   * **Autenticación Multifactor**: Este campo indica si este usuario tendrá su proceso de autenticación en la plataforma (login) siendo verificado doblemente, antes de aprobar que este usuario tenga acceso a la Plataforma de uCloud. Para ello, se enviará un mensaje en el número de servicio móvil del celular registrado.
 
-.. important::
-  * Este es un campo tipo "checkbox" que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
+.. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
 
   * **Activar Cuota de Facturación**
 
   * **Aprobación del Administrador**: Este campo configura que todas las acciones y solicitudes realizadas en la interfaz de la Plataforma de uCloud, de este usuario, deberán ser aprobadas por un usuario Administrador del Grupo. Esta es una funcionalidad para aumentar el control de gobernanza de costos y operaciones.
 
-.. important::
-  * Este es un campo tipo "checkbox" que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
+.. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
 
 
-  * **Sección Permisos de Usuario**: Cuando se crea el usuario, hereda/recibe todos los permisos definidos en el grupo al que pertenece (ver la siguiente sección), así como los permisos establecidos en el Acuerdo. Esta tabla es opcional, pero permite añadir o revocar los permisos que este usuario tiene para realizar acciones, o acceder a menús, en la Plataforma de uCloud.
+* **Sección Permisos de Usuario**: Cuando se crea el usuario, hereda/recibe todos los permisos definidos en el grupo al que pertenece (ver la siguiente sección), así como los permisos establecidos en el Acuerdo. Esta tabla es opcional, pero permite añadir o revocar los permisos que este usuario tiene para realizar acciones, o acceder a menús, en la Plataforma de uCloud.
 
-    * **Botón Editar**: Para agregar o revocar permisos para el usuario, el Administrador (o usuario con autorización) debe hacer clic en este botón para que la Plataforma de uCloud pueda mostrar la pantalla que es posible realizar el procedimiento de agregar o eliminar permisos específicos para este usuario. Vea el siguiente ejemplo:
+  * **Botón Editar**: Para agregar o revocar permisos para el usuario, el Administrador (o usuario con autorización) debe hacer clic en este botón para que la Plataforma de uCloud pueda mostrar la pantalla que es posible realizar el procedimiento de agregar o eliminar permisos específicos para este usuario. Vea el siguiente ejemplo:
 
 .. figure:: /figuras/uCloud_menu_usuario_006.png
    :align: center
 
+----
+
 Esta pantalla tiene dos columnas distintas:
 
   * A la izquierda son los permisos previamente añadidos al usuario. Al lado de cada permiso existe un campo del tipo *"checkbox"* que al ser seleccionado elimina (revoca) el respectivo permiso de este usuario.
-  * 
+
   * A la derecha están los permisos disponibles en la Plataforma de uCloud que se pueden agregar al perfil individual de este usuario. Al lado de cada permiso existe un campo del tipo *"checkbox"* que, cuando se selecciona, agrega el respectivo permiso de este usuario.
-  * 
+  
   * **Usar los permisos predeterminados**: Al seleccionar este campo *"checkbox"* y confirmar la acción, el usuario recibirá todos los permisos de usuario disponibles en la Plataforma de uCloud.
-  * 
+  
   * **Botón Aplicar**: Después de verificar que todos los cambios necesarios han sido configurados (inclusiones o exclusiones), el usuario debe hacer clic con el mouse en el botón **Aplicar** para confirmar los cambios - de forma definitiva e inmediata - para el usuario que está viendo/cambiando. Terminada esta acción la Plataforma de uCloud cerrará esta pantalla y volverá a la pantalla anterior, con su contenido actualizado, presentando la nueva relación de permisos del usuario.
 
 * **Sección Políticas de Permisos de Usuario (eventual)**: Esta sección solo se mostrará a los usuarios que han sido aprovisionados en la Plataforma uCloud con el *"checkbox"* **Crear Usuario en la Nube** habilitado. En esta sección se muestran todas las directivas de permisos específicas y únicas del entorno del proveedor de servicios de nube pública. Estas políticas se “importan” durante el proceso de sincronización del contenedor, y permiten un alto nivel de control granular de las capacidades (permisos) que el usuario puede realizar dentro del entorno del proveedor de servicios en la nube. Cuando el usuario es recién aprovisionado, este puede estar asociado a ninguna directiva de permisos, será necesario configurar manualmente los permisos.
