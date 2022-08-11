@@ -49,10 +49,11 @@ Lanzamiento: Mayo
 
 
 
+
 English version
 ---------------
 
-uCloud Platform evolution notes (*Release Notes*) are distributed at different times than version updates.
+uCloud Platform evolution notes (Release Notes) are distributed at different times than version updates.
 
 
 
