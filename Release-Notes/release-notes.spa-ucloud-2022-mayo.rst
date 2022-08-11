@@ -66,7 +66,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Micro
 Google Cloud Plataform (GCP)
 ----------------------------
 
-En cuanto a la interacción con el proveedor de servicios de nube pública Google *Cloud Platform* (GCP), podemos enumerar los siguientes cambios:
+En cuanto a la interacción con el proveedor de servicios de nube pública *Google Cloud Platform* (GCP), podemos enumerar los siguientes cambios:
 
 * Nueva ejecución en el funcionamiento de los *Listeners* y Miembros de un Balanceador.
 
