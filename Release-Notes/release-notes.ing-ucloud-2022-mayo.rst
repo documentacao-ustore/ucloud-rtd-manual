@@ -344,11 +344,11 @@ In case of the Virtual TAGs application, there are some tips and basic restricti
 
 * To enable instance tags in metadata, the instance tags keys allow use of the letters (a-z, A-Z), numbers (0-9) and the following characters: + - = . ,  _ : @. Avoid spaces or / , and it can’t form only . (a dot), .. (two dots) or _index.
 
-.. note:: for any resource, each key tag must be exclusive and can only have one value.
+.. note:: For any resource, each key tag must be exclusive and can only have one value.
 
 .. important:: The keys and TAGs values are Case Sensitive, in other words, differentiate **UPPERCASE from lowercase**. 
 
-.. warning:: : THE **aws** prefix it’s reserved for the Amazon Web Service (AWS) use. It’s not possible to edit nor exclude the key or the value of a TAG when it has a key with this prefix. The TAGs with the aws prefix: don’t count to TAGs by resource limit.
+.. warning:: : The **aws** prefix it’s reserved for the Amazon Web Service (AWS) use. It’s not possible to edit nor exclude the key or the value of a TAG when it has a key with this prefix. The TAGs with the aws prefix: don’t count to TAGs by resource limit.
 
 How to use
 ----------
@@ -383,7 +383,7 @@ We can summarize the Virtual TAGs functionality use process in two distinct mome
 
   \ e. \ If its identified that there are still resources with NO TAGs (remember there are resources the public cloud service provider does not link to any TAG; or that the Product Name, Product Family, Resource Identifier combination was not enough to associate the totality of rows of the billing file), the uCloud Platform allows to address the TAGs absence with the next process.
 
-#. 2.	**Virtual TAGs normalization**;
+2. **Virtual TAGs normalization**;
 
   \ a. \ This process should only be applied when the existing combination in the Virtua TAGs Profile cannot apply TAGs to all the resources.
   
