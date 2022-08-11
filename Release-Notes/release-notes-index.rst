@@ -49,9 +49,17 @@ Lanzamiento: Mayo
 
 
 
+English version
+---------------
+
+uCloud Platform evolution notes (*Release Notes*) are distributed at different times than version updates.
 
 
 
+release: may
+~~~~~~~~~~~~
+
+::doc:`release-notes.ing-ucloud-2022-mayo` |icone_clikhere|
 
 
 
