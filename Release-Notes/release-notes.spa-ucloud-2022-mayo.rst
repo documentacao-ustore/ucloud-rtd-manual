@@ -8,7 +8,7 @@ uCloud - Notas Mayo - 2022
    
 ----
 
-Plataforma uCloud versão: *update tag 5.2-b35*
+Plataforma uCloud Versión: *update tag 5.2-b35*
 
 Presentación
 =============
