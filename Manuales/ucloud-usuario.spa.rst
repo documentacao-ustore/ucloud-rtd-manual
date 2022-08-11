@@ -696,7 +696,7 @@ Tras la confirmación de la Eliminación del usuario, este usuario y sus credenc
 
   * **Icono de Edición Activo** |icone_edita_on|: Todos los campos que tienen el icono de edición activo pueden cambiar su contenido.
   
-  * **Icono de Edición Inactivo** |icone_edita-on|: Todos los campos que tienen el icono de edición inactivo o no son susceptibles de tener su contenido alterado a través de esta pantalla (ej.: valores de las cuotas de grupo) o el perfil del usuario que está registrado y accediendo a esta pantalla, no tiene permiso para cambiar el contenido del (de los) campo(s).
+  * **Icono de Edición Inactivo** |icone_edita_on|: Todos los campos que tienen el icono de edición inactivo o no son susceptibles de tener su contenido alterado a través de esta pantalla (ej.: valores de las cuotas de grupo) o el perfil del usuario que está registrado y accediendo a esta pantalla, no tiene permiso para cambiar el contenido del (de los) campo(s).
 
   * **Icono de Confirmación** |icone_conf_verde|: Cuando el usuario confirma su intención de cambiar el contenido del campo deseado, la Plataforma de uCloud muestra un icono de confirmación. Después de haber finalizado el cambio del contenido del campo el usuario debe hacer clic con el cursor del mouse en el botón verde para confirmar el cambio. Después de esta acción la información del campo se modificará permanentemente en las bases de datos de la Plataforma de uCloud.
 
@@ -715,13 +715,13 @@ Tras la confirmación de la Eliminación del usuario, este usuario y sus credenc
 .. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
 
 
-  * **Autenticación Multifactor**: Este campo indica si este usuario tendrá su proceso de autenticación en la plataforma (login) siendo verificado doblemente, antes de aprobar que este usuario tenga acceso a la Plataforma de uCloud. Para ello, se enviará un mensaje en el número de servicio móvil del celular registrado.
+* **Autenticación Multifactor**: Este campo indica si este usuario tendrá su proceso de autenticación en la plataforma (login) siendo verificado doblemente, antes de aprobar que este usuario tenga acceso a la Plataforma de uCloud. Para ello, se enviará un mensaje en el número de servicio móvil del celular registrado.
 
 .. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
 
-  * **Activar Cuota de Facturación**
+* **Activar Cuota de Facturación**
 
-  * **Aprobación del Administrador**: Este campo configura que todas las acciones y solicitudes realizadas en la interfaz de la Plataforma de uCloud, de este usuario, deberán ser aprobadas por un usuario Administrador del Grupo. Esta es una funcionalidad para aumentar el control de gobernanza de costos y operaciones.
+* **Aprobación del Administrador**: Este campo configura que todas las acciones y solicitudes realizadas en la interfaz de la Plataforma de uCloud, de este usuario, deberán ser aprobadas por un usuario Administrador del Grupo. Esta es una funcionalidad para aumentar el control de gobernanza de costos y operaciones.
 
 .. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
 
