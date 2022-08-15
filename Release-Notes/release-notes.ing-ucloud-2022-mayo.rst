@@ -197,6 +197,7 @@ Just for the purpose of exemplifying a scenario, we will describe the offer of s
 Segmentation by Accounts
 ------------------------
 
+
 There are two classes of “Accounts”, they are categorized into two types, the accounts in the **Integrator** type and the **Producer** type, detailed below:
 
 * \ A. \ **Integrator Account** This account is responsible for creating the profiles of  the integrator and producer accounts, when creating these profiles, it feeds the tiers and the packages, in addition to establishing, the producer account its usage rule. 
