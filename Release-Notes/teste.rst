@@ -1,4 +1,4 @@
-fksfksjdfs dkjfsdkjf hdsks dfkjsdfh ksjdfhsk dfkjsdfhsdfksjdlfks djflskjdf lskdfj l
+Teste
+=====
 
-sdklfjsdl fksjdflsk dflsk dflskdfs
-sdfkjsdlkfsj dlfksjd flskdfj lkd **lkajsldkasjdlaksdjlasdk** kvjlkdjldkfjs dlfkjs dflksjdflksjdf lks
+.. _SwitchRoles: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html?highlight=swit%20roles#switch-roles
