@@ -728,9 +728,14 @@ Tras la confirmación de la Eliminación del usuario, este usuario y sus credenc
 
 * **Sección Permisos de Usuario**: Cuando se crea el usuario, hereda/recibe todos los permisos definidos en el grupo al que pertenece (ver la siguiente sección), así como los permisos establecidos en el Acuerdo. Esta tabla es opcional, pero permite añadir o revocar los permisos que este usuario tiene para realizar acciones, o acceder a menús, en la Plataforma de uCloud.
 
+.. figure:: /figuras/uCloud_menu_usuario_006.png
+   :align: center
+
+----
+
   * **Botón Editar**: Para agregar o revocar permisos para el usuario, el Administrador (o usuario con autorización) debe hacer clic en este botón para que la Plataforma de uCloud pueda mostrar la pantalla que es posible realizar el procedimiento de agregar o eliminar permisos específicos para este usuario. Vea el siguiente ejemplo:
 
-.. figure:: /figuras/uCloud_menu_usuario_006.png
+.. figure:: /figuras/uCloud_menu_usuario_005.png
    :align: center
 
 ----
@@ -747,9 +752,102 @@ Esta pantalla tiene dos columnas distintas:
 
 * **Sección Políticas de Permisos de Usuario (eventual)**: Esta sección solo se mostrará a los usuarios que han sido aprovisionados en la Plataforma uCloud con el *"checkbox"* **Crear Usuario en la Nube** habilitado. En esta sección se muestran todas las directivas de permisos específicas y únicas del entorno del proveedor de servicios de nube pública. Estas políticas se “importan” durante el proceso de sincronización del contenedor, y permiten un alto nivel de control granular de las capacidades (permisos) que el usuario puede realizar dentro del entorno del proveedor de servicios en la nube. Cuando el usuario es recién aprovisionado, este puede estar asociado a ninguna directiva de permisos, será necesario configurar manualmente los permisos.
 
+.. figure:: /figuras/uCloud_menu_usuario_007.png
+   :align: center
+
+----
+  
+  * **Botón Editar** Este botón permite al usuario Administrador (o usuario autorizado) agregar o revocar las políticas de permisos del entorno del proveedor de servicios en la nube. Para ello, se debe hacer clic en el botón **'Editar'** desde allí se le permitirá al usuario administrador agregar o eliminar permisos específicos para el usuario deseado. Vea el siguiente ejemplo:
+
+.. figure:: /figuras/uCloud_menu_usuario_008.png
+   :align: center
+
+----
+
+Esta pantalla tiene dos columnas distintas:
+
+  * A la izquierda son los permisos previamente añadidos al usuario. Al lado de cada permiso existe un campo del tipo *"checkbox"* que al ser seleccionado elimina (revoca) el respectivo permiso de este usuario.
+
+  * A la derecha están los permisos disponibles en la Plataforma de uCloud que se pueden agregar al perfil individual de este usuario. Al lado de cada permiso existe un campo del tipo *"checkbox"* que, cuando se selecciona, agrega el respectivo permiso de este usuario.
 
 
+  * **Botón Aplicar**: Después de verificar que todos los cambios necesarios han sido configurados (inclusiones o exclusiones), el usuario debe hacer clic con el mouse en el botón **Aplicar** para confirmar los cambios - de forma definitiva e inmediata - para el usuario que está viendo/cambiando. Terminada esta acción la Plataforma de uCloud cerrará esta pantalla y regresará a la pantalla anterior, con su contenido actualizado, presentando la nueva relación de permisos del usuario.
 
+* **Sección Permisos de Grupo**: Esta sección solo muestra los permisos definidos en la configuración del grupo al que está vinculado este usuario. La Plataforma de uCloud no permite que los permisos listados aquí puedan ser cambiados a través de esta pantalla. Para tener contacto y conocer los permisos definidos en el grupo, vea el elemento Administración / Grupos.
+
+Si se requieren cambios de cualquier permiso que se enumeran aquí, estos cambios deben realizarse en la configuración del Grupo.
+
+.. figure:: /figuras/uCloud_menu_usuario_009.png
+   :align: center
+
+----
+
+* **Sección Grupos Secundarios**: En esta sección es posible asociar un usuario a más de un grupo en la Plataforma de uCloud. En la sección **General**, puede comprobar el grupo principal al que está vinculado el usuario.
+
+.. figure:: /figuras/uCloud_menu_usuario_010.png
+   :align: center
+
+----
+
+  * **Botón Editar**: Para vincular a este usuario a un grupo secundario, o desvincular a este usuario de un grupo secundario, el Administrador (o usuario con autorización) debe hacer clic en este botón **Editar** para que la Plataforma de uCloud pueda mostrar la pantalla que permite desvincular al usuario de grupos secundarios. Vea el siguiente ejemplo:
+
+.. figure:: /figuras/uCloud_menu_usuario_011.png
+   :align: center
+
+----
+
+  * A la derecha están listados los grupos que están vinculados al contrato del grupo principal al cual este usuario fue provisionado originalmente. La Plataforma de uCloud enumera solo los grupos que están vinculados al contrato vigente. Al lado de cada grupo existe un campo del tipo *"checkbox"* que, cuando seleccionado, vincula el grupo seleccionado a este usuario.
+  
+  * A la izquierda están listados los grupos secundarios que este usuario está vinculado. Al lado de cada grupo existe un campo del tipo *"checkbox"* que, cuando se selecciona, desvincula el grupo seleccionado de este usuario.
+
+  * **Botón Aplicar**: Después de certificar que todas las vinculaciones, o remoción, han sido configuradas, el usuario debe hacer clic en el botón Aplicar para configurar los cambios, de forma definitiva e inmediata, para el usuario que se está visualizando/alterando. Después de esta acción la Plataforma de uCloud cierra esta pantalla y vuelve a la pantalla anterior con su contenido presentando la nueva relación de permisos de usuario.
+
+* **Sección de Perfiles de Visualización**: Esta sección permite al administrador del contrato seleccionar qué opciones del Menú de Usuario puede ver este usuario. A través de esta funcionalidad, el administrador puede personalizar la forma en que este usuario interactúa con la plataforma uCloud. Puede seguir el proceso de definición de estos perfiles en el elemento **Configuración / Perfiles de Visualización**. Esta configuración elimina o añade las opciones de la barra de **Menú de Usuario**, de modo que para el usuario no hay forma de saber que existe tal funcióny. La posibilidadde saberlo, sería acompañar a otro usuario que utiliza la plataforma con otras opciones de **Menú de Usuario** visibles.
+
+.. figure:: /figuras/uCloud_menu_usuario_012.png
+   :align: center
+
+----
+
+  * **Botón Add**: Para agregar este usuario a un perfil de vista previa, o desvincular a este usuario de un grupo secundario, el Administrador (el usuario creado) debe hacer clic en este botón **Add** para que la Plataforma uCloud pueda mostrar la pantalla que permite asociar al usuario con uno de los perfiles de visualización configurados en la plataforma. Vea el ejemplo a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_013.png
+   :align: center
+
+----
+
+Puede ingresar parte del nombre de un grupo y hacer clic en el cursor del mouse (o en la tecla Enter) para que la plataforma uCloud presente una lista de todos los grupos que tienen la misma cadena reportada. Este campo distingue entre mayúsculas y minúsculas y/o minúsculas, solo enumera los perfiles de vista previa que coinciden exactamente con la parte del texto que se escribió (si no aparece nada, escriba texto con otra combinación de mayúsculas o minúsculas).
+
+.. note:: *Es importante tener en cuenta que los perfiles enumerados en la pantalla de muestra no existen y se crearon solo con fines ilustrativos*.
+
+* **Botón Guardar**: Después de asegurarse de que ha vinculado al usuario al perfil de vista correcto, el usuario debe hacer clic con el botón del mouse en el botón **Guardar** para configurar los cambios, de forma definitiva e inmediata, para el usuario que está viendo/cambiando. Tras esta acción la Plataforma uCloud cierra esta pantalla y vuelve a la pantalla anterior con su contenido presentando la nueva relación de permisos de usuario.
+
+* **Sección Últimos Logins**: En esta sección se enumerarán todos los eventos en los que este usuario ha iniciado sesión (login) en la Plataforma uCloud. Vea la pantalla de ejemplo a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_014.png
+   :align: center
+
+----
+
+  * **Fecha de `Login`**: Este campo muestra la fecha y la hora en que el usuario inicia sesión en una Plataforma uCloud utilizando su inicio de sesión (login). La información se presenta en formato de fecha en la norma brasileña (Día/Mes/Año Hora:Minuto:segundo).
+  * **Fecha de `Logout`**: Este campo muestra la fecha y la hora en que el usuario cierra sesión en la plataforma uCloud con su inicio de sesión. La información se presenta en formato de fecha en la norma brasileña (Día/Mes/Año Hora:Minuto:segundo).
+  * **Tiempo de Sesión**: Este campo muestra la cantidad total de tiempo que este inicio de sesión de usuario permanece conectado a la plataforma uCloud, en el formato de horas, minutos y segundos (por ejemplo, 6h 18m 33s).
+  * **IP Remota**: Este campo muestra el número de la dirección TCP-IP con la que el usuario estaba asociado cuando inició sesión con la Plataforma uCloud.
+
+.. note:: Es importante tener en cuenta que los inicios de sesión enumerados en la pantalla de ejemplo no existen y se crearon solo con fines ilustrativos.
+
+* **Búsqueda Rápida**: El usuario nota que justo debajo del nombre de cada columna hay un campo 'en blanco' que le permite realizar una búsqueda rápida del contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de eventos de inicio de sesión (login). Simplemente complete el campo en blanco con una cadena que pueda ser relevante, y la Plataforma uCloud actualizará la pantalla para representar este patrón de búsqueda.
+
+* **Sección Máquinas Virtuales**: Esta sección presenta una lista de máquinas virtuales (VMs) o cargas de trabajo *(workloads)* creadas por este usuario durante una sesión activa en la Plataforma uCloud.
+
+.. figure:: /figuras/uCloud_menu_usuario_015.png
+   :align: center
+
+----
+
+.. note:: Es importante tener en cuenta que las máquinas virtuales enumeradas en la pantalla de ejemplo no existen y se crearon solo con fines ilustrativos.
+
+* **Búsqueda Rápida**: Es posible que el usuario no pueda notar que justo debajo del nombre de la columna hay un campo 'en blanco' que le permite realizar una búsqueda rápida sobre el contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de máquinas virtuales *(VMs)* de este usuario. Simplemente complete el campo en blanco con una cadena que pueda ser relevante, y la plataforma uCloud actualiza la pantalla para representar este patrón de búsqueda.
 
 
 

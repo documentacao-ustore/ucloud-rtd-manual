@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Documentação Ustore-BR'
-html_logo = './figuras/ustore.svg'
+html_logo = './figuras/_ustore_w.png'
 copyright = '2022, Ustore Brasil'
 author = 'Ustore Brasil'
 
