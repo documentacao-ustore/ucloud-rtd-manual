@@ -460,3 +460,5 @@ The continuous development of both the DevOps team at Ustore, as well as the exp
 .. note:: In the present moment of this Release note (May, 2022) the API and the SDK for the OCI still does not allow the complete support to the collect implementation and billing infrastructure calcule present in the OCI environment. We await the SDK and API Oracle Cloud Infrastructure evolution to implement the billing functionality for OCI.
 
 This set of new functionalities implemented and described, contained in this document, generated the development of this new version (update tag.5.2-b35). Thus, Ustore reaffirms its constant commitment to evolving the platform and aligning it with the needs of the market and its customers.
+
+.. _SwitchRoles: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html?highlight=swit%20roles#switch-roles
