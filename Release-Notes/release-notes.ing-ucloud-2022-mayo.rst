@@ -220,7 +220,7 @@ There are two classes of “Accounts”, they are categorized into two types, th
 
   Below is an illustration that represents the complete concept of the scope of the “Account” functionality implemented in the uCloud Platform. The names and denominations used are merely illustrative.
 
-  .. figure:: /figuras/ucloud_arquitetura_conceitual003.png
+  .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_arquitetura_conceitual003-us-en.png
    :align: center
    
 ----

@@ -216,7 +216,7 @@ Existen dos clases de "*Contas*" que se clasifican en dos tipos, las cuentas de 
 
 A continuación se muestra una ilustración que presenta el concepto completo del alcance de la funcionalidad **Account** implementada en la Plataforma uCloud. Los nombres y denominaciones utilizados son meramente ilustrativos.
 
-.. figure:: /figuras/ucloud_arquitetura_conceitual003.png
+.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_arquitetura_conceitual003-es-la.png
    :align: center
    
 ----
