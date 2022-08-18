@@ -462,3 +462,5 @@ The continuous development of both the DevOps team at Ustore, as well as the exp
 This set of new functionalities implemented and described, contained in this document, generated the development of this new version (update tag.5.2-b35). Thus, Ustore reaffirms its constant commitment to evolving the platform and aligning it with the needs of the market and its customers.
 
 .. _SwitchRoles: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html?highlight=swit%20roles#switch-roles
+
+Informações do SwitchRoles_ 
