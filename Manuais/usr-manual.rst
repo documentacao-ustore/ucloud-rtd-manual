@@ -363,8 +363,8 @@ A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu níve
 Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
 A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico Perfil de Permissionamento, neste documento.
 
-Menu Administração / CONTA *`ACCOUNT`*
---------------------------------------
+Menu Administração / *`Account`*
+--------------------------------
 
 Com a adição desta funcionalidades na plataforma uCloud, o comportamento no Menu Administração, dentro do submenu alocado para Usuários, Grupos, Contratos, inova e apresenta a funcionalidade **Conta** *(Account)*.  Esta novidade está localizada no lado esquerdo dentro do Menu Administração, abaixo de Usuários, Grupos e Contratos e será descrita, em detalhes, no transcorrer deste documento.
 
