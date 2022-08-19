@@ -366,13 +366,19 @@ A personalização das permissões de atividades que o usuário poderá possuir 
 Menu Administração / *`Account`*
 --------------------------------
 
-Com a adição desta funcionalidades na plataforma uCloud, o comportamento no Menu Administração, dentro do submenu alocado para Usuários, Grupos, Contratos, inova e apresenta a funcionalidade **Conta** *(Account)*.  Esta novidade está localizada no lado esquerdo dentro do Menu Administração, abaixo de Usuários, Grupos e Contratos e será descrita, em detalhes, no transcorrer deste documento.
+Com a adição desta funcionalidade na plataforma uCloud, o comportamento no Menu Administração inova ao visualizar o submenu alocado para Usuários, Grupos, Contratos e apresenta a funcionalidade **Conta** *(Account)*.  
+
+Esta novidade está localizada no lado esquerdo dentro do Menu Administração, abaixo de Usuários, Grupos e Contratos e será descrita em detalhes no transcorrer deste documento.
 
 .. figure:: /figuras/fig_ucloud_admin/0_menu_adm.png
    :align: center
 ----
 
-Para que o usuário possa acessar esta funcionalidade basta clicar no Menu Administração > Conta. A tela de entrada desta funcionalidade exibe do lado esquerdo as funcionalidades da plataforma uCloud,  abaixo da funcionalidade Dashboard no menu Administração é possível criar Usuários, Grupos, Contratos e Conta, após criar pode-se editar, visualizar, listar, entre outras atividades de gerenciamento. Neste exemplo a imagem exibe a funcionalidade **Conta** *(Account)*, o usuário pode visualizar no canto superior direito os três (3) símbolos de: Contrato, Tarefas e o nome do usuário que está logado no portal. Em seguida, observa-se a Lista de Contas, os botões `Refresh` e `+Criar Conta`.
+Para que o usuário possa acessar esta funcionalidade basta clicar no Menu Administração > Conta. 
+
+A tela de entrada desta funcionalidade exibe do lado esquerdo as funcionalidades da plataforma uCloud,  abaixo do Dashboard no menu Administração é possível criar Usuários, Grupos, Contratos e Conta, após criar pode-se editar, visualizar, listar, entre outras atividades de gerenciamento. 
+
+Neste exemplo a imagem exibe a funcionalidade **Conta** *(Account)*, o usuário pode visualizar no canto superior direito os três (3) símbolos de: Contrato, Tarefas e o nome do usuário que está logado no portal. Em seguida, observa-se a Lista de Contas, os botões `Refresh` e `+Criar Conta`.
 
 .. figure:: /figuras/fig_ucloud_admin/1_conta.png
    :align: center
