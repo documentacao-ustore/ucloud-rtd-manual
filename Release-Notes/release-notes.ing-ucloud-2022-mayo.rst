@@ -272,7 +272,7 @@ The uCloud Platform Virtual TAG process may automatically link a specific TAG to
 
 See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources.
 
-.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tag_virtual001-en-us.png
+.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual002.png
    :align: center
 
 ----
