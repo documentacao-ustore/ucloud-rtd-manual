@@ -188,38 +188,38 @@ Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o p
 
 Siga para o próximo tópico para a descrição detalhada das características da tela inicial (Dashboard) da Plataforma uCloud.
 
-Menu de Usuário
-===============
+.. Menu de Usuário
+.. ===============
 
-A barra de menu do usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo:
+.. A barra de menu do usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo:
   
-.. figure:: /figuras/uCloud_menu_usuario_001.png
+.. .. figure:: /figuras/uCloud_menu_usuario_001.png
    :align: center
 
 
-Algumas opções de menu possuem um submenu, as quais são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, ver o exemplo na figura abaixo:
+.. Algumas opções de menu possuem um submenu, as quais são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, ver o exemplo na figura abaixo:
 
-.. figure:: /figuras/uCloud_menu_usuario_002.png
+.. .. figure:: /figuras/uCloud_menu_usuario_002.png
    :align: center
 
-----
+.. ----
 
-É possível ao usuário optar pela redução da apresentação da barra de Menu do Usuário para o modo de Somente Ícones, para ter uma maior área de apresentação. Para alternar entre o Menu do Usuário Modo Expandido e o Menu do Usuário Modo Ícones, existe um elemento gráfico verde com três barras, de fácil identificação para o usuário. Este elemento estará presente em qualquer tela da Plataforma uCloud.
-Quando o usuário clica sobre este elemento, a barra do Menu de Usuário será alternada para o Modo Ícones, conforme o exemplo na figura abaixo:
+.. É possível ao usuário optar pela redução da apresentação da barra de Menu do Usuário para o modo de Somente Ícones, para ter uma maior área de apresentação. Para alternar entre o Menu do Usuário Modo Expandido e o Menu do Usuário Modo Ícones, existe um elemento gráfico verde com três barras, de fácil identificação para o usuário. Este elemento estará presente em qualquer tela da Plataforma uCloud.
+.. Quando o usuário clica sobre este elemento, a barra do Menu de Usuário será alternada para o Modo Ícones, conforme o exemplo na figura abaixo:
 
-.. figure:: /figuras/uCloud_menu_usuario_003.png
+.. .. figure:: /figuras/uCloud_menu_usuario_003.png
    :align: center
 
-----
+.. ----
 
-Quando a barra de Menu do Usuário está em modo ícone, os submenus serão apresentados conforme a figura abaixo:
+.. Quando a barra de Menu do Usuário está em modo ícone, os submenus serão apresentados conforme a figura abaixo:
 
-.. figure:: /figuras/uCloud_menu_usuario_004.png
+.. .. figure:: /figuras/uCloud_menu_usuario_004.png
    :align: center
 
-----
+.. ----
 
-O conteúdo abaixo detalha cada uma das opções do menu de usuário e suas respectivas funcionalidades.
+.. O conteúdo abaixo detalha cada uma das opções do menu de usuário e suas respectivas funcionalidades.
 
 Menu Administração 
 ==================
@@ -239,7 +239,9 @@ A figura abaixo exemplifica, em uma imagem, a relação entre estes três termos
 
 ----
 
-É importante entender que um **Contrato** pode possuir vários grupos e cada *Grupo* pode conter vários *Usuários*. Entretanto, a Plataforma uCloud permite somente que um Usuário faça parte de apenas um grupo e um único Grupo esteja vinculado a exclusivamente um contrato.
+É importante entender que um **Contrato** pode possuir vários grupos e cada *Grupo* pode conter vários *Usuários*. 
+
+.. Entretanto, a Plataforma uCloud permite somente que um Usuário faça parte de apenas um grupo e um único Grupo esteja vinculado a exclusivamente um contrato.
 
 A seguir, neste documento, será descrito que ao configurar as cotas (limites financeiros ou de recursos) do contrato, estes limites serão compartilhados/divididos por cada um dos grupos existentes e, por consequência, os usuários estão limitados às cotas do grupo ao qual estão incluídos.
 
@@ -360,6 +362,34 @@ Importante ressaltar que essa janela pop-up lista somente os contratos aos quais
 A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu nível de acesso bem como obter acesso a diferentes contratos com diferentes regras de permissões para cada contrato sem ter de encerrar a sua sessão na Plataforma uCloud.
 Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
 A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico Perfil de Permissionamento, neste documento.
+
+Menu Administração / *`Account`*
+--------------------------------
+
+Com a adição desta funcionalidade na plataforma uCloud, o comportamento no Menu Administração inova ao visualizar o submenu alocado para Usuários, Grupos, Contratos e apresenta a funcionalidade **Conta** *(Account)*.  
+
+Esta novidade está localizada no lado esquerdo dentro do Menu Administração, abaixo de Usuários, Grupos e Contratos e será descrita em detalhes no transcorrer deste documento.
+
+.. figure:: /figuras/fig_ucloud_admin/0_menu_adm.png
+   :align: center
+----
+
+Para que o usuário possa acessar esta funcionalidade basta clicar no Menu Administração > Conta. 
+
+A tela de entrada desta funcionalidade exibe do lado esquerdo as funcionalidades da plataforma uCloud,  abaixo do Dashboard no menu Administração é possível criar Usuários, Grupos, Contratos e Conta, após criar pode-se editar, visualizar, listar, entre outras atividades de gerenciamento. 
+
+Neste exemplo a imagem exibe a funcionalidade **Conta** *(Account)*, o usuário pode visualizar no canto superior direito os três (3) símbolos de: Contrato, Tarefas e o nome do usuário que está logado no portal. Em seguida, observa-se a Lista de Contas, os botões `Refresh` e `+Criar Conta`.
+
+.. figure:: /figuras/fig_ucloud_admin/1_conta.png
+   :align: center
+----
+
+
+
+
+
+
+
 
 Menu Administração / Usuários
 -----------------------------

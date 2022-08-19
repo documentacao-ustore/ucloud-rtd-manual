@@ -855,6 +855,85 @@ Puede ingresar parte del nombre de un grupo y hacer clic en el cursor del mouse 
 Creación de Usuario
 -------------------
 
+Antes de tratar con la creación de un usuario, es importante establecer que para la Plataforma uCloud un Usuario está vinculado a un Grupo y un Grupo está vinculado por un Contrato [Usuario<Grupo<Contrato].
+
+De esta forma, antes de empezar a crear un nuevo usuario, es importante comprobar la existencia del grupo al que estará asociado este usuario. Para crear un usuario debe seleccionar la opción **'Crear Usuario'** como se indica a continuación.
+
+.. figure:: /figuras/uCloud_menu_usuario_022.png
+   :align: center
+
+----
+
+Para aprovisionar a un usuario en la Plataforma uCloud, segue la descripción detallada de la correcta finalización de los campos, son:
+
+.. figure:: /figuras/uCloud_menu_usuario_017.png
+   :align: center
+
+----
+
+* **Grupo**: Este campo es obligatorio y el usuario debe informar a un grupo previamente aprovisionado en la Plataforma uCloud, ya que no será posible seguir registrando un usuario sin vincular a este nuevo usuario a un grupo existente.
+
+  * Puede ingresar parte del nombre de un grupo y hacer clic en el cursor del mouse (o en la tecla Enter) para que la Plataforma uCloud pueda mostrar una lista de todos los grupos que tienen la misma cadena informada, vea el ejemplo a continuación:
+  * Cuando encuentre el Grupo al que este nuevo usuario debe estar vinculado, simplemente selecciónelo y el campo se llenará con el grupo específico.
+  * Es importante tener en cuenta que puede asociar este usuario con más de un grupo si es necesario. Pero estos grupos deben estar vinculados por un solo Contrato.
+
+* **Nombre**: Este campo es obligatorio y debe rellenarse con el nombre del usuario que está provisionando.
+
+* **Login**: Este campo es obligatorio y debe rellenarse con la cadena que se utilizará para identificar al usuario durante el proceso de inicio de sesión *(login)* de uCloud.
+
+* **Contraseña**: Este campo es obligatorio y debe rellenarse con la cadena de contraseña del usuario. Es importante tener en cuenta que esta secuencia debe ser mayor que cuatro (04) caracteres alfanuméricos. Debe seguir la recomendación de usar contraseñas "seguras y de alta complejidad", de acuerdo con la documentación que se encuentra en el sitio web de Azure. La recomendación es de al menos ocho (08) y un máximo de setenta y dos (72) caracteres y debe contener caracteres de tres de las siguientes categorías:
+
+  * Letras mayúsculas y minúsculas (A a Z)
+  
+  * Números base 10 (de 0 a 9)
+
+  * Caracteres no alfanuméricos (caracteres especiales): (~! @ # $% ^& * -+ = '|\\() {} \ []:; "' <>,.? /) 
+
+.. note:: *Es importante tener en cuenta que los símbolos de moneda como el euro o la libra esterlina no se cuentan como caracteres especiales para esta configuración de política*.
+
+  * **Confirmar Contraseña**: Este campo es obligatorio y debe rellenarse con la misma cadena introducida en el campo anterior. Si la secuencia informada en este campo es diferente de la anterior, se mostrará un pop-up con un mensaje de error en pantalla.
+
+.. figure:: /figuras/uCloud_menu_usuario_018.png
+   :alt: Menu de Usuário
+   :align: center
+
+----
+
+.. attention:: *Es importante tener en cuenta que la Plataforma uCloud **no realiza** ninguna validación previa respecto a la existencia del correo electrónico informado o su efectivo funcionamiento. En caso de que no haya correo electrónico de destino, o error al escribir, el usuario no podrá realizar el restablecimiento de su contraseña de acceso. En este caso, deberá ponerse en contacto con el administrador de su cuenta*.
+
+* **Correo Electrónico**: Este campo es obligatorio, en él se debe informar una dirección de correo electrónico válida. Esta dirección de correo electrónico será crítica durante el proceso de restablecimiento de contraseña del usuario, ya que la plataforma uCloud utiliza este correo electrónico para enviar un mensaje que permite al usuario crear una contraseña para él automáticamente.
+
+* **Teléfono**: Este campo es obligatorio, y debe llenarse con un número de teléfono de servicio celular móvil, use el siguiente formato:
+
+  * **Dos (02)** números que identifican el código de área del número de teléfono del servicio móvil (XX). No es necesario introducir el número *'cero (0)'* que precede al código de área en la norma brasileña.
+  * **ocho (08) o nueve (09)** números que identifican el número de teléfono del servicio móvil del usuario. No es necesario informar a ningún otro carácter para la separación de grupos de números de teléfono del servicio celular móvil.
+  * Ejemplo de relleno: `(11)999991234`
+
+* **Posición**: Este campo es obligatorio, pero es meramente informativo para identificar la posición del usuario que desea aprovisionar.
+
+* **Empresa**: Este campo es obligatorio, pero es meramente informativo para identificar la organización a la que está asociado este usuario.
+
+* **Tipo de cuota**: Este campo es obligatorio, es un campo del tipo *"drop down list"*, cuando el usuario haga clic en este se presentará ala lista de opciones del tipo de cuota disponibles para aprovisionar a un usuario, consulte las opciones a continuación:
+
+.. figure:: /figuras/uCloud_menu_usuario_019.png
+   :alt: Tipo de Cota de Usuário
+   :align: center
+
+----
+
+* **Cuota de Grupo**: Cuando se selecciona en esta opción, el usuario comparte los límites de recursos financieros o computacionales (cuotas) que se definen en la configuración del grupo. Los usuarios con una cuota de grupo deben conocer la información presentada en la pantalla de inicio (*dashboard* - consulte el elemento **Dashboard**), ya que la Plataforma uCloud niega la creación de recursos informáticos o el consumo de valores financieros que excedan los límites disponibles en el grupo al que está vinculado el usuario.
+
+* **Cuota de Usuario**: Cuando el usuario la selecciona, la Plataforma uCloud solicita que se informen los límites de recursos computacionales (cuotas) financieros o individuales, como se muestra en la pantalla a continuación:
+
+
+
+
+
+
+
+
+
+
 Administración / Grupos
 -----------------------
 
