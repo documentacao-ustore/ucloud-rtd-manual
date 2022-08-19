@@ -1,7 +1,7 @@
 uCloud - Manual de Usuário
 ++++++++++++++++++++++++++
 
-.. figure:: /figuras/fig_ucloud_adm/ucloud.png
+.. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
    :align: center
 
