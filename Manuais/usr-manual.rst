@@ -1,7 +1,7 @@
 uCloud - Manual de Usuário
 ++++++++++++++++++++++++++
 
-.. figure:: /figuras/ucloud_logo_peq.png
+.. figure:: /figuras/fig_ucloud_adm/ucloud.png
    :alt: Logo uCLoud
    :align: center
 
@@ -363,8 +363,8 @@ A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu níve
 Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
 A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico Perfil de Permissionamento, neste documento.
 
-Menu Administração / *`Account`*
---------------------------------
+Menu Conta *`Account`*
+----------------------
 
 Com a adição desta funcionalidade na plataforma uCloud, o comportamento no Menu Administração inova ao visualizar o submenu alocado para Usuários, Grupos, Contratos e apresenta a funcionalidade **Conta** *(Account)*.  
 
@@ -387,8 +387,8 @@ Neste exemplo a imagem exibe a funcionalidade **Conta** *(Account)*, o usuário 
 Primeiramente, antes de iniciar o detalhamento descritivo do comportamento e uso desta funcionalidade, será caracterizado o conceito de  **Conta** *(Account)* alocada no Menu Administração alistada após Usuários - Grupos - Contratos pode-se visualizar a funcionalidade **Conta** (*Account*).
 
 
-Apresentação - Conta `Account`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Introdução: Conta `Account`
+---------------------------
 
 A adoção da nuvem como solução para gerenciar os ambientes das organizações empresariais e a combinação de nuvens privadas e públicas são o grande desafio de gerenciamento desses ambientes híbridos de diversas nuvens *(hybrid multi-cloud)*.
 
@@ -408,9 +408,9 @@ O cenário acima descrito da Plataforma uCloud *(SaaS)* é ideal para o provedor
 
 Ela possibilita organizar e compartilhar os recursos entre as **“Contas”** *(Accounts)* criadas, além de aplicar as políticas de controle de serviço aos **usuários, grupos e contratos**, otimizando a melhoria da governança. 
 
-A nova modelagem insere a camada **“Conta”** *(Account)* no menu de funcionalidades `Administração`. Esta representa um novo processo para promover o alinhamento em torno desta funcionalidade e, assim, conduzir as organizações a obterem um maior controle do ambiente híbrido. Ao auxiliar o gerenciamento e o controle do ambiente da organização, de maneira centralizada, por sua regra de negócio possibilita criar a **“Conta”** *(Account)* e alocar nela os Contratos, os Grupos e os seus Usuários. Elementos pertencentes ao universo *“Switch Roles”* link_
+A nova modelagem insere a camada **“Conta”** *(Account)* no menu de funcionalidades **`Administração`**. Esta representa um novo processo para promover o alinhamento em torno desta funcionalidade e, assim, conduzir as organizações a obterem um maior controle do ambiente híbrido. Ao auxiliar o gerenciamento e o controle do ambiente da organização, de maneira centralizada, por sua regra de negócio possibilita criar a **“Conta”** *(Account)* e alocar nela os Contratos, os Grupos e os seus Usuários. Elementos pertencentes ao universo *Switch Roles* Switch.Roles_
 
-.. _link:  https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#switch-roles
+.. _Switch.Roles:  https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#switch-roles
 
 A funcionalidade **“Conta”** *(Account)* tem como objetivo entregar à organização a viabilidade de segmentar clientes por porte (máquinas virtuais), por volume de receita (custos financeiros), assegurar entendimento do desempenho por “Conta” e filtrar o seu histórico por linha de negócio.
 
@@ -459,11 +459,11 @@ Neste cenário exemplo, está descrita a cobrança pela oferta de serviço de ut
 Na “Conta” da empresa Galáxia existem 20 máquinas virtuais (ativas e gerenciadas pela Plataforma uCloud), logo ela se enquadra no modelo de cobrança nível Tier “A” - que apresenta o valor mensal até 1500. Se passar disso (e pode passar dependendo do consumo das VMs e de outros recursos), a conta se encaixa no próximo Tier.
 
 
-.. note:: *No caso da conta utilizar apenas 18 máquinas, ela segue classificada no modelo de cobrança do *Tier “A”* - que no exemplo representa a quantidade menor ou igual a 20 máquinas virtuais e o valor mensal até 1.500.* (aplicado em conformidade com o país de estabelecimento da empresa).
+.. note:: *No caso da conta utilizar apenas 18 máquinas, ela segue classificada no modelo de cobrança do Tier “A”* - que no exemplo representa a quantidade menor ou igual a 20 máquinas virtuais e o valor mensal até 1.500.* (aplicado em conformidade com o país de estabelecimento da empresa).
 
 
-TIPO DE CONTAS
-~~~~~~~~~~~~~~ 
+Tipo de Conta `Account`
+----------------------- 
 
 
 Existem duas classes de **“Conta”** *(Account)*, a conta do tipo **Integrador** *(Integrator)* e do tipo **Produtor** *(Producer)*, detalhadas a seguir:
@@ -476,7 +476,7 @@ Existem duas classes de **“Conta”** *(Account)*, a conta do tipo **Integrado
 
      * Funciona como uma espécie de cluster, aglomerando ou categorizando outras corporações.
      
-     * Por exemplo:
+     * *Por exemplo*:
      
      * No caso de uma conta **Integradora** *(Integrator)* ela agrega as contas criadas. 
      * Esta conta é responsável por criar outras contas e escalar outros usuários. Ela tem como particularidade a lista de todas as contas Produtoras *(Producer)*, os contratos são associados às contas e cada um deles recebe a mesma regra de negócio (*tiers* e pacotes). 
@@ -486,15 +486,19 @@ Existem duas classes de **“Conta”** *(Account)*, a conta do tipo **Integrado
   
      * Esta conta produtor *(producer)* pertence à organização que consome o recurso e representa uma unidade de menor agrupamento que pode operar todo o portal.
      
-     * Por exemplo:
+     * *Por exemplo*:
      
-     * Na continuação do exemplo acima, esta corporação multinacional cria as “contas produtor *(producer)*” para as organizações que pertencem a ela dentro de um determinado país listado na figura abaixo. No caso da Conta Produtor A *(producer)* País Brasil: a organização abrange o Contrato do Cliente “A1 Brasil”. No exemplo, o contrato utiliza o Container/Provedor de Nuvem AWS Brasil que contém dois (2) VDCs - o VDC DevOps Contrato A1 e o VDC NewApps Contrato A1. Cada um dos VDCs abrange os grupos e os usuários (vide figura abaixo).
+     * Na continuação do exemplo acima, esta corporação multinacional cria as “contas produtor *(producer)*” para as organizações que pertencem a ela dentro de um determinado país listado na figura abaixo. 
+     * No caso da Conta Produtor A *(producer)* País Brasil: a organização abrange o Contrato do Cliente “A1 Brasil”. 
+     * No exemplo, o contrato utiliza o Container/Provedor de Nuvem AWS Brasil que contém dois (2) VDCs - o VDC DevOps Contrato A1 e o VDC NewApps Contrato A1. Cada um dos VDCs abrange os grupos e os usuários (vide figura abaixo).
 
 
 A seguinte ilustração é uma representação do conceito da funcionalidade **Conta** *(Account)* implementada na Plataforma uCloud. Para descrever esta figura, percebe-se no topo a Conta **Integrador** *(Integrator)* País Brasil. 
 
 
-A conta integradora é [País Brasil] a qual engloba as três (3) contas **Produtor** *(Producer)* que são as contas Producer Brasil: A, B e C. Nestas contas produtoras *(producer)* estão alocados os contratos dos seus clientes. Cada contrato do cliente possui o seu Virtual Datacenter, seus Grupos e Usuários. 
+A conta integradora é [País Brasil] a qual engloba as três (3) contas **Produtor** *(Producer)* que são as contas Producer Brasil: A, B e C. 
+
+Nestas contas produtoras *(producer)* estão alocados os contratos dos seus clientes. Cada contrato do cliente possui o seu Virtual Datacenter, seus Grupos e Usuários. 
 
 .. figure:: /figuras/ucloud_arquitetura_conceitual003.png
    :align: center
@@ -516,7 +520,7 @@ A estratégia da utilização da funcionalidade **Conta** *(Account)* entrega um
 Com a criação desta funcionalidade, o administrador pode gerenciar as permissões de visualização e permissionamento de cada `usuário` dentro de cada `grupo`, contido em determinado `contrato`. Deste modo, o acesso é negado **por padrão** sendo concedido apenas se as permissões especificarem ‘permitir’.
 
 
-.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  No caso do seu usuário não ter este nível de permissão, favor entrar em contato com a Equipe de Suporte da Ustore, por e-mail (chamados@usto.re). Assim, a equipe autorizada poderá executar as customizações necessárias para o seu ambiente*.
+.. important:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  No caso do seu usuário não ter este nível de permissão, favor entrar em contato com a Equipe de Suporte da Ustore, por e-mail (chamados@usto.re). Assim, a equipe autorizada poderá executar as customizações necessárias para o seu ambiente*.
 
 
 Adicionalmente, a funcionalidade **Conta** *(Account)* possibilita utilizar as políticas de controle que estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença.
@@ -525,7 +529,7 @@ Adicionalmente, a funcionalidade **Conta** *(Account)* possibilita utilizar as p
 Ao estabelecer esses padrões de permissão, acesso e visualização aos recursos, organiza e qualifica o privilégio que cada usuário usufrui dentro do ambiente a que pertence, criando assim grupos de permissões diferentes e necessários para criar controles minuciosos em cada conta.
 
 Como acessar 
-~~~~~~~~~~~~
+------------
 
 
 No acesso à plataforma uCloud sua tela inicial exibe do lado esquerdo todas as funcionalidades da plataforma uCloud - Dashboard - Menu Administração - os submenus Usuários, Grupos, Contratos e Conta.
@@ -546,8 +550,8 @@ Ao clicar em **Conta** *(Account)*, a plataforma uCloud exibe a nova tela, nesta
 A Lista de Contas encontra-se vazia, neste exemplo o pressuposto é iniciar o fluxo de criar conta, contrato, grupos e usuários. Na sequência este documento descreve o processo de criar a conta primária e suas sub contas (secundárias).
 
 
-Contas `Account Integrator e Producer` 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Contas Integrador e Produtor 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Como citado esta funcionalidade permite criar contas, divididas em duas classes: **Integrador** *(Integrator)* e **Produtor** *(Producer)*.
 
@@ -562,7 +566,7 @@ Como citado esta funcionalidade permite criar contas, divididas em duas classes:
 A estratégia de utilização desta funcionalidade proporciona a percepção de valor ao nível da hierarquia, de acordo com o que se quer organizar, ao facilitar o trânsito nos níveis operacionais, gerenciais e executivos no contexto empresarial. 
 
 
-.. note:: *O container (o provedor de nuvem) é associado ao contrato, este container suporta um ou mais Virtual Datacenters. Da mesma forma, o grupo porta um ou mais VDCs e, os usuários estão associados ao contrato e ao container. Para efeito de visualização o usuário deve pertencer ao grupo*.   
+.. attention:: *O container é associado ao contrato, este container suporta um ou mais Virtual Datacenters. Da mesma forma, o grupo porta um ou mais VDCs e, os usuários estão associados ao contrato e ao container. Para efeito de visualização o usuário deve pertencer ao grupo*.   
 
 
 As políticas de controle desta funcionalidade estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença. **Por padrão** o acesso às permissões de visualização e permissionamento são negadas, torna-se necessário especificar no momento da criação destas o acesso à permissão e visualização pelo usuário. 
@@ -571,11 +575,14 @@ As políticas de controle desta funcionalidade estabelecem as barreiras de prote
 Em resumo, o administrador pode gerenciar as permissões de visualização e permissionamento de cada usuário dentro de cada grupo, ambos contidos no contrato. 
 
 
-.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  Favor entrar em contato com a Equipe de Suporte da Ustore por e-mail (chamados@usto.re), no caso do seu usuário não ter este nível de permissão, deste modo, a equipe autorizada poderá executar as customizações necessárias para o seu ambiente*.
+.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles`: “Administrador da Plataforma”.  Favor entrar em contato por e-mail (chamados@usto.re) com a Equipe de Suporte da Ustore. Para o caso do seu usuário ter outro nível de permissão, ao entrar em contato, a equipe autorizada pode executar as customizações necessárias para o seu ambiente*.
 
 
-Contas Principal e sub-conta
-----------------------------
+Contas 
+------
+
+Principal e Sub-Conta
+~~~~~~~~~~~~~~~~~~~~~
 
 A imagem abaixo mostra a tela de entrada da funcionalidade **Conta** *(Account)*, nesta o Administrador da Plataforma pode criar a primeira conta:  `+Criar Conta`. 
 
@@ -584,32 +591,38 @@ A imagem abaixo mostra a tela de entrada da funcionalidade **Conta** *(Account)*
 ----
 
 
-   * Conta Integradora `Integrator` : A primeira conta a ser criada deve ser a principal que é a Conta Integradora. É necessário lembrar que esta conta deve ser criada pelo Administrador da Plataforma uCloud - favor verificar a nota acima, em destaque. Esta conta primária é a responsável por criar os perfis das contas integradoras e produtoras, alimentar os tiers e os pacotes, além de estabelecer na conta produtora a regra de uso. 
-   
-   * Conta Produtora `Producer` : A conta secundária consome o recurso e representa uma unidade de menor agrupamento que pode operar o portal. 
 
-.. figure:: /figuras/fig_ucloud_admin/42 lista_de_contas_conta.png
+   * Conta Integradora (`Integrator`) : A primeira conta a ser criada deve ser a principal que é a Conta Integradora. É necessário lembrar que esta conta deve ser criada pelo Administrador da Plataforma uCloud - favor verificar a nota acima, em destaque. Esta conta primária é a responsável por criar os perfis das contas integradoras e produtoras, alimentar os tiers e os pacotes, além de estabelecer na conta produtora a regra de uso. 
+   
+   * Conta Produtora (`Producer`) : A conta secundária consome o recurso e representa uma unidade de menor agrupamento que pode operar o portal. 
+
+.. figure:: /figuras/fig_ucloud_admin/42_lista_de_contas_conta.png
    :align: center
 ----
 
    * **Visualização da Lista de Contas**:  
 
-      * A tela principal da funcionalidade Conta permite verificar todas as contas criadas “Accounts” na lista de contas, ela apresenta as colunas: [Nome] [Número do Cliente] [CPF/CNPJ] [Tipo da conta] [Data e hora da criação]. 
+      * A tela principal da funcionalidade Conta permite verificar todas as contas criadas “Accounts” na lista de contas, ela apresenta as colunas:
+  
+      * [Nome] [Número do Cliente] [CPF/CNPJ] [Tipo da conta] [Data e hora da criação]. 
+  
       * Cada uma destas colunas recupera as informações existentes no banco de dados do portal previamente inseridas pelo Administrador da Conta. 
-      * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão “Refresh” e Criar Conta. 
-      * A lista de Contas pode apresentar as informações recuperadas em blocos de 10, 20, 50 ou 100 linhas.
+
+      * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão `Refresh` e `+Criar Conta`.
+ 
+      * A lista de Contas pode apresentar as informações recuperadas em `cards` de 10, 20, 50 ou 100 linhas.
   
 
-  Criando Conta *(Account)*
-  -------------------------
+Criando Conta 
+-------------
 
- Para criar uma conta, do tipo Integradora ou Produtora, principal ou secundária, deve-se estar no menu Administração, selecionar Conta.
+ Para criar uma conta, do tipo Integradora ou Produtora, principal ou secundária, deve-se estar no menu Administração, selecionar `Conta`.
 
 .. figure:: /figuras/fig_ucloud_admin/1_conta.png
    :align: center
 ----
 
-Quando a tela principal abrir, clique no botão `+Criar conta`. A partir deste momento a nova tela **Criar Conta**, figura abaixo, apresenta os campos em branco que devem ser preenchidos adequadamente, neste exemplo a conta é integradora e seu nome é [Teste Integrator].
+Ao abrir a tela principal, clique no botão `+Criar conta`. A partir deste momento uma nova tela é apresentada **Criar Conta**. Ela exibe os campos em branco que devem ser preenchidos adequadamente, neste exemplo a conta será integradora e seu nome [Teste Integrator].
 
 .. figure:: /figuras/fig_ucloud_admin/2_conta_integrator.png
    :align: center
@@ -618,23 +631,26 @@ Quando a tela principal abrir, clique no botão `+Criar conta`. A partir deste m
 * **Botão Criar Conta**: Ao clicar neste botão, será aberta uma nova tela com cinco (5) campos a serem preenchidos com as informações a seguir detalhadas:
 
   * **Nome da Conta**: Este campo Nome da Conta aceita letras e números e deve conter pelo menos 4 caracteres, máximo 64 caracteres;
+
   * **Número do Cliente**ou número identificador até 16 caracteres;
+  
   * **CPF/CNPJ** Este campo aceita numeros; 
-  * **URL** inserir o endereço eletrônico da empresa; 
+  
+  * **URL** inserir o endereço eletrônico da empresa;
+   
   * **Tipo da conta** Ao clicar na botão de seleção, existem duas opções a escolher: Produtor(a) ou Integrador(a). 
 
       * A conta principal deve ser Integrador (a), após a criação desta, será possível criar a conta secundária nomeada de Produtor (a). 
-      * Conta principal : Integrador (a) `Integrator`
-      * Conta secundária: Produtor (a) `Producer`
+      * Integrador (a) `Integrator` e  Produtor (a) `Producer`.
 
 
-.. note:: neste exemplo a conta criada é a primeira, Conta Integradora Avançada `Integrator AV`
+.. note:: Neste exemplo a Conta Integradora Avançada `Integrator AV` é a primeira conta a ser criada.
 
 
 Após selecionar o tipo de conta, deve-se selecionar o pacote de permissões dentro dos pacotes disponíveis. 
 
 
-   * **Pacote** Neste ponto é necessário selecionar os pacotes de permissão correspondente a cada tipo de conta criada, de acordo com a necessidade do cliente. No exemplo, a seleção do pacote para a conta tipo Integrador (a) é Integrator AV.
+   * **Pacote** : Neste ponto é necessário selecionar os pacotes de permissão correspondente a cada tipo de conta criada, de acordo com a necessidade do cliente. No exemplo utilizado, a seleção do pacote para a conta tipo Integrador (a) é Integrator AV.
   
 .. figure:: /figuras/fig_ucloud_admin/3_criar_conta_integrator_pct.png
    :align: center
@@ -648,72 +664,77 @@ Após selecionar o tipo de conta, deve-se selecionar o pacote de permissões den
    :align: center
 ----
 
+Após finalizada a escolha dos pacotes o usuário deve criar a conta, no caso de perceber que faltou fazer alguma etapa, pode clicar no botão cancelar e iniciar a operação.  
 
       * **Botão Cancelar**: pode ser utilizado no caso da desistência da operação.
+  
       * **Botão Criar**: deve ser utilizado para finalizar a operação Criar conta.
-      * **Bloco de linhas**: apresenta a quantidade de informação por blocos.
+
+      * **Bloco de linhas**: apresenta a quantidade de informação por `blocos`.
  
-.. note:: *Ao criar a conta integradora automaticamente é criado um contrato e um grupo com o mesmo nome da conta integradora. A partir deste momento, para realizar qualquer tipo de gerenciamento nesta conta é necessário mudar para o contrato criado automaticamente Assim, é permitido proceder alteração, criação e outros processos.* A conta integradora pode criar subcontas, elas podem ser da classe integrador(a) ou produtor(a).
+.. important:: Ao criar a conta integradora `automaticamente` é criado um contrato e um grupo com o mesmo nome da conta integradora. A partir deste momento, para realizar o gerenciamento desta conta é necessário alterar o contrato. 
+   
+.. note:: Na conta integradora é permitido criar subcontas, elas podem ser da classe integrador(a) ou produtor(a). No contrato associado a esta conta integradora é permitido proceder alteração, criação e outros processos. 
 
 Listando a conta criada
 -----------------------
 
 
-Para este fluxo o usuário pode listar a conta criada anteriormente. Na finalização da etapa de criar a conta Integradora, é importante checar se a conta foi criada. Logo, deve-se clicar no botão `Refresh`e localizar a conta recém criada nomeada de [Teste Integrator] na Lista de Contas, conforme a imagem seguinte:
+Neste fluxo o usuário lista a conta criada. Na finalização da etapa Criar Conta Integradora, é necessário checar se a conta está criada. Para isto, deve-se clicar no botão `Refresh`e localizar o nome utilizado para a conta recém criada. No exemplo seguinte a conta nomeada na Lista de Contas é [Teste Integrator], conforme a imagem abaixo:
 
 .. figure:: /figuras/fig_ucloud_admin/5_conta_integrator_listada.png
    :align: center
 ----
 
 
-  * **Botão Refresh**: pode ser utilizado para atualizar os dados da tela.
+  * **Botão Refresh**: Deve ser utilizado para atualizar os dados da tela.
+
   * **Visualização da conta criada**: Na finalização deste fluxo é importante comprovar que a conta está criada,  para isto, deve-se clicar no botão `Refresh`e localizar a conta recém criada na Lista de Contas.
-  * **Barra de Pesquisa**: facilita o uso do buscador e a recuperação das informações em cada uma das colunas na Lista de Contas. Para isto, basta inserir o termo que pretende localizar e aguardar o resultado da pesquisa ser apresentado.
+
+  * **Barra de Pesquisa**: Facilita o uso do buscador e a recuperação das informações em cada uma das colunas na Lista de Contas. Para isto, basta inserir o termo que pretende localizar e aguardar o resultado da pesquisa ser apresentado.
 
 
-Detalhando a conta
+Detalhando a Conta
 ------------------
 
-Para verificar de forma minuciosa a tela de detalhes da conta, basta clicar na Lista de Contas, posicionar o cursor em cima do nome da conta que se pretende analisar e clicar. Uma nova tela será apresentada, como a imagem a seguir, com todos detalhes da conta selecionada:
+Para verificar a tela de detalhes da conta de forma minuciosa, basta clicar na Lista de Contas, depois posicionar o cursor em cima do nome da conta que se pretende analisar e clicar. Uma nova tela será apresentada, imagem abaixo, com todos detalhes da conta selecionada:
 
 .. figure:: /figuras/fig_ucloud_admin/6_detalhe_conta_integrator.png
    :align: center
 ----
 
-A conta é composta de diversos recursos apresentados nesta imagem em blocos. Que são as informações gerais da conta, o contrato associado e o usuário que está logado, a lista dos administradores da conta, a relação das sub-contas, os perfis de visualização e os perfis de permissionamento, a lista dos pacotes e tiers. Estas informações reunidas em uma única tela possibilitam facilitar a visualização e gestão da conta em sua totalidade.
+A conta é composta de diversos recursos apresentados na imagem acima, segmentada em `cards`. Que são as informações gerais da conta, o contrato associado e o usuário que está logado, a lista dos administradores da conta, a relação das sub-contas, os perfis de visualização e os perfis de permissionamento, a lista dos pacotes e tiers. Estas informações reunidas em uma única tela possibilitam facilitar a visualização e gestão da conta em sua totalidade.
 
-Estes blocos de informações permitem atividades de edição, adição, atualização, associação, criação de sub-conta, criação de perfis de visualização e permissionamento, por último, a edição e a atualização da lista de pacotes. 
+Estes `cards` permitem realizar atividades de edição, adição, atualização, associação, criação de sub-conta, criação de perfis de visualização e permissionamento, por último, a edição e a atualização da lista de pacotes. 
 
 .. figure:: /figuras/fig_ucloud_admin/7_detalhe_conta_integrator_geral.png
    :align: center
 ----
 
 
-   * **Detalhamento do bloco Geral**: Nome da conta, nome da empresa, número do cliente, CNPJ ou CPF, Telefone, E-mail, URL, Idioma, Data de criação e Endereço.
+   * **Detalhamento do *card* Geral**: Nome da conta, nome da empresa, número do cliente, CNPJ ou CPF, Telefone, E-mail, URL, Idioma, Data de criação e Endereço.
 
 
 Criando Sub-Conta
 -----------------
 
-.. important:: Para criar uma sub conta, é necessário estar no contrato da conta integradora criada no fluxo anterior. 
+.. important:: Para criar uma sub conta, é necessário permanecer no contrato da conta integradora criada no fluxo anterior. 
 
 
 Com  a adição da funcionalidade **Conta** *(Account)* o comportamento da plataforma é modificado e entrega a possibilidade de criar conta e sub-conta no portal.
 
-Para esse fluxo o usuário administrador da plataforma deve estar no submenu Conta, listar as contas existentes, identificar a conta Integrador(a).
+Para esse fluxo o usuário administrador da plataforma deve estar no submenu Conta, listar as contas existentes e identificar a conta Integrador(a).Em seguida posicionar o cursor em cima do nome da conta integradora e clicar para acessar o painel de gestão e detalhamento da conta. 
 
-Após identificar, posicionar o cursor em cima do nome da conta integradora e clicar para acessar o painel de gestão e detalhamento da conta. 
-
-O primeiro bloco de informação é o Geral, o segundo Administradores, o terceiro bloco localizam-se as Sub-Contas.  Este bloco apresenta os botões `Refresh` - `Associar`e `+Criar Sub-Conta`.
+O primeiro `card` de informação Geral, o segundo `card` Administradores, ´no terceiro `card` localizam-se as Sub-Contas. Nesta se apresentam os botões `Refresh` - `Associar`e `+Criar Sub-Conta`.
 
 .. figure:: /figuras/fig_ucloud_admin/6_detalhe_conta_integrator.png
    :align: center
 ----
 
  
-Clicar no botão `+Criar Sub-Conta`, preencher os campos necessários, obedecendo o mesmo parâmetro utilizado ao criar a conta principal.
+Clicar no botão `+Criar Sub-Conta` em seguida preencher os campos necessários, obedecendo o mesmo parâmetro utilizado para criar a conta principal.
 
-| Nome sub conta | Número do Cliente | CPF/CNPJ | Site do cliente | Tipo da Conta | 
+ * | Nome da sub-conta | Número do Cliente | CPF/CNPJ | Site do cliente | Tipo da Conta | 
 
   * **Botão +Criar Sub-Conta**: Ao clicar neste botão, será aberta uma nova tela com cinco (5) campos a serem preenchidos com as informações a seguir detalhadas:
 
@@ -722,54 +743,68 @@ Clicar no botão `+Criar Sub-Conta`, preencher os campos necessários, obedecend
 ----
 
 
-      * **Conta Principal**: Campo previamente preenchido pela plataforma uCloud. 
+      * **Conta Principal**: Campo previamente preenchido pela plataforma uCloud;
+   
       * **Nome da Sub-Conta**: Este campo aceita letras e números e deve conter pelo menos 4 caracteres, máximo 64 caracteres;
+  
       * **Número do Cliente**: Preencher com um número identificador até 16 caracteres;
-      * **CPF/CNPJ**: Este campo aceita números; 
+  
+      * **CPF/CNPJ**: Este campo aceita números;
+ 
       * **URL**: inserir o endereço eletrônico da empresa; 
+
       * **Tipo da conta**: Ao clicar no botão de seleção, existem duas opções a escolher: Produtor(a) ou Integrador(a).
    
-        * **Selecionar a Conta**: A conta secundária escolhida deve ser Produtor (a).
+        * **Selecionar a Conta**: A conta secundária escolhida deve ser do tipo Produtor (a).
 
 .. figure:: /figuras/fig_ucloud_admin/9_criar_subconta_producer1_pacote.png
    :align: center
 ----
 
         * **Selecionar Pacote**: Neste exemplo existem os pacotes Producer AV (avançado) e Producer BC (básico).
-        * **Selecionar Modo de cobrança**: Escolher o modo de cobrança por máquina virtual ou por máquina virtual + custo da nuvem. Esta cobrança considera dois parâmetros, a quantidade de máquinas virtuais e o valor de custo dos recursos. é uma regra que tem como base o uso de *Tier*.
+
+        * **Selecionar Modo de Cobrança**: Escolher o modo de cobrança por máquina virtual ou por máquina virtual + custo da nuvem. Esta cobrança considera dois parâmetros, a quantidade de máquinas virtuais e o valor de custo dos recursos. é uma regra que tem como base o uso de *Tier*.
 
 .. figure:: /figuras/fig_ucloud_admin/10_criar_subconta_producer1_cobranca.png
    :align: center
 ----
 
 
-**Para o exemplo acima na criação de sub-conta**:
+**Detalhamento do exemplo para a criação de sub-conta**:
 
 
-A conta principal **Teste Integrator** deve criar uma sub-conta avançada **Teste Producer1**, neste exemplo ela está identificada pelos dois números fictícios do cliente 02030405 e CNPJ nº 05.231.534/0001-42. O cliente pode ser localizado pela URL <www.email.com>. O tipo de conta é Produtor(a), o pacote selecionado é o Producer Avançado que tem o perfil de acesso a todas as permissões e visualizações da conta, por último, o modo de cobrança escolhido é VM + Custo na nuvem. Para finalizar clicar no botão `Criar`.
+      * A conta principal **Teste Integrator** deve criar uma sub-conta avançada **Teste Producer1**, neste exemplo ela está identificada pelos dois números fictícios do cliente 02030405 e CNPJ nº 05.231.534/0001-42. 
+      * O cliente pode ser localizado pela URL <www.email.com>. 
+      * O tipo de conta é Produtor(a), o pacote selecionado é o Producer Avançado que tem o perfil de acesso a todas as permissões e visualizações da conta, por último, o modo de cobrança escolhido é VM + Custo na nuvem. 
+      * Para finalizar clicar no botão `Criar`.
 
 .. figure:: /figuras/fig_ucloud_admin/11_subconta_producer1_listada.png
    :align: center
 ----
 
 
-Neste fluxo de criação de sub-conta, ao consultar a tela de detalhamento da conta será possível visualizar a Sub-Conta **Test Producer1** após clicar em `Refresh` e atualizar a tela.
+Neste fluxo de criação de sub-conta, ao consultar a tela de detalhamento da conta será possível visualizar a Sub-Conta **Test Producer1**. Após clicar em `Refresh` e atualizar a tela.
 
 .. figure:: /figuras/fig_ucloud_admin/12_detalhe_subconta_producer1.png
    :align: center
 ----
 
 
-Na sequência criou-se outra sub conta produtora, nomeada  Test producer 2. As etapas de criação foram completadas, conforme a seguinte imagem: 
+Na sequência criou-se outra sub conta produtora, nomeada **Test producer2**. As etapas de criação foram concluídas, conforme a seguinte imagem: 
 
 .. figure:: /figuras/fig_ucloud_admin/13_criar_subconta_producer2_pacote.png
    :align: center
 ----
 
-   * **Criar outra conta secundária**: Produtor(a) - nomear Sub Conta Test producer 2.
-      * Selecionar o tipo de conta, neste exemplo é obrigatório ser do tipo Produtor(a).
-      * Selecionar Pacote: Atenção, a Sub Conta Produtora Test producer 2  deve receber o pacote de permissões básicas Producer BC
-      * Selecionar Modo de Cobrança: selecionar VM + Custo na nuvem.
+   * **Criar outra conta secundária**:
+ 
+      * Produtor(a) - Nomear Sub Conta **Test Producer2**.
+  
+      * Selecionar o tipo de conta: Neste exemplo é obrigatório ser do tipo Produtor(a).
+  
+      * Escolher o Pacote: Atenção, a Sub Conta Produtora **Test Producer2**  deve receber o pacote de permissões básicas **ProducerBC**.
+
+      * Indicar o Modo de Cobrança: selecionar VM + Custo na nuvem.
 
 .. figure:: /figuras/fig_ucloud_admin/14_criar_subconta_producer2_cobranca.png
    :align: center
@@ -779,7 +814,7 @@ Na sequência criou-se outra sub conta produtora, nomeada  Test producer 2. As e
 Como visualizar a Lista de Contas:
 ----------------------------------
 
-A Lista de Contas entrega a possibilidade de visualizar todas as contas criadas conforme a imagem a seguir: 
+A Lista de Contas entrega a possibilidade de visualizar a lista completa de todas as contas criadas, conforme a seguinte imagem: 
 
 .. figure:: /figuras/fig_ucloud_admin/42_lista_de_contas_conta.png
    :align: center
@@ -788,18 +823,21 @@ A Lista de Contas entrega a possibilidade de visualizar todas as contas criadas 
 
    * **A visualização da Lista de Contas**:
   
-   * Esta lista localiza-se na tela principal da funcionalidade **Contas** *(Account)*. Ela permite ao usuário verificar todas as contas criadas “Accounts” na lista ordenada de contas, exibe as colunas: 
+   * Esta lista localiza-se na tela principal da funcionalidade **Contas** *(Account)*. Permite ao usuário verificar todas as contas criadas *“Accounts”* na lista ordenada de contas, exibe as colunas:
+ 
    * [Nome] [Número do Cliente] [CPF/CNPJ] [Tipo da conta] [Data e hora da criação]
-   * Cada uma destas colunas recupera as informações existentes no banco de dados do portal previamente inseridas pelo Administrador da Conta. 
-   * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão “Refresh” e Criar Conta. 
+
+   * Cada uma destas colunas recupera as informações existentes no banco de dados do portal previamente inseridas pelo Administrador da Conta.
+ 
+   * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão “Refresh” e Criar Conta.
+ 
    * A lista de Contas pode apresentar as informações recuperadas em blocos de 10, 20, 50 ou 100 linhas. 
 
 
-Na Lista de Contas, o usuário pode interagir e clicar nos botões  `Refresh` ou `+Criar Conta`, além de visualizar as informações da lista de contas composta por cinco (5) colunas.
+Na Lista de Contas além de visualizar as informações contidas nas colunas, o usuário pode interagir e clicar nos botões  `Refresh` ou `+Criar Conta`.
 
-[Nome | Número do Cliente | CPF/CNPJ | Tipo da Conta | Data e hora da criação]
 
-Logo abaixo de cada uma destas colunas, é possível visualizar que existe a **Barra de Pesquisa**, a qual facilita o uso do buscador e a recuperação das informações em cada uma das colunas, de forma rápida e assertiva. Para isto ocorrer, basta inserir o termo que se pretende localizar e aguardar o resultado da pesquisa ser apresentado na tela.
+Logo abaixo de cada uma destas colunas, é possível visualizar a **Barra de Pesquisa**, a qual facilita o uso do buscador e a recuperação das informações em cada coluna. Para isto, basta inserir o termo que se pretende localizar e aguardar o resultado da pesquisa ser apresentado na tela.
 
 .. figure:: /figuras/fig_ucloud_admin/41_lista_de_contas.png
    :align: center
