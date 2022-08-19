@@ -244,7 +244,7 @@ In the scenario of any type of cloud, the data contained in TAGs is used togethe
 
 These TAGs (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. For example: the user or the organization, can define a set of TAGs for the Amazon EC2 instances, of their account, to help track the owner and/or clustering level (stack values) of each computacional resource of the public cloud consumed.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual001.png
+.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-en-us.png
    :align: center
 
 ----
@@ -270,9 +270,9 @@ We mentioned above that the process of linking a TAGs to a resource is manual, t
 The new uCloud Platform Virtual TAGs functionality creates an automation for the TAGs linking process to existing resources in the public cloud service provider’s environment.
 The uCloud Platform Virtual TAG process may automatically link a specific TAG to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. It’s important to highlight the conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
 
-See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources. 
+See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources.
 
-.. figure:: /figuras/fig_release_note_maio_ing/ucloud_tabela_tag_virtal_maio_ing0001.png
+.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual002.png
    :align: center
 
 ----
@@ -460,4 +460,3 @@ The continuous development of both the DevOps team at Ustore, as well as the exp
 .. note:: In the present moment of this Release note (May, 2022) the API and the SDK for the OCI still does not allow the complete support to the collect implementation and billing infrastructure calcule present in the OCI environment. We await the SDK and API Oracle Cloud Infrastructure evolution to implement the billing functionality for OCI.
 
 This set of new functionalities implemented and described, contained in this document, generated the development of this new version (update tag.5.2-b35). Thus, Ustore reaffirms its constant commitment to evolving the platform and aligning it with the needs of the market and its customers.
-<<<<<<< HEAD
