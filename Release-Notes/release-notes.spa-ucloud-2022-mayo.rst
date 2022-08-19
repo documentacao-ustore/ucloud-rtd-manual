@@ -240,7 +240,7 @@ En el escenario de cualquier tipo de nube, los datos contenidos en los *TAGs* se
 
 Estos *TAGs* (etiquetas), una vez vinculados a un recurso, se utilizan para categorizar dichos recursos de manera que puedan ser clasificados por: propósito, propiedad, criterio o ubicación. Por ejemplo, el usuario, o la organización, pueden definir un conjunto de *TAGs* para las instancias de Amazon EC2, de su cuenta, para ayudar a rastrear el propietario y/o el nivel de agrupación (apilamiento de valores - *stack*) de cada recurso computacional de la nube pública consumido.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual001.png
+.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-sp-la.png
    :align: center
 
 ----
