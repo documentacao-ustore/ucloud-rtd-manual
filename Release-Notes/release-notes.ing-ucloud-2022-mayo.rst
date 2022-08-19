@@ -270,9 +270,9 @@ We mentioned above that the process of linking a TAGs to a resource is manual, t
 The new uCloud Platform Virtual TAGs functionality creates an automation for the TAGs linking process to existing resources in the public cloud service provider’s environment.
 The uCloud Platform Virtual TAG process may automatically link a specific TAG to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. It’s important to highlight the conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
 
-See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources. 
+See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources.
 
-.. figure:: /figuras/fig_release_note_maio_ing/ucloud_tabela_tag_virtal_maio_ing0001.png
+.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tag_virtual001-en-us.png
    :align: center
 
 ----
