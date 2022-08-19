@@ -244,7 +244,7 @@ In the scenario of any type of cloud, the data contained in TAGs is used togethe
 
 These TAGs (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. For example: the user or the organization, can define a set of TAGs for the Amazon EC2 instances, of their account, to help track the owner and/or clustering level (stack values) of each computacional resource of the public cloud consumed.
 
-.. figure:: /figuras/ucloud_menu_configuracao_tag_virtual001.png
+.. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-en-us.png
    :align: center
 
 ----
