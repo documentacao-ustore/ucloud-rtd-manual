@@ -213,9 +213,15 @@ Si las credenciales de acceso no han sido aprovisionadas, no existen o en el úl
 
 Después de ingresar sus credenciales de acceso (nombre de usuario y contraseña), realice el procedimiento de inicio de sesión, al usuario se le presentará la pantalla a continuación:
 
+* 1a parte de la pantalla
+
 .. figure:: /figuras/ucloud_acesso_plataforma_001.png
    :alt: Dashboard uCloud
    :align: center
+
+------
+
+* 2a parte de la pantalla
 
 .. figure:: /figuras/ucloud_acesso_plataforma_002.png
    :alt: Dashboard uCloud
