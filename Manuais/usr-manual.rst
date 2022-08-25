@@ -195,11 +195,17 @@ Caso as credenciais de acesso não tenham sido provisionadas, não existam ou em
 
 Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o procedimento de login, ao usuário será apresentada a tela inicial da Plataforma uCloud.
 
+Primeira parte da tela
+~~~~~~~~~~~~~~~~~~~~~~
+
 .. figure:: /figuras/ucloud_acesso_plataforma_001.png
    :alt: Dashboard uCloud
    :align: center
 
 ----
+
+Segunda parte da tela
+~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /figuras/ucloud_acesso_plataforma_002.png
    :alt: Dashboard uCloud
