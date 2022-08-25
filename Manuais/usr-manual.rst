@@ -1,4 +1,4 @@
-uCloud - Manual de Usuário
+uCloud - Manual do Usuário
 ++++++++++++++++++++++++++
 
 .. figure:: /figuras/ucloud.png
@@ -87,7 +87,7 @@ Importante ressaltar que podem existir restrições aplicadas ao usuário provis
 Operação da Infraestrutura
 --------------------------
 
-O termo **operar** significa ao leitor que é a capacidade do usuário de comandar certas ações diretamente nestas máquinas virtuais, como as operações de: parar *(shutdown)*, reiniciar *(restart)*, suspender *(suspend)*, remover *(delete)*, citando algumas operações básicas da plataforma uCloud.
+O termo **operar** neste contexto, significa ao leitor que é a capacidade do usuário de comandar certas ações diretamente nestas máquinas virtuais, como as operações de: parar *(shutdown)*, reiniciar *(restart)*, suspender *(suspend)*, remover *(delete)*, citando algumas operações básicas da plataforma uCloud.
 
 Através da interface da Plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, *snapshot*, entre outros).
 
@@ -142,7 +142,7 @@ Arquitetura da Plataforma uCloud
 
 Abaixo apresentamos uma arquitetura de referência para a Plataforma uCloud com os seus componentes, os provedores e as integrações nativas.
 
-.. figure:: /figuras/uCloud_future_vision-small.jpg
+.. figure:: /figuras/ucloud_future_vision_small_2.png
    :alt: Arquitetura de Referência da Plataforma uCloud
    :align: center
 
@@ -161,9 +161,9 @@ Acesso a Plataforma uCloud
 
 O acesso à plataforma é feito através de um endereço de Internet, o usuário deve utilizar um navegador de Internet (Internet browser) e inserir o endereço da URL/link, assim o usuário visualiza a tela inicial de apresentação. Os navegadores de Internet compatíveis com a Plataforma uCloud são: Microsoft Edge versão 86.x, Google Chrome versão 85.x, Firefox verão 80.x ou Opera versão 71.x.
 
-A Plataforma uCloud está adaptada para que sua interface seja apresentada nos idiomas **Português (nativo), Espanhol e Inglês**. Esta configuração é executada pelo próprio usuário. Em seu perfil é possível selecionar o idioma de apresentação da interface, sem a necessidade de alterar a configuração de idioma de sua sessão do navegador de internt (browser).
+A Plataforma uCloud está adaptada para que sua interface seja apresentada nos idiomas **Português (nativo), Espanhol e Inglês**. Esta configuração é executada pelo próprio usuário. Em seu perfil é possível selecionar o idioma de apresentação da interface, sem a necessidade de alterar a configuração de idioma de sua sessão do navegador de internet (browser).
 
-.. figure:: /figuras/ucloud_idioma_plataforma.png
+.. figure:: /figuras/ucloud_idioma_plataforma_001.png
    :alt: Idioma da Plataforma uCloud
    :scale: 50 %
    :align: center
@@ -181,7 +181,7 @@ Após iniciar uma sessão de Internet browser, o endereço/caminho para o acesso
 
 Após entrar com o endereço corretamente, a tela do usuário será similar a figura abaixo:
 
-.. figure:: /figuras/uCloud_acesso_platafform_001.png
+.. figure:: /figuras/ucloud_acesso_plataforma_000.png
    :alt: Tela de Login da Plataforma uCloud
    :align: center
 
@@ -189,13 +189,17 @@ Após entrar com o endereço corretamente, a tela do usuário será similar a fi
 
 As credenciais para o login e senha devem ter sido provisionadas previamente na Plataforma uCloud, por um usuário com perfil de Administrador (ou outro usuário com esta permissão).
 
-O usuário deverá informar nos campos os seus dados de login e senha e clicar com o cursor do mouse sobre o botão Entrar.
+O usuário deverá informar nos campos os seus dados de login e senha e clicar com o cursor do mouse sobre o botão `Entrar`.
 
-Caso as credenciais de acesso não tenham sido provisionadas, não existam ou em último caso, o usuário não se recorde das corretas informações das suas credenciais, não terá acesso a plataforma. Ver o item Solicitação de Nova Senha, no caso de o usuário esquecer algum tipo de informação para proceder com o login de acesso à Plataforma uCloud.
+Caso as credenciais de acesso não tenham sido provisionadas, não existam ou em último caso, o usuário não se recorde das corretas informações das suas credenciais, não terá acesso a plataforma. Ver o item `Solicitação de Nova Senha`, no caso de o usuário esquecer algum tipo de informação para proceder com o login de acesso à Plataforma uCloud.
 
 Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o procedimento de login, ao usuário será apresentada a tela inicial da Plataforma uCloud.
 
-.. figure:: /figuras/uCloud_acesso_platafform_002.png
+.. figure:: /figuras/ucloud_acesso_plataforma_001.png
+   :alt: Dashboard uCloud
+   :align: center
+
+.. figure:: /figuras/ucloud_acesso_plataforma_002.png
    :alt: Dashboard uCloud
    :align: center
 
