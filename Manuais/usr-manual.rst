@@ -199,6 +199,8 @@ Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o p
    :alt: Dashboard uCloud
    :align: center
 
+----
+
 .. figure:: /figuras/ucloud_acesso_plataforma_002.png
    :alt: Dashboard uCloud
    :align: center
