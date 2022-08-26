@@ -1,7 +1,7 @@
 uCloud - Notas Maio - 2022
 ===========================
 
-.. figure:: /figuras/ucloud_logo_peq.png
+.. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
    :scale: 50 %
    :align: center
