@@ -140,7 +140,7 @@ A Equipe Ustore está preparada para auxiliar e avaliar as demandas de interoper
 Arquitetura da Plataforma uCloud
 -----------------------------------
 
-Abaixo apresentamos uma arquitetura de referência para a Plataforma uCloud com os seus componentes, os provedores e as integrações nativas.
+Na sequência é apresentada uma arquitetura de referência para a Plataforma uCloud com os seus componentes, os provedores e as integrações nativas.
 
 .. figure:: /figuras/ucloud_future_vision_small_2.png
    :alt: Arquitetura de Referência da Plataforma uCloud
@@ -156,12 +156,12 @@ Nosso compromisso versa na manutenção da compatibilidade de integração para 
 
 *Ad hoc* utiliza-se um conjunto de práticas e ferramentas projetadas para aumentar a capacidade de uma organização fornecer aplicativos e serviços mais rapidamente do que os processos tradicionais de desenvolvimento de software.
 
-Acesso a Plataforma uCloud
+Acesso à Plataforma uCloud
 ==========================
 
-O acesso à plataforma é feito através de um endereço de Internet, o usuário deve utilizar um navegador de Internet (Internet browser) e inserir o endereço da URL/link, assim o usuário visualiza a tela inicial de apresentação. Os navegadores de Internet compatíveis com a Plataforma uCloud são: Microsoft Edge versão 86.x, Google Chrome versão 85.x, Firefox verão 80.x ou Opera versão 71.x.
+O acesso à plataforma é feito através de um endereço de Internet, o usuário deve utilizar um navegador e inserir o endereço da URL/link, assim o usuário visualiza a tela inicial de apresentação. Os navegadores de Internet compatíveis com a Plataforma uCloud são: Microsoft Edge versão 86.x, Google Chrome versão 85.x, Firefox verão 80.x ou Opera versão 71.x.
 
-A Plataforma uCloud está adaptada para que sua interface seja apresentada nos idiomas **Português (nativo), Espanhol e Inglês**. Esta configuração é executada pelo próprio usuário. Em seu perfil é possível selecionar o idioma de apresentação da interface, sem a necessidade de alterar a configuração de idioma de sua sessão do navegador de internet (browser).
+A Plataforma uCloud está adaptada para que sua interface seja apresentada nos idiomas **Português (nativo), Espanhol e Inglês**. Esta configuração é executada pelo próprio usuário. Em seu perfil é possível selecionar o idioma de apresentação da interface, sem a necessidade de alterar a configuração de idioma de sua sessão do navegador de internet *(browser)*.
 
 .. figure:: /figuras/ucloud_idioma_plataforma_001.png
    :alt: Idioma da Plataforma uCloud
@@ -179,7 +179,7 @@ Após iniciar uma sessão de Internet browser, o endereço/caminho para o acesso
 
 - Link de exemplo com Nome de Servidor: ``http://ucloud_Server_Name.com/``
 
-Após entrar com o endereço corretamente, a tela do usuário será similar a figura abaixo:
+Após entrar com o endereço corretamente, a tela exibida é similar a figura abaixo:
 
 .. figure:: /figuras/ucloud_acesso_plataforma_000.png
    :alt: Tela de Login da Plataforma uCloud
@@ -189,7 +189,7 @@ Após entrar com o endereço corretamente, a tela do usuário será similar a fi
 
 As credenciais para o login e senha devem ter sido provisionadas previamente na Plataforma uCloud, por um usuário com perfil de Administrador (ou outro usuário com esta permissão).
 
-O usuário deverá informar nos campos os seus dados de login e senha e clicar com o cursor do mouse sobre o botão `Entrar`.
+O usuário deve informar nos campos os seus dados de login e senha e clicar com o cursor do mouse sobre o botão `Entrar`.
 
 Caso as credenciais de acesso não tenham sido provisionadas, não existam ou em último caso, o usuário não se recorde das corretas informações das suas credenciais, não terá acesso a plataforma. Ver o item `Solicitação de Nova Senha`, no caso de o usuário esquecer algum tipo de informação para proceder com o login de acesso à Plataforma uCloud.
 
@@ -214,6 +214,124 @@ Após inserir suas credenciais de acesso (nome do usuário e senha), efetuar o p
 ----
 
 Siga para o próximo tópico para a descrição detalhada das características da tela inicial (Dashboard) da Plataforma uCloud.
+
+
+Dashboard
+=========
+
+
+A funcionalidade Dashboard tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações, além de facilitar o acompanhamento das principais operações realizadas na plataforma uCloud. Pelo fato de agrupar diversos dados em `cards` as duas imagens da tela apresentadas acima, desdobram-se em primeira e segunda parte, mostra este dados segmentados por categorias facilitando a visualização. Para percorrer todas as informações o usuário deve deslizar a barra vertical à direita - para baixo ou para cima - primeira ou segunda parte da tela principal do portal uCloud. 
+
+Nesta primeira parte pode-se observar no canto superior esquerdo a mensagem de boas vindas ao portal Multi-Cloud direcionada ao usuário logado. No canto contrário (superior direito) visualiza-se dois símbolos que representam: o Contrato acessado e as Tarefas executadas. Em seguida, o nome do usuário logado no portal. Conforme o recorte detalhado a seguir:
+
+.. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_001.png
+   :alt: Dashboard detalhes
+   :align: center
+
+----
+
+O menu Dashboard está dividido em quatro *cards*. São eles: 
+
+  * Atalhos;
+  * Cota de faturamento do contrato;
+  * Informações de quota sobre serviços;
+  * Tarefas recentes.
+  
+Cada um destes quatro *cards* estão disponíveis de acordo com o nível de permissão e visualização do usuário que está logado realizando a consulta na plataforma uCloud.
+
+Estes *cards* podem ser reorganizados de acordo com a demanda de cada usuário. Para isto é necessário clicar no ícone logo abaixo do nome do usuário logado.  
+
+.. |icone_reorganizar_dashboard| image:: /figuras/fig_ucloud/ucloud_botao_reorganizar_dashboard.png
+
+
+.. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_reorganizar_002.png
+   :alt: Dashboard reorganizar
+   :align: center
+
+----
+
+
+
+Seção: Atalhos
+-------------
+
+Este *card* exibe o caminho encurtado e direto para as funcionalidades mais utilizadas na plataforma uCloud. 
+
+Estas funcionalidades similarmente encontram-se apresentadas no lado esquerdo da tela do Dashboard podendo ser alcançadas com um clique.
+São elas: 
+  * Máquinas virtuais: 
+  * ** Apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso;
+  * Datacenters virtuais: 
+  * ** Exibe o conjunto de recursos físicos e virtuais disponíveis nas nuvens;
+  * Financeiro: 
+  * ** Representa a análise de todos os custos das instâncias e seus recursos;
+  * Templates: 
+  * ** Os templates são as entidades que podem gerar instâncias de máquinas virtuais com as mesmas características. Este atalho propicia visualizar os templates disponíveis no portal. 
+
+Cabe salientar que o usuário ativo pode possuir restrição a determinada opção do menu de funcionalidades, em função do perfil de permissão e visualização associada a este. Desta forma será listado no `card` Atalho a informação correspondente ao perfil do usuário logado. 
+
+.. note:: *O perfil de cada usuário é determinado pelo administrador da plataforma.*
+
+
+
+Seção: Cota de faturamento do contrato
+--------------------------------------
+
+A cota de faturamento do contrato abrange os recursos a nível de VM/Instâncias.  Ela engloba os servicos de cota alocada de uso de IPs Públicos, de CPU, memória, disco e máquinas virtuais. A cota apresentada no menu Dashboard é recalculada no intervalo de até 24 (vinte e quatro) horas, por isto, caso o usuário proceda alteração, a mesma pode ser visualizada após 24 horas. 
+
+O Contrato pode estar provisionado para ter acesso a um ou mais credenciais de acesso aos ambientes provedores de nuvem pública e/ou privada. Pode estabelecer uma forma de gerenciar os aspectos comerciais, os limites financeiros e possibilita definir os valores reservados para os recursos computacionais. Eventualmente, existem outros recursos somados ao faturamento do contrato, como assinatura, snapshot e transferências.
+
+
+Seção: Informações de cota sobre serviços
+-----------------------------------------
+
+A informação de cota sobre serviços é atualizada de acordo com a provisão realizada pelo usuário administrador da plataforma. Estes serviços são reservados seguindo os padrões e regras de negócio da empresa.
+
+O Dashboard reúne os dados de cotas referentes a CPU, Memória, Disco, IPs Públicos e Máquinas Virtuais, ele exibe os resultados em gráfico circular, normalmente nomeado gráfico formato de pizza. Oferecendo facilidade na visualização destas cotas sobre os serviços, exibe dois estados: `uso` e `livre`. 
+
+As cotas sobre serviços demonstram os limites alocados para o usuário. A depender do perfil do usuário o tipo de cota varia e este visualiza apenas o que está reservado e o que está disponível para o tipo de usuário logado na plataforma uCloud. 
+
+Os cinco gráficos circulares apresentam indicadores com características diferentes descritos na sequência: 
+
+  * **CPU**: as informações são apresentadas em números percentuais / quantidade;
+  * **Memória**: Gigabytes;
+  * **Disco**:  Gigabytes;
+  * **IPs Públicos**: números percentuais / quantidade;
+  * **Máquinas Virtuais**: números percentuais / quantidade.
+
+Os parâmetros apresentados nestes indicadores quantitativos possibilitam observar com facilidade se o serviço alocado está livre ou em utilização, ou seja, demonstra o recurso reservado e o disponível no momento da consulta, a depender do tipo de cota, tipo de contrato e perfil do usuário. 
+
+
+
+.. Seção: Máquinas Virtuais
+.. -----------------------
+
+
+.. Este *card* lista as máquinas virtuais que sofreram alteração ou iteração recente através da plataforma uCloud. Provisão de máquinas virtuais Windows e Linux em minutos.  apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso
+
+.. Ressaltando um ponto: Qualquer máquina virtual que tenha sido alterada em alguma das suas características direto no console do provedor de serviço de nuvem (seja pública ou privada) ela não será listada. 
+
+.. .. note:: A plataforma do ucloud lista apenas as máquinas virtuais alteradas por usuários registrados e ativos registrados no portal.
+
+.. Ao clicar no atalho Máquinas Virtuais a plataforma recupera as informações desta funcionalidade, apresenta a tela Máquinas Virtuais. 
+
+
+Seção: Tarefas recentes
+-----------------------
+
+
+A Plataforma do uCloud é um ambiente que se comunica com os consoles dos provedores de nuvem ou com o *hypervisor* utilizado internamente no
+Datacenter da sua organização através da *API Rest*. Desta forma, todas as ações - atividades - funções solicitadas através da Plataforma do uCloud são ‘encapsuladas’ como se fossem uma mensagem e enviadas para o console destino.  para que este console possa executar as tarefas enviadas.
+
+
+Por consequência, a seção Tarefas apresenta a lista mais recente das ações - atividades - funções solicitadas pelo usuário que está registrado e ativo (logado) na Plataforma do uCloud.
+
+Esta seção apresenta a lista de algumas tarefas, as quais demonstram o percentual executado e o(s) respectivo(s) resultado(s) dessa(s)
+ação(ões), tanto para ações completas com sucesso ou incompletas. Seja devido a algum erro recebido como resposta do console destino (nuvem pública e/ou privada).
+
+
+
+
 
 .. Menu de Usuário
 .. ===============
@@ -549,7 +667,7 @@ A estratégia da utilização da funcionalidade **Conta** *(Account)* entrega um
 Com a criação desta funcionalidade, o administrador pode gerenciar as permissões de visualização e permissionamento de cada `usuário` dentro de cada `grupo`, contido em determinado `contrato`. Deste modo, o acesso é negado **por padrão** sendo concedido apenas se as permissões especificarem ‘permitir’.
 
 
-.. important:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  No caso do seu usuário não ter este nível de permissão, favor entrar em contato com a Equipe de Suporte da Ustore, por e-mail (chamados@usto.re). Assim, a equipe autorizada poderá executar as customizações necessárias para o seu ambiente*.
+.. important:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  No caso do seu usuário não ter este nível de permissão, favor entrar em contato com o seu provedor do portal. Ao contactá-lo a equipe autorizada pode executar as customizações necessárias para o seu ambiente*.
 
 
 Adicionalmente, a funcionalidade **Conta** *(Account)* possibilita utilizar as políticas de controle que estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença.
@@ -610,7 +728,7 @@ As políticas de controle desta funcionalidade estabelecem as barreiras de prote
 Em resumo, o administrador pode gerenciar as permissões de visualização e permissionamento de cada usuário dentro de cada grupo, ambos contidos no contrato. 
 
 
-.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função roles: “Administrador da Plataforma”.  Favor entrar em contato por e-mail (chamados@usto.re) com a Equipe de Suporte da Ustore. Para o caso do seu usuário ter outro nível de permissão, entrar em contato com a equipe autorizada, só ela pode executar as customizações necessárias para o seu ambiente*.
+.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da Plataforma”.  No caso do seu usuário ter outro nível de permissão, favor entrar em contato com o seu provedor do portal. Ao contactá-lo a equipe autorizada pode executar as customizações necessárias para o seu ambiente*.
 
 
 Contas 
@@ -8199,3 +8317,5 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 .. |icone_next_off| image:: /figuras/ucloud_icone_next_off.png
 
 .. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
+
+.. |icone_reorganizar_dashboard| image:: /figuras/fig_ucloud/ucloud_botao_reorganizar_dashboard.png
