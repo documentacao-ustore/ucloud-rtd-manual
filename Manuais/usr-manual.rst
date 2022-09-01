@@ -267,18 +267,14 @@ Este *card* exibe o caminho encurtado e direto para as funcionalidades mais util
 
 Estas funcionalidades similarmente encontram-se apresentadas no lado esquerdo da tela do Dashboard podendo ser alcançadas com um clique.
 São elas: 
-  * Máquinas virtuais: 
-Apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso;
-  * Datacenters virtuais: 
-Exibe o conjunto de recursos físicos e virtuais disponíveis nas nuvens;
-  * Financeiro: 
-Representa a análise de todos os custos das instâncias e seus recursos;
-  * Templates: 
-Os templates são as entidades que podem gerar instâncias de máquinas virtuais com as mesmas características. Este atalho propicia visualizar os templates disponíveis no portal. 
+  * **Máquinas virtuais**: Apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso;
+  * **Datacenters virtuais**: Exibe o conjunto de recursos físicos e virtuais disponíveis nas nuvens;
+  * **Financeiro**: Representa a análise de todos os custos das instâncias e seus recursos;
+  * **Templates**: Os templates são as entidades que podem gerar instâncias de máquinas virtuais com as mesmas características. Este atalho propicia visualizar os templates disponíveis no portal. 
 
 Cabe salientar que o usuário ativo pode possuir restrição a determinada opção do menu de funcionalidades, em função do perfil de permissão e visualização associada a este. 
 
-Desta forma será listado no `card` Atalho a informação correspondente ao perfil do usuário logado. 
+Desta forma, o que está listado no `card` **Atalho** corresponde a informação vinculada ao perfil do usuário logado. 
 
 .. note:: *O perfil de cada usuário é determinado pelo administrador da plataforma.*
 
@@ -289,7 +285,7 @@ Seção: Cota de faturamento do contrato
 
 A cota de faturamento do contrato abrange os recursos a nível de VM/Instâncias.  Ela engloba os servicos de cota alocada de uso de IPs Públicos, de CPU, memória, disco e máquinas virtuais. 
 
-.. important:: *A cota apresentada no menu Dashboard é recalculada no intervalo de até 24 (vinte e quatro) horas, por isto, caso o usuário proceda alteração, a mesma pode ser visualizada após 24 horas*. 
+.. important:: *A cota apresentada no menu Dashboard é recalculada no intervalo de até 24 (vinte e quatro) horas. Alteração procedida pode ser visualizada somente após 24 horas*. 
 
 O Contrato pode estar provisionado para ter acesso a um ou mais credenciais de acesso aos ambientes provedores de nuvem pública e/ou privada. Pode estabelecer uma forma de gerenciar os aspectos comerciais, os limites financeiros e possibilita definir os valores reservados para os recursos computacionais. Eventualmente, existem outros recursos somados ao faturamento do contrato, como assinatura, *snapshot* e transferências.
 
@@ -338,7 +334,7 @@ Seção: Tarefas recentes
 -----------------------
 
 
-A Plataforma do uCloud é um ambiente que se comunica com os consoles dos provedores de nuvem ou com o *hypervisor* utilizado internamente no Datacenter da sua organização através da *API Rest*. Desta forma, todas as ações - atividades - funções solicitadas através da Plataforma do uCloud são ‘encapsuladas’ como se fossem uma mensagem e enviadas para o console destino.  para que este console possa executar as tarefas enviadas.
+A Plataforma do uCloud é um ambiente que se comunica com os consoles dos provedores de nuvem ou com o *hypervisor* utilizado internamente no Datacenter da sua organização através da *API Rest*. Desta forma, todas as ações - atividades - funções solicitadas através da Plataforma do uCloud são ‘encapsuladas’ como se fosse uma mensagem e depois enviada para o console destino.  Para que este console possa executar as tarefas enviadas.
 
 .. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_tarefas.png
    :alt: Dashboard atalhos
