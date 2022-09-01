@@ -220,9 +220,11 @@ Dashboard
 =========
 
 
-A funcionalidade Dashboard tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações, além de facilitar o acompanhamento das principais operações realizadas na plataforma uCloud. Pelo fato de agrupar diversos dados em `cards` as duas imagens da tela apresentadas acima, desdobram-se em primeira e segunda parte, mostra este dados segmentados por categorias facilitando a visualização. Para percorrer todas as informações o usuário deve deslizar a barra vertical à direita - para baixo ou para cima - primeira ou segunda parte da tela principal do portal uCloud. 
+A funcionalidade Dashboard tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações, além de facilitar o acompanhamento das principais operações realizadas na plataforma uCloud. 
 
-Nesta primeira parte pode-se observar no canto superior esquerdo a mensagem de boas vindas ao portal Multi-Cloud direcionada ao usuário logado. No canto contrário (superior direito) visualiza-se dois símbolos que representam: o Contrato acessado e as Tarefas executadas. Em seguida, o nome do usuário logado no portal. Conforme o recorte detalhado a seguir:
+Pelo fato de agrupar diversos dados em `cards` as duas imagens da tela apresentadas acima, desdobram-se em primeira e segunda parte, mostra este dados segmentados por categorias facilitando a visualização. Para percorrer todas as informações o usuário deve deslizar a barra vertical à direita - para baixo ou para cima - primeira ou segunda parte da tela principal do portal uCloud. 
+
+Nesta primeira parte pode-se observar no canto superior esquerdo a mensagem de boas vindas ao portal Multi-Cloud direcionada ao usuário logado. No canto contrário (superior direito) visualiza-se dois símbolos que representam: o Contrato acessado e as Tarefas executadas. Depois o nome do usuário logado no portal, conforme o recorte detalhado a seguir:
 
 .. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_001.png
    :alt: Dashboard detalhes
@@ -257,18 +259,26 @@ Seção: Atalhos
 
 Este *card* exibe o caminho encurtado e direto para as funcionalidades mais utilizadas na plataforma uCloud. 
 
+.. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_atalhos_003.png
+   :alt: Dashboard atalhos
+   :align: center
+
+----
+
 Estas funcionalidades similarmente encontram-se apresentadas no lado esquerdo da tela do Dashboard podendo ser alcançadas com um clique.
 São elas: 
   * Máquinas virtuais: 
-  * ** Apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso;
+Apresenta a provisão de máquinas virtuais criadas e que o usuário tem acesso;
   * Datacenters virtuais: 
-  * ** Exibe o conjunto de recursos físicos e virtuais disponíveis nas nuvens;
+Exibe o conjunto de recursos físicos e virtuais disponíveis nas nuvens;
   * Financeiro: 
-  * ** Representa a análise de todos os custos das instâncias e seus recursos;
+Representa a análise de todos os custos das instâncias e seus recursos;
   * Templates: 
-  * ** Os templates são as entidades que podem gerar instâncias de máquinas virtuais com as mesmas características. Este atalho propicia visualizar os templates disponíveis no portal. 
+Os templates são as entidades que podem gerar instâncias de máquinas virtuais com as mesmas características. Este atalho propicia visualizar os templates disponíveis no portal. 
 
-Cabe salientar que o usuário ativo pode possuir restrição a determinada opção do menu de funcionalidades, em função do perfil de permissão e visualização associada a este. Desta forma será listado no `card` Atalho a informação correspondente ao perfil do usuário logado. 
+Cabe salientar que o usuário ativo pode possuir restrição a determinada opção do menu de funcionalidades, em função do perfil de permissão e visualização associada a este. 
+
+Desta forma será listado no `card` Atalho a informação correspondente ao perfil do usuário logado. 
 
 .. note:: *O perfil de cada usuário é determinado pelo administrador da plataforma.*
 
@@ -277,9 +287,11 @@ Cabe salientar que o usuário ativo pode possuir restrição a determinada opç�
 Seção: Cota de faturamento do contrato
 --------------------------------------
 
-A cota de faturamento do contrato abrange os recursos a nível de VM/Instâncias.  Ela engloba os servicos de cota alocada de uso de IPs Públicos, de CPU, memória, disco e máquinas virtuais. A cota apresentada no menu Dashboard é recalculada no intervalo de até 24 (vinte e quatro) horas, por isto, caso o usuário proceda alteração, a mesma pode ser visualizada após 24 horas. 
+A cota de faturamento do contrato abrange os recursos a nível de VM/Instâncias.  Ela engloba os servicos de cota alocada de uso de IPs Públicos, de CPU, memória, disco e máquinas virtuais. 
 
-O Contrato pode estar provisionado para ter acesso a um ou mais credenciais de acesso aos ambientes provedores de nuvem pública e/ou privada. Pode estabelecer uma forma de gerenciar os aspectos comerciais, os limites financeiros e possibilita definir os valores reservados para os recursos computacionais. Eventualmente, existem outros recursos somados ao faturamento do contrato, como assinatura, snapshot e transferências.
+.. important:: *A cota apresentada no menu Dashboard é recalculada no intervalo de até 24 (vinte e quatro) horas, por isto, caso o usuário proceda alteração, a mesma pode ser visualizada após 24 horas*. 
+
+O Contrato pode estar provisionado para ter acesso a um ou mais credenciais de acesso aos ambientes provedores de nuvem pública e/ou privada. Pode estabelecer uma forma de gerenciar os aspectos comerciais, os limites financeiros e possibilita definir os valores reservados para os recursos computacionais. Eventualmente, existem outros recursos somados ao faturamento do contrato, como assinatura, *snapshot* e transferências.
 
 
 Seção: Informações de cota sobre serviços
@@ -288,6 +300,12 @@ Seção: Informações de cota sobre serviços
 A informação de cota sobre serviços é atualizada de acordo com a provisão realizada pelo usuário administrador da plataforma. Estes serviços são reservados seguindo os padrões e regras de negócio da empresa.
 
 O Dashboard reúne os dados de cotas referentes a CPU, Memória, Disco, IPs Públicos e Máquinas Virtuais, ele exibe os resultados em gráfico circular, normalmente nomeado gráfico formato de pizza. Oferecendo facilidade na visualização destas cotas sobre os serviços, exibe dois estados: `uso` e `livre`. 
+
+.. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_informacao_cota_serviço.png
+   :alt: Dashboard atalhos
+   :align: center
+
+----
 
 As cotas sobre serviços demonstram os limites alocados para o usuário. A depender do perfil do usuário o tipo de cota varia e este visualiza apenas o que está reservado e o que está disponível para o tipo de usuário logado na plataforma uCloud. 
 
@@ -320,14 +338,17 @@ Seção: Tarefas recentes
 -----------------------
 
 
-A Plataforma do uCloud é um ambiente que se comunica com os consoles dos provedores de nuvem ou com o *hypervisor* utilizado internamente no
-Datacenter da sua organização através da *API Rest*. Desta forma, todas as ações - atividades - funções solicitadas através da Plataforma do uCloud são ‘encapsuladas’ como se fossem uma mensagem e enviadas para o console destino.  para que este console possa executar as tarefas enviadas.
+A Plataforma do uCloud é um ambiente que se comunica com os consoles dos provedores de nuvem ou com o *hypervisor* utilizado internamente no Datacenter da sua organização através da *API Rest*. Desta forma, todas as ações - atividades - funções solicitadas através da Plataforma do uCloud são ‘encapsuladas’ como se fossem uma mensagem e enviadas para o console destino.  para que este console possa executar as tarefas enviadas.
 
+.. figure:: /figuras/fig_ucloud/ucloud_menu_dashboard_tarefas.png
+   :alt: Dashboard atalhos
+   :align: center
+
+----
 
 Por consequência, a seção Tarefas apresenta a lista mais recente das ações - atividades - funções solicitadas pelo usuário que está registrado e ativo (logado) na Plataforma do uCloud.
 
-Esta seção apresenta a lista de algumas tarefas, as quais demonstram o percentual executado e o(s) respectivo(s) resultado(s) dessa(s)
-ação(ões), tanto para ações completas com sucesso ou incompletas. Seja devido a algum erro recebido como resposta do console destino (nuvem pública e/ou privada).
+Esta seção apresenta a lista de algumas tarefas, as quais demonstram o percentual executado e o respectivo resultado desta ação, tanto para ações completas com sucesso ou incompletas. Seja devido a algum erro recebido como resposta do console destino (nuvem pública e/ou privada).
 
 
 
