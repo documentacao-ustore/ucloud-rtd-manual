@@ -1,7 +1,7 @@
 uCloud - Manual del Usuário
 +++++++++++++++++++++++++++
 
-.. image:: /figuras/ucloud_logo_peq.png
+.. image:: /figuras/ucloud.png
    :alt: logo ucloud
    :align: center
 
@@ -60,7 +60,7 @@ De esta forma, el usuario permanece **informado** de la evolución de los costos
 
 Generalmente estos costos se presentan en archivos de texto no estructurados **(Comma-separated Values - CSV)** generados cada período (promedio de 8 horas) y la Plataforma de uCloud agrega la información de este archivo **CSV** a su base de datos interna para agilizar y simplificar la presentación de estos valores en la pantalla del usuario.
 
-Exclusivamente, los usuarios con un perfil específico pueden 'visualizar costos' y permanecer **informados** de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
+Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer **informados** de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
 
 Monitoreo de la Infraestructura
 -------------------------------
@@ -156,7 +156,7 @@ Arquitectura de Referencia de la Plataforma uCloud
 
 A continuación presentamos una arquitectura de referencia para la Plataforma uCloud con sus componentes, proveedores e integraciones nativos.
 
-.. figure:: /figuras/uCloud_future_vision-small.jpg
+.. figure:: /figuras/ucloud_future_vision_small_2.png
    :alt: Arquitectura de Referencia de la Plataforma uCloud
    :align: center
 
@@ -181,7 +181,7 @@ compatibles con la Plataforma uCloud son: Microsoft Edge versión 86.x, Google C
 
 La Plataforma uCloud está adaptada para que su interfaz se presente en **Portugués (nativo), Español e Inglés**. Esta configuración la realiza el usuario. En su perfil es posible seleccionar el idioma de presentación de la interfaz, sin tener que cambiar la configuración de idioma de su sesión de navegador de Internet.
 
-.. figure:: /figuras/ucloud_idioma_plataforma.png
+.. figure:: /figuras/ucloud_idioma_plataforma_001.png
    :alt: Idioma de la Plataforma uCloud
    :scale: 50 %
    :align: center
@@ -199,7 +199,7 @@ Después de iniciar sesión en un Internet browser, la dirección/ruta de acceso
 
 Después de ingresar la dirección correctamente, la pantalla del usuario será similar a la figura a continuación:
 
-.. figure:: /figuras/uCloud_acesso_platafform_001.png
+.. figure:: /figuras/ucloud_acesso_plataforma_000.png
    :alt: Pantalla de inicio de sesión de la Plataforma uCloud
    :align: center
 
@@ -213,7 +213,17 @@ Si las credenciales de acceso no han sido aprovisionadas, no existen o en el úl
 
 Después de ingresar sus credenciales de acceso (nombre de usuario y contraseña), realice el procedimiento de inicio de sesión, al usuario se le presentará la pantalla a continuación:
 
-.. figure:: /figuras/uCloud_acesso_platafform_002.png
+* 1a parte de la pantalla
+
+.. figure:: /figuras/ucloud_acesso_plataforma_001.png
+   :alt: Dashboard uCloud
+   :align: center
+
+------
+
+* 2a parte de la pantalla
+
+.. figure:: /figuras/ucloud_acesso_plataforma_002.png
    :alt: Dashboard uCloud
    :align: center
 
