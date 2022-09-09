@@ -1,5 +1,5 @@
-uCloud - Notas de Lançamento Junho|Julho|Agosto|Setembro - 2022
-===============================================================
+uCloud - Notas de Lançamento Junho|Julho|Agosto - 2022
+======================================================
 
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
@@ -13,11 +13,12 @@ Plataforma uCloud versão: *Update tags 5.3-b56 e 1.0-account88*
 Apresentação
 ============
 
-A Ustore renova a plataforma uCloud em conformidade com a evolução contínua das inovações no setor de *cloud computing*, um ambiente dinâmico que permite acesso remoto a *softwares*, armazenamento de arquivos e processamento de dados por meio da Internet.
+A Ustore renova a plataforma uCloud em conformidade com a evolução contínua das inovações no setor de *cloud computing*, um ambiente dinâmico que permite acesso remoto a *softwares*, armazenamento de arquivos e processamento de dados por meio da Internet. 
 
 Neste lançamento é evocado o princípio da norma ISO 9001, elaborada pela Organização Internacional de Normalização (no Brasil conhecida como ABNT NBR ISO 9001). A qual objetiva estabelecer normas consistentes que aumentam a qualidade nos processos aplicados e redundam na melhoria contínua e ajustes nas funcionalidades, em busca da gestão da qualidade e excelência empresarial. 
 
-As melhorias apresentadas a seguir referem-se ao princípio da gestão da qualidade citada na norma ISO 9001, realizada durante os meses de junho, julho, agosto e início de setembro do corrente.
+As melhorias apresentadas a seguir referem-se ao princípio da gestão da qualidade citada na norma ISO 9001, realizada durante os meses de junho, julho e agosto do corrente.
+
 
 Notícias 
 ========
@@ -185,6 +186,4 @@ Neste relato a Ustore divulga as sete inovações ocorridas na plataforma uCloud
 
 7. **Relatório de Monitoramento de Consumo V1**: Nova funcionalidade do uCloud que trata do detalhamento completo dos gastos, divididos por Nuvens, Contratos e Recursos. São gerados diferentes tipos de relatórios, para cada tipo de divisão (Nuvem/Contrato/Recurso), separando um por vez e organizando-os do maior para o menor consumo. Além de comparar com os gastos dos meses anteriores, proporcionando ao cliente informações necessárias para que se possa avaliar se houve queda ou aumento dos gastos.
 
-Em resumo, o documento apresenta as catorze (14) melhorias realizadas na categoria nuvens públicas e privadas pela demanda na adequação às mudanças nesses provedores. Os trinta e três (33) aprimoramentos globais da plataforma uCloud. Além das sete (7) novas implementações. Assim, conclui-se o documento com as notas de lançamento deste quadrimestre correspondente aos meses de junho, julho, agosto e setembro do corrente ano.
-
-
+Em resumo, o documento apresenta as catorze (14) melhorias realizadas na categoria nuvens públicas e privadas pela demanda na adequação às mudanças nesses provedores. Os trinta e três (33) aprimoramentos globais da plataforma uCloud. Além das sete (7) novas implementações. Assim, conclui-se o documento com as notas de lançamento deste trimestre correspondente aos meses de junho, julho e agosto do corrente ano.
