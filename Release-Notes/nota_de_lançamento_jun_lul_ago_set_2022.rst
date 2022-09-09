@@ -1,7 +1,7 @@
 uCloud - Notas de Lançamento Junho|Julho|Agosto|Setembro - 2022
 ===============================================================
 
-.. figure:: C:/Users/Ustore/Documents/GitHub/ucloud-rtd-manual/figuras/ucloud.png
+.. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
    :scale: 50 %
    :align: center
