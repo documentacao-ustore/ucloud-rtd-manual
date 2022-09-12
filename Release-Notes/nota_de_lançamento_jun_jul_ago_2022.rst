@@ -54,7 +54,7 @@ Relativo à interação com o provedor de serviço de nuvem pública Microsoft A
 Google Cloud Platform (GCP)
 ---------------------------
 
-No que concerne à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), houve oito melhorias listadas na sequência:
+No que concerne à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), houveram oito melhorias listadas na sequência:
 
 * O botão para associar o disco à VM recebe nova interface gráfica;
 
