@@ -99,7 +99,7 @@ No tocante à interação com o hypervisor VMware 6.5 ou superior, relaciona-se 
 Aprimoramento da plataforma uCloud em Account, uCloudOPS e *Billing*
 ====================================================================
 
-Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria contínua associada à proatividade no aprimoramento do produto, o resultado está listado a seguir:
+Na Ustore a prática da melhoria contínua adotada no aprimoramento da plataforma uCloud, associada à produtividade, resulta na lista a seguir:
 
 * Criação de user no Account:  Atalho para criar usuário direto no menu Administração, submenu Account.
 
@@ -125,7 +125,7 @@ Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria co
 
 * Atualização das cotas em toda a plataforma uCloud: A unificação das cotas em todos os ambientes padroniza a visualização das cotas do usuário nas funcionalidades de contrato e grupo. 
 
-* No menu da funcionalidade de Configuração Geral adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada.
+* No menu da funcionalidade de Configuração Geral contempla a adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada. 
 
 * Atualização do formato de recuperação da senha.
 
@@ -135,7 +135,7 @@ Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria co
 
 * Atualização na funcionalidade “*Checkbox*” associando todas as VMs no contrato e no grupo.
 
-* No Menu Administração, na opção de Contratos, ao clicar em “Adicionar Administradores” foi inserida uma barra de busca para pesquisar um usuário que deve ser configurado como administrador, ou administrador como usuário. 
+* No Menu Administração ao clicar em Contratos e selecionar um determinado Contrato da lista, é permitido "Adicionar Administradores" seja usuário ou grupo de usuários. Para facilitar a busca, foi adicionada uma barra de pesquisa, que entrega como resultado o nome de um usuário ou um grupo.
 
 * Criação de cota por quantidade de VM/Instância por contrato. 
 
