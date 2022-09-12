@@ -8,7 +8,7 @@
 Bem vindo ao site de documentação da Ustore Brasil
 ==================================================
 
-Neste repositório estão disponíveis somente os manuais de uso (Manual de Usuário) e a documentação de Release Notes dos softwares da Ustore.
+Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a documentação do Press Release e Release Notes dos seus softwares.
 
 .. toctree::
    :maxdepth: 5
