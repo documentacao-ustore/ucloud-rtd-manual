@@ -19,7 +19,6 @@ Neste lançamento é evocado o princípio da norma ISO 9001, elaborada pela Orga
 
 As melhorias apresentadas a seguir referem-se ao princípio da gestão da qualidade citada na norma ISO 9001, realizada durante os meses de junho, julho e agosto do corrente.
 
-
 Notícias 
 ========
 
@@ -57,7 +56,7 @@ Google Cloud Platform (GCP)
 
 No que concerne à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), houve oito melhorias listadas na sequência:
 
-* o botão para associar o disco à VM recebe nova interface gráfica;
+* O botão para associar o disco à VM recebe nova interface gráfica;
 
 * Aprimoramento no contrato padrão do usuário ao criar uma DBVM;
 
@@ -68,6 +67,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 * Inclusão das novas regiões, são elas:
 
   * Melbourne, Vitória, Oceania: australia-southeast2.
+  
   * Delhi, Região da Capital Nacional, Ásia: asia-south2.
 
 * Refinamento da seleção para associar a subrede ao Import do Container.
@@ -79,7 +79,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
   * **Discount**: o tipo de crédito com desconto é usado para valores recebidos após um limite de gasto contratual a ser atingido. Nos relatórios do Cloud Billing disponíveis no console, este é listado como “Descontos com base em gastos (contratuais)”.
   
   * **Free tier**: Alguns serviços oferecem "uso gratuito de recursos até os limites especificados". Nesses serviços, os créditos são aplicados para implementar o uso de nível gratuito.
-
+  
   * **Promotion**: o tipo de crédito promocional inclui "Teste gratuito do Google Cloud e créditos de campanha de marketing ou outras concessões para usar o Google Cloud". Quando disponíveis, os créditos promocionais são considerados uma forma de pagamento e são aplicados automaticamente para reduzir a fatura total.
 
 IBM Cloud
@@ -96,10 +96,10 @@ No tocante à interação com o hypervisor VMware 6.5 ou superior, relaciona-se 
 
 * A política de agendamento para Scaling Group permite ao usuário criar a política que define o momento de criar nova(s) máquina(s).
 
-Aprimoramento da plataforma uCloud em Account, uCloudOPS e Billing
-==================================================================
+Aprimoramento da plataforma uCloud em Account, uCloudOPS e *Billing*
+====================================================================
 
-Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria contínua associada à proatividade no aprimoramento do produto, o resultado está listado a seguir: 
+Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria contínua associada à proatividade no aprimoramento do produto, o resultado está listado a seguir:
 
 * Criação de user no Account:  Atalho para criar usuário direto no menu Administração, submenu Account.
 
@@ -113,9 +113,9 @@ Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria co
 
 * O idioma do usuário pode ser trocado a nível de conta, além do nível de usuário existente: Então uma conta pode ter um idioma e ser vista pelo idioma que o usuário determinar.
 
-* Persistência da troca de idioma do usuário: A plataforma mantém o idioma escolhido no primeiro acesso.
+* Persistência da troca de idioma do usuário: A plataforma mantém o idioma escolhido no primeiro acesso. 
 
-* Persistência do idioma no envio de e-mails dentro do portal: A plataforma mantém o idioma escolhido no envio de e-mails.  
+* Persistência do idioma no envio de e-mails dentro do portal: A plataforma mantém o idioma escolhido no envio de e-mails.
 
 * Adaptação da listagem dos perfis de permissionamento e visualização na interface gráfica: a lista dos perfis aparece por cima do modal, facilitando a visualização.
 
@@ -123,41 +123,41 @@ Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria co
 
 * Atualização do CORE.sql do uCloud: Agiliza de maneira significante a resposta do ambiente.
 
-* Atualização das cotas em toda a plataforma uCloud: A unificação das cotas em todos os ambientes padroniza a visualização das cotas do usuário nas funcionalidades de contrato e grupo.
+* Atualização das cotas em toda a plataforma uCloud: A unificação das cotas em todos os ambientes padroniza a visualização das cotas do usuário nas funcionalidades de contrato e grupo. 
 
 * No menu da funcionalidade de Configuração Geral adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada.
 
 * Atualização do formato de recuperação da senha.
 
-* Aprimoramento na customização do *branding* no menu de funcionalidades do *billing* para a versão mobile, com o objetivo de garantir a melhor visualização nas opções modo *light* e *dark*.
+* Aprimoramento na customização do *branding* no menu de funcionalidades do *Billing* para a versão mobile, com o objetivo de garantir a melhor visualização nas opções modo *light* e *dark*.
 
-* No menu Tarefas, na lista de tarefas em operação a coluna “Ações” permite ao usuário cancelar ou pausar uma Task independente do status, contanto que a porcentagem esteja abaixo de 99%. 
+* No menu Tarefas, na lista de tarefas em operação a coluna “Ações” permite ao usuário cancelar ou pausar uma *Task* independente do status, contanto que a porcentagem esteja abaixo de 99%. 
 
 * Atualização na funcionalidade “*Checkbox*” associando todas as VMs no contrato e no grupo.
 
-* No Menu Administração, na opção de Contratos, ao clicar em “Adicionar Administradores” foi inserida uma barra de busca para pesquisar um usuário que deve ser configurado como administrador, ou administrador como usuário.
+* No Menu Administração, na opção de Contratos, ao clicar em “Adicionar Administradores” foi inserida uma barra de busca para pesquisar um usuário que deve ser configurado como administrador, ou administrador como usuário. 
 
-* Criação de cota por quantidade de VM/Instância por contrato.
+* Criação de cota por quantidade de VM/Instância por contrato. 
 
-* Adaptação de *Workflow* para suportar o encadeamento de diversas tarefas ( de forma sequencial e/ou paralela, sem número máximo) de *workflows* existentes no portal.
+* Adaptação de *Workflow* para suportar o encadeamento de diversas tarefas (de forma sequencial e/ou paralela, sem número máximo) de *workflows* existentes no portal. 
 
-* Aprovação de task ao exceder quota: Quando um usuário excede a cota existente no contrato automaticamente o administrador percebe que o usuário precisa de mais cota. Assim, o administrador pode aprovar ou não essa solicitação.
+* Aprovação de *task* ao exceder quota: Quando um usuário excede a cota existente no contrato automaticamente o administrador percebe que o usuário precisa de mais cota. Assim, o administrador pode aprovar ou não essa solicitação.
 
 * Nova apresentação no Relatório Financeiro na interface de dados do *Billing*.
 
-* Opção *CentOS7* para criação de *ResourceKey*: requisito da nuvem atendido com o acréscimo do CentOS7 como Sistema Operacional para taguear USN.
+* Opção *CentOS7* para criação de *ResourceKey*: requisito da nuvem atendido com o acréscimo do *CentOS7* como Sistema Operacional para taguear USN.
 
 * Kubernetes para criar *ResourceKey*: acréscimo do Kubernetes como Sistema Operacional como requisito do Google para taguear máquinas Kubernetes.
 
 * O menu Perfil de Tag Virtual aprimora a experiência de uso ao permitir nomes semelhantes na criação do perfil de tag virtual e impedir o uso de caracteres especiais.
 
-* Incremento do perfil de *Tag Virtual* ao incluir o campo *uCloudIdentifier* que será usado como referência. Está aplicado nas operações do container e dos bilhetadores.
+* Incremento do perfil de Tag Virtual ao incluir o campo *uCloudIdentifier* que será usado como referência. Está aplicado nas operações do container e dos bilhetadores.  
 
-* O menu Catálogo de Serviços após a refatoração do ponto de transmissão e recepção de informação "*endpoint*" detalha o resultado somente quando o usuário solicita a busca.
+* O menu Catálogo de Serviços após a refatoração do ponto de transmissão e recepção de informação ‘*endpoint*’ detalha o resultado somente quando o usuário solicita a busca.
 
-* Associar o mesmo preço de *USN* *Tag* para vários contratos: foi eliminada a restrição de tag para apenas um contrato.
+* Associar o mesmo preço de *USN Tag* para vários contratos: foi eliminada a restrição de *tag* para apenas um contrato.
 
-* O menu Tarefas recebe a atualização do registro de *taks* nas atividades ocorridas no *Billing* dentro do portal.
+* O menu Tarefas recebe a atualização do registro de *taks* nas atividades ocorridas no *Billing* dentro do portal. 
 
 * Adição de variáveis ao criar uma tag virtual.
 
@@ -167,7 +167,7 @@ Em referência à plataforma uCloud, na Ustore a prática adotada da melhoria co
 
 * Melhoria na visualização do fechamento de faturas com usuários multicontratos: Um usuário vinculado a mais de um contrato, tem a opção de ver o fechamento da fatura com os gastos de cada contrato específico individualmente.
 
-NOVAS IMPLEMENTAÇÕES
+Novas Implementações
 ====================
 
 Neste relato a Ustore divulga as sete inovações ocorridas na plataforma uCloud, a seguir descritas de forma resumida:
@@ -176,7 +176,7 @@ Neste relato a Ustore divulga as sete inovações ocorridas na plataforma uCloud
 
 2. **Customização do branding a nível de Contrato**: A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário tem as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
 
-3. **Dimensão**: Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar tags distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *billling* quais recursos pertencem a uma determinada dimensão.
+3. **Dimensão**: Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada dimensão.
 
 4. **Import e Export de ofertas de serviço em (XML + YAML)**: Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de uma nuvem qualquer contanto que esteja vinculada ao Portal uCloud. Antes era possível importar e exportar arquivos em formato JSON, então foram adicionadas as opções de importar e exportar os arquivos também em formato XML e YAML.
 
