@@ -125,7 +125,7 @@ Na Ustore a prática da melhoria contínua adotada no aprimoramento da plataform
 
 * Atualização das cotas em toda a plataforma uCloud: A unificação das cotas em todos os ambientes padroniza a visualização das cotas do usuário nas funcionalidades de contrato e grupo. 
 
-* No menu da funcionalidade de Configuração Geral contempla a adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada. 
+* O menu da funcionalidade de Configuração Geral contempla a adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada. 
 
 * Atualização do formato de recuperação da senha.
 
