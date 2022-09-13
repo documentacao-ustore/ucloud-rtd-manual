@@ -4,7 +4,8 @@ uCloud - Release Notes
 
 .. image:: /figuras/ucloud.png
    :alt: Logo uCloud
-   :align: center
+   :scale: 50 %
+   :align: left
 =======
 
 
