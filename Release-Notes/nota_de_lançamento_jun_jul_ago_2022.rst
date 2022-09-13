@@ -125,7 +125,7 @@ Na Ustore a prática da melhoria contínua adotada no aprimoramento da plataform
 
 * Atualização das cotas em toda a plataforma uCloud: A unificação das cotas em todos os ambientes padroniza a visualização das cotas do usuário nas funcionalidades de contrato e grupo. 
 
-* O menu da funcionalidade de Configuração Geral contempla a adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada. 
+* No menu da funcionalidade de Configuração, o submenu Geral contempla a adição do botão (ON/OFF) na ativação automática e do uCloud v.2, este botão indica que a função está habilitada ou desabilitada.
 
 * Atualização do formato de recuperação da senha.
 
@@ -135,7 +135,7 @@ Na Ustore a prática da melhoria contínua adotada no aprimoramento da plataform
 
 * Atualização na funcionalidade “*Checkbox*” associando todas as VMs no contrato e no grupo.
 
-* No Menu Administração ao clicar em Contratos e selecionar um determinado Contrato da lista, é permitido "Adicionar Administradores" seja usuário ou grupo de usuários. Para facilitar a busca, foi adicionada uma barra de pesquisa, que entrega como resultado o nome de um usuário ou um grupo.
+* No Menu Administração ao clicar no submenu Contratos e selecionar um determinado Contrato da lista, é permitido "Adicionar Administradores" seja usuário ou grupo de usuários. Para facilitar a busca, foi adicionada uma barra de pesquisa, que entrega como resultado o nome de um usuário ou um grupo. 
 
 * Criação de cota por quantidade de VM/Instância por contrato. 
 
