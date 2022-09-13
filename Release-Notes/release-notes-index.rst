@@ -12,14 +12,13 @@ As notas de evolução da Plataforma uCloud (*Release Notes*) são distribuídas
 
 
 
-Lançamento: Maio 
-----------------
+Lançamento:
+-----------
+
+::doc:`nota-de-lançamento-ucloud-2022-jun.jul.ago` |icone_clickhere| 
 
 ::doc:`release-notes-ucloud-2022-07-01` |icone_clikhere|
 
-
-Lançamento: Março
------------------
 
 ::doc:`release-notes-ucloud-2022-03-20` |icone_clikhere|
 
@@ -33,8 +32,10 @@ Las notas de evolución de la plataforma uCloud (*Notas de la versión*) se dist
 
 
 
-Lanzamiento: Mayo
------------------
+Lanzamiento:
+------------
+
+::doc:`notas-de-publicación-ucloud-2022-jun.jul.ago` |icone_clickhere|
 
 ::doc:`release-notes.spa-ucloud-2022-mayo` |icone_clikhere|
 
@@ -47,8 +48,10 @@ uCloud Platform evolution notes (Release Notes) are distributed at different tim
 
 
 
-Release: May
-------------
+Release:
+--------
+
+::doc:`press-release-ucloud-2022-jun.jul.aug` |icone_clikhere|
 
 ::doc:`release-notes.ing-ucloud-2022-mayo` |icone_clikhere|
 
