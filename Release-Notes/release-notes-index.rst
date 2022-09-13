@@ -5,8 +5,9 @@ uCloud - Release Notes
 .. image:: /figuras/ucloud.png
    :alt: Logo uCloud
    :scale: 50 %
-   :align: left
+   :align: center
 =======
+
 
 
 Versão Português
