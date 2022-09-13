@@ -2,8 +2,11 @@ uCloud - Release Notes
 ======================
 
 
-Ano 2022
-~~~~~~~~
+.. image:: /figuras/ucloud.png
+   :alt: Logo uCloud
+   :align: center
+=======
+
 
 Versão Português
 ~~~~~~~~~~~~~~~~
