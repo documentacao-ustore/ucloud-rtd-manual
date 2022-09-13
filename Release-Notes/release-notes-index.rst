@@ -1,5 +1,5 @@
-uCloud - Release Notes
-======================
+Notas de evolução da plataforma uCloud
+======================================
 
 
 .. image:: /figuras/ucloud.png
@@ -13,14 +13,14 @@ uCloud - Release Notes
 Versão Português
 ~~~~~~~~~~~~~~~~
 
-As notas de evolução da Plataforma uCloud (*Release Notes*) são distribuídas em períodos diferentes das atualizações de versão.
+As notas de evolução da Plataforma uCloud (*Press e Release Notes*) são distribuídas em períodos diferentes das atualizações de versão.
 
 
 
 Lançamento:
 -----------
 
-::doc:`nota-de-lançamento-ucloud-2022-jun.jul.ago` |icone_clickhere| 
+::doc:`nota-de-lançamento-ucloud-2022-jun.jul.ago` |icone_clikhere| 
 
 ::doc:`release-notes-ucloud-2022-07-01` |icone_clikhere|
 
@@ -40,7 +40,7 @@ Las notas de evolución de la plataforma uCloud (*Notas de la versión*) se dist
 Lanzamiento:
 ------------
 
-::doc:`notas-de-publicación-ucloud-2022-jun.jul.ago` |icone_clickhere|
+::doc:`notas-de-publicación-ucloud-2022-jun.jul.ago` |icone_clikhere|
 
 ::doc:`release-notes.spa-ucloud-2022-mayo` |icone_clikhere|
 
