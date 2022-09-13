@@ -1,4 +1,4 @@
-uCloud - Press Release June|July|August| - 2022
+uCloud - Press Release June|July|August - 2022
 ===============================================
 
 .. figure:: /figuras/ucloud.png
