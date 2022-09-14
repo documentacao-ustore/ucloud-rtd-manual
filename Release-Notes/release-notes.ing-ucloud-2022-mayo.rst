@@ -210,7 +210,7 @@ There are two classes of “Accounts”, they are categorized into two types, th
 
   In case of a multinational corporation using an Integrator account, it can be considered an “Integrator Account” for the countries that comprise it: Mexico, Brazil, Chile and Colombia.
 
-  The corporation is responsible for creating other accounts and escalating the other users' permissions. Its particularity is the list of all the producer accounts, the list of all associated contracts and can apply business rules.
+  The corporation is responsible for creating other accounts and escalating the other users` permissions. Its particularity is the list of all the producer accounts, the list of all associated contracts and can apply business rules.
 
 * \ B. \ **Producer Account** This producer account belongs to the organization which consumes the resource, represents a minor clustering unit and can operate the entire portal.
 
