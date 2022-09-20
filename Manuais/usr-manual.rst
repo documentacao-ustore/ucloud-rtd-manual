@@ -2064,10 +2064,10 @@ O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de re
 O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
 
 1. Minha Fatura;
-1. Financeiro; 
-1. Relatório Consolidado de Faturamento; 
-1. Conta Master; 
-1. Tendência de Faturamento.   
+2. Financeiro; 
+3. Relatório Consolidado de Faturamento; 
+4. Conta Master; 
+5. Tendência de Faturamento.   
 
 
 Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar na opção de `Custo de Budgets`, evidenciado na tela abaixo:
