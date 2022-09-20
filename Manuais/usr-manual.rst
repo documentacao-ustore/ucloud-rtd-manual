@@ -1779,24 +1779,25 @@ Para acessar o submenu *Budget* no portal uCloud, o usuário deve clicar no menu
 ----
 
 
-Ao selecionar na lista o contrato desejado, é exibida uma nova tela com os detalhes do contrato. A tela de detalhamento do contrato pode ser considerada uma das maiores telas da plataforma uCloud, entrega dezessete tipos diferentes de dados, exibindo os cards: 
-* 1.Geral; 
-* 2.Categorias de Preço;
-* 3.Preço dos recursos; 
-* `4.Budgets`;
-* 5.Contrato primário;
-* 6.Administradores; 
-* 7.Regras de Faturamento; 
-* 8.Políticas de Alertas; 
-* 9.Cota do Contrato; 
-* 10.Dados da empresa; 
-* 11.Virtual Datacenters concedidos; 
-* 12.Usuários; 
-* 13.Grupos; 
-* 14.Dados de faturamento; 
-* 15.Perfis de Permissionamento do Contrato e suas Permissões; 
-* 16.Produtos; 
-* 17.Perfil de Faturamento por Container.
+Ao selecionar na lista o contrato desejado, é exibida uma nova tela com os detalhes do contrato. A tela de detalhamento do contrato pode ser considerada uma das maiores telas da plataforma uCloud, entrega dezessete tipos diferentes de dados, exibindo os cards:
+
+  * 1.Geral; 
+  * 2.Categorias de Preço;
+  * 3.Preço dos recursos; 
+  * `4.Budgets`;
+  * 5.Contrato primário;
+  * 6.Administradores; 
+  * 7.Regras de Faturamento; 
+  * 8.Políticas de Alertas; 
+  * 9.Cota do Contrato; 
+  * 10.Dados da empresa; 
+  * 11.Virtual Datacenters concedidos; 
+  * 12.Usuários; 
+  * 13.Grupos; 
+  * 14.Dados de faturamento; 
+  * 15.Perfis de Permissionamento do Contrato e suas Permissões; 
+  * 16.Produtos; 
+  * 17.Perfil de Faturamento por Container.
 
 
 .. figure:: /figuras/fig_budget/02_budget_tela_contrato.png
@@ -1829,7 +1830,9 @@ O card Budget exibe dois botões, `[REFRESH]` e `[+Adicionar]`. Neste exemplo de
 Criando *Budget* e *Sub Budget*
 -------------------------------
 
-O modal “Criar Budget”, apresenta os campos: nome, intervalo, mês, *“checkbox”* para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. Em seguida, os detalhes do sub budgets como: desambiguação, seleção de container, valor e os botões `[+Incluir Subbudget] [Cancelar]` e `[Criar]`.
+O modal “Criar Budget”, apresenta os campos: nome, intervalo, mês, *“checkbox”* para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
+
+Em seguida, são exibidos os detalhes do sub budgets como: desambiguação, seleção de container, valor e os botões `[+Incluir Subbudget] [Cancelar]` e `[Criar]`.
 
 
 .. important:: A desambiguação é responsável pelo propósito do sub budget, assim, ao clicar no “Checkbox”, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimension - TagUsn. 
@@ -1867,7 +1870,9 @@ Intervalo Trimestral
 ---- 
 
 
-O intervalo "Trimestral", gera mais de uma opção para escolher o período. Ao clicar neste menu suspenso, que apresenta-se ao lado do card “Detalhes do *sub budgets*”, a aplicação permite ao usuário escolher qualquer um dos trimestres disponíveis dentro do período de um ano, iniciando sempre a partir do mês escolhido, localizado no campo “Selecione o mês”.
+O intervalo "Trimestral", gera mais de uma opção para escolher o período. Ao clicar neste menu suspenso, que apresenta-se ao lado do card “Detalhes do *sub budgets*”. 
+
+A aplicação permite ao usuário escolher qualquer um dos trimestres disponíveis dentro do período de um ano, iniciando sempre a partir do mês escolhido, localizado no campo “Selecione o mês”.
 
 
  
@@ -1966,7 +1971,7 @@ Neste passo, o valor do *sub budget* deve ser preenchido, e ao ser digitado o va
 Completando todos os dados, o usuário deve clicar no botão de “Incluir Subbudget”, para finalizar a inclusão do *sub budget*. Como resultado da operação, a tela lista o *sub budget* incluído conforme a imagem abaixo:
 
 
-.. note:: Saldo remanescente corresponde ao valor que indica o saldo restante do budget, equivale ao valor do budget subtraído pelo somatório do valor de todos os sub budgets. Se o saldo remanescente for diferente de 0, o botão "Criar Budget" permanece inabilitado. 
+.. important:: Saldo remanescente corresponde ao valor que indica o saldo restante do budget, equivale ao valor do budget subtraído pelo somatório do valor de todos os sub budgets. Se o saldo remanescente for diferente de 0, o botão "Criar Budget" permanece inabilitado. 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
    :alt: Criar budget incluir sub 
