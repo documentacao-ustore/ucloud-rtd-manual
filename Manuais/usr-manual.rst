@@ -2053,19 +2053,21 @@ Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível esc
 É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas, na sequência, são exibidos duas classes de painéis baseados em consumo e fatura. 
 
 O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de relatórios: 
-* 1. Histórico de Serviço; 
-* 2. Custo Cadenciado; 
-* 3. Custo Relacional de Produto; 
-* 4. Visualização de Recursos; 
-* `5. Custos de Budgets`; 
-* 6. Relatórios baseados em limite de custo.
+
+1. Histórico de Serviço; 
+2. Custo Cadenciado; 
+3. Custo Relacional de Produto; 
+4. Visualização de Recursos; 
+5. **Custos de Budgets**; 
+6. Relatórios baseados em limite de custo.
 
 O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
-* 1. Minha Fatura;
-* 2. Financeiro; 
-* 3. Relatório Consolidado de Faturamento; 
-* 4. Conta Master; 
-* 5. Tendência de Faturamento.   
+
+1. Minha Fatura;
+1. Financeiro; 
+1. Relatório Consolidado de Faturamento; 
+1. Conta Master; 
+1. Tendência de Faturamento.   
 
 
 Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar na opção de `Custo de Budgets`, evidenciado na tela abaixo:
@@ -2077,7 +2079,7 @@ Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar
 ----
   
 
-Na tela de Detalhamento de custos de Budgets, o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
+Na tela de Detalhamento de Custos de Budgets, o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
 
 .. figure:: /figuras/fig_budget/18_detalhamento_custos.png
    :alt: Detalhamento de custos 
@@ -2105,24 +2107,26 @@ Ao final da seleção do período, como resultado da pesquisa, o sistema filtra 
   
 
 Ao visualizar a lista dos **Budgets**, é exibida na tela as seguintes informações sobre eles:
-* 1. Período;
-* 2. Quantidade consumida pelos sub budgets em porcentagem;
-* 3. Nome;
-* 4. Intervalo;
-* 5. Tipo: Por custo ou por quantidade consumida;
-* 6. Valor consumido pelos seus sub Budgets;
-* 7. Barra de consumo;
-* 8. Valor alocado para o *budget*.
+
+1. Período;
+2. Quantidade consumida pelos sub budgets em porcentagem;
+3. Nome;
+4. Intervalo;
+5. Tipo: Por custo ou por quantidade consumida;
+6. Valor consumido pelos seus sub Budgets;
+7. Barra de consumo;
+8. Valor alocado para o *budget*.
 
 
-Ao clicar no *budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são: 
-* 1. Período;
-* 2. Quantidade que a desambiguação consume do valor alocado para o *sub budget* em porcentagem;
-* 3. Nome;
-* 4. Tipo de desambiguação;
-* 5. Valor consumido da desambiguação;
-* 6. Barra de consumo;
-* 7. Valor alocado para o sub budget.
+Ao clicar no *budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
+
+1. Período;
+2. Quantidade que a desambiguação consume do valor alocado para o *sub budget* em porcentagem;
+3. Nome;
+4. Tipo de desambiguação;
+5. Valor consumido da desambiguação;
+6. Barra de consumo;
+7. Valor alocado para o sub budget.
 
 
 .. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
