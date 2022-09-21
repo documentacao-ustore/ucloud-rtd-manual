@@ -1760,7 +1760,7 @@ Menu Administração / Contratos
 
 
 
-O Budget é um relatório baseado em consumo criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de *Budgets*.
+O *Budget* é um relatório baseado em consumo criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de *Budgets*.
 
 
 Quando traduzido do inglês para o português, *“budget”* refere-se à palavra ´orçamento´ e corresponde a uma nova implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
@@ -1807,7 +1807,7 @@ Ao selecionar na lista o contrato desejado, é exibida uma nova tela com os deta
 ----
   
 
-Nesta tela detalhada do contrato, o usuário deve usar a barra de rolagem e navegar até encontrar o quarto card nomeado *Budget* abaixo apresentado:
+Nesta tela detalhada do contrato, o usuário deve usar a barra de rolagem e navegar até encontrar o quarto `card` nomeado *Budget* abaixo apresentado:
 
 .. figure:: /figuras/fig_budget/03_contrato_budget.png
    :alt: Contrato tela Budget  
@@ -1817,7 +1817,11 @@ Nesta tela detalhada do contrato, o usuário deve usar a barra de rolagem e nave
 
 
 
-O card Budget exibe dois botões, `[REFRESH]` e `[+Adicionar]`. Neste exemplo de imagem ainda não foram criados os *Budgets*, por isto está em branco, com o símbolo de atenção. Clicando no botão `“+ Adicionar”`, o modal “Criar Budget” é apresentado, e a partir desse ponto, o usuário inicia a primeira criação. 
+O `card Budget` exibe dois botões, `[REFRESH]` e `[+Adicionar]`. 
+
+.. attention:: Neste exemplo de imagem ainda não foram criados os *Budgets*, por isto está em branco, com o símbolo de atenção. 
+   
+Clicando no botão `“+ Adicionar”`, o modal “Criar Budget” é apresentado, e a partir desse ponto, o usuário inicia a primeira criação. 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
    :alt: Budget Adicionar 
@@ -1830,9 +1834,9 @@ O card Budget exibe dois botões, `[REFRESH]` e `[+Adicionar]`. Neste exemplo de
 Criando *Budget* e *Sub Budget*
 -------------------------------
 
-O modal “Criar Budget”, apresenta os campos: nome, intervalo, mês, *“checkbox”* para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
+O modal “Criar *Budget*”, apresenta os campos: nome, intervalo, mês, *“checkbox”* para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
 
-Em seguida, são exibidos os detalhes do sub budgets como: desambiguação, seleção de container, valor e os botões `[+Incluir Subbudget] [Cancelar]` e `[Criar]`.
+Em seguida, são exibidos os detalhes do `sub budgets` como: desambiguação, seleção de container, valor e os botões `[+Incluir Subbudget] [Cancelar]` e `[Criar]`.
 
 
 .. important:: A desambiguação é responsável pelo propósito do sub budget, assim, ao clicar no “Checkbox”, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimension - TagUsn. 
@@ -1857,7 +1861,7 @@ Após clicar no botão `[+Adicionar]`, a tela da criação do *Budget* é aprese
 ---- 
  
             
-No processo de criar e configurar o *Budget*, o usuário tem a opção de selecionar na plataforma o “Intervalo” que pretende gerar no relatório. A seguir são detalhadas as telas correspondentes aos quatro tipos de intervalos permitidos nesta criação.
+No processo de criar e configurar o *Budget*, o usuário tem a opção de selecionar na plataforma o “Intervalo” que pretende gerar no relatório. A seguir, são detalhadas as telas correspondentes aos quatro tipos de intervalos permitidos nesta criação.
 
 
 Intervalo Trimestral
@@ -1870,7 +1874,7 @@ Intervalo Trimestral
 ---- 
 
 
-O intervalo "Trimestral", gera mais de uma opção para escolher o período. Ao clicar neste menu suspenso, que apresenta-se ao lado do card “Detalhes do *sub budgets*”. 
+Ao observar a figura acima, no espaço "Intervalo" é necessário clicar na opção "Trimestral", como resultado a interface apresenta um "*checkbox*" com quatro opções de período, localizado ao lado do `card` "Detalhes do *sub budgets*". O usuário deve selecionar de acordo com o trimestre que deseja gerar o relatório.
 
 A aplicação permite ao usuário escolher qualquer um dos trimestres disponíveis dentro do período de um ano, iniciando sempre a partir do mês escolhido, localizado no campo “Selecione o mês”.
 
@@ -1885,9 +1889,9 @@ Intervalo Semestral
 
 ---- 
   
-No menu suspenso de “Intervalo”, ao selecionar a opção “Semestral”, o *card* referente aos períodos apresentados como intervalos semestrais aparece ao lado dos detalhes do *sub budget* em forma de *“checkbox”*.  
+No menu suspenso de “Intervalo”, ao selecionar a opção "Semestral", o *card* referente aos períodos apresentados como intervalos semestrais aparece ao lado dos detalhes do *sub budget*, em forma de *“checkbox”*.  
 
-A aplicação gera duas opções de escolha com os semestres disponíveis dentro do período de um ano, iniciando a partir do mês escolhido localizado no campo “Selecione o mês”.
+A aplicação gera duas alternativas com os semestres disponíveis dentro do período de um ano. Iniciando a partir do mês escolhido, localizado no campo “Selecione o mês”.
 
 
 Intervalo Anual
@@ -1902,18 +1906,18 @@ Intervalo Anual
 
 Ao selecionar o intervalo anual, aparece uma listagem com todos os meses correspondentes ao período de 1 ano, a partir do mês selecionado no campo “Selecione o mês”.  
 
-Permite criar um *sub Budget* para cada mês do ano, manualmente ou marcando a opção “igual para todos os meses”. 
+Permite criar um *sub budget* para cada mês do ano, manualmente ou marcando a opção “igual para todos os meses”. 
 
-Ao incluir um *sub Budget*, o mesmo é adicionado para todos os meses, lembrando que o valor do *Budget* refere-se ao ano. 
+Ao incluir um *sub budget*, o mesmo é adicionado para todos os meses, lembrando que o valor do *Budget* refere-se ao ano. 
 
 
-.. attention:: Criando sub Budgets para todos os meses do ano, o somatório deve limitar-se ao valor total do budget.
+.. attention:: Criando sub budgets para todos os meses do ano, o somatório deve limitar-se ao valor total do budget.
 
 
 Intervalo Mensal
 ~~~~~~~~~~~~~~~~
 
-A tela Intervalo Mensal é mostrada na continuação do processo de preenchimento dos campos da tela “Criar Budget”. Para o intervalo mensal, o relatório contempla o mês escolhido.
+A tela Intervalo Mensal é mostrada na continuação do processo de preenchimento dos campos da tela “Criar *Budget*”. Para o intervalo mensal, o relatório contempla o mês escolhido.
 
 
 Na sequência abaixo, o usuário deve concluir os espaços restantes, completando este modal da criação de *Budget*:
@@ -1928,7 +1932,11 @@ Na sequência abaixo, o usuário deve concluir os espaços restantes, completand
 ---- 
   
 
-* `Budget Recorrente`: Responsável pela ativação, ou não, do relatório contínuo. Esta função habilita a criação automática, por exemplo: no próximo mês será criado outro budget, no caso de trimestral e semestral, será criado um mês depois do último mês do período. 
+* `Budget Recorrente`: Responsável pela ativação, ou não, do relatório contínuo. 
+
+Esta função habilita a criação automática. 
+
+Por exemplo: no próximo mês será criado outro *budget*, no caso de trimestral e semestral, será criado um mês depois do último mês do período. 
   
 .. figure:: /figuras/fig_budget/07_criar_budget_recorrente.png
    :alt: Criar budget recorrente  
@@ -1942,7 +1950,7 @@ Na sequência abaixo, o usuário deve concluir os espaços restantes, completand
 Neste espaço, o usuário deve preencher o campo de Valor com a quantia disponível para o *budget*, e selecionar se este valor é por custo ou por quantidade consumida. 
 
 
-* `Por custo ou por quantidade consumida`: *“Checkbox”* responsável por indicar qual unidade do budget é utilizada como referência para exibir o relatório em tela, por custo (valor em reais) ou por quantidade consumida (valor em *amount* dos recursos). Estas opções estão localizadas do lado direito do campo de preenchimento do valor.
+* `Por custo ou por quantidade consumida`: *“Checkbox”* responsável por indicar qual unidade do `budget` é utilizada como referência para exibir o relatório em tela, por custo (valor em reais) ou por quantidade consumida (valor em *amount* dos recursos). Estas opções estão localizadas do lado direito do campo de preenchimento do valor.
 
 
 Após o preenchimento desses dados, devem ser completados os campos sobre os detalhes do *sub budgets*. Para isso, o usuário deve selecionar que tipo de Desambiguação deseja no relatório, se é de *Container*, *Account Master*, *CloudType*, *Dimension* ou *TagUsn*.
@@ -1956,7 +1964,7 @@ Após o preenchimento desses dados, devem ser completados os campos sobre os det
 
 ---- 
     
-Selecionado o tipo de Desambiguação, o próximo ponto é preencher no *card* “Detalhes do sub budgets” o valor de *sub budgets*. 
+Selecionado o tipo de Desambiguação, o próximo ponto é preencher o valor de *sub budgets*, no *card* “Detalhes do sub budgets” . 
 
 .. figure:: /figuras/fig_budget/09_criar_budget_valor.png
    :alt: Criar budget valor 
@@ -1965,13 +1973,13 @@ Selecionado o tipo de Desambiguação, o próximo ponto é preencher no *card* �
 ---- 
 
 
-Neste passo, o valor do *sub budget* deve ser preenchido, e ao ser digitado o valor pretendido. O saldo restante é exibido logo abaixo do campo de valor. 
+Neste passo, o valor do *sub budget* deve ser preenchido, e ao ser digitado o valor pretendido, o saldo restante é exibido logo abaixo do campo de valor. 
 
 
-Completando todos os dados, o usuário deve clicar no botão de “Incluir Subbudget”, para finalizar a inclusão do *sub budget*. Como resultado da operação, a tela lista o *sub budget* incluído conforme a imagem abaixo:
+Completando todos os dados, o usuário deve clicar no botão “Incluir Subbudget”, para finalizar a inclusão. Como resultado da operação, a tela exibe a lista o *sub budget* incluído conforme a imagem abaixo:
 
 
-.. important:: Saldo remanescente corresponde ao valor que indica o saldo restante do budget, equivale ao valor do budget subtraído pelo somatório do valor de todos os sub budgets. Se o saldo remanescente for diferente de 0, o botão "Criar Budget" permanece inabilitado. 
+.. important:: O saldo remanescente corresponde ao valor que indica o saldo restante do budget, equivale ao valor do budget subtraído pelo somatório do valor de todos os sub budgets.  O botão "Criar Budget" permanece inabilitado se o saldo remanescente for diferente de 0. 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
    :alt: Criar budget incluir sub 
@@ -1980,7 +1988,7 @@ Completando todos os dados, o usuário deve clicar no botão de “Incluir Subbu
 ---- 
   
 
-Para criar o segundo *Budget*, o usuário deve seguir os passos detalhados acima no ciclo da primeira criação do *Budget*, até o ponto de “Detalhes do Sub Budgets” que está apresentado abaixo:
+Para criar o segundo *Budget*, o usuário deve seguir os passos detalhados acima, no ciclo da primeira criação do *Budget*. Seguir até o ponto de “Detalhes do Sub Budgets” que está apresentado abaixo:
 
 .. figure:: /figuras/fig_budget/08_desambiguação.png
    :alt: Desambiguação   
@@ -1988,7 +1996,7 @@ Para criar o segundo *Budget*, o usuário deve seguir os passos detalhados acima
 
 ----  
 
-Neste fluxo, para detalhar o sub budget com uma desambiguação distinta, basta selecionar um tipo diferente do usado anteriormente, e ao clicar em *“Dimension”*, o campo ao lado permanece disponível para a seleção de uma dimensão.
+Neste fluxo, para detalhar o `sub budget` com uma desambiguação distinta, basta selecionar um tipo diferente do usado anteriormente, e ao clicar em *“Dimension”*, o campo ao lado permanece disponível para a seleção de uma determinada dimensão.
 
 .. figure:: /figuras/fig_budget/12_subbudget_detalhes.png
    :alt: Subbudget detalhes  
@@ -1997,7 +2005,10 @@ Neste fluxo, para detalhar o sub budget com uma desambiguação distinta, basta 
 ----
   
 
-Ao preencher o valor desejado, é necessário observar a quantia disponível. Logo abaixo do campo, é exibida a quantia restante do saldo. Após completados os campos, basta pressionar no botão “Incluir Subbudget” ao lado do campo de Valor, para que o *sub budget* de desambiguação do tipo “Dimension” criado junte-se ao *sub budget*"de desambiguação do tipo “Container" gerado anteriormente. Ambos apresentados na listagem abaixo:
+Ao preencher o valor desejado, é necessário observar a quantia disponível na área "Saldo remanescente", localizada abaixo do espaço "Valor". Após completá-lo, basta pressionar o botão “Incluir Subbudget” ao lado da lacuna "Valor", para que o *sub budget* de desambiguação do tipo “Dimension” criado junte-se ao *sub budget*"de desambiguação do tipo “Container" gerado anteriormente. 
+
+Ambos apresentados na listagem abaixo:
+
 
 .. figure:: /figuras/fig_budget/14_subbudget_criado.png
    :alt: Subbudget criado 
@@ -2014,7 +2025,9 @@ Editando Budget
 
 Para editar um *Budget*, basta o usuário acessar o menu Administração, e em seguida clicar no submenu Contratos, a plataforma exibe a lista de todos os contratos existentes.
 
-Nela o usuário deve clicar no contrato relacionado ao budget que deseja editar. A tela carregada apresenta o detalhamento deste contrato, sendo necessário usar a barra de rolagem e navegar até encontrar o quarto *card Budget*. Nele são exibidas cinco colunas: Nome, Intervalo, Data de início, Valor e Ações.
+Nela o usuário deve clicar no contrato relacionado ao `budget` que deseja editar. A tela carregada apresenta o detalhamento deste contrato, sendo necessário usar a barra de rolagem e navegar até encontrar o quarto *card Budget*. 
+
+Neste `card` são exibidas cinco colunas: Nome, Intervalo, Data de início, Valor e Ações.
 
 A coluna “Ações” permite ao usuário proceder duas execuções representadas nos ícones `[Editar]` e `[Excluir]`.
 
@@ -2034,7 +2047,7 @@ Ao acionar o botão `[Editar]` no *Budget* escolhido, o modal de edição é apr
 ----
   
 
-Nesta tela é possível alterar o nome, mês, valor, se o *budget* é por custo ou por quantidade consumida, e também fazer mudanças nos *sub budgets*. Destacando que existe a limitação do intervalo, após a criação de um *budget* é impossível alterá-lo.
+Nesta tela é possível alterar o nome, mês, valor, se o *budget* é por custo ou por quantidade consumida, e também, disponibiliza fazer mudanças nos *sub budgets*. Destacando que existe a limitação do intervalo, após a criação de um *budget* é impossível alterá-lo.
 
 
 .. important:: Em resumo, os sub budgets criados não são alterados, é necessário remover e adicionar o novo budget.
@@ -2042,15 +2055,15 @@ Nesta tela é possível alterar o nome, mês, valor, se o *budget* é por custo 
 
 
 
-Visualizando o Relatório de Custo de Budgets
---------------------------------------------
+Visualizando o Relatório de Custo de `Budgets`
+----------------------------------------------
 
-Para visualizar o Relatório de Custo de Budgets, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
+Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
 
 Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível escolher entre acessar a própria fatura ou gerenciá-la, de um dos grupos ou contratos administrados pelo usuário logado. 
 
 
-É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas, na sequência, são exibidos duas classes de painéis baseados em consumo e fatura. 
+É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
 
 O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de relatórios: 
 
@@ -2079,7 +2092,7 @@ Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar
 ----
   
 
-Na tela de Detalhamento de Custos de Budgets, o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
+Na tela de "Detalhamento de Custos de Budgets", o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
 
 .. figure:: /figuras/fig_budget/18_detalhamento_custos.png
    :alt: Detalhamento de custos 
@@ -2088,7 +2101,7 @@ Na tela de Detalhamento de Custos de Budgets, o usuário deve selecionar um cont
 ----
   
 
-Ao clicar no ícone calendário a plataforma mostra um calendário, onde o usuário pode selecionar um período e pesquisar.
+Ao clicar em "Período" o ícone calendário é exibido pela plataforma, neste o usuário deve selecionar o mês ou meses desejado. Ao final clicar em pesquisar.
 
 .. figure:: /figuras/fig_budget/19_detalhamento_período.png
    :alt: Detalhamento período 
@@ -2097,7 +2110,7 @@ Ao clicar no ícone calendário a plataforma mostra um calendário, onde o usuá
 ----
 
 
-Ao final da seleção do período, como resultado da pesquisa, o sistema filtra todos os budgets dentro do período determinado.
+Ao final da seleção do período, como resultado da pesquisa, o sistema filtra todos os `budgets` dentro do período determinado.
 
 .. figure:: /figuras/fig_budget/20_detalhe_subbudget.png
    :alt: Detalhamento subbudget 
@@ -2109,24 +2122,24 @@ Ao final da seleção do período, como resultado da pesquisa, o sistema filtra 
 Ao visualizar a lista dos **Budgets**, é exibida na tela as seguintes informações sobre eles:
 
 1. Período;
-2. Quantidade consumida pelos sub budgets em porcentagem;
+2. Quantidade consumida pelos `sub budgets` em porcentagem;
 3. Nome;
 4. Intervalo;
 5. Tipo: Por custo ou por quantidade consumida;
-6. Valor consumido pelos seus sub Budgets;
+6. Valor consumido pelos seus `sub Budgets`;
 7. Barra de consumo;
-8. Valor alocado para o *budget*.
+8. Valor alocado para o `budget`.
 
 
-Ao clicar no *budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
+Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
 
 1. Período;
-2. Quantidade que a desambiguação consume do valor alocado para o *sub budget* em porcentagem;
+2. Quantidade que a desambiguação consume do valor alocado para o `sub budget` em porcentagem;
 3. Nome;
 4. Tipo de desambiguação;
 5. Valor consumido da desambiguação;
 6. Barra de consumo;
-7. Valor alocado para o sub budget.
+7. Valor alocado para o `sub budget`.
 
 
 .. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
@@ -5552,6 +5565,96 @@ Existem três quadros neste relatório com informações de inteligência de neg
 * **Seção Storage**: Este quadro apresenta uma lita com o(s) nome(s), e o respectivo tamanho alocagdo (em *Gigabytes*), das principais áreas de armazenamento ativas e existentes referente ao perído consultado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título do nome do Storage, a Plataforma uCloud classifica a lista de nomes de *storages* de forma alfabética crescente (a – z) ou decrescente (z – a). Ao clicar com o botão do mouse no título do tamanho (total), a Plataforma uCloud classifica a lista tamanho crescente ou decrescente.
 
 * **Grafico Consumo por tipo de armazenameto**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreass do gráfico, a Plataforma uCloud apresenta uma janela popup com a(s) informação(ões) de cada nome de área de armazenamento.
+
+
+Visualizando o Relatório de Custo de `Budgets`
+----------------------------------------------
+
+Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
+
+Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível escolher entre acessar a própria fatura ou gerenciá-la, de um dos grupos ou contratos administrados pelo usuário logado. 
+
+
+É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
+
+O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de relatórios: 
+
+1. Histórico de Serviço; 
+2. Custo Cadenciado; 
+3. Custo Relacional de Produto; 
+4. Visualização de Recursos; 
+5. **Custos de Budgets**; 
+6. Relatórios baseados em limite de custo.
+
+O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
+
+1. Minha Fatura;
+2. Financeiro; 
+3. Relatório Consolidado de Faturamento; 
+4. Conta Master; 
+5. Tendência de Faturamento.   
+
+
+Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar na opção de `Custo de Budgets`, evidenciado na tela abaixo:
+
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png
+   :alt: Painéis baseados em consumo  
+   :align: center
+
+----
+  
+
+Na tela de "Detalhamento de Custos de Budgets", o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
+
+.. figure:: /figuras/fig_budget/18_detalhamento_custos.png
+   :alt: Detalhamento de custos 
+   :align: center
+
+----
+  
+
+Ao clicar em "Período" o ícone calendário é exibido pela plataforma, neste o usuário deve selecionar o mês ou meses desejado. Ao final clicar em pesquisar.
+
+.. figure:: /figuras/fig_budget/19_detalhamento_período.png
+   :alt: Detalhamento período 
+   :align: center 
+
+----
+
+
+Ao final da seleção do período, como resultado da pesquisa, o sistema filtra todos os `budgets` dentro do período determinado.
+
+.. figure:: /figuras/fig_budget/20_detalhe_subbudget.png
+   :alt: Detalhamento subbudget 
+   :align: center 
+
+----
+  
+
+Ao visualizar a lista dos **Budgets**, é exibida na tela as seguintes informações sobre eles:
+
+1. Período;
+2. Quantidade consumida pelos `sub budgets` em porcentagem;
+3. Nome;
+4. Intervalo;
+5. Tipo: Por custo ou por quantidade consumida;
+6. Valor consumido pelos seus `sub Budgets`;
+7. Barra de consumo;
+8. Valor alocado para o `budget`.
+
+
+Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
+
+1. Período;
+2. Quantidade que a desambiguação consume do valor alocado para o `sub budget` em porcentagem;
+3. Nome;
+4. Tipo de desambiguação;
+5. Valor consumido da desambiguação;
+6. Barra de consumo;
+7. Valor alocado para o `sub budget`.
+
+
+.. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
 
 
 .. Custos de Budgets
