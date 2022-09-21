@@ -5566,9 +5566,10 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 * **Grafico Consumo por tipo de armazenameto**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreass do gráfico, a Plataforma uCloud apresenta uma janela popup com a(s) informação(ões) de cada nome de área de armazenamento.
 
+====
 
-Visualizando o Relatório de Custo de `Budgets`
-----------------------------------------------
+Relatório de Custo de `Budgets`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
 
