@@ -4898,6 +4898,11 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 .. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
 
 
+Relatórios
+==========
+
+
+
 Painéis Baseados em Consumo
 ---------------------------
 
@@ -5108,7 +5113,7 @@ Abaixo descrevemos as seções deste relatório.
 A Plataforma uCloud utiliza um ícone para demonstrar a tendência destes resultados e utilizando os seguintes ícones:
 
 * **Ícone Seta Acima** |icone_seta_acima|: Este ícone representa um resultado superior (tendência de alta) ao mês anterior.
-* **Ícone Seta Abaixo** |icone seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
+* **Ícone Seta Abaixo** |icone_seta_abaixo|: Este ícone representa um resultado inferior (tendência de baixa) ao mês anterior.
 * **Ícone Neutro** |icone_neutro|: Este ícone representa um resultado igual (tendência de estável) ao mês anterior.
 
 Para os casos em que uma empresa se utilize a Plataforma uCloud em um período inferior a seis (06) meses, podem não existir dados de faturamento armazenados que sejam suficientes para cálculo destas variações - dados insuficientes tanto no billing/bucket do provedor quanto nas bases de dados internas. Nestas situações a Plataforma uCloud poderá apresentar estes quadros com valores zerados (em branco), conforme o exeplo abaixo:
@@ -5877,21 +5882,21 @@ Selecione o usuário que deseja consultar, como na imagem abaixo;
 Relatório Consolidado de Faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
 Tendência de faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
 .. Menu Financeiro (USN)
@@ -5903,6 +5908,26 @@ Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Ma
 
 .. Menu Financeiro / USN Billing
 .. =============================
+
+Menu Financeiro
+===============
+
+Utilitários Financeiro
+----------------------
+
+
+Dimensão
+~~~~~~~~
+
+
+
+Tags Virtuais
+~~~~~~~~~~~~~
+
+
+.. Cost Threshold
+.. ~~~~~~~~~~~~~~
+
 
 
 .. Menu Ordem de Serviço
