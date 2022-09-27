@@ -4760,20 +4760,22 @@ Menu Financeiro
 
 No início deste documento estão descritos os cinco pontos de atuação da Plataforma uCloud, esta seção é dedicada ao ponto “Financeiro”. É necessário ressaltar que a Plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
 
-A Plataforma uCloud extrai (ao fazer download) do arquivo de billing (faturamento) destes provedores de nuvem pública os valores gerados pelos recursos computacionais, em seguida, adiciona estas informações em suas bases de dados internas. Para que, posteriormente, de acordo com os critérios comerciais do contrato possam ser aplicados, estes custos são calculados e convertidos para moeda corrente no Brasil.
+A Plataforma uCloud extrai do arquivo de `billing` o faturamento destes provedores de nuvem pública, ao fazer o `download` dos valores gerados pelo uso dos recursos computacionais. Em seguida, adiciona estas informações em suas bases de dados internas e, posteriormente, de acordo com os critérios comerciais do contrato, possa aplicar estes custos calculados e convertidos para moeda corrente no Brasil.
 
-Desta forma, o usuário permanece informado da evolução dos custos e poderá acompanhar se estes custos se encontram dentro dos critérios da governança financeira da organização. Geralmente, estes custos são apresentados em arquivos texto não estruturados (Comma-Separated Values – CSV) gerados a cada período (em média de 8 horas), a Plataforma uCloud adiciona a informação deste arquivo CSV em suas bases de dados internas, com o objetivo de agilizar e simplificar a apresentação destes valores ao usuário.
+Desta forma, o usuário permanece informado da evolução dos custos e pode acompanhar se estes custos se encontram dentro dos critérios da governança financeira da organização. Geralmente, estes custos são apresentados em arquivos de texto não estruturados (em formato .csv `Comma-Separated Values`) gerados a cada período (em média de 8 horas). A plataforma uCloud adiciona a informação deste arquivo em formato .csv em suas bases de dados internas, com o objetivo de agilizar e simplificar a apresentação destes valores ao usuário.
 
-Através do menu Financeiro, o usuário pode ter acesso a diversas formas de visualização da evolução dos custos referentes ao consumo dos recursos computacionais de serviços de rede pública.
+Através do menu Financeiro, o usuário pode ter acesso a diversas formas de visualização sobre a evolução dos custos referentes ao consumo dos recursos computacionais de serviços de rede pública.
 
-A Plataforma uCloud possui uma interface de visualização destes custos de forma pronta e finalizada. Não é necessário ao usuário criar ou personalizar, qualquer uma das visualizações existentes na Plataforma uCloud. O conceito de relatório que necessita ser enviado para impressão em papel inexiste. Todas as visualizações são apresentadas de forma dinâmica na tela da Plataforma uCloud.
+A Plataforma uCloud possui uma interface de visualização destes custos de forma pronta e finalizada. É desnecessário ao usuário criar ou personalizar qualquer uma das visualizações existentes na Plataforma uCloud, salvo algumas exceções que o relatório permite personalizar o período e algumas informações detalhadas sobre recursos tagueados. O conceito de relatório que necessita ser enviado para impressão em papel inexiste. Todas as visualizações são apresentadas de forma dinâmica na tela da Plataforma uCloud.
 
-Algumas informações presentes nas telas dos relatórios, podem ser exportadas para um arquivo texto não formatado separado por vírgulas (.CSV - Comma Separated Values) e pode ser utilizado como base de informações para qualquer software de planilha de cálculo (Excel, Google Sheet, entre outras).
+Algumas informações presentes nas telas dos relatórios, podem ser exportadas para um arquivo texto não formatado separado por vírgulas (em formato .csv `Comma Separated Values`) e pode ser utilizado como base de informações para qualquer software de planilha de cálculo (Excel, Google Sheet, entre outras).
 
-O menu Financeiro é visualizado por qualquer perfil de usuário, o ambiente permite que este usuário verifique e consulte os valores monetários referente ao consumo dos seus recursos utilizados nos recursos computacionais de nuvem pública. A seguir são apresentados os tipos de perfil dos diferentes usuários:
+O menu Financeiro é visualizado por qualquer perfil de usuário, o ambiente permite que este usuário possa verificar e consultar os valores monetários referentes ao seu consumo e utilização dos recursos computacionais de nuvem pública. A seguir são apresentados os tipos de perfil dos diferentes usuários:
 
 * **Usuário Perfil Normal**: este perfil de usuário visualiza o consumo, o seu próprio e o do seu contrato;
+  
 * **Usuário Perfil Administrador de Contrato**: este perfil de usuário visualiza as informações de todos os grupos vinculados ao contrato e de todos os usuários vinculados ao contrato.
+  
 * **Usuário Perfil Administrador de Grupo**: este perfil de usuário visualiza as informações do(s) grupo(s) aos quais está vinculado e de todos os usuários vinculados ao grupo.
 
 Outras informações sobre o perfil de usuários, ver no item Menu Administração / Usuários.
@@ -4783,15 +4785,16 @@ A Plataforma uCloud é desenvolvida para atender tanto um ambiente corporativo q
 Empresas Privadas
 -----------------
 
-Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo .CSV).
+Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo formato .csv).
 
-A Plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internar e calcula conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
-* *Taxa de faturamento*
-* *Moeda*
-* *Tipo de cotação* (fixa ou variável)
-* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
+A Plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internas e calcula a conversão dos valores referentes ao período, utilizando-os de acordo com o informado nos seguintes campos do Contrato:
 
-Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$) e a forma que a Plataforma uCloud efetuar a conversão para Real Brasileiro é:
+* Taxa de faturamento;
+* Moeda;
+* Tipo de cotação (fixa ou variável);
+* Dia de cotação da moeda (válido somente para cotação variável, a Plataforma uCloud obtém o valor da `PTAX` do site do Banco Central do Brasil).
+
+Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$). Na sequência é exibida a forma como a Plataforma uCloud deve efetuar a conversão para Real Brasileiro:
 
 +--------------------+--------------------------+---+------------------+---+-------------------+
 |**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Fixo] Dólar| x |Taxa de Faturamento|
@@ -4799,7 +4802,7 @@ Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam 
 |**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Dia] PTAX  | x |Taxa de Faturamento|
 +--------------------+--------------------------+---+------------------+---+-------------------+
 
-Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta forma, as fórmulas se comportam de forma diferente:
+Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta maneira, as fórmulas se comportam como segue abaixo:
 
 +--------------------+-------------------------+---+-----------------+---+-------------------+
 |**Valor Reais (R$)**|Valor R$ Total do Consumo| x |Valor [Fixo] 1,00| x |Taxa de Faturamento|
@@ -4807,7 +4810,7 @@ Recentemente, algumas operações brasileiras de provedores de serviço de nuvem
 
 .. note:: Importante ressaltar que para o cenário de provedores que armazeman seus valores em Reais, o usuário Administrador do Contrato deve alterar o campo valor da **Moeda** para 1,00 e **Tipo de Cotação** FIXA.
 
-Quando o usuário possui a Plataforma uCloud conectada a um ambiente de Data Center Privado (on-premises), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deverá calcular estes valores e informá-los na Plataforma uCloud. A Plataforma uCloud calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
+Quando o usuário possui a Plataforma uCloud conectada a um ambiente de Datacenter Privado (`on-premises`), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deve calcular estes valores e informá-los na Plataforma uCloud, a qual calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
 
 +--------------------+-------------------------+---+-------------------+
 |**Valor Reais (R$)**|Valor R$ Total de Consumo| x |Taxa de Faturamento|
@@ -4818,15 +4821,15 @@ Quando o usuário possui a Plataforma uCloud conectada a um ambiente de Data Cen
 Empresas Públicas (USN)
 -----------------------
 
-Devido a constante variação do valor da taxa de câmbio (Dólar <> Real), o Governo Federal brasileiro criou uma formatação inteligente e facilitada para controlar seus limites orçamentários para computação em nuvem pública, de forma a nunca descumprir os limites da Lei de Diretrizes Orçamentárias (LDO), com a finalidade de atender em sua totalidade a Lei nr. 8.666/93, de 21 de junho de 1993, para a contratação do serviço de que institui o pregão - que é uma modalidade de licitação aplicável à aquisição de bens e serviços comuns - a base legal aplicada para as contratações da Administração Pública Federal, as quais devem ser seguidas a rigor.
+Devido a constante variação do valor da taxa de câmbio (Dólar <> Real), o Governo Federal brasileiro criou uma formatação inteligente e facilitada para controlar seus limites orçamentários para computação em nuvem pública, de forma a nunca descumprir os limites da Lei de Diretrizes Orçamentárias (LDO), com a finalidade de atender em sua totalidade a Lei nr. 8.666/93, de 21 de junho de 1993. Para a contratação do serviço de que institui o pregão - que é uma modalidade de licitação aplicável à aquisição de bens e serviços comuns - a base legal aplicada para as contratações da Administração Pública Federal, as quais devem ser seguidas a rigor.
 
-Cabe destacar que, nessas leis são estabelecidos os critérios de classificação das propostas para a determinação do ganhador do processo licitatório e que cada provedor de serviço em nuvem oferece serviços e forma de comercialização distintos, o que faz com que seja um desafio a ser discutido, na definição do modelo, o critério a ser utilizado para determinar a proposta mais vantajosa para a Administração Pública Federal [1]_.
+Cabe destacar que, nessas leis são estabelecidos os critérios de classificação das propostas para a determinação do ganhador do processo licitatório e que cada provedor de serviço em nuvem oferece serviços e comercialização distintos, o que faz com que seja um desafio a ser discutido, na definição do modelo, o critério a ser utilizado para determinar a proposta mais vantajosa para a Administração Pública Federal [1]_.
 
 Esta abordagem única e especial, permite a qualquer órgão de Governo brasileiro (Federal, Estadual ou Municipal) consumir recursos de computação em nuvem pública permitindo que o valor dos serviços em Unidade de Serviço em Nuvem (USN) seja calculado utilizando o preço em dólar comercial do dia do pregão, fixo ao longo do contrato, acrescido dos percentuais de impostos, contribuições, tributos, lucro e custos da empresa dividido pelo valor da USN cotada no pregão.
 
-A definição de valores dos recursos computacionais de nuvem, pode ser individualizado e constar no corpo de cada edital (de cada órgão interessado na contratação de serviços de processamento de nuvem), este documento relacionado ao edital deve vir acompanhado de um Anexo, no qual o órgão define os valores específicos.
+A definição de valores dos recursos computacionais de nuvem, pode ser individualizado e constar no corpo de cada edital (de cada órgão interessado na contratação de serviços de processamento de nuvem), este documento relacionado ao edital deve vir acompanhado de um `Anexo`, no qual o órgão define os valores específicos.
 
-Os preços dos recursos em USN são definidos através das tags, na seção **Preço dos Recursos** do Contrato na Plataforma uCloud, a plataforma possibilita adicionar / configurar tags que identificam cada recurso listado no anexo, com o respectivo valor em USN.
+Os preços dos recursos em USN são definidos através das `tags` na seção **Preço dos Recursos** do Contrato na Plataforma uCloud, esta aplicação possibilita adicionar / configurar `tags` que identificam cada recurso listado no anexo, com o respectivo valor em USN.
 
 Para calcular o custo do recurso em USN, é feita a somatória da quantidade utilizada do recurso pelo preço que foi definido; no caso de recursos que são máquinas virtuais, o preço é multiplicado pela quantidade de CPU, ou pela quantidade de memória em GB. O que define será por CPU ou por memória é a tag aplicada aos recursos. Se não houver tag do tipo USN no recurso, o cálculo não é feito.
 
@@ -4834,10 +4837,10 @@ Em casos específicos de recursos sem *TAG* assume-se o valor que vem informado 
 
 Neste ambiente, a Plataforma uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 
-* *Preço de Recurso em USN por Hora*
-* *Taxa de faturamento*
-* *Tipo de cotação* (fixa/variável)
-* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil)
+* *Preço de Recurso em USN por Hora*;
+* *Taxa de faturamento*;
+* *Tipo de cotação* (fixa/variável);
+* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
@@ -4853,8 +4856,8 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 .. [1] Informações gerais obtidas da monografia: *Desafios da contratação de serviços em nuvem no setor público*: critérios para a contratação no Senado Federal (Rubens Vasconcellos Terra Neto – 2019) - Instituto Legislativo Brasileiro ILB – Senado Federal Brasileiro. https://www2.senado.leg.br/bdsf/handle/id/569196.
 
 
-Menu Financeiro (Ambiente Corporativo)
-======================================
+Ambiente Corporativo
+--------------------
 
 Antes de iniciarmos a apresentação dos relatórios é importante esclarecer o conceito de Contrato e os benefícios para as empresas quando adotam a Plataforma uCloud para melhorar o controle e monitoração da Governança de Custos e de Recursos Computacionais.
 
@@ -4899,7 +4902,7 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
 
 Relatórios
-==========
+----------
 
 
 
@@ -5072,7 +5075,7 @@ A. *Um primeiro quadro* que apresenta a variação de valores com o período ini
 
 B. *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública.
 
-  A infromação referente a variação de valores do mês anterior versus mês atual permite identificar e visualizar variação dos valores financeiros comparado ao mês anterior e a **previsão** de valores de fechamento da fatura para o mês corrente.
+  A informação referente a variação de valores do mês anterior versus mês atual permite identificar e visualizar variação dos valores financeiros comparado ao mês anterior e a **previsão** de valores de fechamento da fatura para o mês corrente.
 
   Importante ressaltar que mesmo que não existam dados de *billing ou bucket* provedor de serviço de nuvem pública,a Plataforma uCloud utiliza um algoritimo que projeta os valores (mesmo que estes valores não existam), com base na média de consumo dos seis (06) últimos meses armazenados nas bases de dados internas da Plataforma uCloud.
 
@@ -5909,8 +5912,7 @@ Tendência de faturamento
 .. Menu Financeiro / USN Billing
 .. =============================
 
-Menu Financeiro
-===============
+
 
 Utilitários Financeiro
 ----------------------
