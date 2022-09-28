@@ -5991,7 +5991,7 @@ Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguid
 
 Ao selecionar a opção de “Dimensão”, é apresentada a listagem de dimensões geradas anteriormente, como demonstrado na figura abaixo:
   
-.. image:: /figuras/fig_ucloud_findimensao/02_listagem.png
+.. image:: /figuras/fig_ucloud_findimensao/02_dimensao_listagem.png
    :alt: Financeiro Dimensão_listagem
    :align: center
 ----
