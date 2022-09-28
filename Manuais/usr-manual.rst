@@ -5666,6 +5666,8 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 .. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
 
 
+====
+
 .. Custos de Budgets
 .. ~~~~~~~~~~~~~~~~~
 
@@ -5682,7 +5684,7 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 Painéis Baseados em Fatura
 --------------------------
 
-Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequênte. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
+Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequente. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
 
 Os valores apresentados nesta opção de menu deve levar em conta que a Plataforma do uCloud possui três tipos de usuários que podemos identificar como ‘perfis básicos’ conforme descritos abaixo:
 
@@ -5695,9 +5697,9 @@ Quando um **Usuário do Sistema** inicia uma sessão na Plataforma do uCloud, e 
 Quando um **Usuário Administrador de Grupo** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário e de todos os usuários que estão vinculados ao Grupo. Este usuário não tem a permissão de visualizar o valor total do Contrato.
 
 Quando um **Usuário Administrador de Contrato** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário.
-Este usuário possui perfil para permissão para visualizar o valor total acumulado do(s) Contrato(s) aos quais seu usuário foi provisionado no campo Administrador. Por consequência este usuário pode visualizar o consumo no(s) grupo(s) que foram vinculados ao(s) contrato(s), e por fim os valores de todos os usuários que estão vinculados aos Grupos.
+Este usuário possui perfil para permissão para visualizar o valor total acumulado do(s) Contrato(s) aos quais seu usuário foi provisionado no campo Administrador. Por consequência, este usuário pode visualizar o consumo no(s) grupo(s) que foi(ram) vinculado(s) ao(s) contrato(s), e por fim os valores de todos os usuários que estão vinculados aos Grupos.
 
-Para ilustrar este relatório e os seus valores, iremos utilizar uma credencial com o nível de Usuário Administrador de Contrato neste documento. As imagens utilizadas são meramente ilustrativas e servem apenas como exemplo.
+Para ilustrar este relatório e os seus valores, é utilizada uma credencial com o nível de `Usuário Administrador de Contrato` neste documento. As imagens utilizadas são meramente ilustrativas e servem apenas como exemplo.
 
 
 Minha Fatura
@@ -5707,7 +5709,7 @@ Os Painéis Baeados em Fatura apresentam informações de valores financeiros un
 
 Importante ressaltar que este relatório, específicamente, apresenta os valores de consumo mensal dos recursos computacionais referente apenas ao usuário que está com uma sessão ativa na Plataforma uCloud.
 
-Através deste relatório o usuário que possui credencial de acesso válida a Plataforma do uCloud pode acompanhar a evolução dos custos mês a mês.
+Através deste relatório o usuário que possui credencial de acesso válida na Plataforma do uCloud pode acompanhar a evolução dos custos mês a mês.
 
 Quando o usuário clica com o cursor do mouse sobre o botão **Minha Fatura** a Plataforma uCloud apresenta o relatório do mês corrente, a figura abaixo é meramente ilustrativa:
 
@@ -5717,9 +5719,9 @@ Quando o usuário clica com o cursor do mouse sobre o botão **Minha Fatura** a 
    :align: center
 ----
 
-Abaixo descrevemos os quadros deste relatório.
+Abaixo segue a descrição dos quadros deste relatório.
 
-* **Campo Mês Atual**: Este campo apresenta o mês e ano atual que a Plataforma uCloud se baseia para apresentar os valores do mês anterior para pagamento no mês corrente. Para alterar o conteúdo deste campo basta o usuário clicar com o cursor do mouse sobre este campo e a Plataforma uCloud apresenta uma tela *popup* que permite alterar a seleção de mês para consulta das informações deste relatório.
+* **Campo Mês Atual**: Este campo apresenta o mês e ano atual que a Plataforma uCloud se baseia para apresentar os valores do mês anterior para pagamento no mês corrente. Para alterar o conteúdo deste campo, basta o usuário clicar com o cursor do mouse sobre este campo e a Plataforma uCloud apresenta uma tela *pop-up* que permite alterar a seleção do mês para a consulta das informações deste relatório.
 
 .. image:: /figuras/ucloud_menu_financeiro010n.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -5727,13 +5729,13 @@ Abaixo descrevemos os quadros deste relatório.
    :align: center
 ----
 
-Neste ponto o uauário pode selecionar a opção "Mês Passado" para que a plataforma uCloud apresente os valores referentes ao mês anterior.
+Neste ponto o usuário deve selecionar a opção "Mês Passado", logo a plataforma uCloud apresenta os valores referentes ao mês anterior.
 
-O usuário pode, também, selecionar qualquer mês e ano, basta clicar com o cursor do mouse sobre o campo indicado com o nome do mês, que a Plataforma uCloud apresenta um lista "dropdown" com os doze mees do ano. COmo opcional, é possível consultar os valores de um mês em ano anterior ao ano corrente.
+O usuário pode selecionar qualquer mês e ano, basta clicar com o cursor do mouse sobre o campo indicado com o nome do mês, que a Plataforma uCloud apresenta um lista "`dropdown`" com os doze mees do ano. Como opcional, é possível consultar os valores de um mês em ano anterior ao ano corrente.
 
-Por padrao a Plataforma uCloud apresenta os três primeiros quadros:
+Por padrão a Plataforma uCloud apresenta os três primeiros quadros:
 
-* **Cotação do dolar**: R$ 1 (em 01/12/2021) R$ 5,581 (em 30/12/2021)
+* **Cotação do dólar**: R$ 1 (em 01/12/2021) R$ 5,581 (em 30/12/2021)
 
   * **Total**: R$ 1.363,1492
   * **Consumo**: R$ 1.234,58
@@ -5761,13 +5763,13 @@ Por padrao a Plataforma uCloud apresenta os três primeiros quadros:
 Botão Financeiro
 ~~~~~~~~~~~~~~~~
 
-Este relatório financeiro  faz parte dos Relatóris Baseados em Fatura, desta forma a Plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mes corrente (meses com faturamente fechado). Caso o usuário consulte desejar consultar os valores do mês corrente, e a data atual, não estiver próxima ao fechamento a Plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser considerados válidos até o fechamento das mesmas.
+Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura", desta forma, a Plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente, e a data atual, não estiver próxima ao fechamento a Plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
 
-.. note:: Importante mencionar que este botão será visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão ficará oculto, não será apresentado na interface da Plataforma uCloud.
+.. note:: Importante mencionar que este botão está visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão permanece oculto, não é apresentado na interface da Plataforma uCloud.
 
-Este relatório permite uma navegação profunda (*drill down*) dos valores de consumo dos recursos computacionais de nuvem pública/privada desde o nivel mais abrangente que é o Contrato, passando pelo consumo do(s) Grupo(s), chegando a profundidade da listagem completa e detalhada de todos os recusos computacionais, com seus valores (diretos e indiretos), vinculados a um usuário específico.
+Este relatório permite uma navegação profunda (*drill down*) nos valores de consumo dos recursos computacionais de nuvem pública/privada, desde o nível mais abrangente que é o Contrato, passando pelo consumo do(s) Grupo(s), chegando a completude da listagem detalhada de todos os recursos computacionais, com seus valores (diretos e indiretos), vinculados a um usuário específico.
 
-Primeiramente devemos recordar como a Plataforma uCloud se organiza internamente para efetuar a totalização de valores financeiros de um contrato. Vamos usar a figura abaixo para descrever este processo.
+Primeiramente, deve-se recordar como a Plataforma uCloud é organizada internamente, para efetuar a totalização de valores financeiros de um contrato. A figura abaixo ilustra este processo.
 
 .. image:: /figuras/ucloud_menu_financeiro013.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5775,11 +5777,13 @@ Primeiramente devemos recordar como a Plataforma uCloud se organiza internamente
    :align: center
 ----
 
-A imagem representa a existência de um Contrato que possui vinculado a este, Virtual Datacenters (VDCs), Usuários e Grupos.
+A imagem acima representa a existência de um Contrato, um administrador, um provedor de nuvem. Vinculado ao contrato estão os Virtual Datacenters (VDCs), Usuários e Grupos.
 
-Todos os usuários provisionados iniciam com o perfil *Usuários de Sistema*, mas este usuário poderá ser vinculado a um Grupo como Administrador de Grupo ou a um Contrato como Administrador de Contrato. Neste momento a Plataforma uCloud altera e aplica o Perfil de Permissionamento deste(s) usuário(s) e aplica o conjunto de permissões corretos para este usuário (Admin de Grupo e/ou Admin de Contrato). A Plataforma uCloud permite que um usuário possa acumular, de forma simultânea, as funções de Administrador de Grupo e Administrador de Grupo para qualquer Usuário de Sistema provisionado.
+Todos os usuários provisionados iniciam com o perfil *Usuários de Sistema*, mas este usuário pode ser vinculado a um Grupo como Administrador de Grupo ou a um Contrato como Administrador de Contrato. Neste momento, a Plataforma uCloud altera e aplica o Perfil de Permissionamento deste(s) usuário(s) ao conjunto de permissões indicados para este usuário (Admin de Grupo e/ou Admin de Contrato). 
 
-Todo e qualquer recurso computacional, de provedor de nuvem pública/privada (ex.: Máquina Virtual, Storage, Bases de Dados, etc), está sempre vinculado a um usuário provisionado no contrato e este usuário associado a um Grupo.
+A Plataforma uCloud permite a um determinado usuário acumular, de forma simultânea, as funções de Administrador de Grupo atribuído a qualquer `usuário de sistema` provisionado.
+
+Todo e qualquer recurso computacional, de provedor de nuvem pública/privada (ex.: Máquina Virtual, Storage, Bases de Dados, entre outros), está sempre vinculado a um usuário provisionado no contrato e este usuário associado a um Grupo.
 
 * **Valor Total do Contrato**: O valor total de consumo dos recursos computacionais de todo o Contrato em um período (*mês*) é a somatória dos valores de consumo no período (*mês*) de todos os recursos computacionais vinculados a **todos os usuários vinculados ao CONTRATO**.
 
@@ -5789,7 +5793,7 @@ Este relatório Financeiro, permite ao usuário com perfil de Administrador de C
 
 O último nível de apresentação de valores (Valores de Consumo de um Usuário), A Plataforma do uCLoud relaciona uma relação detalhada e completa de todos os valores diretos dos recursos computacionais (e de valores indiretos ex.: Transferência de Dados - *Data Transfer*) que estão no arquivo de billing do provedor de serviço de nuvem pública/privada.
 
-Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o botão de “Financeiro”, a Plataforma do uCloud apresenta uma tela para o Usuário Adminstrador de Contrato selecionar qual o contrato será utilizado para apresentar os quadrantes conforme imagem abaixo.
+Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o botão de “Financeiro”, a Plataforma do uCloud apresenta uma tela para o Usuário Administrador de Contrato selecionar qual o contrato será utilizado para apresentar os quadrantes conforme imagem abaixo.
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -5797,7 +5801,7 @@ Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o 
    :align: center
 ----
 
-A Plataforma do uCloud permite visualizar os dados financeiros de apenas um único contrato, e abaixo apresentamos um exemplo do resumo financeiro de um contrato (a figura abaixo é meramente ilustrativa):
+A Plataforma do uCloud permite visualizar os dados financeiros de apenas um único contrato, e abaixo é exibido um exemplo do resumo financeiro de um contrato (a figura abaixo é meramente ilustrativa):
 
 .. image:: /figuras/ucloud_menu_financeiro013a.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5805,9 +5809,9 @@ A Plataforma do uCloud permite visualizar os dados financeiros de apenas um úni
    :align: center
 ----
 
-Abaixo descrevemos como interpretar os campos e botões iniciais.
+Na sequência, a descrição de como interpretar os campos e botões iniciais.
 
-* **Campo Período**: Este campo pe apresentado com o mês corrente que a sessão do usuário está acessando este relatório. Quando o usuário clicar com o cursor do mouse sobre este campo, a Platafora uCloud apresenta um *popup* que permite ao usuário informar um mês anterior ao corrente.
+* **Campo Período**: Este campo é apresentado com o mês corrente que a sessão do usuário está acessando este relatório. Quando o usuário clicar com o cursor do mouse sobre este campo, a Platafora uCloud apresenta um *pop-up* que permite ao usuário informar um mês anterior ao corrente.
 
 .. image:: /figuras/ucloud_menu_financeiro013f.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5815,9 +5819,9 @@ Abaixo descrevemos como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-* **Botão Exportar**: Este botão permite ao usuário expostar os dados brutos que estão nas bases de dados da Plataforma uCloud. Estes dados foram utilizados para o cálculo e apresentação em tela deste relatório. Basta o usuário clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar as duas opções para exportação dos dados:
+* **Botão Exportar**: Este botão permite ao usuário exportar os dados brutos que estão nas bases de dados da Plataforma uCloud. Estes dados foram utilizados para o cálculo e apresentação em tela deste relatório. Basta o usuário clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar as duas opções de exportação dos dados:
   
-  * **PDF**: Esta opção indica para a Plataforma uCloud que o usuário deseja ue a informação simplificada seja apresentada em um arquivo de formato aberto Portable Document Format (*PDF*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Platafrma uCloud irá iniciar o *download* de um relatório somelhante ao apresentado abaixo (imagem meramente ilustrativa):
+  * **PDF**: Esta opção indica para a Plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo de formato aberto `Portable Document Format` (*PDF*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa):
 
 .. image:: /figuras/ucloud_menu_financeiro013b.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5825,7 +5829,7 @@ Abaixo descrevemos como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-  * **CSV**: Esta opção indica para a Plataforma uCloud que o usuário deseja ue a informação simplificada seja apresentada em um arquivo texto de formato Comma-Separated Values (*CSV*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Platafrma uCloud irá iniciar o *download* de um relatório somelhante ao apresentado abaixo (imagem meramente ilustrativa - os dados com as identificações foram suprimidos):
+  * **CSV**: Esta opção indica para a Plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo texto de formato Comma-Separated Values (*CSV*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa - os dados com as identificações foram suprimidos):
 
 .. image:: /figuras/ucloud_menu_financeiro013e.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5833,7 +5837,7 @@ Abaixo descrevemos como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-  O usuário pode utilizar qualquer aplicação de Planilhas de Cálculo para a visualização do conteúdo deste arquivo. Importante ressaltar que para a correta importação dos dados e visualização do conteúdo deste arquivo texto o usuário deverá selecionar a coluna inicial toda e utilizar a opção de "Separador VÍRGULA" na opção de importação de arquivo texto para colunas da ferramenta de Planilha de Cálculo (ex.: MS-Excel), conforme o exemplo abaixo:
+  O usuário pode utilizar qualquer aplicação de Planilhas de Cálculo para a visualização do conteúdo deste arquivo. Importante ressaltar que para a correta importação dos dados e visualização do conteúdo deste arquivo texto, o usuário deve selecionar toda a coluna inicial e utilizar a alternativa de "Separador VÍRGULA" na opção de importação de arquivo texto para as colunas da ferramenta de Planilha de Cálculo (ex.: MS-Excel), conforme o exemplo abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro013d.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5841,9 +5845,9 @@ Abaixo descrevemos como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-  O resultado será uma planilha de cálculo apresentada acima com os valores separados pos colunas, que o usuário poderá manipular estes dados da forma como melhor lhe convém.
+  O resultado é uma planilha de cálculo, conforme a apresentada acima, com os valores separados por colunas, estes dados o usuário pode manipular da maneira que melhor convier.
 
-Abaixo descrevemos os quadros apresentados neste relatório:
+Na continuidade a descrição dos quadros apresentados neste relatório:
 
 .. image:: /figuras/ucloud_menu_financeiro013a.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -5851,35 +5855,35 @@ Abaixo descrevemos os quadros apresentados neste relatório:
    :align: center
 ----
 
-* **Quadro Fatura do Contrato**: Este quadro apresenta as informações do nome do contrato selecionado e as informações referente a conversão de valores monetários de moeda (quando houver) que foram provisionados no Contrato (Seção Informações Financeiras)
-* **Quadro Gráfico de Barras**:
-* **Quadro Gráfico de Pizza**:
-* **Quadro Grupos**:
+* **Quadro Fatura do Contrato**: Este quadro apresenta as informações do nome do Contrato selecionado e as informações referentes a conversão de valores monetários de moeda (quando houver) que foram provisionados no Contrato (Seção Informações Financeiras)
+* **Quadro Gráfico de Barras**: apresenta o período de dois meses + o mês atual indicado. 
+* **Quadro Gráfico de Pizza**: outro formato de apresentação dos dados indicados.
+* **Quadro Grupos**: este card possibilita abrir os "Detalhes" ao clicar no botão.
 
-valor apresentado abaixo, associado a fatura do mês 8, de R $58.619,01 é referente ao consumo dos dias 01/07/21 até 31/07/21. Portanto, o custo acima é referente a FATURA à ser paga no mês de 08 (agosto) seguindo as regras de faturamento cadastradas no CONTRATO, conforme imagem abaixo.
+.. valor apresentado abaixo, associado a fatura do mês 8, de R $58.619,01 é referente ao consumo dos dias 01/07/21 até 31/07/21. Portanto, o custo acima é referente a FATURA à ser paga no mês de 08 (agosto) seguindo as regras de faturamento cadastradas no CONTRATO, conforme imagem abaixo.
 
-É possível ver uma visão mais granulada por usuários, para isso expandir a opção DETALHES escolher o GRUPO que deseja listar os usuários, conforme mostra a imagem abaixo. Caso o CONTRATO tenha mais de 1 grupo, o painel irá listar todos os GRUPOS e seus respectivos custos. Ao acessar o custo do GRUPO, o painel irá apresentar a seguinte imagem.
+.. É possível ver uma visão mais granulada por usuários, para isso expandir a opção DETALHES escolher o GRUPO que deseja listar os usuários, conforme mostra a imagem abaixo. Caso o CONTRATO tenha mais de 1 grupo, o painel irá listar todos os GRUPOS e seus respectivos custos. Ao acessar o custo do GRUPO, o painel irá apresentar a seguinte imagem.
 
-Para ter a visão de gastos por usuário, expanda a opção DETALHES conforme imagem abaixo.
+.. Para ter a visão de gastos por usuário, expanda a opção DETALHES conforme imagem abaixo.
 
-Selecione o usuário que deseja consultar, como na imagem abaixo;
+.. Selecione o usuário que deseja consultar, como na imagem abaixo;
 
 
-* **Máquinas Virtuais**:
+.. * **Máquinas Virtuais**:
 
-* **Assinaturas**:
+.. * **Assinaturas**:
 
-* **Snapshots**:
+.. * **Snapshots**:
 
-* **IPs Públicos**:
+.. * **IPs Públicos**:
 
-* **Balanceadores**:
+.. * **Balanceadores**:
 
-* **Zonas DNS**:
+.. * **Zonas DNS**:
 
-* **VPNs**:
+.. * **VPNs**:
 
-* **Itens não gerenciados**:
+.. * **Itens não gerenciados**:
 
 
 Relatório Consolidado de Faturamento
@@ -5901,6 +5905,20 @@ Tendência de faturamento
 .. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
 .. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
+Utilitários Financeiro
+----------------------
+
+Dimensão
+~~~~~~~~
+
+
+Tags Virtuais
+~~~~~~~~~~~~~
+
+
+.. Cost Threshold
+.. ~~~~~~~~~~~~~~
+
 
 .. Menu Financeiro (USN)
 .. ---------------------
@@ -5914,21 +5932,6 @@ Tendência de faturamento
 
 
 
-Utilitários Financeiro
-----------------------
-
-
-Dimensão
-~~~~~~~~
-
-
-
-Tags Virtuais
-~~~~~~~~~~~~~
-
-
-.. Cost Threshold
-.. ~~~~~~~~~~~~~~
 
 
 
