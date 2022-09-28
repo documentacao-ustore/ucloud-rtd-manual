@@ -6292,9 +6292,9 @@ Para que a mudança seja efetivada, é necessário que o usuário pressione o bo
 **Onde a "Dimensão" é utilizada**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Atualmente, essa implementação agrupa `tags` e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
+Atualmente, essa implementação agrupa *tags*  e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
 
-Além disso, a "Dimensão" está sendo utilizada no modal “Criar Budget” incluída no `card` “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
+Além disso, a "Dimensão" está sendo utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
 
 
 
