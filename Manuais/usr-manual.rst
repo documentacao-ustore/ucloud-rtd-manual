@@ -6289,10 +6289,12 @@ Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuári
 Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizada no canto inferior direito da página.
 
 
-**Onde está sendo utilizada**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Onde a "Dimensão" é utilizada**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Atualmente, essa implementação agrupa `tags`e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma, além disto, está sendo utilizada no modal “Criar Budget” incluída no `card` “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
+Atualmente, essa implementação agrupa `tags` e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
+
+Além disso, a "Dimensão" está sendo utilizada no modal “Criar Budget” incluída no `card` “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
 
 
 
