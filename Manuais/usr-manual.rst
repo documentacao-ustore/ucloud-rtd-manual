@@ -5933,9 +5933,367 @@ Tendência de faturamento
 **Utilitários**
 --------------
 
+Retomando o assunto sobre as atuais organizações empresariais adotarem a nuvem como solução para gerenciar os seus ambientes, por vezes, uma combinação de nuvens privadas e públicas. 
+
+O grande desafio é o gerenciamento destes ambientes híbridos das diversas nuvens (hybrid multi-cloud), para alcançar a visão unificada e obter o controle dos custos financeiros, uma vez que cada empresa tem um tipo de necessidade e enfrenta diferentes desafios.
+
+Neste cenário de multicloud, os recursos computacionais necessitam de governança financeira, a plataforma uCloud proporciona o gerencimento dos recursos utilizados nos ambientes híbridos. 
+
+Estabelece a otimização ao situar os limites tanto financeiros quanto quantitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além de aplicar as funcionalidades Dimensão e Tags Virtuais que geram relatórios utilitários a seguir detalhados. 
+
 
 Dimensão
 ~~~~~~~~
+
+
+A Dimensão é uma nova implementação da plataforma uCloud, e foi criada para agrupar `Tags` de nomenclatura diferentes, mas que fazem parte do mesmo contexto, que estão tagueadas em nuvens distintas. Desta forma, evita que recursos iguais sejam tagueados de formas diferentes. 
+
+Para isso, foram elaboradas operações lógicas e um filtro, com o intuito de identificar no Billing quais recursos pertencem a uma determinada dimensão. Para compreender melhor os dois pontos que constroem este conceito, observe os exemplos a seguir:
+
+
+1. Unifica um conjunto de `Tags` que sejam diferentes, mas que tenham o mesmo significado/papel.
+
+ * Por exemplo: 
+
+   * product: ETC
+   * Product: eTc
+   * producT: CTE
+
+
+Percebe-se que as `Tags` acima expressam a mesma coisa, apesar de divergentes em suas maneiras escritas. Importante relembrar que estas podem ser **aplicadas em nuvens diferentes**, mas em recursos iguais, onde deveriam se comportar igualmente. 
+
+Sendo assim, ao unificar esse grupo de `Tags` em uma dimensão, é possível identificar todos os recursos que estejam dentro desse contexto, e assim ter uma nova forma de visualização de Relatórios, `Budget` e `Forecast`.
+
+
+2. Cria expressões lógicas.
+
+ * Por exemplo:
+ 
+   * product: EFG & departamento:TI
+
+No exemplo acima, a expressão representa que essa dimensão deseja todos os recursos que tenham as `Tags`: “product: EFG & departamento:TI”. Esta expressão é considerada simples, no entanto, algo mais complexo pode ser construído a partir do que foi implementado.
+
+
+**Criando uma Dimensão**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe três opções: 
+
+1. Dimensão, 
+2. Tags Virtuais e 
+3. Cost Threshold, como apresentada na imagem abaixo:
+
+.. image:: /figuras/fig_ucloud_findimensao/01_dimensão_menu_financeiro.png
+   :alt: Financeiro Dimensão_menu_financeiro
+   :align: center
+----
+  
+
+Ao selecionar a opção de “Dimensão”, é apresentada a listagem de dimensões geradas anteriormente, como demonstrado na figura abaixo:
+  
+.. image:: /figuras/fig_ucloud_findimensao/02_listagem.png
+   :alt: Financeiro Dimensão_listagem
+   :align: center
+----
+
+
+Caso esta seja a primeira dimensão a ser criada pelo usuário, nenhuma lista é apresentada na tela, como mostra a figura a seguir:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/03_dimensão_listagem_vazia.png
+   :alt: Financeiro Dimensão_listagem_vazia
+   :align: center
+----
+  
+
+Do lado superior esquerdo da tela é apresentado o botão “Criar Dimensão”, o qual o usuário deve pressionar para dar início ao processo de criação.
+
+Após clicado, é apresentada a tela de formação de "Dimensão", como exibido na figura seguinte: 
+  
+
+.. image:: /figuras/fig_ucloud_findimensao/04_dimensão_inicio.png
+   :alt: Financeiro Dimensão_inicio
+   :align: center
+----
+
+
+Para entender melhor a função de cada campo, observar os detalhamentos destas abaixo:
+
+* Nome da dimensão: Neste campo o usuário deve preencher com o nome da dimensão a ser salvo.
+
+* Estrutura + : Este botão apresenta duas opções que o usuário pode aplicar na estrutura de sua "Dimensão": 
+
+   * Agrupamento de Tags;
+
+   * Tag. 
+
+
+.. attention:: |atencao| Importante ressaltar que essa estrutura deve ser uma expressão lógica pensada previamente. Portanto, para agrupar `tags` é necessário primeiro colocá-las em um grupo.
+
+* Estrutura: Corresponde ao bloco no fim da tela, onde o usuário tem uma melhor visualização da estrutura que está sendo montada.
+
+* Botão “Salvar”: Após o preenchimento completo dos dados, o usuário deve pressionar o botão “Salvar”, para que estes não se percam.
+
+
+**Criando um Agrupamento de Tags**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Após preencher o nome da "Dimensão", o usuário deve criar um grupo para sua estrutura. Ao passar o cursor do mouse sobre a opção “Agrupamento de Tags”, aparece a seguinte mensagem:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/05_dimensão_mensagem_grupo_expandida.png
+   :alt: Financeiro Dimensão_mensagem_grupo_expandida
+   :align: center
+----
+
+Ao ser selecionado, o modal de criação do grupo é exibido, onde o nome do agrupamento de `Tags` deve ser preenchido e salvo em seguida.
+
+.. image:: /figuras/fig_ucloud_findimensao/06_dimensão_criar_grupo.png
+   :alt: Financeiro Dimensão_criar_grupo
+   :align: center
+----
+
+  
+
+Realizada a ação, abaixo da função de “Estrutura +”, o nome do grupo criado aparece, e ao seu lado há dois botões de ação:
+
+* Símbolo de adição “+” para criar outro(s) grupo(s) ou adicionar `Tag`(s);
+
+* Ícone de uma lata de lixo para deletar o grupo criado.
+
+Ao lado desses ícones, aparece a seguinte informação:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/07_dimensão_mensagem_estrutura_expandida.png
+   :alt: Financeiro Dimensão_mensagem_estrutura_expandida
+   :align: center
+----
+
+.. attention:: |atencao| Importante ressaltar que caso a construção da dimensão não se iguale às condições apresentadas na mensagem, o botão de “Salvar” fica indisponível para o acionamento.
+
+Na imagem abaixo, é possível notar também que na função da Estrutura, na parte inferior da tela, o grupo é representado por (    ).
+
+
+.. image:: /figuras/fig_ucloud_findimensao/08_dimensão_grupo_estrutura.png
+   :alt: Financeiro Dimensão_grupo_estrutura
+   :align: center
+----  
+
+
+
+**Criando a primeira `Tag`**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Clicando no ícone de adição “+” ao lado do grupo criado e posicionando o cursor do mouse sobre a opção da `Tag`, é exibida a seguinte mensagem:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/09_dimensão_mensagem_tag_expandida.png
+   :alt: Financeiro Dimensão_mensagem_tag_expandida
+   :align: center
+----
+
+Ao clicar em `Tag`, o modal de criação de `Tag` é apresentado:
+
+
+
+.. image:: /figuras/fig_ucloud_findimensao/10_dimensão_modal_tag.png
+   :alt: Financeiro Dimensão_modal_tag
+   :align: center
+----
+
+  
+
+O primeiro passo do usuário é selecionar uma das `companies` listadas no menu suspenso.
+
+
+.. image:: /figuras/fig_ucloud_findimensao/11_dimensão_lista_company.png
+   :alt: Financeiro Dimensão_lista_company
+   :align: center
+----
+
+  
+
+Após selecionar a `company` desejada, o botão “Filtrar”, ao lado do menu suspenso, fica disponível para acionamento, como exemplificado na imagem abaixo:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/12_dimensão_filtrar.png
+   :alt: Financeiro Dimensão_filtrar
+   :align: center
+----
+
+  
+
+Caso a `company` já tenha `Tags` existentes, é exibida uma listagem de `Tags` com as chaves e os valores dos últimos três meses. A tela exibe o número de páginas abaixo da listagem e as informações recuperadas em  blocos de 10, 25, 50 ou 100 linhas.
+
+
+.. image:: /figuras/fig_ucloud_findimensao/13_dimensão_company_tag.png
+   :alt: Financeiro Dimensão_company_tag
+   :align: center
+----
+
+  
+
+O usuário deve selecionar a `Tag` desejada, exibida na listagem, e automaticamente são apresentadas a chave e o valor da `Tag` criada.
+  
+
+.. image:: /figuras/fig_ucloud_findimensao/14_dimensão_company_tag_escolhida.png
+   :alt: Financeiro Dimensão_company_tag_escolhida
+   :align: center
+----
+
+
+
+Ao finalizar o preenchimento do modal, o usuário deve clicar no botão “Salvar” no canto inferior direito da tela.
+  
+
+.. image:: /figuras/fig_ucloud_findimensao/15_dimensão_modal_segunda_tag.png
+   :alt: Financeiro Dimensão_modal_segunda_tag
+   :align: center
+----
+
+
+Caso uma `company` não tenha `Tags` e o usuário deseje criá-las, basta digitar a Chave e o Valor nos últimos campos, como demonstrado na imagem acima, deixando os campos centrais vazios.
+
+Feito isso, a tela de criação de dimensão deve ser exibida da seguinte forma: 
+
+.. image:: /figuras/fig_ucloud_findimensao/16_dimensão_grupo_e_tag.png
+   :alt: Financeiro Dimensão_grupo_e_tag
+   :align: center
+----
+
+
+Percebe-se, através da imagem acima, que a "Dimensão" possui um sistema de hierarquização, onde primeiro temos um grupo inserido na estrutura, e somente depois da criação do grupo temos as `Tags`.
+ 
+Após a inicialização do processo de criação de uma "Dimensão", é necessário adicionar as demais `Tags` do mesmo contexto para fazerem parte do grupo.
+
+Para isso, o usuário deve clicar no sinal de adição “+” ao lado de Estrutura, o qual aparecem dois **operadores lógicos** </> OU e </> E. 
+
+
+**Utilizando o operador lógico**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+
+Operadores lógicos fazem parte da linguagem de programação, e eles são usados com o objetivo de criar expressões do tipo verdadeiro e falso. Estes têm o intuito de juntar duas expressões divergentes e elaborar uma expressão condicional mais complexa. 
+
+
+.. image:: /figuras/fig_ucloud_findimensao/17_dimensão_operadores_lógicos_closeup.png
+   :alt: Financeiro Dimensão_operadores_lógicos_closeup
+   :align: center
+----
+
+
+Para compreender melhor a aplicação destes, abaixo são detalhadas as informações sobre os dois operadores usados na criação de "Dimensão".
+
+ * </> OU: Em uma expressão, caso apenas uma delas seja verdadeira, esta é considerada inteiramente verdadeira, e é executada.
+
+ * </> E: Em uma expressão, caso uma delas seja falsa, esta é considerada inteiramente falsa, e não é executada. 
+
+Para entender melhor seu uso, o usuário deve seguir o processo de criação. 
+
+Pousando o cursor do mouse sobre a opção do operador </> OU, a seguinte mensagem é exibida:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/18_dimensão_operador_ou_closeup.png
+   :alt: Financeiro Dimensão_operador_ou_closeup
+   :align: center
+----
+
+
+Ou seja, mesmo que uma das `Tags` seja inexistente, ainda assim a ação é realizada apenas com a `Tag` existente.
+
+Ao pousar o mouse sobre o operador </> E, é apresentada a seguinte mensagem:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/19_dimensão_operador_e_closeup.png
+   :alt: Financeiro Dimensão_operador_e_closeup
+   :align: center
+----
+
+
+Isto é, ao pesquisar as `Tags`, se apenas uma das `Tags` for inexistente, a ação é interrompida.
+
+Nesse exemplo, foi selecionado o operador “E” (representado na língua inglesa por “AND”), e a confirmação da ação é apresentada na mudança de ambas estruturas:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/20_dimensão_operador_selecionado.png
+   :alt: Financeiro Dimensão_operador_selecionado
+   :align: center
+----
+
+  
+
+Ao finalizar este primeiro processo de criação de `Tag`, o usuário deve criar a segunda `Tag`, repetindo o fluxo de criação detalhada acima.
+
+Finalizando esta etapa, é exibida a estrutura final de uma dimensão, e para armazená-la basta clicar no botão “Salvar”, localizada no canto inferior direito da tela, como apresentada na figura abaixo:
+
+.. image:: /figuras/fig_ucloud_findimensao/21_dimensão_estrutura_completa.png
+   :alt: Financeiro Dimensão_estrutura_completa
+   :align: center
+----
+
+
+Ao concluir essa ação, a "Dimensão" salva é apresentada na listagem de dimensão.
+
+
+**Listando Dimensão**
+~~~~~~~~~~~~~~~~~~~~~
+
+
+Para listar a "Dimensão" recém-criada, normalmente a tela exibe a listagem. Na consulta da tela listagem de dimensão, caso ela não atualize automaticamente, o usuário deve clicar no botão “Atualizar” no canto superior direito da tela.
+
+Em seguida, a tela que exibe a lista deve apresentar a "Dimensão" criada, como publicado na figura abaixo:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/22_dimensão_listagem_final.png
+   :alt: Financeiro Dimensão_listagem_final
+   :align: center
+----
+
+
+A tela acima “Listagem de Dimensões” mostra na parte superior direita o nome do contrato, o símbolo da funcionalidade “Tarefas” e o nome do usuário logado. Nesta o usuário pode optar entre criar uma nova dimensão, editar uma dimensão existente ou deletar uma dimensão criada. Apresenta os dois botões que permitem “Criar dimensão” ou  “Atualizar” a lista das dimensões.
+
+Nesta lista, são apresentadas as colunas “Nome” e “Ações”, as informações podem ser customizadas e recuperadas ao clicar nos blocos de 10, 25, 50 ou 100 linhas. A coluna “Ações” possibilita as operações de “Editar” e “Excluir”.   
+
+
+**Editando uma Dimensão**
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Para editar uma Dimensão, basta o usuário clicar no botão referente à edição na coluna ações na listagem de "Dimensão", como detalhado abaixo:
+
+
+.. image:: /figuras/fig_ucloud_findimensao/23_dimensão_botão_editar.png
+   :alt: Financeiro Dimensão_botão_editar
+   :align: center
+----
+
+  
+
+Fazendo isso, a tela com a estrutura montada e finalizada é exibida, como exemplificado abaixo. Este, usando uma nova dimensão, contém Grupos e `Tags` variadas.
+
+
+.. image:: /figuras/fig_ucloud_findimensao/24_dimensão_estrutura_completa.png
+   :alt: Financeiro Dimensão_estrutura_completa
+   :align: center
+----
+
+
+
+
+Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuário tem tanto a possibilidade de criar outros grupos e adicionar mais `Tags`, assim como de excluí-los. 
+
+É possível também perceber que a cada ação feita, a Estrutura, localizada no fim da página, é modificada.
+
+Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizada no canto inferior direito da página.
+
+
+**Onde está sendo utilizada**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Atualmente, essa implementação agrupa `tags`e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma, além disto, está sendo utilizada no modal “Criar Budget” incluída no `card` “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
+
 
 
 Tags Virtuais
