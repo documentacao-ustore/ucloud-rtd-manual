@@ -4755,6 +4755,10 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/_uBTkmLgNJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+====
+
+
+
 Menu Financeiro
 ===============
 
@@ -4782,8 +4786,12 @@ Outras informações sobre o perfil de usuários, ver no item Menu Administraç�
 
 A Plataforma uCloud é desenvolvida para atender tanto um ambiente corporativo quanto um ambiente do Governo Federal, Estadual ou Municipal brasileiro, ambiente que possui características próprias de moeda e tarifação.
 
+----
+
+
+
 Empresas Privadas
------------------
+~~~~~~~~~~~~~~~~~
 
 Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo formato .csv).
 
@@ -4816,10 +4824,13 @@ Quando o usuário possui a Plataforma uCloud conectada a um ambiente de Datacent
 |**Valor Reais (R$)**|Valor R$ Total de Consumo| x |Taxa de Faturamento|
 +--------------------+-------------------------+---+-------------------+
 
-.. attention:: O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
+.. attention:: |atencao| O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
+
+
+----
 
 Empresas Públicas (USN)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Devido a constante variação do valor da taxa de câmbio (Dólar <> Real), o Governo Federal brasileiro criou uma formatação inteligente e facilitada para controlar seus limites orçamentários para computação em nuvem pública, de forma a nunca descumprir os limites da Lei de Diretrizes Orçamentárias (LDO), com a finalidade de atender em sua totalidade a Lei nr. 8.666/93, de 21 de junho de 1993. Para a contratação do serviço de que institui o pregão - que é uma modalidade de licitação aplicável à aquisição de bens e serviços comuns - a base legal aplicada para as contratações da Administração Pública Federal, as quais devem ser seguidas a rigor.
 
@@ -4856,8 +4867,12 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 .. [1] Informações gerais obtidas da monografia: *Desafios da contratação de serviços em nuvem no setor público*: critérios para a contratação no Senado Federal (Rubens Vasconcellos Terra Neto – 2019) - Instituto Legislativo Brasileiro ILB – Senado Federal Brasileiro. https://www2.senado.leg.br/bdsf/handle/id/569196.
 
 
+----
+
+
+
 Ambiente Corporativo
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Antes de iniciarmos a apresentação dos relatórios é importante esclarecer o conceito de Contrato e os benefícios para as empresas quando adotam a Plataforma uCloud para melhorar o controle e monitoração da Governança de Custos e de Recursos Computacionais.
 
@@ -4869,7 +4884,7 @@ Entre vários aspectos do Contrato, na Seção Regras de Faturamento o Administr
 
 No Contrato o usuário seleciona e define em qual a moeda os valores de todos os Relatórios Financeiros serão apresentados.
 
-.. note:: Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
+.. note:: |nota| Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
 
 Quando o usuário acessar o Menu Financeiro, a Plataforma uCloud apresenta a tela abaixo:
 
@@ -4880,6 +4895,7 @@ Quando o usuário acessar o Menu Financeiro, a Plataforma uCloud apresenta a tel
 
 ----
 
+
 A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros diferentes:
 
 * **Painéis Baseados em Consumo**: Este conjunto de relatórios em tela (*dashboards*) se referem aos valores acumulados dos recursos computacionais consumidos/utilizados no mês corrente até o dia corrente ou até o último período (ou janela) de processamento dos valores pelo provedor.
@@ -4888,7 +4904,7 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
   Isto significa que poderão haver discrepâncias de apresentação de valores caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
 
-.. note:: Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a Plataforma uCloud não poderá ser responsabilizada em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
+.. note:: |nota| Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a Plataforma uCloud não poderá ser responsabilizada em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
 
 * **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) apenas do período ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios.
 
@@ -4898,11 +4914,15 @@ A Plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
   Para ilustrar um cenário, caso o campo “Dia da Fatura” esteja preenchido com o dia primeiro do mês (1), o período do faturamento inicia às 0 horas, 0 minutos e 0 segundos do dia primeiro do mês e encerra às 23 horas, 59 minutos e 59 segundos do dia 30/31 do mês anterior.
 
-.. note:: Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
+.. note:: |nota| Importante ressaltar que a Plataforma uCloud estabelece o período do **mês do faturamento** com a informação do campo “Dia da Fatura” na seção *Regras de Faturamento do Contrato*.
 
 
-Relatórios
-----------
+----
+
+
+
+**Relatórios**
+--------------
 
 
 
@@ -5064,6 +5084,10 @@ A informação explicitamente segmentada e apresentada na forma deste relatório
 .. note:: |nota| Não é objetivo deste relatório apresentar as respectivas etiquetas (*tags*) no corpo do relatório, mas sim apresentar ao administrador de custos o total de valores os quais será possível identificar o departamento, centro de custo, projeto que são atribuídas via etiquetas (*tag*). A Plataforma uCloud permite ao administrador de custos consultar os valores por etiqueta (*tag*) em diversos outros relatórios financeiros.
 
 
+----
+
+
+
 Relatório Custo Cadenciado
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5131,6 +5155,8 @@ Para os casos em que uma empresa se utilize a Plataforma uCloud em um período i
 
 ----
 
+
+
 * **Seção Top 15 Custo por Grupo**: Nesta seção a Plataforma uCloud apresenta a lista dos quinze (15) primeiros Grupos que acumulam os maiores valores de custos de recursos computacionais. A quantidade de Grupos apresentada está diretamente relacionada com a organização dos Grupos provisionados no Contrato de seu ambiente na Plataforma uCloud. Importante mencionar que mesmo que existam vários Grupos, somente os quinze (15) Grupos que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro003e.png
@@ -5139,7 +5165,7 @@ Para os casos em que uma empresa se utilize a Plataforma uCloud em um período i
    :align: center
 ----
 
-Abaixo descrevemos as colunas deste seção:
+Abaixo descrevemos as colunas desta seção:
 
   * **Grupos**: Esta coluna apresenta o nome do(s) Grupo(s) da forma como foram provisionados na Plataforma uCloud.
   * **Mês Atual**: Esta coluna apresenta a somatória do valores de todos os recursos computacionais do provedor de nuvem pública, do mês corrente (atual), que estão vinculados a todos os usuários que fazem parte deste Grupo  - mesmo que este relatório seja consultado em data anterior à data de encerramento da fatura.
@@ -5227,12 +5253,13 @@ Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 0
 
 ====
 
+
 Relatório Custo Relacional de Produto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada PRODUCT NAME e sua respectiva FAMILY NAME (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
 
-O grande benefício deste relatório é análizar a real composição de custos de um recurso (*Product Name*) em particular, com a apresentação detalhada dos valores de seus sub-recursos (Family Name) distribuídos no período selecionado na preparação do relatório.
+O grande benefício deste relatório é analisar a real composição de custos de um recurso (*Product Name*) em particular, com a apresentação detalhada dos valores dos seus sub-recursos (*Family Name*) distribuídos no período selecionado na preparação do relatório.
 
 Para os ambientes de multi-nuvem, cada provedor de serviço utiliza denominações e identificações específicas depara cada provedor de serviço de nuvem pública. A Plataforma uCloud facilita, de forma muito prática, a análize da composução de custos de um produto.
 
@@ -5254,24 +5281,24 @@ De regra geral, todos os provedores de serviço de nuvem pública, possuem o con
 
 .. image:: /figuras/ucloud_menu_financeiro012a.png
    :alt: Menu Financeiro - Histórico de Serviço
-   :scale: 60 %
+   :scale: 40 %
    :align: center
 
 ----
 
-Na figura acima (meramente ilustrativa) podemov ver que os custos de cada item de um *Family Name* compõe o valor do Product Name e a somatória destes custos totalizam o valor do período consultado (diário, semanal, mensal).
+Na figura acima (meramente ilustrativa) pode-se visualizar os custos de cada item de um *Family Name* composto por valor do `Product Name` e a somatória destes custos, totalizando o valor do período consultado (diário, semanal, mensal).
 
 Este relatório permite ao usuário analizar os custos individuais de cada *Family Name* de apenas um *Product Name* por vez.
 
-Neste relatório, será posível acompanhar a evolução do consumo de um *Family Name* dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
+Neste relatório, é posível acompanhar a evolução do consumo de um *Family Name* dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
 
-Ao selecionar a opção do menu CUSTO RELACIONAL DE PRODUTO será solicitado que escolha um CONTRATO, tipo de INTERVALO, PERÍODO, NUVEM (*Container*) e *Linked-Account (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada conforme apresentado nas imagens abaixo.
+Ao selecionar a opção do menu CUSTO RELACIONAL DE PRODUTO solicita-se a escolha de um CONTRATO, tipo de INTERVALO, PERÍODO, NUVEM (*Container*) e *Linked-Account (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada, conforme apresentado nas imagens abaixo.
 
 Quando selecionado este relatório, a Plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Histórico de Serviço
-   :scale: 60 %
+   :scale: 40 %
    :align: center
 
 ----
@@ -5280,12 +5307,12 @@ Após selecionado o contrato a Plataforma uCloud apresenta os campos a tela inic
 
 .. image:: /figuras/ucloud_menu_financeiro012b.png
    :alt: Menu Financeiro - Histórico de Serviço
-   :scale: 60 %
+   :scale: 40 %
    :align: center
 
 ----
 
-Abaixo descrevemos os 
+Na sequência a descrição dos campos apresentados na figura: 
 
 * **Contrato**: Este campo se apresenta preenchido com o contrato informado na tela anterior, e o relatório será apresentado somente com as informações financeiras referentes a este contrato.
 
@@ -5398,7 +5425,7 @@ Relatório Visualização de Recursos
 
 Importante mencionar que no presente momento, a Plataforma do uCloud somente consegue apresentar o relatório de “*Visualização de Recursos*” apenas com os dados do provedor de serviço de nuvem pública **AWS** (*Amazon Web Services*), por razão das características de granularidade das informações existentes no arquivo *Cost and Usage Report* (**CUR**) - arquivo texto formato CSV que contém o billing da AWS. Estamos trabalhando para inclusão de outros provedores de serviço de nuvem pública. A evolução e inclusão de outros provedores de serviço de nuvem pública será tema do documento Release Notes ou nas evoluções da Plataforma uCloud.
 
-.. important:: Até o presente mmento, a Plataforma do uCloud, não disponibila qualquer ação sobre os botões referente a outros provedores (Azure, GCP e Oracle), estes botões não estão ativos!
+.. important:: |atencao| Até o presente momento, a Plataforma do uCloud, indisponibiliza qualquer ação sobre os botões referente a outros provedores (Azure, GCP e Oracle), estes botões estão inativos!
 
 ----
 
@@ -5408,7 +5435,7 @@ Quando selecionado este relatório, a Plataforma uCloud apresenta a tela abaixo,
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 50 %
    :align: center
 ----
 
@@ -5453,9 +5480,12 @@ Abaixo descrevemos os campos para apresentação deste relatório:
 
 ----
 
-* **Botão Pesquisar**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma uCloud iniciar o cálculo e apresentação do relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+* **Botão Pesquisar**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a Plataforma uCloud iniciar o cálculo e apresentação do relatório. 
 
-A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos computacionais que acumulam valores e custos mensais. O usuário pode selecionar qual tipo de recurso que deseja visualizar entre: Máquinas Virtuais, Banco de Dados e *Storage*.
+
+
+
+A plataforma uCloud permite selecionar entre os três (3) tipos de recursos computacionais que acumulam valores e custos mensais. O usuário pode selecionar qual tipo de recurso que deseja visualizar entre: Máquinas Virtuais, Banco de Dados e *Storage*. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 **Seção Visualização de Custos por Máquinas Virtuais**
 
@@ -5463,11 +5493,11 @@ A Plataforma uCloudd permite selecionar entre os três (3) tipos de recursos com
 
 .. image:: /figuras/ucloud_menu_financeiro005g.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
-O relatório de visualização de recursos entrega de maneira detalhada quais os tipos de combinação de memória e CPU, conhecido como *FLAVORS*, as máquinas virtuais, os bancos de dados e os autoscale estão utilizando.
+O 'Relatório de Visualização de Recursos" entrega de maneira detalhada os tipos de combinação de memória e CPU, conhecido como *FLAVORS*, as máquinas virtuais, os bancos de dados e os autoscale estão utilizando.
 
 Com essa visibilidade é possível tomar decisões no âmbito financeiro e no operacional, auxiliando na decisão de qual flavor é melhor financeiramente e tecnicamente para determinado sistema e ou projeto.
 
@@ -5475,11 +5505,11 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 
 .. image:: /figuras/ucloud_menu_financeiro005b.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
-É possível saber quanto custou cada tipo de flavor individualmente passando o mouse em cima das barras coloridasA figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+É possível saber quanto custou cada tipo de flavor, individualmente, passando o mouse em cima das barras coloridas. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
   * **Custo Total**: Este campo a Plataforma uCloud apresenta o valor total acumulado no mês dos recursos (*product Name*) máquina virtual. Este valor é a somatória de máquinas virtuais isoladas (por consumo mensal ou instância reservada) e o valor das instâncias de escalabilidade horizontal (*Autoscale*).
 
@@ -5496,10 +5526,15 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 * **Seção Tabela de Custo pos Flavor**: Esta seção apresenta a origem dos valores dos botões acima e é a base de dados para a geração do gráfico. Esta tabela possui algumas colunas e descrevemos as colunas abaixo.
 
   * **Digite o Nome do Flavor**: Neste campo o usuário pode digitar qualquer combinação de caracteres que identificam os *flavors* para restrigir a apresentação destes nesta tabela.
+  
   * **Flavor**: Nesta coluna a Plataforma uCloud apresenta o identificação do *flavor* conforme está identificado no provedr de serviço de nuem pública (na ilustração estão presentes apenas as identificações de *flavors* presentes na AWS). Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de nomes de *flavors** de forma alfabética crescente (a – z) ou decrescente (z – a).
+  
   * **Quantidade**: Nesta coluna a Plataforma uCloud apresenta a quantidade total de instâncias de máquinas virtuais que existem no arquivo de billing do provedor de serviço de nuvem pública. Importante ressaltar que aqui está o volume total de instâncias e representam tanto máquinas virtuais isoladas (individuais) quanto as máquinas virtuais possuem configuração de *autoscale*. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de valores de *flavors* de forma numérica crescente ou decrescente.
+  
   * **Linked Account**: Nesta coluna a Plataforma uCloud apresenta a identificação da *Linked Account* em que a(s) máquina(s) vitual(is) estáo vinculadas. A *Linked Account* é um termo da AWS e é uma forma de agrupamento (ou sub-agrupamento) de diversas contas AWS em uma única conta Master IAM. É importante salientar que a partir do momento que essas contas são consolidadas em uma mesma conta Master IAM, o seu faturamento também é consolidado. Adicionalmente, a cobrança da utilização da nuvem AWS é feita também com preços por volume, o uso da combinação e consolidação de várias contas em uma mesma organização pode acarretar em descontos através da qualificação da conta principal ou da conta pagadora. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud irá agrupar a lista de *flavors* de forma a apresentar *Linked Accounts* de forma agrupada.
+  
   * **Custo**: Nesta coluna a Plataforma uCloud apresenta a somatória dos valores da(s) máquina(s) virtual(is) com o seu valor no(s) mês(es) de consulta do relatório. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de valores dos custos de forma numérica crescente ou decrescente.
+  
   * **AutoScale**: Nesta coluna a Plataforma uCloud, apresenta a indicação se esta máquina virtual possui uma configuração de *autoscale* SIM ou NÃO vinculada a este *flavor*. Esta informação é importante para que o administrador de custos possa efetuar o cálculo correto do custo indivudual de cada tipo de *flavor* e identificar os tipos de *flavor* que são mais dispendiosos ou mais econônicos. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud irá agrupar a lista de *flavors* de forma a apresentar *Autoscale* SIM e *Autoscale* NÃO.
 
 ----
@@ -5508,7 +5543,7 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 
 .. image:: /figuras/ucloud_menu_financeiro005k.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
@@ -5516,7 +5551,7 @@ Os provedores possuem centenas de tipos de flavors que por sua vez possuem custo
 
 .. image:: /figuras/ucloud_menu_financeiro005c.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
@@ -5536,7 +5571,7 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 .. image:: /figuras/ucloud_menu_financeiro005h.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -5545,7 +5580,7 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 .. image:: /figuras/ucloud_menu_financeiro005j.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -5554,7 +5589,7 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 .. image:: /figuras/ucloud_menu_financeiro005m.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
@@ -5562,7 +5597,7 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 .. image:: /figuras/ucloud_menu_financeiro005d.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 70 %
    :align: center
 ----
 
@@ -5668,17 +5703,6 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 
 ====
 
-.. Custos de Budgets
-.. ~~~~~~~~~~~~~~~~~
-
-.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-
-.. Teste de Nivel 4
-.. ################
 
 
 Painéis Baseados em Fatura
@@ -5905,8 +5929,10 @@ Tendência de faturamento
 .. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
 .. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
-Utilitários Financeiro
-----------------------
+
+**Utilitários**
+--------------
+
 
 Dimensão
 ~~~~~~~~
