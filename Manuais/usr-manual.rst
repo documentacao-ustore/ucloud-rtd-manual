@@ -5937,9 +5937,9 @@ Retomando o assunto sobre as atuais organizações empresariais adotarem a nuvem
 
 O grande desafio é o gerenciamento destes ambientes híbridos das diversas nuvens (hybrid multi-cloud), para alcançar a visão unificada e obter o controle dos custos financeiros, uma vez que cada empresa tem um tipo de necessidade e enfrenta diferentes desafios.
 
-Neste cenário de multicloud, os recursos computacionais necessitam de governança financeira, a plataforma uCloud proporciona o gerencimento dos recursos utilizados nos ambientes híbridos. 
+Neste cenário híbrido de multicloud, os recursos computacionais necessitam de governança financeira e a plataforma uCloud proporciona o gerencimento deste recursos utilizados nos ambientes. É por meio do menu financeiro que o usuário pode ter acesso a diversas formas de visualização sobre a evolução dos custos referentes ao consumo dos recursos computacionais.  
 
-Estabelece a otimização ao situar os limites tanto financeiros quanto quantitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além de aplicar as funcionalidades Dimensão e Tags Virtuais que geram relatórios utilitários a seguir detalhados. 
+A plataforma organiza a otimização destes custos ao padronizar e situar os limites tanto financeiros quanto quantitativos e qualitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além dos painéis existentes no submenu Relatórios inova ao viabilizar as implementações: Dimensão e Tags Virtuais, funcionalidades utilitárias que favorecem os relatórios a seguir detalhados. 
 
 
 Dimensão
@@ -5979,7 +5979,7 @@ No exemplo acima, a expressão representa que essa dimensão deseja todos os rec
 
 Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe três opções: 
 
-1. Dimensão, 
+1. **Dimensão**, 
 2. Tags Virtuais e 
 3. Cost Threshold, como apresentada na imagem abaixo:
 
@@ -6006,9 +6006,9 @@ Caso esta seja a primeira dimensão a ser criada pelo usuário, nenhuma lista é
 ----
   
 
-Do lado superior esquerdo da tela é apresentado o botão “Criar Dimensão”, o qual o usuário deve pressionar para dar início ao processo de criação.
+Do lado superior esquerdo da tela é apresentado o botão “Criar Dimensão”, no qual o usuário deve pressionar para dar início ao processo de criação.
 
-Após clicado, é apresentada a tela de formação de "Dimensão", como exibido na figura seguinte: 
+Após clicado, é apresentada a tela inicial de criar a "Dimensão", como exibido na figura seguinte: 
   
 
 .. image:: /figuras/fig_ucloud_findimensao/04_dimensão_inicio.png
@@ -6039,7 +6039,7 @@ Para entender melhor a função de cada campo, observar os detalhamentos destas 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Após preencher o nome da "Dimensão", o usuário deve criar um grupo para sua estrutura. Ao passar o cursor do mouse sobre a opção “Agrupamento de Tags”, aparece a seguinte mensagem:
+Após preencher o nome da "Dimensão", o usuário deve criar um grupo para sua estrutura. Ao passar o cursor do mouse sobre a opção “Agrupamento de *Tags*”, aparece a seguinte mensagem:
 
 
 .. image:: /figuras/fig_ucloud_findimensao/05_dimensão_mensagem_grupo_expandida.png
@@ -6056,7 +6056,7 @@ Ao ser selecionado, o modal de criação do grupo é exibido, onde o nome do agr
 
   
 
-Realizada a ação, abaixo da função de “Estrutura +”, o nome do grupo criado aparece, e ao seu lado há dois botões de ação:
+Realizada a ação, abaixo da função de **“Estrutura +”**, o nome do grupo criado aparece, e ao seu lado há dois botões de ação:
 
 * Símbolo de adição “+” para criar outro(s) grupo(s) ou adicionar `Tag`(s);
 
@@ -6070,7 +6070,7 @@ Ao lado desses ícones, aparece a seguinte informação:
    :align: center
 ----
 
-.. attention:: |atencao| Importante ressaltar que caso a construção da dimensão não se iguale às condições apresentadas na mensagem, o botão de “Salvar” fica indisponível para o acionamento.
+.. attention:: |atencao| Importante ressaltar que caso a construção da "Dimensão" não se iguale às condições apresentadas na mensagem, o botão de “Salvar” fica indisponível para o acionamento.
 
 Na imagem abaixo, é possível notar também que na função da Estrutura, na parte inferior da tela, o grupo é representado por (    ).
 
@@ -6082,8 +6082,8 @@ Na imagem abaixo, é possível notar também que na função da Estrutura, na pa
 
 
 
-**Criando a primeira `Tag`**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Criando `Tag`**
+~~~~~~~~~~~~~~~~~
 
 
 Clicando no ícone de adição “+” ao lado do grupo criado e posicionando o cursor do mouse sobre a opção da `Tag`, é exibida a seguinte mensagem:
@@ -6135,7 +6135,7 @@ Caso a `company` já tenha `Tags` existentes, é exibida uma listagem de `Tags` 
 
   
 
-O usuário deve selecionar a `Tag` desejada, exibida na listagem, e automaticamente são apresentadas a chave e o valor da `Tag` criada.
+O usuário deve selecionar a `Tag` desejada, exibida na listagem, e automaticamente são apresentadas a Chave e o Valor da `Tag` criada.
   
 
 .. image:: /figuras/fig_ucloud_findimensao/14_dimensão_company_tag_escolhida.png
@@ -6156,7 +6156,7 @@ Ao finalizar o preenchimento do modal, o usuário deve clicar no botão “Salva
 
 Caso uma `company` não tenha `Tags` e o usuário deseje criá-las, basta digitar a Chave e o Valor nos últimos campos, como demonstrado na imagem acima, deixando os campos centrais vazios.
 
-Feito isso, a tela de criação de dimensão deve ser exibida da seguinte forma: 
+Feito isso, a tela de criação de "Dimensão" deve ser exibida da seguinte forma: 
 
 .. image:: /figuras/fig_ucloud_findimensao/16_dimensão_grupo_e_tag.png
    :alt: Financeiro Dimensão_grupo_e_tag
@@ -6164,7 +6164,7 @@ Feito isso, a tela de criação de dimensão deve ser exibida da seguinte forma:
 ----
 
 
-Percebe-se, através da imagem acima, que a "Dimensão" possui um sistema de hierarquização, onde primeiro temos um grupo inserido na estrutura, e somente depois da criação do grupo temos as `Tags`.
+Percebe-se, através da imagem acima, que a "Dimensão" possui um sistema de hierarquização, onde primeiro há um grupo inserido na estrutura, e somente depois da criação do grupo seguem as `Tags`.
  
 Após a inicialização do processo de criação de uma "Dimensão", é necessário adicionar as demais `Tags` do mesmo contexto para fazerem parte do grupo.
 
@@ -6224,9 +6224,9 @@ Nesse exemplo, foi selecionado o operador “E” (representado na língua ingle
 
   
 
-Ao finalizar este primeiro processo de criação de `Tag`, o usuário deve criar a segunda `Tag`, repetindo o fluxo de criação detalhada acima.
+Ao finalizar este primeiro processo de criação de `Tag`, o usuário deve criar a segunda `Tag`, repetindo o fluxo de criação detalhado acima.
 
-Finalizando esta etapa, é exibida a estrutura final de uma dimensão, e para armazená-la basta clicar no botão “Salvar”, localizada no canto inferior direito da tela, como apresentada na figura abaixo:
+Finalizando esta etapa, é exibida a estrutura final de uma dimensão, e para armazená-la basta clicar no botão “Salvar”, localizado no canto inferior direito da tela, como apresentada na figura abaixo:
 
 .. image:: /figuras/fig_ucloud_findimensao/21_dimensão_estrutura_completa.png
    :alt: Financeiro Dimensão_estrutura_completa
@@ -6241,7 +6241,7 @@ Ao concluir essa ação, a "Dimensão" salva é apresentada na listagem de dimen
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-Para listar a "Dimensão" recém-criada, normalmente a tela exibe a listagem. Na consulta da tela listagem de dimensão, caso ela não atualize automaticamente, o usuário deve clicar no botão “Atualizar” no canto superior direito da tela.
+Para listar a "Dimensão" recém-criada, normalmente a tela exibe a listagem. Na consulta da tela "Listagem de Dimensões", caso ela não atualize automaticamente, o usuário deve clicar no botão “Atualizar” no canto superior direito da tela.
 
 Em seguida, a tela que exibe a lista deve apresentar a "Dimensão" criada, como publicado na figura abaixo:
 
@@ -6252,7 +6252,9 @@ Em seguida, a tela que exibe a lista deve apresentar a "Dimensão" criada, como 
 ----
 
 
-A tela acima “Listagem de Dimensões” mostra na parte superior direita o nome do contrato, o símbolo da funcionalidade “Tarefas” e o nome do usuário logado. Nesta o usuário pode optar entre criar uma nova dimensão, editar uma dimensão existente ou deletar uma dimensão criada. Apresenta os dois botões que permitem “Criar dimensão” ou  “Atualizar” a lista das dimensões.
+A tela acima “Listagem de Dimensões” mostra na parte superior direita o nome do contrato, o símbolo da funcionalidade “Tarefas” e o nome do usuário logado. 
+
+Nesta tela o usuário pode optar entre criar uma nova dimensão, editar uma dimensão existente ou deletar uma dimensão criada. Apresenta os dois botões que permitem “Criar dimensão” ou  “Atualizar” a lista das dimensões.
 
 Nesta lista, são apresentadas as colunas “Nome” e “Ações”, as informações podem ser customizadas e recuperadas ao clicar nos blocos de 10, 25, 50 ou 100 linhas. A coluna “Ações” possibilita as operações de “Editar” e “Excluir”.   
 
@@ -6261,7 +6263,7 @@ Nesta lista, são apresentadas as colunas “Nome” e “Ações”, as informa
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Para editar uma Dimensão, basta o usuário clicar no botão referente à edição na coluna ações na listagem de "Dimensão", como detalhado abaixo:
+Para editar uma Dimensão, basta o usuário clicar no botão referente à edição na coluna "Ações" na listagem de "Dimensão", como detalhado abaixo:
 
 
 .. image:: /figuras/fig_ucloud_findimensao/23_dimensão_botão_editar.png
@@ -6271,7 +6273,7 @@ Para editar uma Dimensão, basta o usuário clicar no botão referente à ediç�
 
   
 
-Fazendo isso, a tela com a estrutura montada e finalizada é exibida, como exemplificado abaixo. Este, usando uma nova dimensão, contém Grupos e `Tags` variadas.
+Fazendo isso, a tela com a estrutura montada e finalizada é exibida, como exemplificado abaixo. Este exemplo, usando uma nova dimensão, contém Grupos e `Tags` variadas.
 
 
 .. image:: /figuras/fig_ucloud_findimensao/24_dimensão_estrutura_completa.png
@@ -6286,15 +6288,16 @@ Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuári
 
 É possível também perceber que a cada ação feita, a Estrutura, localizada no fim da página, é modificada.
 
-Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizada no canto inferior direito da página.
+Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizado no canto inferior direito da página.
 
 
 **Onde a "Dimensão" é utilizada**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Atualmente, essa implementação agrupa *tags*  e reúne-as na dimensão criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
+Atualmente, essa implementação agrupa *Tags*  e reúne-as na "Dimensão" criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
 
-Além disso, a "Dimensão" está sendo utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” (desambiguação). Criar hiperlink.
+Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” (desambiguação). 
+.. Criar hiperlink.
 
 
 
