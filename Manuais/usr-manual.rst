@@ -6305,7 +6305,7 @@ Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no
 ~~~~~~~~~~~~~~~
 
 Descrição de *TAGs* Virtuais
-==========================
+============================
 
 Num contexto amplo, uma *TAG* (um rótulo ou uma etiqueta) é uma palavra chave que assina ou identifica um determinado recurso computacional (ou serviço decorrente da existência deste) armazenado em um provedor de nuvem, repositório ou banco de dados. As *TAGs* são um tipo de metadado, capazes de fornecer informação que descreve o dado, isto facilita a busca automatizada para a  recuperação de informações. 
 
