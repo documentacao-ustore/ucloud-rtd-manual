@@ -6296,12 +6296,10 @@ Onde a "Dimensão" é utilizada
 
 Atualmente, essa implementação agrupa *Tags*  e reúne-as na "Dimensão" criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
 
-Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” (desambiguação). 
+Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” em desambiguação_ .
 
 
-..Criar hiperlink.
-
-
+.. _desambiguação: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#criando-budget-e-sub-budget
 
 Tags Virtuais
 ~~~~~~~~~~~~~
