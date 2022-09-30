@@ -5939,7 +5939,7 @@ O grande desafio é o gerenciamento destes ambientes híbridos das diversas nuve
 
 Neste cenário híbrido de multicloud, os recursos computacionais necessitam de governança financeira e a plataforma uCloud proporciona o gerencimento deste recursos utilizados nos ambientes. É por meio do menu financeiro que o usuário pode ter acesso a diversas formas de visualização sobre a evolução dos custos referentes ao consumo dos recursos computacionais.  
 
-A plataforma organiza a otimização destes custos ao padronizar e situar os limites tanto financeiros quanto quantitativos e qualitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além dos painéis existentes no submenu Relatórios inova ao viabilizar as implementações: Dimensão e Tags Virtuais, funcionalidades utilitárias que favorecem os relatórios a seguir detalhados. 
+A plataforma organiza a otimização destes custos ao padronizar e situar os limites tanto financeiros quanto quantitativos e qualitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além dos painéis existentes, o submenu Relatórios inova ao viabilizar as implementações: Dimensão e Tags Virtuais, funcionalidades utilitárias que favorecem os relatórios a seguir detalhados. 
 
 
 Dimensão
@@ -5974,8 +5974,8 @@ Sendo assim, ao unificar esse grupo de `Tags` em uma dimensão, é possível ide
 No exemplo acima, a expressão representa que essa dimensão deseja todos os recursos que tenham as `Tags`: “product: EFG & departamento:TI”. Esta expressão é considerada simples, no entanto, algo mais complexo pode ser construído a partir do que foi implementado.
 
 
-**Criando uma Dimensão**
-~~~~~~~~~~~~~~~~~~~~~~~~
+Criando uma Dimensão
+~~~~~~~~~~~~~~~~~~~~
 
 Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe três opções: 
 
@@ -6023,9 +6023,9 @@ Para entender melhor a função de cada campo, observar os detalhamentos destas 
 
 * Estrutura + : Este botão apresenta duas opções que o usuário pode aplicar na estrutura de sua "Dimensão": 
 
-   * Agrupamento de Tags;
+   * Agrupamento de *Tags*;
 
-   * Tag. 
+   * *Tag*. 
 
 
 .. attention:: |atencao| Importante ressaltar que essa estrutura deve ser uma expressão lógica pensada previamente. Portanto, para agrupar `tags` é necessário primeiro colocá-las em um grupo.
@@ -6035,8 +6035,8 @@ Para entender melhor a função de cada campo, observar os detalhamentos destas 
 * Botão “Salvar”: Após o preenchimento completo dos dados, o usuário deve pressionar o botão “Salvar”, para que estes não se percam.
 
 
-**Criando um Agrupamento de Tags**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Criando um Agrupamento de *Tags*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Após preencher o nome da "Dimensão", o usuário deve criar um grupo para sua estrutura. Ao passar o cursor do mouse sobre a opção “Agrupamento de *Tags*”, aparece a seguinte mensagem:
@@ -6058,7 +6058,7 @@ Ao ser selecionado, o modal de criação do grupo é exibido, onde o nome do agr
 
 Realizada a ação, abaixo da função de **“Estrutura +”**, o nome do grupo criado aparece, e ao seu lado há dois botões de ação:
 
-* Símbolo de adição “+” para criar outro(s) grupo(s) ou adicionar `Tag`(s);
+* Símbolo de adição “+” para criar outro(s) grupo(s) ou adicionar *Tag(s)*;
 
 * Ícone de uma lata de lixo para deletar o grupo criado.
 
@@ -6082,8 +6082,8 @@ Na imagem abaixo, é possível notar também que na função da Estrutura, na pa
 
 
 
-**Criando `Tag`**
-~~~~~~~~~~~~~~~~~
+Criando *Tag*
+~~~~~~~~~~~~~
 
 
 Clicando no ícone de adição “+” ao lado do grupo criado e posicionando o cursor do mouse sobre a opção da `Tag`, é exibida a seguinte mensagem:
@@ -6171,8 +6171,8 @@ Após a inicialização do processo de criação de uma "Dimensão", é necessá
 Para isso, o usuário deve clicar no sinal de adição “+” ao lado de Estrutura, o qual aparecem dois **operadores lógicos** </> OU e </> E. 
 
 
-**Utilizando o operador lógico**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utilizando o operador lógico
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
 
 Operadores lógicos fazem parte da linguagem de programação, e eles são usados com o objetivo de criar expressões do tipo verdadeiro e falso. Estes têm o intuito de juntar duas expressões divergentes e elaborar uma expressão condicional mais complexa. 
@@ -6237,8 +6237,8 @@ Finalizando esta etapa, é exibida a estrutura final de uma dimensão, e para ar
 Ao concluir essa ação, a "Dimensão" salva é apresentada na listagem de dimensão.
 
 
-**Listando Dimensão**
-~~~~~~~~~~~~~~~~~~~~~
+Listando Dimensão
+~~~~~~~~~~~~~~~~~
 
 
 Para listar a "Dimensão" recém-criada, normalmente a tela exibe a listagem. Na consulta da tela "Listagem de Dimensões", caso ela não atualize automaticamente, o usuário deve clicar no botão “Atualizar” no canto superior direito da tela.
@@ -6259,8 +6259,8 @@ Nesta tela o usuário pode optar entre criar uma nova dimensão, editar uma dime
 Nesta lista, são apresentadas as colunas “Nome” e “Ações”, as informações podem ser customizadas e recuperadas ao clicar nos blocos de 10, 25, 50 ou 100 linhas. A coluna “Ações” possibilita as operações de “Editar” e “Excluir”.   
 
 
-**Editando uma Dimensão**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Editando uma Dimensão
+~~~~~~~~~~~~~~~~~~~~~
 
 
 Para editar uma Dimensão, basta o usuário clicar no botão referente à edição na coluna "Ações" na listagem de "Dimensão", como detalhado abaixo:
@@ -6291,13 +6291,15 @@ Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuári
 Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizado no canto inferior direito da página.
 
 
-**Onde a "Dimensão" é utilizada**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Onde a "Dimensão" é utilizada
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Atualmente, essa implementação agrupa *Tags*  e reúne-as na "Dimensão" criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
 
 Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no *card* nomeado  “Detalhes do sub Budgets” (desambiguação). 
-.. Criar hiperlink.
+
+
+..Criar hiperlink.
 
 
 
