@@ -6324,6 +6324,8 @@ Por exemplo:
 * O usuário ou a organização, podem definir um conjunto de *TAGs* para as instâncias do Amazon EC2, da sua conta, para auxiliar a rastrear o proprietário e/ou o nível do agrupamento (empilhamento de valores - stack) de cada recurso computacional de nuvem pública consumido.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual001.png
+   :alt: Contexto Global do uso de Tag 
+   :scale: 60 %
    :align: center
 
 ----
@@ -6434,12 +6436,16 @@ Restrições das TAGs
 
 No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restrições básicas a serem aplicadas:
 
-* **Número máximo de TAGs por recurso**: 50
-* **Tamanho máximo da chave**: 128 caracteres
-* **Tamanho máximo do valor**: 256 caracteres
+* **Número máximo de TAGs por recurso**: 50;
+
+* **Tamanho máximo da chave**: 128 caracteres;
+
+* **Tamanho máximo do valor**: 256 caracteres;
+
 * **Caracteres permitidos**: Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
 
-* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
+* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. 
+* Evitar espaços ou /, e não pode formar apenas . (um ponto), .. (dois pontos) ou _index.
 
 
 .. note:: |nota| Para qualquer recurso, cada chave da etiqueta deve ser exclusiva e pode ter apenas um valor.
@@ -6455,32 +6461,32 @@ Esta nova implementação possibilita taguear os recursos ausentes de marcação
 
 Existem algumas estratégias comuns de marcação que auxiliam na identificação e gerenciamento de recursos na nuvem, para organizar recursos e para alocar custos, além de várias categorias de marcação na nuvem, por exemplo na AWS:
 
-* **Técnicas**
-* **Automação**
-* **Comerciais**
-* **Segurança**
+* **Técnicas**;
+* **Automação**;
+* **Comerciais**;
+* **Segurança**.
 
 As *TAGs* adicionais apresentam maior eficiência por criar agrupamentos, *TAGs* técnicas, *TAGs* para automação, *TAGs* comerciais, *TAGs* de segurança. Dentre elas podemos citar algumas: Nome, ID do aplicativo, Função do aplicativo, Cluster, Ambiente, Versão, Data/Hora, Aceitar/Recusar, Segurança, Projeto. Proprietário, Centro de custo/Unidade de negócios, Cliente, Confidencialidade e Conformidade.
 
-.. note:: Comportamento da TAG na Nuvem AWS - As TAGs criadas pelo sistema que iniciam com **aws**: são reservadas para uso da AWS, não é possível editar nem excluir uma TAG que inicia com o prefixo aws. Em relação ao limite de criar TAG, cada recurso pode ter no máximo 50 TAGs criadas pelo usuário.
+.. note:: Comportamento da TAG na Nuvem AWS |nota| As TAGs criadas pelo sistema que iniciam com **aws**: são reservadas para uso da AWS, não é possível editar nem excluir uma TAG que inicia com o prefixo aws. Em relação ao limite de criar TAG, cada recurso pode ter no máximo 50 TAGs criadas pelo usuário.
 
 Pode-se resumir que o processo de utilização da funcionalidade de *TAGs* Virtuais se aplica em dois momentos distintos:
 
 1. **Criação e Automação do uso de TAGs Virtuais**:
 
-  a. Provisionar um nome de identificação para **um único** perfil de TAGs Virtuais com todas as vinculações de TAGs com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*.
+  a. Provisionar um nome de identificação para **um único** perfil de TAGs Virtuais com todas as vinculações de TAGs com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*;
 
-  b. Vincular Perfil de *TAGs* Virtuais ao identificador de nuvem (*container*).
+  b. Vincular Perfil de *TAGs* Virtuais ao identificador de nuvem (*container*);
 
-  c. Executar o processamento e sincronização do arquivo de *Billing/Bucket*.
+  c. Executar o processamento e sincronização do arquivo de *Billing/Bucket*;
 
-  d. Visualização dos relatórios Financeiros na Plataforma uCloud usando a totalização por **TAGs**.
+  d. Visualização dos relatórios Financeiros na Plataforma uCloud usando a totalização por **TAGs**;
 
   e. Se for identificado que ainda existem recursos SEM *TAGs* (lembrar que existem recursos que o provedor de serviço de nuvem pública não vincula a nenhuma *TAG*; ou que a combinação de *ProductName, ProductFamily, Identificador de Recurso*, não foi suficiente para associar a totalidade de linhas do arquivo de *billing*), a Plataforma uCloud permite endereçar esta ausência de *TAGs* com o processo seguinte.
 
 2. **Normalização de TAGs Virtuais**:
 
-  a. Este processo somente deve ser aplicado quando a combinação existente no Perfil de *TAGs* Virtuais não consegue aplicar *TAGs* para todos recursos.
+  a. Este processo somente deve ser aplicado quando a combinação existente no Perfil de *TAGs* Virtuais não consegue aplicar *TAGs* para todos recursos;
 
   b. Este processo deve ser executado APENAS UMA VEZ por mês, pois demanda um certo tempo para completar a normalização de todas as linhas do *billing* no período do mês corrente. *Este processo deve ser inicializado manualmente e normaliza as TAGS Virtuais apenas e somente para um único período, não é recorrente ou automático*.
 
