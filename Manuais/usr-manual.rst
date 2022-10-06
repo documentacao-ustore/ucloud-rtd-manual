@@ -5637,7 +5637,7 @@ Acessando o Relatório de Monitoramento de Consumo.V1
 Para gerar o Relatório de Monitoramento de Consumo.V1 no portal uCloud, o usuário deve acessar o menu “Financeiro”, identificado no canto inferior esquerdo. E em seguida, clicar no submenu “Relatórios”. 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/1 Menu_Financeiro.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
    :alt: Menu_Financeiro
    :align: center 
 
@@ -5647,7 +5647,7 @@ Para gerar o Relatório de Monitoramento de Consumo.V1 no portal uCloud, o usuá
 Na tela abaixo são apresentadas todas as opções referentes ao acesso e gerenciamento das faturas dos grupos ou contratos que o usuário administra.
 
   
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/2 Financeiro_painéis.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/2_Financeiro_painéis.png 
    :alt: Financeiro_painéis
    :align: center 
 
@@ -5657,7 +5657,7 @@ Na tela abaixo são apresentadas todas as opções referentes ao acesso e gerenc
 
 Ao clicar no submenu “Relatórios”, o tópico “Painéis Baseados em Consumo” possibilita o acesso aos relatórios relacionados ao consumo do mês atual digitado na busca pelo usuário. 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/3 Painéis_baseados_consumo.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/3_Painéis_baseados_consumo.png 
    :alt: Painéis_baseados_consumo
    :align: center 
 
@@ -5670,7 +5670,7 @@ Ele agrupa sete tipos de relatórios, um deles é o **Relatório de Monitorament
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/4 Descrição.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/4_Descrição.png 
    :alt: Descrição
    :align: center 
 
@@ -5692,7 +5692,7 @@ Após clicar em **Relatório de Monitoramento de Consumo - RMC.V1**, é aberta u
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/5 RMConsumo.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/5_RMConsumo.png 
    :alt: Relatório Monitoramento Consumo v1 
    :align: center 
 
@@ -5710,7 +5710,7 @@ Neste mesmo modal, são exibidos dois botões:
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/6 Seleção_mês_e_ano.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/6_Seleção_mês_e_ano.png 
    :alt: Seleção_mês_e_ano
    :align: center 
 
@@ -5724,7 +5724,7 @@ A barra de rolagem, localizada na lateral direita, ajuda o usuário a navegar pe
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/7 Barras_rolagem_pesquisa.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/7_Barras_rolagem_pesquisa.png 
    :alt: Barras_rolagem_pesquisa
    :align: center 
 
@@ -5738,7 +5738,7 @@ Após clicar em Gerar Relatório, é aberta uma nova tela, em que aparece  o mê
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/8 Desbloquear_download.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/8_Desbloquear_download.png 
    :alt: Desbloquear_download
    :align: center 
 
@@ -5757,7 +5757,7 @@ Para a execução de descarregar o arquivo, basta o usuário acionar o botão re
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/9 Gerar_relatório.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/9_Gerar_relatório.png 
    :alt: Gerar_relatório
    :align: center 
 
@@ -5792,7 +5792,7 @@ No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da taref
 
   
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/10 Tarefas.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/10_Tarefas.png 
    :alt: Tarefas
    :align: center 
 
@@ -5818,7 +5818,7 @@ Ao criar o novo relatório com êxito, o usuário deve repetir o fluxo para baix
 Na sequência, é necessário selecionar novamente, o mesmo período e contratos que se pretende buscar informações previamente criadas. 
  
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/11 Fluxo_gerar_relatório.png
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/11_Fluxo_gerar_relatório.png
    :alt: Fluxo_gerar_relatório
    :align: center 
 
@@ -5834,7 +5834,7 @@ No curso deste procedimento, a plataforma apresenta o desbloqueio do botão [*Do
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/12 Relatório gerado.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/12_Relatório_gerado.png 
    :alt: Relatório gerado
    :align: center 
 
@@ -5873,7 +5873,7 @@ Conforme imagem exibida abaixo:
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/13 RMCv1 Capa.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/13_RMCv1_Capa.png 
    :alt: RMCv1 Capa
    :align: center 
 
@@ -5890,7 +5890,7 @@ No Resumo Executivo apresenta-se um texto explicativo, descrevendo a variação 
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/14 Resumo executivo.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/14_Resumo_executivo.png 
    :alt: Resumo executivo
    :align: center 
 
@@ -5910,7 +5910,7 @@ Logo após o resumo executivo, temos o Histórico de Faturamento, que apresenta 
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/15 Histórico de faturamento.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/15_Histórico_de_faturamento.png 
    :alt: Histórico de faturamento
    :align: center 
 
@@ -5927,7 +5927,7 @@ Além disso, esta parte da implementação expõe uma regra básica: são especi
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/16 Visualização.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/16_Visualização.png 
    :alt: Visualização
    :align: center 
 
@@ -5943,7 +5943,7 @@ Para a complementação e melhor visualização, esta parte do documento também
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/16 exemplo.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/16_Exemplo.png 
    :alt: Exemplo
    :align: center 
 
@@ -5960,7 +5960,7 @@ Para a complementação e melhor visualização, esta parte do documento também
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/17 exemplo.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/17_Exemplo.png 
    :alt: Exemplo dois
    :align: center 
 
@@ -5974,7 +5974,7 @@ Na Fatura por Contrato/Projeto é informado primeiramente o gasto geral dos cont
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/18 Fatura por contrato.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/18_Fatura_por_contrato.png 
    :alt: Fatura por contrato
    :align: center 
 
@@ -5990,7 +5990,7 @@ Assim como no Histórico de Faturamento, na Fatura por Contrato/Projeto também 
 
 
  
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/19 Proporção nuvens.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/19_Proporção_nuvens.png 
    :alt: Proporção nuvens
    :align: center 
 
@@ -6006,14 +6006,14 @@ O exemplo da tabela abaixo detalha os custos da nuvem, seus contratos, e totaliz
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/20 exemplo aws.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/20_Exemplo_aws.png 
    :alt: Exemplo aws
    :align: center
 ----
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/21 exemplo azure.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/21_Exemplo_azure.png 
    :alt: Exemplo azure
    :align: center 
 
@@ -6035,7 +6035,7 @@ Essa tabela leva em consideração apenas as variações de maior relevância, c
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/22 Maiores variações.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/22_Maiores_variações.png 
    :alt: Maiores variações
    :align: center 
 
@@ -6047,7 +6047,7 @@ As variações positivas (>=15%) são realçadas no tom azulado, da mesma maneir
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/23 Maiores variações.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/23_Maiores_variações.png 
    :alt: Maiores variações
    :align: center 
 
@@ -6060,7 +6060,7 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_aws.png 
    :alt: Mudança aws
    :align: center 
 
@@ -6070,14 +6070,14 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws lista.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_aws_lista.png 
    :alt: Mudança aws lista
    :align: center 
 
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws_lista.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_aws_lista2.png 
    :alt: Mudança aws_lista
    :align: center 
 
@@ -6088,7 +6088,7 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança azure.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_azure.png 
    :alt: Mudança azure
    :align: center 
 
