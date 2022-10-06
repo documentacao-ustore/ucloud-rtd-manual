@@ -5611,6 +5611,497 @@ Existem três quadros neste relatório com informações de inteligência de neg
 
 ====
 
+
+Relatório de Monitoramento de Consumo V1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+O Relatório de Monitoramento de Consumo V1 é uma nova funcionalidade do portal uCloud, que trata do acompanhamento de faturamento e detalhe completo dos gastos, categorizados por Nuvens (por exemplo: *AWS* e *Azure*), Contratos e Recursos. 
+
+
+Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas, relatórios e gráficos, para cada tipo de classe (Recurso, Contrato e Nuvem). Estes são intitulados nos tópicos como: *Histórico de Faturamento*, *Fatura por Contrato/Projeto*, *Maiores Variações Nesta Fatura* e *Detalhamento TOP 3 Contratos por Nuvem*.
+
+
+.. note:: |nota| Cada uma destas categorias é separada e organizada do maior para o menor consumo. 
+
+
+Além disso, o Relatório de Monitoramento de Consumo V1 compara os gastos do mês atual com o do mês anterior, proporcionando à empresa as informações necessárias para que se possa avaliar o desembolso e ter um controle eficiente das possíveis quedas ou aumento do consumo. 
+
+
+
+Acessando o Relatório de Monitoramento de Consumo.V1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Para gerar o Relatório de Monitoramento de Consumo.V1 no portal uCloud, o usuário deve acessar o menu “Financeiro”, identificado no canto inferior esquerdo. E em seguida, clicar no submenu “Relatórios”. 
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/1 Menu_Financeiro.png 
+   :alt: Menu_Financeiro
+   :align: center 
+
+----
+  
+
+Na tela abaixo são apresentadas todas as opções referentes ao acesso e gerenciamento das faturas dos grupos ou contratos que o usuário administra.
+
+  
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/2 Financeiro_painéis.png 
+   :alt: Financeiro_painéis
+   :align: center 
+
+----
+
+
+
+Ao clicar no submenu “Relatórios”, o tópico “Painéis Baseados em Consumo” possibilita o acesso aos relatórios relacionados ao consumo do mês atual digitado na busca pelo usuário. 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/3 Painéis_baseados_consumo.png 
+   :alt: Painéis_baseados_consumo
+   :align: center 
+
+----
+  
+
+
+Ele agrupa sete tipos de relatórios, um deles é o **Relatório de Monitoramento de Consumo**, nomeado de forma resumida como RMC.V1.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/4 Descrição.png 
+   :alt: Descrição
+   :align: center 
+
+----
+  
+
+
+Clicando nesta opção, o usuário pode gerar o documento desejado.
+
+
+
+
+Criando o RMC.V1
+~~~~~~~~~~~~~~~~
+
+
+Após clicar em **Relatório de Monitoramento de Consumo - RMC.V1**, é aberta uma nova tela, na qual o usuário pode selecionar o mês e o ano que deseja visualizar, além de filtrar os contratos pretendidos.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/5 RMConsumo.png 
+   :alt: Relatório Monitoramento Consumo v1 
+   :align: center 
+
+----
+  
+
+
+
+Neste mesmo modal, são exibidos dois botões: 
+
+
+* [**GERAR RELATÓRIO**]  O primeiro fica disponibilizado para acionamento quando ao menos um contrato é selecionado.
+* [**SELECIONAR TUDO**]. O segundo refere-se ao filtro dos contratos. Servindo como auxílio deste botão, é possível notar na imagem as barras de rolagem e de pesquisa. 
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/6 Seleção_mês_e_ano.png 
+   :alt: Seleção_mês_e_ano
+   :align: center 
+
+----
+
+
+
+
+A barra de rolagem, localizada na lateral direita, ajuda o usuário a navegar pelo modal  na busca do contrato procurado. A barra de pesquisa facilita a busca, basta o usuário digitar as letras iniciais do contrato.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/7 Barras_rolagem_pesquisa.png 
+   :alt: Barras_rolagem_pesquisa
+   :align: center 
+
+----
+  
+
+
+
+Após clicar em Gerar Relatório, é aberta uma nova tela, em que aparece  o mês selecionado pelo usuário e os botões [*DOWNLOAD*] e [GERAR NOVO RELATÓRIO]. 
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/8 Desbloquear_download.png 
+   :alt: Desbloquear_download
+   :align: center 
+
+----
+
+
+O desbloqueio do botão de [*DOWNLOAD*] só é realizado quando os dados são compilados na plataforma e a mesma disponibiliza o relatório do período e do contrato selecionado. 
+
+
+
+
+No exemplo da tela a seguir, a plataforma informa que o “usuário não possui relatórios gerados para os contratos e período selecionado” e solicita ao usuário “clicar em [GERAR NOVO RELATÓRIO]. 
+
+Para a execução de descarregar o arquivo, basta o usuário acionar o botão referido.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/9 Gerar_relatório.png 
+   :alt: Gerar_relatório
+   :align: center 
+
+----  
+
+
+
+No caso da inexistência de dados os relatórios se tornam indisponíveis para o mês selecionado, o botão [*DOWNLOAD*] aparece inativo (cor cinza) e a plataforma emite a mensagem mencionada no exemplo anterior e impressa na imagem acima.
+
+
+Quando existe dado a ser publicado no período selecionado pelo usuário, a plataforma informa que o relatório está em processo de compilação dos dados. 
+
+
+Acessando o menu Tarefas
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da tarefa no topo da tela. Para cada tipo de usuário o processo difere:
+
+
+**Caso 1** 
+
+
+1. Usuário admin, o mesmo deve abrir a funcionalidade Tarefas e observar a janela de “Aprovações Pendentes” a qual apresenta as colunas: Operação, usuário, detalhes, progresso, data de início, duração, status e ações. 
+
+
+**Caso 2** 
+
+
+2. Usuário user, o mesmo deve solicitar ao seu administrador do contrato que realize a aprovação da tarefa solicitada.
+
+
+  
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/10 Tarefas.png 
+   :alt: Tarefas
+   :align: center 
+
+----
+
+
+
+Na coluna “Ações” localizada na janela de “Aprovações Pendentes” o usuário admin do contrato deve aprovar a ação “Gerar Relatório”. Em seguida, ele deve aguardar a atualização do “Status” pode ser Rodando (*Running*); Falha (*Failed*) e Sucesso (*Sucessfull*).
+
+
+Após o sucesso no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
+
+
+
+
+Desbloqueando o *download* do RMC.V1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Ao criar o novo relatório com êxito, o usuário deve repetir o fluxo para baixá-lo, uma vez que os dados estão compilados na plataforma uCloud. 
+
+
+Na sequência, é necessário selecionar novamente, o mesmo período e contratos que se pretende buscar informações previamente criadas. 
+ 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/11 Fluxo_gerar_relatório.png
+   :alt: Fluxo_gerar_relatório
+   :align: center 
+
+----
+
+
+
+Neste ponto, o usuário deve observar se o botão [GERAR RELATÓRIO] está habilitado (cor laranja), em caso positivo, significa que o fluxo para baixar o RMC.v1 prossegue, os dados estão previamente preparados e podem ser extraídos em formato de relatório.
+
+
+No curso deste procedimento, a plataforma apresenta o desbloqueio do botão [*Download*] exibindo-o na cor verde, conforme a seguinte imagem. 
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/12 Relatório gerado.png 
+   :alt: Relatório gerado
+   :align: center 
+
+---- 
+
+
+
+O usuário deve checar a mensagem que a plataforma apresenta: “Relatório gerado para os contratos e período selecionado. Pode baixá-lo ou gerar um novo com as mesmas configurações”.
+
+
+Na finalização desta sequência de atividades, para executar o descarregamento do arquivo RMC.v1 desejado, o usuário deve clicar no botão [*DOWNLOAD*].
+
+
+
+
+Visualizando o RMC.V1
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Após gerado e baixado o **Relatório de Monitoramento de Consumo V1 - RMC.V1**, a seguir é apresentado e descrito um exemplo:
+
+
+**Capa**
+
+
+O documento apresenta uma capa, nela constam as seguintes informações:
+ 
+1. Nome da empresa; 
+2. Data do Faturamento; 
+3. Texto padronizado sobre o faturamento dos consumos nas nuvens. 
+
+
+Conforme imagem exibida abaixo:
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/13 RMCv1 Capa.png 
+   :alt: RMCv1 Capa
+   :align: center 
+
+----
+  
+
+
+
+**1 - Resumo Executivo** 
+
+
+No Resumo Executivo apresenta-se um texto explicativo, descrevendo a variação dos valores e da porcentagem que ocorreu na fatura do mês atual em comparação ao mês anterior, conforme exemplo:
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/14 Resumo executivo.png 
+   :alt: Resumo executivo
+   :align: center 
+
+----
+
+
+
+
+**1.1 - Histórico de Faturamento**
+
+
+Logo após o resumo executivo, temos o Histórico de Faturamento, que apresenta uma tabela com o período selecionado pelo usuário, na qual está exibido os valores das nuvens desejadas em Reais (R$) e Unidade de Serviço de Nuvem (USN), e a taxa de variação em porcentagem do mês anterior e também do mês atual. 
+
+
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. A métrica USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/15 Histórico de faturamento.png 
+   :alt: Histórico de faturamento
+   :align: center 
+
+----
+
+
+Segundo o exemplo acima, são comparados os gastos do mês atual com os gastos do mês anterior, apresentando se houve aumento ou diminuição do consumo para cada contrato específico, também exibe a porcentagem e as possíveis variações do mês anterior para o mês atual. 
+
+
+Além disso, esta parte da implementação expõe uma regra básica: são especificados apenas os 5 maiores gastos, ou seja, são divulgados os contratos que tiveram o maior consumo durante o mês corrente, juntamente com os valores de cada um separadamente. Essa regra tem o intuito de manter o documento mais compacto, evitando deixá-lo extenso, conforme os exemplos abaixo: 
+
+
+* Primeiro exemplo nuvem *AWS*:
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/16 Visualização.png 
+   :alt: Visualização
+   :align: center 
+
+----
+
+
+
+Para a complementação e melhor visualização, esta parte do documento também gera um gráfico tipo pizza, contendo as mesmas informações dos gastos da tabela de maneira ilustrativa, separando os contratos por cores para melhor compreensão do usuário.
+
+
+* Segundo exemplo de gráfico pizza nuvem *AWS*:
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/16 exemplo.png 
+   :alt: Exemplo
+   :align: center 
+
+---- 
+
+
+
+.. note:: |nota| Em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
+
+
+
+
+* Terceiro exemplo nuvem *Azure*:
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/17 exemplo.png 
+   :alt: Exemplo dois
+   :align: center 
+
+----
+
+
+**2 - Fatura Por Contrato/Projeto**
+
+
+Na Fatura por Contrato/Projeto é informado primeiramente o gasto geral dos contratos de cada nuvem, como mostrado no resumo executivo, com seus valores em R$ e USN.
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/18 Fatura por contrato.png 
+   :alt: Fatura por contrato
+   :align: center 
+
+---- 
+ 
+
+
+Seguidamente à tabela, é apresentado um gráfico contendo a proporção desses consumos em porcentagem, como mostra abaixo:
+
+
+Assim como no Histórico de Faturamento, na Fatura por Contrato/Projeto também é gerado um gráfico para a complementação e melhor visualização do usuário, contendo as mesmas informações dos gastos da tabela de maneira ilustrativa, demonstrando a proporção dos gastos por nuvem.
+
+
+
+ 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/19 Proporção nuvens.png 
+   :alt: Proporção nuvens
+   :align: center 
+
+----
+
+
+
+Após o gráfico, a imagem a seguir expõe e especifica **todos** os contratos de cada nuvem (além dos cinco maiores exibidos no histórico de faturamento), sendo destacados os projetos mais recentes. 
+
+
+O exemplo da tabela abaixo detalha os custos da nuvem, seus contratos, e totaliza o valor, apresentado em R$ e USN.
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/20 exemplo aws.png 
+   :alt: Exemplo aws
+   :align: center
+----
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/21 exemplo azure.png 
+   :alt: Exemplo azure
+   :align: center 
+
+---- 
+
+
+
+.. note:: |nota| Observar que em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
+
+
+**3 - Maiores Variações Nesta Fatura**
+
+
+Nas “Maiores Variações Nesta Fatura” são apresentadas em uma tabela, todas as variações dos contratos do mês de cada provedor específico, comparando o valor do mês anterior com o valor do mês corrente, demonstrando a variação do seu valor total em porcentagem, sendo assim, essa parte do documento é uma complementação da “Fatura por Contrato/Projeto”.
+
+
+Essa tabela leva em consideração apenas as variações de maior relevância, com um recorte contendo primeiramente, as maiores ou iguais a quinze por cento (>=15%), e por conseguinte, as menores ou iguais a quinze por cento negativo (<= -15%). Segue o exemplo: 
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/22 Maiores variações.png 
+   :alt: Maiores variações
+   :align: center 
+
+----
+
+
+
+As variações positivas (>=15%) são realçadas no tom azulado, da mesma maneira que as variações negativas  (<= -15%) são destacadas no tom avermelhado. É possível notar que quanto maior a variação, mais escuro é o tom.
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/23 Maiores variações.png 
+   :alt: Maiores variações
+   :align: center 
+
+----
+
+
+
+Além do mais, o contrato com maior valor de variação é evidenciado, e apresenta as informações de seus recursos de forma detalhada. Neste gráfico estão contidos **todos os recursos do contrato** e seus gastos, informando quais foram as mudanças no seu consumo e na sua utilização. É evidenciado no gráfico, também, quais foram os recursos que mais gastaram no mês, como exemplificado na imagem a seguir:
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws.png 
+   :alt: Mudança aws
+   :align: center 
+
+---- 
+
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws lista.png 
+   :alt: Mudança aws lista
+   :align: center 
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança aws_lista.png 
+   :alt: Mudança aws_lista
+   :align: center 
+
+---- 
+
+
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24 Mudança azure.png 
+   :alt: Mudança azure
+   :align: center 
+
+----
+
+
+
+Logo após o gráfico de barras, é apresentada uma tabela descritiva, com as colunas *Produto* e *Valor Total* *(R$)* das quantias de cada recurso investido de maneira separada e específica, do maior valor para o menor. 
+
+
+====
+
+
 Relatório de Custo de `Budgets`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
