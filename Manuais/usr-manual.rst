@@ -5823,7 +5823,7 @@ Ao criar o novo relatório com êxito, o usuário deve repetir o fluxo para baix
 Na sequência, é necessário selecionar novamente, o mesmo período e contratos que se pretende buscar informações previamente criadas. 
  
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/11_Fluxo_gerar_relatório.png
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/11_Fluxo.png
    :alt: Fluxo_gerar_relatório
    :align: center 
 
