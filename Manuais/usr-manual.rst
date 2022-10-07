@@ -5710,8 +5710,8 @@ Após clicar em **Relatório de Monitoramento de Consumo (v1) - RMC.v1**, é abe
 Neste mesmo modal, são exibidos dois botões: 
 
 
-* [**GERAR RELATÓRIO**]  O primeiro fica disponibilizado para acionamento quando ao menos um contrato é selecionado.
-* [**SELECIONAR TUDO**]. O segundo refere-se ao filtro dos contratos. Servindo como auxílio deste botão, é possível notar na imagem as barras de rolagem e de pesquisa. 
+* [**GERAR RELATÓRIO**]  Permanece disponibilizado para acionamento quando ao menos um contrato é selecionado.
+* [**SELECIONAR TUDO**]. Refere-se ao filtro dos contratos. Nele é possível notar as barras de rolagem e de pesquisa. 
 
 
 
@@ -5744,7 +5744,7 @@ Após clicar em Gerar Relatório, é aberta uma nova tela, em que aparece  o mê
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/8_Desbloquear_download.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/8_Download_recorte_RMCv1.png 
    :alt: Desbloquear_download
    :align: center 
 
@@ -5781,19 +5781,23 @@ Acompanhando o *status* no menu Tarefas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da tarefa no topo da tela. Para cada tipo de usuário o processo difere:
+No fluxo de criar o RMC.v1, a plataforma apresenta dois tipos de situação, de acordo com o perfil do usuário que estiver logado na plataforma. O status da tarefa no topo da tela difere, para cada tipo de usuário um procedimento, na sequência descrito:
 
 
-**Caso 1** 
+**Caso 1:** 
 
 
-1. **Usuário admin**: o mesmo deve abrir a funcionalidade Tarefas e observar a janela de “Aprovações Pendentes” a qual apresenta as colunas: Operação, usuário, detalhes, progresso, data de início, duração, status e ações. 
+* **Usuário admin**: Ao abrir a funcionalidade Tarefas, deve observar a janela de “Aprovações Pendentes” a qual apresenta as colunas: Operação, usuário, detalhes, progresso, data de início, duração, status e ações. 
 
 
-**Caso 2** 
+**Caso 2:** 
 
 
-2. **Usuário user**: o mesmo deve solicitar ao seu administrador do contrato que realize a aprovação da tarefa solicitada.
+* **Usuário user**: Ao criar o relatório deve solicitar ao administrador do seu contrato que realize a aprovação da tarefa solicitada.
+
+**Procedimento:**
+
+Na coluna “Ações” localizada na janela de “Aprovações Pendentes” **o usuário admin** do contrato deve aprovar a ação “Gerar Relatório”. No caso do **usuário user**, deve solicitar ao administrador do contrato que realize ou não a aprovação da tarefa.
 
 
   
@@ -5805,11 +5809,10 @@ No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da taref
 ----
 
 
+Em seguida, ele deve aguardar a atualização do “Status” pode ser Rodando (*Running*); Falha (*Failed*) e Sucesso (*Successfull*).
 
-Na coluna “Ações” localizada na janela de “Aprovações Pendentes” o usuário admin do contrato deve aprovar a ação “Gerar Relatório”. Em seguida, ele deve aguardar a atualização do “Status” pode ser Rodando (*Running*); Falha (*Failed*) e Sucesso (*Sucessfull*).
 
-
-Após o sucesso no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
+Após o êxito no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
 
 
 
@@ -5818,7 +5821,7 @@ Habilitando o *download* do RMC.v1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Ao criar o novo relatório com êxito, o usuário deve repetir o fluxo para baixá-lo, uma vez que os dados estão compilados na plataforma uCloud. 
+Ao criar o novo relatório com sucesso, o usuário deve repetir o fluxo para baixá-lo, uma vez que os dados estão compilados na plataforma uCloud. 
 
 
 Na sequência, é necessário selecionar novamente, o mesmo período e contratos que se pretende buscar informações previamente criadas. 
@@ -6160,7 +6163,7 @@ Em seguida, são apresentados de maneira mais detalhada o resumo de quanto cada 
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/28_Detalhamento_lista_3.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/28_Detalha_lista3.png 
    :alt: Detalhamento lista3
    :align: center 
 
