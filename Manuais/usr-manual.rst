@@ -6101,7 +6101,7 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_azure.png 
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudanca_Azure.png 
    :alt: Mudança azure
    :align: center 
 
@@ -6109,11 +6109,17 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-Logo após o gráfico de barras, é apresentada uma tabela descritiva, com as colunas *Produto* e *Valor Total* *(R$)* das quantias de cada recurso investido de maneira separada e específica, do maior valor para o menor. 
+Logo após o gráfico de barras, é apresentada uma tabela descritiva, com as colunas *Produto* e *Valor Total* *(R$)* das quantias de cada recurso investido de maneira separada e específica, do maior valor para o menor.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/19_consumo_MaioresVariações.png 
+   :alt: Consumo maiores variações
+   :align: center 
 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/ 
-   :alt: Mudança azure
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/20_consumo_MaioresVariações.png 
+   :alt: Consumo maiores variações
    :align: center 
 
 ----
@@ -6130,7 +6136,7 @@ Por fim, é exposto um índice, contendo o recorte dos três contratos que tiver
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/25_Detalhamento.png 
-   :alt: Mudança azure
+   :alt: Detalhamento
    :align: center 
 
 ----
@@ -6143,18 +6149,18 @@ Em seguida, são apresentados de maneira mais detalhada o resumo de quanto cada 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/26_Detalhamento_lista.png 
-   :alt: Mudança azure
+   :alt: Detalhamento lista
    :align: center 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/27_Detalhamento_lista_2.png 
-   :alt: Mudança azure
+   :alt: Detalhamento lista2
    :align: center 
 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/28_Detalhamento_lista_3.png 
-   :alt: Mudança azure
+   :alt: Detalhamento lista3
    :align: center 
 
 ----
