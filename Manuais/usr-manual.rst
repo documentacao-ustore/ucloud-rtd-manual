@@ -6556,7 +6556,7 @@ Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguid
 2. Tags Virtuais e 
 3. Cost Threshold, como apresentada na imagem abaixo:
 
-.. image:: /figuras/fig_ucloud_findimensao/01_dimensão_menu_financeiro.png
+.. image:: /figuras/fig_ucloud_findimensao/1_dimensão_menu_financeiro.png
    :alt: Financeiro Dimensão_menu_financeiro
    :align: center
 ----
