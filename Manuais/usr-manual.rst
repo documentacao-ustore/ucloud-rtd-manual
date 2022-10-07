@@ -5612,7 +5612,7 @@ Existem três quadros neste relatório com informações de inteligência de neg
 ====
 
 
-Relatório de Monitoramento de Consumo V1
+Relatório Monitoramento de Consumo V1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -5620,10 +5620,15 @@ Relatório de Monitoramento de Consumo V1
 O Relatório de Monitoramento de Consumo V1 é uma nova funcionalidade do portal uCloud, que trata do acompanhamento de faturamento e detalhe completo dos gastos, categorizados por Nuvens (por exemplo: *AWS* e *Azure*), Contratos e Recursos. 
 
 
-Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas, relatórios e gráficos, para cada tipo de classe (Recurso, Contrato e Nuvem). Estes são intitulados nos tópicos como: *Histórico de Faturamento*, *Fatura por Contrato/Projeto*, *Maiores Variações Nesta Fatura* e *Detalhamento TOP 3 Contratos por Nuvem*.
+Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas, relatórios e gráficos, para cada tipo de classe (Recurso, Contrato e Nuvem). Estes são intitulados nos tópicos como: 
+
+  1. *Histórico de Faturamento*; 
+  2. *Fatura por Contrato/Projeto*; 
+  3. *Maiores Variações Nesta Fatura* e 
+  4. *Detalhamento TOP 3 Contratos por Nuvem*.
 
 
-.. note:: |nota| Cada uma destas categorias é separada e organizada do maior para o menor consumo. 
+.. attention:: |atencao| Cada uma destas categorias é separada e organizada do maior para o menor consumo. 
 
 
 Além disso, o Relatório de Monitoramento de Consumo V1 compara os gastos do mês atual com o do mês anterior, proporcionando à empresa as informações necessárias para que se possa avaliar o desembolso e ter um controle eficiente das possíveis quedas ou aumento do consumo. 
@@ -5771,8 +5776,8 @@ No caso da inexistência de dados os relatórios se tornam indisponíveis para o
 Quando existe dado a ser publicado no período selecionado pelo usuário, a plataforma informa que o relatório está em processo de compilação dos dados. 
 
 
-Acessando o menu Tarefas
-~~~~~~~~~~~~~~~~~~~~~~~~
+Acompanhando o *status* no menu Tarefas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da tarefa no topo da tela. Para cada tipo de usuário o processo difere:
@@ -5781,13 +5786,13 @@ No fluxo de criar o RMC.v1, a plataforma apresenta ao usuário o status da taref
 **Caso 1** 
 
 
-1. Usuário admin, o mesmo deve abrir a funcionalidade Tarefas e observar a janela de “Aprovações Pendentes” a qual apresenta as colunas: Operação, usuário, detalhes, progresso, data de início, duração, status e ações. 
+1. **Usuário admin**: o mesmo deve abrir a funcionalidade Tarefas e observar a janela de “Aprovações Pendentes” a qual apresenta as colunas: Operação, usuário, detalhes, progresso, data de início, duração, status e ações. 
 
 
 **Caso 2** 
 
 
-2. Usuário user, o mesmo deve solicitar ao seu administrador do contrato que realize a aprovação da tarefa solicitada.
+2. **Usuário user**: o mesmo deve solicitar ao seu administrador do contrato que realize a aprovação da tarefa solicitada.
 
 
   
@@ -5808,7 +5813,7 @@ Após o sucesso no processo de criar o novo relatório, os dados foram compilado
 
 
 
-Desbloqueando o *download* do RMC.V1
+Habilitando o *download* do RMC.V1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -5902,10 +5907,14 @@ No Resumo Executivo apresenta-se um texto explicativo, descrevendo a variação 
 **1.1 - Histórico de Faturamento**
 
 
-Logo após o resumo executivo, temos o Histórico de Faturamento, que apresenta uma tabela com o período selecionado pelo usuário, na qual está exibido os valores das nuvens desejadas em Reais (R$) e Unidade de Serviço de Nuvem (USN), e a taxa de variação em porcentagem do mês anterior e também do mês atual. 
+Logo após o resumo executivo, há o Histórico de Faturamento, que apresenta uma tabela com o período selecionado pelo usuário, na qual é exibido o valor da nuvem desejada em Reais (R$) e Unidade de Serviço de Nuvem (USN), e a taxa de variação em porcentagem do mês anterior e também do mês atual. 
 
 
-.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. A métrica USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. 
+
+.. important:: A USN visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. 
+
+.. note:: |nota| A métrica USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
 
 
@@ -5920,7 +5929,9 @@ Logo após o resumo executivo, temos o Histórico de Faturamento, que apresenta 
 Segundo o exemplo acima, são comparados os gastos do mês atual com os gastos do mês anterior, apresentando se houve aumento ou diminuição do consumo para cada contrato específico, também exibe a porcentagem e as possíveis variações do mês anterior para o mês atual. 
 
 
-Além disso, esta parte da implementação expõe uma regra básica: são especificados apenas os 5 maiores gastos, ou seja, são divulgados os contratos que tiveram o maior consumo durante o mês corrente, juntamente com os valores de cada um separadamente. Essa regra tem o intuito de manter o documento mais compacto, evitando deixá-lo extenso, conforme os exemplos abaixo: 
+Além disso, esta parte da implementação expõe uma regra básica: são especificados apenas os 5 maiores gastos, ou seja, são divulgados os contratos que tiveram o maior consumo durante o mês corrente, juntamente com os valores de cada um separadamente. 
+
+Essa regra tem o intuito de manter o documento mais compacto, evitando deixá-lo extenso, conforme os exemplos abaixo: 
 
 
 * Primeiro exemplo nuvem *AWS*:
@@ -5985,7 +5996,7 @@ Na Fatura por Contrato/Projeto é informado primeiramente o gasto geral dos cont
 Seguidamente à tabela, é apresentado um gráfico contendo a proporção desses consumos em porcentagem, como mostra abaixo:
 
 
-Assim como no Histórico de Faturamento, na Fatura por Contrato/Projeto também é gerado um gráfico para a complementação e melhor visualização do usuário, contendo as mesmas informações dos gastos da tabela de maneira ilustrativa, demonstrando a proporção dos gastos por nuvem.
+Assim como no Histórico de Faturamento, na Fatura por Contrato/Projeto, também é gerado um gráfico para a complementação e melhor visualização do usuário, contendo as mesmas informações dos gastos da tabela de maneira ilustrativa, demonstrando a proporção dos gastos por nuvem.
 
 
 
@@ -6043,7 +6054,9 @@ Essa tabela leva em consideração apenas as variações de maior relevância, c
 
 
 
-As variações positivas (>=15%) são realçadas no tom azulado, da mesma maneira que as variações negativas  (<= -15%) são destacadas no tom avermelhado. É possível notar que quanto maior a variação, mais escuro é o tom.
+As **variações positivas** (>=15%) são realçadas no **tom azulado**, da mesma maneira que as **variações negativas**  (<= -15%) são destacadas no **tom avermelhado**. 
+
+É possível notar que quanto maior a variação, mais escuro é o tom.
 
 
 
@@ -6097,6 +6110,64 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 Logo após o gráfico de barras, é apresentada uma tabela descritiva, com as colunas *Produto* e *Valor Total* *(R$)* das quantias de cada recurso investido de maneira separada e específica, do maior valor para o menor. 
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/ 
+   :alt: Mudança azure
+   :align: center 
+
+----
+
+.. note:: |nota| Em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
+
+
+**4 - Detalhamento TOP 3 Contratos por Nuvem**
+
+
+Por fim, é exposto um índice, contendo o recorte dos três contratos que tiveram maior consumo em cada nuvem, e os recursos que representam maior impacto em cada uma delas. O relatório apresenta cada uma das nuvens utilizadas pela empresa, o nome dos contratos e seus valores totais em R$ e USN, como apresentado no exemplo a seguir:
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/25_Detalhamento.png 
+   :alt: Mudança azure
+   :align: center 
+
+----
+
+
+Em seguida, são apresentados de maneira mais detalhada o resumo de quanto cada produto custa ao contrato, especificando-os e apresentando a porcentagem sobre os gastos totais de cada contrato. Tal informação é apresentada a partir de um gráfico ilustrativo conforme o exemplo abaixo: 
+
+
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/26_Detalhamento_lista.png 
+   :alt: Mudança azure
+   :align: center 
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/27_Detalhamento_lista_2.png 
+   :alt: Mudança azure
+   :align: center 
+
+
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/28_Detalhamento_lista_3.png 
+   :alt: Mudança azure
+   :align: center 
+
+----
+
+
+
+.. attention:: |atencao| Em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
+
+
+Por fim, é perceptível que a implementação “Relatório de Monitoramento de Consumo V1” RMCV1, auxilia no controle dos gastos mensais, apresentando-os e comparando-os com o mês anterior. 
+
+Essa atualização possui um vasto índice, contendo tabelas, relatórios e gráficos que abrange desde os mais gerais até os mais específicos, concedendo à empresa e, por consequência, ao usuário todas as informações e ferramentas necessárias que possibilitam o total controle sobre os seus investimentos e projetos.
+
 
 
 ====
