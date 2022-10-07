@@ -5613,12 +5613,12 @@ Existem três quadros neste relatório com informações de inteligência de neg
 ====
 
 
-Relatório Monitoramento de Consumo V1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Relatório de Monitoramento de Consumo
+-------------------------------------
 
 
 
-O Relatório de Monitoramento de Consumo V1 é uma nova funcionalidade do portal uCloud, que trata do acompanhamento de faturamento e detalhe completo dos gastos, categorizados por Nuvens (por exemplo: *AWS* e *Azure*), Contratos e Recursos. 
+O Relatório de Monitoramento de Consumo (v1) é uma nova funcionalidade do portal uCloud, que trata do acompanhamento de faturamento e detalhe completo dos gastos, categorizados por Nuvens (por exemplo: *AWS* e *Azure*), Contratos e Recursos. 
 
 
 Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas, relatórios e gráficos, para cada tipo de classe (Recurso, Contrato e Nuvem). Estes são intitulados nos tópicos como: 
@@ -5632,15 +5632,15 @@ Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas,
 .. attention:: |atencao| Cada uma destas categorias é separada e organizada do maior para o menor consumo. 
 
 
-Além disso, o Relatório de Monitoramento de Consumo V1 compara os gastos do mês atual com o do mês anterior, proporcionando à empresa as informações necessárias para que se possa avaliar o desembolso e ter um controle eficiente das possíveis quedas ou aumento do consumo. 
+Além disso, o **Relatório de Monitoramento de Consumo (v1)**, nomeado de forma resumida como **RMC.v1**, compara os gastos do mês atual com o do mês anterior, proporcionando à empresa as informações necessárias para que se possa avaliar o desembolso e ter um controle eficiente das possíveis quedas ou aumento do consumo. 
 
 
 
-Acessando o Relatório de Monitoramento de Consumo.V1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Acessando o RMC.v1
+~~~~~~~~~~~~~~~~~~
 
 
-Para gerar o Relatório de Monitoramento de Consumo.V1 no portal uCloud, o usuário deve acessar o menu “Financeiro”, identificado no canto inferior esquerdo. E em seguida, clicar no submenu “Relatórios”. 
+Para gerar o Relatório de Monitoramento de Consumo (v1) no portal uCloud, o usuário deve acessar o menu “Financeiro”, identificado no canto inferior esquerdo. E em seguida, clicar no submenu “Relatórios”. 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
@@ -5663,7 +5663,7 @@ Na tela abaixo são apresentadas todas as opções referentes ao acesso e gerenc
 
 Ao clicar no submenu “Relatórios”, o tópico “Painéis Baseados em Consumo” possibilita o acesso aos relatórios relacionados ao consumo do mês atual digitado na busca pelo usuário. 
 
-.. figure:: /figuras/fig_ucloud_fin_rmcv1/3_Painéis_baseados_consumo.png 
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png 
    :alt: Painéis_baseados_consumo
    :align: center 
 
@@ -5671,7 +5671,7 @@ Ao clicar no submenu “Relatórios”, o tópico “Painéis Baseados em Consum
   
 
 
-Ele agrupa sete tipos de relatórios, um deles é o **Relatório de Monitoramento de Consumo**, nomeado de forma resumida como RMC.V1.
+Ele agrupa sete tipos de relatórios, um deles é o **Relatório de Monitoramento de Consumo - RMC.v1**, nomeado de forma resumida como RMC.v1.
 
 
 
@@ -5689,11 +5689,11 @@ Clicando nesta opção, o usuário pode gerar o documento desejado.
 
 
 
-Criando o RMC.V1
+Criando o RMC.v1
 ~~~~~~~~~~~~~~~~
 
 
-Após clicar em **Relatório de Monitoramento de Consumo - RMC.V1**, é aberta uma nova tela, na qual o usuário pode selecionar o mês e o ano que deseja visualizar, além de filtrar os contratos pretendidos.
+Após clicar em **Relatório de Monitoramento de Consumo (v1) - RMC.v1**, é aberta uma nova tela, na qual o usuário pode selecionar o mês e o ano que deseja visualizar, além de filtrar os contratos pretendidos.
 
 
 
@@ -5725,7 +5725,7 @@ Neste mesmo modal, são exibidos dois botões:
 
 
 
-A barra de rolagem, localizada na lateral direita, ajuda o usuário a navegar pelo modal  na busca do contrato procurado. A barra de pesquisa facilita a busca, basta o usuário digitar as letras iniciais do contrato.
+A barra de rolagem, localizada na lateral direita, ajuda o usuário a navegar pelo modal na busca do contrato procurado. A barra de pesquisa facilita a busca, basta o usuário digitar as letras iniciais do contrato.
 
 
 
@@ -5814,7 +5814,7 @@ Após o sucesso no processo de criar o novo relatório, os dados foram compilado
 
 
 
-Habilitando o *download* do RMC.V1
+Habilitando o *download* do RMC.v1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -5856,12 +5856,12 @@ Na finalização desta sequência de atividades, para executar o descarregamento
 
 
 
-Visualizando o RMC.V1
+Visualizando o RMC.v1
 ~~~~~~~~~~~~~~~~~~~~~
 
 
 
-Após gerado e baixado o **Relatório de Monitoramento de Consumo V1 - RMC.V1**, a seguir é apresentado e descrito um exemplo:
+Após gerado e baixado o **Relatório de Monitoramento de Consumo (v1) - RMC.v1**, a seguir é apresentado e descrito um exemplo:
 
 
 **Capa**
@@ -6171,7 +6171,7 @@ Em seguida, são apresentados de maneira mais detalhada o resumo de quanto cada 
 .. attention:: |atencao| Em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
 
 
-Por fim, é perceptível que a implementação “Relatório de Monitoramento de Consumo V1” RMCV1, auxilia no controle dos gastos mensais, apresentando-os e comparando-os com o mês anterior. 
+Por fim, é perceptível que a implementação **Relatório de Monitoramento de Consumo (v1) RMC.v1**, auxilia no controle dos gastos mensais, apresentando-os e comparando-os com o mês anterior. 
 
 Essa atualização possui um vasto índice, contendo tabelas, relatórios e gráficos que abrange desde os mais gerais até os mais específicos, concedendo à empresa e, por consequência, ao usuário todas as informações e ferramentas necessárias que possibilitam o total controle sobre os seus investimentos e projetos.
 
