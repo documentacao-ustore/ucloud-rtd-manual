@@ -2065,14 +2065,15 @@ Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível esc
 
 É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
 
-O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de relatórios: 
+O primeiro tópico `“Painéis Baseados em Consumo”` agrupam sete tipos de relatórios: 
 
 1. Histórico de Serviço; 
 2. Custo Cadenciado; 
 3. Custo Relacional de Produto; 
 4. Visualização de Recursos; 
 5. **Custos de Budgets**; 
-6. Relatórios baseados em limite de custo.
+6. Relatório de Monitoramento de Consumo;
+7. Relatório baseado em Limite de Custo.
 
 O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
 
@@ -6189,14 +6190,15 @@ Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível esc
 
 É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
 
-O primeiro tópico `“Painéis Baseados em Consumo”` agrupam seis tipos de relatórios: 
+O primeiro tópico `“Painéis Baseados em Consumo”` agrupam sete tipos de relatórios: 
 
 1. Histórico de Serviço; 
 2. Custo Cadenciado; 
 3. Custo Relacional de Produto; 
 4. Visualização de Recursos; 
 5. **Custos de Budgets**; 
-6. Relatórios baseados em limite de custo.
+6. Relatório de Monitoramento de Consumo;
+7. Relatório baseado em limite de custo.
 
 O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
 
