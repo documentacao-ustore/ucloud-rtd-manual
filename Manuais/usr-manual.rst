@@ -6550,11 +6550,10 @@ No exemplo acima, a expressão representa que essa dimensão deseja todos os rec
 Criando uma Dimensão
 ~~~~~~~~~~~~~~~~~~~~
 
-Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe três opções: 
+Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe duas opções apresentadas na imagem seguinte: 
 
-1. **Dimensão**, 
-2. Tags Virtuais e 
-3. Cost Threshold, como apresentada na imagem abaixo:
+1. **Dimensão**; 
+2. Tags Virtuais.
 
 .. image:: /figuras/fig_ucloud_findimensao/1_dimensão_menu_financeiro.png
    :alt: Financeiro Dimensão_menu_financeiro
