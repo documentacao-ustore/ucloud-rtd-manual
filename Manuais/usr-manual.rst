@@ -6186,7 +6186,15 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 Relatório de Custo de `Budgets`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
+Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Este painel baseado em consumo possibilita o acesso aos relatórios referentes ao mês atual, digitado na busca pelo usuário. 
+
+Esta visualização permite ao usuário manter-se informado sobre as previsões de custo em detalhe.
+
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png 
+   :alt: Painéis_baseados_consumo
+   :align: center 
+
+----
 
 Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível escolher entre acessar a própria fatura ou gerenciá-la, de um dos grupos ou contratos administrados pelo usuário logado. 
 
@@ -6276,6 +6284,14 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 
 ====
 
+Portanto, o Budget é um relatório baseado em consumo, criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. 
+
+Quando traduzido do inglês para o português, “budget” refere-se à palavra “orçamento” e corresponde a uma implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
+
+Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de Budgets. Outras informações como criar, editar budget e sub budget e seus diversos intervalos podem ser consultadas no Menu Administração, submenu Contratos, .. budget_
+
+
+.. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
 
 
 Painéis Baseados em Fatura
