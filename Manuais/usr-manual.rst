@@ -5809,7 +5809,7 @@ Na coluna “Ações” localizada na janela de “Aprovações Pendentes” **o
 ----
 
 
-Em seguida, ele deve aguardar a atualização do “Status” pode ser Rodando (*Running*); Falha (*Failed*) e Sucesso (*Successfull*).
+Em seguida, ele deve aguardar a atualização do “Status” que pode ser: Rodando (*Running*); Falha (*Failed*) e Sucesso (*Successfull*).
 
 
 Após o êxito no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
