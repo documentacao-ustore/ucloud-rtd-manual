@@ -6896,8 +6896,6 @@ Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no
 *Tags* Virtuais
 ~~~~~~~~~~~~~~~
 
-Descrição de *Tags* Virtuais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Num contexto amplo, uma *Tag* (um rótulo ou uma etiqueta) é uma palavra chave que assina ou identifica um determinado recurso computacional (ou serviço decorrente da existência deste) armazenado em um provedor de nuvem, repositório ou banco de dados. 
 
@@ -6907,7 +6905,7 @@ As *Tags* são um tipo de metadado, capazes de fornecer informação que descrev
 
 No cenário de qualquer tipo de nuvem, o dado contido nas *Tags* é utilizado juntamente com outras formas de tagueamento que os provedores de nuvem aplicam para classificar as informações a respeito dos seus recursos. 
 
-Assim, as *Tags* auxiliam à pesquisa, organização, identificação, gerenciamento e, por fim, a filtragem dos recursos utilizados de qualquer provedor de nuvem, por exemplo: AWS, Azure, Google, entre outras.
+Assim, as *Tags* auxiliam à pesquisa, organização, identificação, gerenciamento e, por fim, a filtragem dos recursos utilizados de qualquer provedor de nuvem, por exemplo: *AWS, Azure, Google*, entre outras.
 
 Estas *Tags* (etiquetas) após criadas são utilizadas para categorizar estes recursos, ao vincular elas podem ser classificados por: finalidade, propriedade, critério ou localidade. 
 
@@ -6930,9 +6928,9 @@ No exemplo acima vincula-se “**duas** *Tags* diferentes” ao mesmo recurso (m
 
 Deve-se ressaltar que para o ambiente do provedor de serviço de nuvem pública, uma vez criada a *Tag* esta não será vinculada automaticamente a qualquer recurso (ou serviços decorrentes da existência do recurso). O usuário deve primeiro criar a(s) *Tag(s)* e depois vincular manualmente a(s) *Tag(s)* ao(s) recurso(s) desejado(s). 
 
-Por ser um processo manual e executado por um usuário no console do provedor de serviço de nuvem, o recurso de *Tags* pode consumir muito tempo do Administrador de Custos de nuvem pública. Pode existir uma quantidade grande de linhas no arquivo de *billing/bucket* para o Administrador de Custos verificar. Este processo de verificação e de vinculação de *Tags* é contínuo e manual.
+Por ser um processo manual e executado por um usuário no console do provedor de serviço de nuvem, o recurso *Tags* pode consumir muito tempo do Administrador de Custos de nuvem pública. Pode existir uma quantidade grande de linhas no arquivo de *billing/bucket* para o Administrador de Custos verificar. Este processo de verificação e de vinculação de *Tags* é contínuo e manual.
 
-.. important:: Pelo fato das *Tags* serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *Tags virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
+.. important:: Pelo fato das *Tags* serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *Tags Virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
  
 A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de *billing* (formato .csv) do provedor de serviço de nuvem pública e, consequentemente, recebe todas as *Tags* existentes no provedor.
  
@@ -6964,7 +6962,7 @@ As *“Tags Virtuais”* são aplicadas nos recursos da nuvem (por exemplo: máq
 
 Estas chaves e valores de *Tags* podem ou não ser refletidas nos *reports* de *billing* disponíveis para consulta somente através do console do provedor de nuvem pública. 
 
-Assim, os recursos importados do arquivo de *bucket/billing* que existe nos provedores das nuvens públicas que por quaisquer política destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*”. 
+Assim, os recursos importados do arquivo de *bucket/billing* que existe nos provedores das nuvens públicas que por quaisquer política destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*Tag Virtual*”. 
 
 É importante ressaltar que essas *“Tags Virtuais”* existem somente na base de dados da Plataforma uCloud, não sendo escrita (ou sincronizada) para o *bucket/billing* que existe no ambiente do provedor de serviço de nuvem pública.
 
@@ -6972,24 +6970,26 @@ Este é um serviço único e está disponível com a nova implementação da Pla
 
 .. attention::: |atencao| A *Tag* Virtual deve ser criada pela organização cliente, ela pode ser baseada no perfil de categorização, de acordo com o recurso utilizado e a necessidade de identificação no relatório financeiro, seja por finalidade, propriedade, critério ou localidade, entre outros.
 
-A *“Tag Virtual”* deve ser aplicada pelo cliente usuário dentro do portal uCloud, no intuito de possibilitar a identificação automatizada do recurso que deixou de ser tagueado pelos diversos provedores de nuvens por distintas regras e políticas internas de cada um deles. Após a aplicação da *“Tag Virtual”*  como recurso da plataforma uCloud e em seguida, aplicar por meio do Accountant *virtual-tag-applier*, e a normalização delas, utilizando o Accountant *virtual-tag-normalizer*. 
+A *“Tag Virtual”* deve ser aplicada pelo cliente usuário dentro do portal uCloud, no intuito de possibilitar a identificação automatizada do recurso que deixou de ser tagueado pelos diversos provedores de nuvens por distintas regras e políticas internas de cada um deles. 
+
+Após a aplicação da *“Tag Virtual”*  como recurso da plataforma uCloud e em seguida, aplicar por meio do *Accountant* *virtual-tag-applier*, e a normalização delas, utilizando o *Accountant* *virtual-tag-normalizer*. 
 
 Deste modo, a visualização das informações é facilitada para a tomada de decisão, com os registros gerados nos relatórios financeiros, em relação a utilização dos recursos providos pelas diversas nuvens que não foram tagueados previamente pela própria nuvem. 
 
-As organizações que utilizam processos automatizados para gerenciar a infraestrutura incluem as *TAGs* adicionais específicas para automatização, em geral, criam agrupamentos relevantes com o propósito de organizar os recursos nas dimensões técnicas, comerciais e de segurança. 
+As organizações que utilizam processos automatizados para gerenciar a infraestrutura incluem as *Tags* adicionais específicas para automatização, em geral, criam agrupamentos relevantes com o propósito de organizar os recursos nas dimensões técnicas, comerciais e de segurança. 
 
 
 
-Normalização de *Tags* Virtuais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Normalizando *Tags* Virtuais
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Importante mencionar que a existência contínua de um recurso no provedor de serviço de nuvem, gera novos serviços ou produtos que decorrem da existência/manutenção do recurso na nuvem do provedor de serviço de nuvem pública (ex.: *snapshots*).
 
-Quando um cliente solicita a criação de uma cópia de segurança da imagem de disco (*snapshot*) um novo snapshot pode, não necessariamente, receber a vinculação de um *Tag* no processo de *Tags* Virtuais
+Quando um cliente solicita a criação de uma cópia de segurança da imagem de disco (*snapshot*) um novo snapshot pode, não necessariamente, receber a vinculação de um *Tag* no processo de *Tags* Virtuais.
 
 Para cobrir esta lacuna existe a nova funcionalidade de **Normalização de Tags**.
 
-Este processo executa uma comparação de cada linha do arquivo de *billing* e quando encontra um recurso “sem *Tag* Virtual” mas esta linha é um novo serviço/produto de um recurso com uma *Tag* Virtual, este processo EFETUA UMA CÓPIA da *Tag* Virtual do recurso principal mesmo que a sua combinação de *ProductName, ProductFamily, Identificador do Recurso*, não tenha sido capaz de vincular a *Tag* Virtual.
+Este processo executa uma comparação de cada linha do arquivo de *billing* e quando encontra um recurso **sem** *Tag* Virtual e, esta linha é um novo serviço/produto de um recurso **com** uma *Tag* Virtual, o fluxo neste processo EFETUA UMA CÓPIA da *Tag* Virtual do recurso principal mesmo que a sua combinação de *ProductName, ProductFamily, Identificador do Recurso*, não tenha sido capaz de vincular a *Tag* Virtual.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual003.png
    :align: center
@@ -7000,28 +7000,28 @@ Este processo executa uma comparação de cada linha do arquivo de *billing* e q
 
 Este processo pode levar algum tempo, pois é executado com comparação de *string* de caracteres de cada linha do **billing** individualmente.
 
-Com este processo a Plataforma uCloud complementa a nova funcionalidade de *Tags* Virtuais, mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem *Tags* Virtuais. 
+Com este processo a Plataforma uCloud complementa a nova funcionalidade de *Tags* Virtuais, que deve ser executada somente quando o usuário Administrador de Custos identifica a existência de recursos **sem** *Tags* Virtuais. 
 
 Quando utilizar
 ~~~~~~~~~~~~~~~
 
-A partir desta nova implementação, direcionada à classificação, normalização e visualização das informações obtidas dos diversos provedores de nuvem pública, a nova funcionalidade *“Tags Virtuais”* possibilita "*etiquetar/taguear*", ou seja, marcar os recursos que por alguma regra ou definição, não tenha sido possível encontrar registrada no *billing* de determinado provedor de nuvem utilizado pela organização ou cliente usuário.
+A partir desta nova implementação, direcionada à classificação, normalização e visualização das informações obtidas dos diversos provedores de nuvem pública, a nova funcionalidade *“Tags Virtuais”* possibilita "*etiquetar/taguear*", ou seja, marcar os recursos que por alguma regra ou definição, não tenha sido possível encontrar registrado no *billing* de determinado provedor de nuvem utilizado pela organização ou cliente usuário.
 
-Uma vez que, cada nuvem apresenta distintos relatórios de recursos utilizados, a dificuldade para o profissional de TI conseguir normalizar e entender a classificação apresentada pelas diversas nuvens, ou até informação suprimida por ausência de *Tags* que agrupam em formato relevante. Informações preciosas, sejam elas quantitativa, qualitativa ou financeira, facilitam a organização ao seu cliente usuário e, possibilita a tomada de decisão assertiva, ao utilizar esta nova implementação, nomeada *“Tags Virtuais”*. 
+Uma vez que, cada nuvem apresenta distintos relatórios de recursos utilizados,  para o profissional de TI conseguir normalizar  a informação suprimida por ausência de *Tags* e entender a classificação apresentada pelas diversas nuvens, é uma dificuldade a ser transposta. 
 
-Desenvolvida pela Ustore como solução para atender esta ausência, demandada nos “*reports*" que têm comportamento semelhante nos diversos provedores de nuvem, como AWS, Azure, Google entre outros.
+Classificar e agrupar recursos computacionais gera informação preciosa e relevante, seja ela quantitativa, qualitativa ou financeira, além de facilitar a organização ao cliente usuário e, possibilitar a tomada de decisão assertiva, ao usuário quando utilizar esta nova implementação, nomeada *“Tags Virtuais”*. Desenvolvida pela Ustore, especilamente, como solução para atender esta ausência demandada nos *reports* que têm comportamento semelhante nos diversos provedores de nuvem, como *AWS, Azure, Google* entre outros.
 
-O portal uCloud gera o report financeiro, este relatório recupera informações por nome de produto ou por *Tag*. É o portal ucloud que oferece este serviço único de *“Tags Virtuais”* que possibilita e/ou facilita o gerenciamento e a classificação de certos recursos que deixaram de receber *Tags* na nuvem, como dito anteriormente, por regras ou políticas internas estabelecidas pelos próprios provedores. 
+O portal uCloud gera o *report* financeiro, este relatório recupera informações por nome de produto ou por *Tag*. É o portal uCloud que oferece este serviço único de *“Tags Virtuais”* que possibilita e/ou facilita o gerenciamento e a classificação de certos recursos que deixaram de receber *Tags* na nuvem, como dito anteriormente, por regras ou políticas internas estabelecidas pelos próprios provedores. 
 
-É necessário utilizar esta nova implementação, quando a organização e o cliente usuário precisam recuperar informações por *Tag* ou nome de produto de forma distinta, nas diversas nuvens, uma vez que cada provedor de nuvem, como o Google, a AWS e o Azure tratam o relatório de registro de *billing* de forma diferenciada. E cada um deles utiliza nomenclaturas próprias para cada tipo de recurso ofertado. 
+É necessário utilizar esta nova implementação, quando a organização e o cliente usuário precisam recuperar informações por *Tag* ou nome de produto, de forma distinta, nas diversas nuvens, uma vez que cada provedor de nuvem, como o *Google, a AWS e o Azure* tratam o relatório de registro de *billing* de forma diferenciada. E cada um deles utiliza nomenclaturas próprias para cada tipo de recurso ofertado. 
 
 Ao aplicar as *“Tags Virtuais”* nos recursos da nuvem (por exemplo: bancos de dados e máquinas virtuais) é possível criar classificação por divisões de centros de custos, projetos e outros tipos de agrupamentos.
 
 A nova implementação do portal uCloud possibilita apresentar no relatório financeiro informes, gerados de acordo com o que foi classificado ou “tagueado” pelo usuário para agrupar ou identificar informações, seja por nome de produto, finalidade, propriedade, critério ou localidade, entre outros.
 
-.. note:: As chaves e os valores de TAGs podem ou não ser refletidas no relatório  (report) de bilhetagem (billing) das diversas nuvens. As Tags não têm significado semântico no Amazon EC2, são interpretadas como uma sequência de caracteres.
+.. note:: As chaves e os valores de Tags podem ou não ser refletidas no relatório  (report) de bilhetagem (billing) das diversas nuvens. As Tags não têm significado semântico no Amazon EC2, são interpretadas como uma sequência de caracteres.
 
-Assim, os recursos importados do arquivo de *billing* das nuvens públicas que por quaisquer políticas destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma *“TAG Virtual”* dentro do portal. 
+Assim, os recursos importados do arquivo de *billing* das nuvens públicas que por quaisquer políticas destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma *“Tag Virtual”* dentro do portal. 
 
 Restrições das *Tags*
 ~~~~~~~~~~~~~~~~~~~~~
@@ -7066,7 +7066,7 @@ Pode-se resumir que o processo de utilização da funcionalidade de *Tags* Virtu
 
 1. **Criação e Automação do uso de Tags Virtuais**:
 
-  a. Provisionar um nome de identificação para **um único** perfil de TAGs Virtuais com todas as vinculações de TAGs com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*;
+  a. Provisionar um nome de identificação para **um único** perfil de Tags Virtuais com todas as vinculações de *Tags*, com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*;
 
   b. Vincular Perfil de *Tags* Virtuais ao identificador de nuvem (*container*);
 
@@ -7074,13 +7074,21 @@ Pode-se resumir que o processo de utilização da funcionalidade de *Tags* Virtu
 
   d. Visualização dos relatórios Financeiros na Plataforma uCloud usando a totalização por **Tags**;
 
-  e. Se for identificado que ainda existem recursos SEM *Tags* (lembrar que existem recursos que o provedor de serviço de nuvem pública não vincula a nenhuma *Tag*; ou que a combinação de *ProductName, ProductFamily, Identificador de Recurso*, não foi suficiente para associar a totalidade de linhas do arquivo de *billing*), a Plataforma uCloud permite endereçar esta ausência de *Tags* com o processo seguinte.
+  e. Se for identificado que ainda existem recursos **sem** *Tags* é importante lembrar que:
+  
+  * Existem recursos que o provedor de serviço de nuvem pública não vincula a nenhuma *Tag*; 
+  * ou que 
+  * A combinação de *ProductName, ProductFamily, Identificador de Recurso*, não foi suficiente para associar a totalidade de linhas do arquivo de *billing*).
+  
+  f. Identificando alguns dos a Plataforma uCloud permite endereçar esta ausência de *Tags* com o processo seguinte.
 
-2. **Normalização de TAGs Virtuais**:
+2. **Normalização de Tags Virtuais**:
 
   a. Este processo somente deve ser aplicado quando a combinação existente no Perfil de *Tags* Virtuais não consegue aplicar *Tags* para todos recursos;
 
-  b. Este processo deve ser executado APENAS UMA VEZ por mês, pois demanda um certo tempo para completar a normalização de todas as linhas do *billing* no período do mês corrente. *Este processo deve ser inicializado manualmente e normaliza as Tags Virtuais apenas e somente para um único período, não é recorrente ou automático*.
+  b. Este processo deve ser executado **apenas uma vez** por mês, pois demanda um certo tempo para completar a normalização de todas as linhas do *billing* no período do mês corrente.
+  
+  .. attention:: |atencao| *Este processo deve ser inicializado manualmente e normaliza as Tags Virtuais apenas e somente para um único período, não é recorrente ou automático*.
 
 A seguir a tela que apresenta a nova implementação no portal uCloud:
 
@@ -7093,7 +7101,12 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 1. Vinculação de uma *Tag* para um recurso da nuvem, através da especificação de uma sequência de caracteres que identifica um **[ProductName]** e/ou **[ProductFamily]** e/ou **[Identificador da Nuvem]**.
 
-  a. Para esse fluxo o usuário pode especificar, por exemplo, que o recurso pertencente ao *ProductName Amazon Elastic Compute Cloud*, no [ProductFamily] **Data Transfer**, vinculado ao identificador da nuvem i-0e85640d78d096974 tenha as *TAGs* especificadas no formulário, mesmo que essas *TAGs* não sejam fornecidas pela nuvem.
+  a. Para esse fluxo, por exemplo, o usuário pode especificar o recurso pertencente a:
+  * **[ProductName]** *Amazon Elastic Compute Cloud*;
+  * **[ProductFamily]** *Data Transfer*;
+  * **[Identificador da Nuvem]** *i-0e85640d78d096974*.
+  * Assim, todo recurso que possua as características do exemplo acima, editado e especificado no formulário **Editar perfil de tag virtual** abaixo ilustrado com a **Chave** e **Valor**, mesmo que a *tag* não seja fornecida pela nuvem,  este recurso pertence a uma *Tag Virtual* determinada dentro da plataforma uCloud, configurada na funcionalidade *Tags Virtuais*.
+
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual005.png
    :align: center
@@ -7112,7 +7125,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 ----
 
-2. Normalização das *Tags* para recursos onde na família dos produtos não é retornado *Tags* pela nuvem.
+1. Normalização das *Tags* para recursos onde na família dos produtos não é retornado *Tags* pela nuvem.
 
   a. Para esse fluxo, é possível habilitar no ato da coleta de dados de bilhetagem da nuvem, os recursos obtidos que não venham por padrão com a *TAG* do provedor de nuvem, e sejam normalizados com as *TAGs* que estão associadas a este recurso.
 
@@ -7127,6 +7140,12 @@ No momento de exportar o relatório de faturamento as *“Tags Virtuais”* reto
 ----
 
 A figura acima apresenta a aplicação das *“Tags virtuais"*, por meio do *Accountant* *virtual-tag-applier*, e sua normalização, utilizando o *Accountant* *virtual-tag-normalizer*.
+
+Concluindo, a *Tag Virtual* é um rótulo com chave e valor atribuído ao recurso computacional de nuvem, ela auxilia à pesquisa, organização, gerenciamento e filtragem dos recursos utilizados de qualquer provedor de nuvem, por exemplo: *AWS, Azure, Google* entre outros provedores. Após criadas as *Tags* podem ser classificadas por finalidade, propriedade, critério ou localidade. 
+
+.. important:: Pelo fato das *Tags* serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *Tags Virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
+
+A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de *billing* no formato .csv, proveniente do provedor de serviço de nuvem pública e, consequentemente, recebe todas as *Tags* existentes no provedor.
 
 ====
 
