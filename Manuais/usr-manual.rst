@@ -6288,7 +6288,7 @@ Portanto, o Budget é um relatório baseado em consumo, criado com o objetivo de
 
 Quando traduzido do inglês para o português, “budget” refere-se à palavra “orçamento” e corresponde a uma implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
 
-Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de Budgets. Outras informações como criar, editar budget e sub budget e seus diversos intervalos podem ser consultadas no Menu Administração, submenu Contratos, .. budget_
+Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de Budgets. Outras informações como criar, editar budget e sub budget e seus diversos intervalos podem ser consultadas no Menu Administração /Contratos: budget_
 
 
 .. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
