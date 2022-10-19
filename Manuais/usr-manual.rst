@@ -6335,7 +6335,7 @@ O primeiro tópico **“Painéis Baseados em Consumo”** agrupa sete tipos de r
 4. Visualização de Recursos;
 5. Custos de Budgets;
 6. Relatório de Monitoramento de Consumo;
-7. **Relatórios baseados em limite de custo**.
+7. **Relatórios Baseados em Limite de Custo**.
 
 
 .. attention:: |atencao| As quantidades de relatórios apresentados no menu Financeiro, submenu Relatórios, tópicos “Painéis baseados em Consumo e Fatura” podem variar sua quantidade de botões, de acordo com o contrato do cliente, podendo ser no máximo sete e no mínimo um.
@@ -6346,8 +6346,8 @@ O primeiro tópico **“Painéis Baseados em Consumo”** agrupa sete tipos de r
 Este registro trata do acesso ao botão de opção: **Relatórios baseados em limite de custo**, ao clicar nele são mostrados dois novos relatórios para esta modalidade:
 
 
-1. Relatório de limite de custos e 
-2. Análise de risco.
+  *  A. Relatório de Limite de Custos e 
+  *  B. Análise de Risco.
 
 
 .. figure:: /figuras/fig_lc_ar/03_ucloud_finrel_con_limite_custo.png
@@ -6366,8 +6366,8 @@ Definindo os Relatórios
 Adiante é descrito cada relatório baseado em limite de custo, juntamente com uma breve explicação de como utilizá-los:
 
 
-A. Relatório de limite de custos
-
+A. Relatório de Limite de Custos
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O relatório de limite de custo permite que o usuário observe mês a mês o consumo realizado, tornando possível executar o monitoramento de quais meses ultrapassaram o limite de custo definido pelo mesmo, e representado em tela através de uma linha tracejada. 
 
@@ -6389,8 +6389,8 @@ Novas características
 A tela de “Relatório de limite de custos” se difere dos demais relatórios, pois nela é possível realizar todas as operações, sendo elas: criar, editar, deletar e executar. Dessa forma, torna-se simples ao usuário realizar suas ações.
 
 
-**Passo a passo**
-~~~~~~~~~~~~~~~~~
+**Passo a passo:**
+~~~~~~~~~~~~~~~~~~
 
 
 Nesse momento é informado o passo a passo para a realização dessas ações na tela de limite de custo.
@@ -6430,6 +6430,7 @@ Abaixo é detalhado cada espaço do modal acima para o preenchimento:
 
 
 **Etapas para a Configuração:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6465,6 +6466,7 @@ O usuário também pode adicionar vários filtros ao mesmo tempo através do *ch
   
 
 **Detalhes dos Intervalos:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6480,6 +6482,8 @@ Cada intervalo configura automaticamente o seu mês inicial e final. A tabela ab
 
 
 **Procedimentos pós configuração:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -6523,6 +6527,7 @@ Ao clicar em "Configurações Aplicadas" é oportunizado ao usuário alterar uma
 
 
 **Casos em que os dados são apresentados de formas diferentes**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6540,7 +6545,7 @@ Ao clicar em "Configurações Aplicadas" é oportunizado ao usuário alterar uma
 
 
 
-* Na hipótese de serem adicionadas duas Dimensões, e exista algum custo que atenda a ambas. Na parte de “Custo por Dimensão” esse registro entra como "Consumo de Dimensões por grupo”, ou seja, o valor de R$ 148,38… está presente dentro da Dimensão [google-bb] e do [TipoUsn].
+* Na hipótese de serem adicionadas duas Dimensões, e exista algum custo que atenda a ambas. Na parte de “Custo por Dimensão” esse registro entra como "Consumo de Dimensões por grupo”, ou seja, o valor de R$ 148,38[…] está presente dentro da Dimensão [google-bb] e do [TipoUsn].
 
 
 .. figure:: /figuras/fig_lc_ar/13_ucloud_finrel_con_dimensões.png
@@ -6706,8 +6711,8 @@ Após realizar essa alteração, o usuário pode pressionar em “Executar” e 
 *Regras:*
 
 
-   5. O usuário só pode voltar até o mês no qual o limite de custo foi criado.
-   6. Não é possível selecionar o mês inicial sendo maior que o mês atual.
+   * a. O usuário só pode voltar até o mês no qual o limite de custo foi criado.
+   * b. Não é possível selecionar o mês inicial sendo maior que o mês atual.
 
 
 
@@ -6733,7 +6738,9 @@ Na figura abaixo esse período de projeção é apresentado, no modal de “Cost
 Após carregar as informações, é possível o usuário notar que, ao gerar o relatório, alguns meses possuem um asterisco **(*)** ao lado. 
 
 
-.. attention:: |atencao| Este asterisco ao lado do mês significa “Projeção” ela é baseada nas informações dos 6 últimos meses, assim, os meses que ainda não aconteceram, podem ser delineados a partir da utilização desta base passada que projeta os meses à frente. 
+.. attention:: |atencao| Este asterisco ao lado do mês significa: “Projeção”. Ela é baseada nas informações dos 6 últimos meses. Assim, o período que ainda ocorre pode ser delineado a partir da utilização da base passada. 
+   
+.. note:: A base dos últimos 6 meses projeta os meses à frente que são exibidos com asterisco. 
 
 
 
@@ -6827,7 +6834,7 @@ Ocorre quando a data final do limite de custo for maior que o mês atual, sendo 
 
 
 
-1. **Data inicial não pode ser anterior a data de criação**
+5. **Data inicial não pode ser anterior a data de criação**
   
 Acontece quando o usuário clicar em “Filtrar por período” e informar um mês inicial anterior a data de criação do limite de custo.
 
@@ -6844,7 +6851,7 @@ Acontece quando o usuário clicar em “Filtrar por período” e informar um m�
 
 
 B. Análise de risco
-
+   
 
 
 
@@ -6857,14 +6864,15 @@ O relatório de análise de risco permite que a partir de um limite de custo sal
 ----
   
 
-Passo a passo
-
+**Passo a passo**
+~~~~~~~~~~~~~~~~~
 
 
 Nesse momento é informado o passo a passo para a realização dessas ações dentro da tela de limite de custo.
 
 
-1. **Executando uma análise de risco**
+1. Executando uma análise de risco
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6884,10 +6892,11 @@ A partir deste momento, é possível selecionar uma ou mais opções, para reali
 
 
 Após realizar o processamento, o usuário pode visualizar: 
-1. Consumo atual;
-2. Previsão do consumo atual
-3. Limite de custo;
-4. Risco do consumo atual ultrapassar o limite de custo.
+
+* 1. Consumo atual;
+* 2. Previsão do consumo atual
+* 3. Limite de custo;
+* 4. Risco do consumo atual ultrapassar o limite de custo.
 
 
 Além disso, também é apresentado o escopo de cada limite de custo, apresentando o nome do contrato em que está inserido, a nuvem e/ou se há contas vinculadas.
@@ -6939,7 +6948,8 @@ Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O r
 
 
 
-2. **Gerar relatório de limite de custo a partir da análise de risco**
+2. Gerar relatório de limite de custo a partir da análise de risco
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6961,8 +6971,8 @@ Com isso, ele é redirecionado para a tela de relatório de limite de custo onde
 
 
 
-3. **Gerar análise de risco a partir do relatório de limite de custo**
-
+3. Gerar análise de risco a partir do relatório de limite de custo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
