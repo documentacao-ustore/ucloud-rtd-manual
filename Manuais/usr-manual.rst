@@ -6401,7 +6401,7 @@ Nesse momento é informado o passo a passo para a realização dessas ações na
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Para executar o relatório, sem ter um limite de custo salvo previamente, é necessário clicar no botão de coloração verde nomeado “Configurar limite de custo” localizado no canto inferior direito do *card*, como evidenciado na imagem a seguir:
+Para executar o relatório, sem ter um limite de custo salvo previamente, é necessário clicar no botão de coloração verde nomeado “Configurar limite de custo”, localizado no canto inferior direito do *card*, como evidenciado na imagem a seguir:
 
   
 .. figure:: /figuras/fig_lc_ar/05_ucloud_finrel_con_limite_custos.png 
@@ -6686,7 +6686,7 @@ O usuário precisa selecionar um limite de custo, e depois clicar em “Filtrar 
 
 Na sequência é apresentado o modal de “Busca personalizada por período”:
 
-.. figure:: figuras/fig_lc_ar/21_ucloud_finrel_con_modal_busca_personalizada.png 
+.. figure:: /figuras/fig_lc_ar/21_ucloud_finrel_con_modal_busca_personalizada.png 
    :alt: Busca personalizada por período 
    :align: center
 
@@ -6697,7 +6697,7 @@ Na sequência é apresentado o modal de “Busca personalizada por período”:
 Neste modal, o usuário pode observar o nome e o intervalo do limite de custo selecionado, sendo possível mudar o mês de início do período.
 
 
-.. figure:: figuras/fig_lc_ar/22_ucloud_finrel_con_modal_busca_alterar_mes.png
+.. figure:: /figuras/fig_lc_ar/22_ucloud_finrel_con_modal_busca_alterar_mes.png
    :alt: Selecionar o período
    :align: center
 
@@ -6727,7 +6727,7 @@ Caso o usuário selecione o intervalo trimestral, semestral ou anual, são utili
 Na figura abaixo esse período de projeção é apresentado, no modal de “Cost Threshold dinâmico”:
 
 
-.. figure:: figuras/fig_lc_ar/23_ucloud_finrel_con_modal_dinâmico_intervalo.png
+.. figure:: /figuras/fig_lc_ar/23_ucloud_finrel_con_modal_dinâmico_intervalo.png
    :alt: Cost Threshold dinâmico
    :align: center  
 
@@ -6747,7 +6747,7 @@ Após carregar as informações, é possível o usuário notar que, ao gerar o r
 Além disso, existe uma legenda no gráfico, que informa qual o período de consumo utilizado para gerar a projeção.
 
 
-.. figure:: figuras/fig_alc_ar/24_ucloud_finrel_con_relatorio_legenda.png
+.. figure:: /figuras/fig_alc_ar/24_ucloud_finrel_con_relatorio_legenda.png
    :alt: Relatório legenda
    :align: center
   
@@ -6758,7 +6758,7 @@ Além disso, existe uma legenda no gráfico, que informa qual o período de cons
 
 E nas informações de custo por nome do produto ou por dimensão, é exibido ao lado o nome “projeção” nos meses que foram gerados através dessa projeção.
 
-.. figure:: figuras/fig_lc_ar/25_ucloud_finrel_con_custo_produto.png
+.. figure:: /figuras/fig_lc_ar/25_ucloud_finrel_con_custo_produto.png
    :alt: Custo por nome do produto
    :align: center
 
@@ -6777,7 +6777,7 @@ Abaixo são listadas algumas mensagens de erro que o usuário pode receber ao ex
 
 1. **Não há dados que atendam a este filtro**
   
-.. figure:: figuras/fig_lc_ar/26_ucloud_finrel_con_erro_filtro.png 
+.. figure:: /figuras/fig_lc_ar/26_ucloud_finrel_con_erro_filtro.png 
    :alt: Erro filtro
    :align: center
 
@@ -6792,7 +6792,7 @@ Acontece quando o usuário constrói um filtro que não possui nenhum registro q
 2. **Ainda não é possível realizar esse processamento**
 
 
-.. figure:: figuras/fic_lc_ar/27_ucloud_finrel_con_erro_processamento.png
+.. figure:: /figuras/fic_lc_ar/27_ucloud_finrel_con_erro_processamento.png
    :alt: Filtrar dados na tela  
    :align: center
   
@@ -6810,7 +6810,7 @@ Dica para evitar ocorrer este problema: basta colocar o mês inicial como mês a
 3. **Limite de custo inválido**
 
 
-.. figure:: figuras/fig_lc_ar/28_ucloud_finrel_con_erro_limite_custo.png
+.. figure:: /figuras/fig_lc_ar/28_ucloud_finrel_con_erro_limite_custo.png
    :alt: Limite de custo inválido 
    :align: center
 
@@ -6838,7 +6838,7 @@ Ocorre quando a data final do limite de custo for maior que o mês atual, sendo 
   
 Acontece quando o usuário clicar em “Filtrar por período” e informar um mês inicial anterior a data de criação do limite de custo.
 
-.. figure:: figuras/fig_lc_ar/29_ucloud_finrel_con_erro_data_criação.png
+.. figure:: /figuras/fig_lc_ar/29_ucloud_finrel_con_erro_data_criação.png
    :alt: Erro data criação
    :align: center
 
@@ -6858,7 +6858,7 @@ B. Análise de Risco
 
 O relatório de análise de risco permite que a partir de um limite de custo salvo, seja possível realizar uma análise e exibir em tela o consumo atual, o consumo previsto para o mês atual, e qual é o risco do consumo ultrapassar o limite de custo previamente definido.
 
-.. figure:: figuras/fig_lc_ar/30_ucloud_finrel_con_limite_custo.png
+.. figure:: /figuras/fig_lc_ar/30_ucloud_finrel_con_limite_custo.png
    :alt: Análise de risco
    :align: center
 
@@ -6884,7 +6884,7 @@ Para realizar o processamento é necessário que o usuário crie um limite de cu
 A partir deste momento, é possível selecionar uma ou mais opções, para realizar o processamento da análise de risco baseada na configuração do limite de custo, como exibido na imagem abaixo:
   
 
-.. figure:: figuras/fig_lc_ar/31_ucloud_finrel_con_selecionar_limite.png 
+.. figure:: /figuras/fig_lc_ar/31_ucloud_finrel_con_selecionar_limite.png 
    :alt: Selecionar limite
    :align: center
 
@@ -6906,7 +6906,7 @@ Além disso, também é apresentado o escopo de cada limite de custo, apresentan
 Ao selecionar as opções desejadas, o botão de coloração verde “Executar” ao lado do menu suspenso fica disponível para acionamento. Neste exemplo, o usuário selecionou as seguintes opções de limite de custo: anual, mensal, RelatorioAnual e Semestral/Contrato. 
 Observe a imagem a seguir para melhor visualização:
   
-.. figure:: figuras/fig_lc_ar/32_ucloud_finrel_con_resultado_analise_risco.png
+.. figure:: /figuras/fig_lc_ar/32_ucloud_finrel_con_resultado_analise_risco.png
    :alt: Resultado análise de risco 
    :align: center
 
@@ -6932,12 +6932,12 @@ Ao ser pressionado, é aberta uma tabela onde o usuário pode visualizar a descr
 Seguem imagens abaixo para melhor visualização:
 
 
-.. figure:: figuras/fig_lc_ar/33_ucloud_finrel_con_legenda_risco.png
+.. figure:: /figuras/fig_lc_ar/33_ucloud_finrel_con_legenda_risco.png
    :alt: Legenda de risco
    :align: center
 
 
-.. figure:: figuras/fig_lc_ar/34_ucloud_finrel_con_legenda_risco_expandida.png
+.. figure:: /figuras/fig_lc_ar/34_ucloud_finrel_con_legenda_risco_expandida.png
    :alt: Legenda de risco expandida
    :align: center
 
@@ -6958,7 +6958,7 @@ Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O r
 Após realizar o processamento da análise de risco, o usuário pode clicar no ícone de gráfico, localizado no canto superior direito do *card*, gerado no resultado. 
   
 
-.. figure:: figuras/fig_lc_ar/35_ucloud_finrel_con_visualizar_limite.png
+.. figure:: /figuras/fig_lc_ar/35_ucloud_finrel_con_visualizar_limite.png
    :alt: Visualizar limite
    :align: center
 
@@ -6980,7 +6980,7 @@ Com isso, ele é redirecionado para a tela de relatório de limite de custo onde
 Após o usuário executar um limite de custo já salvo, é exibida uma nova opção na parte de “Configurações aplicadas”, onde é redirecionado para a tela de análise de risco, processando automaticamente a partir do limite de custo processado.
   
 
-.. figure:: figuras/fig_lc_ar/36_ucloud_finrel_con_visualizar_analise.png
+.. figure:: /figuras/fig_lc_ar/36_ucloud_finrel_con_visualizar_analise.png
    :alt: Visualizar como análise de risco
    :align: center
 
