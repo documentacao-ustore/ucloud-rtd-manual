@@ -6296,6 +6296,11 @@ Este relatório baseado em consumo, além de definir um orçamento total, permit
 
 ====
 
+++++
+
+
+====
+
 
 Relatórios Baseados em Limite de Custo
 --------------------------------------
@@ -6711,8 +6716,8 @@ Após realizar essa alteração, o usuário pode pressionar em “Executar” e 
 *Regras:*
 
 
-   * a. O usuário só pode voltar até o mês no qual o limite de custo foi criado.
-   * b. Não é possível selecionar o mês inicial sendo maior que o mês atual.
+   * O usuário só pode voltar até o mês no qual o limite de custo foi criado.
+   * Não é possível selecionar o mês inicial sendo maior que o mês atual.
 
 
 
@@ -6738,7 +6743,7 @@ Na figura abaixo esse período de projeção é apresentado, no modal de “Cost
 Após carregar as informações, é possível o usuário notar que, ao gerar o relatório, alguns meses possuem um asterisco **(*)** ao lado. 
 
 
-.. attention:: |atencao| Este asterisco ao lado do mês significa: “Projeção”. Ela é baseada nas informações dos 6 últimos meses. Assim, o período que ainda ocorre pode ser delineado a partir da utilização da base passada. 
+.. attention:: |atencao| Este asterisco ao lado do mês significa: “Projeção”. Ela é baseada nas informações dos 6 últimos meses. Assim, o período que ainda ocorre pode ser delineado a partir da utilização da base de informações passadas. 
    
 .. note:: A base dos últimos 6 meses projeta os meses à frente que são exibidos com asterisco. 
 
@@ -6944,7 +6949,9 @@ Seguem imagens abaixo para melhor visualização:
 ----
   
 
-Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O risco indisponível não apresenta nenhuma cor, já os riscos baixo e muito baixo são representados pela cor verde. Os riscos moderado e alto são exibidos na cor amarela, enquanto os riscos muito alto e extremo são expostos de coloração vermelha.
+Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O risco indisponível não apresenta nenhuma cor, já os riscos baixo e muito baixo são representados pela cor verde. 
+
+Os riscos moderado e alto são exibidos na cor amarela, enquanto os riscos muito alto e extremo são expostos de coloração vermelha.
 
 
 
@@ -6987,17 +6994,14 @@ Após o usuário executar um limite de custo já salvo, é exibida uma nova opç
 ----
 
 
-
-
-
-
+====
 
 ====
 
 Painéis Baseados em Fatura
 --------------------------
 
-Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequente. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
+Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*mês anterior*) para o pagamento no mês subsequente. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
 
 Os valores apresentados nesta opção de menu deve levar em conta que a Plataforma do uCloud possui três tipos de usuários que podemos identificar como ‘perfis básicos’ conforme descritos abaixo:
 
