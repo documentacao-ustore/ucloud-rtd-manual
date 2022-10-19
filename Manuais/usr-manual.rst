@@ -6367,7 +6367,7 @@ Adiante é descrito cada relatório baseado em limite de custo, juntamente com u
 
 
 A. Relatório de Limite de Custos
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O relatório de limite de custo permite que o usuário observe mês a mês o consumo realizado, tornando possível executar o monitoramento de quais meses ultrapassaram o limite de custo definido pelo mesmo, e representado em tela através de uma linha tracejada. 
 
@@ -6850,7 +6850,8 @@ Acontece quando o usuário clicar em “Filtrar por período” e informar um m�
 
 
 
-B. Análise de risco
+B. Análise de Risco
+~~~~~~~~~~~~~~~~~~~
    
 
 
