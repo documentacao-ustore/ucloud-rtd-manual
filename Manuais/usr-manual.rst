@@ -6747,7 +6747,7 @@ Após carregar as informações, é possível o usuário notar que, ao gerar o r
 Além disso, existe uma legenda no gráfico, que informa qual o período de consumo utilizado para gerar a projeção.
 
 
-.. figure:: /figuras/fig_alc_ar/24_ucloud_finrel_con_relatorio_legenda.png
+.. figure:: /figuras/fig_lc_ar/24_ucloud_finrel_con_relatorio_legenda.png
    :alt: Relatório legenda
    :align: center
   
@@ -6792,7 +6792,7 @@ Acontece quando o usuário constrói um filtro que não possui nenhum registro q
 2. **Ainda não é possível realizar esse processamento**
 
 
-.. figure:: /figuras/fic_lc_ar/27_ucloud_finrel_con_erro_processamento.png
+.. figure:: /figuras/fig_lc_ar/27_ucloud_finrel_con_erro_processamento.png
    :alt: Filtrar dados na tela  
    :align: center
   
