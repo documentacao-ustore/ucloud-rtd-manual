@@ -6294,6 +6294,692 @@ Este relatório baseado em consumo, além de definir um orçamento total, permit
 .. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
 
 
+====
+
+
+Relatórios Baseados em Limite de Custo
+--------------------------------------
+
+
+Os relatórios de limite de custo são baseados em consumo, implementados com o objetivo de definir um limite de custo como ponto de referência, para que o usuário consiga monitorar os gastos e, por meio de projeções, prever quando o consumo total no mês ultrapassa esse valor de referência. 
+
+
+Para ter acesso a essas novas implementações da Plataforma uCloud, é necessário ao usuário da aplicação clicar no menu **"Financeiro"** e, em seguida, no submenu **"Relatórios"**. Na sequência, são exibidas duas classes de painéis, baseados em: Consumo e Fatura.
+
+
+.. figure:: /figura/fig_lc_ar/01_ucloud_finrel_con_limite_custo.png
+   :alt: Financeiro relatórios acesso painéis
+   :align: center
+
+----
+
+
+
+O acesso possibilita verificar os relatórios referentes ao mês atual, após digitado pelo usuário o período desejado no campo da busca. Esta visualização permite ao usuário manter-se informado sobre as previsões de custo, em detalhes.
+
+
+O primeiro tópico **“Painéis Baseados em Consumo”** agrupa sete tipos de relatórios, são eles:
+
+ 
+.. figure:: /figura/fig_lc_ar/02_ucloud_finrel_con_sete_painéis.png
+   :alt: Painéis Baseados em Consumo 
+   :align: center
+
+----
+
+
+
+1. Histórico de Serviço;
+2. Custo Cadenciado;
+3. Custo Relacional de Produto;
+4. Visualização de Recursos;
+5. Custos de Budgets;
+6. Relatório de Monitoramento de Consumo;
+**7. Relatórios baseados em limite de custo**.
+
+
+.. attention:: |atencao| As quantidades de relatórios apresentados no menu Financeiro, submenu Relatórios, tópicos “Painéis baseados em Consumo e Fatura” podem variar sua quantidade de botões, de acordo com o contrato do cliente, podendo ser no máximo sete e no mínimo um.
+
+
+
+
+Este registro trata do acesso ao botão de opção: **Relatórios baseados em limite de custo**, ao clicar nele são mostrados dois novos relatórios para esta modalidade:
+
+
+1. Relatório de limite de custos e 
+2. Análise de risco.
+
+
+.. figure:: /figura/fig_lc_ar/03_ucloud_finrel_con_limite_custo.png
+   :alt: Relatórios baseados em limite de custos e análise de risco
+   :align: center
+
+----
+  
+
+
+
+Definindo os Relatórios
+-----------------------
+
+
+Adiante é descrito cada relatório baseado em limite de custo, juntamente com uma breve explicação de como utilizá-los:
+
+
+1. Relatório de limite de custos
+
+
+O relatório de limite de custo permite que o usuário observe mês a mês o consumo realizado, tornando possível executar o monitoramento de quais meses ultrapassaram o limite de custo definido pelo mesmo, e representado em tela através de uma linha tracejada. 
+
+
+Na imagem abaixo é possível observar como este relatório é exibido com um gráfico de colunas:
+
+
+.. figure:: /figura/fig_lc_ar/04_ucloud_finrel_con_grafico.png
+   :alt: Gráfico colunas do RLC
+   :align: center
+
+----
+
+
+Novas características
+~~~~~~~~~~~~~~~~~~~~~
+
+
+A tela de “Relatório de limite de custos” se difere dos demais relatórios, pois nela é possível realizar todas as operações, sendo elas: criar, editar, deletar e executar. Dessa forma, torna-se simples ao usuário realizar suas ações.
+
+
+**Passo a passo**
+~~~~~~~~~~~~~~~~~
+
+
+Nesse momento é informado o passo a passo para a realização dessas ações na tela de limite de custo.
+
+
+
+1. Executando sem salvar
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Para executar o relatório, sem ter um limite de custo salvo previamente, é necessário clicar no botão de coloração verde nomeado “Configurar limite de custo” localizado no canto inferior direito do *card*, como evidenciado na imagem a seguir:
+
+  
+.. figure:: /figura/fig_lc_ar/05_ucloud_finrel_con_limite_custos.png 
+   :alt: Configurar limite de custo  
+   :align: center
+
+----
+
+
+
+Neste fluxo, é aberto o modal de “Limite de custo dinâmico” onde o usuário pode realizar a configuração que deseja para **gerar** o **Relatório de Limite de Custo**. 
+
+
+Na imagem a seguir é possível notar os espaços a serem completados.
+
+
+.. figure:: /figura/fig_lc_ar/06_ucloud_finrel_con_tipo_filtro.png
+   :alt: Limite de custo dinâmico
+   :align: center
+
+----
+  
+
+Abaixo é detalhado cada espaço do modal acima para o preenchimento:
+
+
+
+**Etapas para a Configuração:**
+
+
+
+1. O usuário deve informar um nome para o limite de custo;
+2. Inserir o intervalo, pode ser: mensal, trimestral, semestral ou anual;
+3. Informar o valor de referência;
+4. Escolher a moeda desejada, deve ser BRL (Real), USD (Dólar), MXN (Peso Mexicano), EUR (Euro) e COP (Peso Colombiano);
+5. Adicionar os filtros necessários: Contrato, Nuvem, Contas vinculadas e Dimensão.
+
+
+
+
+.. figure:: /figura/fig_lc_ar/07_ucloud_finrel_con_num_limite_custos.png
+   :alt: Limite de custo dinâmico
+   :align: center
+
+----  
+
+
+.. important:: |nota| Os filtros de contrato, nuvem e contas vinculadas podem trabalhar em conjunto, contudo, Dimensão deve ser usada apenas com outros filtros de Dimensão.
+
+
+.. figure:: /figura/fig_lc_ar/08_ucloud_finrel_con_nuvem.png 
+   :alt: Selecionar Nuvem
+   :align: center
+
+----
+
+
+O usuário também pode adicionar vários filtros ao mesmo tempo através do *checkbox*, localizado no menu suspenso. 
+
+
+  
+
+**Detalhes dos Intervalos:**
+
+
+
+Cada intervalo configura automaticamente o seu mês inicial e final. A tabela abaixo descreve o mês inicial e final de cada tipo:
+
+
+.. figure:: /figura/fig_lc_ar/09_ucloud_finrel_con_tipo_intervalo.png 
+   :alt: Detalhes dos intervalos 
+   :align: center
+
+----
+	
+
+
+**Procedimentos pós configuração:**
+
+
+
+Após realizar a configuração, o usuário deve pressionar o botão “Executar” de coloração verde, localizado no canto inferior direito do modal. Com isso, é iniciado o processo para o carregamento dos dados em tela.
+
+
+Com o carregamento concluído, o usuário tem no centro da tela um gráfico com a linha de limite de custo e o custo total do mês separado por nome do produto (quando utilizar filtro de Contrato e/ou Nuvem) ou por nome da Dimensão (quando utilizado filtro por Dimensão).
+  
+
+.. figure:: /figura/fig_lc_ar/10_ucloud_finrel_con_filtrar_dados_tela.png
+   :alt: Filtrar Dados em tela
+   :align: center
+
+----
+
+
+Logo abaixo, são exibidas outras três informações:
+
+
+   1. Custo total por mês e moeda;
+   2. Custo por nome do produto, separado por mês;
+   3. Resumo das configurações aplicadas para gerar o relatório.
+
+
+O usuário pode observar a imagem a seguir, para refinar a visualização do gráfico acima:
+  
+
+.. figure:: /figura/fig_lc_ar/11_ucloud_finrel_con_informações_extras.png
+   :alt: Informações extras
+   :align: center
+
+----
+
+
+
+Na imagem acima, o *card* número três de “Configurações Aplicadas”, possibilita ao usuário clicar em “Editar”, botão de coloração laranja, localizado no canto superior direito. 
+
+
+Ao clicar em "Configurações Aplicadas" é oportunizado ao usuário alterar uma ou alguma informação para executar novamente o relatório.
+
+
+
+**Casos em que os dados são apresentados de formas diferentes**
+
+
+
+
+* Na condição de ser inserido o filtro por Dimensão, o agrupamento não é realizado pelo nome do produto, e sim por quais Dimensões o custo atende.
+
+
+
+.. figure:: /figura/fig_lc_ar/12_ucloud_finrel_con_filtro_dimensão.png
+   :alt: Filtro por Dimensão 
+   :align: center
+
+----
+  
+
+
+
+* Na hipótese de serem adicionadas duas Dimensões, e exista algum custo que atenda a ambas. Na parte de “Custo por Dimensão” esse registro entra como "Consumo de Dimensões por grupo”, ou seja, o valor de R$ 148,38… está presente dentro da Dimensão [google-bb] e do [TipoUsn].
+
+
+.. figure:: /figura/fig_lc_ar/13_ucloud_finrel_con_dimensões.png
+   :alt: Consumo de Dimensões por grupo 
+   :align: center
+
+----
+
+
+
+Para tornar esse entendimento acessível ao usuário, foi inserido um *tooltip* (ícone de dica de contexto) em cada tipo, que explica ao usuário o funcionamento.
+
+
+.. figure:: /figura/fig_lc_ar/14_ucloud_finrel_con_tool_tip.png
+   :alt: Tootip em Consumo de Dimensões  
+   :align: center
+
+----
+  
+
+
+
+2. Salvando uma configuração de limite de custo (Criação)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Para salvar uma configuração, é necessário a realização do "Passo a passo 1", mostrado anteriormente.
+
+
+Em seguida, o usuário deve buscar o terceiro *card* “Configurações Aplicadas” e pressionar em “Salvar”.
+
+
+Dessa forma, se mantém salva esta configuração realizada para execução do relatório.
+
+
+
+3. Executando a partir de uma configuração salva
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Após realizar o "Passo a passo 1 e 2", o usuário deve clicar na ação de *Refresh* para recarregar a listagem de configurações existentes. O ícone para atualização da tela é evidenciado na imagem abaixo:
+
+
+.. figure:: /figura/fig_lc_ar/15_ucloud_finrel_con_botão_refresh.png
+   :alt: Atualização da tela botão refresh
+   :align: center
+
+----
+
+
+
+
+Na sequência, o usuário deve clicar em “Selecione um limite de custo” e é exibida uma tela para selecionar uma configuração salva a partir do seu nome.
+
+
+Neste cenário, outras quatro opções de "Ações" são liberadas para o usuário, conforme lista e imagem a seguir:
+
+
+   1. Executar;
+   2. Editar;
+   3. Filtrar por período;
+   4. Deletar.
+  
+
+.. figure:: /figura/fig_lc_ar/16_ucloud_finrel_con_botões_limite_custo.png
+   :alt: Botões de ações limite de custo
+   :align: center
+
+----
+
+
+
+4. Editando um limite de custo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Para realizar uma edição, o usuário precisa selecionar um limite de custo, e pressionar em “Editar”, terceiro botão localizado na parte de "Ações".
+  
+
+.. figure:: /figura/fig_lc_ar/17_ucloud_finrel_con_botão_editar.png
+   :alt: Editando limite de custo 
+   :align: center
+
+----
+
+
+
+Neste fluxo, o modal  de “Edição de Cost Threshold” é exibido:
+
+
+.. figure:: /figura/fig_lc_ar/18_ucloud_finrel_con_modal_edição.png 
+   :alt: Modal Edição
+   :align: center
+
+---- 
+   
+  
+
+Nele, o usuário pode alterar as configurações do limite de custo e salvar, pressionando no botão “Editar", de coloração verde, localizado no canto inferior direito.
+
+
+
+5. Apagando um limite de custo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Após o usuário selecionar um limite de custo, deve clicar em “Remover”, quarto botão na parte de "Ações":
+
+
+.. figure:: /figura/fig_lc_ar/19_ucloud_finrel_con_botão_remover.png 
+   :alt: Botão Remover
+   :align: center
+
+----
+  
+
+
+Para finalizar, é necessário atualizar a listagem de limite de custo para checar se a informação deixou ser exibida.
+
+
+
+
+6. Filtrando por período
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+O usuário precisa selecionar um limite de custo, e depois clicar em “Filtrar por intervalo de tempo" segundo botão na parte de "Ações", representado por uma lupa.
+  
+.. figure:: /figura/fig_lc_ar/20_ucloud_finrel_con_botão_filtrar_intervalo.png 
+   :alt: Botão Filtrar Intervalo
+   :align: center
+
+----
+
+
+Na sequência é apresentado o modal de “Busca personalizada por período”:
+
+.. figure:: figura/fig_lc_ar/21_ucloud_finrel_con_modal_busca_personalizada.png 
+   :alt: Busca personalizada por período 
+   :align: center
+
+----  
+
+
+
+Neste modal, o usuário pode observar o nome e o intervalo do limite de custo selecionado, sendo possível mudar o mês de início do período.
+
+
+.. figure:: figura/fig_lc_ar/22_ucloud_finrel_con_modal_busca_alterar_mes.png
+   :alt: Selecionar o período
+   :align: center
+
+----  
+
+
+
+Após realizar essa alteração, o usuário pode pressionar em “Executar” e processar o limite de custo selecionado, com os filtros que estão presentes dentro do limite de custo. Contudo, agora em um período de tempo diferente.
+
+
+*Regras:*
+
+
+   5. O usuário só pode voltar até o mês no qual o limite de custo foi criado.
+   6. Não é possível selecionar o mês inicial sendo maior que o mês atual.
+
+
+
+
+7. Gerando projeção para os meses seguintes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Caso o usuário selecione o intervalo trimestral, semestral ou anual, são utilizados meses a frente nesse período, dessa forma, é realizada uma projeção baseada nos últimos 6 meses de registros. 
+
+
+Na figura abaixo esse período de projeção é apresentado, no modal de “Cost Threshold dinâmico”:
+
+
+.. figure:: figura/fig_lc_ar/23_ucloud_finrel_con_modal_dinâmico_intervalo.png
+   :alt: Cost Threshold dinâmico
+   :align: center  
+
+----
+
+
+
+Após carregar as informações, é possível o usuário notar que, ao gerar o relatório, alguns meses possuem um asterisco **(*)** ao lado. 
+
+
+.. attention:: |atencao| Este asterisco ao lado do mês significa “Projeção” ela é baseada nas informações dos 6 últimos meses, assim, os meses que ainda não aconteceram, podem ser delineados a partir da utilização desta base passada que projeta os meses à frente. 
+
+
+
+Além disso, existe uma legenda no gráfico, que informa qual o período de consumo utilizado para gerar a projeção.
+
+
+.. figure:: figura/fig_alc_ar/24_ucloud_finrel_con_relatorio_legenda.png
+   :alt: Relatório legenda
+   :align: center
+  
+----
+
+
+
+
+E nas informações de custo por nome do produto ou por dimensão, é exibido ao lado o nome “projeção” nos meses que foram gerados através dessa projeção.
+
+.. figure:: figura/fig_lc_ar/25_ucloud_finrel_con_custo_produto.png
+   :alt: Custo por nome do produto
+   :align: center
+
+----
+  
+
+
+Possíveis mensagens de erro:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Abaixo são listadas algumas mensagens de erro que o usuário pode receber ao executar o relatório de limite de custo:
+
+
+
+
+1. **Não há dados que atendam a este filtro**
+  
+.. figure:: figura/fig_lc_ar/26_ucloud_finrel_con_erro_filtro.png 
+   :alt: Erro filtro
+   :align: center
+
+----
+
+
+Acontece quando o usuário constrói um filtro que não possui nenhum registro que se adeque a essas configurações.
+
+
+
+
+2. **Ainda não é possível realizar esse processamento**
+
+
+.. figure:: figura/fic_lc_ar/27_ucloud_finrel_con_erro_processamento.png
+   :alt: Filtrar dados na tela  
+   :align: center
+  
+----
+
+
+Acontece quando o usuário “Filtrar por período” e informar um mês após o mês atual.
+
+
+Dica para evitar ocorrer este problema: basta colocar o mês inicial como mês atual ou anterior.
+
+
+
+
+3. **Limite de custo inválido**
+
+
+.. figure:: figura/fig_lc_ar/28_ucloud_finrel_con_erro_limite_custo.png
+   :alt: Limite de custo inválido 
+   :align: center
+
+----
+  
+
+Ocorre quando o usuário clica em “Deletar” e logo em seguida pressiona em “Executar” o mesmo limite de custo que ele deletou. O usuário não precisa se preocupar, em 5 segundos a listagem é recarregada e remove esse limite de custo que foi deletado.
+
+
+Para evitar a ocorrência do problema, basta pressionar o botão referente ao “Refresh” depois de deletar.
+
+
+4. **Não é possível gerar a projeção de custos** É necessário no mínimo 6 meses de histórico de dados.
+
+
+Ocorre quando a data final do limite de custo for maior que o mês atual, sendo necessário gerar a projeção de custo para o mês futuro e no momento do processamento for verificado que não existem 6 meses de dados anteriores para conseguir gerar essa projeção.
+
+
+
+
+5. **Data inicial não pode ser anterior a data de criação**
+  
+
+.. figure:: figura/fig_lc_ar/29_ucloud_finrel_con_erro_data_criação.png
+   :alt:
+   :align: center
+
+----
+
+
+Acontece quando o usuário clicar em “Filtrar por período” e informar um mês inicial anterior a data de criação do limite de custo.
+
+
+
+
+2. Análise de risco
+   ~~~~~~~~~~~~~~~~
+
+
+
+
+O relatório de análise de risco permite que a partir de um limite de custo salvo, seja possível realizar uma análise e exibir em tela o consumo atual, o consumo previsto para o mês atual, e qual é o risco do consumo ultrapassar o limite de custo previamente definido.
+
+.. figure:: figura/fig_lc_ar/30_ucloud_finrel_con_limite_custo.png
+   :alt: Análise de risco
+   :align: center
+
+----
+  
+
+Passo a passo
+
+
+
+Nesse momento é informado o passo a passo para a realização dessas ações dentro da tela de limite de custo.
+
+
+1. **Executando uma análise de risco**
+
+
+
+
+Para realizar o processamento é necessário que o usuário crie um limite de custo na tela de “Relatório de limite de custo”, após isso ele pode acessar a tela de "Análise de risco” e nela são listados todos os limites de custos salvos. 
+
+
+A partir deste momento, é possível selecionar uma ou mais opções, para realizar o processamento da análise de risco baseada na configuração do limite de custo, como exibido na imagem abaixo:
+  
+
+.. figure:: figura/fig_lc_ar/31_ucloud_finrel_con_selecionar_limite.png 
+   :alt: Selecionar limite
+   :align: center
+
+----
+
+
+
+Após realizar o processamento, o usuário pode visualizar: 
+1. Consumo atual;
+2. Previsão do consumo atual
+3. Limite de custo;
+4. Risco do consumo atual ultrapassar o limite de custo.
+
+
+Além disso, também é apresentado o escopo de cada limite de custo, apresentando o nome do contrato em que está inserido, a nuvem e/ou se há contas vinculadas.
+
+
+Ao selecionar as opções desejadas, o botão de coloração verde “Executar” ao lado do menu suspenso fica disponível para acionamento. Neste exemplo, o usuário selecionou as seguintes opções de limite de custo: anual, mensal, RelatorioAnual e Semestral/Contrato. 
+Observe a imagem a seguir para melhor visualização:
+  
+.. figure:: figura/fig_lc_ar/32_ucloud_finrel_con_resultado_analise_risco.png
+   :alt: Resultado análise de risco 
+   :align: center
+
+----
+
+
+
+
+Na imagem anterior é possível observar uma escala contendo o nível de risco. Para uma melhor compreensão dos riscos, o usuário deve clicar no botão de coloração laranja no canto inferior direito da tela, representado por uma seta branca apontando para o lado direito. 
+
+
+Ao ser pressionado, é aberta uma tabela onde o usuário pode visualizar a descrição de cada tipo de risco que pode ser informado em tela. Os riscos podem ser apresentados como: 
+
+* Indisponível;
+* Muito baixo;
+* Baixo;
+* Moderado;
+* Alto;
+* Muito alto e
+* Extremo.
+
+
+Seguem imagens abaixo para melhor visualização:
+
+
+.. figure:: figura/fig_lc_ar/33_ucloud_finrel_con_legenda_risco.png
+   :alt: Legenda de risco
+   :align: center
+
+
+.. figure:: figura/fig_lc_ar/34_ucloud_finrel_con_legenda_risco_expandida.png
+   :alt: Legenda de risco expandida
+   :align: center
+
+----
+  
+
+Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O risco indisponível não apresenta nenhuma cor, já os riscos baixo e muito baixo são representados pela cor verde. Os riscos moderado e alto são exibidos na cor amarela, enquanto os riscos muito alto e extremo são expostos de coloração vermelha.
+
+
+
+
+2. **Gerar relatório de limite de custo a partir da análise de risco**
+
+
+
+
+Após realizar o processamento da análise de risco, o usuário pode clicar no ícone de gráfico, localizado no canto superior direito do *card*, gerado no resultado. 
+  
+
+.. figure:: figura/fig_lc_ar/35_ucloud_finrel_con_visualizar_limite.png
+   :alt: Visualizar limite
+   :align: center
+
+----
+
+
+Com isso, ele é redirecionado para a tela de relatório de limite de custo onde ocorre o processamento automático do limite de custo no qual clicou.
+
+
+
+
+
+
+3. **Gerar análise de risco a partir do relatório de limite de custo**
+
+
+
+
+Após o usuário executar um limite de custo já salvo, é exibida uma nova opção na parte de “Configurações aplicadas”, onde é redirecionado para a tela de análise de risco, processando automaticamente a partir do limite de custo processado.
+  
+
+.. figure:: figura/fig_lc_ar/36_ucloud_finrel_con_visualizar_analise.png
+   :alt: Visualizar como análise de risco
+   :align: center
+
+----
+
+
+
+
+
+
+
+====
+
 Painéis Baseados em Fatura
 --------------------------
 
