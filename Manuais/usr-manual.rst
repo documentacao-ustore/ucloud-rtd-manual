@@ -6184,7 +6184,7 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 
 
 Relatório de Custo de `Budgets`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Este painel baseado em consumo possibilita o acesso aos relatórios referentes ao mês atual, digitado na busca pelo usuário. 
 
