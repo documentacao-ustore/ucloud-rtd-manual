@@ -6365,7 +6365,7 @@ Este registro trata do acesso ao botão de opção: **Relatórios baseados em li
 
 
 Definindo os Relatórios
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Adiante é descrito cada relatório baseado em limite de custo, juntamente com uma breve explicação de como utilizá-los:
