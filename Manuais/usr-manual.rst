@@ -5613,6 +5613,128 @@ Existem três quadros neste relatório com informações de inteligência de neg
 ====
 
 
+====
+
+
+
+
+Relatório de Custo de `Budgets`
+-------------------------------
+
+Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Este painel baseado em consumo possibilita o acesso aos relatórios referentes ao mês atual, digitado na busca pelo usuário. 
+
+Esta visualização permite ao usuário manter-se informado sobre as previsões de custo em detalhe.
+
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png 
+   :alt: Painéis_baseados_consumo
+   :align: center 
+
+----
+
+Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível escolher entre acessar a própria fatura ou gerenciá-la, de um dos grupos ou contratos administrados pelo usuário logado. 
+
+
+É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
+
+O primeiro tópico `“Painéis Baseados em Consumo”` agrupam sete tipos de relatórios: 
+
+1. Histórico de Serviço; 
+2. Custo Cadenciado; 
+3. Custo Relacional de Produto; 
+4. Visualização de Recursos; 
+5. **Custos de Budgets**; 
+6. Relatório de Monitoramento de Consumo;
+7. Relatório baseado em limite de custo.
+
+O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
+
+1. Minha Fatura;
+2. Financeiro; 
+3. Relatório Consolidado de Faturamento; 
+4. Conta Master; 
+5. Tendência de Faturamento.   
+
+
+Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar na opção de `Custo de Budgets`, evidenciado na tela abaixo:
+
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png
+   :alt: Painéis baseados em consumo  
+   :align: center
+
+----
+  
+
+Na tela de "Detalhamento de Custos de Budgets", o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
+
+.. figure:: /figuras/fig_budget/18_detalhamento_custos.png
+   :alt: Detalhamento de custos 
+   :align: center
+
+----
+  
+
+Ao clicar em "Período" o ícone calendário é exibido pela plataforma, neste o usuário deve selecionar o mês ou meses desejado. Ao final clicar em pesquisar.
+
+.. figure:: /figuras/fig_budget/19_detalhamento_período.png
+   :alt: Detalhamento período 
+   :align: center 
+
+----
+
+
+Ao final da seleção do período, como resultado da pesquisa, o sistema filtra todos os `budgets` dentro do período determinado.
+
+.. figure:: /figuras/fig_budget/20_detalhe_subbudget.png
+   :alt: Detalhamento subbudget 
+   :align: center 
+
+----
+  
+
+Ao visualizar a lista dos **Budgets**, é exibida na tela as seguintes informações sobre eles:
+
+1. Período;
+2. Quantidade consumida pelos `sub budgets` em porcentagem;
+3. Nome;
+4. Intervalo;
+5. Tipo: Por custo ou por quantidade consumida;
+6. Valor consumido pelos seus `sub Budgets`;
+7. Barra de consumo;
+8. Valor alocado para o `budget`.
+
+
+Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
+
+1. Período;
+2. Quantidade que a desambiguação consume do valor alocado para o `sub budget` em porcentagem;
+3. Nome;
+4. Tipo de desambiguação;
+5. Valor consumido da desambiguação;
+6. Barra de consumo;
+7. Valor alocado para o `sub budget`.
+
+
+.. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
+
+
+====
+
+Portanto, o Budget é um relatório baseado em consumo, criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. 
+
+Quando traduzido do inglês para o português, “budget” refere-se à palavra “orçamento” e corresponde a uma implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
+
+Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de Budgets. Outras informações podem ser consultadas no Menu Administração /Contratos: budget_ como acessar, criar, editar e visualizar.
+
+
+.. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
+
+
+====
+
+====
+
+
+
 Relatório de Monitoramento de Consumo
 -------------------------------------
 
@@ -6182,122 +6304,7 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 
 ====
 
-
-Relatório de Custo de `Budgets`
--------------------------------
-
-Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Este painel baseado em consumo possibilita o acesso aos relatórios referentes ao mês atual, digitado na busca pelo usuário. 
-
-Esta visualização permite ao usuário manter-se informado sobre as previsões de custo em detalhe.
-
-.. figure:: /figuras/fig_budget/17_painéis_consumo.png 
-   :alt: Painéis_baseados_consumo
-   :align: center 
-
-----
-
-Neste fluxo é apresentada a tela `Financeiro`, nesta interface é possível escolher entre acessar a própria fatura ou gerenciá-la, de um dos grupos ou contratos administrados pelo usuário logado. 
-
-
-É necessário selecionar o período, mês e ano, desejado para mostrar os resultados baseados nestas datas. Na sequência, são exibidas duas classes de painéis baseados em consumo e fatura. 
-
-O primeiro tópico `“Painéis Baseados em Consumo”` agrupam sete tipos de relatórios: 
-
-1. Histórico de Serviço; 
-2. Custo Cadenciado; 
-3. Custo Relacional de Produto; 
-4. Visualização de Recursos; 
-5. **Custos de Budgets**; 
-6. Relatório de Monitoramento de Consumo;
-7. Relatório baseado em limite de custo.
-
-O segundo tópico `“Painéis Baseados em Fatura”` reúne cinco tipos de painéis: 
-
-1. Minha Fatura;
-2. Financeiro; 
-3. Relatório Consolidado de Faturamento; 
-4. Conta Master; 
-5. Tendência de Faturamento.   
-
-
-Para ter acesso ao `Relatório de Custos de Budgets`, o usuário deve pressionar na opção de `Custo de Budgets`, evidenciado na tela abaixo:
-
-.. figure:: /figuras/fig_budget/17_painéis_consumo.png
-   :alt: Painéis baseados em consumo  
-   :align: center
-
-----
-  
-
-Na tela de "Detalhamento de Custos de Budgets", o usuário deve selecionar um contrato, ao clicar no contrato pretendido é possível visualizar a seguinte tela: 
-
-.. figure:: /figuras/fig_budget/18_detalhamento_custos.png
-   :alt: Detalhamento de custos 
-   :align: center
-
-----
-  
-
-Ao clicar em "Período" o ícone calendário é exibido pela plataforma, neste o usuário deve selecionar o mês ou meses desejado. Ao final clicar em pesquisar.
-
-.. figure:: /figuras/fig_budget/19_detalhamento_período.png
-   :alt: Detalhamento período 
-   :align: center 
-
-----
-
-
-Ao final da seleção do período, como resultado da pesquisa, o sistema filtra todos os `budgets` dentro do período determinado.
-
-.. figure:: /figuras/fig_budget/20_detalhe_subbudget.png
-   :alt: Detalhamento subbudget 
-   :align: center 
-
-----
-  
-
-Ao visualizar a lista dos **Budgets**, é exibida na tela as seguintes informações sobre eles:
-
-1. Período;
-2. Quantidade consumida pelos `sub budgets` em porcentagem;
-3. Nome;
-4. Intervalo;
-5. Tipo: Por custo ou por quantidade consumida;
-6. Valor consumido pelos seus `sub Budgets`;
-7. Barra de consumo;
-8. Valor alocado para o `budget`.
-
-
-Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as informações necessárias para o entendimento do usuário sobre os custos, que são:
-
-1. Período;
-2. Quantidade que a desambiguação consume do valor alocado para o `sub budget` em porcentagem;
-3. Nome;
-4. Tipo de desambiguação;
-5. Valor consumido da desambiguação;
-6. Barra de consumo;
-7. Valor alocado para o `sub budget`.
-
-
-.. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
-
-
 ====
-
-Portanto, o Budget é um relatório baseado em consumo, criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. 
-
-Quando traduzido do inglês para o português, “budget” refere-se à palavra “orçamento” e corresponde a uma implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
-
-Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de Budgets. Outras informações podem ser consultadas no Menu Administração /Contratos: budget_ como acessar, criar, editar e visualizar.
-
-
-.. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
-
-
-====
-
-++++
-
 
 ====
 
