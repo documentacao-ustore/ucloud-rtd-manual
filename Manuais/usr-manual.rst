@@ -6874,8 +6874,8 @@ O relatório de análise de risco permite que a partir de um limite de custo sal
 ----
   
 
-**Passo a passo**
-~~~~~~~~~~~~~~~~~
+**Passo a passo:**
+~~~~~~~~~~~~~~~~~~
 
 
 Nesse momento é informado o passo a passo para a realização dessas ações dentro da tela de limite de custo.
