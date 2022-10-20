@@ -6362,6 +6362,8 @@ Este registro trata do acesso ao botão de opção: **Relatórios baseados em li
 ----
   
 
+====
+
 
 
 Definindo os Relatórios
@@ -6387,8 +6389,8 @@ Na imagem abaixo é possível observar como este relatório é exibido com um gr
 ----
 
 
-**Novas características**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**Novas características:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 A tela de “Relatório de limite de custos” se difere dos demais relatórios, pois nela é possível realizar todas as operações, sendo elas: criar, editar, deletar e executar. Dessa forma, torna-se simples ao usuário realizar suas ações.
@@ -6531,8 +6533,8 @@ Ao clicar em "Configurações Aplicadas" é oportunizado ao usuário alterar uma
 
 
 
-**Casos em que os dados são apresentados de formas diferentes**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Casos em que os dados são apresentados de formas diferentes:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -6716,7 +6718,7 @@ Após realizar essa alteração, o usuário pode pressionar em “Executar” e 
 *Regras:*
 
 
-   * O usuário só pode voltar até o mês no qual o limite de custo foi criado.
+   * O usuário consegue voltar até o mês no qual o limite de custo é criado.
    * Não é possível selecionar o mês inicial sendo maior que o mês atual.
 
 
@@ -6853,6 +6855,8 @@ Acontece quando o usuário clicar em “Filtrar por período” e informar um m�
 Acontece quando o usuário clicar em “Filtrar por período” e informar um mês inicial anterior a data de criação do limite de custo.
 
 
+
+====
 
 
 B. Análise de Risco
