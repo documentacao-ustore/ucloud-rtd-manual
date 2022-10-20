@@ -6306,7 +6306,6 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 
 ====
 
-====
 
 
 Relatórios Baseados em Limite de Custo
@@ -6369,7 +6368,6 @@ Este registro trata do acesso ao botão de opção: **Relatórios baseados em li
 ----
   
 
-====
 
 
 
@@ -7007,7 +7005,7 @@ Após o usuário executar um limite de custo já salvo, é exibida uma nova opç
 
 ====
 
-====
+
 
 Painéis Baseados em Fatura
 --------------------------
