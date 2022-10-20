@@ -6387,8 +6387,8 @@ Na imagem abaixo é possível observar como este relatório é exibido com um gr
 ----
 
 
-Novas características
-~~~~~~~~~~~~~~~~~~~~~
+**Novas características**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 A tela de “Relatório de limite de custos” se difere dos demais relatórios, pois nela é possível realizar todas as operações, sendo elas: criar, editar, deletar e executar. Dessa forma, torna-se simples ao usuário realizar suas ações.
