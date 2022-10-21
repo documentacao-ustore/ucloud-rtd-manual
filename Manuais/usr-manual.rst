@@ -7244,8 +7244,8 @@ Neste cenário híbrido de multicloud, os recursos computacionais necessitam de 
 A plataforma organiza a otimização destes custos ao padronizar e situar os limites tanto financeiros quanto quantitativos e qualitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além dos painéis existentes, o submenu Relatórios inova ao viabilizar as implementações: Dimensão e Tags Virtuais, funcionalidades utilitárias que favorecem os relatórios a seguir detalhados. 
 
 
-Dimensão
-~~~~~~~~
+**Dimensão**
+~~~~~~~~~~~~
 
 
 A Dimensão é uma nova implementação da plataforma uCloud, e foi criada para agrupar `Tags` de nomenclatura diferentes, mas que fazem parte do mesmo contexto, que estão tagueadas em nuvens distintas. Desta forma, evita que recursos iguais sejam tagueados de formas diferentes. 
@@ -7606,8 +7606,8 @@ Além disso, a "Dimensão" é utilizada no modal “Criar Budget” incluída no
 ====
 
 
-*Tags* Virtuais
-~~~~~~~~~~~~~~~
+**Tags Virtuais**
+~~~~~~~~~~~~~~~~~
 
 
 Num contexto amplo, uma *Tag* (um rótulo ou uma etiqueta) é uma palavra chave que assina ou identifica um determinado recurso computacional (ou serviço decorrente da existência deste) armazenado em um provedor de nuvem, repositório ou banco de dados. 
