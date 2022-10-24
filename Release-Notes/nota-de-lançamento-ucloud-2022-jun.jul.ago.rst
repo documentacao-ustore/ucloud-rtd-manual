@@ -82,12 +82,6 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
   
   * **Promotion**: o tipo de crédito promocional inclui "Teste gratuito do Google Cloud e créditos de campanha de marketing ou outras concessões para usar o Google Cloud". Quando disponíveis, os créditos promocionais são considerados uma forma de pagamento e são aplicados automaticamente para reduzir a fatura total.
 
-IBM Cloud
----------
-
-No que se refere à interação com o provedor de serviço de nuvem pública IBM Cloud, é listada a seguinte melhoria:
-
-* As listagens dos recursos são disponibilizadas por filtragem de regiões na hora da criação de redes.
 
 VMware 6.5 ou superior (vCenter/vSphere)
 ----------------------------------------
