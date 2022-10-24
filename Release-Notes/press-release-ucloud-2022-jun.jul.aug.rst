@@ -82,12 +82,7 @@ Concerning the interaction with the Google Cloud Platform (GCP) public cloud ser
 
   * **Promotion**: Promotional credit type includes “Google Cloud free trial and marketing campaign credits of other grants for  using Google Cloud”. When available, promotional credits are considered a form of payment and are automatically applied to reduce the total invoice. 
 
-IBM Cloud
----------
 
-On what refers to the interaction with the IBM Cloud public cloud service provider, the following improvement is listed:
-
-* Resource listings are made available by filtering regions when creating networks.
 
 VMware 6.5 or superior (vCenter/vSphere)
 ----------------------------------------
