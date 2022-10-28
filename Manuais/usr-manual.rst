@@ -7222,6 +7222,11 @@ Relatório Consolidado de Faturamento
 .. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
+====
+
+====
+
+
 Tendência de faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7585,7 +7590,7 @@ Fazendo isso, a tela com a estrutura montada e finalizada é exibida, como exemp
 
 
 
-Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuário tem tanto a possibilidade de criar outros grupos e adicionar mais `Tags`, assim como de excluí-los. 
+Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuário tem tanto a possibilidade de criar outros grupos e adicionar mais `Tags`, assim como excluí-los. 
 
 É possível também perceber que a cada ação feita, a Estrutura, localizada no fim da página, é modificada.
 
