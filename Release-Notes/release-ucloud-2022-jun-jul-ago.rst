@@ -1,7 +1,7 @@
 
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
-   :scale: 50 %
+   :scale: 60 %
    :align: center
    
 ----
@@ -10,26 +10,37 @@
 Release do Trimestre: Junho | Julho | Agosto - Ano 2022
 =======================================================
 Plataforma uCloud versão: *Update tags 5.3-b56 e 1.0-account90*
-
+.
+.
+.
 
 —-
-
+.
+.
+.
 
 Apresentação
 ============
-
+.
+.
+.
 
 Este release da Plataforma uCloud é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, inovações geradas na área de desenvolvimento.
 
 
 O release além de ser um material informativo com conteúdo relevante sobre as entregas de um ou mais incrementos na aplicação, tem como objetivo fornecer resultado ao investimento dos clientes, obter parecer e noticiar o progresso, seja de aprimoramento, melhorias ou correções. Realmente oferece a visibilidade adequada no processo de desenvolvimento do produto.
 
-
+.
+.
+.
+.
 
 
 Notícias 
 ========
-
+.
+.
+.
 
 As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange as sete (7) novas implementações, as treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores, quarenta (40) aprimoramentos globais da plataforma uCloud e as trinta  e quatro (34) ações corretivas, sendo nove (09) relacionadas as nuvens, dez (10) relativas a uCloudOPS e quinze (15) pertencentes ao Billing.
 
@@ -45,7 +56,12 @@ As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange
 
 * Ações corretivas.
 
-
+.
+.
+.
+.
+.
+.
 
 
 
@@ -54,7 +70,10 @@ As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange
 
 Novas Implementações
 ====================
-
+.
+.
+.
+.
 
 
 1. **Budget**
@@ -64,66 +83,90 @@ Esta nova implementação corresponde a um relatório baseado em consumo que tem
 As informações detalhadas sobre o uso do Budget_ podem ser acessadas no repositório / wiki que abriga o manual de uso do uCloud.
 
 .. _Budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget
-
+.
+.
+.
 
 ----
 
 ----
-
+.
+.
+.
 
 
 
 2. **Customização do branding a nível de Contrato**
 
 A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário pode selecionar as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
-
+.
+.
+.
 
 ----
 
 ----
-
+.
+.
+.
 
 
 3. **Dimensão**
 
-Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada Dimensão_.
+Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada Dimensão_ .
 
 
-.. _Dimensao: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dimensao
-
+.. _Dimensão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dimensao
+.
+.
+.
 
 ----
 
 ----
-
+.
+.
+.
 
 4. **Import e Export de ofertas de serviço em (XML + YAML)**
 
 Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de uma nuvem qualquer contanto que esteja vinculada ao Portal uCloud. Antes era possível importar e exportar arquivos em formato JSON, então foram adicionadas as opções de importar e exportar os arquivos também em formato XML e YAML. [tag 5.3-b43 10ago]
-
+.
+.
+.
 ----
 
 ----
-
+.
+.
+.
 
 5. **Import de credenciais do Google no Secret Manager da AWS**
 
 Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS.[tag 5.3-b16 28jul]
-
+.
+.
+.
 ----
 
 ----
-
+.
+.
+.
 
 
 6. **Permissões a Nível de Conta**
 
 Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta modalidade de permissão a nível de conta, o usuário pode realizar as ações a partir do perfil de permissão criado para ele, seja básico ou avançado. Este usuário tem o poder de administrar diversos contratos vinculados a uma conta, de acordo com as permissões que lhe foram concedidas.
-
+.
+.
+.
 ----
 
 ----
-
+.
+.
+.
 
 
 7. **Relatório de Monitoramento de Consumo V1** 
@@ -133,18 +176,27 @@ Nova funcionalidade do uCloud que trata do detalhamento completo dos gastos, div
 O detalhamento das informações podem ser lidas no manual de uso do uCloud em Relatório_ de Monitoramento de Consumo v1.
 
 .. _Relatório: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#relatorio-de-monitoramento-de-consumo
- 
+.
+.
+. 
 
 ----
 
 ----
-
+.
+.
+.
+.
+.
+.
 
 
 
 Adequação às mudanças ocorridas em Nuvens Públicas e Privadas
 =============================================================
-
+.
+.
+.
 
 Amazon Web Services (AWS)
 -------------------------
@@ -216,7 +268,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 
 
 Huawei Cloud (Huawei)
-—--------------------
+---------------------
 
 
 Em relação à interação com o provedor de serviço de nuvem pública Huawei nenhuma ocorrência de alteração, nova implementação ou funcionalidade.
@@ -225,7 +277,7 @@ Em relação à interação com o provedor de serviço de nuvem pública Huawei 
 
 
 IBM Cloud (IBM)
-—--------------
+---------------
 Em relação à interação com o provedor de serviço de nuvem pública IBM nenhum registro de correção, alteração, nova funcionalidade ou implementação.
 
 
@@ -244,12 +296,17 @@ No tocante à interação com o hypervisor VCenter/vSphere, relaciona-se a segui
 
 
 VMWare vCloud (vCloud)
-—---------------------
+----------------------
 
 
 Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alteração, correção, nova implementação ou funcionalidade.
 
-
+.
+.
+.
+.
+.
+.
 
 
 
@@ -260,7 +317,10 @@ Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alter
 
 Aprimoramento da plataforma uCloud
 ==================================
-
+.
+.
+.
+.
 
 A Ustore renova a plataforma uCloud em conformidade com a evolução contínua das inovações no setor de *cloud computing* - ambiente dinâmico que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da Internet. 
 
@@ -419,7 +479,12 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 .
 .
 * Criação de persistência na validação de recursos que não estão no contrato para criação de máquina virtual e *Scaling Group* [tag 5.2-b47  06jul].
-
+.
+.
+.
+.
+.
+.
 
 
 
@@ -429,28 +494,41 @@ Ações Corretivas Globais
 ========================
 
 
-Este tópico lista as ações corretivas realizadas pela nossa equipe de desenvolvimento, identificadas em consequência dos *reports* gerados na experiência de uso e *quality assurance*. As ações corretivas de fix e bugs podem referir-se a: Adequações às nuvens e aprimoramentos na plataforma uCloud em Account, OPS e Billing.
+Este tópico lista as ações corretivas realizadas pela nossa equipe de desenvolvimento, identificadas em consequência dos *reports* gerados na experiência de uso e *quality assurance*. 
 
+As ações corretivas de fix e bugs podem referir-se a: 
+
+* Adequações às nuvens e;
+.
+. 
+* Aprimoramentos na plataforma uCloud em Account, OPS e Billing.
+.
+.
+.
+.
 
 
 
 Adequações às nuvens
-====================
-
+--------------------
+.
+.
+.
 
 Amazon Web Services (AWS)
-—------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS), pode-se listar uma ação corretiva:
 .
 .
 * Criação do Balanceador com o Grupo de Segurança selecionado. [tag 1.0-account65 fix 20ago].
-
+.
+.
+.
 
 Microsoft Azure (Azure)
-—----------------------
-
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Em relação à interação com o provedor de serviço de nuvem pública Microsoft AZURE, são listadas as seguintes correções:
 
@@ -462,11 +540,12 @@ Em relação à interação com o provedor de serviço de nuvem pública Microso
 .
 .
 *  Foi ocultado o botão de "Edit Subnet" que antes gerava inativação dos *inputs* no momento da criação de subredes [tag 5.2-b72 fix 21jul].
-
+.
+.
+.
 
 Google Cloud Platform (GCP)
-—--------------------------
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Em relação à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), podemos listar as seguintes correções:
 
@@ -475,29 +554,35 @@ Em relação à interação com o provedor de serviço de nuvem pública Google 
 .
 .
 * Criação de um *loadbalancer*, e a retificação na mensagem de erro [tag 5.2-b46 fix 05jul].
-
+.
+.
+.
+.
 
 
 
 Huawei Cloud (Huawei)
-—--------------------
-
+~~~~~~~~~~~~~~~~~~~~~
 
 Em relação à interação com o provedor de serviço de nuvem pública Huawei Cloud, não houve nenhuma alteração, correção, nova implementação ou nova funcionalidade.
+.
+.
+.
 
-
-IBM Cloud
-—--------
+IBM Cloud (IBM)
+~~~~~~~~~~~~~~~
 
 
 Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, podemos listar a seguinte correção:
 
 
 * As listagens dos recursos são disponibilizadas por filtragem de regiões na hora da criação de redes [tag 5.2-b64 bug 18jul].
-
+.
+.
+.
 
 VMware vCloud
-—------------
+~~~~~~~~~~~~~
 
 
 Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), podemos listar as seguintes correções:
@@ -507,16 +592,25 @@ Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou sup
 .
 .
 * Gerenciamento de escalonamento baseado nas *policies* (Métricas) de escrita e leitura de disco [tag 5.3-b14 fix 28jul].
+.
+.
+.
+.
 
 
 
 
 Plataforma uCloud
-=================
-
+-----------------
+.
+.
+.
 
 **OPS** 
-
+~~~~~~~
+.
+.
+.
 
 * Filtro VDC no grupo [tag 5.2-b65 fix 18jul]; 
 .
@@ -548,10 +642,13 @@ Plataforma uCloud
 * *Query* para VM [tag 5.3-b39 fix 08ago].
 .
 .
-
+.
 
 **Billing**
-
+~~~~~~~~~~~
+.
+.
+.
 
 * *Pop-up VirtualTags* [tag 5.2-b45 fix 05jul];
 .
@@ -597,7 +694,10 @@ Plataforma uCloud
 .
 * Eliminado o problema no Relatório detalhado vindo vazio [tag 5.3-b46 fix 10ago];
 
-
+.
+.
+.
+.
 
 
 
@@ -606,12 +706,18 @@ Plataforma uCloud
 
 
 ====
-
+.
+.
+.
+.
 
 
 
 Neste release é evocado o princípio da norma ISO 9001, elaborada pela Organização Internacional de Normalização (no Brasil conhecida como ABNT NBR ISO 9001). A qual objetiva estabelecer normas consistentes que aumentam a qualidade nos processos aplicados e redundam na melhoria contínua e ajustes nas funcionalidades, em busca da gestão da qualidade e excelência empresarial. O apresentado acima refere-se ao princípio da gestão da qualidade citada na norma ISO 9001.
-
+.
+.
+.
+.
 
 
 
