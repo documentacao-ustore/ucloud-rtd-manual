@@ -10,11 +10,8 @@
 Release do Trimestre: Junho | Julho | Agosto - Ano 2022
 =======================================================
 Plataforma uCloud versão: *Update tags 5.3-b56 e 1.0-account90*
-.
-.
-.
 
-—-
+----
 .
 .
 .
@@ -23,7 +20,7 @@ Apresentação
 ============
 .
 .
-.
+
 
 Este release da Plataforma uCloud é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, inovações geradas na área de desenvolvimento.
 
@@ -32,15 +29,14 @@ O release além de ser um material informativo com conteúdo relevante sobre as 
 
 .
 .
-.
-.
+
 
 
 Notícias 
 ========
 .
 .
-.
+
 
 As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange as sete (7) novas implementações, as treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores, quarenta (40) aprimoramentos globais da plataforma uCloud e as trinta  e quatro (34) ações corretivas, sendo nove (09) relacionadas as nuvens, dez (10) relativas a uCloudOPS e quinze (15) pertencentes ao Billing.
 
@@ -58,10 +54,7 @@ As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange
 
 .
 .
-.
-.
-.
-.
+
 
 
 
@@ -70,8 +63,6 @@ As novidades ou os lançamentos deste período sobre a plataforma uCloud abrange
 
 Novas Implementações
 ====================
-.
-.
 .
 .
 
@@ -85,28 +76,27 @@ As informações detalhadas sobre o uso do Budget_ podem ser acessadas no reposi
 .. _Budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget
 .
 .
-.
+
 
 ----
 
 ----
 .
 .
-.
+
 
 
 
 2. **Customização do branding a nível de Contrato**
 
 A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário pode selecionar as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
-.
+
 .
 .
 
 ----
 
 ----
-.
 .
 .
 
@@ -117,34 +107,35 @@ Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão fo
 
 
 .. _Dimensão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dimensao
-.
+
 .
 .
 
 ----
 
 ----
-.
+
 .
 .
 
 4. **Import e Export de ofertas de serviço em (XML + YAML)**
 
 Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de uma nuvem qualquer contanto que esteja vinculada ao Portal uCloud. Antes era possível importar e exportar arquivos em formato JSON, então foram adicionadas as opções de importar e exportar os arquivos também em formato XML e YAML. [tag 5.3-b43 10ago]
-.
+
 .
 .
 ----
 
 ----
+
 .
 .
-.
+
 
 5. **Import de credenciais do Google no Secret Manager da AWS**
 
 Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS.[tag 5.3-b16 28jul]
-.
+
 .
 .
 ----
@@ -152,19 +143,20 @@ Secret Manager é um repositório onde são gravadas as informações que soment
 ----
 .
 .
-.
+
 
 
 6. **Permissões a Nível de Conta**
 
 Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta modalidade de permissão a nível de conta, o usuário pode realizar as ações a partir do perfil de permissão criado para ele, seja básico ou avançado. Este usuário tem o poder de administrar diversos contratos vinculados a uma conta, de acordo com as permissões que lhe foram concedidas.
+
 .
 .
-.
+
 ----
 
 ----
-.
+
 .
 .
 
@@ -176,16 +168,15 @@ Nova funcionalidade do uCloud que trata do detalhamento completo dos gastos, div
 O detalhamento das informações podem ser lidas no manual de uso do uCloud em Relatório_ de Monitoramento de Consumo v1.
 
 .. _Relatório: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#relatorio-de-monitoramento-de-consumo
-.
+
+
 .
 . 
 
 ----
 
 ----
-.
-.
-.
+
 .
 .
 .
@@ -194,13 +185,14 @@ O detalhamento das informações podem ser lidas no manual de uso do uCloud em R
 
 Adequação às mudanças ocorridas em Nuvens Públicas e Privadas
 =============================================================
-.
+
 .
 .
 
 Amazon Web Services (AWS)
 -------------------------
-
+.
+.
 
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS) lista-se a melhoria a seguir:
 
@@ -210,7 +202,8 @@ Em relação à interação com o provedor de serviço de nuvem pública Amazon 
 
 Microsoft Azure (Azure)
 -----------------------
-
+.
+.
 
 Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar três melhorias:
 
@@ -226,7 +219,8 @@ Relativo à interação com o provedor de serviço de nuvem pública Microsoft A
 
 Google Cloud Platform (GCP)
 ---------------------------
-
+.
+.
 
 No que concerne à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), houveram oito melhorias listadas na sequência:
 
@@ -301,7 +295,7 @@ VMWare vCloud (vCloud)
 
 Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alteração, correção, nova implementação ou funcionalidade.
 
-.
+
 .
 .
 .
@@ -317,7 +311,7 @@ Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alter
 
 Aprimoramento da plataforma uCloud
 ==================================
-.
+
 .
 .
 .
@@ -479,12 +473,12 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 .
 .
 * Criação de persistência na validação de recursos que não estão no contrato para criação de máquina virtual e *Scaling Group* [tag 5.2-b47  06jul].
+
+.
+
 .
 .
-.
-.
-.
-.
+
 
 
 
@@ -499,10 +493,10 @@ Este tópico lista as ações corretivas realizadas pela nossa equipe de desenvo
 As ações corretivas de fix e bugs podem referir-se a: 
 
 * Adequações às nuvens e;
-.
+
 . 
 * Aprimoramentos na plataforma uCloud em Account, OPS e Billing.
-.
+
 .
 .
 .
