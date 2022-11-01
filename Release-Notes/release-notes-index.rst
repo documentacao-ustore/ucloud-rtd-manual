@@ -17,7 +17,7 @@ As notas de evolução da Plataforma uCloud (*Press e Release Notes*) são distr
 
 
 
-::doc: `Release-ucloud-2022-jun.jul.ago` |icone_clikhere|
+::doc:`release-ucloud-2022-jun-jul-ago` |icone_clikhere|
 
 ::doc:`nota-de-lançamento-ucloud-2022-jun.jul.ago` |icone_clikhere| 
 
