@@ -31,7 +31,7 @@ Notícias
 ========
 
 
-As novidades  deste período sobre a plataforma uCloud abrange as sete (7) novas implementações, as treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores, quarenta (40) aprimoramentos globais da plataforma uCloud e as trinta  e quatro (34) ações corretivas, sendo nove (09) relacionadas as nuvens, dez (10) relativas a uCloudOPS e quinze (15) pertencentes ao Billing.
+As novidades  deste período sobre a plataforma uCloud abrange as sete (7) novas implementações, as treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores, quarenta (40) aprimoramentos globais da plataforma uCloud e as trinta  e quatro (34) ações corretivas, sendo nove (09) relacionadas as nuvens, dez (10) relativas a uCloudOPS e quinze (15) pertencentes ao *Billing*.
 
 Tópicos a serem descritos neste documento:
 
@@ -53,14 +53,14 @@ Tópicos a serem descritos neste documento:
 Novas Implementações
 ====================
 
-Este tópico apresenta as sete novas implementações e insere hyperlinks em alguns termos que encaminham o leitor a ampliar seu conhecimento a respeito de determinada implementação. Ao acessar informações detalhadas sobre cada um deles, no manual de uso do uCloud, hospedado no repositório / wiki da Ustore.
+Este tópico apresenta as sete novas implementações e insere *hyperlinks* em alguns termos que encaminham o leitor a ampliar seu conhecimento a respeito de determinada implementação. Ao acessar informações detalhadas sobre cada um deles, no manual de uso do uCloud, hospedado no repositório/*wiki* da Ustore.
 
 
 1. **Budget**
  
 Esta nova implementação corresponde a um relatório baseado em consumo que tem como objetivo definir o orçamento total referente a um determinado período, seja mensal, trimestral, semestral ou anual. 
 
-As informações detalhadas sobre o uso do Budget_ podem ser acessadas no repositório / wiki que abriga o manual de uso do uCloud.
+As informações detalhadas sobre o uso do Budget_ podem ser acessadas no repositório/*wiki* que abriga o manual de uso do uCloud.
 
 .. _Budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget
 
@@ -99,7 +99,7 @@ Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de u
 
 5. **Import de credenciais do Google no Secret Manager da AWS**
 
-Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS.[tag 5.3-b16 28jul]
+Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS. [tag 5.3-b16 28jul]
 
 
 ----
@@ -136,7 +136,7 @@ Amazon Web Services (AWS)
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS) lista-se a melhoria a seguir:
 
 
-* A partir desta adequação pode ser realizado o Import do Container unicamente para o faturamento.[tag 5.2-b45 05jul]
+* A partir desta adequação pode ser realizado o *Import* do Container unicamente para o faturamento. [tag 5.2-b45 05jul]
 
 
 Microsoft Azure (Azure)
@@ -146,11 +146,11 @@ Microsoft Azure (Azure)
 Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar três melhorias:
 
 
-* Alteração da interface gráfica do botão de criação do Scaling Group [tag 5.3-b12 27jul];
+* Alteração da interface gráfica do botão de criação do *Scaling Group* [tag 5.3-b12 27jul];
 
 * Para a melhor experiência do usuário, opta-se por ocultar o campo de Grupo de Segurança dos VDCs [tag 5.2-b72 21jul];
 
-* Realizar o Import do Container somente para o faturamento [tag 5.2-b57 13jul].
+* Realizar o *Import* do Container somente para o faturamento [tag 5.2-b57 13jul].
 
 
 Google Cloud Platform (GCP)
@@ -162,11 +162,11 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 
 * O botão para associar o disco à VM recebe nova interface gráfica [tag 5.2-b38 22jun];
 
-* Aprimoramento no contrato padrão do usuário ao criar uma DBVM [tag 5.2-b46 05jul];
+* Aprimoramento no contrato padrão do usuário ao criar uma máquina virtual de banco de dados [tag 5.2-b46 05jul];
 
-* Adição do detalhamento de *loadbalancers* de um Scaling Group [tag 5.2-b46 05jul];
+* Adição do detalhamento de *loadbalancers* de um *Scaling Group* [tag 5.2-b46 05jul];
 
-* Adaptação do Import do Container do tipo Google [tag 5.2-b48 07jul];
+* Adaptação do *Import* do Container do tipo Google [tag 5.2-b48 07jul];
 
 * Inclusão das novas regiões, são elas [tag 5.2-b64 18jul]:
 
@@ -175,14 +175,14 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
   
   * Delhi, Região da Capital Nacional, Ásia: asia-south2.
 
-* Refinamento da seleção para associar a subrede ao Import do Container [tag 5.3-b30 03ago];
+* Refinamento da seleção para associar a subrede ao *Import* do Container [tag 5.3-b30 03ago];
 
 * Associação de zona ao criar VM [tag 5.3-b36 08ago];
 
 * Novos filtros de faturamento [tag 5.2-b57 13jul]:
 
 
-  * **Discount**: o tipo de crédito com desconto é usado para valores recebidos após um limite de gasto contratual a ser atingido. Nos relatórios do Cloud Billing disponíveis no console, este é listado como “Descontos com base em gastos (contratuais)”.
+  * **Discount**: o tipo de crédito com desconto é usado para valores recebidos após um limite de gasto contratual a ser atingido. Nos relatórios do *Cloud Billing* disponíveis no console, este é listado como “Descontos com base em gastos (contratuais)”.
   
   * **Free tier**: Alguns serviços oferecem "uso gratuito de recursos até os limites especificados". Nesses serviços, os créditos são aplicados para implementar o uso de nível gratuito.
   
@@ -204,17 +204,17 @@ Em relação à interação com o provedor de serviço de nuvem pública IBM nen
 VMware 6.5 ou superior (vCenter/vSphere)
 ----------------------------------------
 
-No tocante à interação com o hypervisor VCenter/vSphere, relaciona-se a seguinte melhoria:
+No tocante à interação com o *hypervisor VCenter/vSphere*, relaciona-se a seguinte melhoria:
 
 
-* A política de agendamento para Scaling Group permite ao usuário criar a política que define o momento de criar nova(s) máquina(s) [tag 5.3-b36 08ago].
+* A política de agendamento para *Scaling Group* permite ao usuário criar a política que define o momento de criar nova(s) máquina(s) [tag 5.3-b36 08ago].
 
 
 VMWare vCloud (vCloud)
 ----------------------
 
 
-Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alteração, correção, nova implementação ou funcionalidade.
+Em relação à interação com o *hypervisor vCloud* nenhuma ocorrência de alteração, correção, nova implementação ou funcionalidade.
 
 ----
 
@@ -223,14 +223,14 @@ Aprimoramento da plataforma uCloud
 ==================================
 
 
-A Ustore renova a plataforma uCloud em conformidade com a evolução contínua das inovações no setor de *cloud computing* - ambiente dinâmico que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da Internet. 
+A Ustore renova a plataforma uCloud em conformidade com a evolução contínua das inovações no setor de *cloud computing* - ambiente dinâmico que permite acesso remoto a *softwares*, armazenamento de arquivos e processamento de dados por meio da Internet. 
 
 
-Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uCloud em Account, OPS e Billing, associada à produtividade, resulta na lista das melhorias globais a seguir:
+Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uCloud em *Account*, OPS e *Billing*, associada à produtividade, resulta na lista das melhorias globais a seguir:
 
 1.
 
-* Criação de user no Account:  Atalho para criar usuário direto no menu Administração, submenu Account. [tag 1.0-account68 04jul]
+* Criação de *user* no *Account*:  Atalho para criar usuário direto no menu Administração, submenu *Account*. [tag 1.0-account68 04jul]
 
 2.
 
@@ -310,7 +310,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 
 21.
 
-* Aprovação de *task* ao exceder quota: Quando um usuário excede a cota existente no contrato automaticamente o administrador percebe que o usuário precisa de mais cota. Assim, o administrador pode aprovar ou não essa solicitação. [tag 5.3-b53 nova funcionalidade 16ago]
+* Aprovação de *task* ao exceder cota: Quando um usuário excede a cota existente no contrato automaticamente o administrador percebe que o usuário precisa de mais cota. Assim, o administrador pode aprovar ou não essa solicitação. [tag 5.3-b53 nova funcionalidade 16ago]
 
 22.
 
@@ -334,7 +334,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 
 27.
 
-* O menu Catálogo de Serviços após a refatoração do ponto de transmissão e recepção de informação ‘*endpoint*’ detalha o resultado somente quando o usuário solicita a busca. [tag 5.2-b58 13jul]
+* O menu Catálogo de Serviços após a refatoração do ponto de transmissão e recepção de informação *endpoint* detalha o resultado somente quando o usuário solicita a busca. [tag 5.2-b58 13jul]
 
 28.
 
@@ -346,11 +346,11 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 
 30.
 
-* Adição de variáveis ao criar uma tag virtual. [tag 5.3-b49 15ago]
+* Adição de variáveis ao criar uma *tag* virtual. [tag 5.3-b49 15ago]
 
 31.
 
-* Relatório de monitoramento de consumo: Adição do Identificador Único Universal - UUID do container, otimiza o fechamento da fatura do contrato que monitora o consumo. [tag 5.3-b18 28jul]
+* Relatório de monitoramento de consumo: Adição do Identificador Único Universal (UUID) do container, otimiza o fechamento da fatura do contrato que monitora o consumo. [tag 5.3-b18 28jul]
 
 32.
 
@@ -528,11 +528,11 @@ Na Plataforma uCloud
 
 15.
 
-* Travamento da tela de *dashboard* do uCloud ao realizar *login*. [tag 5.3-b17 fix 28jul]
+* Travamento da tela de *Dashboard* do uCloud ao realizar *login*. [tag 5.3-b17 fix 28jul]
 
 16.
 
-* Adição de VM a um *workflow*. [tag 5.3-b51 fix 16ago]
+* Adição de VM a um *Workflow*. [tag 5.3-b51 fix 16ago]
 
 17.
 
@@ -629,7 +629,7 @@ Em resumo, o documento apresenta:
 * Trinta  e quatro (34) ações corretivas, sendo:
     *  Nove (09) relacionadas as nuvens;
     *  Dez (10) relativas a uCloudOPS e;
-    *  Quinze (15) pertencentes ao Billing. 
+    *  Quinze (15) pertencentes ao *Billing*. 
 
 Portanto, conclui-se o release trimestral, correspondente aos lançamentos ocorridos nos meses de junho, julho e agosto do corrente ano, na plataforma uCloud, inovações geradas na área de desenvolvimento da Ustore.
 
