@@ -13,13 +13,9 @@ Plataforma uCloud versão: *Update tags 5.3-b56 e 1.0-account90*
 
 ----
 
-.
-
 
 Apresentação
 ============
-
-.
 
 
 Este release da Plataforma uCloud é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, inovações geradas na área de desenvolvimento.
@@ -28,14 +24,8 @@ Este release da Plataforma uCloud é uma ferramenta de comunicação fundamental
 O release além de ser um material informativo com conteúdo relevante sobre as entregas de um ou mais incrementos na aplicação, tem como objetivo fornecer resultado ao investimento dos clientes, obter parecer e noticiar o progresso, seja de aprimoramento, melhorias ou correções. Realmente oferece a visibilidade adequada no processo de desenvolvimento do produto.
 
 
-.
-
-
-
 Notícias 
 ========
-
-.
 
 
 As novidades  deste período sobre a plataforma uCloud abrange as sete (7) novas implementações, as treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores, quarenta (40) aprimoramentos globais da plataforma uCloud e as trinta  e quatro (34) ações corretivas, sendo nove (09) relacionadas as nuvens, dez (10) relativas a uCloudOPS e quinze (15) pertencentes ao Billing.
@@ -43,25 +33,18 @@ As novidades  deste período sobre a plataforma uCloud abrange as sete (7) novas
 
 * Novas implementações;
 
-.
+
 * Adequações às nuvens públicas e privadas;
 
-.
+
 * Aprimoramento da plataforma uCloud;
 
-.
+
 * Ações corretivas.
-
-
-.
-
-
 
 
 Novas Implementações
 ====================
-
-.
 
 
 1. **Budget**
@@ -72,25 +55,18 @@ As informações detalhadas sobre o uso do Budget_ podem ser acessadas no reposi
 
 .. _Budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget
 
-.
-
 
 ----
 ----
-
-.
 
 
 2. **Customização do branding a nível de Contrato**
 
 A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário pode selecionar as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
 
-.
 
 ----
 ----
-
-.
 
 
 3. **Dimensão**
@@ -103,50 +79,35 @@ O detalhamento das informações a respeito da implementação Dimensão_ podem 
 .. _Dimensão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dimensao
 
 
-.
-
 ----
 ----
-
-.
 
 
 4. **Import e Export de ofertas de serviço em (XML + YAML)**
 
 Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de uma nuvem qualquer contanto que esteja vinculada ao Portal uCloud. Antes era possível importar e exportar arquivos em formato JSON, então foram adicionadas as opções de importar e exportar os arquivos também em formato XML e YAML. [tag 5.3-b43 10ago]
 
-.
 
 ----
 ----
-
-.
-
 
 
 5. **Import de credenciais do Google no Secret Manager da AWS**
 
 Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS.[tag 5.3-b16 28jul]
 
-.
 
 ----
 ----
-.
 
 
 6. **Permissões a Nível de Conta**
 
 Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta modalidade de permissão a nível de conta, o usuário pode realizar as ações a partir do perfil de permissão criado para ele, seja básico ou avançado. Este usuário tem o poder de administrar diversos contratos vinculados a uma conta, de acordo com as permissões que lhe foram concedidas.
 
-.
-
 
 ----
 ----
-
-.
-
 
 
 7. **Relatório de Monitoramento de Consumo V1** 
@@ -157,36 +118,28 @@ O detalhamento das informações podem ser lidas no manual de uso do uCloud, men
 
 .. _Relatório: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#relatorio-de-monitoramento-de-consumo
 
-.
-
 
 ----
 ----
-
-.
 
 
 Adequação às mudanças ocorridas em Nuvens
 =========================================
 
-.
 
 Amazon Web Services (AWS)
 -------------------------
 
-.
 
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS) lista-se a melhoria a seguir:
 
 
 * A partir desta adequação pode ser realizado o Import do Container unicamente para o faturamento [tag 5.2-b45 05jul].
 
-.
 
 Microsoft Azure (Azure)
 -----------------------
 
-.
 
 Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar três melhorias:
 
@@ -194,17 +147,17 @@ Relativo à interação com o provedor de serviço de nuvem pública Microsoft A
 * Alteração da interface gráfica do botão de criação do Scaling Group [tag 5.3-b12 27jul];
 
 .
+
 * Para a melhor experiência do usuário, opta-se por ocultar o campo de Grupo de Segurança dos VDCs [tag 5.2-b72 21jul];
 
 .
+
 * Realizar o Import do Container somente para o faturamento [tag 5.2-b57 13jul].
 
-.
 
 Google Cloud Platform (GCP)
 ---------------------------
 
-.
 
 No que concerne à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), houveram oito melhorias listadas na sequência:
 
@@ -212,15 +165,19 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 * O botão para associar o disco à VM recebe nova interface gráfica [tag 5.2-b38 22jun];
 
 .
+
 * Aprimoramento no contrato padrão do usuário ao criar uma DBVM [tag 5.2-b46 05jul];
 
 .
+
 * Adição do detalhamento de *loadbalancers* de um Scaling Group [tag 5.2-b46 05jul];
 
 .
+
 * Adaptação do Import do Container do tipo Google [tag 5.2-b48 07jul];
 
 .
+
 * Inclusão das novas regiões, são elas [tag 5.2-b64 18jul]:
 
 
@@ -229,12 +186,15 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
   * Delhi, Região da Capital Nacional, Ásia: asia-south2.
 
 .
+
 * Refinamento da seleção para associar a subrede ao Import do Container [tag 5.3-b30 03ago].
 
 .
+
 * Associação de zona ao criar VM [tag 5.3-b36 08ago].
 
 .
+
 * Novos filtros de faturamento [tag 5.2-b57 13jul]:
 
 
@@ -244,41 +204,32 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
   
   * **Promotion**: o tipo de crédito promocional inclui "Teste gratuito do Google Cloud e créditos de campanha de marketing ou outras concessões para usar o Google Cloud". Quando disponíveis, os créditos promocionais são considerados uma forma de pagamento e são aplicados automaticamente para reduzir a fatura total.
 
-.
 
 Huawei Cloud (Huawei)
 ---------------------
 
-.
 Em relação à interação com o provedor de serviço de nuvem pública Huawei nenhuma ocorrência de alteração, nova implementação ou funcionalidade.
 
-
-.
 
 IBM Cloud (IBM)
 ---------------
 
-.
 Em relação à interação com o provedor de serviço de nuvem pública IBM nenhum registro de correção, alteração, nova funcionalidade ou implementação.
 
-
-.
 
 VMware 6.5 ou superior (vCenter/vSphere)
 ----------------------------------------
 
-.
 No tocante à interação com o hypervisor VCenter/vSphere, relaciona-se a seguinte melhoria:
 
 
 * A política de agendamento para Scaling Group permite ao usuário criar a política que define o momento de criar nova(s) máquina(s) [tag 5.3-b36 08ago]
 
-.
 
 VMWare vCloud (vCloud)
 ----------------------
 
-.
+
 Em relação à interação com o hypervisor vCloud nenhuma ocorrência de alteração, correção, nova implementação ou funcionalidade.
 
 
@@ -462,6 +413,8 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 
 Ações corretivas globais
 ========================
+
+.
 
 
 Este tópico lista as ações corretivas realizadas pela nossa equipe de desenvolvimento, identificadas em consequência dos *reports* gerados na experiência de uso e *quality assurance*. 
@@ -686,8 +639,7 @@ Plataforma uCloud
 
 .
 
-====
-====
+----
 
 .
 
@@ -697,10 +649,10 @@ O apresentado acima refere-se ao princípio da gestão da qualidade citada na no
 
 Em resumo, o documento apresenta:
 
-  * Sete (7) novas implementações;
-  * Treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores;
-  * Quarenta (40) aprimoramentos globais da plataforma uCloud e;
-  * Trinta  e quatro (34) ações corretivas, sendo:
+* Sete (7) novas implementações;
+* Treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores;
+* Quarenta (40) aprimoramentos globais da plataforma uCloud e;
+* Trinta  e quatro (34) ações corretivas, sendo:
     *  Nove (09) relacionadas as nuvens;
     *  Dez (10) relativas a uCloudOPS e;
     *  Quinze (15) pertencentes ao Billing. 
