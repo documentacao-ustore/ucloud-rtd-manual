@@ -520,7 +520,7 @@ Switch Roles - Utilizando
 
 A funcionalidade de Switch Roles fica posicionada no canto superior direito da área de tela da Plataforma uCloud (ao lado do nome do usuário) - veja a tela abaixo:
 
-.. figure:: /figuras/fig_ucloud_admin/ucloud_dashboard_switch_roles001.png
+.. figure:: /figuras/ucloud_dashboard_switch_roles001.png
    :align: center
 
 ----
