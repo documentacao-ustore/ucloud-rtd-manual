@@ -172,7 +172,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 |Adição do detalhamento de *loadbalancers* de um   |tag 5.2-b46 05jul|
 |*Scaling Group*                                   |                 |
 +--------------------------------------------------+-----------------+
-|Adaptação do *Import* do Container do tipo Google |tag 5.2-b48 07jul|
+|Adaptação *Import* do Container do tipo *Google*  |tag 5.2-b48 07jul|
 +--------------------------------------------------+-----------------+
 |Inclusão das novas regiões, são elas:             |tag 5.2-b64 18jul|
 +--------------------------------------------------+-----------------+
@@ -181,7 +181,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 +--------------------------------------------------------------------+
 |* Delhi, Região da Capital Nacional, Ásia:                          |
 |       asia-south2                                                  |
-+--------------------------------------------------------------------+
++--------------------------------------------------+-----------------+
 |Refinamento da seleção para associar a subrede ao |tag 5.3-b30 03ago| 
 |*Import* do Container                             |                 |
 +--------------------------------------------------+-----------------+
