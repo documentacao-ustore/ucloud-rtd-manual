@@ -117,7 +117,7 @@ Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta 
 
 Nova funcionalidade do uCloud que trata do detalhamento completo dos gastos, divididos por Nuvens, Contratos e Recursos. São gerados diferentes tipos de relatórios, para cada tipo de divisão (Nuvem/Contrato/Recurso), separando um por vez e organizando-os do maior para o menor consumo. Além de comparar com os gastos dos meses anteriores, proporcionando ao cliente informações necessárias para que se possa avaliar se houve queda ou aumento dos gastos.
 
-O detalhamento das informações podem ser lidas no manual de uso do uCloud, menu Financeiro, submenu Relatório_ abriga o Relatório de Monitoramento de Consumo v1.
+O detalhamento das informações podem ser lidas no manual de uso do uCloud, menu Financeiro, que abriga o submenu Relatórios > Painéis baseados em consumo,  neste encontra-se o Relatório_ de Monitoramento de Consumo v1.
 
 .. _Relatório: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#relatorio-de-monitoramento-de-consumo
 
