@@ -43,7 +43,7 @@ Em relação à interação com o provedor de serviço de nuvem pública Amazon 
 Microsoft Azure (Azure)
 -----------------------
 
-Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar três melhorias:
+Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, pode-se listar três melhorias:
 
 * Alteração da interface gráfica do botão de criação do Scaling Group;
 
