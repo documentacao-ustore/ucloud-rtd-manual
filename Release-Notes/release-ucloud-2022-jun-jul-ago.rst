@@ -189,31 +189,26 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 +--------------------------------------------------+-----------------+
 |Novos filtros de faturamento:                     |tag 5.2-b57 13jul|
 +--------------------------------------------------+-----------------+
-|**Discount**:                                     |                 |
-|                                                  |                 |
-|O tipo de crédito com desconto é usado para       |                 | 
-|valores recebidos após um limite de gasto         |                 |
-|contratual a ser atingido.                        |                 |
-+--------------------------------------------------+-----------------+
-|Nos relatórios do *Cloud Billing* disponíveis no  |                 |
-|console, este é listado como “Descontos com base  |                 | 
-|em gastos (contratuais)”.                         |                 |
-+--------------------------------------------------+-----------------+
-|                                                  |                 |
-|* **Free tier**: Alguns serviços oferecem "uso    |                 |
-|gratuito de recursos até os limites especificados"|                 |
-|Nesses serviços, os créditos são aplicados para   |                 |
-|implementar o uso de nível gratuito.              |                 |
-|                                                  |                 |
-+--------------------------------------------------+-----------------+
-|* **Promotion**: O tipo de crédito promocional    |                 |
-|inclui teste gratuito do *Google Cloud* e créditos|                 | 
-|de campanha de marketing ou outras concessões para|                 | 
-|usar o *Google Cloud*. Quando disponíveis, os     |                 | 
-|créditos promocionais são considerados uma forma  |                 |
-|de pagamento e são aplicados automaticamente para |                 |
-|reduzir a fatura total.                           |                 |
-+--------------------------------------------------+-----------------+
+|**Discount**:                                                       |
+|                                                                    |
+|O tipo de crédito com desconto é usado para valores recebidos       | 
+|após um limite de gasto contratual a ser atingido.                  |
++--------------------------------------------------------------------+
+|Nos relatórios do *Cloud Billing* disponíveis no console, este é    |
+|listado como “Descontos com base em gastos (contratuais)".          | 
++--------------------------------------------------------------------+
+|* **Free tier**:                                                    |
+|Alguns serviços oferecem "uso gratuito de recursos até os limites   |
+|especificados". Nesses serviços, os créditos são aplicados para     |
+|implementar o uso de nível gratuito.                                |
++--------------------------------------------------------------------+
+|* **Promotion**:                                                    |
+|O tipo de crédito promocional inclui o teste gratuito do *Google    | 
+|Cloud* e créditos de campanha de marketing ou outras concessões para| 
+|usá-lo. Quando disponíveis, os créditos promocionais são            | 
+|considerados uma forma de pagamento e são aplicados automaticamente |
+|para reduzir a fatura total.                                        |
++--------------------------------------------------------------------+
 
 
 
