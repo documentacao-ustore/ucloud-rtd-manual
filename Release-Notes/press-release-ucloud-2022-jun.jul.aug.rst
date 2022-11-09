@@ -43,7 +43,7 @@ Regarding the interaction with the Amazon Web Services (AWS) public cloud servic
 Microsoft Azure (Azure)
 -----------------------
 
-Regarding the interaction with the AZURE Microsoft public cloud service provider, we can list three improvements:
+Regarding the interaction with the AZURE Microsoft public cloud service provider, three improvements can be listed:
 
 * Changing the graphical interface of the Scaling Group creation button;
 
@@ -169,7 +169,7 @@ In this report, Ustore discloses the seven new innovations that occurred in the 
 
 1. **Budget**: Corresponds to a consumption-based report that aims to define the total budget for a given period, whether it is monthly, quarterly, semiannual or annually. This report makes it possible to monitor the Budget usage.
 
-2. **Contract-level branding customization**: Multicloud portal branding is allowed through contract-defined customization. The user client has the characteristics of his brand (Company) represented in the Multicloud portal such as colors, logo, among others.
+2. **Contract-level branding customization**: Multicloud portal branding is allowed through contract-defined customization. The user client can select the characteristics of his brand (Company) represented in the Multicloud portal such as colors, logo, among others.
 
 3. **Dimension**: To avoid the same resources being tagged differently, the dimension was created to group the distinct tags to resources of the same context. For this, logical operations and filters were created, in order to identify in Billing which resources belong to a given dimension.
 
