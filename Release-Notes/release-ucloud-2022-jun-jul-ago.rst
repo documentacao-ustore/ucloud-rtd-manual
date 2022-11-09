@@ -176,12 +176,12 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 +--------------------------------------------------+-----------------+
 |Inclusão das novas regiões, são elas:             |tag 5.2-b64 18jul|
 +--------------------------------------------------+-----------------+
-|* Melbourne, Vitória, Oceania:                    |                 |
-|       australia-southeast2                       |                 |
-+--------------------------------------------------+-----------------+
-|* Delhi, Região da Capital Nacional, Ásia:        |                 |
-|       asia-south2                                |                 |
-+--------------------------------------------------+-----------------+
+|* Melbourne, Vitória, Oceania:                                      |
+|       australia-southeast2                                         |
++--------------------------------------------------------------------+
+|* Delhi, Região da Capital Nacional, Ásia:                          |
+|       asia-south2                                                  |
++--------------------------------------------------------------------+
 |Refinamento da seleção para associar a subrede ao |tag 5.3-b30 03ago| 
 |*Import* do Container                             |                 |
 +--------------------------------------------------+-----------------+
@@ -189,7 +189,7 @@ No que concerne à interação com o provedor de serviço de nuvem pública Goog
 +--------------------------------------------------+-----------------+
 |Novos filtros de faturamento:                     |tag 5.2-b57 13jul|
 +--------------------------------------------------+-----------------+
-|**Discount**:                                                       |
+|* **Discount**:                                                     |
 |                                                                    |
 |O tipo de crédito com desconto é usado para valores recebidos       | 
 |após um limite de gasto contratual a ser atingido.                  |
