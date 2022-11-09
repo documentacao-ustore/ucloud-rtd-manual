@@ -80,7 +80,7 @@ A branding do portal Multicloud é permitida através da personalização defini
 
 Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada dimensão.
 
-O detalhamento das informações a respeito da implementação Dimensão_ podem ser acessadas no repositório / wiki que hospeda o manual de uso do uCloud.
+O detalhamento das informações a respeito da implementação Dimensão_ podem ser acessadas no repositório/*wiki* que hospeda o manual de uso do uCloud.
 
 
 .. _Dimensão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dimensao
@@ -143,7 +143,7 @@ Microsoft Azure (Azure)
 -----------------------
 
 
-Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, podemos listar três melhorias:
+Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, pode-se listar três melhorias:
 
 
 * Alteração da interface gráfica do botão de criação do *Scaling Group* [tag 5.3-b12 27jul];
@@ -449,7 +449,7 @@ Em relação à interação com o provedor de serviço de nuvem pública Microso
 Google Cloud Platform (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Em relação à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), podemos listar as seguintes correções:
+Em relação à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), pode-se listar as seguintes correções:
 
 5.
 
@@ -472,7 +472,7 @@ IBM Cloud (IBM)
 ~~~~~~~~~~~~~~~
 
 
-Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, podemos listar a seguinte correção:
+Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, é listada a seguinte correção:
 
 7.
 
@@ -484,7 +484,7 @@ VMware vCloud
 ~~~~~~~~~~~~~
 
 
-Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), podemos listar as seguintes correções:
+Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), pode-se listar as seguintes correções:
 
 8.
 
@@ -627,7 +627,7 @@ Em resumo, o documento apresenta:
 * Treze (13) melhorias realizadas na categoria *Cloud* pela demanda na adequação às mudanças nesses provedores;
 * Quarenta (40) aprimoramentos globais da plataforma uCloud e;
 * Trinta  e quatro (34) ações corretivas, sendo:
-    *  Nove (09) relacionadas as nuvens;
+    *  Nove (09) relacionadas às nuvens;
     *  Dez (10) relativas a uCloudOPS e;
     *  Quinze (15) pertencentes ao *Billing*. 
 
