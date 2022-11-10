@@ -136,7 +136,13 @@ Amazon Web Services (AWS)
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS) lista-se a melhoria a seguir:
 
 
-* A partir desta adequação pode ser realizado o *Import* do Container unicamente para o faturamento. [tag 5.2-b45 05jul]
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|A partir desta adequação pode ser realizado o     |tag 5.2-b45 05jul|
+|*Import* do Container unicamente para faturamento |                 |
++--------------------------------------------------+-----------------+
+
 
 
 Microsoft Azure (Azure)
@@ -146,11 +152,19 @@ Microsoft Azure (Azure)
 Relativo à interação com o provedor de serviço de nuvem pública Microsoft AZURE, pode-se listar três melhorias:
 
 
-* Alteração da interface gráfica do botão de criação do *Scaling Group* [tag 5.3-b12 27jul];
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|Alteração da interface gráfica do botão de criação|tag 5.3-b12 27jul|
+|do *Scaling Group*                                |                 |
++--------------------------------------------------+-----------------+
+|Para a melhor experiência do usuário, opta-se por |tag 5.2-b72 21jul|
+|ocultar o campo de Grupo de Segurança dos VDCs    |                 |
++--------------------------------------------------+-----------------+
+|Realizar o *Import* do Container somente para     |tag 5.2-b57 13jul|
+|o faturamento                                     |                 |
++--------------------------------------------------+-----------------+
 
-* Para a melhor experiência do usuário, opta-se por ocultar o campo de Grupo de Segurança dos VDCs [tag 5.2-b72 21jul];
-
-* Realizar o *Import* do Container somente para o faturamento [tag 5.2-b57 13jul].
 
 
 Google Cloud Platform (GCP)
@@ -231,7 +245,13 @@ VMware 6.5 ou superior (vCenter/vSphere)
 No tocante à interação com o *hypervisor VCenter/vSphere*, relaciona-se a seguinte melhoria:
 
 
-* A política de agendamento para *Scaling Group* permite ao usuário criar a política que define o momento de criar nova(s) máquina(s) [tag 5.3-b36 08ago].
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|A política de agendamento para *Scaling Group*    |tag 5.3-b36 08ago|
+|permite ao usuário criar a política que define    |                 |
+|o momento de criar nova(s) máquina(s)             |                 |
++--------------------------------------------------+-----------------+
 
 
 VMWare vCloud (vCloud)
