@@ -272,6 +272,7 @@ A Ustore renova a plataforma uCloud em conformidade com a evolução contínua d
 
 Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uCloud em *Account*, OPS e *Billing*, associada à produtividade, resulta na lista das melhorias globais a seguir:
 
+
 +-----------------------------------------------------+-----------------+
 |FEATURE                                              |VERSÃO           |
 +=====================================================+=================+
@@ -418,7 +419,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |fatura com os gastos de cada contrato específico     |                 |
 |individualmente                                      |                 |
 +-----------------------------------------------------+-----------------+
-|*Checkbox* de selecionar todos os VDC de um contrato  |tag 1.0-account88|
+|*Checkbox* de selecionar todos os VDC de um contrato |tag 1.0-account88|
 |                                                     |            10ago|
 +-----------------------------------------------------+-----------------+
 |*Loader* para carregamento atrasado do uCloud        |tag 5.3-b15 28jul|
