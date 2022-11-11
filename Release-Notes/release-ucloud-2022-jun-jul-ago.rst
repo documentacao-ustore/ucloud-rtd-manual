@@ -494,6 +494,24 @@ Microsoft Azure (Azure)
 
 Em relação à interação com o provedor de serviço de nuvem pública Microsoft AZURE, são listadas as seguintes correções:
 
+
++-----------------------------------------------------+-----------------+
+|FEATURE                                              |VERSÃO           |
++=====================================================+=================+
+|Persistência ao adicionar um *loadbalancer* a uma    |tag 5.2-b51 08jul|
+|máquina virtual da Azure                             |                 |
+|[fix]                                                |                 |
++-----------------------------------------------------+-----------------+
+|Alteração no cálculo dos discos da Azure             |tag 5.3-b45 10ago|
+|[fix]                                                |                 |
++-----------------------------------------------------+-----------------+
+|Foi ocultado o botão de "Edit Subnet" que antes      |tag 5.2-b72 21jul| 
+|gerava inativação dos *inputs* no momento da criação |                 |
+|de subredes                                          |                 |
+|[fix]                                                |                 |
++-----------------------------------------------------+-----------------+
+
+
 2.
 
 * Persistência ao adicionar um *loadbalancer* a uma máquina virtual da Azure. [tag 5.2-b51 fix 08jul]
