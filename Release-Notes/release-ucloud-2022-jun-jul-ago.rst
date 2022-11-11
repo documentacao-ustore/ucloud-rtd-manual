@@ -483,10 +483,6 @@ Em relação à interação com o provedor de serviço de nuvem pública Amazon 
 |[fix]                                                |                 |
 +-----------------------------------------------------+-----------------+
 
-1.
-
-* Criação do Balanceador com o Grupo de Segurança selecionado. [tag 1.0-account65 fix 20ago]
-
 
 
 Microsoft Azure (Azure)
