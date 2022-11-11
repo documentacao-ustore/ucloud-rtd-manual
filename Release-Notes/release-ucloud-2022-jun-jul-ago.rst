@@ -474,6 +474,15 @@ Amazon Web Services (AWS)
 
 Em relação à interação com o provedor de serviço de nuvem pública Amazon Web Services (AWS), pode-se listar uma ação corretiva:
 
+
++-----------------------------------------------------+-----------------+
+|FEATURE                                              |VERSÃO           |
++=====================================================+=================+
+|Criação do Balanceador com o Grupo de Segurança      |tag 1.0-account65|
+|selecionado                                          |            20ago|
+|[fix]                                                |                 |
++-----------------------------------------------------+-----------------+
+
 1.
 
 * Criação do Balanceador com o Grupo de Segurança selecionado. [tag 1.0-account65 fix 20ago]
