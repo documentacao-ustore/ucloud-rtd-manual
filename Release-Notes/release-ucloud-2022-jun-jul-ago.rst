@@ -508,18 +508,6 @@ Em relação à interação com o provedor de serviço de nuvem pública Microso
 +-----------------------------------------------------+-----------------+
 
 
-2.
-
-* Persistência ao adicionar um *loadbalancer* a uma máquina virtual da Azure. [tag 5.2-b51 fix 08jul]
-
-3.
-
-* Alteração no cálculo dos discos da Azure. [tag 5.3-b45 fix 10ago]
-
-4.
-
-*  Foi ocultado o botão de "Edit Subnet" que antes gerava inativação dos *inputs* no momento da criação de subredes. [tag 5.2-b72 fix 21jul]
-
 
 
 Google Cloud Platform (GCP)
