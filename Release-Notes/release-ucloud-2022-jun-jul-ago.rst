@@ -285,7 +285,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |Listagem em ordem alfabética de container e VDC na   |tag 5.2-b39 23jun|
 |tela de criação de uma rede: A tela de criação de uma|                 |
 |rede apresenta a lista em ordem de *Container* e *VDC|                 |
-|-----------------------------------------------------+-----------------+
++-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética por container e VDC na  |tag 5.2-b39 23jun|
 |criação de IP Público: No momento de criá-lo, a lista|                 |
 |do container e VDC é apresentada em ordem alfabética |                 |
@@ -418,7 +418,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |fatura com os gastos de cada contrato específico     |                 |
 |individualmente                                      |                 |
 +-----------------------------------------------------+-----------------+
-|Checkbox* de selecionar todos os VDC de um contrato  |tag 1.0-account88|
+|*Checkbox* de selecionar todos os VDC de um contrato  |tag 1.0-account88|
 |                                                     |            10ago|
 +-----------------------------------------------------+-----------------+
 |*Loader* para carregamento atrasado do uCloud        |tag 5.3-b15 28jul|
