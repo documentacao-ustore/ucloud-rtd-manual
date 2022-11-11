@@ -280,7 +280,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |usuário direto no menu Administração, submenu Account|            04jul|
 +-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética de container e VDC na   |tag 5.2-b39 23jun|
-|tela de criação de um grupo de segurança: ao listar  |                 |
+|tela de criação de um grupo de segurança: Ao listar  |                 |
 |os VDCs na criação deste grupo, exibição em ordem    |                 |
 +-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética de container e VDC na   |tag 5.2-b39 23jun|
@@ -308,7 +308,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |enviar e-mails                                       |                 |
 +-----------------------------------------------------+-----------------+
 |Adaptação da listagem dos perfis de permissionamento |tag 5.2-b47 06jul|
-|e visualização na interface gráfica: a lista dos     |                 |
+|e visualização na interface gráfica: A lista dos     |                 |
 |perfis aparece por cima do modal, otimiza visualizar |                 |
 +-----------------------------------------------------+-----------------+
 |Criação de *Tags* virtuais com a mesma chave e valor |tag 5.2-b49 07jul|
@@ -370,11 +370,11 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |interface de dados do *Billing*                      |            01ago|
 +-----------------------------------------------------+-----------------+
 |Opção *CentOS7* para criação de *ResourceKey*:       |tag 5.3-b09 26jul|                  
-|requisito da nuvem atendido com o acréscimo do       |                 |
+|Requisito da nuvem atendido com o acréscimo do       |                 |
 |*CentOS7* como Sistema Operacional para taguear USN  |                 |
 |[nova funcionalidade]                                |                 |
 +-----------------------------------------------------+-----------------+
-|Kubernetes para criar *ResourceKey*: acréscimo do    |tag 5.2-b45 05jul|             
+|Kubernetes para criar *ResourceKey*: Acréscimo do    |tag 5.2-b45 05jul|             
 |Kubernetes como Sistema Operacional como requisito do|                 |
 |Google para taguear máquinas Kubernetes              |                 |
 |[fix]                                                |                 |
@@ -395,7 +395,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |usuário solicita a busca                             |                 |
 +-----------------------------------------------------+-----------------+
 |Associar o mesmo preço de *USN Tag* para vários      |tag 5.2-b65 18jul|
-|contratos: foi eliminada a restrição de *tag* para   |                 |
+|contratos: Foi eliminada a restrição de *tag* para   |                 |
 |apenas um contrato                                   |                 |
 +-----------------------------------------------------+-----------------+
 |O menu Tarefas recebe a atualização do registro de   |tag 5.3-b09 26jul|
