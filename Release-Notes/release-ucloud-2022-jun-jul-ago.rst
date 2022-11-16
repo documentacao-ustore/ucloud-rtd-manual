@@ -281,15 +281,15 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 +-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética de container e VDC na   |tag 5.2-b39 23jun|
 |tela de criação de um grupo de segurança: Ao listar  |                 |
-|os VDCs na criação deste grupo, exibição em ordem    |                 |
+|os VDCs na criação deste grupo, exibição ordenada    |                 |
 +-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética de container e VDC na   |tag 5.2-b39 23jun|
 |tela de criação de uma rede: A tela de criação de uma|                 |
-|rede apresenta a lista em ordem de *Container* e *VDC|                 |
+|rede apresenta a lista ordenada de *Container* e *VDC|                 |
 +-----------------------------------------------------+-----------------+
 |Listagem em ordem alfabética por container e VDC na  |tag 5.2-b39 23jun|
 |criação de IP Público: No momento de criá-lo, a lista|                 |
-|do container e VDC é apresentada em ordem alfabética |                 |
+|ordenada do container e VDC é exibida                |                 |
 +-----------------------------------------------------+-----------------+
 |Reforço na segurança da interface do uCloud:         |tag 5.2-b43 30jun|
 |Foram efetuadas melhorias na segurança no *Front-End*|                 |
