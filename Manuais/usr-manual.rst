@@ -6032,7 +6032,7 @@ Na coluna “Ações” localizada na janela de “Aprovações Pendentes” **o
 ----
 
 
-Em seguida, ele deve aguardar a atualização do “Status” que pode ser: Rodando (*Running*); Falha (*Failed*) e Sucesso (*Successfull*).
+Em seguida, ele deve aguardar a atualização do “Status” que pode ser: Rodando (*Running*); Falha (*Failed*) ou Sucesso (*Successfull*).
 
 
 Após o êxito no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
@@ -6369,7 +6369,7 @@ Por fim, é exposto um índice, contendo o recorte dos três contratos que tiver
 ----
 
 
-Em seguida, são apresentados de maneira mais detalhada o resumo de quanto cada produto custa ao contrato, especificando-os e apresentando a porcentagem sobre os gastos totais de cada contrato. Tal informação é apresentada a partir de um gráfico ilustrativo conforme o exemplo abaixo: 
+Em seguida, são publicados de maneira mais detalhada o resumo de quanto cada produto custa ao contrato, especificando-os e evidenciando a porcentagem sobre os gastos totais de cada contrato. Tal informação é demonstrada a partir de um gráfico ilustrativo conforme o exemplo abaixo: 
 
 
 
