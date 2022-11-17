@@ -515,13 +515,16 @@ Google Cloud Platform (GCP)
 
 Em relação à interação com o provedor de serviço de nuvem pública Google Cloud Platform (GCP), pode-se listar as seguintes correções:
 
-5.
-
-* Chamada em *loop* da tela de *storage*. [tag5.2-b38 fix 22jun]
-
-6.
-
-* Criação de um *loadbalancer*, e a retificação na mensagem de erro. [tag 5.2-b46 fix 05jul]
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|Chamada em *loop* da tela de *storage*            |tag 5.2-b38 22jun|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Criação de um *loadbalancer*, e a retificação na  |tag 5.2-b46 05jul|
+|mensagem de erro                                  |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+ 
 
 
 
@@ -538,9 +541,13 @@ IBM Cloud (IBM)
 
 Em relação à interação com o provedor de serviço de nuvem pública IBM Cloud, é listada a seguinte correção:
 
-7.
-
-* As listagens dos recursos são disponibilizadas por filtragem de regiões na hora da criação de redes. [tag 5.2-b64 bug 18jul]
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|As listagens dos recursos são disponibilizadas por|tag 5.2-b64 18jul|
+|filtragem de regiões na hora da criação de redes  |                 |
+|[bug]                                             |                 |
++--------------------------------------------------+-----------------+
 
 
 
@@ -550,13 +557,18 @@ VMware vCloud
 
 Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou superior), pode-se listar as seguintes correções:
 
-8.
 
-* VMware clonava uma VM de *Scaling Group*. [tag 5.2-b62 fix 14jul]
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|VMware clonava uma VM de *Scaling Group*          |tag 5.2-b62 14jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Gerenciamento de escalonamento baseado nas        |tag 5.3-b14 28jul| 
+|*policies*(Métricas) de escrita e leitura de disco|                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
 
-9.
-
-* Gerenciamento de escalonamento baseado nas *policies* (Métricas) de escrita e leitura de disco. [tag 5.3-b14 fix 28jul]
 
 
 ----
@@ -569,117 +581,107 @@ Na Plataforma uCloud
 
 **OPS**
 
-10.
-
-
-* Filtro VDC no grupo. [tag 5.2-b65 fix 18jul] 
-
-11.
-
-* Filtro VDC na empresa. [tag 5.2-b65 fix 18jul]
-
-12.
-
-* Persistência da logo do portal no primeiro acesso. [tag5.2-b39 fix 23jun]
-
-13.
-
-* Tela de VDC em *loop*. [tag 5.2-b44 fix 05jul]
-
-14.
-
-* Persistência do dado no preço do custo total a partir do *amount* exibido em tela. [tag 5.2-b54 fix 13jul]
-
-15.
-
-* Travamento da tela de *Dashboard* do uCloud ao realizar *login*. [tag 5.3-b17 fix 28jul]
-
-16.
-
-* Adição de VM a um *Workflow*. [tag 5.3-b51 fix 16ago]
-
-17.
-
-* Operações de subrede. [tag 5.3-b54 fix 17ago]
-
-18.
-
-* Persistência das Novas traduções no *Dashboard*. [tag 5.2-b44 fix 05jul]
-
-19.
-
-* *Query* para VM. [tag 5.3-b39 fix 08ago]
-
-
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|Filtro VDC no grupo                               |tag 5.2-b65 18jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Filtro VDC na empresa                             |tag 5.2-b65 18jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+             
+|Persistência da logo do portal no primeiro acesso |tag5.2-b39 23jun |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Tela de VDC em *loop*                             |tag 5.2-b44 05jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Persistência do dado no preço do custo total a    |tag 5.2-b54 13jul| 
+|partir do *amount* exibido em tela                |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Travamento da tela de *Dashboard* do uCloud ao    |tag 5.3-b17 28jul|
+|realizar *login*                                  |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Adição de VM a um *workflow*                      |tag 5.3-b51 16ago|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Operações de subrede                              |tag 5.3-b54 17ago|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Persistência das novas traduções no *Dashboard*   |tag 5.2-b44 05jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|*Query* para VM                                   |tag 5.3-b39 08ago|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
 
 
 **Billing**
 
-20.
-
-* *Pop-up VirtualTags*. [tag 5.2-b45 fix 05jul]
-
-21.
-
-* Dados duplicados no *pop-up* de detalhes da fatura do usuário. [tag 5.2-b45 fix 05jul]
-
-22.
-
-* Relatório CSV detalhado para preencher a coluna USN. [tag 5.2-b45 fix 05jul]
-
-23.
-
-* Não listar recursos marcados com USN. [tag 5.2-b45 fix 05jul]
-
-24.
-
-* *NullPointer* para obter a moeda no processo de cálculo da fatura. [tag 5.2-b65 fix 18jul]
-
-25.
-
-* Adição de coluna ao relatório financeiro do *Billing*. [tag 5.3-b02 fix 22jul]
-
-26.
-
-* *Nullpoint* no faturamento do relatório consolidado do *Billing*. [tag 5.3-b02 fix 22jul] 
-
-27.
-
-* Dados encontrados na geração de relatório detalhado. [tag 5.3-b06 fix 25jul]
-
-28.
-
-* Ação realizada para entregar valores no contrato. [tag 5.3-b06 fix 25jul]
-
-29.
-
-* Sumarização por Container do Relatório PDF. [tag 5.3-b23 fix 29jul]
-
-30.
-
-* Relatório PDF de faturas fechadas. [tag 5.3-b31 fix 03ago]
-
-31.
-
-* *Export* de CSV do relatório financeiro. [tag 5.3-b35 fix 05ago]
-
-32.
-
-* Cálculo USN. [tag 5.2-b58 fix 13jul]
-
-33.
-
-* Chamada de tela de minha fatura por grupo para carregamento de dados. [tag 5.3-b25 fix 01ago]
-
-34.
-
-* Eliminado o problema no Relatório detalhado vindo vazio. [tag 5.3-b46 fix 10ago]
++--------------------------------------------------+-----------------+
+|FEATURE                                           |VERSÃO           |
++==================================================+=================+
+|*Pop-up VirtualTags*                              |tag 5.2-b45 05jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Dados duplicados no *pop-up* de detalhes da fatura|tag 5.2-b45 05jul|
+|do usuário                                        |                 | 
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Relatório CSV detalhado para preencher a coluna   |tag 5.2-b45 05jul| 
+|em USN                                            |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Não listar recursos marcados com USN              |tag 5.2-b45 05jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|*NullPointer* para obter a moeda no processo de   |tag 5.2-b65 18jul|
+|cálculo da fatura                                 |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Adição de coluna ao relatório financeiro do       |tag 5.3-b02 22jul|
+|*Billing*                                         |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|*Nullpoint* no faturamento do relatório           |tag 5.3-b02 22jul|    
+|consolidado do *Billing*                          |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Dados encontrados na geração de relatório         |tag 5.3-b06 25jul|
+|detalhado                                         |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Ação realizada para entregar valores no contrato  |tag 5.3-b06 25jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Sumarização por Container do Relatório PDF        |tag 5.3-b23 29jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Relatório PDF de faturas fechadas                 |tag 5.3-b31 03ago|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|*Export* de CSV do relatório financeiro           |tag 5.3-b35 05ago|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Cálculo USN                                       |tag 5.2-b58 13jul|
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Chamada de tela de minha fatura por grupo para    |tag 5.3-b25 01ago|
+|carregamento de dados                             |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
+|Eliminado o problema no Relatório detalhado vindo |tag 5.3-b46 10ago|
+|vazio                                             |                 |
+|[fix]                                             |                 |
++--------------------------------------------------+-----------------+
 
 
 
 ----
 
-.
+
 
 Neste release é evocado o princípio da norma ISO 9001, elaborada pela Organização Internacional de Normalização (no Brasil conhecida como ABNT NBR ISO 9001). A qual objetiva estabelecer normas consistentes que aumentam a qualidade nos processos aplicados e redundam na melhoria contínua e ajustes nas funcionalidades, em busca da gestão da qualidade e excelência empresarial. 
 
