@@ -168,7 +168,7 @@ Neste relato a Ustore divulga as sete inovações ocorridas na plataforma uCloud
 
 1. **Budget**: Corresponde a um relatório baseado em consumo que tem como objetivo definir o orçamento total referente a um determinado período, seja mensal, trimestral, semestral ou anual. Este relatório possibilita monitorar o uso do Budget.
 
-2. **Customização do branding a nível de Contrato**: A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário tem as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
+2. **Customização do branding a nível de Contrato**: A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário pode selecionar as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
 
 3. **Dimensão**: Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada dimensão.
 
