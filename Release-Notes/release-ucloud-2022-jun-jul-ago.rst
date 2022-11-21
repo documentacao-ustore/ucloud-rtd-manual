@@ -399,7 +399,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |apenas um contrato                                   |                 |
 +-----------------------------------------------------+-----------------+
 |O menu Tarefas recebe a atualização do registro de   |tag 5.3-b09 26jul|
-|*tasks* nas atividades ocorridas no *Billing* dentro  |                 |
+|*tasks* nas atividades ocorridas no *Billing* dentro |                 |
 |do portal                                            |                 |
 +-----------------------------------------------------+-----------------+
 |Adição de variáveis ao criar uma *Tag* virtual       |tag 5.3-b49 15ago|
@@ -685,7 +685,7 @@ Na Plataforma uCloud
 
 Neste release é evocado o princípio da norma ISO 9001, elaborada pela Organização Internacional de Normalização (no Brasil conhecida como ABNT NBR ISO 9001). A qual objetiva estabelecer normas consistentes que aumentam a qualidade nos processos aplicados e redundam na melhoria contínua e ajustes nas funcionalidades, em busca da gestão da qualidade e excelência empresarial. 
 
-O apresentado acima refere-se ao princípio da gestão da qualidade citada na norma ISO 9001.
+O apresentado acima refere-se ao princípio da norma ISO 9001.
 
 Em resumo, o documento apresenta:
 
