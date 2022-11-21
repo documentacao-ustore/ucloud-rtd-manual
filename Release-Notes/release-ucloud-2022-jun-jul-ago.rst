@@ -399,7 +399,7 @@ Logo, a prática da melhoria contínua adotada no aprimoramento da plataforma uC
 |apenas um contrato                                   |                 |
 +-----------------------------------------------------+-----------------+
 |O menu Tarefas recebe a atualização do registro de   |tag 5.3-b09 26jul|
-|*taks* nas atividades ocorridas no *Billing* dentro  |                 |
+|*tasks* nas atividades ocorridas no *Billing* dentro  |                 |
 |do portal                                            |                 |
 +-----------------------------------------------------+-----------------+
 |Adição de variáveis ao criar uma *Tag* virtual       |tag 5.3-b49 15ago|
