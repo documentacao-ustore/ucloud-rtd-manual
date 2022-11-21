@@ -151,7 +151,7 @@ Na Ustore a prática da melhoria contínua adotada no aprimoramento da plataform
 
 * Associar o mesmo preço de *USN Tag* para vários contratos: foi eliminada a restrição de *tag* para apenas um contrato.
 
-* O menu Tarefas recebe a atualização do registro de *taks* nas atividades ocorridas no *Billing* dentro do portal. 
+* O menu Tarefas recebe a atualização do registro de *tasks* nas atividades ocorridas no *Billing* dentro do portal. 
 
 * Adição de variáveis ao criar uma tag virtual.
 
