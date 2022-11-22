@@ -40,7 +40,7 @@ A Plataforma uSavings, obtém o inventário de todos os recursos computacionais 
 
 Todas as opções de alternativas de configuração de hardware são informadas como **sugestões**, pois fica a critério do usuário efetuar a troca (reconfiguração) do hardware do recurso computacional (*flavor*) no melhor momento para o seu ambiente.
 
-Importante ressaltar que a Plataforma uSaving apresentará somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma, o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
+Importante ressaltar que a Plataforma uSaving apresenta somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma, o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
 
 A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataforma uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
 
