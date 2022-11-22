@@ -30,7 +30,7 @@ Importa esclarecer que ele se encontra em constante desenvolvimento e evolução
 
 A presente tendência, a cada momento mais forte, da migração de recursos computacionais das nuvens privadas ou ambientes de *co-location*, para o ambiente  dos provedores de nuvem pública, representa um dos grandes desafios das organizações que é a Governança de Custos decorrentes do alto uso destes recursos computacionais e, consequentemente, as empresas não conseguem obter as devidas visualizações destes custos no futuro.
 
-Atualmente, a quase totalidade de plataformas de *Cloud Service Broker (CSB)* podem apresentar sugestões de redução de custos, porém, a obtenção de alguns valores são dependentes de um serviço (ou ação) humana, para obter tais valores.
+Atualmente, a quase totalidade de plataformas de *Cloud Service Broker (CSB)* podem apresentar sugestões de redução de custos, porém, a obtenção de alguns valores são dependentes de um serviço (ou ação) humana.
 
 Os provedores de serviço de nuvem pública, continua e initerruptamente, disponibilizam novas configurações de hardware (*flavors*) com características similares, mas valores, por vezes, muito diferentes. Neste momento, fica a critério de um especialista de arquitetura efetuar uma busca por configurações de hardware possíveis e compatíveis.
 
