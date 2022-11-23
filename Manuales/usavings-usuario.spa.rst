@@ -37,14 +37,14 @@ La plataforma uSavings realiza un inventario de todos los recursos de computaci�
 
 Todas las opciones alternativas de configuración de hardware se informan como **sugerencias**, ya que depende del usuario cambiar (reconfigurar) el hardware del recurso computacional (*flavor* ) en el mejor momento para su entorno.
 
-Importante señalar que la Plataforma uSaving solo presentará **sugerencias**, ya que cualquier cambio de configuración de hardware (*flavor*) solo podrá realizarse con la infraestructura apagada (**fría**), de esta forma, el usuario debe gestionar el mejor momento (día y hora) para actuar sobre este cambio de configuración.
+Importante señalar que la Plataforma uSaving solo presenta **sugerencias**, ya que cualquier cambio de configuración de hardware (*flavor*) solo podrá realizarse con la infraestructura apagada (**fría**), de esta forma, el usuario debe gestionar el mejor momento (día y hora) para actuar sobre este cambio de configuración.
 
 La integración con la Plataforma uCloud, permite al usuario visualizar las sugerencias presentadas en la interfaz de la Plataforma uSavings, para que pueda identificar correctamente el recurso computacional, y, a través de la Plataforma uCloud, ejecutar la tarea de cambiar la configuración del hardware (*flavor*) directamente en el entorno del proveedor de servicios de nube pública, sin necesidad de que el usuario inicie sesión en la consola del proveedor de nube pública.
 
 ¿ Qué es uSavings ?
 -------------------
 
-El uSavings es una herramienta que analiza en tiempo real el consumo de infraestructura de recursos de cómputo (máquinas virtuales, abreviadas como VMs) en las diferentes nubes, es a través de este análisis que la aplicación recomienda modificaciones, en caso de que la organización acepte o apoye esta sugerencia, tales como decisión pueden permitir el máximo ahorro financiero y la optimización 
+El uSavings es una herramienta que analiza en tiempo real el consumo de infraestructura de recursos de cómputo (máquinas virtuales, abreviadas como VMs) en las diferentes nubes, es a través de este análisis que la aplicación recomienda modificaciones. En caso de que la organización acepte o apoye esta sugerencia, tal decisión puede permitir el máximo ahorro financiero y la optimización 
 de los recursos creados y/o ejecutados. La aplicación uSavings es un “cost advisor", es decir, un consultor de costos que le permite asesorar al usuario sobre cómo reducir los costos de su infraestructura, lanzada por la Plataforma uCloud, a través de diferentes proveedores de servicios en la nube - AWS, Azure, Google, IBM y VMWare.
 
 ¿ Cómo funciona ?
@@ -58,7 +58,7 @@ La plataforma de uSavings obtiene y extrae información de los datos históricos
 ====
 
 La imagen de arriba representa el organigrama de uSavings: en él, la máquina virtual de uCloud, es uno de los elementos principales de este flujo, como se muestra en el diagrama anterior. 
-El siguiente elemento presentado es *Flavor*, permite saber cuánta memoria, vCPU y otros recursos son utilizados por la máquina. Por lo tanto, es desde el *Flavor* que sabes cuánto costará una máquina, en particular, a fin de mes. Con estos datos, es posible que la plataforma uSavings sugiera al cliente ahorros de recursos en la factura mensual.
+El siguiente elemento presentado es *Flavor*, permite saber cuánta memoria, vCPU y otros recursos son utilizados por la máquina. Por lo tanto, es desde el *Flavor* que sabes cuánto costa una máquina, en particular, a fin de mes. Con estos datos, es posible que la plataforma uSavings sugiera al cliente ahorros de recursos en la factura mensual.
 
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte del organigrama de usavings
@@ -67,7 +67,7 @@ El siguiente elemento presentado es *Flavor*, permite saber cuánta memoria, vCP
 
 El recorte en el organigrama, resalta la parte relevante del diagrama, representa la forma sugerente de la aplicación uSavings. Hay dos maneras de recomendar mejoras para una máquina virtual determinada: (i) por Flavor y (ii) por facturación.
 
-* **Por Flavor** - uSavings verifica el *Flavor* asignado en la máquina y sugiere una posibilidad de mejora - esta mejora está relacionada con el costo beneficio - la aplicación publica los resultados en diferentes formatos (gráficos o porcentajes) y muestra cuál será el mejor cloud que se utilizará para ahorrar recursos, para la máquina virtual. Este parámetro, por deducción, significa que la máquina está encendida todo el tiempo.
+* **Por Flavor** - uSavings verifica el *Flavor* asignado en la máquina y sugiere una posibilidad de mejora - esta mejora está relacionada con el costo beneficio - la aplicación publica los resultados en diferentes formatos (gráficos o porcentajes) y muestra cuál es el mejor cloud a se utilizar para ahorrar recursos, para la máquina virtual. Este parámetro, por deducción, significa que la máquina está encendida todo el tiempo.
 
 * **Por Billing** - La facturación de la base de datos de uCloud admite múltiples nubes, difiere del alcance de la aplicación uSavings. La base de datos de uCloud puede admitir todos los tipos de billing disponibles. En la regla de negocio uSavings solo es posible realizar una sugerencia asertiva con billing para AWS y AZURE, como se muestra en la figura recortada de el diagrama, presentado arriba de este párrafo.
 
@@ -80,7 +80,7 @@ Debido a que la aplicación uSavings es una herramienta que analiza en tiempo re
 
 La herramienta es relevante para la toma de decisiones en las organizaciones, ya que al analizar la información que obtiene, la aplicación entrega resultados reales. Esto contribuye a una decisión organizacional capaz de generar ahorros financieros y optimizar los recursos creados y/o ejecutados.
 
-La aplicación uSavings puede hacer referencia a sugerencias de reducción de configuración – *‘rightsizing’* de máquinas virtuales, si fueron creadas previamente con ‘super configuraciones’ y/o presentan un bajo consumo en el historial de rendimiento. **Dirige** la posibilidad de ampliar la relación costo-consumo, no **ejecutarla**. 
+La aplicación uSavings puede hacer referencia a sugerencias de reducción de configuración – *‘rightsizing’* de máquinas virtuales, si fueron creadas previamente con ‘super configuraciones’ y/o presentan un bajo consumo en el historial de rendimiento. **Dirige** la posibilidad de ampliar la relación costo-consumo, **no ejecutarla**. 
 El propósito de implementar la plataforma uSavings es indicarle a la organización la posibilidad y/o camino para incrementar su ahorro de costos, en el 
 próximo período de facturación del proveedor de servicios en la nube.
 
@@ -96,7 +96,7 @@ Se pueden proponer las siguientes optimizaciones con base en las sugerencias de:
 Rightsizing :
 ~~~~~~~~~~~
 
-Consiste en sugerir la mejor combinación de CPU y memoria, con el objetivo de minimizar costos y maximizar el rendimiento. La herramienta recopila métricas de rendimiento para determinar el consumo de recursos promedio y máximo de una instancia durante un período de tiempo configurable y recomienda una modificación a un tipo de configuración de máquina virtual, sea la configuración más baja o apropiada para el proyecto.
+Consiste en sugerir la mejor combinación de CPU y memoria, con el objetivo de minimizar costos y maximizar el rendimiento. La herramienta recopila métricas de rendimiento para determinar el consumo de recursos promedio y máximo de una instancia durante un período de tiempo elegido, y recomienda una modificación a un tipo de configuración de máquina virtual 'VM', sea menos compuesto o apropiado para el proyecto.
 
 Costos Comparativos :
 -------------------
@@ -104,8 +104,8 @@ Costos Comparativos :
 Presenta al usuario la lista actual de sus máquinas virtuales y una sugerencia de cuál sería la 'mejor configuración' en cada proveedor de nube. Permite al usuario evaluar qué proveedor tiene el costo más bajo en una determinada máquina virtual, en la fecha en que se obtuvo el valor 
 de este costo.
 
-Seguimiento de Recursos Ociosos :
--------------------------------
+Monitorear Recursos Ociosos :
+-----------------------------
 
 Supervisar los recursos inactivos, le permite comprobar si los recursos están en uso. El usuario-cliente puede monitorear los recursos creados y no utilizados.
 
@@ -144,14 +144,14 @@ El acceso a la plataforma uSavings se realiza a través de la web, y se puede ut
 
 Para el acceso inicial, es necesario solicitar las credenciales al administrador - al recibir el enlace con la dirección y las credenciales de acceso, el usuario deberá utilizar su navegador preferido para acceder a la web y conectarse. Otra forma de acceder a la plataforma uSavings es directamente desde la plataforma uCloud, a través de su menú lateral izquierdo.
 
-En caso de que el acceso se realice directamente en la web, se le mostrará al usuario la imagen a continuación. En este momento debe ingresar las credenciales recibidas.
+En caso de que el acceso se realice directamente en la web, se le mostra al usuario la imagen a continuación. En este momento debe ingresar las credenciales recibidas.
 
 .. image:: /figuras/fig_usavings/003_tela_acesso_inicial.png 
     :alt: pantalla de login
     :align: center
 ====
 
-El usuario deberá llenar los campos de **‘login’** y **‘senha’**, con las credenciales recibidas del administrador de la plataforma. Haga clic en **'Entrar'**. Después de este procedimiento, se presentará la pantalla de presentación del *Dashboard*.
+El usuario debe llenar los campos de **‘login’** y **‘senha’**, con las credenciales recibidas del administrador de la plataforma. Haga clic en **'Entrar'**. Después de este procedimiento, se presenta la pantalla del *Dashboard*.
 
 Si la pantalla del *Dashboard* no se muestra, significa que algunos de los campos están llenos de información inconsistente, es decir, *‘login‘* o ‘contraseña’ no existe y/o puede haber un error al escribir la información. Es importante comprobar y repetir la operación.
 
@@ -160,7 +160,7 @@ Si la pantalla del *Dashboard* no se muestra, significa que algunos de los campo
     :align: center
 ----
 
-En caso de no poder iniciar sesión, se le presentará al usuario la imagen anterior, con la siguiente orientación: **(i)** verifique las credenciales y **(ii)** repita la operación.
+En caso de no poder iniciar sesión, se le presenta al usuario la imagen anterior, con la siguiente orientación: **(i)** verifique las credenciales y **(ii)** repita la operación.
 
 
 Visión general
@@ -185,7 +185,7 @@ Este icono |icone_ustore| es un punto relevante para realizar una reserva, parti
     :align: center
 ----
 
-Este ícono de intercambio de contratos muestra todos los contratos en los que participa el usuario que inició sesión en la plataforma uSavings. Por lo tanto, el usuario puede cambiar entre ellos libremente. El intercambio de contrato puede implicar el intercambio de recursos que se presentarán al usuario, ya que cada contrato puede tener una característica determinada, en la secuencia de este manual de usuario de uSavings se describirán estos detalles.
+Este ícono de intercambio de contratos muestra todos los contratos en los que participa el usuario que inició sesión en la plataforma uSavings. Por lo tanto, el usuario puede cambiar entre ellos libremente. El intercambio de contrato puede implicar el intercambio de recursos que se presentan al usuario, ya que cada contrato puede tener una característica determinada, en la secuencia de este manual de usuario de uSavings se describe estos detalles.
 
 Icono de configuración de Clouds
 --------------------------------
@@ -233,7 +233,7 @@ La interfaz inicial de uSavings que se muestra al usuario es un panel de control
     :align: center
 ----
 
-Este panel, imagen presentada arriba, muestra algunos datos en la pantalla que representan un resumen de la infraestructura direccionable actual accesible por la plataforma, estos datos están compuestos por segmentos llamados *Cards*.
+Este panel, imagen presentada arriba, muestra algunos datos en la pantalla que representa un resumen de la infraestructura direccionable actual accesible por la plataforma, estos datos están compuestos por segmentos llamados *Cards*.
 
 .. image:: /figuras/fig_usavings/010_tela_inicial_dashboard_funcionalidades.png 
     :alt: pantalla de inicio: dashboard y caracteristicas
@@ -260,7 +260,7 @@ A continuación, en este documento, se describen en detalle los cuatro cards que
 Latest Months
 -------------
 
-El primero *card* **Latest Months**, presenta la facturación ocurrida en el período relativo a los últimos seis (6) meses, es decir, se listarán todos los montos invertidos en una determinada cuenta, para un período relativo a los últimos 6 meses.
+El primero *card* **Latest Months**, presenta la facturación ocurrida en el período relativo a los últimos seis (6) meses, es decir, se lista todos los montos invertidos en una determinada cuenta, para un período relativo a los últimos 6 meses.
 
 .. image:: /figuras/fig_usavings/012_latest_months.png 
     :alt: Latest months
@@ -333,7 +333,7 @@ La columna azul representa el gasto corriente, la columna verde sugiere los ahor
 
 Los gráficos y la información presentada son un **análisis inicial** del ahorro potencial de valores que la organización puede beneficiarse al adoptar las recomendaciones sugeridas por la plataforma uSavings.
 
-Los valores presentados se refieren al período de recolección de datos (el período mínimo inicial es de quince días). Cuanto más largo sea el período de recopilación de información, más confiable será la estimación de ahorro calculada.
+Los valores presentados se refieren al período de recolección de datos (el intervalo mínimo inicial es de quince días). Cuanto más largo sea el tiempo de recopilación de información, más confiable está la estimación de ahorro calculada.
 
 .. image:: /figuras/fig_usavings/017_tela_entrada_dashboard_1.2.png 
     :alt: pantalla de entrada dashboard (parte 1/2)
@@ -401,7 +401,7 @@ Después de seleccionar el contenedor, la información se presenta en columnas, 
 
 Las sugerencias mostradas *(Rightsizing)* se basan en el consumo CPU de máquinas virtuales, desde su creación hasta la actualidad. Se recopilan métricas y el cálculo se basa en promedios de consumo, luego se presenta la sugerencia.
 
-El análisis del consumo de memoria puede ser parte del cálculo si el proveedor o las instancias están listos para proporcionar las métricas necesarias. Si la información no está disponible, la memoria definida por el *flavor* de la instancia *deployada*.
+El análisis del consumo de memoria puede ser parte del cálculo si el proveedor o las instancias están listos para proporcionar las métricas necesarias. Si la información no está disponible, se asume la memoria definida por el tipo (*flavor*) de la instancia implementada (*deployada*).
 
 
 *Rightsizing* - sugerencia de cambio de *Flavor*
@@ -414,7 +414,7 @@ Para recibir el resultado de la sugerencia de cambio de *Flavor*, el usuario deb
     :align: center
 ----
 
-Como resultado de esta operación, se desplegará la imagem abajo, que muestra las diversas informaciones en bloques, tales como: *Flavor* y Costo Actual, Sugerencia de *Flavor* y el costo estimado de este nuevo *Flavor*. Finalmente, muestra el costo de reserva de *Flavor* estimado y sugerido para 1 año.
+Como resultado de esta operación, se desplega la imagem abajo, que muestra las diversas informaciones en bloques, tales como: *Flavor* y Costo Actual, Sugerencia de *Flavor* y el costo estimado de este nuevo *Flavor*. Finalmente, muestra el costo de reserva de *Flavor* estimado y sugerido para 1 año.
 
 .. image:: /figuras/fig_usavings/025_resultado_estimado_selecao.png 
     :alt: resultado estimado en la seleción 
@@ -452,7 +452,7 @@ El resultado de la selección se muestra de acuerdo con la imagen *Resultado est
 
 **4º Paso :**
 
-Exporte el informe para verlo en una hoja de cálculo de Excel, en la máquina del usuario, el resultado será similar a la imagen *Reporte exportado a Excel* presentado a continuación:
+Exporte el informe para verlo en una hoja de cálculo de Excel, en la máquina del usuario, el resultado esta similar a la imagen *Reporte exportado a Excel* presentado a continuación:
 
 .. image:: /figuras/fig_usavings/028_relatorio_exportado_excel.png 
     :alt: reporte exportado a excel 
@@ -514,7 +514,7 @@ Para reforzar, para que las unidades estén disponibles, **es fundamental** la i
 Comparar por Billing
 ~~~~~~~~~~~~~~~~~~~~
 
-Para hacer posible un análisis comparativo por Billing (Billetaje), es necesario que el emisor haya sido ejecutado en el contenedor indicado. Actualmente apoyamos, análisis comparativo por Billing a las nubes AWS y Azure, ver imagen arriba.
+Para permitir el análisis comparativo por Billing (Billetaje), es necesario que el emisor haya sido ejecutado en el contenedor indicado. Actualmente apoyamos, análisis comparativo por Billing a las nubes AWS y Azure, ver imagen arriba.
 
 Antes de seleccionar el contenedor o nube a comparar, es necesario verificar si la plataforma de uCloud está emitido. Al menos uno (1) contenedor debe estar emitido y conectado a la plataforma uCloud.
 
@@ -547,11 +547,11 @@ Al seleccionar la nube, el usuario debe completar el período correspondiente al
     :align: center
 ----
 
-El momento es importante, ya que los valores de la nube pueden cambiar debido al proveedor de la nube. Por esta razón, es posible elegir un cierto intervalo de tiempo. Este rango se calculará en función de la Billing generado por uCloud.
+El momento es importante, ya que los valores de la nube pueden cambiar debido al proveedor de la nube. Por esta razón, es posible elegir un cierto intervalo de tiempo. Este rango se calcula en función de la Billing generado por uCloud.
 
 **4º Paso :**
 
-Seleccione las nubes que participarán en el análisis comparativo de valores. Esto incluye nubes que el usuario no necesariamente tiene conectadas a la plataforma uCloud, como nubes IBM y GOOGLE, de acuerdo con la imagen siguiente.
+Seleccione las nubes que participan en la análisis comparativa de valores. Esto incluye nubes que el usuario no necesariamente tiene conectadas a la plataforma uCloud, como nubes IBM y GOOGLE, de acuerdo con la imagen siguiente.
 
 .. image:: /figuras/fig_usavings/036_selecionar_nuvens_analise_comparar_valores.png 
     :alt: seleccionar nubes para el analisis comparativo de valores 
@@ -630,7 +630,7 @@ Seleccione la región y haga clic en Siguiente para finalizar la operación y ob
     :align: center
 ----
 
-Se mostrará el resultado y así el usuario llega al último step.
+Se mostra el resultado y así el usuario llega al último step.
 
 Después de realizar el análisis comparativo y presentar el resultado, este documento sigue con la descripción del siguiente paso, cuando los datos comparativos están en pantalla.
 
@@ -671,9 +671,9 @@ En esta pantalla se puede ver la comparativa de *Flavors* y nubes. Además, al p
 
 La imagen arriba muestra los detalles por cada *Virtual Machine* y costos por nube, el usuario puede desplazarse y ver el costo de *Flavor* en distintas nubes.
 
-Al hacer clic en esta información, se abrirá un menú que le permite al usuario cambiar el *Flavor* sugerido en la nube.
+Al hacer clic en esta información, se abre un menú que le permite al usuario cambiar el *Flavor* sugerido en la nube.
 
-Si selecciona otro *Flavor*, la aplicación uSavings le preguntará si desea cambiarlo por otros similares o parecidos. Si es así, todas las máquinas virtuales *g1-small* se calcularán como *e2-small*. Ver el informe exportado en formato.csv imagen siguiente:
+Si selecciona otro *Flavor*, la aplicación uSavings le pregunta si desea cambiarlo por otros similares o parecidos. Si es así, todas las máquinas virtuales *g1-small* se calcula como *e2-small*. Ver el informe exportado en formato.csv imagen siguiente:
 
 .. image:: /figuras/fig_usavings/047_relatorio_exportado_csv.png 
     :alt: informe exportado en .csv
@@ -836,9 +836,13 @@ Después de su creación, los resultados se presentan en la pantalla, en dos for
     :align: center
 ----
 
-Tenemos la opción de crear un *Balanceador de Carga* imaginario de la misma manera, con 4 *inputs* esta creación también requiere un nombre - El Nombre de entrada será requerido para todas las opciones de creación - y 3 nuevos *inputs*: instancias, Reglas de transferencia y datos por mes en GB.
+Tenemos la opción de crear un *Balanceador de Carga* imaginario de la misma manera, con 4 *inputs* esta creación también requiere un nombre - El Nombre de entrada se requiere para todas las opciones de creación - y 3 nuevos *inputs*: 
 
-Los resultados se presentan en formato de tabla, que muestra el precio del servicio deseado para cada Cloud. Vale la pena mencionar que en este *ejemplo de creación de Load Balancer*, la nube de AZURE tiene el valor más bajo, en segundo lugar, la nube de AWS, y finalmente, el costo más alto en este ejemplo será la nube de GCP. Es así como la aplicación uSavings sugiere el ahorro de los recursos contratados para la toma de decisiones en la organización. 
+* Instancias, 
+* Reglas de transferencia y 
+* Datos por mes en GB.
+
+Los resultados se presentan en formato de tabla, que muestra el precio del servicio deseado para cada Cloud. Vale la pena mencionar que en este *ejemplo de creación de Load Balancer*, la nube de AZURE tiene el valor más bajo, en segundo lugar, la nube de AWS, y finalmente, el costo más alto en este ejemplo es la nube de GCP. Es así como la aplicación uSavings sugiere el ahorro de los recursos contratados para la toma de decisiones en la organización. 
 
 
 .. image:: /figuras/fig_usavings/062_criar_storage_imaginary_cloud.png 
@@ -846,44 +850,52 @@ Los resultados se presentan en formato de tabla, que muestra el precio del servi
     :align: center
 ----
 
-Siguiendo el proceso, crea un Storage de la misma manera, con 4 entradas que consisten en las entradas: nombre, instancias, cantidad de transacciones y tamaño en GB.
+Siguiendo el proceso, crea un Storage de la misma manera, con 4 entradas que consisten en las entradas: 
+
+* Nombre, 
+* Instancias, 
+* Cantidad de transacciones y 
+* Tamaño en GB.
 
 .. image:: /figuras/fig_usavings/063_criar_storage.png 
     :alt: crear storage
     :align: center
 ----
 
-Después de crear un *Storage*, la pantalla de presentación se verá como la pantalla del *Load Balancer*.
+Después de crear un *Storage*, la pantalla de presentación es similar a la visualización del *Load Balancer*.
 
 .. image:: /figuras/fig_usavings/064_resultado_criacao_storage.png 
     :alt: resultado de la creación de la storage
     :lign: center
 ----
 
-Para la penúltima opción de creación tenemos la IP, que sigue la misma lógica, requiriendo solo 2 *Inputs*: Nombre y cantidad de IPs. 
+Para la penúltima opción de creación tenemos la IP, que sigue la misma lógica, requiriendo solo 2 *Inputs*: 
+
+* Nombre y 
+* Cantidad de IPs. 
 
 .. image:: /figuras/fig_usavings/065_criar_ip.png 
     :alt: crear ip
     :align: center
 ----
 
-El formato de presentación de la pantalla ip será similar a los elementos ya explicados anteriormente en este manual. La última opción por describir para la creación imaginaria es la Database. 
+El formato de presentación de la pantalla IP es similar a los elementos ya explicados anteriormente en este manual. La última opción por describir para la creación imaginaria es la Database. 
 
 .. image:: /figuras/fig_usavings/066_criar_database_imaginary_cloud.png 
     :alt: crear database en lo imaginary cloud
     :align: center
 ----
 
-Para que la operación tenga éxito necesitaremos rellenar nombre, vCPU, memoria en GB, Almacenamiento en GB, motor que se utilizará y, si debe ser multizona, o no. 
+Para que la operación tenga éxito se necesita rellenar nombre, vCPU, memoria en GB, Almacenamiento en GB, motor que se utiliza y, si debe ser multizona, o no. 
 
 .. image:: /figuras/fig_usavings/067_criar_database_imaginary_cloud_2.png 
     :alt: crear database en lo imaginary cloud
     :align: center
 ----
 
-Después de la creación también recibiremos una tabla con los datos que se crearon y los precios de mercado existentes.
+Después de la creación también se recibe una tabla con los datos que se crearon y los precios de mercado existentes.
 
-Si el usuario lo considera necesario eliminar el *Imaginary Cloud*, Después de crear todos estos elementos, tenemos la opción de eliminar cualquiera de ellos en cualquier momento, en caso de eliminar los elementos dentro del contenedor se debe hacer clic en el símbolo de la papelera a la izquierda de la tabla. 
+Si el usuario lo considera necesario eliminar el *Imaginary Cloud*, después de crear todos estos elementos, hay la opción de eliminar cualquiera de ellos en cualquier momento, en caso de eliminar los elementos dentro del contenedor se debe hacer clic en el símbolo de la papelera a la izquierda de la tabla. 
 
 Para eliminar el contenido o debe hacer clic en él y rellenar un modal con el nombre del elemento que desea eliminar.
 
@@ -905,7 +917,7 @@ La funcionalidad está disponible para cuentas conectadas e integradas con el Cl
     :align: center
 ----
 
-Al conectar la cuenta de nube pública a la plataforma uCloud se presentará la imagen de arriba. La pantalla permite seleccionar los tipos de proveedores de nube:
+Al conectar la cuenta de nube pública a la plataforma uCloud se presenta la imagen de arriba. La pantalla permite seleccionar los tipos de proveedores de nube:
 
   * **(i)** GCP; 
   * **(ii)** AWS; 
@@ -917,11 +929,11 @@ Al conectar la cuenta de nube pública a la plataforma uCloud se presentará la 
     :align: center
 ----
 
-El usuario debe seleccionar una de las cuatro nubes que quiere buscar para averiguar qué recursos aparentemente no se están utilizando o están generando costos supuestamente innecesarios.
+El usuario debe seleccionar una de las cuatro nubes que quiere buscar para averiguar qué recursos aparentemente no se utilizan o generan costos supuestamente innecesarios.
 
 Después de seleccionar la nube deseada, la pantalla presenta una lista que le permite buscar las siguientes características:
 
-* **Disks** - Enumera los discos que se crearon y no están asociados a ninguna máquina virtual;
+* **Disks** - Enumera los discos creados y no asociados a ninguna máquina virtual;
 
 * **Public IP** - – Enumera las direcciones IP públicas que se han solicitado en algún momento que generan costos y no están asociadas a ninguna máquina virtual;
 
@@ -947,7 +959,7 @@ El último menú de funcionalidad presenta la posibilidad de ir a la plataforma 
 Conclusión
 ----------
 
-Así, este documento concluye la descripción general de los procedimientos requeridos para su uso. La lectura de este manual de usuario permitirá a el usuario de la aplicación utilizar sus funciones correctamente.
+Así, este documento concluye la descripción general de los procedimientos requeridos para su uso. La lectura de este manual de usuario permite a el usuario de la aplicación utilizar sus funciones correctamente.
 
 
 
@@ -958,6 +970,7 @@ Así, este documento concluye la descripción general de los procedimientos requ
 uSavings Manual de utilización
 Edición 2 v.7
 02/05/2022
+Revisión 22/11/2022
 
 
 
