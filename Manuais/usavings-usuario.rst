@@ -17,7 +17,7 @@ Apresentação
 
 Este documento tem como objetivo apresentar as principais características e funcionalidades relacionadas a aplicação *uSavings*. 
 
-Neste Manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
+Neste manual são apresentados os conceitos, as telas, as funcionalidades e os comandos para uso deste produto.
 
 ----
 
@@ -32,22 +32,37 @@ A presente tendência, a cada momento mais forte, da migração de recursos comp
 
 Atualmente, a quase totalidade de plataformas de *Cloud Service Broker (CSB)* podem apresentar sugestões de redução de custos, porém, a obtenção de alguns valores são dependentes de um serviço (ou ação) humana.
 
-Os provedores de serviço de nuvem pública, continua e initerruptamente, disponibilizam novas configurações de hardware (*flavors*) com características similares, mas valores, por vezes, muito diferentes. Neste momento, fica a critério de um especialista de arquitetura efetuar uma busca por configurações de hardware possíveis e compatíveis.
+Os provedores de serviço de nuvem pública, continua e initerruptamente, disponibilizam novas configurações de hardware (*flavors*) com características similares, mas valores, por vezes, muito diferentes. 
 
-A Plataforma uSavings preenche estas atividades de forma automatizada para que as comparações de configurações de hardware e/ou custos recorrentes possam ser apresentados de forma mais clara para o usuário desta plataforma.
+Neste momento, fica a critério de um especialista de arquitetura efetuar uma busca por configurações de hardware possíveis e compatíveis.
+
+A Plataforma uSavings preenche estas atividades, de forma automatizada, para que as comparações de configurações de hardware e/ou custos recorrentes possam ser apresentados de forma mais clara para o usuário desta plataforma.
 
 A Plataforma uSavings, obtém o inventário de todos os recursos computacionais de nuvem pública através da sua integração com a Plataforma uCloud. Portanto, a relação de recursos computacionais de servidores apresentado na interface da Plataforma uSavings é a representação fiel do seu ambiente encontrado no provedor de serviço de nuvem pública, desta forma, a realidade existente em seu ambiente.
 
 Todas as opções de alternativas de configuração de hardware são informadas como **sugestões**, pois fica a critério do usuário efetuar a troca (reconfiguração) do hardware do recurso computacional (*flavor*) no melhor momento para o seu ambiente.
 
-Importante ressaltar que a Plataforma uSaving apresenta somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**), desta forma, o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
+Importante ressaltar que a Plataforma uSaving apresenta somente **sugestões**, pois qualquer troca de configuração de hardware (*flavor*) somente pode ser efetuada com a infraestrutura desligada (**à frio**). Desta forma, o usuário deve gerenciar o melhor momento (dia e hora) para atuar nesta mudança de configuração.
 
 A integração com a Plataforma uCloud, permite ao usuário visualizar as sugestões apresentadas na interface da Plataforma uSavings, para que possa identificar corretamente o recurso computacional, e, através da Plataforma uCloud executar a tarefa da troca de configuração de hardware (*flavor*) diretamente no ambiente do provedor de serviço de nuvem pública, sem a necessidade do usuário estar conectado no console do provedor de nuvem pública.
+
+
+====
+
 
 O que é uSavings ?
 ------------------
 
-O uSavings é uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais (das máquinas virtuais, abreviado como VMs) nas diferentes nuvens, é por meio desta análise que a aplicação recomenda modificações. No caso de a organização acolher ou apoiar esta sugestão, tal decisão pode permitir gerar o máximo de economia financeira e otimização dos recursos criados e/ou executados. A aplicação uSavings é um “cost advisor", ou seja, um consultor de custos que permite aconselhar o usuário como reduzir os custos da sua infraestrutura, bilhetada pela Plataforma uCloud, nos diversos provedores de serviços de nuvem - AWS, Azure, Google, IBM e VMWare.
+O uSavings é uma ferramenta que analisa em tempo real o consumo da infraestrutura dos recursos computacionais (das máquinas virtuais, abreviado como VMs) nas diferentes nuvens, é por meio desta análise que a aplicação recomenda modificações. 
+
+No caso de a organização acolher ou apoiar esta sugestão, tal decisão pode permitir gerar o máximo de economia financeira e otimização dos recursos criados e/ou executados. 
+
+A aplicação uSavings é um “cost advisor", ou seja, um consultor de custos que permite aconselhar o usuário como reduzir os custos da sua infraestrutura, bilhetada pela Plataforma uCloud, nos diversos provedores de serviços de nuvem - AWS, Azure, Google, IBM e VMWare.
+
+
+====
+
+
 
 Como funciona ?
 ---------------
@@ -60,7 +75,11 @@ A plataforma do uSavings além de obter dados das diversas nuvens, extrai a info
 ====
 
 
-A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud (VM), é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. O seguinte elemento apresentado é o *Flavor*, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. Logo, é a partir do *Flavor* que se sabe o quanto determinada máquina custa no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
+A imagem acima representa o organograma de funcionamento do uSavings: nele a máquina virtual do uCloud (VM), é um dos elementos principais neste fluxo, conforme demonstrado no diagrama acima. 
+
+O seguinte elemento apresentado é o *Flavor*, ele possibilita saber o quanto de memória, vCPU entre outros recursos são utilizados pela máquina. 
+
+Logo, é a partir do *Flavor* que se sabe o quanto determinada máquina custa no final do mês. Com estes dados, é possível para a plataforma do uSavings sugerir ao cliente economia de recursos na fatura mensal.
 
 .. image:: /figuras/fig_usavings/002_recorte_organograma.png 
     :alt: recorte do organograma do usavings
@@ -68,11 +87,18 @@ A imagem acima representa o organograma de funcionamento do uSavings: nele a má
 ====
 
 
-O recorte no organograma, destaca a parte pertinente no diagrama, ela representa a forma sugestiva da aplicação do uSavings. Existem duas maneiras para recomendar as melhorias para uma determinada Virtual Machine: (i) por Flavor e (ii) por Billing.
+O recorte no organograma, destaca a parte pertinente no diagrama, ela representa a forma sugestiva da aplicação do uSavings. 
+
+Existem duas maneiras para recomendar as melhorias para uma determinada Virtual Machine: (i) por Flavor e (ii) por Billing.
 
 * **Por Flavor** - O uSavings checa o *Flavor* alocado na máquina, e sugere uma possibilidade de melhoria – esta melhoria se relaciona ao custo beneficio – a aplicação publica os resultados em diversos formatos (gráficos ou porcentagem) e mostra qual é a melhor cloud a ser utilizada para economizar recursos, para a VM. Este parâmetro, por dedução, entende que a máquina fica ligada o tempo todo.
 
 * **Por Billing** - A bilhetagem do banco de dados do uCloud suporta diversas nuvens, ela difere do alcance da aplicação do uSavings. O banco de dados do uCloud pode comportar todos os tipos de billing disponíveis. Já na regra de negócio do uSavings, só é possível fazer uma sugestão assertiva com o billing para a AWS e AZURE, como mostra o diagrama, na figura recorte do organograma, apresentada acima deste parágrafo.
+
+
+====
+
+
 
 Como economizar recursos ?
 --------------------------
@@ -83,31 +109,39 @@ Pelo fato da aplicação do uSavings ser uma ferramenta que analisa em tempo rea
 
 A ferramenta é relevante para a tomada de decisão nas organizações, pois ao analisar a informação obtida pela aplicação entrega resultados reais. Isto contribui para uma decisão organizacional capaz de gerar economia financeira e otimização dos recursos criados e/ou executados.
 
-A aplicação uSavings pode referenciar sugestões de redução da configuração – ‘rightsizing’ de máquinas virtuais, caso tenham sido previamente criadas com ‘super configurações’ e/ou apresentarem um baixo consumo no histórico de performance. **Direciona** a possibilidade de ampliar a relação custo-consumo, **não a executa**. O objetivo da implantação da plataforma uSavings é indicar à organização a possibilidade e/ou caminho para aumentar a economia dos seus custos, no próximo período de cobrança do provedor de serviço de nuvem.
+A aplicação uSavings pode referenciar sugestões de redução da configuração – ‘rightsizing’ de máquinas virtuais, caso tenham sido previamente criadas com ‘super configurações’ e/ou apresentarem um baixo consumo no histórico de performance. **Direciona** a possibilidade de ampliar a relação custo-consumo, **não a executa**. 
+
+O objetivo da implantação da plataforma uSavings é indicar à organização a possibilidade e/ou caminho para aumentar a economia dos seus custos, no próximo período de cobrança do provedor de serviço de nuvem.
 
 .. attention:: A organização munida das informações, entregues pela aplicação uSavings, deve entrar em contato com o provedor do serviço de nuvem sobre ‘rightsizing’.
 
 Ao adquirir a plataforma uSavings, as organizações podem ter em mãos uma valiosa ferramenta estratégica e de inteligência de negócio (BI) que indica o melhor caminho para ampliar a relação “custo-benefício” das suas infraestruturas virtuais e, também, a melhor forma de maximizar os recursos das máquinas virtuais criadas nos provedores de serviços de nuvem.
+
+
 
 Otimizações recomendadas após o monitoramento
 ---------------------------------------------
 
 As quatro otimizações, a seguir, podem ser propostas com base em sugestões de:
 
+
 Rightsizing :
 ~~~~~~~~~~~
 
 Consiste na sugestão da melhor combinação de CPU e memória, com o objetivo de minimizar os custos e maximizar o desempenho. A ferramenta coleta métricas de desempenho para determinar o consumo médio e máximo de recursos de uma instância em um período escolhido e recomenda uma modificação para um tipo de configuração de máquina virtual ‘VM’ de menor composição ou apropriada para o projeto.
+
 
 Custos Comparativos :
 ~~~~~~~~~~~~~~~~~~~
 
 Apresenta ao usuário a relação atual das suas máquinas virtuais ‘VMs’ e uma sugestão do que seria a ‘melhor configuração’ em cada provedor de nuvem. Permite ao usuário avaliar qual provedor está com o menor custo em determinada máquina virtual ‘VM’ , na data que foi obtido o valor deste custo.
 
+
 Monitoramento de Recursos Ociosos :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O monitoramento de recursos ociosos permite checar se os recursos estão em uso. É possível monitorar os recursos criados e não utilizados.
+
 
 Instâncias Reservadas :
 ~~~~~~~~~~~~~~~~~~~~~
@@ -128,9 +162,14 @@ Caso o provedor de serviços de nuvem necessite ter acesso a estes recursos comp
 Menu inicial
 ============
 
-A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
+A interface inicial apresentada ao usuário é um painel de controle (*Dashboard*) que exibe um resumo da atual infraestrutura, endereçável e acessível por meio da plataforma do uCloud. Ao efetuar o acesso à interface do uSavings, o usuário se conecta automaticamente com a sua atual infraestrutura de máquina virtual ‘VMs’. 
+
+Desta forma, o usuário visualiza os custos atuais das máquinas virtuais ‘VMs’ existentes, pode comparar os custos das suas máquinas virtuais entre os diversos provedores de serviços públicos de infraestrutura de nuvem.
 
 O uSavings permite criar manualmente uma lista de máquinas virtuais ‘VMs’ com configurações específicas (uma configuração privada e/ou ‘imaginária’), para o caso do usuário que deseja obter a relação completa das suas máquinas virtuais e prefere conectar-se de forma manual.
+
+====
+
 
 Como acessar a plataforma uSavings
 ----------------------------------
@@ -161,6 +200,8 @@ Se a tela de Dashboard não for apresentada, isto significa que algum dos campos
 No caso de insucesso ao logar, é apresentada ao usuário a imagem acima, com a seguinte orientação: **(i)** checar as credenciais e **(ii)** repetir a operação.
 
 
+=====
+
 
 Visão geral
 ===========
@@ -174,6 +215,8 @@ De início, antes de adentrar na sessão do **Dashboard** é relevante entender 
 
 Para isso, o recorte do menu superior demonstrado na imagem acima, exibe componentes relevantes, a seguir descritos em detalhe, seguindo a ordem: da esquerda para a direita.
 
+
+
 Ícone de Troca de Contrato
 --------------------------
 
@@ -184,7 +227,10 @@ Este ícone |icone_ustore| é um ponto relevante a fazer uma ressalva, ao partir
     :align: center
 ----
 
-Este ícone de troca de contrato apresenta todos os contratos nos quais o usuário logado na plataforma uSavings participa. Assim, é permitido ao usuário trocar entre eles livremente. A troca de contrato pode implicar na troca dos recursos que são apresentados ao usuário, pois cada contrato pode ter uma determinada característica, na sequência deste manual de uso do uSavings estas minucias são descritas.
+Este ícone de troca de contrato apresenta todos os contratos nos quais o usuário logado na plataforma uSavings participa. Assim, é permitido ao usuário trocar entre eles livremente. 
+
+A troca de contrato pode implicar na troca dos recursos que são apresentados ao usuário, pois cada contrato pode ter uma determinada característica, na sequência deste manual de uso do uSavings estas minucias são descritas.
+
 
 Ícone de Configuração de Clouds
 -------------------------------
@@ -223,6 +269,11 @@ Este ícone |icone_nome_usuario_logado| apresenta o nome do usuário que está l
 Este ícone |icone_logout| desloga o usuário da plataforma.
 
 
+====
+
+
+
+
 Painel de controle *Dashboard*
 ==============================
 
@@ -253,9 +304,16 @@ Neste caso, a imagem do container conectado na plataforma uCloud apresenta a rel
 
 Desta forma, existe o acesso aos dados do container, sendo somente após este acesso e análise dos dados que a plataforma do uSavings pode sugerir as melhorias de performance de uso.
 
-O *Dashboard* permite a visualização rápida sobre cada uma das nuvens conectadas ao uCloud, as quais são refletidas na aplicação uSavings. No caso de a nuvem do usuário estar ausente do uSavings, isto significa que a nuvem não foi conectada na plataforma do uCloud.
+O *Dashboard* permite a visualização rápida sobre cada uma das nuvens conectadas ao uCloud, as quais são refletidas na aplicação uSavings. 
+
+No caso da nuvem do usuário estar ausente do uSavings, isto significa que a nuvem não foi conectada na plataforma do uCloud.
+
 
 A seguir, neste documento, os quatro *cards* exibidos na tela do Dashboard são descritos em detalhes.
+
+====
+
+
 
 Latest Months
 -------------
@@ -276,19 +334,29 @@ Tal valor é coletado a partir de valores gerados pelo *job* do uSavings, respon
 
 O gráfico constante na imagem acima apresenta o valor do custo em Dólar *versus* o período requerido dos últimos 6 meses.
 
+
+====
+
+
 Consolidated Cost
 -----------------
 
-O segundo *card* **Consolidated Cost** exibe algumas sugestões na tela do Dashboard, estas sugestões são relacionadas ao que a máquina virtual “VM” selecionada contêm, é relevante mencionar que todos os valores são apresentados em dólar. O card mostra o *Flavor* e as regiões habilitadas para a máquina, a reunião destas informações permite sugerir melhorias para otimizar o uso.
+O segundo *card* **Consolidated Cost** exibe algumas sugestões na tela do Dashboard, estas sugestões são relacionadas ao que a máquina virtual “VM” selecionada contêm, é relevante mencionar que todos os valores são apresentados em dólar. 
 
-Neste *card* são detalhadas as informações a respeito do percentual de economia, diferença de custo, custo corrente despendido, custo otimizado e *Flavors* utilizados e/ou sugeridos pela aplicação. Valores apresentados em dólar.
+O card mostra o *Flavor* e as regiões habilitadas para a máquina, a reunião destas informações permite sugerir melhorias para otimizar o uso.
+
+Neste *card* são detalhadas as informações a respeito do percentual de economia, diferença de custo, custo corrente despendido, custo otimizado e *Flavors* utilizados e/ou sugeridos pela aplicação. 
+Valores apresentados em dólar.
 
 .. image:: /figuras/fig_usavings/014_custos_consolidados.png 
     :alt: custos consolidados 
     :align: center
 ----
 
-Na imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
+
+Na imagem acima, observa-se que o percentual de 65,25% no campo *Saving* representa o percentual de economia que a aplicação uSavings entrega como resultado, baseado na sugestão de mudança de *Flavor* dentro da própria nuvem. 
+
+Ou seja, o usuário está realizando uma pesquisa na nuvem AWS, a economia exibida de 65,25% é possível implementar ao trocar de *Flavor* dentro da própria nuvem. 
 
 As informações detalhadas, neste *Card* de custos consolidados, apresentam uma riqueza de detalhes para o entendimento entre a melhor combinação de CPU, memória e disco, com foco na redução dos custos:
 
@@ -301,6 +369,10 @@ As informações detalhadas, neste *Card* de custos consolidados, apresentam uma
   * **Otimized Cost** – Indica o valor futuro, caso as mudanças sugeridas sejam aceitas e implementadas.
 
     * **Obs:** Todos os valores exibidos podem sofrer mudanças no decorrer do período, a depender do consumo trafegado nas nuvens.
+
+
+====
+
 
 Actual Flavor
 -------------
@@ -315,6 +387,10 @@ Todos os valores são exibidos em dólar, sem tributação de impostos. Os preç
 ----
 
 As informações contidas na imagem acima, se referem ao ambiente AWS, onde cada item difere em relação ao tamanho da memória, vCPU, preço e sistema operacional e, ao final, é apresentado o valor total do custo dos *Flavors* atualmente utilizados.
+
+
+====
+
 
 Sugested Flavors
 ----------------
@@ -401,6 +477,9 @@ As sugestões exibidas *(Rightsizing)* são baseadas no consumo de CPU das máqu
 
 A análise do consumo de memória pode fazer parte do cálculo, caso o provedor ou as instâncias estejam prontas para fornecer as métricas necessárias. Caso a informação não esteja disponível é assumida a memória definida pelo *flavor* da instância *deployada*.
 
+====
+
+
 *Rightsizing* - sugestão de mudança de *Flavor*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -477,6 +556,10 @@ Ao clicar no ícone * **(asterisco)**, o relatório de performance é exibido:
 O relatório de performance proporciona a visualização do gráfico com a média do consumo de CPU e da memória da virtual máquina selecionada, num período de aproximadamente 15 a 20 dias.
 
 
+====
+
+
+
 Compare Clouds
 --------------
 
@@ -512,6 +595,11 @@ Ao clicar na barra pretendida ela assume a cor laranja, conforme a imagem a segu
 
 Reforçando, para que as unidades estejam disponíveis, **é imprescindível** integrar com a plataforma do uCloud.
 
+
+====
+
+
+
 Comparar por Billing
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -521,6 +609,8 @@ Antes de selecionar o container ou a nuvem que se deseja comparar, é necessári
 
 
 .. note:: **Significado** do termo *estar bilhetado*: é a existência da fatura de consumo em determinado período, período mínimo de pelo menos um mês.                                                                                                                
+====
+
 
 
 **Etapas do passo a passo**
@@ -528,6 +618,10 @@ Antes de selecionar o container ou a nuvem que se deseja comparar, é necessári
 **1º Passo :** 
 
 Para realizar a análise comparativa, inicialmente, clicar no botão **Compare by Billing**. Checar se a plataforma do uCloud está bilhetada, ao menos um container deve estar bilhetado e conectado à plataforma.
+
+
+====
+
 
 **2º Passo :**
 
@@ -540,6 +634,11 @@ Selecionar a nuvem contendo todos os seus containers, imagem abaixo. Clicar em *
 
 Neste caso, a nuvem **AWS** está selecionada. Ao clicar em **NEXT**, a aplicação do uSavings apresenta a próxima tela com a pergunta: “Que nuvens participarão deste comparativo?” E solicita, ao usuário, selecionar as nuvens que deseja realizar a análise comparativa dos valores. 
 
+
+====
+
+
+
 **3º Passo :**
 
 Ao selecionar a nuvem, o usuário deve preencher no calendário o período correspondente a análise.
@@ -550,6 +649,11 @@ Ao selecionar a nuvem, o usuário deve preencher no calendário o período corre
 ----
 
 O período é importante, pois os valores da nuvem podem sofrer alteração devido o provedor de nuvem. Por esta razão é possível escolher um determinado intervalo de tempo. Este intervalo é calculado com base no Billing gerado pelo uCloud.
+
+
+====
+
+
 
 **4º Passo :**
 
@@ -586,6 +690,10 @@ Após selecionar a região por nuvem, a aplicação uSavings apresenta a imagem 
 Para que seja possível fazer a análise comparativa por Billing (Bilhetagem), é necessário que o bilhetador tenha sido executado no determinado container. 
 
 Atualmente, suportamos, a análise comparativa por Billing para as nuvens AWS e Azure. E, para que as **unidades se tornem disponíveis é necessário a integração com a plataforma uCloud**. Neste caso, as contas precisam estar conectadas e sincronizadas, respeitando as definições de regras de segurança.
+
+
+====
+
 
 Comparar por Container
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -636,6 +744,9 @@ O resultado é apresentado e assim o usuário chega no último step.
 Após a análise comparativa ser executada e o resultado apresentado, este documento segue com a descrição do próximo passo, momento que existem os dados comparativos em tela.
 
 
+====
+
+
 Analisar e Exportar as informações coletadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -682,6 +793,10 @@ No caso de selecionar outro *Flavor* a aplicação do uSavings pergunta se desej
 ----
 
 Tal procedimento não altera o *Flavor* das *Virtual Machines* nas nuvens, apenas calcula as estimativas de alteração de *Flavor* que deve ser realizada no console das nuvens ou na plataforma do uCloud.
+
+
+====
+
 
 
 Imaginary Cloud
@@ -840,7 +955,9 @@ A aplicação possui a opção de criar um *Load Balancer* imaginário da mesma 
   * Regras de transferência e 
   * Dados por mês em GB. 
 
-Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar, que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo é a nuvem GCP. É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
+Os resultados são apresentados em formato de tabela, a qual mostra o preço do serviço desejado para cada *Cloud*. Vale ressaltar, que neste exemplo de criação de *Load Balancer*, a nuvem AZURE apresenta o menor valor, em segundo lugar a nuvem AWS e, por último, o maior custo neste exemplo é a nuvem GCP. 
+
+É assim que a aplicação uSavings sugere a economia dos recursos contratados para a tomada de decisão na organização.
 
 .. image:: /figuras/fig_usavings/062_criar_storage_imaginary_cloud.png 
     :alt: criar storage imaginary cloud
