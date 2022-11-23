@@ -2194,7 +2194,7 @@ Therefore, the continuous improvement practice adopted on the enhancement of the
 |the creation screen of a network: The screen of      |                 |
 |creation of a network presents the list ordered of   |                 |
 |container and VDC                                    |                 |
-|-----------------------------------------------------+-----------------+
++-----------------------------------------------------+-----------------+
 |Listing in alphabetical order by container and VDC   |tag 5.2-b39 23jun|
 |when creating a Public IP: At the time of creating it|                 |
 |the sorted list of the container and VDC, is         |                 |
