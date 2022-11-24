@@ -1011,6 +1011,8 @@ Após a criação é recebida uma tabela com os dados que foram criados e os pre
 
 Caso o usuário considere necessário deletar o *Imaginary Cloud*, após a criação de todos esses itens, há a opção de apagar qualquer um deles a qualquer momento, no caso de apagar os itens dentro do container deve-se clicar no símbolo de lixeira a esquerda da tabela. Para apagar o container deve-se clicar nele e preencher um modal com o nome do item que se deseja deletar.
 
+====
+
 
 Container Hint
 --------------
@@ -1071,7 +1073,10 @@ O último menu de funcionalidade apresenta a possibilidade de ir à plataforma u
 Conclusão
 =========
 
-Assim, este documento conclui a descrição geral dos procedimentos necessários para o uso. A leitura deste manual de utilização permite ao usuário da aplicação utilizar as suas funcionalidades de maneira adequada. 
+Assim, este documento conclui a descrição geral dos procedimentos necessários para o uso. A leitura deste manual de utilização permite ao usuário da aplicação utilizar as suas funcionalidades de maneira adequada.
+
+====
+
 
 **Equipe Ustore**
 
