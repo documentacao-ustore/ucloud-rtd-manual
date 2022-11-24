@@ -10742,6 +10742,17 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
     * **Botão Criar**: Após certificar que todas as informações - a chave e o seu valor - foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Criar para aplicar alterações, de forma definitiva e imediata. Este botão é obrigatório, no caso do usuário efetuar a remoção das informações existentes a uma etiqueta (tag), após clicar no botão Lata de Lixo. Em seguida, o usuário deve clicar sobre este botão para a Plataforma uCloud fechar esta tela e retornar à tela anterior, com seu conteúdo atualizado.
 
 
+====
+
+**Equipe Ustore**
+
+
+uCloud Manual de uso
+Revisão 22/11/2022
+
+
+
+
 .. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
 
 .. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
