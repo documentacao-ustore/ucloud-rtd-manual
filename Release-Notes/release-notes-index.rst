@@ -47,6 +47,7 @@ English Version
 uCloud Platform evolution notes (Release Notes) are distributed at different times than version updates.
 
 
+::doc:`release.ing-ucloud-2022-jun.jul.aug` |icone_clikhere| 
 
 ::doc:`press-release-ucloud-2022-jun.jul.aug` |icone_clikhere|
 
