@@ -1553,7 +1553,13 @@ Editor de Etiquetas *(tags)* Nativo
 Conclusión
 ----------
 
+====
 
+**Equipo Ustore**
+
+
+uCloud Manual de uso
+Revisión 22/11/2022
 
 
 .. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
