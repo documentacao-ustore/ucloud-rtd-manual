@@ -6,12 +6,12 @@
 ----
 
 
-Complete Release June | July | August - Year 2022
+Quarterly Release June | July | August - Year 2022
 =======================================
 uCloud Plataform version: *Update tags 5.3-b56 and 1.0-account90*
 
 
-—-
+====
 
 
 Introduction
@@ -24,13 +24,14 @@ This uCloud Platform release is an essential communication tool to the disclosur
 The release, in addition to being an informative material with relevant content about the deliveries of one or more increments in the application, aims to provide results for the customers’ investments, obtain an opinion and report the progress, whether it is enhancement, improvement or corrections. It really offers proper visibility in the product development process.
 
 
+====
 
 
 News 
 ====
 
 
-The news or the launches of this period about the uCloud platform covers the seven (7) new implementations, the thirteen (13) improvements made in the *Cloud* category due to the demand in adapting to changes in these providers, forty (40) global enhancements of the uCloud platform and the thirty-four (34) corrective actions, nine (9) being related to the clouds, ten (10) related to the uCloudOPS and fifteen (15) related to Billing. 
+The news or the launches of this period about the uCloud platform covers the seven (7) new implementations, the thirteen (13) improvements made in the Cloud category due to the demand in adapting to changes in these providers, forty (40) global enhancements of the uCloud platform and the thirty-four (34) corrective actions, nine (9) being related to the clouds, ten (10) related to the uCloudOPS and fifteen (15) related to Billing. 
 
 
 Topics to be described in this document:
@@ -48,7 +49,7 @@ Topics to be described in this document:
 * Corrective actions.
 
 
-
+====
 
 
 
@@ -61,23 +62,18 @@ This topic introduces the new seven implementations and inserts detailed informa
 
 
 
-
-
-—---
-
-
-1.**Budget**
-—-----------
+1. **Budget** :
+—--------------
  
 **Budget** is a consumption-based report created with the objective to define a total budget for a certain period (nominated Gap), whether it is monthly, quarterly, semiannual or annual. This report based on consumption, in addition to defining a total budget, allows its visualization with Budgets cost breakdowns.
 
 
 It corresponds to a new implementation on the uCloud Portal, defined by a consumption-based report that aims to pin the total budget for a period and enables the cost forecasts.
 
+====
 
 
-
-Accessing the *Budget*
+Accessing the Budget
 ----------------------
 
 
@@ -163,19 +159,14 @@ Clicking on the `“+ Add” button, the “Create Budget” modal is presented,
 
 ---- 
 
+Creating Budget and Sub Budget
+------------------------------
 
 
+The “Create Budget" modal, displays the blanks: name, gap, month, checkbox to select whether the report is recurring, the amount per cost or per consumed quantity. 
 
 
-
-Creating *Budget* and *Sub Budget*
-----------------------------------
-
-
-The “Create Budget '' modal, displays the blanks: name, gap, month, checkbox to select whether the report is recurring, the amount per cost or per consumed quantity. 
-
-
-Then, the sub budgets details are shown, such as: disambiguation, container selection, value and the [+Include Subbudget], [Cancel]` and [Create] buttons.
+Then, the sub budgets details are shown, such as: disambiguation, container selection, value and the [+Include Subbudget], [Cancel] and [Create] buttons.
 
 
 
@@ -197,8 +188,8 @@ After clicking on the [+Add] button, the Budget creation screen is presented acc
 
 
 
-* Name: Space regarding to the *Budget* name. 
-* Gap: is presented as a dropdown menu, this blank is responsible for the desired period for creating the report (monthly, quarterly, semi-annual or annual).
+* Name: Space regarding to the Budget name. 
+* Gap: Is presented as a dropdown menu, this blank is responsible for the desired period for creating the report (monthly, quarterly, semi-annual or annual).
 
 
 
@@ -297,7 +288,7 @@ The Monthly Gap screen is shown as the process continues to fill in the fields o
 
 
 
-In the sequence below, the user must complete the remaining blanks, finishing this creation “Budget” modal .
+In the sequence below, the user must complete the remaining blanks, finishing this creation Budget modal .
 
 
 
@@ -320,7 +311,7 @@ In the sequence below, the user must complete the remaining blanks, finishing th
 This function enables the automated creation.
 
 
-For example: next month another “budget” will be created , if the quarterly and semiannual will be created a month later of the last month of the period.
+For example: next month another budget will be created , if the quarterly and semiannual will be created a month later of the last month of the period.
 
 
   
@@ -497,28 +488,28 @@ Visualizing the Budget Cost Report
 ----------------------------------------------
 
 
-To visualize the Budget Cost Report, the user must click on the Financial menu, and then click on the Reports submenu. This visualization allows the user the possibility to stay informed about the cost forecasts in detail.
+To visualize the Budget Cost Report, the user must click on the Billing menu, and then click on the Reports submenu. This visualization allows the user the possibility to stay informed about the cost forecasts in detail.
 
 
-In this flow, the Financial screen is presented, in this interface it is possible to choose between accessing the invoice itself or managing it, one of the groups or contracts administered by the logged-in user.
+In this flow, the Billing screen is presented, in this interface it is possible to choose between accessing the invoice itself or managing it, one of the groups or contracts administered by the logged-in user.
 
 
 It is necessary to select the desired period, month and year, to show the results based on these dates. In the sequence, two classes of panels based on consumption and invoice are exhibited.
 
 
-The first topic “Panels Based in Consumption” group seven types of reports:
+The first topic “Consumption-Based Panels” group seven types of reports:
 
 
-1. Service History; 
+1. Service History ; 
 2. Cadence Cost; 
 3. Product Relational Cost; 
-4. Resource Visualization; 
+4. Resource View; 
 5. **Budgets Costs**; 
 6. Consumption Monitoring Report;
 7. Report based on Cost Limit.
 
 
-The second topic “Panels Based in Invoice” brings together five types of panels:
+The second topic “Invoice-Panels Based” brings together five types of panels:
 
 
 1. My Invoice;
@@ -608,21 +599,16 @@ When clicking on the Budget to visualize the sub budgets, the interface delivers
 
 .. note:: When choosing a budget that has a quarterly, semiannual or annual gap, the platform exhibits only the sub budgets for the selected period. In this option, the platform understands that it is about an incomplete period of this Budget. To display all months, the full budget period must be chosen.
 
-
-—-
-
-
-—-
+====
 
 
-2. **Contract-level branding customization**: The Multicloud portal branding is allowed through the personalization defined by contract. The user customer can select the characteristics of their brand (Company) represented in the Multicloud portal, such as colors, logo, among others. 
+2. **Contract-level branding customization** : The Multicloud portal branding is allowed through the personalization defined by contract. The user customer can select the characteristics of their brand (Company) represented in the Multicloud portal, such as colors, logo, among others. 
 
 
+====
 
-—-
 
-
-3. **Dimension**: 
+3. **Dimension** : 
 ------------------
 
 
@@ -660,7 +646,7 @@ Thus, when unifying this group of Tags in a dimension, it is possible to identif
 
  * For example:
  
-   * product: EFG & department:IT
+   * product: EFG & department: IT
 
 
 In the example above, the expression represents that this dimension desires all resources to have the Tags: “product: EFG & department:IT”. This expression is considered simple, nonetheless, something more complex can be built from what has been implemented. 
@@ -751,8 +737,8 @@ To better understand the function of each blank, observe the detailing of these 
 
 
 
- Creating a Group of *Tags*
-~~~~~~~~~~~~~~~~~~~~
+Creating a Group of *Tags*
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -797,7 +783,6 @@ Next to these icons, the following information appears :
    :align: center
 ----
 
-
 .. attention:: |atencao| It is important to note that in case the “Dimension” construction does not match the conditions presented in the message, the “Save” button is unavailable for activation. 
 
 
@@ -812,14 +797,8 @@ In the image below, it is also possible to notice that in the Structure function
 ----  
 
 
-
-
-
-
 Creating *Tag*
 ~~~~~~~~~~~~~
-
-
 
 
 By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
@@ -932,7 +911,7 @@ After the initialization of the process of creating a “Dimension”, it is nec
 
 To do so, the user must click on the plus sign “+” next to the Structure, which shows two **logical operators** </> OR and </> AND.
 
-
+====
 
 
 Using the logical operator
@@ -1030,6 +1009,7 @@ At the end of this step, the final structure of a dimension is displayed, and to
 Upon completion of this action, the saved “Dimension” is shown in the dimension listing.
 
 
+====
 
 
 Listing Dimension
@@ -1062,7 +1042,7 @@ On this screen, the user can opt between creating a new dimension, editing an ex
 
 In this list, the columns of “Name” and “Actions” are presented, the information can be personalized and retrieved by clicking on the blocks of 10, 25, 50 or 100 lines. The “Actions” column allows the “Edit” and “Delete” operations.
 
-
+====
 
 
 Editing a Dimension
@@ -1109,44 +1089,45 @@ It is also possible to realize that for each action performed, the Structure, lo
 For the alteration to be confirmed, it is necessary for the user to press the “Save” button, next to the Structure function, located in the lower right corner of the page.
 
 
+===
 
 
 Where the “Dimension” is used
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Currently, this implementation groups Tags and gathers them in the “Dimension”created, facilitating the categorized visualization in other functionalities of the platform.
+Currently, this implementation groups Tags and gathers them in the “Dimension” created, facilitating the categorized visualization in other functionalities of the platform.
 
 
-Furthermore, the “Dimension” is used in the modal “Create Budget” included in the card named “Sub Budget Details” in desambiguação_ .
-
-
-
-
-.. _desambiguação: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#criando-budget-e-sub-budget
+====
 
 
 
+4. **Import and Export of service offerings in (XML + YAML)** : 
+
+In this new functionality it is possible to import and export the same offer from any cloud, as long as it is linked to the uCloud Portal. Before, it was possible to import and export files in JSON format, so the options to import and export files were also in XML and YAML formats. [tag 5.3-b43 10aug]
 
 
-
-—-
-
+====
 
 
+5. **Importing Google Credentials in AWS Secret Manager** : 
 
-4. **Import and Export of service offerings in (XML + YAML)**: In this new functionality it is possible to import and export the same offer from any cloud, as long as it is linked to the uCloud Portal. Before, it was possible to import and export files in JSON format, so the options to import and export files were also in XML and YAML formats. [tag 5.3-b43 10aug]
-
-
-5. **Importing Google Credentials in AWS Secret Manager**: Secret Manager is a repository where the information that only the user has access to is stored. To import this user’s Google credential data, the action must be done through uCloud so they are transferred from the hidden AWS repository. [tag 5.3-b16 28jul]
+Secret Manager is a repository where the information that only the user has access to is stored. To import this user’s Google credential data, the action must be done through uCloud so they are transferred from the hidden AWS repository. [tag 5.3-b16 28jul]
 
 
-6. **Account Level Permissions**: This new functionality optimizes a user’s permission process. In account-level permission mode, the user can perform actions from the permission profile created for them, whether it is basic or advanced. This user has the power to administer several contracts linked to an account, according to the permissions granted to them. 
+====
 
 
-7. **Consumption Monitoring Report (V1)**: 
-------------------------------------------------------
+6. **Account Level Permissions** : 
 
+
+This new functionality optimizes a user’s permission process. In account-level permission mode, the user can perform actions from the permission profile created for them, whether it is basic or advanced. This user has the power to administer several contracts linked to an account, according to the permissions granted to them. 
+
+====
+
+
+7. **Consumption Monitoring Report (V1)** : 
 
 
 
@@ -1172,7 +1153,7 @@ In this document, different types of indexes are generated, which can be tables,
 In addition, the **Consumption Monitoring Report (V1)**, briefly named **CMR.v1**, compares the expenses of the current month with the previous month, providing the company with the necessary information to be able to evaluate the disbursement and have an efficient control of possible drops or increase in consumption. 
 
 
-
+====
 
 
 
@@ -1182,7 +1163,7 @@ Accessing the CMR.v1
 
 
 
-To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the “Financial” menu, identified in the lower left corner. And then, click on the “Reports” submenu.
+To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the “Billing” menu, identified in the lower left corner. And then, click on the “Reports” submenu.
 
 
 
@@ -1212,7 +1193,7 @@ The screen below presents all the options related to accessing and managing invo
 
 
 
-When clicking on the “Reports” submenu, the topic “Panel Based in Consumption” provides access to reports related to consumption for the current month typed on the search by the user.
+When clicking on the “Reports” submenu, the topic “Consumption-Based Panel” provides access to reports related to consumption for the current month typed on the search by the user.
 
 
 
@@ -1249,7 +1230,7 @@ It groups seven types of reports, one of them is the **Consumption Monitoring Re
 By clicking on this option, the user can generate the desired document. 
 
 
-
+====
 
 
 
@@ -1264,10 +1245,6 @@ After clicking on **Consumption Monitoring Reports (v1) - CMR.v1**, a new screen
 
 
 
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/5_RMConsumo.png 
    :alt: Relatório Monitoramento Consumo v1 
    :align: center 
@@ -1276,22 +1253,12 @@ After clicking on **Consumption Monitoring Reports (v1) - CMR.v1**, a new screen
 ----
   
 
-
-
-
-
-
 In this same modal, two buttons are displayed: 
 
 
 
-
-* [**GENERATE REPORT** Remains available for activation when at least one contract is selected. 
+* [**GENERATE REPORT**] Remains available for activation when at least one contract is selected. 
 * [**SELECT ALL**]. Refers to the contracts filter. There it is possible to note the scroll and search bar. 
-
-
-
-
 
 
 
@@ -1305,17 +1272,7 @@ In this same modal, two buttons are displayed:
 
 
 
-
-
-
-
-
 The scroll bar, located on the right side, helps the user to navigate through the modal in search for the desired contract. The search bar facilitates the search, the user just needs to type the initial letters of the contract.
-
-
-
-
-
 
 
 
@@ -1328,16 +1285,7 @@ The scroll bar, located on the right side, helps the user to navigate through th
   
 
 
-
-
-
-
 After clicking on Generate Report, a new screen opens, showing the month selected by the user and the [DOWNLOAD] and [GENERATE NEW REPORT] buttons. 
-
-
-
-
-
 
 
 
@@ -1354,18 +1302,10 @@ After clicking on Generate Report, a new screen opens, showing the month selecte
 The [DOWNLOAD] button is only unlocked when the data is compiled on the platform and it makes available the report for the period and the selected contract. 
 
 
-
-
-
-
 In the example of the following screen, the platform informs that the “user does not have reports generated for the contracts and period selected” and asks the user to click on [GENERATE NEW REPORT].
 
 
 To download the file, the user just needs to click on the referred button.
-
-
-
-
 
 
 
@@ -1380,15 +1320,17 @@ To download the file, the user just needs to click on the referred button.
 
 
 
-
-
 In case there is no data, the reports become unavailable for the selected month, the [DOWNLOAD] button appears inactive (gray color) and the platform issues the message mentioned in the previous example and printed on the image above.
 
 
 When there is data to be published on the period selected by the user, the platform informs that the report is in process of compiling the data. 
 
 
-Monitoring the status on the Task menu
+====
+
+
+
+Monitoring the status on the Task Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -1402,20 +1344,14 @@ In the flow of creating the CMR.v1, the platform presents two types of situation
 **Case 1:** 
 
 
-
-
 * **Admin user**: When opening the Tasks functionalities, it must be observed the “Pending Approvals” tab, which presents the columns: Operation, user, details, progress, start date, duration, status and actions.
-
 
 
 
 **Case 2:** 
 
 
-
-
 * **User user**: When creating the report, the user must request the administrator of their contract to carry out the approval of the requested task. 
-
 
 
 
@@ -1425,9 +1361,7 @@ In the flow of creating the CMR.v1, the platform presents two types of situation
 In the “Actions” column located on the “Pending Approvals” tab **the admin user** of the contract must approve the action to “Generate Report”. In case of the “User user”, they must request the administrator of the contract to carry out or not the approval of the task.
 
 
-
-
-  
+ 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/10_Tarefas.png 
@@ -1448,7 +1382,7 @@ Next, they must wait for the “Status” to be updated, that can be: Running, F
 After successfully creating the new report, the data was compiled on the uCloud platform.
 
 
-
+====
 
 
 
@@ -1457,9 +1391,7 @@ Enabling the download of the CMR.v1
 
 
 
-
 When creating a new report successfully, the user must repeat the flow to download it once the data is compiled on the uCloud platform. 
-
 
 
 
@@ -1476,18 +1408,12 @@ In the sequence, it is necessary to select again, the same period and contracts 
 
 
 
-
-
-
 At this point, the user must observe if the [GENERATE REPORT] button is enabled (orange color), if so, it means that the flow to download the CMR.v1 continues, the data is previously prepared and can be extracted in the report format. 
 
 
 
 
 In the course of this procedure, the platform presents the unlocking of the [Download] button, displaying it in green, according to the following image. 
-
-
-
 
 
 
@@ -1502,21 +1428,13 @@ In the course of this procedure, the platform presents the unlocking of the [Dow
 
 
 
-
-
-
 The user must check the message the platform presents: “Report generated for the contracts and selected period. They can download it or generate a new one with the same settings”. 
-
-
 
 
 At the end of this sequence of activities, to download the desired CMR.v1 file, the user must click on the [DOWNLOAD] button.
 
 
-
-
-
-
+====
 
 
 Visualizing the CMR.v1
@@ -1524,15 +1442,10 @@ Visualizing the CMR.v1
 
 
 
-
-
-
 After generating and downloading  the **Consumption Monitoring Reports (v1) - CMR.v1**, an example is presented and described: 
 
 
 **Front Cover**
-
-
 
 
 The document has a cover, which contains the following information:
@@ -1549,10 +1462,6 @@ According to the picture shown below:
 
 
 
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/13_RMCv1_Capa.png 
    :alt: RMCv1 Capa
    :align: center 
@@ -1562,19 +1471,10 @@ According to the picture shown below:
   
 
 
-
-
-
-
 **1 - Executive Summary** 
 
 
-
-
 In the Executive Summary, an explicative text is presented, describing the variation of the values and the percentage that occurred in the current month’s invoice in comparison to the previous month, as shown in the example:
-
-
-
 
 
 
@@ -1587,22 +1487,14 @@ In the Executive Summary, an explicative text is presented, describing the varia
 
 
 
-
-
-
-
-
 **1.1 - Invoicing History**
-
-
 
 
 Right after the executive summary, there is the Invoicing History, that presents a table with the period selected by the user, in which the value of the desired cloud in Reais (BRL) and Cloud Service Unit (Unidade de Serviço de Nuvem - USN -, in Portuguese) is shown , and the rate of change in percentage of the previous month as well as the current month.
 
 
 
-
-.. attention::  |atencao| Cloud Service Unit (USN), is a pricing model for cloud services, assigned to companies that are associated with the government spheres. 
+.. attention:: |atencao| Cloud Service Unit (USN), is a pricing model for cloud services, assigned to companies that are associated with the government spheres. 
 
 
 .. important:: USN aims to establish itself as a predictable, linear and flexible method to obtain a specific amount to be charged for cloud computational services.
@@ -1612,18 +1504,12 @@ Right after the executive summary, there is the Invoicing History, that presents
 
 
 
-
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/15_Histórico_de_faturamento.png 
    :alt: Histórico de faturamento
    :align: center 
 
 
 ----
-
 
 
 
@@ -1637,11 +1523,7 @@ This rule is intended to keep the document more compact, avoiding to extend it, 
 
 
 
-
 * First AWS cloud example:
-
-
-
 
 
 
@@ -1653,21 +1535,11 @@ This rule is intended to keep the document more compact, avoiding to extend it, 
 ----
 
 
-
-
-
-
 For the sake of completeness and better visualization, this part of the document also generates a pie chart, containing the same information as the expenses of the table illustratively, separating the contracts by colors for better comprehension by the user.
 
 
 
-
 * Second example of AWS cloud pie chart:
-
-
-
-
-
 
 
 
@@ -1679,23 +1551,12 @@ For the sake of completeness and better visualization, this part of the document
 ---- 
 
 
-
-
-
-
 .. note:: |nota| In case of more than one cloud, the report follows the same pattern of presentation and information. 
 
 
 
 
-
-
-
-
 * Third Azure cloud example:
-
-
-
 
 
 
@@ -1708,15 +1569,11 @@ For the sake of completeness and better visualization, this part of the document
 
 
 
-
 **2 - Invoice per Contract/Project**
 
 
 
-
 In the Invoice per Contract/Project, the general expenses of the contracts of each cloud is first informed, as shown in the executive summary, with their values in BRL and USN.
-
-
 
 
 
@@ -1728,8 +1585,6 @@ In the Invoice per Contract/Project, the general expenses of the contracts of ea
 
 ---- 
  
-
-
 
 
 Following the table, a graph is presented containing the proportion of these consumptions in percentages, as shown below:
@@ -1749,18 +1604,11 @@ As in the Invoicing History, in the Invoicing per Contract/Project, a graph is a
 ----
 
 
-
-
  
 After the chart, the following image exposes and specifies **all** contracts for each cloud (in addition to the top five displayed in the invoicing history), with the most recent projects being highlighted.
 
 
-
-
 The example in the table below details the costs of the cloud, its contracts, and totals the value, presented in BRL and USN.
-
-
-
 
 
 
@@ -1772,17 +1620,10 @@ The example in the table below details the costs of the cloud, its contracts, an
 
 
 
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/21_Exemplo_azure.png 
    :alt: Exemplo azure
    :align: center 
-
-
 ---- 
-
-
-
 
 
 
@@ -1810,9 +1651,7 @@ This table takes into account only the most relevant variations, with a cut cont
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/22_Maiores_variações.png 
    :alt: Maiores variações
-   :align: center 
-
-
+   :align: center
 ----
 
 
@@ -1826,17 +1665,10 @@ It is possible to notice that the greater the variation, the darker the tone.
 
 
 
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/23_Maiores_variações.png 
    :alt: Maiores variações
-   :align: center 
-
-
+   :align: center
 ----
-
-
-
 
 
 
@@ -1844,22 +1676,10 @@ Furthermore, the contract with the highest variation value is highlighted, and p
 
 
 
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_aws.png 
    :alt: Mudança aws
-   :align: center 
-
-
+   :align: center
 ---- 
-
-
-
-
-
-
-
 
 
 
@@ -1870,43 +1690,23 @@ Furthermore, the contract with the highest variation value is highlighted, and p
 
 
 
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudança_aws_lista2.png 
    :alt: Mudança aws_lista
-   :align: center 
-
-
+   :align: center
 ---- 
-
-
-
-
-
-
-
-
 
 
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudanca_Azure.png 
    :alt: Mudança azure
-   :align: center 
-
-
+   :align: center
 ----
 
 
 
 
-
-
 Right after the bar graph, a descriptive table is presented, with columns *Product* and *Total Value* *(BRL)* of the amount of each resource invested separately and specifically, from the highest value to the lowest.
-
-
 
 
 
@@ -1918,15 +1718,9 @@ Right after the bar graph, a descriptive table is presented, with columns *Produ
 
 
 
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/20_consumo_MaioresVariações.png 
    :alt: Consumo maiores variações
-   :align: center 
-
-
+   :align: center
 ----
 
 
@@ -1944,56 +1738,35 @@ Finally, an index is exposed, containing the clipping of the three contracts tha
 
 
 
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/25_Detalhamento.png 
    :alt: Detalhamento
-   :align: center 
-
-
+   :align: center
 ----
-
-
 
 
 Next, the summary of how much each product costs the contract is presented in more detail, specifying them and showing the percentage of the total expenses of each contract. Such information is displayed from a illustrative graph, according to the example below:
 
 
 
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/26_Detalhamento_lista.png 
    :alt: Detalhamento lista
    :align: center 
-
-
+----
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/27_Detalhamento_lista_2.png 
    :alt: Detalhamento lista2
    :align: center 
-
-
-
-
+----
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/28_Detalha_lista3.png 
    :alt: Detalhamento lista3
-   :align: center 
-
-
+   :align: center
 ----
 
 
-
-
-
-
 .. attention:: |atencao| In case of more than one cloud, the report follows the same pattern of presentation and information.
-
 
 
 
@@ -2003,14 +1776,7 @@ Finally, is noticeable that the implementation **Consumption Monitoring Report (
 This update has a vast index, containing tables, reports and graphs that range from the most general to the most specific, granting the company and, consequently, the user all the necessary information and tools that allow total control over their investments and projects.
 
 
-
-
-
-
-—-
-
-
-
+====
 
 
 
@@ -2120,21 +1886,21 @@ On what concerns the integration with the public cloud service provider Google C
 
 
 Huawei Cloud (Huawei)
-—-----------------------------
+---------------------
 
 
 Regarding the interaction with the public cloud service provider Huawei there is no occurrence of alteration, new implementation or functionality.
 
 
 IBM Cloud (IBM)
-—-------------------
+---------------
 
 
 Regarding the interaction with the public cloud service provider IBM there is no record of correction, alteration, new functionality or implementation.
 
 
 VMware 6.5 or superior (vCenter/vSphere)
----------------------------------------------------------
+----------------------------------------
 
 
 On what concerns the interaction with the VCenter/vSphere hypervisor, the following improvement is related:
@@ -2152,7 +1918,7 @@ On what concerns the interaction with the VCenter/vSphere hypervisor, the follow
 
 
 VMWare vCloud (vCloud)
-—-------------------------------
+----------------------
 
 
 Regarding the interaction with the vCloud hypervisor there is no occurrence of alteration, correction, new implementation or functionality.
@@ -2160,10 +1926,6 @@ Regarding the interaction with the vCloud hypervisor there is no occurrence of a
 
 
 ----
-
-
-
-
 
 
 
@@ -2368,13 +2130,12 @@ The corrective actions of fix and bugs can refer to:
 
 
 
-
 Clouds Adaptations
 ================
 
 
 Amazon Web Services (AWS)
-—---------------------------------------
+-------------------------
 
 
 Regarding the interaction with the public cloud service provider Amazon Web Services (AWS), the following corrective action can be listed:
@@ -2386,13 +2147,13 @@ Regarding the interaction with the public cloud service provider Amazon Web Serv
 +=====================================================+=================+
 |Balancer creation with the selected Safety Group     |tag 1.0-account65|
 |[fix]                                                |            20aug|
-+-----------------------------------------------------+-----------------|
++-----------------------------------------------------+-----------------+
 
 
 
 
 Microsoft Azure (Azure)
-—------------------------------
+-----------------------
 
 
 Regarding the interaction with the public cloud service provider Microsoft AZURE, the following corrections are listed: 
@@ -2418,7 +2179,7 @@ Regarding the interaction with the public cloud service provider Microsoft AZURE
 
 
 Google Cloud Platform (GCP)
-—--------------------------------------
+---------------------------
 
 
 Regarding the interaction with the public cloud service provider Google Cloud Platform (GCP), the following corrections can be listed: 
@@ -2438,17 +2199,15 @@ Regarding the interaction with the public cloud service provider Google Cloud Pl
 
 
 
-
-
 Huawei Cloud (Huawei)
-—------------------------------
+---------------------
 
 
 Regarding the interaction with the public cloud service provider Huawei Cloud, there has been no alteration, correction, new implementation or new functionality.
 
 
 IBM Cloud
-—-----------
+---------
 
 
 Regarding the interaction with the public cloud service provider IBM Cloud, the following correction can be listed:
@@ -2465,10 +2224,8 @@ Regarding the interaction with the public cloud service provider IBM Cloud, the 
 
 
 
-
-
 VMware vCloud
-—-------------------
+-------------
 
 
 Regarding the interaction with the private cloud hypervisor VMware 6.5 (or superior), the following corrections can be listed:
@@ -2514,7 +2271,7 @@ uCloud Plataform
 |from the amount displayed on the screen           |                 |
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
-| uCloud dashboard screen crashing when logging in |tag 5.3-b17 28jul|
+|uCloud dashboard screen crashing when logging in  |tag 5.3-b17 28jul|
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
 |Adding a VM to a workflow                         |tag 5.3-b51 16aug|
@@ -2529,8 +2286,6 @@ uCloud Plataform
 |*Query* for VM                                    |tag 5.3-b39 08aug|
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
-
-
 
 
 
@@ -2589,21 +2344,13 @@ uCloud Plataform
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
 
-
-
-
-
 ----
-
-
 
 
 This release evokes the principle of the ISO 9001 norm, elaborated by the International Organization of Normalization, (in Brazil known as ABNT NBR ISO 9001). Which aims to establish consistent standards that increase the quality of the applied processes and result in the continuous improvement and adjustments in functionalities, in pursuit of a quality management and business excellence. 
 
 
 The above refers to the principle of the ISO 9001 norm. 
-
-
 
 
 In summary, the document presents:
@@ -2615,7 +2362,7 @@ In summary, the document presents:
 * Thirty-four (34) corrective actions, including:
    * Nine (09) related to clouds;
    * Ten (10) related to uCloudOPS and; 
-   * Fifteen(15) belonging to *Billing*. 
+   * Fifteen(15) belonging to Billing. 
 
 
 Therefore, the quarterly release is concluded, corresponding to the launches that took place in the months of June, July and August of the current year, on the uCloud platform, innovations generated in the Ustore development area.
