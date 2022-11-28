@@ -63,7 +63,7 @@ This topic introduces the new seven implementations and inserts detailed informa
 
 
 1. **Budget** :
-—--------------
+---------------
  
 **Budget** is a consumption-based report created with the objective to define a total budget for a certain period (nominated Gap), whether it is monthly, quarterly, semiannual or annual. This report based on consumption, in addition to defining a total budget, allows its visualization with Budgets cost breakdowns.
 
@@ -147,9 +147,9 @@ On this detailed contract screen, the user must use the scroll bar and browse un
 The Budget card displays two buttons, [REFRESH] and [+Add]. 
 
 
-.. attention:: In this image example, the Budgets have not yet been created, so it is blank, with the attention symbol. 
+.. attention:: |atencao| In this image example, the Budgets have not yet been created, so it is blank, with the attention symbol. 
    
-Clicking on the `“+ Add” button, the “Create Budget” modal is presented, and from that point on, the user starts the first creation. 
+Clicking on the “+ Add” button, the “Create Budget” modal is presented, and from that point on, the user starts the first creation. 
 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
@@ -171,7 +171,7 @@ Then, the sub budgets details are shown, such as: disambiguation, container sele
 
 
 
-.. important:: The disambiguation is responsible for the sub budget purpose, so, by clicking on the checkbox, the user  visualizes and can filter one of the five types of existing elements: Account Master - Container - Cloud Type - Dimension - TagUsn. 
+.. important:: |importante| The disambiguation is responsible for the sub budget purpose, so, by clicking on the checkbox, the user  visualizes and can filter one of the five types of existing elements: Account Master - Container - Cloud Type - Dimension - TagUsn. 
 
 
 .. figure:: /figuras/fig_budget/04_criar_budget.png
@@ -274,7 +274,7 @@ Allows to create a sub budget for each month of the year, manually or by checkin
 When including a sub budget, it is added for all months, remembering that the Budget value refers to the year.
 
 
-.. attention:: Creating sub budgets for all the months of the year, the sum must be limited to the total amount of the budget. 
+.. attention:: |atencao| Creating sub budgets for all the months of the year, the sum must be limited to the total amount of the budget. 
 
 
 
@@ -288,7 +288,7 @@ The Monthly Gap screen is shown as the process continues to fill in the fields o
 
 
 
-In the sequence below, the user must complete the remaining blanks, finishing this creation Budget modal .
+In the sequence below, the user must complete the remaining blanks, finishing this creation Budget modal.
 
 
 
@@ -311,7 +311,9 @@ In the sequence below, the user must complete the remaining blanks, finishing th
 This function enables the automated creation.
 
 
-For example: next month another budget will be created , if the quarterly and semiannual will be created a month later of the last month of the period.
+For example: 
+
+Next month another budget will be created, if the quarterly and semiannual will be created a month later of the last month of the period.
 
 
   
@@ -342,7 +344,7 @@ After filling in these data, the blanks about sub budget details must be complet
 
 
 
-.. note:: Is possible to insert the sub budgets to our main Budget, limiting the rule that its value of this has to be equal to the sum of the values of its sub budgets. In case the value represents a higher or lower number, the budget creation button remains disabled and the “remaining balance” differs from 0.
+.. note:: |nota| Is possible to insert the sub budgets to our main Budget, limiting the rule that its value of this has to be equal to the sum of the values of its sub budgets. In case the value represents a higher or lower number, the budget creation button remains disabled and the “remaining balance” differs from 0.
 
 
 
@@ -375,7 +377,7 @@ On this step, the sub budget amount must be filled in, and when the desired amou
 After completing the data, the user must click on the button “Include Subbudget”, to finish the inclusion. As a result of the operation, the screen displays the list of the sub budget included according to the image below:
 
 
-.. important:: The remaining balance corresponds to the value that indicates the remaining balance of the budget, equals the value of the budget subtracted by the sum of the value of all sub budgets. The “Create Budget” button remains disabled if the remaining balance is different from zero. 
+.. important:: |importante| The remaining balance corresponds to the value that indicates the remaining balance of the budget, equals the value of the budget subtracted by the sum of the value of all sub budgets. The “Create Budget” button remains disabled if the remaining balance is different from zero. 
 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
@@ -414,7 +416,7 @@ In this flow, to detail the sub budget with a distinct disambiguation, just sele
   
 
 
-When filling in the desired value, it is necessary to observe the amount available in the “Remaining Balance” area, located below the “Value” space. After completing it, just press the “Add Subdbudget” button next to the “Value”box, so that the disambiguation sub budget of the “Dimension” type created joins the disambiguation sub budget of the “Container” type that was generated previously.
+When filling in the desired value, it is necessary to observe the amount available in the “Remaining Balance” area, located below the “Value” space. After completing it, just press the “Add Subdbudget” button next to the “Value” box, so that the disambiguation sub budget of the “Dimension” type created joins the disambiguation sub budget of the “Container” type that was generated previously.
 
 
 Both shown in the list below:
@@ -434,10 +436,11 @@ Both shown in the list below:
 To finish the process of Budgets and sub budgets creation, just click on the “Create” button  located in the lower right corner of the screen. 
 
 
+====
 
 
 Editing Budget 
--------------------
+--------------
 
 
 To edit a “Budget”, the user just needs to access the Administration menu, and then click on the Contracts submenu, the platform displays a list of all the existing contracts. 
@@ -479,13 +482,14 @@ On this screen it is possible to change the name, month, value, if the budget is
 
 
 
-.. important:: In summary, the sub budgets are not altered, it is necessary to remove and add the new budget.
+.. important:: |important| In summary, the sub budgets are not altered, it is necessary to remove and add the new budget.
 
 
+====
 
 
 Visualizing the Budget Cost Report
-----------------------------------------------
+----------------------------------
 
 
 To visualize the Budget Cost Report, the user must click on the Billing menu, and then click on the Reports submenu. This visualization allows the user the possibility to stay informed about the cost forecasts in detail.
@@ -597,12 +601,15 @@ When clicking on the Budget to visualize the sub budgets, the interface delivers
 
 
 
-.. note:: When choosing a budget that has a quarterly, semiannual or annual gap, the platform exhibits only the sub budgets for the selected period. In this option, the platform understands that it is about an incomplete period of this Budget. To display all months, the full budget period must be chosen.
+.. note:: |nota| When choosing a budget that has a quarterly, semiannual or annual gap, the platform exhibits only the sub budgets for the selected period. In this option, the platform understands that it is about an incomplete period of this Budget. To display all months, the full budget period must be chosen.
 
 ====
 
 
-2. **Contract-level branding customization** : The Multicloud portal branding is allowed through the personalization defined by contract. The user customer can select the characteristics of their brand (Company) represented in the Multicloud portal, such as colors, logo, among others. 
+2. **Contract-level branding customization** :
+----------------------------------------------
+
+The Multicloud portal branding is allowed through the personalization defined by contract. The user customer can select the characteristics of their brand (Company) represented in the Multicloud portal, such as colors, logo, among others. 
 
 
 ====
@@ -610,8 +617,6 @@ When clicking on the Budget to visualize the sub budgets, the interface delivers
 
 3. **Dimension** : 
 ------------------
-
-
 
 
 Dimension is a new implementation of the uCloud platform, and was created to group tags of different nomenclature, but that are part of the same context, that are tagged in distinct clouds. That way, it avoids equal resources being tagged differently.
@@ -651,7 +656,7 @@ Thus, when unifying this group of Tags in a dimension, it is possible to identif
 
 In the example above, the expression represents that this dimension desires all resources to have the Tags: “product: EFG & department:IT”. This expression is considered simple, nonetheless, something more complex can be built from what has been implemented. 
 
-
+====
 
 
 Creating a Dimension
@@ -735,6 +740,7 @@ To better understand the function of each blank, observe the detailing of these 
 * “Save” button: After completing the data, the user must press on the “Save” button so they are not lost.
 
 
+====
 
 
 Creating a Group of *Tags*
@@ -832,8 +838,7 @@ The first step for the user is to select one of the companies listed in the drop
    :align: center
 ----
 
-
-  
+ 
 
 
 After selecting the desired company, the “Filter” button, next to the dropdown menu, is available for activation, as exemplified in the image below:
@@ -1089,7 +1094,7 @@ It is also possible to realize that for each action performed, the Structure, lo
 For the alteration to be confirmed, it is necessary for the user to press the “Save” button, next to the Structure function, located in the lower right corner of the page.
 
 
-===
+====
 
 
 Where the “Dimension” is used
@@ -1104,6 +1109,8 @@ Currently, this implementation groups Tags and gathers them in the “Dimension�
 
 
 4. **Import and Export of service offerings in (XML + YAML)** : 
+---------------------------------------------------------------
+
 
 In this new functionality it is possible to import and export the same offer from any cloud, as long as it is linked to the uCloud Portal. Before, it was possible to import and export files in JSON format, so the options to import and export files were also in XML and YAML formats. [tag 5.3-b43 10aug]
 
@@ -1112,6 +1119,8 @@ In this new functionality it is possible to import and export the same offer fro
 
 
 5. **Importing Google Credentials in AWS Secret Manager** : 
+-----------------------------------------------------------
+
 
 Secret Manager is a repository where the information that only the user has access to is stored. To import this user’s Google credential data, the action must be done through uCloud so they are transferred from the hidden AWS repository. [tag 5.3-b16 28jul]
 
@@ -1120,18 +1129,18 @@ Secret Manager is a repository where the information that only the user has acce
 
 
 6. **Account Level Permissions** : 
-
+----------------------------------
 
 This new functionality optimizes a user’s permission process. In account-level permission mode, the user can perform actions from the permission profile created for them, whether it is basic or advanced. This user has the power to administer several contracts linked to an account, according to the permissions granted to them. 
 
 ====
 
 
-7. **Consumption Monitoring Report (V1)** : 
+7. **Consumption Monitoring Report (v1)** : 
+-------------------------------------------
 
 
-
-The Consumption Monitoring Report (V1) is a new functionality of the uCloud portal, which deals with the invoicing tracking and complete spending detail, categorized by Clouds (for example: *AWS* and *AZURE*) Contracts and Resources.
+The Consumption Monitoring Report (v1) is a new functionality of the uCloud portal, which deals with the invoicing tracking and complete spending detail, categorized by Clouds (for example: AWS and AZURE) Contracts and Resources.
 
 
 In this document, different types of indexes are generated, which can be tables, reports and graphs, for each type of class (Resource, Contract and Cloud). These are titled in topics as:
@@ -1150,7 +1159,7 @@ In this document, different types of indexes are generated, which can be tables,
 
 
 
-In addition, the **Consumption Monitoring Report (V1)**, briefly named **CMR.v1**, compares the expenses of the current month with the previous month, providing the company with the necessary information to be able to evaluate the disbursement and have an efficient control of possible drops or increase in consumption. 
+In addition, the **Consumption Monitoring Report (v1)**, briefly named **CMR.v1**, compares the expenses of the current month with the previous month, providing the company with the necessary information to be able to evaluate the disbursement and have an efficient control of possible drops or increase in consumption. 
 
 
 ====
@@ -1497,7 +1506,7 @@ Right after the executive summary, there is the Invoicing History, that presents
 .. attention:: |atencao| Cloud Service Unit (USN), is a pricing model for cloud services, assigned to companies that are associated with the government spheres. 
 
 
-.. important:: USN aims to establish itself as a predictable, linear and flexible method to obtain a specific amount to be charged for cloud computational services.
+.. important:: |importante| USN aims to establish itself as a predictable, linear and flexible method to obtain a specific amount to be charged for cloud computational services.
 
 
 .. note:: |nota| The USN metric consists of establishing a specific reference value for each type of cloud service, according to the individual metric associated with the resource consumption.
@@ -2366,3 +2375,11 @@ In summary, the document presents:
 
 
 Therefore, the quarterly release is concluded, corresponding to the launches that took place in the months of June, July and August of the current year, on the uCloud platform, innovations generated in the Ustore development area.
+
+
+
+.. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
+
+.. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
+
+.. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
