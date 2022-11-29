@@ -803,8 +803,8 @@ Creating *Tag*
 By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
 
 
-.. image:: /figuras/fig_ucloud_findimensao/09_dimensão_mensagem_tag_expandida.png
-   :alt: Financeiro Dimensão_mensagem_tag_expandida
+.. image:: /figuras/fig_ucloud_findimensao/09_dimension_message_tag_expanded.png
+   :alt: Biling Dimension_message_tag_expended
    :align: center
 ----
 
@@ -814,8 +814,8 @@ When clicking on Tag, the Tag creation modal is presented:
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/10_dimensão_modal_tag.png
-   :alt: Financeiro Dimensão_modal_tag
+.. image:: /figuras/fig_ucloud_findimensao/10_dimension_modal_tag.png
+   :alt: Billing Dimension_modal_tag
    :align: center
 ----
 
@@ -922,8 +922,8 @@ Logical operators are a part of the programming language, and they are used for 
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/17_dimensão_operadores_lógicos_closeup.png
-   :alt: Financeiro Dimensão_operadores_lógicos_closeup
+.. image:: /figuras/fig_ucloud_findimensao/17_dimension_logical_operators_closeup.png
+   :alt: Billing Dimension_logical_operators_closeup
    :align: center
 ----
 
@@ -947,8 +947,8 @@ Resting the mouse cursor on the operator option </> OR, the following message is
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/18_dimensão_operador_ou_closeup.png
-   :alt: Financeiro Dimensão_operador_ou_closeup
+.. image:: /figuras/fig_ucloud_findimensao/18_dimension_operator_or_closeup.png
+   :alt: Billing Dimension_logical_operator_or_closeup
    :align: center
 ----
 
@@ -963,8 +963,8 @@ When hovering the mouse over the </> AND operator, the following message is pres
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/19_dimensão_operador_e_closeup.png
-   :alt: Financeiro Dimensão_operador_e_closeup
+.. image:: /figuras/fig_ucloud_findimensao/19_dimension_operator_and_closeup.png
+   :alt: Billing Dimension_operator_and_closeup
    :align: center
 ----
 
