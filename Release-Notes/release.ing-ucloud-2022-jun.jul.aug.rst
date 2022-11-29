@@ -665,7 +665,7 @@ To create a dimension, the user must click on the Financial menu, and then on th
 2. Virtual Tags.
 
 
-.. image:: /figuras/fig_ucloud_findimensao/01_dimension_billing_menu.png
+.. image:: /figuras/fig_dimensao_ing/01_dimension_billing_menu.png
    :alt: Dimension billing menu
    :align: center
 ----
@@ -685,7 +685,7 @@ When selecting the “Dimension” option, the listing of dimensions generated p
 In case this is the first dimension to be created by the user, no list is displayed on the screen, as shown in the next image:
 
 
-.. image:: /figuras/fig_ucloud_findimensao/03_dimension_empty_listing.png
+.. image:: /figuras/fig_dimensao_ing/03_dimension_empty_listing.png
    :alt: Billing Dimension empty listing
    :align: center
 ----
@@ -699,7 +699,7 @@ After clicking, the initial screen to create a “Dimension” is presented, as 
   
 
 
-.. image:: /figuras/fig_ucloud_findimensao/04_dimension_start.png
+.. image:: /figuras/fig_dimensao_ing/04_dimension_start.png
    :alt: Billing Dimension_start
    :align: center
 ----
@@ -747,7 +747,7 @@ After filling in the “Dimension” name, the user must create a group for its 
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/05_dimension_message_grouping_expanded.png
+.. image:: /figuras/fig_dimensao_ing/05_dimension_message_grouping_expanded.png
    :alt: Billling Dimension_message_group_expended
    :align: center
 ----
@@ -756,7 +756,7 @@ After filling in the “Dimension” name, the user must create a group for its 
 When selected, the group creation modal is shown, where the name of the group of Tags must be filled in and then saved.
 
 
-.. image:: /figuras/fig_ucloud_findimensao/06_dimension_create_grouping.png
+.. image:: /figuras/fig_dimensao_ing/06_dimension_create_grouping.png
    :alt: Billing Dimension_create_group
    :align: center
 ----
@@ -777,7 +777,7 @@ Once the action is performed, below the **”Structure +”** function, the name
 Next to these icons, the following information appears :
 
 
-.. image:: /figuras/fig_ucloud_findimensao/07_dimension_message_structure_expanded.png
+.. image:: /figuras/fig_dimensao_ing/07_dimension_message_structure_expanded.png
    :alt: Billing Dimension_message_structure_expanded
    :align: center
 ----
@@ -790,7 +790,7 @@ In the image below, it is also possible to notice that in the Structure function
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/08_dimension_grouping_structure.png
+.. image:: /figuras/fig_dimensao_ing/08_dimension_grouping_structure.png
    :alt: Billing Dimension_grouping_structure
    :align: center
 ----  
@@ -803,7 +803,7 @@ Creating *Tag*
 By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
 
 
-.. image:: /figuras/fig_ucloud_findimensao/09_dimension_message_tag_expanded.png
+.. image:: /figuras/fig_dimensao_ing/09_dimension_message_tag_expanded.png
    :alt: Biling Dimension_message_tag_expended
    :align: center
 ----
@@ -814,7 +814,7 @@ When clicking on Tag, the Tag creation modal is presented:
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/10_dimension_modal_tag.png
+.. image:: /figuras/fig_dimensao_ing/10_dimension_modal_tag.png
    :alt: Billing Dimension_modal_tag
    :align: center
 ----
@@ -922,7 +922,7 @@ Logical operators are a part of the programming language, and they are used for 
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/17_dimension_logical_operators_closeup.png
+.. image:: /figuras/fig_dimensao_ing/17_dimension_logical_operators_closeup.png
    :alt: Billing Dimension_logical_operators_closeup
    :align: center
 ----
@@ -947,7 +947,7 @@ Resting the mouse cursor on the operator option </> OR, the following message is
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/18_dimension_operator_or_closeup.png
+.. image:: /figuras/fig_dimensao_ing/18_dimension_operator_or_closeup.png
    :alt: Billing Dimension_logical_operator_or_closeup
    :align: center
 ----
@@ -963,7 +963,7 @@ When hovering the mouse over the </> AND operator, the following message is pres
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/19_dimension_operator_and_closeup.png
+.. image:: /figuras/fig_dimensao_ing/19_dimension_operator_and_closeup.png
    :alt: Billing Dimension_operator_and_closeup
    :align: center
 ----
