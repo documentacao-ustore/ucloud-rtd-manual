@@ -665,8 +665,8 @@ To create a dimension, the user must click on the Financial menu, and then on th
 2. Virtual Tags.
 
 
-.. image:: /figuras/fig_ucloud_findimensao/1_dimensão_menu_financeiro.png
-   :alt: Financeiro Dimensão_menu_financeiro
+.. image:: /figuras/fig_ucloud_findimensao/01_dimension_billing_menu.png
+   :alt: Dimension billing menu
    :align: center
 ----
   
@@ -685,8 +685,8 @@ When selecting the “Dimension” option, the listing of dimensions generated p
 In case this is the first dimension to be created by the user, no list is displayed on the screen, as shown in the next image:
 
 
-.. image:: /figuras/fig_ucloud_findimensao/03_dimensão_listagem_vazia.png
-   :alt: Financeiro Dimensão_listagem_vazia
+.. image:: /figuras/fig_ucloud_findimensao/03_dimension_empty_listing.png
+   :alt: Billing Dimension empty listing
    :align: center
 ----
   
@@ -699,8 +699,8 @@ After clicking, the initial screen to create a “Dimension” is presented, as 
   
 
 
-.. image:: /figuras/fig_ucloud_findimensao/04_dimensão_inicio.png
-   :alt: Financeiro Dimensão_inicio
+.. image:: /figuras/fig_ucloud_findimensao/04_dimension_start.png
+   :alt: Billing Dimension_start
    :align: center
 ----
 
@@ -747,8 +747,8 @@ After filling in the “Dimension” name, the user must create a group for its 
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/05_dimensão_mensagem_grupo_expandida.png
-   :alt: Financeiro Dimensão_mensagem_grupo_expandida
+.. image:: /figuras/fig_ucloud_findimensao/05_dimension_message_grouping_expanded.png
+   :alt: Billling Dimension_message_group_expended
    :align: center
 ----
 
@@ -756,8 +756,8 @@ After filling in the “Dimension” name, the user must create a group for its 
 When selected, the group creation modal is shown, where the name of the group of Tags must be filled in and then saved.
 
 
-.. image:: /figuras/fig_ucloud_findimensao/06_dimensão_criar_grupo.png
-   :alt: Financeiro Dimensão_criar_grupo
+.. image:: /figuras/fig_ucloud_findimensao/06_dimension_create_grouping.png
+   :alt: Billing Dimension_create_group
    :align: center
 ----
 
@@ -777,8 +777,8 @@ Once the action is performed, below the **”Structure +”** function, the name
 Next to these icons, the following information appears :
 
 
-.. image:: /figuras/fig_ucloud_findimensao/07_dimensão_mensagem_estrutura_expandida.png
-   :alt: Financeiro Dimensão_mensagem_estrutura_expandida
+.. image:: /figuras/fig_ucloud_findimensao/07_dimension_message_structure_expanded.png
+   :alt: Billing Dimension_message_structure_expanded
    :align: center
 ----
 
@@ -790,8 +790,8 @@ In the image below, it is also possible to notice that in the Structure function
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/08_dimensão_grupo_estrutura.png
-   :alt: Financeiro Dimensão_grupo_estrutura
+.. image:: /figuras/fig_ucloud_findimensao/08_dimension_grouping_structure.png
+   :alt: Billing Dimension_grouping_structure
    :align: center
 ----  
 
