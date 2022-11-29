@@ -82,11 +82,10 @@ Accessing the Budget
 To access the Budget submenu on the uCloud portal, the user must click on the Administration menu, and then click on the Contracts submenu. On the screen below, it is displayed the list of all the existing contracts. 
 
 
-.. figure:: /figuras/fig_budget/01_budget_contrato.png
-   :alt: Budget Contrato  
+.. figure:: /figuras/fig_budget_ing/01_budget_company.png
+   :alt: Budget Company
+   :scale: 70 %  
    :align: center
-
-
 ----
 
 
@@ -123,8 +122,6 @@ When selecting the desired contract from the list, a new screen with the contrac
 .. figure:: /figuras/fig_budget/02_budget_tela_contrato.png
    :alt: Budget tela contrato 
    :align: center
-
-
 ----
   
 
@@ -134,11 +131,9 @@ On this detailed contract screen, the user must use the scroll bar and browse un
 
 
 
-.. figure:: /figuras/fig_budget/03_contrato_budget.png
-   :alt: Contrato tela Budget  
+.. figure:: /figuras/fig_budget_ing/03_company_budget.png
+   :alt: Budget company screen  
    :align: center
-
-
 ----
 
 
@@ -349,11 +344,10 @@ After filling in these data, the blanks about sub budget details must be complet
 
 
 
-.. figure:: /figuras/fig_budget/08_desambiguação.png
-   :alt: Desambiguação  
+.. figure:: /figuras/fig_budget_ing/08_disambiguation.png
+   :alt: Disambiguation
+   :scale: 70 %  
    :align: center
-
-
 ---- 
     
 Having selected the type of Disambiguation, the next step is filling in the value of sub budgets, on the “Sub Budgets Details” card. 
