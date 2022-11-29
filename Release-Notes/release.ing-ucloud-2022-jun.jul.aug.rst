@@ -84,7 +84,6 @@ To access the Budget submenu on the uCloud portal, the user must click on the Ad
 
 .. figure:: /figuras/fig_budget_ing/01_budget_company.png
    :alt: Budget Company
-   :scale: 70 %  
    :align: center
 ----
 
