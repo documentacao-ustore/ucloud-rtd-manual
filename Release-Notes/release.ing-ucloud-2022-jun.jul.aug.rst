@@ -796,8 +796,8 @@ In the image below, it is also possible to notice that in the Structure function
 ----  
 
 
-Creating *Tag*
-~~~~~~~~~~~~~
+Creating Tag
+~~~~~~~~~~~~
 
 
 By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
@@ -1639,7 +1639,7 @@ The example in the table below details the costs of the cloud, its contracts, an
 
 
 
-In the “Major Variations on this Invoice** are presented in a table, all the variations of the contracts of the month of each specific provider, comparing the value of the previous month with the value of the current month, showing the variation of its total value in percentage, thus, this part of the document is a complementation to the “Invoice per Contract/Project”.
+In the “Major Variations on this Invoice" are presented in a table, all the variations of the contracts of the month of each specific provider, comparing the value of the previous month with the value of the current month, showing the variation of its total value in percentage, thus, this part of the document is a complementation to the “Invoice per Contract/Project”.
 
 
 
@@ -1708,7 +1708,7 @@ Furthermore, the contract with the highest variation value is highlighted, and p
 
 
 
-Right after the bar graph, a descriptive table is presented, with columns *Product* and *Total Value* *(BRL)* of the amount of each resource invested separately and specifically, from the highest value to the lowest.
+Right after the bar graph, a descriptive table is presented, with columns "Product" and "Total Amount" (BRL) of the quantities of each resource invested separately and specifically, from the highest number to the lowest.
 
 
 
@@ -2364,7 +2364,7 @@ In summary, the document presents:
 * Thirty-four (34) corrective actions, including:
    * Nine (09) related to clouds;
    * Ten (10) related to uCloudOPS and; 
-   * Fifteen(15) belonging to Billing. 
+   * Fifteen (15) belonging to Billing. 
 
 
 Therefore, the quarterly release is concluded, corresponding to the launches that took place in the months of June, July and August of the current year, on the uCloud platform, innovations generated in the Ustore development area.
