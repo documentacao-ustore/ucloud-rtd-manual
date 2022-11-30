@@ -475,7 +475,7 @@ On this screen it is possible to change the name, month, value, if the budget is
 
 
 
-.. important:: |important| In summary, the sub budgets are not altered, it is necessary to remove and add the new budget.
+.. important:: |importante| In summary, the sub budgets are not altered, it is necessary to remove and add the new budget.
 
 
 ====
@@ -736,8 +736,8 @@ To better understand the function of each blank, observe the detailing of these 
 ====
 
 
-Creating a Group of *Tags*
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a Group of Tags
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -814,8 +814,8 @@ When clicking on Tag, the Tag creation modal is presented:
 
 
 
-.. image:: /figuras/fig_dimensao_ing/10_dimension_modal_tag.png
-   :alt: Billing Dimension_modal_tag
+.. image:: /figuras/fig_ucloud_findimensao/10_dimensão_modal_tag.png
+   :alt: Financeiro Dimensão_modal_tag
    :align: center
 ----
 
@@ -1139,10 +1139,10 @@ The Consumption Monitoring Report (v1) is a new functionality of the uCloud port
 In this document, different types of indexes are generated, which can be tables, reports and graphs, for each type of class (Resource, Contract and Cloud). These are titled in topics as:
 
 
-  1. *Invoicing History*; 
-  2. *Invoice per Contract/Project*; 
-  3. *Major Variations on this Invoice* e 
-  4. *Detailing TOP 3 Contract per Cloud*.
+  1. Invoicing History; 
+  2. Invoice per Contract/Project; 
+  3. Major Variations on this Invoice and 
+  4. Detailing TOP 3 Contract per Cloud.
 
 
 
