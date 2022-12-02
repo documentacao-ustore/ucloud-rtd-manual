@@ -1464,7 +1464,7 @@ According to the picture shown below:
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/13_consumption_cover.png 
+.. figure:: /figuras/fig_rmcv1_ing/13_consumption_cover.PNG 
    :alt: Consumption Cover
    :align: center 
 ----
@@ -1478,7 +1478,7 @@ In the Executive Summary, an explicative text is presented, describing the varia
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/14_consumption_summary.png 
+.. figure:: /figuras/fig_rmcv1_ing/14_consumption_summary.PNG 
    :alt: Consumption summary
    :align: center
 ----
@@ -1502,7 +1502,7 @@ Right after the executive summary, there is the Invoicing History, that presents
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/15_consumption_clouds_history.png 
+.. figure:: /figuras/fig_rmcv1_ing/15_consumption_clouds_history.PNG 
    :alt: consumption clouds history
    :align: center
 ----
@@ -1523,7 +1523,7 @@ This rule is intended to keep the document more compact, avoiding to extend it, 
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/16_consumption_aws_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/16_consumption_aws_chart.PNG 
    :alt: consumption aws chart
    :align: center
 ----
@@ -1537,7 +1537,7 @@ For the sake of completeness and better visualization, this part of the document
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/17_consumption_aws_resources_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/17_consumption_aws_resources_chart.PNG 
    :alt: consumption aws resources chart
    :align: center
 ---- 
@@ -1552,7 +1552,7 @@ For the sake of completeness and better visualization, this part of the document
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/18_consumption_azure_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/18_consumption_azure_chart.PNG 
    :alt: consumption azure chart
    :align: center
 ----
@@ -1568,7 +1568,7 @@ In the Invoice per Contract/Project, the general expenses of the contracts of ea
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/19_consumption_invoice_contract_project.png 
+.. figure:: /figuras/fig_rmcv1_ing/19_consumption_invoice_contract_project.PNG 
    :alt: consumption invoice contract project
    :align: center 
 ---- 
@@ -1598,7 +1598,7 @@ The example in the table below details the costs of the cloud, its contracts, an
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/21_consumption_invoice_contract_project.png 
+.. figure:: /figuras/fig_rmcv1_ing/21_consumption_invoice_contract_project.PNG 
    :alt: consumption invoice contract project
    :align: center
 ----
@@ -1606,7 +1606,7 @@ The example in the table below details the costs of the cloud, its contracts, an
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/22_consumption_invoice_contract_project.png 
+.. figure:: /figuras/fig_rmcv1_ing/22_consumption_invoice_contract_project.PNG 
    :alt: consumption invoice contract project
    :align: center 
 ---- 
@@ -1635,7 +1635,7 @@ This table takes into account only the most relevant variations, with a cut cont
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/23_consumption_positive_variations.png 
+.. figure:: /figuras/fig_rmcv1_ing/23_consumption_positive_variations.PNG 
    :alt: consumption positive variations
    :align: center
 ----
@@ -1651,7 +1651,7 @@ It is possible to notice that the greater the variation, the darker the tone.
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/24_consumption_negative_variations.png 
+.. figure:: /figuras/fig_rmcv1_ing/24_consumption_negative_variations.PNG 
    :alt: consumption positive variations
    :align: center
 ----
@@ -1662,14 +1662,14 @@ Furthermore, the contract with the highest variation value is highlighted, and p
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/25_consumption_highest_aws.png 
+.. figure:: /figuras/fig_rmcv1_ing/25_consumption_highest_aws.PNG 
    :alt: consumption highest aws
    :align: center
 ---- 
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/26_consumption_aws_total_amount.png 
+.. figure:: /figuras/fig_rmcv1_ing/26_consumption_aws_total_amount.PNG 
    :alt: consumption aws total amount
    :align: center 
 ---- 
@@ -1677,7 +1677,7 @@ Furthermore, the contract with the highest variation value is highlighted, and p
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/27_consumption_azure_highest.png 
+.. figure:: /figuras/fig_rmcv1_ing/27_consumption_azure_highest.PNG 
    :alt: consumption azure highest
    :align: center
 ----
@@ -1690,7 +1690,7 @@ Right after the bar graph, a descriptive table is presented, with columns "Produ
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/28_consumption_azure_resources.png 
+.. figure:: /figuras/fig_rmcv1_ing/28_consumption_azure_resources.PNG 
    :alt: consumption azure resources
    :align: center
 ----
@@ -1710,7 +1710,7 @@ Finally, an index is exposed, containing the clipping of the three contracts tha
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/29_consumption_aws_contracts.png 
+.. figure:: /figuras/fig_rmcv1_ing/29_consumption_aws_contracts.PNG 
    :alt: consumption aws contracts
    :align: center
 ----
@@ -1720,35 +1720,35 @@ Next, the summary of how much each product costs the contract is presented in mo
 
 
 
-.. figure:: /figuras/fig_rmcv1_ing/30_consumption_highest_aws_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/30_consumption_highest_aws_chart.PNG 
    :alt: consumption highest aws chart
    :align: center 
 ----
 
 
-.. figure:: /figuras/fig_rmcv1_ing/31_consumption_aws_table.png 
+.. figure:: /figuras/fig_rmcv1_ing/31_consumption_aws_table.PNG 
    :alt: consumption aws table
    :align: center 
 ----
 
 
-.. figure:: /figuras/fig_rmcv1_ing/32_consumption_aws_products_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/32_consumption_aws_products_chart.PNG 
    :alt: consumption aws products chart
    :align: center
 ----
 
-.. figure:: /figuras/fig_rmcv1_ing/33_consumption_aws_products_table.png 
+.. figure:: /figuras/fig_rmcv1_ing/33_consumption_aws_products_table.PNG 
    :alt: consumption aws products table
    :align: center
 ----
 
 
-.. figure:: /figuras/fig_rmcv1_ing/34_consumption_highest_azure_chart.png 
+.. figure:: /figuras/fig_rmcv1_ing/34_consumption_highest_azure_chart.PNG 
    :alt: consumption highest azure chart
    :align: center
 ----
 
-.. figure:: /figuras/fig_rmcv1_ing/35_consumption_azure_table.png 
+.. figure:: /figuras/fig_rmcv1_ing/35_consumption_azure_table.PNG 
    :alt: consumption azure table
    :align: center
 ----
