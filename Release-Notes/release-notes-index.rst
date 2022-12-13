@@ -35,6 +35,8 @@ Las notas de evolución de la plataforma uCloud (*Notas de la versión*) se dist
 
 
 
+::doc:`publicación-trimestral-ucloud-2022-jun.jul.ago` |icone_clikhere|
+
 ::doc:`notas-de-publicación-ucloud-2022-jun.jul.ago` |icone_clikhere|
 
 ::doc:`release-notes.spa-ucloud-2022-mayo` |icone_clikhere|
