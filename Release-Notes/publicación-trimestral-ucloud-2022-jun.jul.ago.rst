@@ -11,7 +11,7 @@ Publicación (Trimestral) Junio | Julio | Agosto - Año 2022
 Plataforma uCloud versión: *Update tags 5.3-b56 y 1.0-account90*
 
 
-—-
+----
 
 
 Presentación
@@ -270,7 +270,7 @@ Al incluir un *Sub Budget*, el mismo se añade para todos los meses, recordando 
 
 
 
-.. attention:: Al crear Sub Budgets para todos los meses del año, la suma debe limitarse al valor total del Budget.
+.. attention:: |atencao| Al crear Sub Budgets para todos los meses del año, la suma debe limitarse al valor total del Budget.
 
 
 
@@ -336,7 +336,7 @@ Después de rellenar estos datos, se deben completar los campos sobre los detall
 
 
 
-.. note:: Es posible añadir los Sub Budgets a nuestro Budget principal, limitándose a la regla de que el valor de éste tiene que ser igual a la suma de los valores de sus Sub Budgets. Si el valor representa un número mayor o menor, el botón de creación del Budget permanece desactivado y el "saldo restante" difiere de 0.
+.. note:: |nota| Es posible añadir los Sub Budgets a nuestro Budget principal, limitándose a la regla de que el valor de éste tiene que ser igual a la suma de los valores de sus Sub Budgets. Si el valor representa un número mayor o menor, el botón de creación del Budget permanece desactivado y el "saldo restante" difiere de 0.
 
 
 .. figure:: /figuras/fig_budget/08_desambiguação.png
@@ -471,7 +471,7 @@ En esta pantalla es posible cambiar el nombre, el mes, el valor, si el *Budget* 
 .. important:: En resumen, los Sub Budgets creados no se modifican, es necesario eliminar y añadir el nuevo Budget.
 
 
-
+----
 
 
 
@@ -592,21 +592,20 @@ Al hacer clic en el *Budget* para visualizar los *Sub Budgets*, la interfaz ofre
 
 
 
-.. note:: Al elegir un *Budget* que tenga un intervalo trimestral, semestral o anual, la plataforma sólo muestra los *Sub Budgets* correspondientes al periodo seleccionado. En esta opción, la plataforma entiende que se trata de un periodo incompleto de este *Budget*. Para presentar todos los meses, debe elegirse el período completo del presupuesto.
+.. note:: |nota| Al elegir un *Budget* que tenga un intervalo trimestral, semestral o anual, la plataforma sólo muestra los *Sub Budgets* correspondientes al periodo seleccionado. En esta opción, la plataforma entiende que se trata de un periodo incompleto de este *Budget*. Para presentar todos los meses, debe elegirse el período completo del presupuesto.
 
 
-—-
+----
 
 
-—-
+2. **Personalización del *branding* a nivel de contrato**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El *branding* del portal Multicloud es permitido a través de la personalización definida por contrato. El cliente usuario puede seleccionar las características de su marca (empresa) representada en el portal Multicloud como los colores, el logotipo, entre otros.
 
 
-2. **Personalización del *branding* a nivel de contrato**: El *branding* del portal Multicloud es permitido a través de la personalización definida por contrato. El cliente usuario puede seleccionar las características de su marca (empresa) representada en el portal Multicloud como los colores, el logotipo, entre otros.
+----
 
-
-
-
-—-
 
 
 3. **Dimensión**
@@ -729,7 +728,7 @@ Para entender mejor la función de cada campo, conviene observar los detalles a 
 
 
 
-.. attention:: |atención| Es importante señalar que esta estructura debe ser una expresión lógica pensada previamente. Por lo tanto, para agrupar los `tags` es necesario ponerlos primero en un grupo.
+.. attention:: |atencao| Es importante señalar que esta estructura debe ser una expresión lógica pensada previamente. Por lo tanto, para agrupar los `tags` es necesario ponerlos primero en un grupo.
 
 
 * Estructura: Corresponde al bloque situado al final de la pantalla, donde el usuario tiene una mejor visualización de la estructura que está siendo montada.
@@ -789,7 +788,7 @@ Al lado de estos iconos, aparece la siguiente información:
 ----
 
 
-.. attention:: |atención| Es importante señalar que si la construcción de la "Dimensión" no se ajusta a las condiciones mostradas en el mensaje, el botón "Guardar" queda inhabilitado para su activación.
+.. attention:: |atencao| Es importante señalar que si la construcción de la "Dimensión" no se ajusta a las condiciones mostradas en el mensaje, el botón "Guardar" queda inhabilitado para su activación.
 
 
 En la imagen de abajo, también se puede ver que en la función de Estructura, en la parte inferior de la pantalla, el grupo está representado por (    ).
@@ -919,7 +918,7 @@ Después de inicializar el proceso de creación de una "Dimensión", es necesari
 
 Así, el usuario debe hacer clic en el signo de suma "+" que aparece al lado de Estructura, donde figuran dos **operadores lógicos** </> OR e </> AND. 
 
-
+----
 
 
 Utilizando el Operador Lógico
@@ -1012,7 +1011,7 @@ Al finalizar este paso, se muestra la estructura final de una dimensión y, para
 
 Al finalizar esta acción, la "Dimensión" guardada aparece en el listado de Dimensión.
 
-
+----
 
 
 Listado de Dimensión
@@ -1045,7 +1044,7 @@ En esta pantalla el usuario puede elegir entre crear una nueva dimensión, edita
 
 En esta lista se presentan las columnas "Nombre" y "Acciones", las informaciones pueden ser personalizadas y recuperadas haciendo clic en los bloques de 10, 25, 50 o 100 líneas. La columna "Acciones" permite las operaciones "Editar" y "Eliminar".   
 
-
+----
 
 
 Editando una Dimensión
@@ -1088,7 +1087,7 @@ También se puede constatar que a cada acción realizada, la Estructura, situada
 Para que los cambios tengan efecto, es necesario que el usuario pulse el botón "Guardar" situado al lado de la función de Estructura, ubicado en la parte inferior derecha de la página.
 
 
-
+----
 
 Donde se utiliza la "Dimensión"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1097,30 +1096,22 @@ Donde se utiliza la "Dimensión"
 Actualmente, esta implementación agrupa *Tags* y los agrupan en la "Dimensión" creada, facilitando la visualización categorizada en otras funcionalidades de la plataforma.
 
 
-Además, la "Dimensión" se utiliza en el modal "Crear Budget" que se incluye en la *tarjeta* denominada "Detalles de Sub Budgets" en la desambiguación_ .
-
-
-
-
-.. _desambiguação: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#criando-budget-e-sub-budget
-
-
-
-
-
-
-—-
+----
 
 
 
 
 4. **Import y Export de ofertas de servicios en (XML + YAML)**: En esta nueva funcionalidad es posible importar y exportar una misma oferta desde cualquier nube, siempre que esté vinculada al Portal uCloud. Anteriormente era posible importar y exportar archivos en formato JSON, ahora se han añadido las opciones de importar y exportar los archivos también en formato XML e YAML. [tag 5.3-b43 10ago]
 
+----
 
 5. **Import de credenciales del Google en el Secret Manager de la AWS**: Secret Manager es un repositorio donde se almacena las informaciones cuyo acceso está reservado al usuario. Para importar los datos credenciales de Google de este usuario, la acción debe realizarse a través de uCloud para que sean transferidos desde el repositorio escondido de AWS. [tag 5.3-b16 28jul]
 
+----
 
 6. **Permisos a nivel de Cuenta**: Esta nueva funcionalidad optimiza el proceso de permisos de un usuario. En esta modalidad de permisos a nivel de cuenta, el usuario puede realizar las acciones desde el perfil de permisos creado para él, ya sea básico o avanzado. Este usuario tiene la facultad de gestionar diversos contratos vinculados a una cuenta, según los permisos que se le hayan concedido.
+
+----
 
 
 7. **Informe de Monitoreo de Consumo V1**: 
@@ -1142,7 +1133,7 @@ En este documento se generan diferentes tipos de índices, que pueden ser tablas
 
 
 
-.. attention:: |atención| Cada una de estas categorías está separada y organizada del mayor al menor consumo. 
+.. attention:: |atencao| Cada una de estas categorías está separada y organizada del mayor al menor consumo. 
 
 
 
