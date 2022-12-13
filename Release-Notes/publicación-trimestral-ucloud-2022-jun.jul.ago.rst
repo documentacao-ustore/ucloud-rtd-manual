@@ -56,8 +56,6 @@ Nuevas implementaciones
 Este tópico presenta las siete nuevas implementaciones e inserta *hyperlinks* en algunos términos que direccionan el lector a ampliar su conocimiento sobre determinada implementación, accediendo a informaciones detalladas sobre cada una de ellas, en el manual del usuario uCloud, alojado en el repositorio / wiki de Ustore.
 
 
-SPA
-
 
 1.  **Budget**
 
@@ -140,7 +138,7 @@ En esta pantalla de detalle del contrato, el usuario debe utilizar la barra de d
 La `Tarjeta Budget` exhibe dos botones, `[REFRESH]` y `[+Añadir]`. 
 
 
-.. attention:: En este ejemplo de imagen, los *Budgets* aún no han sido creados, de modo que está en blanco, con el símbolo de atención. 
+.. attention:: |atencao| En este ejemplo de imagen, los *Budgets* aún no han sido creados, de modo que está en blanco, con el símbolo de atención. 
    
 Al hacer clic en el botón `"+ Añadir"`, se presenta el modal "Crear Budget", y a partir de ahí, el usuario inicia la primera creación.
 
@@ -2057,7 +2055,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Googl
 
 
 Huawei Cloud (Huawei)
-—---------------------------------------
+---------------------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública de Huawei, no se produjo ningún cambio, nueva implementación o funcionalidad.
@@ -2066,7 +2064,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública de Hu
 
 
 IBM Cloud (IBM)
-—-------------------
+-------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública IBM no hay registro de corrección, cambio, nueva funcionalidad o implementación.
@@ -2091,7 +2089,7 @@ En cuanto a la interacción con el hipervisor VCenter/vSphere, destacamos la sig
 
 
 VMWare vCloud (vCloud)
-—------------------
+------------------
 
 
 En relación a la interacción con el hipervisor vCloud no se ha producido ningún cambio, corrección, nueva implementación o funcionalidad.
@@ -2304,7 +2302,7 @@ Adecuaciones a las nubes
 
 
 Amazon Web Services (AWS)
-—---------------------------------------
+---------------------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Amazon Web Services (AWS), se puede enumerar una acción correctiva:
@@ -2320,7 +2318,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Amazo
 
 
 Microsoft Azure (Azure)
-—------------------------------
+------------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Microsoft AZURE, se enumeran las siguientes correcciones:
@@ -2343,7 +2341,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Micro
 
 
 Google Cloud Platform (GCP)
-—--------------------------------------
+--------------------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Google Cloud Platform (GCP), se pueden enumerar las siguientes correcciones:
@@ -2361,14 +2359,14 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Googl
 
 
 Huawei Cloud (Huawei)
-—------------------------------
+------------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Huawei Cloud, no hubo ningún cambio, corrección, nueva implementación o nueva funcionalidad.
 
 
 IBM Cloud
-—-----------
+-----------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública IBM Cloud, se enumera la siguiente corrección:
@@ -2384,7 +2382,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública IBM C
 
 
 VMware vCloud
-—-------------------
+-------------------
 
 
 En cuanto a la interacción con el hipervisor de la nube privada VMware 6.5 (o superior), se pueden enumerar las siguientes correcciones:
