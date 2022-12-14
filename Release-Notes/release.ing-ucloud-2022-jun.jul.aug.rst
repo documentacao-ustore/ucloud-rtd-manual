@@ -10,13 +10,10 @@ Quarterly Release June | July | August - Year 2022
 =======================================
 uCloud Plataform version: *Update tags 5.3-b56 and 1.0-account90*
 
-
-====
-
+----
 
 Introduction
 =========
-
 
 This uCloud Platform release is an essential communication tool to the disclosure work and diffusion of news about the product, innovations generated in the development area.
 
@@ -24,7 +21,7 @@ This uCloud Platform release is an essential communication tool to the disclosur
 The release, in addition to being an informative material with relevant content about the deliveries of one or more increments in the application, aims to provide results for the customers’ investments, obtain an opinion and report the progress, whether it is enhancement, improvement or corrections. It really offers proper visibility in the product development process.
 
 
-====
+----
 
 
 News 
@@ -49,7 +46,7 @@ Topics to be described in this document:
 * Corrective actions.
 
 
-====
+----
 
 
 
@@ -63,7 +60,7 @@ This topic introduces the new seven implementations and inserts detailed informa
 
 
 1. **Budget** :
----------------
+-------------
  
 **Budget** is a consumption-based report created with the objective to define a total budget for a certain period (nominated Gap), whether it is monthly, quarterly, semiannual or annual. This report based on consumption, in addition to defining a total budget, allows its visualization with Budgets cost breakdowns.
 
@@ -74,7 +71,7 @@ It corresponds to a new implementation on the uCloud Portal, defined by a consum
 
 
 Accessing the Budget
-----------------------
+~~~~~~~~~~~~~~~~
 
 
 
@@ -154,7 +151,7 @@ Clicking on the “+ Add” button, the “Create Budget” modal is presented, 
 ---- 
 
 Creating Budget and Sub Budget
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 The “Create Budget" modal, displays the blanks: name, gap, month, checkbox to select whether the report is recurring, the amount per cost or per consumed quantity. 
@@ -244,9 +241,8 @@ The application generates two alternatives with the semesters available within t
 
 
 
-
 Annual Gap
-~~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 
 .. figure:: /figuras/fig_budget/05_budget_anual.png 
@@ -255,7 +251,6 @@ Annual Gap
 
 
 ---- 
-
 
 
 
@@ -272,19 +267,13 @@ When including a sub budget, it is added for all months, remembering that the Bu
 
 
 
-
 Monthly Gap
 ~~~~~~~~~~
-
 
 The Monthly Gap screen is shown as the process continues to fill in the fields on the “Create Budget” screen. For the monthly interval, the report includes the chosen month.
 
 
-
-
 In the sequence below, the user must complete the remaining blanks, finishing this creation Budget modal.
-
-
 
 
 * Select the month: In this blank, the user must fill in the month and year desired to set as the initial date of the report, or select a custom date. 
@@ -320,11 +309,9 @@ Next month another budget will be created, if the quarterly and semiannual will 
 
 
 
-
 * Value: Field referring to the report value.
  
 In this space, the user must fill in the blank of Value with the amount available for the budget, and select if this value is per cost or per quantity consumed.
-
 
 
 
@@ -332,9 +319,7 @@ In this space, the user must fill in the blank of Value with the amount availabl
 
 
 
-
 After filling in these data, the blanks about sub budget details must be completed. For that, the user must select which type of Disambiguation is desired on the report, if it is of Container, Account Master, CloudType, Dimension or TagUsn.
-
 
 
 
@@ -360,8 +345,6 @@ Having selected the type of Disambiguation, the next step is filling in the valu
 
 
 ---- 
-
-
 
 
 On this step, the sub budget amount must be filled in, and when the desired amount is entered, the remaining balance is shown below the value blank.
@@ -426,14 +409,14 @@ Both shown in the list below:
   
 
 
-To finish the process of Budgets and sub budgets creation, just click on the “Create” button  located in the lower right corner of the screen. 
+To finish the process of Budgets and sub budgets creation, just click on the ``Create`` button  located in the lower right corner of the screen. 
 
 
 ====
 
 
 Editing Budget 
---------------
+~~~~~~~~~~~~~~
 
 
 To edit a “Budget”, the user just needs to access the Administration menu, and then click on the Contracts submenu, the platform displays a list of all the existing contracts. 
@@ -445,7 +428,7 @@ In it, the user must click on the contract  related to the budget that they wish
 On this card are displayed five columns: Name, Gap, Start Date, Value and Actions.
 
 
-The “Actions” column allows the user to carry out two executions represented by the [Edit] and [Delete] icons.
+The “Actions” column allows the user to carry out two executions represented by the ``[Edit]`` and ``[Delete]`` icons.
 
 
 .. figure:: /figuras/fig_budget/15_editar_budgets.png
@@ -454,8 +437,6 @@ The “Actions” column allows the user to carry out two executions represented
 
 
 ----
-
-
 
 
 When clicking the [Edit] button on the chosen Budget, the edition modal is presented with all the information previously filled in.
@@ -475,14 +456,14 @@ On this screen it is possible to change the name, month, value, if the budget is
 
 
 
-.. important:: |importante| In summary, the sub budgets are not altered, it is necessary to remove and add the new budget.
+.. important:: |importante| In summary, the sub budgets are not altered, it is necessary to remove and add the new Budget.
 
 
 ====
 
 
 Visualizing the Budget Cost Report
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 To visualize the Budget Cost Report, the user must click on the Billing menu, and then click on the Reports submenu. This visualization allows the user the possibility to stay informed about the cost forecasts in detail.
@@ -653,7 +634,7 @@ In the example above, the expression represents that this dimension desires all 
 
 
 Creating a Dimension
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 
 To create a dimension, the user must click on the Financial menu, and then on the Utilities submenu, that displays two options presented on the next image:
@@ -705,8 +686,6 @@ After clicking, the initial screen to create a “Dimension” is presented, as 
 ----
 
 
-
-
 To better understand the function of each blank, observe the detailing of these below:
 
 
@@ -740,11 +719,7 @@ Creating a Group of Tags
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-
 After filling in the “Dimension” name, the user must create a group for its structure. When hovering the mouse cursor over the “Tag Grouping” option, appears the following message:
-
-
 
 
 .. image:: /figuras/fig_dimensao_ing/05_dimension_message_grouping_expanded.png
@@ -761,8 +736,6 @@ When selected, the group creation modal is shown, where the name of the group of
    :align: center
 ----
 
-
-  
 
 
 Once the action is performed, below the **”Structure +”** function, the name of the created group appears, and beside it there are two action buttons:
@@ -789,7 +762,6 @@ In the image below, it is also possible to notice that in the Structure function
 
 
 
-
 .. image:: /figuras/fig_dimensao_ing/08_dimension_grouping_structure.png
    :alt: Billing Dimension_grouping_structure
    :align: center
@@ -813,14 +785,11 @@ When clicking on Tag, the Tag creation modal is presented:
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/10_dimensão_modal_tag.png
    :alt: Financeiro Dimensão_modal_tag
    :align: center
 ----
 
-
-  
 
 
 The first step for the user is to select one of the companies listed in the dropdown menu.
@@ -831,12 +800,8 @@ The first step for the user is to select one of the companies listed in the drop
    :align: center
 ----
 
- 
-
 
 After selecting the desired company, the “Filter” button, next to the dropdown menu, is available for activation, as exemplified in the image below:
-
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/12_dimensão_filtrar.png
@@ -845,11 +810,7 @@ After selecting the desired company, the “Filter” button, next to the dropdo
 ----
 
 
-  
-
-
 In case the company already has existing Tags, a list of Tags with the keys and values of the last three months is exhibited. The screen displays the number of pages below the listing and the information retrieved in blocks of 10, 25, 50 or 100 lines.
-
 
 
 
@@ -858,8 +819,6 @@ In case the company already has existing Tags, a list of Tags with the keys and 
    :align: center
 ----
 
-
-  
 
 
 The user must select the desired Tag, shown in the list, and the Keys and Tag Value created are automatically displayed.
@@ -873,9 +832,6 @@ The user must select the desired Tag, shown in the list, and the Keys and Tag Va
 
 
 
-
-
-
 When finishing filling the modal, the user must click on the “Save” button on the inferior right corner of the screen.
   
 
@@ -884,7 +840,6 @@ When finishing filling the modal, the user must click on the “Save” button o
    :alt: Financeiro Dimensão_modal_segunda_tag
    :align: center
 ----
-
 
 
 
@@ -901,7 +856,6 @@ Once this is done, the “Dimension” screen creation should be displayed as fo
 
 
 
-
 It can be seen, from the image above, that the “Dimension” has a hierarchy system, where first there is a group inserted in the structure, and only after the creation of the group do the Tags follow.
  
 After the initialization of the process of creating a “Dimension”, it is necessary to add the other Tags of the same context to be part of the group.
@@ -912,10 +866,9 @@ To do so, the user must click on the plus sign “+” next to the Structure, wh
 ====
 
 
-Using the logical operator
+Using the Logical Operator
 ~~~~~~~~~~~~~~~~~~~
   
-
 
 Logical operators are a part of the programming language, and they are used for the purpose of creating true and false expressions. These are intended to join two divergent expressions and elaborate a more complex conditional expression. 
 
@@ -978,14 +931,11 @@ In this example, the operator “AND” was selected and the confirmation of the
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/20_dimensão_operador_selecionado.png
    :alt: Financeiro Dimensão_operador_selecionado
    :align: center
 ----
 
-
-  
 
 
 When finishing this first process of Tag creation, the user must create the second Tag, repeating the creation flow detailed above.
@@ -995,12 +945,10 @@ At the end of this step, the final structure of a dimension is displayed, and to
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/21_dimensão_estrutura_completa.png
    :alt: Financeiro Dimensão_estrutura_completa
    :align: center
 ----
-
 
 
 
@@ -1014,8 +962,6 @@ Listing Dimension
 ~~~~~~~~~~~~~
 
 
-
-
 To list a newly created “Dimension”, usually the screen exhibits the listing. When consulting the “Listing Dimension” screen, if it does not update automatically, the user must click on the “Refresh” button in the superior right corner of the screen. 
 
 
@@ -1023,12 +969,10 @@ Then, the screen shows a list that must present the created “Dimension”, as 
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/22_dimensão_listagem_final.png
    :alt: Financeiro Dimensão_listagem_final
    :align: center
 ----
-
 
 
 
@@ -1047,10 +991,7 @@ Editing a Dimension
 ~~~~~~~~~~~~~~~
 
 
-
-
 To edit a Dimension, the user simply clicks on the edit button in the “Actions” column in the “Dimension” list, as detailed below:
-
 
 
 
@@ -1060,11 +1001,8 @@ To edit a Dimension, the user simply clicks on the edit button in the “Actions
 ----
 
 
-  
-
 
 Doing this, the screen with the assembled and finished structure is displayed, as exemplified below. This example, using a new dimension, contains Groups and multiple Tags. 
-
 
 
 
@@ -1072,9 +1010,6 @@ Doing this, the screen with the assembled and finished structure is displayed, a
    :alt: Financeiro Dimensão_estrutura_completa
    :align: center
 ----
-
-
-
 
 
 
@@ -1163,10 +1098,7 @@ Accessing the CMR.v1
 ~~~~~~~~~~~~~~~~~
 
 
-
-
 To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the “Billing” menu, identified in the lower left corner. And then, click on the “Reports” submenu.
-
 
 
 
@@ -1178,9 +1110,7 @@ To generate the Consumption Monitoring Report (v1) on the uCloud portal, the use
 ----
   
 
-
 The screen below presents all the options related to accessing and managing invoices for groups or contracts that the user administers. 
-
 
   
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/2_Financeiro_painéis.png 
@@ -1189,9 +1119,6 @@ The screen below presents all the options related to accessing and managing invo
 
 
 ----
-
-
-
 
 
 
@@ -1209,12 +1136,7 @@ When clicking on the “Reports” submenu, the topic “Consumption-Based Panel
   
 
 
-
-
 It groups seven types of reports, one of them is the **Consumption Monitoring Report - CMR.v1**.
-
-
-
 
 
 
@@ -1225,9 +1147,6 @@ It groups seven types of reports, one of them is the **Consumption Monitoring Re
 
 ----
   
-
-
-
 
 By clicking on this option, the user can generate the desired document. 
 
@@ -1374,11 +1293,7 @@ In the “Actions” column located on the “Pending Approvals” tab **the adm
 ----
 
 
-
-
-Next, they must wait for the “Status” to be updated, that can be: Running, Failed or Success. 
-
-
+Next, they must wait for the “Status” to be updated, that can be: ``Running``, ``Failed`` or ``Success``. 
 
 
 After successfully creating the new report, the data was compiled on the uCloud platform.
@@ -1633,8 +1548,6 @@ This table takes into account only the most relevant variations, with a cut cont
 
 
 
-
-
 .. figure:: /figuras/fig_rmcv1_ing/23_consumption_positive_variations.PNG 
    :alt: consumption positive variations
    :align: center
@@ -1770,11 +1683,11 @@ This update has a vast index, containing tables, reports and graphs that range f
 
 
 Adaptation to the changes occurred in Clouds
-===================================
+============================================
 
 
 Amazon Web Services (AWS)
-------------------------------
+-------------------------
 
 
 Regarding the interaction with the public cloud service provider Amazon Web Services (AWS) the following improvement is listed:
@@ -1919,7 +1832,7 @@ Regarding the interaction with the vCloud hypervisor there is no occurrence of a
 
 
 uCloud Platform Enhancement
-=======================
+===========================
 
 
 The Ustore renews the uCloud platform in accordance with the continuous evolution of innovations in the cloud computing sector - dynamic environment that allows remote access to softwares, files storage and processing of data through the Internet.
@@ -2240,9 +2153,11 @@ uCloud Plataform
 
 
 **OPS** 
+~~~~~~~
+
 
 +--------------------------------------------------+-----------------+
-|FEATURE                                           |VERSÃO           |
+|FEATURE                                           |VERSION          |
 +==================================================+=================+
 |VDC filter in the group                           |tag 5.2-b65 18jul|
 |[fix]                                             |                 |
@@ -2279,6 +2194,9 @@ uCloud Plataform
 
 
 **Billing**
+~~~~~~~~~~
+
+
 
 +--------------------------------------------------+-----------------+
 |FEATURE                                           |VERSION          |
@@ -2363,3 +2281,4 @@ Therefore, the quarterly release is concluded, corresponding to the launches tha
 .. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
 
 .. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
+
