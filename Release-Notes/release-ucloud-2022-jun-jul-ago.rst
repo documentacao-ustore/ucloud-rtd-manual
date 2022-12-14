@@ -56,8 +56,9 @@ Novas Implementações
 Este tópico apresenta as sete novas implementações e insere *hyperlinks* em alguns termos que encaminham o leitor a ampliar seu conhecimento a respeito de determinada implementação. Ao acessar informações detalhadas sobre cada um deles, no manual de uso do uCloud, hospedado no repositório/*wiki* da Ustore.
 
 
-1. **Budget**
- 
+1. **Budget** :
+---------------
+
 Esta nova implementação corresponde a um relatório baseado em consumo que tem como objetivo definir o orçamento total referente a um determinado período, seja mensal, trimestral, semestral ou anual. 
 
 As informações detalhadas sobre o uso do Budget_ podem ser acessadas no repositório/*wiki* que abriga o manual de uso do uCloud.
@@ -68,7 +69,8 @@ As informações detalhadas sobre o uso do Budget_ podem ser acessadas no reposi
 ----
 
 
-2. **Customização do branding a nível de Contrato**
+2. **Customização do branding a nível de Contrato** :
+-----------------------------------------------------
 
 A branding do portal Multicloud é permitida através da personalização definida por contrato. O cliente usuário pode selecionar as características da sua marca (Empresa) representada no portal Multicloud como as cores, a logomarca, entre outras.
 
@@ -76,7 +78,9 @@ A branding do portal Multicloud é permitida através da personalização defini
 ----
 
 
-3. **Dimensão**
+3. **Dimensão** :
+----------------
+
 
 Para evitar recursos iguais sendo tagueados de formas diferentes, a dimensão foi criada para agrupar *tags* distintas a recursos do mesmo contexto. Para isso, foram criadas operações lógicas e um filtro, com o intuito de identificar no *Billing* quais recursos pertencem a uma determinada dimensão.
 
@@ -89,7 +93,8 @@ O detalhamento das informações a respeito da implementação Dimensão_ podem 
 ----
 
 
-4. **Import e Export de ofertas de serviço em (XML + YAML)**
+4. **Import e Export de ofertas de serviço em (XML + YAML)** :
+-------------------------------------------------------------
 
 Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de uma nuvem qualquer contanto que esteja vinculada ao Portal uCloud. Antes era possível importar e exportar arquivos em formato JSON, então foram adicionadas as opções de importar e exportar os arquivos também em formato XML e YAML. [tag 5.3-b43 10ago]
 
@@ -97,7 +102,8 @@ Nessa nova funcionalidade é possível importar e exportar uma mesma oferta de u
 ----
 
 
-5. **Import de credenciais do Google no Secret Manager da AWS**
+5. **Import de credenciais do Google no Secret Manager da AWS** :
+----------------------------------------------------------------
 
 Secret Manager é um repositório onde são gravadas as informações que somente o usuário tem acesso. Para importar os dados credenciais da Google deste usuário, a ação deve ser feita através do uCloud para que estes sejam transferidos do repositório escondido da AWS. [tag 5.3-b16 28jul]
 
@@ -105,7 +111,8 @@ Secret Manager é um repositório onde são gravadas as informações que soment
 ----
 
 
-6. **Permissões a Nível de Conta**
+6. **Permissões a Nível de Conta** :
+-----------------------------------
 
 Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta modalidade de permissão a nível de conta, o usuário pode realizar as ações a partir do perfil de permissão criado para ele, seja básico ou avançado. Este usuário tem o poder de administrar diversos contratos vinculados a uma conta, de acordo com as permissões que lhe foram concedidas.
 
@@ -113,7 +120,8 @@ Esta nova funcionalidade otimiza o processo de permissão de um usuário. Nesta 
 ----
 
 
-7. **Relatório de Monitoramento de Consumo V1** 
+7. **Relatório de Monitoramento de Consumo v1** : 
+-----------------------------------------------
 
 Nova funcionalidade do uCloud que trata do detalhamento completo dos gastos, divididos por Nuvens, Contratos e Recursos. São gerados diferentes tipos de relatórios, para cada tipo de divisão (Nuvem/Contrato/Recurso), separando um por vez e organizando-os do maior para o menor consumo. Além de comparar com os gastos dos meses anteriores, proporcionando ao cliente informações necessárias para que se possa avaliar se houve queda ou aumento dos gastos.
 
@@ -464,7 +472,7 @@ As ações corretivas de *fix* e *bugs* podem referir-se a:
 
 
 Adequações às nuvens
---------------------
+====================
 
 
 
@@ -580,6 +588,8 @@ Na Plataforma uCloud
 
 
 **OPS**
+~~~~~~~
+
 
 +--------------------------------------------------+-----------------+
 |FEATURE                                           |VERSÃO           |
@@ -619,6 +629,8 @@ Na Plataforma uCloud
 
 
 **Billing**
+~~~~~~~~~~~~
+
 
 +--------------------------------------------------+-----------------+
 |FEATURE                                           |VERSÃO           |
