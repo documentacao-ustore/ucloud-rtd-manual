@@ -19,10 +19,11 @@ Presentación
 
 
 Este boletín de la Plataforma uCloud es una herramienta de comunicación esencial para la difusión de las novedades sobre el producto y las innovaciones generadas en el área de desarrollo.
+
 Las Notas de Publicación, además de ser un material informativo con contenido relevante sobre las entregas de uno o varios incrementos en la aplicación, tienen como objetivo proporcionar resultados a la inversión de los clientes, obtener asesoramiento e informar de los avances, ya sean de perfeccionamiento, mejoras o correcciones. Realmente proporciona la visibilidad adecuada en el proceso de desarrollo del producto.
 
 
-
+----
 
 Noticias 
 ========
@@ -43,9 +44,7 @@ Las novedades o lanzamientos de este periodo sobre la plataforma uCloud abarcan 
 * Acciones correctivas.
 
 
-
-
-
+----
 
 
 
@@ -57,21 +56,18 @@ Este tópico presenta las siete nuevas implementaciones e inserta *hyperlinks* e
 
 
 
-1.  **Budget**
-
+1.  **Budget** :
+--------------
 
 El *Budget* es un informe basado en el consumo creado con el objetivo de definir un presupuesto total para un periodo determinado (denominado Intervalo), ya sea mensual, trimestral, semestral o anual. Este informe basado en el consumo, además de definir un presupuesto total, permite visualizarlo con un desglose de los costes de *Budgets*.
 
 
 Cuando se traduce del inglés al portugués, *"budget"* se refiere a la palabra "presupuesto" y corresponde a una nueva implementación en el Portal uCloud, definida por un informe basado en el consumo que tiene como objetivo fijar el presupuesto total para un período y permite las previsiones de costes. 
 
-
-
+----
 
 Accediendo al *Budget*
---------------------
-
-
+~~~~~~~~~~~~~~~~~~~~~~
 
 
 Para acceder al submenú *Budget* en el portal uCloud, el usuario debe hacer clic en el menú Administración, y luego en el submenú Contratos. En la pantalla siguiente se muestra la lista de todos los contratos existentes.
@@ -156,7 +152,7 @@ Al hacer clic en el botón `"+ Añadir"`, se presenta el modal "Crear Budget", y
 
 
 Creando *Budget* y *Sub Budget*
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 El modal "Crear *Budget*", presenta los campos: nombre, intervalo, mes, *"checkbox"* para seleccionar si el informe es recurrente, el valor por coste o por cantidad consumida.
@@ -167,7 +163,7 @@ A continuación, se muestran los detalles de los `Sub Budgets` como: desambiguac
 
 
 
-.. important:: La desambiguación es responsable por el propósito del Sub Budget, por lo tanto, al hacer clic en el "Checkbox", el usuario visualiza y puede filtrar uno de los cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimensión - TagUsn.
+.. important:: |importante| La desambiguación es responsable por el propósito del Sub Budget, por lo tanto, al hacer clic en el "Checkbox", el usuario visualiza y puede filtrar uno de los cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimensión - TagUsn.
 
 
 .. figure:: /figuras/fig_budget/04_criar_budget.png
@@ -227,7 +223,7 @@ La aplicación permite al usuario elegir cualquiera de los trimestres disponible
 
  
 Intervalo Semestral
-~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~
 
 
 .. figure:: /figuras/fig_budget/05_budget_semestral.png
@@ -244,7 +240,6 @@ La aplicación genera dos alternativas con los semestres disponibles dentro del 
 
 
 
-
 Intervalo Anual
 ~~~~~~~~~~~~~~~
 
@@ -258,7 +253,6 @@ Intervalo Anual
 
 
 
-
 Al seleccionar el intervalo anual, aparece una lista con todos los meses correspondientes al periodo de 1 año, a partir del mes seleccionado en el campo "Seleccione el mes".  
 
 
@@ -269,9 +263,7 @@ Al incluir un *Sub Budget*, el mismo se añade para todos los meses, recordando 
 
 
 
-
 .. attention:: |atencao| Al crear Sub Budgets para todos los meses del año, la suma debe limitarse al valor total del Budget.
-
 
 
 
@@ -282,14 +274,11 @@ Intervalo Mensual
 La pantalla de Intervalo Mensual se presenta al continuar con el proceso de rellenar los campos de la pantalla "*Crear *Budget*". Para el intervalo mensual, el informe contempla el mes elegido.
 
 
-
-
 En la secuencia siguiente, el usuario debe completar los espacios restantes, completando este modal para la creación de *Budget*:
 
 
 
-
-* `Seleccione el mes`: En este campo el usuario debe rellenar con el mes y el año deseado para marcar la fecha inicial del informe, o seleccionar una fecha personalizada.
+* **Seleccione el mes**: En este campo el usuario debe rellenar con el mes y el año deseado para marcar la fecha inicial del informe, o seleccionar una fecha personalizada.
 
 
 .. figure:: /figuras/fig_budget/06_criar_budget_mes.png
@@ -301,13 +290,15 @@ En la secuencia siguiente, el usuario debe completar los espacios restantes, com
   
 
 
-* `Budget Recurrente`: Responsable por la activación, o no, del informe continuo. 
+* **Budget Recurrente**: Responsable por la activación, o no, del informe continuo. 
 
 
 Esta funcionalidad habilita la creación automática. 
 
 
-Por ejemplo, en el mes siguiente, se creará otro *Budget*, en el caso de trimestral y semestral, se creará un mes después del último mes del periodo. 
+Por ejemplo:
+
+En el mes siguiente, se creará otro *Budget*, en el caso de trimestral y semestral, se creará un mes después del último mes del periodo. 
   
 .. figure:: /figuras/fig_budget/07_criar_budget_recorrente.png
    :alt: Criar budget recorrente  
@@ -318,21 +309,17 @@ Por ejemplo, en el mes siguiente, se creará otro *Budget*, en el caso de trimes
 
 
 
-
-* `Valor`: Campo que hace referencia al valor del informe.
+* **Valor**: Campo que hace referencia al valor del informe.
  
 En este espacio, el usuario debe rellenar el campo Valor con la cantidad disponible para el *Budget*, y seleccionar si este valor es por coste o por cantidad consumida. 
 
 
 
-
-* `Por coste o por cantidad consumida`: *“Checkbox”* responsable de indicar qué unidad del `Budget` se utiliza como referencia para mostrar el informe en pantalla, por coste (valor en BRL) o por cantidad consumida (valor en *amount* de los recursos). Estas opciones se encuentran en la parte derecha del campo de relleno del valor. 
-
+* **Por coste o por cantidad consumida**: *“Checkbox”* responsable de indicar qué unidad del `Budget` se utiliza como referencia para mostrar el informe en pantalla, por coste (valor en BRL) o por cantidad consumida (valor en *amount* de los recursos). Estas opciones se encuentran en la parte derecha del campo de relleno del valor. 
 
 
 
 Después de rellenar estos datos, se deben completar los campos sobre los detalles de los *Sub Budgets*. En este caso, el usuario debe seleccionar el tipo de desambiguación que desea en el informe, si es de *Container*, *Account Master*, *CloudType*, *Dimensión* o *TagUsn*.
-
 
 
 
@@ -358,9 +345,7 @@ Seleccionado el tipo de Desambiguación, el siguiente punto es rellenar el valor
 
 
 
-
 En este paso, el valor del *Sub Budget* debe rellenarse, y cuando se introduce el valor deseado, el saldo restante se presenta justo debajo del campo de valor.
-
 
 
 
@@ -369,7 +354,7 @@ Una vez completados todos los datos, el usuario debe pulsar el botón "Incluir S
 
 
 
-.. important:: El saldo restante corresponde al valor que indica el saldo restante del Budget, equivale al valor del Budget sustraído por la suma del valor de todos los Sub Budgets.  El botón "Crear Budget" permanece desactivado si el saldo restante es diferente de 0. 
+.. important:: |importante| El saldo restante corresponde al valor que indica el saldo restante del Budget, equivale al valor del Budget sustraído por la suma del valor de todos los Sub Budgets.  El botón "Crear Budget" permanece desactivado si el saldo restante es diferente de 0. 
 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
@@ -422,23 +407,23 @@ Ambos se muestran en el listado de abajo:
  
 Para finalizar el proceso de creación de *Budgets* y *Sub Budgets*, basta con pulsar el botón ``Crear`` situado en la parte inferior derecha de la pantalla.
 
-
+----
 
 
 Editando Budget 
 ---------------
 
 
-Para editar un *Budget*, basta el usuario acceder al menú Administración, y luego hacer clic en el submenú Contratos, la plataforma exhibe la lista de todos los contratos existentes.
+Para editar un "*Budget*", basta el usuario acceder al menú Administración, y luego hacer clic en el submenú Contratos, la plataforma exhibe la lista de todos los contratos existentes.
 
 
 En ella, el usuario debe hacer clic en el contrato relacionado al `Budget` que desea editar. La pantalla cargada presenta los detalles de este contrato, siendo necesario utilizar la barra de desplazamiento y navegar hasta encontrar la cuarta tarjeta *Budget*. 
 
 
-En esta `tarjeta` se muestran cinco columnas: Nombre, Intervalo, Fecha de inicio, Valor y Acciones.
+En esta tarjeta se muestran cinco columnas: Nombre, Intervalo, Fecha de inicio, Valor y Acciones.
 
 
-La columna "Acciones" permite al usuario realizar dos ejecuciones representadas por los iconos `[Editar]` y `[Eliminar]`.
+La columna "Acciones" permite al usuario realizar dos ejecuciones representadas por los iconos ``[Editar]`` y ``[Eliminar]``.
 
 
 .. figure:: /figuras/fig_budget/15_editar_budgets.png
@@ -447,7 +432,6 @@ La columna "Acciones" permite al usuario realizar dos ejecuciones representadas 
 
 
 ----
-
 
 
 
@@ -468,12 +452,10 @@ En esta pantalla es posible cambiar el nombre, el mes, el valor, si el *Budget* 
 
 
 
-.. important:: En resumen, los Sub Budgets creados no se modifican, es necesario eliminar y añadir el nuevo Budget.
+.. important:: |importante| En resumen, los Sub Budgets creados no se modifican, es necesario eliminar y añadir el nuevo Budget.
 
 
 ----
-
-
 
 
 
@@ -550,7 +532,6 @@ Al hacer clic en "Período", el icono calendario es exhibido por la plataforma, 
 
 
 
-
 Al final de la selección del periodo, como resultado de la búsqueda, el sistema filtra todos los `budgets` dentro del periodo determinado.
 
 
@@ -598,8 +579,8 @@ Al hacer clic en el *Budget* para visualizar los *Sub Budgets*, la interfaz ofre
 ----
 
 
-2. **Personalización del *branding* a nivel de contrato**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. **Personalización del branding a nivel de contrato**:
+-------------------------------------------------------
 
 El *branding* del portal Multicloud es permitido a través de la personalización definida por contrato. El cliente usuario puede seleccionar las características de su marca (empresa) representada en el portal Multicloud como los colores, el logotipo, entre otros.
 
@@ -608,10 +589,8 @@ El *branding* del portal Multicloud es permitido a través de la personalizació
 
 
 
-3. **Dimensión**
-~~~~~~~~~~~~
-
-
+3. **Dimensión**:
+----------------
 
 
 La Dimensión es una nueva implementación de la plataforma uCloud, y fue creada para agrupar `Tags` de diferentes nomenclaturas, pero que forman parte del mismo contexto, que están etiquetados en diferentes nubes. De esta manera, se evita que los mismos recursos sean etiquetados de diferentes maneras. 
@@ -653,7 +632,7 @@ Así, al unificar este grupo de `Tags` en una dimensión, es posible identificar
 
 En el ejemplo de arriba, la expresión representa que esta dimensión desea todos los recursos que tengan los `Tags`: “product: EFG & departamento:TI”. Esta expresión es considerada simple, sin embargo, algo más complejo puede ser construido a partir de lo que se puso implementado.
 
-
+----
 
 
 Creando una Dimensión
@@ -673,7 +652,6 @@ Para crear una dimensión, el usuario debe hacer clic en el menú Financiero, y 
 ----
   
 
-
 Al seleccionar la opción "Dimensión", se presenta la lista de dimensiones generadas anteriormente, como se muestra en la figura siguiente:
   
 .. image:: /figuras/fig_ucloud_findimensao/02_dimensão_listagem.png
@@ -682,11 +660,7 @@ Al seleccionar la opción "Dimensión", se presenta la lista de dimensiones gene
 ----
 
 
-
-
 En caso de que ésta sea la primera dimensión creada por el usuario, ninguna lista se presenta en la pantalla, como se muestra en la siguiente figura:
-
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/03_dimensão_listagem_vazia.png
@@ -694,7 +668,6 @@ En caso de que ésta sea la primera dimensión creada por el usuario, ninguna li
    :align: center
 ----
   
-
 
 En la parte superior izquierda de la pantalla aparece el botón "Crear dimensión", sobre el que el usuario debe pulsar para iniciar el proceso de creación.
 
@@ -710,7 +683,6 @@ Después de pulsado, se muestra la pantalla inicial de creación de la "Dimensi�
 
 
 
-
 Para entender mejor la función de cada campo, conviene observar los detalles a continuación:
 
 
@@ -720,11 +692,10 @@ Para entender mejor la función de cada campo, conviene observar los detalles a 
 * Estructura + : Este botón presenta dos opciones que el usuario puede aplicar a la estructura de su "Dimensión":
 
 
-* Agrupación de *Tags*;
+   * Agrupación de *Tags*;
 
 
    * *Tag*. 
-
 
 
 
@@ -736,18 +707,14 @@ Para entender mejor la función de cada campo, conviene observar los detalles a 
 
 * Botón "Guardar": Una vez rellenados los datos por completo, el usuario debe pulsar el botón "Guardar" para que los datos no se pierdan.
 
-
+----
 
 
 Creando una Agrupación de *Tags*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-
 Tras rellenar el nombre de la "Dimensión", el usuario debe crear un grupo para su estructura. Al pasar el cursor del ratón por la opción "Agrupación de *Tags*", aparece el siguiente mensaje:
-
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/05_dimensão_mensagem_grupo_expandida.png
@@ -765,8 +732,6 @@ Una vez seleccionado, el modal de creación del grupo se muestra, donde el nombr
 ----
 
 
-  
-
 
 Una vez realizada la acción, debajo de la función **"Estructura +"**, aparece el nombre del grupo creado y, junto a él, dos botones de acción:
 
@@ -778,7 +743,6 @@ Una vez realizada la acción, debajo de la función **"Estructura +"**, aparece 
 
 
 Al lado de estos iconos, aparece la siguiente información:
-
 
 
 
@@ -795,14 +759,10 @@ En la imagen de abajo, también se puede ver que en la función de Estructura, e
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/08_dimensão_grupo_estrutura.png
    :alt: Financeiro Dimensão_grupo_estrutura
    :align: center
 ----  
-
-
-
 
 
 
@@ -814,7 +774,6 @@ Al hacer clic en el icono de suma "+" al lado del grupo creado y situando el cur
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/09_dimensão_mensagem_tag_expandida.png
    :alt: Financeiro Dimensão_mensagem_tag_expandida
    :align: center
@@ -822,7 +781,6 @@ Al hacer clic en el icono de suma "+" al lado del grupo creado y situando el cur
 
 
 Al hacer clic en `Tag`, el modal de creación de `Tag` es mostrado:
-
 
 
 
@@ -837,17 +795,13 @@ El primer paso del usuario es seleccionar una de las `companies` listadas en el 
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/11_dimensão_lista_company.png
    :alt: Financeiro Dimensão_lista_company
    :align: center
 ----
 
-
   
 Después de seleccionar la `company` deseada, el botón "Filtrar" al lado del menú desplegable queda disponible para activación, como se ejemplifica en la imagen siguiente:
-
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/12_dimensão_filtrar.png
@@ -855,10 +809,8 @@ Después de seleccionar la `company` deseada, el botón "Filtrar" al lado del me
    :align: center
 ----
 
-
   
 Si la `company` ya dispone de `Tags`, se muestra un listado de `Tags` con las claves y valores de los últimos tres meses. La pantalla exhibe el número de páginas abajo del listado y las informaciones recuperadas en bloques de 10, 25, 50 o 100 filas.
-
 
 
 
@@ -868,20 +820,15 @@ Si la `company` ya dispone de `Tags`, se muestra un listado de `Tags` con las cl
 ----
 
 
-  
-
 
 El usuario debe seleccionar el `Tag` deseado, mostrado en la lista, y automáticamente se muestran la Clave y el Valor del `Tag` creado.
 
-
-  
 
 
 .. image:: /figuras/fig_ucloud_findimensao/14_dimensão_company_tag_escolhida.png
    :alt: Financeiro Dimensão_company_tag_escolhida
    :align: center
 ----
-
 
 
 
@@ -896,7 +843,6 @@ Al finalizar el llenado del modal, el usuario debe hacer clic en el botón "Guar
 
 
 
-
 Si una `company` no tiene `Tags` y el usuario desea crearlos, basta introducir la Clave y el Valor en los últimos campos, como se muestra en la imagen de arriba, dejando los campos centrales vacíos.
 
 
@@ -907,7 +853,6 @@ Una vez hecho esto, la pantalla de creación de "Dimensión" debe aparecer de la
    :alt: Financeiro Dimensão_grupo_e_tag
    :align: center
 ----
-
 
 
 
@@ -925,7 +870,6 @@ Utilizando el Operador Lógico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
 
-
 Los operadores lógicos forman parte del lenguaje de programación y se utilizan con el objetivo de crear expresiones de tipo verdaderas y falsas. Estas se usan para unir dos expresiones divergentes y elaborar una expresión condicional más compleja. 
 
 
@@ -933,6 +877,7 @@ Los operadores lógicos forman parte del lenguaje de programación y se utilizan
 
 .. image:: /figuras/fig_ucloud_findimensao/17_dimensão_operadores_lógicos_closeup.png
    :alt: Financeiro Dimensão_operadores_lógicos_closeup
+   :scale: 80 %
    :align: center
 ----
 
@@ -958,6 +903,7 @@ Al situar el cursor del ratón sobre la opción del operador </> “OR”, apare
 
 .. image:: /figuras/fig_ucloud_findimensao/18_dimensão_operador_ou_closeup.png
    :alt: Financeiro Dimensão_operador_ou_closeup
+   :scale: 80 %
    :align: center
 ----
 
@@ -971,12 +917,11 @@ Cuando se pone el ratón sobre el operador </> AND, aparece el siguiente mensaje
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/19_dimensão_operador_e_closeup.png
    :alt: Financeiro Dimensão_operador_e_closeup
+   :scale: 80 %
    :align: center
 ----
-
 
 
 
@@ -984,7 +929,6 @@ Es decir, al buscar los `Tags`, si sólo uno de los `Tags` es inexistente, la ac
 
 
 En este ejemplo, se ha seleccionado el operador "AND" (en lengua inglesa), y la confirmación de la acción se presenta en el cambio de ambas estructuras:
-
 
 
 
@@ -1008,7 +952,6 @@ Al finalizar este paso, se muestra la estructura final de una dimensión y, para
 
 
 
-
 Al finalizar esta acción, la "Dimensión" guardada aparece en el listado de Dimensión.
 
 ----
@@ -1018,8 +961,6 @@ Listado de Dimensión
 ~~~~~~~~~~~~~~~~~
 
 
-
-
 Para listar la "Dimensión" recién creada, normalmente la pantalla muestra el listado. Al consultar la pantalla "Listado de Dimensión", en caso de que no se actualice automáticamente, el usuario debe pulsar el botón "Actualizar" situado en la esquina superior derecha de la pantalla.
 
 
@@ -1027,13 +968,10 @@ A continuación, la pantalla que muestra la lista debe exhibir la "Dimensión" c
 
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/22_dimensão_listagem_final.png
    :alt: Financeiro Dimensão_listagem_final
    :align: center
 ----
-
-
 
 
 La pantalla de arriba "Listado de Dimensión" muestra en la parte superior derecha el nombre del contrato, el símbolo de la funcionalidad "Tareas" y el nombre del usuario conectado.
@@ -1052,9 +990,7 @@ Editando una Dimensión
 
 
 
-
 Para editar una dimensión, el usuario debe hacer clic en el botón correspondiente a la edición en la columna "Acciones" del listado de "Dimensión", como se detalla a continuación:
-
 
 
 
@@ -1063,10 +999,8 @@ Para editar una dimensión, el usuario debe hacer clic en el botón correspondie
    :align: center
 ----
 
-
   
 Al hacerlo, se muestra la pantalla con la estructura montada y finalizada, como se ejemplifica a continuación. Este ejemplo, utilizando una nueva dimensión, contiene Grupos y `Tags` variados.
-
 
 
 
@@ -1074,7 +1008,6 @@ Al hacerlo, se muestra la pantalla con la estructura montada y finalizada, como 
    :alt: Financeiro Dimensão_estrutura_completa
    :align: center
 ----
-
 
 
 
@@ -1101,34 +1034,43 @@ Actualmente, esta implementación agrupa *Tags* y los agrupan en la "Dimensión"
 
 
 
-4. **Import y Export de ofertas de servicios en (XML + YAML)**: En esta nueva funcionalidad es posible importar y exportar una misma oferta desde cualquier nube, siempre que esté vinculada al Portal uCloud. Anteriormente era posible importar y exportar archivos en formato JSON, ahora se han añadido las opciones de importar y exportar los archivos también en formato XML e YAML. [tag 5.3-b43 10ago]
+4. **Import y Export de ofertas de servicios en (XML + YAML)**:
+--------------------------------------------------------------
+
+ En esta nueva funcionalidad es posible importar y exportar una misma oferta desde cualquier nube, siempre que esté vinculada al Portal uCloud. Anteriormente era posible importar y exportar archivos en formato JSON, ahora se han añadido las opciones de importar y exportar los archivos también en formato XML e YAML. [tag 5.3-b43 10ago]
 
 ----
 
-5. **Import de credenciales del Google en el Secret Manager de la AWS**: Secret Manager es un repositorio donde se almacena las informaciones cuyo acceso está reservado al usuario. Para importar los datos credenciales de Google de este usuario, la acción debe realizarse a través de uCloud para que sean transferidos desde el repositorio escondido de AWS. [tag 5.3-b16 28jul]
+5. **Import de credenciales del Google en el Secret Manager de la AWS**: 
+-----------------------------------------------------------------------
+
+
+Secret Manager es un repositorio donde se almacena las informaciones cuyo acceso está reservado al usuario. Para importar los datos credenciales de Google de este usuario, la acción debe realizarse a través de uCloud para que sean transferidos desde el repositorio escondido de AWS. [tag 5.3-b16 28jul]
 
 ----
 
-6. **Permisos a nivel de Cuenta**: Esta nueva funcionalidad optimiza el proceso de permisos de un usuario. En esta modalidad de permisos a nivel de cuenta, el usuario puede realizar las acciones desde el perfil de permisos creado para él, ya sea básico o avanzado. Este usuario tiene la facultad de gestionar diversos contratos vinculados a una cuenta, según los permisos que se le hayan concedido.
+6. **Permisos a nivel de Cuenta**: 
+---------------------------------
+
+Esta nueva funcionalidad optimiza el proceso de permisos de un usuario. En esta modalidad de permisos a nivel de cuenta, el usuario puede realizar las acciones desde el perfil de permisos creado para él, ya sea básico o avanzado. Este usuario tiene la facultad de gestionar diversos contratos vinculados a una cuenta, según los permisos que se le hayan concedido.
 
 ----
 
 
 7. **Informe de Monitoreo de Consumo V1**: 
-
+-----------------------------------------
 
 El informe de Monitoreo de Consumo (v1) es una nueva funcionalidad del portal uCloud, que se ocupa del seguimiento de facturación y del detalle completo de los gastos, categorizados por Nubes (por ejemplo, *AWS* y *Azure*), Contratos y Recursos.  
-
 
 
 
 En este documento se generan diferentes tipos de índices, que pueden ser tablas, informes y gráficos, para cada tipo de clase (Recurso, Contrato y Nube). Estos se titulan en los tópicos: 
 
 
-  1. *Historial de Facturación*;
-  2. *Factura por Contrato/Proyecto*;
-  3. *Mayores Variaciones en esta Factura* y
-  4. *TOP 3 Contratos por Nube en Detalle*.
+  1. Historial de Facturación;
+  2. Factura por Contrato/Proyecto;
+  3. Mayores Variaciones en esta Factura y
+  4. TOP 3 Contratos por Nube en Detalle.
 
 
 
@@ -1137,23 +1079,17 @@ En este documento se generan diferentes tipos de índices, que pueden ser tablas
 
 
 
-
 Además, el **Informe de Monitoreo de Consumo (v1)**, denominado brevemente como **IMC.v1**, compara los gastos del mes en curso con los del mes anterior, proporcionando a la empresa las informaciones necesarias para que se pueda evaluar el desembolso y tener un control eficiente de las posibles caídas o aumentos de consumo. 
 
 
-
-
+----
 
 
 Accediendo al IMC.v1
 ~~~~~~~~~~~~~~~~~~
 
 
-
-
 Para generar el Informe de Monitoreo de Consumo (v1) en el portal uCloud, el usuario debe acceder al menú "Financiero", identificado en la esquina inferior izquierda. Y a continuación hacer clic en el submenú "Informes".
-
-
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
@@ -1163,7 +1099,6 @@ Para generar el Informe de Monitoreo de Consumo (v1) en el portal uCloud, el usu
 
 ----
   
-
 
 En la pantalla siguiente se muestran todas las opciones relacionadas con el acceso y la gestión de las facturas de los grupos o contratos que el usuario administra.
 
@@ -1178,9 +1113,6 @@ En la pantalla siguiente se muestran todas las opciones relacionadas con el acce
 
 
 
-
-
-
 Haciendo clic en el submenú "Informes", el tópico "Paneles basados en el Consumo" permite acceder a los informes relacionados con el consumo del mes en curso introducido en la búsqueda por el usuario.
 
 
@@ -1192,11 +1124,7 @@ Haciendo clic en el submenú "Informes", el tópico "Paneles basados en el Consu
 ----
   
 
-
 En él se agrupan siete tipos de informes, uno de los cuales es el **Informe de Monitoreo de Consumo - IMC.v1**.
-
-
-
 
 
 
@@ -1212,8 +1140,7 @@ En él se agrupan siete tipos de informes, uno de los cuales es el **Informe de 
 Al hacer clic en esta opción, el usuario puede generar el documento deseado.
 
 
-
-
+----
 
 
 Creación del IMC.v1
@@ -1221,11 +1148,7 @@ Creación del IMC.v1
 
 
 
-
 Tras hacer clic en **Informe de Monitoreo de Consumo (v1) - IMC.v1**, se abre una nueva pantalla en la que el usuario puede seleccionar el mes y el año que desea visualizar, así como filtrar los contratos deseados.
-
-
-
 
 
 
@@ -1238,17 +1161,12 @@ Tras hacer clic en **Informe de Monitoreo de Consumo (v1) - IMC.v1**, se abre un
   
 
 
-
-
 En este mismo modal, se muestran dos botones: 
-
 
 
 
 * [**GENERAR INFORME**] Permanece disponible para la activación cuando se selecciona al menos un contrato.
 * [**SELECCIONAR TODO**]. Se refiere al filtro de los contratos. Se pueden ver las barras de desplazamiento y de búsqueda.
-
-
 
 
 
@@ -1261,14 +1179,7 @@ En este mismo modal, se muestran dos botones:
 ----
 
 
-
-
-
-
 La barra de desplazamiento, situada en el lado derecho, ayuda al usuario a navegar por el modal en busca del contrato pretendido. La barra de búsqueda facilita la consulta, el usuario sólo tiene que escribir las letras iniciales del contrato.
-
-
-
 
 
 
@@ -1281,14 +1192,7 @@ La barra de desplazamiento, situada en el lado derecho, ayuda al usuario a naveg
   
 
 
-
-
-
-
 Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que aparece el mes seleccionado por el usuario y los botones [*DOWNLOAD*] y [GENERAR NUEVO INFORME].
-
-
-
 
 
 
@@ -1300,14 +1204,7 @@ Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que a
 ----
 
 
-
-
 El desbloqueo del botón [*DOWNLOAD*] sólo se realiza cuando los datos se compilan en la plataforma y la misma proporciona el informe del período y del contrato seleccionado. 
-
-
-
-
-
 
 
 
@@ -1315,9 +1212,6 @@ En el ejemplo de la siguiente pantalla, la plataforma informa que el "usuario no
 
 
 Para la ejecución de la descarga del archivo, basta con que el usuario haga clic en el botón citado.
-
-
-
 
 
 
@@ -1330,17 +1224,12 @@ Para la ejecución de la descarga del archivo, basta con que el usuario haga cli
 
 
 
-
-
-
 En el caso de no disponer de datos, los informes no quedan disponibles para el mes seleccionado, el botón [*DOWNLOAD*] aparece inactivo (color gris) y la plataforma emite el mensaje mencionado en el ejemplo anterior e impreso en la imagen de arriba.
-
-
 
 
 Cuando hay datos por publicar para el periodo seleccionado por el usuario, la plataforma comunica al usuario que el informe está en proceso de recopilación de datos.
 
-
+----
 
 
 Siguiendo el *status* en el menú de Tareas
@@ -1394,7 +1283,7 @@ En la columna "Acciones" situada en la ventana "Aprobaciones Pendientes" **el us
 
 
 
-Luego debe esperar la actualización del "Status" que puede ser: En ejecución (*Running*); Fallo (*Failed*) o Éxito (*Successfull*).
+Luego debe esperar la actualización del "Status" que puede ser: En ejecución ``(*Running*)``; Fallo ``(*Failed*)`` o Éxito ``(*Successfull*)``.
 
 
 
@@ -1402,14 +1291,11 @@ Luego debe esperar la actualización del "Status" que puede ser: En ejecución (
 Una vez que el proceso de creación del nuevo informe fue exitoso, los datos fueron compilados en la plataforma uCloud. 
 
 
-
-
+----
 
 
 Habilitación del *Download* del IMC.v1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 
 Una vez creado con éxito el nuevo informe, el usuario debe repetir el flujo para descargarlo, ya que los datos están recopilados en la plataforma uCloud.  
@@ -1427,19 +1313,10 @@ A continuación, es necesario seleccionar de nuevo, el mismo período y los cont
 ----
 
 
-
-
-
-
 En este punto, el usuario debe observar si el botón [GENERAR INFORME] está habilitado (color naranja), en caso afirmativo, significa que el flujo para descargar el IMC.v1 prosigue, los datos están previamente preparados y pueden ser extraídos en formato de informe.
 
 
-
-
 Durante este proceso, la plataforma desbloquea el botón [*Download*] y lo muestra en color verde, como se observa en la siguiente imagen. 
-
-
-
 
 
 
@@ -1452,9 +1329,6 @@ Durante este proceso, la plataforma desbloquea el botón [*Download*] y lo muest
 
 
 
-
-
-
 El usuario debe verificar el mensaje que la plataforma presenta: "Informe generado para los contratos y el periodo seleccionado. Puedes descargarlo o generar uno nuevo con las mismas configuraciones".
 
 
@@ -1463,7 +1337,7 @@ El usuario debe verificar el mensaje que la plataforma presenta: "Informe genera
 Al final de esta secuencia de actividades, para ejecutar la descarga del archivo IMC.v1 deseado, el usuario debe hacer clic en el botón [*DOWNLOAD*].
 
 
-
+----
 
 
 
@@ -1471,16 +1345,11 @@ Visualizando el IMC.v1
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-
-
 Tras generar y descargar el **Informe de Monitoreo de Consumo (v1) - IMC.v1**, se presenta un ejemplo que se describe a continuación:
 
 
 
-
 **Portada**
-
-
 
 
 El documento presenta una portada con las siguientes informaciones:
@@ -1491,13 +1360,7 @@ El documento presenta una portada con las siguientes informaciones:
 
 
 
-
 Tal como se muestra a continuación:
-
-
-
-
-
 
 
 
@@ -1511,16 +1374,11 @@ Tal como se muestra a continuación:
 
 
 
-
 **1 - Resumen Ejecutivo** 
 
 
 
-
 En el resumen ejecutivo se presenta un texto explicativo que describe la variación de los valores y el porcentaje que se ha producido en la factura del mes en curso en comparación con el mes anterior, conforme el ejemplo:
-
-
-
 
 
 
@@ -1533,12 +1391,7 @@ En el resumen ejecutivo se presenta un texto explicativo que describe la variaci
 
 
 
-
-
-
 **1.1 - Historial de Facturación**
-
-
 
 
 Después del resumen ejecutivo, está el Historial de Facturación, que presenta una tabla con el período seleccionado por el usuario, en la que se muestra el valor de la nube deseada en Reales (R$) y Unidad de Servicio de Nube (USN), y la tasa de variación en porcentaje del mes anterior y también del mes actual. 
@@ -1546,17 +1399,13 @@ Después del resumen ejecutivo, está el Historial de Facturación, que presenta
 
 
 
-.. attention::  |atención| Unidad de Servicio de Nube (USN) es un modelo de tarificación de los servicios de nube, asignado a las empresas que están asociadas a las esferas gubernamentales. 
+.. attention::  |atencao| Unidad de Servicio de Nube (USN) es un modelo de tarificación de los servicios de nube, asignado a las empresas que están asociadas a las esferas gubernamentales. 
 
 
-.. important:: La USN pretende establecerse como un método predecible, lineal y flexible para obtener una cantidad específica a cobrar por los servicios de computación en nube.
+.. important:: |importante| La USN pretende establecerse como un método predecible, lineal y flexible para obtener una cantidad específica a cobrar por los servicios de computación en nube.
 
 
 .. note:: |nota| La métrica USN consiste en establecer un valor de referencia específico para cada tipo de servicio en la nube, según las métricas individuales asociadas al consumo de recursos.
-
-
-
-
 
 
 
@@ -1569,8 +1418,6 @@ Después del resumen ejecutivo, está el Historial de Facturación, que presenta
 ----
 
 
-
-
 Según el ejemplo de arriba, se comparan los gastos del mes actual con los del mes anterior, mostrando si hubo un aumento o disminución del consumo para cada contrato específico, también exhibe el porcentaje y las posibles variaciones del mes anterior al actual.
 
 
@@ -1581,9 +1428,7 @@ Esta regla tiene como objetivo mantener el documento más compacto, evitando hac
 
 
 
-
 * Primer ejemplo nube *AWS*
-
 
 
 
@@ -1596,17 +1441,11 @@ Esta regla tiene como objetivo mantener el documento más compacto, evitando hac
 
 
 
-
 Para la complementación y mejor visualización, esta parte del documento genera también un gráfico circular, que contiene las mismas informaciones de los gastos de la tabla de forma ilustrativa, separando los contratos por colores para una mejor comprensión del usuario.
 
 
 
-
 *Segundo ejemplo de gráfico circular nube *AWS*:
-
-
-
-
 
 
 
@@ -1620,18 +1459,12 @@ Para la complementación y mejor visualización, esta parte del documento genera
 
 
 
-
 .. note:: |nota| En el caso de más de una nube, el informe sigue el mismo formato de presentación e informaciones.
 
 
 
 
-
-
 * Tercer ejemplo nube *Azure*:
-
-
-
 
 
 
@@ -1654,9 +1487,6 @@ En la Factura por Contrato/Proyecto, es informado, en primer lugar, el gasto gen
 
 
 
-
-
-
 .. figure:: /figuras/fig_imcv1_spa/7_factura_por_contrato.png 
    :alt: factura por contrato
    :align: center 
@@ -1666,18 +1496,10 @@ En la Factura por Contrato/Proyecto, es informado, en primer lugar, el gasto gen
  
 
 
-
-
 A continuación de la tabla hay un gráfico que contiene la proporción de estos consumos en porcentaje, como se muestra a continuación:
 
 
-
-
 Al igual que en el Historial de Facturación, en la Factura por Contrato/Proyecto, también se genera un gráfico para la complementación y mejor visualización del usuario, conteniendo las mismas informaciones de los gastos de la tabla de forma ilustrativa, demostrando la proporción de los gastos por nube.
-
-
-
-
 
 
  
@@ -1689,19 +1511,10 @@ Al igual que en el Historial de Facturación, en la Factura por Contrato/Proyect
 ----
 
 
-
-
-
-
 Tras el gráfico, la siguiente imagen expone y especifica **todos** los contratos de cada nube (además de los cinco mayores mostrados en el historial de facturación), siendo resaltados los proyectos más recientes.
 
 
-
-
 El ejemplo de la siguiente tabla detalla los costes de la nube, sus contratos y el valor total, presentados en R$ y USN.
-
-
-
 
 
 
@@ -1709,7 +1522,6 @@ El ejemplo de la siguiente tabla detalla los costes de la nube, sus contratos y 
    :alt: exemplo tabla aws
    :align: center
 ----
-
 
 
 
@@ -1722,9 +1534,7 @@ El ejemplo de la siguiente tabla detalla los costes de la nube, sus contratos y 
 
 
 
-
 .. note:: |nota| Tenga en cuenta que en el caso de más de una nube, el informe sigue el mismo patrón de presentación e informaciones.
-
 
 
 
@@ -1732,16 +1542,11 @@ El ejemplo de la siguiente tabla detalla los costes de la nube, sus contratos y 
 
 
 
-
 En las "Mayores Variaciones en esta Factura" se presentan en una tabla, todas las variaciones de los contratos del mes de cada proveedor específico, comparando el valor del mes anterior con el valor del mes actual, demostrando la variación de su valor total en porcentaje, por lo tanto, esta parte del documento es un complemento de la "Factura por Contrato/Proyecto".
 
 
 
-
 Esta tabla considera únicamente las variaciones más relevantes, con un corte que contiene, en primer lugar, las mayores o iguales a quince por ciento (>=15%) y, en consecuencia, las menores o iguales a quince por ciento negativo (<= -15%). A continuación, un ejemplo:
-
-
-
 
 
 
@@ -1756,15 +1561,10 @@ Esta tabla considera únicamente las variaciones más relevantes, con un corte q
 
 
 
-
-
-
 Las **variaciones positivas** (>=15%) se destacan en el **tono azul**, al igual que las **variaciones negativas** (<= -15%) se destacan en el **tono rojizo**. 
 
 
 Se puede observar que cuanto mayor es la variación, más oscuro es el tono.
-
-
 
 
 
@@ -1778,11 +1578,7 @@ Se puede observar que cuanto mayor es la variación, más oscuro es el tono.
 
 
 
-
 Además, el contrato con mayor valor de variación se destaca y presenta las informaciones sobre sus recursos de forma detallada. Este gráfico contiene **todos los recursos del contrato** y sus gastos, informando cuáles fueron los cambios en su consumo y utilización. El gráfico también señala cuáles fueron los recursos que más gastaron en el mes, como se ejemplifica en la siguiente imagen:
-
-
-
 
 
 
@@ -1795,18 +1591,9 @@ Además, el contrato con mayor valor de variación se destaca y presenta las inf
 
 
 
-
-
-
-
-
 .. figure:: /figuras/fig_imcv1_spa/14_cambio_aws_lista1.png
    :alt: cambio aws lista1
    :align: center 
-
-
-
-
 
 
 
@@ -1820,11 +1607,6 @@ Además, el contrato con mayor valor de variación se destaca y presenta las inf
 
 
 
-
-
-
-
-
 .. figure:: /figuras/fig_imcv1_spa/16_cambio_azure.png 
    :alt: cambio azure
    :align: center 
@@ -1834,19 +1616,12 @@ Además, el contrato con mayor valor de variación se destaca y presenta las inf
 
 
 
-
-
-
 Justo después del gráfico de barras, se presenta una tabla descriptiva, con las columnas *Producto* y *Importe total* *(R$)* de las cantidades de cada recurso invertido de forma separada y específica, desde el importe más alto al más bajo.
 
 
 .. figure:: /figuras/fig_imcv1_spa/17_cambio_azure_tabla1.png
    :alt: tabla descriptiva 1
    :align: center 
-
-
-
-
 
 
 .. figure:: /figuras/fig_imcv1_spa/18_cambio_azure_tabla2.png
@@ -1861,18 +1636,11 @@ Justo después del gráfico de barras, se presenta una tabla descriptiva, con la
 
 
 
-
 **4 - TOP 3 Contratos por Nube en Detalle**
 
 
 
-
 Por último, se expone un índice que contiene el recorte de los tres contratos que tuvieron mayor consumo en cada nube, y los recursos que representan el mayor impacto en cada una de ellas. El informe presenta cada una de las nubes utilizadas por la empresa, el nombre de los contratos y sus valores totales en R$ y USN, como se presenta en el siguiente ejemplo:
-
-
-
-
-
 
 
 
@@ -1884,12 +1652,7 @@ Por último, se expone un índice que contiene el recorte de los tres contratos 
 ----
 
 
-
-
 A continuación, se publica de manera más detallada el resumen de cuánto cuesta cada producto al contrato, especificándolos y evidenciando el porcentaje sobre los gastos totales de cada contrato. Esta información se demuestra mediante un gráfico ilustrativo como se muestra el siguiente ejemplo: 
-
-
-
 
 
 
@@ -1899,13 +1662,9 @@ A continuación, se publica de manera más detallada el resumen de cuánto cuest
 
 
 
-
 .. figure:: /figuras/fig_imcv1_spa/21_detalle_aws_lista2.png
    :alt: detalle aws lista2
    :align: center 
-
-
-
 
 
 
@@ -1918,11 +1677,7 @@ A continuación, se publica de manera más detallada el resumen de cuánto cuest
 
 
 
-
-
-
-.. attention:: |atención| En el caso de más de una nube, el informe sigue el mismo patrón de presentación e información.
-
+.. attention:: |atencao| En el caso de más de una nube, el informe sigue el mismo patrón de presentación e información.
 
 
 
@@ -1933,20 +1688,11 @@ Esta actualización cuenta con un amplio índice, que contiene tablas, informes 
 
 
 
-
-
-
-
-
-—-
-
-
-
-
+----
 
 
 Adecuación a los Cambios Realizados en las Nubes Públicas y Privadas
-==========================
+====================================================================
 
 
 Amazon Web Services (AWS)
@@ -2080,16 +1826,16 @@ En cuanto a la interacción con el hipervisor VCenter/vSphere, destacamos la sig
 
 
 VMWare vCloud (vCloud)
-------------------
+----------------------
 
 
 En relación a la interacción con el hipervisor vCloud no se ha producido ningún cambio, corrección, nueva implementación o funcionalidad.
 
-
+----
 
 
 Perfeccionamiento de la plataforma uCloud
-=============================
+=========================================
 
 
 Ustore renueva la plataforma uCloud en consonancia con la continua evolución de las innovaciones en el sector de *cloud computing*, ambiente dinámico que permite el acceso remoto a softwares, almacenamiento de archivos y procesamiento de datos a través de Internet.
@@ -2277,15 +2023,17 @@ Por lo tanto, la práctica del perfeccionamiento continuo adoptada en la mejora 
 |virtual y *Scaling Group*.                           |                 |
 +-----------------------------------------------------+-----------------+    
 
+----
 
 
 Acciones Correctivas Globales
-===================
+=============================
 
 
 Este tópico enumera las acciones correctivas llevadas a cabo por nuestro equipo de desarrollo, identificadas como resultado de los *reports* generados en la experiencia del uso y *quality assurance*. Las acciones correctoras de *fix* y *bugs* pueden referirse a: Adecuaciones a las nubes y mejoras de la plataforma uCloud en *Account*, *OPS* y *Billing*.
 
 
+----
 
 
 Adecuaciones a las nubes
@@ -2293,7 +2041,7 @@ Adecuaciones a las nubes
 
 
 Amazon Web Services (AWS)
----------------------------------------
+------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Amazon Web Services (AWS), se puede enumerar una acción correctiva:
@@ -2309,7 +2057,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Amazo
 
 
 Microsoft Azure (Azure)
-------------------------------
+----------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Microsoft AZURE, se enumeran las siguientes correcciones:
@@ -2332,7 +2080,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Micro
 
 
 Google Cloud Platform (GCP)
---------------------------------------
+---------------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Google Cloud Platform (GCP), se pueden enumerar las siguientes correcciones:
@@ -2350,14 +2098,14 @@ En cuanto a la interacción con el proveedor de servicios de nube pública Googl
 
 
 Huawei Cloud (Huawei)
-------------------------------
+---------------------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública Huawei Cloud, no hubo ningún cambio, corrección, nueva implementación o nueva funcionalidad.
 
 
 IBM Cloud
------------
+---------
 
 
 En cuanto a la interacción con el proveedor de servicios de nube pública IBM Cloud, se enumera la siguiente corrección:
@@ -2373,7 +2121,7 @@ En cuanto a la interacción con el proveedor de servicios de nube pública IBM C
 
 
 VMware vCloud
--------------------
+-------------
 
 
 En cuanto a la interacción con el hipervisor de la nube privada VMware 6.5 (o superior), se pueden enumerar las siguientes correcciones:
@@ -2390,13 +2138,15 @@ En cuanto a la interacción con el hipervisor de la nube privada VMware 6.5 (o s
 +--------------------------------------------------+-----------------+
 
 
+----
 
 
 Plataforma uCloud
-===============
+-----------------
 
 
 **OPS** 
+~~~~~~~~
 
 +--------------------------------------------------+-----------------+
 |*FEATURE*                                         |VERSIÓN          |
@@ -2438,9 +2188,11 @@ Plataforma uCloud
 
 
 **Billing**
+~~~~~~~~~~
+
 
 +--------------------------------------------------+-----------------+
-|FEATURE                                           |VERSÃO           |
+|FEATURE                                           |VERSIÓN          |
 +==================================================+=================+
 |*Pop-up VirtualTags*                              |tag 5.2-b45 05jul|
 |[fix]                                             |                 |
@@ -2496,14 +2248,7 @@ Plataforma uCloud
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
  
-
-
-====
-
-
-====
-
-
+----
 
 
 En esta nota se evoca el principio de la norma ISO 9001, elaborada por la Organización Internacional de Normalización (en Brasil conocida como ABNT NBR ISO 9001). Su objetivo es establecer normas consistentes que aumenten la calidad de los procesos aplicados y redundan una mejora continua y ajustes en las funcionalidades, en busca de una gestión de calidad y excelencia empresarial. 
@@ -2512,19 +2257,18 @@ Todo lo anterior se refiere al principio de la norma ISO 9001.
 
 
 En resumen, el documento presenta:
+
+
 * Siete (7) nuevas implantaciones; 
 * Trece (13) mejoras realizadas en la categoría *Cloud* debido a la demanda en la adaptación a los cambios en estos proveedores; 
 * Cuarenta (40) mejoras globales de la plataforma uCloud;  
-* Treinta y cuatro (34) acciones correctivas; 
-* Nueve (09) relacionadas con las nubes; 
-* Diez (10) relativas a uCloudOPS; 
-* Quince (15) pertenecen al *Billing*. 
+* Treinta y cuatro (34) acciones correctivas:
+  * Nueve (09) relacionadas con las nubes; 
+  * Diez (10) relativas a uCloudOPS; 
+  * Quince (15) pertenecen al *Billing*. 
 
 
 Por tanto, se concluye las notas de publicación del trimestre correspondiente a los meses de junio, julio y agosto del presente año.
-
-
-
 
 
 
