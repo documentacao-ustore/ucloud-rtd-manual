@@ -115,8 +115,8 @@ When selecting the desired contract from the list, a new screen with the contrac
 
 
 
-.. figure:: /figuras/fig_budget/02_budget_tela_contrato.png
-   :alt: Budget tela contrato 
+.. figure:: /figuras/fig_budget_ing/02_budget_screen_company.png
+   :alt: Budget screen company 
    :align: center
 ----
   
