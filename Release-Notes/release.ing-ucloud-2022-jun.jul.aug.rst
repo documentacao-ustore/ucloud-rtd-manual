@@ -646,8 +646,8 @@ To create a dimension, the user must click on the Financial menu, and then on th
 2. Virtual Tags.
 
 
-.. image:: /figuras/fig_dimensao_ing/01_dimension_billing_menu.png
-   :alt: Dimension billing menu
+.. image:: /figuras/fig_dimension_ing/01_dimension_billing_menu.png
+   :alt: dimension billing menu
    :align: center
 ----
   
@@ -655,8 +655,8 @@ To create a dimension, the user must click on the Financial menu, and then on th
 
 When selecting the “Dimension” option, the listing of dimensions generated previously is presented, as demonstrated in the figure below:
   
-.. image:: /figuras/fig_ucloud_findimensao/02_dimensão_listagem.png
-   :alt: Financeiro Dimensão_listagem
+.. image:: /figuras/fig_dimensao_ing/02_dimension_listing.png
+   :alt: financeiro dimension listing
    :align: center
 ----
 
@@ -666,8 +666,8 @@ When selecting the “Dimension” option, the listing of dimensions generated p
 In case this is the first dimension to be created by the user, no list is displayed on the screen, as shown in the next image:
 
 
-.. image:: /figuras/fig_dimensao_ing/03_dimension_empty_listing.png
-   :alt: Billing Dimension empty listing
+.. image:: /figuras/fig_dimension_ing/03_dimension_empty_listing.png
+   :alt: billing dimension empty listing
    :align: center
 ----
   
@@ -680,8 +680,8 @@ After clicking, the initial screen to create a “Dimension” is presented, as 
   
 
 
-.. image:: /figuras/fig_dimensao_ing/04_dimension_start.png
-   :alt: Billing Dimension_start
+.. image:: /figuras/fig_dimension_ing/04_dimension_start.png
+   :alt: billing dimension start
    :align: center
 ----
 
@@ -722,8 +722,8 @@ Creating a Group of Tags
 After filling in the “Dimension” name, the user must create a group for its structure. When hovering the mouse cursor over the “Tag Grouping” option, appears the following message:
 
 
-.. image:: /figuras/fig_dimensao_ing/05_dimension_message_grouping_expanded.png
-   :alt: Billling Dimension_message_group_expended
+.. image:: /figuras/fig_dimension_ing/05_dimension_message_grouping_expanded.png
+   :alt: billing dimension message group expended
    :align: center
 ----
 
@@ -731,8 +731,8 @@ After filling in the “Dimension” name, the user must create a group for its 
 When selected, the group creation modal is shown, where the name of the group of Tags must be filled in and then saved.
 
 
-.. image:: /figuras/fig_dimensao_ing/06_dimension_create_grouping.png
-   :alt: Billing Dimension_create_group
+.. image:: /figuras/fig_dimension_ing/06_dimension_create_grouping.png
+   :alt: billing dimension create grouping
    :align: center
 ----
 
@@ -750,8 +750,8 @@ Once the action is performed, below the **”Structure +”** function, the name
 Next to these icons, the following information appears :
 
 
-.. image:: /figuras/fig_dimensao_ing/07_dimension_message_structure_expanded.png
-   :alt: Billing Dimension_message_structure_expanded
+.. image:: /figuras/fig_dimension_ing/07_dimension_message_structure_expanded.png
+   :alt: billing dimension message structure expanded
    :align: center
 ----
 
@@ -762,8 +762,8 @@ In the image below, it is also possible to notice that in the Structure function
 
 
 
-.. image:: /figuras/fig_dimensao_ing/08_dimension_grouping_structure.png
-   :alt: Billing Dimension_grouping_structure
+.. image:: /figuras/fig_dimension_ing/08_dimension_grouping_structure.png
+   :alt: billing dimension grouping structure
    :align: center
 ----  
 
@@ -775,8 +775,8 @@ Creating Tag
 By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
 
 
-.. image:: /figuras/fig_dimensao_ing/09_dimension_message_tag_expanded.png
-   :alt: Biling Dimension_message_tag_expended
+.. image:: /figuras/fig_dimension_ing/09_dimension_message_tag_expanded.png
+   :alt: billing dimension message tag expanded
    :align: center
 ----
 
@@ -785,8 +785,8 @@ When clicking on Tag, the Tag creation modal is presented:
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/10_dimensão_modal_tag.png
-   :alt: Financeiro Dimensão_modal_tag
+.. image:: /figuras/fig_dimension_ing/10_dimension_modal_tag.png
+   :alt: billing dimension modal tag
    :align: center
 ----
 
@@ -795,8 +795,8 @@ When clicking on Tag, the Tag creation modal is presented:
 The first step for the user is to select one of the companies listed in the dropdown menu.
 
 
-.. image:: /figuras/fig_ucloud_findimensao/11_dimensão_lista_company.png
-   :alt: Financeiro Dimensão_lista_company
+.. image:: /figuras/fig_dimension_ing/11_dimension_list_company.png
+   :alt: billing dimension list company
    :align: center
 ----
 
@@ -804,8 +804,8 @@ The first step for the user is to select one of the companies listed in the drop
 After selecting the desired company, the “Filter” button, next to the dropdown menu, is available for activation, as exemplified in the image below:
 
 
-.. image:: /figuras/fig_ucloud_findimensao/12_dimensão_filtrar.png
-   :alt: Financeiro Dimensão_filtrar
+.. image:: /figuras/fig_dimension_ing/12_dimension_filter.png
+   :alt: billing dimension filter
    :align: center
 ----
 
@@ -836,8 +836,8 @@ When finishing filling the modal, the user must click on the “Save” button o
   
 
 
-.. image:: /figuras/fig_ucloud_findimensao/15_dimensão_modal_segunda_tag.png
-   :alt: Financeiro Dimensão_modal_segunda_tag
+.. image:: /figuras/fig_dimension_ing/15_dimension_modal_second_tag.png
+   :alt: billing dimension modal second tag
    :align: center
 ----
 
@@ -849,8 +849,8 @@ If a company does not have Tags and the user wants to create them, just type the
 Once this is done, the “Dimension” screen creation should be displayed as follows: 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/16_dimensão_grupo_e_tag.png
-   :alt: Financeiro Dimensão_grupo_e_tag
+.. image:: /figuras/fig_dimension_ing/16_dimension_group_and_tag.png
+   :alt: billing dimension group and tag
    :align: center
 ----
 
@@ -875,8 +875,8 @@ Logical operators are a part of the programming language, and they are used for 
 
 
 
-.. image:: /figuras/fig_dimensao_ing/17_dimension_logical_operators_closeup.png
-   :alt: Billing Dimension_logical_operators_closeup
+.. image:: /figuras/fig_dimension_ing/17_dimension_logical_operators_closeup.png
+   :alt: billing dimension logical operators closeup
    :align: center
 ----
 
@@ -900,8 +900,8 @@ Resting the mouse cursor on the operator option </> OR, the following message is
 
 
 
-.. image:: /figuras/fig_dimensao_ing/18_dimension_operator_or_closeup.png
-   :alt: Billing Dimension_logical_operator_or_closeup
+.. image:: /figuras/fig_dimension_ing/18_dimension_operator_or_closeup.png
+   :alt: billing dimension logical operator or closeup
    :align: center
 ----
 
@@ -916,8 +916,8 @@ When hovering the mouse over the </> AND operator, the following message is pres
 
 
 
-.. image:: /figuras/fig_dimensao_ing/19_dimension_operator_and_closeup.png
-   :alt: Billing Dimension_operator_and_closeup
+.. image:: /figuras/fig_dimension_ing/19_dimension_operator_and_closeup.png
+   :alt: billing dimension operator and closeup
    :align: center
 ----
 
@@ -931,8 +931,8 @@ In this example, the operator “AND” was selected and the confirmation of the
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/20_dimensão_operador_selecionado.png
-   :alt: Financeiro Dimensão_operador_selecionado
+.. image:: /figuras/fig_dimension_ing/20_dimension_operator_selected.png
+   :alt: billing dimension operator selected
    :align: center
 ----
 
@@ -945,8 +945,8 @@ At the end of this step, the final structure of a dimension is displayed, and to
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/21_dimensão_estrutura_completa.png
-   :alt: Financeiro Dimensão_estrutura_completa
+.. image:: /figuras/fig_dimension_ing/21_dimension_estructure_complete.png
+   :alt: billing dimension estructure complete
    :align: center
 ----
 
@@ -969,8 +969,8 @@ Then, the screen shows a list that must present the created “Dimension”, as 
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/22_dimensão_listagem_final.png
-   :alt: Financeiro Dimensão_listagem_final
+.. image:: /figuras/fig_dimension_ing/22_dimension_final_listing.png
+   :alt: billing dimension final listing
    :align: center
 ----
 
@@ -995,8 +995,8 @@ To edit a Dimension, the user simply clicks on the edit button in the “Actions
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/23_dimensão_botão_editar.png
-   :alt: Financeiro Dimensão_botão_editar
+.. image:: /figuras/fig_dimension_ing/23_dimension_edit_button.png
+   :alt: billing dimension edit button
    :align: center
 ----
 
@@ -1006,8 +1006,8 @@ Doing this, the screen with the assembled and finished structure is displayed, a
 
 
 
-.. image:: /figuras/fig_ucloud_findimensao/24_dimensão_estrutura_completa.png
-   :alt: Financeiro Dimensão_estrutura_completa
+.. image:: /figuras/fig_dimension_ing/24_dimension_structure_complete.png
+   :alt: billing dimension structure complete
    :align: center
 ----
 
