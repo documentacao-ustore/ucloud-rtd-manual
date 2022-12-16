@@ -655,8 +655,8 @@ To create a dimension, the user must click on the Financial menu, and then on th
 
 When selecting the “Dimension” option, the listing of dimensions generated previously is presented, as demonstrated in the figure below:
   
-.. image:: /figuras/fig_dimensao_ing/02_dimension_listing.png
-   :alt: financeiro dimension listing
+.. image:: /figuras/fig_dimension_ing/02_dimension_listing.png
+   :alt: billing dimension listing
    :align: center
 ----
 
@@ -945,8 +945,8 @@ At the end of this step, the final structure of a dimension is displayed, and to
 
 
 
-.. image:: /figuras/fig_dimension_ing/21_dimension_estructure_complete.png
-   :alt: billing dimension estructure complete
+.. image:: /figuras/fig_dimension_ing/21_dimension_structure_complete.png
+   :alt: billing dimension structure complete
    :align: center
 ----
 
