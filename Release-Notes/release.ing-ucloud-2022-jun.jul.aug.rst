@@ -695,10 +695,10 @@ To better understand the function of each blank, observe the detailing of these 
 * Structure + : This button presents two options that the user can apply in the structure of their “Dimension”.
 
 
-   * *Tag* Grouping;
+   * Tag Grouping;
 
 
-   * *Tag*. 
+   * Tag. 
 
 
 
@@ -709,7 +709,7 @@ To better understand the function of each blank, observe the detailing of these 
 * Structure: Corresponds to a block at the end of the screen, where the user has a better visualization of the structure that is being assembled.
 
 
-* “Save” button: After completing the data, the user must press on the “Save” button so they are not lost.
+* ``Save`` button: After completing the data, the user must press on the ``Save`` button so they are not lost.
 
 
 ====
