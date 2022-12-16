@@ -20,7 +20,7 @@ Presentación
 
 Este boletín de la Plataforma uCloud es una herramienta de comunicación esencial para la difusión de las novedades sobre el producto y las innovaciones generadas en el área de desarrollo.
 
-Las Notas de Publicación, además de ser un material informativo con contenido relevante sobre las entregas de uno o varios incrementos en la aplicación, tienen como objetivo proporcionar resultados a la inversión de los clientes, obtener asesoramiento e informar de los avances, ya sean de perfeccionamiento, mejoras o correcciones. Realmente proporciona la visibilidad adecuada en el proceso de desarrollo del producto.
+Esta publicación además de ser un material informativo con contenido relevante sobre las entregas de uno o varios incrementos en la aplicación, tienen como objetivo proporcionar resultados a la inversión de los clientes, obtener asesoramiento e informar de los avances, ya sean de perfeccionamiento, mejoras o correcciones. Realmente proporciona la visibilidad adecuada en el proceso de desarrollo del producto.
 
 
 ----
@@ -102,7 +102,7 @@ Al seleccionar en la lista el contrato deseado, aparece una nueva pantalla con l
   * 14.Datos de Facturación;
   * 15.Perfiles de Aprovisionamiento del Contrato y sus Permisos;
   * 16.Productos;
-  * 17.Perfil de Facturación por Container.
+  * 17.Perfil de Facturación por *Container*.
 
 
 
@@ -423,7 +423,7 @@ En ella, el usuario debe hacer clic en el contrato relacionado al `Budget` que d
 En esta tarjeta se muestran cinco columnas: Nombre, Intervalo, Fecha de inicio, Valor y Acciones.
 
 
-La columna "Acciones" permite al usuario realizar dos ejecuciones representadas por los iconos ``[Editar]`` y ``[Eliminar]``.
+La columna "Acciones" permite al usuario realizar dos ejecuciones representadas por los iconos ``Editar`` y ``Eliminar``.
 
 
 .. figure:: /figuras/fig_budget/15_editar_budgets.png
@@ -1288,8 +1288,7 @@ En la columna "Acciones" situada en la ventana "Aprobaciones Pendientes" **el us
 
 
 
-Luego debe esperar la actualización del "Status" que puede ser: En ejecución ``(*Running*)``; Fallo ``(*Failed*)`` o Éxito ``(*Successfull*)``.
-
+Luego debe esperar la actualización del "Status" que puede ser: En ejecución ``Running``; Fallo ``Failed`` o Éxito ``Successfull``.
 
 
 
@@ -1888,8 +1887,8 @@ Por lo tanto, la práctica del perfeccionamiento continuo adoptada en la mejora 
 |mantiene el idioma elegido al enviar                 |                 |
 |correos electrónicos.                                |                 |
 +-----------------------------------------------------+-----------------+
-|Adaptação daAdaptación del listado de perfiles       |tag 5.2-b47 06jul|   
-|de permisos y visualización en la interfaz gráfica:  |                 |
+|Adaptación del listado de perfiles de permisos y     |tag 5.2-b47 06jul|   
+|visualización en la interfaz gráfica:                |                 |
 |El listado de perfiles aparece por encima del modal, |                 |
 |optimiza visualizar.                                 |                 |
 +-----------------------------------------------------+-----------------+
@@ -2008,7 +2007,7 @@ Por lo tanto, la práctica del perfeccionamiento continuo adoptada en la mejora 
 |de forma individual.                                 |                 |
 +-----------------------------------------------------+-----------------+
 |*Checkbox* de seleccionar todos los VDC de un        |tag 1.0-account88|  
-| contrato.                                           |            10ago|
+|contrato.                                            |            10ago|
 +-----------------------------------------------------+-----------------+
 |*Loader* para la carga retrasada de uCloud.          |tag 5.3-b15 28jul|
 |[nueva funcionalidad]                                |                 |
@@ -2202,8 +2201,8 @@ Plataforma uCloud
 |*Pop-up VirtualTags*                              |tag 5.2-b45 05jul|
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
-|Datos duplicados en el *pop-up* de los detalles de|tag 5.2-b45 05jul|  
-|los detalles de la factura del usuario.           |                 | 
+|Datos duplicados en el *pop-up* de los detalles   |tag 5.2-b45 05jul|  
+|de la factura del usuario.                        |                 | 
 |[fix]                                             |                 |
 +--------------------------------------------------+-----------------+
 |Informe CSV detallado para rellenar la columna en |tag 5.2-b45 05jul|  
@@ -2256,7 +2255,7 @@ Plataforma uCloud
 ----
 
 
-En esta nota se evoca el principio de la norma ISO 9001, elaborada por la Organización Internacional de Normalización (en Brasil conocida como ABNT NBR ISO 9001). Su objetivo es establecer normas consistentes que aumenten la calidad de los procesos aplicados y redundan una mejora continua y ajustes en las funcionalidades, en busca de una gestión de calidad y excelencia empresarial. 
+En esta publicación se evoca el principio de la norma ISO 9001, elaborada por la Organización Internacional de Normalización (en Brasil conocida como ABNT NBR ISO 9001). Su objetivo es establecer normas consistentes que aumenten la calidad de los procesos aplicados y redundan una mejora continua y ajustes en las funcionalidades, en busca de una gestión de calidad y excelencia empresarial. 
 
 Todo lo anterior se refiere al principio de la norma ISO 9001.
 
@@ -2273,7 +2272,7 @@ En resumen, el documento presenta:
   * Quince (15) pertenecen al *Billing*. 
 
 
-Por tanto, se concluye las notas de publicación del trimestre correspondiente a los meses de junio, julio y agosto del presente año.
+Por lo tanto, se concluye esta publicación trimestral correspondiente a los meses de junio, julio y agosto del presente año.
 
 
 
