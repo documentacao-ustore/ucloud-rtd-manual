@@ -6,7 +6,7 @@
 ----
 
 
-Publicación (Trimestral) Junio | Julio | Agosto - Año 2022
+Publicación Trimestral: Junio | Julio | Agosto - Año 2022
 =========================================
 Plataforma uCloud versión: *Update tags 5.3-b56 y 1.0-account90*
 
