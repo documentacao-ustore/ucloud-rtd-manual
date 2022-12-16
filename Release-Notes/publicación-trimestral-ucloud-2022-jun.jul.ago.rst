@@ -1029,6 +1029,11 @@ Donde se utiliza la "Dimensión"
 Actualmente, esta implementación agrupa *Tags* y los agrupan en la "Dimensión" creada, facilitando la visualización categorizada en otras funcionalidades de la plataforma.
 
 
+Además, la "Dimensión" se utiliza en el modal "Crear Budget" que se incluye en la *tarjeta* denominada "Detalles de Sub Budgets" en la desambiguación_ .
+
+.. _desambiguación: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/publicaci%C3%B3n-trimestral-ucloud-2022-jun.jul.ago.html#creando-budget-y-sub-budget
+ 
+
 ----
 
 
