@@ -1724,7 +1724,7 @@ Regarding the interaction with the public cloud service provider Microsoft AZURE
 |Scaling Group creation button                     |                 |
 +--------------------------------------------------+-----------------+
 |For the best user experience, it is opted to hide |tag 5.2-b72 21jul|
-|the VDCs Safety Group blank                       |                 |
+|the VDCs Security Group blank                     |                 |
 +--------------------------------------------------+-----------------+
 |Carry out the Container Import only for billing   |tag 5.2-b57 13jul|
 +--------------------------------------------------+-----------------+
@@ -1855,7 +1855,7 @@ Therefore, the continuous improvement practice adopted on the enhancement of the
 |submenu                                              |                 |
 +-----------------------------------------------------+-----------------+
 |Listing in alphabetical order of container and VDC in|tag 5.2-b39 23jun|
-|the creation screen of a safety group: when listing  |                 |
+|the creation screen of a security group: when listing|                 |
 |the VDCs in the creation of this group, the display  |                 | 
 |is ordered                                           |                 |
 +-----------------------------------------------------+-----------------+
@@ -2052,7 +2052,7 @@ Regarding the interaction with the public cloud service provider Amazon Web Serv
 +-----------------------------------------------------+-----------------+
 |FEATURE                                              |VERSION          |
 +=====================================================+=================+
-|Balancer creation with the selected Safety Group     |tag 1.0-account65|
+|Balancer creation with the selected Security Group   |tag 1.0-account65|
 |[fix]                                                |            20aug|
 +-----------------------------------------------------+-----------------+
 
