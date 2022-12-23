@@ -140,7 +140,7 @@ The Budget card displays two buttons, ``REFRESH`` and ``+Add``.
 
 .. attention:: |atencao| In this image example, the Budgets have not yet been created, so it is blank, with the attention symbol. 
    
-Clicking on the ``+ Add`` button, the ``Create Budget`` modal is presented, and from that point on, the user starts the first creation. 
+Clicking on the ``+ Add`` button, the "Create Budget" modal is presented, and from that point on, the user starts the first creation. 
 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
@@ -319,7 +319,7 @@ In this space, the user must fill in the blank of Value with the amount availabl
 
 
 
-After filling in these data, the blanks about sub budget details must be completed. For that, the user must select which type of Disambiguation is desired on the report, if it is of Container, Account Master, CloudType, Dimension or TagUsn.
+After filling in these data, the blanks about sub budget details must be completed. For that, the user must select which type of Disambiguation is desired on the report, if it is of ``Container``, ``Account Master``, ``CloudType``, ``Dimension`` or ``TagUsn``.
 
 
 
@@ -637,7 +637,7 @@ Creating a Dimension
 ~~~~~~~~~~~~~~~~~~~~
 
 
-To create a dimension, the user must click on the Financial menu, and then on the Utilities submenu, that displays two options presented on the next image:
+To create a dimension, the user must click on the ``Financial menu``, and then on the ``Utilities submenu``, that displays two options presented on the next image:
 
 
 
@@ -801,7 +801,7 @@ The first step for the user is to select one of the companies listed in the drop
 ----
 
 
-After selecting the desired company, the “Filter” button, next to the dropdown menu, is available for activation, as exemplified in the image below:
+After selecting the desired company, the ``Filter`` button, next to the dropdown menu, is available for activation, as exemplified in the image below:
 
 
 .. image:: /figuras/fig_dimension_ing/12_dimension_filter.png
@@ -1103,7 +1103,7 @@ Accessing the CMR.v1
 ~~~~~~~~~~~~~~~~~
 
 
-To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the “Billing” menu, identified in the lower left corner. And then, click on the “Reports” submenu.
+To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the ``Billing menu``, identified in the lower left corner. And then, click on the ``Reports submenu``.
 
 
 
@@ -1127,7 +1127,7 @@ The screen below presents all the options related to accessing and managing invo
 
 
 
-When clicking on the “Reports” submenu, the topic “Consumption-Based Panel” provides access to reports related to consumption for the current month typed on the search by the user.
+When clicking on the ``Reports submenu``, the topic “Consumption-Based Panel” provides access to reports related to consumption for the current month typed on the search by the user.
 
 
 
@@ -1335,7 +1335,7 @@ At this point, the user must observe if the ``GENERATE REPORT`` button is enable
 
 
 
-In the course of this procedure, the platform presents the unlocking of the ``Download`` button, displaying it in green, according to the following image. 
+In the course of this procedure, the platform presents the unlocking of the ``DOWNLOAD`` button, displaying it in green, according to the following image. 
 
 
 
