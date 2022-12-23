@@ -136,7 +136,7 @@ La `Tarjeta Budget` exhibe dos botones, ``REFRESH`` y ``+Añadir``.
 
 .. attention:: |atencao| En este ejemplo de imagen, los *Budgets* aún no han sido creados, de modo que está en blanco, con el símbolo de atención. 
    
-Al hacer clic en el botón ``+ Añadir``, se presenta el modal ``Crear Budget``, y a partir de ahí, el usuario inicia la primera creación.
+Al hacer clic en el botón ``+ Añadir``, se presenta el modal "Crear Budget", y a partir de ahí, el usuario inicia la primera creación.
 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
@@ -271,7 +271,7 @@ Intervalo Mensual
 ~~~~~~~~~~~~~~~~
 
 
-La pantalla de Intervalo Mensual se presenta al continuar con el proceso de rellenar los campos de la pantalla "*Crear *Budget*". Para el intervalo mensual, el informe contempla el mes elegido.
+La pantalla de Intervalo Mensual se presenta al continuar con el proceso de rellenar los campos de la pantalla "*Crear Budget*". Para el intervalo mensual, el informe contempla el mes elegido.
 
 
 En la secuencia siguiente, el usuario debe completar los espacios restantes, completando este modal para la creación de *Budget*:
@@ -319,7 +319,7 @@ En este espacio, el usuario debe rellenar el campo Valor con la cantidad disponi
 
 
 
-Después de rellenar estos datos, se deben completar los campos sobre los detalles de los *Sub Budgets*. En este caso, el usuario debe seleccionar el tipo de desambiguación que desea en el informe, si es de *Container*, *Account Master*, *CloudType*, *Dimensión* o *TagUsn*.
+Después de rellenar estos datos, se deben completar los campos sobre los detalles de los *Sub Budgets*. En este caso, el usuario debe seleccionar el tipo de desambiguación que desea en el informe, si es de ``*Container*``, ``*Account Master*``, ``*CloudType*``, ``*Dimensión*`` o ``*TagUsn*``.
 
 
 
@@ -435,7 +435,7 @@ La columna "Acciones" permite al usuario realizar dos ejecuciones representadas 
 
 
 
-Al pulsar el botón `[Editar]` en el *Budget* elegido, se muestra el modal de edición con toda las informaciones previamente rellenadas.
+Al pulsar el botón ``Editar`` en el *Budget* elegido, se muestra el modal de edición con toda las informaciones previamente rellenadas.
 
 
 .. figure:: /figuras/fig_budget/16_editar_budget.png
@@ -639,7 +639,7 @@ Creando una Dimensión
 ~~~~~~~~~~~~~~~~~~~~
 
 
-Para crear una dimensión, el usuario debe hacer clic en el menú Financiero, y luego en el submenú Utilidades, que exhibe dos opciones que se muestran en la siguiente imagen: 
+Para crear una dimensión, el usuario debe hacer clic en el ``menú Financiero``, y luego en el ``submenú Utilidades``, que exhibe dos opciones que se muestran en la siguiente imagen: 
 
 
 1. **Dimensión**; 
@@ -801,7 +801,7 @@ El primer paso del usuario es seleccionar una de las `companies` listadas en el 
 ----
 
   
-Después de seleccionar la `company` deseada, el botón "Filtrar" al lado del menú desplegable queda disponible para activación, como se ejemplifica en la imagen siguiente:
+Después de seleccionar la `company` deseada, el botón ``Filtrar`` al lado del menú desplegable queda disponible para activación, como se ejemplifica en la imagen siguiente:
 
 
 .. image:: /figuras/fig_ucloud_findimensao/12_dimensão_filtrar.png
@@ -1094,7 +1094,7 @@ Accediendo al IMC.v1
 ~~~~~~~~~~~~~~~~~~
 
 
-Para generar el Informe de Monitoreo de Consumo (v1) en el portal uCloud, el usuario debe acceder al menú "Financiero", identificado en la esquina inferior izquierda. Y a continuación hacer clic en el submenú "Informes".
+Para generar el Informe de Monitoreo de Consumo (v1) en el portal uCloud, el usuario debe acceder al ``menú Financiero``, identificado en la esquina inferior izquierda. Y a continuación hacer clic en el ``submenú Informes``.
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
@@ -1118,7 +1118,7 @@ En la pantalla siguiente se muestran todas las opciones relacionadas con el acce
 
 
 
-Haciendo clic en el submenú "Informes", el tópico "Paneles basados en el Consumo" permite acceder a los informes relacionados con el consumo del mes en curso introducido en la búsqueda por el usuario.
+Haciendo clic en el ``submenú Informes``, el tópico "Paneles basados en el Consumo" permite acceder a los informes relacionados con el consumo del mes en curso introducido en la búsqueda por el usuario.
 
 
 .. figure:: /figuras/fig_budget/17_painéis_consumo.png 
@@ -1320,7 +1320,7 @@ A continuación, es necesario seleccionar de nuevo, el mismo período y los cont
 En este punto, el usuario debe observar si el botón ``GENERAR INFORME`` está habilitado (color naranja), en caso afirmativo, significa que el flujo para descargar el IMC.v1 prosigue, los datos están previamente preparados y pueden ser extraídos en formato de informe.
 
 
-Durante este proceso, la plataforma desbloquea el botón ``*Download*`` y lo muestra en color verde, como se observa en la siguiente imagen. 
+Durante este proceso, la plataforma desbloquea el botón ``*DOWNLOAD*`` y lo muestra en color verde, como se observa en la siguiente imagen. 
 
 
 
