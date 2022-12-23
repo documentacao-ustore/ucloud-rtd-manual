@@ -135,12 +135,12 @@ On this detailed contract screen, the user must use the scroll bar and browse un
 
 
 
-The Budget card displays two buttons, [REFRESH] and [+Add]. 
+The Budget card displays two buttons, ``REFRESH`` and ``+Add``. 
 
 
 .. attention:: |atencao| In this image example, the Budgets have not yet been created, so it is blank, with the attention symbol. 
    
-Clicking on the “+ Add” button, the “Create Budget” modal is presented, and from that point on, the user starts the first creation. 
+Clicking on the ``+ Add`` button, the ``Create Budget`` modal is presented, and from that point on, the user starts the first creation. 
 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
@@ -154,10 +154,10 @@ Creating Budget and Sub Budget
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-The “Create Budget" modal, displays the blanks: name, gap, month, checkbox to select whether the report is recurring, the amount per cost or per consumed quantity. 
+The “Create Budget“ modal, displays the blanks: name, gap, month, checkbox to select whether the report is recurring, the amount per cost or per consumed quantity. 
 
 
-Then, the sub budgets details are shown, such as: disambiguation, container selection, value and the [+Include Subbudget], [Cancel] and [Create] buttons.
+Then, the sub budgets details are shown, such as: disambiguation, container selection, value and the ``+Include Subbudget``, ``Cancel`` and ``Create`` buttons.
 
 
 
@@ -174,7 +174,7 @@ Then, the sub budgets details are shown, such as: disambiguation, container sele
   
 
 
-After clicking on the [+Add] button, the Budget creation screen is presented according to the picture above, on which the user must fill in all the blanks and configure the generation of the consumption-based report. 
+After clicking on the ``+Add`` button, the Budget creation screen is presented according to the picture above, on which the user must fill in all the blanks and configure the generation of the consumption-based report. 
 
 
 
@@ -350,10 +350,10 @@ Having selected the type of Disambiguation, the next step is filling in the valu
 On this step, the sub budget amount must be filled in, and when the desired amount is entered, the remaining balance is shown below the value blank.
 
 
-After completing the data, the user must click on the button “Include Subbudget”, to finish the inclusion. As a result of the operation, the screen displays the list of the sub budget included according to the image below:
+After completing the data, the user must click on the button ``Include Subbudget``, to finish the inclusion. As a result of the operation, the screen displays the list of the sub budget included according to the image below:
 
 
-.. important:: |importante| The remaining balance corresponds to the value that indicates the remaining balance of the budget, equals the value of the budget subtracted by the sum of the value of all sub budgets. The “Create Budget” button remains disabled if the remaining balance is different from zero. 
+.. important:: |importante| The remaining balance corresponds to the value that indicates the remaining balance of the budget, equals the value of the budget subtracted by the sum of the value of all sub budgets. The ``Create Budget`` button remains disabled if the remaining balance is different from zero. 
 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
@@ -392,7 +392,7 @@ In this flow, to detail the sub budget with a distinct disambiguation, just sele
   
 
 
-When filling in the desired value, it is necessary to observe the amount available in the “Remaining Balance” area, located below the “Value” space. After completing it, just press the “Add Subdbudget” button next to the “Value” box, so that the disambiguation sub budget of the “Dimension” type created joins the disambiguation sub budget of the “Container” type that was generated previously.
+When filling in the desired value, it is necessary to observe the amount available in the “Remaining Balance” area, located below the “Value” space. After completing it, just press the ``Add Subdbudget`` button next to the “Value” box, so that the disambiguation sub budget of the “Dimension” type created joins the disambiguation sub budget of the “Container” type that was generated previously.
 
 
 Both shown in the list below:
@@ -428,7 +428,7 @@ In it, the user must click on the contract  related to the budget that they wish
 On this card are displayed five columns: Name, Gap, Start Date, Value and Actions.
 
 
-The “Actions” column allows the user to carry out two executions represented by the ``[Edit]`` and ``[Delete]`` icons.
+The “Actions” column allows the user to carry out two executions represented by the ``Edit`` and ``Delete`` icons.
 
 
 .. figure:: /figuras/fig_budget/15_editar_budgets.png
@@ -439,7 +439,7 @@ The “Actions” column allows the user to carry out two executions represented
 ----
 
 
-When clicking the [Edit] button on the chosen Budget, the edition modal is presented with all the information previously filled in.
+When clicking the ``Edit`` button on the chosen Budget, the edition modal is presented with all the information previously filled in.
 
 
 .. figure:: /figuras/fig_budget/16_editar_budget.png
@@ -673,7 +673,7 @@ In case this is the first dimension to be created by the user, no list is displa
   
 
 
-On the superior left side of the screen, the “Create Dimension” button  is presented, which the user must press to start the creation process.
+On the superior left side of the screen, the ``Create Dimension`` button  is presented, which the user must press to start the creation process.
 
 
 After clicking, the initial screen to create a “Dimension” is presented, as shown in the next figure:
@@ -692,7 +692,7 @@ To better understand the function of each blank, observe the detailing of these 
 * Dimension name: In this blank, the user must fill in the name of the dimension to be saved.
 
 
-* Structure + : This button presents two options that the user can apply in the structure of their “Dimension”.
+* ``Structure +`` : This button presents two options that the user can apply in the structure of their “Dimension”.
 
 
    * Tag Grouping;
@@ -772,7 +772,7 @@ Creating Tag
 ~~~~~~~~~~~~
 
 
-By clicking on the plus icon “+” next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
+By clicking on the plus icon ``+`` next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
 
 
 .. image:: /figuras/fig_dimension_ing/09_dimension_message_tag_expanded.png
@@ -832,7 +832,7 @@ The user must select the desired Tag, shown in the list, and the Keys and Tag Va
 
 
 
-When finishing filling the modal, the user must click on the “Save” button on the inferior right corner of the screen.
+When finishing filling the modal, the user must click on the ``Save`` button on the inferior right corner of the screen.
   
 
 
@@ -941,7 +941,7 @@ In this example, the operator “AND” was selected and the confirmation of the
 When finishing this first process of Tag creation, the user must create the second Tag, repeating the creation flow detailed above.
 
 
-At the end of this step, the final structure of a dimension is displayed, and to store it, simply click on the “Save” button, located in the lower right corner of the screen, as presented in the image below:
+At the end of this step, the final structure of a dimension is displayed, and to store it, simply click on the ``Save`` button, located in the lower right corner of the screen, as presented in the image below:
 
 
 
@@ -962,7 +962,7 @@ Listing Dimension
 ~~~~~~~~~~~~~
 
 
-To list a newly created “Dimension”, usually the screen exhibits the listing. When consulting the “Listing Dimension” screen, if it does not update automatically, the user must click on the “Refresh” button in the superior right corner of the screen. 
+To list a newly created “Dimension”, usually the screen exhibits the listing. When consulting the “Listing Dimension” screen, if it does not update automatically, the user must click on the ``Refresh`` button in the superior right corner of the screen. 
 
 
 Then, the screen shows a list that must present the created “Dimension”, as displayed on the figure below:
@@ -979,10 +979,10 @@ Then, the screen shows a list that must present the created “Dimension”, as 
 The screen above “List of Dimensions” shows the contract name superior, the symbol of the “Tasks” functionality and the name of the logged-in user in the superior right corner.
 
 
-On this screen, the user can opt between creating a new dimension, editing an existing dimension or deleting a created dimension. It presents the two buttons that allow to “Create Dimension” or “Refresh” the list of dimensions.
+On this screen, the user can opt between creating a new dimension, editing an existing dimension or deleting a created dimension. It presents the two buttons that allow to ``Create Dimension`` or ``Refresh`` the list of dimensions.
 
 
-In this list, the columns of “Name” and “Actions” are presented, the information can be personalized and retrieved by clicking on the blocks of 10, 25, 50 or 100 lines. The “Actions” column allows the “Edit” and “Delete” operations.
+In this list, the columns of “Name” and “Actions” are presented, the information can be personalized and retrieved by clicking on the blocks of 10, 25, 50 or 100 lines. The “Actions” column allows the ``Edit`` and ``Delete`` operations.
 
 ====
 
@@ -991,7 +991,7 @@ Editing a Dimension
 ~~~~~~~~~~~~~~~
 
 
-To edit a Dimension, the user simply clicks on the edit button in the “Actions” column in the “Dimension” list, as detailed below:
+To edit a Dimension, the user simply clicks on the ``Edit`` button in the “Actions” column in the “Dimension” list, as detailed below:
 
 
 
@@ -1019,7 +1019,7 @@ When looking at the figure above, observe the trash can icon. That is, the user 
 It is also possible to realize that for each action performed, the Structure, located at the bottom of the page, is modified.
 
 
-For the alteration to be confirmed, it is necessary for the user to press the “Save” button, next to the Structure function, located in the lower right corner of the page.
+For the alteration to be confirmed, it is necessary for the user to press the ``Save`` button, next to the Structure function, located in the lower right corner of the page.
 
 
 ====
@@ -1183,8 +1183,8 @@ In this same modal, two buttons are displayed:
 
 
 
-* [**GENERATE REPORT**] Remains available for activation when at least one contract is selected. 
-* [**SELECT ALL**]. Refers to the contracts filter. There it is possible to note the scroll and search bar. 
+* ``GENERATE REPORT`` Remains available for activation when at least one contract is selected. 
+* ``SELECT ALL`` Refers to the contracts filter. There it is possible to note the scroll and search bar. 
 
 
 
@@ -1211,7 +1211,7 @@ The scroll bar, located on the right side, helps the user to navigate through th
   
 
 
-After clicking on Generate Report, a new screen opens, showing the month selected by the user and the [DOWNLOAD] and [GENERATE NEW REPORT] buttons. 
+After clicking on Generate Report, a new screen opens, showing the month selected by the user and the ``DOWNLOAD`` and ``GENERATE NEW REPORT`` buttons. 
 
 
 
@@ -1225,10 +1225,10 @@ After clicking on Generate Report, a new screen opens, showing the month selecte
 
 
 
-The [DOWNLOAD] button is only unlocked when the data is compiled on the platform and it makes available the report for the period and the selected contract. 
+The ``DOWNLOAD`` button is only unlocked when the data is compiled on the platform and it makes available the report for the period and the selected contract. 
 
 
-In the example of the following screen, the platform informs that the “user does not have reports generated for the contracts and period selected” and asks the user to click on [GENERATE NEW REPORT].
+In the example of the following screen, the platform informs that the “user does not have reports generated for the contracts and period selected” and asks the user to click on ``GENERATE NEW REPORT``.
 
 
 To download the file, the user just needs to click on the referred button.
@@ -1246,7 +1246,7 @@ To download the file, the user just needs to click on the referred button.
 
 
 
-In case there is no data, the reports become unavailable for the selected month, the [DOWNLOAD] button appears inactive (gray color) and the platform issues the message mentioned in the previous example and printed on the image above.
+In case there is no data, the reports become unavailable for the selected month, the ``DOWNLOAD`` button appears inactive (gray color) and the platform issues the message mentioned in the previous example and printed on the image above.
 
 
 When there is data to be published on the period selected by the user, the platform informs that the report is in process of compiling the data. 
@@ -1330,12 +1330,12 @@ In the sequence, it is necessary to select again, the same period and contracts 
 
 
 
-At this point, the user must observe if the [GENERATE REPORT] button is enabled (orange color), if so, it means that the flow to download the CMR.v1 continues, the data is previously prepared and can be extracted in the report format. 
+At this point, the user must observe if the ``GENERATE REPORT`` button is enabled (orange color), if so, it means that the flow to download the CMR.v1 continues, the data is previously prepared and can be extracted in the report format. 
 
 
 
 
-In the course of this procedure, the platform presents the unlocking of the [Download] button, displaying it in green, according to the following image. 
+In the course of this procedure, the platform presents the unlocking of the ``Download`` button, displaying it in green, according to the following image. 
 
 
 
@@ -1353,7 +1353,7 @@ In the course of this procedure, the platform presents the unlocking of the [Dow
 The user must check the message the platform presents: “Report generated for the contracts and selected period. They can download it or generate a new one with the same settings”. 
 
 
-At the end of this sequence of activities, to download the desired CMR.v1 file, the user must click on the [DOWNLOAD] button.
+At the end of this sequence of activities, to download the desired CMR.v1 file, the user must click on the ``DOWNLOAD`` button.
 
 
 ====
