@@ -131,12 +131,12 @@ En esta pantalla de detalle del contrato, el usuario debe utilizar la barra de d
 
 
 
-La `Tarjeta Budget` exhibe dos botones, `[REFRESH]` y `[+Añadir]`. 
+La `Tarjeta Budget` exhibe dos botones, ``REFRESH`` y ``+Añadir``. 
 
 
 .. attention:: |atencao| En este ejemplo de imagen, los *Budgets* aún no han sido creados, de modo que está en blanco, con el símbolo de atención. 
    
-Al hacer clic en el botón `"+ Añadir"`, se presenta el modal "Crear Budget", y a partir de ahí, el usuario inicia la primera creación.
+Al hacer clic en el botón ``+ Añadir``, se presenta el modal ``Crear Budget``, y a partir de ahí, el usuario inicia la primera creación.
 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
@@ -158,7 +158,7 @@ Creando *Budget* y *Sub Budget*
 El modal "Crear *Budget*", presenta los campos: nombre, intervalo, mes, *"checkbox"* para seleccionar si el informe es recurrente, el valor por coste o por cantidad consumida.
 
 
-A continuación, se muestran los detalles de los `Sub Budgets` como: desambiguación, selección del *container*, valor y los botones `[+Incluir Subbudget] [Cancelar]` y `[Crear]`.
+A continuación, se muestran los detalles de los `Sub Budgets` como: desambiguación, selección del *container*, valor y los botones ``+Incluir Subbudget``, ``Cancelar`` y ``Crear``.
 
 
 
@@ -175,7 +175,7 @@ A continuación, se muestran los detalles de los `Sub Budgets` como: desambiguac
   
 
 
-Tras pulsar el botón `[+Añadir]`, se presenta la pantalla de creación del *Budget* como se muestra en la imagen anterior, en ella el usuario debe rellenar todos los campos y configurar la generación del informe basado en el consumo.
+Tras pulsar el botón ``+Añadir``, se presenta la pantalla de creación del *Budget* como se muestra en la imagen anterior, en ella el usuario debe rellenar todos los campos y configurar la generación del informe basado en el consumo.
 
 
 
@@ -349,7 +349,7 @@ En este paso, el valor del *Sub Budget* debe rellenarse, y cuando se introduce e
 
 
 
-Una vez completados todos los datos, el usuario debe pulsar el botón "Incluir Subbudget" para finalizar la inclusión. Como resultado de la operación, la pantalla exhibe la lista de *Sub Budget* incluido como se muestra en la imagen siguiente:
+Una vez completados todos los datos, el usuario debe pulsar el botón ``Incluir Subbudget`` para finalizar la inclusión. Como resultado de la operación, la pantalla exhibe la lista de *Sub Budget* incluido como se muestra en la imagen siguiente:
 
 
 
@@ -389,7 +389,7 @@ En este flujo, para detallar el `Sub Budget` con una desambiguación distinta, b
   
 
 
-Al rellenar el valor deseado, es necesario observar la cantidad disponible en el área "Saldo restante", situada debajo del espacio "Valor". Tras completarlo, basta con pulsar el botón "Incluir SubBudget" al lado del hueco "Valor", para que el *Sub Budget* de desambiguación del tipo "Dimensión" creado se una al *Sub Budget* de desambiguación del tipo *"Container"* generado anteriormente. 
+Al rellenar el valor deseado, es necesario observar la cantidad disponible en el área "Saldo restante", situada debajo del espacio "Valor". Tras completarlo, basta con pulsar el botón ``Incluir SubBudget`` al lado del hueco "Valor", para que el *Sub Budget* de desambiguación del tipo "Dimensión" creado se una al *Sub Budget* de desambiguación del tipo *"Container"* generado anteriormente. 
 
 
 Ambos se muestran en el listado de abajo:
@@ -669,7 +669,7 @@ En caso de que ésta sea la primera dimensión creada por el usuario, ninguna li
 ----
   
 
-En la parte superior izquierda de la pantalla aparece el botón "Crear dimensión", sobre el que el usuario debe pulsar para iniciar el proceso de creación.
+En la parte superior izquierda de la pantalla aparece el botón ``Crear Dimensión``, sobre el que el usuario debe pulsar para iniciar el proceso de creación.
 
 
 Después de pulsado, se muestra la pantalla inicial de creación de la "Dimensión", como se puede ver en la siguiente figura: 
@@ -689,7 +689,7 @@ Para entender mejor la función de cada campo, conviene observar los detalles a 
 * Nombre de la dimensión: En este campo el usuario debe rellenar el nombre de la dimensión a guardar.
 
 
-* Estructura + : Este botón presenta dos opciones que el usuario puede aplicar a la estructura de su "Dimensión":
+* ``Estructura +`` : Este botón presenta dos opciones que el usuario puede aplicar a la estructura de su "Dimensión":
 
 
    * Agrupación de *Tags*;
@@ -705,7 +705,7 @@ Para entender mejor la función de cada campo, conviene observar los detalles a 
 * Estructura: Corresponde al bloque situado al final de la pantalla, donde el usuario tiene una mejor visualización de la estructura que está siendo montada.
 
 
-* Botón "Guardar": Una vez rellenados los datos por completo, el usuario debe pulsar el botón "Guardar" para que los datos no se pierdan.
+* Botón ``Guardar``: Una vez rellenados los datos por completo, el usuario debe pulsar el botón ``Guardar`` para que los datos no se pierdan.
 
 ----
 
@@ -770,7 +770,7 @@ Creando *Tag*
 ~~~~~~~~~~~~~
 
 
-Al hacer clic en el icono de suma "+" al lado del grupo creado y situando el cursor del ratón sobre la opción `Tag` aparece el siguiente mensaje:
+Al hacer clic en el icono de suma ``+`` al lado del grupo creado y situando el cursor del ratón sobre la opción `Tag` aparece el siguiente mensaje:
 
 
 
@@ -832,7 +832,7 @@ El usuario debe seleccionar el `Tag` deseado, mostrado en la lista, y automátic
 
 
 
-Al finalizar el llenado del modal, el usuario debe hacer clic en el botón "Guardar" que se encuentra en la parte inferior derecha de la pantalla.
+Al finalizar el llenado del modal, el usuario debe hacer clic en el botón ``Guardar`` que se encuentra en la parte inferior derecha de la pantalla.
   
 
 
@@ -942,7 +942,7 @@ En este ejemplo, se ha seleccionado el operador "AND" (en lengua inglesa), y la 
 Una vez finalizado este primer proceso de creación de "Tag", el usuario debe crear el segundo "Tag", repitiendo el flujo de creación detallado anteriormente.
 
 
-Al finalizar este paso, se muestra la estructura final de una dimensión y, para guardarla, basta pulsar el botón "Guardar", situado en la esquina inferior derecha de la pantalla, como se muestra en la figura siguiente:
+Al finalizar este paso, se muestra la estructura final de una dimensión y, para guardarla, basta pulsar el botón ``Guardar``, situado en la esquina inferior derecha de la pantalla, como se muestra en la figura siguiente:
 
 
 .. image:: /figuras/fig_ucloud_findimensao/21_dimensão_estrutura_completa.png
@@ -961,7 +961,7 @@ Listado de Dimensión
 ~~~~~~~~~~~~~~~~~
 
 
-Para listar la "Dimensión" recién creada, normalmente la pantalla muestra el listado. Al consultar la pantalla "Listado de Dimensión", en caso de que no se actualice automáticamente, el usuario debe pulsar el botón "Actualizar" situado en la esquina superior derecha de la pantalla.
+Para listar la "Dimensión" recién creada, normalmente la pantalla muestra el listado. Al consultar la pantalla "Listado de Dimensión", en caso de que no se actualice automáticamente, el usuario debe pulsar el botón ``Actualizar`` situado en la esquina superior derecha de la pantalla.
 
 
 A continuación, la pantalla que muestra la lista debe exhibir la "Dimensión" creada, como aparece en la figura siguiente:
@@ -977,10 +977,10 @@ A continuación, la pantalla que muestra la lista debe exhibir la "Dimensión" c
 La pantalla de arriba "Listado de Dimensión" muestra en la parte superior derecha el nombre del contrato, el símbolo de la funcionalidad "Tareas" y el nombre del usuario conectado.
 
 
-En esta pantalla el usuario puede elegir entre crear una nueva dimensión, editar una dimensión existente o eliminar una dimensión creada. Presenta los dos botones que permiten "Crear dimensión" o "Actualizar" la lista de dimensiones.
+En esta pantalla el usuario puede elegir entre crear una nueva dimensión, editar una dimensión existente o eliminar una dimensión creada. Presenta los dos botones que permiten ``Crear dimensión`` o ``Actualizar`` la lista de dimensiones.
 
 
-En esta lista se presentan las columnas "Nombre" y "Acciones", las informaciones pueden ser personalizadas y recuperadas haciendo clic en los bloques de 10, 25, 50 o 100 líneas. La columna "Acciones" permite las operaciones "Editar" y "Eliminar".   
+En esta lista se presentan las columnas "Nombre" y "Acciones", las informaciones pueden ser personalizadas y recuperadas haciendo clic en los bloques de 10, 25, 50 o 100 líneas. La columna "Acciones" permite las operaciones ``Editar`` y ``Eliminar``.   
 
 ----
 
@@ -990,7 +990,7 @@ Editando una Dimensión
 
 
 
-Para editar una dimensión, el usuario debe hacer clic en el botón correspondiente a la edición en la columna "Acciones" del listado de "Dimensión", como se detalla a continuación:
+Para editar una dimensión, el usuario debe hacer clic en el botón ``Editar`` correspondiente a la edición en la columna "Acciones" del listado de "Dimensión", como se detalla a continuación:
 
 
 
@@ -1017,7 +1017,7 @@ Observando la figura anterior, se nota el icono de la basurera. Es decir, el usu
 También se puede constatar que a cada acción realizada, la Estructura, situada en la parte inferior de la página, se modifica.
 
 
-Para que los cambios tengan efecto, es necesario que el usuario pulse el botón "Guardar" situado al lado de la función de Estructura, ubicado en la parte inferior derecha de la página.
+Para que los cambios tengan efecto, es necesario que el usuario pulse el botón ``Guardar`` situado al lado de la función de Estructura, ubicado en la parte inferior derecha de la página.
 
 
 ----
@@ -1170,8 +1170,8 @@ En este mismo modal, se muestran dos botones:
 
 
 
-* [**GENERAR INFORME**] Permanece disponible para la activación cuando se selecciona al menos un contrato.
-* [**SELECCIONAR TODO**]. Se refiere al filtro de los contratos. Se pueden ver las barras de desplazamiento y de búsqueda.
+* ``GENERAR INFORME`` Permanece disponible para la activación cuando se selecciona al menos un contrato.
+* ``SELECCIONAR TODO`` Se refiere al filtro de los contratos. Se pueden ver las barras de desplazamiento y de búsqueda.
 
 
 
@@ -1197,7 +1197,7 @@ La barra de desplazamiento, situada en el lado derecho, ayuda al usuario a naveg
   
 
 
-Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que aparece el mes seleccionado por el usuario y los botones [*DOWNLOAD*] y [GENERAR NUEVO INFORME].
+Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que aparece el mes seleccionado por el usuario y los botones ``*DOWNLOAD*`` y ``GENERAR NUEVO INFORME``.
 
 
 
@@ -1209,11 +1209,11 @@ Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que a
 ----
 
 
-El desbloqueo del botón [*DOWNLOAD*] sólo se realiza cuando los datos se compilan en la plataforma y la misma proporciona el informe del período y del contrato seleccionado. 
+El desbloqueo del botón ``*DOWNLOAD*`` sólo se realiza cuando los datos se compilan en la plataforma y la misma proporciona el informe del período y del contrato seleccionado. 
 
 
 
-En el ejemplo de la siguiente pantalla, la plataforma informa que el "usuario no tiene informes generados para los contratos y períodos seleccionados" y pide al usuario que pulse sobre [GENERAR NUEVO INFORME]. 
+En el ejemplo de la siguiente pantalla, la plataforma informa que el "usuario no tiene informes generados para los contratos y períodos seleccionados" y pide al usuario que pulse sobre ``GENERAR NUEVO INFORME``. 
 
 
 Para la ejecución de la descarga del archivo, basta con que el usuario haga clic en el botón citado.
@@ -1229,7 +1229,7 @@ Para la ejecución de la descarga del archivo, basta con que el usuario haga cli
 
 
 
-En el caso de no disponer de datos, los informes no quedan disponibles para el mes seleccionado, el botón [*DOWNLOAD*] aparece inactivo (color gris) y la plataforma emite el mensaje mencionado en el ejemplo anterior e impreso en la imagen de arriba.
+En el caso de no disponer de datos, los informes no quedan disponibles para el mes seleccionado, el botón ``*DOWNLOAD*`` aparece inactivo (color gris) y la plataforma emite el mensaje mencionado en el ejemplo anterior e impreso en la imagen de arriba.
 
 
 Cuando hay datos por publicar para el periodo seleccionado por el usuario, la plataforma comunica al usuario que el informe está en proceso de recopilación de datos.
@@ -1317,10 +1317,10 @@ A continuación, es necesario seleccionar de nuevo, el mismo período y los cont
 ----
 
 
-En este punto, el usuario debe observar si el botón [GENERAR INFORME] está habilitado (color naranja), en caso afirmativo, significa que el flujo para descargar el IMC.v1 prosigue, los datos están previamente preparados y pueden ser extraídos en formato de informe.
+En este punto, el usuario debe observar si el botón ``GENERAR INFORME`` está habilitado (color naranja), en caso afirmativo, significa que el flujo para descargar el IMC.v1 prosigue, los datos están previamente preparados y pueden ser extraídos en formato de informe.
 
 
-Durante este proceso, la plataforma desbloquea el botón [*Download*] y lo muestra en color verde, como se observa en la siguiente imagen. 
+Durante este proceso, la plataforma desbloquea el botón ``*Download*`` y lo muestra en color verde, como se observa en la siguiente imagen. 
 
 
 
@@ -1338,7 +1338,7 @@ El usuario debe verificar el mensaje que la plataforma presenta: "Informe genera
 
 
 
-Al final de esta secuencia de actividades, para ejecutar la descarga del archivo IMC.v1 deseado, el usuario debe hacer clic en el botón [*DOWNLOAD*].
+Al final de esta secuencia de actividades, para ejecutar la descarga del archivo IMC.v1 deseado, el usuario debe hacer clic en el botón ``*DOWNLOAD*``.
 
 
 ----
