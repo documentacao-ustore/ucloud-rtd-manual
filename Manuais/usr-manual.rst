@@ -7978,7 +7978,7 @@ Concluindo, a *Tag Virtual* é um rótulo com chave e valor atribuído ao recurs
 
 .. important:: Pelo fato das *Tags* serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *Tags Virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
 
-A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de *billing* no formato .csv, proveniente do provedor de serviço de nuvem pública e, consequentemente, recebe todas as *Tags* existentes no provedor.
+A plataforma uCloud sincroniza e recebe o conteúdo do arquivo de *billing* no formato .csv, proveniente do provedor de serviço de nuvem pública e, consequentemente, recebe todas as *Tags* existentes no provedor.
 
 ====
 
@@ -8005,7 +8005,7 @@ A plataforma uCloud permite ao usuário registrar as solicitações de serviço 
 O usuário pode registrar esta solicitação de serviço para tornar formal alterações, provisionamentos, remoções, redimensionamentos ou assinalar atividade de consultoria, monitoramento e acompanhamento.
 
 
-De acordo com o que foi apresentado previamente, o portal uCloud é um ambiente multi-empresa (*multi-tenant*) e multi-nuvem híbrido (*hybrid multi cloud*), em função disso, a “Ordem de Serviço” deve ser vinculada a um contrato. Esta ação permite ao usuário acompanhar, listar e relatar os custos desta, além de visualizar os dados (por exemplo: previsto versus orçado)
+De acordo com o apresentado previamente, o portal uCloud é um ambiente multi-empresa (*multi-tenant*) e multi-nuvem híbrido (*hybrid multi cloud*), em função disso, a “Ordem de Serviço” deve ser vinculada a um contrato. Esta ação permite ao usuário acompanhar, listar e relatar os custos desta, além de visualizar os dados (por exemplo: previsto *versus* orçado).
 
 
 Utilizando a Ordem de Serviço
@@ -8069,7 +8069,7 @@ Para iniciar a criação de uma ordem de serviço, o usuário precisa preencher 
   * **Nome**: Este campo é preenchido pelo termo que o usuário escolher.
 
 
-  * **Descrição**: Este campo pode ser utilizado para descrever o objetivo da Ordem de Serviço, por exemplo: “Esta solicitação formaliza a tarefa a ser executada no período de entrada dos dados, com prazo de início e término estimados, acentuando que a abertura da ordem de serviço não gera execução, apenas formaliza o serviço a ser executado” .
+  * **Descrição**: Este campo pode ser utilizado para descrever o objetivo da Ordem de Serviço, por exemplo: “Esta solicitação formaliza a tarefa a ser executada no período de entrada dos dados, com prazo de início e término estimados, acentuando que a abertura da ordem de serviço não gera execução, apenas formaliza o serviço a ser executado”.
 
 
   * **Justificativa**: Este campo é utilizado para informar a razão pela qual a Ordem de Serviço é provisionada.
@@ -8090,7 +8090,7 @@ Para iniciar a criação de uma ordem de serviço, o usuário precisa preencher 
   * **Termina**: O conteúdo é informado pelo usuário no momento do provisionamento da “Ordem de Serviço” na plataforma uCloud. 
 
 
-Ao finalizar o preenchimento destes campos listados acima, a primeira parte da criação da ordem de serviço está finalizada. Nesta etapa, o botão ``próximo`` é habilitado e possibilita clicar nele.
+Ao finalizar o preenchimento destes campos listados acima, a primeira parte da criação da ordem de serviço está finalizada. Nesta etapa, o botão ``Próximo`` é habilitado e possibilita clicar nele.
 Quando o usuário clicar no botão ``Próximo`` o modal Criar Ordem de Serviço exibe a tela abaixo:
 
 
@@ -8099,40 +8099,47 @@ Quando o usuário clicar no botão ``Próximo`` o modal Criar Ordem de Serviço 
 .. figure:: /figuras/fig_ordem_de_serviço/12_ordem_servico_modal_estimativa_custo.png
    :align: center
    :alt: ordem serviço modal estimativa custo 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo``. O fluxo deste modal permite  ``+Adicionar Estimativa de Custo``.
 
 
-importante: No momento da criação da Ordem de Serviço, o usuário pode **Adicionar a estimativa de custo**. Os dados pertinentes à estimativa de custo são apresentados em Unidade de serviço de nuvem (USN) e Unidade de serviço técnico (UST).
+.. warning:: |importante| No momento da criação da Ordem de Serviço, o usuário pode **Adicionar a estimativa de custo**. Os dados pertinentes à estimativa de custo são apresentados em Unidade de serviço de nuvem (USN) e Unidade de serviço técnico (UST).
 
 
-.. nota:: Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às empresas integrantes da esfera governamental. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
+.. note:: |nota| Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às empresas integrantes da esfera governamental. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
 
 .. atenção:: Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às empresas integrantes da esfera governamental. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
 
 
 Adicionar Estimativa de Custo (USN) e (UST)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Ao clicar neste botão a plataforma uCloud apresenta a possibilidade do usuário preencher o modal ``Estimativa de Custo 1`` que apresenta os seguintes campos:
-
-
 
 .. figure:: /figuras/fig_ordem_de_serviço/14_ordem_servico_modal_estimativa_custo_dropdown.png
    :align: center
    :alt: ordem serviço modal estimativa custo dropdown 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
+Neste sub-modal: 
+**Estimativa de Custo 1** é necessário preencher todos os campos:
+
+  * Item 
+  * Serviço 
+  * Unidade 
+  * Custo unitário 
+  * Estimativa de uso 
+  * Custo do Dólar
+  * Custo do Real
+  * Custo do USN 
 
 
-Neste sub-modal: Estimativa de Custo 1 é necessário preencher todos os campos:
-Item - Serviço - Unidade - Custo unitário - Estimativa de uso - Custo do Dólar - Custo do Real - Custo do USN. 
-
-
-.. attention:: Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
+.. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
 
 Após preencher todos os parâmetros acima, uma nova tela é apresentada, o usuário deve clicar no botão ``+Criar`` para salvar os dados inseridos e adicionar a primeira estimativa de custo.
 
@@ -8142,28 +8149,33 @@ Após preencher todos os parâmetros acima, uma nova tela é apresentada, o usu�
 .. figure:: /figuras/fig_ordem_de_serviço/27_ordem_servico_modal_estimativa_custo.png
    :align: center
    :alt: ordem serviço modal estimativa custo 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 
-
-Caso existam outras estimativas a serem inseridas, o usuário deve clicar no botão ``+Adicionar configuração de estimativa de custo``. 
-
+Caso existam outras estimativas a serem inseridas, o usuário deve clicar no botão
+ ``+Adicionar configuração de estimativa de custo``. 
 
 
 
 .. figure:: /figuras/fig_ordem_de_serviço/33_ordem_servico_configuracao_estimativa.png
    :align: center
    :alt: ordem serviço configuração estimativa
-   :scale: 60 % 
+   :scale: 80 % 
 ----
 
 
 
+Neste sub-modal: 
+**Configuração de Estimativa de Custo 1** é necessário preencher todos os campos:
 
-Neste sub-modal: Configuração de Estimativa de Custo 1 é necessário preencher todos os campos:
-Item - Serviço - quantidade UST - Prazo - Solução - Custo. 
+  * Item 
+  * Serviço 
+  * Quantidade UST 
+  * Prazo 
+  * Solução 
+  * Custo 
 
 
 Após a inserção das estimativas de custo em (USN) e (UST) a última etapa está concluída, restando apenas ao usuário aguardar a aprovação da solicitação de serviço. 
@@ -8173,11 +8185,11 @@ Após a inserção das estimativas de custo em (USN) e (UST) a última etapa est
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 60 %
+   :scale: 80 %
 ----
   
 
-Este card deve ser "assinado" na seção “DE ACORDO”, pelo usuário administrador do contrato, ao ser assinado ele formaliza a tarefa ou serviço a ser executado.
+Este *card* **De acordo** deve ser "assinado" pelo usuário administrador do contrato, ao realizá-lo formaliza a tarefa ou serviço a ser executado.
 
 
 
@@ -8186,7 +8198,7 @@ Gerenciando a Ordem de Serviço
 ------------------------------
 
 
-Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe a tela abaixo, em duas partes:
+Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe e divide em duas partes, a tela abaixo:
 
 
 
@@ -8198,7 +8210,9 @@ Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre q
 ----
 
 
-O menu Ordem de serviço apresenta quatro cards, por isto há a necessidade de rolar a tela para visualizar todos as informações contidas nesta solicitação. A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte exibe os cards com as estimativas de custos em USN e UST, além do nome do usuário que autorizou a formalização da tarefa a ser executada..
+O menu Ordem de Serviço apresenta quatro *cards*, por isto há a necessidade de rolar a tela para visualizar todas as informações contidas nesta solicitação. 
+
+A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte exibe os *cards* com as estimativas de custos em USN e UST, além do nome do usuário que autorizou a formalização da tarefa a ser executada..
 
 
 
@@ -8206,16 +8220,21 @@ O menu Ordem de serviço apresenta quatro cards, por isto há a necessidade de r
 .. figure:: /figuras/fig_ordem_de_serviço/26_ordem_servico_usn_ust_acordo.png
    :align: center
    :alt: ordem serviço usn ust acordo 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 
-.. warning:: Caro leitor, é importante saber que ao criar a ordem de serviço significa que a formalização da tarefa está registrada, mas isto não significa que a atividade está contratada para execução. 
+.. warning:: |importante| Caro leitor, é importante saber que ao criar a ordem de serviço significa que a formalização da tarefa está registrada, mas isto não significa que a atividade está contratada para execução. 
 
 
-Seguindo o fluxo, as quatro seções que podem ser gerenciadas são descritas em detalhe na sequência:
-Card: Geral
+Seguindo o fluxo, as quatro seções que podem ser gerenciadas são descritas em detalhe na sequência.
+
+
+*Card*: Geral
+~~~~~~~~~~~~~
+
+
 Esta seção apresenta informações sobre solicitações de ordens de serviço, suas justificativas, responsabilidades, datas de início e término. A seguir estão as descrições dos campos nesta seção:
 
 
@@ -8224,7 +8243,7 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 .. figure:: /figuras/fig_ordem_de_serviço/28_ordem_servico_geral_expandido.png
    :align: center
    :alt: ordem serviço geral expandido 
-   :scale: 60 %
+   :scale: 80 %
 ----
  
 
@@ -8261,9 +8280,13 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 Card: Estimativa de Custo (USN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este card apresenta informações referente às estimativas iniciais de custo da “Ordem de Serviço”. Estes valores informados são expressos em USN (Unidade de Serviço de Nuvem), e são específicos para o Governo Brasileiro. 
+Este *card* apresenta informações referente às estimativas iniciais de custo da “Ordem de Serviço”. Estes valores informados são expressos em USN (Unidade de Serviço de Nuvem) e são específicos para o Governo Brasileiro. 
 
-.. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
+.. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. 
+   
+.. note:: |nota| Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. 
+   
+.. warning:: |importante| Este modal pode conter mais de um item de solicitação de estimativa de custo.
 
 
 
@@ -8271,39 +8294,40 @@ Este card apresenta informações referente às estimativas iniciais de custo da
 .. figure:: /figuras/fig_ordem_de_serviço/29_ordem_servico_usn_expandido.png
    :align: center
    :alt: ordem serviço usn expandido 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 
-
 Abaixo segue a descrição dos campos do título desta seção:
-* **Identificação de Quantidade de Itens**: Ao lado do nome da seção existe um número que identifica a quantidade de estimativas de custos de serviços em USN.
-* **Botão** ``Adicionar Estimativa de Custo``: No caso da necessidade do usuário querer adicionar mais de um item e sua respectiva estimativa de custo, basta clicar com o cursor sobre o botão ``Adicionar Estimativa de Custo``. A descrição deste procedimento é detalhada no item a seguir **Criando Ordem de Serviço**.
-* **Botão** ``Excluir``: Quando o usuário deseja remover de uma “Ordem de Serviço” um item orçado em USN, basta clicar com o cursor sobre o botão ``Excluir`` para remover o item, de forma imediata e definitiva. A Plataforma do uCloud apresenta como resultado uma tela solicitando a confirmação para finalizar a operação, vide abaixo:
+
+
+  * **Identificação de Quantidade de Itens**: Ao lado do nome da seção existe um número que identifica a quantidade de estimativas de custos de serviços em USN.
+  * **Botão** ``Adicionar Estimativa de Custo``: No caso da necessidade do usuário querer adicionar mais de um item e sua respectiva estimativa de custo, basta clicar com o cursor sobre o botão ``Adicionar Estimativa de Custo``. A descrição deste procedimento é detalhada no item a seguir **Criando Ordem de Serviço**.
+  * **Botão** ``Excluir``: Quando o usuário deseja remover de uma “Ordem de Serviço” um item orçado em USN, basta clicar com o cursor sobre o botão ``Excluir`` para remover o item, de forma imediata e definitiva. A Plataforma do uCloud apresenta como resultado uma tela solicitando a confirmação para finalizar a operação, vide abaixo:
 
 
 
 .. figure:: /figuras/fig_ordem_de_serviço/32_ordem_servico_feedback_excluir_usn.png
    :align: center
    :alt: ordem serviço feedback excluir 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 
-* **Item**: Apresenta a identificação do item referente ao custo estimado em USN, deve ser preenchido pelo usuário ao provisionar este item. Importante ressaltar que pode existir mais de um item vinculado à “Ordem de Serviço”.
-* **Serviço**: Exibe a descrição referente ao serviço solicitado em USN.
-* **Unidade**: Informa  a unidade de moeda. 
-* **Custo Unitário**: Apresenta o custo unitário referente ao item. Este custo unitário é uma referência para a quantidade estimada de serviço.
-* **Estimativa de Uso**: Expõe uma estimativa de uso que o usuário prevê para o consumo referente ao resultado deste item dentro da Ordem de Serviço.
-* **Custo do Dólar**: Apresenta o valor de conversão da moeda Dólar Americano, reflete a taxa de câmbio da data de provisionamento do item na “Ordem de Serviço”.
-* **Custo do Real**: Informa o valor do Real Brasileiro válido para a referida “Ordem de Serviço”.
-* **Custo do USN**: Expõe  o valor da Unidade de Serviço de Nuvem (USN) válida para a “Ordem de Serviço”.
+  * **Item**: Apresenta a identificação do item referente ao custo estimado em USN, deve ser preenchido pelo usuário ao provisionar este item. Importante ressaltar que pode existir mais de um item vinculado à “Ordem de Serviço”.
+  * **Serviço**: Exibe a descrição referente ao serviço solicitado em USN.
+  * **Unidade**: Informa  a unidade de moeda. 
+  * **Custo Unitário**: Apresenta o custo unitário referente ao item. Este custo unitário é uma referência para a quantidade estimada de serviço.
+  * **Estimativa de Uso**: Expõe uma estimativa de uso que o usuário prevê para o consumo referente ao resultado deste item dentro da Ordem de Serviço.
+  * **Custo do Dólar**: Apresenta o valor de conversão da moeda Dólar Americano, reflete a taxa de câmbio da data de provisionamento do item na “Ordem de Serviço”.
+  * **Custo do Real**: Informa o valor do Real Brasileiro válido para a referida “Ordem de Serviço”.
+  * **Custo do USN**: Expõe  o valor da Unidade de Serviço de Nuvem (USN) válida para a “Ordem de Serviço”.
 
 
 
-Card: Configuração de Estimativa de Custo (UST)
+*Card*: Configuração de Estimativa de Custo (UST)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este *card*  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específicos para o Governo Brasileiro. 
@@ -8315,23 +8339,24 @@ Este *card*  apresenta informações referentes às estimativas iniciais de cust
 .. figure:: /figuras/fig_ordem_de_serviço/30_ordem_servico_ust_expandido.png
    :align: center
    :alt: ordem serviço ust expandido
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 Abaixo segue a descrição dos campos desta seção:
-* **Identificação de Quantidade de Itens**: Ao lado do nome da seção existe um número que identifica a quantidade de estimativa de custos de serviços em UST.
-* **Item**: Apresenta a identificação do item referente ao custo estimado em UST do elemento que é informado pelo usuário. **Importante ressaltar que pode existir mais de um item vinculado à “Ordem de Serviço”**.
-* **Serviço**: Informa a descrição referente ao serviço solicitado em UST no item que é informado pelo usuário.
-* **Quantidade de UST**: Exibe a estimativa de quantidade de Unidade de Serviço Técnico (UST) de uso que o usuário prevê para concluir o resultado deste item dentro da Ordem de Serviço.
-* **Prazo**: Apresenta o prazo estimado para a conclusão do item para esta Ordem de Serviço.
-* **Solução**: Informa a descrição do resultado do item em UST para documentar a solicitação da Ordem de Serviço.
-* **Custo**: Exibe  o valor referente ao custo previsto que é informado pelo usuário para este item da Ordem de Serviço.
+
+  * **Identificação de Quantidade de Itens**: Ao lado do nome da seção existe um número que identifica a quantidade de estimativa de custos de serviços em UST.
+  * **Item**: Apresenta a identificação do item referente ao custo estimado em UST do elemento que é informado pelo usuário. **Importante ressaltar que pode existir mais de um item vinculado à “Ordem de Serviço”**.
+  * **Serviço**: Informa a descrição referente ao serviço solicitado em UST no item que é informado pelo usuário.
+  * **Quantidade de UST**: Exibe a estimativa de quantidade de Unidade de Serviço Técnico (UST) de uso que o usuário prevê para concluir o resultado deste item dentro da Ordem de Serviço.
+  * **Prazo**: Apresenta o prazo estimado para a conclusão do item para esta Ordem de Serviço.
+  * **Solução**: Informa a descrição do resultado do item em UST para documentar a solicitação da Ordem de Serviço.
+  * **Custo**: Exibe  o valor referente ao custo previsto que é informado pelo usuário para este item da Ordem de Serviço.
 
 
 
-Card: De Acordo
-~~~~~~~~~~~~~~~
+*Card*: De Acordo
+~~~~~~~~~~~~~~~~~
 
 Este *card* apresenta as informações referente aos responsáveis que acompanham e documentam as atualizações dos itens, atividades referentes à solicitação, suas justificativas, a responsabilidade, as datas de início e término. Em resumo, documenta um responsável e seu cargo, além da descrição das atividades do item(ns) em USN ou em UST, vinculados a esta Ordem de Serviço.
 
@@ -8340,7 +8365,7 @@ Este *card* apresenta as informações referente aos responsáveis que acompanha
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
@@ -8348,12 +8373,14 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 
-* **Participant**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
-* **’Role’**: Apresenta a função ou cargo do responsável indicado no espaço acima.
-* **’Description’**: Exibe uma breve descrição da atividade de acompanhamento da “Ordem de Serviço''.
-* **Ações**: Apresenta o ícone da lata de lixo que permite excluir o usuário responsável que confirmou a ordem de serviço ao clicar no **De Acordo**.
+  * **Participant**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
+  * **’Role’**: Apresenta a função ou cargo do responsável indicado no espaço acima.
+  * **’Description’**: Exibe uma breve descrição da atividade de acompanhamento da “Ordem de Serviço''.
+  * **Ações**: Apresenta o ícone da lata de lixo que permite excluir o usuário responsável que confirmou a ordem de serviço ao clicar no **De Acordo**.
 
+====
 
+====
 
 .. Menu Ordem de Serviço
 .. =====================
