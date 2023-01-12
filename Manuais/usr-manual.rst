@@ -5709,7 +5709,7 @@ Existem três quadros neste relatório com as informações de inteligência de 
 
 * **Seção Storage**: Este quadro apresenta uma lista com o(s) nome(s) e o respectivo tamanho alocado (em *Gigabytes*), das principais áreas de armazenamento ativas e existentes, referente ao período consultado. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título do nome do Storage, a plataforma uCloud classifica a lista de nomes de *storages* em ordem alfabética crescente (a – z) ou decrescente (z – a). Ao clicar com o botão do mouse no título do tamanho (total), a plataforma uCloud classifica a lista em tamanho crescente ou decrescente.
 
-* **Grafico Consumo por tipo de armazenameto**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento, referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreas do gráfico, a plataforma uCloud apresenta uma janela *pop-up* com a(s) informação(ões) de cada nome da área de armazenamento.
+* **Gráfico Consumo por tipo de armazenamento**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento, referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreas do gráfico, a plataforma uCloud apresenta uma janela *pop-up* com a(s) informação(ões) de cada nome da área de armazenamento.
 
 ====
 
@@ -7111,34 +7111,36 @@ Após o usuário executar um limite de custo já salvo, é exibida uma nova opç
 Painéis Baseados em Fatura
 --------------------------
 
-Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*mês anterior*) para o pagamento no mês subsequente. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
+Os Painéis Baseados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*mês anterior*) para o pagamento no mês subsequente. Pode-se comparar ao exemplo da fatura de "Cartão de Crédito". Na fatura consta o consumo somente do mês anterior, para o pagamento no mês corrente.
 
-Os valores apresentados nesta opção de menu deve levar em conta que a Plataforma do uCloud possui três tipos de usuários que podemos identificar como ‘perfis básicos’ conforme descritos abaixo:
+Os valores apresentados nesta opção de menu deve levar em conta que a plataforma do uCloud possui três tipos de usuários identificados como ‘perfis básicos’ , conforme descrito abaixo:
 
   A. **Usuários do sistema**: são os usuários regulares que acessam o sistema para consumir os recursos.
   B. **Usuários Administradores de Grupo**: são usuários que estão associados a um grupo de usuários, eles podem provisionar e alterar outros usuários na plataforma.
   C. **Usuários Administradores de Contrato**: são os usuários que estão associados a um contrato e sobre este contrato podem definir regras de bilhetagem, provisionar e alterar outros usuários na plataforma.
 
-Quando um **Usuário do Sistema** inicia uma sessão na Plataforma do uCloud, e possui a permissão de visualizar o Menu Financeiro e a opção Minha Fatura, os valores apresentados nos relatórios se referem somente aos recursos computacionais que este usuário está vinculado e possui permissão de visualizar o menu “Fatura” e os seus custos. Este usuário não possui permissão de visualizar os valores da Fatura de outro usuário, ou do Grupo ao qual este faz parte ou o valor total do Contrato.
+Quando um **Usuário do Sistema** inicia uma sessão na plataforma uCloud, se este usuário possuir a permissão de visualizar o Menu Financeiro e a opção Minha Fatura, os valores apresentados nos relatórios se referem somente aos recursos computacionais que este usuário está vinculado, pois ele possui a permissão de visualizar o menu “Fatura” e os seus custos. Este usuário não possui a permissão de visualizar os valores da Fatura de outro usuário ou do Grupo ao qual este faz parte, nem o valor total do Contrato.
 
-Quando um **Usuário Administrador de Grupo** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário e de todos os usuários que estão vinculados ao Grupo. Este usuário não tem a permissão de visualizar o valor total do Contrato.
+Quando um **Usuário Administrador de Grupo** inicia uma sessão na plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário e de todos os usuários que estão vinculados ao Grupo. Este usuário não tem a permissão de visualizar o valor total do Contrato.
 
-Quando um **Usuário Administrador de Contrato** inicia uma sessão na Plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário.
-Este usuário possui perfil para permissão para visualizar o valor total acumulado do(s) Contrato(s) aos quais seu usuário foi provisionado no campo Administrador. Por consequência, este usuário pode visualizar o consumo no(s) grupo(s) que foi(ram) vinculado(s) ao(s) contrato(s), e por fim os valores de todos os usuários que estão vinculados aos Grupos.
+Quando um **Usuário Administrador de Contrato** inicia uma sessão na plataforma do uCloud, os valores apresentados nos relatórios se referem aos valores dos recursos computacionais deste usuário.
+Este usuário possui o perfil para permissão de visualizar o valor total acumulado do(s) Contrato(s) aos quais seu usuário foi provisionado no campo Administrador. Por consequência, este usuário pode visualizar o consumo no(s) grupo(s) que foi(ram) vinculado(s) ao(s) contrato(s), e por fim os valores de todos os usuários que estão vinculados aos Grupos.
 
 Para ilustrar este relatório e os seus valores, é utilizada uma credencial com o nível de `Usuário Administrador de Contrato` neste documento. As imagens utilizadas são meramente ilustrativas e servem apenas como exemplo.
+
+----
 
 
 Minha Fatura
 ~~~~~~~~~~~~
 
-Os Painéis Baeados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequênte. Podemos usar o mesmo exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
+Os Painéis Baseados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequênte. Pode-se comparar ao exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
 
-Importante ressaltar que este relatório, específicamente, apresenta os valores de consumo mensal dos recursos computacionais referente apenas ao usuário que está com uma sessão ativa na Plataforma uCloud.
+Importante ressaltar que este relatório, especificamente, apresenta os valores de consumo mensal dos recursos computacionais referente apenas ao usuário que está com uma sessão ativa na plataforma uCloud.
 
-Através deste relatório o usuário que possui credencial de acesso válida na Plataforma do uCloud pode acompanhar a evolução dos custos mês a mês.
+Através deste relatório o usuário que possui credencial de acesso válida na plataforma do uCloud pode acompanhar a evolução dos custos mês a mês. Para isto, deve clicar no menu Financeiro, Painéis Baseados em Fatura, o primeiro card é o ``Minha Fatura``.
 
-Quando o usuário clica com o cursor do mouse sobre o botão **Minha Fatura** a Plataforma uCloud apresenta o relatório do mês corrente, a figura abaixo é meramente ilustrativa:
+Quando o usuário clicar com o cursor do mouse sobre o botão **Minha Fatura** a plataforma uCloud apresenta o relatório do mês corrente, a figura abaixo é meramente ilustrativa:
 
 .. image:: /figuras/ucloud_menu_financeiro010a.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -7148,7 +7150,7 @@ Quando o usuário clica com o cursor do mouse sobre o botão **Minha Fatura** a 
 
 Abaixo segue a descrição dos quadros deste relatório.
 
-* **Campo Mês Atual**: Este campo apresenta o mês e ano atual que a Plataforma uCloud se baseia para apresentar os valores do mês anterior para pagamento no mês corrente. Para alterar o conteúdo deste campo, basta o usuário clicar com o cursor do mouse sobre este campo e a Plataforma uCloud apresenta uma tela *pop-up* que permite alterar a seleção do mês para a consulta das informações deste relatório.
+* **Campo Mês Atual**: Este campo apresenta o mês e ano atual que a plataforma uCloud se baseia para apresentar os valores do mês anterior para o pagamento no mês corrente. Para alterar o conteúdo deste campo, basta o usuário clicar com o cursor do mouse sobre este campo e a plataforma uCloud apresenta uma tela *pop-up* que permite alterar a seleção do mês para a consulta das informações deste relatório.
 
 .. image:: /figuras/ucloud_menu_financeiro010n.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -7158,9 +7160,13 @@ Abaixo segue a descrição dos quadros deste relatório.
 
 Neste ponto o usuário deve selecionar a opção "Mês Passado", logo a plataforma uCloud apresenta os valores referentes ao mês anterior.
 
-O usuário pode selecionar qualquer mês e ano, basta clicar com o cursor do mouse sobre o campo indicado com o nome do mês, que a Plataforma uCloud apresenta um lista "`dropdown`" com os doze mees do ano. Como opcional, é possível consultar os valores de um mês em ano anterior ao ano corrente.
+O usuário pode selecionar qualquer mês e ano, basta clicar com o cursor do mouse sobre o campo indicado com o nome do mês, que a plataforma uCloud apresenta um lista "`dropdown`" com os doze mees do ano. Como opcional, é possível consultar os valores de um mês em ano anterior ao ano corrente.
 
-Por padrão a Plataforma uCloud apresenta os três primeiros quadros:
+* **Botão Exportar**: Se o usuário necessitar exportar os dados que a plataforma ucloud utiliza para apresentar os valores e gráficos, basta clicar sobre ``Exportar`` e selecionar a ação de exportar as informações.
+
+* **Botão Filtrar**: Este botão ``Filtrar`` permite alterar como as informações dos valores são agrupadas e apresentadas nesta tela. 
+
+Por padrão a plataforma uCloud apresenta os três primeiros quadros:
 
 * **Cotação do dólar**: R$ 1 (em 01/12/2021) R$ 5,581 (em 30/12/2021)
 
@@ -7186,9 +7192,10 @@ Por padrão a Plataforma uCloud apresenta os três primeiros quadros:
   Total: R$ 165,6100
   * **Botão Detalhes**: 
 
+----
 
-Botão Financeiro
-~~~~~~~~~~~~~~~~
+Financeiro
+~~~~~~~~~~
 
 Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura", desta forma, a Plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente, e a data atual, não estiver próxima ao fechamento a Plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
 
