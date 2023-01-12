@@ -8027,7 +8027,7 @@ Feito isso, a próxima tela é apresentada. Ela contém os botões ``Criar Ordem
 .. figure:: /figuras/fig_ordem_de_serviço/02_ordem_servico_lista.png
    :align: center
    :alt: ordem serviço lista 
-   :scale: 60 %
+   :scale: 50 %
 ----
   
 
@@ -8059,7 +8059,7 @@ Para iniciar a criação de uma ordem de serviço, o usuário precisa preencher 
 .. figure:: /figuras/fig_ordem_de_serviço/04_ordem_servico_modal_criacao.png
    :align: center
    :alt: ordem serviço modal criação 
-   :scale: 60 %
+   :scale: 70 %
 ----
   
 
@@ -8094,12 +8094,13 @@ Ao finalizar o preenchimento destes campos listados acima, a primeira parte da c
 Quando o usuário clicar no botão ``Próximo`` o modal Criar Ordem de Serviço exibe a tela abaixo:
 
 
-12_ordem_servico_modal_estimativa_custo
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/12_ordem_servico_modal_estimativa_custo.png
+   :align: center
+   :alt: ordem serviço modal estimativa custo 
+   :scale: 60 %
+----
 
 
 Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo``. O fluxo deste modal permite  ``+Adicionar Estimativa de Custo``.
@@ -8116,12 +8117,13 @@ importante: No momento da criação da Ordem de Serviço, o usuário pode **Adic
 Adicionar Estimativa de Custo (USN) e (UST)
 Ao clicar neste botão a plataforma uCloud apresenta a possibilidade do usuário preencher o modal ``Estimativa de Custo 1`` que apresenta os seguintes campos:
 
-14_ordem_servico_modal_estimativa_custo_dropdown
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/14_ordem_servico_modal_estimativa_custo_dropdown.png
+   :align: center
+   :alt: ordem serviço modal estimativa custo dropdown 
+   :scale: 60 %
+----
 
 
 
@@ -8135,12 +8137,13 @@ Item - Serviço - Unidade - Custo unitário - Estimativa de uso - Custo do Dóla
 Após preencher todos os parâmetros acima, uma nova tela é apresentada, o usuário deve clicar no botão ``+Criar`` para salvar os dados inseridos e adicionar a primeira estimativa de custo.
 
 
-27_ordem_servico_modal_estimativa_custo
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/27_ordem_servico_modal_estimativa_custo.png
+   :align: center
+   :alt: ordem serviço modal estimativa custo 
+   :scale: 60 %
+----
 
 
 
@@ -8148,12 +8151,13 @@ Após preencher todos os parâmetros acima, uma nova tela é apresentada, o usu�
 Caso existam outras estimativas a serem inseridas, o usuário deve clicar no botão ``+Adicionar configuração de estimativa de custo``. 
 
 
-33_ordem_servico_configuracao_estimativa
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/33_ordem_servico_configuracao_estimativa.png
+   :align: center
+   :alt: ordem serviço configuração estimativa
+   :scale: 60 % 
+----
 
 
 
