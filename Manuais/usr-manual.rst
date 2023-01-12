@@ -8007,6 +8007,8 @@ O usuário pode registrar esta solicitação de serviço para tornar formal alte
 
 De acordo com o apresentado previamente, o portal uCloud é um ambiente multi-empresa (*multi-tenant*) e multi-nuvem híbrido (*hybrid multi cloud*), em função disso, a “Ordem de Serviço” deve ser vinculada a um contrato. Esta ação permite ao usuário acompanhar, listar e relatar os custos desta, além de visualizar os dados (por exemplo: previsto *versus* orçado).
 
+====
+
 
 Utilizando a Ordem de Serviço
 -----------------------------
@@ -8020,7 +8022,7 @@ O usuário deve acessar o menu geral de funcionalidades, e clicar em **Ordem de 
    :scale: 60 % 
 ----
 
-Feito isso, a próxima tela é apresentada. Ela contém os botões ``Criar Ordem de Serviço`` e ``Refresh``. O exemplo a seguir, exibe as colunas **Nome** e **Nome do contrato**  que neste exemplo permanecem sem dados,  por inexistência de solicitações de serviços.
+Neste fluxo a próxima tela é apresentada. Ela contém os botões ``Criar Ordem de Serviço`` e ``Refresh``. O exemplo a seguir, exibe as colunas **Nome** e **Nome do contrato**  que neste exemplo permanecem sem dados,  por inexistência de solicitações de serviços.
 
 
 
@@ -8036,6 +8038,7 @@ A tela acima apresenta duas colunas:
   * **Nome**: Apresenta o nome da Ordem de Serviço, que é informado pelo usuário no momento do seu provisionamento na plataforma uCloud. 
   * **Nome do contrato**: Exibe o nome do Contrato que é selecionado no momento do provisionamento da Ordem de Serviço.
 
+====
 
 
 Criando Ordem de Serviço
@@ -8112,6 +8115,8 @@ Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo`
 .. note:: |nota| Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às empresas integrantes da esfera governamental. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
 
 .. atenção:: Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às empresas integrantes da esfera governamental. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
+
+====
 
 
 Adicionar Estimativa de Custo (USN) e (UST)
@@ -8192,6 +8197,7 @@ Após a inserção das estimativas de custo em (USN) e (UST) a última etapa est
 Este *card* **De acordo** deve ser "assinado" pelo usuário administrador do contrato, ao realizá-lo formaliza a tarefa ou serviço a ser executado.
 
 
+====
 
 
 Gerenciando a Ordem de Serviço
@@ -8231,8 +8237,8 @@ A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte
 Seguindo o fluxo, as quatro seções que podem ser gerenciadas são descritas em detalhe na sequência.
 
 
-*Card*: Geral
-~~~~~~~~~~~~~
+*Card* : Geral
+~~~~~~~~~~~~~~~
 
 
 Esta seção apresenta informações sobre solicitações de ordens de serviço, suas justificativas, responsabilidades, datas de início e término. A seguir estão as descrições dos campos nesta seção:
@@ -8277,8 +8283,8 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 
 
 
-Card: Estimativa de Custo (USN)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Card* : Estimativa de Custo (USN)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este *card* apresenta informações referente às estimativas iniciais de custo da “Ordem de Serviço”. Estes valores informados são expressos em USN (Unidade de Serviço de Nuvem) e são específicos para o Governo Brasileiro. 
 
@@ -8327,8 +8333,8 @@ Abaixo segue a descrição dos campos do título desta seção:
 
 
 
-*Card*: Configuração de Estimativa de Custo (UST)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Card* : Configuração de Estimativa de Custo (UST)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este *card*  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específicos para o Governo Brasileiro. 
 
@@ -8355,8 +8361,8 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 
-*Card*: De Acordo
-~~~~~~~~~~~~~~~~~
+*Card*~: De Acordo
+~~~~~~~~~~~~~~~~~~~
 
 Este *card* apresenta as informações referente aos responsáveis que acompanham e documentam as atualizações dos itens, atividades referentes à solicitação, suas justificativas, a responsabilidade, as datas de início e término. Em resumo, documenta um responsável e seu cargo, além da descrição das atividades do item(ns) em USN ou em UST, vinculados a esta Ordem de Serviço.
 
