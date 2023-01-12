@@ -7164,7 +7164,7 @@ O usuário pode selecionar qualquer mês e ano, basta clicar com o cursor do mou
 
 * **Botão Exportar**: Se o usuário necessitar exportar os dados que a plataforma ucloud utiliza para apresentar os valores e gráficos, basta clicar sobre ``Exportar`` e selecionar a ação de exportar as informações.
 
-* **Botão Filtrar**: Este botão ``Filtrar`` permite alterar como as informações dos valores são agrupadas e apresentadas nesta tela. 
+* **Botão Filtrar**: Este botão ``Filtrar`` permite alterar como as informações dos valores são agrupadas e apresentadas nesta tela, por *none*, *tag* ou *product name* .
 
 Por padrão a plataforma uCloud apresenta os três primeiros quadros:
 
