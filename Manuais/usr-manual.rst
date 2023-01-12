@@ -8361,7 +8361,7 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 
-*Card*~: De Acordo
+*Card* : De Acordo
 ~~~~~~~~~~~~~~~~~~~
 
 Este *card* apresenta as informações referente aos responsáveis que acompanham e documentam as atualizações dos itens, atividades referentes à solicitação, suas justificativas, a responsabilidade, as datas de início e término. Em resumo, documenta um responsável e seu cargo, além da descrição das atividades do item(ns) em USN ou em UST, vinculados a esta Ordem de Serviço.
