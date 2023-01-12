@@ -7197,13 +7197,13 @@ Por padrão a plataforma uCloud apresenta os três primeiros quadros:
 Financeiro
 ~~~~~~~~~~
 
-Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura", desta forma, a Plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente, e a data atual, não estiver próxima ao fechamento a Plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
+Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura". Desta forma, a plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente e a data atual, se não estiver data próxima ao fechamento a plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
 
 .. note:: Importante mencionar que este botão está visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão permanece oculto, não é apresentado na interface da Plataforma uCloud.
 
 Este relatório permite uma navegação profunda (*drill down*) nos valores de consumo dos recursos computacionais de nuvem pública/privada, desde o nível mais abrangente que é o Contrato, passando pelo consumo do(s) Grupo(s), chegando a completude da listagem detalhada de todos os recursos computacionais, com seus valores (diretos e indiretos), vinculados a um usuário específico.
 
-Primeiramente, deve-se recordar como a Plataforma uCloud é organizada internamente, para efetuar a totalização de valores financeiros de um contrato. A figura abaixo ilustra este processo.
+Primeiramente, deve-se recordar como a plataforma uCloud é organizada internamente, para efetuar a totalização de valores financeiros de um contrato. A figura abaixo ilustra este processo.
 
 .. image:: /figuras/ucloud_menu_financeiro013.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -7225,9 +7225,9 @@ Todo e qualquer recurso computacional, de provedor de nuvem pública/privada (ex
 
 Este relatório Financeiro, permite ao usuário com perfil de Administrador de Contrato, conhecer em detalhes ("*drill down*) os valores do Total do Contrato, valores do Total de um Grupo, valores do Total de um Usuário.
 
-O último nível de apresentação de valores (Valores de Consumo de um Usuário), A Plataforma do uCLoud relaciona uma relação detalhada e completa de todos os valores diretos dos recursos computacionais (e de valores indiretos ex.: Transferência de Dados - *Data Transfer*) que estão no arquivo de billing do provedor de serviço de nuvem pública/privada.
+O último nível de apresentação de valores (Valores de Consumo de um Usuário), a plataforma do uCloud relaciona uma relação detalhada e completa, de todos os valores diretos dos recursos computacionais (e de valores indiretos ex.: Transferência de Dados - *Data Transfer*) que estão no arquivo de billing do provedor de serviço de nuvem pública/privada.
 
-Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o botão de “Financeiro”, a Plataforma do uCloud apresenta uma tela para o Usuário Administrador de Contrato selecionar qual o contrato será utilizado para apresentar os quadrantes conforme imagem abaixo.
+Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o botão de “Financeiro”, a plataforma do uCloud apresenta uma tela para o Usuário Administrador de Contrato selecionar qual o contrato será utilizado para apresentar os quadrantes conforme imagem abaixo.
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
@@ -7235,7 +7235,7 @@ Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o 
    :align: center
 ----
 
-A Plataforma do uCloud permite visualizar os dados financeiros de apenas um único contrato, e abaixo é exibido um exemplo do resumo financeiro de um contrato (a figura abaixo é meramente ilustrativa):
+A plataforma uCloud permite visualizar os dados financeiros de apenas um único contrato, e abaixo é exibido um exemplo do resumo financeiro de um contrato (a figura abaixo é meramente ilustrativa):
 
 .. image:: /figuras/ucloud_menu_financeiro013a.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -7245,7 +7245,7 @@ A Plataforma do uCloud permite visualizar os dados financeiros de apenas um úni
 
 Na sequência, a descrição de como interpretar os campos e botões iniciais.
 
-* **Campo Período**: Este campo é apresentado com o mês corrente que a sessão do usuário está acessando este relatório. Quando o usuário clicar com o cursor do mouse sobre este campo, a Platafora uCloud apresenta um *pop-up* que permite ao usuário informar um mês anterior ao corrente.
+* **Campo Período**: Este campo é apresentado com o mês corrente que a sessão do usuário está acessando este relatório. Quando o usuário clicar com o cursor do mouse sobre este campo, a plataforma uCloud apresenta um *pop-up* que permite ao usuário informar um mês anterior ao corrente.
 
 .. image:: /figuras/ucloud_menu_financeiro013f.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -7253,9 +7253,9 @@ Na sequência, a descrição de como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-* **Botão Exportar**: Este botão permite ao usuário exportar os dados brutos que estão nas bases de dados da Plataforma uCloud. Estes dados foram utilizados para o cálculo e apresentação em tela deste relatório. Basta o usuário clicar com o cursor do mouse sobre este botão para a Plataforma do uCloud apresentar as duas opções de exportação dos dados:
+* **Botão Exportar**: Este botão permite ao usuário exportar os dados brutos que estão nas bases de dados da plataforma uCloud. Estes dados foram utilizados para o cálculo e apresentação em tela deste relatório. Basta o usuário clicar com o cursor do mouse sobre este botão para a plataforma do uCloud apresentar as duas opções de exportação dos dados:
   
-  * **PDF**: Esta opção indica para a Plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo de formato aberto `Portable Document Format` (*PDF*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa):
+  * **PDF**: Esta opção indica a plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo de formato aberto `Portable Document Format` (*PDF*). Quando o usuário clicar com o cursor do mouse sobre esta opção a plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa):
 
 .. image:: /figuras/ucloud_menu_financeiro013b.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
@@ -7263,7 +7263,7 @@ Na sequência, a descrição de como interpretar os campos e botões iniciais.
    :align: center
 ----
 
-  * **CSV**: Esta opção indica para a Plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo texto de formato Comma-Separated Values (*CSV*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa - os dados com as identificações foram suprimidos):
+  * **CSV**: Esta opção indica a plataforma uCloud que o usuário deseja que a informação simplificada seja apresentada em um arquivo texto de formato Comma-Separated Values (*CSV*). Quando o usuário clicar com o cursor do mouse sobre esta opção a Plataforma uCloud inicia o *download* de um relatório semelhante ao apresentado abaixo (imagem meramente ilustrativa - os dados com as identificações foram suprimidos):
 
 .. image:: /figuras/ucloud_menu_financeiro013e.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
