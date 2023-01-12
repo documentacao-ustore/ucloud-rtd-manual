@@ -8023,11 +8023,12 @@ O usuário deve acessar o menu geral de funcionalidades, e clicar em **Ordem de 
 Feito isso, a próxima tela é apresentada. Ela contém os botões ``Criar Ordem de Serviço`` e ``Refresh``. O exemplo a seguir, exibe as colunas **Nome** e **Nome do contrato**  que neste exemplo permanecem sem dados,  por inexistência de solicitações de serviços.
 
 
-02_ordem_servico_lista
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/02_ordem_servico_lista.png
+   :align: center
+   :alt: ordem serviço lista 
+   :scale: 60 %
+----
   
 
 A tela acima apresenta duas colunas:
@@ -8043,21 +8044,23 @@ Criando Ordem de Serviço
 A ordem de serviço, tem como objetivo principal formalizar uma tarefa ou serviço a ser executado, esta solicitação deve ser criada pelo demandante, pode ser o usuário *user* ou outro tipo de usuário. 
 
 
-03_ordem_servico_lista_expandida
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/03_ordem_servico_lista_expandida.png
+   :align: center
+   :alt: ordem serviço lista expandida 
+   :scale: 60 %
+----
   
 
 Para iniciar a criação de uma ordem de serviço, o usuário precisa preencher os parâmetros apresentados no modal a seguir, é importante ressaltar que todos os campos são de livre digitação:
 
 
-04_ordem_servico_modal_criacao
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/04_ordem_servico_modal_criacao.png
+   :align: center
+   :alt: ordem serviço modal criação 
+   :scale: 60 %
+----
   
 
   * **Contrato**: Campo para inserir o nome do contrato vinculado à Ordem de Serviço que está sendo criada. O nome pode ser designado pelo usuário a partir do menu suspenso que apresenta a lista de contratos existentes
