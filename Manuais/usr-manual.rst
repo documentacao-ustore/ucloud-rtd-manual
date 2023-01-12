@@ -8169,14 +8169,12 @@ Item - Serviço - quantidade UST - Prazo - Solução - Custo.
 Após a inserção das estimativas de custo em (USN) e (UST) a última etapa está concluída, restando apenas ao usuário aguardar a aprovação da solicitação de serviço. 
 
 
-31_ordem_servico_acordo_expandido
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
-
-
+.. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
+   :align: center
+   :alt: ordem serviço acordo expandido 
+   :scale: 60 %
+----
   
 
 Este card deve ser "assinado" na seção “DE ACORDO”, pelo usuário administrador do contrato, ao ser assinado ele formaliza a tarefa ou serviço a ser executado.
@@ -8188,26 +8186,28 @@ Gerenciando a Ordem de Serviço
 ------------------------------
 
 
-Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe a tela abaixo em duas partes:
+Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe a tela abaixo, em duas partes:
 
 
-25_ordem_servico_geral
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/25_ordem_servico_geral.png
+   :align: center
+   :alt: ordem serviço geral 
+   :scale: 60 %
+----
 
 
 O menu Ordem de serviço apresenta quatro cards, por isto há a necessidade de rolar a tela para visualizar todos as informações contidas nesta solicitação. A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte exibe os cards com as estimativas de custos em USN e UST, além do nome do usuário que autorizou a formalização da tarefa a ser executada..
 
 
-26_ordem_servico_usn_ust_acordo
+
   
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+.. figure:: /figuras/fig_ordem_de_serviço/26_ordem_servico_usn_ust_acordo.png
+   :align: center
+   :alt: ordem serviço usn ust acordo 
+   :scale: 60 %
+----
 
 
 
@@ -8219,12 +8219,13 @@ Card: Geral
 Esta seção apresenta informações sobre solicitações de ordens de serviço, suas justificativas, responsabilidades, datas de início e término. A seguir estão as descrições dos campos nesta seção:
 
 
-28_ordem_servico_geral_expandido
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+
+.. figure:: /figuras/fig_ordem_de_serviço/28_ordem_servico_geral_expandido.png
+   :align: center
+   :alt: ordem serviço geral expandido 
+   :scale: 60 %
+----
  
 
 
@@ -8258,21 +8259,21 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 
 
 Card: Estimativa de Custo (USN)
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este card apresenta informações referente às estimativas iniciais de custo da “Ordem de Serviço”. Estes valores informados são expressos em USN (Unidade de Serviço de Nuvem), e são específicos para o Governo Brasileiro. 
 
 .. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
 
 
-29_ordem_servico_usn_expandido
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
 
-  
+.. figure:: /figuras/fig_ordem_de_serviço/29_ordem_servico_usn_expandido.png
+   :align: center
+   :alt: ordem serviço usn expandido 
+   :scale: 60 %
+----
+
 
 
 
@@ -8283,20 +8284,11 @@ Abaixo segue a descrição dos campos do título desta seção:
 
 
 
-
-32_ordem_servico_feedback_excluir_usn
-
-.. figure::
-   :align:
-   :alt: 
-   :scale:
-
-
- Interface gráfica do usuário, Aplicativo
-
-Descrição gerada automaticamente 
-
-
+.. figure:: /figuras/fig_ordem_de_serviço/32_ordem_servico_feedback_excluir_usn.png
+   :align: center
+   :alt: ordem serviço feedback excluir 
+   :scale: 60 %
+----
 
 
 
@@ -8312,24 +8304,19 @@ Descrição gerada automaticamente
 
 
 Card: Configuração de Estimativa de Custo (UST)
-Este card  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específicos para o Governo Brasileiro. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Este *card*  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específicos para o Governo Brasileiro. 
 
 
 .. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
 
 
-
-
-30_ordem_servico_ust_expandido
-
-.. figure::
-   :align:
-   :alt: 
-   :scale:
-
-  
-
-
+.. figure:: /figuras/fig_ordem_de_serviço/30_ordem_servico_ust_expandido.png
+   :align: center
+   :alt: ordem serviço ust expandido
+   :scale: 60 %
+----
 
 
 Abaixo segue a descrição dos campos desta seção:
@@ -8344,15 +8331,17 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 Card: De Acordo
-Este card apresenta as informações referente aos responsáveis que acompanham e documentam as atualizações dos itens, atividades referentes à solicitação, suas justificativas, a responsabilidade, as datas de início e término. Em resumo, documenta um responsável e seu cargo, além da descrição das atividades do item(ns) em USN ou em UST, vinculados a esta Ordem de Serviço.
+~~~~~~~~~~~~~~~
+
+Este *card* apresenta as informações referente aos responsáveis que acompanham e documentam as atualizações dos itens, atividades referentes à solicitação, suas justificativas, a responsabilidade, as datas de início e término. Em resumo, documenta um responsável e seu cargo, além da descrição das atividades do item(ns) em USN ou em UST, vinculados a esta Ordem de Serviço.
 
 
-31_ordem_servico_acordo_expandido
 
-.. figure::
-   :align:
-   :alt: 
-   :scale:
+.. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
+   :align: center
+   :alt: ordem serviço acordo expandido 
+   :scale: 60 %
+----
 
 
 Abaixo segue a descrição dos campos desta seção:
