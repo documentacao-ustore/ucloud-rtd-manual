@@ -8017,7 +8017,8 @@ O usuário deve acessar o menu geral de funcionalidades, e clicar em **Ordem de 
 .. figure:: /figuras/fig_ordem_de_serviço/01_menu_ordem_servico.png
    :align: center
    :alt: menu ordem de serviço
-   :scale: 70 % 
+   :scale: 60 % 
+----
 
 Feito isso, a próxima tela é apresentada. Ela contém os botões ``Criar Ordem de Serviço`` e ``Refresh``. O exemplo a seguir, exibe as colunas **Nome** e **Nome do contrato**  que neste exemplo permanecem sem dados,  por inexistência de solicitações de serviços.
 
