@@ -7294,6 +7294,11 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 * **Quadro Gráfico de Pizza**: outro formato de apresentação dos dados indicados.
 * **Quadro Grupos**: este card possibilita abrir os "Detalhes" ao clicar no botão.
 
+
+----
+
+----
+
 .. valor apresentado abaixo, associado a fatura do mês 8, de R $58.619,01 é referente ao consumo dos dias 01/07/21 até 31/07/21. Portanto, o custo acima é referente a FATURA à ser paga no mês de 08 (agosto) seguindo as regras de faturamento cadastradas no CONTRATO, conforme imagem abaixo.
 
 .. É possível ver uma visão mais granulada por usuários, para isso expandir a opção DETALHES escolher o GRUPO que deseja listar os usuários, conforme mostra a imagem abaixo. Caso o CONTRATO tenha mais de 1 grupo, o painel irá listar todos os GRUPOS e seus respectivos custos. Ao acessar o custo do GRUPO, o painel irá apresentar a seguinte imagem.
