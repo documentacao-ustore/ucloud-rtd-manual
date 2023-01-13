@@ -4864,7 +4864,7 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de
 Menu Financeiro
 ===============
 
-No início deste documento, está publicada a introdução e visão_ geral, nele estão descritos os cinco pontos de atuação da plataforma uCloud. Esta seção é dedicada ao tema “Financeiro”, por isto,é necessário ressaltar que esta plataforma não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
+No início deste documento, está publicada a introdução e visão_ geral, ele descreve os cinco pontos de atuação da plataforma uCloud. Esta seção é dedicada ao tema “Financeiro”, por isto, é necessário ressaltar que esta plataforma não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
 
 .. _visão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#introducao-visao-geral
 
@@ -4903,10 +4903,15 @@ A plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas 
 
 * Taxa de faturamento;
 * Moeda;
-* Tipo de cotação (fixa ou variável);
-* Dia de cotação da moeda (válido somente para cotação variável, a Plataforma uCloud obtém o valor da `PTAX` do site do Banco Central do Brasil).
+* Tipo de cotação :
+  *  fixa ou variável;
+* Dia de cotação da moeda :
+  *  válido somente para cotação variável;
+  *  a Plataforma uCloud obtém o valor da `PTAX` do site do Banco Central do Brasil.
 
-Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$). Na sequência é exibida a forma como a Plataforma uCloud deve efetuar a conversão para Real Brasileiro:
+Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$). 
+
+Na sequência seguinte é exibida a forma como a plataforma uCloud deve efetuar a conversão para Real Brasileiro:
 
 +--------------------+--------------------------+---+------------------+---+-------------------+
 |**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Fixo] Dólar| x |Taxa de Faturamento|
@@ -4956,11 +4961,11 @@ Em casos específicos de recursos sem *tag* assume-se o valor que vem informado 
 
 Neste ambiente, a plataforma uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 
-* *Preço de Recurso em USN por Hora*;
-* *Taxa de faturamento*;
-* *Tipo de cotação* :
+* Preço de Recurso em USN por Hora;
+* Taxa de faturamento;
+* Tipo de cotação :
     * (fixa/variável);
-* *Dia de cotação da moeda* :
+* Dia de cotação da moeda :
     * (válido somente para a cotação variável); 
     * (a plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
 
@@ -4997,7 +5002,7 @@ No Contrato o usuário seleciona e define em qual a moeda os valores de todos os
 
 .. note:: |nota| Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
 
-Quando o usuário acessar o Menu Financeiro, a plataforma uCloud apresenta a tela abaixo:
+Quando o usuário acessar o menu Financeiro, a plataforma uCloud apresenta a tela abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro001.png
    :alt: Virtual Datacenter - Exemplo
@@ -5019,7 +5024,7 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
 * **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) apenas do período ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios.
 
-  Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento será o dia inicial do mês subsequente ao consumo. Por exemplo, um contrato que tem data de faturamento com vencimento no dia 8, a fatura do mês de agosto será no dia 08/08 e fará referência aos valores consumidos/utilizados durante todo o mês anterior a esta data (no exemplo acima, do dia 08 do mês 07 (julho) ao dia 07 do mês 08, agosto)
+  Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento será o dia inicial do mês subsequente ao consumo. Por exemplo, um contrato que tem data de faturamento com vencimento no dia 8, a fatura do mês de agosto será no dia 08/08 e fará referência aos valores consumidos/utilizados durante todo o mês anterior a esta data (no exemplo acima, do dia 08 do mês julho ao dia 07 do mês agosto).
 
   Este conceito é o mesmo aplicado aos valores das contas de serviços de concessionárias de serviços, que cobra os valores de serviços fornecidos no mês anterior.
 
@@ -5047,6 +5052,8 @@ Painéis Baseados em Consumo
 ---------------------------
 
 Como mencionado, este custo se refere aos valores acumulados do consumo dos recursos computacionais no mês corrente até o dia atual ou até a última ‘janela’ de processamento dos valores pelo provedor.
+
+
 
 Relatório Histórico de Serviço
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
