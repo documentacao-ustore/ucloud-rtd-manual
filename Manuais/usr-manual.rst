@@ -7391,7 +7391,7 @@ Relatório Consolidado de Faturamento
 Tendência de faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-No relatório de tendência, deverá constar informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal de qualquer anomalia de gastos em cima de tais contratos analisados.
+No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
 
 Para acessar o relatório de tendência de faturamento, basta que o usuário clique no menu Financeiro e em seguida no submenu Relatórios. 
 
@@ -7401,7 +7401,7 @@ Para acessar o relatório de tendência de faturamento, basta que o usuário cli
 
 ----
 
-O relatório desejado encontra-se no tópico Painéis Baseados em Faturas. 
+O relatório desejado encontra-se no tópico Painéis Baseados em Fatura. 
 
 .. image:: /figuras/tendencia_faturamento/2_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7410,7 +7410,7 @@ O relatório desejado encontra-se no tópico Painéis Baseados em Faturas.
 ----
 
 
-Com a consulta a estes relatórios de consumo é possível executar regras de tendência de faturamento, podendo projetar os gastos até 6 meses à frente. Ao clicar no botão `Tendência de faturamento` a plataforma abre a tela a seguir:
+Com a consulta a estes relatórios de consumo é possível executar as regras de tendência de faturamento, podendo projetar os gastos até 6 meses à frente. Ao clicar no botão `Tendência de faturamento` a plataforma apresenta a tela a seguir:
 
 .. image:: /figuras/tendencia_faturamento/3_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7418,7 +7418,7 @@ Com a consulta a estes relatórios de consumo é possível executar regras de te
 
 ----
 
-Nesta imagem é possível observar os contratos existentes, relacionados ao usuário que está logado. Nesta tela é possível pesquisar o contrato pelo nome e clicar para prosseguir a consulta.
+Nesta imagem é possível observar os contratos existentes, relacionados ao usuário que está logado. A tela permite a pesquisa do contrato pelo nome, em seguida à escolha é só clicar para prosseguir a consulta.
 
 .. image:: /figuras/tendencia_faturamento/4_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7427,7 +7427,7 @@ Nesta imagem é possível observar os contratos existentes, relacionados ao usu�
 ----
 
 
-Neste momento, o usuário pode filtrar os dados da tela, por intervalo, agrupor por produto ou tag. A tela tendência de faturameto permite exportar o relatório.
+Neste momento, o usuário pode filtrar os dados da tela, por intervalo, agrupar por produto ou tag. A tela tendência de faturameto permite exportar o relatório.
 
 .. image:: /figuras/tendencia_faturamento/5_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7443,7 +7443,7 @@ Para selecionar o intervalo é necessário escolher o mês no calendário aprese
 
 ----
 
-Até escolher o período desejado que será apresentado no intervalo, conforme tela apresentada acima.
+Até escolher o período desejado que é apresentado no intervalo, conforme a tela apresentada acima.
 
 .. image:: /figuras/tendencia_faturamento/7_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7451,7 +7451,7 @@ Até escolher o período desejado que será apresentado no intervalo, conforme t
 
 ----
 
-Em seguida, é necessário selecionar se o relatório será agrupado por nome do produto ou por tag.
+Em seguida, é necessário selecionar se o relatório deve ser agrupado por nome do produto ou por tag.
 
 .. image:: /figuras/tendencia_faturamento/8_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7476,7 +7476,7 @@ Para exportar os dados pesquisados, é necessário preencher todos os campos apr
 
 ----
 
-Logo a plataforma uCloud apresenta o modal acima informando que está gerando o relatório. O usuário deve inserir os dados solicitados e clicar no botão `Gerar Relatório`.
+Logo, a plataforma uCloud apresenta o modal acima informando que está gerando o relatório. O usuário deve inserir os dados solicitados e clicar no botão `Gerar Relatório`.
 
 .. image:: /figuras/tendencia_faturamento/11_pbf_rcf.png
    :alt: Relatórios paineis baseados em consumo e fatura 
@@ -7484,8 +7484,9 @@ Logo a plataforma uCloud apresenta o modal acima informando que está gerando o 
 
 ----
 
-
 É possível acompanhar a evolução da tarefa solicitada no Menu Tarefas, conforme imagem acima apresentada.
+
+
 ====
 
 ====
