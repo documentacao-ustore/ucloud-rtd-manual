@@ -4864,7 +4864,9 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de
 Menu Financeiro
 ===============
 
-No início deste documento estão descritos os cinco pontos de atuação da plataforma uCloud, esta seção é dedicada ao ponto “Financeiro”. É necessário ressaltar que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
+Na introdução, visão_ geral deste documento estão descritos os cinco pontos de atuação da plataforma uCloud, esta seção é dedicada ao tema “Financeiro”. É necessário ressaltar que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
+
+.. .._visão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#introducao-visao-geral
 
 A plataforma uCloud extrai do arquivo de `billing` o faturamento destes provedores de nuvem pública, ao fazer o `download` dos valores gerados pelo uso dos recursos computacionais. Em seguida, adiciona estas informações em suas bases de dados internas e, posteriormente, de acordo com os critérios comerciais do contrato, possa aplicar estes custos calculados e convertidos para moeda corrente no Brasil.
 
@@ -4895,9 +4897,9 @@ A plataforma uCloud é desenvolvida para atender tanto um ambiente corporativo q
 Empresas Privadas
 ~~~~~~~~~~~~~~~~~
 
-Para o ambiente corporativo, a Plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo formato .csv).
+Para o ambiente corporativo, a plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo formato .csv).
 
-A Plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internas e calcula a conversão dos valores referentes ao período, utilizando-os de acordo com o informado nos seguintes campos do Contrato:
+A plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas bases de dados internas e calcula a conversão dos valores referentes ao período, utilizando-os de acordo com o informado nos seguintes campos do Contrato:
 
 * Taxa de faturamento;
 * Moeda;
@@ -4912,7 +4914,7 @@ Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam 
 |**Valor Reais (R$)**|Valor US$ Total de Consumo| x |Valor [Dia] PTAX  | x |Taxa de Faturamento|
 +--------------------+--------------------------+---+------------------+---+-------------------+
 
-Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (hum) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta maneira, as fórmulas se comportam como segue abaixo:
+Recentemente, algumas operações brasileiras de provedores de serviço de nuvem estão apresentando os valores de consumo dos recursos computacionais já convertidos para a moeda Real, a conversão utiliza um valor 1 (um) para a taxa de conversão de Dólar <> Real estipulado pelo provedor de serviço de nuvem. Desta maneira, as fórmulas se comportam como segue abaixo:
 
 +--------------------+-------------------------+---+-----------------+---+-------------------+
 |**Valor Reais (R$)**|Valor R$ Total do Consumo| x |Valor [Fixo] 1,00| x |Taxa de Faturamento|
@@ -4944,16 +4946,25 @@ A definição de valores dos recursos computacionais de nuvem, pode ser individu
 
 Os preços dos recursos em USN são definidos através das `tags` na seção **Preço dos Recursos** do Contrato na Plataforma uCloud, esta aplicação possibilita adicionar / configurar `tags` que identificam cada recurso listado no anexo, com o respectivo valor em USN.
 
-Para calcular o custo do recurso em USN, é feita a somatória da quantidade utilizada do recurso pelo preço que foi definido; no caso de recursos que são máquinas virtuais, o preço é multiplicado pela quantidade de CPU, ou pela quantidade de memória em GB. O que define será por CPU ou por memória é a tag aplicada aos recursos. Se não houver tag do tipo USN no recurso, o cálculo não é feito.
+Para calcular o custo do recurso em USN, é aplicada a somatória da quantidade usada do recurso pelo preço definido. 
 
-Em casos específicos de recursos sem *TAG* assume-se o valor que vem informado no arquivo de Billing (.CSV) do provedor de serviço de nuvem pública.
+No caso das máquinas virtuais, o preço é multiplicado pela quantidade de CPU ou pela quantidade de memória em GB. 
 
-Neste ambiente, a Plataforma uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
+O que define se este cálculo será por CPU ou por memória é a *tag* aplicada aos recursos. 
+
+No caso de inexistência da *tag* do tipo USN no recurso, o cálculo não é feito.
+
+Em casos específicos de recursos sem *tag* assume-se o valor que vem informado no arquivo de Billing (.CSV) do provedor de serviço de nuvem pública.
+
+Neste ambiente, a plataforma uCloud após baixar o arquivo de billing do provedor de serviço de nuvem (arquivo .CSV) efetua a conversão dos valores referentes ao período, utilizando os valores informados nos seguintes campos do Contrato:
 
 * *Preço de Recurso em USN por Hora*;
 * *Taxa de faturamento*;
-* *Tipo de cotação* (fixa/variável);
-* *Dia de cotação da moeda* (válido somente para cotação variável a Plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
+* *Tipo de cotação* :
+    * (fixa/variável);
+* *Dia de cotação da moeda* :
+    * (válido somente para a cotação variável); 
+    * (a plataforma uCloud obtém o valor da PTAX do site do Banco Central do Brasil).
 
 Portanto, a fórmula para apresentação dos valores dos recursos computacionais em nuvem pública expressos em USN é bem diferente:
 
