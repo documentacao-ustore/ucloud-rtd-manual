@@ -5035,6 +5035,12 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 **Relatórios**
 --------------
 
+.. image:: /figuras/fig_lc_ar/01_ucloud_finrel_con_limite_custo.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :scale: 80 %
+   :align: center
+
+----
 
 
 Painéis Baseados em Consumo
