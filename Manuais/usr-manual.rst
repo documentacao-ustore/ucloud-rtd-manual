@@ -4864,7 +4864,7 @@ Importante ressaltar que toda alteração, seja de inclusão ou de remoção, de
 Menu Financeiro
 ===============
 
-Na introdução, visão_ geral deste documento estão descritos os cinco pontos de atuação da plataforma uCloud, esta seção é dedicada ao tema “Financeiro”. É necessário ressaltar que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
+No início deste documento, está publicada a introdução e visão_ geral, nele estão descritos os cinco pontos de atuação da plataforma uCloud. Esta seção é dedicada ao tema “Financeiro”, por isto,é necessário ressaltar que esta plataforma não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
 
 .. _visão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#introducao-visao-geral
 
