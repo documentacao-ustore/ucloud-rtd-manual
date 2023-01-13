@@ -4940,19 +4940,17 @@ Devido a constante variação do valor da taxa de câmbio (Dólar <> Real), o Go
 
 Cabe destacar que, nessas leis são estabelecidos os critérios de classificação das propostas para a determinação do ganhador do processo licitatório e que cada provedor de serviço em nuvem oferece serviços e comercialização distintos, o que faz com que seja um desafio a ser discutido, na definição do modelo, o critério a ser utilizado para determinar a proposta mais vantajosa para a Administração Pública Federal [1]_.
 
-Esta abordagem única e especial, permite a qualquer órgão de Governo brasileiro (Federal, Estadual ou Municipal) consumir recursos de computação em nuvem pública permitindo que o valor dos serviços em Unidade de Serviço em Nuvem (USN) seja calculado utilizando o preço em dólar comercial do dia do pregão, fixo ao longo do contrato, acrescido dos percentuais de impostos, contribuições, tributos, lucro e custos da empresa dividido pelo valor da USN cotada no pregão.
+Esta abordagem única e especial, permite a qualquer órgão de Governo Brasileiro (Federal, Estadual ou Municipal) consumir recursos de computação em nuvem pública permitindo que o valor dos serviços em Unidade de Serviço em Nuvem (USN) seja calculado utilizando o preço em dólar comercial do dia do pregão, fixo ao longo do contrato, acrescido dos percentuais de impostos, contribuições, tributos, lucro e custos da empresa dividido pelo valor da USN cotada no pregão.
 
 A definição de valores dos recursos computacionais de nuvem, pode ser individualizado e constar no corpo de cada edital (de cada órgão interessado na contratação de serviços de processamento de nuvem), este documento relacionado ao edital deve vir acompanhado de um `Anexo`, no qual o órgão define os valores específicos.
 
 Os preços dos recursos em USN são definidos através das `tags` na seção **Preço dos Recursos** do Contrato na Plataforma uCloud, esta aplicação possibilita adicionar / configurar `tags` que identificam cada recurso listado no anexo, com o respectivo valor em USN.
 
-Para calcular o custo do recurso em USN, é aplicada a somatória da quantidade usada do recurso pelo preço definido. 
-
-No caso das máquinas virtuais, o preço é multiplicado pela quantidade de CPU ou pela quantidade de memória em GB. 
-
-O que define se este cálculo será por CPU ou por memória é a *tag* aplicada aos recursos. 
-
-No caso de inexistência da *tag* do tipo USN no recurso, o cálculo não é feito.
+* Cálculo do custo dos recursos em Unidade de Serviço de Nuvem (USN):
+      * É aplicada a somatória da quantidade usada do recurso pelo preço definido;
+      * No caso das máquinas virtuais, o preço é multiplicado pela quantidade de CPU ou pela quantidade de memória em GB;
+      * O que define se este cálculo será por CPU ou por memória é a *tag* aplicada aos recursos;
+      * No caso de inexistência da *tag* do tipo USN no recurso, o cálculo não é feito.
 
 Em casos específicos de recursos sem *tag* assume-se o valor que vem informado no arquivo de Billing (.CSV) do provedor de serviço de nuvem pública.
 
