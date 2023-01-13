@@ -7237,6 +7237,14 @@ Por padrão a plataforma uCloud apresenta os três primeiros quadros:
 Financeiro
 ~~~~~~~~~~
 
+.. image:: /figuras/painel_fatura/menu.png
+   :alt: paineis baseados em fatura
+   :scale: 80 %
+   :align: center
+
+----
+
+
 Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura". Desta forma, a plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente e a data atual, se não estiver data próxima ao fechamento a plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
 
 .. note:: Importante mencionar que este botão está visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão permanece oculto, não é apresentado na interface da plataforma uCloud.
