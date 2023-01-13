@@ -7391,6 +7391,105 @@ Relatório Consolidado de Faturamento
 Tendência de faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+No relatório de tendência, deverá constar informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal de qualquer anomalia de gastos em cima de tais contratos analisados.
+
+Para acessar o relatório de tendência de faturamento, basta que o usuário clique no menu Financeiro e em seguida no submenu Relatórios. 
+
+.. image:: /figuras/tendencia_faturamento/1_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+O relatório desejado encontra-se no tópico Painéis Baseados em Faturas. 
+
+.. image:: /figuras/tendencia_faturamento/2_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+
+Com a consulta a estes relatórios de consumo é possível executar regras de tendência de faturamento, podendo projetar os gastos até 6 meses à frente. Ao clicar no botão `Tendência de faturamento` a plataforma abre a tela a seguir:
+
+.. image:: /figuras/tendencia_faturamento/3_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Nesta imagem é possível observar os contratos existentes, relacionados ao usuário que está logado. Nesta tela é possível pesquisar o contrato pelo nome e clicar para prosseguir a consulta.
+
+.. image:: /figuras/tendencia_faturamento/4_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+
+Neste momento, o usuário pode filtrar os dados da tela, por intervalo, agrupor por produto ou tag. A tela tendência de faturameto permite exportar o relatório.
+
+.. image:: /figuras/tendencia_faturamento/5_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Para selecionar o intervalo é necessário escolher o mês no calendário apresentado, ao clicar nas setas para a direita e esquerda, o usuário navega nos anos anteriores ou seguintes. 
+
+.. image:: /figuras/tendencia_faturamento/6_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Até escolher o período desejado que será apresentado no intervalo, conforme tela apresentada acima.
+
+.. image:: /figuras/tendencia_faturamento/7_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Em seguida, é necessário selecionar se o relatório será agrupado por nome do produto ou por tag.
+
+.. image:: /figuras/tendencia_faturamento/8_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Acima o exemplo de uma consulta por tag. Nesta consulta a plataforma uCloud informa que o relatório por tags pode apresentar inconsistências, caso um mesmo recurso possua mais de uma tag. Então, o usuário deve clicar em ok para continuar a pesquisa.
+
+
+.. image:: /figuras/tendencia_faturamento/9_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Para exportar os dados pesquisados, é necessário preencher todos os campos apresentados na imagem acima e clicar no botão `Exportar dados`.
+
+.. image:: /figuras/tendencia_faturamento/10_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+Logo a plataforma uCloud apresenta o modal acima informando que está gerando o relatório. O usuário deve inserir os dados solicitados e clicar no botão `Gerar Relatório`.
+
+.. image:: /figuras/tendencia_faturamento/11_pbf_rcf.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :align: center
+
+----
+
+
+É possível acompanhar a evolução da tarefa solicitada no Menu Tarefas, conforme imagem acima apresentada.
+====
+
+====
+
 .. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
 .. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 .. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
