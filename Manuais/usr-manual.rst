@@ -8002,7 +8002,7 @@ Menu Ordem de Serviço
 
 
 A plataforma uCloud permite ao usuário registrar as solicitações de serviço e formalizar a tarefa ou atividade necessária, em atendimento às melhores práticas de documentação do mercado de TI.
-O usuário pode registrar esta solicitação de serviço para tornar formal alterações, provisionamentos, remoções, redimensionamentos ou assinalar atividade de consultoria, monitoramento e acompanhamento.
+O usuário dispõe de uma funcionalidade que possibilita a requisição de serviço, ele pode registrar esta solicitação para tornar formal alterações, provisionamentos, remoções, redimensionamentos ou assinalar atividade de consultoria, monitoramento e acompanhamento.
 
 
 De acordo com o apresentado previamente, o portal uCloud é um ambiente multi-empresa (*multi-tenant*) e multi-nuvem híbrido (*hybrid multi cloud*), em função disso, a “Ordem de Serviço” deve ser vinculada a um contrato. Esta ação permite ao usuário acompanhar, listar e relatar os custos desta, além de visualizar os dados (por exemplo: previsto *versus* orçado).
@@ -8094,7 +8094,7 @@ Para iniciar a criação de uma ordem de serviço, o usuário precisa preencher 
 
 
 Ao finalizar o preenchimento destes campos listados acima, a primeira parte da criação da ordem de serviço está finalizada. Nesta etapa, o botão ``Próximo`` é habilitado e possibilita clicar nele.
-Quando o usuário clicar no botão ``Próximo`` o modal Criar Ordem de Serviço exibe a tela abaixo:
+Quando o usuário clicar no botão ``Próximo`` o modal **Criar Ordem de Serviço** exibe a tela abaixo:
 
 
 
@@ -8109,12 +8109,12 @@ Quando o usuário clicar no botão ``Próximo`` o modal Criar Ordem de Serviço 
 Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo``. O fluxo deste modal permite  ``+Adicionar Estimativa de Custo``.
 
 
-.. warning:: |importante| No momento da criação da Ordem de Serviço, o usuário pode **Adicionar a estimativa de custo**. Os dados pertinentes à estimativa de custo são apresentados em Unidade de serviço de nuvem (USN) e Unidade de serviço técnico (UST).
+.. warning:: |importante| No momento da criação da Ordem de Serviço, o usuário pode **Adicionar a estimativa de custo**. Os dados pertinentes à estimativa de custo são apresentados em Unidade de serviço de nuvem (USN) e Unidade de serviço técnico (UST), ambos utilizados pelo Governo Federal Brasileiro.
 
 
-.. note:: |nota| Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às empresas integrantes da esfera governamental. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
+.. note:: |nota| Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
 
-.. atenção:: Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às empresas integrantes da esfera governamental. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
+.. attention:: |atenção| Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às entidades e órgãos integrantes da esfera governamental brasileira. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
 
 ====
 
@@ -8190,11 +8190,11 @@ Após a inserção das estimativas de custo em (USN) e (UST) a última etapa est
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 80 %
+   :scale: 50 %
 ----
   
 
-Este *card* **De acordo** deve ser "assinado" pelo usuário administrador do contrato, ao realizá-lo formaliza a tarefa ou serviço a ser executado.
+Este *card* **De acordo** deve ser "assinado" pelo usuário administrador do contrato, ao autorizá-lo formaliza a tarefa ou serviço a ser executado, possibilitando a requisição do serviço.
 
 
 ====
@@ -8212,13 +8212,13 @@ Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre q
 .. figure:: /figuras/fig_ordem_de_serviço/25_ordem_servico_geral.png
    :align: center
    :alt: ordem serviço geral 
-   :scale: 60 %
+   :scale: 80 %
 ----
 
 
 O menu Ordem de Serviço apresenta quatro *cards*, por isto há a necessidade de rolar a tela para visualizar todas as informações contidas nesta solicitação. 
 
-A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte exibe os *cards* com as estimativas de custos em USN e UST, além do nome do usuário que autorizou a formalização da tarefa a ser executada..
+A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte exibe os *cards* com as estimativas de custos em USN e UST, além do nome do usuário que autorizou a formalização da tarefa a ser executada.
 
 
 
@@ -8226,7 +8226,7 @@ A primeira parte apresenta os dados gerais da ordem de serviço, a segunda parte
 .. figure:: /figuras/fig_ordem_de_serviço/26_ordem_servico_usn_ust_acordo.png
    :align: center
    :alt: ordem serviço usn ust acordo 
-   :scale: 80 %
+   :scale: 60 %
 ----
 
 
@@ -8249,7 +8249,7 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 .. figure:: /figuras/fig_ordem_de_serviço/28_ordem_servico_geral_expandido.png
    :align: center
    :alt: ordem serviço geral expandido 
-   :scale: 80 %
+   :scale: 60 %
 ----
  
 
@@ -8371,7 +8371,7 @@ Este *card* apresenta as informações referente aos responsáveis que acompanha
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 80 %
+   :scale: 50 %
 ----
 
 
@@ -8379,7 +8379,7 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 
-  * **Participant**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
+  * **’Participant’**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
   * **’Role’**: Apresenta a função ou cargo do responsável indicado no espaço acima.
   * **’Description’**: Exibe uma breve descrição da atividade de acompanhamento da “Ordem de Serviço''.
   * **Ações**: Apresenta o ícone da lata de lixo que permite excluir o usuário responsável que confirmou a ordem de serviço ao clicar no **De Acordo**.
