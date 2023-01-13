@@ -4866,7 +4866,7 @@ Menu Financeiro
 
 Na introdução, visão_ geral deste documento estão descritos os cinco pontos de atuação da plataforma uCloud, esta seção é dedicada ao tema “Financeiro”. É necessário ressaltar que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública.
 
-.. .._visão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#introducao-visao-geral
+.. _visão: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#introducao-visao-geral
 
 A plataforma uCloud extrai do arquivo de `billing` o faturamento destes provedores de nuvem pública, ao fazer o `download` dos valores gerados pelo uso dos recursos computacionais. Em seguida, adiciona estas informações em suas bases de dados internas e, posteriormente, de acordo com os critérios comerciais do contrato, possa aplicar estes custos calculados e convertidos para moeda corrente no Brasil.
 
