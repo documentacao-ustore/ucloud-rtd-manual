@@ -7135,6 +7135,14 @@ Após o usuário executar um limite de custo já salvo, é exibida uma nova opç
 Painéis Baseados em Fatura
 --------------------------
 
+
+.. image:: /figuras/fig_lc_ar/01_ucloud_finrel_con_limite_custo.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :scale: 80 %
+   :align: center
+
+----
+
 Os Painéis Baseados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*mês anterior*) para o pagamento no mês subsequente. Pode-se comparar ao exemplo da fatura de "Cartão de Crédito". Na fatura consta o consumo somente do mês anterior, para o pagamento no mês corrente.
 
 Os valores apresentados nesta opção de menu deve levar em conta que a plataforma do uCloud possui três tipos de usuários identificados como ‘perfis básicos’ , conforme descrito abaixo:
@@ -7157,6 +7165,14 @@ Para ilustrar este relatório e os seus valores, é utilizada uma credencial com
 
 Minha Fatura
 ~~~~~~~~~~~~
+
+.. image:: /figuras/painel_fatura/menu.png
+   :alt: paineis baseados em fatura
+   :scale: 80 %
+   :align: center
+
+----
+
 
 Os Painéis Baseados em Fatura apresentam informações de valores financeiros unicamente referente a um período já encerrado (*Mês anterior*) para o pagamento no mês subsequênte. Pode-se comparar ao exemplo da fatura de "Cartão de Crédito". Na fatura constam o consumo somente do mês anterior, para o pagamento no mês corrente.
 
