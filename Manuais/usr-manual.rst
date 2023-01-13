@@ -8125,7 +8125,7 @@ Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo`
 
 .. note:: |nota| Unidade de serviço de nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada por este serviço.
 
-.. attention:: |atenção| Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às entidades e órgãos integrantes da esfera governamental brasileira. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
+.. attention:: |atencao| Unidade de serviço técnico (UST) é uma unidade de mensuração de esforço para a execução de um serviço que envolve o esforço humano, designada às entidades e órgãos integrantes da esfera governamental brasileira. Estabelecido como método para serviço de difícil mensuração por outras técnicas. 
 
 ====
 
@@ -8201,7 +8201,7 @@ Após a inserção das estimativas de custo em (USN) e (UST) a última etapa est
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 50 %
+   :scale: 80 %
 ----
   
 
@@ -8382,7 +8382,7 @@ Este *card* apresenta as informações referente aos responsáveis que acompanha
 .. figure:: /figuras/fig_ordem_de_serviço/31_ordem_servico_acordo_expandido.png
    :align: center
    :alt: ordem serviço acordo expandido 
-   :scale: 50 %
+   :scale: 60 %
 ----
 
 
@@ -8390,9 +8390,9 @@ Abaixo segue a descrição dos campos desta seção:
 
 
 
-  * **’Participant’**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
-  * **’Role’**: Apresenta a função ou cargo do responsável indicado no espaço acima.
-  * **’Description’**: Exibe uma breve descrição da atividade de acompanhamento da “Ordem de Serviço''.
+  * **Participant**: Indica o nome ou identificação do responsável que é informado no momento da documentação no acompanhamento das atividades referente a esta Ordem de Serviço.
+  * **Role**: Apresenta a função ou cargo do responsável indicado no espaço acima.
+  * **Description**: Exibe uma breve descrição da atividade de acompanhamento da “Ordem de Serviço''.
   * **Ações**: Apresenta o ícone da lata de lixo que permite excluir o usuário responsável que confirmou a ordem de serviço ao clicar no **De Acordo**.
 
 ====
