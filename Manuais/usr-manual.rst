@@ -4895,9 +4895,9 @@ A plataforma uCloud é desenvolvida para atender tanto um ambiente corporativo q
 ----
 
 
-
 Empresas Privadas
-~~~~~~~~~~~~~~~~~
+-----------------
+
 
 Para o ambiente corporativo, a plataforma uCloud efetua o *download* das linhas do arquivo de *billing* (também conhecido como *bucket*) do provedor de serviço de nuvem. Este arquivo é um arquivo texto *ASCII* com dados separados por vírgula (arquivo formato .csv).
 
@@ -4906,10 +4906,12 @@ A plataforma uCloud efetua a sincronização do conteúdo deste arquivo em suas 
 * Taxa de faturamento;
 * Moeda;
 * Tipo de cotação :
-  *  fixa ou variável;
+    * (fixa/variável);
 * Dia de cotação da moeda :
-  *  válido somente para cotação variável;
-  *  a Plataforma uCloud obtém o valor da `PTAX` do site do Banco Central do Brasil.
+    * (válido somente para a cotação variável); 
+    * (a plataforma uCloud obtém o valor da `PTAX` do site do Banco Central do Brasil).
+
+
 
 Basicamente, quase todos os provedores de serviço de nuvem pública, armazenam seus valores referente ao consumo de recursos computacionais em dólares norte-americanos (US$). 
 
@@ -4929,19 +4931,19 @@ Recentemente, algumas operações brasileiras de provedores de serviço de nuvem
 
 .. note:: Importante ressaltar que para o cenário de provedores que armazeman seus valores em Reais, o usuário Administrador do Contrato deve alterar o campo valor da **Moeda** para 1,00 e **Tipo de Cotação** FIXA.
 
-Quando o usuário possui a Plataforma uCloud conectada a um ambiente de Datacenter Privado (`on-premises`), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na Seção **Preço dos Recursos** no  contrato. A própria empresa deve calcular estes valores e informá-los na Plataforma uCloud, a qual calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
+Quando o usuário possui a plataforma uCloud conectada a um ambiente de Datacenter Privado (`on-premises`), o valor por hora de cada tipo de recurso computacional (CPU, Memória, disco, entre outros) deve ser informado individualmente na seção Preço dos Recursos no contrato. A própria empresa deve calcular estes valores e informá-los na plataforma uCloud, a qual calcula o consumo mensal apenas dos recursos computacionais que possuem seu valor informado.
 
 +--------------------+-------------------------+---+-------------------+
 |**Valor Reais (R$)**|Valor R$ Total de Consumo| x |Taxa de Faturamento|
 +--------------------+-------------------------+---+-------------------+
 
-.. attention:: |atencao| O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela Plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a Plataforma uCloud não é uma plataforma de emissão de documento fiscais.
+.. attention:: |atencao| O valor referente às taxas de impostos para emissão de nota fiscal no território brasileiro não é apresentado por nenhum provedor e, também, não é calculado pela plataforma uCloud. Os valores de taxas e impostos são calculados pelo emissor do documento final da Nota Fiscal, a plataforma uCloud não é uma aplicação de emissão de documento fiscais.
 
 
 ----
 
 Empresas Públicas (USN)
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Devido a constante variação do valor da taxa de câmbio (Dólar <> Real), o Governo Federal brasileiro criou uma formatação inteligente e facilitada para controlar seus limites orçamentários para computação em nuvem pública, de forma a nunca descumprir os limites da Lei de Diretrizes Orçamentárias (LDO), com a finalidade de atender em sua totalidade a Lei nr. 8.666/93, de 21 de junho de 1993. Para a contratação do serviço de que institui o pregão - que é uma modalidade de licitação aplicável à aquisição de bens e serviços comuns - a base legal aplicada para as contratações da Administração Pública Federal, as quais devem ser seguidas a rigor.
 
@@ -4990,17 +4992,17 @@ Portanto, a fórmula para apresentação dos valores dos recursos computacionais
 
 
 Ambiente Corporativo
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
-Antes de iniciarmos a apresentação dos relatórios é importante esclarecer o conceito de Contrato e os benefícios para as empresas quando adotam a plataforma uCloud para melhorar o controle e monitoração da Governança de Custos e de Recursos Computacionais.
+Antes de iniciar a apresentação dos relatórios é importante esclarecer o conceito de Contrato e os benefícios para as empresas, ao adotar a plataforma uCloud como melhoria do controle e monitoração da Governança de Custos e dos Recursos Computacionais.
 
-O Contrato é o ponto principal onde a organização usuária da plataforma uCloud estabelece a forma como gerencia os aspectos comerciais, os limites financeiros (ou dos recursos computacionais), define seus valores para recursos computacionais de forma individualizada (isto é válido somente para uma nuvem privada), vincula os grupos e os usuários.
+O Contrato é o ponto principal onde a organização usuária da plataforma uCloud estabelece a forma como gerencia os aspectos comerciais, os limites financeiros (ou dos recursos computacionais), ele define os valores para recursos computacionais de forma individualizada (isto é válido somente para uma nuvem privada), vincula os grupos e os usuários.
 
 No contrato se estabelece a forma da conversão da moeda estrangeira para a moeda local (e o valor de conversão é fixo ou variável) e as taxas de impostos aplicadas aos custos do contrato.
 
-Entre vários aspectos do Contrato, na Seção Regras de Faturamento o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a plataforma uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair o valor da taxa PTAX referente ao dia que está informado no Contrato.
+Entre vários aspectos do Contrato, na seção Regras de Faturamento o administrador do contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para a moeda local. Pode personalizar, se para o cálculo de conversão da moeda aplica o fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a plataforma uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair o valor da taxa PTAX referente ao dia que está informado no Contrato.
 
-No Contrato o usuário seleciona e define em qual a moeda os valores de todos os Relatórios Financeiros serão apresentados.
+No Contrato o usuário seleciona e define em qual moeda os valores de todos os Relatórios Financeiros são apresentados.
 
 .. note:: |nota| Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
 
@@ -5020,9 +5022,9 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
   O termo *janela* se refere ao período que o provedor efetua a gravação dos valores dos recursos computacionais no arquivo de Bucket. O tempo médio desta janela de tempo está por volta de doze (12) horas.
 
-  Isto significa que poderão haver discrepâncias de apresentação de valores caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
+  Isto significa que pode haver discrepâncias de apresentação de valores, caso os relatórios forem consultados, antes ou depois, desta janela de processamento.
 
-.. note:: |nota| Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a plataforma uCloud não poderá ser responsabilizada em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
+.. note:: |nota| Importante ressaltar que o provedor não informa (ou deixa público) de qualquer forma, a hora inicial e hora final de sua *janela* de processamento de valores, portanto a plataforma uCloud não pode ser responsabilizada, em caso de visualização de valores que possam apresentar diferenças, mesmo que consultados dentro do mesmo dia.
 
 * **Painéis Baseados em Fatura**: Este conjunto de relatórios em tela (dashboards) apresentam o valor total de consumo dos recursos computacionais do provedor de serviço de nuvem (público /ou privado) apenas do período ao mês anterior do mês corrente. Todos os valores de consumo de recursos computacionais de nuvem (do mês anterior) serão contabilizadas e apresentados nestes relatórios.
 
@@ -5042,6 +5044,9 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 **Relatórios**
 --------------
 
+Neste fluxo a seguinte imagem é apresentada ao usuário quando se realiza o acesso ao menu Relatórios:
+
+
 .. image:: /figuras/fig_lc_ar/01_ucloud_finrel_con_limite_custo.png
    :alt: Relatórios paineis baseados em consumo e fatura 
    :scale: 80 %
@@ -5053,14 +5058,20 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 Painéis Baseados em Consumo
 ---------------------------
 
-Como mencionado, este custo se refere aos valores acumulados do consumo dos recursos computacionais no mês corrente até o dia atual ou até a última ‘janela’ de processamento dos valores pelo provedor.
+Como mencionado, este custo se refere aos valores acumulados do consumo dos recursos computacionais no mês corrente até o dia atual ou até a última ‘janela’ de processamento dos valores pelo provedor. É apresentado num conjunto de relatórios:
+
+  * Histórico de Serviço;
+  * Custo Cadenciado;
+  * Custo Relacional de Produto;
+  * Visualização de Recursos e
+  * Custos de Budgets.
 
 
 
 Relatório Histórico de Serviço
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos de cada PRODUCT NAME registrado no provedor de serviço denuvem pública. Estes custos são separados em custos com e sem etiquetas (*tags*).
+Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos de cada `PRODUCT NAME` registrado no provedor de serviço de nuvem pública. Estes custos são separados em custos com e sem etiquetas (*tags*).
 
 O recurso de etiquetas (*tag*) é a forma mais usual e a forma indicada pelo provedor de serviço de nuvem pública para que as empresas possam aplicar alguma identificação aos custos recorrentes desua infraestutura de nuvem pública. Cada provedores possuem suas  características específicas de quais serviços ou produtos **não são passíveis (não é permitido)** aplicar etiquetas (*tags*), em utras palavras não seráo todos seus serviços e produtos que podem receber uma etiqueta (*tag*).
 
