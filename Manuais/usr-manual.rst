@@ -7475,7 +7475,7 @@ O usuário pode selecionar um período e um contrato para buscar o histórico de
 No **Campo para pesquisar o contrato pretendido** são apresentados todos os contratos registrados na plataforma, de acordo com a demanda pretendida, pode-se realizar uma busca completa ao clicar na opção “Selecionar Todos” ou uma busca direcionada, basta ao usuário selecionar os contratos de seu interesse.
 
 
-.. image:: /figuras/fig_rcf/05_selecionar contrato.png
+.. image:: /figuras/fig_rcf/05_selecionar_contrato.png
    :alt: selecionar contrato
    :align: center
 ----  
@@ -7602,7 +7602,7 @@ Abaixo seguem as informações detalhadas desta tela:
 * **Botão** ``Exportar``: Este botão permite ao usuário exportar as informações de todos os contratos filtrados, em formato de tabela MS-Excel (.xlsx). A plataforma uCloud baixa o arquivo na máquina do usuário e exporta as informações com o nome “*invoices.xlsx*” no diretório/*folder* configurado nas opções do navegador que o usuário está utilizando. 
 
 
-.. image:: /figuras/fig_rcf/17_botão exportar.png
+.. image:: /figuras/fig_rcf/17_botão_exportar.png
    :alt: botão exportar
    :align: center
 ----  
