@@ -5169,7 +5169,7 @@ Abaixo segue a descrição dos campos para apresentação deste relatório:
 ----
 
 
-Dentro do HISTÓRICO DE SERVIÇO temos o quadrante "Valor Total" que apresenta o consumo da nuvem do mês selecionado nos campos de filtros.
+Dentro do HISTÓRICO DE SERVIÇO há o quadrante "Valor Total" que apresenta o consumo da nuvem do mês selecionado nos campos de filtros.
 
 Com esta informação é possível ter uma visibilidade de como o ambiente está comportando-se, desta forma, o usuário pode começar a montar uma estratégia para descobrir formas de otimização. 
 
@@ -5344,7 +5344,13 @@ Abaixo segue a descrição das colunas desta seção:
 * **Seção Top 15 Custo por Serviços**: 
 
 
-Nesta seção a plataforma uCloud apresenta a lista dos quinze (15) primeiros Serviços (*PRODUCT NAME*) do provedor de serviço de nuvem pública que acumulam os maiores valores no mês atual. A quantidade de serviços (*product name*) apresentada está diretamente relacionada com a soma total de seus valores acumulados no arquivo de *billing* e armazanados nas bases de dados internas da plataforma uCloud. Importante mencionar que mesmo que existam uma grande diversidade de outros serviços (*product name*), somente os quinze (15) que acumulam os maiores valores serão relacionados nesta seção. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+Nesta seção a plataforma uCloud apresenta a lista dos quinze (15) primeiros Serviços (*PRODUCT NAME*) do provedor de serviço de nuvem pública que acumulam os maiores valores no mês atual. 
+
+A quantidade de serviços (*product name*) apresentada está diretamente relacionada com a soma total de seus valores acumulados no arquivo de *billing* e armazenados nas bases de dados internas da plataforma uCloud. 
+
+.. important:: |importante| mencionar que mesmo que existam uma grande diversidade de outros serviços (*product name*), somente os quinze (15) que acumulam os maiores valores serão relacionados nesta seção. 
+   
+A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro003p.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
@@ -5386,7 +5392,7 @@ Esta seção, na parte inferior da tela, permite exportar relatórios no formato
    :align: center
 ----
 
-  * **Botão Exportar Relatório Δ**: 
+  * **Botão** ``Exportar Relatório Δ``: 
 
 
 Nesta opção a plataforma uCloud cria um arquivo CSV que demonstra a diferença do consumo dos ``Product Name`` e ``Family Name`` dos provedores com os dados do mês atual, comparando com o mês anterior. De posse desta informação é possível ter a visibilidade de como cada um dos serviços se comporta, podendo assim tomar ações de controle e apuração mais efetiva e direcionada focada no *PRODUCT NAME* da nuvem.
@@ -5413,9 +5419,11 @@ Nesta opção a plataforma uCloud cria um arquivo CSV que demonstra a diferença
 
 No primeiro quadrante é possível notar o período da análise, que se refere ao dia 01/07/21 ao dia 22/07/21 (data atual).
 
-Logo abaixo temos o gasto efetuado no mesmo intervalo de tempo mas referente ao mês anterior, no exemplo, referente ao mês de JUNHO (06/21) entre os dias 01 à 22. Conforme imagem abaixo. Importante mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
+Logo abaixo, há o gasto efetuado no mesmo intervalo de tempo mas referente ao mês anterior, no exemplo, referente ao mês de JUNHO (06/21) entre os dias 01 à 22. 
 
-Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês anterior) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
+.. important:: |importante| Mencionar que todas as telas dos relatórios apresentados neste documento, os valores estão sendo convertidos para Real (R$).
+
+Pode-se verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 01/06/21 até 22/06/21 (mês anterior) e 01/07/21 até 22/07/21 (mês atual) ou seja, houve uma economia de $ 49,999,73 com relação ao mês passado, conforme mostra a imagem acima.
 
 ====
 
