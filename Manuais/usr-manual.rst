@@ -5433,13 +5433,13 @@ Relatório Custo Relacional de Produto
 
 Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada ``Product Name`` e sua respectiva ``Family Name`` (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
 
-O grande benefício deste relatório é analisar a real composição de custos de um recurso (*Product Name*) em particular, com a apresentação detalhada dos valores dos seus sub-recursos (*Family Name*) distribuídos no período selecionado na preparação do relatório.
+O grande benefício deste relatório é analisar a real composição de custos de um recurso ``Product Name``  em particular, com a apresentação detalhada dos valores dos seus sub-recursos ``Family Name`` distribuídos no período selecionado na preparação do relatório.
 
-Para os ambientes de multi-nuvem, cada provedor de serviço utiliza denominações e identificações específicas depara cada provedor de serviço de nuvem pública. A plataforma uCloud facilita, de forma muito prática, a análize da composução de custos de um produto.
+Para os ambientes de multi-nuvem, cada provedor de serviço utiliza denominações e identificações específicas depara cada provedor de serviço de nuvem pública. A plataforma uCloud facilita, de forma muito prática, a análize da composição de custos de um produto.
 
-Lembre-se que a plataforma uCloud **sincroniza e unifica** a fonte de dados original do provedor de serviço de nuvem - o arquivo de billing do provedor (CSV, SQL, etc) - em suas bases de dados de forma que este relatório permite ter a mesma visão independentemente de como cada provedor de serviço de nuvem pública identifica (*nomeia*) seus produtos e os sub-produtos.
+Lembre-se que a plataforma uCloud **sincroniza e unifica** a fonte de dados original do provedor de serviço de nuvem - o arquivo de *billing* do provedor (CSV, SQL, etc) - em suas bases de dados de forma que este relatório permite ter a mesma visão independentemente de como cada provedor de serviço de nuvem pública identifica (*nomeia*) seus produtos e os sub-produtos.
 
-De regra geral, todos os provedores de serviço de nuvem pública, possuem o conceito de:
+Em regra geral, todos os provedores de serviço de nuvem pública, possuem o conceito de:
 
 * **Total da Conta do Provedor de Serviço de Nuvem Pública é**:
 
@@ -5460,15 +5460,15 @@ De regra geral, todos os provedores de serviço de nuvem pública, possuem o con
 
 ----
 
-Na figura acima (meramente ilustrativa) pode-se visualizar os custos de cada item de um *Family Name* composto por valor do `Product Name` e a somatória destes custos, totalizando o valor do período consultado (diário, semanal, mensal).
+Na figura acima (meramente ilustrativa) pode-se visualizar os custos de cada item de um ``Family Name`` composto por valor do ``Product Name`` e a somatória destes custos, totaliza o valor do período consultado (diário, semanal, mensal).
 
-Este relatório permite ao usuário analizar os custos individuais de cada *Family Name* de apenas um *Product Name* por vez.
+Este relatório permite ao usuário analizar os custos individuais de cada ``Family Name`` de apenas um ``Product Name`` por vez.
 
-Neste relatório, é posível acompanhar a evolução do consumo de um *Family Name* dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
+Neste relatório, é posível acompanhar a evolução do consumo de um ``Family Name`` dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
 
-Ao selecionar a opção do menu CUSTO RELACIONAL DE PRODUTO solicita-se a escolha de um CONTRATO, tipo de INTERVALO, PERÍODO, NUVEM (*Container*) e *Linked-Account (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada, conforme apresentado nas imagens abaixo.
+Ao selecionar a opção do menu ``Custo relacional de produto`` solicita-se a escolha de um ``Contrato``, tipo de ``Intervalo``, ``Período``, ``Nuvem`` (*Container*) e ``Linked-Account`` (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada, conforme apresentado nas imagens abaixo.
 
-Quando selecionado este relatório, a Plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
+Quando selecionado este relatório, a plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Histórico de Serviço
@@ -5490,11 +5490,12 @@ Na sequência a descrição dos campos apresentados na figura:
 
 * **Contrato**: Este campo se apresenta preenchido com o contrato informado na tela anterior, e o relatório será apresentado somente com as informações financeiras referentes a este contrato.
 
-* **Botão Lupa** |icone_lupa|:  Se a credencial do usuário, que está com uma sessão ativa (*login*) está associado a mais de um contrato, este usuário poderá consultar outro contrato. Para isto deve clicar com o cursor do mouse sobre o ícone da *lupa* para plataforma uCloud apresentar a tela para informar o nome de outro contrato para emissão do relatório.
+* **Botão Lupa** |icone_lupa|:  Se a credencial do usuário, que está com uma sessão ativa (*login*) está associado a mais de um contrato, este usuário poderá consultar outro contrato. 
+     Para isto deve clicar com o cursor do mouse sobre o ícone da *lupa* para plataforma uCloud apresentar a tela para informar o nome de outro contrato para emissão do relatório.
 
-* **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando fazemos uma análise comparando mensalmente o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a plataforma uCloud apresenta as opções:
+* **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando se faz uma análise comparativa mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a plataforma uCloud apresenta as opções:
   
-  * **MENSAL**: Quando selecionada a análise mensal o cliente poderá entender como a sua fatura evolui ao longo do tempo de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo iremos selecionar o campo PERÍODO então MENSAL, dessa forma o calendário com os meses ficará disponível para seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, selecionamos os últimos 3 meses, conforme imagem abaixo.
+  * **MENSAL**: Ao selecionar a análise mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo é selecionado o campo ``Período`` então ``Mensal``, desta forma o calendário com os meses torna-se disponível para a seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, os últimos 3 meses são selecionados, conforme imagem abaixo.
 
 .. image:: /figuras/ucloud_menu_financeiro002c.png
    :alt: Virtual Datacenter - Exemplo
@@ -5503,7 +5504,7 @@ Na sequência a descrição dos campos apresentados na figura:
 
 ----
 
-  * **SEMANAL**: Este filtro permite ter uma visão mais granular do consumo, podendo entender e identificar picos de consumos em semanas aos longos dos meses. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinada semana e não em outra. Importante ressaltar que no presente momento a plataforma do uCloud trabalha apenas com o conceito de semanas fechadas do mês (domingo a sábado), e estas semanas são numeradas sequencialmente de 1 a 52 e apresentadas ao lado esquerdo do calendário apresentado. O campo PERÍODO irá mostrar o calendário SEMANAL. Conforme imagem abaixo:
+  * **SEMANAL**: Este filtro permite ter uma visão mais granular do consumo, podendo entender e identificar picos de consumos em semanas aos longos dos meses. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinada semana e não em outra. Importante ressaltar que no presente momento a plataforma do uCloud trabalha apenas com o conceito de semanas fechadas do mês (domingo a sábado), e estas semanas são numeradas sequencialmente de 1 a 52 e apresentadas ao lado esquerdo do calendário apresentado. O campo ``Período`` mostra o calendário ``Semanal``. Conforme imagem abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro002d.png
    :alt: Virtual Datacenter - Exemplo
@@ -5512,7 +5513,7 @@ Na sequência a descrição dos campos apresentados na figura:
 
 ----
 
-  * **DIÁRIO**: Este filtro permite ter uma visão na menor granularidade de período possível. Com esta granularidade será possível entender e identificar picos de consumos ao longo dos dias. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinado dia e não em outro. O campo PERÍODO irá mostrar o calendário DIÁRIO. Conforme imagem abaixo:
+  * **DIÁRIO**: Este filtro permite ter uma visão na menor granularidade de período possível. Com esta granularidade é possível entender e identificar picos de consumos ao longo dos dias. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinado dia e não em outro. O campo ``Período`` mostra o calendário ``Diário``. Conforme imagem abaixo:
 
 .. image:: /figuras/ucloud_menu_financeiro002e.png
    :alt: Virtual Datacenter - Exemplo
