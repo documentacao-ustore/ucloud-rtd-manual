@@ -7416,8 +7416,230 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 .. * **Itens não gerenciados**:
 
 
-Relatório Consolidado de Faturamento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Relatório Consolidado de Faturamento (RCF)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Esta opção de submenu permite ao usuário consultar relatórios de consumo, que possibilitam uma governança de custos de recursos computacionais de nuvem, de forma muito granular e com apresentação dos valores em Unidade de Serviço de Nuvem (USN). 
+
+
+Acessando o RCF
+~~~~~~~~~~~~~~~
+
+Para acessar o relatório, o usuário deve clicar em “Financeiro”, localizado no menu de funcionalidades no lado esquerdo da tela, e logo após clicar em “Relatórios”.
+Quando o usuário  seleciona esta opção, a plataforma do uCloud apresenta a seguinte tela:
+
+
+.. image:: /figuras/fig_rcf/01_menu_financeiro.png
+   :alt: menu financeiro
+   :align: center
+----  
+
+
+Conforme o exemplo acima, percebe-se que o menu financeiro está dividido em dois grupos: "Painéis Baseados em Consumo" e "Painéis Baseados em Fatura”, o Relatório Consolidado de Faturamento localiza-se dentro do segundo grupo.
+
+.. image:: /figuras/fig_rcf/02_paineis_baseado_fatura.png
+   :alt: paineis baseados em fatura
+   :align: center
+----  
+
+
+Ao clicar no botão correspondente, a plataforma uCloud apresenta a seguinte tela: 
+
+.. image:: /figuras/fig_rcf/03_tela_inicial.png
+   :alt: tela inicial
+   :align: center
+----
+
+
+
+
+
+Selecionando o RCF
+~~~~~~~~~~~~~~~~~~
+
+O usuário pode selecionar um período e um contrato para buscar o histórico de fatura, ao clicar no **Campo para inserção da data**, a plataforma uCloud entrega uma tela com o calendário, para que se possa selecionar o período desejado (neste é possível percorrer meses e anos passados), depois de selecionada a data, os botões disponíveis ao usuário são: ``Cancelar`` e ``Aplicar``:
+
+
+* Botão ``Cancelar``: Pode ser utilizado pelo usuário, caso queira desistir da seleção.
+* Botão ``Aplicar``: Deve ser pressionado após selecionar o período da pesquisa. 
+
+
+.. image:: /figuras/fig_rcf/04_calendário.png
+   :alt: selecionar data no calendário
+   :align: center
+----
+
+
+ 
+No **Campo para pesquisar o contrato pretendido** são apresentados todos os contratos registrados na plataforma, de acordo com a demanda pretendida, pode-se realizar uma busca completa ao clicar na opção “Selecionar Todos” ou uma busca direcionada, basta ao usuário selecionar os contratos de seu interesse.
+
+
+.. image:: /figuras/fig_rcf/05_selecionar contrato.png
+   :alt: selecionar contrato
+   :align: center
+----  
+ 
+
+
+O Relatório Consolidado de Faturamento disponibiliza 05 tipos de filtros, que podem ser utilizados pelo usuário na realização desta pesquisa, estes são: ID da Proposta, CR, Número de Contrato, Número OC e Produto. 
+
+
+.. image:: /figuras/fig_rcf/06_filtros_de_pesquisa.png
+   :alt: filtros de pesquisa
+   :align: center
+----
+
+
+Os filtros escolhidos pelo usuário permanecem preenchidos na cor “laranja”, caso nenhum filtro seja selecionado, as opções apresentam-se sem marcação. No exemplo abaixo os filtros ID da Proposta e Número do Contrato foram escolhidos pelo usuário.
+
+
+.. image:: /figuras/fig_rcf/07_filtros_marcados.png
+   :alt: filtros marcados
+   :align: center
+----
+
+
+
+Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-se clicar no botão ``Pesquisar``. Caso o usuário deseje refazer a busca, basta clicar no botão ``Voltar`` e reiniciar todo o processo. 
+
+
+.. image:: /figuras/fig_rcf/08_pesquisar_apos_selecao.png
+   :alt: pesquisar após selecionar
+   :align: center
+----
+
+
+.. attention:: |atencao| No canto superior direito da tela acima, localizam-se as opções de abrir e fechar fatura, elas permitem ao usuário determinar ambas ações no período desejado, sobre todos os contratos existentes que podem ser pesquisados, individualmente ou em alguns conjuntos específicos.
+
+.. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
+   :alt: abrir todas faturas
+   :align: center
+----
+
+
+
+Ao habilitar a abertura da fatura, a seguinte tela é apresentada ao usuário.
+
+.. image:: /figuras/fig_rcf/10_abrir_fatura.png
+   :alt: abrir fatura
+   :align: center
+----  
+
+Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão ``Abrir Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
+
+Ao habilitar o fechamento da fatura, o modal é apresentado ao usuário.
+
+.. image:: /figuras/fig_rcf/11_fechar_fatura.png
+   :alt: fechar fatura
+   :align: center
+----  
+
+
+
+Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão ``Fechar Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
+Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos acima detalhados.
+
+
+Acompanhando a pesquisa do RCF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Ao clicar em pesquisar, o usuário deve aguardar a plataforma uCloud buscar as informações solicitadas, a referida ação pode levar alguns minutos conforme exemplo a seguir.
+
+.. image:: /figuras/fig_rcf/12_aguardar_pesquisa.png
+   :alt: aguardar pesquisa
+   :align: center
+----  
+
+
+
+Realizada a busca, caso não existam informações referentes às seleções dos filtros, a plataforma uCloud informa que não existe histórico de faturamento para o contrato no período informado.
+
+.. image:: /figuras/fig_rcf/13_historico_inexistente.png
+   :alt: histórico inexistente
+   :align: center
+----  
+
+
+Na existência de informações, a plataforma uCloud evolui para dois tipos de cenário:
+
+1. Na evolução da filtragem e pesquisa dos dados, o número e o nome dos contratos existentes que apresentarem falha na busca dos valores são exibidos no lado esquerdo da tela e aparecem em vermelho (conforme exemplo):
+
+.. image:: /figuras/fig_rcf/14_evoluir_filtragem.png
+   :alt: evoluir filtragem
+   :align: center
+----  
+
+.. attention:: |atencao| Usuário, se isto ocorrer na sua pesquisa, por favor entre em contato com o suporte da plataforma uCloud.
+
+
+2. Seguindo o fluxo da pesquisa dos dados, os contratos encontrados são listados.
+  
+.. image:: /figuras/fig_rcf/15_pesquisa_contrato.png
+   :alt: pesquisa contrato
+   :align: center
+----  
+
+
+
+Listando os contratos no RCF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela exibe o nome dos referidos contratos, seus períodos de consumo, o mês de faturamento, data de fechamento, seus status (Fechada ou Aberta), preço, custo em USN, e uma coluna de ações que apresenta 04 botões: Ver detalhes, Baixar, Abrir e Fechar Fatura. 
+
+
+.. image:: /figuras/fig_rcf/16_listando_contratos.png
+   :alt: listando contrato
+   :align: center
+----  
+
+
+
+Abaixo seguem as informações detalhadas desta tela:
+
+* **Total**: Valor total do faturamento dos contratos pesquisados. A plataforma uCloud automaticamente converte os valores de USN para Real (R$), o que permite ao usuário avaliar o valor na moeda corrente.
+* **Botão** ``Exportar``: Este botão permite ao usuário exportar as informações de todos os contratos filtrados, em formato de tabela MS-Excel (.xlsx). A plataforma uCloud baixa o arquivo na máquina do usuário e exporta as informações com o nome “*invoices.xlsx*” no diretório/*folder* configurado nas opções do navegador que o usuário está utilizando. 
+
+
+.. image:: /figuras/fig_rcf/17_botão exportar.png
+   :alt: botão exportar
+   :align: center
+----  
+
+
+
+Neste fluxo são detalhadas as colunas da tela listando contratos:
+
+
+* **Contrato**: Apresenta o(s) nome(s) do(s) contrato(s) filtrados na pesquisa.
+* **Período de Consumo**: Apresenta a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
+* **Mês de Faturamento**: Apresenta o mês no qual a fatura vence e deve ter o seu pagamento efetuado. Este é sempre o mês seguinte ao do período de consumo. 
+* **Data de Fechamento**: Esta coluna informa ao usuário se a fatura está aberta ou fechada. Para os contratos que apresentam o status “Aberta”, é exibido o ícone "tooltip" ,pedindo a atenção do leitor para a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto” (exemplo seguinte). Já os contratos que exibem o status “Fechada”, apresentam a data e o horário de fechamento da fatura.
+
+
+.. image:: /figuras/fig_rcf/18_detalhando_colunas.png
+   :alt: detalhando colunas
+   :align: center
+----
+
+
+
+
+* **Status**: Apresenta o estado da fatura, existem dois tipos: Aberta ou Fechada.
+* **Preço**: Apresenta o valor total da fatura do mês, pode ser apresentado em Real ou Dólar, de acordo com a política do contrato. Neste exemplo, o valor está expresso na moeda corrente brasileira (Real - R$).
+* **Custo em USN**: Apresenta o valor total da fatura do mês, expresso em Unidade de Serviço de Nuvem (USN).
+
+
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. A USN visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. 
+
+
+.. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
+
+
+.. Detalhando as ações do RCF 
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
 .. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
