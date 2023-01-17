@@ -5790,11 +5790,7 @@ Existem três quadros neste relatório com as informações de inteligência de 
 
 * **Gráfico Consumo por tipo de armazenamento**: Este quadro apresenta um gráfico (tipo pizza) que reflete a proporção de área de armazenamento, referente a lista dos nomes de áreas de armazenamento no quadro **Storage**. Quando o usuário passa o mouse sobre qualquer uma das áreas do gráfico, a plataforma uCloud apresenta uma janela *pop-up* com a(s) informação(ões) de cada nome da área de armazenamento.
 
-====
-
-
-====
-
+----
 
 
 
@@ -5909,9 +5905,7 @@ Este relatório baseado em consumo, além de definir um orçamento total, permit
 .. _budget: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#budget  
 
 
-====
-
-====
+----
 
 
 
@@ -5936,6 +5930,7 @@ Neste documento, são gerados diferentes tipos de índices, podendo ser tabelas,
 
 Além disso, o **Relatório de Monitoramento de Consumo (v1)**, nomeado de forma resumida como **RMC.v1**, compara os gastos do mês atual com o do mês anterior, proporcionando à empresa as informações necessárias para que se possa avaliar o desembolso e ter um controle eficiente das possíveis quedas ou aumento do consumo. 
 
+----
 
 
 Acessando o RMC.v1
@@ -5989,7 +5984,7 @@ Ele agrupa sete tipos de relatórios, um deles é o **Relatório de Monitorament
 Clicando nesta opção, o usuário pode gerar o documento desejado.
 
 
-
+----
 
 Criando o RMC.v1
 ~~~~~~~~~~~~~~~~
@@ -6078,6 +6073,7 @@ No caso da inexistência de dados os relatórios se tornam indisponíveis para o
 
 Quando existe dado a ser publicado no período selecionado pelo usuário, a plataforma informa que o relatório está em processo de compilação dos dados. 
 
+----
 
 Acompanhando o *status* no menu Tarefas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -6117,6 +6113,7 @@ Em seguida, ele deve aguardar a atualização do “Status” que pode ser: Roda
 Após o êxito no processo de criar o novo relatório, os dados foram compilados na plataforma uCloud. 
 
 
+----
 
 
 Habilitando o *download* do RMC.v1
@@ -6158,7 +6155,7 @@ O usuário deve checar a mensagem que a plataforma apresenta: “Relatório gera
 
 Na finalização desta sequência de atividades, para executar o descarregamento do arquivo RMC.v1 desejado, o usuário deve clicar no botão [*DOWNLOAD*].
 
-
+----
 
 
 Visualizando o RMC.v1
@@ -6341,7 +6338,7 @@ O exemplo da tabela abaixo detalha os custos da nuvem, seus contratos, e totaliz
 .. note:: |nota| Observar que em caso de mais de uma nuvem, o relatório segue o mesmo padrão de apresentação e informações.
 
 
-**3 - Maiores Variações Nesta Fatura**
+**3 - Maiores Variações nesta Fatura**
 
 
 Nas “Maiores Variações Nesta Fatura” são apresentadas em uma tabela, todas as variações dos contratos do mês de cada provedor específico, comparando o valor do mês anterior com o valor do mês corrente, demonstrando a variação do seu valor total em porcentagem, sendo assim, essa parte do documento é uma complementação da “Fatura por Contrato/Projeto”.
@@ -6404,9 +6401,6 @@ Além do mais, o contrato com maior valor de variação é evidenciado, e aprese
 
 
 
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/24_Mudanca_Azure.png 
    :alt: Mudança azure
    :align: center 
@@ -6452,8 +6446,6 @@ Em seguida, são publicados de maneira mais detalhada o resumo de quanto cada pr
 
 
 
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/26_Detalhamento_lista.png 
    :alt: Detalhamento lista
    :align: center 
@@ -6482,9 +6474,7 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 
 
 
-====
-
-====
+----
 
 
 
@@ -7183,9 +7173,6 @@ Após o usuário executar um limite de custo já salvo, é exibida uma nova opç
 ----
 
 
-====
-
-
 
 Painéis Baseados em Fatura
 --------------------------
@@ -7239,7 +7226,7 @@ Quando o usuário clicar com o cursor do mouse sobre o botão **Minha Fatura** a
 
 .. image:: /figuras/ucloud_menu_financeiro010a.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 600 %
    :align: center
 ----
 
@@ -7292,6 +7279,8 @@ Por padrão a plataforma uCloud apresenta os três primeiros quadros:
 Financeiro
 ~~~~~~~~~~
 
+Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura". Desta forma, a plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado).
+
 .. image:: /figuras/painel_fatura/menu.png
    :alt: paineis baseados em fatura
    :scale: 80 %
@@ -7300,7 +7289,7 @@ Financeiro
 ----
 
 
-Este relatório financeiro faz parte dos "Relatórios Baseados em Fatura". Desta forma, a plataforma uCloud restringe a apresentação das informações financeiras em períodos mensais e de meses anteriores ao mês corrente (meses com faturamento fechado). Caso o usuário deseje consultar os valores do mês corrente e a data atual, se não estiver data próxima ao fechamento a plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
+ Caso o usuário deseje consultar os valores do mês corrente e a data atual, se não estiver data próxima ao fechamento a plataforma uCloud apresenta uma mensagem em tela para informar ao usuário que os valores apresentados incluem faturas ainda não fechadas, e não podem ser consideradas válidas até o fechamento das mesmas.
 
 .. note:: Importante mencionar que este botão está visível apenas para usuários com perfil de Administrador de Contrato, ou de Grupo, pois estes possuem a permissão de visualizar os valores e totais do Contrato. Para o perfil de *Usuários do Sistema*, este botão permanece oculto, não é apresentado na interface da plataforma uCloud.
 
@@ -7334,7 +7323,7 @@ Quando o usuário Administrador de Contrato clica com o cursor do mouse sobre o 
 
 .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -7342,7 +7331,7 @@ A plataforma uCloud permite visualizar os dados financeiros de apenas um único 
 
 .. image:: /figuras/ucloud_menu_financeiro013a.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -7352,7 +7341,7 @@ Na sequência, a descrição de como interpretar os campos e botões iniciais.
 
 .. image:: /figuras/ucloud_menu_financeiro013f.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
-   :scale: 50 %
+   :scale: 70 %
    :align: center
 ----
 
@@ -7388,7 +7377,7 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 
 .. image:: /figuras/ucloud_menu_financeiro013a.png
    :alt: Menu Financeiro - Relatorio Financeiro de um Contrato
-   :scale: 80 %
+   :scale: 60 %
    :align: center
 ----
 
@@ -7400,7 +7389,6 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 
 ----
 
-----
 
 .. valor apresentado abaixo, associado a fatura do mês 8, de R $58.619,01 é referente ao consumo dos dias 01/07/21 até 31/07/21. Portanto, o custo acima é referente a FATURA à ser paga no mês de 08 (agosto) seguindo as regras de faturamento cadastradas no CONTRATO, conforme imagem abaixo.
 
@@ -7438,12 +7426,10 @@ Relatório Consolidado de Faturamento
 .. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
-====
-
-====
+----
 
 
-Tendência de faturamento
+Tendência de Faturamento
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
@@ -7545,12 +7531,6 @@ Logo, a plataforma uCloud apresenta o modal acima informando que está gerando o
 ====
 
 ====
-
-.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
 
 **Utilitários**
