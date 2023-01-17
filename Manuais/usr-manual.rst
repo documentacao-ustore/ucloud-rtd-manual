@@ -5071,7 +5071,7 @@ Como mencionado, este custo se refere aos valores acumulados do consumo dos recu
   * Visualização de Recursos e
   * Custos de Budgets.
 
-====
+----
 
 
 Relatório Histórico de Serviço
@@ -5423,7 +5423,7 @@ Podemos verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 0
 Relatório Custo Relacional de Produto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada PRODUCT NAME e sua respectiva FAMILY NAME (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
+Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada ``Product Name`` e sua respectiva ``Family Name`` (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
 
 O grande benefício deste relatório é analisar a real composição de custos de um recurso (*Product Name*) em particular, com a apresentação detalhada dos valores dos seus sub-recursos (*Family Name*) distribuídos no período selecionado na preparação do relatório.
 
