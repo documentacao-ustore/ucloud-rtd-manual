@@ -5549,11 +5549,12 @@ Na sequência a descrição dos campos apresentados na figura:
 
 ----
 
-Abaixo descrevemos os quadros deste relatório:
+A seguir a descrição dos quadros deste relatório:
 
-* **Seção Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a Platafrma uCloud apresenta o gráfico de barras ao lado confirme as opçõe abaixo:
+* **Seção Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a platafrma uCloud apresenta o gráfico de barras ao lado confirme as opções abaixo:
 
-  * **Selecione todas as Linkeds**: Esta é a opção padrão de apresentação deste relatório, e a Plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+  * **Selecione todas as Linkeds**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
+       Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro012d.png
    :alt: Menu Financeiro - Histórico de Serviço
@@ -5562,7 +5563,8 @@ Abaixo descrevemos os quadros deste relatório:
 
 ----
 
-  * **Selecionar SOMENTE UMA LINKED**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico. Importante mencionar que as linkeds desativadas não possuem dados no intervalo de tempo selecionado, e podem apresentar valor ZERO (0). A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+  * **Selecionar SOMENTE UMA LINKED**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
+       Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico e que as linkeds desativadas não possuem dados no intervalo de tempo selecionado, e podem apresentar valor ZERO (0). A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
 .. image:: /figuras/ucloud_menu_financeiro012e.png
    :alt: Menu Financeiro - Histórico de Serviço
@@ -5573,9 +5575,11 @@ Abaixo descrevemos os quadros deste relatório:
 
 A última parte deste relatório a plataforma uCloud apresenta a lista com as informações e valores que foram utilizados para a geração do gráfico acima. Esta listagem possui as seguintes colunas:
 
-* **Linkeds**: Esta primeira coluna apresenta a lista de todas as *Linked Accounts*, que foram selecionadas no campo de filtragem *Linked Account* acima, e somente quando o usuário seleciona a opção **Selecione todas as Linkeds** no quadro anterior. Importante mencionar que esta coluna pode alternar para apresentar as **datas** do período selecionado. Como resultado desta seleção, a listagem da cluna *Família de Produto* apresenta a somatória de todas as incidências desta Família de Produto no período selecionado.
+* **Linkeds**: Esta primeira coluna apresenta a lista de todas as *Linked Accounts*, que foram selecionadas no campo de filtragem *Linked Account* acima, e somente quando o usuário seleciona a opção **Selecione todas as Linkeds** no quadro anterior. 
+     Importante mencionar que esta coluna pode alternar para apresentar as **datas** do período selecionado. Como resultado desta seleção, a listagem da cluna *Família de Produto* apresenta a somatória de todas as incidências desta Família de Produto no período selecionado.
 
-* **Datas**: Esta primeira coluna apresenta a lista de todas as *Datas*, que foram selecionadas no campo de filtragem *Período* acima, e somente quando o usuário seleciona a opção **SOMENTE UMA LINKED** no quadro anterior. Importante mencionar que esta coluna pode alternar para apresentar as **Linked Accounts** do período selecionado. Se a seleção do campo período incluir uma ampla sequencia de datas, a plataforma uCloud apresenta as datas de forma cronológica ascendente.
+* **Datas**: Esta primeira coluna apresenta a lista de todas as *Datas*, que foram selecionadas no campo de filtragem *Período* acima, e somente quando o usuário seleciona a opção **SOMENTE UMA LINKED** no quadro anterior. 
+     Importante mencionar que esta coluna pode alternar para apresentar as **Linked Accounts** do período selecionado. Se a seleção do campo período incluir uma ampla sequencia de datas, a plataforma uCloud apresenta as datas de forma cronológica ascendente.
 
 * **Nome do produto**: Nesta coluna a plataforma uCloud apresenta somente o *Nome do Produto* que foi selecionado no campo de filtragem *Produto* acima.
 
@@ -5586,6 +5590,8 @@ A última parte deste relatório a plataforma uCloud apresenta a lista com as in
   #. Caso o usuário tenha selecionado **SOMENTE UMA LINKED** na seção anterior, a plataforma uCloud pode apresentar diversas linhas com a mesma incidência da *Família de Produto*, e os seus respectivos valores em cada data relacionada na primeira coluna (*Datas*).
 
 * **Valor**: Nesta coluna a plataforma uCloud apresenta a somatória dos custos referente ao período selecionado.
+
+----
 
 * **Resumo do Relatório Custo Relacional de Produto**
 
