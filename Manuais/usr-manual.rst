@@ -7415,7 +7415,7 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 
 
 Relatório Consolidado de Faturamento (RCF)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 
 Esta opção de submenu permite ao usuário consultar relatórios de consumo, que possibilitam uma governança de custos de recursos computacionais de nuvem, de forma muito granular e com apresentação dos valores em Unidade de Serviço de Nuvem (USN). 
@@ -7650,7 +7650,7 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 
 
 Tendência de Faturamento
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
 
