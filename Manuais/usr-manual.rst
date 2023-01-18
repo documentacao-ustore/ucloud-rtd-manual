@@ -7609,6 +7609,7 @@ Abaixo seguem as informações detalhadas desta tela:
 
 Neste fluxo são detalhadas as colunas da tela listando contratos:
 
+.. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
 
 * **Contrato**: Apresenta o(s) nome(s) do(s) contrato(s) filtrados na pesquisa.
 * **Período de Consumo**: Apresenta a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
@@ -7632,7 +7633,6 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 .. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
 
 
-.. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
 
 
 .. Detalhando as ações do RCF 
