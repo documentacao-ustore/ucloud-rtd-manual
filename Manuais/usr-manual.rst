@@ -7584,7 +7584,7 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
 Listando os contratos no RCF
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela exibe o nome dos referidos contratos, seus períodos de consumo, o mês de faturamento, data de fechamento, seus status (Fechada ou Aberta), preço, custo em USN, e uma coluna de ações que apresenta 04 botões: Ver detalhes, Baixar, Abrir e Fechar Fatura. 
+Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela mostra o nome dos referidos contratos, seus períodos de consumo, o mês de faturamento, data de fechamento, seus status (Fechada ou Aberta), preço, custo em USN, e uma coluna de ações que apresenta 04 botões: Ver detalhes, Baixar, Abrir e Fechar Fatura. 
 
 
 .. image:: /figuras/fig_rcf/16_listando_contratos.png
