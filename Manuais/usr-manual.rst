@@ -7535,7 +7535,8 @@ Ao habilitar o fechamento da fatura, o modal é apresentado ao usuário.
 
 
 
-Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão ``Fechar Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
+Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão 
+``Fechar Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
 Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos acima detalhados.
 
 
@@ -7584,7 +7585,22 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
 Listando os contratos no RCF
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela mostra o nome dos referidos contratos, seus períodos de consumo, o mês de faturamento, data de fechamento, seus status (Fechada ou Aberta), preço, custo em USN, e uma coluna de ações que apresenta 04 botões: Ver detalhes, Baixar, Abrir e Fechar Fatura. 
+Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela mostra oito colunas:
+  * o nome dos referidos contratos;
+  * seus períodos de consumo;
+  * o mês de faturamento;
+  * data de fechamento; 
+  * seu *status* (Fechada ou Aberta);
+  * preço; 
+  * custo em USN e 
+  * Ações que inclui 04 botões: 
+     * Ver detalhes 
+     * Baixar 
+     * Abrir e 
+     * Fechar Fatura. 
+
+
+Caso a lista de contratos seja muito extensa, a funcionalidade barra de rolagem permite ao usuário navegar em toda a extensão da tela, para cima e para baixo. 
 
 
 .. image:: /figuras/fig_rcf/16_listando_contratos.png
@@ -7612,9 +7628,9 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 .. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
 
 * **Contrato**: Apresenta o(s) nome(s) do(s) contrato(s) filtrados na pesquisa.
-* **Período de Consumo**: Apresenta a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
-* **Mês de Faturamento**: Apresenta o mês no qual a fatura vence e deve ter o seu pagamento efetuado. Este é sempre o mês seguinte ao do período de consumo. 
-* **Data de Fechamento**: Esta coluna informa ao usuário se a fatura está aberta ou fechada. Para os contratos que apresentam o status “Aberta”, é exibido o ícone "tooltip" ,pedindo a atenção do leitor para a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto” (exemplo seguinte). Já os contratos que exibem o status “Fechada”, apresentam a data e o horário de fechamento da fatura.
+* **Período de Consumo**: Mostra a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
+* **Mês de Faturamento**: Exibe o mês no qual a fatura vence e deve ter o seu pagamento efetuado. Este é sempre o mês seguinte ao do período de consumo. 
+* **Data de Fechamento**: Esta coluna informa ao usuário se a fatura está aberta ou fechada. Para os contratos que apresentam o status “Aberta”, é exibido o ícone "tooltip" ,pedindo a atenção do leitor para a mensagem: *“A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”* (exemplo seguinte). Já os contratos que exibem o status “Fechada”, apresentam a data e o horário de fechamento da fatura.
 
 
 .. image:: /figuras/fig_rcf/18_detalhando_colunas.png
@@ -7626,8 +7642,8 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 
 
 * **Status**: Apresenta o estado da fatura, existem dois tipos: Aberta ou Fechada.
-* **Preço**: Apresenta o valor total da fatura do mês, pode ser apresentado em Real ou Dólar, de acordo com a política do contrato. Neste exemplo, o valor está expresso na moeda corrente brasileira (Real - R$).
-* **Custo em USN**: Apresenta o valor total da fatura do mês, expresso em Unidade de Serviço de Nuvem (USN).
+* **Preço**: Mostra o valor total da fatura do mês, pode ser apresentado em Real ou Dólar, de acordo com a política do contrato. Neste exemplo, o valor está expresso na moeda corrente brasileira (Real - R$).
+* **Custo em USN**: Exibe o valor total da fatura do mês, expresso em Unidade de Serviço de Nuvem (USN).
 
 
 .. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
