@@ -6213,9 +6213,7 @@ No Resumo Executivo apresenta-se um texto explicativo, descrevendo a variação 
 Logo após o resumo executivo, há o Histórico de Faturamento, que apresenta uma tabela com o período selecionado pelo usuário, na qual é exibido o valor da nuvem desejada em Reais (R$) e Unidade de Serviço de Nuvem (USN), e a taxa de variação em porcentagem do mês anterior e também do mês atual. 
 
 
-.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. 
-
-.. important:: A USN visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. 
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem.  
 
 .. note:: |nota| A métrica USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
@@ -7631,7 +7629,7 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 * **Custo em USN**: Apresenta o valor total da fatura do mês, expresso em Unidade de Serviço de Nuvem (USN).
 
 
-.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços em nuvem, designada às empresas que estejam associadas às esferas governamentais. A USN visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica a ser cobrada pelos serviços de computação em nuvem. 
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
 
 
 .. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
