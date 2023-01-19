@@ -7420,11 +7420,15 @@ Relatório Consolidado de Faturamento (RCF)
 
 Esta opção de submenu permite ao usuário consultar relatórios de consumo, que possibilitam uma governança de custos de recursos computacionais de nuvem, de forma muito granular e com apresentação dos valores em Unidade de Serviço de Nuvem (USN). 
 
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
+
 
 Acessando o RCF
 ~~~~~~~~~~~~~~~
 
 Para acessar o relatório, o usuário deve clicar em “Financeiro”, localizado no menu de funcionalidades no lado esquerdo da tela, e logo após clicar em “Relatórios”.
+
+
 Quando o usuário  seleciona esta opção, a plataforma do uCloud apresenta a seguinte tela:
 
 
@@ -7456,7 +7460,7 @@ Ao clicar no botão correspondente, a plataforma uCloud apresenta a seguinte tel
 Selecionando o RCF
 ~~~~~~~~~~~~~~~~~~
 
-O usuário pode selecionar um período e um contrato para buscar o histórico de fatura, ao clicar no **Campo para inserção da data**, a plataforma uCloud entrega uma tela com o calendário, para que se possa selecionar o período desejado (neste é possível percorrer meses e anos passados), depois de selecionada a data, os botões disponíveis ao usuário são: ``Cancelar`` e ``Aplicar``:
+O usuário pode selecionar um período e um contrato para buscar o histórico de fatura, ao clicar no campo para **inserção da data**, a plataforma uCloud entrega uma tela com o calendário, para que se possa selecionar o período desejado (neste é possível percorrer meses e anos passados), depois de selecionada a data, os botões disponíveis ao usuário são: ``Cancelar`` e ``Aplicar``:
 
 
 * Botão ``Cancelar``: Pode ser utilizado pelo usuário, caso queira desistir da seleção.
@@ -7470,7 +7474,7 @@ O usuário pode selecionar um período e um contrato para buscar o histórico de
 
 
  
-No **Campo para pesquisar o contrato pretendido** são apresentados todos os contratos registrados na plataforma, de acordo com a demanda pretendida, pode-se realizar uma busca completa ao clicar na opção “Selecionar Todos” ou uma busca direcionada, basta ao usuário selecionar os contratos de seu interesse.
+No campo para pesquisar o contrato pretendido são apresentados todos os contratos registrados na plataforma. De acordo com a demanda pretendida, pode-se realizar uma busca completa ao clicar na opção ``Selecionar Todos`` ou uma busca direcionada, basta o usuário selecionar os contratos do seu interesse.
 
 
 .. image:: /figuras/fig_rcf/05_selecionar_contrato.png
@@ -7480,7 +7484,13 @@ No **Campo para pesquisar o contrato pretendido** são apresentados todos os con
  
 
 
-O Relatório Consolidado de Faturamento disponibiliza 05 tipos de filtros, que podem ser utilizados pelo usuário na realização desta pesquisa, estes são: ID da Proposta, CR, Número de Contrato, Número OC e Produto. 
+O Relatório Consolidado de Faturamento disponibiliza 5 tipos de filtros, que podem ser utilizados pelo usuário, estes são: 
+
+  1. ID da Proposta 
+  2. CR 
+  3. Número de Contrato 
+  4. Número OC 
+  5. Produto. 
 
 
 .. image:: /figuras/fig_rcf/06_filtros_de_pesquisa.png
@@ -7489,7 +7499,7 @@ O Relatório Consolidado de Faturamento disponibiliza 05 tipos de filtros, que p
 ----
 
 
-Os filtros escolhidos pelo usuário permanecem preenchidos na cor “laranja”, caso nenhum filtro seja selecionado, as opções apresentam-se sem marcação. No exemplo abaixo os filtros ID da Proposta e Número do Contrato foram escolhidos pelo usuário.
+Os filtros escolhidos pelo usuário permanecem preenchidos na cor “laranja”, caso nenhum filtro seja selecionado, as opções apresentam-se sem marcação. No exemplo abaixo os filtros *ID da Proposta* e *Número do Contrato* foram optados pelo usuário.
 
 
 .. image:: /figuras/fig_rcf/07_filtros_marcados.png
@@ -7508,7 +7518,7 @@ Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-
 ----
 
 
-.. attention:: |atencao| No canto superior direito da tela acima, localizam-se as opções de abrir e fechar fatura, elas permitem ao usuário determinar ambas ações no período desejado, sobre todos os contratos existentes que podem ser pesquisados, individualmente ou em alguns conjuntos específicos.
+.. attention:: |atencao| No canto superior direito estão os ícones das opções de abrir e fechar faturas, elas permitem ao usuário determinar ambas ações no período desejado, sobre todos os contratos existentes que podem ser pesquisados, individualmente ou em alguns conjuntos específicos.
 
 .. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
    :alt: abrir todas faturas
@@ -7517,7 +7527,7 @@ Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-
 
 
 
-Ao habilitar a abertura da fatura, a seguinte tela é apresentada ao usuário.
+Ao habilitar a abertura da fatura, o modal é apresentado:
 
 .. image:: /figuras/fig_rcf/10_abrir_fatura.png
    :alt: abrir fatura
@@ -7526,7 +7536,7 @@ Ao habilitar a abertura da fatura, a seguinte tela é apresentada ao usuário.
 
 Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão ``Abrir Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
 
-Ao habilitar o fechamento da fatura, o modal é apresentado ao usuário.
+Ao habilitar o fechamento da fatura, o modal é exibido.
 
 .. image:: /figuras/fig_rcf/11_fechar_fatura.png
    :alt: fechar fatura
@@ -7536,7 +7546,8 @@ Ao habilitar o fechamento da fatura, o modal é apresentado ao usuário.
 
 
 Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão 
-``Fechar Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
+``Fechar Faturas`` é habilitado e apresenta uma coloração esverdeada para que seja clicado e a operação realizada.
+
 Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos acima detalhados.
 
 
@@ -7563,7 +7574,7 @@ Realizada a busca, caso não existam informações referentes às seleções dos
 
 Na existência de informações, a plataforma uCloud evolui para dois tipos de cenário:
 
-1. Na evolução da filtragem e pesquisa dos dados, o número e o nome dos contratos existentes que apresentarem falha na busca dos valores são exibidos no lado esquerdo da tela e aparecem em vermelho (conforme exemplo):
+1. Na evolução da filtragem e pesquisa dos dados, o número e o nome dos contratos existentes que apresentarem falha na busca dos valores são exibidos no lado esquerdo da tela e aparecem em vermelho, conforme exemplo:
 
 .. image:: /figuras/fig_rcf/14_evoluir_filtragem.png
    :alt: evoluir filtragem
@@ -7585,19 +7596,21 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
 Listando os contratos no RCF
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela mostra oito colunas:
+
   * o nome dos referidos contratos;
   * seus períodos de consumo;
   * o mês de faturamento;
   * data de fechamento; 
   * seu *status* (Fechada ou Aberta);
   * preço; 
-  * custo em USN e 
+  * custo em USN 
   * Ações que inclui 04 botões: 
      * Ver detalhes 
      * Baixar 
-     * Abrir e 
-     * Fechar Fatura. 
+     * Abrir Fatura
+     * Fechar Fatura
 
 
 Caso a lista de contratos seja muito extensa, a funcionalidade barra de rolagem permite ao usuário navegar em toda a extensão da tela, para cima e para baixo. 
@@ -7625,7 +7638,7 @@ Abaixo seguem as informações detalhadas desta tela:
 
 Neste fluxo são detalhadas as colunas da tela listando contratos:
 
-.. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
+
 
 * **Contrato**: Apresenta o(s) nome(s) do(s) contrato(s) filtrados na pesquisa.
 * **Período de Consumo**: Mostra a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
@@ -7646,7 +7659,7 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 * **Custo em USN**: Exibe o valor total da fatura do mês, expresso em Unidade de Serviço de Nuvem (USN).
 
 
-.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
+.. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
 
 
 
