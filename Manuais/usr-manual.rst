@@ -7663,18 +7663,199 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 
 
 
-
-.. Detalhando as ações do RCF 
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-.. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-.. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-.. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-.. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-.. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+Detalhando as ações do RCF
+~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 
+
+
+A última coluna dos contratos listados é a de ações, ela apresenta 4 botões: ``Ver Detalhes``, ``Baixar``, ``Abrir Fatura`` e ``Fechar Fatura``, segue em detalhes a função de cada um.   
+
+
+
+
+* **Botão** ``Ver detalhes`` (  ): Ao clicar nesta opção, o usuário pode visualizar os detalhes da fatura do contrato. Para as faturas com *status* “Fechada” a plataforma  uCloud apresenta a tela abaixo:
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/19_detalhes_status_fechada.png
+   :alt: detalhes status fechada
+   :align: center
+----
+
+
+
+No primeiro *card* “Fatura do Contrato” é possível visualizar a cotação do dólar na data que marca o início da fatura do contrato em questão, juntamente com o valor total do consumo no mês anterior ao da fatura selecionada.
+
+Por exemplo:
+
+Se a fatura selecionada corresponde ao mês de novembro, os valores de consumo apresentados condizem ao mês anterior, no caso, outubro.
+
+Seguindo o fluxo do detalhamento, o segundo *card* “Consumo de recursos durante o mês” exibe um gráfico de barras.  Ao lado deste, o “Gráfico de consumo por grupo” indica o consumo dos recursos por grupo, mostrado num  gráfico de pizza, ambos gráficos representam um recurso visual que auxilia o usuário a entender os dados do contrato selecionado.  
+
+O último card “Grupos” exibe informações mais específicas sobre os grupos que utilizam o contrato, o usuário pode clicar em “Detalhes” e a plataforma entrega o nome dos grupos e os custos que cada um representa sobre o valor total do contrato. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/19_detalhes_status_fechada.png
+   :alt: detalhes status fechada
+   :align: center
+----
+
+
+
+O botão ``Exportar``, localizado no lado superior direito desta tela, oferece a possibilidade do usuário fazer o *download* dos arquivos nos formatos CSV e PDF. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/20_exporta_csv_pdf.png
+   :alt: exportar csv e pdf
+   :align: center
+----
+  
+
+
+
+No formato PDF, o arquivo é baixado imediatamente. Nele, constam as informações resumidas dos contratos, que são as mesmas apresentadas na opção “Detalhes” explicada anteriormente. 
+
+Vejamos o exemplo: 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/21_formato_pdf.png
+   :alt: formato pdf
+   :align: center
+----
+  
+
+Caso o usuário necessite um arquivo com a totalidade da lista de itens da fatura, deve clicar em CSV para baixar um arquivo tipo planilha eletrônica (MS-Excel). Feito isso, a plataforma uCloud apresenta um modal chamado “Gerando Novo Relatório”.
+
+Nele, é solicitado um e-mail para que o usuário seja informado sobre a finalização da produção do arquivo e sua disponibilidade para visualização, o adicionamento do e-mail é opcional, caso o usuário não queira ser informado basta deixar o campo sem preenchimento.
+
+Na tela ainda é possível agendar a produção do relatório para uma data específica ou se a produção segue uma data recorrente. 
+
+
+Caso de uso: 
+Obter o relatório no formato CSV
+
+
+Para obtenção do relatório no formato CSV podem existir dois tipos de situação:
+
+1- No caso de ainda não existir nenhum relatório gerado pelo sistema, a opção de *baixar o último arquivo gerado* não aparece habilitada. Deve-se solicitar a criação do relatório, clicando na opção ``Gerar Relatório``, conforme o exemplo: 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/22_criar_relatório.png
+   :alt: criar relatório 
+   :align: center
+----
+
+
+
+Realizada a última ação, no ícone do menu Tarefas, localizado no lado superior direito,  a plataforma uCloud apresenta um alerta informando que um novo relatório está sendo gerado. 
+
+
+.. note:: Nesta etapa, o usuário pode acompanhar a evolução no menu Tarefas. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/23_evolução_tarefa
+   :alt: evolução da tarefa 
+   :align: center
+----
+
+
+Ao clicar no ícone tarefas, a plataforma exibe nova tela conforme imagem abaixo, informando o estado da ação, neste exemplo, o arquivo de faturamento do contrato foi gerado com sucesso.
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/24_gerar_arquivo.png
+   :alt: gerar arquivo faturamento contrato 
+   :align: center 
+----
+
+ 
+Para a obtenção do relatório, o usuário deve clicar novamente no botão ``Exportar``, e ao selecionar a opção CSV a tela apresenta o botão habilitado na cor laranja. Neste exemplo, a mensagem disponibilizada para baixar o arquivo gerado é “Último arquivo gerado em 2023/01/18 14:11:45”. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+
+Ao clicar no botão, o *download* do arquivo CSV é realizado e está disponível para o usuário, conforme o exemplo seguinte. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/26_formato_csv.png
+   :alt: formato csv
+   :align: center
+----
+
+
+
+2 - No caso de já existir um relatório gerado, ao clicar na opção de baixar o arquivo no formato CSV, o botão aparece habilitado na cor laranja, constando a data e o horário do momento da sua criação. Cabe ao usuário decidir se os dados obtidos nessa data são os mais adequados à sua busca ou se são necessários os dados atualizados. 
+
+
+Para atualizar e produzir um novo relatório o usuário deve clicar no botão ``Gerar Relatório`` e repetir o processo do caso de uso, anteriormente apresentado. Veja o exemplo seguinte:
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+
+Para as faturas com *status* “Aberta”, a plataforma exibe a seguinte tela: 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/27_detalhes_status_aberta.png
+   :alt: detalhes status aberta
+   :align: center
+----
+
+
+
+Na tela constam as mesmas informações apresentadas na tela do *status* “Fechada”, porém como a fatura ainda está aberta a mensagem *“Os valores apresentados incluem faturas não fechadas, e não podem ser considerados válidos até o fechamento das mesmas”* é exibida em destaque. 
+
+
+.. note:: |nota| Todos os procedimentos descritos no *status* “Fechada” sobre a obtenção dos arquivos nos formatos PDF e CSV também podem ser realizados quando o Status da fatura está “Aberta”.
+
+
+   * **Botão** ``Baixar`` (  ): Caso o usuário já conheça as informações relativas ao contrato listado e deseje fazer *download* de toda a lista de itens da fatura em um arquivo tipo planilha eletrônica (MS-Excel), basta clicar sobre o botão ``Baixar``, e o modal “Gerando Novo Relatório” é apresentado. Para que o usuário possa obter o arquivo CSV deve seguir o mesmo procedimento apresentado no Caso de Uso.  
+
+(Criar Hiperlink) 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+
+    * **Botão** ``Abrir Fatura`` (  ): Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Fechada”; abrir uma fatura fechada significa que a empresa necessita de alguma ação de correção nos valores da fatura, que deve ser providenciado antes do pagamento do referido valor apresentado. 
+
+
+Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou cancelar a ação. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/28_ação_reabrir_fatura.png
+   :alt: ação reabrir fatura
+   :align: center
+----
+
+
+    * **Botão** ``Fechar Fatura`` (  ): Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Aberta”; na coluna “Data de Fechamento” no caso do usuário passar o cursor do mouse pelo símbolo de atenção, é mostrada a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto” pela plataforma uCloud, conforme exibido no exemplo seguinte. 
+
+
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/29_botão_fechar_fatura.png
+   :alt: botão fechar fatura 
+   :align: center
+----
+
+
+
+Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário confirmar ou cancelar a ação. 
+
+
+.. image:: /figuras/fig_rcf/fig_rcf/30_ação_fechar_fatura.png
+   :alt: ação fechar fatura
+   :align: center
 ----
 
 
