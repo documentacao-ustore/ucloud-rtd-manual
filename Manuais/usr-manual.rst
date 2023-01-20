@@ -7224,7 +7224,7 @@ Quando o usuário clicar com o cursor do mouse sobre o botão **Minha Fatura** a
 
 .. image:: /figuras/ucloud_menu_financeiro010a.png
    :alt: Menu Financeiro - Relatorio Visualização de Recursos
-   :scale: 600 %
+   :scale: 60 %
    :align: center
 ----
 
