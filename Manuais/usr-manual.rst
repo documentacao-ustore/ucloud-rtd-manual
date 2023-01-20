@@ -7616,6 +7616,11 @@ Efetuado o carregamento das informações, a plataforma exibe a lista dos contra
      * Abrir Fatura
      * Fechar Fatura
 
+.. image:: /figuras/fig_rcf/15_botões_de_ação.png
+   :alt: botões de ação
+   :align: center
+----
+
 
 Caso a lista de contratos seja muito extensa, a funcionalidade barra de rolagem permite ao usuário navegar em toda a extensão da tela, para cima e para baixo. 
 
