@@ -8612,6 +8612,8 @@ A plataforma uCloud sincroniza e recebe o conteúdo do arquivo de *billing* no f
 
 ====
 
+====
+
 .. Cost Threshold
 .. ~~~~~~~~~~~~~~
 
@@ -8671,8 +8673,8 @@ A tela acima apresenta duas colunas:
 ====
 
 
-Criando Ordem de Serviço
-------------------------
+Criando a Ordem de Serviço
+--------------------------
 
 A ordem de serviço, tem como objetivo principal formalizar uma tarefa ou serviço a ser executado, esta solicitação deve ser criada pelo demandante, pode ser o usuário *user* ou outro tipo de usuário. 
 
