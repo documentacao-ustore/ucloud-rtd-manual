@@ -7475,7 +7475,7 @@ O usuário pode selecionar um período e um contrato para buscar o histórico de
 
 
  
-No campo para pesquisar o contrato pretendido são apresentados todos os contratos registrados na plataforma. De acordo com a demanda pretendida, pode-se realizar uma busca completa ao clicar na opção ``Selecionar Todos`` ou uma busca direcionada, basta o usuário selecionar os contratos do seu interesse.
+No campo para pesquisar o contrato pretendido são apresentados todos os contratos registrados na plataforma. De acordo com a demanda, pode-se realizar uma busca completa ao clicar na opção ``Selecionar Todos`` ou uma busca direcionada, basta o usuário selecionar os contratos do seu interesse.
 
 
 .. image:: /figuras/fig_rcf/05_selecionar_contrato.png
@@ -7611,8 +7611,11 @@ Efetuado o carregamento das informações, a plataforma exibe a lista dos contra
   * data de fechamento; 
   * seu *status* (Fechada ou Aberta);
   * preço; 
-  * custo em USN 
-  * Ações que inclui 04 botões: 
+  * custo em USN; 
+  * Ações.
+
+Esta última coluna: "Ações", inclui os 4 botões relacionados abaixo, de acordo com a imagem seguinte: 
+
      * Ver detalhes 
      * Baixar 
      * Abrir Fatura
@@ -7647,14 +7650,14 @@ Abaixo seguem as informações detalhadas desta tela:
 
 
 
-Neste fluxo são detalhadas as colunas da tela listando contratos:
+Neste fluxo são detalhadas as colunas da tela "Listando contratos":
 
 
 
 * **Contrato**: Apresenta o(s) nome(s) do(s) contrato(s) filtrados na pesquisa.
 * **Período de Consumo**: Mostra a data inicial e final do mês ao qual está sendo contabilizado o valor financeiro do contrato. Além de exibir a hora de início e término de cada informação listada. O período de consumo sempre é anterior ao mês da fatura. 
 * **Mês de Faturamento**: Exibe o mês no qual a fatura vence e deve ter o seu pagamento efetuado. Este é sempre o mês seguinte ao do período de consumo. 
-* **Data de Fechamento**: Esta coluna informa ao usuário se a fatura está aberta ou fechada. Para os contratos que apresentam o status “Aberta”, é exibido o ícone "tooltip" ,pedindo a atenção do leitor para a mensagem: *“A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”* (exemplo seguinte). Já os contratos que exibem o status “Fechada”, apresentam a data e o horário de fechamento da fatura.
+* **Data de Fechamento**: Esta coluna informa ao usuário se a fatura está aberta ou fechada. Para os contratos que apresentam o status “Aberta”, é exibido o ícone "tooltip", pedindo a atenção do leitor para a mensagem: *“A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”* (exemplo seguinte). Já os contratos que exibem o *status* “Fechada”, apresentam a data e o horário de fechamento da fatura.
 
 
 .. image:: /figuras/fig_rcf/18_detalhando_colunas.png
@@ -7783,7 +7786,7 @@ Ao clicar no ícone tarefas, a plataforma exibe nova tela conforme imagem abaixo
 ----
 
  
-Para a obtenção do relatório, o usuário deve clicar novamente no botão ``Exportar``, e ao selecionar a opção CSV a tela apresenta o botão habilitado na cor laranja. Neste exemplo, a mensagem disponibilizada para baixar o arquivo gerado é “Último arquivo gerado em 2023/01/18 14:11:45”. 
+Para a obtenção do relatório, o usuário deve clicar novamente no botão ``Exportar``, e ao selecionar a opção CSV a tela apresenta o botão habilitado na cor laranja. Neste exemplo, a mensagem disponibilizada para baixar o arquivo gerado é “Último arquivo gerado em 2023/01/17 11:20:37”. 
 
 
 .. image:: /figuras/fig_rcf/25_ação_baixar.png
@@ -7854,7 +7857,7 @@ Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou
 ----
 
 
-    * **Botão** ``Fechar Fatura``: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Aberta”; na coluna “Data de Fechamento” no caso do usuário passar o cursor do mouse pelo símbolo de atenção, é mostrada a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto” pela plataforma uCloud, conforme exibido no exemplo seguinte. 
+    * **Botão** ``Fechar Fatura``: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Aberta”; na coluna “Data de Fechamento” no caso do usuário passar o cursor do mouse pelo símbolo de atenção, é mostrada a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”, conforme exibido no exemplo seguinte. 
 
 
 
