@@ -7422,6 +7422,7 @@ Esta opção de submenu permite ao usuário consultar relatórios de consumo, qu
 
 .. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
 
+----
 
 Acessando o RCF
 ~~~~~~~~~~~~~~~
@@ -7454,7 +7455,7 @@ Ao clicar no botão correspondente, a plataforma uCloud apresenta a seguinte tel
 ----
 
 
-
+----
 
 
 Selecionando o RCF
@@ -7551,6 +7552,9 @@ Após o usuário selecionar os campos de acordo com o desejado, o contrato e o m
 Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos acima detalhados.
 
 
+----
+
+
 Acompanhando a pesquisa do RCF
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7591,6 +7595,7 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
    :align: center
 ----  
 
+----
 
 
 Listando os contratos no RCF
@@ -7662,6 +7667,8 @@ Neste fluxo são detalhadas as colunas da tela listando contratos:
 .. note:: |nota| As quatro colunas: contrato, mês de faturamento, preço e custo em USN possibilitam a alternância dos dados apresentados.
 
 
+----
+
 
 Detalhando as ações do RCF
 ~~~~~~~~~~~~~~~~~~~~~~~~~~ 
@@ -7677,7 +7684,7 @@ A última coluna dos contratos listados é a de ações, ela apresenta 4 botões
 * **Botão** ``Ver detalhes`` (  ): Ao clicar nesta opção, o usuário pode visualizar os detalhes da fatura do contrato. Para as faturas com *status* “Fechada” a plataforma  uCloud apresenta a tela abaixo:
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/19_detalhes_status_fechada.png
+.. image:: /figuras/fig_rcf/19_detalhes_status_fechada.png
    :alt: detalhes status fechada
    :align: center
 ----
@@ -7695,7 +7702,7 @@ Seguindo o fluxo do detalhamento, o segundo *card* “Consumo de recursos durant
 O último card “Grupos” exibe informações mais específicas sobre os grupos que utilizam o contrato, o usuário pode clicar em “Detalhes” e a plataforma entrega o nome dos grupos e os custos que cada um representa sobre o valor total do contrato. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/19_detalhes_status_fechada.png
+.. image:: /figuras/fig_rcf/19_detalhes_status_fechada.png
    :alt: detalhes status fechada
    :align: center
 ----
@@ -7705,7 +7712,7 @@ O último card “Grupos” exibe informações mais específicas sobre os grupo
 O botão ``Exportar``, localizado no lado superior direito desta tela, oferece a possibilidade do usuário fazer o *download* dos arquivos nos formatos CSV e PDF. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/20_exporta_csv_pdf.png
+.. image:: /figuras/fig_rcf/20_exporta_csv_pdf.png
    :alt: exportar csv e pdf
    :align: center
 ----
@@ -7718,7 +7725,7 @@ No formato PDF, o arquivo é baixado imediatamente. Nele, constam as informaçõ
 Vejamos o exemplo: 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/21_formato_pdf.png
+.. image:: /figuras/fig_rcf/21_formato_pdf.png
    :alt: formato pdf
    :align: center
 ----
@@ -7732,7 +7739,9 @@ Na tela ainda é possível agendar a produção do relatório para uma data espe
 
 
 Caso de uso: 
-Obter o relatório no formato CSV
+~~~~~~~~~~~~
+
+**Obter o relatório no formato CSV**
 
 
 Para obtenção do relatório no formato CSV podem existir dois tipos de situação:
@@ -7740,7 +7749,7 @@ Para obtenção do relatório no formato CSV podem existir dois tipos de situaç
 1- No caso de ainda não existir nenhum relatório gerado pelo sistema, a opção de *baixar o último arquivo gerado* não aparece habilitada. Deve-se solicitar a criação do relatório, clicando na opção ``Gerar Relatório``, conforme o exemplo: 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/22_criar_relatório.png
+.. image:: /figuras/fig_rcf/22_criar_relatório.png
    :alt: criar relatório 
    :align: center
 ----
@@ -7753,7 +7762,7 @@ Realizada a última ação, no ícone do menu Tarefas, localizado no lado superi
 .. note:: Nesta etapa, o usuário pode acompanhar a evolução no menu Tarefas. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/23_evolução_tarefa
+.. image:: /figuras/fig_rcf/23_evolução_tarefa
    :alt: evolução da tarefa 
    :align: center
 ----
@@ -7762,7 +7771,7 @@ Realizada a última ação, no ícone do menu Tarefas, localizado no lado superi
 Ao clicar no ícone tarefas, a plataforma exibe nova tela conforme imagem abaixo, informando o estado da ação, neste exemplo, o arquivo de faturamento do contrato foi gerado com sucesso.
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/24_gerar_arquivo.png
+.. image:: /figuras/fig_rcf/24_gerar_arquivo.png
    :alt: gerar arquivo faturamento contrato 
    :align: center 
 ----
@@ -7771,7 +7780,7 @@ Ao clicar no ícone tarefas, a plataforma exibe nova tela conforme imagem abaixo
 Para a obtenção do relatório, o usuário deve clicar novamente no botão ``Exportar``, e ao selecionar a opção CSV a tela apresenta o botão habilitado na cor laranja. Neste exemplo, a mensagem disponibilizada para baixar o arquivo gerado é “Último arquivo gerado em 2023/01/18 14:11:45”. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
    :alt: ação baixar relatório
    :align: center
 ----
@@ -7780,7 +7789,7 @@ Para a obtenção do relatório, o usuário deve clicar novamente no botão ``Ex
 Ao clicar no botão, o *download* do arquivo CSV é realizado e está disponível para o usuário, conforme o exemplo seguinte. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/26_formato_csv.png
+.. image:: /figuras/fig_rcf/26_formato_csv.png
    :alt: formato csv
    :align: center
 ----
@@ -7793,7 +7802,7 @@ Ao clicar no botão, o *download* do arquivo CSV é realizado e está disponíve
 Para atualizar e produzir um novo relatório o usuário deve clicar no botão ``Gerar Relatório`` e repetir o processo do caso de uso, anteriormente apresentado. Veja o exemplo seguinte:
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
    :alt: ação baixar relatório
    :align: center
 ----
@@ -7802,7 +7811,7 @@ Para atualizar e produzir um novo relatório o usuário deve clicar no botão ``
 Para as faturas com *status* “Aberta”, a plataforma exibe a seguinte tela: 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/27_detalhes_status_aberta.png
+.. image:: /figuras/fig_rcf/27_detalhes_status_aberta.png
    :alt: detalhes status aberta
    :align: center
 ----
@@ -7820,7 +7829,7 @@ Na tela constam as mesmas informações apresentadas na tela do *status* “Fech
 (Criar Hiperlink) 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/25_ação_baixar.png
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
    :alt: ação baixar relatório
    :align: center
 ----
@@ -7832,7 +7841,7 @@ Na tela constam as mesmas informações apresentadas na tela do *status* “Fech
 Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou cancelar a ação. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/28_ação_reabrir_fatura.png
+.. image:: /figuras/fig_rcf/28_ação_reabrir_fatura.png
    :alt: ação reabrir fatura
    :align: center
 ----
@@ -7843,7 +7852,7 @@ Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou
 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/29_botão_fechar_fatura.png
+.. image:: /figuras/fig_rcf/29_botão_fechar_fatura.png
    :alt: botão fechar fatura 
    :align: center
 ----
@@ -7853,7 +7862,7 @@ Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou
 Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário confirmar ou cancelar a ação. 
 
 
-.. image:: /figuras/fig_rcf/fig_rcf/30_ação_fechar_fatura.png
+.. image:: /figuras/fig_rcf/30_ação_fechar_fatura.png
    :alt: ação fechar fatura
    :align: center
 ----
