@@ -7762,7 +7762,7 @@ Realizada a última ação, no ícone do menu Tarefas, localizado no lado superi
 .. note:: Nesta etapa, o usuário pode acompanhar a evolução no menu Tarefas. 
 
 
-.. image:: /figuras/fig_rcf/23_evolução_tarefa
+.. image:: /figuras/fig_rcf/23_evolução_tarefa.png
    :alt: evolução da tarefa 
    :align: center
 ----
@@ -7824,9 +7824,10 @@ Na tela constam as mesmas informações apresentadas na tela do *status* “Fech
 .. note:: |nota| Todos os procedimentos descritos no *status* “Fechada” sobre a obtenção dos arquivos nos formatos PDF e CSV também podem ser realizados quando o Status da fatura está “Aberta”.
 
 
-   * **Botão** ``Baixar`` (  ): Caso o usuário já conheça as informações relativas ao contrato listado e deseje fazer *download* de toda a lista de itens da fatura em um arquivo tipo planilha eletrônica (MS-Excel), basta clicar sobre o botão ``Baixar``, e o modal “Gerando Novo Relatório” é apresentado. Para que o usuário possa obter o arquivo CSV deve seguir o mesmo procedimento apresentado no Caso de Uso.  
+* **Botão** ``Baixar`` (  ): Caso o usuário já conheça as informações relativas ao contrato listado e deseje fazer *download* de toda a lista de itens da fatura em um arquivo tipo planilha eletrônica (MS-Excel), basta clicar sobre o botão ``Baixar``, e o modal “Gerando Novo Relatório” é apresentado. Para que o usuário possa obter o arquivo CSV deve seguir o mesmo procedimento apresentado no Caso de Uso, consultar aqui_.  
 
-(Criar Hiperlink) 
+
+.. _aqui: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#caso-de-uso
 
 
 .. image:: /figuras/fig_rcf/25_ação_baixar.png
