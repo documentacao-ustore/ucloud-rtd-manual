@@ -7519,13 +7519,14 @@ Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-
 ----
 
 
-.. attention:: |atencao| No canto superior direito estão os ícones das opções de abrir e fechar faturas, elas permitem ao usuário determinar ambas ações no período desejado, sobre todos os contratos existentes que podem ser pesquisados, individualmente ou em alguns conjuntos específicos.
+.. attention:: |atencao| No canto superior direito estão os ícones das opções de abrir e fechar faturas. 
 
 .. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
    :alt: abrir todas faturas
    :align: center
 ----
 
+Elas permitem ao usuário determinar ambas ações no período desejado, sobre todos os contratos existentes que podem ser pesquisados, individualmente ou em alguns conjuntos específicos.
 
 
 Ao habilitar a abertura da fatura, o modal é apresentado:
@@ -7535,7 +7536,8 @@ Ao habilitar a abertura da fatura, o modal é apresentado:
    :align: center
 ----  
 
-Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão ``Abrir Faturas`` é habilitado e permanece na cor verde para que seja clicado e a operação realizada.
+Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão 
+``Abrir Faturas`` é habilitado e permanece na cor verde para que seja clicado, assim a operação é realizada.
 
 Ao habilitar o fechamento da fatura, o modal é exibido.
 
@@ -7547,7 +7549,7 @@ Ao habilitar o fechamento da fatura, o modal é exibido.
 
 
 Após o usuário selecionar os campos de acordo com o desejado, o contrato e o mês, o botão 
-``Fechar Faturas`` é habilitado e apresenta uma coloração esverdeada para que seja clicado e a operação realizada.
+``Fechar Faturas`` é habilitado e apresenta uma coloração esverdeada para que seja clicado, assim a operação é realizada.
 
 Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos acima detalhados.
 
