@@ -7455,7 +7455,7 @@ Ao clicar no botão correspondente, a plataforma uCloud apresenta a seguinte tel
 ----
 
 
-----
+
 
 
 Selecionando o RCF
@@ -7595,7 +7595,6 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
    :align: center
 ----  
 
-----
 
 
 Listando os contratos no RCF
@@ -11772,7 +11771,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 
 
 uCloud Manual de uso
-Revisão 22/11/2022
+Revisão 20/01/2023
 
 
 
