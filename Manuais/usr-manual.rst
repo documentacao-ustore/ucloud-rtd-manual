@@ -7516,7 +7516,7 @@ Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-
 .. image:: /figuras/fig_rcf/08_pesquisar_apos_selecao.png
    :alt: pesquisar após selecionar
    :align: center
-----
+
 
 
 .. attention:: |atencao| No canto superior direito estão os ícones das opções de abrir e fechar faturas. 
