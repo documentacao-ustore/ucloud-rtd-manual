@@ -161,7 +161,7 @@ Para concluir e finalizar a abertura do chamado, o usuário deve clicar em criar
 Confirmação da abertura do chamado
 ----------------------------------
 
-Após o término da criação do chamado, o usuário recebe um e-mail contendo o assunto: USTORE - Ticket de suporte aberto [#9999].
+Após o término da criação do chamado, o usuário recebe um e-mail contendo o assunto: USTORE - Ticket de suporte aberto [#2  7].
 
 
 .. image:: /figuras/chamados/10_confirmação_por_e-mail.png
