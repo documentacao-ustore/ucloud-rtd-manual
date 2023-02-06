@@ -70,24 +70,39 @@ A imagem acima para abertura de chamados exibe quatro itens, a seguir listados:
 
 A seção é dividida em quatro sub-seções, a seguir cada uma é descrita no detalhe, para orientar com minucia e totalidade o usuário do sistema.
 
+.. image:: /figuras/chamados/04_tela_sistema_em_4_etapas.png
+    :alt: tela do sistema em quatro etapas  
+    :align: center
+======
 
-
-(Figura 4) Tela do sistema em 4 etapas, recortada em cada passo:
+A imagem da aplicação demonstra as 4 etapas, recortada em cada passo:
 
 Tópico de ajuda (Help Topic)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este é o campo da criticidade do chamado , o campo deve ser preenchido de acordo com o grau de necessidade de atendimento ao usuário.
 
-(Figura 5) Criticidade do chamado
+
+.. image:: /figuras/chamados/05_criticidade_do_chamado.png
+    :alt: Criticidade do chamado  
+    :align: center
+======
 
 Para orientar esta criticidade, o usuário deve consultar a tabela seguinte do SLA (Service Level Agreement) que representa o contrato de nível de serviço definido entre as partes na contratação da prestação de serviços.
 
-(Tabela 1) SLA Ustore 5x8
+
+.. image:: /figuras/chamados/13_tabela_sla_ustore_5x8.png
+    :alt: SLA Ustore 5x8  
+    :align: center
+======
 
 O SLA acima é utilizada nesta criticidade apresentada e ela é o padrão “5x8 da Ustore” - à exceção do SLA próprio e específico do Exército Brasileiro.
 
-(Figura 6) Tabela de criticidade (SLA)
+
+.. image:: /figuras/chamados/06_tabela_de_criticidade_sla.png
+    :alt: Tabela de criticidade SLA 
+    :align: center
+======
 
 O usuário do sistema deve selecionar o tipo de criticidade: 
 
@@ -104,7 +119,10 @@ Título do Chamado
 
 Este é o campo que o usuário descreve o seu chamado ao criar o título, o qual deve resumir o problema ora identificado de forma objetiva.
 
-(Figura 7) Título do Chamado
+.. image:: /figuras/chamados/07_titulo_do_seu_chamado.png
+    :alt: Título do Chamado
+    :align: center
+======
 
 
 Detalhes do Chamado
@@ -112,7 +130,11 @@ Detalhes do Chamado
 
 Neste campo o usuário descreve com riqueza de detalhes todos os procedimentos, tentativas e/ou dúvidas possíveis sobre o problema ora apresentado. É permitido adicionar textos, tabelas, links, imagens, o requisito para este item é fornecer a maior quantidade de informações.
 
-(Figura 8) Tela de descrição do chamado
+
+.. image:: /figuras/chamados/08_tela_de_descrição_do_chamado.png
+    :alt: Tela de descrição do chamado 
+    :align: center
+======
 
 
 Anexos (Attachments)
@@ -120,7 +142,11 @@ Anexos (Attachments)
 
 Neste item o usuário deve anexar arquivo que permita representar o problema do chamado, a exemplo de um arquivo de LOG ou uma imagem. Informação que contribua e agilize o entendimento do que é o problema descrito no chamado, resultando no atendimento de forma precisa e pontual.
 
-(Figura 9) Inserir anexos
+
+.. image:: /figuras/chamados/09_inserir_anexos.png
+    :alt: Inserir anexos 
+    :align: center
+======
 
 Para concluir e finalizar a abertura do chamado, o usuário deve clicar em criar chamado ``Create Ticket``. Ou no caso de desistir de criar o chamado, ainda existem as opções: Abrir ``Open`` Apagar ``Reset`` e Cancelar ``Cancel``.
 
@@ -130,11 +156,19 @@ Confirmação da abertura do chamado
 
 Após o término da criação do chamado, o usuário recebe um e-mail contendo o assunto: USTORE - Ticket de suporte aberto [#9999].
 
-(Figura 10) Confirmação por e-mail
+
+.. image:: /figuras/chamados/10_confirmação_por_e-mail.png
+    :alt: Confirmação por e-mail 
+    :align: center
+======
 
 Ao clicar no corpo do e-mail, o usuário é direcionado para o chamado na plataforma conforme a imagem abaixo. Na tela do sistema é apresentado o resumo do chamado e o número de identificação. É possível postar nova interação a respeito do chamado.
 
-(Figura 11) Resumo do chamado aberto
+
+.. image:: /figuras/chamados/11_resumo_do_chamado_aberto.png
+    :alt: Resumo do chamado aberto  
+    :align: center
+======
 
 
 Consulta dos chamados abertos
@@ -142,7 +176,11 @@ Consulta dos chamados abertos
 
 Nesta tela, o usuário pode consultar em todos os chamados seu status, se está aberto ou fechado. Ao optar pela descrição detalhada, basta clicar no número do chamado, uma nova tela apresenta as informações.
 
-(Figura 12) Consulta chamados abertos
+
+.. image:: /figuras/chamados/12_consulta_chamados_abertos.png
+    :alt: Consulta chamados abertos 
+    :align: center
+======
 
 
 Conclusão
@@ -153,6 +191,6 @@ Este documento apresentou uma descrição geral do sistema de abertura de chamad
 
 
 =====
-
+Manual abertura chamados OSTickets
 versão 1.3
 06/02/2023
