@@ -1,8 +1,8 @@
-Manual de Abertura de Chamados (5x8)
+Chamados - Manual de Abertura (5x8)
 ====================================
 
 
-.. image:: /figuras/_ustore.png
+.. image:: /figuras/chamados/14_ustore.png
     :alt: logo ustore  
     :align: center
 ======
@@ -16,7 +16,7 @@ Soluções em tecnologia da informação que viabilizam implementar uma arquitet
 
 
 Apresentação
-============
+------------
 
 Este documento tem como objetivo apresentar as principais características e funcionalidades relacionadas a abertura de chamados (5x8). Além de informar como utilizar o sistema adotado pela Ustore para atendimento aos nossos clientes, desde a abertura do chamado até o acompanhamento e fechamento.
 
@@ -191,7 +191,7 @@ Nesta tela, o usuário pode consultar em todos os chamados seu status, se está 
 
 
 Conclusão
-=========
+---------
 
 Este documento apresentou uma descrição geral do sistema de abertura de chamados - Padrão 5 x 8 Ustore. O sistema tem o objetivo de gerenciar os chamados, atender os clientes, no menor tempo possível e gerar métricas dos resultados. 
 
