@@ -1,6 +1,13 @@
 Manual de Abertura de Chamados (5x8)
 ====================================
 
+
+.. image:: /figuras/_ustore.png
+    :alt: logo ustore  
+    :align: center
+======
+
+
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
 
