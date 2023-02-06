@@ -54,6 +54,8 @@ Nesta tela, o usuário pode selecionar qualquer um dos campos a seguir: ``Open N
 
 Na inclusão do login, o usuário deve preencher com seus dados a tela de login do sistema, com o nome de usuário ou endereço de e-mail, em seguida inserir a senha e clicar em ``Sign In``.
 
+----
+
 
 Como abrir um novo chamado
 --------------------------
@@ -157,6 +159,7 @@ Neste item o usuário deve anexar arquivo que permita representar o problema do 
 
 Para concluir e finalizar a abertura do chamado, o usuário deve clicar em criar chamado ``Create Ticket``. Ou no caso de desistir de criar o chamado, ainda existem as opções: Abrir ``Open`` Apagar ``Reset`` e Cancelar ``Cancel``.
 
+----
 
 Confirmação da abertura do chamado
 ----------------------------------
