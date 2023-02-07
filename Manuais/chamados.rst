@@ -29,7 +29,7 @@ Como autenticar no sistema de abertura de chamados
 
 A fim de autenticar-se no sistema é necessário utilizar um navegador WEB de acordo com a opção do usuário, até este momento não foi encontrada incompatibilidade com nenhum navegador testado (Firefox, Google Chrome e Microsoft Edge).
 
-Antes de acessar o sistema no http://suporte.usto.re , o requisito é que o usuário esteja previamente cadastrado no sistema de abertura de chamados, o cadastro no sistema pode ser solicitado por e-mail enviado a suporte@usto.re.
+Antes de acessar o sistema no http://suporte.usto.re , o requisito é que o usuário esteja previamente cadastrado no sistema de abertura de chamados, o cadastro no sistema pode ser solicitado por e-mail enviado a chamados@usto.re.
 
 
 .. image:: /figuras/chamados/01_tela_inicial_do_sistema.png
