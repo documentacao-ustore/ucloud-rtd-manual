@@ -201,6 +201,4 @@ Este documento apresentou uma descrição geral do sistema de abertura de chamad
 
 
 =====
-Manual abertura chamados OSTickets
-versão 1.3
-06/02/2023
+Manual abertura chamados - versão 1.3 - 06/02/2023
