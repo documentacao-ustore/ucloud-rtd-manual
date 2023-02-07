@@ -1,11 +1,13 @@
-Chamados - Manual de Abertura (5x8)
-====================================
 
 
 .. image:: /figuras/chamados/14_ustore.png
     :alt: logo ustore  
     :align: center
 ======
+
+Chamados - Manual de Abertura (5x8)
+====================================
+
 
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
