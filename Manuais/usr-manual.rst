@@ -1,9 +1,13 @@
-uCloud - Manual do Usuário
-++++++++++++++++++++++++++
+
 
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
    :align: center
+
+----
+
+uCloud - Manual do Usuário
+++++++++++++++++++++++++++
 
 ----
 
