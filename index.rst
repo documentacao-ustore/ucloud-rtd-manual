@@ -43,7 +43,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 5
    :hidden:
    :caption: Release-Notes:
 
