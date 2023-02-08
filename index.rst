@@ -10,7 +10,10 @@ Bem vindo ao site de documentação da Ustore Brasil
 
 Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a documentação das Notas de Lançamento e o Release Notes dos softwares da Ustore.
 
- Manual Português:
+.. toctree::
+   :maxdepth: 6
+   :hidden:
+   :caption: Manual Português:
 
    Manuais/chamados
    Manuais/usr-manual
@@ -25,9 +28,8 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 .. toctree::
    :maxdepth: 6
    :hidden:
-   :caption: MEnglish:
+   :caption: Manual English:
 
-   Manual English:
    
    MEnglish/usavings-usuario.eng
 
