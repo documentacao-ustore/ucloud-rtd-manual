@@ -1,7 +1,7 @@
 
 
-.. image:: /figuras/chamados/14_ustore.png
-    :alt: logo ustore  
+.. image:: /figuras/chamados/lge_support_center_vertical.png
+    :alt: logo abertura chamados  
     :align: center
 ======
 
