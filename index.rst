@@ -25,8 +25,10 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 .. toctree::
    :maxdepth: 6
    :hidden:
-   :caption: Manual English:
+   :caption: MEnglish:
 
+   Manual English:
+   
    MEnglish/usavings-usuario.eng
 
 .. toctree::
@@ -34,8 +36,9 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :hidden:
    :caption: Manual Español:
 
-   Manuales/usavings-usuario.spa
+   
    Manuales/ucloud-usuario.spa
+   Manuales/usavings-usuario.spa
 
 
 .. toctree::
