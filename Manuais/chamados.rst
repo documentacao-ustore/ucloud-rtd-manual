@@ -200,7 +200,12 @@ Conclusão
 
 Este documento apresentou uma descrição geral do sistema de abertura de chamados - Padrão 5 x 8 Ustore. O sistema tem o objetivo de gerenciar os chamados, atender os clientes, no menor tempo possível e gerar métricas dos resultados. 
 
+====
+
+**Equipe Ustore**
 
 
-=====
-Manual abertura chamados - versão 1.3 - 06/02/2023
+Abertura de chamados - Manual de uso - v.1.4 - 
+Revisão 06/02/2023
+
+
