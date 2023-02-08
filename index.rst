@@ -11,7 +11,7 @@ Bem vindo ao site de documentação da Ustore Brasil
 Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a documentação das Notas de Lançamento e o Release Notes dos softwares da Ustore.
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 6
    :hidden:
    :caption: Manual Português:
 
@@ -26,14 +26,14 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 ..   Manuais/umove-usuario
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 6
    :hidden:
    :caption: Manual English:
 
    MEnglish/usavings-usuario.eng
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :hidden:
    :caption: Manual Español:
 
@@ -42,7 +42,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
    :hidden:
    :caption: Release-Notes:
 
