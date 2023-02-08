@@ -26,11 +26,11 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 ..   Manuais/umove-usuario
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
-   :caption: Release-Notes:
+   :caption: Manual English:
 
-   Release-Notes/release-notes-index
+   MEnglish/usavings-usuario.eng
 
 .. toctree::
    :maxdepth: 2
@@ -39,3 +39,14 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
 
    Manuales/usavings-usuario.spa
    Manuales/ucloud-usuario.spa
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Release-Notes:
+
+   Release-Notes/release-notes-index
+
+
+
