@@ -1,5 +1,5 @@
 
-.. image:: /figuras/_ustore.png
+.. image:: /figuras/index/_ustore_pequena.png
    :alt: Logo Ustore Brasil
    :align: center
 =======
