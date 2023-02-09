@@ -1,11 +1,15 @@
+
+
+.. image:: /figuras/uSavings_media_sfundo.png
+    :alt: logo usavings
+    :align: center
+======
+
+
 uSavings - Manual do Usuário
 ++++++++++++++++++++++++++++
 
 
-.. image:: /figuras/uSavings-logo-gde.png
-    :alt: logo usavings
-    :align: center
-======
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
