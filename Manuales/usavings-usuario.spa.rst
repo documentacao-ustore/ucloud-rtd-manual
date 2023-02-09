@@ -1,11 +1,13 @@
-uSavings - Manual de Utilización
-++++++++++++++++++++++++++++++++
 
 
-.. image:: /figuras/uSavings-logo-gde.png
+.. image:: /figuras/fig_usavings/uSavings_media_sfundo.png
     :alt: logo usavings
     :align: center
 ======
+
+uSavings - Manual de Utilización
+++++++++++++++++++++++++++++++++
+
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
 
