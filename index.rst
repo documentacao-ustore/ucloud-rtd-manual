@@ -30,7 +30,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :hidden:
    :caption: Manual English:
    
-   Manuales/usavings-usuario.spa
+   .. Manuales/usavings-usuario.spa
 
 .. toctree::
    :maxdepth: 5
