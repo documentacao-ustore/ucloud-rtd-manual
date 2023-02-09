@@ -243,7 +243,7 @@ This contract exchange icon shows all the contracts in which the user logged int
 Clouds Configuration Icon
 -------------------------
 
-As an introduction about usability of this screen cut: |icone_configuração|
+As an introduction about usability of this screen cut: |icone_configuracao|
   
 It can be said that the term “Clouds” is used to abstract a group of Flavors from a given Cloud, this grouping being as real as imaginary Flavors.
 
@@ -487,7 +487,7 @@ The memory consumption analysis can be part of the calculation, if the provider 
 
 
 Rightsizing - Flavor change suggestion
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To receive the result of the Flavor change suggestion, the user must select the desired container, according to the picture presented below. The uSavings Application generates the list and the comparative prices. Just click and wait.
   
