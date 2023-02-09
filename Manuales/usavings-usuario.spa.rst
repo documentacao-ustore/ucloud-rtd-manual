@@ -1044,14 +1044,14 @@ Así, el usuario puede realizar la búsqueda y averiguar qué recursos no se uti
 ----
 
 uCloud
-------
+======
 
 El último menú de funcionalidad presenta la posibilidad de ir a la plataforma uCloud solamente con un hacer de clic en este menú, la aplicación uSavings envía el usuario a la plataforma uCloud.
 
 -------
 
 Conclusión
-----------
+==========
 
 Así, este documento concluye la descripción general de los procedimientos requeridos para su uso. La lectura de este manual de usuario permite a el usuario de la aplicación utilizar sus funciones correctamente.
 
