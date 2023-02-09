@@ -6,8 +6,8 @@
 ======
 
 
-uSavings - Manual do Usuário
-++++++++++++++++++++++++++++
+Manual do Usuário
++++++++++++++++++
 
 
 
