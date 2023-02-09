@@ -5,8 +5,8 @@
     :align: center
 ======
 
-uSavings - Manual de Utilización
-++++++++++++++++++++++++++++++++
+Manual de Utilización
++++++++++++++++++++++
 
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
