@@ -1,6 +1,6 @@
 
 
-.. image:: /figuras/uSavings_media_sfundo.png
+.. image:: /figuras/fig_usavings/uSavings_media_sfundo.png
     :alt: logo usavings
     :align: center
 ======
