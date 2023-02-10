@@ -29,7 +29,11 @@ Para ter acesso à plataforma é necessário,  ter realizado uma primeira compra
 
 Após essa compra o usuário recebe suas credenciais de acesso, enviadas diretamente ao seu e-mail registrado. 
 
-``inserir imagem``
+
+.. image:: /figuras/fig_dci/01_log_in.png
+    :alt: login
+    :align: center
+======
 
 O usuário deve preencher os campos ``login`` e ``senha``, com as credenciais recebidas do administrador da plataforma. E clicar no botão ``Entrar``, após este procedimento, a tela inicial do portal é apresentada.
 
@@ -43,7 +47,13 @@ De início, é relevante entender o impacto de algumas ferramentas existentes no
 
 Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe componentes relevantes, descritos em detalhes.
 
-``inserir imagem``
+
+
+.. image:: /figuras/fig_dci/02_qa_config_logout.png
+    :alt: visão geral
+    :align: center
+======
+
  
 **Ícone de notificação**  |icone_tarefas|: Esse ícone é um ponto relevante para a visualização de todas as atividades que são realizadas no portal, através dele é possível observar as ações mais recentes, refletindo em forma de notificação a tela de Tarefas.
 
@@ -53,7 +63,13 @@ Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe comp
 
 Para a visualização dos serviços do DCI existem alguns menus na lateral da plataforma, neles pode-se encontrar algumas informações relevantes ao produto.
   
-``inserir imagem``
+
+
+.. image:: /figuras/fig_dci/03_menu_adm.png
+    :alt: menu administração 
+    :align: center
+======
+
 
 
 **DCI**: Este menu contém submenus que possibilitam a visualização das suas portas, circuitos e excursionamentos. 
@@ -85,7 +101,12 @@ Para casos como "Primeira Venda", fica pendente ao usuário a confirmação do *
 
 Para os casos de venda subsequente de portas, fica pendente o *Golden Jumper* da porta em questão.
 
-``inserir imagem``
+
+
+.. image:: /figuras/fig_dci/04_menu_tarefas.png
+    :alt: Menu Tarefas 
+    :align: center
+======
 
 
 
@@ -97,9 +118,21 @@ Tela de Portas
 Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. 
 Ao clicar em uma porta, é possível visualizar os detalhes da mesma.
 
-``inserir imagem``
 
-``inserir imagem``
+
+.. image:: /figuras/fig_dci/05_menu_portas.png
+    :alt: Menu Portas 
+    :align: center
+======
+
+
+
+
+.. image:: /figuras/fig_dci/06_menu_porta_bre.png
+    :alt: Menu porta bre 
+    :align: center
+======
+
 
 
 
@@ -109,9 +142,22 @@ Tela Circuitos
 
 Esta tela permite visualizar seus recursos de circuitos, além disso, pode-se observar as ações a serem tomadas com cada item. 
 
+
+.. image:: /figuras/fig_dci/07_menu_circuitos.png
+    :alt: Menu Circuitos 
+    :align: center
+======
+
 Ao clicar em cada circuito individualmente, é possível visualizar as informações do mesmo, um histórico de ações que foram realizadas nesse circuito e o histórico de excursionamento do mesmo. 
 
+.. image:: /figuras/fig_dci/08_menu_circuito_04.png
+    :alt: Menu Circuitos 
+    :align: center
+======
+
 Além disso, também é possível realizar algumas operações dentro do circuito, como por exemplo, a alteração de VLAN ou a mudança de tipo. 
+
+
 
 ====
 
