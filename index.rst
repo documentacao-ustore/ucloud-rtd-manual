@@ -16,6 +16,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :caption: Manual Português:
 
    Manuais/chamados
+   Manuais/dci-manual
    Manuais/usr-manual
    Manuais/usavings-usuario
    
