@@ -70,7 +70,7 @@ La plataforma de uSavings obtiene y extrae información de los datos históricos
 
 La aplicación presenta un *Dashboard* consolidado y sugerencias de gasto de los clientes en cada proveedor de la nube, entregando así información precisa para una mejor toma de decisiones sobre los costos asignados de los recursos de infraestructura de la organización.
 
-.. image:: /figuras/fig_usavings/organograma_funcionamento_usavings001.png
+.. image:: /figuras/fig_usavings/001_organogram_usavings_usage.png
     :alt: organigrama operativo usavings
     :align: center
 ====
