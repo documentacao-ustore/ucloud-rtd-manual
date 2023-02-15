@@ -67,8 +67,8 @@ How does it work?
 
 The uSavings Platform, besides obtaining data from several clouds, extracts information from the historical data of the Virtual Machine itself and from the ticketing of each public cloud provider - this data gathering is started by the integration with the uCloud Platform. The application presents a consolidated panel and customer spending suggestions in each cloud provider, therefore, delivering precise information for the best decision making on the allocated costs of organization’s infrastructure resources. 
 
-.. image:: /figuras/fig_usavings/organograma_funcionamento_usavings001.png
-    :alt: organograma de funcionamento do usavings
+.. image:: /figuras/fig_usavings/001_organogram_usavings_usage.png
+    :alt: organogram usavings usage
     :align: center
 ==== 
 
@@ -426,7 +426,7 @@ This initial analysis is calculated based on the usage, that is, the occupation 
 
 The result of this analysis is the suggestion of the best combination of CPU and memory. Suggestion aimed at reducing costs and maximizing performance (rightsizing). The analysis does not make the comparative calculation between the Virtual Machines’ configuration values in other providers. 
 
----
+----
 
 
 
@@ -579,7 +579,7 @@ For the units to become available, it is necessary the integration with the uClo
 
 The Compare Clouds allows to make the comparative analysis between the cloud itself, as well as comparing with other clouds. As well as comparing with the public clouds that are not connected to the uCloud platform, for example: IBM, AZURE, Google, AWS.
 
-There are two ways to perform this comparative analysis, comparing **by Billing or **by Container**. 
+There are two ways to perform this comparative analysis, comparing **by Billing or *by Container**. 
 
 .. image:: /figuras/fig_usavings/032_tela_inicial_compare_clouds.png 
     :alt: tela inicial compare clouds 
@@ -800,6 +800,7 @@ On the Imaginary Cloud home screen, the created Containers can be viewed, it’s
 ---- 
 
 On the Imaginary Virtual Machine screen, the ten pieces of information presented from left to right:
+
 * **(i)** delete virtual machine;
 * **(ii)** Name;
 * **(iii)** Memory;
@@ -817,6 +818,7 @@ On the Imaginary Virtual Machine screen, the ten pieces of information presented
 ----
 
 The Imaginary Load Balancers screen presents eight pieces of information on the screen, from left to right:
+
 * **(i)** Delete load balancer;
 * **(ii)** Name;
 * **(iii)** Instances;
@@ -832,6 +834,7 @@ The Imaginary Load Balancers screen presents eight pieces of information on the 
 ----
 
 The Imaginary Storage screen displays six pieces of information on the screen, from left to right:
+
 * **(i)** Delete storage;
 * **(ii)** Name;
 * **(iii)** IP Quantity;
@@ -845,6 +848,7 @@ The Imaginary Storage screen displays six pieces of information on the screen, f
 ----
 
 The Imaginary IP screen displays six pieces of information on the screen, from left to right:
+
 * **(i)** Delete IP;
 * **(ii)** Name;
 * **(iii)** IP Quantity;
@@ -858,6 +862,7 @@ The Imaginary IP screen displays six pieces of information on the screen, from l
 ----
 
 On the Imaginary Database screen, the ten pieces of information presented from left to right:
+
 * **(i)** Delete Database;
 * **(ii)** Name;
 * **(iii)** vCPUS;
@@ -1048,7 +1053,7 @@ Thus, this document concludes the general description of the procedures required
 **Ustore Team**
 
 
-uSavings User’s Manual - Edition 2 v.7 - 20/05/2020 - Revision 22/11/2022.
+uSavings User’s Manual - Edition 2 v.7 - 20/05/2020 - Review 22/11/2022.
 
 
 
