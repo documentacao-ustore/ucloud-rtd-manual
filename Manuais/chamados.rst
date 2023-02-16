@@ -91,7 +91,7 @@ A imagem da aplicação demonstra as 4 etapas, recortada em cada passo:
 Tópico de ajuda (Help Topic)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este é o campo da criticidade do chamado , o campo deve ser preenchido de acordo com o grau de necessidade de atendimento ao usuário.
+Na tela exibida a seguir, o usuário pode selecionar a criticidade do chamado, este campo deve ser preenchido de acordo com o grau de necessidade de atendimento ao usuário.
 
 
 .. image:: /figuras/chamados/05_criticidade_do_chamado.png
