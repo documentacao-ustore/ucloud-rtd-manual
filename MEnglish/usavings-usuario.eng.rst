@@ -187,7 +187,7 @@ For the initial access it is necessary to request the administrator for the cred
 
 If the access is made directly through the web, the picture below is shown to the user. At this point, they must enter the given credentials.  
 
-.. image:: /figuras/fig_usavings/003_tela_acesso_inicial.png 
+.. image:: /figuras/fig_usavings/003 tela_acesso_inicial.png 
     :alt: tela de acesso inicial
     :align: center
 ====
