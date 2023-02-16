@@ -67,7 +67,7 @@ How does it work?
 
 The uSavings Platform, besides obtaining data from several clouds, extracts information from the historical data of the Virtual Machine itself and from the ticketing of each public cloud provider - this data gathering is started by the integration with the uCloud Platform. The application presents a consolidated panel and customer spending suggestions in each cloud provider, therefore, delivering precise information for the best decision making on the allocated costs of organization’s infrastructure resources. 
 
-.. image:: /figuras/fig_usavings/001_organogram_usavings_usage.png
+.. image:: /figuras/fig_usavings/001_organogram_functioning_usavings.png
     :alt: organogram usavings usage
     :align: center
 ==== 
@@ -579,7 +579,7 @@ For the units to become available, it is necessary the integration with the uClo
 
 The Compare Clouds allows to make the comparative analysis between the cloud itself, as well as comparing with other clouds. As well as comparing with the public clouds that are not connected to the uCloud platform, for example: IBM, AZURE, Google, AWS.
 
-There are two ways to perform this comparative analysis, comparing **by Billing or *by Container**. 
+There are two ways to perform this comparative analysis, comparing **by Billing** or **by Container**. 
 
 .. image:: /figuras/fig_usavings/032_tela_inicial_compare_clouds.png 
     :alt: tela inicial compare clouds 
