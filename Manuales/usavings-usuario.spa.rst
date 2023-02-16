@@ -180,7 +180,7 @@ Para el acceso inicial, es necesario solicitar las credenciales al administrador
 
 En caso de que el acceso se realice directamente en la web, se le mostra al usuario la imagen a continuación. En este momento debe ingresar las credenciales recibidas.
 
-.. image:: /figuras/fig_usavings/003 tela_acesso_inicial.png 
+.. image:: /figuras/fig_usavings/003_tela_acesso_inicial.png 
     :alt: pantalla de login
     :align: center
 ====
