@@ -17,6 +17,8 @@ Introduction
 This document has as objective to present the main characteristics and functionalities related to the tickets opening (5x8). In addition to informing how to use the system adopted by the Ustore for our customer service, from the ticket opening to the tracking and closing.
 
 In this system some ITIL and COBIT metrics are used, in addition to the **Service Level Agreement** (SLA) metrics. These are the metrics defined and set when contracting our services. 
+
+
 ----
 
 How to authenticate the tickets opening in the system
@@ -103,10 +105,10 @@ The SLA above is used in this criticality presented and it is the “Ustore’s 
 
 The system user must select the type of criticality:
 
-*Emergency
-*High
-*Moderate
-*Low
+* Emergency
+* High
+* Moderate
+* Low
 
 
 The criticality type of the Ustore 5x8 SLA varies according to the occurred problem, in order to classify the type of ticket that is being created by the user.
