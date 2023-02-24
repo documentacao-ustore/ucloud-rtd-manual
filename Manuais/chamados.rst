@@ -46,7 +46,7 @@ Como logar no sistema de abertura de chamados
 
 O usuário da aplicação deve clicar em uma das opções apresentadas na tela inicial (Figura 1 exibida acima) para abrir o novo Chamado. 
 
-Nesta tela, o usuário pode selecionar qualquer um dos campos a seguir: ``Open New Ticket`` ou ``Abra um novo chamado``. A partir desta opção, a nova tela é apresentada. É a tela de autenticação no sistema, o usuário deve inserir seus dados e senha recebidos por e-mail, quando registrado o seu cadastro.
+Nesta tela, o usuário pode selecionar qualquer um dos campos a seguir: ``Open New Ticket`` ou ``Abra um novo chamado``. A partir desta opção, a nova tela é apresentada. É a tela de autenticação no sistema, o usuário deve inserir suas credenciais recebidos por e-mail, ao criar o seu cadastro.
 
 
 .. image:: /figuras/chamados/02_tela_de_login_do_sistema.png
@@ -54,7 +54,7 @@ Nesta tela, o usuário pode selecionar qualquer um dos campos a seguir: ``Open N
     :align: center
 ======
 
-Na inclusão do login, o usuário deve preencher com seus dados a tela de login do sistema, com o nome de usuário ou endereço de e-mail, em seguida inserir a senha e clicar em ``Sign In``.
+Na inclusão do login, o usuário deve preencher com suas informações na tela, com o nome de usuário ou endereço de e-mail, em seguida inserir a senha e clicar em ``Sign In``.
 
 ----
 
@@ -206,6 +206,6 @@ Este documento apresentou uma descrição geral do sistema de abertura de chamad
 
 
 Abertura de chamados - Manual de uso - v.1.4 - 
-Revisão 06/02/2023
+Revisão 06/02/2023.
 
 
