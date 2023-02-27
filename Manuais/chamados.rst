@@ -26,12 +26,12 @@ Neste sistema são utilizadas algumas métricas do COBIT e ITIL, além das métr
 
 ----
 
-Como autenticar no sistema de abertura de chamados
+Como acessar o sistema de abertura de chamados
 --------------------------------------------------
 
 A fim de autenticar-se no sistema é necessário utilizar um navegador WEB de acordo com a opção do usuário, até este momento não foi encontrada incompatibilidade com nenhum navegador testado (Firefox, Google Chrome e Microsoft Edge).
 
-Antes de acessar o sistema no http://suporte.usto.re , o requisito é que o usuário esteja previamente cadastrado no sistema de abertura de chamados, o cadastro no sistema pode ser solicitado por e-mail enviado a chamados@usto.re.
+Antes de acessar o sistema no http://suporte.usto.re, o requisito é que o usuário esteja previamente cadastrado no sistema de abertura de chamados, o cadastro no sistema pode ser solicitado por e-mail enviado a chamados@usto.re.
 
 
 .. image:: /figuras/chamados/01_tela_inicial_do_sistema.png
@@ -79,7 +79,7 @@ A imagem acima para abertura de chamados exibe quatro itens, a seguir listados:
 3. Detalhes do Chamado;
 4. Anexos (Attachments).
 
-A seção é dividida em quatro sub-seções, a seguir cada uma é descrita no detalhe, para orientar com minucia e totalidade o usuário do sistema.
+A seção é dividida em quatro sub-seções, a seguir cada uma delas é detalhada, com o objetivo de orientar o usuário no uso do sistema de abertura de chamados.
 
 .. image:: /figuras/chamados/04_tela_sistema_em_4_etapas.png
     :alt: tela do sistema em quatro etapas  
