@@ -21,7 +21,7 @@ In this system some ITIL and COBIT metrics are used, in addition to the **Servic
 
 ----
 
-How to authenticate the tickets opening in the system
+How to access the tickets opening in the system
 -----------------------------------------------------
 
 In order to authenticate themselves in the system it is necessary to use a web browser according to the user option, to this moment no incompatibility with browsers tested (Firefox, Google Chrome and Microsoft Edge) was found.
@@ -69,7 +69,7 @@ The image above for the opening tickets displays four items, listed next:
 3. Ticket details;
 4. Attachments.
 
-The section is divided in four subsections, each one of them are described in detail next, to guide the user of the system in detail and totality.
+The section is divided in four subsections, next each one of them is detailed, with the objective to guide the user in the tickets opening system.
 
 .. image:: /figuras/tickets/004_open_ticket_subsections.png
     :alt: System screen in four steps  
@@ -108,7 +108,7 @@ The system user must select the type of criticality:
 * Emergency
 * High
 * Moderate
-* Low
+*  Low
 
 
 The criticality type of the Ustore 5x8 SLA varies according to the occurred problem, in order to classify the type of ticket that is being created by the user.
