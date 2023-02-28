@@ -40,6 +40,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :caption: Manual Español:
 
    
+   Manuales/llamadas.spa
    Manuales/ucloud-usuario.spa
    Manuales/usavings-usuario.spa
 
