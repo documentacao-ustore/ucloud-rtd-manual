@@ -44,7 +44,7 @@ Antes de acessar o sistema no http://suporte.usto.re, o requisito é que o usuá
 Como logar no sistema de abertura de chamados 
 ---------------------------------------------
 
-O usuário da aplicação deve clicar em uma das opções apresentadas na tela inicial (Figura 1 exibida acima) para abrir o novo Chamado. 
+O usuário da aplicação deve clicar em uma das opções apresentadas na tela inicial (Figura exibida acima) para abrir o novo Chamado. 
 
 Nesta tela, o usuário pode selecionar qualquer um dos campos a seguir: ``Open New Ticket`` ou ``Abra um novo chamado``. A partir desta opção, a nova tela é apresentada. É a tela de autenticação no sistema, o usuário deve inserir suas credenciais recebidos por e-mail, ao criar o seu cadastro.
 
@@ -62,7 +62,7 @@ Na inclusão do login, o usuário deve preencher com suas informações na tela,
 Como abrir um novo chamado
 --------------------------
 
-Esta seção  apresenta a tela de Abertura de Novo Chamado ``Open a New Ticket`` neste momento, o usuário deve descrever todas as informações relevantes para o atendimento do novo chamado. 
+Esta seção  apresenta a tela de Abertura de Novo Chamado **Open a New Ticket** neste momento, o usuário deve descrever todas as informações relevantes para o atendimento do novo chamado. 
 
 É necessário incluir detalhes que possam descrever a ocorrência, como textos e imagens, para que a equipe de suporte possa entender qual é a necessidade do atendimento ao usuário, a partir da abertura deste chamado.
 
@@ -186,7 +186,7 @@ Ao clicar no corpo do e-mail, o usuário é direcionado para o chamado na plataf
 Consulta dos chamados abertos
 -----------------------------
 
-Nesta tela, o usuário pode consultar em todos os chamados seu status, se está aberto ou fechado. Ao optar pela descrição detalhada, basta clicar no número do chamado, uma nova tela apresenta as informações.
+Nesta tela, o usuário pode consultar em todos os chamados seu *status*, se está aberto ou fechado. Ao optar pela descrição detalhada, basta clicar no número do chamado, uma nova tela apresenta as informações.
 
 
 .. image:: /figuras/chamados/12_consulta_chamados_abertos.png
@@ -198,7 +198,7 @@ Nesta tela, o usuário pode consultar em todos os chamados seu status, se está 
 Conclusão
 ---------
 
-Este documento apresentou uma descrição geral do sistema de abertura de chamados - Padrão 5 x 8 Ustore. O sistema tem o objetivo de gerenciar os chamados, atender os clientes, no menor tempo possível e gerar métricas dos resultados. 
+Este documento apresentou uma descrição geral do sistema de abertura de chamados - Padrão 5x8 Ustore. O sistema tem o objetivo de gerenciar os chamados, atender os clientes, no menor tempo possível e gerar métricas dos resultados. 
 
 ====
 

@@ -38,9 +38,9 @@ Antes de acceder al sistema en http://suporte.usto.re, el requisito es que el us
 Cómo conectarse al sistema de apertura de llamadas
 --------------------------------------------------
 
-El usuario de la aplicación debe hacer clic en una de las opciones presentadas en la pantalla de inicio (Figura 1 mostrada arriba) para abrir la nueva Llamada.
+El usuario de la aplicación debe hacer clic en una de las opciones presentadas en la pantalla de inicio (Figura mostrada arriba) para abrir la nueva Llamada.
 
-En esta pantalla, el usuario puede seleccionar cualquiera de los siguientes campos: ``Open New Ticket” o ``Abrir una nueva llamada``. A partir de esta opción, la nueva pantalla es presentada. Es la pantalla de autenticación en el sistema, el usuario debe introducir sus datos y la contraseña recibida por correo electrónico, cuando registró su inscripción.
+En esta pantalla, el usuario puede seleccionar el campo: ``Open New Ticket``. A partir de esta opción, la nueva pantalla es presentada. Es la pantalla de autenticación en el sistema, el usuario debe introducir sus datos y la contraseña recibida por correo electrónico, cuando registró su inscripción.
 
 .. image:: /figuras/tickets/002_login_screen.png
     :alt: Login screen 
@@ -55,7 +55,7 @@ Al incluir el login, el usuario debe rellenar con sus datos la pantalla de login
 Cómo abrir una nueva llamada
 ----------------------------
 
-Esta sección presenta la pantalla de Apertura de una Nueva Llamada ``Open a New Ticket`` en este punto, el usuario debe describir todas las informaciones relevantes para el trato de la nueva llamada.
+Esta sección presenta la pantalla de Apertura de una Nueva Llamada **Open a New Ticket** en este punto, el usuario debe describir todas las informaciones relevantes para el trato de la nueva llamada.
 
 Es necesario incluir detalles que puedan describir la ocurrencia, como textos e imágenes, para que el equipo de soporte pueda entender cuál es la necesidad de atención al usuario, desde la apertura de esta llamada.
 
@@ -109,10 +109,10 @@ El SLA arriba mencionado es utilizado en esta criticidad presentada y es el est�
 
 El usuario del sistema debe seleccionar el tipo de criticidad:
 
-*Emergencia
-*Alta
-*Media
-*Baja
+  * Emergencia
+  * Alta
+  * Media
+  * Baja
 
 El tipo de criticidad de la tabla SLA 5x8 de Ustore varía en función del problema que se haya producido, con el fin de clasificar el tipo de llamada que está siendo creada por el usuario.
 
@@ -176,7 +176,7 @@ Al hacer clic en el cuerpo del correo electrónico, el usuario es conducido a la
 Consulta de las Llamadas abiertas
 ---------------------------------
 
-En esta pantalla, el usuario puede consultar el status de todas las llamadas, si están abiertas o cerradas. Al elegir por la descripción detallada, basta pulsar sobre el número de la llamada, una nueva pantalla presenta las informaciones.
+En esta pantalla, el usuario puede consultar el *status* de todas las llamadas, si están abiertas o cerradas. Al elegir por la descripción detallada, basta pulsar sobre el número de la llamada, una nueva pantalla presenta las informaciones.
 
 .. image:: /figuras/tickets/013_tickets_list.png
     :alt: Opened tickets list
@@ -188,7 +188,7 @@ Conclusión
 ----------
 
 
-Este documento presenta una descripción general del sistema de apertura de llamadas - Standard 5 x 8 Ustore. El sistema tiene como objetivo gestionar las llamadas, atender a los clientes, en el menor tiempo posible y generar métricas de los resultados.
+Este documento presenta una descripción general del sistema de apertura de llamadas - Standard 5x8 Ustore. El sistema tiene como objetivo gestionar las llamadas, atender a los clientes, en el menor tiempo posible y generar métricas de los resultados.
 
 ====
 

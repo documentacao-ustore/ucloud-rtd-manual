@@ -37,7 +37,7 @@ Before accessing the system on http://suporte.usto.re, the requirement is that t
 How to log in the tickets opening system
 -----------------------------------------
 
-The application user must click on one of the options presented in the home screen (Image 1 displayed above) to open a new Ticket.
+The application user must click on one of the options presented in the home screen (Image displayed above) to open a new Ticket.
 
 On this screen, the user can select any of the following buttons: ``Open New Ticket`` or ``Open new Ticket``. From this option, the new screen is presented. It is the system authentication screen, the user must enter their credentials received through email, when creating their registry. 
 
@@ -105,10 +105,10 @@ The SLA above is used in this criticality presented and it is the “Ustore’s 
 
 The system user must select the type of criticality:
 
-* Emergency
-* High
-* Moderate
-*  Low
+  * Emergency
+  * High
+  * Moderate
+  * Low
 
 
 The criticality type of the Ustore 5x8 SLA varies according to the occurred problem, in order to classify the type of ticket that is being created by the user.
