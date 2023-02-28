@@ -39,7 +39,7 @@ How to log in the tickets opening system
 
 The application user must click on one of the options presented in the home screen (Image displayed above) to open a new Ticket.
 
-On this screen, the user can select any of the following buttons: ``Open New Ticket`` or ``Open new Ticket``. From this option, the new screen is presented. It is the system authentication screen, the user must enter their credentials received through email, when creating their registry. 
+On this screen, the user can select any of the button: ``Open New Ticket``. From this option, the new screen is presented. It is the system authentication screen, the user must enter their credentials received through email, when creating their registry. 
 
 .. image:: /figuras/tickets/002_login_screen.png
     :alt: Login screen 
