@@ -35,17 +35,21 @@ Após essa compra o usuário recebe suas credenciais de acesso, enviadas diretam
     :align: center
 ======
 
-O usuário deve preencher os campos ``login`` e ``senha``, com as credenciais recebidas do administrador da plataforma. E clicar no botão ``Entrar``, após este procedimento, a tela inicial do portal é apresentada.
+O usuário deve preencher os campos ``login`` e ``senha``, com as credenciais recebidas do administrador da plataforma. 
+
+Clicar no botão ``Entrar``. 
+
+Após este procedimento, a tela inicial do Portal é apresentada.
 
 
 Visão Geral
 -----------
 
 
-De início, é relevante entender o impacto de algumas ferramentas existentes no menu superior direito. 
+De início, é importante entender o impacto de algumas ferramentas existentes no menu superior direito. 
   
 
-Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe componentes relevantes, descritos em detalhes.
+Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe componentes relevantes, descritos detalhadamente na sequência.
 
 
 
@@ -55,13 +59,13 @@ Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe comp
 ======
 
  
-**Ícone de notificação**  |icone_tarefas|: Esse ícone é um ponto relevante para a visualização de todas as atividades que são realizadas no portal, através dele é possível observar as ações mais recentes, refletindo em forma de notificação a tela de Tarefas.
+**Ícone de notificação**  |icone_tarefas|: Este ícone é um ponto relevante para a visualização de todas as atividades que são realizadas no Portal. Através dele é possível observar as ações mais recentes, refletindo em forma de notificação a tela de Tarefas.
 
 
   
-**Configuração de conta**: Possibilita acessar os detalhes da conta do usuário, onde é possível alterar o e-mail, o telefone de contato e gerenciar usuários em seu Contrato. Este botão ao ser clicado, direciona para a página de Administração.
+**Configuração de conta**: Possibilita acessar os detalhes da conta criada, onde é possível alterar o e-mail, o telefone de contato e gerenciar usuários em seu Contrato. Este botão direciona para o menu de **Administração**.
 
-Para a visualização dos serviços do DCI existem alguns menus na lateral da plataforma, neles pode-se encontrar algumas informações relevantes ao produto.
+Para a completa visualização dos serviços do DCI existem alguns menus na lateral da plataforma, nestes é possível encontrar informações valiosas ao produto.
   
 
 
@@ -72,7 +76,7 @@ Para a visualização dos serviços do DCI existem alguns menus na lateral da pl
 
 
 
-**DCI**: Este menu contém submenus que possibilitam a visualização das suas portas, circuitos e excursionamentos. 
+**DCI**: Este menu contém submenus que possibilitam visualizar Portas, Circuitos e Excursionamentos. 
 
 
 **Tarefas**: Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
@@ -82,24 +86,40 @@ Painel de Tarefas
 -----------------
 
 
-Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma, aqui é possível visualizar quaisquer casos de erro, acompanhar o status dos pedidos e cancelar algumas operações. 
+Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. O menu "Tarefas" possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
+
+Esta tela apresenta as funcionalidades de “Pesquisa” e “Refresh”, além das abas de “Tarefas”, “Aprovações Pendentes” e “Tarefas Agendadas”.
+ 
+A aba Tarefas apresenta onze tipos de informações divididas em colunas: 
+
+  * Operação
+  * ID do pedido
+  * Designação
+  * Razão social
+  * Autor
+  * Erro
+  * Progresso em porcentagem
+  * Data de início
+  * Duração
+  * Status
+  * Ação
 
 
-A tela de tarefas funciona com alguns status para orientação de acompanhamento:
+A coluna *status* pode exibir  três estados distintos, são eles ``Sucesso``, ``Falha`` ou ``Aprovada`` o objetivo deste estado é direcionar a ação de acompanhamento:
 
 
   
-**Status de Sucesso** - coloração verde, significa que a operação foi concluída com sucesso.
+**Status de Sucesso** - exibido na coloração verde, significa que a operação foi concluída com sucesso.
  
   
-**Status de Falha** - coloração vermelha, significa que ocorreu algum problema durante a operação, na própria tarefa falhada é possível constatar qual é o motivo da falha, através da coluna de Erro.
+**Status de Falha** - apresentado na coloração vermelha, significa que ocorreu algum problema durante a operação. Na própria tarefa falhada é possível constatar qual é o motivo da irregularidade, através da coluna de "Erro".
 
   
-**Status de Aprovada** - coloração verde, significa que a operação ocorreu com sucesso. Porém depende de alguma ação do usuário. 
+**Status de Aprovada** - mostrada na coloração verde, significa que a operação ocorreu com sucesso. Porém depende de alguma ação do usuário, seja ele o "admin" ou "user": 
 
-Para casos como "Primeira Venda", fica pendente ao usuário a confirmação do *Golden Jumper* de ambas as portas. 
+    * Para casos como "Primeira Venda", fica pendente ao usuário a confirmação do *Golden Jumper* de ambas as portas. 
 
-Para os casos de venda subsequente de portas, fica pendente o *Golden Jumper* da porta em questão.
+    * Para os casos de venda subsequente de portas, fica pendente o *Golden Jumper* da porta em questão.
 
 
 
@@ -115,8 +135,7 @@ Tela de Portas
 --------------
 
 
-Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. 
-Ao clicar em uma porta, é possível visualizar os detalhes da mesma.
+Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. Ao clicar em uma porta, é possível visualizar os detalhes da mesma.
 
 
 
@@ -140,7 +159,7 @@ Tela Circuitos
 --------------
 
 
-Esta tela permite visualizar seus recursos de circuitos, além disso, pode-se observar as ações a serem tomadas com cada item. 
+Esta tela permite visualizar seus recursos de circuitos, possibilitando observar as ações a serem tomadas com cada item. 
 
 
 .. image:: /figuras/fig_dci/07_menu_circuitos.png
@@ -148,14 +167,14 @@ Esta tela permite visualizar seus recursos de circuitos, além disso, pode-se ob
     :align: center
 ======
 
-Ao clicar em cada circuito individualmente, é possível visualizar as informações do mesmo, um histórico de ações que foram realizadas nesse circuito e o histórico de excursionamento do mesmo. 
+Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
 
 .. image:: /figuras/fig_dci/08_menu_circuito_04.png
     :alt: Menu Circuitos 
     :align: center
 ======
 
-Além disso, também é possível realizar algumas operações dentro do circuito, como por exemplo, a alteração de VLAN ou a mudança de tipo. 
+Além disso, é permitido realizar algumas operações dentro do circuito, como por exemplo, a alteração de VLAN ou a mudança de tipo. 
 
 
 
