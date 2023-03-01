@@ -96,14 +96,41 @@ Painel de Tarefas
 -----------------
 
 
-Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. O menu "Tarefas" possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
+Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. 
 
-Esta tela apresenta as funcionalidades:
-  * “Pesquisa” e “Refresh”
-  * Além das abas: 
-       * “Tarefas”, “Aprovações Pendentes” e “Tarefas Agendadas”.
+.. image:: /figuras/fig_dci/04_menu_tarefas.png
+    :alt: Menu Tarefas 
+    :align: center
+======
+
+Este menu possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
+
+
+.. image:: /figuras/fig_dci/04_head_tarefas.png
+    :alt: Cabeçalho Tarefas 
+    :align: center
+======
+
+A tela acima apresenta o símbolo do menu tarefas, o nome do usuário logado, em seguida as funcionalidades:
+
+  * Pesquisa 
+  * Refresh
+
+
+
+
+As tarefas são apresentadas em formato de lista, categorizadas em abas contendo as informações sobre 
+
+       * Tarefas
+       * Aprovações Pendentes
+       * Tarefas Agendadas
  
-A aba Tarefas apresenta onze tipos de informações divididas em colunas: 
+.. image:: /figuras/fig_dci/04_lista_tarefas.png
+    :alt: Lista de tarefas 
+    :align: center
+======
+
+A aba "Tarefas" exibe onze tipos de informações divididas em colunas: 
 
   * Operação
   * ID do pedido
@@ -118,8 +145,10 @@ A aba Tarefas apresenta onze tipos de informações divididas em colunas:
   * Ação
 
 
-A coluna *status* pode exibir  três estados distintos, são eles ``Sucesso``, ``Falha`` ou ``Aprovada`` o objetivo deste estado é direcionar a ação de acompanhamento:
+Detalhando a coluna *status* que mostra três estados distintos:
+ * São eles ``Sucesso``, ``Falha`` ou ``Aprovada``.
 
+O objetivo deste estado é direcionar a ação de acompanhamento, de acordo com o seguinte:
 
   
 **Status de Sucesso** - exibido na coloração verde, significa que a operação foi concluída com sucesso.
@@ -136,20 +165,13 @@ A coluna *status* pode exibir  três estados distintos, são eles ``Sucesso``, `
 
 
 
-.. image:: /figuras/fig_dci/04_menu_tarefas.png
-    :alt: Menu Tarefas 
-    :align: center
-======
-
-
 
 
 Tela de Portas
 --------------
 
 
-Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. Ao clicar em uma porta, é possível visualizar os detalhes da mesma.
-
+Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. 
 
 
 .. image:: /figuras/fig_dci/05_menu_portas.png
@@ -157,13 +179,34 @@ Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se
     :align: center
 ======
 
+Três funcionalidades são apresentadas: o botão para ``Exibir recursos desabilitados``, a ação de ``Procurar`` e a de atualização da página ``Refresh``.
 
+As informações das portas, são divididas em seis colunas, que são apresentadas, conforme mencionadas abaixo:
 
+  * Designação
+  * Status
+  * Banda
+  * Tipo
+  * Data Center
+  * Golden Jumper
+
+Ao selecionar uma porta, é possível visualizar os detalhes de forma completa. A nova página apresenta três funcionalidades para ``Baixar LOA``, ``Reenviar LOA`` e o botão de ``Confirmado``.
 
 .. image:: /figuras/fig_dci/06_menu_porta_bre.png
     :alt: Menu porta bre 
     :align: center
 ======
+
+São exibidos também dois *cards* de informações: Geral e Vlans. 
+
+No *card* de Vlans, a funcionalidade de atualização da página ``Refresh`` é apresentada, e as informações são divididas em quatro colunas: 
+
+  * Vlans em Uso
+  * Circuits
+  * Banda
+  * Banda Base
+
+As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100.
 
 
 
