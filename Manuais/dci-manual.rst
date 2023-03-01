@@ -65,6 +65,9 @@ Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe comp
   
 **Configuração de conta**: Possibilita acessar os detalhes da conta criada, onde é possível alterar o e-mail, o telefone de contato e gerenciar usuários em seu Contrato. Este botão direciona para o menu de **Administração**.
 
+Menu Administração
+------------------
+
 Para a completa visualização dos serviços do DCI existem alguns menus na lateral da plataforma, nestes é possível encontrar informações valiosas ao produto.
   
 
@@ -76,10 +79,17 @@ Para a completa visualização dos serviços do DCI existem alguns menus na late
 
 
 
-**DCI**: Este menu contém submenus que possibilitam visualizar Portas, Circuitos e Excursionamentos. 
+**DCI**
+~~~~~~~
+
+Este menu contém submenus que possibilitam visualizar Portas, Circuitos e Excursionamentos. 
 
 
-**Tarefas**: Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
+**Tarefas**
+~~~~~~~~~~~~
+
+Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
+
 
 
 Painel de Tarefas
@@ -88,7 +98,10 @@ Painel de Tarefas
 
 Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. O menu "Tarefas" possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
 
-Esta tela apresenta as funcionalidades de “Pesquisa” e “Refresh”, além das abas de “Tarefas”, “Aprovações Pendentes” e “Tarefas Agendadas”.
+Esta tela apresenta as funcionalidades:
+  * “Pesquisa” e “Refresh”
+  * Além das abas: 
+       * “Tarefas”, “Aprovações Pendentes” e “Tarefas Agendadas”.
  
 A aba Tarefas apresenta onze tipos de informações divididas em colunas: 
 
@@ -187,6 +200,8 @@ Este documento apresentou uma descrição breve das funcionalidades contidas no 
 
 
 ====
+
+**Equipe Ustore**
 
 DCI Manual de funcionalidades - 08/02/2023.
 
