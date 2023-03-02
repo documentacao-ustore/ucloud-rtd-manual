@@ -18,7 +18,7 @@ Introdução
 ----------
 
 
-Este documento consiste em um manual com a descrição breve das principais funcionalidades contidas no produto Data Center Interconnect - DCI da plataforma Ustore.
+Este documento consiste em um manual com a descrição breve das principais funcionalidades contidas no produto **Data Center Interconnect - DCI** da plataforma Ustore.
 
 ----
 
