@@ -18,11 +18,12 @@ Introdução
 ----------
 
 
-Este documento consiste em um manual com a descrição breve das principais funcionalidades contidas no produto DCI da plataforma Ustore.
+Este documento consiste em um manual com a descrição breve das principais funcionalidades contidas no produto Data Center Interconnect - DCI da plataforma Ustore.
 
+----
 
-Login
------
+Como logar no DCI
+-----------------
 
 
 Para ter acesso à plataforma é necessário,  ter realizado uma primeira compra no Painel do Cliente. 
@@ -40,6 +41,8 @@ O usuário deve preencher os campos ``login`` e ``senha``, com as credenciais re
 Clicar no botão ``Entrar``. 
 
 Após este procedimento, a tela inicial do Portal é apresentada.
+
+----
 
 
 Visão Geral
@@ -64,6 +67,9 @@ Para isto, o recorte do menu superior demonstrado na imagem seguinte, exibe comp
 
   
 **Configuração de conta**: Possibilita acessar os detalhes da conta criada, onde é possível alterar o e-mail, o telefone de contato e gerenciar usuários em seu Contrato. Este botão direciona para o menu de **Administração**.
+
+----
+
 
 Menu Administração
 ------------------
@@ -101,7 +107,7 @@ Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se
 
 Três funcionalidades são apresentadas: o botão para ``Exibir recursos desabilitados``, a ação de ``Procurar`` e a de atualização da página ``Refresh``.
 
-As informações das portas, são divididas em seis colunas, que são apresentadas, conforme mencionadas abaixo:
+As informações das portas, são divididas em seis colunas e apresentadas, conforme mencionadas abaixo:
 
   * Designação
   * Status
@@ -142,6 +148,20 @@ Esta tela permite visualizar seus recursos de circuitos, possibilitando observar
     :alt: Menu Circuitos 
     :align: center
 ======
+
+Três funcionalidades são apresentadas: o botão para ``Exibir recursos desabilitados``, a ação de ``Procurar`` e a de atualização da página ``Refresh``.
+
+As informações dos circuitos, são separadas em oito colunas e apresentadas, conforme mencionadas abaixo:
+
+  * Designação
+  * Tipo
+  * Banda Base
+  * Banda Atual
+  * Port - Vlan ID
+  * Port - Vlan ID
+  * Status
+  * Golden Jumper
+
 
 Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
 
@@ -233,21 +253,20 @@ O objetivo deste estado é direcionar a ação de acompanhamento, de acordo com 
     * Para os casos de venda subsequente de portas, fica pendente o *Golden Jumper* da porta em questão.
 
 
-
-
 ====
+
 
 Conclusão
 ---------
 
-Este documento apresentou uma descrição breve das funcionalidades contidas no produto DCI da plataforma Ustore.
+Este documento apresentou uma descrição breve das funcionalidades contidas no produto Data Center Interconnnect - DCI, desenvolvido pela Ustore.
 
 
 ====
 
 **Equipe Ustore**
 
-DCI Manual de funcionalidades - 08/02/2023.
+DCI Manual de funcionalidades - 08/02/2023. Revisão em 02/03/2023.
 
 
 
