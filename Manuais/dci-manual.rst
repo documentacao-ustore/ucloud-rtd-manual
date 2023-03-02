@@ -128,7 +128,7 @@ São exibidos também dois *cards* de informações: Geral e Vlans.
 No *card* de Vlans, a funcionalidade de atualização da página ``Refresh`` é apresentada, e as informações são divididas em quatro colunas: 
 
   * Vlans em Uso
-  * Circuits
+  * Circuitos
   * Banda
   * Banda Base
 
