@@ -31,6 +31,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :hidden:
    :caption: Manual English:
    
+   MEnglish/dci.eng
    MEnglish/tickets.eng
    MEnglish/usavings-usuario.eng
 
