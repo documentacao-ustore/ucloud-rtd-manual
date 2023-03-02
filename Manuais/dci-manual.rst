@@ -86,7 +86,7 @@ Para a completa visualização dos serviços do DCI existem alguns menus na late
 
 
 **Menu DCI**
-~~~~~~~~~~~~
+------------
 
 Este menu contém submenus que possibilitam visualizar Portas, Circuitos e Excursionamentos. 
 
@@ -94,7 +94,7 @@ Este menu contém submenus que possibilitam visualizar Portas, Circuitos e Excur
 
 
 Submenu Portas
---------------
+~~~~~~~~~~~~~~
 
 
 Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. 
@@ -138,7 +138,7 @@ As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100.
 
 
 Submenu Circuitos
------------------
+~~~~~~~~~~~~~~~~~~
 
 
 Esta tela permite visualizar seus recursos de circuitos, possibilitando observar as ações a serem tomadas com cada item. 
@@ -175,14 +175,14 @@ Além disso, é permitido realizar algumas operações dentro do circuito, como 
 ----
 
 
-**Menu Tarefas**
-~~~~~~~~~~~~~~~~
+Menu Tarefas
+------------
 
 Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
 
 
 Painel de Tarefas
------------------
+~~~~~~~~~~~~~~~~~
 
 
 Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. 
