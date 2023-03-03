@@ -110,11 +110,11 @@ Três funcionalidades são apresentadas: o botão para ``Exibir recursos desabil
 As informações das portas, são divididas em seis colunas e apresentadas, conforme mencionadas abaixo:
 
   * Designação
-  * Status
+  * *Status*
   * Banda
   * Tipo
-  * Data Center
-  * Golden Jumper
+  * *Data Center*
+  * *Golden Jumper*
 
 Ao selecionar uma porta, é possível visualizar os detalhes de forma completa. A nova página apresenta três funcionalidades para ``Baixar LOA``, ``Reenviar LOA`` e o botão de ``Confirmado``.
 
@@ -133,8 +133,6 @@ No *card* de Vlans, a funcionalidade de atualização da página ``Refresh`` é 
   * Banda Base
 
 As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100.
-
-
 
 
 Submenu Circuitos
@@ -157,10 +155,10 @@ As informações dos circuitos, são separadas em oito colunas e apresentadas, c
   * Tipo
   * Banda Base
   * Banda Atual
-  * Port - Vlan ID
-  * Port - Vlan ID
-  * Status
-  * Golden Jumper
+  * *Port - Vlan ID*
+  * *Port - Vlan ID*
+  * *Status*
+  * *Golden Jumper*
 
 
 Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
@@ -225,11 +223,11 @@ A aba "Tarefas" exibe onze tipos de informações divididas em colunas:
   * Designação
   * Razão social
   * Autor
-  * Erro
+  * *Erro*
   * Progresso em porcentagem
   * Data de início
   * Duração
-  * Status
+  * *Status*
   * Ação
 
 
