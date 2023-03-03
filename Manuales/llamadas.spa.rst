@@ -194,4 +194,4 @@ Este documento presenta una descripción general del sistema de apertura de llam
 
 **Equipo Ustore**
 
-Apertura de llamadas - Manual del usuario - v.1.4 - Revisión y Traducción 28/02/2023
+Apertura de llamadas - Manual del usuario - v.1.4 - Revisión: 06/02/2023.
