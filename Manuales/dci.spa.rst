@@ -167,7 +167,7 @@ Esta pantalla permite visualizar sus recursos de circuito, posibilitando observa
 
 
 
-Tres funcionalidades son presentadas: el botón para ``Exhibir recursos deshabilitados``, la acción de ``Buscar'`` y la de actualización de la página ``Refresh``.
+Tres funcionalidades son presentadas: el botón para ``Exhibir recursos deshabilitados``, la acción de ``Buscar`` y la de actualización de la página ``Refresh``.
 
 
 Las informaciones de los circuitos se separan en ocho columnas y se presentan como se indica a continuación:
@@ -230,7 +230,7 @@ La pantalla de arriba presenta en la parte superior derecha el símbolo de tarea
 
 
   * ``Búsqueda`` Campo de búsqueda que facilita encontrar informaciones rápidamente.
-  * ``Refresh`` campo que permite actualizar la página con un solo clic. 
+  * ``Refresh`` Campo que permite actualizar la página con un solo clic. 
 
 Las tareas son presentadas en formato de lista, categorizadas en pestañas que contienen las informaciones sobre:
 
