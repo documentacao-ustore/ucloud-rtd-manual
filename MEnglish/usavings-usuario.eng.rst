@@ -1053,7 +1053,7 @@ Thus, this document concludes the general description of the procedures required
 **Ustore Team**
 
 
-uSavings User’s Manual - Edition 2 v.7 - 20/05/2020 - Review 22/11/2022.
+uSavings User’s Manual - Edition 2 v.7 - May 20th, 2022 - Review November 22nd, 2022.
 
 
 
