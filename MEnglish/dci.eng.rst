@@ -17,7 +17,7 @@ Introduction
 ------------
 
 
-This document consists of a manual with a brief description of the main functionalities contained in the **Data Center Interconnect** - DCI product, from the Ustore platform.
+This document consists of a manual with a brief description of the main functionalities contained in the **Data Center Interconnect - DCI** product, from the Ustore platform.
 
 ----
 
@@ -248,7 +248,7 @@ The objective of this status is to direct the tracking action, according to the 
 Conclusion
 ----------
 
-This document presented a brief description of the functionalities contained on the **Data Center Interconnect** - DCI product, developed by the Ustore.
+This document presented a brief description of the functionalities contained on the **Data Center Interconnect - DCI** product, developed by the Ustore.
 
 
 ====
