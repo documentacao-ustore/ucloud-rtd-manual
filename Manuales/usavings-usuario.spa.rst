@@ -1062,10 +1062,7 @@ Así, este documento concluye la descripción general de los procedimientos requ
 
 
 
-uSavings Manual de utilización
-Edición 2 v.7
-02/05/2022
-Revisión 22/11/2022
+uSavings Manual de utilización - Edición 2 v.7 - 02/05/2022. Revisión 22/11/2022.
 
 
 
