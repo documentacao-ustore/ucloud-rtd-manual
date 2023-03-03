@@ -298,7 +298,7 @@ Este documento presenta una breve descripción de las funcionalidades contenidas
 ====
 
 
-DCI Manual de Funcionalidades - Revisión y traducción: 03/03/2023.
+DCI Manual de Funcionalidades: 08/02/2023. Revisión: 02/03/2023.
 
 
 .. |icone_tarefas| image:: /figuras/ucloud_icone_sino.png
