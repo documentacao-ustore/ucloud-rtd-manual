@@ -253,7 +253,7 @@ This document presented a brief description of the functionalities contained on 
 
 ====
 
-DCI Functionalities manual - 02/08/2023. Review on 03/02/2023.
+DCI Functionalities manual - February 8th, 2023 - Review on March 2nd, 2023.
 
 
 
