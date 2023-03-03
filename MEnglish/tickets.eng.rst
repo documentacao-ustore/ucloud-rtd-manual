@@ -193,6 +193,6 @@ This document presented a general description of the tickets opening system - Us
 **Ustore team** 
 
 
-Tickets opening - Usage manual - v.1.4 - Review 02/24/2023.
+Tickets opening - Usage manual - v.1.4 - Review on February 24th, 2023.
 
 
