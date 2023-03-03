@@ -17,7 +17,7 @@ Introducción
 ------------
 
 
-Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect** - DCI de la plataforma Ustore.
+Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect - DCI** de la plataforma Ustore.
 
 
 ----
@@ -292,7 +292,7 @@ El objetivo de este estado es orientar la acción de seguimiento, de acuerdo con
 Conclusión
 ----------
 
-Este documento presenta una breve descripción de las funcionalidades contenidas en el producto **Data Center Interconnect** - DCI, desarrollado por Ustore.
+Este documento presenta una breve descripción de las funcionalidades contenidas en el producto **Data Center Interconnect - DCI**, desarrollado por Ustore.
 
 
 ====
