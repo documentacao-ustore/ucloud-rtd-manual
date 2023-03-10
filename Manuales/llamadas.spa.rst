@@ -95,8 +95,8 @@ En la pantalla que se muestra a continuación, el usuario puede seleccionar la c
 
 Para orientar esta criticidad, el usuario debe consultar la siguiente tabla del SLA (Service Level Agreement) que representa el contrato de nivel de servicio definido entre las partes en el momento de la contratación de la prestación de servicios.
 
-.. image:: /figuras/tickets/006_tickets_table.png
-    :alt: Tickets table 5x8  
+.. image:: /figuras/chamados/spa_tabela_5x8.png
+    :alt: Tabla 5x8  
     :align: center
 ======
 
