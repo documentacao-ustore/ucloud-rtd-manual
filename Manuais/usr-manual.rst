@@ -7514,7 +7514,7 @@ Os filtros escolhidos pelo usuário permanecem preenchidos na cor “laranja”,
 
 
 
-Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-se clicar no botão ``Pesquisar``. Caso o usuário deseje refazer a busca, basta clicar no botão ``Voltar`` e reiniciar todo o processo. 
+Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-se clicar no botão ``Pesquisar``.  
 
 
 .. image:: /figuras/fig_rcf/08_pesquisar_apos_selecao.png
@@ -7522,8 +7522,11 @@ Finalizada a seleção dos dados do Relatório Consolidado de Faturamento, deve-
    :align: center
 ----
 
+Caso o usuário deseje refazer a busca, basta clicar no botão ``Voltar`` e reiniciar todo o processo.
 
 .. attention:: |atencao| No canto superior direito estão os ícones das opções de abrir e fechar faturas. 
+
+No recorte do canto superior direito da tela, a imagem seguinte apresenta o ícone acionado "Abrir todas as faturas".
 
 .. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
    :alt: abrir todas faturas
