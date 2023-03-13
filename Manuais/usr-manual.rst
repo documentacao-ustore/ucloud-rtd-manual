@@ -7885,8 +7885,8 @@ Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário co
 ----
 
 
-Tendência de Faturamento
-------------------------
+Relatório Tendência de Faturamento (RTF)
+----------------------------------------
 
 No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
 
