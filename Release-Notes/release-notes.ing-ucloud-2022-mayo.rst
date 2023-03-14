@@ -208,17 +208,17 @@ There are two classes of “Accounts”, they are categorized into two types, th
 
   * For example: 
 
-  In case of a multinational corporation using an Integrator account, it can be considered an “Integrator Account” for the countries that comprise it: Mexico, Brazil, Chile and Colombia.
+    In case of a multinational corporation using an Integrator account, it can be considered an “Integrator Account” for the countries that comprise it: Mexico, Brazil, Chile and Colombia.
 
-  The corporation is responsible for creating other accounts and escalating the other users` permissions. Its particularity is the list of all the producer accounts, the list of all associated contracts and can apply business rules.
+    The corporation is responsible for creating other accounts and escalating the other users` permissions. Its particularity is the list of all the producer accounts, the list of all associated contracts and can apply business rules.
 
 * \ B. \ **Producer Account** This producer account belongs to the organization which consumes the resource, represents a minor clustering unit and can operate the entire portal.
 
   * For example: 
 
-  Resuming the example above, this multinational corporation creates the “producer accounts” for the organizations that belong to it within a certain country listed above, in Brazil, the organization has companies A and B which administers the contracts a1 and b1.
+    Resuming the example above, this multinational corporation creates the “producer accounts” for the organizations that belong to it within a certain country listed above, in Brazil, the organization has companies A and B which administers the contracts a1 and b1.
 
-  Below is an illustration that represents the complete concept of the scope of the “Account” functionality implemented in the uCloud Platform. The names and denominations used are merely illustrative.
+Below is an illustration that represents the complete concept of the scope of the "*Account*" functionality implemented in the uCloud Platform. The names and denominations used are merely illustrative.
 
   .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_arquitetura_conceitual003-us-en.png
    :align: center
@@ -268,7 +268,9 @@ The uCloud Platform Virtual Tags
 We mentioned above that the process of linking a TAGs to a resource is manual, time consuming and, above all, it is not automatically repeated for new services of a resource that already has a linked TAG.
 
 The new uCloud Platform Virtual TAGs functionality creates an automation for the TAGs linking process to existing resources in the public cloud service provider’s environment.
-The uCloud Platform Virtual TAG process may automatically link a specific TAG to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. It’s important to highlight the conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
+The uCloud Platform Virtual TAG process may automatically link a specific TAG to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. 
+
+.. attention:: The conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
 
 See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources.
 
@@ -342,9 +344,11 @@ In case of the Virtual TAGs application, there are some tips and basic restricti
 
 * **Maximum value size**: 256 characters
 
-* **Allowed characters**: the allowed characters are: letters (a-z, A-Z), numbers (0-9) and representable spaces, besides the following characters: + - = . _ : / @.
+* **Allowed characters**: 
+  
+  * The allowed characters are: letters (a-z, A-Z), numbers (0-9) and representable spaces, besides the following characters: + - = . _ : / @.
 
-* To enable instance tags in metadata, the instance tags keys allow use of the letters (a-z, A-Z), numbers (0-9) and the following characters: + - = . ,  _ : @. Avoid spaces or / , and it can’t form only . (a dot), .. (two dots) or _index.
+  * To enable instance tags in metadata, the instance tags keys allow use of the letters (a-z, A-Z), numbers (0-9) and the following characters: + - = . ,  _ : @. Avoid spaces or / , and it can’t form only . (a dot), .. (two dots) or _index.
 
 .. note:: For any resource, each key tag must be exclusive and can only have one value.
 
@@ -375,15 +379,15 @@ We can summarize the Virtual TAGs functionality use process in two distinct mome
 
 #. **Creation and Automation in the Virtual TAGs use**;
 
-  \ a. \ Provision an identification name for a single Virtual TAGs profile with all the TAGs links based on the Product Name and/or Product Family and/or Resource Identifier combination.
+   \ a. \ Provision an identification name for a single Virtual TAGs profile with all the TAGs links based on the Product Name and/or Product Family and/or Resource Identifier combination.
 
-  \ b. \ Virtual TAGs Link Profile to the cloud identifier (container).
+   \ b. \ Virtual TAGs Link Profile to the cloud identifier (container).
 
-  \ c. \ Perform Billing/Bucket file processing and synchronization.
+   \ c. \ Perform Billing/Bucket file processing and synchronization.
 
-  \ d. \ Visualization of Financial reports on the uCloud Platform using totalization by **TAGs**.
+   \ d. \ Visualization of Financial reports on the uCloud Platform using totalization by **TAGs**.
 
-  \ e. \ If its identified that there are still resources with NO TAGs (remember there are resources the public cloud service provider does not link to any TAG; or that the Product Name, Product Family, Resource Identifier combination was not enough to associate the totality of rows of the billing file), the uCloud Platform allows to address the TAGs absence with the next process.
+   \ e. \ If its identified that there are still resources with NO TAGs (remember there are resources the public cloud service provider does not link to any TAG; or that the Product Name, Product Family, Resource Identifier combination was not enough to associate the totality of rows of the billing file), the uCloud Platform allows to address the TAGs absence with the next process.
 
 2. **Virtual TAGs normalization**;
 
@@ -402,7 +406,7 @@ With the addition of the new functionality in the portal and the possibility to 
 
 #. Linking  a TAG to a cloud resource through the specification of a character sequence that identifies a [**ProductName**], [**ProductFamily**] and/or [**Cloud Identifier**].
 
-  \ a. \ For this flow, the user can specify, for example, that the resource belonging to the ProductName Amazon Elastic Compute Cloud, in the [ProductFamily] **Data Transfer**, linked to the cloud identifier i-0e85640d78d096974 has the TAGs specified  in the form, even if these TAGs are not provided by the cloud.
+   \ a. \ For this flow, the user can specify, for example, that the resource belonging to the ProductName Amazon Elastic Compute Cloud, in the [ProductFamily] **Data Transfer**, linked to the cloud identifier i-0e85640d78d096974 has the TAGs specified  in the form, even if these TAGs are not provided by the cloud.
 
 .. figure:: /figuras/fig_release_note_maio_ing/ucloud_menu_configuração_tag_virtual_ing002.png
    :align: center
@@ -414,7 +418,7 @@ With the addition of the new functionality in the portal and the possibility to 
 
 ----
 
-  \ b. \ Virtual TAGs Link Profile created, to the cloud (container) provisioned on the uCloud Platform.
+   \ b. \ Virtual TAGs Link Profile created, to the cloud (container) provisioned on the uCloud Platform.
 
 .. figure:: /figuras/fig_release_note_maio_ing/ucloud_menu_configuração_tag_virtual_ing004.png
    :align: center
@@ -423,7 +427,7 @@ With the addition of the new functionality in the portal and the possibility to 
 
 2. Normalization of TAGs for resources where TAGs are not returned by the cloud in the product family.
 
-  \ a. \ For this flow, it will be possible to enable that in the act of the cloud ticketing data collection, the obtained resources do not come by default with the cloud provider TAG, they will be normalized with the TAGs that are associated with this resource.
+   \ a. \ For this flow, it will be possible to enable that in the act of the cloud ticketing data collection, the obtained resources do not come by default with the cloud provider TAG, they will be normalized with the TAGs that are associated with this resource.
 
   * If there already is a TAG with the same key on the other side, the TAG will not be overwritten. 
   
@@ -438,6 +442,8 @@ When exporting the billing report, the “Virtual TAGs” return to normal, acco
 ----
 
 The picture above presents the Virtual TAGs application, by the virtual-tag-applier Accountant, and its normalization, using the virtual-tag-normalizer Accountant.
+
+----
 
 Oracle Cloud Infrastructure (OCI)
 =================================
