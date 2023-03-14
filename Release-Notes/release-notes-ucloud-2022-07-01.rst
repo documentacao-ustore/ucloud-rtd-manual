@@ -179,7 +179,7 @@ No portal, os Tiers são categorizados nos níveis de A a J (1 a 10) e calculado
 | **Valor Mensal**   | $1.500 | $3.000 | $4.000 | $6.000 | $8.000 | $16.000 | $24.000 | $32.000 | $40.000 | $64.000 |
 +--------------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 
-.. attention:: ATENÇÃO: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
+.. attention:: Todas as quantidades e valores acima apresentados são meramente ilustrativos, servem apenas como exemplos.
 
 Exemplo de Casos de Uso
 ------------------------
@@ -192,8 +192,9 @@ Segmentação por Contas
 ----------------------
 Existem duas classes de “Contas” elas estão categorizados em dois tipos, as contas do tipo **Integrator** e do tipo **Producer**, detalhadas a seguir:
 
-* **A. Conta Integrator**
-  Esta conta é responsável por criar os perfis das contas integrator e producer, ao criar estes perfis alimenta os tiers e os pacotes, além de estabelecer, a conta producer sua regra de uso. 
+* \ A. \ **Conta Integrator**
+
+Esta conta é responsável por criar os perfis das contas integrator e producer, ao criar estes perfis alimenta os tiers e os pacotes, além de estabelecer, a conta producer sua regra de uso. 
   
   * Para exemplificar: 
   
@@ -205,8 +206,9 @@ Existem duas classes de “Contas” elas estão categorizados em dois tipos, as
 
     A corporação é responsável por criar outras contas e escalar as permissões de outros usuários. Ela tem como particularidade a lista de todas as contas producer, a lista de todos os contratos associados e pode aplicar as regras de negócio.
 
-* **B. Conta Producer**
-  Esta conta producer pertence à organização que consome o recurso, representa uma unidade de menor agrupamento e pode operar todo o portal.
+* \ B. \ **Conta Producer**
+  
+Esta conta producer pertence à organização que consome o recurso, representa uma unidade de menor agrupamento e pode operar todo o portal.
 
   * Por exemplo:
 
@@ -219,13 +221,13 @@ Abaixo segue uma ilustração que apresenta o conceito completo da abrangência 
 
 ----
 
-As Contas Producer podem ter um administrador ou mais (neste nível o perfil deste usuário é de um Administrador do Sistema - ex.: root), os contratos param de ser criados quando o recurso da conta corporativa acaba, os perfis de visualização e permissionamento obedecem a regra de negócio aplicada pela conta integrator.
+As Contas Producer podem ter um administrador ou mais (neste nível o perfil deste usuário é de um Administrador do Sistema - ex.: root), os contratos param de ser criados quando o recurso da conta corporativa acaba, os perfis de visualização e permissionamento obedecem a regra de negócio aplicada pela conta *Integrator*.
 
 A estratégia da utilização da funcionalidade “Contas” entrega uma melhor percepção de valor ao nível de hierarquia que se quer organizar os dados dentro do contexto da organização, ao facilitar seu trânsito nos níveis operacionais, gerenciais e executivos.
 
 Com a criação desta funcionalidade o administrador da conta pode gerenciar as permissões de visualização e permissionamento de cada **usuário** dentro de cada **grupo**, contido em determinado **contrato**. Deste modo, o acesso é negado por padrão, sendo concedido apenas quando as permissões especificarem ‘permitir’.
 
-Adicionalmente, a funcionalidade “Contas” possibilita utilizar as políticas de controle que estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença.
+Adicionalmente, a funcionalidade "*Contas*" possibilita utilizar as políticas de controle que estabelecem as barreiras de proteção de permissão e visualização aos usuários, a depender das características de tipo de usuário, grupo e contrato a que pertença.
 
 Ao estabelecer esses padrões de permissão, acessos e visualizações aos recursos, organiza e qualifica o privilégio que cada usuário terá dentro dos ambientes dos provedores de nuvem pública em que cada contrato/grupo/usuário pertence, criando assim, permissões diferentes e necessárias para criar controles minuciosos em cada conta.
 
@@ -263,7 +265,9 @@ Mencionamos acima que o processo de vincular uma TAGs a um recurso é manual, co
 
 A nova funcionalidade de TAGs Virtuais da Plataforma uCloud cria uma automação para o processo de vinculação de TAGs a recursos existentes no ambiente do provedor de serviço de nuvem pública.
 
-O processamento de TAG Virtual da Plataforma uCloud, pode vincular automaticamente uma TAG específica a um recurso a ser selecionado com base em *Nome de Produto* e/ou *Família de Produto* e/ou *Identificador do Recurso*. Importante ressaltar que a conjunção “e/ou” demonstra o alto grau de granularidade que o usuário pode selecionar para atender ao uso específico de sua necessidade.
+O processamento de TAG Virtual da Plataforma uCloud, pode vincular automaticamente uma TAG específica a um recurso a ser selecionado com base em *Nome de Produto* e/ou *Família de Produto* e/ou *Identificador do Recurso*. 
+
+.. attention:: A conjunção “e/ou” demonstra o alto grau de granularidade que o usuário pode selecionar para atender ao uso específico de sua necessidade.
 
 Vejamos abaixo como a nova implementação de TAGs Virtuais permite automatizar a vinculação de TAGs em recursos.
 
@@ -334,14 +338,16 @@ No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restriç
 * **Número máximo de TAGs por recurso**: 50
 * **Tamanho máximo da chave**: 128 caracteres
 * **Tamanho máximo do valor**: 256 caracteres
-* **Caracteres permitidos**: Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
+* **Caracteres permitidos**: 
 
-* Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
+  * Os caracteres permitidos nos serviços são: letras (a-z, A-Z), números (0-9) e espaços representáveis, além dos seguintes caracteres: + - = . _ : / @.
+
+  * Para habilitar etiquetas de instância em metadados, as chaves de etiquetas de instância permitem usar letras (a-z, A-Z), números (0-9) e os seguintes caracteres: + - = . , _ : @. Evitar espaços ou /, e não podem formar apenas . (um ponto), .. (dois pontos) ou _index.
 
 
 .. note:: Para qualquer recurso, cada chave da etiqueta deve ser exclusiva e pode ter apenas um valor.
 
-.. important:: ATENÇÃO: As chaves e os valores de TAGs são *Case Sensitive*, em outras palavras diferenciam **MAIÚSCULAS de minúsculas**.
+.. important:: As chaves e os valores de TAGs são *Case Sensitive*, em outras palavras diferenciam **MAIÚSCULAS de minúsculas**.
 
 .. warning:: O prefixo **aws** é reservado para uso da Amazon Web Service (AWS). Não é possível editar nem excluir a chave ou o valor de uma TAG quando ela tem uma chave de TAG com esse prefixo. As TAGs com o prefixo aws: não contam para as TAGs por limite de recurso.
 
@@ -352,10 +358,10 @@ Esta nova implementação possibilita taguear os recursos ausentes de marcação
 
 Existem algumas estratégias comuns de marcação que auxiliam na identificação e gerenciamento de recursos na nuvem, para organizar recursos e para alocar custos, além de várias categorias de marcação na nuvem, por exemplo na AWS:
 
-* **Técnicas**
-* **Automação**
-* **Comerciais**
-* **Segurança**
+* Técnicas
+* Automação
+* Comerciais
+* Segurança
 
 As TAGs adicionais apresentam maior eficiência por criar agrupamentos, TAGs técnicas, TAGs para automação, TAGs comerciais, TAGs de segurança. Dentre elas podemos citar algumas: Nome, ID do aplicativo, Função do aplicativo, Cluster, Ambiente, Versão, Data/Hora, Aceitar/Recusar, Segurança, Projeto. Proprietário, Centro de custo/Unidade de negócios, Cliente, Confidencialidade e Conformidade.
 
@@ -365,16 +371,21 @@ Podemos resumir que o processo de utilização da funcionalidade de TAGs Virtuai
 
 1. **Criação e Automação do uso de TAGs Virtuais**
 
-  a. Provisionar um nome de identificação para **um único** perfil de TAGs Virtuais com todas as vinculações de TAGs com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*.
-  b. Vincular Perfil de TAGs Virtuais ao identificador de nuvem (*container*).
-  c. Executar o processamento e sincronização do arquivo de Billing/Bucket.
-  d. Visualização dos relatórios Financeiros na Plataforma uCloud usando a totalização por **TAGs**.
-  e. Se for identificado que ainda existem recursos SEM TAGs (lembrar existem recursos que o provedor de serviço de nuvem pública não vincula a nenhuma TAG; ou que a combinação de *ProductName, ProductFamily, Identificador de Recurso*, não foi suficiente para associar a totalidade de linhas do arquivo de *billing*), a Plataforma uCloud permite endereçar esta ausência de TAGs com o processo seguinte.
+   \ a. \ Provisionar um nome de identificação para **um único** perfil de TAGs Virtuais com todas as vinculações de TAGs com base na combinação de *Product Name* e/ou *ProductFamily* e/ou *Identificador do Recurso*.
+
+   \ b. \ Vincular Perfil de TAGs Virtuais ao identificador de nuvem (*container*).
+
+   \ c. \ Executar o processamento e sincronização do arquivo de Billing/Bucket.
+
+   \ d. \ Visualização dos relatórios Financeiros na Plataforma uCloud usando a totalização por **TAGs**.
+
+   \ e. \ Se for identificado que ainda existem recursos SEM TAGs (lembrar existem recursos que o provedor de serviço de nuvem pública não vincula a nenhuma TAG; ou que a combinação de *ProductName, ProductFamily, Identificador de Recurso*, não foi suficiente para associar a totalidade de linhas do arquivo de *billing*), a Plataforma uCloud permite endereçar esta ausência de TAGs com o processo seguinte.
 
 2. **Normalização de TAGs Virtuais**
 
-  a. Este processo somente deve ser aplicado quando a combinação existente no Perfil de TAGs Virtuais não consegue aplicar TAGs para todos recursos.
-  b. Este processo deve ser executado APENAS UMA VEZ por mês pois demanda um certo tempo para completar a normalização de todas as linhas do billing no período do mês corrente. *Este processo deve ser inicializado manualmente e normaliza as TAGS Virtuais apenas e somente para um único período, não é recorrente ou automático*.
+   \ a. \ Este processo somente deve ser aplicado quando a combinação existente no Perfil de TAGs Virtuais não consegue aplicar TAGs para todos recursos.
+
+   \ b. \ Este processo deve ser executado APENAS UMA VEZ por mês pois demanda um certo tempo para completar a normalização de todas as linhas do billing no período do mês corrente. *Este processo deve ser inicializado manualmente e normaliza as TAGS Virtuais apenas e somente para um único período, não é recorrente ou automático*.
 
 A seguir a tela que apresenta a nova implementação no portal uCloud:
 
@@ -387,7 +398,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 1. Vinculação de uma TAG para um recurso da nuvem através da especificação de uma sequência de caracteres que identifica um **[ProductName]** e/ou **[ProductFamily]** e/ou **[Identificador da Nuvem]**.
 
-  a. Para esse fluxo o usuário pode especificar, por exemplo, que o recurso pertencente ao *ProductName Amazon Elastic Compute Cloud*, no [ProductFamily] **Data Transfer**, vinculado ao identificador da nuvem i-0e85640d78d096974 tenha as TAGs especificadas no formulário, mesmo que essas TAGs não sejam fornecidas pela nuvem.
+   \ a. \ Para esse fluxo o usuário pode especificar, por exemplo, que o recurso pertencente ao *ProductName Amazon Elastic Compute Cloud*, no [ProductFamily] **Data Transfer**, vinculado ao identificador da nuvem i-0e85640d78d096974 tenha as TAGs especificadas no formulário, mesmo que essas TAGs não sejam fornecidas pela nuvem.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual005.png
    :align: center
@@ -399,7 +410,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 ----
 
-  b. Vincular o Perfil de TAGs Virtuais criado, à nuvem (*container*) provisionada na Plataforma uCloud
+   \ b. \ Vincular o Perfil de TAGs Virtuais criado, à nuvem (*container*) provisionada na Plataforma uCloud
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual009.png
    :align: center
@@ -408,7 +419,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 
 2. Normalização das TAGs para recursos onde na família dos produtos não é retornado TAGs pela nuvem.
 
-  a. Para esse fluxo, será possível habilitar que no ato da coleta de dados de bilhetagem da nuvem, os recursos obtidos que não venham por padrão com a TAG do provedor de nuvem, sejam normalizados com as TAGs que estão associadas a este recurso.
+   \ a. \ Para esse fluxo, será possível habilitar que no ato da coleta de dados de bilhetagem da nuvem, os recursos obtidos que não venham por padrão com a TAG do provedor de nuvem, sejam normalizados com as TAGs que estão associadas a este recurso.
 
     * Se já houver uma TAG com a mesma chave do outro lado, a TAG não será sobrescrita.
     * Todos os *hyper Identifiers* que pertencerem ao mesmo [productName].
