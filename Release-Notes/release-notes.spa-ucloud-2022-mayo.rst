@@ -201,18 +201,23 @@ Segmentación por Cuentas
 
 Existen dos clases de "*Contas*" que se clasifican en dos tipos, las cuentas de tipo **Integrator** y las cuentas de tipo **Producer**, que se detallan a continuación:
 
-* \ A. \ **Cuenta Integrator** Esta cuenta es la responsable de crear los perfiles de las cuentas *Integrator* y *Producer*, al crear estos perfiles alimenta los *tiers* y paquetes, además de establecer, la cuenta *Producer* su regla de uso. Para ejemplificar: funciona como una especie de *cluster*, aglomerando o categorizando otras corporaciones.
+* \ A. \ **Cuenta Integrator** Esta cuenta es la responsable de crear los perfiles de las cuentas *Integrator* y *Producer*, al crear estos perfiles alimenta los *tiers* y paquetes, además de establecer, la cuenta *Producer* su regla de uso. 
+
+  * Para ejemplificar:
+  
+  Funciona como una especie de *cluster*, aglomerando o categorizando otras corporaciones.
 
   * Por ejemplo: 
 
-  Para el caso de una **corporación** multinacional que utiliza una cuenta *Integrator*, se puede considerar una "Cuenta Integrator" para los países que la componen: México, Brasil, Chile y Colombia.
-  La corporación es responsable de crear otras cuentas y escalar los permisos de otros usuarios. Tiene como particularidad la lista de todas las cuentas *Producer*, la lista de todos los contratos asociados y puede aplicar las reglas de negocio.
+    Para el caso de una **corporación** multinacional que utiliza una cuenta *Integrator*, se puede considerar una "Cuenta Integrator" para los países que la componen: México, Brasil, Chile y Colombia.
+
+    La corporación es responsable de crear otras cuentas y escalar los permisos de otros usuarios. Tiene como particularidad la lista de todas las cuentas *Producer*, la lista de todos los contratos asociados y puede aplicar las reglas de negocio.
 
 * \ B. \ **Cuenta Producer** Esta cuenta *Producer* pertenece a la organización que consume el recurso, representa una unidad de agrupación menor y puede operar todo el portal.
 
   * Por ejemplo: 
   
-  En la continuación del ejemplo anterior, esta corporación multinacional crea las "cuentas Producer" para las organizaciones que pertenecen a ella dentro de un determinado país que se ha mencionado anteriormente, en Brasil, la organización posee las empresas A y B que gestionan los contratos a1 y b1.
+    En la continuación del ejemplo anterior, esta corporación multinacional crea las "cuentas Producer" para las organizaciones que pertenecen a ella dentro de un determinado país que se ha mencionado anteriormente, en Brasil, la organización posee las empresas A y B que gestionan los contratos a1 y b1.
 
 A continuación se muestra una ilustración que presenta el concepto completo del alcance de la funcionalidad **Account** implementada en la Plataforma uCloud. Los nombres y denominaciones utilizados son meramente ilustrativos.
 
@@ -221,7 +226,7 @@ A continuación se muestra una ilustración que presenta el concepto completo de
    
 ----
 
-Las cuentas *Producer* pueden tener un administrador o más (en este nivel el perfil de este usuario es de un Administrador del Sistema - por ejemplo, *root*), los contratos dejan de ser creados cuando el recurso de la cuenta corporativa termina, los perfiles de visualización y permisos obedecen a la regla de negocio aplicada por la cuenta *Integrator*.
+Las Cuentas *Producer* pueden tener un administrador o más (en este nivel el perfil de este usuario es de un Administrador del Sistema - por ejemplo, *root*), los contratos dejan de ser creados cuando el recurso de la cuenta corporativa termina, los perfiles de visualización y permisos obedecen a la regla de negocio aplicada por la cuenta *Integrator*.
 
 La estrategia de utilización de la funcionalidad "*Contas*" ofrece una mejor percepción del valor en el nivel jerárquico en el que se quieren organizar los datos en el contexto de la organización, facilitando su tránsito por los niveles operativo, directivo y ejecutivo.
 
@@ -242,7 +247,7 @@ Estos *TAGs* (etiquetas), una vez vinculados a un recurso, se utilizan para cate
 
 .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-sp-la.png
    :align: center
-
+   :scale: 80 %
 ----
 
 .. note:: La figura de arriba es un ejemplo y las informaciones son meramente ilustrativas.
@@ -264,7 +269,9 @@ Mencionamos anteriormente que el proceso de vinculación de un *TAGs* a un recur
 
 La nueva función de *TAGs* virtuales de la plataforma uCloud crea una automatización para el proceso de vinculación de los *TAGs* a los recursos existentes en el ambiente del proveedor de servicios de la nube pública.
 
-El procesamiento de *TAGs virtuales* de la Plataforma uCloud, puede vincular automáticamente un *TAG* específico a un recurso a ser seleccionado basado en el *Nombre del Producto y/o Familia del Producto y/o Identificador del Recurso*. Es importante destacar que la conjunción "**y/o**" demuestra el alto grado de granularidad que el usuario puede seleccionar para atender al uso específico de su necesidad. 
+El procesamiento de *TAGs virtuales* de la Plataforma uCloud, puede vincular automáticamente un *TAG* específico a un recurso a ser seleccionado basado en el *Nombre del Producto y/o Familia del Producto y/o Identificador del Recurso*. 
+
+.. attention:: La conjunción "**y/o**" demuestra el alto grado de granularidad que el usuario puede seleccionar para atender al uso específico de su necesidad. 
 
 Veamos a continuación cómo la nueva implementación de *TAGs* Virtuales permite automatizar la vinculación de *TAGs* en los recursos.
 
@@ -331,13 +338,13 @@ Restricciones de los TAGs
 
 En el caso de la aplicación de "TAGs virtuales", hay algunos consejos básicos y restricciones que deben aplicarse:
 
-* Número máximo de *TAGs* por recurso: 50
+* **Número máximo de *TAGs* por recurso**: 50
 
-* Tamaño máximo de la clave: 128 caracteres
+* **Tamaño máximo de la clave**: 128 caracteres
 
-* Tamaño máximo del valor: 256 caracteres
+* **Tamaño máximo del valor**: 256 caracteres
 
-* Caracteres permitidos:
+* **Caracteres permitidos**:
 
   * Los caracteres permitidos en los servicios son: letras (a-z, A-Z), números (0-9) y espacios representables, así como los siguientes caracteres: + - = . _ : / @.
    
@@ -347,7 +354,7 @@ En el caso de la aplicación de "TAGs virtuales", hay algunos consejos básicos 
  
 .. important:: Las claves y los valores de los *TAGs* distinguen entre mayúsculas y minúsculas.
 
-.. warning:: El prefijo aws: se reserva para el uso de AWS. No se puede editar o eliminar la clave o el valor de un *TAG* cuando tiene una clave *TAG* con este prefijo. Los *TAGs* con el prefijo aws: no cuentan para los *TAGs* de límite de recursos.
+.. warning:: El prefijo aws se reserva para el uso de AWS. No se puede editar o eliminar la clave o el valor de un *TAG* cuando tiene una clave *TAG* con este prefijo. Los *TAGs* con el prefijo aws: no cuentan para los *TAGs* de límite de recursos.
 
 ¿Cómo se utiliza?
 -----------------
