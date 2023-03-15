@@ -8894,7 +8894,7 @@ Esta seção apresenta informações sobre solicitações de ordens de serviço,
 
 
 
-* **Contrato**: Campo para inserir o nome do contrato vinculado à Ordem de Serviço que está sendo criada. O nome pode ser designado pelo usuário a partir do menu suspenso que apresenta a lista de contratos existentes
+* **Contrato**: Campo para inserir o nome do contrato vinculado à Ordem de Serviço que está sendo criada. O nome pode ser designado pelo usuário a partir do menu suspenso que apresenta a lista de contratos existentes.
 
 
 * **Nome**: Este campo é preenchido pelo termo que o usuário escolher.
