@@ -7888,6 +7888,394 @@ Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário co
 Relatório Tendência de Faturamento (RTF)
 ----------------------------------------
 
+Relatório de Tendência de Faturamento (RTF)
+=====================================
+
+
+O Relatório de Tendência de Faturamento, nomeado de forma resumida como RTF, é baseado em faturas que se referem às informações de valores financeiros sobre um período encerrado. Ele permite ao usuário consultar informações relacionadas ao faturamento de um contrato, e detalha a visualização a partir de um filtro mensal. 
+
+Este relatório possibilita a detecção de qualquer anomalia de gastos, com base em determinados contratos analisados. Proporcionando uma visão analítica e completa em dois formatos: - Nome do produto e - *Tag*.
+
+A partir dos relatórios de fatura deve ser possível executar as regras de tendência de faturamento, podendo projetar os gastos até 6 meses à frente.
+
+Na sequência está detalhado o fluxo de consultas às informações baseadas em fatura, que demonstram a aplicação dos filtros disponíveis e a apresentação dos gráficos online, assim como a possibilidade do *download* do arquivo em formato .xlsx (Excel) para uso posterior.  
+
+----
+
+Acessando o RTF
+---------------
+
+Para acessar o RTF, basta o usuário clicar no menu Financeiro e em seguida no submenu Relatórios, como evidenciado na figura abaixo:
+
+
+.. image:: /figuras/tendencia_faturamento/01_pbf_submenu_relatorios.png
+   :alt: Relatórios painéis baseados em consumo e fatura 
+   :align: center
+----
+
+Esta tela é dividida em dois grupos : "Painéis Baseados em Consumo" e "Painéis Baseados em Fatura”, o RTF  encontra-se no segundo tópico, evidenciado na figura a seguir.
+
+.. image:: /figuras/tendencia_faturamento/2_paineis_base_consumo.png
+   :alt: Painéis baseados em fatura 
+   :align: center
+----
+
+
+Criando um RTF
+--------------
+
+Ao clicar no botão ``Tendência de faturamento``, a plataforma apresenta a tela a seguir:
+
+.. image:: /figuras/tendencia_faturamento/3_financeiro_rcf_contrato.png
+   :alt: Selecionar contrato 
+   :align: center
+----
+
+Nesta imagem, é possível observar os contratos vinculados ao usuário que está logado. Este modal permite a pesquisa pelo nome do contrato com o auxílio da barra de pesquisa, ao encontrar o que deseja basta selecioná-lo e uma nova tela é apresentada para prosseguir a consulta. 
+
+.. image:: /figuras/tendencia_faturamento/4.1_financeiro_rcf_tela_inicial_linked_accounts.png
+   :alt: Tela inicial 
+   :align: center
+----
+
+Na imagem acima é possível observar as seguintes funcionalidades:
+
+
+* ``Voltar`` 
+* ``Exportar relatório`` 
+* ``Intervalo`` 
+* ``Agrupar por``
+* ``Procurar``
+* ``Selecionar Linked Accounts``.
+
+.. important:: A funcionalidade ``Selecionar Linked Accounts´´ só é disponibilizada, caso o usuário tenha *Linked Accounts* no contrato selecionado.
+
+
+.. image:: /figuras/tendencia_faturamento/5_financeiro_rcf_data.png
+   :alt: Selecionar data 
+   :align: center
+----
+
+Para criar um RTF nesta tela, o usuário deve iniciar o procedimento selecionando o intervalo, onde é necessário escolher os meses no calendário apresentado, e clicar no período inicial e final para obter o relatório desejado.
+
+.. image:: /figuras/tendencia_faturamento/6_financeiro_rcf_data_expandida.png
+   :alt: Selecionar data 
+   :align: center
+----
+
+Caso o usuário deseje selecionar algum mês do ano anterior ou posterior, basta clicar nas setas para a direita ou esquerda. No exemplo exibido acima, o intervalo selecionado compreende desde Ago/2022 até Jan/2023.
+
+Após isso, no menu suspenso ao lado do campo referente ao Intervalo, o usuário deve selecionar  o tipo de agrupamento do relatório:  por **nome do produto** ou por **’tag’**, e clicar no botão ``Procurar``.
+
+.. image:: /figuras/tendencia_faturamento/7.1_financeiro_rcf_agrupar_procurar.png
+   :alt: Tipo de agrupamento
+   :align: center
+----
+
+
+O exemplo a seguir trata de uma consulta por *tag* e a plataforma uCloud apresenta uma tela de alerta com a mensagem de atenção, conforme exibida abaixo. Para continuar a pesquisa o usuário deve clicar no botão ``Ok``.
+
+.. image:: /figuras/tendencia_faturamento/8_financeiro_rcf_aviso_tag.png
+   :alt: Mensagem de atenção
+   :align: center
+----
+
+
+Para descarregar os dados pesquisados, basta clicar no botão ``Exportar relatório`` de coloração verde, localizado na parte superior direita da tela.
+
+.. image:: /figuras/tendencia_faturamento/9.0_financeiro_rcf_botão_exportar.png
+   :alt: Botão exportar
+   :align: center
+----
+
+
+Um novo modal é apresentado, e para que a exportação seja concluída, faz-se necessário preencher todos os campos, conforme imagem abaixo.
+
+.. image:: /figuras/tendencia_faturamento/9_financeiro_rcf_modal_exportar.png
+   :alt: Modal exportar
+   :align: center
+----
+
+
+* **Intervalo**: Divide-se em mensal, semanal e diário.
+* **Período**: Para selecionar o período basta clicar no mês inicial e final. Caso o usuário precise de um mês no ano anterior ou posterior, deve  clicar nas setas ao lado do ano exibido para voltar ou avançar, como mencionado anteriormente.
+* **Tipo**: Apresenta as opções de *Recursos* e *Tag*.
+
+O último passo deste modal é clicar no botão ``Exportar relatório`` para que a tela “Gerando Novo Relatório” seja apresentada.
+
+.. image:: /figuras/tendencia_faturamento/10_financeiro_rcf_modal_novo_relatório.png
+   :alt: Modal exportar
+   :align: center
+----
+
+Neste modal, caso o usuário queira ser notificado, é preciso preencher o campo com o email. 
+
+Se o usuário quiser agendar o relatório, basta selecionar a data, e clicar na opção: ``Agendar relatório``, que fica disponível para acionamento assim que o campo da data é preenchido. 
+
+Na condição de agendamento recorrente, é necessário apenas acionar o botão localizado logo abaixo do campo da data.
+
+Caso queira gerar o relatório pela primeira vez, basta clicar em ``Gerar relatório``. 
+
+Se o usuário desejar o *download* do último arquivo gerado, deve continuar o fluxo descrito a seguir.
+
+----
+
+Como fazer o *download* do arquivo 
+-----------------------------------
+
+Após confirmar o sucesso da tarefa, o usuário deve refazer os passos para retornar à página de Relatórios, assim como o processo para exportar os dados, até a aparição do modal de **Gerando Novo Relatório**.
+
+[inserir imagem 25_ação_baixar.png do Relatório Consolidado de Faturamento]. 
+ 
+Para descarregar o arquivo de RTF em arquivo .xlsx (Excel), o usuário deve clicar no botão localizado no parte inferior do modal ``Último relatório gerado em`` acompanhado da data e horário em que a tarefa foi exibida como *successful* no menu Tarefas.
+
+
+.. note:: O botão para *download* fica disponível para acionamento somente após a tarefa apresentar o *status* de *successful*.
+
+----
+
+Acompanhando o *download* no Menu Tarefas
+-----------------------------------------
+
+
+Ao solicitar a geração de um novo relatório, é possível acompanhar a evolução da *task* no Menu Tarefas, conforme imagem abaixo.
+
+
+.. image:: /figuras/tendencia_faturamento/11.1_financeiro_rcf_successful.png
+   :alt: Successful status
+   :align: center
+----
+
+
+O relatório de RTF é baixado em formato .xlsx (Excel), conforme apresentado a seguir. 
+
+
+.. image:: /figuras/tendencia_faturamento/11.2_pbf_arquivo_download.png
+   :alt: Planilha excel
+   :align: center
+----
+
+
+
+Visualizando o RTF
+------------------
+
+
+Como mencionado anteriormente, há dois tipos de visualização na exportação para obter uma análise mais completa do relatório:
+
+1. Nome do produto
+2. *Tag* (são os campos do arquivo .csv detalhado)
+
+
+O RTF tem a possibilidade de filtrar tanto por produto como por *tag*. 
+
+A partir dessa primeira filtragem, devem aparecer todos os recursos do contrato escolhido (seja dividido por nome dos produtos ou pelas *tags*), exibindo informações específicas sobre cada um desses, tendo quatro métricas em conta:
+
+1. Média dos gastos
+2. Tolerância dos gastos
+3. Média móvel
+4. Custo
+
+----
+
+Agrupamento por nome do produto
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+A primeira tela a ser apresentada do relatório são as informações gerais sobre o contrato, onde do lado esquerdo é apresentado um gráfico sobre o gasto total por mês. 
+
+.. image:: /figuras/tendencia_faturamento/12_financeiro_rcf_contrato.png
+   :alt: Gráfico contrato
+   :align: center
+----
+
+Para projetar o custo, o usuário deve selecionar o mês de projeção na parte superior da tela, e em seguida clicar no botão ``Projetar Custo``. Em seguida, uma nova coluna é adicionada nos gráficos presentes em todo o relatório.  
+
+.. image:: /figuras/tendencia_faturamento/13_financeiro_rcf_contrato_projecao.png
+   :alt: Projeção de custo
+   :align: center
+----
+
+Caso queira retirar a nova barra, basta clicar no botão ``Limpar`` ao lado do botão de projeção de custo.
+
+
+Logo abaixo, na área de recursos do relatório, é apresentada a quantidade total de recursos presente no contrato escolhido, e são exibidos quatro valores:
+
+1. Maior Média de Gastos
+2. Menor Média de Gastos
+3. Média Geral de Gastos
+4. Valor Total
+
+
+Do lado direito, o gráfico é apresentado com a projeção de gastos de cada mês dentro do período selecionado.
+
+
+.. image:: /figuras/tendencia_faturamento/14_financeiro_rcf_recurso.png
+   :alt: Relatório por recurso
+   :align: center
+----
+
+Ao abrir o relatório é possível notar um botão de coloração laranja no canto direito da tela, representado por uma seta branca apontando para o lado esquerdo. 
+
+.. image:: /figuras/tendencia_faturamento/15_financeiro_rcf_aba_lateral.png
+   :alt: Aba lateral
+   :align: center
+----
+
+
+Clicando nesse botão, uma aba é expandida com os nomes dos produtos deste contrato. Com o auxílio da barra de pesquisa, é possível procurar um recurso específico, e ao clicar o usuário é levado diretamente ao gráfico deste.
+
+.. image:: /figuras/tendencia_faturamento/16_financeiro_rcf_aba_lateral_expandida.png
+   :alt: Aba lateral expandida
+   :align: center
+----
+
+
+Caso o usuário tenha seguido o fluxo para a exportação do relatório para visualização offline, o arquivo é apresentado da seguinte maneira:
+
+.. image:: /figuras/tendencia_faturamento/16.1_pbf_product_offline.png
+   :alt: Planilha excel
+   :align: center
+----
+  
+
+Neste exemplo de relatório *offline*, percebe-se nove colunas, sendo elas:
+
+* **’Created by’**
+* **’Product name’**
+* **’Product family’**
+* **’Usage type’**
+* **’Cloud identifier’**
+* **’Linked’**
+* **2022-11**
+* **2022-12**
+* **2023-01**
+
+
+As três últimas colunas referentes ao ano e mês do período selecionado, no caso deste exemplo Nov/2022 a Jan/2023.
+
+----
+
+Agrupamento por *Tag*
+~~~~~~~~~~~~~~~~~~~~
+
+Quando agrupada por *tag*, um menu suspenso é apresentado na área do contrato com as seguintes opções de filtragem:
+
+
+* Todas as *tags*
+* Métrica
+* Name
+
+
+.. image:: /figuras/tendencia_faturamento/17_financeiro_rcf_contrato_tag.png
+   :alt: Agrupamento por tag
+   :align: center
+----
+
+Caso o usuário tenha seguido o fluxo para a exportação do relatório e visualização *offline*, o arquivo é apresentado da seguinte maneira:
+
+.. image:: /figuras/tendencia_faturamento/17.1_pbf_tag_offline.png
+   :alt: Agrupamento por tag
+   :align: center
+----
+  
+Este exemplo de relatório *offline* exibe dez colunas de informações, sendo elas:
+
+* **’Created by’**
+* **’Product name’**
+* **’Product family’**
+* **’Usage type’**
+* **’Cloud identifier’**
+* **’Linked’**
+* **’Tag’**
+* **2022-12**
+* **2023-01**
+* **2023-02**
+
+
+As três últimas colunas referem-se ao ano e mês do período selecionado, no caso deste exemplo Dez/2022 a Fev/2023.
+
+----
+
+
+Filtragem por anomalia
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+Possibilita ao usuário realizar a filtragem por anomalia dentro do contrato analisando todos os recursos. Para isso, consta uma *flag* com a opção de “Mostrar apenas anomalias” que reduz os recursos exibidos em tela, mostrando apenas aqueles que realmente possuem anomalias de gastos. 
+
+
+.. image:: /figuras/tendencia_faturamento/18_financeiro_rcf_anomalia.png
+   :alt: Flag anomalia
+   :align: center
+----
+
+A representação de uma anomalia é dada através da ultrapassagem do limite de gastos calculados com base na regra de cálculo dos 3 quartis. Ao clicar na *tooltip* ao lado do botão ``Mostrar apenas anomalias``, a seguinte mensagem é exibida:
+
+.. image:: /figuras/tendencia_faturamento/19_financeiro_rcf_equações.png
+   :alt: Mensagem equações
+   :align: center
+----
+
+Caso as anomalias sejam inexistentes, um aviso é exibido na tela de detalhes do contrato do relatório, como mostra a imagem abaixo.
+
+.. image:: /figuras/tendencia_faturamento/20_financeiro_rcf_mensagem_anomalia.png
+   :alt: Mensagem anomalia
+   :align: center
+----
+
+
+Além deste aviso, nenhum gráfico é apresentado. 
+
+No entanto, caso haja anomalias de gastos, uma coluna de coloração distinta aparece junto aos gráficos, como exibida na imagem a seguir. 
+
+.. image:: /figuras/tendencia_faturamento/20.1_financeiro_rcf_anomalia_grafico.png
+   :alt: Gráfico de anomalia
+   :align: center
+----
+
+
+Linked Accounts
+----------------
+
+
+Caso o usuário não tenha contas associadas ao contrato, uma mensagem aparece abaixo da data.
+
+
+.. image:: /figuras/tendencia_faturamento/21_financeiro_rcf_linked_accounts.png
+   :alt: Linked Accounts
+   :align: center
+----
+
+
+No entanto, caso tenha contas associadas ao contrato, um botão é apresentado para exibi-las.
+
+
+.. image:: /figuras/tendencia_faturamento/22_financeiro_rcf_linked_accounts_botao.png
+   :alt: Botão Linked Accounts
+   :align: center
+----
+
+
+Ao acioná-lo, as contas associadas ao contrato são exibidas para escolha.
+
+
+.. image:: /figuras/tendencia_faturamento/23_financeiro_rcf_linked_account_selecionada.png
+   :alt: Linked account selecionada
+   :align: center
+----
+
+
+Após selecionar a conta desejada, os gráficos referentes à ela são apresentados da mesma forma que os exibidos anteriormente. 
+
+
+Caso queira esquecer a conta selecionada, deve clicar no botão ``Limpar`` ao lado das contas listadas. 
+
+Se for de interesse do usuário exportar os dados das *Linked Accounts* para sua máquina, é necessário apenas seguir os passos descritos anteriormente no tópico de **Como fazer o *download* do arquivo**.
+
+
+
+====
 No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
 
 Para acessar o relatório de tendência de faturamento, basta que o usuário clique no menu Financeiro e em seguida no submenu Relatórios. 
