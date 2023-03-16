@@ -8022,7 +8022,10 @@ Como fazer o *download* do arquivo
 
 Após confirmar o sucesso da tarefa, o usuário deve refazer os passos para retornar à página de Relatórios, assim como o processo para exportar os dados, até a aparição do modal de **Gerando Novo Relatório**.
 
-[inserir imagem 25_ação_baixar.png do Relatório Consolidado de Faturamento]. 
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+---- 
  
 Para descarregar o arquivo de RTF em arquivo .xlsx (Excel), o usuário deve clicar no botão localizado no parte inferior do modal ``Último relatório gerado em`` acompanhado da data e horário em que a tarefa foi exibida como *successful* no menu Tarefas.
 
