@@ -7888,9 +7888,6 @@ Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário co
 Relatório Tendência de Faturamento (RTF)
 ----------------------------------------
 
-Relatório de Tendência de Faturamento (RTF)
-=====================================
-
 
 O Relatório de Tendência de Faturamento, nomeado de forma resumida como RTF, é baseado em faturas que se referem às informações de valores financeiros sobre um período encerrado. Ele permite ao usuário consultar informações relacionadas ao faturamento de um contrato, e detalha a visualização a partir de um filtro mensal. 
 
@@ -7903,7 +7900,7 @@ Na sequência está detalhado o fluxo de consultas às informações baseadas em
 ----
 
 Acessando o RTF
----------------
+~~~~~~~~~~~~~~~
 
 Para acessar o RTF, basta o usuário clicar no menu Financeiro e em seguida no submenu Relatórios, como evidenciado na figura abaixo:
 
@@ -7922,7 +7919,7 @@ Esta tela é dividida em dois grupos : "Painéis Baseados em Consumo" e "Painéi
 
 
 Criando um RTF
---------------
+~~~~~~~~~~~~~~
 
 Ao clicar no botão ``Tendência de faturamento``, a plataforma apresenta a tela a seguir:
 
@@ -8021,7 +8018,7 @@ Se o usuário desejar o *download* do último arquivo gerado, deve continuar o f
 ----
 
 Como fazer o *download* do arquivo 
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Após confirmar o sucesso da tarefa, o usuário deve refazer os passos para retornar à página de Relatórios, assim como o processo para exportar os dados, até a aparição do modal de **Gerando Novo Relatório**.
 
@@ -8035,7 +8032,7 @@ Para descarregar o arquivo de RTF em arquivo .xlsx (Excel), o usuário deve clic
 ----
 
 Acompanhando o *download* no Menu Tarefas
------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Ao solicitar a geração de um novo relatório, é possível acompanhar a evolução da *task* no Menu Tarefas, conforme imagem abaixo.
@@ -8058,7 +8055,7 @@ O relatório de RTF é baixado em formato .xlsx (Excel), conforme apresentado a 
 
 
 Visualizando o RTF
-------------------
+~~~~~~~~~~~~~~~~~~
 
 
 Como mencionado anteriormente, há dois tipos de visualização na exportação para obter uma análise mais completa do relatório:
@@ -8272,105 +8269,6 @@ Após selecionar a conta desejada, os gráficos referentes à ela são apresenta
 Caso queira esquecer a conta selecionada, deve clicar no botão ``Limpar`` ao lado das contas listadas. 
 
 Se for de interesse do usuário exportar os dados das *Linked Accounts* para sua máquina, é necessário apenas seguir os passos descritos anteriormente no tópico de **Como fazer o *download* do arquivo**.
-
-
-
-====
-No relatório de tendência constam as informações relacionadas ao faturamento de um contrato, possibilitando a visualização a partir de um filtro mensal. Este relatório possibilita detectar qualquer anomalia de gastos, a partir de determinados contratos analisados.
-
-Para acessar o relatório de tendência de faturamento, basta que o usuário clique no menu Financeiro e em seguida no submenu Relatórios. 
-
-.. image:: /figuras/tendencia_faturamento/1_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-O relatório desejado encontra-se no tópico Painéis Baseados em Fatura. 
-
-.. image:: /figuras/tendencia_faturamento/2_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-
-Com a consulta a estes relatórios de consumo é possível executar as regras de tendência de faturamento, podendo projetar os gastos até 6 meses à frente. Ao clicar no botão `Tendência de faturamento` a plataforma apresenta a tela a seguir:
-
-.. image:: /figuras/tendencia_faturamento/3_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Nesta imagem é possível observar os contratos existentes, relacionados ao usuário que está logado. A tela permite a pesquisa do contrato pelo nome, em seguida à escolha é só clicar para prosseguir a consulta.
-
-.. image:: /figuras/tendencia_faturamento/4_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-
-Neste momento, o usuário pode filtrar os dados da tela, por intervalo, agrupar por produto ou tag. A tela tendência de faturameto permite exportar o relatório.
-
-.. image:: /figuras/tendencia_faturamento/5_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Para selecionar o intervalo é necessário escolher o mês no calendário apresentado, ao clicar nas setas para a direita e esquerda, o usuário navega nos anos anteriores ou seguintes. 
-
-.. image:: /figuras/tendencia_faturamento/6_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Até escolher o período desejado que é apresentado no intervalo, conforme a tela apresentada acima.
-
-.. image:: /figuras/tendencia_faturamento/7_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Em seguida, é necessário selecionar se o relatório deve ser agrupado por nome do produto ou por tag.
-
-.. image:: /figuras/tendencia_faturamento/8_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Acima o exemplo de uma consulta por tag. Nesta consulta a plataforma uCloud informa que o relatório por tags pode apresentar inconsistências, caso um mesmo recurso possua mais de uma tag. Então, o usuário deve clicar em ok para continuar a pesquisa.
-
-
-.. image:: /figuras/tendencia_faturamento/9_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Para exportar os dados pesquisados, é necessário preencher todos os campos apresentados na imagem acima e clicar no botão `Exportar dados`.
-
-.. image:: /figuras/tendencia_faturamento/10_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-Logo, a plataforma uCloud apresenta o modal acima informando que está gerando o relatório. O usuário deve inserir os dados solicitados e clicar no botão `Gerar Relatório`.
-
-.. image:: /figuras/tendencia_faturamento/11_pbf_rcf.png
-   :alt: Relatórios paineis baseados em consumo e fatura 
-   :align: center
-
-----
-
-É possível acompanhar a evolução da tarefa solicitada no Menu Tarefas, conforme imagem acima apresentada.
-
 
 ====
 
