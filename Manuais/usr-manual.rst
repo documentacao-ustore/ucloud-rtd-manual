@@ -7945,7 +7945,7 @@ Na imagem acima é possível observar as seguintes funcionalidades:
 * ``Procurar``
 * ``Selecionar Linked Accounts``.
 
-.. important:: A funcionalidade ``Selecionar Linked Accounts´´ só é disponibilizada, caso o usuário tenha *Linked Accounts* no contrato selecionado.
+.. important:: A funcionalidade Selecionar Linked Accounts apenas é disponibilizada, caso o usuário tenha *Linked Accounts* no contrato selecionado.
 
 
 .. image:: /figuras/tendencia_faturamento/5_financeiro_rcf_data.png
@@ -7962,7 +7962,7 @@ Para criar um RTF nesta tela, o usuário deve iniciar o procedimento selecionand
 
 Caso o usuário deseje selecionar algum mês do ano anterior ou posterior, basta clicar nas setas para a direita ou esquerda. No exemplo exibido acima, o intervalo selecionado compreende desde Ago/2022 até Jan/2023.
 
-Após isso, no menu suspenso ao lado do campo referente ao Intervalo, o usuário deve selecionar  o tipo de agrupamento do relatório:  por **nome do produto** ou por **’tag’**, e clicar no botão ``Procurar``.
+Após isso, no menu suspenso ao lado do campo referente ao Intervalo, o usuário deve selecionar  o tipo de agrupamento do relatório:  por **nome do produto** ou por **tag**, e clicar no botão ``Procurar``.
 
 .. image:: /figuras/tendencia_faturamento/7.1_financeiro_rcf_agrupar_procurar.png
    :alt: Tipo de agrupamento
@@ -8082,7 +8082,7 @@ Agrupamento por nome do produto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-A primeira tela a ser apresentada do relatório são as informações gerais sobre o contrato, onde do lado esquerdo é apresentado um gráfico sobre o gasto total por mês. 
+A primeira tela do relatório a ser apresentada são as informações gerais sobre o contrato, onde do lado esquerdo é apresentado um gráfico sobre o gasto total por mês. 
 
 .. image:: /figuras/tendencia_faturamento/12_financeiro_rcf_contrato.png
    :alt: Gráfico contrato
@@ -8141,15 +8141,15 @@ Caso o usuário tenha seguido o fluxo para a exportação do relatório para vis
 
 Neste exemplo de relatório *offline*, percebe-se nove colunas, sendo elas:
 
-* **’Created by’**
-* **’Product name’**
-* **’Product family’**
-* **’Usage type’**
-* **’Cloud identifier’**
-* **’Linked’**
-* **2022-11**
-* **2022-12**
-* **2023-01**
+* *Created by*
+* *Product name*
+* *Product family*
+* *Usage type*
+* *Cloud identifier*
+* *Linked*
+* *2022-11*
+* *2022-12*
+* *2023-01*
 
 
 As três últimas colunas referentes ao ano e mês do período selecionado, no caso deste exemplo Nov/2022 a Jan/2023.
@@ -8181,16 +8181,16 @@ Caso o usuário tenha seguido o fluxo para a exportação do relatório e visual
   
 Este exemplo de relatório *offline* exibe dez colunas de informações, sendo elas:
 
-* **’Created by’**
-* **’Product name’**
-* **’Product family’**
-* **’Usage type’**
-* **’Cloud identifier’**
-* **’Linked’**
-* **’Tag’**
-* **2022-12**
-* **2023-01**
-* **2023-02**
+* *Created by*
+* *Product name*
+* *Product family*
+* *Usage type*
+* *Cloud identifier*
+* *Linked*
+* *Tag*
+* *2022-12*
+* *2023-01*
+* *2023-02*
 
 
 As três últimas colunas referem-se ao ano e mês do período selecionado, no caso deste exemplo Dez/2022 a Fev/2023.
@@ -8248,7 +8248,7 @@ Caso o usuário não tenha contas associadas ao contrato, uma mensagem aparece a
 ----
 
 
-No entanto, caso tenha contas associadas ao contrato, um botão é apresentado para exibi-las.
+No entanto, caso tenha contas associadas ao contrato, um botão é apresentado para exibí-las.
 
 
 .. image:: /figuras/tendencia_faturamento/22_financeiro_rcf_linked_accounts_botao.png
@@ -8257,7 +8257,7 @@ No entanto, caso tenha contas associadas ao contrato, um botão é apresentado p
 ----
 
 
-Ao acioná-lo, as contas associadas ao contrato são exibidas para escolha.
+Ao acioná-lo, as contas associadas ao contrato são expostas para escolha.
 
 
 .. image:: /figuras/tendencia_faturamento/23_financeiro_rcf_linked_account_selecionada.png
@@ -8271,7 +8271,7 @@ Após selecionar a conta desejada, os gráficos referentes à ela são apresenta
 
 Caso queira esquecer a conta selecionada, deve clicar no botão ``Limpar`` ao lado das contas listadas. 
 
-Se for de interesse do usuário exportar os dados das *Linked Accounts* para sua máquina, é necessário apenas seguir os passos descritos anteriormente no tópico de **Como fazer o *download* do arquivo**.
+Se for de interesse do usuário exportar os dados das *Linked Accounts* para sua máquina, é necessário apenas seguir os passos descritos anteriormente no tópico: Como fazer o *download* do arquivo.
 
 ====
 
