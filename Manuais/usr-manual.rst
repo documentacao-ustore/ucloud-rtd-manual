@@ -7902,7 +7902,7 @@ Na sequência está detalhado o fluxo de consultas às informações baseadas em
 Acessando o RTF
 ~~~~~~~~~~~~~~~
 
-Para acessar o RTF, basta o usuário clicar no menu Financeiro e em seguida no submenu Relatórios, como evidenciado na figura abaixo:
+Para acessar o RTF, basta o usuário clicar no menu Financeiro, depois no submenu Relatórios, como mostra a figura abaixo:
 
 
 .. image:: /figuras/tendencia_faturamento/01_pbf_submenu_relatorios.png
@@ -7910,7 +7910,7 @@ Para acessar o RTF, basta o usuário clicar no menu Financeiro e em seguida no s
    :align: center
 ----
 
-Esta tela é dividida em dois grupos : "Painéis Baseados em Consumo" e "Painéis Baseados em Fatura”, o RTF  encontra-se no segundo tópico, evidenciado na figura a seguir.
+Esta tela é dividida em dois grupos : "Painéis Baseados em Consumo" e "Painéis Baseados em Fatura”, o RTF encontra-se no segundo tópico, destacado na figura a seguir.
 
 .. image:: /figuras/tendencia_faturamento/2_paineis_base_consumo.png
    :alt: Painéis baseados em fatura 
@@ -8027,7 +8027,7 @@ Após confirmar o sucesso da tarefa, o usuário deve refazer os passos para reto
    :align: center
 ---- 
  
-Para descarregar o arquivo de RTF em arquivo .xlsx (Excel), o usuário deve clicar no botão localizado no parte inferior do modal ``Último relatório gerado em`` acompanhado da data e horário em que a tarefa foi exibida como *successful* no menu Tarefas.
+Para descarregar o RTF em arquivo formato.xlsx (Excel), o usuário deve clicar no botão localizado no parte inferior do modal ``Último relatório gerado em`` acompanhado da data e horário em que a tarefa foi exibida como *successful* no menu Tarefas.
 
 
 .. note:: O botão para *download* fica disponível para acionamento somente após a tarefa apresentar o *status* de *successful*.
@@ -8047,7 +8047,7 @@ Ao solicitar a geração de um novo relatório, é possível acompanhar a evolu�
 ----
 
 
-O relatório de RTF é baixado em formato .xlsx (Excel), conforme apresentado a seguir. 
+O arquivo é baixado em formato .xlsx (Excel), conforme apresentado a seguir. 
 
 
 .. image:: /figuras/tendencia_faturamento/11.2_pbf_arquivo_download.png
@@ -8089,14 +8089,14 @@ A primeira tela do relatório a ser apresentada são as informações gerais sob
    :align: center
 ----
 
-Para projetar o custo, o usuário deve selecionar o mês de projeção na parte superior da tela, e em seguida clicar no botão ``Projetar Custo``. Em seguida, uma nova coluna é adicionada nos gráficos presentes em todo o relatório.  
+Para projetar o custo, o usuário deve selecionar o mês de projeção na parte superior da tela, e clicar no botão ``Projetar Custo``. Em seguida, uma nova coluna é adicionada nos gráficos presentes em todo o relatório.  
 
 .. image:: /figuras/tendencia_faturamento/13_financeiro_rcf_contrato_projecao.png
    :alt: Projeção de custo
    :align: center
 ----
 
-Caso queira retirar a nova barra, basta clicar no botão ``Limpar`` ao lado do botão de projeção de custo.
+Caso queira retirar a nova barra, basta clicar no botão ``Limpar`` ao lado de ``projeção de custo``.
 
 
 Logo abaixo, na área de recursos do relatório, é apresentada a quantidade total de recursos presente no contrato escolhido, e são exibidos quatro valores:
