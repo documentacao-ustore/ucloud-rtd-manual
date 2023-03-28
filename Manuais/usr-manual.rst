@@ -8096,7 +8096,7 @@ Para projetar o custo, o usuário deve selecionar o mês de projeção na parte 
    :align: center
 ----
 
-Caso queira retirar a nova barra, basta clicar no botão ``Limpar`` ao lado de ``projeção de custo``.
+Caso queira retirar a nova barra, basta clicar no botão ``Limpar`` ao lado de ``Projetar custo``.
 
 
 Logo abaixo, na área de recursos do relatório, é apresentada a quantidade total de recursos presente no contrato escolhido, e são exibidos quatro valores:
