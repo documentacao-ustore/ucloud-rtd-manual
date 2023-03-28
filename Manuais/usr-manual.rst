@@ -8239,7 +8239,7 @@ Linked Accounts
 ----------------
 
 
-Caso o usuário não tenha contas associadas ao contrato, uma mensagem aparece abaixo da data.
+Caso o usuário não possua contas associadas ao contrato, uma mensagem aparece abaixo da data: "Esse contrato não possui *Linked Accounts*".
 
 
 .. image:: /figuras/tendencia_faturamento/21_financeiro_rcf_linked_accounts.png
@@ -8248,7 +8248,7 @@ Caso o usuário não tenha contas associadas ao contrato, uma mensagem aparece a
 ----
 
 
-No entanto, caso tenha contas associadas ao contrato, um botão é apresentado para exibí-las.
+No entanto, se o usuário tiver contas associadas ao contrato, ele pode visualizar por meio do acionamento da *flag* "Selecionar *Linked Accounts*" conforme o exemplo apresentado.
 
 
 .. image:: /figuras/tendencia_faturamento/22_financeiro_rcf_linked_accounts_botao.png
@@ -8257,7 +8257,7 @@ No entanto, caso tenha contas associadas ao contrato, um botão é apresentado p
 ----
 
 
-Ao acioná-lo, as contas associadas ao contrato são expostas para escolha.
+Ao acioná-lo, as contas associadas ao contrato são exibidas logo abaixo da *flag* que se mantêm na coloração laranja. E as contas são liberadas para seleção, conforme imagem a seguir.
 
 
 .. image:: /figuras/tendencia_faturamento/23_financeiro_rcf_linked_account_selecionada.png
@@ -8266,7 +8266,7 @@ Ao acioná-lo, as contas associadas ao contrato são expostas para escolha.
 ----
 
 
-Após selecionar a conta desejada, os gráficos referentes à ela são apresentados da mesma forma que os exibidos anteriormente. 
+Após selecionar a conta desejada, os gráficos referentes à ela são apresentados da mesma forma que os exibidos anteriormente (Visualizando o RTF). Também é possível optar por todas as contas apresentadas, neste exemplo existem duas Linked Accounts. 
 
 
 Caso queira esquecer a conta selecionada, deve clicar no botão ``Limpar`` ao lado das contas listadas. 
