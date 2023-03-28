@@ -8202,7 +8202,7 @@ Filtragem por anomalia
 ~~~~~~~~~~~~~~~~~~~~~~
 
 
-Possibilita ao usuário realizar a filtragem por anomalia dentro do contrato analisando todos os recursos. Para isso, consta uma *flag* com a opção de “Mostrar apenas anomalias” que reduz os recursos exibidos em tela, mostrando apenas aqueles que realmente possuem anomalias de gastos. 
+Possibilita ao usuário realizar a filtragem por anomalia dentro do contrato analisando todos os recursos. Para isso, consta uma *flag* “Mostrar apenas anomalias” com a opção de acionar ou não. Ao acioná-la, os recursos exibidos em tela são reduzidos, mostrando apenas aqueles que realmente possuem anomalias de gastos. 
 
 
 .. image:: /figuras/tendencia_faturamento/18_financeiro_rcf_anomalia.png
@@ -8210,7 +8210,7 @@ Possibilita ao usuário realizar a filtragem por anomalia dentro do contrato ana
    :align: center
 ----
 
-A representação de uma anomalia é dada através da ultrapassagem do limite de gastos calculados com base na regra de cálculo dos 3 quartis. Ao clicar na *tooltip* ao lado do botão ``Mostrar apenas anomalias``, a seguinte mensagem é exibida:
+A representação de uma anomalia é dada através da ultrapassagem do limite de gastos calculados com base na regra de cálculo dos 3 quartis. Ao clicar na *tooltip* ao lado da *flag* "Mostrar apenas anomalias", a seguinte mensagem é exibida:
 
 .. image:: /figuras/tendencia_faturamento/19_financeiro_rcf_equações.png
    :alt: Mensagem equações
