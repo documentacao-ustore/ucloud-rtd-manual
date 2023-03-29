@@ -9133,7 +9133,7 @@ Gerenciando a Ordem de Serviço
 ------------------------------
 
 
-Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe e divide em duas partes, a tela abaixo:
+Para gerenciar a Ordem de Serviço, basta o usuário clicar com o cursor sobre qualquer linha apresentada na lista de Ordens de Serviço (**O.S.**) e a plataforma uCloud exibe e divide em duas partes, similar a tela abaixo:
 
 
 
