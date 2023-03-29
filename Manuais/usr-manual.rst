@@ -8930,6 +8930,7 @@ Menu Ordem de Serviço
 
 
 A plataforma uCloud permite ao usuário registrar as solicitações de serviço e formalizar a tarefa ou atividade necessária, em atendimento às melhores práticas de documentação do mercado de TI.
+
 O usuário dispõe de uma funcionalidade que possibilita a requisição de serviço, ele pode registrar esta solicitação para tornar formal alterações, provisionamentos, remoções, redimensionamentos ou assinalar atividade de consultoria, monitoramento e acompanhamento.
 
 
@@ -9047,10 +9048,10 @@ Neste ponto, é possível ao usuário clicar no botão ``Voltar`` ou ``Próximo`
 ====
 
 
-Adicionar Estimativa de Custo (USN) e (UST)
+Adicionar Estimativa de Custo em USN e UST
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ao clicar neste botão a plataforma uCloud apresenta a possibilidade do usuário preencher o modal ``Estimativa de Custo 1`` que apresenta os seguintes campos:
+Ao clicar neste botão a plataforma uCloud apresenta a possibilidade do usuário preencher o modal **Estimativa de Custo 1** que apresenta os seguintes campos:
 
 .. figure:: /figuras/fig_ordem_de_serviço/14_ordem_servico_modal_estimativa_custo_dropdown.png
    :align: center
@@ -9111,7 +9112,7 @@ Neste sub-modal:
   * Custo 
 
 
-Após a inserção das estimativas de custo em (USN) e (UST) a última etapa está concluída, restando apenas ao usuário aguardar a aprovação da solicitação de serviço. 
+Após a inserção das estimativas de custo em USN e UST a última etapa está concluída, restando apenas ao usuário aguardar a aprovação da solicitação de serviço. 
 
 
 
@@ -9264,7 +9265,7 @@ Abaixo segue a descrição dos campos do título desta seção:
 *Card* : Configuração de Estimativa de Custo (UST)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este *card*  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específicos para o Governo Brasileiro. 
+Este *card*  apresenta informações referentes às estimativas iniciais de custo da Ordem de Serviço. Estes valores informados são expressos em UST (Unidade de Serviço Técnico), sendo  específico para o Governo Brasileiro, apesar de ser empregado como unidade de medida global. 
 
 
 .. attention:: |atencao| Importante ressaltar que os valores informados neste modal, são estimativas, por tratar-se de uma solicitação de serviço a ser executado. Portanto, após o início e a finalização desta tarefa, os valores iniciais podem não refletir a realidade dos valores relativos ao momento da execução. Inclusive, este modal pode conter mais de um item de solicitação de estimativa de custo.
