@@ -25,7 +25,9 @@ Este documento consiste em um manual com a descrição breve das principais func
 Apresentação
 -------------
 
-**Data Center Interconnect -  DCI** é uma solução de conectividade cuja rede é definida por software. Uma rede definida por software (uma SDN) é uma arquitetura de rede que permite um gerenciamento e controle mais eficiente dos recursos de rede, ela separa o plano de controle do plano de dados. 
+**Data Center Interconnect -  DCI** é uma solução de conectividade cuja rede é definida por software. 
+
+A rede definida por software (SDN) é uma arquitetura de rede que permite um gerenciamento e controle mais eficiente dos recursos de rede, ela separa o plano de controle do plano de dados. 
 
 Em termos descomplicados, significa que as funções de controle e dados da rede estão separadas, o que permite maior flexibilidade e automação no gerenciamento de rede.
 
