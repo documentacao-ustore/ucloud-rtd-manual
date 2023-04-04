@@ -30,7 +30,8 @@ Este documento tem como objetivo explicar a utilização da Plataforma “Mangue
 
 Neste manual são apresentados os conceitos, as telas, as funcionalidades e os comandos de uso deste produto.
 
- 
+
+====
 
 
 Introdução
@@ -43,23 +44,31 @@ Centrado em uma abordagem ágil, segura e produtiva de entrega contínua de apli
 
 A Plataforma do Mangue.io suporta a implantação e operacionalização de aplicações baseadas em imagens a partir de um serviço de registro. Além disso, permite também a criação de serviços para as aplicações (internos ou externos ao *cluster* ao qual a aplicação pertence).
 
+====
 
-Acesso à Plataforma e Tela Inicial
-==================================
+
+Acesso à Plataforma
+===================
 
 O acesso à plataforma é feito através de um site na internet, o usuário deve utilizar um navegador de internet, após inserir o endereço da URL/link o usuário visualiza a tela inicial de apresentação.
 
 Após iniciar uma sessão no navegador escolhido, o endereço/caminho para o acesso a aplicação deve ser preenchido da seguinte forma:
 
 https://<mangueserver_IP_Address>:80
+
 https://mangue_Server_Name.com/
 
 Após entrar com o endereço corretamente, a tela do usuário é similar a **Figura 1** abaixo:
 
-
-  
+ 
 
 Figura 1 Tela de Login
+
+.. image:: /figuras/mangue-logo-peq.png
+    :alt: Logo Mangue
+    :scale: 50 %
+    :align: center
+=====
 
 
 As credenciais para o login e senha são as mesmas da plataforma uCloud, com a qual a plataforma do Mangue.io está integrada. Todo usuário provisionado no uCloud pode, automaticamente, usar suas credenciais para ter acesso ao Mangue.io.
@@ -93,7 +102,7 @@ No momento que o usuário seleciona o *cluster* e *namespace* os valores da tela
 
 Tela Inicial
 =============
-A tela inicial de **`Overview`** apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
+A tela inicial de **Overview** apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
 
 
 Gráfico do Preço Mensal do Cluster
@@ -109,7 +118,7 @@ Pode-se observar que os valores flutuam em razão do consumo de recursos da infr
 Figura 4 Preço Mensal do Cluster
 
 
-Este gráfico permite acompanhar a variação do **custo real da infraestrutura** necessária para manter e suportar a execução de um cluster, dia a dia. Na área: “Título do gráfico” é possível conhecer o valor total acumulado, até o dia presente.
+Este gráfico permite acompanhar a variação do **custo real da infraestrutura** necessária para manter e suportar a execução de um *cluster*, dia a dia. Na área: “Título do gráfico” é possível conhecer o valor total acumulado, até o dia presente.
 
 Estes valores são armazenados em uma base de dados interna da plataforma do Mangue.io, para que o usuário possa acompanhar a evolução do valor referente ao consumo dos recursos computacionais para suportar um *cluster* ativo e funcional.
 
@@ -131,6 +140,7 @@ A Plataforma do Mangue.io armazena o consumo de recursos (CPU e Memória) das ap
 
 O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato, valor é definido por meio do uCloud, o preço do contrato pode ser visualizado no mangue por meio da tela **Permissões / Contrato**:
 
+``Inserir Fórmula``
 
 Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada no gráfico da **Figura 4 Preço Mensal do Cluster**.
 
@@ -152,6 +162,8 @@ Ao realizar a busca do item 3.Gráfico do Uso Total de CPU, a plataforma recuper
 
 Figura 7 Uso Total de Memória
 
+
+
 Menu de Usuário
 ===============
 
@@ -171,7 +183,7 @@ Figura 10 Exemplo de um Submenu
 
 
 Workloads
-==========
+=========
 
 Nesta opção do menu de Usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, *Horizontal Autoscaler*, *StatefulSets* e os *Updates*.
   
@@ -193,7 +205,7 @@ O **Autoescalador Horizontal** dimensiona automaticamente o número de *pods* em
 Deployments
 -----------
 
-O menu *Workload/Deployments* apresenta todos os *deployments* de um *cluster* em um determinado namespace.
+O menu *Workload/Deployments* apresenta todos os *deployments* de um *cluster* em um determinado *namespace*.
 
 Um **Deployment** é um objeto do Kubernetes, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos Kubernetes: *Pods* e *ReplicaSets*.
   
@@ -205,17 +217,18 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 * **# ‘coluna acionável’:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
-   * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. Veja detalhes na página.
-   * **Escalar (“  ”):** A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*). Veja detalhes na página.
-   * **Lata de lixo (“  ”)**: que permite ao usuário remover todos os itens selecionados com um único comando. Veja detalhes na página.
+   * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
+   * **Escalar (“  ”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
+   * **Lata de lixo (“  ”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando. 
    * **Alterar versão (“  ”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
+
       * **Deploys:** É a representação do nome do *deployment.d*;
       * **Labels:** São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
       * **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
       * **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
-      * O status **’Running’** identifica que nenhum erro está acontecendo com o *deployment*.
-      * O status **’Pending’** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
-      * O status “**’!’**” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível.
+      * O status **Running** identifica que nenhum erro está acontecendo com o *deployment*.
+      * O status **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
+      * O status “**’!’**” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
       * **IP de acesso:** Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
       * **Imagem e Versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
       * **Ações:** A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
@@ -224,12 +237,10 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 Figura 15 Drop-down Menu – Ações
 
 
-      1. **Adicionar Persistent Volume Claim**
+      A. **Adicionar Persistent Volume Claim**
 Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo Kubernetes podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
 
- A screenshot of a cell phone
-
-Description automatically generated 
+ 
 
 Figura 16 Adicionar PersistentVolumeClaim
 
@@ -239,11 +250,11 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
       * **Nome:** Informar o nome do volume que se deseja criar.
       * **Tamanho:** O usuário deve preencher um número inteiro que representa o tamanho do arquivo de volume que se deseja criar.
       * **Unidade de Tamanho:** O usuário deve selecionar a unidade de tamanho que é utilizada para criar o volume. As opções são:
-      * **Kilo:** Kilobytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000;
-      * **Mega:** Megabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000;
-      * **Giga:** Gigabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000;
-      * **Tera:** Terabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000;
-      * **Peta:** Petabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
+         * **Kilo:** Kilobytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000;
+         * **Mega:** Megabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000;
+         * **Giga:** Gigabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000;
+         * **Tera:** Terabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000;
+         * **Peta:** Petabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
 
 
 Warning  
@@ -261,16 +272,17 @@ Nota
 
       * **’StorageClass:’** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
       * **Modo de Acesso:** Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
-      * **’ReadWriteOnce:’** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
-      * **’ReadOnlyMany:’** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitido a escrita;
-      * **’ReadWriteMany:’** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
+         * **’ReadWriteOnce:’** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
+         * **’ReadOnlyMany:’** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitido a escrita;
+         * **’ReadWriteMany:’** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
       * **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco “□”;
       * **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente.
 
 Para confirmar todos os valores e opções informados, basta o usuário clicar com o mouse no botão **Finalizar** para criar o *PersistentVolume* e aguardar o *feedback* de criação no canto superior direito da tela da Plataforma Mangue.io.
 
-      2. **Adicionar Serviço**
-A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abrirá a seguinte tela de interface modal:
+      B. **Adicionar Serviço**
+
+A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
   
 
 Figura 17 Adicionar Serviço - Deployment
@@ -283,9 +295,9 @@ Nesse modal, o usuário deve preencher os seguintes campos:
       * **Nome do serviço:** O usuário deve preencher com o nome do serviço que ele deseja criar;
       * **Labels do deployment:** O usuário deve informar que são associadas a este serviço;
       * **Tipos de acesso ao serviço:** Interno, Externo ou LoadBalancer:
-      * **Interno:** São os serviços que só podem ser acessados de dentro do cluster;
-      * **Externo:** Corresponde a serviços que possibilitam o acesso de fora do cluster. É fornecida uma porta TCP-IP entre 30.000 –– 32.767;
-      * **’LoadBalancer:’** São integrados diretamente com os Cloud Providers (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
+         * **Interno:** São os serviços que só podem ser acessados de dentro do cluster;
+         * **Externo:** Corresponde a serviços que possibilitam o acesso de fora do cluster. É fornecida uma porta TCP-IP entre 30.000 –– 32.767;
+         * **’LoadBalancer:’** São integrados diretamente com os Cloud Providers (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
       * **Porta de entrada:** Informar o número da porta TCP-IP do container alocada para a entrada no serviço.
       * **Porta de destino para o serviço:** Informar a porta TCP-IP de entrada no container, o serviço vai receber a requisição na porta de entrada e repassar para a porta de destino.
       * **Selecionar o protocolo:** TCP ou UDP.
@@ -293,12 +305,11 @@ Nesse modal, o usuário deve preencher os seguintes campos:
 
 Para confirmar todas as opções acima informadas, o usuário deve clicar com o mouse no botão **Criar Serviço** e aguardar o *feedback* de criação.
 
-      3. **Deletar Deployment**
+      C. **Deletar Deployment**
+
 A terceira opção deste submenu permite que o usuário possa apagar (deletar) um *Deployment* - definitivamente - do *cluster* e do *namespace* que foi selecionado na aba **Configurações**; ao ser clicado, abre a seguinte tela de interface modal solicitando a confirmação por parte do usuário:
  
- A screenshot of a cell phone
 
-Description automatically generated 
 
 Figura 18 Deletar Deployment
 
@@ -313,7 +324,8 @@ Nota
 	Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
 	
 
-      4. **Editar Deployment**
+      D. **Editar Deployment**
+
 Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: porta do container, adicionar ou remover alguma variável de ambiente.  Para atender todas as demandas de edição possíveis, para um *Deployment*, é possível editar diretamente o *YAML* do *Deployment* na plataforma do Mangue.io.
 
 Esta opção apresenta a tela da **Figura 19 Editar Deployment**, o seu conteúdo representa o arquivo JSON com todas as configurações do *deployment* no Kubernetes, o usuário pode editar o que for necessário, confirmar pressionando no botão “Editar” e esperar o *feedback* da ação pela Plataforma do Mangue.io.
@@ -324,46 +336,44 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
 Figura 19 Editar Deployment
 
 
-      5. **Alterar Tags**
+      
+      E. **Alterar Tags**
+
 A função desta tela permite ao usuário alterar as Tags associadas à aplicação selecionada. A partir dela, é possível criar uma Tag, ao clicar no ícone “  ”, para ser associada à aplicação. 
 
-  
+``Inserir imagem`` Alterar Tag
+
+``Inserir imagem`` Criar Tag
 
 Para criar uma Tag é necessário especificar a chave e valor dela.
 
-      6. **Escalar Deployment**
+      F. **Escalar Deployment**
+
 A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão **“Escalar”**.
 
-A screenshot of a cell phone
-
-Description automatically generated 
+ 
 
 Figura 20 Escalar Deployment
 
 
 Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do cluster para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do cluster.
 
-      7. **Migrar Deployment**
+      G. **Migrar Deployment**
+
 Na sexta opção do menu de ações do *Deployment*, há a opção migrar o *deployment* entre diferentes *clusters* configurados na Plataforma do Mangue.io.
 
-O usuário deve selecionar para qual *cluster* integrado ao Mangue.io deseja migrar o *deployment* escolhido. O campo de *cluster* destinatário é do tipo *“drop down list”*, quando o usuário clicar sobre este, é apresentado a lista dos *clusters* disponíveis associados ao contrato escolhido no menu de configuração.
+O usuário deve selecionar para qual *cluster* integrado ao Mangue.io deseja migrar o *deployment* escolhido. O campo de *cluster* destinatário é do tipo *“dropdown list”*, quando o usuário clicar sobre este, é apresentado a lista dos *clusters* disponíveis associados ao contrato escolhido no menu de configuração.
 
 Para efetuar a migração, basta o usuário clicar sobre o botão “Migrar” e aguardar o *feedback* da ação pela Plataforma do Mangue.io. Como resultado desta ação, é apresentado um alerta de Sucesso, no menu superior direito da tela.
 
 
- A screenshot of a social media post
-
-Description automatically generated 
-
 Figura 21 Migrar Deployment
 
 
-      8. **Modificar Versão**
+      H. **Modificar Versão**
+
 Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a **Figura 22 Atualizar Versão de ‘Deployment’.** Por meio deste controle, o usuário pode gerar uma “nova versão” para qualquer *deployment* existente na Plataforma do Mangue.io.
 
- A screenshot of a cell phone
-
-Description automatically generated 
 
 Figura 22 Atualizar Versão de Deployment
 
@@ -379,21 +389,25 @@ Nota
 	Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
 	
 
-      9. **Rollback**
+      I. **Rollback**
+
 Esta opção permite ao usuário efetuar a ação de reverter a versão do *deployment* para sua versão imediatamente anterior à existente na Plataforma do Mangue.io.
+
 Esta ação em particular não ativa qualquer tela adicional para confirmação, sua ação é imediata.
 
  Warning 
 
 Atenção
 	Ao selecionar esta opção, a Plataforma do Mangue.io efetua a ação de reversão da versão de forma imediata sem solicitação de nenhuma confirmação por parte do usuário.
-Recomenda-se cautela e atenção, pois esta ação cria algum tipo de baixa performance ao deployment em que está sendo efetuado a ação de rollback.
-	
+   Recomenda-se cautela e atenção, pois esta ação cria algum tipo de baixa performance ao deployment em que está sendo efetuado a ação de rollback.
+
+====	
 
 Informações do Deployment
 -------------------------
 
 Se o usuário clicar sobre o nome de um *deployment*, a plataforma do Mangue.io apresenta a tela de detalhes do *deployment*, como mostrado na figura abaixo.
+
 O usuário pode notar que esta tela possui diversas seções, cada uma descrita abaixo respectivamente.
   
 
@@ -402,8 +416,10 @@ Figura 23 Overview do Deployment
 
 
 
-      1. **Seção: ‘Deployment Overview’**
+      A. **Seção: ‘Deployment Overview’**
+
 A seção de **’Deployment Overview’** exibe três gráficos, mostram o desempenho de CPU (em milicores), Memória (em Megabytes) e Preço nos Últimos 30 Dias do *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
+
 Também são exibidos botões para os usuários, eles podem especificar o período dos gráficos de CPU e Memória.
   
 
@@ -412,7 +428,8 @@ Figura 24 Overview do Consumo do Deployment
 
 
 
-      2. **Seção: ‘ReplicaSet’**
+      B. **Seção: ‘ReplicaSet’**
+
 A seção **’Replicaset’** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, para cada um mostra as informações de nome, quantidade de *pods* disponíveis, quantidade de *pods* totais num dado momento, a imagem juntamente com a sua versão especificada, o tempo (em dias) desde o momento da criação deste *replicaset*, e um botão com a opção de deletá-la, como mostrado na figura abaixo.
   
 
@@ -420,15 +437,17 @@ Figura 25 ReplicaSet
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+
       * **#**: Número sequencial da *replicaset* nesta lista;
       * **Nome**: Esta coluna apresenta o nome da *replicaset*, o usuário pode verificar que o ambiente Kubernetes gera nomes únicos para cada *replicaset*;
-      * **Pods Disponíveis*: Esta coluna apresenta a quantidade de *pods* para esta *replicaset*;
+      * **Pods Disponíveis**: Esta coluna apresenta a quantidade de *pods* para esta *replicaset*;
       * **Pods Totais**: Esta coluna apresenta a quantidade total de *pods*, configurados para esta *replicaset*;
       * **Imagem:** Esta coluna apresenta a informação do arquivo de imagem utilizada para criar este *deployment*;
       * **Duração:** Esta coluna apresenta o total de dias que este *replicaset* existe desde o momento de sua criação até o presente dia que o usuário visualiza esta lista.
 
 
-      3. **Seção: ‘PODs’**
+      C. **Seção: ‘PODs’**
+
 Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como nome, nó em que está sendo rodado, status atual do *pod*, imagem juntamente com sua versão e tempo de vida.
   
 
@@ -436,12 +455,14 @@ Figura 26 PODs
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+
       * **Nome**: Nome do *deployment* que é estabelecido no momento da criação deste;
       * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *deployment*;
       * **’Status’**: Apresenta o status do *deployment* em seu respectivo *node*. O *status* de um *deployment* identifica o estado atual. Podem ser representados por:
-      * **’Running’** identifica que nenhum erro está acontecendo com o *deployment*;
-      * **’Pending’** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
-      * “**!**” (ponto de exclamação) identifica que algo errado aconteceu com o deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container é impraticável, não é possível fazê-lo;
+         * **’Running’** identifica que nenhum erro está acontecendo com o *deployment*;
+         * **’Pending’** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+         * “**!**” (ponto de exclamação) identifica que algo errado aconteceu com o deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container é impraticável, não é possível fazê-lo;
+
       * **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
       * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste deployment.
       * **Ações**: Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a figura abaixo.
@@ -451,6 +472,7 @@ Figura 27 submenu PODs
 
 
 Cada uma das opções deste submenu é detalhada e descrita abaixo:
+
          * **Deletar ‘Pod’**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
@@ -463,7 +485,8 @@ Figura 28 submenu Ações - Deletar POD
 Figura 29 submenu Performance de um POD
 
 
-         * **’Log’**: Na terceira opção, o usuário é capaz de visualizar os logs de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). 
+         * **’Log’**: Na terceira opção, o usuário é capaz de visualizar os logs de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all).
+
 Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os *logs*, como é mostrado na imagem a seguir:
   
 
@@ -476,20 +499,23 @@ Figura 30 submenu Ações – LOG Diversos PODs
 Figura 31 submenu Ações - Linha de Comando Outro POD
 
 
-         4. **Seção: Volumes e Segredos**
-Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) ou **Segredos** (arquivos, ou definições de autenticação quando necessários), associados ao deployment selecionado.
+         D. **Seção: Volumes e Segredos**
+
+Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) ou **Segredos** (arquivos, ou definições de autenticação quando necessários), associados ao *deployment* selecionado.
   
 
 Figura 32 Volumes e Segredos
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+
          * **#**: Esta coluna apresenta o número sequencial do volume ou segredo, exibido nesta lista.
          * **Nome**: Esta coluna apresenta o nome do volume ou segredo (arquivo do sistema operacional) exposto nesta lista.
          * **Tipo**: Esta coluna apresenta qual o tipo do item exibido nesta lista, que pode ser um **volume** ou **segredo**.
 
 
-         5. **Seção: Eventos**
+         E. **Seção: Eventos**
+
 Nesta seção, são listados todos os eventos atrelados a um *deployment*. Eventos esses que podem ser: por alteração na quantidade de *Pods*/Réplicas, mudança na versão dos containers do *deployment* ou qualquer outra mudança no estado deste.
   
 
@@ -497,6 +523,7 @@ Figura 33 Eventos de Deployment
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+
          * **#**: Número sequencial do evento na lista apresentada;
          * **Criado há**: Apresenta o número total em dias, até a presente data, decorridos desde o surgimento do evento na plataforma do Mangue.io;
          * **Tipo**: Descreve o tipo do evento ocorrido, e podem ser listados os seguintes tipos de eventos:
@@ -505,32 +532,37 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 
          * **Objeto**: Descreve qual objeto configurado na plataforma do Mangue.io que foi a origem do evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem para que este possa ter acesso a ele  e atuar na resolução do evento, através da redefinição deste, ou optar por sua remoção. Seus tipos podem ser alguns dos listados abaixo:
-         * *Deployments*;
-         * *Daemonsets*;
-         * *Horizontal Autoscaler*;
-         * *Pods*;
-         * *Statefulsets*;
-         * *Updates*;
-         * Serviços;
-         * *Ingress*;
-         * *StorageClass*;
-         * *PersistentVolumes*;
-         * *PersistentVolumesClaim*;
+
+            * *Deployments*;
+            * *Daemonsets*;
+            * *Horizontal Autoscaler*;
+            * *Pods*;
+            * *Statefulsets*;
+            * *Updates*;
+            * Serviços;
+            * *Ingress*;
+            * *StorageClass*;
+            * *PersistentVolumes*;
+            * *PersistentVolumesClaim*;
+
          * **Mensagem**: Nesta coluna a plataforma do Mangue.io apresenta uma lista de mensagens que podem ajudar a identificar o sucesso do evento ou a causa raiz de um potencial problema, desta forma permite ao usuário tomar alguma ação para eliminar a causa raiz do problema ou estar seguro do sucesso deste evento.
-         * Pulled;
-         * Created;
-         * Started;
-         * *NoPods*;
-         * *FailedGetScale*;
-         * *ProvisioningFailed*;
-         * *FailedBinding*.
+
+            * Pulled;
+            * Created;
+            * Started;
+            * *NoPods*;
+            * *FailedGetScale*;
+            * *ProvisioningFailed*;
+            * *FailedBinding*.
 
 
-         6. **Seção: ‘Autoescalador’ Horizontal de Pods**
-A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e, a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível. Vale ressaltar que para que o *Horizontal Pod Auto Scaler* seja possível, faz-se necessário que exista uma instância do *Kubernetes Metrics Server* ativa e operando no cluster. Por padrão, a instalação do Mangue.io contempla a instalação do serviço de métricas.
+         F. **Seção: ‘Autoescalador’ Horizontal de Pods**
+
+A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e, a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
+
+Vale ressaltar que para que o *Horizontal Pod Auto Scaler* seja possível, faz-se necessário que exista uma instância do *Kubernetes Metrics Server* ativa e operando no cluster. Por padrão, a instalação do Mangue.io contempla a instalação do serviço de métricas.
+
 Caso o *deployment* não possua nenhum Auto Escalador Horizontal, a tela se apresenta como o exemplo abaixo:
-  
-  
   
 
 Figura 34 Nenhum Auto Escalador Horizontal Encontrado
@@ -564,11 +596,11 @@ Figura 36 Auto Escalador Horizontal - Existente
          * **Máx. Réplicas**: Identifica o parâmetro colocado na definição do escalador correspondente ao número máximo de réplicas que esse escalador irá manter ativas para garantir a performance ao *deployment*.
          * **Número de Réplicas**: Identifica a quantidade de réplicas ativas do *deployment* no presente momento.
          * **Utilização de CPU**: Apresenta a regra definida ao auto escalador, para os limites mínimos e máximos de utilização de CPU. Esta regra deve ser interpretada da seguinte forma:
-         * O primeiro número é o consumo atual do recurso de CPU.
-         * O segundo número é o limite máximo de ocupação de CPU, limite ao qual a Plataforma do Mangue.io **comissiona** (ativa) uma nova réplica do *deployment*.
+            * O primeiro número é o consumo atual do recurso de CPU.
+            * O segundo número é o limite máximo de ocupação de CPU, limite ao qual a Plataforma do Mangue.io **comissiona** (ativa) uma nova réplica do *deployment*.
          * **Utilização de Memória**: Apresenta a regra definida ao auto escalador, para os limites mínimos e máximos de alocação de memória. Esta regra deve ser interpretada da seguinte forma:
-         * O primeiro número é o consumo atual de alocação do recurso Memória.
-         * O segundo número é o limite máximo de alocação de memória, limite ao qual a Plataforma do Mangue.io **comissiona** (ativa) uma nova réplica do *deployment*.
+            * O primeiro número é o consumo atual de alocação do recurso Memória.
+            * O segundo número é o limite máximo de alocação de memória, limite ao qual a Plataforma do Mangue.io **comissiona** (ativa) uma nova réplica do *deployment*.
          * **Ações**: Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, e existem duas opções:
   
 
@@ -592,7 +624,7 @@ Importante ressaltar que as regras de Auto Escalador Horizontal acima descritos,
 Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar todas as regras de Auto Escalador Horizontal, configuradas na plataforma do Mangue.io, associadas a seus respectivos *deployments.*
 
 
-            7. **Seção: Preço da Aplicação no último Mês**
+            G. **Seção: Preço da Aplicação no último Mês**
 
 
   
@@ -605,6 +637,8 @@ Figura 40 Preço da Aplicação (deployment)
             * **Preço por CPU**: Apresenta o valor total, do mês corrente, do consumo do recurso de CPU para manter o *deployment* sendo executado (veja a fórmula de cálculo;
             * **Preço total do APP**: Esta coluna apresenta a somatória das duas colunas anteriores (Preço: Memória e CPU). Com esta informação, o usuário pode avaliar o **custo real da infraestrutura** necessária para manter e suportar a execução de um *deployment* ativo e funcional 24x7. 
 
+====
+
 
 Daemonsets
 ----------
@@ -615,21 +649,21 @@ Daemonsets
 Figura 41 Listagem de Daemonsets
 
 
-
-
             * **#:** Número sequencial do *daemonset* na lista apresentada;
             * **Nome:** É a representação do nome do *Daemonsets*;
             * **Labels:** São os identificadores dos *Daemonsets*, usados para ser o elo que liga a um serviço;
             * **Instâncias:** Está representada pela quantidade de réplicas que estão operacionais de um *Daemonsets*, e pela quantidade total de réplicas operacionais desejadas para este *Daemonsets*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
             * **Status:** O status de um *Daemonsets* identifica o estado atual deste. Podem ser presentados por *Running*, *Pending* ou “*!*” (ponto de exclamação):
-            * O status **Running** identifica que nenhum erro está acontecendo com o *Daemonsets*;
-            * O status **Pending** identifica algum estado de transição no *Daemonsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
-            * O status **“!”** (ponto de exclamação) identifica quando algo errado aconteceu com o *Daemonsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
+               * O status **Running** identifica que nenhum erro está acontecendo com o *Daemonsets*;
+               * O status **Pending** identifica algum estado de transição no *Daemonsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+               * O status **“!”** (ponto de exclamação) identifica quando algo errado aconteceu com o *Daemonsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
             * **IP de acesso:** Caso o *Daemonsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “Ip interno” caso seja um serviço interno do *cluster* (tipo *ClusterIP*).
             * **Imagem e versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Daemonsets* listado na imagem da tabela de *Daemonsets*.
             * **Duração**: Apresenta o tempo de duração do *Daemonsets*.
             * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as seguintes opções:
   
+  ``Editar DaemonSets``
+  ``Deletar DaemonSets``
 
                * **Editar DaemonSets:** Esta opção apresenta o *daemonset* em formato JSON, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io.
                * **Deletar DaemonSets:** ao selecionar esta ação, a plataforma do Mangue.io solicita a confirmação do usuário, como mostra a figura abaixo:
@@ -639,13 +673,14 @@ Figura 42 Confirmação para Deletar Daemonsets
 
 
 **Informações do DaemonSet**
+
 Caso o usuário clique sobre o nome de algum *Daemonsets* presente na lista, a plataforma do Mangue.io exibe a tela com as informações de um *Daemonset*, conforme o exemplo abaixo:
   
 
 Autoescalador Horizontal de Pods
 --------------------------------
 
-A plataforma do Mangue.io permite que o usuário define regras para que a performance da aplicação seja sempre a melhor possível e que a *deployment* possa aumentar o processamento paralelo, diversas instâncias do *deployment* (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível.
+A plataforma do Mangue.io permite que o usuário defina regras para que a performance da aplicação seja sempre a melhor possível e que a *deployment* possa aumentar o processamento paralelo, diversas instâncias do *deployment* (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível.
 
 A definição de ‘Regras de Escalabilidade’ controla o incremento da quantidade de réplicas de um *deployment*, e por consequência há aumento do valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas. Na tabela exibe informações como: 
   
@@ -679,7 +714,9 @@ PODs
 ----
 
 Um **’Pod’** do Kubernetes é um grupo de containers, implantados juntos, no mesmo *host*.
+
 Os *pods* operam em um nível mais alto do que os containers individuais, porque é muito comum ter um grupo de containers trabalhando em conjunto para produzir um artefato ou processar um conjunto de trabalho.
+
 Um *Pod* (exemplo: *a pod of whales* tradução: “um grupo de baleias”) é um grupo de um ou mais containers, com armazenamento / recursos de rede compartilhados e uma especificação de como executar os containers. O conteúdo de um pod é sempre colocado e programado conjuntamente e executado em um contexto compartilhado. Um *pod* modela um "*host* lógico" específico do aplicativo: ele contém um ou mais contêineres de aplicativo que são acoplados de forma relativamente forte.
 
 A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente Kubernetes, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*, veja o item **Seção: PODs**
@@ -691,6 +728,7 @@ Figura 46 Listagem de PODs
 
 
 Abaixo é decrito o significado de cada coluna desta tela:
+
                   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
                   * **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
                   * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *Deployment*;
@@ -698,15 +736,16 @@ Abaixo é decrito o significado de cada coluna desta tela:
                      * **’Running’** identifica que nenhum erro está acontecendo com o *Deployment*;
                      * **’Pending’** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
                      * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
-                     * **Imagem:** Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
-                     * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
-                     * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+                  * **Imagem:** Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
+                  * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
+                  * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
 Figura 27 submenu PODs
 
 
 Cada uma das opções deste submenu está descrita abaixo:
+
                         * **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
@@ -735,37 +774,39 @@ Statefulsets
 ------------
 
 *Apps/Statefulsets* apresenta todos os *statefulsets* de um *cluster* em um determinado *namespace*, na tabela são exibidas informações como:
-
-
   
 
 Figura 48 Listagem de Statefulsets
 
 
-                        * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
-                        * **Nome**: É a representação do nome do *Statefulsets*;
-                        * **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço ;
-                        * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
-                        * **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
+                     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+                     * **Nome**: É a representação do nome do *Statefulsets*;
+                     * **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço ;
+                     * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
+                     * **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
                            * O status **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
                            * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;                
                            * O *status* “**!**” (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* deste não é possível;
-                           * **IP**: Caso o *Statefulsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo(tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
-                           * **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Statefulsets* listado na imagem da tabela de *Statefulsets*.
-                           * **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*
-                           * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe duas opções assim como a figura abaixo:
+                     * **IP**: Caso o *Statefulsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo(tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
+                     * **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Statefulsets* listado na imagem da tabela de *Statefulsets*.
+                     * **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*
+                     * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe duas opções assim como a figura abaixo:
   
+``Editar StatefulSets``
+``Deletar StatefulSets``
 
 
-
-                              * **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no Kubernetes, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
+                           * **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no Kubernetes, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
   
+Inserir imagem
 
 
-
-                              * **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme a tela abaixo:
+                           * **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme a tela abaixo:
   
+Inserir imagem
 
+
+====
 
 
 Updates
@@ -773,26 +814,27 @@ Updates
 
 Um Update é considerado como um evento de atualização em um *Cluster* Kubernetes, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente Kubernetes e a interface do Mangue.io.
 
-
-  
+Inserir imagem  
 
 Abaixo descrevemos o significado de cada coluna desta tela:
-                              * #: Número sequencial do evento na lista apresentada;
-                              * Deployment Name: Indica o nome do Deployment que é feita a atualização;
-                              * Tipo: Determina o tipo do update que é realizado, existem dois updates possíveis, são eles:
-                              * Atualização - quando o usuário determinou qual é a próxima versão para qual container do Deployment;
-                              * Rollback - atualização com finalidade de voltar para versão anterior;
-                              * Status: Existem dois estados possíveis para uma atualização, são eles:
-                              * UPDATED que corresponde a uma atualização realizada;
-                              * OUTDATED corresponde a uma atualização que está aguardando o evento de atualização através da plataforma do Mangue;
-                              * Namespace: Corresponde ao Namespace da aplicação a ser atualizada e está sendo executada;
-                              * Novas Imagens: Corresponde às novas imagens e versões dos containers que são atualizados;
-                              * Duração: Corresponde ao tempo que a atualização foi cadastrada/executada;
-                              * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe uma única opção:
-  
 
-                                 * Atualizar: Ao selecionar a opção de atualizar no botão de ações da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a atualização:
+                     * **#**: Número sequencial do evento na lista apresentada;
+                     * **Deployment Name**: Indica o nome do Deployment que é feita a atualização;
+                     * **Tipo**: Determina o tipo do update que é realizado, existem dois updates possíveis, são eles:
+                        * **Atualização** - quando o usuário determinou qual é a próxima versão para qual container do Deployment;
+                        * **Rollback** - atualização com finalidade de voltar para versão anterior;
+                     * **Status**: Existem dois estados possíveis para uma atualização, são eles:
+                        * UPDATED que corresponde a uma atualização realizada;
+                        * OUTDATED corresponde a uma atualização que está aguardando o evento de atualização através da plataforma do Mangue;
+                     * **Namespace**: Corresponde ao Namespace da aplicação a ser atualizada e está sendo executada;
+                     * **Novas Imagens**: Corresponde às novas imagens e versões dos containers que são atualizados;
+                     * **Duração**: Corresponde ao tempo que a atualização foi cadastrada/executada;
+                     * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe uma única opção:
   
+Inserir imagem
+                     * **Atualizar**: Ao selecionar a opção de atualizar no botão de ações da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a atualização:
+  
+Inserir imagem
 
 Ao clicar no botão "Atualizar" do modal é disparado o evento de atualização para o Deployment correspondente. 
 
@@ -800,38 +842,47 @@ São utilizadas as imagens e versões dos containers que constam no campo de “
 
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
+Inserir imagem
 
 
-
-                                 * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca aparecem apenas os Updates que contém a palavra-chave da pesquisa;
-                                 * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Updates;
-                                 * Criar Integração com Updates: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar uma nova atualização para um Deployment em um determinado Namespace. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+                     * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca aparecem apenas os Updates que contém a palavra-chave da pesquisa;
+                     * **A ação de atualizar**: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Updates;
+                     * **Criar Integração com Updates**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar uma nova atualização para um Deployment em um determinado Namespace. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
+Inserir imagem
 
 Segue a descrição dos campos desta tela:
-                                    * Token: Este campo é preenchido com uma string de caracteres após o usuário clicar sobre o botão “Gerar Token”, neste momento o campo é preenchido com a string de token que é informado para comunicação com a API do Mangue.io. Este token deve ser salvo e deve ser informado para autenticar as versões do CI. Ao gerar  um token, este deve ser enviado via API para o servidor do Mangue.io, pois ele  é responsável por garantir a integridade da requisição enviada.
-                                    * Namespace: Ao clicar neste campo, é apresentada uma lista (drop-down) com todos os Namespaces existentes no cluster que foi selecionado na aba de Seleção de Configuração.
-                                    * Deployment: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os Deployments associados ao namespace selecionado do campo anterior.
-                                    * Criar: Quando o usuário estiver configurado, todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão “Criar” para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o status pending. Ao clicar no botão de "Criar” é criada a permissão para que o usuário cadastre atualizações na plataforma através de chamadas à API do mangue. Um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro. Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone “  ” (update) para atualizar as informações da tela.
+
+                     * **Token**: Este campo é preenchido com uma string de caracteres após o usuário clicar sobre o botão **“Gerar Token”**, neste momento o campo é preenchido com a string de token que é informado para comunicação com a API do Mangue.io. Este token deve ser salvo e deve ser informado para autenticar as versões do CI. Ao gerar  um token, este deve ser enviado via API para o servidor do Mangue.io, pois ele  é responsável por garantir a integridade da requisição enviada.
+                     * **Namespace**: Ao clicar neste campo, é apresentada uma lista (drop-down) com todos os Namespaces existentes no cluster que foi selecionado na aba de Seleção de Configuração.
+                     * **Deployment**: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os Deployments associados ao namespace selecionado do campo anterior.
+                     * **Criar**: Quando o usuário estiver configurado, todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão “Criar” para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o status pending. Ao clicar no botão de "Criar” é criada a permissão para que o usuário cadastre atualizações na plataforma através de chamadas à API do mangue. Um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro. Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone “  ” (update) para atualizar as informações da tela.
 
 
 Abaixo listamos alguns exemplos dos benefícios para a funcionalidade de Updates:
-Exemplo 1:
+
+**Exemplo 1**:
+
 	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu cluster Kubernetes gerenciado pelo Mangue.io e suas aplicações instaladas é possível cadastrar atualizações na plataforma através do pipeline de CI/CD, e esperar que o evento de atualização seja disparado pela interface do Mangue.io.
 
 
-	Exemplo 2:
+**Exemplo 2**:
+
 	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu cluster Kubernetes gerenciado pelo Mangue.io e suas aplicações instaladas é possível atualizar a aplicação direto pelo pipeline de CI/CD.
 	
 
 Catálogo
 ========
 
-A Plataforma do Mangue.io permite ao usuário criar aplicações (Deployments) de duas formas diferentes. A primeira é uma forma simplificada guiando o usuário por intermédio de telas, que depois de todas preenchidas e confirmada pelo usuário, os dados informados serão convertidos em um arquivo com ‘sintaxe YAML’, e esta sintaxe (praticamente sem erros) será utilizada para gerar a aplicação (ex.: Deployment).
-O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML, para o ambiente Kubernetes, demanda um alto grau de especialização e conhecimento do desenvolvedor para que a sintaxe, correta para o ambiente, tenha todas as dependências necessárias para geração do resultado desejado da forma correta e pronta para o uso no ambiente Kubernetes (ex.: uma aplicação / Deployment).
-A outra forma é permitir ao usuário fazer o upload de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe YAML, já adaptada e preparada para um ambiente Kubernetes. Se o desenvolvedor (usuário) possui prática suficiente para criar seus próprios scripts em sintaxe YAML, pode utilizar seus próprios scripts e trazer estes para a Plataforma do Mangue.io para gerenciar em qual Cluster, Pod, Node, este código/script é executado e gerenciado.
+A Plataforma do Mangue.io permite ao usuário criar aplicações (*Deployments*) de duas formas diferentes. A primeira é uma forma simplificada guiando o usuário por intermédio de telas, que depois de todas preenchidas e confirmada pelo usuário, os dados informados serão convertidos em um arquivo com ‘sintaxe YAML’, e esta sintaxe (praticamente sem erros) será utilizada para gerar a aplicação (ex.: *Deployment*).
+
+O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML, para o ambiente Kubernetes, demanda um alto grau de especialização e conhecimento do desenvolvedor para que a sintaxe, correta para o ambiente, tenha todas as dependências necessárias para geração do resultado desejado da forma correta e pronta para o uso no ambiente Kubernetes (ex.: uma aplicação / *Deployment*).
+
+A outra forma é permitir ao usuário fazer o upload de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe YAML, já adaptada e preparada para um ambiente Kubernetes. Se o desenvolvedor (usuário) possui prática suficiente para criar seus próprios scripts em sintaxe YAML, pode utilizar seus próprios scripts e trazer estes para a Plataforma do Mangue.io para gerenciar em qual *Cluster*, *Pod*, *Node*, este código/*script* é executado e gerenciado.
+
 Quando o usuário acessar o menu Catálogo, a Plataforma do Mangue.io apresenta a tela abaixo, e iremos descrever cada uma das opções nas páginas abaixo.
   
+Inserir imagem
 
 
 
@@ -839,37 +890,34 @@ Nova Aplicação
 --------------
 
 Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do Cluster e Namespace selecionados na aba engrenagens “   Seleção de Configuração”.
+
 Abaixo descreveremos as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
-1. Primeiro Passo: Nova Aplicação
+A. Primeiro Passo: Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas, o usuário deve preencher os seguintes campos:
+
+Inserir imagem
   
 
-                                       * Nome: Este campo é obrigatório, e o usuário deve informar o nome da aplicação (Deployment) com o qual este fica identificado na Plataforma do Mangue.io;
-                                       * Réplicas: Este campo é obrigatório, e o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação (Deployment) assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a Plataforma do Mangue.io se encarrega de alocação destes recursos computacionais;
-                                       * Pesquisar Imagem: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no Hub Docker, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação Wordpress:
-  
+                     * **Nome**: Este campo é obrigatório, e o usuário deve informar o nome da aplicação (Deployment) com o qual este fica identificado na Plataforma do Mangue.io;
+                     * **Réplicas**: Este campo é obrigatório, e o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação (Deployment) assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a Plataforma do Mangue.io se encarrega de alocação destes recursos computacionais;
+                     * **Pesquisar Imagem**: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no Hub Docker, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+            
+Inserir imagem
+
+                           * Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
 
 
+                     * **Nome do Container**: Este campo é obrigatório, neste campo o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da Plataforma do Mangue.io;
+                     * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do Deployment sejam executados de forma privilegiada, com acesso aos recursos e capacidades Kernel da máquina Host;
+                     * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
+                     * **Tags da Aplicação**: Neste campo o usuário pode informar as Tags da aplicação. Também é possível criar uma Tag para ser associada à aplicação;
+                     * **Botão Adicionar**: Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
 
-                                       * Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
-
-
-                                       * Nome do Container: Este campo é obrigatório, neste campo o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da Plataforma do Mangue.io;
-                                       * Bloquear execução de usuário privilegiado: Neste campo o usuário pode bloquear os containers do Deployment sejam executados de forma privilegiada, com acesso aos recursos e capacidades Kernel da máquina Host;
-                                       * Especificar ID de usuário, grupo ou arquivo de sistema: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
-                                       * Tags da Aplicação: Neste campo o usuário pode informar as Tags da aplicação. Também é possível criar uma Tag para ser associada à aplicação;
-                                       * Botão Adicionar: Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
-
-
-
-
-  
-
-
+Inserir imagem
 
                                        * *Versão da Imagem: Este campo é obrigatório neste campo o usuário deve informar como a aplicação (Deployment) deve ser identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
                                        * *ContainerPort: Este campo é obrigatório neste campo o usuário deve informar porta TCP-IP do container que deve ser utilizada para que a aplicação (Deployment) fique disponível para acesso de outros usuários;
