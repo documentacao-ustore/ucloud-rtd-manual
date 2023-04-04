@@ -2014,10 +2014,15 @@ Para criar um Visual Studio Code é necessário clicar no botão de “  ” e p
                                                                                                                                  * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
 
 Services, Load Balancing and Networking
+=======================================
+
 Os Pods nascem e morrem, e quando morrem, morrem mesmo, não ressuscitam. Os controladores ReplicaSets, em particular, criam e apagam Pods dinamicamente (por exemplo: ao escalar ou reduzir). Embora cada Pod tenha seu próprio endereço TCP-IP, até mesmo estes  não podem ser considerados estáveis ao longo do tempo (ex.: Protocolo de Configuração Dinâmica de Endereços de Rede, em inglês, Dynamic Host Configuration Protocol - DHCP). Isso pode gerar um problema, se algum conjunto de Pods (nomeado de back-end) fornece funcionalidade a outros pods (nomeado de front-end) dentro de um cluster do Mangue.io; Como esses front-ends descobrem e controlam os back-ends que estão neste conjunto? É neste momento que se introduzem os Serviços.
 Um Serviço no Mangue.io é uma instância do objeto Service do Kubernetes que, por sua vez, é uma abstração que define um conjunto lógico de Pods e uma política pela qual é possível acessá-los. O conjunto de Pods segmentados por um serviço é, geralmente, determinado por um conjunto de Labels.
 O menu Services, Load Balancing and Networking é dividido em dois submenus os quais correspondem por: Serviços, Ingress. Cada submenu tem um propósito específico descrito a seguir.
+
 Serviços
+--------
+
 É uma maneira abstrata de expor um aplicativo em execução em um conjunto de pods como um serviço de rede. Com o Kubernetes, o usuário não precisa modificar seu aplicativo para usar um mecanismo de Service Discovery desconhecido. O Kubernetes fornece aos pods seus próprios endereços TCP-IP e um único nome DNS para um conjunto de pods e pode balancear a carga entre eles. Neste submenu serão listados os serviços existentes no namespace o qual o usuário está navegando.
 O menu Networking/Serviços apresenta todos os serviços de um cluster em um determinado namespace, na tabela temos informações listadas como na tela abaixo:
   
@@ -2057,6 +2062,8 @@ Recomendamos que somente usuários experientes em sintaxe YAML ou Kubernetes efe
 
 
 Ingress
+-------
+
 O Ingress expõe as rotas HTTP e HTTPS de fora do cluster para serviços dentro do cluster. O roteamento de tráfego é controlado por regras definidas no recurso Ingress. Um Ingress pode ser configurado para fornecer aos Serviços URLs acessíveis externamente, Load Balancing, configuração para SSL / TLS. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Neste submenu, serão listados os Ingress existentes no namespace que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
@@ -2080,7 +2087,10 @@ Abaixo descrevemos as informações da lista apresentada nesta tela:
 
 
 No caso de o usuário ter incluído um novo Ingress, recentemente, mas o usuário não encontra o nome na lista, o que o usuário pode fazer é clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
+
 Namespaces
+==========
+
 O Kubernetes oferece suporte a vários clusters virtuais apoiados por um mesmo cluster físico. Esses clusters virtuais são chamados de “namespaces”. Os namespaces são identificados por um “nome”. Estes podem conter diversos ‘recursos’, e cada recurso deve ter seu nome único. O usuário pode criar o mesmo recurso várias vezes (repetindo o mesmo nome) mas estes recursos devem estar configurados em um namespaces distinto.
 Namespaces também dão suporte a definição de quotas, como por exemplo um namespace voltado para um ambiente de Produção e um namespace para o ambiente de Homologação.
 De forma clara, o ambiente computacional designado para o namespace Produção deve ter maior capacidade de recursos computacionais do cluster que o namespace configurado para um ambiente de Homologação – afinal este ambiente possui uma carga de uso eventual. As quotas limitam a quantidade de recursos computacionais que um determinado Namespace pode consumir.
@@ -2156,6 +2166,8 @@ Atenção
 	
 
 Nodes
+=====
+
 O menu Nodes apresenta todos os nodes (Máquinas virtuais) de um determinado cluster. Em Overview Nodes é possível visualizar graficamente o consumo dos recursos (CPU e memória) de todos os Nodes de um Cluster em um determinado período. 
 O consumo de CPU é medido em MilliCores e o de memória em MegaBytes, ambos em função do tempo, conforme podemos verificar na figura abaixo. 
 É permitido ao usuário selecionar o período desejado clicando sobre os botões localizados acima dos gráficos. As opções disponíveis para o usuário estão entre os últimos 30, 15, 7 e 1 dia(s) e, nas últimas 12 horas. Para os períodos de 30, 15 e 7 dias, as aferições em função do tempo são diárias e para os períodos de 1 dia e 12 horas, são por hora. 
@@ -2210,13 +2222,19 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 
 
 Migração de Cluster
+===================
+
 O Mangue.io é uma plataforma de Gestão de Ambientes de Múltiplos Orquestradores de Container, que permite a orquestração, a implantação (localização e agendamento) e a operacionalização (execução) de containers de aplicações dentro de um cluster computacional (público ou privado) ou entre clusters computacionais (público e/ou privado).
 A plataforma opera em um modelo de multicloud híbrido e, dessa forma, permite às empresas total controle, suporte para a sustentação de cópias de segurança (backup), replicação e migração de ambientes.
 O menu Migrações de Cluster é responsável por realizar a migração de múltiplos recursos entre clusters – de público e/ou privado para público e/ou privado.
 Através da Plataforma do Mangue.io o usuário pode migrar o conteúdo completo de um cluster – com todos seus diversos tipos de workloads – para outro cluster.
 A praticidade de migração de todos os tipos de workloads entre clusters facilita a criação de um ambiente de Múltiplos Orquestradores de Contêineres preparado para cenários de Disaster Recovery.
 A Plataforma do Mangue.io é agnóstica a provedores de serviços (privados, públicos) e através da funcionalidade do menu Migrações o usuário pode manter, gerenciar e operar diversas cópias de seu clusters em múltiplos orquestradores de containers, de forma simultânea e centralizada.
+
+
 Processo de Migração de Workloads:
+---------------------------------
+
 O usuário pode notar que esta tela é segmentada em duas seções: Migração entre Clusters e Workloads, e o processo de migração é simples e o usuário é guiado de forma intuitiva para completar o processo de preenchimento da tela da Plataforma do Mangue.io.
 
 
@@ -2265,7 +2283,11 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
                                                                                                                                                             6. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo informações como: Nome do recurso, Tipo do recurso, Namespace, Cluster de Origem e Cluster destino. A Plataforma do Mangue.io inicia a movimentação dos workloads entre os clusters selecionados, e logo em seguida, há um feedback dessa ação que é apresentada no canto superior direito da tela do browser.
 Após confirmar este procedimento a Plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os clusters indicados, uma mensagem de feedback é apresentada no canto superior direito da tela do browser de internet. 
+
+
 Migração de Namespace
+---------------------
+
 Este menu é responsável por realizar a migração de múltiplos recursos entre namespaces do mesmo Cluster.
 Esta tela é segmentada em duas seções, como a tela de Migração de Cluster: Migração entre Namespaces e Workloads, e o processo de migração é simples e o usuário é guiado de forma intuitiva para completar o processo de preenchimento da tela da Plataforma do Mangue.io.
 Abaixo apresentamos o processo para o correto preenchimento da tela de migração:
@@ -2292,8 +2314,12 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
 
                                                                                                                                                                5. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo  informações como: Nome do recurso, Tipo do recurso, Namespace, Namespace de Origem e Namespace destino. A Plataforma do Mangue.io inicia a movimentação dos workloads entre os namespaces selecionados, e logo em seguida, há um feedback dessa ação que será apresentada no canto superior direito da tela do browser.
-Após confirmar este procedimento a Plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os namespaces indicados, um uma mensagem de feedback será apresentada no canto superior direito da tela do browser de internet. 
+Após confirmar este procedimento a Plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os namespaces indicados, um uma mensagem de feedback será apresentada no canto superior direito da tela do browser de internet.
+
+
 Registry
+========
+
 O menu Registry apresenta todos os Docker Registries integrados à plataforma. O Docker Registry provê um serviço para hospedagem de imagens do Docker análogo ao que está disponível no hub.docker.com, porém com a possibilidade de uso e hospedagem em uma rede interna. Os Registries podem e devem ser utilizados como alternativa para armazenamento de imagens docker dos servidores e aplicações de uma organização. 
 No menu Registry é possível conectar a um registry privado, ou seja, um servidor de registro de imagem privado da organização. Ou um serviço de registro de imagem público, como o http://hub.docker.com.
 Há nesta seção uma tabela contendo as informações dos Registries adicionados ao Kubernetes, lembrando que os registries são segredos (veja o item Secrets) criados por namespace.
@@ -2347,6 +2373,8 @@ Botão Confirmar: Após o usuário alterar todos os campos anteriores, ele deve 
 
 
 Secrets
+=======
+
 Secrets (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, tokens, OAuth e chaves SSH. Empregar essa informação através de um Secret é a forma mais segura e flexível do que ‘expor’ a informação, em uma definição de ciclo de vida do Pod ou em uma imagem de contêiner. Os valores de um segredo são salvos em BASE64[3] . O que não significa que há uma certa “camada” de criptografia nas informações, adicionalmente, esta é a abordagem mais recomendada para armazenamento de informações sensíveis.
 Ao selecionar este menu será apresentado uma lista de todos os secrets presentes no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
 
@@ -2374,7 +2402,11 @@ Para cada componente do secret a Plataforma do Mangue.io apresenta um ícone de 
 
 
 Quando o usuário clicar sobre o ícone de visualização, novamente, a Plataforma do Mangue.io fecha a apresentação do conteúdo do Secret da tela.
+
+
 Schedule Task
+=============
+
 A plataforma Mangue.io pode agendar tarefas para serem realizadas em uma data posterior, tarefas como: 
                                                                                                                                                                         * Atualizar Deployment.
                                                                                                                                                                         * Escalar Deployment.
@@ -2429,6 +2461,8 @@ Os campos de um arquivo de ConfigMap são:
 
 
 Storage
+=======
+
 Lidar com aplicações em contêineres tem alguns desafios, e um destes desafio é como interagir com arquivos em disco. Os arquivos em disco de um container são efêmeros, isto representa alguns problemas para aplicações não triviais empacotadas em containers. Primeiro, quando um container falha, o Mangue.io tenta reiniciá-lo, mas com isso os arquivos em disco serão perdidos, logo, o container começa sempre com um estado limpo. Em segundo lugar, ao executar containers juntos em um Pod, geralmente é necessário compartilhar arquivos entre esses contêineres. A abstração de Volume do Kubernetes utilizada no Mangue.io resolve esses dois problemas (para o ambiente Docker é diferente[4]).
 Por outro lado, um volume do Kubernetes (utilizado pelo Mangue.io) tem uma vida útil explícita – o mesmo que o Pod que o contém. Consequentemente, um volume ultrapassa todos os contêineres que são executados no Pod e os dados são preservados nas reinicializações deste mesmo contêiner. Naturalmente, quando um Pod deixa de existir, o volume deixa de existir também. Talvez mais importante do que isso, como o Kubernetes suporta muitos tipos de volumes, e um Pod pode usar qualquer número deles simultaneamente, a Plataforma do Mangue.io também herdou essa capacidade. 
 Em sua essência, um Volume é apenas um diretório, possivelmente com alguns dados, que são acessíveis aos contêineres em um Pod. O diretório é o “local”, e seu “conteúdo” é determinado pelo tipo de volume específico utilizado.
@@ -2439,6 +2473,8 @@ Na sessão de Storage o usuário encontra os menus relacionados a estrutura de a
 
 
 StorageClass
+------------
+
 Os StorageClass são responsáveis por criar classes de storage de diferentes tipos, pode-se encarar como exemplo o seguinte cenário:
                                                                                                                                                                            1. Um usuário tem dois tipos de discos montados em dois NFS servers diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações.
                                                                                                                                                                            2. Desta forma o usuário deverá criar dois StorageClass diferentes, cada um representa um servidor de NFS: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo.
@@ -2466,6 +2502,8 @@ Abaixo são descritos as colunas desta lista:
 
 
 PersistentVolume
+----------------
+
 Os PersistentVolumes (PV) são uma parte do armazenamento no cluster que foi provido por um administrador ou provisionado dinamicamente usando StorageClass. É um recurso do cluster, assim como um node. PVs são plugins de volume como o recurso Volumes, mas têm um ciclo de vida independente de qualquer Pod individual que usa o PV.
 Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Mangue.io apresenta a lista de todos os PersistentVolumes que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
   
@@ -2497,6 +2535,8 @@ Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Man
 
 
 PersistentVolumeClaims
+----------------------
+
 Os PersistentVolumeClaims (PVC) são uma solicitação de armazenamento por um usuário. É semelhante a um pod. Os pods consomem recursos do node e os PVCs consomem recursos PV. Os pods podem solicitar níveis específicos de recursos (CPU e memória). Os PVCs podem solicitar tamanhos específicos de armazenamento e modos de acesso (por exemplo, eles podem ser montados ReadWriteOnce, ReadOnlyMany ou ReadWriteMany).
 O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um determinado namespace do cluster, a tabela exibe informações como:
   
@@ -2524,6 +2564,8 @@ O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um 
 
 
 Tarefas
+=======
+
 A Plataforma do Mangue.io é um ambiente que se comunica com o gerenciador de container Kubernetes via API-Restful, desta forma sempre que o usuário adiciona, ou re-configura algum recurso através da interface do Mangue.io, a plataforma envia uma ‘tarefa’ via API-Restful para o cluster Kubernetes para que esta tarefa seja executada.
 Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta-a para o usuário na tabela da interface. Abaixo a tela Tarefas exibe um exemplo:
 
@@ -2557,6 +2599,8 @@ Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para volt
 
 
 Clusters Workloads
+==================
+
 Esta opção de menu lista todas as cargas de trabalho (workloads) existentes em todos os clusters integrados à Plataforma do Mangue.io.
 Inicialmente, é relevante esclarecer o que é exatamente uma carga de trabalho (workload). No Kubernetes, não há objeto, componente e qualquer tipo de construção chamada “carga de trabalho”. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu cluster. Pode ser sinônimo de microsserviços, aplicativos, containers ou processos. As cargas de trabalho, geralmente, são processos de longa duração, mas também podem ser de curta duração sob demanda ou jobs em lote.
 A Plataforma do Mangue.io pode gerenciar diversos componentes que o Kubernetes oferece para gerenciar e configurar suas cargas de trabalho. Pode-se listar pods e para os componentes que encapsulam pods, como ReplicaSets, Deployments, DaemonSets e StatefulSets. Em seguida, detalhamento sobre os componentes periféricos, como Serviços, EndPoints e Ingress.
@@ -2586,6 +2630,9 @@ ________________
 
 
 Conclusão
+=========
+
+
 Este documento conclui a apresentação e descrição do Mangue.io, uma Plataforma de Gestão de Ambientes de Múltiplos Orquestradores de Container que entrega de forma contínua, ágil, segura e produtiva, as aplicações direcionadas a implantação, testes e atualizações com downtime zero e rollback de deployments.
 
 
