@@ -1067,13 +1067,14 @@ Inserir imagem
                * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
                * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do container.
                * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
-Nome do Header: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro (log) de atividades de atualização.
-Valor do Header: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro (log) de atividades de atualização.
-Botão Adicionar: Este botão informa para a Plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades (log) de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão Adicionar.
-                                             * Botão Voltar: Se o usuário necessitar regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que serão perdidas todas as informações que foram preenchidas nesta tela pelo usuário, e a Plataforma do Mangue.io retorna para a tela anterior. 
-                                             * Botão Finalizar: O usuário deverá pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores e, estando pronto para iniciar a compilação da aplicação (Deployment). A Plataforma do Mangue.io irá compilar todas as informações dos campos e gerar um script YAML; irá compilar este script e gerar a aplicação (e todas suas dependências: PVCs, ConfigMaps, Arquivos de log, entre outros) e a aplicação será executada e gerenciada dentro do ambiente da Plataforma do Mangue.io.
-Neste ponto a Plataforma do Mangue.io irá encerrar as telas de criação de aplicação (Deployment) e o usuário poderá encontrar sua nova aplicação listada na tela do menu Workloads/Deployments.
-O usuário poderá ter uma quantidade maior de informações de sua nova aplicação no menu Informações do Deployment.
+                   * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+                   * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+                     * Botão ``Adicionar``: Este botão informa para a Plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
+                     * Botão ``Voltar``: Se o usuário necessitar regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que serão perdidas todas as informações que foram preenchidas nesta tela pelo usuário, e a Plataforma do Mangue.io retorna para a tela anterior. 
+                     * Botão ``Finalizar``: O usuário deverá pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores e, estando pronto para iniciar a compilação da aplicação *(Deployment)*. A Plataforma do Mangue.io compila todas as informações dos campos e gerar um script YAML; ao compilar este script e gerar a aplicação (e todas suas dependências: PVCs, ConfigMaps, Arquivos de log, entre outros) ela será executada e gerenciada dentro do ambiente da Plataforma do Mangue.io.
+
+Neste ponto a Plataforma do Mangue.io encerra as telas de criação de aplicação *(Deployment)* e o usuário pode encontrar sua nova aplicação listada na tela do menu *Workloads/Deployments*.
+O usuário poderá ter uma quantidade maior de informações de sua nova aplicação no menu Informações do *Deployment*.
 
 
 Deploy via YAML
