@@ -11,15 +11,6 @@ Mangue.IO - Manual do Usuário
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
 
-Pode ser renomeado Introdução Visão Geral
-=========================================
-
-Texto H2
---------
-
-Texto H3
-~~~~~~~~
-
 ====
 
 
@@ -2878,3 +2869,14 @@ Este documento conclui a apresentação e descrição do Mangue.io, uma Platafor
 
 Equipe Ustore
 Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
+
+Exemplo:
+
+Pode ser renomeado Introdução Visão Geral
+=========================================
+
+Texto H2
+--------
+
+Texto H3
+~~~~~~~~
