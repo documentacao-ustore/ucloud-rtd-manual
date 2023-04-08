@@ -49,14 +49,12 @@ https://<mangueserver_IP_Address>:80
 
 https://mangue_Server_Name.com/
 
-Após entrar com o endereço corretamente, a tela do usuário é similar a **Figura 1** abaixo:
+Após entrar com o endereço corretamente, a tela de login do usuário é similar a imagem abaixo:
 
- 
 
-Figura 1 Tela de Login
 
-.. image:: /figuras/
-    :alt: 
+.. image:: /figuras/fig_mangue/001_mangue_login
+    :alt: Tela de login 
     :scale: 50 %
     :align: center
 =====
