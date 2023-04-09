@@ -62,10 +62,8 @@ Após entrar com o endereço corretamente, a tela de login do usuário é simila
 
 As credenciais para o login e senha são as mesmas da plataforma uCloud, com a qual a plataforma do Mangue.io está integrada. Todo usuário provisionado no uCloud pode, automaticamente, usar suas credenciais para ter acesso ao Mangue.io.
 
-Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o procedimento de login, a imagem a seguir, pode ser apresentada ao usuário, no caso de existir um *cluster* associado ao contrato do usuário no Mangue.io. 
+Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o procedimento de login, uma imagem semelhante pode ser apresentada ao usuário, no caso de existir um *cluster* associado ao contrato do usuário no Mangue.io. 
   
-
-Figura 2 Tela Inicial Mangue.io
 
 .. image:: /figuras/fig_mangue/002_mangue_tela_inicial.png
     :alt: Tela inicial 
@@ -74,31 +72,35 @@ Figura 2 Tela Inicial Mangue.io
 =====
 
 
-A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à  plataforma do Mangue.io.
+A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à plataforma do Mangue.io.
 
 
 Configurações de Navegação
 ==========================
 
-No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem   , nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
+No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
 
 Ao clicar em qualquer um dos campos as informações da tela mudam automaticamente.
-  
 
-Figura 3 Aba de Seleção da Configuração
+.. image:: /figuras/fig_mangue/003_mangue_aba_selecao.png
+    :alt: Aba de Seleção da Configuração 
+    :scale: 80 %
+    :align: center
+=====
 
 
 
+Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento a descrição de como integrar e/ou criar um *cluster* na aplicação.
 
-Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento será descrito como integrar e/ou criar um *cluster* na aplicação.
-
-Ao selecionar um *cluster*, é trocado o *cluster* que a plataforma está se comunicando e as informações da tela serão atualizadas para este novo contexto.
+Ao selecionar um *cluster*, é trocado o *cluster* que a plataforma está se comunicando e as informações da tela são atualizadas para este novo contexto.
 
 No momento que o usuário seleciona o *cluster* e *namespace* os valores da tela de *Overview* são alterados com os dados específicos da seleção do usuário.
 
+====
 
 Tela Inicial
-=============
+============
+
 A tela inicial de **Overview** apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
 
 
@@ -112,17 +114,24 @@ No eixo vertical, pode-se acompanhar o valor e, no eixo horizontal, é apresenta
 Pode-se observar que os valores flutuam em razão do consumo de recursos da infraestrutura computacional para suportar todas as aplicações (*deployments*) que estão ativas no *cluster* selecionado.
   
 
-Figura 4 Preço Mensal do Cluster
-
+.. image:: /figuras/fig_mangue/004_mangue_preco_mensal_cluster.png
+    :alt: Preço Mensal do Cluster 
+    :scale: 80 %
+    :align: center
+=====
 
 Este gráfico permite acompanhar a variação do **custo real da infraestrutura** necessária para manter e suportar a execução de um *cluster*, dia a dia. Na área: “Título do gráfico” é possível conhecer o valor total acumulado, até o dia presente.
 
 Estes valores são armazenados em uma base de dados interna da plataforma do Mangue.io, para que o usuário possa acompanhar a evolução do valor referente ao consumo dos recursos computacionais para suportar um *cluster* ativo e funcional.
 
 Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” (  ). A plataforma do Mangue.io solicita a confirmação do usuário, para esta ação apresentando a tela abaixo:
-  
 
-Figura 5 Deletar Dados Financeiros do Cluster (Bilhetador)
+
+.. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
+    :alt: Deletar Dados Financeiros do Cluster_Bilhetador 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão verde “Deletar”. Com esta ação todos os valores de consumo do *cluster* são removidos e é iniciado um novo período de coleta de informações, perdendo-se toda a informação acumulada (série histórica) do *cluster* selecionado.
@@ -137,9 +146,14 @@ A Plataforma do Mangue.io armazena o consumo de recursos (CPU e Memória) das ap
 
 O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato, valor é definido por meio do uCloud, o preço do contrato pode ser visualizado no mangue por meio da tela **Permissões / Contrato**:
 
-``Inserir Fórmula``
+.. image:: /figuras/fig_mangue/005.1_mangue_formula.png
+    :alt: Fórmula mangue.io
+    :scale: 80 %
+    :align: center
+=====
 
-Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada no gráfico da **Figura 4 Preço Mensal do Cluster**.
+
+Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico Preço Mensal do Cluster.
 
 
 Gráfico do Uso Total de CPU
