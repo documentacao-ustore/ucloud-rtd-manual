@@ -62,7 +62,7 @@ Após entrar com o endereço corretamente, a tela de login do usuário é simila
 
 As credenciais para o login e senha são as mesmas da plataforma uCloud, com a qual a plataforma do Mangue.io está integrada. Todo usuário provisionado no uCloud pode, automaticamente, usar suas credenciais para ter acesso ao Mangue.io.
 
-Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o procedimento de login, a **Figura 2**, a seguir, pode ser apresentada ao usuário, no caso de existir um *cluster* associado ao contrato do usuário no Mangue.io. 
+Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o procedimento de login, a imagem a seguir, pode ser apresentada ao usuário, no caso de existir um *cluster* associado ao contrato do usuário no Mangue.io. 
   
 
 Figura 2 Tela Inicial Mangue.io
