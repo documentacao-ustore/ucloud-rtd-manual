@@ -53,7 +53,7 @@ Após entrar com o endereço corretamente, a tela de login do usuário é simila
 
 
 
-.. image:: /figuras/fig_mangue/001_mangue_login
+.. image:: /figuras/fig_mangue/001_mangue_login.png
     :alt: Tela de login 
     :scale: 50 %
     :align: center
