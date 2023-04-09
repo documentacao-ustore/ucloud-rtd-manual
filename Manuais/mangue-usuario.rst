@@ -67,8 +67,14 @@ Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o proce
 
 Figura 2 Tela Inicial Mangue.io
 
+.. image:: /figuras/fig_mangue/002_mangue_tela_inicial.png
+    :alt: Tela inicial 
+    :scale: 50 %
+    :align: center
+=====
 
-A tela acima, **Figura 2**, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à  plataforma do Mangue.io.
+
+A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à  plataforma do Mangue.io.
 
 
 Configurações de Navegação
@@ -80,6 +86,8 @@ Ao clicar em qualquer um dos campos as informações da tela mudam automaticamen
   
 
 Figura 3 Aba de Seleção da Configuração
+
+
 
 
 Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento será descrito como integrar e/ou criar um *cluster* na aplicação.
