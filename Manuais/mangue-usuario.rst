@@ -55,7 +55,7 @@ Após entrar com o endereço corretamente, a tela de login do usuário é simila
 
 .. image:: /figuras/fig_mangue/001_mangue_login.png
     :alt: Tela de login 
-    :scale: 50 %
+    :scale: 80 %
     :align: center
 =====
 
@@ -69,7 +69,7 @@ Figura 2 Tela Inicial Mangue.io
 
 .. image:: /figuras/fig_mangue/002_mangue_tela_inicial.png
     :alt: Tela inicial 
-    :scale: 50 %
+    :scale: 80 %
     :align: center
 =====
 
