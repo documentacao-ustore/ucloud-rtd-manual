@@ -326,7 +326,7 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
 
 
 .. attention:: 
-	A Plataforma do **Mangue.io** não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
+	A Plataforma do Mangue.io não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
 	
 
 
@@ -357,10 +357,8 @@ Para confirmar todos os valores e opções informados, basta o usuário clicar c
       A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
   
 
-Figura 17 Adicionar Serviço - Deployment
-
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/017_mangue_add_servico.png
+    :alt: Adicionar Serviço_Deployment
     :scale: 80 %
     :align: center
 =====
@@ -379,7 +377,7 @@ Nesse modal, o usuário deve preencher os seguintes campos:
 
          * **Externo:** Corresponde a serviços que possibilitam o acesso de fora do cluster. É fornecida uma porta TCP-IP entre 30.000 –– 32.767;
 
-         * **’LoadBalancer:’** São integrados diretamente com os Cloud Providers (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
+         * **LoadBalancer:** São integrados diretamente com os Cloud Providers (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
 
       * **Porta de entrada:** Informar o número da porta TCP-IP do container alocada para a entrada no serviço.
 
@@ -397,10 +395,8 @@ A terceira opção deste submenu permite que o usuário possa apagar (deletar) u
  
 
 
-Figura 18 Deletar Deployment
-
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/018_mangue_deletar_deployment.png
+    :alt: Deletar Deployment 
     :scale: 80 %
     :align: center
 =====
@@ -409,9 +405,8 @@ Esta ação é imediata e irreversível, a Plataforma do Mangue.io remove o *dep
 
 Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua ação e a Plataforma do Mangue.io apaga o *deployment* do ambiente selecionado.
 
- Clipboard 
 
-Nota
+.. note::
 	Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
 	
 
@@ -419,15 +414,13 @@ Nota
 
 Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: porta do container, adicionar ou remover alguma variável de ambiente.  Para atender todas as demandas de edição possíveis, para um *Deployment*, é possível editar diretamente o *YAML* do *Deployment* na plataforma do Mangue.io.
 
-Esta opção apresenta a tela da **Figura 19 Editar Deployment**, o seu conteúdo representa o arquivo JSON com todas as configurações do *deployment* no Kubernetes, o usuário pode editar o que for necessário, confirmar pressionando no botão “Editar” e esperar o *feedback* da ação pela Plataforma do Mangue.io.
+Esta opção apresenta como exemplo a imagem Editar Deployment, o seu conteúdo representa o arquivo.JSON com todas as configurações do *deployment* no *Kubernetes*, o usuário pode editar o que for necessário, confirmar pressionando no botão “Editar” e esperar o *feedback* da ação pela Plataforma do Mangue.io.
 
 Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
   
 
-Figura 19 Editar Deployment
-
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/019_mangue_editar_deployment.png
+    :alt: Editar Deployment 
     :scale: 80 %
     :align: center
 =====
@@ -438,27 +431,36 @@ Figura 19 Editar Deployment
 
 A função desta tela permite ao usuário alterar as Tags associadas à aplicação selecionada. A partir dela, é possível criar uma Tag, ao clicar no ícone “  ”, para ser associada à aplicação. 
 
-``Inserir imagem`` Alterar Tag
 
-``Inserir imagem`` Criar Tag
-
-Para criar uma Tag é necessário especificar a chave e valor dela.
-
-      F. **Escalar Deployment**
-
-A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão **“Escalar”**.
-
- 
-
-Figura 20 Escalar Deployment
-
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/019.1_mangue_alterar_tag.png
+    :alt: Alterar Tags 
     :scale: 80 %
     :align: center
 =====
 
-Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do cluster para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do cluster.
+.. important:: Para criar uma Tag é necessário especificar a chave e valor dela.
+
+.. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
+    :alt: Criar Tag 
+    :scale: 80 %
+    :align: center
+=====
+
+ 
+
+      F. **Escalar Deployment**
+
+A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão ``Escalar``.
+
+ 
+
+.. image:: /figuras/fig_mangue/020_mangue_escalar_deployment.png
+    :alt: Escalar Deployment
+    :scale: 80 %
+    :align: center
+=====
+
+Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do *cluster* para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do *cluster*.
 
       G. **Migrar Deployment**
 
@@ -466,28 +468,33 @@ Na sexta opção do menu de ações do *Deployment*, há a opção migrar o *dep
 
 O usuário deve selecionar para qual *cluster* integrado ao Mangue.io deseja migrar o *deployment* escolhido. O campo de *cluster* destinatário é do tipo *“dropdown list”*, quando o usuário clicar sobre este, é apresentado a lista dos *clusters* disponíveis associados ao contrato escolhido no menu de configuração.
 
-Para efetuar a migração, basta o usuário clicar sobre o botão “Migrar” e aguardar o *feedback* da ação pela Plataforma do Mangue.io. Como resultado desta ação, é apresentado um alerta de Sucesso, no menu superior direito da tela.
+Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e aguardar o *feedback* da ação pela Plataforma do Mangue.io. Como resultado desta ação, é apresentado um alerta de Sucesso, no menu superior direito da tela.
 
 
-Figura 21 Migrar Deployment
+.. image:: /figuras/fig_mangue/021_mangue_migrar_deployment.png
+    :alt: Migrar Deployment 
+    :scale: 80 %
+    :align: center
+=====
 
 
       H. **Modificar Versão**
 
-Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a **Figura 22 Atualizar Versão de ‘Deployment’.** Por meio deste controle, o usuário pode gerar uma “nova versão” para qualquer *deployment* existente na Plataforma do Mangue.io.
+Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a imagem "Atualizar Versão de *Deployment*". Por meio deste controle, o usuário pode gerar uma “nova versão” para qualquer *deployment* existente na Plataforma do Mangue.io.
 
 
-Figura 22 Atualizar Versão de Deployment
-
+.. image:: /figuras/fig_mangue/022_mangue_atualizar_deployment.png
+    :alt: Atualizar versão de Deployment 
+    :scale: 80 %
+    :align: center
+=====
 
 Este campo é alfanumérico e o usuário pode entrar com a informação desejada para identificar a nova versão do *deployment* selecionado. As novas versões são de controle único do usuário, pois se referem às ofertas criadas por este usuário.
 
-Após preencher com a informação desejada o usuário deve clicar sobre o botão **“Enviar”** para confirmar a ação de criar a versão para o *deployment*.
+Após preencher com a informação desejada o usuário deve clicar sobre o botão ``Enviar`` para confirmar a ação de criar a versão para o *deployment*.
 
 
- Área de Transferência 
-
-Nota
+.. attention::
 	Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
 	
 
@@ -497,9 +504,7 @@ Esta opção permite ao usuário efetuar a ação de reverter a versão do *depl
 
 Esta ação em particular não ativa qualquer tela adicional para confirmação, sua ação é imediata.
 
- Warning 
-
-Atenção
+.. important:: 
 	Ao selecionar esta opção, a Plataforma do Mangue.io efetua a ação de reversão da versão de forma imediata sem solicitação de nenhuma confirmação por parte do usuário.
    Recomenda-se cautela e atenção, pois esta ação cria algum tipo de baixa performance ao deployment em que está sendo efetuado a ação de rollback.
 
