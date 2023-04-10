@@ -518,29 +518,38 @@ Se o usuário clicar sobre o nome de um *deployment*, a plataforma do Mangue.io 
 O usuário pode notar que esta tela possui diversas seções, cada uma descrita abaixo respectivamente.
   
 
-Figura 23 Overview do Deployment
+.. image:: /figuras/fig_mangue/023_mangue_overview_deployment.png
+    :alt: Overview do Deployment 
+    :scale: 80 %
+    :align: center
+=====
 
 
+      A. **Seção: Deployment Overview**
 
-
-      A. **Seção: ‘Deployment Overview’**
-
-A seção de **’Deployment Overview’** exibe três gráficos, mostram o desempenho de CPU (em milicores), Memória (em Megabytes) e Preço nos Últimos 30 Dias do *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
+A seção de **Deployment Overview** exibe três gráficos, mostram o desempenho de CPU (em milicores), Memória (em Megabytes) e Preço nos Últimos 30 Dias do *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
 
 Também são exibidos botões para os usuários, eles podem especificar o período dos gráficos de CPU e Memória.
   
 
-Figura 24 Overview do Consumo do Deployment
+.. image:: /figuras/fig_mangue/024_mangue_consumo_deployment.png
+    :alt: Overview do consumo do deployment 
+    :scale: 80 %
+    :align: center
+=====
 
 
 
+      B. **Seção: ReplicaSet**
 
-      B. **Seção: ‘ReplicaSet’**
-
-A seção **’Replicaset’** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, para cada um mostra as informações de nome, quantidade de *pods* disponíveis, quantidade de *pods* totais num dado momento, a imagem juntamente com a sua versão especificada, o tempo (em dias) desde o momento da criação deste *replicaset*, e um botão com a opção de deletá-la, como mostrado na figura abaixo.
+A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, para cada um mostra as informações de nome, quantidade de *pods* disponíveis, quantidade de *pods* totais num dado momento, a imagem juntamente com a sua versão especificada, o tempo (em dias) desde o momento da criação deste *replicaset*, e um botão com a opção de deletá-la, como mostrado na figura abaixo.
   
 
-Figura 25 ReplicaSet
+.. image:: /figuras/fig_mangue/025_mangue_replicaset.png
+    :alt: ReplicaSet 
+    :scale: 80 %
+    :align: center
+=====
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
@@ -558,12 +567,16 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
       * **Duração:** Esta coluna apresenta o total de dias que este *replicaset* existe desde o momento de sua criação até o presente dia que o usuário visualiza esta lista.
 
 
-      C. **Seção: ‘PODs’**
+      C. **Seção: PODs**
 
 Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como nome, nó em que está sendo rodado, status atual do *pod*, imagem juntamente com sua versão e tempo de vida.
   
 
-Figura 26 PODs
+.. image:: /figuras/fig_mangue/026_mangue_pods.png
+    :alt: PODs 
+    :scale: 80 %
+    :align: center
+=====
 
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
@@ -572,60 +585,79 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
       * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *deployment*;
 
-      * **’Status’**: Apresenta o status do *deployment* em seu respectivo *node*. O *status* de um *deployment* identifica o estado atual. Podem ser representados por:
+      * **Status**: Apresenta o status do *deployment* em seu respectivo *node*. O *status* de um *deployment* identifica o estado atual. Podem ser representados por:
 
-         * **’Running’** identifica que nenhum erro está acontecendo com o *deployment*;
+         * **Running** identifica que nenhum erro está acontecendo com o *deployment*;
 
-         * **’Pending’** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+         * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-         * “**!**” (ponto de exclamação) identifica que algo errado aconteceu com o deployment e suas
-         réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container é impraticável, não é possível fazê-lo;
+         * **!** (ponto de exclamação) identifica que algo errado aconteceu com o deployment e suas
+         réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container é impraticável, não é possível fazê-lo;
 
       * **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
 
-      * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste deployment.
+      * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*.
 
       * **Ações**: Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a figura abaixo.
   
 
-Figura 27 submenu PODs
+.. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
+    :alt: submenu PODs 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Cada uma das opções deste submenu é detalhada e descrita abaixo:
 
-         * **Deletar ‘Pod’**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+         * **Deletar Pod**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
-Figura 28 submenu Ações - Deletar POD
-
+.. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
+    :alt: submenu Ações_Deletar_POD 
+    :scale: 80 %
+    :align: center
+=====
 
          * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *pod* selecionado.
   
 
-Figura 29 submenu Performance de um POD
+.. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
+    :alt: submenu Performance de um POD 
+    :scale: 80 %
+    :align: center
+=====
 
-
-         * **’Log’**: Na terceira opção, o usuário é capaz de visualizar os logs de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all).
+         * **Log**: Na terceira opção, o usuário é capaz de visualizar os logs de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all).
 
 Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os *logs*, como é mostrado na imagem a seguir:
   
 
-Figura 30 submenu Ações – LOG Diversos PODs
-
+.. image:: /figuras/fig_mangue/030_mangue_log_pods.png
+    :alt: submenu Ações_LOG diversos PODs 
+    :scale: 80 %
+    :align: center
+=====
 
          * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no *prompt* do sistema operacional do *pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do *pod* em questão. Lembrando que para que esta função seja habilitada é necessário acessar o Menu Integrações e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
   
 
-Figura 31 submenu Ações - Linha de Comando Outro POD
-
+.. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
+    :alt: submenu Ações_Linha de Comando Outro POD 
+    :scale: 80 %
+    :align: center
+=====
 
          D. **Seção: Volumes e Segredos**
 
 Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) ou **Segredos** (arquivos, ou definições de autenticação quando necessários), associados ao *deployment* selecionado.
-  
 
-Figura 32 Volumes e Segredos
 
+.. image:: /figuras/fig_mangue/032_mangue_volumes_segredos.png
+    :alt: Volumes e Segredos 
+    :scale: 80 %
+    :align: center
+=====
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
@@ -640,9 +672,12 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 Nesta seção, são listados todos os eventos atrelados a um *deployment*. Eventos esses que podem ser: por alteração na quantidade de *Pods*/Réplicas, mudança na versão dos containers do *deployment* ou qualquer outra mudança no estado deste.
   
-
-Figura 33 Eventos de Deployment
-
+ 
+.. image:: /figuras/fig_mangue/033_mangue_eventos.png
+    :alt: Eventos de Deployment 
+    :scale: 80 %
+    :align: center
+=====
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
@@ -651,9 +686,10 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
          * **Criado há**: Apresenta o número total em dias, até a presente data, decorridos desde o surgimento do evento na plataforma do Mangue.io;
 
          * **Tipo**: Descreve o tipo do evento ocorrido, e podem ser listados os seguintes tipos de eventos:
-         * **Normal**;
 
-         * **Warning**;
+              * **Normal**;
+
+              * **Warning**;
 
 
          * **Objeto**: Descreve qual objeto configurado na plataforma do Mangue.io que foi a origem do evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem para que este possa ter acesso a ele  e atuar na resolução do evento, através da redefinição deste, ou optar por sua remoção. Seus tipos podem ser alguns dos listados abaixo:
@@ -681,7 +717,7 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
             * *FailedBinding*.
 
 
-         F. **Seção: ‘Autoescalador’ Horizontal de Pods**
+         F. **Seção: Autoescalador Horizontal de Pods**
 
 A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e, a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
 
@@ -690,22 +726,28 @@ Vale ressaltar que para que o *Horizontal Pod Auto Scaler* seja possível, faz-s
 Caso o *deployment* não possua nenhum Auto Escalador Horizontal, a tela se apresenta como o exemplo abaixo:
   
 
-Figura 34 Nenhum Auto Escalador Horizontal Encontrado
+.. image:: /figuras/fig_mangue/034_mangue_autoescalador_inexistente.png
+    :alt: Nenhum Auto Escalador Horizontal Encontrado 
+    :scale: 80 %
+    :align: center
+=====
 
-
-Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre ícone do sinal de adição ‘+’ a exemplo da **Figura 32**, para que seja apresentada a interface onde o usuário configura a(s) regra(s) de como a plataforma deve mensurar o consumo de infraestrutura do *deployment* para iniciar novas réplicas dentro da infraestrutura computacional para que a performance seja atendida.
+Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre ícone do sinal de adição ‘+’ a exemplo da imagem acima, para que seja apresentada a interface onde o usuário configura a(s) regra(s) de como a plataforma deve mensurar o consumo de infraestrutura do *deployment* para iniciar novas réplicas dentro da infraestrutura computacional para que a performance seja atendida.
   
 
-Figura 35 Auto Escalador Horizontal – Criação
-
+.. image:: /figuras/fig_mangue/035_mangue_criacao_autoescalador.png
+    :alt: Auto Escalador Horizontal_Criação 
+    :scale: 80 %
+    :align: center
+=====
 
          * **Mínimo de Réplicas**: Informar o valor mínimo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve manter ativas para que a aplicação tenha a performance mínima necessária para garantir a otimização experiência do usuário. O valor mínimo para este campo é ‘um’ (1).
 
-         * **Máximo de Réplicas**: Informar o valor máximo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve iniciar para que a aplicação suporte o crescimento da demanda de acesso dos usuários, para garantir a otimização da experiência do usuário. O valor máximo para este campo é ‘quinze’ (15).
+         * **Máximo de Réplicas**: Informar o valor máximo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve iniciar para que a aplicação suporte o crescimento da demanda de acesso dos usuários, para garantir a otimização da experiência do usuário. O valor máximo para este campo é 'quinze' (15).
 
-         * **% Máxima de uso de CPU**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’, para que a plataforma apresente o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pela plataforma do Mangue.io como limite máximo de alocação de **CPU** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma do Mangue.io considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é ‘cem por cento’ (100%).
+         * **% Máxima de uso de CPU**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’, para que a plataforma apresente o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pela plataforma do Mangue.io como limite máximo de alocação de **CPU** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma do Mangue.io considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é 'cem por cento' (100%).
 
-         * **% Máxima de uso de Memória**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’ para a que a plataforma apresenta o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pela plataforma do Mangue.io como limite máximo de alocação de recurso de **memória** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma do Mangue.io considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é ‘cem por cento’ (100%).
+         * **% Máxima de uso de Memória**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’ para a que a plataforma apresenta o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pela plataforma do Mangue.io como limite máximo de alocação de recurso de **memória** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma do Mangue.io considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é 'cem por cento' (100%).
 
 
 É importante ressaltar que ao confirmar o evento de criação de um Auto Escalador Horizontal, há um tempo para que ele apareça em tela. Tempo este decorrente da necessidade do escalador de coletar as métricas para que se torne um objeto ativo no Kubernetes.
@@ -716,6 +758,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
   
 
 Figura 36 Auto Escalador Horizontal - Existente
+
 
 
          * **#**: Número sequencial do Auto Escalador Horizontal na lista apresentada.
