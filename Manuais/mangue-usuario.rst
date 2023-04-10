@@ -222,9 +222,9 @@ Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as inf
 =====
 
 
-Um **’Deployment’** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos *Kubernetes*: *Pods* e *ReplicaSets*.
+Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos *Kubernetes*: *Pods* e *ReplicaSets*.
 
-Os **’Pods’** são as menores unidades lógicas (computacionais) implantáveis que podem ser criadas e gerenciadas a partir do Mangue.io. *ReplicaSet* tem por objetivo manter um conjunto estável de réplicas de *Pods* em execução a qualquer momento.
+Os **Pods** são as menores unidades lógicas (computacionais) implantáveis que podem ser criadas e gerenciadas a partir do Mangue.io. *ReplicaSet* tem por objetivo manter um conjunto estável de réplicas de *Pods* em execução a qualquer momento.
 
 O **StatefulSet** é o objeto da API de carga de trabalho usado para gerenciar aplicações no estado. Ele é o responsável por gerenciar a implantação e o dimensionamento de um conjunto de *Pods* e fornece garantias sobre a ordem e a exclusividade deles.
 
@@ -253,7 +253,7 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# ‘coluna acionável’:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
+* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
      * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
@@ -271,11 +271,11 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 * **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
 
-     * O status **Running** identifica que nenhum erro está acontecendo com o *deployment*.
+     * O *status* **Running** identifica que nenhum erro está acontecendo com o *deployment*.
 
-     * O status **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
+     * O *status* **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
 
-     * O status **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
+     * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
 
 * **IP de acesso:** Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
 
@@ -334,15 +334,15 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
 	O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* está associado, conforme a imagem anterior exibida no tópico *Deployments*.
 	
 
-* **’StorageClass:’** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
+* **StorageClass:** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
 
 * **Modo de Acesso:** Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
 
-         * **’ReadWriteOnce:’** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
+         * **ReadWriteOnce:** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
 
-         * **’ReadOnlyMany:’** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitido a escrita;
+         * **ReadOnlyMany:** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitido a escrita;
 
-         * **’ReadWriteMany:’** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
+         * **ReadWriteMany:** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
 
 * **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco “□”;
 
