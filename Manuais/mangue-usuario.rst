@@ -1,4 +1,4 @@
-Mangue.IO - Manual do Usuário
+Mangue.io - Manual do Usuário
 +++++++++++++++++++++++++++++
 
 .. image:: /figuras/mangue-logo-peq.png
@@ -38,7 +38,7 @@ A Plataforma do Mangue.io suporta a implantação e operacionalização de aplic
 ====
 
 
-Acesso à Plataforma
+Acesso à plataforma
 ===================
 
 O acesso à plataforma é feito através de um site na internet, o usuário deve utilizar um navegador de internet, após inserir o endereço da URL/link o usuário visualiza a tela inicial de apresentação.
@@ -74,8 +74,10 @@ Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o proce
 
 A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à plataforma do Mangue.io.
 
+====
 
-Configurações de Navegação
+
+Configurações de navegação
 ==========================
 
 No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
@@ -90,7 +92,9 @@ Ao clicar em qualquer um dos campos as informações da tela mudam automaticamen
 
 
 
-Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento a descrição de como integrar e/ou criar um *cluster* na aplicação.
+Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. 
+
+Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento a descrição de como integrar e/ou criar um *cluster* na aplicação.
 
 Ao selecionar um *cluster*, é trocado o *cluster* que a plataforma está se comunicando e as informações da tela são atualizadas para este novo contexto.
 
@@ -98,13 +102,13 @@ No momento que o usuário seleciona o *cluster* e *namespace* os valores da tela
 
 ====
 
-Tela Inicial
+Tela inicial
 ============
 
 A tela inicial de **Overview** apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
 
 
-Gráfico do Preço Mensal do Cluster
+Gráfico do Preço mensal do cluster
 ----------------------------------
 
 Este gráfico de barras, apresenta a evolução do custo referente ao uso da infraestrutura computacional que suporta e executa as aplicações.
@@ -137,7 +141,7 @@ Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, rem
 Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão verde “Deletar”. Com esta ação todos os valores de consumo do *cluster* são removidos e é iniciado um novo período de coleta de informações, perdendo-se toda a informação acumulada (série histórica) do *cluster* selecionado.
 
 
-Cálculo do Valor do Consumo do Cluster
+Cálculo do valor do consumo do cluster
 --------------------------------------
 
 Os valores aqui apresentados são calculados com base no valor/hora de vCPU e Memória RAM que está armazenado na base de dados do Mangue.io.
@@ -156,7 +160,7 @@ O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato,
 Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico Preço Mensal do Cluster.
 
 
-Gráfico do Uso Total de CPU
+Gráfico do uso total de CPU
 ---------------------------
 
 Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso kubernetes, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa “  ”, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
@@ -169,7 +173,7 @@ Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada 
 =====
 
 
-Gráfico do Uso Total de Memória
+Gráfico do Uso total de memória
 --------------------------------
 
 Ao realizar a busca do item 3.Gráfico do Uso Total de CPU, a plataforma recupera as informações do valor do consumo de memória, em MegaBytes, dos últimos trinta minutos de consumo da memória correspondente ao *namespace* e recurso selecionado.
@@ -182,7 +186,7 @@ Ao realizar a busca do item 3.Gráfico do Uso Total de CPU, a plataforma recuper
 =====
 
 
-Menu de Usuário
+Menu de usuário
 ===============
 
 A barra de menu de usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo.
@@ -208,7 +212,7 @@ Algumas opções de menu possuem um submenu, que são apresentadas quando o usu�
 Workloads
 =========
 
-Nesta opção do menu de Usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, *Horizontal Autoscaler*, *StatefulSets* e os *Updates*.
+Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, *Horizontal Autoscaler*, *StatefulSets* e os *Updates*.
   
 
 .. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
@@ -218,7 +222,7 @@ Nesta opção do menu de Usuário *Workloads* o seu *dashboard* apresenta as inf
 =====
 
 
-Um **’Deployment’** é um objeto do Kubernetes, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos Kubernetes: *Pods* e *ReplicaSets*.
+Um **’Deployment’** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos *Kubernetes*: *Pods* e *ReplicaSets*.
 
 Os **’Pods’** são as menores unidades lógicas (computacionais) implantáveis que podem ser criadas e gerenciadas a partir do Mangue.io. *ReplicaSet* tem por objetivo manter um conjunto estável de réplicas de *Pods* em execução a qualquer momento.
 
@@ -229,12 +233,14 @@ Os **Daemonsets** gerenciam grupos de *pods* replicados. No entanto, *DaemonSets
 O **Autoescalador Horizontal** dimensiona automaticamente o número de *pods* em um controlador de replicação, conjunto de réplicas ou conjunto com estado com base na utilização de CPU observada (ou com suporte às métricas personalizadas, em algumas outras métricas fornecidas pelo aplicativo). Observe que o escalonamento automático horizontal de *pod* não se aplica a objetos que não podem ser escalados, por exemplo, *DaemonSets*.
 
 
+====
+
 Deployments
 -----------
 
 O menu *Workload/Deployments* apresenta todos os *deployments* de um *cluster* em um determinado *namespace*.
 
-Um **Deployment** é um objeto do Kubernetes, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos Kubernetes: *Pods* e *ReplicaSets*.
+Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos *Kubernetes*: *Pods* e *ReplicaSets*.
   
 
 
@@ -287,7 +293,7 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
       A. **Adicionar Persistent Volume Claim**
 
-      Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo Kubernetes podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
+      Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo *Kubernetes* podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
 
  
 
@@ -317,22 +323,20 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
          * **Peta:** Petabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
 
 
-Warning  
 
 
-Atenção
-	A Plataforma do **Mangue.io** não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentado nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
+.. attention:: 
+	A Plataforma do **Mangue.io** não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
 	
 
- Clipboard 
 
-Nota
-	O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* foi associado, veja a **Figura 14 Workloads – Deployments**.
+.. note::
+	O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* está associado, conforme a imagem anterior exibida no tópico *Deployments*.
 	
 
-      * **’StorageClass:’** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
+* **’StorageClass:’** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
 
-      * **Modo de Acesso:** Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
+* **Modo de Acesso:** Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
 
          * **’ReadWriteOnce:’** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
 
@@ -340,15 +344,17 @@ Nota
 
          * **’ReadWriteMany:’** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
 
-      * **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco “□”;
+* **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco “□”;
 
-      * **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente.
+* **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente.
 
 Para confirmar todos os valores e opções informados, basta o usuário clicar com o mouse no botão **Finalizar** para criar o *PersistentVolume* e aguardar o *feedback* de criação no canto superior direito da tela da Plataforma Mangue.io.
 
+
+
       B. **Adicionar Serviço**
 
-A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
+      A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
   
 
 Figura 17 Adicionar Serviço - Deployment
