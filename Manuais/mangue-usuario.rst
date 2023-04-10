@@ -162,7 +162,11 @@ Gráfico do Uso Total de CPU
 Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso kubernetes, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa “  ”, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
   
 
-Figura 6 Uso Total de CPU
+.. image:: /figuras/fig_mangue/006_mangue_uso_total_cpu.png
+    :alt: Uso Total de CPU 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Gráfico do Uso Total de Memória
@@ -171,8 +175,11 @@ Gráfico do Uso Total de Memória
 Ao realizar a busca do item 3.Gráfico do Uso Total de CPU, a plataforma recupera as informações do valor do consumo de memória, em MegaBytes, dos últimos trinta minutos de consumo da memória correspondente ao *namespace* e recurso selecionado.
   
 
-Figura 7 Uso Total de Memória
-
+.. image:: /figuras/fig_mangue/007_mangue_uso_total_memoria.png
+    :alt: Uso Total de Memória  
+    :scale: 80 %
+    :align: center
+=====
 
 
 Menu de Usuário
@@ -181,16 +188,21 @@ Menu de Usuário
 A barra de menu de usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo.
   
 
-Figura 9 Menu Usuário (Modo Expandido)
+.. image:: /figuras/fig_mangue/008_mangue_menu_usuario_expandido.png
+    :alt: Menu Usuário (Modo Expandido) 
+    :scale: 80 %
+    :align: center
+=====
 
 
-Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação    (sinal de menor que “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, veja o exemplo na figura abaixo.
+Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor que “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, veja o exemplo na figura abaixo.
   
- A close up of a logo
 
-Description automatically generated 
-
-Figura 10 Exemplo de um Submenu
+.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
+    :alt: Exemplo de um Submenu 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Workloads
@@ -199,7 +211,11 @@ Workloads
 Nesta opção do menu de Usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, *Horizontal Autoscaler*, *StatefulSets* e os *Updates*.
   
 
-Figura 13 Menu Workloads
+.. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
+    :alt: Menu Workloads 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Um **’Deployment’** é um objeto do Kubernetes, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos Kubernetes: *Pods* e *ReplicaSets*.
@@ -221,51 +237,65 @@ O menu *Workload/Deployments* apresenta todos os *deployments* de um *cluster* e
 Um **Deployment** é um objeto do Kubernetes, orquestrador utilizado pelo Mangue.io, que nada mais é do que um controlador de implantação que fornece atualizações declarativas para outros dois objetos Kubernetes: *Pods* e *ReplicaSets*.
   
 
-Figura 14 Workloads – Deployments
+
+.. image:: /figuras/fig_mangue/014_mangue_workloads_deployments.png
+    :alt: Workloads_Deployments 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
 * **# ‘coluna acionável’:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
-   * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
+     * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
-   * **Escalar (“  ”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
+     * **Escalar (“  ”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
 
-   * **Lata de lixo (“  ”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
+     * **Lata de lixo (“  ”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
 
-   * **Alterar versão (“  ”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
+     * **Alterar versão (“  ”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
 
-      * **Deploys:** É a representação do nome do *deployment.d*;
+* **Deploys:** É a representação do nome do *deployment.d*;
 
-      * **Labels:** São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
+* **Labels:** São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
 
-      * **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
+* **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
-      * **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
+* **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
 
-      * O status **Running** identifica que nenhum erro está acontecendo com o *deployment*.
+     * O status **Running** identifica que nenhum erro está acontecendo com o *deployment*.
 
-      * O status **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
+     * O status **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
 
-      * O status “**’!’**” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
+     * O status **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
 
-      * **IP de acesso:** Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
+* **IP de acesso:** Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
 
-      * **Imagem e Versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
+* **Imagem e Versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
 
-      * **Ações:** A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
-  
+* **Ações:** A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
 
-Figura 15 Drop-down Menu – Ações
+
+.. image:: /figuras/fig_mangue/015_mangue_dropdown_menu_acoes.png
+    :alt: Dropdown Menu_Ações 
+    :scale: 80 %
+    :align: center
+=====
 
 
       A. **Adicionar Persistent Volume Claim**
-Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo Kubernetes podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
+
+      Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo Kubernetes podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
 
  
 
-Figura 16 Adicionar PersistentVolumeClaim
+.. image:: /figuras/fig_mangue/016_mangue_add_pvc.png
+    :alt: Adicionar_PersistentVolumeClaim 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Nesta tela o usuário deve preencher os campos com as seguintes informações:
@@ -323,6 +353,11 @@ A segunda opção deste submenu permite que o usuário possa adicionar um servi�
 
 Figura 17 Adicionar Serviço - Deployment
 
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 
@@ -358,6 +393,11 @@ A terceira opção deste submenu permite que o usuário possa apagar (deletar) u
 
 Figura 18 Deletar Deployment
 
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Esta ação é imediata e irreversível, a Plataforma do Mangue.io remove o *deployment* selecionado pelo usuário do *contrato/cluster/namespace*.
 
@@ -380,6 +420,12 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
 
 Figura 19 Editar Deployment
 
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
 
       
       E. **Alterar Tags**
@@ -400,6 +446,11 @@ A função desta tela permite ao usuário informar o número (inteiro) desejado 
 
 Figura 20 Escalar Deployment
 
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do cluster para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do cluster.
 
