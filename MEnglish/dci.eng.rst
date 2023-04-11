@@ -24,6 +24,8 @@ This document consists of a manual with a brief description of the main function
 Presentation
 ----
 
+**Data Center Interconnect - DCI**
+
 How to login on DCI
 ------------------
 
