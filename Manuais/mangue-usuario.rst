@@ -912,9 +912,8 @@ A plataforma do Mangue.io permite que o usuário defina regras para que a perfor
 A definição de ‘Regras de Escalabilidade’ controla o incremento da quantidade de réplicas de um *deployment*, e por consequência há aumento do valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas. Na tabela exibe informações como: 
   
 
-Figura 43 Horizontal Autoscaler
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/043_mangue_lista_autoescalador.png
+    :alt: Horizontal Autoscaler 
     :scale: 80 %
     :align: center
 =====
@@ -932,21 +931,19 @@ Figura 43 Horizontal Autoscaler
                * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, e existem duas opções:
 
 
-  
 
-Figura 44 submenu Ações - Auto Escalador Horizontal
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/044_mangue_acoes_autoescalador.png
+    :alt: submenu Ações_Auto escalador horizontal 
     :scale: 80 %
     :align: center
 =====
 
-No menu de Ações do Horizontal Autoscaler há a opção de deletar, esta opção. ao ser selecionada. abre o seguinte modal:
-  
 
-Figura 45 Deletar Auto Escalador Horizontal
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+No menu de Ações do Horizontal Autoscaler há a opção de deletar, esta opção, ao ser selecionada abre o seguinte modal:
+
+
+.. image:: /figuras/fig_mangue/045_mangue_deletar_autoescalador.png
+    :alt: Deletar Auto Escalador Horizontal 
     :scale: 80 %
     :align: center
 =====
@@ -963,86 +960,78 @@ Os *pods* operam em um nível mais alto do que os containers individuais, porque
 
 Um *Pod* (exemplo: *a pod of whales* tradução: “um grupo de baleias”) é um grupo de um ou mais containers, com armazenamento / recursos de rede compartilhados e uma especificação de como executar os containers. O conteúdo de um pod é sempre colocado e programado conjuntamente e executado em um contexto compartilhado. Um *pod* modela um "*host* lógico" específico do aplicativo: ele contém um ou mais contêineres de aplicativo que são acoplados de forma relativamente forte.
 
-A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente Kubernetes, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*, veja o item **Seção: PODs**
+A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente *Kubernetes*, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*, veja o item **Seção: PODs**
 
-
-  
-
-Figura 46 Listagem de PODs
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+ 
+.. image:: /figuras/fig_mangue/046_mangue_listagem_pods.png
+    :alt: Listagem de PODs 
     :scale: 80 %
     :align: center
 =====
 
-Abaixo é decrito o significado de cada coluna desta tela:
+Abaixo é descrito o significado de cada coluna desta tela:
 
-                  * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+      * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
 
-                  * **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
+      * **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
 
-                  * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *Deployment*;
+      * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *Deployment*;
 
-                  * **Status**: Apresenta o *status* do *Deployment* em seu respectivo *node*. O *status* de um *Deployment* identifica o estado atual. Podem ser representados por:
+      * **Status**: Apresenta o *status* do *Deployment* em seu respectivo *node*. O *status* de um *Deployment* identifica o estado atual. Podem ser representados por:
 
-                     * **’Running’** identifica que nenhum erro está acontecendo com o *Deployment*;
+            * **’Running’** identifica que nenhum erro está acontecendo com o *Deployment*;
 
-                     * **’Pending’** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+            * **’Pending’** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-                     * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
+            * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
 
-                  * **Imagem:** Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
+      * **Imagem:** Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
 
-                  * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
+      * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-                  * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+      * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
-Figura 27 submenu PODs
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/Listagem de PODs.png
+    :alt: submenu PODs 
     :scale: 80 %
     :align: center
 =====
 
 Cada uma das opções deste submenu está descrita abaixo:
 
-                        * **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+      * **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
-Figura 28 submenu Ações - Deletar POD
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
+    :alt: submenu Ações_deletar POD 
     :scale: 80 %
     :align: center
 =====
 
-                        * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *Pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *Pod* selecionado.
+      * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *Pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *Pod* selecionado.
   
 
-Figura 29 submenu Performance de um POD
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
+    :alt: submenu Performance de um POD 
     :scale: 80 %
     :align: center
 =====
 
-                        * **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os logs, como é mostrado na imagem a seguir:
+      * **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os logs, como é mostrado na imagem a seguir:
   
 
-Figura 30 submenu Ações – LOG Diversos PODs
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/030_mangue_log_pods.png
+    :alt: submenu Ações_lOG diversos pods 
     :scale: 80 %
     :align: center
 =====
 
-                        * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no prompt do sistema operacional do *Pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do Pod em questão. Lembrando que para que esta função seja habilitada é necessário acessar o **Menu Integrações** e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir
+      * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no prompt do sistema operacional do *Pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do Pod em questão. Lembrando que para que esta função seja habilitada é necessário acessar o **Menu Integrações** e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
   
 
-Figura 31 submenu Ações - Linha de Comando Outro POD
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
+    :alt: submenu Ações_linha de comando outro pod 
     :scale: 80 %
     :align: center
 =====
@@ -1053,28 +1042,27 @@ Statefulsets
 *Apps/Statefulsets* apresenta todos os *statefulsets* de um *cluster* em um determinado *namespace*, na tabela são exibidas informações como:
   
 
-Figura 48 Listagem de Statefulsets
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+.. image:: /figuras/fig_mangue/048_mangue_statefulsets.png
+    :alt: Listagem de Statefulsets 
     :scale: 80 %
     :align: center
 =====
 
-                     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+      * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
 
-                     * **Nome**: É a representação do nome do *Statefulsets*;
+      * **Nome**: É a representação do nome do *Statefulsets*;
 
-                     * **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço;
+      * **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço;
 
-                     * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
+      * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
 
-                     * **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
+      * **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
 
-                           * O status **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
+         * O status **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
 
-                           * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
+         * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
 
-                           * O *status* “**!**” (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* deste não é possível;
+         * O *status* **!** (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* deste não é possível;
 
                      * **IP**: Caso o *Statefulsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo(tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
 
