@@ -1218,9 +1218,9 @@ A outra forma é permitir ao usuário fazer o upload de um arquivo texto, cujo c
 
 Quando o usuário acessar o menu Catálogo, a Plataforma do Mangue.io apresenta a tela abaixo, e iremos descrever cada uma das opções nas páginas abaixo.
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/055_mangue_catalogo.png
+    :alt: Catálogo  
     :scale: 80 %
     :align: center
 =====
@@ -1230,7 +1230,7 @@ Inserir imagem
 Nova Aplicação
 --------------
 
-Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do Cluster e Namespace selecionados na aba engrenagens “   Seleção de Configuração”.
+Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens “   Seleção de Configuração”.
 
 Abaixo descreveremos as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
@@ -1238,25 +1238,25 @@ A. Primeiro Passo: Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas, o usuário deve preencher os seguintes campos:
+Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas, o usuário deve preencher os seguintes campos:
 
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/056_mangue_criar_deployment.png
+    :alt: Criar deployment 
     :scale: 80 %
     :align: center
 =====
   
 
-      * **Nome**: Este campo é obrigatório, e o usuário deve informar o nome da aplicação (Deployment) com o qual este fica identificado na Plataforma do Mangue.io;
+      * **Nome**: Este campo é obrigatório, e o usuário deve informar o nome da aplicação *(Deployment)* com o qual este fica identificado na Plataforma do Mangue.io;
 
-      * **Réplicas**: Este campo é obrigatório, e o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação (Deployment) assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a Plataforma do Mangue.io se encarrega de alocação destes recursos computacionais;
+      * **Réplicas**: Este campo é obrigatório, e o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a Plataforma do Mangue.io se encarrega de alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no Hub Docker, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
             
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
+    :alt: Pesquisar imagem 
     :scale: 80 %
     :align: center
 =====
@@ -1266,26 +1266,26 @@ Inserir imagem
 
       * **Nome do Container**: Este campo é obrigatório, neste campo o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da Plataforma do Mangue.io;
 
-      * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do Deployment sejam executados de forma privilegiada, com acesso aos recursos e capacidades Kernel da máquina Host;
+      * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do *Deployment* sejam executados de forma privilegiada, com acesso aos recursos e capacidades *Kernel* da máquina *Host*;
 
       * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
 
       * **Tags da Aplicação**: Neste campo o usuário pode informar as Tags da aplicação. Também é possível criar uma Tag para ser associada à aplicação;
 
-      * **Botão Adicionar**: Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
+      * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
 
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
+    :alt: Modal imagem 
     :scale: 80 %
     :align: center
 =====
 
-               * **Versão da Imagem**: Este campo é obrigatório neste campo o usuário deve informar como a aplicação (Deployment) deve ser identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
+               * **Versão da Imagem**: Este campo é obrigatório neste campo o usuário deve informar como a aplicação *(Deployment)* deve ser identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
-               * **ContainerPort**: Este campo é obrigatório neste campo o usuário deve informar porta TCP-IP do container que deve ser utilizada para que a aplicação (Deployment) fique disponível para acesso de outros usuários;
+               * **ContainerPort**: Este campo é obrigatório neste campo o usuário deve informar porta TCP-IP do container que deve ser utilizada para que a aplicação *(Deployment)* fique disponível para acesso de outros usuários;
 
-                                       * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário deve informar o máximo de recursos de CPU que devem ser alocados, na infraestrutura computacional do Cluster para oferecer o máximo de performance para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (Deployment);
+                                       * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário deve informar o máximo de recursos de CPU que devem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
                                        * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário deve informar o mínimo de recursos de CPU que devem ser alocados, na infraestrutura computacional do Cluster para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (Deployment);
 
@@ -1301,9 +1301,9 @@ Inserir imagem
 
                * **Botão Próximo**: Quando o usuário clica sobre o botão Próximo a Plataforma do Mangue.io apresenta a tela com campos respectivos de Secrets e Variáveis de Ambiente do container. Veja a tela abaixo:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
+    :alt: Secrets e variáveis do ambiente container 
     :scale: 80 %
     :align: center
 =====
@@ -1332,9 +1332,9 @@ Inserir imagem
 
 Após clicar o botão ``Finalizar`` a Plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo de nova aplicação, mas apresenta a configuração desta nova aplicação listada, abaixo segue o exemplo da lista:
 
-Inserir imagem  
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/061_mangue_lista_aplicacao.png
+    :alt: Lista aplicação 
     :scale: 80 %
     :align: center
 =====
@@ -1352,9 +1352,9 @@ Abaixo descrevemos o conteúdo das colunas apresentadas nesta lista:
 
       * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta um submenu com as seguintes opções:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
+    :alt: Ações submenu 
     :scale: 80 %
     :align: center
 =====
@@ -1362,9 +1362,9 @@ Inserir imagem
                * Adicionar PersistentVolumeClaim: Através desta tela o usuário pode configurar as características do arquivo referente ao PersistentVolumeClaim (PVC). A Plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, abaixo esclarecemos as opções:
   
 
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/063_mangue_add_pvc.png
+    :alt: Adicionar persistentvolume claim 
     :scale: 80 %
     :align: center
 =====
@@ -1373,7 +1373,7 @@ Inserir imagem
 
       * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a Plataforma do Mangue.io apresenta uma barra deslizante (slide bar) que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 gigabyte e o máximo de 100 Gigabytes.
 
-      * **Storage Class**: Este campo é uma lista (drop-down list) que é composta apenas por NFS servers configurados na Plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
+      * **Storage Class**: Este campo é uma lista *(dropdown list)* que é composta apenas por NFS servers configurados na Plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
 
       * **Modo de Acesso**: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles: ReadWriteOnce, ReadOnlyMany, ReadWriteMany.
 
@@ -1382,15 +1382,16 @@ Inserir imagem
       * **Nome do Volume**: Neste campo o usuário deverá informar no nome do arquivo de volume que será criado no ambiente do sistema operacional do Cluster.
 
 
-               * **Adicionar ConfigMap**: Um ConfigMap é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Neste sub tela o usuário pode incluir e configurar o(s) arquivo(s) de ConfigMap(s) desejado(s) para o seu ambiente.
+               * **Adicionar ConfigMap**: Um ConfigMap é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Neste sub tela o usuário pode incluir e configurar o(s) arquivo(s) de *ConfigMap(s)* desejado(s) para o seu ambiente.
   
 
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/064_mangue_add_configmap.png
+    :alt: Adicionar configmap 
     :scale: 80 %
     :align: center
 =====
+
 
       * **Nome do ConfigMap**: Este campo é obrigatório e o usuário deve informar o nome o qual deseja cadastrar para que a Plataforma do Mangue.io identifique este ConfigMap.
 
@@ -1416,9 +1417,9 @@ Se o usuário clicar com o mouse sobre o nome do container a Plataforma do Mangu
 
 A Plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *ConfigMap*, do container que o usuário configurou para a aplicação e lista estes recursos conforme o exemplo da tela abaixo:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/065_mangue_recurso_container.png
+    :alt: Recurso container 
     :scale: 80 %
     :align: center
 =====
@@ -1434,9 +1435,9 @@ Inserir imagem
 
       * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta um submenu com as seguintes opções:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/066_mangue_acoes_recursos.png
+    :alt: Ações recursos 
     :scale: 80 %
     :align: center
 =====
@@ -1445,9 +1446,9 @@ Inserir imagem
                * **Atachar a outro container**: Uma facilidade da Plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao clicar sobre esta opção a Plataforma do Mangue.io apresenta a seguinte tela:
   
 
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
+    :alt: Selecionar container 
     :scale: 80 %
     :align: center
 =====
@@ -1462,9 +1463,9 @@ C. Segundo Passo: Deploy nos Clusters:
 
 Nesta seção da tela a Plataforma do Mangue.io possibilita uma das grandes facilidades desta plataforma; permitir ao usuário criar, lançar e executar esta nova aplicação (Deployment) em mais de um Cluster, simultaneamente. A plataforma possibilita que o usuário selecione um (ou mais) Cluster(s) atualmente configurados no ambiente do Mangue.io. Abaixo descrevemos esta seção:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/068_mangue_deploy_clusters.png
+    :alt: Deploy clusters 
     :scale: 80 %
     :align: center
 =====
@@ -1490,9 +1491,9 @@ Após o completo preenchimento desta segunda parte, de todos os campos das telas
 
 Veja abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela Plataforma do Mangue.io.
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
+    :alt: Habilitar zero downtime 
     :scale: 80 %
     :align: center
 =====
@@ -1546,34 +1547,43 @@ Deploy via YAML
 
 
 Esta é a segunda abordagem que a Plataforma do Mangue.io permite ao usuário fazer o upload de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe YAML, já adaptada e preparada para um ambiente Kubernetes.
-O YAML não é uma linguagem de marcação, de acordo com yaml.org, é um padrão de serialização de dados amigável para qualquer linguagem de programação. YAML foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, hashes (mapas) e dados escalares (valores simples). 
+
+O YAML não é uma linguagem de marcação, de acordo com yaml.org, é um padrão de serialização de dados amigável para qualquer linguagem de programação. YAML foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, hashes (mapas) e dados escalares (valores simples).
+
 A sintaxe é relativamente simples e foi projetada tendo em conta que é muito legível, mas que também fosse facilmente mapeada para os tipos de dados mais comuns na maioria das linguagens de alto-nível. Além disso, YAML utiliza uma notação baseada em endentação e um conjunto de caracteres distintos dos que são usados pelo XML, fazendo com que as duas linguagens sejam facilmente compostas uma na outra.
+
 Qualquer usuário com conhecimento da sintaxe YAML pode usar a interface do Mangue.io para criar um: Deployment, Service, Statefulsets, Volume ou Ingress.
+
 A plataforma do Mangue.io permite ao usuário experiente em YAML entrar com o seu código de forma livre diretamente através da interface (data-entry), ou carregar um arquivo (upload) em formato texto não formatado (ASCII) de um diretório/folder de seu computador para a plataforma do Mangue.io.
+
 Ao clicar sobre a opção Deploy via Código YAML a plataforma do Mangue.io apresenta a seguinte tela:
   
 
+.. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
+    :alt: Deploy em outros clusters 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Abaixo descrevemos cada objeto acionável desta tela.
 
-1. Clusters Disponíveis
+A. Clusters Disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário deve clicar sobre o campo Clusters Disponíveis para abrir uma lista (drop-down) de todos os Clusters configurados na plataforma do Mangue.io, e selecionar o Cluster destino no qual o Deployment é criado e executado.
+O usuário deve clicar sobre o campo Clusters Disponíveis para abrir uma lista *(dropdown)* de todos os Clusters configurados na plataforma do Mangue.io, e selecionar o Cluster destino no qual o Deployment é criado e executado.
+
 Existe uma mensagem presente na tela que é importante ressaltar para o processo de criação de Deployment via YAML.
 
- Clipboard 
-
-
-Nota
+.. note::
 	Caso nenhum Cluster seja selecionado,  é feito o deploy apenas no Cluster utilizado atualmente.
 	
 
-2. Template
+B. Template
 ~~~~~~~~~~~
 
-Na sequência o usuário deve selecionar uma das opções de modelo (template) de código YAML que estão previamente a configurados na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário; e cada tipo de modelo é uma opção na lista (drop-down):
+Na sequência o usuário deve selecionar uma das opções de modelo (template) de código YAML que estão previamente a configurados na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário; e cada tipo de modelo é uma opção na lista (dropdown):
+
                                              * Default: Permite ao usuário configurar o código YAML de forma livre. Nesta opção o usuário deve possuir um bom conhecimento da sintaxe YAML para entrar com o código desejado. O usuário deve iniciar clicando com o mouse na área cinza ao lado do número “1”, antes de iniciar a digitação do seu código YAML. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção o usuário pode entrar com um código YAML para criar, para provisionar um novo Pod na plataforma do Mangue.io.
                                              * Deployment: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Deployment. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do Deployment, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
                                              * Serviço: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
@@ -1582,30 +1592,44 @@ Na sequência o usuário deve selecionar uma das opções de modelo (template) d
                                              * Ingress: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar uma definição de Ingress. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
 O usuário experiente em YAML vê que o uso de modelos aumenta a produtividade e mantém o código mais bem documentado e estruturado de acordo com as melhores práticas.
 
-3. Browse
+C. Browse
 ~~~~~~~~~
 
 Este botão permite ao usuário carregar (upload) um arquivo tipo texto não formatado (ASCII), com um código YAML previamente criado pelo usuário. O usuário deve clicar sobre o botão “Browse” para que a plataforma do Mangue.io apresente a tela do Explorador de Arquivos (File Explorer) de seu computador para que o usuário possa selecionar o folder/diretório onde se localiza o arquivo de seu código.
+
 A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e *.yml” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
   
-
+.. image:: /figuras/fig_mangue/071_mangue_arquivo_yaml.png
+    :alt: Localizar e selecionar arquivo  
+    :scale: 80 %
+    :align: center
+=====
 
 
 Quando o usuário selecionar o arquivo desejado, basta clicar o botão “Abrir / Open” para que a plataforma do Mangue.io carregue o conteúdo do arquivo selecionado para a interface, e o usuário repara que a plataforma do Mangue.io numera, sequencialmente, todas as linhas do código carregado.
+
 Neste ponto o usuário pode editar o código diretamente através da interface da plataforma do Mangue.io, para personalizar ou corrigir qualquer linha do código YAML presente na tela.
 
-4. Submit
+D. Submit
 ~~~~~~~~~
 
 Quando o usuário estiver satisfeito com o conteúdo de todo código YAML e está seguro de que este código está correto, basta clicar no botão verde “Submit” para que a Plataforma do Mangue.io efetue a carga do código e sua consequente compilação para disponibilizar este código como um Deployment, Serviço, Statefulsets, Volume ou Ingress.
+
 Neste ponto a Plataforma do Mangue.io encerra as telas de criação de aplicação (Deployment) e o usuário pode encontrar sua nova aplicação listada na tela do menu Workloads/Deployments.
+
 O usuário pode ter uma quantidade maior de informações de sua nova aplicação no menu Informações do Deployment.
 
-5. Server VS Code
+E. Server VS Code
 ~~~~~~~~~~~~~~~~~
-  
+
+.. image:: /figuras/fig_mangue/072_mangue_add_vscode.png
+    :alt: Adicionar Server VS Code
+    :scale: 80 %
+    :align: center
+=====  
 
 Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e preencher os campos abaixo:
+
                                              * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
                                              * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
                                              * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
@@ -1616,67 +1640,108 @@ Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e 
                                              * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
                                              * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
 
+====
+
+
 ConfigMap
 =========
 
 De forma simples, pode-se afirmar que ConfigMap é um conjunto de pares de chave-valor para armazenamento de configurações, que fica armazenado dentro de arquivos que podem ser consumidos através de pods. Ele é muito parecido com Secrets, mas fornece um modo de se trabalhar com strings que não possuem dados confidenciais, como senhas, chaves, tokens e outros dados sigilosos.
+
 Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato JSON complexos e cheios de regras.
+
 Vale ressaltar que um arquivo de configmap pode conter, sim, o conteúdo complexo de um JSON, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo JSON.
+
 Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela abaixo, que contém uma listagem de todos os configmaps cadastrados na plataforma.
   
-
+.. image:: /figuras/fig_mangue/073_mangue_configmaps.png
+    :alt: Configmaps
+    :scale: 80 %
+    :align: center
+=====
 
 
 Abaixo a descrição de cada coluna desta tabela:
-                                             * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                             * Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“ A close up of a logo
 
-Description automatically generated ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
-  
+                                             * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+                                             * Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+
+.. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
+    :alt: Configmaps arquivo 
+    :scale: 80 %
+    :align: center
+=====  
 
 Importante ressaltar que esta janela não permite a edição do conteúdo listado.
+
                                                 * Duração: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do configmap.
                                                 * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções, assim como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
+    :alt: Ações configmap 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                    * Deletar Configmap: Quando o usuário selecionar esta opção a plataforma do Mangue.io irá apresentar a tela abaixo solicitando a confirmação da opção de remoção do configmap.
   
-
+.. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
+    :alt: Deletar configmap 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois serão apagadas todas as referências deste configmap na plataforma do Mangue.io. Será necessário recriar o arquivo desde o início.
                                                    * Editar Configmap: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela para que o usuário possa efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de configmap:
-  
+
+.. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
+    :alt: Adicionar configmap 
+    :scale: 80 %
+    :align: center
+=====  
 
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
-
+.. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
+    :alt: Pesquisar atualização 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                    * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do ConfigMaps desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca apenas aparecem os ConfigMaps que contiverem a palavra-chave da pesquisa.
                                                    * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de ConfigMaps.
                                                    * Adicionar um ConfigMaps: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo ConfigMaps em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
-
+.. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
+    :alt: Adicionar configmap 
+    :scale: 80 %
+    :align: center
+=====
   
 
 Abaixo a descrição dos campos da tela acima:
                                                       * Nome do Configmap: Neste campo o usuário deve digitar o nome do configmap desejado e em seguida clicar sobre o ícone do sinal de adição (“+”), que faz a plataforma do Mangue.io adicionar os campos abaixo.
                                                       * Arquivo “n”: A cada vez que o usuário clicar sobre o sinal de adição (“+”) a Plataforma do Mangue.io adiciona uma linha cinza com o número sequencial do arquivo de Configmap. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone da lata de lixo (“  ”) para optar por remover o arquivo “n” do configmap.
                                                          * Nome do Arquivo: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do deployment. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão. Atenção: não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç, entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
-                                                         * Conteúdo do Arquivo: Neste campo o usuário deve digitar com o conteúdo do arquivo nomeado, no campo anterior; conteúdo este que deve ser informado conforme necessidade técnica e o objetivo deste configmap. Por padrão é apresentado somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“ A close up of a logo
-
-Description automatically generated ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+                                                         * Conteúdo do Arquivo: Neste campo o usuário deve digitar com o conteúdo do arquivo nomeado, no campo anterior; conteúdo este que deve ser informado conforme necessidade técnica e o objetivo deste configmap. Por padrão é apresentado somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
                                                             * Botão “Adicionar Configmap”: Após o usuário informar o(s) arquivo(s) de configmap necessário(s), o usuário deve clicar com o mouse sobre o botão “Adicionar Configmap”, para a Plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de configmaps.
+
+====
 
 
 Cluster Events
 ==============
 
 Através desta opção de menu, a Plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista de eventos é atualizada automaticamente.
-  
+
+.. image:: /figuras/fig_mangue/080_mangue_cluster_events.png
+    :alt: clusters Events 
+    :scale: 80 %
+    :align: center
+=====  
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
                                                             * #: Número sequencial do evento na lista apresentada;
@@ -1710,26 +1775,35 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
-
+.. image:: /figuras/fig_mangue/081_mangue_pesquisar_evento.png
+    :alt: Pesquisar evento 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                             * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do deployment desejado. Basta informar parte do nome do evento e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os eventos que contiverem a palavra-chave da pesquisa.
                                                             * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com a lista mais recente de eventos desta tabela.
 
 
-
+====
 
 Cron Jobs, Jobs
 ===============
 
 Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são jobs e cron jobs. O usuário vê a lista de todos os jobs e cronjobs, a lista apresenta o que está programado para o contrato, cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista é atualizada automaticamente.
 
-1. Cron Jobs
+A. Cron Jobs
 ~~~~~~~~~~~~
 
 Os CronJobs são úteis para criar tarefas (jobs) periódicas e recorrentes, como executar backups ou enviar e-mails. Os CronJobs também podem agendar tarefas individuais para um horário específico, como agendar um trabalho para quando seu cluster provavelmente estará ocioso.
 A plataforma do Mangue.io lista todos os cronjobs configurados em seu ambiente:
-  
+
+.. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
+    :alt: Cron Jobs 
+    :scale: 80 %
+    :align: center
+=====  
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
                                                                * #: Número sequencial do cronjob na lista apresentada;
@@ -1738,15 +1812,25 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
                                                                * Duração: Apresenta o tempo de duração do cronjob;
                                                                * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
 
-
+.. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
+    :alt: Deletar cron job 
+    :scale: 80 %
+    :align: center
+=====
   
 
-2. Jobs
+B. Jobs
 ~~~~~~~
 
 Um job cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os pods são concluídos com sucesso, o job rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, Job) está concluída. Excluir um job limpará os pods que ele criou.
+
 O usuário também pode configurar um job para que seja executado em vários pods em paralelo.
-  
+
+.. image:: /figuras/fig_mangue/084_mangue_jobs.png
+    :alt: Jobs 
+    :scale: 80 %
+    :align: center
+=====  
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
                                                                   * Nome: Nome do job que a plataforma do Mangue.io gerou para o deployment
@@ -1758,29 +1842,55 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
                                                                   * Conclusões: Conclusões bem-sucedidas.
                                                                   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a opção de deletar o job, como mostra a figura:
   
+.. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
+    :alt: Deletar Job 
+    :scale: 80 %
+    :align: center
+=====
 
 Faturamento
 ===========
 
 Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente serverless baseado em containers (Kubernetes).
+
 O termo serverless pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de software sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional - SO). 
+
 Para que este software seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e softwares) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
+
 A plataforma do Mangue.io possui uma base de dados que acumula os valores de consumo de infraestrutura mês-a-mês, desde o momento da sua instalação. Esta base de dados é calculada dia-a-dia e acumula os valores de consumo, de acordo com a fórmula de cálculo apresentada no tópico Cálculo do Valor do Consumo do Cluster.
+
 Ao selecionar esta opção do menu a plataforma do Mangue.io apresenta a seguinte tela:
   
-
+.. image:: /figuras/fig_mangue/086_mangue_faturamento_cluster.png
+    :alt: Histórico faturamento cluster 
+    :scale: 80 %
+    :align: center
+=====
 
 
 A plataforma do Mangue.io apresenta os valores do cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de um novo contrato/cluster/namespace os valores e os gráficos são atualizados automaticamente.
+
 Esta tela está dividida em duas seções diferentes, a seguir o detalhamento de cada seção.
+
+====
+
 
 Relatório Consolidado
 ---------------------
 
 
 Esta tela apresenta informações quanto ao consumo mensal dos clusters, o usuário consegue visualizar o preço de cada cluster no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o deployment é criado por meio do Mangue.io, uma vez que é guardado no deployment a informação do usuário responsável por sua criação.
+
+.. image:: /figuras/fig_mangue/087_mangue_overview_financeiro.png
+    :alt: Overview financeiro 
+    :scale: 80 %
+    :align: center
+=====
+
 Ao selecionar um cluster as informações da tela são recarregadas de acordo com o cluster selecionado, isso inclui tanto os gráficos que informam o preço por cluster e preço por usuário, quanto a tabela com detalhes sobre custo de aplicações.
+
 Por padrão a consulta é realizada considerando todos os namespaces do cluster, mas o usuário pode filtrar por um namespace específico clicando em “Selecione um namespace”, as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do namespace selecionado.
+
 Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das aplicações, como pode ser visto na imagem abaixo:
   
 
