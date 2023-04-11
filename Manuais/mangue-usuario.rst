@@ -795,7 +795,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
     :align: center
 =====
 
-            * Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. Um *feedback* de alerta será criado no canto superior direito da tela informando o sucesso ou erro. A opção de “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
+         * Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. Um *feedback* de alerta será criado no canto superior direito da tela informando o sucesso ou erro. A opção de “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
   
  
 .. image:: /figuras/fig_mangue/038_mangue_deletar_autoescalador.png
@@ -804,7 +804,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
     :align: center
 =====
 
-            * Ao clicar sobre a opção de “Editar” a plataforma do Mangue.io apresenta a tela abaixo, onde será possível o usuário alterar os valores existentes do Auto Escalador Horizontal. Para informações sobre como alterar os valores veja a **Figura 35 Auto Escalador Horizontal – Criação**. 
+         * Ao clicar sobre a opção de “Editar” a plataforma do Mangue.io apresenta a tela abaixo, onde será possível o usuário alterar os valores existentes do Auto Escalador Horizontal. Para informações sobre como alterar os valores veja a **Figura 35 Auto Escalador Horizontal – Criação**. 
   
 
 .. image:: /figuras/fig_mangue/039_mangue_criar_autoescalador.png
@@ -818,7 +818,7 @@ Importante ressaltar que as regras de Auto Escalador Horizontal acima descritos,
 Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar todas as regras de Auto Escalador Horizontal, configuradas na plataforma do Mangue.io, associadas a seus respectivos *deployments.*
 
 
-            G. **Seção: Preço da Aplicação no último Mês**
+         G. **Seção: Preço da Aplicação no último Mês**
 
 
 
@@ -828,13 +828,13 @@ Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar
     :align: center
 =====
 
-            * **Moeda**: Apresenta o nome da moeda corrente referente aos valores apresentados nas colunas desta tabela;
+         * **Moeda**: Apresenta o nome da moeda corrente referente aos valores apresentados nas colunas desta tabela;
 
-            * **Preço por Memória**: Apresenta o valor total, do mês corrente, do consumo do recurso de memória RAM para manter o *deployment* sendo executado (veja a fórmula de cálculo);
+         * **Preço por Memória**: Apresenta o valor total, do mês corrente, do consumo do recurso de memória RAM para manter o *deployment* sendo executado (veja a fórmula de cálculo);
 
-            * **Preço por CPU**: Apresenta o valor total, do mês corrente, do consumo do recurso de CPU para manter o *deployment* sendo executado (veja a fórmula de cálculo);
+         * **Preço por CPU**: Apresenta o valor total, do mês corrente, do consumo do recurso de CPU para manter o *deployment* sendo executado (veja a fórmula de cálculo);
 
-            * **Preço total do APP**: Esta coluna apresenta a somatória das duas colunas anteriores (Preço: Memória e CPU). Com esta informação, o usuário pode avaliar o **custo real da infraestrutura** necessária para manter e suportar a execução de um *deployment* ativo e funcional 24x7. 
+         * **Preço total do APP**: Esta coluna apresenta a somatória das duas colunas anteriores (Preço: Memória e CPU). Com esta informação, o usuário pode avaliar o **custo real da infraestrutura** necessária para manter e suportar a execução de um *deployment* ativo e funcional 24x7. 
 
 ====
 
@@ -851,13 +851,13 @@ Daemonsets
     :align: center
 =====
 
-            * **#:** Número sequencial do *daemonset* na lista apresentada;
+         * **#:** Número sequencial do *daemonset* na lista apresentada;
 
-            * **Nome:** É a representação do nome do *Daemonsets*;
+         * **Nome:** É a representação do nome do *Daemonsets*;
 
-            * **Labels:** São os identificadores dos *Daemonsets*, usados para ser o elo que liga a um serviço;
+         * **Labels:** São os identificadores dos *Daemonsets*, usados para ser o elo que liga a um serviço;
 
-            * **Instâncias:** Está representada pela quantidade de réplicas que estão operacionais de um *Daemonsets*, e pela quantidade total de réplicas operacionais desejadas para este *Daemonsets*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
+         * **Instâncias:** Está representada pela quantidade de réplicas que estão operacionais de um *Daemonsets*, e pela quantidade total de réplicas operacionais desejadas para este *Daemonsets*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
             * **Status:** O status de um *Daemonsets* identifica o estado atual deste. Podem ser presentados por *Running*, *Pending* ou “*!*” (ponto de exclamação):
 
@@ -992,7 +992,7 @@ Abaixo é descrito o significado de cada coluna desta tela:
       * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
-.. image:: /figuras/fig_mangue/Listagem de PODs.png
+.. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
     :alt: submenu PODs 
     :scale: 80 %
     :align: center
@@ -1022,7 +1022,7 @@ Cada uma das opções deste submenu está descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
-    :alt: submenu Ações_lOG diversos pods 
+    :alt: submenu Ações_log diversos pods 
     :scale: 80 %
     :align: center
 =====
@@ -1072,36 +1072,29 @@ Statefulsets
 
                      * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe duas opções assim como a figura abaixo:
   
-``Editar StatefulSets``
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/048.1_mangue_acoes_statefulsets.png
+    :alt: Ações editar e deletar statefulsets
     :scale: 80 %
     :align: center
 =====
 
-
-``Deletar StatefulSets``
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
-    :align: center
-=====
 
 
                            * **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no Kubernetes, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/049_mangue_editar_statefulsets.png
+    :alt: Editar 
     :scale: 80 %
     :align: center
 =====
 
                            * **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme a tela abaixo:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/050_mangue_deletar_statefulsets.png
+    :alt: mensagem confirmação 
     :scale: 80 %
     :align: center
 =====
@@ -1111,11 +1104,11 @@ Inserir imagem
 Updates
 -------
 
-Um Update é considerado como um evento de atualização em um *Cluster* Kubernetes, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente Kubernetes e a interface do Mangue.io.
+Um Update é considerado como um evento de atualização em um *Cluster Kubernetes*, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente *Kubernetes* e a interface do Mangue.io.
 
-Inserir imagem 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/051_mangue_update.png
+    :alt: Update 
     :scale: 80 %
     :align: center
 ===== 
@@ -1146,18 +1139,18 @@ Abaixo descrevemos o significado de cada coluna desta tela:
 
                      * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe uma única opção:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/052_mangue_botao_atualizar.png
+    :alt: ação atualizar 
     :scale: 80 %
     :align: center
 =====
 
                      * **Atualizar**: Ao selecionar a opção de atualizar no botão de ações da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a atualização:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/053_mangue_mensagem_atualizar.png
+    :alt: mensagem atualizar 
     :scale: 80 %
     :align: center
 =====
@@ -1168,9 +1161,9 @@ São utilizadas as imagens e versões dos containers que constam no campo de “
 
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
+    :alt: Pesquisar atualização 
     :scale: 80 %
     :align: center
 =====
@@ -1182,9 +1175,9 @@ Inserir imagem
 
                      * **Criar Integração com Updates**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar uma nova atualização para um Deployment em um determinado Namespace. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
-Inserir imagem
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
+
+.. image:: /figuras/fig_mangue/054_mangue_criar_integracao.png
+    :alt: Criar integração 
     :scale: 80 %
     :align: center
 =====
@@ -1204,13 +1197,15 @@ Abaixo listamos alguns exemplos dos benefícios para a funcionalidade de Updates
 
 **Exemplo 1**:
 
-	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu cluster Kubernetes gerenciado pelo Mangue.io e suas aplicações instaladas é possível cadastrar atualizações na plataforma através do pipeline de CI/CD, e esperar que o evento de atualização seja disparado pela interface do Mangue.io.
+	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas é possível cadastrar atualizações na plataforma através do pipeline de CI/CD, e esperar que o evento de atualização seja disparado pela interface do Mangue.io.
 
 
 **Exemplo 2**:
 
-	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu cluster Kubernetes gerenciado pelo Mangue.io e suas aplicações instaladas é possível atualizar a aplicação direto pelo pipeline de CI/CD.
-	
+	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas é possível atualizar a aplicação direto pelo pipeline de CI/CD.
+
+
+====	
 
 Catálogo
 ========
