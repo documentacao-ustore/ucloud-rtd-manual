@@ -889,8 +889,7 @@ Daemonsets
   
 
 .. image:: /figuras/fig_mangue/042_mangue_deletar_daemonsets.png
-    :alt: Confirmação para deletar Daemonsets 
-    :scale:
+    :alt: Confirmação para deletar Daemonsets
     :align: center
 =====
 
@@ -900,8 +899,7 @@ Daemonsets
 Caso o usuário clique sobre o nome de algum *Daemonsets* presente na lista, a plataforma do Mangue.io exibe a tela com as informações de um *Daemonset*, conforme o exemplo abaixo:
 
 .. image:: /figuras/fig_mangue/042.1_mangue_overview_daemonsets.png
-    :alt: Overview Daemonsets 
-    :scale:
+    :alt: Overview Daemonsets
     :align: center
 =====
 
