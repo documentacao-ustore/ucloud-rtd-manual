@@ -22,9 +22,13 @@ This document consists of a manual with a brief description of the main function
 ----
 
 Presentation
-----
+------------
 
-**Data Center Interconnect - DCI**
+**Data Center Interconnect - DCI** is a connectivity solution which the network is defined by software. A network defined by software (a SDN) is a network architecture that allows a more efficient management and control of the network resources, it separates the control plan from the data plan.
+
+In uncomplicated terms, it means that the network data and control functions are separated, which allows greater flexibility and automation on the network management.
+
+----
 
 How to login on DCI
 ------------------
