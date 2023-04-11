@@ -756,9 +756,12 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento/decremento
 
 Após a definição, ou no caso de uma regra existente, o usuário vê a tela abaixo:
   
-
-Figura 36 Auto Escalador Horizontal - Existente
-
+ 
+.. image:: /figuras/fig_mangue/036_mangue_autoescalador_existente.png
+    :alt: Auto Escalador Horizontal - Existente 
+    :scale: 80 %
+    :align: center
+=====
 
 
          * **#**: Número sequencial do Auto Escalador Horizontal na lista apresentada.
@@ -786,20 +789,29 @@ Figura 36 Auto Escalador Horizontal - Existente
          * **Ações**: Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, e existem duas opções:
   
 
-Figura 37 submenu Ações - Auto Escalador Horizontal
-
+.. image:: /figuras/fig_mangue/037_mangue_acoes_autoescalador.png
+    :alt: submenu Ações_Auto escalador horizontal 
+    :scale: 80 %
+    :align: center
+=====
 
             * Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. Um *feedback* de alerta será criado no canto superior direito da tela informando o sucesso ou erro. A opção de “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
   
-
-Figura 38 submenu Ações - Deletar Auto Escalador Horizontal
-
+ 
+.. image:: /figuras/fig_mangue/038_mangue_deletar_autoescalador.png
+    :alt: submenu Ações_Deletar auto escalador horizontal 
+    :scale: 80 %
+    :align: center
+=====
 
             * Ao clicar sobre a opção de “Editar” a plataforma do Mangue.io apresenta a tela abaixo, onde será possível o usuário alterar os valores existentes do Auto Escalador Horizontal. Para informações sobre como alterar os valores veja a **Figura 35 Auto Escalador Horizontal – Criação**. 
   
 
-Figura 39 Regras de Auto Escalador Horizontal - Criação
-
+.. image:: /figuras/fig_mangue/039_mangue_criar_autoescalador.png
+    :alt: Regras de Auto Escalador Horizontal_Criação 
+    :scale: 80 %
+    :align: center
+=====
 
 Importante ressaltar que as regras de Auto Escalador Horizontal acima descritos, estão associadas apenas ao *deployment* que o usuário selecionou.
 
@@ -809,10 +821,12 @@ Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar
             G. **Seção: Preço da Aplicação no último Mês**
 
 
-  
 
-Figura 40 Preço da Aplicação (deployment)
-
+.. image:: /figuras/fig_mangue/040_mangue_preço_deployment.png
+    :alt: Preço da Aplicação (deployment) 
+    :scale: 80 %
+    :align: center
+=====
 
             * **Moeda**: Apresenta o nome da moeda corrente referente aos valores apresentados nas colunas desta tabela;
 
@@ -831,8 +845,11 @@ Daemonsets
 *Apps/Daemonsets* apresenta todos os *Daemonsets* de um *cluster* em um determinado *namespace*, na tabela temos informações como:
   
 
-Figura 41 Listagem de Daemonsets
-
+.. image:: /figuras/fig_mangue/041_mangue_daemonsets.png
+    :alt: Listagem de Daemonsets 
+    :scale: 80 %
+    :align: center
+=====
 
             * **#:** Número sequencial do *daemonset* na lista apresentada;
 
@@ -858,21 +875,36 @@ Figura 41 Listagem de Daemonsets
 
             * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as seguintes opções:
   
-  ``Editar DaemonSets``
-  ``Deletar DaemonSets``
+  .. image:: /figuras/fig_mangue/041.1_mangue_acoes_daemonsets.png
+    :alt: Editar e deletar Daemonsets 
+    :scale: 80 %
+    :align: center
+=====
+
+
 
                * **Editar DaemonSets:** Esta opção apresenta o *daemonset* em formato JSON, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io.
 
                * **Deletar DaemonSets:** ao selecionar esta ação, a plataforma do Mangue.io solicita a confirmação do usuário, como mostra a figura abaixo:
   
 
-Figura 42 Confirmação para Deletar Daemonsets
+.. image:: /figuras/fig_mangue/042_mangue_deletar_daemonsets.png
+    :alt: Confirmação para deletar Daemonsets 
+    :scale: 80 %
+    :align: center
+=====
 
 
 **Informações do DaemonSet**
 
 Caso o usuário clique sobre o nome de algum *Daemonsets* presente na lista, a plataforma do Mangue.io exibe a tela com as informações de um *Daemonset*, conforme o exemplo abaixo:
-  
+
+.. image:: /figuras/fig_mangue/042.1_mangue_overview_daemonsets.png
+    :alt: Overview Daemonsets 
+    :scale: 80 %
+    :align: center
+=====
+
 
 Autoescalador Horizontal de Pods
 --------------------------------
@@ -883,7 +915,11 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
   
 
 Figura 43 Horizontal Autoscaler
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                * **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
 
@@ -901,13 +937,21 @@ Figura 43 Horizontal Autoscaler
   
 
 Figura 44 submenu Ações - Auto Escalador Horizontal
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 No menu de Ações do Horizontal Autoscaler há a opção de deletar, esta opção. ao ser selecionada. abre o seguinte modal:
   
 
 Figura 45 Deletar Auto Escalador Horizontal
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Ao clicar no botão “Deletar" o *Horizontal Autoscaler* é deletado, e as regras de escalabilidade criadas não são mais obedecidas pelo *Deployment*, anteriormente associado. Um *feedback* de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
 
@@ -927,7 +971,11 @@ A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessári
   
 
 Figura 46 Listagem de PODs
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Abaixo é decrito o significado de cada coluna desta tela:
 
@@ -953,7 +1001,11 @@ Abaixo é decrito o significado de cada coluna desta tela:
   
 
 Figura 27 submenu PODs
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Cada uma das opções deste submenu está descrita abaixo:
 
@@ -961,25 +1013,41 @@ Cada uma das opções deste submenu está descrita abaixo:
   
 
 Figura 28 submenu Ações - Deletar POD
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                         * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *Pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *Pod* selecionado.
   
 
 Figura 29 submenu Performance de um POD
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                         * **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os logs, como é mostrado na imagem a seguir:
   
 
 Figura 30 submenu Ações – LOG Diversos PODs
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                         * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no prompt do sistema operacional do *Pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do Pod em questão. Lembrando que para que esta função seja habilitada é necessário acessar o **Menu Integrações** e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir
   
 
 Figura 31 submenu Ações - Linha de Comando Outro POD
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Statefulsets
 ------------
@@ -988,7 +1056,11 @@ Statefulsets
   
 
 Figura 48 Listagem de Statefulsets
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                      * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
 
@@ -1015,20 +1087,39 @@ Figura 48 Listagem de Statefulsets
                      * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe duas opções assim como a figura abaixo:
   
 ``Editar StatefulSets``
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
+
 ``Deletar StatefulSets``
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                            * **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no Kubernetes, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
   
 Inserir imagem
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                            * **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme a tela abaixo:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
-
-====
 
 
 Updates
@@ -1036,7 +1127,12 @@ Updates
 
 Um Update é considerado como um evento de atualização em um *Cluster* Kubernetes, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente Kubernetes e a interface do Mangue.io.
 
-Inserir imagem  
+Inserir imagem 
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+===== 
 
 Abaixo descrevemos o significado de cada coluna desta tela:
 
@@ -1065,9 +1161,20 @@ Abaixo descrevemos o significado de cada coluna desta tela:
                      * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe uma única opção:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
                      * **Atualizar**: Ao selecionar a opção de atualizar no botão de ações da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a atualização:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Ao clicar no botão "Atualizar" do modal é disparado o evento de atualização para o Deployment correspondente. 
 
@@ -1076,6 +1183,11 @@ São utilizadas as imagens e versões dos containers que constam no campo de “
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                      * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca aparecem apenas os Updates que contém a palavra-chave da pesquisa;
@@ -1085,6 +1197,11 @@ Inserir imagem
                      * **Criar Integração com Updates**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar uma nova atualização para um Deployment em um determinado Namespace. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Segue a descrição dos campos desta tela:
 
@@ -1121,6 +1238,11 @@ A outra forma é permitir ao usuário fazer o upload de um arquivo texto, cujo c
 Quando o usuário acessar o menu Catálogo, a Plataforma do Mangue.io apresenta a tela abaixo, e iremos descrever cada uma das opções nas páginas abaixo.
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 
@@ -1138,6 +1260,11 @@ A. Primeiro Passo: Nova Aplicação
 Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas, o usuário deve preencher os seguintes campos:
 
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
   
 
       * **Nome**: Este campo é obrigatório, e o usuário deve informar o nome da aplicação (Deployment) com o qual este fica identificado na Plataforma do Mangue.io;
@@ -1147,6 +1274,11 @@ Inserir imagem
       * **Pesquisar Imagem**: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no Hub Docker, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
             
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 * Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
 
@@ -1162,6 +1294,11 @@ Inserir imagem
       * **Botão Adicionar**: Para a criação de uma nova aplicação (Deployment) a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
 
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                * **Versão da Imagem**: Este campo é obrigatório neste campo o usuário deve informar como a aplicação (Deployment) deve ser identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
@@ -1184,6 +1321,11 @@ Inserir imagem
                * **Botão Próximo**: Quando o usuário clica sobre o botão Próximo a Plataforma do Mangue.io apresenta a tela com campos respectivos de Secrets e Variáveis de Ambiente do container. Veja a tela abaixo:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
       * Variáveis de Ambiente: 
@@ -1210,6 +1352,12 @@ Inserir imagem
 Após clicar o botão ``Finalizar`` a Plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo de nova aplicação, mas apresenta a configuração desta nova aplicação listada, abaixo segue o exemplo da lista:
 
 Inserir imagem  
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
 
 Abaixo descrevemos o conteúdo das colunas apresentadas nesta lista:
 
@@ -1224,12 +1372,21 @@ Abaixo descrevemos o conteúdo das colunas apresentadas nesta lista:
       * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 Inserir imagem
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                * Adicionar PersistentVolumeClaim: Através desta tela o usuário pode configurar as características do arquivo referente ao PersistentVolumeClaim (PVC). A Plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, abaixo esclarecemos as opções:
   
 
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
       * **Tamanho / 1Gi, 5Gi, 10Gi**: O usuário pode selecionar o tamanho do volume simplesmente clicando com o cursor do mouse sobre o número desejado, selecionando a melhor opção de tamanho para este PVC. As opções estão expressas em Gigabytes (1, 5, ou 10).
 
@@ -1248,6 +1405,11 @@ Inserir imagem
   
 
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
       * **Nome do ConfigMap**: Este campo é obrigatório e o usuário deve informar o nome o qual deseja cadastrar para que a Plataforma do Mangue.io identifique este ConfigMap.
 
@@ -1274,6 +1436,11 @@ Se o usuário clicar com o mouse sobre o nome do container a Plataforma do Mangu
 A Plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *ConfigMap*, do container que o usuário configurou para a aplicação e lista estes recursos conforme o exemplo da tela abaixo:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
       * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
@@ -1287,12 +1454,22 @@ Inserir imagem
       * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                * **Atachar a outro container**: Uma facilidade da Plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao clicar sobre esta opção a Plataforma do Mangue.io apresenta a seguinte tela:
   
 
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Ao clicar sobre o campo *containers* será apresentado uma lista *(dropdown list)* com os containers disponíveis e configurados na Plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
@@ -1305,6 +1482,11 @@ C. Segundo Passo: Deploy nos Clusters:
 Nesta seção da tela a Plataforma do Mangue.io possibilita uma das grandes facilidades desta plataforma; permitir ao usuário criar, lançar e executar esta nova aplicação (Deployment) em mais de um Cluster, simultaneamente. A plataforma possibilita que o usuário selecione um (ou mais) Cluster(s) atualmente configurados no ambiente do Mangue.io. Abaixo descrevemos esta seção:
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
       * **Clusters Disponíveis**: Este campo quando selecionado apresenta a lista *(dropdown list)* com todos os Clusters configurados na plataforma e basta ao usuário selecionar quais deseja lançar e executar a aplicação Deployment que está sendo criado.
@@ -1328,6 +1510,11 @@ Após o completo preenchimento desta segunda parte, de todos os campos das telas
 Veja abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela Plataforma do Mangue.io.
   
 Inserir imagem
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
       * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na Plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
