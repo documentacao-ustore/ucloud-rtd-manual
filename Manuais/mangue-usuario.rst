@@ -1892,7 +1892,12 @@ Ao selecionar um cluster as informações da tela são recarregadas de acordo co
 Por padrão a consulta é realizada considerando todos os namespaces do cluster, mas o usuário pode filtrar por um namespace específico clicando em “Selecione um namespace”, as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do namespace selecionado.
 
 Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das aplicações, como pode ser visto na imagem abaixo:
-  
+
+.. image:: /figuras/fig_mangue/088_mangue_lista_aplicacoes.png
+    :alt: Listando aplicação 
+    :scale: 80 %
+    :align: center
+=====  
 
                                                                      * Nome: Esta coluna apresenta o nome do deployment, lembrando que para o deployment aparecer aqui ele precisa estar em um cluster com o “bilhetador” habilitado;
                                                                      * Usuário: Esta coluna apresenta o usuário responsável pela criação da aplicação;
@@ -1901,10 +1906,14 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
                                                                      * Preço de Memória: Esta coluna apresenta o custo por Memória da aplicação correspondente ao mês selecionado;
                                                                      * Preço Total: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
 Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
-Histórico
-  
 
-1. Histórico de Faturamento Mensal do Cluster
+====
+
+
+Histórico
+---------  
+
+A. Histórico de Faturamento Mensal do Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta um gráfico com a evolução do valor de consumo dos recursos de CPU e Memória do cluster, para suportar e executar todos os conteúdos do Workloads (Deployments, Statefulsets, Horizontal Autoscaler, Pods).
@@ -1925,7 +1934,7 @@ A cada início de mês, o valor será “zerado” iniciando um novo ciclo de c�
 A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, Updates, CronJobs criação de novas aplicações, deployments entre outros.
 Todas as situações acima listadas são potenciais causas de aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
 
-2. Histórico de Faturamento do Cluster
+B. Histórico de Faturamento do Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este gráfico apresenta o consumo acumulado mês-a-mês dos últimos quatro (04) meses do período em que se encontra o usuário.
@@ -1939,7 +1948,7 @@ Importante mencionar, a plataforma do Mangue.io ZERA todos os valores do mês no
 No eixo vertical, são apresentados os valores máximos arredondados para o próximo valor acima do máximo, em um período. Para o usuário identificar o valor correto, basta posicionar o ponteiro do mouse sobre a barra do mês desejado, para que a plataforma do Mangue.io possa apresentar o valor detalhado do mês em que o cursor do mouse está posicionado.
 
 
-3. Por Tags
+C. Por Tags
 ~~~~~~~~~~~
 
 A plataforma Mangue.io permite que as aplicações Kubernetes possuam Tags, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes, com o objetivo de visualizar o faturamento delas. As Tags podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de Nova Aplicação em Catálogo, ou em uma aplicação já existente, demonstrado na seção de Alterar Tags em Deployments.
@@ -1955,7 +1964,7 @@ Na seção de Detalhes de Tags, é exibida uma lista com todas as Tags ou as Tag
 O usuário pode excluir uma Tag clicando no botão “  ”, no detalhamento da Tag.
 
 
-4. Alertas
+D. Alertas
 ~~~~~~~~~~
 
 Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de webhooks, como pode ser visualizado na imagem abaixo:
