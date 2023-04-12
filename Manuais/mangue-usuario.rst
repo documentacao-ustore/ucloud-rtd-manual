@@ -124,9 +124,11 @@ Pode-se observar que os valores flutuam em razão do consumo de recursos da infr
 
 Este gráfico permite acompanhar a variação do **custo real da infraestrutura** necessária para manter e suportar a execução de um *cluster*, dia a dia. Na área: “Título do gráfico” é possível conhecer o valor total acumulado, até o dia presente.
 
-Estes valores são armazenados em uma base de dados interna da plataforma do Mangue.io, para que o usuário possa acompanhar a evolução do valor referente ao consumo dos recursos computacionais para suportar um *cluster* ativo e funcional.
+Estes valores são armazenados em uma base de dados interna da plataforma do Mangue.io, então o usuário pode acompanhar a evolução do valor referente ao consumo dos recursos computacionais para suportar um *cluster* ativo e funcional.
 
-Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” (  ). A plataforma do Mangue.io solicita a confirmação do usuário, para esta ação apresentando a tela abaixo:
+Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. 
+
+Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” (``inserir icone``). A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
@@ -148,7 +150,7 @@ Os valores aqui apresentados são calculados com base no valor/hora de vCPU e Me
 
 A Plataforma do Mangue.io armazena o consumo de recursos (CPU e Memória) das aplicações a cada minuto; ao término de uma hora (60 min), armazena o valor total do consumo nestes 60 minutos. Ao final de cada dia (24 horas) a Plataforma do Mangue.io armazena o valor referente ao consumo de recursos computacionais, para manter todas as aplicações ativas em cada container.
 
-O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato, valor é definido por meio do uCloud, o preço do contrato pode ser visualizado no mangue por meio da tela **Permissões / Contrato**:
+O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato, o valor é definido por meio do uCloud, o preço do contrato pode ser visualizado no Mangue por meio da tela **Permissões / Contrato**:
 
 .. image:: /figuras/fig_mangue/005.1_mangue_formula.png
     :alt: Fórmula mangue.io
@@ -157,7 +159,7 @@ O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato,
 =====
 
 
-Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico Preço Mensal do *Cluster*.
+Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico: Preço Mensal do *Cluster*.
 
 
 Gráfico do uso total de CPU
@@ -228,7 +230,7 @@ Os **Pods** são as menores unidades lógicas (computacionais) implantáveis que
 
 O **StatefulSet** é o objeto da API de carga de trabalho usado para gerenciar aplicações no estado. Ele é o responsável por gerenciar a implantação e o dimensionamento de um conjunto de *Pods* e fornece garantias sobre a ordem e a exclusividade deles.
 
-Os **Daemonsets** gerenciam grupos de *pods* replicados. No entanto, *DaemonSets* tenta aderir a um modelo de um *pod* por nó, seja em todo o *cluster* ou em um subconjunto de 'nós'. À medida que você acrescenta 'nós' (*nodes*) a um *cluster*, os *DaemonSets* automaticamente adicionam os *pods* aos novos 'nós', conforme necessário.
+Os **Daemonsets** gerenciam grupos de *pods* replicados. No entanto, *DaemonSets* tenta aderir a um modelo de um *pod* por 'nó', seja em todo o *cluster* ou em um subconjunto de 'nós'. À medida que você acrescenta 'nós' (*nodes*) a um *cluster*, os *DaemonSets* automaticamente adicionam os *pods* aos novos 'nós', conforme necessário.
 
 O **Autoescalador Horizontal** dimensiona automaticamente o número de *pods* em um controlador de replicação, conjunto de réplicas ou conjunto com estado com base na utilização de CPU observada (ou com suporte às métricas personalizadas, em algumas outras métricas fornecidas pelo aplicativo). Observe que o escalonamento automático horizontal de *pod* não se aplica a objetos que não podem ser escalados, por exemplo, *DaemonSets*.
 
