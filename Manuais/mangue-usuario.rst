@@ -1,4 +1,4 @@
-Mangue.io - Manual do Usuário
+Mangue.io - Manual do usuário
 +++++++++++++++++++++++++++++
 
 .. image:: /figuras/mangue-logo-peq.png
@@ -41,7 +41,7 @@ A Plataforma do Mangue.io suporta a implantação e operacionalização de aplic
 Acesso à plataforma
 ===================
 
-O acesso à plataforma é feito através de um site na internet, o usuário deve utilizar um navegador de internet, após inserir o endereço da URL/link o usuário visualiza a tela inicial de apresentação.
+O acesso à plataforma é feito através de um site, o usuário deve utilizar um navegador de *Internet*, após inserir o endereço da *URL/link* ele visualiza a tela inicial de apresentação.
 
 Após iniciar uma sessão no navegador escolhido, o endereço/caminho para o acesso a aplicação deve ser preenchido da seguinte forma:
 
@@ -49,7 +49,7 @@ https://<mangueserver_IP_Address>:80
 
 https://mangue_Server_Name.com/
 
-Após entrar com o endereço corretamente, a tela de login do usuário é similar a imagem abaixo:
+Após inserir o endereço corretamente, a tela de login do usuário é similar a imagem abaixo:
 
 
 
@@ -92,28 +92,26 @@ Ao clicar em qualquer um dos campos as informações da tela mudam automaticamen
 
 
 
-Ao selecionar um contrato, as opções para seleção de clusters são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. 
+Ao selecionar um contrato, as opções para seleção de *clusters* são atualizadas, lista apenas os que estão  associados ao contrato selecionado, assim como a permissão que o usuário logado tem nestes *clusters* - corresponde ao nível de permissão que ele tem no contrato do uCloud. 
 
-Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento a descrição de como integrar e/ou criar um *cluster* na aplicação.
+Os contratos que aparecem nessa parte são apenas os que já possuem algum *cluster* integrado ao Mangue.io, na sequência deste documento a descrição de como integrar e/ou criar um *cluster* na aplicação. Na ocasião da seleção é trocado o *cluster* que a plataforma está se comunicando e as informações da tela são atualizadas para este novo contexto.
 
-Ao selecionar um *cluster*, é trocado o *cluster* que a plataforma está se comunicando e as informações da tela são atualizadas para este novo contexto.
-
-No momento que o usuário seleciona o *cluster* e *namespace* os valores da tela de *Overview* são alterados com os dados específicos da seleção do usuário.
+No momento que o usuário seleciona o *cluster* e o *namespace* os valores da tela de *Overview* são alterados com os dados específicos da seleção do usuário.
 
 ====
 
 Tela inicial
 ============
 
-A tela inicial de **Overview** apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
+A tela inicial de *OVERVIEW* apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
 
 
-Gráfico do Preço mensal do cluster
-----------------------------------
+Gráfico do preço mensal do *cluster*
+------------------------------------
 
 Este gráfico de barras, apresenta a evolução do custo referente ao uso da infraestrutura computacional que suporta e executa as aplicações.
 
-No eixo vertical, pode-se acompanhar o valor e, no eixo horizontal, é apresentado o valor referente ao consumo de infraestrutura do dia a dia. É possível, selecionar o intervalo de tempo para visualizar o consumo da infraestrutura, podendo visualizar os últimos 7 dias, últimos 30 dias, o mês corrente, o mês anterior, assim como personalizar um intervalo de tempo desejado.
+No eixo vertical, pode-se acompanhar o valor e, no eixo horizontal, é apresentado o valor referente ao consumo de infraestrutura do dia a dia. É possível selecionar o intervalo de tempo para visualizar o consumo da infraestrutura, podendo visualizar os últimos 7 dias, últimos 30 dias, o mês corrente, o mês anterior, assim como personalizar um intervalo de tempo desejado.
 
 Pode-se observar que os valores flutuam em razão do consumo de recursos da infraestrutura computacional para suportar todas as aplicações (*deployments*) que estão ativas no *cluster* selecionado.
   
@@ -138,7 +136,9 @@ Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, rem
 =====
 
 
-Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão verde “Deletar”. Com esta ação todos os valores de consumo do *cluster* são removidos e é iniciado um novo período de coleta de informações, perdendo-se toda a informação acumulada (série histórica) do *cluster* selecionado.
+Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão de coloração verde ``Deletar``. 
+
+Com esta ação todos os valores de consumo do *cluster* são removidos e é iniciado um novo período de coleta de informações, perdendo-se toda a informação acumulada (a série histórica) do *cluster* selecionado.
 
 
 Cálculo do valor do consumo do cluster
@@ -157,13 +157,13 @@ O preço de CPU e Memória utilizado é o mesmo preço dos recursos do contrato,
 =====
 
 
-Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico Preço Mensal do Cluster.
+Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos computacionais é armazenado na base de dados da Plataforma do Mangue.io e apresentada anteriormente no gráfico Preço Mensal do *Cluster*.
 
 
 Gráfico do uso total de CPU
 ---------------------------
 
-Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso kubernetes, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa “  ”, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
+Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso *kubernetes*, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa “  ”, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
   
 
 .. image:: /figuras/fig_mangue/006_mangue_uso_total_cpu.png
@@ -173,10 +173,10 @@ Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada 
 =====
 
 
-Gráfico do Uso total de memória
+Gráfico do uso total de memória
 --------------------------------
 
-Ao realizar a busca do item 3.Gráfico do Uso Total de CPU, a plataforma recupera as informações do valor do consumo de memória, em MegaBytes, dos últimos trinta minutos de consumo da memória correspondente ao *namespace* e recurso selecionado.
+Ao realizar a busca do item Gráfico do uso total de CPU, a plataforma recupera as informações do valor do consumo de memória, em *MegaBytes*, dos últimos trinta minutos de consumo da memória correspondente ao *namespace* e recurso selecionado.
   
 
 .. image:: /figuras/fig_mangue/007_mangue_uso_total_memoria.png
