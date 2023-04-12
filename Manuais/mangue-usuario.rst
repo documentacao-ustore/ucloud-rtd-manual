@@ -1894,8 +1894,7 @@ Por padrão a consulta é realizada considerando todos os namespaces do cluster,
 Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das aplicações, como pode ser visto na imagem abaixo:
 
 .. image:: /figuras/fig_mangue/088_mangue_lista_aplicacoes.png
-    :alt: Listando aplicação 
-    :scale: 80 %
+    :alt: Listando aplicação
     :align: center
 =====  
 
@@ -1913,31 +1912,69 @@ Há ainda a possibilidade de exportar as informações correspondente a tabela a
 Histórico
 ---------  
 
+.. image:: /figuras/fig_mangue/089_mangue_historico_faturamento.png
+    :alt: Histórico faturamento mensal cluster
+    :scale: 80 %
+    :align: center
+=====
+
+
 A. Histórico de Faturamento Mensal do Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta um gráfico com a evolução do valor de consumo dos recursos de CPU e Memória do cluster, para suportar e executar todos os conteúdos do Workloads (Deployments, Statefulsets, Horizontal Autoscaler, Pods).
+
 O usuário pode selecionar o período o qual deseja visualizar os valores, bastando selecionar o mês e ano apresentado logo acima do gráfico:
   
+.. image:: /figuras/fig_mangue/090_mangue_mes_ano.png
+    :alt: Selecione ano e mês 
+    :scale: 80 %
+    :align: center
+=====
+
 
 Ao clicar sobre o ícone do calendário, a plataforma do Mangue.io apresenta uma tela de seleção anual, onde o usuário pode escolher qual o ano deseja visualizar:
-  
+
+.. image:: /figuras/fig_mangue/091_mangue_ano.png
+    :alt: calendário anual 
+    :scale: 80 %
+    :align: center
+=====  
 
 Assim que o ícone do calendário é clicado, é possível selecionar o ano desejado na plataforma do Mangue.io, conforme a imagem da tela acima. Em seguida, o usuário pode selecionar o mês que deseja visualizar e seus valores acumulados:
-  
+
+.. image:: /figuras/fig_mangue/092_mangue_mes.png
+    :alt: calendário mensal 
+    :scale: 80 %
+    :align: center
+=====
 
 Logo que o usuário selecionar o mês, a plataforma do Mangue.io inicia o processo de busca e cálculo dos valores do mês e ano selecionado. Este processo pode demorar alguns segundos e o usuário pode acompanhar a evolução deste processamento, acompanhando uma “linha preta” que aparece da esquerda para a direita no alto da área do browser de internet.
+
 No minuto em que a linha preencher totalmente o topo da área do browser, a plataforma do Mangue.io atualizará o gráfico da tela com os valores diários do mês e ano selecionado.
+
 Importante mencionar que os valores diários apresentados refletem até o dia corrente, em outras palavras, se o usuário deseja consultar os valores do mês, e o mês corrente se encontra (por exemplo) na primeira quinzena, o gráfico representa apenas do dia 1º até o dia 15 do mês corrente.
+
 Este gráfico apresenta uma linha da evolução do valor de consumo de infraestrutura computacional e pode ser compreendido como uma progressão matemática. Em outras palavras, é o valor do consumo do dia anterior somado ao valor de consumo do dia corrente, e, assim, sucessivamente.
+
 A cada início de mês, o valor será “zerado” iniciando um novo ciclo de cálculo de consumo da infraestrutura computacional para o período do mês, até o dia corrente. Desta forma, o valor do primeiro dia do mês pode não ser apresentado imediatamente, pois a plataforma do Mangue.io necessita computar este valor do dia após as 24 horas do primeiro dia – o valor do dia corrente é apresentado após 24 horas.
+
 A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, Updates, CronJobs criação de novas aplicações, deployments entre outros.
+
 Todas as situações acima listadas são potenciais causas de aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
+
+
 
 B. Histórico de Faturamento do Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este gráfico apresenta o consumo acumulado mês-a-mês dos últimos quatro (04) meses do período em que se encontra o usuário.
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
   
 
 Na figura acima, pode-se ver o exemplo de como a plataforma do Mangue.io apresenta os valores do consumo de infraestrutura do cluster. Este gráfico exibe os últimos quatro meses do consumo.
@@ -1952,15 +1989,34 @@ C. Por Tags
 ~~~~~~~~~~~
 
 A plataforma Mangue.io permite que as aplicações Kubernetes possuam Tags, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes, com o objetivo de visualizar o faturamento delas. As Tags podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de Nova Aplicação em Catálogo, ou em uma aplicação já existente, demonstrado na seção de Alterar Tags em Deployments.
+
 A tela de Faturamento por Tags é separada em duas seções: 
                                                                      * Histórico de Faturamento Mensal por Tags.
                                                                      * Detalhes Tags.
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====  
 
 Na seção de Histórico de Faturamento Mensal por Tags, o usuário deve primeiramente selecionar um Cluster, para que a plataforma consiga carregar as Tags do Cluster. Após isso, o usuário pode selecionar o período desejado de faturamento e as Tags a serem exibidas em gráfico e na seção de Detalhes de Tags.
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
 
 Na seção de Detalhes de Tags, é exibida uma lista com todas as Tags ou as Tags selecionadas na seção de Histórico de Faturamento Mensal por Tags. No detalhamento da Tag, é apresentada uma lista de aplicações com a Tag e um gráfico com o faturamento da Tag nos últimos 30 dias. 
+
 O usuário pode excluir uma Tag clicando no botão “  ”, no detalhamento da Tag.
 
 
@@ -1968,12 +2024,28 @@ D. Alertas
 ~~~~~~~~~~
 
 Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de webhooks, como pode ser visualizado na imagem abaixo:
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                      * Alertas: Exibe uma lista de alertas, com as seguintes colunas:
                                                                      * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
                                                                      * Nome: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, actions e webhooks selecionados no momento de criação do alerta. Como pode ser visto na imagem abaixo:
   
+  .. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                         * Barra de progresso: Corresponde ao valor atual dos deployments associados ao alerta, tendo como 100% o valor de orçamento do alerta.
                                                                         * Actions: Action que será executada no momento em que os deployments associados a um alerta atingirem o preço de orçamento.
@@ -1985,11 +2057,19 @@ Por meio de alertas, é possível ser notificado quando atingir o orçamento est
                                                                         * Data: Esta coluna apresenta a data de criação do alerta
                                                                         * Cota Alerta: Esta coluna apresenta o preço de orçamento definido para o alerta.
                                                                         * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção para “deletar alerta”:
-        
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
           
                                                                            * Deletar Alerta: Quando o usuário seleciona esta ação a plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, webhook e actions:
@@ -1999,33 +2079,60 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
                                                                            * Tipo: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
                                                                            * Prazo: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
                                                                            * Orçamento: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. O Valor de Orçamento precisa ser maior que o valor de Custo Atual
-  
+  .. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                            * Webhook: Nesta etapa há uma lista de webhooks, o usuário poderá selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
-  
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====  
 
                                                                            * Ações: Nesta etapa é possível selecionar uma ação para ser executada no momento de execução do alerta, existem três valores que o usuário poderá selecionar para ação, como no exemplo da imagem abaixo:
-  
+  .. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                            * Escalonamento da Aplicação: Esta ação permite que o usuário configure a troca da quantidade de réplicas em execução das aplicações selecionadas. No momento em que o alerta for executado, possibilita reduzir/aumentar a quantidade de instâncias de uma aplicação, de forma alinhada ao custo atual da mesma aplicação. Exemplo na imagem a seguir:
   
+  .. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                            * Alterar Request e Limits: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
-  
+  .. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                            * Parar Aplicação: Também é possível parar as aplicações selecionadas, a partir do momento em que o alerta for executado. Para isso, é necessário clicar em “Confirmar parada da aplicação”.
   
-
-
-
-
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Lembrar que ao menos um webhook ou uma ação deve ser informada para possibilitar a criação do alerta.
+
                                                                            * Webhooks: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
 Um webhook pode conter as duas formas de retorno, no entanto no momento de criar um alerta e associar ao webhook existente é necessário escolher uma das formas (HTTP ou Email) para envio de informações no momento de execução do alerta
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                            * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
                                                                            * Nome: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
@@ -2036,13 +2143,25 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
                                                                            * Alertas: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
                                                                            * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as opções abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
         
                                                                               * Deletar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
-  
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                               * Editar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
-  
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
                                                                               * Nome: Neste campo deve ser informado o nome do webhook
                                                                               * Método: Neste campo pode ser informado o método para requisição HTTP
@@ -2064,7 +2183,12 @@ A plataforma Mangue.io pode realizar recomendações para otimizar a utilizaçã
                                                                               * Request: Quantidade mínima de recurso alocado à aplicação. Exemplo: uma aplicação com memory request de 256 MB sempre tem alocada essa quantidade de memória, mesmo se aplicação sempre utilizar apenas 20 MB.
                                                                               * Limit: Caso a aplicação precise utilizar mais recursos do que especificado em Request, o Kubernetes tenta alocar mais recursos caso a máquina Nó tenha disponível. É possível limitar a quantidade de recursos que o Kubernetes tenta alocar a aplicação utilizando Limit. Exemplo: uma aplicação com request de 256 MB e limit de 512 MB sempre tem alocada a ela 256 MB, se ela precisar de mais memória ela pode ser alocada até 512 MB e caso isso não seja o suficiente a aplicação fica sem memória, podendo causar lentidão ou instabilidade na aplicação.
 A plataforma realiza a otimização analisando as métricas históricas de uso de CPU e memória, assim verificando se uma aplicação está com mais recurso alocado que necessário ou com recursos insuficientes para manter a estabilidade.
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====  
 
 Na página de recomendações é exibida uma lista com as aplicações no namespace e Cluster atual, e, é possível pesquisar recomendações através do nome da aplicação.
 Abaixo descrevemos as informações presentes na tabela de tarefas agendadas.
@@ -2077,13 +2201,22 @@ Abaixo descrevemos as informações presentes na tabela de tarefas agendadas.
                                                                               * Ações: Esta coluna possui os seguintes elementos: 
                                                                               * um botão de “Aplicar”, que ao ser clicado os valores recomendados na aplicação.
                                                                               * um botão de ação “  ” que ao ser clicado, apresenta as seguinte opção:
-  
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+===== 
 
                                                                                  * Descartar recomendação atual: Ao selecionar a opção de descartar a recomendação selecionada é removida, e é exibida uma recomendação anterior caso tenha.
                                                                                  * um botão de “Mais Sugestões”, que ao clicar redireciona para uma página onde será exibido uma lista com  as recomendações geradas anteriormente.
   
 
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Permissões
 ==========
@@ -2098,14 +2231,19 @@ Contrato
 --------
 
 Abaixo está a tela que apresenta informações sobre o contrato selecionado no menu de configurações, é possível visualizar informações sobre o contrato e informações sobre os usuários do contrato.
-  
 
-1. Informações do contrato
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====  
+
+A. Informações do contrato
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 É possível visualizar os administradores do contrato, preço por CPU e preço por memória definidos para o contrato.
                                                                                  
-2. Informações de usuários
+B. Informações de usuários
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção são listadas as informações sobre os usuários do contrato, e o nível de permissão de cada usuário. As permissões por usuário refletem o nível de permissão atribuído para um usuário no uCloud, seguindo o exemplo da tabela abaixo:
@@ -2117,7 +2255,12 @@ uCloud
 	cluster-admin
 	Usuário comum
 	edit
-	
+
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====	
 
 Caso tenha ocorrido alguma mudança de permissão em algum dos usuários, seja usuário removido do contrato, usuário adicionado ao contrato, ou até mesmo nível de permissão alterada, há uma rotina para sincronizar as permissões dos usuários com o uCloud, refletindo tais mudanças no Mangue.io. No entanto, caso tenha o interesse de executar a sincronização das permissões naquele exato momento, há um botão ao lado direito, com nome “Sync users”   , ao clicar é executada a mesma função para sincronização de permissões que seria executada pela rotina.
 Por meio da lista de usuários é possível extrair as seguintes informações:
@@ -2127,10 +2270,18 @@ Por meio da lista de usuários é possível extrair as seguintes informações:
                                                                                  * Cluster Role: Esta coluna apresenta o cluster role associado ao usuário
                                                                                  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a seguinte opção como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
                                                                                     * Deletar Permissões: Quando o usuário selecionar esta ação ele remove as permissões do usuário correspondente a linha selecionada. A plataforma do Mangue.io solicita a confirmação para deletar a permissão do usuário no Mangue.io, conforme imagem abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Roles
@@ -2145,7 +2296,11 @@ Uma role sempre define permissões em um namespace específico; ao criar uma rol
 
 Nesta seção o usuário pode ver a lista de todas as roles existentes no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                     * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
@@ -2154,13 +2309,21 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
                                                                                     * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta role.
                                                                                     * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                        * Deletar Role: Quando o usuário seleciona esta ação ele remove a role do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o grupo desejado da base de dados da plataforma do Mangue.io:
   
 
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Caso o usuário tenha executado esta ação por engano, é necessário cadastrar o grupo na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
 
@@ -2168,36 +2331,50 @@ Caso o usuário tenha executado esta ação por engano, é necessário cadastrar
                                                                                           * Editar Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
 Esta opção abre uma tela de edição da role usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código YAML. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção o usuário poderá entrar (ou editar) com um código YAML para criar, para editar a role na plataforma do Mangue.io.
 Após editar a role o usuário deverá clicar no botão verde “Enviar” para que todo o código seja enviado e aplicado ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
 
 
-2. Seção: Role Bindings
+B. Seção: Role Bindings
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Uma vinculação de função/perfil (rolebinding) concede as permissões definidas em uma role a um usuário ou conjunto de usuários. Ele contém uma lista de assuntos (usuários, grupos ou contas de serviço) e uma referência ao role que está sendo concedido. Um RoleBinding concede permissões dentro de um namespace específico, enquanto um ClusterRoleBinding concede esse acesso a todo o cluster.
 Um RoleBinding pode fazer referência a qualquer papel no mesmo namespace. Como alternativa, um RoleBinding pode fazer referência a um ClusterRole e vincular um ClusterRole ao namespace do RoleBinding. Se você deseja vincular um ClusterRole a todos os namespaces em seu cluster, use um ClusterRoleBinding.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                           * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                          * Nome: Nesta coluna é apresentado o nome da rolebinding adicionado pelo usuário. Ao clicar com o mouse sobre o nome do configmap a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“ A close up of a logo
-
-Description automatically generated ”), que irá permitir ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+                                                                                          * Nome: Nesta coluna é apresentado o nome da rolebinding adicionado pelo usuário. Ao clicar com o mouse sobre o nome do configmap a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que irá permitir ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
                                                                                           * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role
                                                                                           * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta rolebinding
                                                                                           * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                              * Deletar RoleBinding: Quando o usuário seleciona esta ação ele remove a rolebinding do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) a rolebinding desejada da base de dados da plataforma do Mangue.io:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Caso o usuário tenha executado esta ação por engano, será necessário cadastrar a rolebinding na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
@@ -2206,7 +2383,11 @@ Caso o usuário tenha executado esta ação por engano, será necessário cadast
                                                                                                 * Editar Rolebinding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma rolebinding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
 Esta opção abre uma tela de edição da rolebinding usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código YAML. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção o usuário poderá entrar (ou editar) com um código YAML para criar, para editar a rolebinding na plataforma do Mangue.io.
@@ -2218,7 +2399,11 @@ Service Accounts
 
 Quando um usuário acessa o cluster, você é autenticado pelo APIServer como uma conta de usuário específica (atualmente, geralmente é admin, a menos que o administrador do cluster tenha personalizado seu cluster). Os processos em containers dentro de PODs também podem entrar em contato com o APIServer. Quando o fazem, eles são autenticados como uma conta de serviço específica (por exemplo, default).
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                                 * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
@@ -2233,7 +2418,11 @@ Quando um usuário acessa o cluster, você é autenticado pelo APIServer como um
                                                                                                    * Deletar ServiceAccount: Quando o usuário seleciona esta ação ele irá remover a serviceaccount do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) a servceaccount desejada da base de dados da plataforma do Mangue.io:
   
 
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 Caso o usuário tenha executado esta ação por engano, é necessário cadastrar a serviceaccount na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
 
@@ -2250,12 +2439,16 @@ ClusterRole tem vários usos, você pode usá-lo para:
 Se você quiser definir uma função em um namespace, use uma role; se você quiser definir uma role em todo o cluster, use um ClusterRole.
 O usuário nota que esta tela possui diversas seções, cada seção está descrita abaixo respectivamente.
 
-1. Seção: Cluster Roles
+A. Seção: Cluster Roles
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Roles configuradas e o tempo desde sua criação.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                                       * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
@@ -2264,13 +2457,21 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Roles
                                                                                                       * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta Cluster Roles.
                                                                                                       * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                                                                                          * Editar Cluster Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
 Esta opção abre uma tela de edição da Cluster Role usando a sintaxe de código YAML, como o exemplo da tela abaixo. O código de uma Cluster Role pode ser longo, e esta tela ser muito longa, apresentamos aqui apenas algumas linhas da tela.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
 Ao clicar com o mouse na área cinza ao lado do número da linha que o usuário deseja editar, em seguida pode iniciar a digitação do seu código YAML. 
@@ -2282,12 +2483,16 @@ Após editar a Cluster Role o usuário deve clicar no botão verde “Enviar” 
 
 
 
-2. Seção: Cluster Role Binding
+B. Seção: Cluster Role Binding
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Role Binding configuradas e o tempo desde sua criação.
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                      * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
@@ -2296,23 +2501,34 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Role 
                     * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta ClusterRole Binding.
                      * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
   
-
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
                                      * Editar Cluster Role Binding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role Binding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
 
 Esta opção abre uma tela de edição da Cluster Role Binding usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
+.. image:: /figuras/fig_mangue/.png
+    :alt: 
+    :scale: 80 %
+    :align: center
+=====
 
 
+O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código YAML.
 
-O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código YAML. 
 A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. 
+
 Através desta opção o usuário poderá entrar (ou editar) com um código YAML para criar, para editar a Cluster Role Binding na plataforma do Mangue.io.
+
 Após editar a Cluster Role Binding o usuário deverá clicar no botão verde “Enviar” para que todo o código seja enviado e aplicado ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
 
 
-3. Pod Security Policy
+C. Pod Security Policy
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Pod Security Policy é um recurso do Kubernetes que permite o usuário limitar as aplicações criadas por um ServiceAccount específico, ou todos. Sendo assim possível, por exemplo, proibir que um ServiceAccount crie uma aplicação que utilize o usuário root.
