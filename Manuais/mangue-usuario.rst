@@ -80,7 +80,7 @@ A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza a
 Configurações de navegação
 ==========================
 
-No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem |icone_engrenagem|, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
+No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem  |icone_engrenagem|, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
 
 Ao clicar em qualquer um dos campos as informações da tela mudam automaticamente.
 
