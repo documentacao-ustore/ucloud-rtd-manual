@@ -80,7 +80,7 @@ A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza a
 Configurações de navegação
 ==========================
 
-No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
+No canto superior direito da plataforma existe um menu de configuração que é identificado por uma engrenagem |icone_engrenagem|, nele o usuário tem a opção de selecionar qual contrato, *cluster* e/ou em qual *namespace* (áreas de trabalho) deseja ter acesso.
 
 Ao clicar em qualquer um dos campos as informações da tela mudam automaticamente.
 
@@ -212,7 +212,7 @@ Algumas opções de menu possuem um submenu, que são apresentadas quando o usu�
 Workloads
 =========
 
-Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, *Horizontal Autoscaler*, *StatefulSets* e os *Updates*.
+Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, Horizontal *Autoscaler*, *StatefulSets* e os *Updates*.
   
 
 .. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
@@ -228,7 +228,7 @@ Os **Pods** são as menores unidades lógicas (computacionais) implantáveis que
 
 O **StatefulSet** é o objeto da API de carga de trabalho usado para gerenciar aplicações no estado. Ele é o responsável por gerenciar a implantação e o dimensionamento de um conjunto de *Pods* e fornece garantias sobre a ordem e a exclusividade deles.
 
-Os **Daemonsets** gerenciam grupos de *pods* replicados. No entanto, *DaemonSets* tenta aderir a um modelo de um *pod* por nó, seja em todo o cluster ou em um subconjunto de nós. À medida que você acrescenta ‘nós’ (*nodes*) a um cluster, os *DaemonSets* automaticamente adicionam os pods aos novos nós, conforme necessário.
+Os **Daemonsets** gerenciam grupos de *pods* replicados. No entanto, *DaemonSets* tenta aderir a um modelo de um *pod* por nó, seja em todo o *cluster* ou em um subconjunto de 'nós'. À medida que você acrescenta 'nós' (*nodes*) a um *cluster*, os *DaemonSets* automaticamente adicionam os *pods* aos novos 'nós', conforme necessário.
 
 O **Autoescalador Horizontal** dimensiona automaticamente o número de *pods* em um controlador de replicação, conjunto de réplicas ou conjunto com estado com base na utilização de CPU observada (ou com suporte às métricas personalizadas, em algumas outras métricas fornecidas pelo aplicativo). Observe que o escalonamento automático horizontal de *pod* não se aplica a objetos que não podem ser escalados, por exemplo, *DaemonSets*.
 
@@ -3502,3 +3502,5 @@ Texto H2
 
 Texto H3
 ~~~~~~~~
+
+.. |icone_engrenagem| image: /figuras/fig_mangue/icone_engrenagem.png
