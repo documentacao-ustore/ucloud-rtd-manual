@@ -66,8 +66,7 @@ Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o proce
   
 
 .. image:: /figuras/fig_mangue/002_mangue_tela_inicial.png
-    :alt: Tela inicial 
-    :scale: 80 %
+    :alt: Tela inicial
     :align: center
 =====
 
@@ -132,8 +131,7 @@ Para esta finalidade, o usuário deve clicar sobre o ícone “Lata de Lixo” |
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
-    :alt: Deletar Dados Financeiros do Cluster_Bilhetador 
-    :scale: 80 %
+    :alt: Deletar Dados Financeiros do Cluster_Bilhetador
     :align: center
 =====
 
@@ -169,8 +167,7 @@ Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada 
   
 
 .. image:: /figuras/fig_mangue/006_mangue_uso_total_cpu.png
-    :alt: Uso Total de CPU 
-    :scale: 80 %
+    :alt: Uso Total de CPU
     :align: center
 =====
 
@@ -182,8 +179,7 @@ Ao realizar a busca do item Gráfico do uso total de CPU, a plataforma recupera 
   
 
 .. image:: /figuras/fig_mangue/007_mangue_uso_total_memoria.png
-    :alt: Uso Total de Memória  
-    :scale: 80 %
+    :alt: Uso Total de Memória
     :align: center
 =====
 
@@ -196,7 +192,6 @@ A barra de menu de usuário fica localizada à esquerda da tela e, inicialmente,
 
 .. image:: /figuras/fig_mangue/008_mangue_menu_usuario_expandido.png
     :alt: Menu Usuário (Modo Expandido) 
-    :scale: 80 %
     :align: center
 =====
 
@@ -205,7 +200,7 @@ Algumas opções de menu possuem um submenu, que são apresentadas quando o usu�
   
 
 .. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
-    :alt: Exemplo de um Submenu 
+    :alt: Exemplo de um Submenu
     :scale: 80 %
     :align: center
 =====
@@ -247,8 +242,7 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 
 .. image:: /figuras/fig_mangue/014_mangue_workloads_deployments.png
-    :alt: Workloads_Deployments 
-    :scale: 80 %
+    :alt: Workloads_Deployments
     :align: center
 =====
 
@@ -287,8 +281,7 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 
 .. image:: /figuras/fig_mangue/015_mangue_dropdown_menu_acoes.png
-    :alt: Dropdown Menu_Ações 
-    :scale: 80 %
+    :alt: Dropdown Menu_Ações
     :align: center
 =====
 
@@ -300,8 +293,7 @@ Aplicações que são executadas em containers guardam seus dados em memória, e
  
 
 .. image:: /figuras/fig_mangue/016_mangue_add_pvc.png
-    :alt: Adicionar_PersistentVolumeClaim 
-    :scale: 80 %
+    :alt: Adicionar_PersistentVolumeClaim
     :align: center
 =====
 
@@ -356,7 +348,6 @@ A segunda opção deste submenu permite que o usuário possa adicionar um servi�
 
 .. image:: /figuras/fig_mangue/017_mangue_add_servico.png
     :alt: Adicionar Serviço_Deployment
-    :scale: 80 %
     :align: center
 =====
 
@@ -423,8 +414,7 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
   
 
 .. image:: /figuras/fig_mangue/019_mangue_editar_deployment.png
-    :alt: Editar Deployment 
-    :scale: 80 %
+    :alt: Editar Deployment
     :align: center
 =====
 
@@ -457,7 +447,6 @@ A função desta tela permite ao usuário informar o número (inteiro) desejado 
 
 .. image:: /figuras/fig_mangue/020_mangue_escalar_deployment.png
     :alt: Escalar Deployment
-    :scale: 80 %
     :align: center
 =====
 
@@ -478,8 +467,7 @@ Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e a
 
 
 .. image:: /figuras/fig_mangue/021_mangue_migrar_deployment.png
-    :alt: Migrar Deployment 
-    :scale: 80 %
+    :alt: Migrar Deployment
     :align: center
 =====
 
@@ -502,7 +490,8 @@ Após preencher com a informação desejada, o usuário deve clicar sobre o bot�
 
 
 .. attention:: Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
-	
+
+
 
 I. **Rollback**
 
