@@ -128,7 +128,7 @@ Estes valores são armazenados em uma base de dados interna da plataforma do Man
 
 Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. 
 
-Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” (``inserir icone``). A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
+Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” |icone_lata_lixo_preta|. A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
@@ -3506,4 +3506,6 @@ Texto H3
 ~~~~~~~~
 
 .. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
+
+.. |icone_lata_lixo_preta| image:: /figuras/fig_mangue/icone_lixo.png
 
