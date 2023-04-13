@@ -408,7 +408,9 @@ Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua a�
 
 D. **Editar Deployment**
 
+
 Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: 
+
    * Porta do container; 
    * Adicionar alguma variável de ambiente; 
    * Remover alguma variável de ambiente.  
