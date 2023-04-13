@@ -3505,6 +3505,6 @@ Texto H2
 Texto H3
 ~~~~~~~~
 
-.. |icone_engrenagem| image: /figuras/fig_mangue/icone_engrenagem.png
+.. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
 
 .. .. |icone_engrenagem| image:: /figuras/icone_engrenagem.png
