@@ -255,7 +255,7 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
      * **Reversão** |icone_reversao|: Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionado (s) para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
@@ -265,13 +265,13 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
      * **Alterar versão** |icone_alterar_versao|: Esta opção permite atualizar múltiplos *deployments* de uma vez, ao qual o usuário pode informar a próxima versão de cada um deles.
 
-* **Deploys:** É a representação do nome do *deployment.d*;
+* **Deploys**: É a representação do nome do *deployment.d*;
 
-* **Labels:** São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
+* **Labels**: São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
 
-* **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
+* **Instâncias**: Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
-* **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
+* **Status**: O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
 
      * O *status* **Running** identifica que nenhum erro está acontecendo com o *deployment*.
 
@@ -279,11 +279,11 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
      * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
 
-* **IP de acesso:** Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
+* **IP de acesso**: Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
 
-* **Imagem e Versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
+* **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
 
-* **Ações:** A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
+* **Ações**: A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
 
 
 .. image:: /figuras/fig_mangue/015_mangue_dropdown_menu_acoes.png
@@ -3520,6 +3520,10 @@ Texto H3
 .. |icone_escalar| image:: /figuras/fig_mangue/icone_escalar.png
 
 .. |icone_lixo_vermelho| image:: /figuras/fig_mangue/icone_lixo_vermelho.png
+
+.. |icone_alterar_versao| image:: /figuras/fig_mangue/icone_alterar_versao.png
+
+
 
 
 
