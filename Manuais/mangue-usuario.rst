@@ -257,13 +257,13 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 * **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
-     * **Reversão |icone_reversao|:** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionado (s) para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
+     * **Reversão** |icone_reversao|: Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionado (s) para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
-     * **Escalar “|icone_escalar|”:** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
+     * **Escalar** |icone_escalar|: A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
 
-     * **Lata de lixo “|icone_lixo_vermelho|”:** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
+     * **Lata de lixo** |icone_lixo_vermelho|: Ação que permite ao usuário remover todos os itens selecionados com um único comando.
 
-     * **Alterar versão [“|icone_alterar_versao|”]:** Esta opção permite atualizar múltiplos *deployments* de uma vez, ao qual o usuário pode informar a próxima versão de cada um deles.
+     * **Alterar versão** |icone_alterar_versao|: Esta opção permite atualizar múltiplos *deployments* de uma vez, ao qual o usuário pode informar a próxima versão de cada um deles.
 
 * **Deploys:** É a representação do nome do *deployment.d*;
 
