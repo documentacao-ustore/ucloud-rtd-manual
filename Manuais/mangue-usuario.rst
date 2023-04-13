@@ -455,8 +455,6 @@ F. **Escalar Deployment**
 
 A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão ``Escalar``.
 
- 
-
 .. image:: /figuras/fig_mangue/020_mangue_escalar_deployment.png
     :alt: Escalar Deployment
     :scale: 80 %
@@ -465,13 +463,18 @@ A função desta tela permite ao usuário informar o número (inteiro) desejado 
 
 Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do *cluster* para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do *cluster*.
 
-      G. **Migrar Deployment**
+
+
+G. **Migrar Deployment**
+
 
 Na sexta opção do menu de ações do *Deployment*, há a opção migrar o *deployment* entre diferentes *clusters* configurados na Plataforma do Mangue.io.
 
-O usuário deve selecionar para qual *cluster* integrado ao Mangue.io deseja migrar o *deployment* escolhido. O campo de *cluster* destinatário é do tipo *“dropdown list”*, quando o usuário clicar sobre este, é apresentado a lista dos *clusters* disponíveis associados ao contrato escolhido no menu de configuração.
+O usuário deve selecionar para qual *cluster* integrado ao Mangue.io deseja migrar o *deployment* escolhido.
 
-Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e aguardar o *feedback* da ação pela Plataforma do Mangue.io. Como resultado desta ação, é apresentado um alerta de Sucesso, no menu superior direito da tela.
+O campo de *cluster* destinatário é do tipo *“dropdown list”*, quando o usuário clicar sobre este, é apresentado a lista dos *clusters* disponíveis associados ao contrato escolhido no menu de configuração.
+
+Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e aguardar o *feedback* da ação pela Plataforma do Mangue.io. Como resultado desta ação, é apresentado um alerta de "Sucesso", no menu superior direito da tela.
 
 
 .. image:: /figuras/fig_mangue/021_mangue_migrar_deployment.png
@@ -481,7 +484,8 @@ Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e a
 =====
 
 
-      H. **Modificar Versão**
+H. **Modificar Versão**
+
 
 Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a imagem "Atualizar Versão de *Deployment*". Por meio deste controle, o usuário pode gerar uma “nova versão” para qualquer *deployment* existente na Plataforma do Mangue.io.
 
@@ -494,14 +498,13 @@ Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a 
 
 Este campo é alfanumérico e o usuário pode entrar com a informação desejada para identificar a nova versão do *deployment* selecionado. As novas versões são de controle único do usuário, pois se referem às ofertas criadas por este usuário.
 
-Após preencher com a informação desejada o usuário deve clicar sobre o botão ``Enviar`` para confirmar a ação de criar a versão para o *deployment*.
+Após preencher com a informação desejada, o usuário deve clicar sobre o botão ``Enviar`` para confirmar a ação de criar a versão para o *deployment*.
 
 
-.. attention::
-	Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
+.. attention:: Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
 	
 
-      I. **Rollback**
+I. **Rollback**
 
 Esta opção permite ao usuário efetuar a ação de reverter a versão do *deployment* para sua versão imediatamente anterior à existente na Plataforma do Mangue.io.
 
