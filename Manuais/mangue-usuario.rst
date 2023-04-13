@@ -255,21 +255,21 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
+* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
-     * **Reversão (“|icone_reversao|”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
+     * **Reversão |icone_reversao|:** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionado (s) para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
-     * **Escalar (“|icone_escalar|”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
+     * **Escalar “|icone_escalar|”:** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
 
-     * **Lata de lixo (“|icone_lixo_vermelho|”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
+     * **Lata de lixo “|icone_lixo_vermelho|”:** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
 
-     * **Alterar versão (“|icone_alterar_versao|”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
+     * **Alterar versão [“|icone_alterar_versao|”]:** Esta opção permite atualizar múltiplos *deployments* de uma vez, ao qual o usuário pode informar a próxima versão de cada um deles.
 
 * **Deploys:** É a representação do nome do *deployment.d*;
 
 * **Labels:** São os identificadores dos *deployments*, usados para ser o elo-de-ligação a um serviço;
 
-* **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
+* **Instâncias:** Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
 * **Status:** O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
 
