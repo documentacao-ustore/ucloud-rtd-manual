@@ -128,7 +128,7 @@ Estes valores são armazenados em uma base de dados interna da plataforma do Man
 
 Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. 
 
-Para esta finalidade, o usuário deve clicar sobre o ícone da “Lata de Lixo” |icone_lata_lixo_preta|. A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
+Para esta finalidade, o usuário deve clicar sobre o ícone “Lata de Lixo” |icone_lata_lixo_preta|. A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
@@ -201,7 +201,7 @@ A barra de menu de usuário fica localizada à esquerda da tela e, inicialmente,
 =====
 
 
-Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor que “<”). Ao clicar sobre este ícone, a interface apresenta o submenu desta opção ao usuário, veja o exemplo na figura abaixo.
+Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor que “<”). Ao clicar sobre este ícone |icone_sinal_menor|, a interface apresenta o submenu desta opção ao usuário, veja o exemplo na figura abaixo.
   
 
 .. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
@@ -255,15 +255,15 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
+* **# coluna acionável:** Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
 
-     * **Reversão (“  ”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
+     * **Reversão (“|icone_reversao|”):** Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionados para sua versão imediatamente anterior à existente na Plataforma do Mangue.io. 
    
-     * **Escalar (“  ”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
+     * **Escalar (“|icone_escalar|”):** A função desta ação permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*).
 
-     * **Lata de lixo (“  ”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
+     * **Lata de lixo (“|icone_lixo_vermelho|”):** Ação que permite ao usuário remover todos os itens selecionados com um único comando.
 
-     * **Alterar versão (“  ”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
+     * **Alterar versão (“|icone_alterar_versao|”):** Esta opção permite atualizar múltiplos deployments de uma vez, ao qual o usuário pode informar a próxima versão de cada *deployment*.
 
 * **Deploys:** É a representação do nome do *deployment.d*;
 
@@ -3510,4 +3510,17 @@ Texto H3
 .. |icone_lata_lixo_preta| image:: /figuras/fig_mangue/icone_lixo.png
 
 .. |icone_lupa_vermelha| image:: /figuras/fig_mangue/icone_lupa_vermelha.png
+
+.. |icone_sinal_menor| image:: /figuras/fig_mangue/icone_sinal_menor.png
+
+.. |uCloud_icone_coluna_acionavel| image:: /figuras/uCloud_icone_coluna_acionavel.png
+
+.. |icone_reversao| image:: /figuras/fig_mangue/icone_reversao.png
+
+.. |icone_escalar| image:: /figuras/fig_mangue/icone_escalar.png
+
+.. |icone_lixo_vermelho| image:: /figuras/fig_mangue/icone_lixo_vermelho.png
+
+
+
 
