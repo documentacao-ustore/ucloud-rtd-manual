@@ -165,7 +165,7 @@ Ao final de cada ciclo de 24 horas, o valor total de consumo dos recursos comput
 Gráfico do uso total de CPU
 ---------------------------
 
-Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso *kubernetes*, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa “  ”, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
+Nesta tela, também é possível visualizar o uso de CPU, em MiliCores, de cada recurso *kubernetes*, para isso, o usuário tem que  especificar o *namespace* e os recursos que deseja visualizar o consumo de CPU, e clicar no ícone de lupa |icone_lupa_vermelha|, para realizar a busca, retornando os últimos trinta minutos de consumo de CPU e Memória.
   
 
 .. image:: /figuras/fig_mangue/006_mangue_uso_total_cpu.png
@@ -3508,4 +3508,6 @@ Texto H3
 .. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
 
 .. |icone_lata_lixo_preta| image:: /figuras/fig_mangue/icone_lixo.png
+
+.. |icone_lupa_vermelha| image:: /figuras/fig_mangue/icone_lupa_vermelha.png
 
