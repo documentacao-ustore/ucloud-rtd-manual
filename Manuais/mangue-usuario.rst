@@ -409,7 +409,7 @@ Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua a�
 D. **Editar Deployment**
 
 
-Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: 
+Algumas informações não são passíveis de edição através dos formulários do Mangue.io. Elementos, como por exemplo: 
 
    * Porta do container; 
    * Adicionar alguma variável de ambiente; 
@@ -417,7 +417,7 @@ Algumas informações não são possíveis de serem editadas através dos formul
 
 No atendimento de todas as demandas de edição para um *Deployment*, é possível editar diretamente o *YAML* do *Deployment* na plataforma do Mangue.io.
 
-Esta opção apresenta como exemplo a imagem Editar *Deployment*, o seu conteúdo representa o arquivo.JSON com todas as configurações do *deployment* no *Kubernetes*, o usuário pode editar o que for necessário, confirmar pressionando no botão ``Editar`` e esperar o *feedback* da ação pela Plataforma do Mangue.io.
+Esta opção apresenta como exemplo a imagem: Editar *Deployment*. O seu conteúdo representa o arquivo.JSON com todas as configurações do *deployment* no *Kubernetes*, o usuário pode editar o que for necessário, confirmar pressionando no botão ``Editar`` e esperar o *feedback* da ação pela Plataforma do Mangue.io.
 
 Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do *Kubernetes*.
   
