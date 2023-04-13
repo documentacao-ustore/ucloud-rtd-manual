@@ -271,19 +271,19 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 * **Instâncias**: Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididos por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
-* **Status**: O status de um *deployment* identifica o estado atual do *deployment.* Podem ser apresentados por *Running*, *Pending* ou “*!*” (ponto de exclamação).
+* **Status**: O status de um *deployment* identifica seu estado atual. Podem ser apresentados como *Running*, *Pending* ou “*!*” (ponto de exclamação).
 
      * O *status* **Running** identifica que nenhum erro está acontecendo com o *deployment*.
 
      * O *status* **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
 
-     * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
+     * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *deployment* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre.
 
-* **IP de acesso**: Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP}*).
+* **IP de acesso**: Caso o *deployment* tenha um serviço associado é nesse campo onde o IP do balanceador de carga pode ser um serviço do tipo *loadbalancer*; porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “IP interno” caso seja um serviço interno do cluster (tipo *ClusterIP*).
 
 * **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *deployment* listado na imagem da tabela de *deployment*.
 
-* **Ações**: A última coluna apresenta um *drop-down* para o menu de ações que podem ser feitas nos *deployments*:
+* **Ações**: A última coluna apresenta um *dropdown* para o menu de ações que podem ser feitas nos *deployments*:
 
 
 .. image:: /figuras/fig_mangue/015_mangue_dropdown_menu_acoes.png
@@ -293,9 +293,9 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 =====
 
 
-      A. **Adicionar Persistent Volume Claim**
+A. **Adicionar Persistent Volume Claim**
 
-      Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo *Kubernetes* podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
+Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo *Kubernetes* podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
 
  
 
@@ -308,55 +308,50 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 Nesta tela o usuário deve preencher os campos com as seguintes informações:
 
-      * **Nome:** Informar o nome do volume que se deseja criar.
+* **Nome:** Informar o nome do volume que se deseja criar.
 
-      * **Tamanho:** O usuário deve preencher um número inteiro que representa o tamanho do arquivo de volume que se deseja criar.
+* **Tamanho:** O usuário deve preencher um número inteiro que representa o tamanho do arquivo de volume que se deseja criar.
 
-      * **Unidade de Tamanho:** O usuário deve selecionar a unidade de tamanho que é utilizada para criar o volume. As opções são:
+* **Unidade de Tamanho:** O usuário deve selecionar a unidade de tamanho que é utilizada para criar o volume. As opções são:
 
-         * **Kilo:** Kilobytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000;
+     * **Kilo**: *Kilobytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000;
 
-         * **Mega:** Megabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000;
+     * **Mega**: *Megabytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000;
 
-         * **Giga:** Gigabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000;
+     * **Giga**: *Gigabytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000;
 
-         * **Tera:** Terabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000;
+     * **Tera**: *Terabytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000;
 
-         * **Peta:** Petabytes quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
-
-
+     * **Peta**: *Petabytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
 
 
-.. attention:: 
-	A Plataforma do Mangue.io não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
+.. attention:: A Plataforma do Mangue.io não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
 	
 
-
-.. note::
-	O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* está associado, conforme a imagem anterior exibida no tópico *Deployments*.
+.. note:: O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* está associado, conforme a imagem anterior exibida no tópico *Deployments*.
 	
 
-* **StorageClass:** O usuário deve selecionar qual o volume de *NFS Storage* que estão disponíveis na lista apresentada;
+* **StorageClass:** O usuário deve selecionar qual o volume de *NFS Storage* estão disponíveis na lista apresentada;
 
 * **Modo de Acesso:** Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
 
-         * **ReadWriteOnce:** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
+     * **ReadWriteOnce:** O volume é montado e pode receber instruções de leitura e escrita apenas de um único *node*;
 
-         * **ReadOnlyMany:** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitido a escrita;
+     * **ReadOnlyMany:** O volume é montado e tem permissão apenas de leitura, mas de diferentes *nodes* simultaneamente, não sendo permitida a escrita;
 
-         * **ReadWriteMany:** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
+     * **ReadWriteMany:** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
 
-* **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco “□”;
+* **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco, semelhante a este |uCloud_icone_coluna_acionavel|;
 
-* **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente.
+* **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente.
 
-Para confirmar todos os valores e opções informados, basta o usuário clicar com o mouse no botão **Finalizar** para criar o *PersistentVolume* e aguardar o *feedback* de criação no canto superior direito da tela da Plataforma Mangue.io.
+Para confirmar todos os valores e opções informados, basta o usuário clicar com o mouse no botão ``Finalizar`` para criar o *PersistentVolume* e aguardar o *feedback* de criação, no canto superior direito da tela da Plataforma Mangue.io.
 
 
 
-      B. **Adicionar Serviço**
+B. **Adicionar Serviço**
 
-      A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
+A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
   
 
 .. image:: /figuras/fig_mangue/017_mangue_add_servico.png
@@ -369,31 +364,31 @@ Para confirmar todos os valores e opções informados, basta o usuário clicar c
 
 Nesse modal, o usuário deve preencher os seguintes campos:
 
-      * **Nome do serviço:** O usuário deve preencher com o nome do serviço que ele deseja criar;
+* **Nome do serviço**: O usuário deve preencher com o nome do serviço que ele deseja criar;
 
-      * **Labels do deployment:** O usuário deve informar que são associadas a este serviço;
+* **Labels do deployment**: O usuário deve informar as que são associadas a este serviço;
 
-      * **Tipos de acesso ao serviço:** Interno, Externo ou LoadBalancer:
+* **Tipos de acesso ao serviço**: Interno, Externo ou *LoadBalancer*:
 
-         * **Interno:** São os serviços que só podem ser acessados de dentro do cluster;
+     * **Interno**: São os serviços que só podem ser acessados de dentro do *cluster*;
 
-         * **Externo:** Corresponde a serviços que possibilitam o acesso de fora do cluster. É fornecida uma porta TCP-IP entre 30.000 –– 32.767;
+     * **Externo**: Corresponde a serviços que possibilitam o acesso de fora do cluster. É fornecida uma porta TCP-IP entre 30.000 –– 32.767;
 
-         * **LoadBalancer:** São integrados diretamente com os Cloud Providers (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
+     * **LoadBalancer**: São integrados diretamente com os *Cloud Providers* (AWS, AZURE, GOOGLE) criando um *loadbalancer* LAYER 7 para o respectivo app.
 
-      * **Porta de entrada:** Informar o número da porta TCP-IP do container alocada para a entrada no serviço.
+* **Porta de entrada**: Informar o número da porta TCP-IP do container alocada para a entrada no serviço.
 
-      * **Porta de destino para o serviço:** Informar a porta TCP-IP de entrada no container, o serviço vai receber a requisição na porta de entrada e repassar para a porta de destino.
+* **Porta de destino para o serviço**: Informar a porta TCP-IP de entrada no container, o serviço vai receber a requisição na porta de entrada e repassar para a porta de destino.
 
-      * **Selecionar o protocolo:** TCP ou UDP.
+* **Selecionar o protocolo**: TCP ou UDP.
 
-      * **Botão “Adicionar”:** Caso o serviço necessite expor mais de uma porta, o usuário deve retornar para a Porta de Entrada/Porta Destino, e adicionar quantas portas de entrada/saída forem necessárias.
+* **Botão** ``Adicionar``: Caso o serviço necessite expor mais de uma porta, o usuário deve retornar para a Porta de Entrada/Porta Destino, e adicionar quantas portas de entrada/saída forem necessárias.
 
-Para confirmar todas as opções acima informadas, o usuário deve clicar com o mouse no botão **Criar Serviço** e aguardar o *feedback* de criação.
+Para confirmar todas as opções acima informadas, o usuário deve clicar com o mouse no botão ``Criar Serviço`` e aguardar o *feedback* de criação.
 
-      C. **Deletar Deployment**
+C. **Deletar Deployment**
 
-A terceira opção deste submenu permite que o usuário possa apagar (deletar) um *Deployment* - definitivamente - do *cluster* e do *namespace* que foi selecionado na aba **Configurações**; ao ser clicado, abre a seguinte tela de interface modal solicitando a confirmação por parte do usuário:
+A terceira opção deste submenu permite que o usuário possa apagar definitivamente um *Deployment* do *cluster* e do *namespace* que foi selecionado na aba **Configurações**; ao ser clicado, abre a seguinte tela de interface modal solicitando a confirmação por parte do usuário:
  
 
 
@@ -403,22 +398,26 @@ A terceira opção deste submenu permite que o usuário possa apagar (deletar) u
     :align: center
 =====
 
-Esta ação é imediata e irreversível, a Plataforma do Mangue.io remove o *deployment* selecionado pelo usuário do *contrato/cluster/namespace*.
+Esta ação é imediata e irreversível, a Plataforma do Mangue.io remove o *deployment* selecionado pelo usuário do contrato / *cluster / namespace*.
 
 Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua ação e a Plataforma do Mangue.io apaga o *deployment* do ambiente selecionado.
 
 
-.. note::
-	Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
+.. note:: Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
 	
 
-      D. **Editar Deployment**
+D. **Editar Deployment**
 
-Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: porta do container, adicionar ou remover alguma variável de ambiente.  Para atender todas as demandas de edição possíveis, para um *Deployment*, é possível editar diretamente o *YAML* do *Deployment* na plataforma do Mangue.io.
+Algumas informações não são possíveis de serem editadas através dos formulários do Mangue.io. Elementos, como por exemplo: 
+   * Porta do container; 
+   * Adicionar alguma variável de ambiente; 
+   * Remover alguma variável de ambiente.  
 
-Esta opção apresenta como exemplo a imagem Editar Deployment, o seu conteúdo representa o arquivo.JSON com todas as configurações do *deployment* no *Kubernetes*, o usuário pode editar o que for necessário, confirmar pressionando no botão “Editar” e esperar o *feedback* da ação pela Plataforma do Mangue.io.
+No atendimento de todas as demandas de edição para um *Deployment*, é possível editar diretamente o *YAML* do *Deployment* na plataforma do Mangue.io.
 
-Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
+Esta opção apresenta como exemplo a imagem Editar *Deployment*, o seu conteúdo representa o arquivo.JSON com todas as configurações do *deployment* no *Kubernetes*, o usuário pode editar o que for necessário, confirmar pressionando no botão ``Editar`` e esperar o *feedback* da ação pela Plataforma do Mangue.io.
+
+Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do *Kubernetes*.
   
 
 .. image:: /figuras/fig_mangue/019_mangue_editar_deployment.png
@@ -429,9 +428,9 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
 
 
       
-      E. **Alterar Tags**
+E. **Alterar Tags**
 
-A função desta tela permite ao usuário alterar as Tags associadas à aplicação selecionada. A partir dela, é possível criar uma Tag, ao clicar no ícone “  ”, para ser associada à aplicação. 
+A função desta tela permite ao usuário alterar as *Tags* associadas à aplicação selecionada. A partir dela, é possível criar uma *Tag*, ao clicar no ícone adicionar |icone_adicionar| para ser associada à aplicação. 
 
 
 .. image:: /figuras/fig_mangue/019.1_mangue_alterar_tag.png
@@ -440,7 +439,7 @@ A função desta tela permite ao usuário alterar as Tags associadas à aplicaç
     :align: center
 =====
 
-.. important:: Para criar uma Tag é necessário especificar a chave e valor dela.
+.. important:: Para criar uma *Tag* é necessário especificar sua chave e valor.
 
 .. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
     :alt: Criar Tag 
@@ -450,7 +449,7 @@ A função desta tela permite ao usuário alterar as Tags associadas à aplicaç
 
  
 
-      F. **Escalar Deployment**
+F. **Escalar Deployment**
 
 A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão ``Escalar``.
 
@@ -3522,6 +3521,9 @@ Texto H3
 .. |icone_lixo_vermelho| image:: /figuras/fig_mangue/icone_lixo_vermelho.png
 
 .. |icone_alterar_versao| image:: /figuras/fig_mangue/icone_alterar_versao.png
+
+.. |icone_adicionar| image:: /figuras/fig_mangue/icone_adicionar.png
+
 
 
 
