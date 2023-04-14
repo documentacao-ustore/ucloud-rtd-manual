@@ -658,7 +658,9 @@ Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde 
 
 * **Linha de Comando**: A quarta opção oferece ao usuário executar as linhas de comandos no *prompt* do sistema operacional do *pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do *pod* em questão. 
 
-.. important:: Lembrando ... para habilitar esta função é necessário acessar o Menu Integrações e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
+.. important:: Para habilitar esta função é necessário acessar o menu Integrações e seguir os passos correspondentes ao *Container Execution*. 
+    
+Caso o *pod* tenha mais de um container sendo executado existe um *dropdown* que possibilita selecionar o container desejado pelo usuário para executar os comandos, como é mostrado na imagem a seguir:
   
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
