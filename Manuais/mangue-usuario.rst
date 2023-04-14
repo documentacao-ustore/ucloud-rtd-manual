@@ -377,6 +377,8 @@ Nesse modal, o usuário deve preencher os seguintes campos:
 
 Para confirmar todas as opções acima informadas, o usuário deve clicar com o mouse no botão ``Criar Serviço`` e aguardar o *feedback* de criação.
 
+====
+
 C. **Deletar Deployment**
 
 A terceira opção deste submenu permite que o usuário possa apagar definitivamente um *Deployment* do *cluster* e do *namespace* que foi selecionado na aba **Configurações**; ao ser clicado, abre a seguinte tela de interface modal solicitando a confirmação por parte do usuário:
@@ -395,7 +397,8 @@ Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua a�
 
 
 .. note:: Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
-	
+
+====	
 
 D. **Editar Deployment**
 
@@ -452,6 +455,7 @@ A função desta tela permite ao usuário informar o número (inteiro) desejado 
 
 Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do *cluster* para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do *cluster*.
 
+====
 
 
 G. **Migrar Deployment**
@@ -491,6 +495,7 @@ Após preencher com a informação desejada, o usuário deve clicar sobre o bot�
 
 .. attention:: Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
 
+====
 
 
 I. **Rollback**
@@ -499,9 +504,9 @@ Esta opção permite ao usuário efetuar a ação de reverter a versão do *depl
 
 Esta ação em particular não ativa qualquer tela adicional para confirmação, sua ação é imediata.
 
-.. important:: 
-	Ao selecionar esta opção, a Plataforma do Mangue.io efetua a ação de reversão da versão de forma imediata sem solicitação de nenhuma confirmação por parte do usuário.
-   Recomenda-se cautela e atenção, pois esta ação cria algum tipo de baixa performance ao deployment em que está sendo efetuado a ação de rollback.
+.. important:: 	Ao selecionar esta opção, a Plataforma do Mangue.io efetua a ação de reversão da versão de forma imediata, sem solicitação de nenhuma confirmação por parte do usuário.
+
+.. note:: Recomenda-se cautela e atenção, pois esta ação cria algum tipo de baixa performance ao *deployment* em que está sendo efetuada a ação de rollback.
 
 ====	
 
@@ -514,17 +519,22 @@ O usuário pode notar que esta tela possui diversas seções, cada uma descrita 
   
 
 .. image:: /figuras/fig_mangue/023_mangue_overview_deployment.png
-    :alt: Overview do Deployment 
-    :scale: 80 %
+    :alt: Overview do Deployment
     :align: center
 =====
 
 
-      A. **Seção: Deployment Overview**
+A. **Seção: Deployment Overview**
 
-A seção de **Deployment Overview** exibe três gráficos, mostram o desempenho de CPU (em milicores), Memória (em Megabytes) e Preço nos Últimos 30 Dias do *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
+A seção de **Deployment Overview** exibe três gráficos:
 
-Também são exibidos botões para os usuários, eles podem especificar o período dos gráficos de CPU e Memória.
+     * CPU;
+     * Memória;
+     * Preço nos últimos 30 dias.
+
+Eles mostram o desempenho de CPU (em *milicores*), o desempenho da Memória (em *megabytes*) e o Preço nos últimos 30 dias, tudo referente ao *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
+
+Também são exibidos botões de interação para o usuário, eles podem especificar o período dos gráficos de CPU e Memória.
   
 
 .. image:: /figuras/fig_mangue/024_mangue_consumo_deployment.png
@@ -534,10 +544,17 @@ Também são exibidos botões para os usuários, eles podem especificar o perío
 =====
 
 
+B. **Seção: ReplicaSet**
 
-      B. **Seção: ReplicaSet**
 
-A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, para cada um mostra as informações de nome, quantidade de *pods* disponíveis, quantidade de *pods* totais num dado momento, a imagem juntamente com a sua versão especificada, o tempo (em dias) desde o momento da criação deste *replicaset*, e um botão com a opção de deletá-la, como mostrado na figura abaixo.
+A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, nesta lista mostra informações como:
+
+     * Nome;
+     * Quantidade de *pods* disponíveis;
+     * Quantidade de *pods* totais num dado momento;
+     * Imagem juntamente com a sua versão especificada;
+     * Tempo (em dias) desde o momento da criação deste *replicaset*;
+     * Um botão com a opção de deletá-la, como mostrado na figura abaixo.
   
 
 .. image:: /figuras/fig_mangue/025_mangue_replicaset.png
@@ -549,22 +566,27 @@ A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* p
 
 A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
-      * **#**: Número sequencial da *replicaset* nesta lista;
+* **#**: Número sequencial da *replicaset* nesta lista;
 
-      * **Nome**: Esta coluna apresenta o nome da *replicaset*, o usuário pode verificar que o ambiente Kubernetes gera nomes únicos para cada *replicaset*;
+* **Nome**: Esta coluna apresenta o nome da *replicaset*, o usuário pode verificar que o ambiente *Kubernetes* gera nomes únicos para cada *replicaset*;
 
-      * **Pods Disponíveis**: Esta coluna apresenta a quantidade de *pods* para esta *replicaset*;
+* **Pods disponíveis**: Esta coluna apresenta a quantidade de *pods* para esta *replicaset*;
 
-      * **Pods Totais**: Esta coluna apresenta a quantidade total de *pods*, configurados para esta *replicaset*;
+* **Pods totais**: Esta coluna apresenta a quantidade total de *pods*, configurados para esta *replicaset*;
 
-      * **Imagem:** Esta coluna apresenta a informação do arquivo de imagem utilizada para criar este *deployment*;
+* **Imagem:** Esta coluna apresenta a informação do arquivo de imagem utilizada para criar este *deployment*;
 
-      * **Duração:** Esta coluna apresenta o total de dias que este *replicaset* existe desde o momento de sua criação até o presente dia que o usuário visualiza esta lista.
+* **Duração:** Esta coluna apresenta o total de dias que esta *replicaset* existe, desde o momento da sua criação até o presente dia que o usuário visualiza esta lista.
 
 
-      C. **Seção: PODs**
+C. **Seção: PODs**
 
-Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como nome, nó em que está sendo rodado, status atual do *pod*, imagem juntamente com sua versão e tempo de vida.
+Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como: 
+
+     * Nome; 
+     * 'nó' em que está sendo rodado;
+     * *status* atual do *pod*; 
+     * Imagem juntamente com sua versão e tempo de vida.
   
 
 .. image:: /figuras/fig_mangue/026_mangue_pods.png
@@ -574,26 +596,26 @@ Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes p
 =====
 
 
-A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 
-      * **Nome**: Nome do *deployment* que é estabelecido no momento da criação deste;
+* **Nome**: Nome do *deployment* que é estabelecido no momento da criação deste;
 
-      * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *deployment*;
+* **Nó**: Apresenta o nome do *node Kubernetes* que está executando este *deployment*;
 
-      * **Status**: Apresenta o status do *deployment* em seu respectivo *node*. O *status* de um *deployment* identifica o estado atual. Podem ser representados por:
+* **Status**: Apresenta o status do *deployment* em seu respectivo *node*. O *status* de um *deployment* identifica o estado atual. Podem ser representados por:
 
-         * **Running** identifica que nenhum erro está acontecendo com o *deployment*;
+     * **Running** identifica que nenhum erro está acontecendo com o *deployment*;
 
-         * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+     * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-         * **!** (ponto de exclamação) identifica que algo errado aconteceu com o deployment e suas
-         réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container é impraticável, não é possível fazê-lo;
+     * **!** (ponto de exclamação) identifica que algo errado aconteceu com o *deployment* e suas
+         réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
 
-      * **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
+* **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
-      * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*.
+* **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*.
 
-      * **Ações**: Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a figura abaixo.
+* **Ações**: Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado apresenta as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -605,7 +627,8 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 Cada uma das opções deste submenu é detalhada e descrita abaixo:
 
-         * **Deletar Pod**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+
+* **Deletar Pod**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
@@ -3517,6 +3540,10 @@ Texto H3
 .. |icone_alterar_versao| image:: /figuras/fig_mangue/icone_alterar_versao.png
 
 .. |icone_adicionar| image:: /figuras/fig_mangue/icone_adicionar.png
+
+.. |icone_acao| image:: /figuras/fig_mangue/icone_acao.png
+
+
 
 
 
