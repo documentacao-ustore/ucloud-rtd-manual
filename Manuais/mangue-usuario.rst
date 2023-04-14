@@ -526,7 +526,7 @@ O usuário pode notar que esta tela possui diversas seções, cada uma descrita 
 
 A. **Seção: Deployment Overview**
 
-A seção de **Deployment Overview** exibe três gráficos:
+Esta seção exibe três gráficos, sendo dois de desempenho e um de valor:
 
      * CPU;
      * Memória;
@@ -538,8 +538,7 @@ Também são exibidos botões de interação para o usuário, eles podem especif
   
 
 .. image:: /figuras/fig_mangue/024_mangue_consumo_deployment.png
-    :alt: Overview do consumo do deployment 
-    :scale: 80 %
+    :alt: Overview do consumo do deployment
     :align: center
 =====
 
@@ -558,13 +557,12 @@ A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* p
   
 
 .. image:: /figuras/fig_mangue/025_mangue_replicaset.png
-    :alt: ReplicaSet 
-    :scale: 80 %
+    :alt: ReplicaSet
     :align: center
 =====
 
 
-A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
+Nesta parte, a plataforma do Mangue.io apresenta as seguintes informações:
 
 * **#**: Número sequencial da *replicaset* nesta lista;
 
@@ -590,8 +588,7 @@ Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes p
   
 
 .. image:: /figuras/fig_mangue/026_mangue_pods.png
-    :alt: PODs 
-    :scale: 80 %
+    :alt: PODs
     :align: center
 =====
 
@@ -608,14 +605,14 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 
      * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * **!** (ponto de exclamação) identifica que algo errado aconteceu com o *deployment* e suas
-         réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
+     * **!** (ponto de exclamação)   identifica que algo errado aconteceu com o *deployment* e suas
+     réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
 
 * **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
 * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*.
 
-* **Ações**: Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado apresenta as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a seguinte figura:
+* **Ações**: Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado apresenta as ações que podem ser efetuadas sobre cada *pod* listado, como mostra a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -637,7 +634,8 @@ Cada uma das opções deste submenu é detalhada e descrita abaixo:
     :align: center
 =====
 
-         * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *pod* selecionado.
+
+* **Gráfico de Performance**: A segunda opção possibilita ao usuário observar os gráficos de performance de CPU e Memória de cada *pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *pod* selecionado.
   
 
 .. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
@@ -646,7 +644,8 @@ Cada uma das opções deste submenu é detalhada e descrita abaixo:
     :align: center
 =====
 
-         * **Log**: Na terceira opção, o usuário é capaz de visualizar os logs de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all).
+
+* **Log**: Esta terceira opção permite ao usuário visualizar os *logs* de um determinado *pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário pode filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all).
 
 Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os *logs*, como é mostrado na imagem a seguir:
   
@@ -657,7 +656,9 @@ Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde 
     :align: center
 =====
 
-         * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no *prompt* do sistema operacional do *pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do *pod* em questão. Lembrando que para que esta função seja habilitada é necessário acessar o Menu Integrações e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
+* **Linha de Comando**: A quarta opção oferece ao usuário executar as linhas de comandos no *prompt* do sistema operacional do *pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do *pod* em questão. 
+
+.. important:: Lembrando ... para habilitar esta função é necessário acessar o Menu Integrações e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
   
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
@@ -666,7 +667,7 @@ Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde 
     :align: center
 =====
 
-         D. **Seção: Volumes e Segredos**
+D. **Seção: Volumes e Segredos**
 
 Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) ou **Segredos** (arquivos, ou definições de autenticação quando necessários), associados ao *deployment* selecionado.
 
