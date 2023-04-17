@@ -808,10 +808,10 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
 
      * O segundo número é o limite máximo de alocação de memória, limite ao qual a Plataforma do Mangue.io **comissiona** (ativa) uma nova réplica do *deployment*.
 
- * **Ações**: Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções, são elas:
+* **Ações**: Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções, são elas:
 
-    * Deletar autoescalador horizontal de pods;
-    * Editar autoescalados horizontal de pods.
+     * Deletar autoescalador horizontal de pods;
+     * Editar autoescalados horizontal de pods.
   
 
 .. image:: /figuras/fig_mangue/037_mangue_acoes_autoescalador.png
