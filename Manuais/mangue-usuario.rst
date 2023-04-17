@@ -673,8 +673,7 @@ Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) 
 
 
 .. image:: /figuras/fig_mangue/032_mangue_volumes_segredos.png
-    :alt: Volumes e Segredos 
-    :scale: 80 %
+    :alt: Volumes e Segredos
     :align: center
 =====
 
@@ -694,8 +693,7 @@ Nesta seção, são listados todos os eventos atrelados a um *deployment*. Event
   
  
 .. image:: /figuras/fig_mangue/033_mangue_eventos.png
-    :alt: Eventos de Deployment 
-    :scale: 80 %
+    :alt: Eventos de Deployment
     :align: center
 =====
 
@@ -726,11 +724,13 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
      * *PersistentVolumes*;
      * *PersistentVolumesClaim*.
 
+
    * **Mensagem**: Nesta coluna a plataforma do Mangue.io apresenta uma lista de mensagens que podem ajudar a identificar o sucesso do evento ou a causa raiz de um potencial problema, desta forma permite ao usuário tomar alguma ação para eliminar a causa raiz do problema ou estar seguro do sucesso deste evento.
 
-     * Pulled;
-     * Created;
-     * Started;
+
+     * *Pulled*;
+     * *Created*;
+     * *Started*;
      * *NoPods*;
      * *FailedGetScale*;
      * *ProvisioningFailed*;
@@ -738,11 +738,12 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 =====
 
+
 F. **Seção: Autoescalador Horizontal de Pods**
 
 A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
 
-Vale ressaltar que a execução do *Horizontal Pod Auto Scaler* ocorra, faz-se necessário que exista uma instância do *Kubernetes Metrics Server* ativa e operando no cluster. Por padrão, a instalação do Mangue.io contempla a instalação do serviço de métricas.
+Vale ressaltar que é necessário existir uma instância do *Kubernetes Metrics Server* ativa e operando no cluster, para a execução do *Horizontal Pod Auto Scaler* ocorrer. Por padrão, a instalação do Mangue.io contempla a instalação do serviço de métricas.
 
 Caso o *deployment* não possua nenhum Auto Escalador Horizontal, a tela se apresenta como o exemplo abaixo:
   
@@ -762,16 +763,19 @@ Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre o
 
 * **Mínimo de Réplicas**: Informar o valor mínimo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve manter ativas para a aplicação ter a performance mínima necessária, garantir a otimização da experiência do usuário. O valor mínimo para este campo é ‘um’ (1);
 
+
 * **Máximo de Réplicas**: Informar o valor máximo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve iniciar para a aplicação suportar o crescimento da demanda de acesso dos usuários e garantir a otimização da experiência do usuário. O valor máximo para este campo é 'quinze' (15);
 
+
 * **% Máxima de uso de CPU**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’ para a plataforma apresentar o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pelo Mangue.io como limite máximo de alocação de **CPU** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é 'cem por cento' (100%);
+
 
 * **% Máxima de uso de Memória**: O usuário deve clicar sobre o botão verde com o sinal de adição ‘+’ para a que a plataforma apresenta o campo onde o usuário informa o valor percentual máximo (obrigatório um número inteiro – ex.: 20, 22, 30) a ser utilizado pelo Mangue.io como limite máximo de alocação de recurso de **memória** para executar as réplicas de um *deployment*. Este número é o limite máximo que a plataforma do Mangue.io considera para iniciar a criação e execução de uma nova réplica do *deployment*. O valor máximo para este campo é 'cem por cento' (100%).
 
 
-É importante ressaltar que ao confirmar o evento de criação de um Auto Escalador Horizontal, há um tempo de espera para que ele apareça em tela. Tempo este decorrente da necessidade do escalador de coletar as métricas e tornar-se um objeto ativo no *Kubernetes*.
+É importante ressaltar que ao confirmar o evento de criação de um Auto Escalador Horizontal, há um tempo de espera para que ele apareça em tela. Tempo este decorrente da necessidade do escalador coletar as métricas e tornar-se um objeto ativo no *Kubernetes*.
 
-A definição de ‘Regras de Escalabilidade’ controla o incremento/decremento da quantidade de réplicas da aplicação, e por consequência há aumento/diminuição do consumo de recursos computacionais para executar o maior/menor número de réplicas ativas. Portanto há um aumento/diminuição no valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas.
+A definição de ‘Regras de Escalabilidade’ controla o incremento/decremento da quantidade de réplicas da aplicação, e por consequência há aumento/diminuição do consumo de recursos computacionais para executar o maior/menor número de réplicas ativas. Portanto há um aumento/diminuição no valor do custo da infraestrutura, durante o tempo em que as várias réplicas são executadas.
 
 Após a definição, ou no caso de uma regra existente, o usuário vê a tela abaixo:
   
@@ -818,9 +822,10 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
 
    * Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. 
 
-.. attention:: Um *feedback* de alerta é criado no canto superior direito da tela, informa o sucesso ou erro. 
+.. attention:: Um *feedback* de alerta é criado no canto superior direito da tela, informa o sucesso ou erro.
+
     
-   * A opção de “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
+   * A opção “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
   
  
 .. image:: /figuras/fig_mangue/038_mangue_deletar_autoescalador.png
@@ -839,6 +844,8 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
 Importante ressaltar que as regras de Auto Escalador Horizontal acima descritos, estão associadas apenas ao *deployment* selecionado pelo usuário.
 
 Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar todas as regras de Auto Escalador Horizontal, configuradas na plataforma do Mangue.io, associadas aos seus respectivos *deployments.*
+
+====
 
 
          G. **Seção: Preço da Aplicação no último Mês**
