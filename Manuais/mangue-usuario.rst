@@ -820,12 +820,12 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
     :align: center
 =====
 
-   * Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. 
+Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. 
 
 .. attention:: Um *feedback* de alerta é criado no canto superior direito da tela, informa o sucesso ou erro.
 
     
-   * A opção “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
+A opção “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta a tela abaixo:
   
  
 .. image:: /figuras/fig_mangue/038_mangue_deletar_autoescalador.png
@@ -833,7 +833,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
     :align: center
 =====
 
-   * Ao clicar sobre a opção “Editar”, a plataforma do Mangue.io apresenta a tela abaixo, onde é possível o usuário alterar os valores existentes do Auto Escalador Horizontal. A imagem seguinte "Auto Escalador Horizontal – Criação" apresenta opções sobre como alterar os valores. 
+Ao clicar sobre a opção “Editar”, a plataforma do Mangue.io apresenta a tela abaixo, onde é possível o usuário alterar os valores existentes do Auto Escalador Horizontal. A imagem seguinte "Auto Escalador Horizontal – Criação" apresenta opções sobre como alterar os valores. 
   
 
 .. image:: /figuras/fig_mangue/039_mangue_criar_autoescalador.png
