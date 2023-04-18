@@ -623,7 +623,7 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 Cada uma das opções deste submenu é detalhada e descrita abaixo:
 
 
-* **Deletar Pod**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Que gera um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção existe a deleção do *pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+* **Deletar Pod**: Ao clicar na opção deletar, basta aguardar o *feedback* da ação. Ela gera um alerta de 'Sucesso' ou 'Erro' no menu superior direito. Como primeira escolha existe a deleção do *pod* em questão, ao selecioná-la aparece o seguinte modal:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
@@ -637,8 +637,7 @@ Cada uma das opções deste submenu é detalhada e descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
-    :alt: submenu Performance de um POD 
-    :scale: 80 %
+    :alt: submenu Performance de um POD
     :align: center
 =====
 
@@ -649,8 +648,7 @@ Caso o *Pod* tenha mais de um container sendo executado, há um *dropdown* onde 
   
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
-    :alt: submenu Ações_LOG diversos PODs 
-    :scale: 80 %
+    :alt: submenu Ações_LOG diversos PODs
     :align: center
 =====
 
@@ -820,7 +818,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
     :align: center
 =====
 
-Ao clicar na opção “Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. 
+Ao clicar na opção "Deletar" o usuário confirma a remoção das regras de escalabilidade criadas e estas não são mais aplicadas para o *deployment*. 
 
 .. attention:: Um *feedback* de alerta é criado no canto superior direito da tela, informa o sucesso ou erro.
 
@@ -848,23 +846,23 @@ Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar
 ====
 
 
-         G. **Seção: Preço da Aplicação no último Mês**
+G. **Seção: Preço da Aplicação no último mês**
 
+Esta seção exibe a tela "Preço da aplicação no último mês", nela são listadas as colunas de moeda, preço por memória, preço por CPU e preço total da aplicação, na sequência cada uma das colunas é detalhada:
 
 
 .. image:: /figuras/fig_mangue/040_mangue_preço_deployment.png
-    :alt: Preço da Aplicação (deployment) 
-    :scale: 80 %
+    :alt: Preço da Aplicação (deployment)
     :align: center
 =====
 
-         * **Moeda**: Apresenta o nome da moeda corrente referente aos valores apresentados nas colunas desta tabela;
+* **Moeda**: Apresenta o nome da moeda corrente referente aos valores apresentados nas colunas desta tabela;
 
-         * **Preço por Memória**: Apresenta o valor total, do mês corrente, do consumo do recurso de memória RAM para manter o *deployment* sendo executado (veja a fórmula de cálculo);
+* **Preço por Memória**: Apresenta o valor total, do mês corrente, do consumo do recurso de memória RAM para manter o *deployment* sendo executado (consultar a fórmula de cálculo);
 
-         * **Preço por CPU**: Apresenta o valor total, do mês corrente, do consumo do recurso de CPU para manter o *deployment* sendo executado (veja a fórmula de cálculo);
+* **Preço por CPU**: Apresenta o valor total, do mês corrente, do consumo do recurso de CPU para manter o *deployment* sendo executado (consultar a fórmula de cálculo);
 
-         * **Preço total do APP**: Esta coluna apresenta a somatória das duas colunas anteriores (Preço: Memória e CPU). Com esta informação, o usuário pode avaliar o **custo real da infraestrutura** necessária para manter e suportar a execução de um *deployment* ativo e funcional 24x7. 
+* **Preço total do APP**: Esta coluna apresenta a somatória das duas colunas anteriores (Preço: Memória e CPU). Com esta informação, o usuário pode avaliar o **custo real da infraestrutura** necessária para manter e suportar a execução de um *deployment* ativo e funcional 24 x 7. 
 
 ====
 
