@@ -900,7 +900,7 @@ Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *
 
 * **Duração**: Apresenta o tempo de duração do *Daemonsets*.
 
-* **Ações**: Esta coluna apresenta um botão ´´Ações´´ |icone_acao| ao ser clicado exibe as seguintes opções:
+* **Ações**: Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado exibe as seguintes opções:
   
   .. image:: /figuras/fig_mangue/041.1_mangue_acoes_daemonsets.png
     :alt: Editar e deletar Daemonsets 
@@ -947,11 +947,11 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
 
 * **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
 
-* **Min. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número mínimo de réplicas que esse escalador garante  para o *Deployment* que ele está associado;
+     * **Min. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número mínimo de réplicas que esse escalador garante  para o *Deployment* que ele está associado;
 
-* **Máx. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número máximo de réplicas que esse escalador garante para o *Deployment* que ele está associado;
+     * **Máx. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número máximo de réplicas que esse escalador garante para o *Deployment* que ele está associado;
 
-* **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
+     * **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
 
 * **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções:
 
@@ -973,7 +973,7 @@ No menu de Ações do Horizontal Autoscaler há a opção de deletar, ao selecio
     :align: center
 =====
 
-Ao clicar no botão ``Deletar`` o *Horizontal Autoscaler* é deletado, e as regras de escalabilidade criadas não são mais obedecidas pelo *Deployment* anteriormente associado. 
+Ao clicar no botão ``Deletar`` o *Horizontal Autoscaler* é excluído, e as regras de escalabilidade criadas não são mais obedecidas pelo *Deployment* anteriormente associado. 
 
 .. attention:: Um *feedback* de alerta é criado no canto superior direito da tela informando o 'sucesso' ou 'erro'.
 
