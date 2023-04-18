@@ -71,7 +71,7 @@ Após entrar com suas credenciais de acesso (usuário e senha) e efetuar o proce
 =====
 
 
-A imagem acima, representa um exemplo da Tela Inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à plataforma do Mangue.io.
+A imagem acima, representa um exemplo da tela inicial que o usuário visualiza após entrar com as credenciais válidas para o acesso à plataforma do Mangue.io.
 
 ====
 
@@ -102,7 +102,7 @@ No momento que o usuário seleciona o *cluster* e o *namespace* os valores da te
 Tela inicial
 ============
 
-A tela inicial de *OVERVIEW* apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
+A tela inicial de *Overview* apresenta alguns gráficos referentes aos valores de consumo de recursos computacionais específicos da seleção do usuário, o detalhamento dos gráficos segue abaixo:
 
 
 Gráfico do preço mensal do *cluster*
@@ -136,7 +136,7 @@ Para esta finalidade, o usuário deve clicar sobre o ícone “Lata de Lixo” |
 =====
 
 
-Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão de coloração verde ``Deletar``. 
+Para o usuário confirmar a ação de excluir todos os dados financeiros (valores) de consumo referente ao *cluster* selecionado na aba “Configuração de Navegação”, basta clicar sobre o botão ``Deletar`` de coloração verde. 
 
 Com esta ação todos os valores de consumo do *cluster* são removidos e é iniciado um novo período de coleta de informações, perdendo-se toda a informação acumulada (a série histórica) do *cluster* selecionado.
 
@@ -184,10 +184,10 @@ Ao realizar a busca do item Gráfico do uso total de CPU, a plataforma recupera 
 =====
 
 
-Menu de usuário
+Menu do usuário
 ===============
 
-A barra de menu de usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo.
+A barra de menu do usuário fica localizada à esquerda da tela e, inicialmente, é apresentada no modo expandido, como na figura abaixo.
   
 
 .. image:: /figuras/fig_mangue/008_mangue_menu_usuario_expandido.png
