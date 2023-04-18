@@ -909,7 +909,6 @@ Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *
 =====
 
 
-
      * **Editar DaemonSets**: Esta opção apresenta o *daemonset* em formato JSON, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io.
 
      * **Deletar DaemonSets**: Ao selecionar esta ação, a plataforma do Mangue.io solicita a confirmação do usuário, como mostra a figura abaixo:
@@ -934,28 +933,27 @@ Caso o usuário clique sobre o nome de algum *Daemonsets* presente na lista, a p
 Autoescalador Horizontal de Pods
 --------------------------------
 
-A plataforma do Mangue.io permite que o usuário defina regras para que a performance da aplicação seja sempre a melhor possível e que a *deployment* possa aumentar o processamento paralelo, diversas instâncias do *deployment* (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível.
+A plataforma do Mangue.io permite que o usuário defina regras para que a performance da aplicação seja sempre a melhor possível e que o *deployment* possa aumentar o processamento paralelo, diversas instâncias do *deployment* (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível.
 
 A definição de ‘Regras de Escalabilidade’ controla o incremento da quantidade de réplicas de um *deployment*, e por consequência há aumento do valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas. Na tabela exibe informações como: 
   
 
 .. image:: /figuras/fig_mangue/043_mangue_lista_autoescalador.png
-    :alt: Horizontal Autoscaler 
-    :scale: 80 %
+    :alt: Horizontal Autoscaler
     :align: center
 =====
 
-               * **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+* **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens indicados pelo usuário com um único comando;
 
-               * **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
+* **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
 
-               * **Min. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número mínimo de réplicas que esse escalador garante  para o *Deployment* que ele está associado;
+* **Min. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número mínimo de réplicas que esse escalador garante  para o *Deployment* que ele está associado;
 
-               * **Máx. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número máximo de réplicas que esse escalador garante para o *Deployment* que ele está associado;
+* **Máx. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número máximo de réplicas que esse escalador garante para o *Deployment* que ele está associado;
 
-               * **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
+* **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
 
-               * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, e existem duas opções:
+* **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções:
 
 
 
@@ -966,7 +964,7 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
 =====
 
 
-No menu de Ações do Horizontal Autoscaler há a opção de deletar, esta opção, ao ser selecionada abre o seguinte modal:
+No menu de Ações do Horizontal Autoscaler há a opção de deletar, ao selecioná-la é exibido o seguinte modal:
 
 
 .. image:: /figuras/fig_mangue/045_mangue_deletar_autoescalador.png
@@ -975,7 +973,11 @@ No menu de Ações do Horizontal Autoscaler há a opção de deletar, esta opç�
     :align: center
 =====
 
-Ao clicar no botão “Deletar" o *Horizontal Autoscaler* é deletado, e as regras de escalabilidade criadas não são mais obedecidas pelo *Deployment*, anteriormente associado. Um *feedback* de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
+Ao clicar no botão ``Deletar`` o *Horizontal Autoscaler* é deletado, e as regras de escalabilidade criadas não são mais obedecidas pelo *Deployment* anteriormente associado. 
+
+.. attention:: Um *feedback* de alerta é criado no canto superior direito da tela informando o 'sucesso' ou 'erro'.
+
+====
 
 
 PODs
