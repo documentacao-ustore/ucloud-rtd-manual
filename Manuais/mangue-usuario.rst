@@ -870,38 +870,37 @@ Esta seção exibe a tela "Preço da aplicação no último mês", nela são lis
 Daemonsets
 ----------
 
-*Apps/Daemonsets* apresenta todos os *Daemonsets* de um *cluster* em um determinado *namespace*, na tabela temos informações como:
+Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *namespace*, na tabela a seguir temos informações como:
   
 
 .. image:: /figuras/fig_mangue/041_mangue_daemonsets.png
-    :alt: Listagem de Daemonsets 
-    :scale: 80 %
+    :alt: Listagem de Daemonsets
     :align: center
 =====
 
-         * **#:** Número sequencial do *daemonset* na lista apresentada;
+* **#:** Número sequencial do *daemonset* na lista apresentada;
 
-         * **Nome:** É a representação do nome do *Daemonsets*;
+* **Nome:** É a representação do nome do *Daemonsets*;
 
-         * **Labels:** São os identificadores dos *Daemonsets*, usados para ser o elo que liga a um serviço;
+* **Labels:** São os identificadores dos *Daemonsets*, usados para ser o elo que liga a um serviço;
 
-         * **Instâncias:** Está representada pela quantidade de réplicas que estão operacionais de um *Daemonsets*, e pela quantidade total de réplicas operacionais desejadas para este *Daemonsets*. Estão divididos por um a barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
+* **Instâncias:** Está representada pela quantidade de réplicas operacionais de um *Daemonsets*, e pela quantidade total de réplicas operacionais desejadas para este *Daemonsets*. Estão divididos por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
-            * **Status:** O status de um *Daemonsets* identifica o estado atual deste. Podem ser presentados por *Running*, *Pending* ou “*!*” (ponto de exclamação):
+* **Status**: O *status* de um *Daemonsets* identifica o estado atual deste. Podem ser presentados por *Running*, *Pending* ou “*!*” (ponto de exclamação):
 
-               * O status **Running** identifica que nenhum erro está acontecendo com o *Daemonsets*;
+     * O *status* **Running** identifica que nenhum erro está acontecendo com o *Daemonsets*;
 
-               * O status **Pending** identifica algum estado de transição no *Daemonsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+     * O *status* **Pending** identifica algum estado de transição no *Daemonsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-               * O status **“!”** (ponto de exclamação) identifica quando algo errado aconteceu com o *Daemonsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* desse container não é possível.
+     * O status **“!”** (ponto de exclamação) identifica quando algo errado aconteceu com o *Daemonsets* e suas réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo.
 
-            * **IP de acesso:** Caso o *Daemonsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “Ip interno” caso seja um serviço interno do *cluster* (tipo *ClusterIP*).
+* **IP de acesso**: Caso o *Daemonsets* tenha um serviço associado, é nesse campo onde o IP do balanceador de carga pode ser um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “Ip interno” caso seja um serviço interno do *cluster* (tipo *ClusterIP*).
 
-            * **Imagem e versão:** Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Daemonsets* listado na imagem da tabela de *Daemonsets*.
+* **Imagem e versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Daemonsets*, listado na imagem da tabela de *Daemonsets*.
 
-            * **Duração**: Apresenta o tempo de duração do *Daemonsets*.
+* **Duração**: Apresenta o tempo de duração do *Daemonsets*.
 
-            * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, exibe as seguintes opções:
+* **Ações**: Esta coluna apresenta um botão ´´Ações´´ |icone_acao| ao ser clicado exibe as seguintes opções:
   
   .. image:: /figuras/fig_mangue/041.1_mangue_acoes_daemonsets.png
     :alt: Editar e deletar Daemonsets 
@@ -911,9 +910,9 @@ Daemonsets
 
 
 
-               * **Editar DaemonSets:** Esta opção apresenta o *daemonset* em formato JSON, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io.
+     * **Editar DaemonSets**: Esta opção apresenta o *daemonset* em formato JSON, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io.
 
-               * **Deletar DaemonSets:** ao selecionar esta ação, a plataforma do Mangue.io solicita a confirmação do usuário, como mostra a figura abaixo:
+     * **Deletar DaemonSets**: Ao selecionar esta ação, a plataforma do Mangue.io solicita a confirmação do usuário, como mostra a figura abaixo:
   
 
 .. image:: /figuras/fig_mangue/042_mangue_deletar_daemonsets.png
