@@ -3521,16 +3521,7 @@ Este documento conclui a apresentação e descrição do Mangue.io, uma Platafor
 Equipe Ustore
 Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
 
-Exemplo:
 
-Pode ser renomeado Introdução Visão Geral
-=========================================
-
-Texto H2
---------
-
-Texto H3
-~~~~~~~~
 
 .. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
 
