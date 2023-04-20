@@ -964,12 +964,11 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
 =====
 
 
-No menu de Ações do Horizontal Autoscaler há a opção de deletar, ao selecioná-la é exibido o seguinte modal:
+No menu "Ações" do Horizontal Autoscaler há a opção de deletar, ao selecioná-la é exibido o seguinte modal:
 
 
 .. image:: /figuras/fig_mangue/045_mangue_deletar_autoescalador.png
-    :alt: Deletar Auto Escalador Horizontal 
-    :scale: 80 %
+    :alt: Deletar Auto Escalador Horizontal
     :align: center
 =====
 
@@ -983,18 +982,23 @@ Ao clicar no botão ``Deletar`` o *Horizontal Autoscaler* é excluído, e as reg
 PODs
 ----
 
-Um **Pod** do Kubernetes é um grupo de containers, implantados juntos, no mesmo *host*.
+Um **Pod** do *Kubernetes* é um grupo de containers, implantados juntos, no mesmo *host*.
 
 Os *pods* operam em um nível mais alto do que os containers individuais, porque é muito comum ter um grupo de containers trabalhando em conjunto para produzir um artefato ou processar um conjunto de trabalho.
 
-Um *Pod* (exemplo: *a pod of whales* tradução: “um grupo de baleias”) é um grupo de um ou mais containers, com armazenamento / recursos de rede compartilhados e uma especificação de como executar os containers. O conteúdo de um pod é sempre colocado e programado conjuntamente e executado em um contexto compartilhado. Um *pod* modela um "*host* lógico" específico do aplicativo: ele contém um ou mais contêineres de aplicativo que são acoplados de forma relativamente forte.
+Por exemplo: na frase *a pod of whales* que significa "um grupo de baleias" neste caso, o objetivo é ilustrar que um *pod* pode ser análogo a uma baleia, e o termo *pods* relacionado ao grupo de baleias. 
 
-A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente *Kubernetes*, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*, veja o item **Seção: PODs**
+.. note:: Um *Pod* é um grupo de um ou mais containers, com armazenamento / recursos de rede compartilhados e uma especificação de como executar os containers. 
+
+O conteúdo de um *pod* é sempre colocado e programado conjuntamente, em seguida, executado em um contexto compartilhado. 
+
+.. important:: Um *pod* modela um "*host* lógico" específico do aplicativo. Ele contém um ou mais containeres do aplicativo que são acoplados de forma relativamente forte.
+
+A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente *Kubernetes*, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*.
 
  
 .. image:: /figuras/fig_mangue/046_mangue_listagem_pods.png
-    :alt: Listagem de PODs 
-    :scale: 80 %
+    :alt: Listagem de PODs
     :align: center
 =====
 
@@ -1042,8 +1046,7 @@ Cada uma das opções deste submenu está descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
-    :alt: submenu Performance de um POD 
-    :scale: 80 %
+    :alt: submenu Performance de um POD
     :align: center
 =====
 
