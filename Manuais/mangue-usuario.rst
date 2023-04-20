@@ -983,7 +983,7 @@ Ao clicar no botão ``Deletar`` o *Horizontal Autoscaler* é excluído, e as reg
 PODs
 ----
 
-Um **’Pod’** do Kubernetes é um grupo de containers, implantados juntos, no mesmo *host*.
+Um _**Pod**_ do Kubernetes é um grupo de containers, implantados juntos, no mesmo *host*.
 
 Os *pods* operam em um nível mais alto do que os containers individuais, porque é muito comum ter um grupo de containers trabalhando em conjunto para produzir um artefato ou processar um conjunto de trabalho.
 
