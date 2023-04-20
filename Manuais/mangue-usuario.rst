@@ -249,7 +249,7 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso serão apresentados três ícones com ações bem distintas:
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. Neste caso são apresentados três ícones com ações bem distintas:
 
      * **Reversão** |icone_reversao|: Esta opção permite ao usuário efetuar a ação de reverter a atual versão do(s) *deployment(s)* selecionado (s) para sua versão imediatamente anterior à existente na Plataforma do Mangue.io; 
    
@@ -333,7 +333,7 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
 
      * **ReadWriteMany:** O volume é montado e pode receber instruções de leitura e escrita simultaneamente, mas de diferentes *nodes*;
 
-* **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um box em branco, semelhante a este |uCloud_icone_coluna_acionavel|;
+* **Container:** Quando o usuário clicar sobre este local, é apresentado o nome do container da aplicação com um símbolo semelhante a este |uCloud_icone_coluna_acionavel|;
 
 * **Mount Path:** É o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux o caminho de montagem do volume, deve utilizar a notação do sistema operacional correspondente ao ambiente; se a base do ambiente da aplicação é um ambiente MS-Windows, deve-se utilizar a notação de montagem de volume com as pastas do sistema operacional correspondente;
 
@@ -391,7 +391,7 @@ A terceira opção deste submenu permite que o usuário possa apagar definitivam
 
 Esta ação é imediata e irreversível, a Plataforma do Mangue.io remove o *deployment* selecionado pelo usuário do contrato / *cluster / namespace*.
 
-Basta o usuário clicar sobre o botão **“Deletar”** para confirmar a sua ação e a Plataforma do Mangue.io apaga o *deployment* do ambiente selecionado.
+Basta o usuário clicar sobre o botão ``Deletar`` para confirmar a sua ação e a Plataforma do Mangue.io apaga o *deployment* do ambiente selecionado.
 
 
 .. note:: Esta ação **não** remove qualquer componente adicional externo a este *deployment* – por ex: um *PersistentVolume* associado, portanto se existe um arquivo externo, este  continua existindo no volume destino. Esta ação apenas remove o *deployment* do ambiente, mas não remove nenhum outro arquivo adicional do ambiente computacional.
@@ -574,6 +574,8 @@ Nesta parte, a plataforma do Mangue.io apresenta as seguintes informações:
 
 * **Duração:** Esta coluna apresenta o total de dias que esta *replicaset* existe, desde o momento da sua criação até o presente dia que o usuário visualiza esta lista.
 
+====
+
 
 C. **Seção: PODs**
 
@@ -606,7 +608,7 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
      * **!** (ponto de exclamação)   identifica que algo errado aconteceu com o *deployment* e suas
      réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
 
-* **Imagem**: Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
+* **Imagem**: Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
 * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*;
 
@@ -739,7 +741,7 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 F. **Seção: Autoescalador Horizontal de Pods**
 
-A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
+A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas) para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
 
 Vale ressaltar que é necessário existir uma instância do *Kubernetes Metrics Server* ativa e operando no cluster, para a execução do *Horizontal Pod Auto Scaler* ocorrer. Por padrão, a instalação do Mangue.io contempla a instalação do serviço de métricas.
 
@@ -790,7 +792,7 @@ Após a definição, ou no caso de uma regra existente, o usuário vê a tela ab
 
 * **Min. Réplicas**: Identifica o parâmetro colocado na definição do Auto Escalador e correspondente ao número mínimo de réplicas que esse escalador mantém ativas para garantir a performance ao *deployment*;
 
-* **Máx. Réplicas**: Identifica o parâmetro colocado na definição do escalador correspondente ao número máximo de réplicas que esse escalador irá manter ativas para garantir a performance ao *deployment*;
+* **Máx. Réplicas**: Indica o parâmetro colocado na definição do escalador, corresponde ao número máximo de réplicas mantidas ativas para garantir a performance do *deployment*;    
 
 * **Número de Réplicas**: Identifica a quantidade de réplicas ativas do *deployment* no presente momento.
 
@@ -943,13 +945,13 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
     :align: center
 =====
 
-* **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens indicados pelo usuário com um único comando;
+* **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens indicados com um único comando;
 
 * **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
 
      * **Min. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número mínimo de réplicas que esse escalador garante  para o *Deployment* que ele está associado;
 
-     * **Máx. Réplicas:** Identifica o parâmetro colocado na hora de criação do escalador correspondente ao número máximo de réplicas que esse escalador garante para o *Deployment* que ele está associado;
+     * **Máx. Réplicas:** Indica o parâmetro colocado na hora de criação do escalador, corresponde ao número máximo de réplicas mantidas ativas para garantir que o *Deployment* está associado;
 
      * **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
 
@@ -986,7 +988,9 @@ Um **Pod** do *Kubernetes* é um grupo de containers, implantados juntos, no mes
 
 Os *pods* operam em um nível mais alto do que os containers individuais, porque é muito comum ter um grupo de containers trabalhando em conjunto para produzir um artefato ou processar um conjunto de trabalho.
 
-Por exemplo: na frase *a pod of whales* que significa "um grupo de baleias" neste caso, o objetivo é ilustrar que um *pod* pode ser análogo a uma baleia, e o termo *pods* relacionado ao grupo de baleias. 
+Por exemplo: 
+
+Para ilustrar o que é um *pod*, por analogia, pode-se utilizar a frase *a pod of whales* que significa "um grupo de baleias" neste caso específico, o termo *pods* relaciona-se ao grupo de baleias. 
 
 .. note:: Um *Pod* é um grupo de um ou mais containers, com armazenamento / recursos de rede compartilhados e uma especificação de como executar os containers. 
 
@@ -994,7 +998,7 @@ O conteúdo de um *pod* é sempre colocado e programado conjuntamente, em seguid
 
 .. important:: Um *pod* modela um "*host* lógico" específico do aplicativo. Ele contém um ou mais containeres do aplicativo que são acoplados de forma relativamente forte.
 
-A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente *Kubernetes*, a associação do *Deployment* a um *Pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *Pod*.
+A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessários para o seu ambiente *Kubernetes*, a associação do *Deployment* a um *pod* é descrito em outra seção deste manual, juntamente com a descrição do processo de criação de um *pod*.
 
  
 .. image:: /figuras/fig_mangue/046_mangue_listagem_pods.png
@@ -1002,27 +1006,27 @@ A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessári
     :align: center
 =====
 
-Abaixo é descrito o significado de cada coluna desta tela:
+A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o significado de cada uma das sete colunas desta tela:
 
-      * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados com um único comando;
 
-      * **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
+* **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
 
-      * **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *Deployment*;
+* **Nó**: Apresenta o nome do *node* Kubernetes que está executando este *Deployment*;
 
-      * **Status**: Apresenta o *status* do *Deployment* em seu respectivo *node*. O *status* de um *Deployment* identifica o estado atual. Podem ser representados por:
+* **Status**: Apresenta o *status* do *Deployment* em seu respectivo *node*. O *status* de um *Deployment* identifica o estado atual. Podem ser representados por:
 
-            * **’Running’** identifica que nenhum erro está acontecendo com o *Deployment*;
+     * **Running** identifica que nenhum erro está acontecendo com o *Deployment*;
 
-            * **’Pending’** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+     * **Pending** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-            * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
+     * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
 
-      * **Imagem:** Esta coluna apresenta a informação da imagem pública que foi utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo de um que podemos utilizar é o *Docker Hub* (https://hub.docker.com/);
+* **Imagem:** Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
-      * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
+* **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-      * **Ações:** Esta coluna apresenta um botão de ações “  ” que ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+      * **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
