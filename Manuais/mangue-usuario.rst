@@ -1020,7 +1020,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
      * **Pending** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o Deployment e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o download desse container não é possível;
+     * **“!”** (ponto de exclamação) identifica que algo errado aconteceu com o *Deployment* e suas réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, logo, o *download* desse container é impraticável, torna-se impossível fazê-lo;
 
 * **Imagem:** Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
