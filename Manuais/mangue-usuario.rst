@@ -902,7 +902,7 @@ Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *
 
 * **Duração**: Apresenta o tempo de duração do *Daemonsets*.
 
-* **Ações**: Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado exibe as seguintes opções:
+* **Ações**: Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado exibe as seguintes opções:
   
   .. image:: /figuras/fig_mangue/041.1_mangue_acoes_daemonsets.png
     :alt: Editar e deletar Daemonsets 
@@ -955,7 +955,7 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
 
      * **Número Atual de Réplicas:** Identifica o estado atual da quantidade de réplicas do *Deployment* ao qual o escalador está associado;
 
-* **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções:
+* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, exibe as ações que podem ser efetuadas sobre o Auto Escalador Horizontal, existem duas opções:
 
 
 
@@ -1026,7 +1026,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-* **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -1150,31 +1150,31 @@ Um *Update* é considerado um evento de atualização em um *Cluster Kubernetes*
     :align: center
 ===== 
 
-A imagem acima exibe a lista de *updates* criados, na sequência a descrição com o significado de cada coluna uma das oito colunas:
+A imagem acima exibe a lista de *updates* criados, a seguir a definição de cada uma das oito colunas:
 
 * **#**: Número sequencial do evento na lista apresentada;
 
-* **Deployment Name**: Indica o nome do Deployment que é feita a atualização;
+* **Deployment Name**: Indica o nome do *Deployment*;
 
-* **Tipo**: Determina o tipo do update que é realizado, existem dois updates possíveis, são eles:
+* **Tipo**: Determina o tipo do *update* a ser realizado, existem dois tipos de atualização possível, são eles:
 
-     * **Atualização** - quando o usuário determinou qual é a próxima versão para qual container do Deployment;
+     * **Atualização** - Ocorre quando o usuário determina qual é a próxima versão e o container do Deployment;
 
-     * **Rollback** - atualização com finalidade de voltar para versão anterior;
+     * **Rollback** - É um operação que reverte o evento para a versão anterior;
 
-                     * **Status**: Existem dois estados possíveis para uma atualização, são eles:
+* **Status**: Existem dois estados possíveis, são eles:
 
-                        * UPDATED que corresponde a uma atualização realizada;
+     * *UPDATED* - Este estado corresponde a uma atualização realizada;
 
-                        * OUTDATED corresponde a uma atualização que está aguardando o evento de atualização através da plataforma do Mangue;
+     * *OUTDATED* - Refere-se a um estado anterior ou antigo, que aguarda o evento de atualização através da plataforma do Mangue;
 
-                     * **Namespace**: Corresponde ao Namespace da aplicação a ser atualizada e está sendo executada;
+* **Namespace**: Corresponde ao *Namespace* da aplicação a ser atualizada que está sendo executada;
 
-                     * **Novas Imagens**: Corresponde às novas imagens e versões dos containers que são atualizados;
+* **Novas Imagens**: Corresponde às novas imagens e versões dos containers que são atualizados;
 
-                     * **Duração**: Corresponde ao tempo que a atualização foi cadastrada/executada;
+* **Duração**: Corresponde ao tempo que a atualização foi cadastrada/executada;
 
-                     * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe uma única opção:
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe uma única opção:
   
 
 .. image:: /figuras/fig_mangue/052_mangue_botao_atualizar.png
@@ -1183,7 +1183,7 @@ A imagem acima exibe a lista de *updates* criados, na sequência a descrição c
     :align: center
 =====
 
-                     * **Atualizar**: Ao selecionar a opção de atualizar no botão de ações da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a atualização:
+* **Atualizar**: Ao selecionar a opção atualizar no botão de ``Ações`` da tabela, a plataforma do Mangue.io apresenta uma tela de confirmação para a operação:
   
 
 .. image:: /figuras/fig_mangue/053_mangue_mensagem_atualizar.png
@@ -1192,7 +1192,7 @@ A imagem acima exibe a lista de *updates* criados, na sequência a descrição c
     :align: center
 =====
 
-Ao clicar no botão "Atualizar" do modal é disparado o evento de atualização para o Deployment correspondente. 
+Ao clicar no botão ``Atualizar`` do modal é disparado o evento de atualização para o Deployment correspondente. 
 
 São utilizadas as imagens e versões dos containers que constam no campo de “Novas Imagens”. Um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
 
