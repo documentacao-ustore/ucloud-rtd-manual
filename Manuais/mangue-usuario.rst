@@ -496,7 +496,7 @@ Após preencher com a informação desejada, o usuário deve clicar sobre o bot�
 ====
 
 
-I. **Rollback**
+J. **Rollback**
 
 Esta opção permite ao usuário efetuar a ação de reverter a versão do *deployment* para sua versão imediatamente anterior à existente na Plataforma do Mangue.io.
 
@@ -582,8 +582,8 @@ C. **Seção: PODs**
 Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como: 
 
    * Nome; 
-   * 'nó' em que está sendo rodado;
-   * *status* atual do *pod*; 
+   * 'Nó' em que está sendo rodado;
+   * *Status* atual do *pod*; 
    * Imagem juntamente com sua versão e tempo de vida.
   
 
