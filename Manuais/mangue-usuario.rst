@@ -530,7 +530,7 @@ Esta seção exibe três gráficos, sendo dois de desempenho e um de valor:
    * Memória;
    * Preço nos últimos 30 dias.
 
-Eles mostram o desempenho de CPU (em *milicores*), o desempenho da Memória (em *megabytes*) e o Preço nos últimos 30 dias, tudo referente ao *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
+Eles mostram o desempenho de CPU (em *milicores*), Memória (em *megabytes*) e o Preço nos últimos 30 dias, tudo referente ao *deployment* selecionado pelo usuário. A linha vermelha do gráfico de preços indica a tendência do gráfico.
 
 Também são exibidos botões de interação para o usuário, eles podem especificar o período dos gráficos de CPU e Memória.
   
@@ -544,7 +544,7 @@ Também são exibidos botões de interação para o usuário, eles podem especif
 B. **Seção: ReplicaSet**
 
 
-A seção **Replicaset** apresenta uma tabela que lista todos os *replicasets* presentes para um *deployment*, nesta lista mostra informações como:
+A seção **Replicaset** mostra uma tabela que lista todos os *replicasets* presentes para um *deployment*, nesta lista mostra informações como:
 
    * Nome;
    * Quantidade de *pods* disponíveis;
@@ -1168,7 +1168,7 @@ A imagem acima exibe a lista de *updates* criados, a seguir a definição de cad
 
      * *OUTDATED* - Refere-se a um estado anterior ou antigo, que aguarda o evento de atualização através da plataforma do Mangue;
 
-* **Namespace**: Corresponde ao *Namespace* da aplicação a ser atualizada que está sendo executada;
+* **Namespace**: Corresponde ao *Namespace* da aplicação a ser atualizada e está sendo executada;
 
 * **Novas Imagens**: Corresponde às novas imagens e versões dos containers que são atualizados;
 
@@ -1192,54 +1192,52 @@ A imagem acima exibe a lista de *updates* criados, a seguir a definição de cad
     :align: center
 =====
 
-Ao clicar no botão ``Atualizar`` do modal é disparado o evento de atualização para o Deployment correspondente. 
+Ao clicar no botão ``Atualizar`` é disparado o evento de atualização para o *Deployment* correspondente. 
 
-São utilizadas as imagens e versões dos containers que constam no campo de “Novas Imagens”. Um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
+São utilizadas as imagens e versões dos containers que constam no campo “Novas Imagens”. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro".
 
-Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
+Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
   
 
 .. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
-    :alt: Pesquisar atualização 
-    :scale: 80 %
+    :alt: Pesquisar atualização
     :align: center
 =====
 
 
-                     * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca aparecem apenas os Updates que contém a palavra-chave da pesquisa;
+* **A ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *Update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *Updates* que contém a palavra-chave da pesquisa;
 
-                     * **A ação de atualizar**: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Updates;
+* **A ação de atualizar**: Basta clicar no ícone |icone_update| para atualizar a interface da plataforma do Mangue.io com os valores mais recentes desta tabela de *Updates*;
 
-                     * **Criar Integração com Updates**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar uma nova atualização para um Deployment em um determinado Namespace. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+* **Criar integração com updates**: Basta clicar no sinal de adição |icone_adicionar| para o usuário cadastrar uma nova atualização para um Deployment em um determinado *Namespace*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
 
 .. image:: /figuras/fig_mangue/054_mangue_criar_integracao.png
-    :alt: Criar integração 
-    :scale: 80 %
+    :alt: Criar integração
     :align: center
 =====
 
 Segue a descrição dos campos desta tela:
 
-                     * **Token**: Este campo é preenchido com uma string de caracteres após o usuário clicar sobre o botão **“Gerar Token”**, neste momento o campo é preenchido com a string de token que é informado para comunicação com a API do Mangue.io. Este token deve ser salvo e deve ser informado para autenticar as versões do CI. Ao gerar  um token, este deve ser enviado via API para o servidor do Mangue.io, pois ele  é responsável por garantir a integridade da requisição enviada.
+* **Token**: Este campo é preenchido com uma *string* de caracteres, após o usuário clicar sobre o botão ``Gerar Token`` o campo é preenchido com a *string de token* que é informada para comunicação com a API do Mangue.io. Este *token* deve ser salvo e informado para autenticar as versões do CI. Ao gerar um *token*, este deve ser enviado via API para o servidor do Mangue.io, pois ele é o responsável por garantir a integridade da requisição enviada.
 
-                     * **Namespace**: Ao clicar neste campo, é apresentada uma lista (drop-down) com todos os Namespaces existentes no cluster que foi selecionado na aba de Seleção de Configuração.
+* **Namespace**: Ao clicar neste campo, é apresentada uma lista *(dropdown)* com todos os *Namespaces* existentes no *cluster* selecionado na aba "Seleção de Configuração".
 
-                     * **Deployment**: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os Deployments associados ao namespace selecionado do campo anterior.
+* **Deployment**: Ao clicar sobre o campo é apresentada uma lista *(dropdown)* com todos os *Deployments* associados ao *namespace* selecionado do espaço anterior.
 
-                     * **Criar**: Quando o usuário estiver configurado, todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão “Criar” para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o status pending. Ao clicar no botão de "Criar” é criada a permissão para que o usuário cadastre atualizações na plataforma através de chamadas à API do mangue. Um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro. Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone “  ” (update) para atualizar as informações da tela.
-
-
-Abaixo listamos alguns exemplos dos benefícios para a funcionalidade de Updates:
-
-**Exemplo 1**:
-
-	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas é possível cadastrar atualizações na plataforma através do pipeline de CI/CD, e esperar que o evento de atualização seja disparado pela interface do Mangue.io.
+* **Criar**: Quando o usuário estiver configurado todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão ``Criar`` para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o *status pending*. Ao clicar no botão ``Criar`` é gerada a permissão para o usuário cadastrar as atualizações na plataforma através de chamadas à API do Mangue. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro". Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone *update* |icone_update| para atualizar as informações da tela.
 
 
-**Exemplo 2**:
+Abaixo seguem dois exemplos dos benefícios para a funcionalidade de *Updates*:
 
-	Um usuário tem um pipeline de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas é possível atualizar a aplicação direto pelo pipeline de CI/CD.
+     **Exemplo 1**:
+
+	Um usuário tem um *pipeline* de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas, é possível cadastrar atualizações na plataforma através do *pipeline* de CI/CD e esperar que o evento de atualização seja disparado pela interface do Mangue.io.
+
+
+     **Exemplo 2**:
+
+	Um usuário tem um *pipeline* de CI/CD que é executado e gera algumas versões estáveis por dia. Dado que o usuário tem seu *cluster Kubernetes* gerenciado pelo Mangue.io e suas aplicações instaladas é possível atualizar a aplicação direto pelo *pipeline* de CI/CD.
 
 
 ====	
@@ -3552,6 +3550,12 @@ Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
 .. |icone_adicionar| image:: /figuras/fig_mangue/icone_adicionar.png
 
 .. |icone_acao| image:: /figuras/fig_mangue/icone_acao.png
+
+.. |icone_adicionar_vermelho| image::/figuras/fig_mangue/icone_adicionar_vermelho.png
+
+.. |icone_lupa_verde| image::/figuras/fig_mangue/icone_lupa_verde.png
+
+.. |icone_update.png| image:: /figuras/fig_mangue/icone_update.png
 
 
 
