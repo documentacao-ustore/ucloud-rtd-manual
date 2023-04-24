@@ -1037,7 +1037,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 Cada uma das opções deste submenu está descrita abaixo:
 
-* **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+* **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. É gerado um alerta de "Sucesso" ou "Erro" no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
