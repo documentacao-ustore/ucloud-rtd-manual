@@ -1170,9 +1170,9 @@ A imagem acima exibe a lista de *updates* criados, a seguir a definição de cad
 
 * **Namespace**: Corresponde ao *Namespace* da aplicação a ser atualizada e está sendo executada;
 
-* **Novas Imagens**: Corresponde às novas imagens e versões dos containers que são atualizados;
+* **Novas Imagens**: Relaciona-se às novas imagens e versões dos containers que são atualizados;
 
-* **Duração**: Corresponde ao tempo que a atualização foi cadastrada/executada;
+* **Duração**: Equivale ao tempo que a atualização foi cadastrada/executada;
 
 * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe uma única opção:
   
