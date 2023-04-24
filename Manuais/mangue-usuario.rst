@@ -1026,7 +1026,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-      * **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+* **Ações:** Esta coluna apresenta um botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -1037,7 +1037,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 Cada uma das opções deste submenu está descrita abaixo:
 
-      * **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
+* **Deletar Pod**: Ao clicar na opção **Deletar** basta aguardar o *feedback* da ação. Que vai gerar um alerta de Sucesso ou Erro no menu superior direito. Como primeira opção temos a deleção do *Pod* em questão, ao selecionar esta opção aparece o seguinte modal:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
@@ -1046,7 +1046,7 @@ Cada uma das opções deste submenu está descrita abaixo:
     :align: center
 =====
 
-      * **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *Pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *Pod* selecionado.
+* **Gráfico de Performance**: Na segunda opção, o usuário é capaz de observar os gráficos de performance de CPU e Memória de cada *Pod*, uma vez que se clica nesta opção, a tela abaixo é apresentada ao usuário com os gráficos de consumo de CPU e memória do *Pod* selecionado.
   
 
 .. image:: /figuras/fig_mangue/029_mangue_performance_pod.png
@@ -1054,7 +1054,7 @@ Cada uma das opções deste submenu está descrita abaixo:
     :align: center
 =====
 
-      * **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os logs, como é mostrado na imagem a seguir:
+* **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja visualizar os logs, como é mostrado na imagem a seguir:
   
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
@@ -1063,50 +1063,52 @@ Cada uma das opções deste submenu está descrita abaixo:
     :align: center
 =====
 
-      * **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no prompt do sistema operacional do *Pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do Pod em questão. Lembrando que para que esta função seja habilitada é necessário acessar o **Menu Integrações** e seguir os passos correspondentes ao *Container Execution*. Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
+* **Linha de Comando**: Na quarta opção, o usuário é capaz de executar linhas comandos no *prompt* do sistema operacional do *Pod*, de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. Essa funcionalidade se estende a um ou mais containers que existam dentro do Pod em questão. 
+
+.. important:: Para habilitar esta função é necessário acessar o **Menu Integrações** e seguir os passos correspondentes ao *Container Execution*. 
+
+Caso o *Pod* tenha mais de um container sendo executado há um *dropdown* onde é possível selecionar qual container o usuário deseja executar os comandos, como é mostrado na imagem a seguir:
   
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
-    :alt: submenu Ações_linha de comando outro pod 
-    :scale: 80 %
+    :alt: submenu Ações_linha de comando outro pod
     :align: center
 =====
 
 Statefulsets
 ------------
 
-*Apps/Statefulsets* apresenta todos os *statefulsets* de um *cluster* em um determinado *namespace*, na tabela são exibidas informações como:
+Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de um *cluster* em um determinado *namespace*, na seguinte imagem são exibidas informações como:
   
 
 .. image:: /figuras/fig_mangue/048_mangue_statefulsets.png
-    :alt: Listagem de Statefulsets 
-    :scale: 80 %
+    :alt: Listagem de Statefulsets
     :align: center
 =====
 
-      * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“  ”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens selecionados com um único comando;
 
-      * **Nome**: É a representação do nome do *Statefulsets*;
+* **Nome**: É a representação do nome do *Statefulsets*;
 
-      * **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço;
+* **Labels**: São os identificadores dos *Statefulsets*, usados para ser o elo-de-ligação a um serviço;
 
-      * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
+* **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
 
-      * **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
+* **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
 
-         * O status **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
+     * O *status* **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
 
-         * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
+     * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
 
-         * O *status* **!** (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Um exemplo pode ser quando a imagem de um container é passada com uma versão que não existe, logo, o *download* deste não é possível;
+     * O *status* **!** (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, logo, o *download* deste é impraticável, torna-se impossível fazê-lo;
 
-                     * **IP**: Caso o *Statefulsets* tenha um serviço associado é nesse campo onde o IP do balanceador de carga caso seja um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo(tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
+* **IP**: Caso o *Statefulsets* tenha um serviço associado, é nesse campo onde o IP do balanceador de carga pode ser um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
 
-                     * **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Statefulsets* listado na imagem da tabela de *Statefulsets*.
+* **Imagem e Versão**: Caso tenha mais de uma imagem ou versão de um container são listados um abaixo do outro, como no exemplo do 6º *Statefulsets* listado na imagem da tabela de *Statefulsets*.
 
-                     * **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*.
+* **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*.
 
-                     * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe duas opções assim como a figura abaixo:
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe duas opções como a figura abaixo:
   
 
 .. image:: /figuras/fig_mangue/048.1_mangue_acoes_statefulsets.png
@@ -1117,7 +1119,7 @@ Statefulsets
 
 
 
-                           * **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no Kubernetes, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do Kubernetes.
+* **Editar Statefulsets**: Esta opção apresenta uma tela com um arquivo JSON com todas as configurações do *Statefulsets* no *Kubernetes*, o usuário pode editar o que for necessário e selecionar a opção de editar e esperar o *feedback* da ação pela Plataforma do Mangue.io. Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos arquivos do *Kubernetes*.
   
 
 .. image:: /figuras/fig_mangue/049_mangue_editar_statefulsets.png
@@ -1126,7 +1128,7 @@ Statefulsets
     :align: center
 =====
 
-                           * **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme a tela abaixo:
+* **Deletar Statefulsets**: No menu de ações do *Statefulsets* há a opção de deletar, basta o usuário clicar sobre o botão para confirmar a ação, conforme mostra a tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/050_mangue_deletar_statefulsets.png
@@ -1140,26 +1142,25 @@ Statefulsets
 Updates
 -------
 
-Um Update é considerado como um evento de atualização em um *Cluster Kubernetes*, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente *Kubernetes* e a interface do Mangue.io.
+Um *Update* é considerado um evento de atualização em um *Cluster Kubernetes*, sua funcionalidade tem o intuito de facilitar o controle e a comunicação direta, entre o ambiente *Kubernetes* e a interface do Mangue.io.
 
 
 .. image:: /figuras/fig_mangue/051_mangue_update.png
-    :alt: Update 
-    :scale: 80 %
+    :alt: Update
     :align: center
 ===== 
 
-Abaixo descrevemos o significado de cada coluna desta tela:
+A imagem acima exibe a lista de *updates* criados, na sequência a descrição com o significado de cada coluna uma das oito colunas:
 
-                     * **#**: Número sequencial do evento na lista apresentada;
+* **#**: Número sequencial do evento na lista apresentada;
 
-                     * **Deployment Name**: Indica o nome do Deployment que é feita a atualização;
+* **Deployment Name**: Indica o nome do Deployment que é feita a atualização;
 
-                     * **Tipo**: Determina o tipo do update que é realizado, existem dois updates possíveis, são eles:
+* **Tipo**: Determina o tipo do update que é realizado, existem dois updates possíveis, são eles:
 
-                        * **Atualização** - quando o usuário determinou qual é a próxima versão para qual container do Deployment;
+     * **Atualização** - quando o usuário determinou qual é a próxima versão para qual container do Deployment;
 
-                        * **Rollback** - atualização com finalidade de voltar para versão anterior;
+     * **Rollback** - atualização com finalidade de voltar para versão anterior;
 
                      * **Status**: Existem dois estados possíveis para uma atualização, são eles:
 
