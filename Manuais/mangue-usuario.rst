@@ -209,7 +209,7 @@ Algumas opções de menu possuem um submenu, que são apresentadas quando o usu�
 Workloads
 =========
 
-Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Deamonsets*, Horizontal *Autoscaler*, *StatefulSets* e os *Updates*.
+Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Daemonsets*, Horizontal *Autoscaler*, *StatefulSets* e os *Updates*.
   
 
 .. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
