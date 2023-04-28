@@ -3551,9 +3551,9 @@ Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
 
 .. |icone_acao| image:: /figuras/fig_mangue/icone_acao.png
 
-.. |icone_adicionar_vermelho| image::/figuras/fig_mangue/icone_adicionar_vermelho.png
+.. |icone_adicionar_vermelho| image:: /figuras/fig_mangue/icone_adicionar_vermelho.png
 
-.. |icone_lupa_verde| image::/figuras/fig_mangue/icone_lupa_verde.png
+.. |icone_lupa_verde| image:: /figuras/fig_mangue/icone_lupa_verde.png
 
 .. |icone_update| image:: /figuras/fig_mangue/icone_update.png
 
