@@ -775,7 +775,7 @@ Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre o
 
 É importante ressaltar que ao confirmar o evento de criação de um Auto Escalador Horizontal, há um tempo de espera para que ele apareça em tela. Tempo este decorrente da necessidade do escalador coletar as métricas e tornar-se um objeto ativo no *Kubernetes*.
 
-A definição de ‘Regras de Escalabilidade’ controla o incremento/decremento da quantidade de réplicas da aplicação, e por consequência há aumento/diminuição do consumo de recursos computacionais para executar o maior/menor número de réplicas ativas. Portanto há um aumento/diminuição no valor do custo da infraestrutura, durante o tempo em que as várias réplicas são executadas.
+A definição de "Regras de Escalabilidade" controla o incremento/decremento da quantidade de réplicas da aplicação, e por consequência há aumento/diminuição do consumo de recursos computacionais para executar o maior/menor número de réplicas ativas. Portanto há um aumento/diminuição no valor do custo da infraestrutura, durante o tempo em que as várias réplicas são executadas.
 
 Após a definição, ou no caso de uma regra existente, o usuário vê a tela abaixo:
   
