@@ -1225,7 +1225,9 @@ Segue a descrição dos campos desta tela:
 
 * **Deployment**: Ao clicar sobre o campo é apresentada uma lista *(dropdown)* com todos os *Deployments* associados ao *namespace* selecionado do espaço anterior.
 
-* **Criar**: Quando o usuário estiver configurado todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão ``Criar`` para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o *status pending*. Ao clicar no botão ``Criar`` é gerada a permissão para o usuário cadastrar as atualizações na plataforma através de chamadas à API do Mangue. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro". Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone *update* |icone_update| para atualizar as informações da tela.
+* **Criar**: Quando o usuário configurar todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão ``Criar`` para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o *status pending*. Ao clicar no botão ``Criar`` é gerada a permissão para o usuário cadastrar as atualizações na plataforma através de chamadas à API do Mangue. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro". 
+
+.. note:: Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone update |icone_update| para atualizar as informações da tela.
 
 
 Abaixo seguem dois exemplos dos benefícios para a funcionalidade de *Updates*:
