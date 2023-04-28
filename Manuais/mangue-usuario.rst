@@ -753,7 +753,7 @@ Caso o *deployment* não possua nenhum Auto Escalador Horizontal, a tela se apre
     :align: center
 =====
 
-Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre o ícone do sinal de adição ‘+’ a exemplo da imagem acima, para que seja apresentada a interface onde o usuário configura a(s) regra(s) de como a plataforma deve mensurar o consumo de infraestrutura do *deployment*, para iniciar novas réplicas dentro da infraestrutura computacional para que a performance seja atendida.
+Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre o ícone do sinal de adição |icone_adicionar| a exemplo da imagem acima, para que seja apresentada a interface onde o usuário configura a(s) regra(s) de como a plataforma deve mensurar o consumo de infraestrutura do *deployment*, para iniciar novas réplicas dentro da infraestrutura computacional para que a performance seja atendida.
   
 
 .. image:: /figuras/fig_mangue/035_mangue_criacao_autoescalador.png
@@ -761,7 +761,7 @@ Para que o usuário possa criar uma regra de **Escalador**, basta clicar sobre o
     :align: center
 =====
 
-* **Mínimo de Réplicas**: Informar o valor mínimo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve manter ativas para a aplicação ter a performance mínima necessária, garantir a otimização da experiência do usuário. O valor mínimo para este campo é ‘um’ (1);
+* **Mínimo de Réplicas**: Informar o valor mínimo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve manter ativas para a aplicação ter a performance mínima necessária, garantir a otimização da experiência do usuário. O valor mínimo para este campo é 'um' (1);
 
 
 * **Máximo de Réplicas**: Informar o valor máximo de réplicas do *deployment* (obrigatório um número inteiro – por exemplo: 1, 2) que a plataforma do Mangue.io deve iniciar para a aplicação suportar o crescimento da demanda de acesso dos usuários e garantir a otimização da experiência do usuário. O valor máximo para este campo é 'quinze' (15);
@@ -937,7 +937,7 @@ Autoescalador Horizontal de Pods
 
 A plataforma do Mangue.io permite que o usuário defina regras para que a performance da aplicação seja sempre a melhor possível e que o *deployment* possa aumentar o processamento paralelo, diversas instâncias do *deployment* (réplicas), para garantir que os usuários tenham sempre a melhor experiência de uso possível.
 
-A definição de ‘Regras de Escalabilidade’ controla o incremento da quantidade de réplicas de um *deployment*, e por consequência há aumento do valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas. Na tabela exibe informações como: 
+A definição de "Regras de Escalabilidade" controla o incremento da quantidade de réplicas de um *deployment*, e por consequência há aumento do valor do custo da infraestrutura, durante o tempo em que as várias réplicas estiverem sendo executadas. Na tabela exibe informações como: 
   
 
 .. image:: /figuras/fig_mangue/043_mangue_lista_autoescalador.png
@@ -945,7 +945,7 @@ A definição de ‘Regras de Escalabilidade’ controla o incremento da quantid
     :align: center
 =====
 
-* **# ‘coluna acionável’**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens indicados com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens indicados com um único comando;
 
 * **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
 
@@ -1086,7 +1086,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
     :align: center
 =====
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens selecionados com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens selecionados com um único comando;
 
 * **Nome**: É a representação do nome do *Statefulsets*;
 
@@ -1094,11 +1094,11 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
 
 * **Instâncias**: Os valores apresentados aqui indicam que a quantidade de réplicas de um *Statefulsets* estão divididos por uma barra (“/”) onde os valores encontrados ao lado esquerdo da barra é o valor de réplicas ativas e operacionais, e os valores ao lado direito da barra representa a quantidade máxima de réplicas que podem ser ativadas para manter a performance desejada do *Statefulsets*;
 
-* **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por **’Running’**, **’Pending’** ou “**!**” (ponto de exclamação).
+* **Status**: O status de um *Statefulsets* identifica o estado atual de cada *Statefulsets* listado. Pode ser apresentado por "**Running**", "**Pending**" ou “**!**” (ponto de exclamação).
 
-     * O *status* **’Running’** identifica que nenhum erro está acontecendo com o *Statefulsets*;
+     * O *status* "**Running**" identifica que nenhum erro está acontecendo com o *Statefulsets*;
 
-     * O *status* **’Pending’** identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
+     * O *status* "**Pending**" identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
 
      * O *status* **!** (ponto de exclamação) identifica quando algo errado aconteceu com o *Statefulsets* e suas réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, logo, o *download* deste é impraticável, torna-se impossível fazê-lo;
 
@@ -1164,9 +1164,9 @@ A imagem acima exibe a lista de *updates* criados, a seguir a definição de cad
 
 * **Status**: Existem dois estados possíveis, são eles:
 
-     * *UPDATED* - Este estado corresponde a uma atualização realizada;
+     * **UPDATED** - Este estado corresponde a uma atualização realizada;
 
-     * *OUTDATED* - Refere-se a um estado anterior ou antigo, que aguarda o evento de atualização através da plataforma do Mangue;
+     * **OUTDATED** - Refere-se a um estado anterior ou antigo, que aguarda o evento de atualização através da plataforma do Mangue;
 
 * **Namespace**: Corresponde ao *Namespace* da aplicação a ser atualizada e está sendo executada;
 
