@@ -1240,18 +1240,21 @@ Abaixo seguem dois exemplos dos benefícios para a funcionalidade de *Updates*:
 Catálogo
 ========
 
-A plataforma do Mangue.io permite ao usuário criar aplicações (*Deployments*) de duas formas diferentes. A primeira é uma forma simplificada guiando o usuário por intermédio de telas, que depois de todas preenchidas e confirmada pelo usuário, os dados informados serão convertidos em um arquivo com ‘sintaxe YAML’, e esta sintaxe (praticamente sem erros) será utilizada para gerar a aplicação (ex.: *Deployment*).
+A plataforma do Mangue.io permite ao usuário criar aplicações (*Deployments*) de duas formas diferentes: a forma simplificada que guia o usuário na sequência das telas e a forma elaborada que permite fazer *upload* de um arquivo texto. 
 
-O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML, para o ambiente Kubernetes, demanda um alto grau de especialização e conhecimento do desenvolvedor para que a sintaxe, correta para o ambiente, tenha todas as dependências necessárias para geração do resultado desejado da forma correta e pronta para o uso no ambiente Kubernetes (ex.: uma aplicação / *Deployment*).
+A seguir, a descrição dos dois formatos de como criar aplicações *(deployments)*:  
 
-A outra forma é permitir ao usuário fazer o upload de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe YAML, já adaptada e preparada para um ambiente Kubernetes. Se o desenvolvedor (usuário) possui prática suficiente para criar seus próprios scripts em sintaxe YAML, pode utilizar seus próprios scripts e trazer estes para a Plataforma do Mangue.io para gerenciar em qual *Cluster*, *Pod*, *Node*, este código/*script* é executado e gerenciado.
+A primeira é a forma simplificada, ela ocorre ao guiar o usuário por intermédio das telas, que depois de todo o preenchimento e confirmação do usuário, os dados informados são convertidos em um arquivo com 'sintaxe *YAML*', esta construção (praticamente sem erros) é utilizada para gerar a aplicação.
 
-Quando o usuário acessar o menu Catálogo, a Plataforma do Mangue.io apresenta a tela abaixo, e iremos descrever cada uma das opções nas páginas abaixo.
+O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe *YAML* para um ambiente *Kubernetes*. A criação de código em sintaxe *YAML*, no ambiente *Kubernetes*, demanda um alto grau de especialização e conhecimento do desenvolvedor. A sintaxe correta para o ambiente deve ter todas as dependências necessárias para a geração do resultado desejado da forma correta, e, pronta para o uso no ambiente *Kubernetes* (por exemplo: uma aplicação / *Deployment*).
+
+A outra forma é permitir ao usuário fazer o *upload* de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe *YAML*, já adaptada e preparada para um ambiente *Kubernetes*. Se o desenvolvedor (usuário) possui prática suficiente para criar seus próprios *scripts* em sintaxe *YAML*, pode utilizá-los e trazer estes para a plataforma do Mangue.io com a finalidade de conduzir em qual *Cluster*, *Pod*, *Node*, este código / *script* é executado e gerenciado.
+
+Quando o usuário acessar o menu Catálogo, a plataforma do Mangue.io apresenta a tela abaixo, na sequência a descrição de cada uma das opções do fluxo deste menu.
   
 
 .. image:: /figuras/fig_mangue/055_mangue_catalogo.png
-    :alt: Catálogo  
-    :scale: 80 %
+    :alt: Catálogo
     :align: center
 =====
 
@@ -1260,7 +1263,7 @@ Quando o usuário acessar o menu Catálogo, a Plataforma do Mangue.io apresenta 
 Nova Aplicação
 --------------
 
-Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens “   Seleção de Configuração”.
+Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens “Seleção de Configuração”.
 
 Abaixo descreveremos as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
