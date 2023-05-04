@@ -339,7 +339,7 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
 
 Para confirmar todos os valores e opções informados, basta o usuário clicar com o mouse no botão ``Finalizar`` para criar o *PersistentVolume* e aguardar o *feedback* de criação, no canto superior direito da tela da Plataforma Mangue.io.
 
-
+====
 
 B. **Adicionar Serviço**
 
@@ -418,8 +418,6 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
     :alt: Editar Deployment
     :align: center
 =====
-
-
       
 E. **Alterar Tags**
 
@@ -440,8 +438,6 @@ A função desta tela permite ao usuário alterar as *Tags* associadas à aplica
     :align: center
 =====
 
- 
-
 F. **Escalar Deployment**
 
 A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão ``Escalar``.
@@ -454,7 +450,6 @@ A função desta tela permite ao usuário informar o número (inteiro) desejado 
 Importante ressaltar que há um aumento de consumo no uso de CPU e da memória do *cluster* para suportar a execução simultânea das réplicas desta aplicação na infraestrutura do *cluster*.
 
 ====
-
 
 G. **Migrar Deployment**
 
@@ -472,7 +467,6 @@ Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e a
     :alt: Migrar Deployment
     :align: center
 =====
-
 
 H. **Modificar Versão**
 
@@ -494,7 +488,6 @@ Após preencher com a informação desejada, o usuário deve clicar sobre o bot�
 .. attention:: Estas novas versões não estão relacionadas, necessariamente, com qualquer versão dos *softwares* que as compõem, ou qualquer *software* que foi utilizado para compor a oferta, versões diferentes podem ser encontradas fora da plataforma do Mangue.io.
 
 ====
-
 
 J. **Rollback**
 
@@ -843,7 +836,7 @@ Ao clicar sobre a opção “Editar”, a plataforma do Mangue.io apresenta a te
 
 Importante ressaltar que as regras de Auto Escalador Horizontal acima descritos, estão associadas apenas ao *deployment* selecionado pelo usuário.
 
-Através do menu *Workloads*/Autoescalador Horizontal o usuário pode visualizar todas as regras de Auto Escalador Horizontal, configuradas na plataforma do Mangue.io, associadas aos seus respectivos *deployments.*
+Através do menu *Workloads* / Autoescalador Horizontal o usuário pode visualizar todas as regras de Auto Escalador Horizontal, configuradas na plataforma do Mangue.io, associadas aos seus respectivos *deployments.*
 
 ====
 
@@ -894,7 +887,7 @@ Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *
 
      * O *status* **Pending** identifica algum estado de transição no *Daemonsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * O status **“!”** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Daemonsets* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre.
+     * O status **“!”** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Daemonsets* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste não ocorre.
 
 * **IP de acesso**: Caso o *Daemonsets* tenha um serviço associado, é nesse campo onde o IP do balanceador de carga pode ser um serviço do tipo *loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* “Ip interno” caso seja um serviço interno do *cluster* (tipo *ClusterIP*).
 
@@ -1020,7 +1013,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
      * **Pending** identifica algum estado de transição no Deployment. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * **“!”** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Deployment* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre;
+     * **“!”** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Deployment* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste não ocorre;
 
 * **Imagem:** Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
@@ -1100,7 +1093,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
 
      * O *status* "**Pending**" identifica algum estado de transição no *Statefulsets*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição; 
 
-     * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Statefulsets* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre;
+     * O *status* **!** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Statefulsets* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste não ocorre;
 
 * **IP**: Caso o *Statefulsets* tenha um serviço associado, é nesse campo onde o IP do balanceador de carga pode ser um serviço do tipo *Loadbalancer*, porta para acesso ao serviço caso seja um serviço externo (tipo *nodePort*) ou a *string* "IP interno” caso seja um serviço interno do *cluster* (tipo *ClusterIp*).
 
