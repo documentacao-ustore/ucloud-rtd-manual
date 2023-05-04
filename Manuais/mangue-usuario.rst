@@ -1218,7 +1218,7 @@ Segue a descrição dos campos desta tela:
 
 * **Deployment**: Ao clicar sobre o campo é apresentada uma lista *(dropdown)* com todos os *Deployments* associados ao *namespace* selecionado do espaço anterior.
 
-* **Criar**: Quando o usuário configurar todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), basta clicar sobre o botão ``Criar`` para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o *status pending*. Ao clicar no botão ``Criar`` é gerada a permissão para o usuário cadastrar as atualizações na plataforma através de chamadas à API do Mangue. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro". 
+* **Criar**: Quando o usuário configurar todos os campos desta tela, com os critérios corretos para adicionar um evento de atualização (update), deve clicar sobre o botão ``Criar`` para adicionar o evento de atualização na plataforma do Mangue.io. Este novo evento é adicionado à lista com o *status pending*. Ao clicar no botão ``Criar`` é gerada a permissão para o usuário cadastrar as atualizações na plataforma através de chamadas à API do Mangue. Um *feedback* de alerta é criado no canto superior direito da tela informando o "Sucesso" ou "Erro". 
 
 .. note:: Caso o evento não apareça listado, imediatamente, o usuário deve clicar sobre o ícone update |icone_update| para atualizar as informações da tela.
 
@@ -1240,7 +1240,7 @@ Abaixo seguem dois exemplos dos benefícios para a funcionalidade de *Updates*:
 Catálogo
 ========
 
-A Plataforma do Mangue.io permite ao usuário criar aplicações (*Deployments*) de duas formas diferentes. A primeira é uma forma simplificada guiando o usuário por intermédio de telas, que depois de todas preenchidas e confirmada pelo usuário, os dados informados serão convertidos em um arquivo com ‘sintaxe YAML’, e esta sintaxe (praticamente sem erros) será utilizada para gerar a aplicação (ex.: *Deployment*).
+A plataforma do Mangue.io permite ao usuário criar aplicações (*Deployments*) de duas formas diferentes. A primeira é uma forma simplificada guiando o usuário por intermédio de telas, que depois de todas preenchidas e confirmada pelo usuário, os dados informados serão convertidos em um arquivo com ‘sintaxe YAML’, e esta sintaxe (praticamente sem erros) será utilizada para gerar a aplicação (ex.: *Deployment*).
 
 O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML, para o ambiente Kubernetes, demanda um alto grau de especialização e conhecimento do desenvolvedor para que a sintaxe, correta para o ambiente, tenha todas as dependências necessárias para geração do resultado desejado da forma correta e pronta para o uso no ambiente Kubernetes (ex.: uma aplicação / *Deployment*).
 
