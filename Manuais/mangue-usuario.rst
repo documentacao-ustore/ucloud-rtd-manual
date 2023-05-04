@@ -1263,7 +1263,7 @@ Quando o usuário acessar o menu Catálogo, a plataforma do Mangue.io apresenta 
 Nova Aplicação
 --------------
 
-Esta modalidade é a forma que a Plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a Plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens “Seleção de Configuração”.
+Esta modalidade é a forma que a plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens “Seleção de Configuração”.
 
 Abaixo descreveremos as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
