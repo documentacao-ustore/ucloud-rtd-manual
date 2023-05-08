@@ -769,3 +769,30 @@ The Mangue.io platform presents the following information in this section:
 
 
 
+.. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
+
+.. |icone_lata_lixo_preta| image:: /figuras/fig_mangue/icone_lixo.png
+
+.. |icone_lupa_vermelha| image:: /figuras/fig_mangue/icone_lupa_vermelha.png
+
+.. |icone_sinal_menor| image:: /figuras/fig_mangue/icone_sinal_menor.png
+
+.. |uCloud_icone_coluna_acionavel| image:: /figuras/uCloud_icone_coluna_acionavel.png
+
+.. |icone_reversao| image:: /figuras/fig_mangue/icone_reversao.png
+
+.. |icone_escalar| image:: /figuras/fig_mangue/icone_escalar.png
+
+.. |icone_lixo_vermelho| image:: /figuras/fig_mangue/icone_lixo_vermelho.png
+
+.. |icone_alterar_versao| image:: /figuras/fig_mangue/icone_alterar_versao.png
+
+.. |icone_adicionar| image:: /figuras/fig_mangue/icone_adicionar.png
+
+.. |icone_acao| image:: /figuras/fig_mangue/icone_acao.png
+
+.. |icone_adicionar_vermelho| image:: /figuras/fig_mangue/icone_adicionar_vermelho.png
+
+.. |icone_lupa_verde| image:: /figuras/fig_mangue/icone_lupa_verde.png
+
+.. |icone_update| image:: /figuras/fig_mangue/icone_update.png
