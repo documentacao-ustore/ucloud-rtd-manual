@@ -125,9 +125,9 @@ La mención operar significa al lector que es la capacidad del usuario comandar 
  * Suspender (*suspend*)
  * Remover (*delete*)
 
-A través de la interfaz de la plataforma de uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También puede ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta máquina virtual (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
+A través de la interfaz de la plataforma de uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También es possible ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
 
-En cuanto a los proveedores de servicios de nube pública, la plataforma de uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
+En cuanto a los proveedores de servicios de nube pública, la plataforma de uCloud está preparada para conectarse con las siguientes plataformas:
 
   * Amazon Web Services *(AWS)*
   * Google Cloud Plataform *(GCP)*
@@ -155,7 +155,7 @@ de funcionalidades que permite a los usuarios, de forma sencilla y centralizada,
 Integración e Interoperabilidad Multiplataforma *(API uCloud)*
 =============================================================
 
-La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas informáticos y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con diferentes herramientas, de diferentes proveedores, pueden o no actuar juntos.
+La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas informáticos y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con herramientas e diferentes proveedores, pueden o no actuar juntos.
 
 La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. Las siglas API provienen de la expresión inglesa *Application Programming Interface* que, traducida al portugués, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la API es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
 
@@ -165,11 +165,13 @@ El principal ejemplo es la integración nativa y directa de la plataforma uCloud
 
 Otro ejemplo muy común de uso de la plataforma uCloud es la emisión de facturas para los sistemas de showback y chargeback, así como el envío de información y alertas sobre los recursos gestionados.
 
-Nuestros clientes (y/o integradores) pueden utilizar la documentación de la API de la plataforma uCloud con sus plataformas internas para complementar o automatizar ciertas actividades o acciones que están más allá de las capacidades nativas de la plataforma uCloud. Por ejemplo: *consultar y extraer de la plataforma uCloud el coste de la factura de los objetos de valor de un proveedor de la nube pública a través de una aplicación financiera/contable para la emisión de facturas*.
+Nuestros clientes (y/o integradores) pueden utilizar la documentación de la API del uCloud con sus plataformas internas para complementar o automatizar ciertas actividades o acciones que están más allá de las capacidades nativas de la plataforma uCloud. 
 
-La plataforma uCloud dispone de documentación de su API, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se cree y envíe una credencial de acceso a la documentación de la plataforma uCloud.
+Por ejemplo: *consultar y extraer de la plataforma uCloud el coste de la factura de los objetos de valor de un proveedor de la nube pública a través de una aplicación financiera/contable para la emisión de facturas*.
 
-El Equipo de Ustore está preparado para ayudar y evaluar las demandas de interoperabilidad e integración entre la plataforma uCloud y las aplicaciones que tienen y permiten el uso de APIs para la interoperabilidad.
+El uCloud dispone de documentación de su API, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se cree y envíe una credencial de acceso a la documentación de la plataforma uCloud.
+
+El equipo de Ustore está preparado para ayudar, evaluar las demandas de interoperabilidad e integración entre la plataforma uCloud, bien como las aplicaciones que tienen y permiten el uso de las *APIs* para la interoperabilidad.
 
 ====
 
