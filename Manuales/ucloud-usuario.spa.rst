@@ -1,5 +1,4 @@
-uCloud - Manual del Usuário
-+++++++++++++++++++++++++++
+
 
 .. image:: /figuras/ucloud.png
    :alt: logo ucloud
@@ -7,27 +6,37 @@ uCloud - Manual del Usuário
 
 ----
 
+uCloud - Manual del Usuário
++++++++++++++++++++++++++++
+
+
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
+
+====
+
 
 Presentación
 ============
 
-Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de Cloud Service Broker (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
+Este documento tiene como objetivo explicar el uso de la Plataforma *uCloud*, una plataforma de *Cloud Service Broker* (broker de servicios en nube) que permite administrar múltiples proveedores de servicios de nube, tanto privados como proveedores de nube pública. 
 
 En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
 
-.. ----
+====
 
 Introducción
 ============
 
-Las organizaciones empresariales han adoptado la nube como solución para administrar sus entornos y adoptan una combinación de nubes privadas y públicas, el gran desafío actual es la gestión de estos entornos híbridos de múltiples nubes *(hybrid multi-cloud)* con el fin de lograr una visión unificada, así como obtener un control centralizado de los costos financieros, ya que cada organización empresarial tiene una necesidad y se enfrenta a diferentes desafíos.
+Las organizaciones empresariales han incorporado la nube como solución para administrar sus entornos y adoptan una combinación de nubes privadas y públicas, el gran desafío actual es la gestión de estos entornos híbridos de múltiples nubes *(hybrid multi-cloud)* con el fin de lograr una visión unificada, así como obtener un control centralizado de los costos financieros, ya que cada organización empresarial tiene una necesidad y se enfrenta a diferentes desafíos.
 
-La Plataforma de uCloud ha sido desarrollada para estos escenarios, independientemente de cuantos proveedores (públicos y/o privados) existan, el usuario podrá interactuar con sus plataformas de Infraestructura como Servicio *(Infrastructure as a Service - IaaS)*, Plataforma como Servicio *(Platform as a Service - PaaS)*.
+La Plataforma de uCloud ha sido desarrollada para estos escenarios, independientemente de cuantos proveedores (públicos y/o privados) existan, el usuario podrá interactuar con sus plataformas:
 
-Como se mencionó anteriormente, uCloud está posicionado como una plataforma de **Cloud Service Broker - CSB** *(Broker de servicios en la nube)* que permite administrar múltiples proveedores de servicios en la nube, tanto privados como proveedores de nube pública.
+   * Infraestructura como Servicio *(Infrastructure as a Service - IaaS)*;
+   * Plataforma como Servicio *(Platform as a Service - PaaS)*.
 
-Una plataforma **CSB** como la Plataforma uCloud permite a las organizaciones actuar en cinco puntos fundamentales para la gestión de entornos híbridos multi-nube, son:
+Como se mencionó anteriormente, uCloud está posicionado como una plataforma de *Cloud Service Broker - CSB* *(Broker de servicios en la nube)* que permite administrar múltiples proveedores de servicios en la nube, tanto privados como proveedores de nube pública.
+
+Una plataforma *CSB* como la Plataforma uCloud permite a las organizaciones actuar en cinco puntos fundamentales para la gestión de entornos híbridos multi-nube, son:
 
 
 Gobernanza Financiera
@@ -39,7 +48,7 @@ Además del control de la infraestructura, la Plataforma de uCloud permite a las
   * Para un grupo de usuarios (ver el elemento Grupos en el menú Administración);
   * Para un usuario/individuo (ver el elemento Usuarios, en el Menú Administración).
 
-De esta forma, la organización aplicará criterios de gobernanza financiera y control de costos, como también podrá acompañar los costos de su entorno híbrido de multi-nube a través de una única interfaz.  
+De esta forma, la organización aplicará criterios de gobernanza financiera y control de gastos, como también podrá acompañar los costos de su entorno híbrido de multi-nube a través de una única interfaz.  
 
 La adopción de la aplicación de límites (cuotas) financieros y/o recursos computacionales en diversos niveles alcanza el nivel de usuario, Así el control de costos será efectivo y permitirá evitar que el presupuesto de la organización sorprenda en situaciones que el costo de la infraestructura computacional sea exorbitante o por encima de los valores preestablecidos.
 
@@ -48,19 +57,19 @@ Otro aspecto de la Plataforma de uCloud es la reducción de costos de certificac
 Billing (Facturación de los Servicios)
 --------------------------------------
 
-La Plataforma de uCloud proporciona a las organizaciones empresariales información sobre los costes recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un entorno multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de **Cloud Financial Management - FinOps** (Gestión financiera de la nube).
+La Plataforma de uCloud proporciona a las organizaciones empresariales información sobre los costes recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un entorno multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de *Cloud Financial Management - FinOps* (Gestión financiera de la nube).
 
 Es importante resaltar que, individualmente, la Plataforma de uCloud no atiende a los tres pilares de la práctica de *FinOps* por *default*. Ustore posee otros productos que pueden ser complementarios y el conjunto de productos tiene potencial para actuar como un entorno capaz de englobar y atender la práctica de *FinOps*.
 
-El requisito soportado por uCloud es el punto de **Información** *(Inform)*, los otros puntos de esta mejor práctica de *FinOps*: la **Optimización** y la **Operación** pertenecen a los otros productos de la cartera de Ustore que complementa la Plataforma de uCloud.
+El requisito soportado por uCloud es el punto de *Información* *(Inform)*, los otros puntos de esta mejor práctica de *FinOps*: la *Optimización* y la *Operación* pertenecen a los otros productos de la cartera de Ustore que complementa la Plataforma de uCloud.
 
-Se debe aclarar que la Plataforma de uCloud no crea ni genera valores de recursos computacionales, estos valores se generan en los proveedores de nube pública de los que la Plataforma de uCloud **extrae** *(descargar)* el archivo de **Billing** *(facturación)* de estos proveedores y añade esta información en sus bases de datos internas. Para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
+Se debe aclarar que la Plataforma de uCloud no crea ni genera valores de recursos computacionales, estos montos se generan en los proveedores de nube pública de los que la aplicación uCloud *extrae* *(descargar)* el archivo de *Billing* *(facturación)* de estos proveedores. Despues añade esta información en sus bases de datos internas para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
 
-De esta forma, el usuario permanece **informado** de la evolución de los costos y podrá seguir si estos costos se encuentran dentro de los criterios de la gobernanza financiera de la organización.
+De esta forma, el usuario permanece *informado* de la evolución de los costos y podrá seguir si estos costos se encuentran dentro de los criterios de la gobernanza financiera de la organización.
 
-Generalmente estos costos se presentan en archivos de texto no estructurados **(Comma-separated Values - CSV)** generados cada período (promedio de 8 horas) y la Plataforma de uCloud agrega la información de este archivo **CSV** a su base de datos interna para agilizar y simplificar la presentación de estos valores en la pantalla del usuario.
+Generalmente estos costos se presentan en archivos de texto no estructurados *(Comma-separated Values - CSV)* generados cada período (promedio de 8 horas) y la Plataforma de uCloud agrega la información de este archivo *CSV* a su base de datos interna para agilizar y simplificar la presentación de estos valores en la pantalla del usuario.
 
-Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer **informados** de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
+Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer *informados* de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
 
 Monitoreo de la Infraestructura
 -------------------------------
@@ -74,7 +83,7 @@ Esta funcionalidad permite integrar a un entorno de gestión de Service Desk par
 Inventario (*Assessment*)
 -------------------------
 
-La plataforma de uCloud se conecta a los proveedores de la nube mediante el registro de credenciales de acceso específicas de cada proveedor de servicios en la nube (público y/o privado). Para ello, las empresas deben proporcionar credenciales de modo **"operativo"**.
+La plataforma de uCloud se conecta a los proveedores de la nube mediante el registro de credenciales de acceso específicas de cada proveedor de servicios en la nube (público y/o privado). Para ello, las empresas deben proporcionar credenciales de modo *operativo*.
 
 Esta credencial operativa es proporcionada por el administrador del servicio en la nube y son credenciales que se generan en las cuentas de los proveedores que solo tienen permiso para interactuar con la consola del proveedor público en la nube a través de una API, no son credenciales normales con información estándar de inicio de sesión y contraseña. De esta forma, la seguridad y las normas de regulación de seguridad de la información están previstas y atendidas en su totalidad.
 
@@ -84,7 +93,7 @@ Con este inventario disponible directamente dentro de la Plataforma de uCloud, e
 
 Es importante mencionar que la Plataforma de uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su DataCenter privado. A través de la API Rest, la Plataforma de uCloud, envía acciones (tareas) al administrador de entorno de nube específico (público y/o privado) para que realicen la acción deseada.
 
-El usuario podrá seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la Plataforma de uCloud la que **ejecuta** las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la API Rest.
+El usuario podrá seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la Plataforma de uCloud la que *ejecuta* las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la API Rest.
 
 Si el resultado no se refleja en la interfaz de la pantalla del usuario, la consola de destino puede tardar un cierto tiempo en realizar esta tarea y solo después de que finalice la ejecución de la tarea se mostrará el resultado en la interfaz de uCloud.
 
@@ -147,7 +156,7 @@ Nuestros clientes (y/o integradores) pueden utilizar la documentación de la API
 
 La Plataforma uCloud dispone de documentación de su API, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se cree y envíe una credencial de acceso a la documentación de la Plataforma uCloud.
 
-El Equipo de Ustore está preparado para ayudar y evaluar las demandas de interoperabilidad e integración entre la Plataforma uCloud y las plataformas que tienen y permiten el uso de APIs para la interoperabilidad.
+El Equipo de Ustore está preparado para ayudar y evaluar las demandas de interoperabilidad e integración entre la Plataforma uCloud y las aplicaciones que tienen y permiten el uso de APIs para la interoperabilidad.
 
 
 
