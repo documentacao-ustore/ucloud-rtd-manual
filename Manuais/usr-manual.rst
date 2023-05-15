@@ -11,57 +11,74 @@ uCloud - Manual do Usuário
 
 ----
 
+Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
+
+====
+
+Apresentação
+============
+
+Este documento tem como objetivo esplicar o uso do portal uCloud, uma plataforma de *Cloud Service Broker* (*broker* integrador de serviços de nuvem) que permite adminsitrar múltiplos provedores de serviços de nuvem, tanto privados como provedores de nuvem pública.
+
+Este documento apresenta os conceitos, as telas, as funcionalidades e os comandos de uso para este produto.
+
+
+====
+
 Introdução Visão Geral
 ======================
 
-As organizações empresariais adotaram a nuvem como solução para gerenciar seus ambientes e adotam uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud).
+As organizações empresariais incorporam a nuvem como solução para gerenciar seus ambientes ao utilizar uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud).
 
 Para alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios.
 
-A Plataforma uCloud foi desenvolvida para estes cenários, independente de quantos provedores (públicos e/ou privados) existam o usuário pode interagir com as suas plataformas de Infraestrutura como Serviço *(Infrastructure as a Service – IaaS)*, Plataforma como Serviço *(Platform as a Service – PaaS)*.
+A plataforma uCloud foi desenvolvida para estes cenários, independente de quantos provedores (públicos e/ou privados) existam o usuário pode interagir com as suas plataformas:
 
-Como mencionado anteriormente, o uCloud está posicionado como uma plataforma de *Cloud Service Broker – CSB* (broker de serviços em nuvem) que permite gerenciar múltiplos provedores de serviços de nuvem - tanto privados quanto provedores de nuvem pública.
+   * Infraestrutura como Serviço *(Infrastructure as a Service – IaaS)*;
+   * Plataforma como Serviço *(Platform as a Service – PaaS)*.
 
-Uma plataforma de *CSB* como a Plataforma uCloud permite às organizações atuar em cinco pontos fundamentais para o gerenciamento de ambientes híbridos multi-nuvem, são eles:
+Como mencionado anteriormente, o uCloud está posicionado como uma plataforma de **Cloud Service Broker – CSB** (broker de serviços em nuvem) que permite gerenciar múltiplos provedores de serviços de nuvem - tanto privados quanto provedores de nuvem pública.
+
+Uma plataforma de *CSB* como a plataforma uCloud permite às organizações atuar em cinco pontos fundamentais para o gerenciamento de ambientes híbridos multi-nuvem, são eles:
 
 Governança Financeira
 ---------------------
 
-Além do controle da infraestrutura, a Plataforma uCloud permite que empresas usuárias desta plataforma possam estabelecer limites, tanto financeiros quanto quantitativos de recursos (cotas). Estes limites financeiros ou de infraestrutura, podem ser aplicados em três níveis:
+Além do controle da infraestrutura, a plataforma uCloud permite que empresas usuárias desta aplicação possam estabelecer metas, tanto financeiras quanto quantitativas de recursos (cotas). Estes limites financeiros ou de infraestrutura, podem ser aplicados em três níveis:
 
 * Para um provedor público em geral (ver o item Contratos, no Menu Administração)
 * Para um grupo de usuários (ver o item Grupos, no Menu Administração)
 * Para um usuário/indivíduo (ver o item Usuários, no Menu Administração)
 
-Desta forma, a organização aplica critérios de governança financeira e controle de custos, como também pode acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface.
+Desta forma, a organização aplica critérios de governança financeira e controle de gastos, como também pode acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface.
 
-A adoção da aplicação de limites (cotas) financeiros e/ou recursos computacionais em diversos níveis alcança o nível de usuário, assim o controle de custos é efetivo e permite evitar que o orçamento da organização extrapole o limite e ela seja surpreendida com situações em que o custo da infraestrutura computacional seja exorbitante ou acima dos valores pré-estabelecidos.
+A adoção da aplicação de limites (cotas) financeiros e/ou recursos computacionais em diversos níveis alcança o nível de usuário, assim o controle de gastos é efetivo e permite evitar que o orçamento da organização extrapole o limite e ela seja surpreendida com situações em que o custo da infraestrutura computacional seja exorbitante ou acima dos valores pré-estabelecidos.
 
-Outro aspecto da Plataforma uCloud é a redução de custo de certificação e treinamento dos especialistas, em cada uma das interfaces de cada provedor (público e/ou privado), visto que o emprego de uma interface de uso e gerenciamento único e simples, permite extrair mais produtividade do ambiente do provedor de nuvem. 
+Outro aspecto da plataforma uCloud é a redução de custo de certificação e treinamento dos especialistas, em cada uma das interfaces de cada provedor (público e/ou privado), visto que o emprego de uma interface de uso e gerenciamento único e simples, permite extrair mais produtividade do ambiente do provedor de nuvem. 
 
-Mesmo que o usuário não tenha treinamento ou certificação no console específico do provedor (público e/ou privado), a Plataforma uCloud possibilita ao usuário provisionar um recurso computacional no ambiente desejado de forma simples e fácil.
+Mesmo que o usuário não tenha treinamento ou certificação no console específico do provedor (público e/ou privado), a plataforma uCloud possibilita ao usuário provisionar um recurso computacional no ambiente desejado de forma simples e fácil.
 
 Billing (Faturamento dos Serviços)
 ----------------------------------
 
-A Plataforma uCloud viabiliza às organizações empresariais a informação dos custos recorrentes, custo este referente ao uso dos recursos computacionais na(s) operação(ões) em um ambiente híbrido multi-nuvem. Este é apenas um dos pontos que faz parte da prática do *Cloud Financial Management - FinOps* (Gestão financeira da nuvem).
+A plataforma uCloud viabiliza às organizações empresariais a informação dos custos recorrentes, consumo este referente ao uso dos recursos computacionais na(s) operação(ões) em um ambiente híbrido multi-nuvem. Este é apenas um dos pontos que faz parte da prática do *Cloud Financial Management - FinOps* (Gestão financeira da nuvem).
 
-Importante ressaltar que, individualmente, a Plataforma uCloud não atende a todos os três pilares da prática de *FinOps* por *default*. A Ustore possui outros produtos que podem ser complementares e o conjunto destes produtos tem potencial para atuar como um ambiente capaz de englobar e atender a prática do *FinOps*.
+Importante ressaltar que, individualmente, a plataforma uCloud não atende a todos os três pilares da prática de *FinOps* por *default*. A Ustore possui outros produtos que podem ser complementares e o conjunto destes produtos tem potencial para atuar como um ambiente capaz de englobar e atender a prática do *FinOps*.
 
-O quesito suportado pelo uCloud é o ponto de Informação *(Inform)*, os outros pontos desta melhor prática do *FinOps*: a Otimização e a Operação pertencem aos outros produtos do portfólio da Ustore que complementa a Plataforma uCloud.
+O quesito suportado pelo uCloud é o ponto de Informação *(Inform)*, os outros pontos desta melhor prática do *FinOps*: a Otimização e a Operação pertencem aos outros produtos do portfólio da Ustore que complementa a plataforma uCloud.
 
-Deve-se esclarecer que a Plataforma uCloud não cria ou gera valores de recursos computacionais, estes valores são gerados nos provedores de nuvem pública dos quais a Plataforma uCloud extrai *(por download)* o arquivo de *billing* (faturamento) destes provedores e adiciona estas informações em suas bases de dados internas. Para que, de acordo com os critérios comerciais do contrato possam ser aplicados e, posteriormente, estes custos calculados e convertidos para a moeda corrente no Brasil.
+Deve-se esclarecer que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes montantes são gerados nos provedores de nuvem pública dos quais a aplicação uCloud extrai *(por download)* o arquivo de *billing* (faturamento) destes provedores. Em seguida, adiciona estas informações em suas bases de dados internas para que, de acordo com os critérios comerciais do contrato possam ser aplicados e, posteriormente, estes custos calculados e convertidos para a moeda corrente no Brasil.
 
 Desta forma, o usuário permanece informado da evolução dos custos e pode acompanhar se estes custos encontram-se dentro dos critérios da governança financeira da organização.
 
-Geralmente estes custos são apresentados em arquivos de texto não estruturados *(Comma-separated Values – CSV)* gerados a cada período (em média 8 horas). A Plataforma uCloud adiciona a informação deste arquivo em formato.*CSV* para a sua base de dados interna, com o objetivo de agilizar e simplificar a apresentação destes valores na tela do usuário.
+Geralmente estes custos são apresentados em arquivos de texto não estruturados *(Comma-separated Values – CSV)* gerados a cada período (em média 8 horas). A plataforma uCloud adiciona a informação deste arquivo em formato.*CSV* para a sua base de dados interna, com o objetivo de agilizar e simplificar a apresentação destes valores na tela do usuário.
 
 Exclusivamente, os usuários com um perfil específico podem `visualizar custos` e permanecer informados dos valores de consumo dos seus recursos computacionais totais em cada provedor de nuvem (pública e/ou privada). Isto permite que o usuário possa acompanhar os custos acumulados dos recursos computacionais ativos nos provedores de serviços de nuvem.
 
 Monitoração da Infraestrutura
 -----------------------------
 
-Uma funcionalidade importante da Plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar eventos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados.
+Uma funcionalidade importante da plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar eventos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados.
 
 Todas essas facilidades reduzem os custos para as organizações, uma vez que elimina a necessidade de contratação de serviços de monitoração dos provedores, pois tal serviço pode representar altos custos, os quais podem impactar de forma negativa no orçamento (ultrapassar o limite) destinado para a infraestrutura de nuvem pública.
 
@@ -70,32 +87,32 @@ Esta funcionalidade permite integração a um ambiente de gerenciamento de *Serv
 Inventário (Assessment)
 -----------------------
 
-A Plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada provedor de serviço de nuvem (pública e/ou privada). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”.
+A plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada provedor de serviço de nuvem (pública e/ou privada). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”.
 
 Esta credencial operativa é fornecida pelo administrador do serviço de nuvem e são credenciais geradas nas contas dos provedores que somente tem permissão de interagir com a console do provedor público de nuvem através de uma API (não são credenciais normais com informação padrão de login e senha). Desta forma, a segurança e as regras de regulamentação de segurança da informação estão previstas e atendidas em sua totalidade.
 
-Uma vez que as credenciais operativas são configuradas na Plataforma uCloud, a primeira atividade é sincronizar as configurações e o inventário de recursos computacionais existentes no provedor (máquinas virtuais – *workloads*). Este inventário de máquinas virtuais é extraído e adicionado nas bases de dados do uCloud, de forma que a apresentação na tela do usuário seja rápida.
+Uma vez que as credenciais operativas são configuradas na plataforma uCloud, a primeira atividade é sincronizar as configurações e o inventário de recursos computacionais existentes no provedor (máquinas virtuais – *workloads*). Este inventário de máquinas virtuais é extraído e adicionado nas bases de dados do uCloud, de forma que a apresentação na tela do usuário seja rápida.
 
-Com este inventário disponível diretamente dentro da Plataforma uCloud, o usuário pode operar cada uma das máquinas virtuais, independente de qual é o provedor de nuvem que este recurso está provisionado. Na sequência é possível visualizar as operações a serem aplicadas aos recursos computacionais existentes nos provedores de nuvem (pública e/ou privada).
+Com este inventário disponível diretamente dentro da plataforma uCloud, o usuário pode operar cada uma das máquinas virtuais, independente de qual é o provedor de nuvem que este recurso está provisionado. Na sequência é possível visualizar as operações a serem aplicadas aos recursos computacionais existentes nos provedores de nuvem (pública e/ou privada).
 
-Importante mencionar que a Plataforma uCloud não possui nenhum recurso computacional, estes recursos existem nas nuvens dos provedores de serviço de nuvem pública ou nos ambientes de virtualização *(hypervisors)* instalados em seu Datacenter privado. Através da *API Rest* a Plataforma uCloud envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
+Importante mencionar que a plataforma uCloud não possui nenhum recurso computacional, estes recursos existem nas nuvens dos provedores de serviço de nuvem pública ou nos ambientes de virtualização *(hypervisors)* instalados em seu Datacenter privado. Através da *API Rest* a plataforma uCloud envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
 
-O usuário pode acompanhar o resultado de qualquer uma das ações de operação nos recursos computacionais de forma quase que imediata, vale lembrar que não é a Plataforma uCloud que executa as ações, e sim, o ambiente onde a máquina virtual existe (seja ele público e/ou privado). Este é o encarregado de executar a tarefa enviada através da *API Rest*.
+O usuário pode acompanhar o resultado de qualquer uma das ações de operação nos recursos computacionais de forma quase que imediata, vale lembrar que não é a plataforma uCloud que executa as ações, e sim, o ambiente onde a máquina virtual existe (seja ele público e/ou privado). Este é o encarregado de executar a tarefa enviada através da *API Rest*.
 
 Caso o resultado deixe de refletir na interface da tela do usuário, o console destino pode levar um certo tempo para executar esta tarefa e somente após o término da execução da tarefa é que o resultado será apresentado na interface do uCloud.
 
 Existe uma opção de menu onde o usuário pode acompanhar o percentual de andamento destas tarefas, seu resultado de sucesso ou a mensagem de erro referente a alguma restrição do ambiente destino.
 
-Importante ressaltar que podem existir restrições aplicadas ao usuário provisionado na Plataforma uCloud, restrições ao usuário porque ele pode haver exaurido seu limite, da sua cota financeira ou dos recursos computacionais. Desta forma, a Plataforma uCloud gera um aviso de erro: “limite de cota excedido” por exemplo. Estes cenários serão descritos no menu Tarefas.
+Importante ressaltar que podem existir restrições aplicadas ao usuário provisionado na plataforma uCloud, restrições ao usuário porque ele pode haver exaurido seu limite, da sua cota financeira ou dos recursos computacionais. Desta forma, a plataforma uCloud gera um aviso de erro: “limite de cota excedido” por exemplo. Estes cenários serão descritos no menu Tarefas.
 
 Operação da Infraestrutura
 --------------------------
 
 O termo **operar** neste contexto, significa ao leitor que é a capacidade do usuário de comandar certas ações diretamente nestas máquinas virtuais, como as operações de: parar *(shutdown)*, reiniciar *(restart)*, suspender *(suspend)*, remover *(delete)*, citando algumas operações básicas da plataforma uCloud.
 
-Através da interface da Plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, *snapshot*, entre outros).
+Através da interface da plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, *snapshot*, entre outros).
 
-Em relação aos provedores de serviço de nuvem pública, a Plataforma uCloud está preparada para se conectar com as seguintes plataformas de nuvem pública:
+Em relação aos provedores de serviço de nuvem pública, a plataforma uCloud está preparada para se conectar com as seguintes plataformas de nuvem pública:
 
 * Amazon Web Services (**AWS**)
 * Google Cloud Plataform (**GCP**)
@@ -104,7 +121,7 @@ Em relação aos provedores de serviço de nuvem pública, a Plataforma uCloud e
 * Huawei Cloud
 * Oracle Cloud Infrastructure (**OCI** - *Roadmap*)
 
-Atualmente, a Plataforma uCloud está preparada para conectar-se com as seguintes plataformas *(hypervisors)* de gerenciamento do ambiente de nuvem privada:
+Atualmente, a plataforma uCloud está preparada para conectar-se com as seguintes plataformas *(hypervisors)* de gerenciamento do ambiente de nuvem privada:
 
 * **VMware** (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior);
 * **vCloud**
@@ -114,11 +131,11 @@ Atualmente, a Plataforma uCloud está preparada para conectar-se com as seguinte
 * **XCP-NG**
 * **KVM**
 
-A Plataforma uCloud, além das funções de *CSB (Cloud Service Broker)*, ainda é um agregador de funcionalidades que permite aos usuários, de forma simples e centralizada, o controle de diversos consoles de gerenciadores de ambientes virtualizados *(hypervisors)* seja do ambiente privado *on-premises* quanto do ambiente de fornecedores de nuvem pública. 
+A plataforma uCloud, além das funções de *CSB (Cloud Service Broker)*, ainda é um agregador de funcionalidades que permite aos usuários, de forma simples e centralizada, o controle de diversos consoles de gerenciadores de ambientes virtualizados *(hypervisors)* seja do ambiente privado *on-premises* quanto do ambiente de fornecedores de nuvem pública. 
 
 Agrega as funcionalidades de monitoração, fluxo de trabalho na nuvem *(Cloud Workflow)* e possibilita implementar um repositório `biblioteca` centralizado de arquivos *(playbooks)* de referência para o uso de ferramentas de infraestrutura como código *(Infrastructure as a Code)*.
 
-Integração e Interoperabilidade entre Plataformas (*API uCloud*)
+Integração e Interoperabilidade entre plataformas (*API uCloud*)
 ----------------------------------------------------------------
 
 Interoperabilidade é a capacidade de interagir e de intercambiar dados entre dois ou mais sistemas (computadores, meios de comunicação, redes, software e outros componentes de tecnologia da informação) de acordo com um método definido, com a finalidade de obter o resultado esperado. Interoperabilidade define se dois componentes de um sistema, desenvolvidos com ferramentas diferentes, de fornecedores diferentes, podem ou não atuar em conjunto.
@@ -129,38 +146,38 @@ A sigla `API` deriva da expressão inglesa *Application Programming Interface* q
 
 Por meio das APIs, os desenvolvedores podem estabelecer um padrão de comunicação (interoperabilidade) entre softwares e aplicativos, assim o uso da `API` amplia a capacidade de um software se comunicar com outras plataformas.
 
-O principal exemplo é a integração nativa e direta da Plataforma uCloud com a console dos provedores de nuvem pública, toda ela é executada através da interoperabilidade via `API` dos consoles dos provedores.
+O principal exemplo é a integração nativa e direta da plataforma uCloud com a console dos provedores de nuvem pública, toda ela é executada através da interoperabilidade via `API` dos consoles dos provedores.
 
 Outro exemplo bastante comum do uso da plataforma uCloud é a emissão de *invoices* de bilhetagem para sistemas de *showback* e *chargeback*, bem como o envio de informações e alertas sobre recursos gerenciados.
 
-Nossos clientes (e/ou integradores) podem utilizar a documentação da API da Plataforma uCloud com suas plataformas internas, de forma a complementar ou automatizar certas atividades e/ou ações que estão além das capacidades nativas da Plataforma uCloud. 
+Nossos clientes (e/ou integradores) podem utilizar a documentação da API da plataforma uCloud com suas plataformas internas, de forma a complementar ou automatizar certas atividades e/ou ações que estão além das capacidades nativas da plataforma uCloud. 
 
-Por exemplo: consultar e extrair da Plataforma uCloud o custo da fatura dos valores de um provedor de nuvem pública através de uma aplicação financeira/contábil para a emissão da Nota Fiscal.
+Por exemplo: consultar e extrair da plataforma uCloud o custo da fatura dos valores de um provedor de nuvem pública através de uma aplicação financeira/contábil para a emissão da Nota Fiscal.
 
-A Plataforma uCloud possui a documentação da sua *API*, o acesso a esta documentação completa deve ser solicitada ao seu provedor do portal para que seja criada e enviada uma credencial de acesso à documentação da Plataforma uCloud.
+A plataforma uCloud possui a documentação da sua *API*, o acesso a esta documentação completa deve ser solicitada ao seu provedor do portal para que seja criada e enviada uma credencial de acesso à documentação da plataforma uCloud.
 
-A Equipe Ustore está preparada para auxiliar e avaliar as demandas de interoperabilidade e integração entre a Plataforma uCloud e as plataformas que possuem e permitem o uso de `APIs` para a interoperabilidade.
+A equipe Ustore está preparada para auxiliar e avaliar as demandas de interoperabilidade e integração entre a plataforma uCloud e as aplicações que possuem e permitem o uso de `APIs` para a interoperabilidade.
 
-Arquitetura da Plataforma uCloud
+Arquitetura da plataforma uCloud
 --------------------------------
 
-Na sequência é apresentada uma arquitetura de referência para a Plataforma uCloud com os seus componentes, os provedores e as integrações nativas.
+Na sequência é apresentada uma arquitetura de referência para a plataforma uCloud com os seus componentes, os provedores e as integrações nativas.
 
 .. figure:: /figuras/ucloud_future_vision_small_2.png
-   :alt: Arquitetura de Referência da Plataforma uCloud
+   :alt: Arquitetura de Referência da plataforma uCloud
    :align: center
 
 ----
 
-A Plataforma uCloud se comunica com o console dos provedores através da `API Rest`, assim toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. 
+A plataforma uCloud se comunica com o console dos provedores através da `API Rest`, assim toda ação executada ou configurada nas telas do uCloud envia ações (tarefas) para o gerenciador de ambiente (console) de nuvem específico (público e/ou privado) para que estes possam executar a ação desejada. 
 
-A Ustore tem o compromisso de manter o desenvolvimento constante das suas Plataformas de Software e aplicar as melhores práticas `(best practices)` de DevOps vigentes no mercado de TI. 
+A Ustore tem o compromisso de manter o desenvolvimento constante das suas plataformas de software e aplicar as melhores práticas `(best practices)` de DevOps vigentes no mercado de TI. 
 
-Nosso compromisso versa na manutenção da compatibilidade de integração para que as mais recentes mudanças e implementações (novas funcionalidades) no console dos provedores e de todos os softwares com os quais mantemos interoperabilidade estejam sempre disponíveis através da interface da Plataforma uCloud. 
+Nosso compromisso versa na manutenção da compatibilidade de integração para que as mais recentes mudanças e implementações (novas funcionalidades) no console dos provedores e de todos os softwares com os quais mantemos interoperabilidade estejam sempre disponíveis através da interface da plataforma uCloud. 
 
 *Ad hoc* utiliza-se um conjunto de práticas e ferramentas projetadas para aumentar a capacidade de uma organização fornecer aplicativos e serviços mais rapidamente do que os processos tradicionais de desenvolvimento de software.
 
-Acesso à Plataforma uCloud
+Acesso à plataforma uCloud
 ==========================
 
 O acesso à plataforma é feito através de um endereço de Internet, o usuário deve utilizar um navegador e inserir o endereço da URL/link, assim o usuário visualiza a tela inicial de apresentação. Os navegadores de Internet compatíveis com a Plataforma uCloud são: Microsoft Edge versão 86.x, Google Chrome versão 85.x, Firefox verão 80.x ou Opera versão 71.x.
