@@ -18,7 +18,7 @@ Soluções em tecnologia da informação que viabilizam implementar uma arquitet
 Apresentação
 ============
 
-Este documento tem como objetivo esplicar o uso do portal uCloud, uma plataforma de *Cloud Service Broker* (*broker* integrador de serviços de nuvem) que permite adminsitrar múltiplos provedores de serviços de nuvem, tanto privados como provedores de nuvem pública. 
+Este documento tem como objetivo explicar o uso do portal uCloud, uma plataforma de *Cloud Service Broker* (*broker* integrador de serviços de nuvem) que permite adminsitrar múltiplos provedores de serviços de nuvem, tanto privados como provedores de nuvem pública. 
 
 Neste manual se apresentam todos os conceitos, as telas, as funcionalidades e os comandos de uso para este produto.
 
@@ -12036,7 +12036,7 @@ Esta "aba/tab" apresenta a lista de todas as operações de usuários que depend
 Esta "aba/tab" possui as seguintes colunas:
 
 * **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da Plataforma uCloud, a qual foi enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
-* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da Plataforma uCloud.
+* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da plataforma uCloud.
 * **Aprovação**: Esta coluna apresenta dois ícones para que o Administrador do Grupo ou o usuário Administrador do Contrato possam interagir com esta solicitação:
 * **Ícone de Confirmação**: Quando o usuário deseja confirmar a operação solicitada, basta clicar com o cursor do mouse no botão verde para confirmar a operação. A confirmação da solicitação significa que a operação será enviada para o ambiente do provedor de serviço de nuvem (pública e/ou provada) para ser executada.
 * **Ícone de Cancelamento** “”: Quando o usuário deseja recusar a solicitação da operação, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar a solicitação da operação. O cancelamento da solicitação significa que a operação não será enviada para o ambiente do provedor de serviço de nuvem (pública e/ou provada) para ser executada.
@@ -12056,8 +12056,8 @@ Esta "aba/tab" apresenta o ambiente no qual o usuário pode verificar as tarefas
 
 Esta "aba/tab" possui as seguintes colunas:
 
-* **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da Plataforma uCloud, a qual foi enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
-* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da Plataforma uCloud.
+* **Operação**: Esta coluna apresenta a descrição da operação solicitada na interface da plataforma uCloud, a qual foi enviada para o ambiente do provedor de serviço de nuvem (pública e/ou privada).
+* **Usuário**: Esta coluna apresenta as credenciais de login do usuário que solicita a execução da operação, através da interface da plataforma uCloud.
 * **Data da Criação**: Esta coluna apresenta a data (Padrão Brasileiro: dia/mês/ano) e o horário (formato de 24 horas) da operação, solicitada pelo usuário.
 * **Data da Execução**: Esta coluna apresenta a data (Padrão Brasileiro: dia/mês/ano) e o horário (formato de 24 horas) programado para execução da operação, solicitada pelo usuário.
 * **Tempo restante**: Esta coluna apresenta o tempo (no formato de horas padrão 24 horas) faltante até completar a data e hora programada, para a execução da operação. Este tempo é calculado, constantemente, tem como base a hora corrente que o usuário está consultando esta lista.
@@ -12066,7 +12066,7 @@ Esta "aba/tab" possui as seguintes colunas:
 Menu Inventário de Recursos
 ===========================
 
-A Plataforma uCloud quando corretamente configurada, com as credenciais de acesso ao provedor de serviços de nuvem, extrai um inventário de todos os recursos existentes no ambiente do provedor de serviço de nuvem (pública e/ou privada).
+A plataforma uCloud quando corretamente configurada, com as credenciais de acesso ao provedor de serviços de nuvem, extrai um inventário de todos os recursos existentes no ambiente do provedor de serviço de nuvem (pública e/ou privada).
 
 Esta tela de inventário de recursos lista todos os recursos computacionais existentes no provedor de serviço de nuvem, as quais se tem as credenciais de acesso com a permissão de visualizar. Na barra de menu, o usuário encontra a opção Inventário de Recursos, ao selecionar esta opção do menu, é apresentada a seguinte tela abaixo:
 
@@ -12077,9 +12077,9 @@ Esta tela de inventário de recursos lista todos os recursos computacionais exis
 
 ----
 
-Através do acesso a esta tela, a Plataforma uCloud permite ao usuário adicionar ou alterar, a informação da etiqueta (tag) que está vinculada a um recurso computacional das nuvens (pública e/ou privada). Esta funcionalidade permite aumentar a granularidade de governança e controle de custos.
+Através do acesso a esta tela, a plataforma uCloud permite ao usuário adicionar ou alterar, a informação da etiqueta (tag) que está vinculada a um recurso computacional das nuvens (pública e/ou privada). Esta funcionalidade permite aumentar a granularidade de governança e controle de custos.
 
-A Plataforma uCloud extrai a informação (download) do provedor, se o usuário já houver vinculado uma etiqueta (tag), diretamente no console do provedor de serviço de nuvem, esta informação será apresentada na lista de recursos existentes.
+A plataforma uCloud extrai a informação (download) do provedor, se o usuário já houver vinculado uma etiqueta (tag), diretamente no console do provedor de serviço de nuvem, esta informação será apresentada na lista de recursos existentes.
 
 Nas situações em que o usuário não vincular qualquer etiqueta (tag) ao recurso, a coluna será apresentada em branco. Através do acesso a esta tela é possível tanto adicionar, quanto alterar a informação da etiqueta (tag) de um recurso presente na lista.
 
@@ -12088,7 +12088,7 @@ Na coluna **Tag** o usuário pode encontrar a informação necessária, referent
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
 
-Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_edita_on| que permite ao usuário adicionar uma nova tag para o recurso computacional, bem como alterar a informação da etiqueta (tag) da linha do recurso selecionado. Quando o usuário clicar com o cursor do mouse sobre o ícone, em um recurso computacional que não possua nenhuma tag a Plataforma uCloud apresenta a seguinte tela:
+Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_edita_on| que permite ao usuário adicionar uma nova tag para o recurso computacional, bem como alterar a informação da etiqueta (tag) da linha do recurso selecionado. Quando o usuário clicar com o cursor do mouse sobre o ícone, em um recurso computacional que não possua nenhuma tag a plataforma uCloud apresenta a seguinte tela:
 
 .. image:: /figuras/ucloud_menu_inventario_recursos003.png
    :alt: Virtual Datacenter - Exemplo
@@ -12102,7 +12102,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 
   * **Ícone Lata de Lixo** |icone_lixo|: Este ícone permite ao usuário apagar toda a informação referente às etiquetas (tags) do recurso que está sendo editado. Importante ressaltar que esta ação é definitiva, da mesma forma ela é aplicada no recurso do provedor de serviço de nuvem, após a sincronização da ação com a console do provedor.
 
-  * **Ícone de Edição Ativo** |icone_edita_on|: Este ícone permite ao usuário tanto adicionar nova(s) tag(s), bem como alterar o conteúdo da tag da linha do recurso selecionado, quando selecionado a Plataforma uCloud apresenta a tela abaixo:
+  * **Ícone de Edição Ativo** |icone_edita_on|: Este ícone permite ao usuário tanto adicionar nova(s) tag(s), bem como alterar o conteúdo da tag da linha do recurso selecionado, quando selecionado a plataforma uCloud apresenta a tela abaixo:
 
 .. image:: /figuras/ucloud_menu_inventario_recursos002.png
    :alt: Virtual Datacenter - Exemplo
@@ -12114,7 +12114,7 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
 
     * **Chave**: Neste campo, o usuário deve preencher com a sequência de caracteres referente a chave (key) que deseja vincular ao recurso.
     * **Valor**: Neste campo o usuário deve preencher com informação referente ao valor que deseja vincular a chave do recurso.
-    * **Botão Criar**: Após certificar que todas as informações - a chave e o seu valor - foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Criar para aplicar alterações, de forma definitiva e imediata. Este botão é obrigatório, no caso do usuário efetuar a remoção das informações existentes a uma etiqueta (tag), após clicar no botão Lata de Lixo. Em seguida, o usuário deve clicar sobre este botão para a Plataforma uCloud fechar esta tela e retornar à tela anterior, com seu conteúdo atualizado.
+    * **Botão Criar**: Após certificar que todas as informações - a chave e o seu valor - foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Criar para aplicar alterações, de forma definitiva e imediata. Este botão é obrigatório, no caso do usuário efetuar a remoção das informações existentes a uma etiqueta (tag), após clicar no botão Lata de Lixo. Em seguida, o usuário deve clicar sobre este botão para a plataforma uCloud fechar esta tela e retornar à tela anterior, com seu conteúdo atualizado.
 
 
 ====
