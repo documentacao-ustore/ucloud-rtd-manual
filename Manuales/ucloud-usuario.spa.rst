@@ -38,6 +38,8 @@ Como se mencionó anteriormente, uCloud está posicionado como una plataforma de
 
 Una plataforma *CSB* como la Plataforma uCloud permite a las organizaciones actuar en cinco puntos fundamentales para la gestión de entornos híbridos multi-nube, son:
 
+====
+
 
 Gobernanza Financiera
 ---------------------
@@ -53,6 +55,9 @@ De esta forma, la organización aplicará criterios de gobernanza financiera y c
 La adopción de la aplicación de límites (cuotas) financieros y/o recursos computacionales en diversos niveles alcanza el nivel de usuario, Así el control de costos será efectivo y permitirá evitar que el presupuesto de la organización sorprenda en situaciones que el costo de la infraestructura computacional sea exorbitante o por encima de los valores preestablecidos.
 
 Otro aspecto de la Plataforma de uCloud es la reducción de costos de certificación y capacitación de los especialistas, en cada una de las interfaces de cada proveedor (público y/o privado), ya que el empleo de una interfaz de uso y gestión única y sencilla permite extraer más productividad del entorno del proveedor de la nube. Incluso si el usuario no cuenta con capacitación o certificación en la consola específica del proveedor (pública y/o privada), la plataforma uCloud permitirá al usuario aprovisionar un recurso informático en el entorno deseado de manera sencilla y fácil.
+
+====
+
 
 Billing (Facturación de los Servicios)
 --------------------------------------
@@ -71,6 +76,9 @@ Generalmente estos costos se presentan en archivos de texto no estructurados *(C
 
 Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer *informados* de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
 
+====
+
+
 Monitoreo de la Infraestructura
 -------------------------------
 
@@ -79,6 +87,8 @@ Una funcionalidad importante de la Plataforma de uCloud es la reciente implement
 Todas estas facilidades reducen los costos para las organizaciones, una vez que elimina la necesidad de contratación de servicios de monitoreo de los proveedores, pues tal servicio puede representar altos costos los cuales pueden impactar de forma negativa en el presupuesto (sobrepasar el límite) destinado a infraestructura de nube pública.
 
 Esta funcionalidad permite integrar a un entorno de gestión de Service Desk para control *IT Service Management* (gestión de servicios de TI).
+
+====
 
 Inventario (*Assessment*)
 -------------------------
@@ -102,16 +112,18 @@ Existe una opción de menú donde el usuario podrá seguir el porcentaje de prog
 Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la Plataforma de uCloud, porque ello puede haber agotado el límite de su cuota financiera o de recursos computacionales, de esta forma la Plataforma de uCloud generar un aviso de 
 error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describen en el menú Tareas.
 
+====
+
+
 Operación de la Infraestructura
 -------------------------------
 
 La mención operar significa al lector que es la capacidad del usuario comandar ciertas acciones directamente en estas máquinas virtuales, como acciones de:
 
- * Parar (shutdown)
- * Reiniciar (restart) 
- * Suspender (suspend)
- * Remover (delete)
- * para citar algunas operaciones básicas.
+ * Parar (*shutdown*)
+ * Reiniciar (*restart*) 
+ * Suspender (*suspend*)
+ * Remover (*delete*)
 
 A través de la interfaz de la Plataforma de uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También puede ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta máquina virtual (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
 
@@ -126,18 +138,19 @@ En cuanto a los proveedores de servicios de nube pública, la Plataforma de uClo
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
 
-  * `VMware` *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
-  * `vCloud`
-  * `Hyper-v` *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
-  * `Openstack`
-  * `Xen Server`
-  * `XCP-NG`
-  * `KVM`
+  * **VMware** *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
+  * **vCloud**
+  * **Hyper-v** *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
+  * **Openstack**
+  * **Xen Server**
+  * **XCP-NG**
+  * **KVM**
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
 de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
 *(Infrastructure as a Code)*.
 
+====
 
 Integración e Interoperabilidad Multiplataforma *(API uCloud)*
 =============================================================
@@ -158,7 +171,7 @@ La Plataforma uCloud dispone de documentación de su API, pero el acceso a la do
 
 El Equipo de Ustore está preparado para ayudar y evaluar las demandas de interoperabilidad e integración entre la Plataforma uCloud y las aplicaciones que tienen y permiten el uso de APIs para la interoperabilidad.
 
-
+====
 
 Arquitectura de Referencia de la Plataforma uCloud
 ==================================================
@@ -180,6 +193,8 @@ Nuestro compromiso es mantener la compatibilidad de integración, para que los �
 Se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la capacidad de una organización para entregar aplicaciones y servicios más rápido que los procesos tradicionales de desarrollo de software.
 
 .. Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
+
+====
 
 
 Acceso a la Plataforma uCloud
