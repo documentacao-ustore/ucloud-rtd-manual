@@ -74,7 +74,7 @@ Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos
 Monitoreo de la Infraestructura
 -------------------------------
 
-Una funcionalidad importante de la Plataforma de uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar eventos y alarmas que se han generado en los entornos de nube (público y/o privado), activar notificaciones y crear informes personalizados.
+Una funcionalidad importante de la Plataforma de uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar acontecimientos y alarmas que se han generado en los entornos de nube (público y/o privado), activar notificaciones y crear informes personalizados.
 
 Todas estas facilidades reducen los costos para las organizaciones, una vez que elimina la necesidad de contratación de servicios de monitoreo de los proveedores, pues tal servicio puede representar altos costos los cuales pueden impactar de forma negativa en el presupuesto (sobrepasar el límite) destinado a infraestructura de nube pública.
 
@@ -83,23 +83,23 @@ Esta funcionalidad permite integrar a un entorno de gestión de Service Desk par
 Inventario (*Assessment*)
 -------------------------
 
-La plataforma de uCloud se conecta a los proveedores de la nube mediante el registro de credenciales de acceso específicas de cada proveedor de servicios en la nube (público y/o privado). Para ello, las empresas deben proporcionar credenciales de modo *operativo*.
+La plataforma de uCloud se conecta a los proveedores de la nube mediante el registro de credenciales de acceso específicas de cada fornecedor de servicios en la nube (público y/o privado). Para ello, las empresas deben proporcionar credenciales de modo *operativo*.
 
-Esta credencial operativa es proporcionada por el administrador del servicio en la nube y son credenciales que se generan en las cuentas de los proveedores que solo tienen permiso para interactuar con la consola del proveedor público en la nube a través de una API, no son credenciales normales con información estándar de inicio de sesión y contraseña. De esta forma, la seguridad y las normas de regulación de seguridad de la información están previstas y atendidas en su totalidad.
+Esta credencial operativa es proporcionada por el administrador del servicio en la nube y son autorizaciones que se generan en las cuentas de los proveedores que solo tienen permiso para interactuar con la consola del proveedor público en la nube a través de una API, no son calificaciones normales con información estándar de inicio de sesión y contraseña. De esta forma, la seguridad y las normas de regulación de seguridad de la información están previstas y atendidas en su totalidad.
 
-Como las credenciales *operativas* se configuran en la Plataforma de uCloud, la primera actividad es sincronizar la configuración y el inventario de recursos informáticos existentes en el proveedor (máquinas virtuales - cargas de trabajo). Este inventario de máquinas virtuales se extrae y se agrega a las bases de datos de uCloud para que la presentación en la pantalla del usuario sea rápida.
+Como las credenciales *operativas* se configuran en la Plataforma de uCloud, la primera actividad es sincronizar la configuración y el inventario de recursos informáticos existentes en el proveedor (máquinas virtuales - cargas de trabajo). Esta lista de máquinas virtuales se extrae y se agrega a las bases de datos de uCloud para que la presentación en la pantalla del usuario sea rápida.
 
 Con este inventario disponible directamente dentro de la Plataforma de uCloud, el usuario podrá operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los recursos computacionales existentes en los proveedores de nube (público y/o privado).
 
-Es importante mencionar que la Plataforma de uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su DataCenter privado. A través de la API Rest, la Plataforma de uCloud, envía acciones (tareas) al administrador de entorno de nube específico (público y/o privado) para que realicen la acción deseada.
+Es importante mencionar que el uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su DataCenter privado. A través de la API Rest, la Plataforma de uCloud, envía acciones (tareas) al administrador de entorno de nube específico (público y/o privado) para que realicen la acción deseada.
 
 El usuario podrá seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la Plataforma de uCloud la que *ejecuta* las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la API Rest.
 
-Si el resultado no se refleja en la interfaz de la pantalla del usuario, la consola de destino puede tardar un cierto tiempo en realizar esta tarea y solo después de que finalice la ejecución de la tarea se mostrará el resultado en la interfaz de uCloud.
+Si el resultado no se refleja en la interfaz de la pantalla del usuario, la consola de destino puede tardar un cierto tiempo en realizar esta tarea y solo después de que finalice la ejecución de ella, se mostra el resultado en la interfaz de uCloud.
 
 Existe una opción de menú donde el usuario podrá seguir el porcentaje de progreso de estas tareas, su resultado de éxito o el mensaje de error referente a alguna restricción del entorno destino.
 
-Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la Plataforma de uCloud, restricciones al usuario porque puede haber agotado su límite, su cuota financiera o de recursos computacionales, de esta forma la Plataforma de uCloud generar un aviso de 
+Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la Plataforma de uCloud, porque ello puede haber agotado el límite de su cuota financiera o de recursos computacionales, de esta forma la Plataforma de uCloud generar un aviso de 
 error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describen en el menú Tareas.
 
 Operación de la Infraestructura

@@ -78,7 +78,7 @@ Exclusivamente, os usuários com um perfil específico podem `visualizar custos`
 Monitoração da Infraestrutura
 -----------------------------
 
-Uma funcionalidade importante da plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar eventos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados.
+Uma funcionalidade importante da plataforma uCloud é a recente implementação do módulo de gerência de eventos (monitoração) que permite coletar acontecimentos e alarmes que foram gerados nos ambientes de nuvem (público e/ou privado), ativar notificações e criar relatórios customizados.
 
 Todas essas facilidades reduzem os custos para as organizações, uma vez que elimina a necessidade de contratação de serviços de monitoração dos provedores, pois tal serviço pode representar altos custos, os quais podem impactar de forma negativa no orçamento (ultrapassar o limite) destinado para a infraestrutura de nuvem pública.
 
@@ -87,28 +87,28 @@ Esta funcionalidade permite integração a um ambiente de gerenciamento de *Serv
 Inventário (Assessment)
 -----------------------
 
-A plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada provedor de serviço de nuvem (pública e/ou privada). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”.
+A plataforma uCloud se conecta aos provedores de nuvem através do cadastramento de credenciais de acesso específicas de cada fornecedor de serviço de nuvem (pública e/ou privada). Para esta finalidade as empresas devem providenciar credenciais de modo “operativo”.
 
-Esta credencial operativa é fornecida pelo administrador do serviço de nuvem e são credenciais geradas nas contas dos provedores que somente tem permissão de interagir com a console do provedor público de nuvem através de uma API (não são credenciais normais com informação padrão de login e senha). Desta forma, a segurança e as regras de regulamentação de segurança da informação estão previstas e atendidas em sua totalidade.
+Esta credencial operativa é fornecida pelo administrador do serviço de nuvem e são autorizações geradas nas contas dos provedores que somente tem permissão de interagir com a console do provedor público de nuvem através de uma API, não são habilitações normais com informação padrão de login e senha. Desta forma, a segurança e as regras de regulamentação de segurança da informação estão previstas e atendidas em sua totalidade.
 
-Uma vez que as credenciais operativas são configuradas na plataforma uCloud, a primeira atividade é sincronizar as configurações e o inventário de recursos computacionais existentes no provedor (máquinas virtuais – *workloads*). Este inventário de máquinas virtuais é extraído e adicionado nas bases de dados do uCloud, de forma que a apresentação na tela do usuário seja rápida.
+Uma vez que as credenciais operativas são configuradas na plataforma uCloud, a primeira atividade é sincronizar as configurações e o inventário de recursos computacionais existentes no provedor (máquinas virtuais – *workloads*). Esta lista de máquinas virtuais é extraída e adicionada nas bases de dados do uCloud, de forma que a apresentação na tela do usuário seja rápida.
 
 Com este inventário disponível diretamente dentro da plataforma uCloud, o usuário pode operar cada uma das máquinas virtuais, independente de qual é o provedor de nuvem que este recurso está provisionado. Na sequência é possível visualizar as operações a serem aplicadas aos recursos computacionais existentes nos provedores de nuvem (pública e/ou privada).
 
-Importante mencionar que a plataforma uCloud não possui nenhum recurso computacional, estes recursos existem nas nuvens dos provedores de serviço de nuvem pública ou nos ambientes de virtualização *(hypervisors)* instalados em seu Datacenter privado. Através da *API Rest* a plataforma uCloud envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
+Importante mencionar que o uCloud não possui nenhum recurso computacional, estes recursos existem nas nuvens dos provedores de serviço de nuvem pública ou nos ambientes de virtualização *(hypervisors)* instalados em seu Datacenter privado. Através da *API Rest* a plataforma uCloud envia ações (tarefas) para o gerenciador de ambiente de nuvem específico (público e/ou privado) para que estes então executem a ação desejada.
 
 O usuário pode acompanhar o resultado de qualquer uma das ações de operação nos recursos computacionais de forma quase que imediata, vale lembrar que não é a plataforma uCloud que executa as ações, e sim, o ambiente onde a máquina virtual existe (seja ele público e/ou privado). Este é o encarregado de executar a tarefa enviada através da *API Rest*.
 
-Caso o resultado deixe de refletir na interface da tela do usuário, o console destino pode levar um certo tempo para executar esta tarefa e somente após o término da execução da tarefa é que o resultado será apresentado na interface do uCloud.
+Caso o resultado deixe de refletir na interface da tela do usuário, o console destino pode levar um certo tempo para realizar esta tarefa e somente após o término da sua execução, o resultado é apresentado na interface do uCloud.
 
 Existe uma opção de menu onde o usuário pode acompanhar o percentual de andamento destas tarefas, seu resultado de sucesso ou a mensagem de erro referente a alguma restrição do ambiente destino.
 
-Importante ressaltar que podem existir restrições aplicadas ao usuário provisionado na plataforma uCloud, restrições ao usuário porque ele pode haver exaurido seu limite, da sua cota financeira ou dos recursos computacionais. Desta forma, a plataforma uCloud gera um aviso de erro: “limite de cota excedido” por exemplo. Estes cenários serão descritos no menu Tarefas.
+Importante ressaltar que podem existir restrições aplicadas ao usuário provisionado na plataforma uCloud por ele haver excedido o limite da sua cota financeira ou dos recursos computacionais. Desta forma, a plataforma uCloud gera um aviso de erro: **"limite de cota excedido"** por exemplo. Estes cenários são descritos no menu Tarefas.
 
 Operação da Infraestrutura
 --------------------------
 
-O termo **operar** neste contexto, significa ao leitor que é a capacidade do usuário de comandar certas ações diretamente nestas máquinas virtuais, como as operações de: parar *(shutdown)*, reiniciar *(restart)*, suspender *(suspend)*, remover *(delete)*, citando algumas operações básicas da plataforma uCloud.
+O termo **operar** neste contexto é a capacidade do usuário de comandar certas ações diretamente nas máquinas virtuais, como as operações básicas da plataforma uCloud de: parar *(shutdown)*, reiniciar *(restart)*, suspender *(suspend)*, remover *(delete)*.
 
 Através da interface da plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, *snapshot*, entre outros).
 
