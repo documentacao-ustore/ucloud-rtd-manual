@@ -122,7 +122,7 @@ If the result reflects on the user's screen interface, the destination console c
 
 There is a menu option where the user can follow the percentage of the tasks' progress, their successful result or the error message regarding some restriction of the destination environment.
 
-It is important to highlight that there can be restrictions applied to the user provisioned on the uCloud platform because they have exceeded the limit of their financial quota or computing resources. This way, the uCloud platform generates an error warning: **“quota limit exceeded”**, for example. These scenarios are described in the Tasks menu.
+It is important to highlight that there can be restrictions applied to the user provisioned on the uCloud platform because they have exceeded the limit of their financial quota or computing resources. This way, the uCloud platform generates an error warning: **"quota limit exceeded"**, for example. These scenarios are described in the Tasks menu.
 
 
 ====
@@ -155,7 +155,7 @@ Regarding the public cloud service providers, the uCloud platform is prepared to
 
 * **Huawei** Cloud;
 
-* **Oracle** Cloud Infrastructure .
+* **Oracle** Cloud Infrastructure.
 
 
 Currently, the uCloud platform is prepared to connect with the following private cloud environment management platforms (hypervisors):
@@ -187,7 +187,7 @@ Integration and Interoperability between Platforms (API uCloud)
 
 Interoperability is the capability to interact and interchange data between two or more systems (computers, means of communication, networks, software and other information technology components) according to a defined method, with the purpose to obtain the expected result. Interoperability defines if two components of a system, developed with different tools and providers, can or cannot act together.
 
-The communication between these “systems” is based on the consumption of an Application Programming Interface (API) that enables the sending and receiving of calls for execution of some activity or extraction of some type of stored information. The API is a set of norms that makes the communication between platforms through a series of standards and protocols possible.
+The communication between these "systems" is based on the consumption of an Application Programming Interface (API) that enables the sending and receiving of calls for execution of some activity or extraction of some type of stored information. The API is a set of norms that makes the communication between platforms through a series of standards and protocols possible.
 
 Through the APIs, the developers can establish a communication standard (interoperability) between softwares and applications, that way the API usage expands the capacity of a software to communicate with other platforms.
 
