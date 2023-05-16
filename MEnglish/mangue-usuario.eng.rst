@@ -144,7 +144,7 @@ For the user to confirm the action of deleting all financial data (values) of co
 With this action all cluster consumption values are removed and a new period of information collection is started, losing all the information accumulated (the historic series) of the selected cluster. 
 
 
-Cálculo do Valor do Consumo do Cluster
+Cluster Consumption Value Calculation 
 --------------------------------------
 
 The values presented here are calculated based on the value/hour of vCPU and RAM Memory that is stored in the Mangue.io database. 
