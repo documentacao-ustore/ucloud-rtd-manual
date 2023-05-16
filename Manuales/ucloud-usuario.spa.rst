@@ -27,16 +27,16 @@ En este manual se presentan los conceptos, las pantallas, las funcionalidades y 
 Introducción
 ============
 
-Las organizaciones empresariales han incorporado la nube como solución para administrar sus entornos y adoptan una combinación de nubes privadas y públicas, el gran desafío actual es la gestión de estos entornos híbridos de múltiples nubes *(hybrid multi-cloud)* con el fin de lograr una visión unificada, así como obtener un control centralizado de los costos financieros, ya que cada organización empresarial tiene una necesidad y se enfrenta a diferentes desafíos.
+Las organizaciones empresariales han incorporado la nube como solución para administrar sus ambientes virtuales y adoptan una combinación de nubes privadas y públicas, el gran desafío actual es la gestión de estos ambientes híbridos de múltiples nubes *(hybrid multi-cloud)* con el fin de lograr una visión unificada, así como obtener un control centralizado de los costos financieros, ya que cada organización empresarial tiene una necesidad y se enfrenta a diferentes desafíos.
 
-La plataforma de uCloud ha sido desarrollada para estos escenarios, independientemente de cuantos proveedores (públicos y/o privados) existan, el usuario podrá interactuar con sus plataformas:
+La plataforma uCloud ha sido desarrollada para estos escenarios, independientemente de cuantos proveedores (públicos y/o privados) existan, el usuario podrá interactuar con sus plataformas:
 
    * Infraestructura como Servicio *(Infrastructure as a Service - IaaS)*;
    * Plataforma como Servicio *(Platform as a Service - PaaS)*.
 
 Como se mencionó anteriormente, uCloud está posicionado como una plataforma de *Cloud Service Broker - CSB* *(Broker de servicios en la nube)* que permite administrar múltiples proveedores de servicios en la nube, tanto privados como proveedores de nube pública.
 
-Una plataforma *CSB* como la plataforma uCloud permite a las organizaciones actuar en cinco puntos fundamentales para la gestión de entornos híbridos multi-nube, son:
+Una plataforma *CSB* como la plataforma uCloud permite a las organizaciones actuar en cinco puntos fundamentales para la gestión de ambientes híbridos multi-nube, son:
 
 ====
 
@@ -44,17 +44,17 @@ Una plataforma *CSB* como la plataforma uCloud permite a las organizaciones actu
 Gobernanza Financiera
 ---------------------
 
-Además del control de la infraestructura, la plataforma de uCloud permite a las empresas usuarias de esta plataforma establecer límites, tanto financieros como cuantitativos de recursos (cuotas). Estos límites financieros o de infraestructura pueden aplicarse en tres niveles:
+Además del control de la infraestructura, la plataforma uCloud permite a las empresas usuarias establecer límites, tanto financieros como cuantitativos de recursos (cuotas). Estos límites financieros o de infraestructura pueden aplicarse en tres niveles:
 
-  * Para un proveedor público en general (ver el elemento Contratos, en el Menú Administración);
+  * Para un proveedor público en general (ver el elemento Contratos, en el menú Administración);
   * Para un grupo de usuarios (ver el elemento Grupos en el menú Administración);
-  * Para un usuario/individuo (ver el elemento Usuarios, en el Menú Administración).
+  * Para un usuario/individuo (ver el elemento Usuarios, en el menú Administración).
 
-De esta forma, la organización aplicará criterios de gobernanza financiera y control de gastos, como también podrá acompañar los costos de su entorno híbrido de multi-nube a través de una única interfaz.  
+De esta forma, la organización aplica criterios de gobernanza financiera y control de gastos, como también puede acompañar los costos de su ambiente híbrido de multi-nube a través de una única interfaz.  
 
-La adopción de la aplicación de límites (cuotas) financieros y/o recursos computacionales en diversos niveles alcanza el nivel de usuario, Así el control de costos será efectivo y permitirá evitar que el presupuesto de la organización sorprenda en situaciones que el costo de la infraestructura computacional sea exorbitante o por encima de los valores preestablecidos.
+La adopción de la aplicación de límites (cuotas) financieros y/o recursos computacionales en diversos niveles alcanza el nivel de usuario. Así el control de costos es efectivo y permite evitar que el presupuesto de la organización sorprenda en situaciones que el gasto de la infraestructura computacional sea exorbitante o por encima de los valores preestablecidos.
 
-Otro aspecto de la plataforma de uCloud es la reducción de costos de certificación y capacitación de los especialistas, en cada una de las interfaces de cada proveedor (público y/o privado), ya que el empleo de una interfaz de uso y gestión única y sencilla permite extraer más productividad del entorno del proveedor de la nube. Incluso si el usuario no cuenta con capacitación o certificación en la consola específica del proveedor (pública y/o privada), la plataforma uCloud permitirá al usuario aprovisionar un recurso informático en el entorno deseado de manera sencilla y fácil.
+Otro aspecto de la plataforma uCloud es la reducción de costos de certificación y capacitación de los especialistas, en cada una de las interfaces de cada proveedor (público y/o privado), ya que el empleo de una interfaz de uso y gestión única y sencilla permite extraer más productividad del ambiente del proveedor de la nube. Incluso si el usuario no cuenta con capacitación o certificación en la consola específica del proveedor (pública y/o privada), la plataforma uCloud permite al usuario aprovisionar un recurso computacional en el entorno deseado de manera sencilla y fácil.
 
 ====
 
@@ -62,19 +62,21 @@ Otro aspecto de la plataforma de uCloud es la reducción de costos de certificac
 Billing (Facturación de los Servicios)
 --------------------------------------
 
-La plataforma de uCloud proporciona a las organizaciones empresariales información sobre los costes recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un entorno multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de *Cloud Financial Management - FinOps* (Gestión financiera de la nube).
+La plataforma uCloud proporciona a las organizaciones empresariales información sobre los costos recurrentes relacionados con el uso de los recursos computacionales en la(s) operación(es) en un ambiente multinube híbrido. Este es solo uno de los puntos que forma parte de la práctica de *Cloud Financial Management - FinOps* (Gestión financiera de la nube).
 
-Es importante resaltar que, individualmente, la plataforma de uCloud no atiende a los tres pilares de la práctica de *FinOps* por *default*. Ustore posee otros productos que pueden ser complementarios y el conjunto de productos tiene potencial para actuar como un entorno capaz de englobar y atender la práctica de *FinOps*.
+Es importante resaltar que, individualmente, la plataforma uCloud no atiende a los tres pilares de la práctica completa *FinOps*. Ustore posee otros productos que pueden ser complementarios y el conjunto de productos tiene potencial para actuar como un ambiente capaz de englobar y atender la práctica de *FinOps*.
 
-El requisito soportado por uCloud es el punto de *Información* *(Inform)*, los otros puntos de esta mejor práctica de *FinOps*: la *Optimización* y la *Operación* pertenecen a los otros productos de la cartera de Ustore que complementa la plataforma de uCloud.
+El requisito soportado por uCloud es el punto de *Información* *(Inform)*, los otros puntos de esta mejor práctica de *FinOps*: la *Optimización* y la *Operación* pertenecen a los otros productos de la cartera de Ustore que complementa la plataforma uCloud.
 
-Se debe aclarar que la plataforma de uCloud no crea ni genera valores de recursos computacionales, estos montos se generan en los proveedores de nube pública de los que la aplicación uCloud *extrae* *(descargar)* el archivo de *Billing* *(facturación)* de estos proveedores. Despues añade esta información en sus bases de datos internas para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
+Se debe aclarar que la plataforma uCloud no crea ni genera valores de recursos computacionales, estos montos se generan en los proveedores de nube pública, la aplicación uCloud *extrae* *(descarga)* el archivo de *Billing* *(facturación)* de estos proveedores. 
 
-De esta forma, el usuario permanece *informado* de la evolución de los costos y podrá seguir si estos costos se encuentran dentro de los criterios de la gobernanza financiera de la organización.
+Despues añade esta información en sus bases de datos internas para que, posteriormente, de acuerdo con los criterios comerciales del contrato puedan ser aplicados y estos costos calculados y convertidos para la moneda corriente en Brasil.
 
-Generalmente estos costos se presentan en archivos de texto no estructurados *(Comma-separated Values - CSV)* generados cada período (promedio de 8 horas) y la plataforma de uCloud agrega la información de este archivo *CSV* a su base de datos interna para agilizar y simplificar la presentación de estos valores en la pantalla del usuario.
+De esta forma, el usuario permanece *informado* de la evolución de los valores y puede acompañar si estos costos se encuentran dentro de los criterios de la gobernanza financiera de la organización.
 
-Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer *informados* de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
+Generalmente estos costos se presentan en archivos de texto no estructurados *(Comma-separated Values - CSV)* generados cada período (promedio de 8 horas) y la plataforma uCloud agrega la información de este archivo *CSV* a su base de datos interna para agilizar y simplificar la presentación de estos valores en la pantalla del usuario.
+
+Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos` y permanecer informados de los valores de consumo de sus recursos computacionales totales en cada proveedor de la nube (pública y/o privada). Esto permite que el usuario pueda realizar un seguimiento de los costos acumulados de los recursos informáticos activos en los proveedores de servicios en la nube.
 
 ====
 
@@ -82,7 +84,7 @@ Exclusivamente, los usuarios con un perfil específico pueden `visualizar costos
 Monitoreo de la Infraestructura
 -------------------------------
 
-Una funcionalidad importante de la plataforma de uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar acontecimientos y alarmas que se han generado en los entornos de nube (público y/o privado), activar notificaciones y crear informes personalizados.
+Una funcionalidad importante de la plataforma uCloud es la reciente implementación del módulo de gestión de eventos (monitoreo) que permite recopilar acontecimientos y alarmas que se han generado en los ambientes híbridos de nube (público y/o privado), activar notificaciones y crear informes personalizados.
 
 Todas estas facilidades reducen los costos para las organizaciones, una vez que elimina la necesidad de contratación de servicios de monitoreo de los proveedores, pues tal servicio puede representar altos costos los cuales pueden impactar de forma negativa en el presupuesto (sobrepasar el límite) destinado a infraestructura de nube pública.
 
@@ -99,18 +101,17 @@ Esta credencial operativa es proporcionada por el administrador del servicio en 
 
 Como las credenciales *operativas* se configuran en la plataforma de uCloud, la primera actividad es sincronizar la configuración y el inventario de recursos informáticos existentes en el proveedor (máquinas virtuales - cargas de trabajo). Esta lista de máquinas virtuales se extrae y se agrega a las bases de datos de uCloud para que la presentación en la pantalla del usuario sea rápida.
 
-Con este inventario disponible directamente dentro de la plataforma de uCloud, el usuario podrá operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los recursos computacionales existentes en los proveedores de nube (público y/o privado).
+Con este inventario disponible directamente dentro de la plataforma de uCloud, el usuario puede operar cada una de las máquinas virtuales, independientemente de cuál sea el proveedor de la nube que esta función está aprovisionada. Vea a continuación las posibles operaciones a aplicar a los recursos computacionales existentes en los proveedores de nube (público y/o privado).
 
-Es importante mencionar que el uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su DataCenter privado. A través de la API Rest, la plataforma de uCloud, envía acciones (tareas) al administrador de entorno de nube específico (público y/o privado) para que realicen la acción deseada.
+Es importante mencionar que el uCloud no tiene recursos computacionales, estos recursos existen en las nubes de los proveedores de servicios de nube pública o en los entornos de virtualización *(hypervisors)* instalados en su Datacenter privado. A través de la API Rest, la plataforma uCloud, envía acciones (tareas) al administrador de ambiente de nube específico (público y/o privado) para que realicen la acción deseada.
 
-El usuario podrá seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la plataforma de uCloud la que *ejecuta* las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la API Rest.
+El usuario puede seguir el resultado de cualquiera de las acciones de operación en los recursos computacionales de forma casi inmediata, vale recordar que no es la plataforma uCloud la que *ejecuta* las acciones, sino el entorno donde la máquina virtual existe (ya sea público y/o privado). Este es el encargado de ejecutar la tarea enviada a través de la *API Rest*.
 
 Si el resultado no se refleja en la interfaz de la pantalla del usuario, la consola de destino puede tardar un cierto tiempo en realizar esta tarea y solo después de que finalice la ejecución de ella, se mostra el resultado en la interfaz de uCloud.
 
-Existe una opción de menú donde el usuario podrá seguir el porcentaje de progreso de estas tareas, su resultado de éxito o el mensaje de error referente a alguna restricción del entorno destino.
+Existe una opción de menú donde el usuario puede seguir el porcentaje de progreso de estas tareas, su resultado de éxito o el mensaje de error referente a alguna restricción del ambiente destino.
 
-Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la plataforma de uCloud, porque ello puede haber agotado el límite de su cuota financiera o de recursos computacionales, de esta forma la plataforma de uCloud generar un aviso de 
-error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describen en el menú Tareas.
+Es importante resaltar que pueden existir restricciones aplicadas al usuario aprovisionado en la plataforma uCloud, porque ello puede haber agotado el límite de su cuota financiera o de recursos computacionales, de esta forma la plataforma uCloud genera un aviso de error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describen en el menú Tareas.
 
 ====
 
@@ -118,22 +119,22 @@ error: **"límite de cuota excedido"** por ejemplo. Estos escenarios se describe
 Operación de la Infraestructura
 -------------------------------
 
-La mención operar significa al lector que es la capacidad del usuario comandar ciertas acciones directamente en estas máquinas virtuales, como acciones de:
+El término operar neste contexto puede ser visto como la capacidade del usuario comandar directamente en estas máquinas virtuales acciones de:
 
  * Parar (*shutdown*)
  * Reiniciar (*restart*) 
  * Suspender (*suspend*)
  * Remover (*delete*)
 
-A través de la interfaz de la plataforma de uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También es possible ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
+A través de la interfaz de la plataforma uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También es possible ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
 
-En cuanto a los proveedores de servicios de nube pública, la plataforma de uCloud está preparada para conectarse con las siguientes plataformas:
+En cuanto a los proveedores de servicios de nube pública, la aplicación uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
 
   * Amazon Web Services *(AWS)*
   * Google Cloud Plataform *(GCP)*
   * Microsoft *Azure*
-  * IBM Cloud
-  * Huawei Cloud
+  * *IBM* Cloud
+  * *Huawei* Cloud
   * Oracle Cloud Infrastructure *(OCI)*
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
@@ -147,7 +148,7 @@ Actualmente, la plataforma uCloud está lista para conectarse con las siguientes
   * **KVM**
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
-de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de entornos virtualizados *(hypervisors)* desde el entorno local privado *on-premises* o desde el entorno del proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio ‘biblioteca’ centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
+de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de ambientes virtualizados *(hypervisors)* desde el local privado *on-premises*, o desde el proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
 *(Infrastructure as a Code)*.
 
 ====
@@ -155,9 +156,9 @@ de funcionalidades que permite a los usuarios, de forma sencilla y centralizada,
 Integración e Interoperabilidad Multiplataforma *(API uCloud)*
 =============================================================
 
-La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas informáticos y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con herramientas e diferentes proveedores, pueden o no actuar juntos.
+La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas computacionales y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con herramientas e diferentes proveedores, pueden o no actuar juntos.
 
-La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. Las siglas API provienen de la expresión inglesa *Application Programming Interface* que, traducida al portugués, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la API es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
+La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. Las siglas *API* provienen de la expresión inglesa *Application Programming Interface* que, traducida al español, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la *API* es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
 
 A través de las API, los desarrolladores pueden establecer comunicación (interoperabilidad) entre programas y aplicaciones capaces de comunicarse con otras plataformas.
 
@@ -167,9 +168,11 @@ Otro ejemplo muy común de uso de la plataforma uCloud es la emisión de factura
 
 Nuestros clientes (y/o integradores) pueden utilizar la documentación de la API del uCloud con sus plataformas internas para complementar o automatizar ciertas actividades o acciones que están más allá de las capacidades nativas de la plataforma uCloud. 
 
-Por ejemplo: *consultar y extraer de la plataforma uCloud el coste de la factura de los objetos de valor de un proveedor de la nube pública a través de una aplicación financiera/contable para la emisión de facturas*.
+Por ejemplo: 
 
-El uCloud dispone de documentación de su API, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se cree y envíe una credencial de acceso a la documentación de la plataforma uCloud.
+Consultar y extraer de la plataforma uCloud el coste de la factura de los objetos de valor de un proveedor de la nube pública a través de una aplicación financiera/contable para la emisión de facturas.
+
+El uCloud dispone de documentación de su *API*, pero el acceso a la documentación completa debe solicitarse al Equipo de Atención al Cliente *(contato@usto.re)* para que se pueda crear y enviar una credencial de acceso a la documentación de la plataforma uCloud.
 
 El equipo de Ustore está preparado para ayudar, evaluar las demandas de interoperabilidad e integración entre la plataforma uCloud, bien como las aplicaciones que tienen y permiten el uso de las *APIs* para la interoperabilidad.
 
