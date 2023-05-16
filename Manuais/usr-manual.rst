@@ -48,9 +48,9 @@ Governança Financeira
 
 Além do controle da infraestrutura, a plataforma uCloud permite que empresas usuárias desta aplicação possam estabelecer metas, tanto financeiras quanto quantitativas de recursos (cotas). Estes limites financeiros ou de infraestrutura, podem ser aplicados em três níveis:
 
-* Para um provedor público em geral (ver o item Contratos, no menu Administração)
-* Para um grupo de usuários (ver o item Grupos, no menu Administração)
-* Para um usuário/indivíduo (ver o item Usuários, no menu Administração)
+* Para um provedor público em geral (ver o item Contratos, no menu Administração);
+* Para um grupo de usuários (ver o item Grupos, no menu Administração);
+* Para um usuário/indivíduo (ver o item Usuários, no menu Administração).
 
 Desta forma, a organização aplica critérios de governança financeira e controle de gastos, como também pode acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface.
 
