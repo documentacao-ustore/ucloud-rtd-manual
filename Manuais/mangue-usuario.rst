@@ -1377,9 +1377,9 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
       * **Imagem**: Esta coluna apresenta o nome da imagem da aplicação que foi selecionada do servidor de registro de imagens (ex: http://hub.docker.com).
 
-      * **Versão**: Esta coluna apresenta a informação da versão da aplicação (Deployment) informada nas etapas anteriores.
+      * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
 
-      * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta um submenu com as seguintes opções:
+      * **Ações**: Esta coluna apresenta um botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
@@ -1388,55 +1388,51 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
     :align: center
 =====
 
-               * Adicionar PersistentVolumeClaim: Através desta tela o usuário pode configurar as características do arquivo referente ao PersistentVolumeClaim (PVC). A Plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, abaixo esclarecemos as opções:
+     * **Adicionar PersistentVolumeClaim**: Através desta tela o usuário pode configurar as características do arquivo referente ao *PersistentVolumeClaim* (PVC). 
+
+A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, abaixo esclarecemos as opções:
   
-
-
 .. image:: /figuras/fig_mangue/063_mangue_add_pvc.png
-    :alt: Adicionar persistentvolume claim 
-    :scale: 80 %
+    :alt: Adicionar persistentvolume claim
     :align: center
 =====
 
-      * **Tamanho / 1Gi, 5Gi, 10Gi**: O usuário pode selecionar o tamanho do volume simplesmente clicando com o cursor do mouse sobre o número desejado, selecionando a melhor opção de tamanho para este PVC. As opções estão expressas em Gigabytes (1, 5, ou 10).
+   * **Tamanho / 1Gi, 5Gi, 10Gi**: O usuário pode selecionar o tamanho do volume simplesmente clicando com o cursor do mouse sobre o número desejado, selecionando a melhor opção de tamanho para este PVC. As opções estão expressas em Gigabytes (1, 5, ou 10).
 
-      * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a Plataforma do Mangue.io apresenta uma barra deslizante (slide bar) que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 gigabyte e o máximo de 100 Gigabytes.
+   * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a Plataforma do Mangue.io apresenta uma barra deslizante (slide bar) que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 gigabyte e o máximo de 100 Gigabytes.
 
-      * **Storage Class**: Este campo é uma lista *(dropdown list)* que é composta apenas por NFS servers configurados na Plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
+   * **Storage Class**: Este campo é uma lista *(dropdown list)* que é composta apenas por *NFS servers* configurados na plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
 
-      * **Modo de Acesso**: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles: ReadWriteOnce, ReadOnlyMany, ReadWriteMany.
+   * **Modo de Acesso**: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles: *ReadWriteOnce*, *ReadOnlyMany*, *ReadWriteMany*.
 
-      * **Mount Path**: Neste campo o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
+   * **Mount Path**: Neste campo o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
-      * **Nome do Volume**: Neste campo o usuário deverá informar no nome do arquivo de volume que será criado no ambiente do sistema operacional do Cluster.
+   * **Nome do Volume**: Neste campo o usuário deve informar o nome do arquivo de volume que é criado no ambiente do sistema operacional do *Cluster*.
 
 
-               * **Adicionar ConfigMap**: Um ConfigMap é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Neste sub tela o usuário pode incluir e configurar o(s) arquivo(s) de *ConfigMap(s)* desejado(s) para o seu ambiente.
+   * **Adicionar ConfigMap**: Um *ConfigMap* é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Nesta sub tela, o usuário pode incluir e configurar o(s) arquivo(s) de *ConfigMap(s)* desejado(s) para o seu ambiente.
   
-
-
 .. image:: /figuras/fig_mangue/064_mangue_add_configmap.png
-    :alt: Adicionar configmap 
-    :scale: 80 %
+    :alt: Adicionar configmap
     :align: center
 =====
 
 
-      * **Nome do ConfigMap**: Este campo é obrigatório e o usuário deve informar o nome o qual deseja cadastrar para que a Plataforma do Mangue.io identifique este ConfigMap.
+   * **Nome do ConfigMap**: Este campo é obrigatório, o usuário deve informar o nome desejado para cadastrar na plataforma do Mangue.io e identificar este *ConfigMap*.
 
-      * **Botão** ``Adicionar`` (“+”): 
+   * **Botão** ``Adicionar`` (“+”): 
 
-      * **Mount Path**: Este campo é obrigatório e o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
+   * **Mount Path**: Este campo é obrigatório, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
-      * **Nome do Arquivo**: Este campo é obrigatório e o usuário deve informar no nome do arquivo que é criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
+   * **Nome do Arquivo**: Este campo é obrigatório e o usuário deve informar no nome do arquivo que é criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
 
-      * **Conteúdo do Arquivo**: Este campo é obrigatório e o usuário deve preencher com o conteúdo específico do ConfigMap.
+   * **Conteúdo do Arquivo**: Este campo é obrigatório, o usuário deve preencher com o conteúdo específico do *ConfigMap*.
 
-      * **Botão** ``Adicionar ConfigMap``: Após preencher todos os campos anteriores o usuário deve pressionar este botão com o cursor do mouse para que a Plataforma do Mangue.io promova a criação, configuração e gravação do ConfigMap para esta nova aplicação (Deployment).
+   * **Botão** ``Adicionar ConfigMap``: Após preencher todos os campos anteriores o usuário deve pressionar este botão com o cursor do mouse para que a plataforma do Mangue.io possa promover a criação, configuração e gravação do *ConfigMap* para esta nova aplicação (*Deployment*).
 
-                * **Editar Container**: Quando selecionada esta opção a Plataforma do Mangue.io apresenta a tela referente ao **Primeiro Passo: Nova Aplicação**, para que o usuário possa editar as configurações deste container.
+   * **Editar Container**: Quando selecionada esta opção a plataforma do Mangue.io apresenta a tela referente ao **Primeiro Passo: Nova Aplicação**, para que o usuário possa editar as configurações deste container.
 
-                * **Excluir Container**: Esta ação é definitiva e quando acionada a Plataforma do Mangue.io remove toda a configuração inicial do container, **não será solicitada uma confirmação desta ação**.
+   * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não será solicitada uma confirmação desta ação**.
 
 
 B. Validar Nova Aplicação
