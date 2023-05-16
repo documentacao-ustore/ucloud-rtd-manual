@@ -172,7 +172,9 @@ Outro exemplo bastante comum do uso da plataforma uCloud é a emissão de *invoi
 
 Nossos clientes (e/ou integradores) podem utilizar a documentação da API do uCloud com suas plataformas internas, de forma a complementar ou automatizar certas atividades e/ou ações que estão além das capacidades nativas da plataforma uCloud. 
 
-Por exemplo: consultar e extrair da plataforma uCloud o custo da fatura dos valores de um provedor de nuvem pública através de uma aplicação financeira/contábil para a emissão da Nota Fiscal.
+Por exemplo: 
+
+Consultar e extrair da plataforma uCloud o custo da fatura dos valores de um provedor de nuvem pública através de uma aplicação financeira/contábil para a emissão da Nota Fiscal.
 
 O uCloud possui a documentação da sua *API*, o acesso a esta documentação completa deve ser solicitada ao seu provedor do portal para que seja criada e enviada uma credencial de acesso à documentação da plataforma uCloud.
 
