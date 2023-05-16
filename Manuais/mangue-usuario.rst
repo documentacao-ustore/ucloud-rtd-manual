@@ -1250,7 +1250,7 @@ O objetivo desta primeira abordagem é minimizar os potenciais erros de sintaxe 
 
 A outra forma é permitir ao usuário fazer o *upload* de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe *YAML*, já adaptada e preparada para um ambiente *Kubernetes*. Se o desenvolvedor (usuário) possui prática suficiente para criar seus próprios *scripts* em sintaxe *YAML*, pode utilizá-los e trazer estes para a plataforma do Mangue.io com a finalidade de conduzir em qual *Cluster*, *Pod*, *Node*, este código / *script* é executado e gerenciado.
 
-Quando o usuário acessar o menu Catálogo, a plataforma do Mangue.io apresenta a tela abaixo, na sequência a descrição de cada uma das opções do fluxo deste menu.
+Quando o usuário acessar o menu Catálogo, a plataforma do Mangue.io apresenta a tela abaixo, na sequência, a descrição de cada uma das opções do fluxo deste menu.
   
 
 .. image:: /figuras/fig_mangue/055_mangue_catalogo.png
@@ -1275,64 +1275,60 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
 
 .. image:: /figuras/fig_mangue/056_mangue_criar_deployment.png
-    :alt: Criar deployment 
-    :scale: 80 %
+    :alt: Criar deployment
     :align: center
 =====
   
 
-      * **Nome**: Este campo é obrigatório, e o usuário deve informar o nome da aplicação *(Deployment)* com o qual este fica identificado na Plataforma do Mangue.io;
+      * **Nome**: Este campo é obrigatório, o usuário deve informar o nome da aplicação *(Deployment)* com o qual este fica identificado na plataforma do Mangue.io;
 
-      * **Réplicas**: Este campo é obrigatório, e o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a Plataforma do Mangue.io se encarrega de alocação destes recursos computacionais;
+      * **Réplicas**: Este campo é obrigatório, o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a plataforma do Mangue.io se encarrega da alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, este campo efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, e a Plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
             
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
-    :alt: Pesquisar imagem 
-    :scale: 80 %
+    :alt: Pesquisar imagem
     :align: center
 =====
 
-* Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
+Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
 
+   * **Nome do Container**: Este campo é obrigatório, neste o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da plataforma do Mangue.io;
 
-      * **Nome do Container**: Este campo é obrigatório, neste campo o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da Plataforma do Mangue.io;
+   * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do *Deployment* para que sejam executados de forma privilegiada, com acesso aos recursos e as capacidades *Kernel* da máquina *Host*;
 
-      * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do *Deployment* sejam executados de forma privilegiada, com acesso aos recursos e capacidades *Kernel* da máquina *Host*;
+   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
 
-      * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
+   * **Tags da Aplicação**: Neste campo o usuário pode informar as *Tags* da aplicação. Também é possível criar uma *Tag* para ser associada à aplicação;
 
-      * **Tags da Aplicação**: Neste campo o usuário pode informar as Tags da aplicação. Também é possível criar uma Tag para ser associada à aplicação;
-
-      * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
+   * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
 
 
 .. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
-    :alt: Modal imagem 
-    :scale: 80 %
+    :alt: Modal imagem
     :align: center
 =====
 
-               * **Versão da Imagem**: Este campo é obrigatório neste campo o usuário deve informar como a aplicação *(Deployment)* deve ser identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
+   * **Versão da Imagem**: Este campo é obrigatório, neste o usuário deve informar como a aplicação *(Deployment)* é identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
-               * **ContainerPort**: Este campo é obrigatório neste campo o usuário deve informar porta TCP-IP do container que deve ser utilizada para que a aplicação *(Deployment)* fique disponível para acesso de outros usuários;
+   * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar porta TCP-IP do container que pode ser utilizada para que a aplicação *(Deployment)* fique disponível para o acesso de outros usuários;
 
-                                       * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário deve informar o máximo de recursos de CPU que devem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
+     * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
-                                       * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário deve informar o mínimo de recursos de CPU que devem ser alocados, na infraestrutura computacional do Cluster para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (Deployment);
+     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
 
-                                       * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário deve informar o máximo de recursos de memória RAM que deve ser alocada, na infraestrutura computacional do Cluster para oferecer o máximo de performance para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o Deployment;
+     * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer o máximo de performance para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o *Deployment*;
 
-                                       * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário deve informar o mínimo de recursos de memória RAM que deve ser alocada, na infraestrutura computacional do Cluster para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
+     * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
 
-                                       * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades Kernel da máquina Host;
+   * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades Kernel da máquina Host;
 
-                                       * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
+   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
 
-                                       * **Registry Secret**: Neste campo o usuário deve informar o nome do Secret do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a Plataforma do Mangue.io apresenta uma lista de arquivos de Secrets disponíveis no servidor de imagem privado. A Plataforma do Mangue.io apresenta apenas os arquivos de Secrets privados que estão presentes na plataforma do Mangue.io.
+   * **Registry Secret**: Neste campo o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado. A plataforma do Mangue.io apresenta apenas os arquivos de *Secrets* privados que estão presentes na plataforma do Mangue.io.
 
-               * **Botão Próximo**: Quando o usuário clica sobre o botão Próximo a Plataforma do Mangue.io apresenta a tela com campos respectivos de Secrets e Variáveis de Ambiente do container. Veja a tela abaixo:
+   * **Botão Próximo**: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
@@ -1342,28 +1338,28 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 =====
 
 
-      * Variáveis de Ambiente: 
+   * Variáveis de Ambiente: 
 
                * Nome da variável de ambiente; 
                * Conteúdo da variável de ambiente; 
-               * Botão Adicionar;
+               * Botão ``Adicionar``;
                
-      * Secrets:
+   * Secrets:
 
                * Nome do Segredo; 
                * Variável de Ambiente; 
                * Chave do Segredo; 
                * Valor do Segredo; 
-               * Botão Adicionar; 
-               * Botão Criar Secret; 
+               * Botão ``Adicionar``; 
+               * Botão ``Criar Secret``; 
 
 
-      * Botão ``Voltar``;
+   * Botão ``Voltar``;
 
-      * Botão ``Finalizar``.
+   * Botão ``Finalizar``.
 
 
-Após clicar o botão ``Finalizar`` a Plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo de nova aplicação, mas apresenta a configuração desta nova aplicação listada, abaixo segue o exemplo da lista:
+Após o usuário clicar no botão ``Finalizar``, a plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo de nova aplicação ao apresentar a configuração listada desta, abaixo segue o exemplo da lista:
 
 
 .. image:: /figuras/fig_mangue/061_mangue_lista_aplicacao.png
@@ -1373,7 +1369,7 @@ Após clicar o botão ``Finalizar`` a Plataforma do Mangue.io encerra as sub tel
 =====
 
 
-Abaixo descrevemos o conteúdo das colunas apresentadas nesta lista:
+Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
       * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
 
