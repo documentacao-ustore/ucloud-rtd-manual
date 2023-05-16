@@ -54,7 +54,9 @@ De esta forma, la organización aplica criterios de gobernanza financiera y cont
 
 La adopción de la aplicación de límites (cuotas) financieros y/o recursos computacionales en diversos niveles alcanza el nivel de usuario. Así el control de costos es efectivo y permite evitar que el presupuesto de la organización sorprenda en situaciones que el gasto de la infraestructura computacional sea exorbitante o por encima de los valores preestablecidos.
 
-Otro aspecto de la plataforma uCloud es la reducción de costos de certificación y capacitación de los especialistas, en cada una de las interfaces de cada proveedor (público y/o privado), ya que el empleo de una interfaz de uso y gestión única y sencilla permite extraer más productividad del ambiente del proveedor de la nube. Incluso si el usuario no cuenta con capacitación o certificación en la consola específica del proveedor (pública y/o privada), la plataforma uCloud permite al usuario aprovisionar un recurso computacional en el entorno deseado de manera sencilla y fácil.
+Otro aspecto de la plataforma uCloud es la reducción de costos de certificación y capacitación de los especialistas, en cada una de las interfaces de cada proveedor (público y/o privado), ya que el empleo de una interfaz de uso y gestión única y sencilla permite extraer más productividad del ambiente del proveedor de la nube. 
+
+Incluso si el usuario no cuenta con capacitación o certificación en la consola específica del proveedor (pública y/o privada), la plataforma uCloud permite al usuario aprovisionar un recurso computacional en el entorno deseado de manera sencilla y fácil.
 
 ====
 
@@ -119,37 +121,38 @@ Es importante resaltar que pueden existir restricciones aplicadas al usuario apr
 Operación de la Infraestructura
 -------------------------------
 
-El término operar neste contexto puede ser visto como la capacidade del usuario comandar directamente en estas máquinas virtuales acciones de:
+El término **operar** neste contexto puede ser visto como la capacidade del usuario comandar directamente en estas máquinas virtuales acciones de:
 
- * Parar (*shutdown*)
- * Reiniciar (*restart*) 
- * Suspender (*suspend*)
- * Remover (*delete*)
+ * Parar (*shutdown*);
+ * Reiniciar (*restart*); 
+ * Suspender (*suspend*);
+ * Remover (*delete*).
 
 A través de la interfaz de la plataforma uCloud, el usuario puede enviar comandos a las consolas de cada proveedor de la nube, además de las acciones mencionadas anteriormente. También es possible ver la información de la configuración específica de la máquina virtual, así como cambiar o agregar algunas características adicionales a esta (por ejemplo: tarjeta de red, disco, grupo de seguridad, snapshot, entre otros).
 
 En cuanto a los proveedores de servicios de nube pública, la aplicación uCloud está preparada para conectarse con las siguientes plataformas de nube pública:
 
-  * Amazon Web Services *(AWS)*
-  * Google Cloud Plataform *(GCP)*
-  * Microsoft *Azure*
-  * *IBM* Cloud
-  * *Huawei* Cloud
-  * Oracle Cloud Infrastructure *(OCI)*
+  * Amazon Web Services (**AWS**);
+  * Google Cloud Plataform (**GCP**);
+  * Microsoft **Azure**;
+  * **IBM** Cloud;
+  * **Huawei** Cloud;
+  * **Oracle** Cloud Infrastructure.
 
 Actualmente, la plataforma uCloud está lista para conectarse con las siguientes plataformas *(hypervisors)* de administración de entornos de nube privada:
 
-  * **VMware** *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*
-  * **vCloud**
-  * **Hyper-v** *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*
-  * **Openstack**
-  * **Xen Server**
-  * **XCP-NG**
-  * **KVM**
+  * **VMware** *(vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior)*;
+  * **vCloud**;
+  * **Hyper-v** *(Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016 ou superior)*;
+  * **Openstack**;
+  * **Xen Server**;
+  * **XCP-NG**;
+  * **KVM**.
 
 La plataforma uCloud, además de las funciones CSB *(Cloud Service Broker)*, también es un agregador 
-de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de ambientes virtualizados *(hypervisors)* desde el local privado *on-premises*, o desde el proveedor de nube pública. Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código
-*(Infrastructure as a Code)*.
+de funcionalidades que permite a los usuarios, de forma sencilla y centralizada, controlar varias consolas de administrador de ambientes virtualizados *(hypervisors)* desde el local privado *on-premises*, o desde el proveedor de nube pública. 
+
+Agrega monitoreo, flujo de trabajo en la nube *(Cloud Workflow)* y le permite implementar un repositorio centralizado de archivos de referencia *(playbooks)* para el uso de herramientas de infraestructura como código *(Infrastructure as a Code)*.
 
 ====
 
@@ -158,7 +161,9 @@ Integración e Interoperabilidad Multiplataforma *(API uCloud)*
 
 La interoperabilidad es la capacidad de dos o más sistemas (ordenadores, medios de comunicación, redes, programas computacionales y otros componentes de la tecnología de la información) para interactuar e intercambiar datos según un método definido, con el fin de obtener los resultados esperados. La interoperabilidad define si dos componentes de un sistema, desarrollados con herramientas e diferentes proveedores, pueden o no actuar juntos.
 
-La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. Las siglas *API* provienen de la expresión inglesa *Application Programming Interface* que, traducida al español, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la *API* es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
+La comunicación entre estos "sistemas" se basa en el consumo de una interfaz de programación de aplicaciones *(API)* que permite enviar y recibir llamadas para la ejecución de alguna actividad o la extracción de algún tipo de información almacenada. 
+
+Las siglas *API* provienen de la expresión inglesa *Application Programming Interface* que, traducida al español, puede entenderse como interfaz de programación de aplicaciones. En otras palabras, la *API* es un conjunto de reglas que permite la comunicación entre plataformas a través de una serie de normas y protocolos.
 
 A través de las API, los desarrolladores pueden establecer comunicación (interoperabilidad) entre programas y aplicaciones capaces de comunicarse con otras plataformas.
 
@@ -195,7 +200,7 @@ Ustore se compromete a mantener el constante desarrollo de sus plataformas de so
 
 Nuestro compromiso es mantener la compatibilidad de integración, para que los últimos cambios e implementaciones en la consola de proveedores y todo el software que mantenemos mantengan la interoperabilidad, para que la nueva funcionalidad esté siempre disponible a través de la interfaz de la plataforma uCloud.
 
-Se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la capacidad de una organización para entregar aplicaciones y servicios más rápido que los procesos tradicionales de desarrollo de software.
+Para este caso, se utiliza un conjunto de prácticas y herramientas diseñadas para aumentar la capacidad de una organización para entregar aplicaciones y servicios más rápido que los procesos tradicionales de desarrollo de software.
 
 .. Consulte la documentación específica acerca de *roadmap* de evolución de la plataforma uCloud o en el sitio web de Ustore (www.ustore.com.br).
 

@@ -25,12 +25,11 @@ Neste manual se apresentam todos os conceitos, as telas, as funcionalidades e os
 
 ====
 
-Introdução Visão Geral
-======================
+Introdução
+==========
 
-As organizações empresariais incorporam a nuvem como solução para gerenciar seus ambientes ao utilizar uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud).
 
-Para alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios.
+As organizações empresariais incorporam a nuvem como solução para gerenciar seus ambientes ao utilizar uma combinação de nuvens privadas e públicas, o grande desafio atual é o gerenciamento destes ambientes híbridos de diversas nuvens (hybrid multi-cloud). Para alcançar uma visão unificada, bem como obter um controle dos custos financeiros de forma centralizada, uma vez que cada organização empresarial tem uma necessidade e enfrenta diferentes desafios.
 
 A plataforma uCloud foi desenvolvida para estes cenários, independente de quantos provedores (públicos e/ou privados) existam o usuário pode interagir com as suas plataformas:
 
@@ -49,9 +48,9 @@ Governança Financeira
 
 Além do controle da infraestrutura, a plataforma uCloud permite que empresas usuárias desta aplicação possam estabelecer metas, tanto financeiras quanto quantitativas de recursos (cotas). Estes limites financeiros ou de infraestrutura, podem ser aplicados em três níveis:
 
-* Para um provedor público em geral (ver o item Contratos, no Menu Administração)
-* Para um grupo de usuários (ver o item Grupos, no Menu Administração)
-* Para um usuário/indivíduo (ver o item Usuários, no Menu Administração)
+* Para um provedor público em geral (ver o item Contratos, no menu Administração)
+* Para um grupo de usuários (ver o item Grupos, no menu Administração)
+* Para um usuário/indivíduo (ver o item Usuários, no menu Administração)
 
 Desta forma, a organização aplica critérios de governança financeira e controle de gastos, como também pode acompanhar os custos do seu ambiente híbrido de multi-nuvem através de uma única interface.
 
@@ -73,7 +72,9 @@ Importante ressaltar que, individualmente, a plataforma uCloud não atende a tod
 
 O quesito suportado pelo uCloud é o ponto de Informação *(Inform)*, os outros pontos desta melhor prática do *FinOps*: a Otimização e a Operação pertencem aos outros produtos do portfólio da Ustore que complementa a plataforma uCloud.
 
-Deve-se esclarecer que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes montantes são gerados nos provedores de nuvem pública dos quais a aplicação uCloud extrai *(por download)* o arquivo de *billing* (faturamento) destes provedores. Em seguida, adiciona estas informações em suas bases de dados internas para que, de acordo com os critérios comerciais do contrato possam ser aplicados e, posteriormente, estes custos calculados e convertidos para a moeda corrente no Brasil.
+Deve-se esclarecer que a plataforma uCloud não cria ou gera valores de recursos computacionais, estes montantes são gerados nos provedores de nuvem pública dos quais a aplicação uCloud extrai *(por download)* o arquivo de *billing* (faturamento) destes provedores. 
+
+Em seguida, adiciona estas informações em suas bases de dados internas para que, de acordo com os critérios comerciais do contrato possam ser aplicados e, posteriormente, estes custos calculados e convertidos para a moeda corrente no Brasil.
 
 Desta forma, o usuário permanece informado da evolução dos custos e pode acompanhar se estes custos encontram-se dentro dos critérios da governança financeira da organização.
 
@@ -132,22 +133,22 @@ Através da interface da plataforma uCloud o usuário pode enviar comandos para 
 
 Em relação aos provedores de serviço de nuvem pública, a plataforma uCloud está preparada para se conectar com as seguintes plataformas:
 
-* Amazon Web Services (**AWS**)
-* Google Cloud Plataform (**GCP**)
-* Microsoft **Azure**
-* **IBM** Cloud
-* **Huawei** Cloud
-* Oracle Cloud Infrastructure (**OCI**)
+* Amazon Web Services (**AWS**);
+* Google Cloud Plataform (**GCP**);
+* Microsoft **Azure**;
+* **IBM** Cloud;
+* **Huawei** Cloud;
+* **Oracle** Cloud Infrastructure.
 
 Atualmente, a plataforma uCloud está preparada para conectar-se com as seguintes plataformas *(hypervisors)* de gerenciamento do ambiente de nuvem privada:
 
 * **VMware** (vCenter Versões 5.0, 5.1, 5.5, 6.0, 6.5, 6.7, 7.x ou superior);
-* **vCloud**
-* **Hyper-v** (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior)
-* **Openstack**
-* **Xen Server**
-* **XCP-NG**
-* **KVM**
+* **vCloud**;
+* **Hyper-v** (Windows 2008R2, Windows 2012, Windows 2012R2 e Windows 2016, ou superior);
+* **Openstack**;
+* **Xen Server**;
+* **XCP-NG**;
+* **KVM**.
 
 A plataforma uCloud, além das funções de *CSB (Cloud Service Broker)*, ainda é um agregador de funcionalidades que permite aos usuários, de forma simples e centralizada, o controle de diversos consoles de gerenciadores de ambientes virtualizados *(hypervisors)* seja do ambiente privado *on-premises* quanto do ambiente de fornecedores de nuvem pública. 
 
