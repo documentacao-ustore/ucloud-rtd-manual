@@ -1520,47 +1520,51 @@ O leitor deste documento pode ver abaixo a descrição das próximas telas que f
 =====
 
 
-      * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
+   * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
 
-      * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io, Durante um processo de atualização da versão da aplicação *(Deployment)*, este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+   * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)* este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
-      * **Container**: Este é um cabeçalho de uma seção que indica o nome do container que está sendo criado para esta nova aplicação *(Deployment)*.
+   * **Container**: Este é um cabeçalho de uma seção que indica o nome do container que está sendo criado para esta nova aplicação *(Deployment)*.
 
-      * **Seção ReadinessProbe**: O ambiente Kubernetes usa sondagens de prontidão *(ReadinessProbe)* para saber quando um contêiner está pronto para começar a aceitar tráfego. Um Pod é considerado concluído quando todos os seus contêineres estão prontos. Nos campos abaixo o usuário deve entrar com os valores referentes ao ambiente de *ReadinessProbe*.
+   * **Seção ReadinessProbe**: O ambiente *Kubernetes* usa sondagens de prontidão *(ReadinessProbe)* para saber quando um *container* está pronto para começar a aceitar tráfego. Um *pod* é considerado concluído quando todos os seus *containers* estão prontos. Nos campos abaixo o usuário deve inserir os valores referentes ao ambiente de *ReadinessProbe*.
 
-               * **SuccessThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade mínima de containers que a plataforma do Mangue.io deve manter disponível durante o processo de atualização de forma a garantir a experiência do usuário que está utilizando a aplicação *(Deployment)*.
+     * **SuccessThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade mínima de *containers* que a plataforma do Mangue.io deve manter disponível durante o processo de atualização, de forma a garantir a experiência do usuário que está utilizando a aplicação *(Deployment)*.
 
-               * **FailureThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+     * **FailureThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
-               * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro (log) que armazena os eventos durante o processo de atualização do container.
+     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro (*log*) que armazena os eventos durante o processo de atualização do container.
 
-               * **RequestHeaders**: Nesta subseção o usuário pode configurar o layout do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
+     * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
 
-                    * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                    * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
-                    * Botão ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
+     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+                    
+     * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
-      * **LivenessProbe**: O ambiente Kubernetes usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um container. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário e após este período acrescenta uma linha no arquivo de log. Nos campos abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
+   * **LivenessProbe**: O ambiente *Kubernetes* usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um *container*. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário, após este período é acrescida uma linha no arquivo de *log*. Nos campos abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
 
-               * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
+     * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
 
-               * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do container.
+     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do *container*.
 
-               * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
+     * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização a ser criada, adicionando as colunas *(headers)* e o conteúdo da coluna;
 
-                   * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                   * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                     * Botão ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
+     * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
-                     * Botão ``Voltar``: Se o usuário necessitar regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que serão perdidas todas as informações que foram preenchidas nesta tela pelo usuário, e a plataforma do Mangue.io retorna para a tela anterior.
+     * **Botão** ``Voltar``: Se o usuário necessita regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que nesta operação são perdidas todas as informações que foram preenchidas nesta tela pelo usuário, a plataforma do Mangue.io retorna para a tela anterior.
 
-                     * Botão ``Finalizar``: O usuário deverá pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores e, estando pronto para iniciar a compilação da aplicação *(Deployment)*. A plataforma do Mangue.io compila todas as informações dos campos e gerar um script YAML; ao compilar este script e gerar a aplicação (e todas suas dependências: PVCs, ConfigMaps, Arquivos de log, entre outros) ela será executada e gerenciada dentro do ambiente da plataforma do Mangue.io.
+     * **Botão** ``Finalizar``: O usuário deve pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores, ao estar pronto para iniciar a compilação da aplicação *(Deployment)*. A plataforma do Mangue.io compila todas as informações dos campos e gera um *script YAML*. Ao compilar este *script* e gerar a aplicação (e todas as suas dependências: PVCs, *ConfigMaps*, Arquivos de log, entre outros) ela é executada e gerenciada dentro do ambiente da plataforma do Mangue.io.
 
-Neste ponto a plataforma do Mangue.io encerra as telas de criação de aplicação *(Deployment)* e o usuário pode encontrar sua nova aplicação listada na tela do menu *Workloads/Deployments*.
-O usuário poderá ter uma quantidade maior de informações de sua nova aplicação no menu Informações do *Deployment*.
+Neste ponto, a plataforma do Mangue.io encerra as telas de criação de aplicação *(Deployment)* e o usuário pode encontrar sua nova aplicação listada na tela do menu *Workloads/Deployments*.
+
+O usuário pode ter uma quantidade maior de informações da sua nova aplicação no menu "Informações do *Deployment*".
+
+====
 
 
 Deploy via YAML
