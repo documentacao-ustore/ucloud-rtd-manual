@@ -1459,57 +1459,63 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 =====
 
 
-   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
-  
+   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
+   
+Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
-    :alt: Selecionar container 
-    :scale: 80 %
+    :alt: Selecionar container
     :align: center
 =====
 
-Ao clicar sobre o campo *containers* será apresentado uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
+Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
-   * **Excluir**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, não há solicitação de uma confirmação desta ação.
+   * **Excluir**: Esta ação é definitiva, ao acioná-la a plataforma do Mangue.io remove toda a configuração inicial do container. 
 
+.. attention:: Não há solicitação de uma confirmação na ação "Excluir".
 
-C. Segundo Passo: Deploy nos Clusters:
+====
+
+C. Segundo passo: Deploy nos Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nesta seção da tela a plataforma do Mangue.io possibilita uma das grandes facilidades desta plataforma; permitir ao usuário criar, lançar e executar esta nova aplicação (*Deployment*) em mais de um *Cluster*, simultaneamente. A plataforma possibilita que o usuário selecione um (ou mais) *Cluster*(s) atualmente configurados no ambiente do Mangue.io. Abaixo a descrição desta seção:
+Esta seção possibilita ao usuário entender como operar uma facilidade desta plataforma. Ela permite criar, lançar e executar esta nova aplicação (*Deployment*) em mais de um *Cluster*, simultaneamente. 
+
+A plataforma possibilita operacionalizar a seleção de um ou mais *Cluster*(s), atualmente configurados no ambiente do Mangue.io. Abaixo a imagem e a descrição detalhada da seção:
   
 
 .. image:: /figuras/fig_mangue/068_mangue_deploy_clusters.png
-    :alt: Deploy clusters 
-    :scale: 80 %
+    :alt: Deploy clusters
     :align: center
 =====
 
 
-   * **Clusters Disponíveis**: Este campo quando selecionado apresenta a lista *(dropdown list)* com todos os *Clusters* configurados na plataforma e basta ao usuário selecionar quais deseja lançar e executar a aplicação *Deployment* que está sendo criado.
+   * **Clusters disponíveis**: Este campo quando selecionado apresenta a lista *(dropdown list)* com todos os *Clusters* configurados na plataforma. Basta o usuário selecionar quais deseja lançar e executar a aplicação *Deployment* que está sendo criada.
 
    * **Botão** ``Próximo``: O usuário deve clicar neste botão para iniciar a terceira e última etapa para a criação de uma nova aplicação *(Deployment)*.
 
+====
 
 D. Terceiro Passo: Habilitar Zero Down-time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Conforme mencionado no início deste tópico, o objetivo desta primeira abordagem – Criação de Nova Aplicação via telas/formulários no Mangue.io – é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML em ambiente Kubernetes demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente Kubernetes (ex.: uma aplicação / *Deployment*).
+Conforme mencionado no início deste tópico, o objetivo desta primeira abordagem – Criação de Nova Aplicação via telas/formulários no Mangue.io – é minimizar os potenciais erros de sintaxe *YAML* para um ambiente *Kubernetes*. 
 
-O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe YAML em um ambiente Kubernetes pode ser muito longo, e as dependências entre seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
+A criação de código em sintaxe *YAML* em ambiente *Kubernetes* demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente *Kubernetes* (por exemplo: uma aplicação / *Deployment*).
 
-Um *script* genérico encontrado na internet pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
+O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente Kubernetes pode ser muito longo, as dependências entre as seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
 
-O processo de adaptação de scripts (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente Kubernetes, portanto a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas/formulários.
+Um *script* genérico encontrado no ambiente virtual pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
+
+O processo de adaptação de *scripts* (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente *Kubernetes*, portanto, a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas/formulários.
 
 Após o completo preenchimento desta segunda parte, de todos os campos das telas/formulários referente a criação da aplicação *(Deployment)* a plataforma do Mangue.io gera o *script YAML* completo e, por consequência, sua compilação sem erros.
 
-Veja abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela plataforma do Mangue.io.
+O leitor deste documento pode ver abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela plataforma do Mangue.io.
   
 
 .. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
-    :alt: Habilitar zero downtime 
-    :scale: 80 %
+    :alt: Habilitar zero downtime
     :align: center
 =====
 
