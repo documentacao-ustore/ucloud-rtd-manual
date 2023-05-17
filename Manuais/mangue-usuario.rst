@@ -1593,29 +1593,29 @@ Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.i
 
 Na sequência o detalhamento de cada objeto acionável desta tela.
 
-A. Clusters disponíveis
+A. *Clusters* disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário deve clicar sobre o campo Clusters Disponíveis para abrir uma lista *(dropdown)* de todos os Clusters configurados na plataforma do Mangue.io, e selecionar o Cluster destino no qual o Deployment é criado e executado.
+O usuário deve clicar sobre o campo "Clusters disponíveis" para abrir uma lista *(dropdown)* de todos os *Clusters* configurados na plataforma do Mangue.io, selecionar o *Cluster* destino no qual o *Deployment* é criado e executado.
 
-Existe uma mensagem presente na tela que é importante ressaltar para o processo de criação de Deployment via YAML.
+Existe uma mensagem presente na tela que é importante ressaltar para o processo de criação do *Deployment* via *YAML*.
 
-.. note::
-	Caso nenhum Cluster seja selecionado,  é feito o deploy apenas no Cluster utilizado atualmente.
+.. note:: Caso nenhum *Cluster* seja selecionado é feito o *deploy* apenas no *Cluster* utilizado atualmente.
 	
 
 B. Template
 ~~~~~~~~~~~
 
-Na sequência o usuário deve selecionar uma das opções de modelo (template) de código YAML que estão previamente a configurados na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário; e cada tipo de modelo é uma opção na lista (dropdown):
+Na sequência o usuário deve selecionar uma das opções de modelo (*template*) de código *YAML* que está previamente configurado na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário, cada tipo de modelo é uma opção na lista (*dropdown*):
 
-                                             * Default: Permite ao usuário configurar o código YAML de forma livre. Nesta opção o usuário deve possuir um bom conhecimento da sintaxe YAML para entrar com o código desejado. O usuário deve iniciar clicando com o mouse na área cinza ao lado do número “1”, antes de iniciar a digitação do seu código YAML. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção o usuário pode entrar com um código YAML para criar, para provisionar um novo Pod na plataforma do Mangue.io.
-                                             * Deployment: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Deployment. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do Deployment, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
-                                             * Serviço: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
-                                             * Statefulsets: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Statefulsets. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos para o Statefulsets, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
-                                             * Volume: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar um Volume. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos para o Volume, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
-                                             * Ingress: Nesta opção a plataforma do Mangue.io apresenta um modelo de código YAML com a sintaxe inicial para criar uma definição de Ingress. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
-O usuário experiente em YAML vê que o uso de modelos aumenta a produtividade e mantém o código mais bem documentado e estruturado de acordo com as melhores práticas.
+* **Default**: Permite ao usuário configurar o código *YAML* de forma livre. Nesta opção o usuário deve possuir um bom conhecimento da sintaxe *YAML* para entrar com o código desejado. O usuário deve iniciar clicando com o mouse na área cinza ao lado do número “1”, antes de iniciar a digitação do seu código *YAML*. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe do seu código linha a linha. Através desta opção, o usuário pode entrar com um código *YAML* para criar, para provisionar um novo *Pod* na plataforma do Mangue.io.
+* **Deployment**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Deployment*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do *Deployment*, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Serviço**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do serviço, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Statefulsets**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Statefulsets*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos para o *Statefulsets*, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Volume**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Volume. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos para o Volume, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Ingress**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar uma definição de *Ingress*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
+O usuário experiente em *YAML* pode perceber que o uso de modelos aumenta a produtividade e mantém o código bem documentado e estruturado, de acordo com as melhores práticas.
 
 C. Browse
 ~~~~~~~~~
