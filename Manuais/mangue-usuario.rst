@@ -1425,31 +1425,31 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não será solicitada uma confirmação desta ação**.
 
+====
 
 B. Validar Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se o usuário clicar com o mouse sobre o nome do container a plataforma do Mangue.io apresenta uma tela com as informações dos Recursos do Container.
+Se o usuário clicar com o mouse sobre o nome do container a plataforma do Mangue.io apresenta uma tela com as informações dos recursos do container.
 
 A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *ConfigMap*, do container que o usuário configurou para a aplicação e lista estes recursos conforme o exemplo da tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/065_mangue_recurso_container.png
-    :alt: Recurso container 
-    :scale: 80 %
+    :alt: Recurso container
     :align: center
 =====
 
 
    * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
 
-   * **Nome**: Esta coluna apresenta o nome do recurso informado nas etapas anteriores.
+   * **Nome**: Esta coluna mostra o nome do recurso informado nas etapas anteriores.
 
-   * **Tipo**: Esta coluna apresenta o tipo do recurso que foi criado nas etapas anteriores.
+   * **Tipo**: Esta coluna exibe o tipo do recurso que foi criado nas etapas anteriores.
 
    * **Mount Path**: Esta coluna apresenta a informação do diretório do sistema operacional conforme foi configurado nas etapas anteriores.
 
-   * **Ações**: Esta coluna apresenta um botão de ação |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna exibe o botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/066_mangue_acoes_recursos.png
@@ -1459,131 +1459,141 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 =====
 
 
-   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
-  
+   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
+   
+Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
-    :alt: Selecionar container 
-    :scale: 80 %
+    :alt: Selecionar container
     :align: center
 =====
 
-Ao clicar sobre o campo *containers* será apresentado uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
+Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
-   * **Excluir**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, não há solicitação de uma confirmação desta ação.
+   * **Excluir**: Esta ação é definitiva, ao acioná-la a plataforma do Mangue.io remove toda a configuração inicial do container. 
 
+.. attention:: Não há solicitação de uma confirmação na ação "Excluir".
 
-C. Segundo Passo: Deploy nos Clusters:
+====
+
+C. Segundo passo: Deploy nos Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nesta seção da tela a plataforma do Mangue.io possibilita uma das grandes facilidades desta plataforma; permitir ao usuário criar, lançar e executar esta nova aplicação (*Deployment*) em mais de um *Cluster*, simultaneamente. A plataforma possibilita que o usuário selecione um (ou mais) *Cluster*(s) atualmente configurados no ambiente do Mangue.io. Abaixo a descrição desta seção:
+Esta seção possibilita ao usuário entender como operar uma facilidade desta plataforma. Ela permite criar, lançar e executar esta nova aplicação (*Deployment*) em mais de um *Cluster*, simultaneamente. 
+
+A plataforma possibilita operacionalizar a seleção de um ou mais *Cluster*(s), atualmente configurados no ambiente do Mangue.io. Abaixo a imagem e a descrição detalhada da seção:
   
 
 .. image:: /figuras/fig_mangue/068_mangue_deploy_clusters.png
-    :alt: Deploy clusters 
-    :scale: 80 %
+    :alt: Deploy clusters
     :align: center
 =====
 
 
-   * **Clusters Disponíveis**: Este campo quando selecionado apresenta a lista *(dropdown list)* com todos os *Clusters* configurados na plataforma e basta ao usuário selecionar quais deseja lançar e executar a aplicação *Deployment* que está sendo criado.
+   * **Clusters disponíveis**: Este campo quando selecionado apresenta a lista *(dropdown list)* com todos os *Clusters* configurados na plataforma. Basta o usuário selecionar quais deseja lançar e executar a aplicação *Deployment* que está sendo criada.
 
    * **Botão** ``Próximo``: O usuário deve clicar neste botão para iniciar a terceira e última etapa para a criação de uma nova aplicação *(Deployment)*.
 
+====
 
 D. Terceiro Passo: Habilitar Zero Down-time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Conforme mencionado no início deste tópico, o objetivo desta primeira abordagem – Criação de Nova Aplicação via telas/formulários no Mangue.io – é minimizar os potenciais erros de sintaxe YAML para um ambiente Kubernetes. A criação de código em sintaxe YAML em ambiente Kubernetes demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente Kubernetes (ex.: uma aplicação / *Deployment*).
+Conforme mencionado no início deste tópico, o objetivo desta primeira abordagem – Criação de Nova Aplicação via telas/formulários no Mangue.io – é minimizar os potenciais erros de sintaxe *YAML* para um ambiente *Kubernetes*. 
 
-O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe YAML em um ambiente Kubernetes pode ser muito longo, e as dependências entre seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
+A criação de código em sintaxe *YAML* em ambiente *Kubernetes* demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente *Kubernetes* (por exemplo: uma aplicação / *Deployment*).
 
-Um *script* genérico encontrado na internet pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
+O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente Kubernetes pode ser muito longo, as dependências entre as seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
 
-O processo de adaptação de scripts (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente Kubernetes, portanto a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas/formulários.
+Um *script* genérico encontrado no ambiente virtual pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
+
+O processo de adaptação de *scripts* (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente *Kubernetes*, portanto, a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas/formulários.
 
 Após o completo preenchimento desta segunda parte, de todos os campos das telas/formulários referente a criação da aplicação *(Deployment)* a plataforma do Mangue.io gera o *script YAML* completo e, por consequência, sua compilação sem erros.
 
-Veja abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela plataforma do Mangue.io.
+O leitor deste documento pode ver abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela plataforma do Mangue.io.
   
 
 .. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
-    :alt: Habilitar zero downtime 
-    :scale: 80 %
+    :alt: Habilitar zero downtime
     :align: center
 =====
 
 
-      * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
+   * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
 
-      * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io, Durante um processo de atualização da versão da aplicação *(Deployment)*, este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+   * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)* este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
-      * **Container**: Este é um cabeçalho de uma seção que indica o nome do container que está sendo criado para esta nova aplicação *(Deployment)*.
+   * **Container**: Este é um cabeçalho de uma seção que indica o nome do container que está sendo criado para esta nova aplicação *(Deployment)*.
 
-      * **Seção ReadinessProbe**: O ambiente Kubernetes usa sondagens de prontidão *(ReadinessProbe)* para saber quando um contêiner está pronto para começar a aceitar tráfego. Um Pod é considerado concluído quando todos os seus contêineres estão prontos. Nos campos abaixo o usuário deve entrar com os valores referentes ao ambiente de *ReadinessProbe*.
+   * **Seção ReadinessProbe**: O ambiente *Kubernetes* usa sondagens de prontidão *(ReadinessProbe)* para saber quando um *container* está pronto para começar a aceitar tráfego. Um *pod* é considerado concluído quando todos os seus *containers* estão prontos. Nos campos abaixo o usuário deve inserir os valores referentes ao ambiente de *ReadinessProbe*.
 
-               * **SuccessThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade mínima de containers que a plataforma do Mangue.io deve manter disponível durante o processo de atualização de forma a garantir a experiência do usuário que está utilizando a aplicação *(Deployment)*.
+     * **SuccessThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade mínima de *containers* que a plataforma do Mangue.io deve manter disponível durante o processo de atualização, de forma a garantir a experiência do usuário que está utilizando a aplicação *(Deployment)*.
 
-               * **FailureThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+     * **FailureThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
-               * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro (log) que armazena os eventos durante o processo de atualização do container.
+     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro (*log*) que armazena os eventos durante o processo de atualização do container.
 
-               * **RequestHeaders**: Nesta subseção o usuário pode configurar o layout do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
+     * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
 
-                    * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                    * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
-                    * Botão ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
+     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+                    
+     * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
-      * **LivenessProbe**: O ambiente Kubernetes usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um container. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário e após este período acrescenta uma linha no arquivo de log. Nos campos abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
+   * **LivenessProbe**: O ambiente *Kubernetes* usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um *container*. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário, após este período é acrescida uma linha no arquivo de *log*. Nos campos abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
 
-               * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
+     * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
 
-               * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do container.
+     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do *container*.
 
-               * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
+     * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização a ser criada, adicionando as colunas *(headers)* e o conteúdo da coluna;
 
-                   * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                   * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-                     * Botão ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto header/value deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
+     * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
-                     * Botão ``Voltar``: Se o usuário necessitar regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que serão perdidas todas as informações que foram preenchidas nesta tela pelo usuário, e a plataforma do Mangue.io retorna para a tela anterior.
+     * **Botão** ``Voltar``: Se o usuário necessita regressar para uma etapa anterior, ele deve acionar este botão. Importante ressaltar que nesta operação são perdidas todas as informações que foram preenchidas nesta tela pelo usuário, a plataforma do Mangue.io retorna para a tela anterior.
 
-                     * Botão ``Finalizar``: O usuário deverá pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores e, estando pronto para iniciar a compilação da aplicação *(Deployment)*. A plataforma do Mangue.io compila todas as informações dos campos e gerar um script YAML; ao compilar este script e gerar a aplicação (e todas suas dependências: PVCs, ConfigMaps, Arquivos de log, entre outros) ela será executada e gerenciada dentro do ambiente da plataforma do Mangue.io.
+     * **Botão** ``Finalizar``: O usuário deve pressionar este botão quando houver concluído o preenchimento de todos os campos das telas anteriores, ao estar pronto para iniciar a compilação da aplicação *(Deployment)*. A plataforma do Mangue.io compila todas as informações dos campos e gera um *script YAML*. Ao compilar este *script* e gerar a aplicação (e todas as suas dependências: PVCs, *ConfigMaps*, Arquivos de log, entre outros) ela é executada e gerenciada dentro do ambiente da plataforma do Mangue.io.
 
-Neste ponto a plataforma do Mangue.io encerra as telas de criação de aplicação *(Deployment)* e o usuário pode encontrar sua nova aplicação listada na tela do menu *Workloads/Deployments*.
-O usuário poderá ter uma quantidade maior de informações de sua nova aplicação no menu Informações do *Deployment*.
+Neste ponto, a plataforma do Mangue.io encerra as telas de criação de aplicação *(Deployment)* e o usuário pode encontrar sua nova aplicação listada na tela do menu *Workloads/Deployments*.
+
+O usuário pode ter uma quantidade maior de informações da sua nova aplicação no menu "Informações do *Deployment*".
+
+====
 
 
-Deploy via YAML
----------------
+Deploy via *YAML*
+-----------------
 
 
-Esta é a segunda abordagem que a plataforma do Mangue.io permite ao usuário fazer o upload de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe YAML, já adaptada e preparada para um ambiente Kubernetes.
+Esta é a segunda abordagem que a plataforma do Mangue.io permite ao usuário que é fazer o *upload* de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe *YAML*, já adaptada e preparada para um ambiente *Kubernetes*.
 
-O YAML não é uma linguagem de marcação, de acordo com yaml.org, é um padrão de serialização de dados amigável para qualquer linguagem de programação. YAML foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, hashes (mapas) e dados escalares (valores simples).
+O *YAML* significa na língua inglesa "Ain't Markup language", no português quer dizer o mesmo que "não é uma linguagem de marcação", de acordo com https://yaml.org/ é um padrão de serialização de dados amigável para qualquer linguagem de programação. *YAML* foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, hashes (mapas) e dados escalares (valores simples).
 
-A sintaxe é relativamente simples e foi projetada tendo em conta que é muito legível, mas que também fosse facilmente mapeada para os tipos de dados mais comuns na maioria das linguagens de alto-nível. Além disso, YAML utiliza uma notação baseada em endentação e um conjunto de caracteres distintos dos que são usados pelo XML, fazendo com que as duas linguagens sejam facilmente compostas uma na outra.
+A sintaxe é relativamente simples e foi projetada considerando que é muito legível, mas que também é facilmente mapeada para os tipos de dados mais comuns na maioria das linguagens de alto-nível. Além disso, *YAML* utiliza uma notação baseada em endentação e um conjunto de caracteres distintos dos que são usados pelo *XML*, fazendo com que as duas linguagens sejam facilmente compostas uma na outra.
 
-Qualquer usuário com conhecimento da sintaxe YAML pode usar a interface do Mangue.io para criar um: Deployment, Service, Statefulsets, Volume ou Ingress.
+Qualquer usuário com conhecimento da sintaxe *YAML* pode usar a interface do Mangue.io para criar um: *Deployment*, *Service*, *Statefulsets*, Volume ou *Ingress*.
 
-A plataforma do Mangue.io permite ao usuário experiente em YAML entrar com o seu código de forma livre diretamente através da interface (data-entry), ou carregar um arquivo (upload) em formato texto não formatado (ASCII) de um diretório/folder de seu computador para a plataforma do Mangue.io.
+A plataforma do Mangue.io permite ao usuário experiente em *YAML* entrar com o seu código de forma livre diretamente através da interface (*data-entry*) ou carregar um arquivo (*upload*) em formato texto não formatado (ASCII) de um diretório/folder do seu computador para a plataforma do Mangue.io.
 
-Ao clicar sobre a opção Deploy via Código YAML a plataforma do Mangue.io apresenta a seguinte tela:
+Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.io apresenta a seguinte tela:
   
 
 .. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
     :alt: Deploy em outros clusters 
-    :scale: 80 %
+    :scale: 40 %
     :align: center
 =====
 
 
-Abaixo descrevemos cada objeto acionável desta tela.
+Na sequência o detalhamento de cada objeto acionável desta tela.
 
-A. Clusters Disponíveis
+A. Clusters disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 O usuário deve clicar sobre o campo Clusters Disponíveis para abrir uma lista *(dropdown)* de todos os Clusters configurados na plataforma do Mangue.io, e selecionar o Cluster destino no qual o Deployment é criado e executado.
