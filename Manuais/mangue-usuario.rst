@@ -1585,8 +1585,7 @@ Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.i
   
 
 .. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
-    :alt: Deploy em outros clusters 
-    :scale: 40 %
+    :alt: Deploy em outros clusters
     :align: center
 =====
 
