@@ -1381,10 +1381,9 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
     :scale: 80 %
     :align: center
 =====
+   * **Adicionar PersistentVolumeClaim**: Através desta tela o usuário pode configurar as características do arquivo referente ao *PersistentVolumeClaim* (PVC). 
 
-     * **Adicionar PersistentVolumeClaim**: Através desta tela o usuário pode configurar as características do arquivo referente ao *PersistentVolumeClaim* (PVC). 
-
-A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, abaixo as esclarecemos:
+A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, conforme abaixo:
   
 .. image:: /figuras/fig_mangue/063_mangue_add_pvc.png
     :alt: Adicionar persistentvolume claim
@@ -1395,7 +1394,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a plataforma do Mangue.io apresenta uma barra deslizante (slide bar) que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 gigabyte e o máximo de 100 Gigabytes.
 
-   * **Storage Class**: Este campo é uma lista *(dropdown list)* que é composta apenas por *NFS servers* configurados na plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
+   * **Storage Class**: Este campo é uma lista *(dropdown list)* composta apenas por *NFS servers* configurados na plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
 
    * **Modo de Acesso**: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles: *ReadWriteOnce*, *ReadOnlyMany*, *ReadWriteMany*.
 
@@ -1403,14 +1402,12 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Nome do Volume**: Neste campo o usuário deve informar o nome do arquivo de volume que é criado no ambiente do sistema operacional do *Cluster*.
 
-
    * **Adicionar ConfigMap**: Um *ConfigMap* é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Nesta sub tela, o usuário pode incluir e configurar o(s) arquivo(s) de *ConfigMap(s)* desejado(s) para o seu ambiente.
   
 .. image:: /figuras/fig_mangue/064_mangue_add_configmap.png
     :alt: Adicionar configmap
     :align: center
 =====
-
 
    * **Nome do ConfigMap**: Este campo é obrigatório, o usuário deve informar o nome desejado para cadastrar na plataforma do Mangue.io e identificar este *ConfigMap*.
 
