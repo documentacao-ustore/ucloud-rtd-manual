@@ -1265,7 +1265,7 @@ Nova Aplicação
 
 Esta modalidade é a forma que a plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”.
 
-Abaixo descrevemos as etapas de preenchimento dos formulários das telas que guiam o usuário.
+Abaixo descritas as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
 A. Primeiro Passo: Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1284,7 +1284,7 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
       * **Réplicas**: Este campo é obrigatório, o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a plataforma do Mangue.io se encarrega da alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, efetua uma pesquisa da imagem de uma aplicação no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
             
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
