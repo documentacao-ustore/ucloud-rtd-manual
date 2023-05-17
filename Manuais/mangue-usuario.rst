@@ -1332,8 +1332,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
   
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
-    :alt: Secrets e variáveis do ambiente container 
-    :scale: 80 %
+    :alt: Secrets e variáveis do ambiente container
     :align: center
 =====
 
@@ -1351,35 +1350,30 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
                * Chave do Segredo; 
                * Valor do Segredo; 
                * Botão ``Adicionar``; 
-               * Botão ``Criar Secret``; 
+               * Botão ``Criar Secret``;
+               * Botão ``Voltar``;
+               * Botão ``Finalizar``.
 
 
-   * Botão ``Voltar``;
-
-   * Botão ``Finalizar``.
-
-
-Após o usuário clicar no botão ``Finalizar``, a plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo de nova aplicação ao apresentar a configuração listada desta, abaixo segue o exemplo da lista:
-
+Após o usuário clicar no botão ``Finalizar``, a plataforma do Mangue.io encerra as sub telas e retorna à primeira etapa do processo da nova aplicação, apresenta a configuração listada desta como no exemplo abaixo:
 
 .. image:: /figuras/fig_mangue/061_mangue_lista_aplicacao.png
-    :alt: Lista aplicação 
-    :scale: 80 %
+    :alt: Lista aplicação
     :align: center
 =====
 
 
 Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
-      * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
+   * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
 
-      * **Container**: Esta coluna apresenta o nome do container informado nas etapas anteriores, o início do processo de criação de uma nova aplicação (Deployment).
+   * **Container**: Esta coluna apresenta o nome do container informado nas etapas anteriores, o início do processo de criação de uma nova aplicação (*Deployment*).
 
-      * **Imagem**: Esta coluna apresenta o nome da imagem da aplicação que foi selecionada do servidor de registro de imagens (ex: http://hub.docker.com).
+   * **Imagem**: Esta coluna apresenta o nome da imagem da aplicação que foi selecionada do servidor de registro de imagens (ex: http://hub.docker.com).
 
-      * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
+   * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
 
-      * **Ações**: Esta coluna apresenta um botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna apresenta um botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
@@ -3327,51 +3321,42 @@ Caso seja selecionada a opção de “Escalar Deployment”, é essencial preenc
   
 
 Caso seja selecionado a opção de “Atualizar ConfigMap” é necessário preencher os novos campos, conforme a figura acima, de: 
-                                                                                                                                                                           * ConfigMap: O usuário deve selecionar o ConfigMap que será atualizado.
-                                                                                                                                                                           * Nome do ConfigMap: O usuário deve preencher com o nome do ConfigMap desejado.
+* ConfigMap: O usuário deve selecionar o ConfigMap que será atualizado.
+* Nome do ConfigMap: O usuário deve preencher com o nome do ConfigMap desejado.
 É possível adicionar ou remover arquivos clicando nos ícones de “  ” e “  ” respectivamente.
 Os campos de um arquivo de ConfigMap são:
-                                                                                                                                                                           * Nome do Arquivo: O usuário deverá informar no nome do arquivo que será criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
-                                                                                                                                                                           * Conteúdo do Arquivo: O usuário deverá preencher com o conteúdo específico do arquivo a ser criado.
+* Nome do Arquivo: O usuário deve informar no nome do arquivo a ser criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
+* Conteúdo do Arquivo: O usuário deve preencher com o conteúdo específico do arquivo a ser criado.
 
 
 Storage
 =======
 
 Lidar com aplicações em contêineres tem alguns desafios, e um destes desafio é como interagir com arquivos em disco. Os arquivos em disco de um container são efêmeros, isto representa alguns problemas para aplicações não triviais empacotadas em containers. Primeiro, quando um container falha, o Mangue.io tenta reiniciá-lo, mas com isso os arquivos em disco serão perdidos, logo, o container começa sempre com um estado limpo. Em segundo lugar, ao executar containers juntos em um Pod, geralmente é necessário compartilhar arquivos entre esses contêineres. A abstração de Volume do Kubernetes utilizada no Mangue.io resolve esses dois problemas (para o ambiente Docker é diferente[4]).
-Por outro lado, um volume do Kubernetes (utilizado pelo Mangue.io) tem uma vida útil explícita – o mesmo que o Pod que o contém. Consequentemente, um volume ultrapassa todos os contêineres que são executados no Pod e os dados são preservados nas reinicializações deste mesmo contêiner. Naturalmente, quando um Pod deixa de existir, o volume deixa de existir também. Talvez mais importante do que isso, como o Kubernetes suporta muitos tipos de volumes, e um Pod pode usar qualquer número deles simultaneamente, a plataforma do Mangue.io também herdou essa capacidade. 
+Por outro lado, um volume do Kubernetes (utilizado pelo Mangue.io) tem uma vida útil explícita – o mesmo que o Pod que o contém. Consequentemente, um volume ultrapassa todos os contêineres que são executados no Pod e os dados são preservados nas reinicializações deste mesmo contêiner. Naturalmente, quando um Pod deixa de existir, o volume deixa de existir também. Talvez mais importante do que isso, como o Kubernetes suporta muitos tipos de volumes, e um Pod pode usar qualquer número deles simultaneamente, a plataforma do Mangue.io também herda essa capacidade. 
 Em sua essência, um Volume é apenas um diretório, possivelmente com alguns dados, que são acessíveis aos contêineres em um Pod. O diretório é o “local”, e seu “conteúdo” é determinado pelo tipo de volume específico utilizado.
 Na sessão de Storage o usuário encontra os menus relacionados a estrutura de armazenamento de dados persistentes em Kubernetes. É possível por navegar por três estruturas diferentes:
-                                                                                                                                                                           * StorageClass
-                                                                                                                                                                           * Persistent Volumes
-                                                                                                                                                                           * Persistent Volume Claims
+* StorageClass
+* Persistent Volumes
+* Persistent Volume Claims
 
 
 StorageClass
 ------------
 
 Os StorageClass são responsáveis por criar classes de storage de diferentes tipos, pode-se encarar como exemplo o seguinte cenário:
-                                                                                                                                                                           1. Um usuário tem dois tipos de discos montados em dois NFS servers diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações.
-                                                                                                                                                                           2. Desta forma o usuário deverá criar dois StorageClass diferentes, cada um representa um servidor de NFS: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo.
-Quando o usuário selecionar o menu Storage/StorageClass a plataforma do Mangue.io apresentará a lista de todos os StorageClass que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
-  
-
-
+1. Um usuário tem dois tipos de discos montados em dois NFS servers diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações.
+2. Desta forma o usuário deve criar dois StorageClass diferentes, cada um representa um servidor de NFS: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo.
+Quando o usuário selecionar o menu Storage/StorageClass a plataforma do Mangue.io apresenta a lista de todos os StorageClass que existem configurados no cluster que foi selecionado na aba engrenagens “Seleção de Configuração” da plataforma do Mangue.io. 
 
 Abaixo são descritos as colunas desta lista:
-                                                                                                                                                                           * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                                                           * Nome: Nome do StorageClass.
-                                                                                                                                                                           * Provisioner: Nome do provisionador do StorageClass.
-                                                                                                                                                                           * Duração: Descreve há quanto tempo atrás o recurso foi criado.
-                                                                                                                                                                           * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
-  
-
-                                                                                                                                                                              * Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-  
-
-
-
-                                                                                                                                                                              * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este StorageClass pode apresentar um erro fatal (crash) em sua execução.
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo"|icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nome do StorageClass.
+* Provisioner: Nome do provisionador do StorageClass.
+* Duração: Descreve há quanto tempo atrás o recurso foi criado.
+* Ações: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
+* Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este StorageClass pode apresentar um erro fatal (*crash*) em sua execução.
 
 
 
@@ -3381,32 +3366,24 @@ PersistentVolume
 
 Os PersistentVolumes (PV) são uma parte do armazenamento no cluster que foi provido por um administrador ou provisionado dinamicamente usando StorageClass. É um recurso do cluster, assim como um node. PVs são plugins de volume como o recurso Volumes, mas têm um ciclo de vida independente de qualquer Pod individual que usa o PV.
 Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Mangue.io apresenta a lista de todos os PersistentVolumes que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
-  
-
-                                                                                                                                                                              * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                                                              * Capacity: Esta coluna apresenta o tamanho/capacidade do PersistentVolume em Gigabytes.
-                                                                                                                                                                              * Access Modes: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
-                                                                                                                                                                                 * ReadWriteOnce: O volume será montado e poderá receber instruções de leitura e escrita apenas de um único node.
-                                                                                                                                                                                 * ReadOnlyMany: O volume será montado e tem permissão apenas de leitura, mas de diferentes nodes simultaneamente, não sendo permitido escrita.
-                                                                                                                                                                                 * ReadWriteMany: O volume será montado e poderá receber instruções de leitura e escrita simultaneamente, mas de diferentes nodes.
-                                                                                                                                                                                 * Reclaim Policy: Quando um usuário conclui seu volume, ele pode excluir os objetos do Persistent Volumes Claim da API que permite a recuperação (reclaim) do recurso. A política de recuperação para um PersistentVolume informa ao cluster o que fazer com o volume depois que ele for liberado da sua reivindicação. Existem atualmente três políticas de recuperação:
-                                                                                                                                                                                 * Retain: A política (retain) permite a recuperação manual do recurso. Quando o PersistentVolumeClaim é excluído, o PersistentVolume ainda existe e o volume é considerado "liberado". Mas ainda não está disponível para outra reclamação porque os dados do reclamante anterior permanecem no volume.
-                                                                                                                                                                                 * Delete: Para volumes que oferecem suporte à política de recuperação de exclusão, esta remove o objeto PersistentVolume do Kubernetes, bem como o arquivo de armazenamento associado na infraestrutura externa (por ex.: um volume AWS EBS, GCP PD ou Disco do Azure).
-                                                                                                                                                                                 * Recycle: Nesta última opção a política de recuperação para um PersistentVolume permite ao cluster fazer uma limpeza básica. 
-                                                                                                                                                                                 * Status: Esta coluna apresenta a situação atual (status) da solicitação do volume, existem dois status que podem ser apresentados:
-                                                                                                                                                                                 * Bound: Quando as vinculações (binding) do tamanho volume correspondem ao espaço designado no ambiente computacional do node.
-                                                                                                                                                                                 * Unbound: Quando as vinculações (binding) do tamanho do volume não correspondem ao espaço designado no ambiente computacional do  node.
-                                                                                                                                                                                 * StorageClass: Esta coluna apresenta o nome do StorageClass ao qual o PersistentVolume está associado.
-                                                                                                                                                                                 * Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
-                                                                                                                                                                                 * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
-  
-
-                                                                                                                                                                                    * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-  
-
-
-
-                                                                                                                                                                                    * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolume poderá apresentar um erro fatal (crash) em sua execução.
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Capacity: Esta coluna apresenta o tamanho/capacidade do PersistentVolume em Gigabytes.
+* Access Modes: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
+* ReadWriteOnce: O volume será montado e poderá receber instruções de leitura e escrita apenas de um único node.
+* ReadOnlyMany: O volume será montado e tem permissão apenas de leitura, mas de diferentes nodes simultaneamente, não sendo permitido escrita.
+* ReadWriteMany: O volume será montado e poderá receber instruções de leitura e escrita simultaneamente, mas de diferentes nodes.
+* Reclaim Policy: Quando um usuário conclui seu volume, ele pode excluir os objetos do Persistent Volumes Claim da API que permite a recuperação (reclaim) do recurso. A política de recuperação para um PersistentVolume informa ao cluster o que fazer com o volume depois que ele for liberado da sua reivindicação. Existem atualmente três políticas de recuperação:
+* Retain: A política (retain) permite a recuperação manual do recurso. Quando o PersistentVolumeClaim é excluído, o PersistentVolume ainda existe e o volume é considerado "liberado". Mas ainda não está disponível para outra reclamação porque os dados do reclamante anterior permanecem no volume.
+* Delete: Para volumes que oferecem suporte à política de recuperação de exclusão, esta remove o objeto PersistentVolume do Kubernetes, bem como o arquivo de armazenamento associado na infraestrutura externa (por ex.: um volume AWS EBS, GCP PD ou Disco do Azure).
+* Recycle: Nesta última opção a política de recuperação para um PersistentVolume permite ao cluster fazer uma limpeza básica. 
+* Status: Esta coluna apresenta a situação atual (status) da solicitação do volume, existem dois status que podem ser apresentados:
+* Bound: Quando as vinculações (binding) do tamanho volume correspondem ao espaço designado no ambiente computacional do node.
+* Unbound: Quando as vinculações (binding) do tamanho do volume não correspondem ao espaço designado no ambiente computacional do  node.
+* StorageClass: Esta coluna apresenta o nome do StorageClass ao qual o PersistentVolume está associado.
+* Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
+* Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolume poderá apresentar um erro fatal (crash) em sua execução.
 
 
 PersistentVolumeClaims
@@ -3415,27 +3392,18 @@ PersistentVolumeClaims
 Os PersistentVolumeClaims (PVC) são uma solicitação de armazenamento por um usuário. É semelhante a um pod. Os pods consomem recursos do node e os PVCs consomem recursos PV. Os pods podem solicitar níveis específicos de recursos (CPU e memória). Os PVCs podem solicitar tamanhos específicos de armazenamento e modos de acesso (por exemplo, eles podem ser montados ReadWriteOnce, ReadOnlyMany ou ReadWriteMany).
 O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um determinado namespace do cluster, a tabela exibe informações como:
   
-
-
-
-                                                                                                                                                                                    * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                                                                    * Nome: Responsável por identificar o nome do PVC
-                                                                                                                                                                                    * Capacidade: Esta coluna apresenta o tamanho/capacidade do PersistentVolumeClaim em Gigabytes.
-                                                                                                                                                                                    * Status: Responsável por identificar o estado do PVC, geralmente podem ser os seguintes estados:
-                                                                                                                                                                                       * Bound: Quando o PVC foi criado com sucesso.
-                                                                                                                                                                                       * Pending: Quando está no aguardo de alguma instrução para que seja criado com sucesso.
-                                                                                                                                                                                       * Terminating: Quando está no aguardo de alguma instrução para que seja deletado com sucesso.
-                                                                                                                                                                                       * Provisioner: Responsável por identificar qual StorageClass aquele PVC está utilizando.
-                                                                                                                                                                                       * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
-                                                                                                                                                                                       * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
-  
-
-                                                                                                                                                                                          * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-  
-
-
-
-                                                                                                                                                                                          * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolumeClaim pode apresentar um erro fatal (crash) em sua execução.
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Responsável por identificar o nome do PVC
+* Capacidade: Esta coluna apresenta o tamanho/capacidade do PersistentVolumeClaim em Gigabytes.
+* Status: Responsável por identificar o estado do PVC, geralmente podem ser os seguintes estados:
+* Bound: Quando o PVC foi criado com sucesso.
+* Pending: Quando está no aguardo de alguma instrução para que seja criado com sucesso.
+* Terminating: Quando está no aguardo de alguma instrução para que seja deletado com sucesso.
+* Provisioner: Responsável por identificar qual StorageClass aquele PVC está utilizando.
+* Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
+* Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolumeClaim pode apresentar um erro fatal (crash) em sua execução.
 
 
 Tarefas
@@ -3444,33 +3412,25 @@ Tarefas
 A plataforma do Mangue.io é um ambiente que se comunica com o gerenciador de container Kubernetes via API-Restful, desta forma sempre que o usuário adiciona, ou re-configura algum recurso através da interface do Mangue.io, a plataforma envia uma ‘tarefa’ via API-Restful para o cluster Kubernetes para que esta tarefa seja executada.
 Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta-a para o usuário na tabela da interface. Abaixo a tela Tarefas exibe um exemplo:
 
-
-  
-
 Na lista podemos encontrar o status das tarefas referentes ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io:
-                                                                                                                                                                                          * Operação: Nesta coluna é apresentado uma descrição sucinta da tarefa que foi executada pelo usuário através da interface do Mangue.io.
-                                                                                                                                                                                          * Cluster: Nesta coluna é apresentado a identificação do cluster em que a tarefa ocorreu.
-                                                                                                                                                                                          * Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
-                                                                                                                                                                                          * Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
+* Operação: Nesta coluna é apresentado uma descrição sucinta da tarefa que foi executada pelo usuário através da interface do Mangue.io.
+* Cluster: Nesta coluna é apresentado a identificação do cluster em que a tarefa ocorreu.
+* Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
+* Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
   
-
-                                                                                                                                                                                          * Data de Início: Esta coluna apresenta a data e hora em que a tarefa foi criada na plataforma do Mangue.io. O formato de data a apresentação é de: dia/mês/ano (padrão brasileiro – DD/MM/AAA), para o formato de hora é de: hora, minuto e segundo (formato 24 horas – HH:MM:SS).
-                                                                                                                                                                                          * Criado em: Esta coluna apresenta a quantidade de dias decorridos desde a data de início da tarefa (coluna anterior)
-                                                                                                                                                                                          * Status: Esta coluna apresenta o conteúdo da mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta esta resposta para o usuário em três status diferentes:
-                                                                                                                                                                                          * SUCCESS: Tarefa enviada para o Kubernetes e foi processada com sucesso;
-                                                                                                                                                                                          * PENDING: Tarefa enviada para o Kubernetes e está sendo processada, até o presente momento não foi encerrada;
-                                                                                                                                                                                          * FAILED: Tarefa enviada para o Kubernetes e seu processamento gerou erro/falha durante a tentativa de sua execução.
+* Data de Início: Esta coluna apresenta a data e hora em que a tarefa foi criada na plataforma do Mangue.io. O formato de data a apresentação é de: dia/mês/ano (padrão brasileiro – DD/MM/AAA), para o formato de hora é de: hora, minuto e segundo (formato 24 horas – HH:MM:SS).
+* Criado em: Esta coluna apresenta a quantidade de dias decorridos desde a data de início da tarefa (coluna anterior)
+* Status: Esta coluna apresenta o conteúdo da mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta esta resposta para o usuário em três status diferentes:
+* SUCCESS: Tarefa enviada para o Kubernetes e foi processada com sucesso;
+* PENDING: Tarefa enviada para o Kubernetes e está sendo processada, até o presente momento não foi encerrada;
+* FAILED: Tarefa enviada para o Kubernetes e seu processamento gerou erro/falha durante a tentativa de sua execução.
 
 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
-  
-
-
-
-                                                                                                                                                                                          * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa por alguma parte do texto presente na coluna “Operação”. Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas as linhas que contiverem a palavra-chave da pesquisa.
+* A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa por alguma parte do texto presente na coluna “Operação”. Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas as linhas que contiverem a palavra-chave da pesquisa.
 Esta pesquisa é sensível ao caso das letras (maiúsculas / minúsculas), portanto, o resultado da busca pela palavra “Deletar” será diferente do resultado da busca pela palavra “deletar”.
 Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/string deste campo, e clicar sobre o ícone da lupa “  ” (busca por campo em ‘branco’) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
-                                                                                                                                                                                             * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os status mais recentes desta tabela de tarefas.
+* A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os status mais recentes desta tabela de tarefas.
 
 
 Clusters Workloads
@@ -3480,27 +3440,22 @@ Esta opção de menu lista todas as cargas de trabalho (workloads) existentes em
 Inicialmente, é relevante esclarecer o que é exatamente uma carga de trabalho (workload). No Kubernetes, não há objeto, componente e qualquer tipo de construção chamada “carga de trabalho”. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu cluster. Pode ser sinônimo de microsserviços, aplicativos, containers ou processos. As cargas de trabalho, geralmente, são processos de longa duração, mas também podem ser de curta duração sob demanda ou jobs em lote.
 A plataforma do Mangue.io pode gerenciar diversos componentes que o Kubernetes oferece para gerenciar e configurar suas cargas de trabalho. Pode-se listar pods e para os componentes que encapsulam pods, como ReplicaSets, Deployments, DaemonSets e StatefulSets. Em seguida, detalhamento sobre os componentes periféricos, como Serviços, EndPoints e Ingress.
 Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser extensa. Abaixo está apresentado um exemplo de um destes componentes que são listados na tela:
-  
 
+* # ‘coluna acionável’: Esta coluna apresenta o número sequencial da workload na lista exibida.
+* Nome: Esta coluna apresenta o nome do workload que foi criado durante o processo de inclusão deste componente na plataforma do Mangue.io.
+* Tipo: Esta coluna apresenta o tipo específico do(s) componente(s) workload(s).
+* Deployments
+* Daemonsets
+* Horizontal Autoscaler
+* Pods
+* Statefulsets
+* Updates
+* Réplicas: Esta coluna apresenta a quantidade de réplicas ativas que este componente possui no presente momento da consulta.
+* Cluster: Esta coluna apresenta o nome do cluster o qual o componente está associado. A plataforma do Mangue.io exibe todos os clusters com os quais possui configuração de integração.
+* Namespace: Esta coluna apresenta o nome do namespace que o componente está associado.
 
-
-                                                                                                                                                                                                * # ‘coluna acionável’: Esta coluna apresenta o número sequencial da workload na lista exibida.
-                                                                                                                                                                                                * Nome: Esta coluna apresenta o nome do workload que foi criado durante o processo de inclusão deste componente na plataforma do Mangue.io.
-                                                                                                                                                                                                * Tipo: Esta coluna apresenta o tipo específico do(s) componente(s) workload(s).
-                                                                                                                                                                                                * Deployments
-                                                                                                                                                                                                * Daemonsets
-                                                                                                                                                                                                * Horizontal Autoscaler
-                                                                                                                                                                                                * Pods
-                                                                                                                                                                                                * Statefulsets
-                                                                                                                                                                                                * Updates
-                                                                                                                                                                                                * Réplicas: Esta coluna apresenta a quantidade de réplicas ativas que este componente possui no presente momento da consulta.
-                                                                                                                                                                                                * Cluster: Esta coluna apresenta o nome do cluster o qual o componente está associado. A plataforma do Mangue.io exibe todos os clusters com os quais possui configuração de integração.
-                                                                                                                                                                                                * Namespace: Esta coluna apresenta o nome do namespace que o componente está associado.
 Caso o usuário necessite visualizar todas as informações detalhadas de um componente presente na lista, basta clicar com o cursor do mouse sobre o nome do componente e a plataforma do Mangue.io apresenta as mesmas informações presentes no menu Workloads (exemplo de informações de um deployment abaixo):
   
-
-
-
 ________________
 
 
