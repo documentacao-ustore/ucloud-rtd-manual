@@ -1425,31 +1425,31 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não será solicitada uma confirmação desta ação**.
 
+====
 
 B. Validar Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se o usuário clicar com o mouse sobre o nome do container a plataforma do Mangue.io apresenta uma tela com as informações dos Recursos do Container.
+Se o usuário clicar com o mouse sobre o nome do container a plataforma do Mangue.io apresenta uma tela com as informações dos recursos do container.
 
 A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *ConfigMap*, do container que o usuário configurou para a aplicação e lista estes recursos conforme o exemplo da tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/065_mangue_recurso_container.png
-    :alt: Recurso container 
-    :scale: 80 %
+    :alt: Recurso container
     :align: center
 =====
 
 
    * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
 
-   * **Nome**: Esta coluna apresenta o nome do recurso informado nas etapas anteriores.
+   * **Nome**: Esta coluna mostra o nome do recurso informado nas etapas anteriores.
 
-   * **Tipo**: Esta coluna apresenta o tipo do recurso que foi criado nas etapas anteriores.
+   * **Tipo**: Esta coluna exibe o tipo do recurso que foi criado nas etapas anteriores.
 
    * **Mount Path**: Esta coluna apresenta a informação do diretório do sistema operacional conforme foi configurado nas etapas anteriores.
 
-   * **Ações**: Esta coluna apresenta um botão de ação |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna exibe o botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/066_mangue_acoes_recursos.png
