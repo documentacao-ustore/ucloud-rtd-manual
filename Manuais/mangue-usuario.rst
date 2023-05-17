@@ -1284,7 +1284,7 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
       * **Réplicas**: Este campo é obrigatório, o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a plataforma do Mangue.io se encarrega da alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io efetua a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io realiza a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
             
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
@@ -1294,15 +1294,15 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
 Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para selecionar a melhor imagem disponível.
 
-   * **Nome do Container**: Este campo é obrigatório, neste o usuário deve informar o nome com o qual o usuário pretende identificar este dentro da plataforma do Mangue.io;
+   * **Nome do Container**: Este campo é obrigatório, neste deve ser informado o nome do container a ser usado na plataforma do Mangue.io;
 
    * **Bloquear execução de usuário privilegiado**: Neste campo o usuário pode bloquear os containers do *Deployment* para que sejam executados de forma privilegiada, com acesso aos recursos e as capacidades *Kernel* da máquina *Host*;
 
-   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
+   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo é possível indicar o ID de usuário, grupo ou arquivo de sistema que o container é executado.
 
-   * **Tags da Aplicação**: Neste campo o usuário pode informar as *Tags* da aplicação. Também é possível criar uma *Tag* para ser associada à aplicação;
+   * **Tags da Aplicação**: Neste campo o usuário pode informar as *Tags*, assim como criar uma *Tag* para ser associada à aplicação;
 
-   * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas; após o usuário confirmar a ação no botão “Adicionar” o usuário vê a seguinte tela:
+   * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas. Após o usuário confirmar a ação no botão ``Adicionar`` o usuário visualiza a seguinte tela:
 
 
 .. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
