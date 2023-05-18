@@ -1079,7 +1079,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
     :align: center
 =====
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhea uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: É a representação do nome do *Statefulsets*;
 
@@ -1693,25 +1693,26 @@ Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e 
 ConfigMap
 =========
 
-De forma simples, pode-se afirmar que ConfigMap é um conjunto de pares de chave-valor para armazenamento de configurações, que fica armazenado dentro de arquivos que podem ser consumidos através de pods. Ele é muito parecido com Secrets, mas fornece um modo de se trabalhar com strings que não possuem dados confidenciais, como senhas, chaves, tokens e outros dados sigilosos.
+De forma simples, pode-se afirmar que *ConfigMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
 
-Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato JSON complexos e cheios de regras.
+Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
 
-Vale ressaltar que um arquivo de configmap pode conter, sim, o conteúdo complexo de um JSON, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo JSON.
+Vale ressaltar que um arquivo de *configmap* pode conter, sim, o conteúdo complexo de um *JSON*, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo *JSON*.
 
-Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela abaixo, que contém uma listagem de todos os configmaps cadastrados na plataforma.
+Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela a seguir a qual contém uma listagem de todos os *configmaps* cadastrados na plataforma.
   
 .. image:: /figuras/fig_mangue/073_mangue_configmaps.png
     :alt: Configmaps
-    :scale: 80 %
     :align: center
 =====
 
 
 Abaixo a descrição de cada coluna desta tabela:
 
-                                             * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                             * Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+
+
+* Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo 
