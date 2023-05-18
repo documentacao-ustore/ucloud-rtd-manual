@@ -1592,47 +1592,69 @@ Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.i
 
 Na sequência o detalhamento de cada objeto acionável desta tela.
 
+====
+
+
 A. *Clusters* disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário deve clicar sobre o campo "Clusters disponíveis" para abrir uma lista *(dropdown)* de todos os *Clusters* configurados na plataforma do Mangue.io, selecionar o *Cluster* destino no qual o *Deployment* é criado e executado.
+O usuário deve clicar sobre o campo "Clusters disponíveis" para abrir uma lista *(dropdown)* de todos os *Clusters* configurados na plataforma do Mangue.io, em seguida, selecionar o *Cluster* destino no qual o *Deployment* é criado e executado.
 
 Existe uma mensagem presente na tela que é importante ressaltar para o processo de criação do *Deployment* via *YAML*.
 
 .. note:: Caso nenhum *Cluster* seja selecionado é feito o *deploy* apenas no *Cluster* utilizado atualmente.
-	
+
+====
+
 
 B. Template
 ~~~~~~~~~~~
 
-Na sequência o usuário deve selecionar uma das opções de modelo (*template*) de código *YAML* que está previamente configurado na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário, cada tipo de modelo é uma opção na lista (*dropdown*):
+Na sequência o usuário deve selecionar uma das opções do modelo (*template*) de código *YAML* que está previamente configurado na plataforma do Mangue.io, esta funcionalidade agrega produtividade ao usuário, cada tipo de modelo é uma opção na lista (*dropdown*):
 
-* **Default**: Permite ao usuário configurar o código *YAML* de forma livre. Nesta opção o usuário deve possuir um bom conhecimento da sintaxe *YAML* para entrar com o código desejado. O usuário deve iniciar clicando com o mouse na área cinza ao lado do número “1”, antes de iniciar a digitação do seu código *YAML*. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe do seu código linha a linha. Através desta opção, o usuário pode entrar com um código *YAML* para criar, para provisionar um novo *Pod* na plataforma do Mangue.io.
-* **Deployment**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Deployment*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do *Deployment*, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Default**: Permite ao usuário configurar o código *YAML* de forma livre. Nesta opção o usuário deve possuir um bom conhecimento da sintaxe *YAML* para entrar com o código desejado. O usuário deve iniciar clicando com o mouse na área cinza ao lado do número “1”, antes de iniciar a digitação do seu código *YAML*. 
+
+.. attention:: A cada nova linha o usuário deve usar a tecla ``Enter`` para iniciar uma nova linha. 
+
+O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe do seu código linha a linha. Através desta opção, o usuário pode entrar com um código *YAML* para criar, para provisionar um novo *Pod* na plataforma do Mangue.io.
+
+
+* **Deployment**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Deployment*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do *Deployment*. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
+
 * **Serviço**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do serviço, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
-* **Statefulsets**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Statefulsets*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos para o *Statefulsets*, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
-* **Volume**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Volume. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos para o Volume, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
-* **Ingress**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar uma definição de *Ingress*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
+
+* **Statefulsets**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Statefulsets*. O usuário pode clicar no mouse na linha e no local desejado, em seguida, é liberado começar a digitação dos seus parâmetros específicos para o *Statefulsets*. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
+
+* **Volume**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Volume. O usuário pode clicar no mouse na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos para o Volume. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
+
+* **Ingress**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar uma definição de *Ingress*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+
 
 O usuário experiente em *YAML* pode perceber que o uso de modelos aumenta a produtividade e mantém o código bem documentado e estruturado, de acordo com as melhores práticas.
+
+====
 
 C. Browse
 ~~~~~~~~~
 
-Este botão permite ao usuário carregar (upload) um arquivo tipo texto não formatado (ASCII), com um código YAML previamente criado pelo usuário. O usuário deve clicar sobre o botão “Browse” para que a plataforma do Mangue.io apresente a tela do Explorador de Arquivos (File Explorer) de seu computador para que o usuário possa selecionar o folder/diretório onde se localiza o arquivo de seu código.
+Este botão permite ao usuário carregar (*upload*) um arquivo tipo texto não formatado (ASCII), com um código *YAML* previamente criado pelo usuário. O usuário deve clicar sobre o botão ``Browse`` para que a plataforma do Mangue.io possa apresentar a tela do "Explorador de Arquivos" (*File Explorer*) do seu computador e o usuário possa selecionar o folder/diretório onde se localiza o arquivo do seu código.
 
-A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e *.yml” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
+A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e *.yml*” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
   
 .. image:: /figuras/fig_mangue/071_mangue_arquivo_yaml.png
-    :alt: Localizar e selecionar arquivo  
-    :scale: 80 %
+    :alt: Localizar e selecionar arquivo
     :align: center
 =====
 
+Quando o usuário selecionar o arquivo desejado, basta clicar o botão ``Abrir / Open`` para que a plataforma do Mangue.io carregue o conteúdo do arquivo selecionado para a interface, momento que o usuário visualiza que a plataforma do Mangue.io numera, sequencialmente, todas as linhas do código carregado.
 
-Quando o usuário selecionar o arquivo desejado, basta clicar o botão “Abrir / Open” para que a plataforma do Mangue.io carregue o conteúdo do arquivo selecionado para a interface, e o usuário repara que a plataforma do Mangue.io numera, sequencialmente, todas as linhas do código carregado.
+Neste ponto, o usuário pode editar o código diretamente através da interface da plataforma do Mangue.io, para personalizar ou corrigir qualquer linha do código *YAML* presente na tela.
 
-Neste ponto o usuário pode editar o código diretamente através da interface da plataforma do Mangue.io, para personalizar ou corrigir qualquer linha do código YAML presente na tela.
+====
 
 D. Submit
 ~~~~~~~~~
@@ -1642,6 +1664,8 @@ Quando o usuário estiver satisfeito com o conteúdo de todo código YAML e est�
 Neste ponto a plataforma do Mangue.io encerra as telas de criação de aplicação (Deployment) e o usuário pode encontrar sua nova aplicação listada na tela do menu Workloads/Deployments.
 
 O usuário pode ter uma quantidade maior de informações de sua nova aplicação no menu Informações do Deployment.
+
+====
 
 E. Server VS Code
 ~~~~~~~~~~~~~~~~~
