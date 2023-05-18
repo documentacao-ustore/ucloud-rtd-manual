@@ -1312,7 +1312,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Versão da Imagem**: Este campo é obrigatório, neste o usuário deve informar como a aplicação *(Deployment)* é identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
-   * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar porta TCP-IP do container que pode ser utilizada para que a aplicação *(Deployment)* fique disponível para o acesso de outros usuários;
+   * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar qual porta TCP-IP do container pode ser utilizada para que a aplicação *(Deployment)* ficar disponível ao acesso de outros usuários;
 
      * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
@@ -1373,7 +1373,7 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
    * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
 
-   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
@@ -1423,7 +1423,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Editar Container**: Quando selecionada esta opção a plataforma do Mangue.io apresenta a tela referente ao **Primeiro Passo: Nova Aplicação**, para que o usuário possa editar as configurações deste container.
 
-   * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não será solicitada uma confirmação desta ação**.
+   * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não é solicitada uma confirmação desta ação**.
 
 ====
 
@@ -1481,7 +1481,7 @@ C. Segundo passo: Deploy nos Clusters
 
 Esta seção possibilita ao usuário entender como operar uma facilidade desta plataforma. Ela permite criar, lançar e executar esta nova aplicação (*Deployment*) em mais de um *Cluster*, simultaneamente. 
 
-A plataforma possibilita operacionalizar a seleção de um ou mais *Cluster*(s), atualmente configurados no ambiente do Mangue.io. Abaixo a imagem e a descrição detalhada da seção:
+A plataforma possibilita operacionalizar a seleção de um ou mais *Cluster(s)*, atualmente configurados no ambiente do Mangue.io. Abaixo a imagem e a descrição detalhada da seção:
   
 
 .. image:: /figuras/fig_mangue/068_mangue_deploy_clusters.png
@@ -1503,7 +1503,7 @@ Conforme mencionado no início deste tópico, o objetivo desta primeira abordage
 
 A criação de código em sintaxe *YAML* em ambiente *Kubernetes* demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente *Kubernetes* (por exemplo: uma aplicação / *Deployment*).
 
-O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente Kubernetes pode ser muito longo, as dependências entre as seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
+O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente *Kubernetes* pode ser muito longo, as dependências entre as seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
 
 Um *script* genérico encontrado no ambiente virtual pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
 
