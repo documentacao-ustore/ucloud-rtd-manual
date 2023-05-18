@@ -1659,11 +1659,11 @@ Neste ponto, o usuário pode editar o código diretamente através da interface 
 D. Submit
 ~~~~~~~~~
 
-Quando o usuário estiver satisfeito com o conteúdo de todo código YAML e está seguro de que este código está correto, basta clicar no botão verde “Submit” para que a plataforma do Mangue.io efetue a carga do código e sua consequente compilação para disponibilizar este código como um Deployment, Serviço, Statefulsets, Volume ou Ingress.
+Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetuar a carga do código e sua consequente compilação e disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
 
-Neste ponto a plataforma do Mangue.io encerra as telas de criação de aplicação (Deployment) e o usuário pode encontrar sua nova aplicação listada na tela do menu Workloads/Deployments.
+Neste ponto, a plataforma do Mangue.io encerra as telas de criação da aplicação (*Deployment*), então o usuário pode encontrar sua nova aplicação listada no menu *Workloads/Deployments*.
 
-O usuário pode ter uma quantidade maior de informações de sua nova aplicação no menu Informações do Deployment.
+O usuário pode visualizar uma quantidade maior de informações da sua nova aplicação no menu Informações do *Deployment*.
 
 ====
 
@@ -1672,21 +1672,20 @@ E. Server VS Code
 
 .. image:: /figuras/fig_mangue/072_mangue_add_vscode.png
     :alt: Adicionar Server VS Code
-    :scale: 80 %
     :align: center
 =====  
 
 Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e preencher os campos abaixo:
 
-                                             * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
-                                             * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
-                                             * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
-                                             * Porta: O usuário pode selecionar a porta que é utilizada no serviço.
-                                             * Tipo do Tamanho: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
-                                             * Ingress Class: Caso o tipo de serviço selecionado seja Ingress é necessário selecionar a Ingress Class a ser utilizada pelo serviço.
-                                             * URL do Servidor VS Code: Caso o tipo de serviço selecionado seja Ingress é necessário especificar o caminho da rota do Ingress. Exemplo: /vscode
-                                             * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
-                                             * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
+   * **Nome do servidor VS Code**: Nome do servidor *Visual Studio Code* a ser criado;
+   * **Tamanho do servidor VS Code**: Tamanho de disco a ser disponibilizado para o *Visual Studio Code*. A medida do tamanho é definida no campo "Tipo do tamanho".
+   * **Tipo de serviço**: O usuário pode selecionar o tipo de serviço a ser atribuído ao *deployment* do *Visual Studio Code*. As opções disponíveis são: *Cluster IP*, *NodePort*, *Load Balancer* e *Ingress*.
+   * **Porta**: O usuário pode selecionar a porta que é utilizada no serviço.
+   * **Tipo do tamanho**: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
+   * **Ingress Class**: Caso o tipo de serviço selecionado seja *Ingress* é necessário selecionar a *Ingress Class* a ser utilizada pelo serviço.
+   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho da rota do *Ingress*. Exemplo: /vscode.
+   * **Ativar autenticação**: O usuário pode atribuir uma senha, ela é necessária para acessar o servidor *VS Code*.
+   * **Senha do servidor VS Code**: Senha a ser utilizada para acessar o servidor *VS Code*.
 
 ====
 
