@@ -1079,7 +1079,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
     :align: center
 =====
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhea uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: É a representação do nome do *Statefulsets*;
 
@@ -1659,11 +1659,11 @@ Neste ponto, o usuário pode editar o código diretamente através da interface 
 D. Submit
 ~~~~~~~~~
 
-Quando o usuário estiver satisfeito com o conteúdo de todo código YAML e está seguro de que este código está correto, basta clicar no botão verde “Submit” para que a plataforma do Mangue.io efetue a carga do código e sua consequente compilação para disponibilizar este código como um Deployment, Serviço, Statefulsets, Volume ou Ingress.
+Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetuar a carga do código e sua consequente compilação e disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
 
-Neste ponto a plataforma do Mangue.io encerra as telas de criação de aplicação (Deployment) e o usuário pode encontrar sua nova aplicação listada na tela do menu Workloads/Deployments.
+Neste ponto, a plataforma do Mangue.io encerra as telas de criação da aplicação (*Deployment*), então o usuário pode encontrar sua nova aplicação listada no menu *Workloads/Deployments*.
 
-O usuário pode ter uma quantidade maior de informações de sua nova aplicação no menu Informações do Deployment.
+O usuário pode visualizar uma quantidade maior de informações da sua nova aplicação no menu Informações do *Deployment*.
 
 ====
 
@@ -1672,21 +1672,20 @@ E. Server VS Code
 
 .. image:: /figuras/fig_mangue/072_mangue_add_vscode.png
     :alt: Adicionar Server VS Code
-    :scale: 80 %
     :align: center
 =====  
 
 Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e preencher os campos abaixo:
 
-                                             * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
-                                             * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
-                                             * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
-                                             * Porta: O usuário pode selecionar a porta que é utilizada no serviço.
-                                             * Tipo do Tamanho: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
-                                             * Ingress Class: Caso o tipo de serviço selecionado seja Ingress é necessário selecionar a Ingress Class a ser utilizada pelo serviço.
-                                             * URL do Servidor VS Code: Caso o tipo de serviço selecionado seja Ingress é necessário especificar o caminho da rota do Ingress. Exemplo: /vscode
-                                             * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
-                                             * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
+   * **Nome do servidor VS Code**: Nome do servidor *Visual Studio Code* a ser criado;
+   * **Tamanho do servidor VS Code**: Tamanho de disco a ser disponibilizado para o *Visual Studio Code*. A medida do tamanho é definida no campo "Tipo do tamanho".
+   * **Tipo de serviço**: O usuário pode selecionar o tipo de serviço a ser atribuído ao *deployment* do *Visual Studio Code*. As opções disponíveis são: *Cluster IP*, *NodePort*, *Load Balancer* e *Ingress*.
+   * **Porta**: O usuário pode selecionar a porta que é utilizada no serviço.
+   * **Tipo do tamanho**: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
+   * **Ingress Class**: Caso o tipo de serviço selecionado seja *Ingress* é necessário selecionar a *Ingress Class* a ser utilizada pelo serviço.
+   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho da rota do *Ingress*. Exemplo: /vscode.
+   * **Ativar autenticação**: O usuário pode atribuir uma senha, ela é necessária para acessar o servidor *VS Code*.
+   * **Senha do servidor VS Code**: Senha a ser utilizada para acessar o servidor *VS Code*.
 
 ====
 
@@ -1694,25 +1693,26 @@ Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e 
 ConfigMap
 =========
 
-De forma simples, pode-se afirmar que ConfigMap é um conjunto de pares de chave-valor para armazenamento de configurações, que fica armazenado dentro de arquivos que podem ser consumidos através de pods. Ele é muito parecido com Secrets, mas fornece um modo de se trabalhar com strings que não possuem dados confidenciais, como senhas, chaves, tokens e outros dados sigilosos.
+De forma simples, pode-se afirmar que *ConfigMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
 
-Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato JSON complexos e cheios de regras.
+Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
 
-Vale ressaltar que um arquivo de configmap pode conter, sim, o conteúdo complexo de um JSON, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo JSON.
+Vale ressaltar que um arquivo de *configmap* pode conter, sim, o conteúdo complexo de um *JSON*, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo *JSON*.
 
-Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela abaixo, que contém uma listagem de todos os configmaps cadastrados na plataforma.
+Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela a seguir a qual contém uma listagem de todos os *configmaps* cadastrados na plataforma.
   
 .. image:: /figuras/fig_mangue/073_mangue_configmaps.png
     :alt: Configmaps
-    :scale: 80 %
     :align: center
 =====
 
 
 Abaixo a descrição de cada coluna desta tabela:
 
-                                             * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                             * Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+
+
+* Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo 
