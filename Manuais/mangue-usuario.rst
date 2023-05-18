@@ -1322,9 +1322,9 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
      * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
 
-   * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades Kernel da máquina Host;
+   * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades *Kernel* da máquina *Host*;
 
-   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo o usuário pode informar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
+   * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo é possível indicar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
 
    * **Registry Secret**: Neste campo o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado. A plataforma do Mangue.io apresenta apenas os arquivos de *Secrets* privados que estão presentes na plataforma do Mangue.io.
 
@@ -1343,7 +1343,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
                * Conteúdo da variável de ambiente; 
                * Botão ``Adicionar``;
                
-   * Secrets:
+   * *Secrets*:
 
                * Nome do Segredo; 
                * Variável de Ambiente; 
@@ -1373,7 +1373,7 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
    * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
 
-   * **Ações**: Esta coluna apresenta um botão ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
@@ -1392,7 +1392,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Tamanho / 1Gi, 5Gi, 10Gi**: O usuário pode selecionar o tamanho do volume simplesmente clicando com o cursor do mouse sobre o número desejado, selecionando a melhor opção de tamanho para este PVC. As opções estão expressas em Gigabytes (1, 5, ou 10).
 
-   * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a plataforma do Mangue.io apresenta uma barra deslizante (slide bar) que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 gigabyte e o máximo de 100 Gigabytes.
+   * **Tamanho / Personalizado**: Outra forma de criar um PVC com um volume com um tamanho diferente das opções anteriores, a plataforma do Mangue.io apresenta uma barra deslizante *(slide bar)* que permite ao usuário selecionar o tamanho desejado do PVC. Usando o cursor do mouse sobre o indicador laranja, o usuário pode mover este indicador (para esquerda ou direita) para definir o tamanho final desejado. O tamanho mínimo é de 1 Gigabyte e o máximo de 100 Gigabytes.
 
    * **Storage Class**: Este campo é uma lista *(dropdown list)* composta apenas por *NFS servers* configurados na plataforma do Mangue.io. O usuário deve selecionar o servidor NFS mais adequado para receber o arquivo do PVC.
 
