@@ -1709,21 +1709,26 @@ Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta
 
 Abaixo a descrição de cada coluna desta tabela:
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+
+Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+
+Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
 
 
-* Nome: Nesta coluna é apresentado o nome do configmap adicionado pelo usuário. Ao clicar com o mouse sobre o nome,a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão é apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+* **Nome**: Nesta coluna é apresentado o nome do *configmap* adicionado pelo usuário. Ao clicar com o mouse sobre o nome, a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configmap*. 
+
+Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
-    :alt: Configmaps arquivo 
-    :scale: 80 %
+    :alt: Configmaps arquivo
     :align: center
 =====  
 
 Importante ressaltar que esta janela não permite a edição do conteúdo listado.
 
-                                                * Duração: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do configmap.
-                                                * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções, assim como a figura abaixo:
+   * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configmap*.
+   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções, assim como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
     :alt: Ações configmap 
@@ -1732,7 +1737,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 =====
 
 
-                                                   * Deletar Configmap: Quando o usuário selecionar esta opção a plataforma do Mangue.io irá apresentar a tela abaixo solicitando a confirmação da opção de remoção do configmap.
+   * **Deletar Configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configmap*.
   
 .. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
     :alt: Deletar configmap 
@@ -1741,27 +1746,27 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 =====
 
 
-Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois serão apagadas todas as referências deste configmap na plataforma do Mangue.io. Será necessário recriar o arquivo desde o início.
-                                                   * Editar Configmap: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela para que o usuário possa efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de configmap:
+.. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois serão apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
+
+* **Editar Configmap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configmap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
-    :alt: Adicionar configmap 
-    :scale: 80 %
+    :alt: Adicionar configmap
     :align: center
 =====  
 
-Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
+A imagem a seguir é um recorte dos elementos posicionados acima da tabela, existem três ações diferentes e  disponíveis ao usuário:
   
 .. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
-    :alt: Pesquisar atualização 
-    :scale: 80 %
+    :alt: Pesquisar atualização
     :align: center
 =====
 
+   * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
 
-                                                   * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do ConfigMaps desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca apenas aparecem os ConfigMaps que contiverem a palavra-chave da pesquisa.
-                                                   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de ConfigMaps.
-                                                   * Adicionar um ConfigMaps: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo ConfigMaps em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+   * **A ação de atualizar**: Basta clicar no ícone “  ” para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
+
+   * **Adicionar um ConfigMaps**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
     :alt: Adicionar configmap 
