@@ -1312,7 +1312,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Versão da Imagem**: Este campo é obrigatório, neste o usuário deve informar como a aplicação *(Deployment)* é identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
-   * **ContainerPort** Este campo é obrigatório, nele o usuário deve informar porta TCP-IP do container que pode ser utilizada para que a aplicação *(Deployment)* fique disponível para o acesso de outros usuários;
+   * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar porta TCP-IP do container que pode ser utilizada para que a aplicação *(Deployment)* fique disponível para o acesso de outros usuários;
 
      * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
