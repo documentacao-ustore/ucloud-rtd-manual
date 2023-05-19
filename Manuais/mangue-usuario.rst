@@ -1659,7 +1659,7 @@ Neste ponto, o usuário pode editar o código diretamente através da interface 
 D. Submit
 ~~~~~~~~~
 
-Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetuar a carga do código e sua consequente compilação e disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
+Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetue a carga do código e sua consequente compilação ao disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
 
 Neste ponto, a plataforma do Mangue.io encerra as telas de criação da aplicação (*Deployment*), então o usuário pode encontrar sua nova aplicação listada no menu *Workloads/Deployments*.
 
@@ -1675,7 +1675,7 @@ E. Server VS Code
     :align: center
 =====  
 
-Para criar um Visual Studio Code é necessário clicar no botão de “  ”  e preencher os campos abaixo:
+Para criar um Visual Studio Code é necessário clicar no botão |icone_adicionar|  e preencher os campos abaixo:
 
    * **Nome do servidor VS Code**: Nome do servidor *Visual Studio Code* a ser criado;
    * **Tamanho do servidor VS Code**: Tamanho de disco a ser disponibilizado para o *Visual Studio Code*. A medida do tamanho é definida no campo "Tipo do tamanho".
