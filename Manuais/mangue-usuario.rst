@@ -1503,13 +1503,15 @@ Conforme mencionado no início deste tópico, o objetivo desta primeira abordage
 
 A criação de código em sintaxe *YAML* em ambiente *Kubernetes* demanda um alto grau de especialização e conhecimento do desenvolvedor. Assim a sintaxe correta para o ambiente pode ter  todas as dependências necessárias para gerar o resultado desejado e integrado no uso do ambiente *Kubernetes* (por exemplo: uma aplicação / *Deployment*).
 
-O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente *Kubernetes* pode ser muito longo, as dependências entre as seções do *script* e com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
+O desenvolvimento de um *script* de uma aplicação *(Deployment)* com a sintaxe *YAML* em um ambiente *Kubernetes* pode ser muito longo, as dependências entre as seções do *script* com elementos externos (PVCs, *ConfigMaps*, variáveis de ambiente, entre outros.) pode induzir a criação do *script* com erros ou falhas de ausências de parâmetros, decorrentes da pouca experiência ou tentativa de usar um *script* desenvolvido por outra pessoa.
 
-Um *script* genérico encontrado no ambiente virtual pode não deixar claro todas as dependências de variáveis de ambiente, arquivos externos (*ConfigMaps*, PVCs, entre outros).
+Por exemplo:
 
-O processo de adaptação de *scripts* (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente *Kubernetes*, portanto, a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas/formulários.
+Um *script* genérico encontrado no ambiente virtual pode não deixar claro todas as dependências de variáveis de ambiente e arquivos externos.
 
-Após o completo preenchimento desta segunda parte, de todos os campos das telas/formulários referente a criação da aplicação *(Deployment)* a plataforma do Mangue.io gera o *script YAML* completo e, por consequência, sua compilação sem erros.
+O processo de adaptação de *scripts* (pouco documentado no ano de 2018) poderia ser uma grande frustração e impedir a popularização do ambiente *Kubernetes*, portanto, a plataforma do Mangue.io simplifica esse processo guiando o usuário através de telas e formulários.
+
+Após o completo preenchimento (desta segunda parte) de todos os campos das telas e formulários referentes a criação da aplicação *(Deployment)* na plataforma do Mangue.io gera o *script YAML* completo e, por consequência, sua compilação sem erros.
 
 O leitor deste documento pode ver abaixo a descrição das próximas telas que fazem parte da última etapa antes da finalização e criação da aplicação *(Deployment)* que é executada e gerenciada pela plataforma do Mangue.io.
   
@@ -1522,7 +1524,7 @@ O leitor deste documento pode ver abaixo a descrição das próximas telas que f
 
    * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
 
-   * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)* este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+   * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)* este número indica para o Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
    * **Container**: Este é um cabeçalho de uma seção que indica o nome do container que está sendo criado para esta nova aplicação *(Deployment)*.
 
@@ -1530,23 +1532,23 @@ O leitor deste documento pode ver abaixo a descrição das próximas telas que f
 
      * **SuccessThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade mínima de *containers* que a plataforma do Mangue.io deve manter disponível durante o processo de atualização, de forma a garantir a experiência do usuário que está utilizando a aplicação *(Deployment)*.
 
-     * **FailureThreshold**: Neste campo o usuário deve informar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
+     * **FailureThreshold**: Nesta área o usuário deve registrar um número inteiro que define a quantidade máxima de containers que ficam indisponíveis durante um processo de atualização da versão da aplicação *(Deployment)*. Este número indica para a plataforma do Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
-     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro (*log*) que armazena os eventos durante o processo de atualização do container.
+     * **ReadinessPath**: Neste espaço o usuário deve indicar o caminho do diretório onde é criado um arquivo de registro (*log*) que armazena os eventos durante o processo de atualização do container.
 
      * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização que deve ser criado, adicionando colunas *(headers)* e o conteúdo da coluna;
 
      * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Valor do Header**: Neste espaço o usuário deve indicar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
                     
      * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
-   * **LivenessProbe**: O ambiente *Kubernetes* usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um *container*. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário, após este período é acrescida uma linha no arquivo de *log*. Nos campos abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
+   * **LivenessProbe**: O ambiente *Kubernetes* usa sondagens de atividade *(LivenessProbe)* para saber quando reiniciar um *container*. Estas sondagens são efetuadas em intervalos de tempo (segundos) definidos pelo usuário, após este período é acrescida uma linha no arquivo de *log*. Nos espaços abaixo o usuário entra com os valores referentes ao ambiente de *LivenessProbe*:
 
      * **PeriodSeconds**: Neste campo o usuário deve informar um número inteiro que representa o período de segundos referente ao intervalo de sondagem de atividade *(livenessprobe)*.
 
-     * **ReadinessPath**: Neste campo o usuário deve informar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do *container*.
+     * **ReadinessPath**: Nesta área o usuário deve indicar o caminho do diretório onde é criado um arquivo de registro *(log)* que armazena os eventos durante o processo de atualização do *container*.
 
      * **RequestHeaders**: Nesta subseção o usuário pode configurar o *layout* do conteúdo do arquivo de registro de eventos da atualização a ser criada, adicionando as colunas *(headers)* e o conteúdo da coluna;
 
