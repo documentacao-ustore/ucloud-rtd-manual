@@ -1697,7 +1697,7 @@ ConfigMap
 
 De forma simples, pode-se afirmar que *ConfigMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
 
-Os arquivos de configMap, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
+Os arquivos de *configmap*, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
 
 Vale ressaltar que um arquivo de *configmap* pode conter, sim, o conteúdo complexo de um *JSON*, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo *JSON*.
 
@@ -1730,14 +1730,13 @@ Por padrão é apresentada somente a visualização de uma linha do conteúdo do
 Importante ressaltar que esta janela não permite a edição do conteúdo listado.
 
    * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configmap*.
+
    * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções, assim como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
-    :alt: Ações configmap 
-    :scale: 80 %
+    :alt: Ações configmap
     :align: center
 =====
-
 
    * **Deletar Configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configmap*.
   
@@ -1747,8 +1746,8 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
     :align: center
 =====
 
-
 .. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois serão apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
+
 
 * **Editar Configmap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configmap*:
 
@@ -1779,17 +1778,17 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 Abaixo a descrição dos campos da tela acima:
 
 
-   * **Nome do Configmap**: Neste campo o usuário deve digitar o nome do configmap desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, resulta na plataforma do Mangue.io a adição dos campos abaixo:
+   * **Nome do Configmap**: Neste campo o usuário deve digitar o nome do *configmap* desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, o que resulta na plataforma do Mangue.io a adição dos campos abaixo:
 
-     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *Configmap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo “n” do *configmap*.
+     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *Configmap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configmap*.
 
      * **Nome do Arquivo**: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão. 
      
      .. attention:: |atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
      * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
-     
-   * Botão “Adicionar Configmap”: Após o usuário informar o(s) arquivo(s) de configmap necessário(s), o usuário deve clicar com o mouse sobre o botão “Adicionar Configmap”, para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de configmaps.
+
+   * **Botão** ``Adicionar Configmap``: Após o usuário informar o(s) arquivo(s) de *configmap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar Configmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configmaps*.
 
 ====
 
