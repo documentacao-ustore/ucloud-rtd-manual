@@ -1650,7 +1650,7 @@ A plataforma do Mangue.io está configurada para identificar e apresentar todos 
     :align: center
 =====
 
-Quando o usuário selecionar o arquivo desejado, basta clicar o botão ``Abrir / Open`` para que a plataforma do Mangue.io carregue o conteúdo do arquivo selecionado para a interface, momento que o usuário visualiza que a plataforma do Mangue.io numera, sequencialmente, todas as linhas do código carregado.
+Quando o usuário selecionar o arquivo desejado, ao clicar no botão ``Abrir / Open``, a plataforma do Mangue.io carrega o conteúdo do arquivo selecionado para a interface, neste momento o usuário visualiza que a plataforma do Mangue.io numera, sequencialmente, todas as linhas do código carregado.
 
 Neste ponto, o usuário pode editar o código diretamente através da interface da plataforma do Mangue.io, para personalizar ou corrigir qualquer linha do código *YAML* presente na tela.
 
