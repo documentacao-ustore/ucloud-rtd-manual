@@ -1864,7 +1864,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
 A. *Cron Jobs*
-~~~~~~~~~~~~~
+-------------
 
 Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também,programar um trabalho para quando seu *cluster* provavelmente está ocioso.
 
@@ -1893,7 +1893,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
   
 
 B. *Jobs*
-~~~~~~~~~
+--------
 
 Um *job* cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
 
