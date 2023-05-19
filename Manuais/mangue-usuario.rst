@@ -1764,32 +1764,25 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
     :align: center
 =====
 
-   * **Ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
+   * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
 
-   * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
+   * **A ação de atualizar**: Basta clicar no ícone “  ” para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
 
-   * **Ação de adicionar um ConfigMaps**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+   * **Adicionar um ConfigMaps**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
-    :alt: Adicionar configmap
+    :alt: Adicionar configmap 
+    :scale: 80 %
     :align: center
 =====
   
 
 Abaixo a descrição dos campos da tela acima:
-
-
-   * **Nome do Configmap**: Neste campo o usuário deve digitar o nome do configmap desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, resulta na plataforma do Mangue.io a adição dos campos abaixo:
-
-     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *Configmap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo “n” do *configmap*.
-
-     * **Nome do Arquivo**: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão. 
-     
-     .. attention:: |atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
-
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
-     
-   * Botão “Adicionar Configmap”: Após o usuário informar o(s) arquivo(s) de configmap necessário(s), o usuário deve clicar com o mouse sobre o botão “Adicionar Configmap”, para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de configmaps.
+                                                      * Nome do Configmap: Neste campo o usuário deve digitar o nome do configmap desejado e em seguida clicar sobre o ícone do sinal de adição (“+”), que faz a plataforma do Mangue.io adicionar os campos abaixo.
+                                                      * Arquivo “n”: A cada vez que o usuário clicar sobre o sinal de adição (“+”) a plataforma do Mangue.io adiciona uma linha cinza com o número sequencial do arquivo de Configmap. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone da lata de lixo (“  ”) para optar por remover o arquivo “n” do configmap.
+                                                         * Nome do Arquivo: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do deployment. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão. Atenção: não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç, entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
+                                                         * Conteúdo do Arquivo: Neste campo o usuário deve digitar com o conteúdo do arquivo nomeado, no campo anterior; conteúdo este que deve ser informado conforme necessidade técnica e o objetivo deste configmap. Por padrão é apresentado somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+                                                            * Botão “Adicionar Configmap”: Após o usuário informar o(s) arquivo(s) de configmap necessário(s), o usuário deve clicar com o mouse sobre o botão “Adicionar Configmap”, para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de configmaps.
 
 ====
 
