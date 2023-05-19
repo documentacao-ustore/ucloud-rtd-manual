@@ -1763,7 +1763,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
     :align: center
 =====
 
-   * **Ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
 
    * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
 
@@ -1796,45 +1796,53 @@ Abaixo a descrição dos campos da tela acima:
 Cluster Events
 ==============
 
-Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista de eventos é atualizada automaticamente.
+Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração”. A cada seleção de contrato/*cluster*/*namespace* a lista de eventos é atualizada automaticamente.
 
 .. image:: /figuras/fig_mangue/080_mangue_cluster_events.png
-    :alt: clusters Events 
-    :scale: 80 %
+    :alt: clusters Events
     :align: center
 =====  
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                            * #: Número sequencial do evento na lista apresentada;
-                                                            * Nome: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
-                                                            * Tipo de Evento: Descreve o tipo do evento ocorrido, e podem ser listados os seguintes tipos de eventos:
-                                                            * Normal
-                                                            * Warning
-                                                            * Tipo de Objeto: Descreve qual objeto configurado na plataforma do Mangue.io que foi a origem do evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem para que este possa ter acesso ao objeto e atuar na resolução do evento, através da redefinição do objeto, ou optar por sua remoção. Os tipos de objeto podem ser alguns dos listados abaixo:
-                                                            * Deployments;
-                                                            * Daemonsets;
-                                                            * Horizontal Autoscaler;
-                                                            * Pods;
-                                                            * Statefulsets;
-                                                            * Updates;
-                                                            * Serviços;
-                                                            * Ingress;
-                                                            * StorageClass;
-                                                            * PersistentVolumes;
-                                                            * PersistentVolumesClaim;
-                                                            * Nome do Objeto: Nome do recurso do evento;
-                                                            * Mensagem: 
-                                                            * Pulled;
-                                                            * Created;
-                                                            * Started;
-                                                            * NoPods;
-                                                            * FailedGetScale;
-                                                            * ProvisioningFailed;
-                                                            * FailedBinding;
-                                                            * Executado há: Informa quanto tempo atrás o evento foi executado.
+
+  * **#**: Número sequencial do evento na lista apresentada;
+
+  * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
+
+  * **Tipo de evento**: Descreve o tipo do evento ocorrido, podem ser listados os seguintes tipos de eventos:
+     * Normal;
+     * Warning.
+
+  * **Tipo de Objeto**: Descreve qual objeto configurado na plataforma do Mangue.io originou o evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem, para que este possa ter acesso ao objeto e atuar na resolução do evento. Pode ser através da redefinição do objeto ou optar por sua remoção. Os tipos de objeto podem ser alguns dos listados abaixo:
+
+     * Deployments;
+     * Daemonsets;
+     * Horizontal Autoscaler;
+     * Pods;
+     * Statefulsets;
+     * Updates;
+     * Serviços;
+     * Ingress;
+     * StorageClass;
+     * PersistentVolumes;
+     * PersistentVolumesClaim.
+
+  * **Nome do objeto**: Nome do recurso do evento.
+
+  * **Mensagem**: 
+
+     * Pulled;
+     * Created;
+     * Started;
+     * NoPods;
+     * FailedGetScale;
+     * ProvisioningFailed;
+     * FailedBinding.
+
+  * **Executado há**: Informa quanto tempo atrás o evento foi executado.
 
 
-Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
+A imagem a seguir é um recorte dos elementos posicionados acima da tabela, existem três ações diferentes e disponíveis ao usuário:
   
 .. image:: /figuras/fig_mangue/081_mangue_pesquisar_evento.png
     :alt: Pesquisar evento 
@@ -1843,35 +1851,39 @@ Logo acima da tabela, existem três elementos com os quais o usuário poderá at
 =====
 
 
-                                                            * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do deployment desejado. Basta informar parte do nome do evento e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os eventos que contiverem a palavra-chave da pesquisa.
-                                                            * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com a lista mais recente de eventos desta tabela.
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
+
+* **Ação de atualizar**: Basta clicar no ícone |icone_reversao| para que o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
 
 
 ====
 
-Cron Jobs, Jobs
-===============
+*Cron Jobs, Jobs*
+=================
 
-Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são jobs e cron jobs. O usuário vê a lista de todos os jobs e cronjobs, a lista apresenta o que está programado para o contrato, cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista é atualizada automaticamente.
+Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
-A. Cron Jobs
-~~~~~~~~~~~~
+A. *Cron Jobs*
+~~~~~~~~~~~~~
 
-Os CronJobs são úteis para criar tarefas (jobs) periódicas e recorrentes, como executar backups ou enviar e-mails. Os CronJobs também podem agendar tarefas individuais para um horário específico, como agendar um trabalho para quando seu cluster provavelmente estará ocioso.
+Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também,programar um trabalho para quando seu *cluster* provavelmente está ocioso.
+
 A plataforma do Mangue.io lista todos os cronjobs configurados em seu ambiente:
 
 .. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
-    :alt: Cron Jobs 
-    :scale: 80 %
+    :alt: Cron Jobs
     :align: center
-=====  
+=====
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                               * #: Número sequencial do cronjob na lista apresentada;
-                                                               * Nome: Nome do cronjob que a plataforma do Mangue.io gerou para o deployment;
-                                                               * Schedule: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
-                                                               * Duração: Apresenta o tempo de duração do cronjob;
-                                                               * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+
+  * **#**: Número sequencial do *cronjob* na lista apresentada;
+
+  * **Nome**: Nome do *cronjob* que a plataforma do Mangue.io gera para o *deployment*;
+
+  * **Schedule**: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
+  * **Duração**: Apresenta o tempo de duração do cronjob;
+  * **Ações**: Esta coluna apresenta o botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
 
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: Deletar cron job 
@@ -1880,28 +1892,29 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 =====
   
 
-B. Jobs
-~~~~~~~
+B. *Jobs*
+~~~~~~~~~
 
-Um job cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os pods são concluídos com sucesso, o job rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, Job) está concluída. Excluir um job limpará os pods que ele criou.
+Um *job* cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
 
-O usuário também pode configurar um job para que seja executado em vários pods em paralelo.
+O usuário também pode configurar um *job* para que seja executado, em paralelo, em vários *pods*.
 
 .. image:: /figuras/fig_mangue/084_mangue_jobs.png
-    :alt: Jobs 
-    :scale: 80 %
+    :alt: Jobs
     :align: center
-=====  
+=====
+ 
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                                  * Nome: Nome do job que a plataforma do Mangue.io gerou para o deployment
-                                                                  * Status: Esta coluna apresenta três valores possíveis, “COMPLETED”, “IN PROGRESS” e “FAILED”:
-                                                                  * COMPLETED:  Job executado com sucesso.
-                                                                  * IN PROGRESS: Job sendo executado.
-                                                                  * FAILED: Job falhou na execução.
-                                                                  * Paralelismo: Quantidade de Pods para execução em paralelo.
-                                                                  * Conclusões: Conclusões bem-sucedidas.
-                                                                  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a opção de deletar o job, como mostra a figura:
+
+* Nome: Nome do job que a plataforma do Mangue.io gerou para o deployment
+* Status: Esta coluna apresenta três valores possíveis, “COMPLETED”, “IN PROGRESS” e “FAILED”:
+* COMPLETED:  Job executado com sucesso.
+* IN PROGRESS: Job sendo executado.
+* FAILED: Job falhou na execução.
+* Paralelismo: Quantidade de Pods para execução em paralelo.
+* Conclusões: Conclusões bem-sucedidas.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a opção de deletar o job, como mostra a figura:
   
 .. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
     :alt: Deletar Job 
