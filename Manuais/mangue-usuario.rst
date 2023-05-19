@@ -1882,8 +1882,10 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
   * **Nome**: Nome do *cronjob* que a plataforma do Mangue.io gera para o *deployment*;
 
   * **Schedule**: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
+
   * **Duração**: Apresenta o tempo de duração do cronjob;
-  * **Ações**: Esta coluna apresenta o botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+
+  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções assim como a figura abaixo:
 
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: Deletar cron job 
@@ -1895,7 +1897,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 B. *Jobs*
 --------
 
-Um *job* cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
+Um *job* cria um ou mais *pods* e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
 
 O usuário também pode configurar um *job* para que seja executado, em paralelo, em vários *pods*.
 
@@ -1907,20 +1909,24 @@ O usuário também pode configurar um *job* para que seja executado, em paralelo
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
-* Nome: Nome do job que a plataforma do Mangue.io gerou para o deployment
-* Status: Esta coluna apresenta três valores possíveis, “COMPLETED”, “IN PROGRESS” e “FAILED”:
-* COMPLETED:  Job executado com sucesso.
-* IN PROGRESS: Job sendo executado.
-* FAILED: Job falhou na execução.
-* Paralelismo: Quantidade de Pods para execução em paralelo.
-* Conclusões: Conclusões bem-sucedidas.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a opção de deletar o job, como mostra a figura:
+  * **Nome**: Nome do *job* que a plataforma do Mangue.io gera para o *deployment*;
+
+  * **Status**: Esta coluna apresenta três valores possíveis, *“COMPLETED”*, *“IN PROGRESS”* e *“FAILED”*:
+     * **COMPLETED**:  *Job* executado com sucesso;
+     * **IN PROGRESS**: *Job* sendo executado;
+     * **FAILED**: *Job* falhou na execução.
+
+  * **Paralelismo**: Quantidade de *Pods* para execução em paralelo.
+  * **Conclusões**: Conclusões bem-sucedidas.
+  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a opção de deletar o *job*, como mostra a figura:
   
 .. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
     :alt: Deletar Job 
     :scale: 80 %
     :align: center
 =====
+
+
 
 Faturamento
 ===========
