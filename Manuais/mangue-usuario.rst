@@ -1554,7 +1554,7 @@ O leitor deste documento pode ver abaixo a descrição das próximas telas que f
 
      * **Nome do Header**: Neste campo o usuário deve informar o nome da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
-     * **Valor do Header**: Neste campo o usuário deve informar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
+     * **Valor do Header**: Neste espaço o usuário deve indicar o valor inicial da coluna que é criada dentro do arquivo de registro *(log)* de atividades de atualização.
 
      * **Botão** ``Adicionar``: Este botão informa para a plataforma do Mangue.io que o conjunto *header/value* deve ser configurado no arquivo de registro de atividades *(log)* de atualização. O usuário pode adicionar a quantidade de colunas que se façam necessárias, basta preencher os valores dos campos anteriores e pressionar o botão ``Adicionar``.
 
@@ -1575,13 +1575,13 @@ Deploy via *YAML*
 
 Esta é a segunda abordagem que a plataforma do Mangue.io permite ao usuário que é fazer o *upload* de um arquivo texto, cujo conteúdo é a codificação da aplicação em sintaxe *YAML*, já adaptada e preparada para um ambiente *Kubernetes*.
 
-O *YAML* significa na língua inglesa "Ain't Markup language", no português quer dizer o mesmo que "não é uma linguagem de marcação", de acordo com https://yaml.org/ é um padrão de serialização de dados amigável para qualquer linguagem de programação. *YAML* foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, hashes (mapas) e dados escalares (valores simples).
+O *YAML* significa na língua inglesa *"Ain't Markup language"*, no português quer dizer o mesmo que "não é uma linguagem de marcação", de acordo com https://yaml.org/ é um padrão de serialização de dados amigável para qualquer linguagem de programação. *YAML* foi criado na crença que todos os dados podem ser representados adequadamente como combinação de listas, *hashes* (mapas) e dados escalares (valores simples).
 
 A sintaxe é relativamente simples e foi projetada considerando que é muito legível, mas que também é facilmente mapeada para os tipos de dados mais comuns na maioria das linguagens de alto-nível. Além disso, *YAML* utiliza uma notação baseada em endentação e um conjunto de caracteres distintos dos que são usados pelo *XML*, fazendo com que as duas linguagens sejam facilmente compostas uma na outra.
 
 Qualquer usuário com conhecimento da sintaxe *YAML* pode usar a interface do Mangue.io para criar um: *Deployment*, *Service*, *Statefulsets*, Volume ou *Ingress*.
 
-A plataforma do Mangue.io permite ao usuário experiente em *YAML* entrar com o seu código de forma livre diretamente através da interface (*data-entry*) ou carregar um arquivo (*upload*) em formato texto não formatado (ASCII) de um diretório/folder do seu computador para a plataforma do Mangue.io.
+A plataforma do Mangue.io permite ao usuário experiente em *YAML* entrar com o seu código de forma livre diretamente através da interface (*data-entry*) ou carregar um arquivo (*upload*) em formato texto não formatado (ASCII) de um diretório / *folder* do seu computador para a plataforma do Mangue.io.
 
 Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.io apresenta a seguinte tela:
   
@@ -1600,7 +1600,7 @@ Na sequência o detalhamento de cada objeto acionável desta tela.
 A. *Clusters* disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário deve clicar sobre o campo "Clusters disponíveis" para abrir uma lista *(dropdown)* de todos os *Clusters* configurados na plataforma do Mangue.io, em seguida, selecionar o *Cluster* destino no qual o *Deployment* é criado e executado.
+O usuário deve clicar sobre o campo "*Clusters* disponíveis" para abrir uma lista *(dropdown)* de todos os *Clusters* configurados na plataforma do Mangue.io, em seguida, selecionar o *Cluster* destino no qual o *Deployment* é criado e executado.
 
 Existe uma mensagem presente na tela que é importante ressaltar para o processo de criação do *Deployment* via *YAML*.
 
