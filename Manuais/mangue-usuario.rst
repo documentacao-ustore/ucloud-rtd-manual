@@ -1947,9 +1947,9 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 Faturamento
 ===========
 
-Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente serverless baseado em containers (Kubernetes).
+Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente *serverless* baseado em *containers* (*Kubernetes*).
 
-O termo serverless pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de software sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional - SO). 
+O termo *serverless* pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de *software* sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional-SO). 
 
 Para que este software seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e softwares) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
 
@@ -1958,13 +1958,12 @@ A plataforma do Mangue.io possui uma base de dados que acumula os valores de con
 Ao selecionar esta opção do menu a plataforma do Mangue.io apresenta a seguinte tela:
   
 .. image:: /figuras/fig_mangue/086_mangue_faturamento_cluster.png
-    :alt: Histórico faturamento cluster 
-    :scale: 80 %
+    :alt: Histórico faturamento cluster
     :align: center
 =====
 
 
-A plataforma do Mangue.io apresenta os valores do cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de um novo contrato/cluster/namespace os valores e os gráficos são atualizados automaticamente.
+A plataforma do Mangue.io apresenta os valores do *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”. A cada seleção de um novo contrato/*cluster*/*namespace* os valores e os gráficos são atualizados automaticamente.
 
 Esta tela está dividida em duas seções diferentes, a seguir o detalhamento de cada seção.
 
@@ -1975,7 +1974,7 @@ Relatório Consolidado
 ---------------------
 
 
-Esta tela apresenta informações quanto ao consumo mensal dos clusters, o usuário consegue visualizar o preço de cada cluster no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o deployment é criado por meio do Mangue.io, uma vez que é guardado no deployment a informação do usuário responsável por sua criação.
+Esta tela apresenta informações quanto ao consumo mensal dos *clusters*, o usuário consegue visualizar o preço de cada *cluster* no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o *deployment* é criado por meio do Mangue.io, uma vez que é guardado no *deployment* a informação do usuário responsável por sua criação.
 
 .. image:: /figuras/fig_mangue/087_mangue_overview_financeiro.png
     :alt: Overview financeiro 
@@ -1983,9 +1982,9 @@ Esta tela apresenta informações quanto ao consumo mensal dos clusters, o usuá
     :align: center
 =====
 
-Ao selecionar um cluster as informações da tela são recarregadas de acordo com o cluster selecionado, isso inclui tanto os gráficos que informam o preço por cluster e preço por usuário, quanto a tabela com detalhes sobre custo de aplicações.
+Ao selecionar um *cluster* as informações da tela são recarregadas de acordo com o *cluster* selecionado, isso inclui tanto os gráficos que informam o preço por *cluster* e preço por usuário, quanto a tabela com detalhes sobre custo de aplicações.
 
-Por padrão a consulta é realizada considerando todos os namespaces do cluster, mas o usuário pode filtrar por um namespace específico clicando em “Selecione um namespace”, as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do namespace selecionado.
+Por padrão a consulta é realizada considerando todos os *namespaces* do *cluster*, mas o usuário pode filtrar por um *namespace* específico clicando em ``Selecione um namespace`` as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do *namespace* selecionado.
 
 Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das aplicações, como pode ser visto na imagem abaixo:
 
@@ -1994,13 +1993,20 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
     :align: center
 =====  
 
-                                                                     * Nome: Esta coluna apresenta o nome do deployment, lembrando que para o deployment aparecer aqui ele precisa estar em um cluster com o “bilhetador” habilitado;
-                                                                     * Usuário: Esta coluna apresenta o usuário responsável pela criação da aplicação;
-                                                                     * Namespace: Esta coluna apresenta o namespace ao qual a aplicação pertence;
-                                                                     * Preço de CPU: Esta coluna apresenta o custo por CPU da aplicação correspondente ao mês selecionado;
-                                                                     * Preço de Memória: Esta coluna apresenta o custo por Memória da aplicação correspondente ao mês selecionado;
-                                                                     * Preço Total: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
-Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
+   * **Nome**: Esta coluna apresenta o nome do *deployment*, lembrando que para o *deployment* aparecer aqui ele precisa estar em um *cluster* com o “bilhetador” habilitado;
+
+   * **Usuário**: Esta coluna apresenta o usuário responsável pela criação da aplicação;
+
+   * **Namespace**: Esta coluna apresenta o *namespace* ao qual a aplicação pertence;
+
+   * **Preço de CPU**: Esta coluna apresenta o custo por CPU da aplicação correspondente ao mês selecionado;
+
+   * **Preço de Memória**: Esta coluna apresenta o custo por Memória da aplicação correspondente ao mês selecionado;
+
+   * **Preço Total**: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
+
+
+     Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
 
 ====
 
