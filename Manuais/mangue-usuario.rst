@@ -1820,6 +1820,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
   * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
 
   * **Tipo de evento**: 
+     
      Descreve o tipo do evento ocorrido, podem ser listados os seguintes tipos de eventos:
 
      * Normal;
@@ -1932,7 +1933,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
   * **Paralelismo**: Quantidade de *Pods* para execução em paralelo.
 
   * **Conclusões**: Conclusões bem-sucedidas.
-  
+
   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a opção de deletar o *job*, como mostra a figura:
   
 .. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
