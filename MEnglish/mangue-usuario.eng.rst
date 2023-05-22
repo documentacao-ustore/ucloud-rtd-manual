@@ -891,7 +891,7 @@ This section displays the screen “Application price in the last month”, on i
   
 * **Price per CPU**: Presents the total value, of the current month, of the CPU resource consumption to keep the deployment running (see the calculation formula);
   
-* **Total APP price**: This column presents the sum of the two previous columns (Price: Memory and CPU). With this information, the user can assess the **real infrastructure cost** necessary to maintain and support the execution of an active and functional 24 x 7 deployment.
+* **Total APP price**: This column presents the sum of the two previous columns (Price per Memory and Price per CPU). With this information, the user can assess the **real infrastructure cost** necessary to maintain and support the execution of an active and functional 24 x 7 deployment.
 
 ====
 

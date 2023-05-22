@@ -1713,14 +1713,14 @@ Abaixo a descrição de cada coluna desta tabela:
 
 * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
 
-Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
 
-Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+     Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
 
 
 * **Nome**: Nesta coluna é apresentado o nome do *configmap* adicionado pelo usuário. Ao clicar com o mouse sobre o nome, a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configmap*. 
 
-Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+     Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo
@@ -1763,11 +1763,14 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
     :align: center
 =====
 
-   * **A ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
+
 
    * **A ação de atualizar**: Basta clicar no ícone “  ” para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
 
-   * **Adicionar um ConfigMaps**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+
+   * **Ação de adicionar um ConfigMaps**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
     :alt: Adicionar configmap 
@@ -1781,13 +1784,20 @@ Abaixo a descrição dos campos da tela acima:
 
    * **Nome do Configmap**: Neste campo o usuário deve digitar o nome do *configmap* desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, o que resulta na plataforma do Mangue.io a adição dos campos abaixo:
 
+
      * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *Configmap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configmap*.
 
-     * **Nome do Arquivo**: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão. 
+
+     * **Nome do Arquivo**: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
+
      
      .. attention:: |atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+
+     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. 
+     
+     Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+     
 
    * **Botão** ``Adicionar Configmap``: Após o usuário informar o(s) arquivo(s) de *configmap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar Configmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configmaps*.
 
@@ -1797,82 +1807,99 @@ Abaixo a descrição dos campos da tela acima:
 Cluster Events
 ==============
 
-Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista de eventos é atualizada automaticamente.
+Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração”. A cada seleção de contrato/*cluster*/*namespace* a lista de eventos é atualizada automaticamente.
 
 .. image:: /figuras/fig_mangue/080_mangue_cluster_events.png
-    :alt: clusters Events 
-    :scale: 80 %
+    :alt: clusters Events
     :align: center
 =====  
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                            * #: Número sequencial do evento na lista apresentada;
-                                                            * Nome: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
-                                                            * Tipo de Evento: Descreve o tipo do evento ocorrido, e podem ser listados os seguintes tipos de eventos:
-                                                            * Normal
-                                                            * Warning
-                                                            * Tipo de Objeto: Descreve qual objeto configurado na plataforma do Mangue.io que foi a origem do evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem para que este possa ter acesso ao objeto e atuar na resolução do evento, através da redefinição do objeto, ou optar por sua remoção. Os tipos de objeto podem ser alguns dos listados abaixo:
-                                                            * Deployments;
-                                                            * Daemonsets;
-                                                            * Horizontal Autoscaler;
-                                                            * Pods;
-                                                            * Statefulsets;
-                                                            * Updates;
-                                                            * Serviços;
-                                                            * Ingress;
-                                                            * StorageClass;
-                                                            * PersistentVolumes;
-                                                            * PersistentVolumesClaim;
-                                                            * Nome do Objeto: Nome do recurso do evento;
-                                                            * Mensagem: 
-                                                            * Pulled;
-                                                            * Created;
-                                                            * Started;
-                                                            * NoPods;
-                                                            * FailedGetScale;
-                                                            * ProvisioningFailed;
-                                                            * FailedBinding;
-                                                            * Executado há: Informa quanto tempo atrás o evento foi executado.
+
+  * **#**: Número sequencial do evento na lista apresentada;
+
+  * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
+
+  * **Tipo de evento**: 
+     
+     Descreve o tipo do evento ocorrido, podem ser listados os seguintes tipos de eventos:
+
+     * Normal;
+     * Warning.
+
+  * **Tipo de objeto**: Descreve qual objeto configurado na plataforma do Mangue.io originou o evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem, para que este possa ter acesso ao objeto e atuar na resolução do evento. Pode ser através da redefinição do objeto ou optar por sua remoção. Os tipos de objeto podem ser alguns dos listados abaixo:
+
+     * Deployments;
+     * Daemonsets;
+     * Horizontal Autoscaler;
+     * Pods;
+     * Statefulsets;
+     * Updates;
+     * Serviços;
+     * Ingress;
+     * StorageClass;
+     * PersistentVolumes;
+     * PersistentVolumesClaim.
+
+  * **Nome do objeto**: Nome do recurso do evento.
+
+  * **Mensagem**: 
+
+     * Pulled;
+     * Created;
+     * Started;
+     * NoPods;
+     * FailedGetScale;
+     * ProvisioningFailed;
+     * FailedBinding.
+
+  * **Executado há**: Informa quanto tempo atrás o evento foi executado.
 
 
-Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
+A imagem a seguir é um recorte dos elementos posicionados acima da tabela, existem três ações diferentes e disponíveis ao usuário:
   
 .. image:: /figuras/fig_mangue/081_mangue_pesquisar_evento.png
-    :alt: Pesquisar evento 
-    :scale: 80 %
+    :alt: Pesquisar evento
     :align: center
 =====
 
 
-                                                            * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do deployment desejado. Basta informar parte do nome do evento e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os eventos que contiverem a palavra-chave da pesquisa.
-                                                            * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com a lista mais recente de eventos desta tabela.
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
+
+
+* **Ação de atualizar**: Basta clicar no ícone |icone_reversao| para que o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
 
 
 ====
 
-Cron Jobs, Jobs
-===============
+*Cron Jobs, Jobs*
+=================
 
-Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são jobs e cron jobs. O usuário vê a lista de todos os jobs e cronjobs, a lista apresenta o que está programado para o contrato, cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de contrato/cluster/namespace a lista é atualizada automaticamente.
+Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
-A. Cron Jobs
-~~~~~~~~~~~~
+A. *Cron Jobs*
+-------------
 
-Os CronJobs são úteis para criar tarefas (jobs) periódicas e recorrentes, como executar backups ou enviar e-mails. Os CronJobs também podem agendar tarefas individuais para um horário específico, como agendar um trabalho para quando seu cluster provavelmente estará ocioso.
+Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também,programar um trabalho para quando seu *cluster* provavelmente está ocioso.
+
 A plataforma do Mangue.io lista todos os cronjobs configurados em seu ambiente:
 
 .. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
-    :alt: Cron Jobs 
-    :scale: 80 %
+    :alt: Cron Jobs
     :align: center
-=====  
+=====
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                               * #: Número sequencial do cronjob na lista apresentada;
-                                                               * Nome: Nome do cronjob que a plataforma do Mangue.io gerou para o deployment;
-                                                               * Schedule: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
-                                                               * Duração: Apresenta o tempo de duração do cronjob;
-                                                               * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+
+  * **#**: Número sequencial do *cronjob* na lista apresentada;
+
+  * **Nome**: Nome do *cronjob* que a plataforma do Mangue.io gera para o *deployment*;
+
+  * **Schedule**: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
+
+  * **Duração**: Apresenta o tempo de duração do cronjob;
+
+  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções assim como a figura abaixo:
 
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: Deletar cron job 
@@ -1881,28 +1908,34 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 =====
   
 
-B. Jobs
-~~~~~~~
+B. *Jobs*
+--------
 
-Um job cria um ou mais pods e garante que um número específico deles seja encerrado com êxito. Conforme os pods são concluídos com sucesso, o job rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, Job) está concluída. Excluir um job limpará os pods que ele criou.
+Um *job* cria um ou mais *pods* e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
 
-O usuário também pode configurar um job para que seja executado em vários pods em paralelo.
+O usuário também pode configurar um *job* para que seja executado, em paralelo, em vários *pods*.
 
 .. image:: /figuras/fig_mangue/084_mangue_jobs.png
-    :alt: Jobs 
-    :scale: 80 %
+    :alt: Jobs
     :align: center
-=====  
+=====
+ 
 
 Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
-                                                                  * Nome: Nome do job que a plataforma do Mangue.io gerou para o deployment
-                                                                  * Status: Esta coluna apresenta três valores possíveis, “COMPLETED”, “IN PROGRESS” e “FAILED”:
-                                                                  * COMPLETED:  Job executado com sucesso.
-                                                                  * IN PROGRESS: Job sendo executado.
-                                                                  * FAILED: Job falhou na execução.
-                                                                  * Paralelismo: Quantidade de Pods para execução em paralelo.
-                                                                  * Conclusões: Conclusões bem-sucedidas.
-                                                                  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a opção de deletar o job, como mostra a figura:
+
+  * **Nome**: Nome do *job* que a plataforma do Mangue.io gera para o *deployment*;
+
+  * **Status**: Esta coluna apresenta três valores possíveis, *“COMPLETED”*, *“IN PROGRESS”* e *“FAILED”*:
+
+     * **COMPLETED**:  *Job* executado com sucesso;
+     * **IN PROGRESS**: *Job* sendo executado;
+     * **FAILED**: *Job* falhou na execução.
+
+  * **Paralelismo**: Quantidade de *Pods* para execução em paralelo.
+
+  * **Conclusões**: Conclusões bem-sucedidas.
+
+  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a opção de deletar o *job*, como mostra a figura:
   
 .. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
     :alt: Deletar Job 
@@ -1910,12 +1943,14 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
     :align: center
 =====
 
+
+
 Faturamento
 ===========
 
-Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente serverless baseado em containers (Kubernetes).
+Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente *serverless* baseado em *containers* (*Kubernetes*).
 
-O termo serverless pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de software sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional - SO). 
+O termo *serverless* pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de *software* sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional-SO). 
 
 Para que este software seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e softwares) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
 
@@ -1924,13 +1959,12 @@ A plataforma do Mangue.io possui uma base de dados que acumula os valores de con
 Ao selecionar esta opção do menu a plataforma do Mangue.io apresenta a seguinte tela:
   
 .. image:: /figuras/fig_mangue/086_mangue_faturamento_cluster.png
-    :alt: Histórico faturamento cluster 
-    :scale: 80 %
+    :alt: Histórico faturamento cluster
     :align: center
 =====
 
 
-A plataforma do Mangue.io apresenta os valores do cluster e namespace selecionados na aba engrenagens “   Seleção de Configuração”. A cada seleção de um novo contrato/cluster/namespace os valores e os gráficos são atualizados automaticamente.
+A plataforma do Mangue.io apresenta os valores do *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”. A cada seleção de um novo contrato/*cluster*/*namespace* os valores e os gráficos são atualizados automaticamente.
 
 Esta tela está dividida em duas seções diferentes, a seguir o detalhamento de cada seção.
 
@@ -1941,7 +1975,7 @@ Relatório Consolidado
 ---------------------
 
 
-Esta tela apresenta informações quanto ao consumo mensal dos clusters, o usuário consegue visualizar o preço de cada cluster no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o deployment é criado por meio do Mangue.io, uma vez que é guardado no deployment a informação do usuário responsável por sua criação.
+Esta tela apresenta informações quanto ao consumo mensal dos *clusters*, o usuário consegue visualizar o preço de cada *cluster* no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o *deployment* é criado por meio do Mangue.io, uma vez que é guardado no *deployment* a informação do usuário responsável por sua criação.
 
 .. image:: /figuras/fig_mangue/087_mangue_overview_financeiro.png
     :alt: Overview financeiro 
@@ -1949,9 +1983,9 @@ Esta tela apresenta informações quanto ao consumo mensal dos clusters, o usuá
     :align: center
 =====
 
-Ao selecionar um cluster as informações da tela são recarregadas de acordo com o cluster selecionado, isso inclui tanto os gráficos que informam o preço por cluster e preço por usuário, quanto a tabela com detalhes sobre custo de aplicações.
+Ao selecionar um *cluster* as informações da tela são recarregadas de acordo com o *cluster* selecionado, isso inclui tanto os gráficos que informam o preço por *cluster* e preço por usuário, quanto a tabela com detalhes sobre custo de aplicações.
 
-Por padrão a consulta é realizada considerando todos os namespaces do cluster, mas o usuário pode filtrar por um namespace específico clicando em “Selecione um namespace”, as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do namespace selecionado.
+Por padrão a consulta é realizada considerando todos os *namespaces* do *cluster*, mas o usuário pode filtrar por um *namespace* específico clicando em ``Selecione um namespace`` as informações da tela são recarregadas assim como no item anterior, se diferenciando por retornar os valores apenas do *namespace* selecionado.
 
 Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das aplicações, como pode ser visto na imagem abaixo:
 
@@ -1960,13 +1994,20 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
     :align: center
 =====  
 
-                                                                     * Nome: Esta coluna apresenta o nome do deployment, lembrando que para o deployment aparecer aqui ele precisa estar em um cluster com o “bilhetador” habilitado;
-                                                                     * Usuário: Esta coluna apresenta o usuário responsável pela criação da aplicação;
-                                                                     * Namespace: Esta coluna apresenta o namespace ao qual a aplicação pertence;
-                                                                     * Preço de CPU: Esta coluna apresenta o custo por CPU da aplicação correspondente ao mês selecionado;
-                                                                     * Preço de Memória: Esta coluna apresenta o custo por Memória da aplicação correspondente ao mês selecionado;
-                                                                     * Preço Total: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
-Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
+   * **Nome**: Esta coluna apresenta o nome do *deployment*, lembrando que para o *deployment* aparecer aqui ele precisa estar em um *cluster* com o “bilhetador” habilitado;
+
+   * **Usuário**: Esta coluna apresenta o usuário responsável pela criação da aplicação;
+
+   * **Namespace**: Esta coluna apresenta o *namespace* ao qual a aplicação pertence;
+
+   * **Preço de CPU**: Esta coluna apresenta o custo por CPU da aplicação correspondente ao mês selecionado;
+
+   * **Preço de Memória**: Esta coluna apresenta o custo por Memória da aplicação correspondente ao mês selecionado;
+
+   * **Preço Total**: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
+
+
+     Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
 
 ====
 
