@@ -1588,7 +1588,7 @@ A plataforma do Mangue.io permite ao usuário experiente em *YAML* entrar com o 
 Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.io apresenta a seguinte tela:
   
 
-.. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
+.. image:: /figuras/fig_mangue/070__mangue_deploy_clusters.png
     :alt: Deploy em outros clusters
     :align: center
 =====
