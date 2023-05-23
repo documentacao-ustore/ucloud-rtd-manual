@@ -425,16 +425,14 @@ A função desta tela permite ao usuário alterar as *Tags* associadas à aplica
 
 
 .. image:: /figuras/fig_mangue/019.1_mangue_alterar_tag.png
-    :alt: Alterar Tags 
-    :scale: 80 %
+    :alt: Alterar Tags
     :align: center
 =====
 
 .. important:: Para criar uma *Tag* é necessário especificar sua chave e valor.
 
 .. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
-    :alt: Criar Tag 
-    :scale: 80 %
+    :alt: Criar Tag
     :align: center
 =====
 
@@ -475,8 +473,7 @@ Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a 
 
 
 .. image:: /figuras/fig_mangue/022_mangue_atualizar_deployment.png
-    :alt: Atualizar versão de Deployment 
-    :scale: 80 %
+    :alt: Atualizar versão de Deployment
     :align: center
 =====
 
@@ -621,8 +618,7 @@ Cada uma das opções deste submenu é detalhada e descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
-    :alt: submenu Ações_Deletar_POD 
-    :scale: 80 %
+    :alt: submenu Ações_Deletar_POD
     :align: center
 =====
 
@@ -654,8 +650,7 @@ Caso o *pod* tenha mais de um container sendo executado existe um *dropdown* que
   
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
-    :alt: submenu Ações_Linha de Comando Outro POD 
-    :scale: 80 %
+    :alt: submenu Ações_Linha de Comando Outro POD
     :align: center
 =====
 
@@ -1050,8 +1045,7 @@ Cada uma das opções deste submenu está descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
-    :alt: submenu Ações_log diversos pods 
-    :scale: 80 %
+    :alt: submenu Ações_log diversos pods
     :align: center
 =====
 
@@ -1123,8 +1117,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
   
 
 .. image:: /figuras/fig_mangue/050_mangue_deletar_statefulsets.png
-    :alt: mensagem confirmação 
-    :scale: 80 %
+    :alt: mensagem confirmação
     :align: center
 =====
 
@@ -1196,9 +1189,9 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 =====
 
 
-* **A ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *Update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *Updates* que contém a palavra-chave da pesquisa;
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *Update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *Updates* que contém a palavra-chave da pesquisa;
 
-* **A ação de atualizar**: Basta clicar no ícone |icone_update| para atualizar a interface da plataforma do Mangue.io com os valores mais recentes desta tabela de *Updates*;
+* **Ação de atualizar**: Basta clicar no ícone |icone_update| para atualizar a interface da plataforma do Mangue.io com os valores mais recentes desta tabela de *Updates*;
 
 * **Criar integração com updates**: Basta clicar no sinal de adição |icone_adicionar| para o usuário cadastrar uma nova atualização para um Deployment em um determinado *Namespace*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
@@ -1264,6 +1257,9 @@ Nova Aplicação
 Esta modalidade é a forma que a plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”.
 
 Abaixo descritas as etapas de preenchimento dos formulários das telas que guiam o usuário.
+
+====
+
 
 A. Primeiro Passo: Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1459,14 +1455,14 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 
    * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
    
-Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
+   Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
     :alt: Selecionar container
     :align: center
 =====
 
-Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
+   Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
    * **Excluir**: Esta ação é definitiva, ao acioná-la a plataforma do Mangue.io remove toda a configuração inicial do container. 
 
