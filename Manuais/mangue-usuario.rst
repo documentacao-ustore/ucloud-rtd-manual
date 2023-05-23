@@ -425,16 +425,14 @@ A função desta tela permite ao usuário alterar as *Tags* associadas à aplica
 
 
 .. image:: /figuras/fig_mangue/019.1_mangue_alterar_tag.png
-    :alt: Alterar Tags 
-    :scale: 80 %
+    :alt: Alterar Tags
     :align: center
 =====
 
 .. important:: Para criar uma *Tag* é necessário especificar sua chave e valor.
 
 .. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
-    :alt: Criar Tag 
-    :scale: 80 %
+    :alt: Criar Tag
     :align: center
 =====
 
@@ -475,8 +473,7 @@ Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a 
 
 
 .. image:: /figuras/fig_mangue/022_mangue_atualizar_deployment.png
-    :alt: Atualizar versão de Deployment 
-    :scale: 80 %
+    :alt: Atualizar versão de Deployment
     :align: center
 =====
 
@@ -598,8 +595,7 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 
      * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * **!** (ponto de exclamação)   identifica que algo errado aconteceu com o *deployment* e suas
-     réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
+     * **!** (ponto de exclamação) mostra que algo errado aconteceu com o *deployment* e suas réplicas. Por exemplo: A imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre;
 
 * **Imagem**: Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
@@ -622,8 +618,7 @@ Cada uma das opções deste submenu é detalhada e descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/028_mangue_deletar_pod.png
-    :alt: submenu Ações_Deletar_POD 
-    :scale: 80 %
+    :alt: submenu Ações_Deletar_POD
     :align: center
 =====
 
@@ -655,8 +650,7 @@ Caso o *pod* tenha mais de um container sendo executado existe um *dropdown* que
   
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
-    :alt: submenu Ações_Linha de Comando Outro POD 
-    :scale: 80 %
+    :alt: submenu Ações_Linha de Comando Outro POD
     :align: center
 =====
 
@@ -1019,7 +1013,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, apresenta as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -1051,8 +1045,7 @@ Cada uma das opções deste submenu está descrita abaixo:
   
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
-    :alt: submenu Ações_log diversos pods 
-    :scale: 80 %
+    :alt: submenu Ações_log diversos pods
     :align: center
 =====
 
@@ -1101,7 +1094,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
 
 * **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*.
 
-* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe duas opções como a figura abaixo:
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe duas opções como a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/048.1_mangue_acoes_statefulsets.png
@@ -1116,8 +1109,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
   
 
 .. image:: /figuras/fig_mangue/049_mangue_editar_statefulsets.png
-    :alt: Editar 
-    :scale: 80 %
+    :alt: Editar
     :align: center
 =====
 
@@ -1125,8 +1117,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
   
 
 .. image:: /figuras/fig_mangue/050_mangue_deletar_statefulsets.png
-    :alt: mensagem confirmação 
-    :scale: 80 %
+    :alt: mensagem confirmação
     :align: center
 =====
 
@@ -1198,9 +1189,9 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 =====
 
 
-* **A ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *Update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *Updates* que contém a palavra-chave da pesquisa;
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *Update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *Updates* que contém a palavra-chave da pesquisa;
 
-* **A ação de atualizar**: Basta clicar no ícone |icone_update| para atualizar a interface da plataforma do Mangue.io com os valores mais recentes desta tabela de *Updates*;
+* **Ação de atualizar**: Basta clicar no ícone |icone_update| para atualizar a interface da plataforma do Mangue.io com os valores mais recentes desta tabela de *Updates*;
 
 * **Criar integração com updates**: Basta clicar no sinal de adição |icone_adicionar| para o usuário cadastrar uma nova atualização para um Deployment em um determinado *Namespace*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
   
@@ -1267,6 +1258,9 @@ Esta modalidade é a forma que a plataforma do Mangue.io conduz o usuário atrav
 
 Abaixo descritas as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
+====
+
+
 A. Primeiro Passo: Nova Aplicação
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1284,7 +1278,7 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
       * **Réplicas**: Este campo é obrigatório, o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a plataforma do Mangue.io se encarrega da alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io realiza a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io realiza a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência *“wordp”*, para buscar a imagem da aplicação *Wordpress*:
             
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
@@ -1302,7 +1296,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Tags da Aplicação**: Neste campo o usuário pode informar as *Tags*, assim como criar uma *Tag* para ser associada à aplicação;
 
-   * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas. Após o usuário confirmar a ação no botão ``Adicionar`` o usuário visualiza a seguinte tela:
+   * **Botão** ``Adicionar``: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas. Após o usuário confirmar a ação no botão ``Adicionar`` o usuário visualiza a seguinte tela:
 
 
 .. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
@@ -1312,23 +1306,31 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Versão da Imagem**: Este campo é obrigatório, neste o usuário deve informar como a aplicação *(Deployment)* é identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
+
    * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar qual porta TCP-IP do container pode ser utilizada para que a aplicação *(Deployment)* ficar disponível ao acesso de outros usuários;
+
 
      * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
-     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
 
+     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
+     
      * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer o máximo de performance para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o *Deployment*;
+
 
      * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
 
+
    * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades *Kernel* da máquina *Host*;
+
 
    * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo é possível indicar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
 
+
    * **Registry Secret**: Neste campo o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado. A plataforma do Mangue.io apresenta apenas os arquivos de *Secrets* privados que estão presentes na plataforma do Mangue.io.
 
-   * **Botão Próximo**: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
+
+   * **Botão** ``Próximo``: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
@@ -1411,7 +1413,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Nome do ConfigMap**: Este campo é obrigatório, o usuário deve informar o nome desejado para cadastrar na plataforma do Mangue.io e identificar este *ConfigMap*.
 
-   * **Botão** ``Adicionar`` (“+”): 
+   * **Botão** ``Adicionar``;
 
    * **Mount Path**: Este campo é obrigatório, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
@@ -1461,14 +1463,14 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 
    * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
    
-Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
+   Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
     :alt: Selecionar container
     :align: center
 =====
 
-Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
+   Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
    * **Excluir**: Esta ação é definitiva, ao acioná-la a plataforma do Mangue.io remove toda a configuração inicial do container. 
 
