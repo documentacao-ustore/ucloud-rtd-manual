@@ -1731,7 +1731,7 @@ Abaixo a descrição de cada coluna desta tabela:
 
 Importante ressaltar que esta janela não permite a edição do conteúdo listado.
 
-   * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configmap*.
+   * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configMap*.
 
    * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a figura abaixo:
   
@@ -1740,7 +1740,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
     :align: center
 =====
 
-     * **Deletar Configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configmap*.
+     * **Deletar configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configMap*.
   
 .. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
     :alt: Deletar configmap 
@@ -1750,11 +1750,12 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
 .. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois são apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
 
+====
 
-      * **Editar Configmap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configmap*:
+      * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
-    :alt: Adicionar configmap
+    :alt: Adicionar configMap
     :align: center
 =====  
 
@@ -1793,10 +1794,10 @@ Abaixo a descrição dos campos da tela acima:
      * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
 
      
-     .. attention::|atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
+.. attention::|atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
 
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. 
+     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*. 
      
      Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
