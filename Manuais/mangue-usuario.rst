@@ -1796,13 +1796,14 @@ Abaixo a descrição dos campos da tela acima:
      
 .. attention::|atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
+====
 
      * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*. 
      
      Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
 
-   * **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar confiMmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
+* **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar confiMmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
 
 ====
 
