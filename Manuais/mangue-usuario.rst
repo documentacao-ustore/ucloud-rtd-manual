@@ -1383,6 +1383,8 @@ Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
     :scale: 80 %
     :align: center
 =====
+
+
    * **Adicionar PersistentVolumeClaim**: Através desta tela o usuário pode configurar as características do arquivo referente ao *PersistentVolumeClaim* (PVC). 
 
 A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferecendo ao usuário opções na interface gráfica que conduzem as decisões referentes a PVC, conforme abaixo:
