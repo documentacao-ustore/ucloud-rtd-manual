@@ -1588,7 +1588,7 @@ A plataforma do Mangue.io permite ao usuário experiente em *YAML* entrar com o 
 Ao clicar sobre a opção *Deploy*, via código *YAML*, a plataforma do Mangue.io apresenta a seguinte tela:
   
 
-.. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
+.. image:: /figuras/fig_mangue/070_mangue_deploy_clusters.png
     :alt: Deploy em outros clusters
     :align: center
 =====
@@ -1645,7 +1645,7 @@ O usuário experiente em *YAML* pode perceber que o uso de modelos aumenta a pro
 C. Browse
 ~~~~~~~~~
 
-Este botão permite ao usuário carregar (*upload*) um arquivo tipo texto não formatado (ASCII), com um código *YAML* previamente criado pelo usuário. O usuário deve clicar sobre o botão ``Browse`` para que a plataforma do Mangue.io possa apresentar a tela do "Explorador de Arquivos" (*File Explorer*) do seu computador e o usuário possa selecionar o *folder*/diretório onde se localiza o arquivo do seu código.
+Este botão permite ao usuário carregar (*upload*) um arquivo tipo texto não formatado (ASCII), com um código *YAML* previamente criado pelo usuário. O usuário deve clicar sobre o botão ``Browse``, nesta ação a plataforma do Mangue.io apresenta a tela do "Explorador de Arquivos" (*File Explorer*) do seu computador, em seguida, deve-se selecionar o *folder*/diretório onde está localizado o arquivo do seu código.
 
 A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e .yml*” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
   
@@ -1687,7 +1687,7 @@ Para criar um Visual Studio Code é necessário clicar no botão |icone_adiciona
    * **Porta**: O usuário pode selecionar a porta que é utilizada no serviço.
    * **Tipo do tamanho**: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
    * **Ingress Class**: Caso o tipo de serviço selecionado seja *Ingress* é necessário selecionar a *Ingress Class* a ser utilizada pelo serviço.
-   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho da rota do *Ingress*. Exemplo: /vscode.
+   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho desta rota. Exemplo: */vscode*.
    * **Ativar autenticação**: O usuário pode atribuir uma senha, ela é necessária para acessar o servidor *VS Code*.
    * **Senha do servidor VS Code**: Senha a ser utilizada para acessar o servidor *VS Code*.
 
