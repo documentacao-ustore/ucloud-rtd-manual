@@ -1624,7 +1624,7 @@ O usuário deve utilizar a sua própria experiência de desenvolvimento para est
 * **Deployment**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Deployment*. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do *Deployment*. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
 
 
-* **Serviço**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do serviço, desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
+* **Serviço**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um Serviço. O usuário pode usar o mouse para clicar na linha e no local desejado, em seguida, começar a digitação dos seus parâmetros específicos do serviço. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
 
 
 * **Statefulsets**: Nesta opção a plataforma do Mangue.io apresenta um modelo de código *YAML* com a sintaxe inicial para criar um *Statefulsets*. O usuário pode clicar no mouse na linha e no local desejado, em seguida, é liberado começar a digitação dos seus parâmetros específicos para o *Statefulsets*. Desta forma, editar o modelo do código *YAML* que a plataforma apresenta.
@@ -1643,9 +1643,9 @@ O usuário experiente em *YAML* pode perceber que o uso de modelos aumenta a pro
 C. Browse
 ~~~~~~~~~
 
-Este botão permite ao usuário carregar (*upload*) um arquivo tipo texto não formatado (ASCII), com um código *YAML* previamente criado pelo usuário. O usuário deve clicar sobre o botão ``Browse`` para que a plataforma do Mangue.io possa apresentar a tela do "Explorador de Arquivos" (*File Explorer*) do seu computador e o usuário possa selecionar o folder/diretório onde se localiza o arquivo do seu código.
+Este botão permite ao usuário carregar (*upload*) um arquivo tipo texto não formatado (ASCII), com um código *YAML* previamente criado pelo usuário. O usuário deve clicar sobre o botão ``Browse`` para que a plataforma do Mangue.io possa apresentar a tela do "Explorador de Arquivos" (*File Explorer*) do seu computador e o usuário possa selecionar o *folder*/diretório onde se localiza o arquivo do seu código.
 
-A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e *.yml*” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
+A plataforma do Mangue.io está configurada para identificar e apresentar todos os arquivos com extensão “*.yaml e .yml*” presentes no folder/diretório selecionado. Caso o usuário tenha salvo o seu código fonte em um arquivo com extensão diferente, este deve digitar o nome completo do arquivo no campo “Nome” ou selecionar a opção “Todos os arquivos (*.*) / All files (*.*)” para localizar e selecionar o arquivo desejado.
   
 .. image:: /figuras/fig_mangue/071_mangue_arquivo_yaml.png
     :alt: Localizar e selecionar arquivo
@@ -1661,7 +1661,7 @@ Neste ponto, o usuário pode editar o código diretamente através da interface 
 D. Submit
 ~~~~~~~~~
 
-Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetue a carga do código e sua consequente compilação ao disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
+Quando o usuário concluir a inserção de todo o conteúdo do código *YAML* e estiver seguro de que este código está correto, deve clicar no botão verde ``Submit`` para a plataforma do Mangue.io efetuar a carga do código e sua consequente compilação ao disponibilizar este código como um *Deployment*, Serviço, *Statefulsets*, Volume ou *Ingress*.
 
 Neste ponto, a plataforma do Mangue.io encerra as telas de criação da aplicação (*Deployment*), então o usuário pode encontrar sua nova aplicação listada no menu *Workloads/Deployments*.
 
@@ -1697,11 +1697,11 @@ ConfigMap
 
 De forma simples, pode-se afirmar que *ConfigMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
 
-Os arquivos de *configmap*, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
+Os arquivos de *configMap*, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
 
-Vale ressaltar que um arquivo de *configmap* pode conter, sim, o conteúdo complexo de um *JSON*, bastando ao usuário preencher o conteúdo deste arquivo obedecendo a sintaxe correta de um arquivo *JSON*.
+Vale ressaltar que um arquivo de *configMap* pode conter, sim, o conteúdo complexo de um *JSON*, bastando ao usuário preencher o conteúdo deste *configMap* obedecendo a sintaxe correta de um *JSON*.
 
-Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela a seguir a qual contém uma listagem de todos os *configmaps* cadastrados na plataforma.
+Ao selecionar esta opção na barra do menu, a plataforma do Mangue.io apresenta a tela a seguir a qual contém uma listagem de todos os *configMaps* cadastrados na plataforma.
   
 .. image:: /figuras/fig_mangue/073_mangue_configmaps.png
     :alt: Configmaps
@@ -1713,14 +1713,14 @@ Abaixo a descrição de cada coluna desta tabela:
 
 * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
 
-     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
 
-     Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+     Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
 
 * **Nome**: Nesta coluna é apresentado o nome do *configmap* adicionado pelo usuário. Ao clicar com o mouse sobre o nome, a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configmap*. 
 
-     Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+     Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado, e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo
@@ -1731,14 +1731,14 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
    * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configmap*.
 
-   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções, assim como a figura abaixo:
+   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
     :alt: Ações configmap
     :align: center
 =====
 
-   * **Deletar Configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configmap*.
+     * **Deletar Configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configmap*.
   
 .. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
     :alt: Deletar configmap 
@@ -1746,10 +1746,10 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
     :align: center
 =====
 
-.. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois serão apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
+.. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois são apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
 
 
-* **Editar Configmap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configmap*:
+      * **Editar Configmap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configmap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: Adicionar configmap
@@ -1763,13 +1763,13 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
     :align: center
 =====
 
-   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMaps* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *ConfigMap* desejado. Basta informar parte do nome e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os *ConfigMaps* que contêm a palavra-chave da pesquisa.
 
 
-   * **A ação de atualizar**: Basta clicar no ícone “  ” para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMaps*.
+   * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMap*.
 
 
-   * **Ação de adicionar um ConfigMaps**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMaps* em um determinado A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+   * **Ação de adicionar um ConfigMap**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMap*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
@@ -1782,24 +1782,24 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 Abaixo a descrição dos campos da tela acima:
 
 
-   * **Nome do Configmap**: Neste campo o usuário deve digitar o nome do *configmap* desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, o que resulta na plataforma do Mangue.io a adição dos campos abaixo:
+   * **Nome do configMap**: Neste campo o usuário deve digitar o nome do *configMap* desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, o que resulta na plataforma do Mangue.io a adição dos campos abaixo:
 
 
-     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *Configmap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configmap*.
+     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *configMap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configMap*.
 
 
-     * **Nome do Arquivo**: Neste campo o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
+     * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
 
      
-     .. attention:: |atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
+     .. attention::|atencao| Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
 
      * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configmap*. 
      
-     Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+     Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
 
-   * **Botão** ``Adicionar Configmap``: Após o usuário informar o(s) arquivo(s) de *configmap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar Configmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configmaps*.
+   * **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar confiMmap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
 
 ====
 
@@ -3586,9 +3586,7 @@ Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
 
 .. |icone_update| image:: /figuras/fig_mangue/icone_update.png
 
-
-
-
+.. |icone_seta_diagonal| image:: /figuras/fig_mangue/icone_seta_diagonal.png
 
 
 
