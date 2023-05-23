@@ -1870,7 +1870,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
 
 
-* **Ação de atualizar**: Basta clicar no ícone |icone_reversao| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
+* **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
 
 
 ====
