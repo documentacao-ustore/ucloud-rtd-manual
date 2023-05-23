@@ -1402,9 +1402,9 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Modo de Acesso**: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles: *ReadWriteOnce*, *ReadOnlyMany*, *ReadWriteMany*.
 
-   * **Mount Path**: Neste campo o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
+   * **Mount Path**: Neste espaço o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
-   * **Nome do Volume**: Neste campo o usuário deve informar o nome do arquivo de volume que é criado no ambiente do sistema operacional do *Cluster*.
+   * **Nome do Volume**: Nesta lacuna o usuário deve informar o nome do arquivo de volume que é criado no ambiente do sistema operacional do *Cluster*.
 
    * **Adicionar ConfigMap**: Um *ConfigMap* é um objeto API usado para armazenar dados não confidenciais em pares chave-valor. Nesta sub tela, o usuário pode incluir e configurar o(s) arquivo(s) de *ConfigMap(s)* desejado(s) para o seu ambiente.
   
@@ -1417,9 +1417,9 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Botão** ``Adicionar``;
 
-   * **Mount Path**: Este campo é obrigatório, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
+   * **Mount Path**: Esta lacuna é obrigatória, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
-   * **Nome do Arquivo**: Este campo é obrigatório e o usuário deve informar no nome do arquivo que é criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
+   * **Nome do Arquivo**: Este espaço é obrigatório, o usuário deve informar no nome do arquivo que é criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
 
    * **Conteúdo do Arquivo**: Este campo é obrigatório, o usuário deve preencher com o conteúdo específico do *ConfigMap*.
 
@@ -1463,9 +1463,7 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 =====
 
 
-   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
-   
-   Ao clicar sobre esta opção a plataforma do Mangue.io apresenta a seguinte tela:
+   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao carregar esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
     :alt: Selecionar container
@@ -1526,7 +1524,7 @@ O leitor deste documento pode ver abaixo a descrição das próximas telas que f
 =====
 
 
-   * **MaxSurge**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
+   * **MaxSurge**: Neste espaço o usuário deve informar a quantidade máxima de réplicas que deseja manter ativa na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)*, este número é o responsável em manter um mínimo de réplicas para garantir a experiência do usuário durante um processo de atualização.
 
    * **MaxUnavailable**: Neste campo o usuário deve informar a quantidade máxima de réplicas que deseja manter indisponível na plataforma do Mangue.io. Durante um processo de atualização da versão da aplicação *(Deployment)* este número indica para o Mangue.io a quantidade de réplicas que podem ser atualizadas de modo paralelo.
 
