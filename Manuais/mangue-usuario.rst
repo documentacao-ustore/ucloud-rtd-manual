@@ -598,8 +598,7 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 
      * **Pending** identifica algum estado de transição no *deployment*. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
 
-     * **!** (ponto de exclamação)   identifica que algo errado aconteceu com o *deployment* e suas
-     réplicas. Por exemplo: Ao ser passada a imagem de um container com uma versão que não existe, o *download* desse container é impraticável, torna-se impossível fazê-lo;
+     * **!** (ponto de exclamação) mostra que algo errado aconteceu com o *deployment* e suas réplicas. Por exemplo: A imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre;
 
 * **Imagem**: Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
 
@@ -1019,7 +1018,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
 * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
-* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, apresentam as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a figura abaixo:
+* **Ações:** Esta coluna apresenta o botão ``Ações`` |icone_acao| ao ser clicado, apresenta as ações que podem ser efetuadas sobre cada *Pod* listado, como mostra a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -1101,7 +1100,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
 
 * **Duração**: Esta coluna apresenta o tempo decorrido desde o momento de criação do *Statefulsets*.
 
-* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe duas opções como a figura abaixo:
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe duas opções como a seguinte figura:
   
 
 .. image:: /figuras/fig_mangue/048.1_mangue_acoes_statefulsets.png
@@ -1116,8 +1115,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
   
 
 .. image:: /figuras/fig_mangue/049_mangue_editar_statefulsets.png
-    :alt: Editar 
-    :scale: 80 %
+    :alt: Editar
     :align: center
 =====
 
