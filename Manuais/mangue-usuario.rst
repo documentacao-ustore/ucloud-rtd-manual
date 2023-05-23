@@ -1810,7 +1810,7 @@ Abaixo a descrição dos campos da tela acima:
 Cluster Events
 ==============
 
-Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no cluster e namespace selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração”. A cada seleção de contrato/*cluster*/*namespace* a lista de eventos é atualizada automaticamente.
+Através desta opção de menu, a plataforma do Mangue.io apresenta todos os eventos que ocorreram no *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração”. A cada seleção de contrato/*cluster*/*namespace* a lista de eventos é atualizada automaticamente.
 
 .. image:: /figuras/fig_mangue/080_mangue_cluster_events.png
     :alt: clusters Events
@@ -1821,7 +1821,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
   * **#**: Número sequencial do evento na lista apresentada;
 
-  * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o deployment; 
+  * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o *deployment*; 
 
   * **Tipo de evento**: 
      
@@ -1832,31 +1832,31 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
   * **Tipo de objeto**: Descreve qual objeto configurado na plataforma do Mangue.io originou o evento listado. A identificação do tipo de objeto, permite ao usuário identificar esta origem, para que este possa ter acesso ao objeto e atuar na resolução do evento. Pode ser através da redefinição do objeto ou optar por sua remoção. Os tipos de objeto podem ser alguns dos listados abaixo:
 
-     * Deployments;
-     * Daemonsets;
-     * Horizontal Autoscaler;
-     * Pods;
-     * Statefulsets;
-     * Updates;
+     * *Deployments*;
+     * *Daemonsets*;
+     * *Horizontal Autoscaler*;
+     * *Pods*;
+     * *Statefulsets*;
+     * *Updates*;
      * Serviços;
-     * Ingress;
-     * StorageClass;
-     * PersistentVolumes;
-     * PersistentVolumesClaim.
+     * *Ingress*;
+     * *StorageClass*;
+     * *PersistentVolumes*;
+     * *PersistentVolumesClaim*.
 
   * **Nome do objeto**: Nome do recurso do evento.
 
   * **Mensagem**: 
 
-     * Pulled;
-     * Created;
-     * Started;
-     * NoPods;
-     * FailedGetScale;
-     * ProvisioningFailed;
-     * FailedBinding.
+     * *Pulled*;
+     * *Created*;
+     * *Started*;
+     * *NoPods*;
+     * *FailedGetScale*;
+     * *ProvisioningFailed*;
+     * *FailedBinding*.
 
-  * **Executado há**: Informa quanto tempo atrás o evento foi executado.
+  * **Executado há**: Informa quanto tempo atrás o evento aconteceu.
 
 
 A imagem a seguir é um recorte dos elementos posicionados acima da tabela, existem três ações diferentes e disponíveis ao usuário:
@@ -1870,7 +1870,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
 
 
-* **Ação de atualizar**: Basta clicar no ícone |icone_reversao| para que o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
+* **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
 
 
 ====
