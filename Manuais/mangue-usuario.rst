@@ -1793,7 +1793,7 @@ Abaixo a descrição dos campos da tela acima:
 
      * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
 
-     .. attention::  |atencao|  Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
+.. attention:: Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
      * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*. 
      
