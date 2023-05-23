@@ -1278,7 +1278,7 @@ Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.i
 
       * **Réplicas**: Este campo é obrigatório, o usuário deve informar um número (inteiro), que este deseja alocar para executar a aplicação *(Deployment)* assim que criada. Este número é alocado da infraestrutura computacional para que o usuário obtenha a melhor experiência de performance, e a plataforma do Mangue.io se encarrega da alocação destes recursos computacionais;
 
-      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io realiza a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência “wordp”, para buscar a imagem da aplicação *Wordpress*:
+      * **Pesquisar Imagem**: Este campo é obrigatório, uma pesquisa da imagem de uma aplicação é efetuada no servidor de registro de imagens http://hub.docker.com. O usuário pode informar uma sequência de caracteres (mesmo que parcial) de qualquer imagem catalogada no *Hub Docker*, a plataforma do Mangue.io realiza a pesquisa e apresenta uma lista que contém a sequência de caracteres. Veja exemplo abaixo, com pesquisa da sequência *“wordp”*, para buscar a imagem da aplicação *Wordpress*:
             
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
@@ -1296,7 +1296,7 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Tags da Aplicação**: Neste campo o usuário pode informar as *Tags*, assim como criar uma *Tag* para ser associada à aplicação;
 
-   * **Botão Adicionar**: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas. Após o usuário confirmar a ação no botão ``Adicionar`` o usuário visualiza a seguinte tela:
+   * **Botão** ``Adicionar``: Para a criação de uma nova aplicação *(Deployment)* a plataforma do Mangue.io segmenta o processo em duas etapas. Após o usuário confirmar a ação no botão ``Adicionar`` o usuário visualiza a seguinte tela:
 
 
 .. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
@@ -1306,23 +1306,31 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
 
    * **Versão da Imagem**: Este campo é obrigatório, neste o usuário deve informar como a aplicação *(Deployment)* é identificada no ambiente. Este campo pode ser preenchido com números ou caracteres, para atender a demanda do usuário (Ex.: latest, última, 1.xx, 1.20);
 
+
    * **ContainerPort**: Este campo é obrigatório, nele o usuário deve informar qual porta TCP-IP do container pode ser utilizada para que a aplicação *(Deployment)* ficar disponível ao acesso de outros usuários;
+
 
      * **Máximo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
-     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
 
+     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
+     
      * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o máximo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer o máximo de performance para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o *Deployment*;
+
 
      * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
 
+
    * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades *Kernel* da máquina *Host*;
+
 
    * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste campo é possível indicar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
 
+
    * **Registry Secret**: Neste campo o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado. A plataforma do Mangue.io apresenta apenas os arquivos de *Secrets* privados que estão presentes na plataforma do Mangue.io.
 
-   * **Botão Próximo**: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
+
+   * **Botão** ``Próximo``: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
@@ -1405,7 +1413,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Nome do ConfigMap**: Este campo é obrigatório, o usuário deve informar o nome desejado para cadastrar na plataforma do Mangue.io e identificar este *ConfigMap*.
 
-   * **Botão** ``Adicionar`` (“+”): 
+   * **Botão** ``Adicionar``;
 
    * **Mount Path**: Este campo é obrigatório, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
