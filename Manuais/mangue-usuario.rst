@@ -1878,14 +1878,14 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 *Cron Jobs, Jobs*
 =================
 
-Nesta opção de menu o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
+Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
 A. *Cron Jobs*
 -------------
 
-Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também,programar um trabalho para quando seu *cluster* provavelmente está ocioso.
+Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também, programar um trabalho para quando seu *cluster* provavelmente está ocioso.
 
-A plataforma do Mangue.io lista todos os cronjobs configurados em seu ambiente:
+A plataforma do Mangue.io lista todos os *cronjobs* configurados em seu ambiente:
 
 .. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
     :alt: Cron Jobs
@@ -1898,11 +1898,11 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
   * **Nome**: Nome do *cronjob* que a plataforma do Mangue.io gera para o *deployment*;
 
-  * **Schedule**: Apresenta a configuração do agendamento (data e hora) programado para executar este cronjob;
+  * **Schedule**: Exibe a configuração do agendamento (data e hora) programado para executar este *cronjob*;
 
-  * **Duração**: Apresenta o tempo de duração do cronjob;
+  * **Duração**: Apresenta o tempo de duração do *cronjob*;
 
-  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado apresenta duas opções assim como a figura abaixo:
+  * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a opção de deletar o *CronJob*, como mostra a figura:
 
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: Deletar cron job 
