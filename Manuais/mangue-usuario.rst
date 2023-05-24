@@ -1715,14 +1715,14 @@ Abaixo a descrição de cada coluna desta tabela:
 
 * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
 
-     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+  Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
 
-     Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+  Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
 
 * **Nome**: Nesta coluna é apresentado o nome do *configmap* adicionado pelo usuário. Ao clicar com o mouse sobre o nome, a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configMap*. 
 
-     Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado, e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
+  Por padrão é apresentada somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado, e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo
@@ -1733,7 +1733,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
    * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configMap*.
 
-   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a figura abaixo:
+   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a seguinte figura:
   
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
     :alt: Ações configmap
