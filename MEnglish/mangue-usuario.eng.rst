@@ -50,7 +50,7 @@ https://<mangueserver_IP_Address>:80
 
 https://mangue_Server_Name.com/
 
-After inserting the address correctly, the user’s login screen is similar to the image below: 
+After inserting the address correctly, the user's login screen is similar to the image below: 
 
 
 
@@ -63,7 +63,7 @@ After inserting the address correctly, the user’s login screen is similar to t
 
 The credentials for the login and password are the same as those of the uCloud platform, which the Mangue.io platform is integrated with. Every user provisioned on the uCloud can automatically use their credentials to gain access to Mangue.io. 
 
-After inserting the access credentials (login and password) and performing the login procedure, a similar figure may be presented to the user, in case of existing a cluster associated with the user’s in the Mangue.io contract. 
+After inserting the access credentials (login and password) and performing the login procedure, a similar figure may be presented to the user, in case of existing a cluster associated with the user's in the Mangue.io contract. 
 
 
 .. image:: /figuras/fig_mangue/002_mangue_tela_inicial.png
@@ -97,14 +97,14 @@ When selecting a contract, the options for selecting clusters are updated, listi
 
 The contracts that appear in this part are only those that already have some cluster integrated with the Mangue.io, in the sequence of this document the description of how to integrate and/or create a cluster in the application. On the selection occasion, the cluster that the platform is communicating with is changed and the information on the screen is updated for this new context. 
 
-The moment the user selects the cluster and namespace, the values on the Overview screen are changed with the specific data of the user’s selection. 
+The moment the user selects the cluster and namespace, the values on the Overview screen are changed with the specific data of the user's selection. 
 
 ====
 
 Home screen
 ===========
 
-The Overview home screen displays some graphs referring to the consumption values of computing resources specific to the user’s selection, the details of the graphs follow below:
+The Overview home screen displays some graphs referring to the consumption values of computing resources specific to the user's selection, the details of the graphs follow below:
 
 
 Cluster Monthly Price Graph
@@ -201,7 +201,7 @@ The user menu bar is located on the left of the screen and, initially, is presen
 =====
 
 
-Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option’s submenu to the user, see the example in the figure below.
+Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option's submenu to the user, see the example in the figure below.
 
 
 .. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
@@ -266,7 +266,7 @@ On the table the following columns are presented with their respective informati
   
 * **Deploys:** It is the representation of the *deployment.d name*;
   
-* **Labels:** These are the deployments’ identifiers, they are used to link to a service;
+* **Labels:** These are the deployments' identifiers, they are used to link to a service;
   
 * **Instances:** Presents the number of replicas that are operational of a deployment, and the total number of operational replicas desired for this deployment. They are divided by a slash (“/”) where the values found before the slash are the operational replicas, and the values after the slash represent the expected amount of operational replicas;
  
@@ -509,7 +509,7 @@ This option allows the user to perform the action of reverting the deployment ve
 
 This action in particular does not activate any additional confirmation screen, its action is immediate.
 
-.. important:: By selecting this option, the Mangue.io Platform performs the reversal of the version immediately without requesting any confirmation from the user.
+.. important:: By selecting this option, the Mangue.io platform performs the reversal of the version immediately without requesting any confirmation from the user.
 
 .. note:: Caution and attention are recommended, as this action creates some type of low performance to the deployment in which is being performed the action of rollback.
 
