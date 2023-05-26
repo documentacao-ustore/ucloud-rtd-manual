@@ -1868,13 +1868,19 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 =====
 
 
-* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. 
+
+Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. 
+
+Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
 
 
 * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
 
 
 ====
+
+
 
 *Cron Jobs, Jobs*
 =================
@@ -2017,21 +2023,22 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
 
 
 Histórico
----------  
+---------
+
+A evolução do consumo dos recursos de CPU e memória do *cluster* é apresentada em formato de gráfico nomeado como "Histórico de faturamento do *cluster*", conforme a seguinte imagem. 
 
 .. image:: /figuras/fig_mangue/089_mangue_historico_faturamento.png
     :alt: Histórico faturamento mensal cluster
-    :scale: 80 %
     :align: center
 =====
 
 
-A. Histórico de Faturamento Mensal do Cluster
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A. Histórico de Faturamento Mensal do *Cluster*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta um gráfico com a evolução do valor de consumo dos recursos de CPU e Memória do cluster, para suportar e executar todos os conteúdos do Workloads (Deployments, Statefulsets, Horizontal Autoscaler, Pods).
 
-O usuário pode selecionar o período o qual deseja visualizar os valores, bastando selecionar o mês e ano apresentado logo acima do gráfico:
+O usuário pode selecionar o período o qual deseja visualizar os valores, bastando selecionar o mês e o ano apresentado logo acima do gráfico:
   
 .. image:: /figuras/fig_mangue/090_mangue_mes_ano.png
     :alt: Selecione ano e mês 
@@ -2070,16 +2077,16 @@ A linha do gráfico pode apresentar “picos” e “vales” devido a diversos 
 
 Todas as situações acima listadas são potenciais causas de aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
 
+----
 
 
-B. Histórico de Faturamento do Cluster
+B. Histórico de Faturamento do *Cluster*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este gráfico apresenta o consumo acumulado mês-a-mês dos últimos quatro (04) meses do período em que se encontra o usuário.
 
 .. image:: /figuras/fig_mangue/093_mangue_historico_cluster.png
     :alt: Histórico faturamento cluster
-    :scale: 80 %
     :align: center
 =====
   
@@ -2092,6 +2099,8 @@ Importante mencionar, a plataforma do Mangue.io ZERA todos os valores do mês no
 
 No eixo vertical, são apresentados os valores máximos arredondados para o próximo valor acima do máximo, em um período. Para o usuário identificar o valor correto, basta posicionar o ponteiro do mouse sobre a barra do mês desejado, para que a plataforma do Mangue.io possa apresentar o valor detalhado do mês em que o cursor do mouse está posicionado.
 
+----
+
 
 C. Por Tags
 ~~~~~~~~~~~
@@ -2103,8 +2112,7 @@ A tela de Faturamento por Tags é separada em duas seções:
         * Detalhes Tags.
 
 .. image:: /figuras/fig_mangue/094_mangue_historico_tags.png
-    :alt: Histórico de tags 
-    :scale: 80 %
+    :alt: Histórico de tags
     :align: center
 =====  
 
@@ -2112,20 +2120,21 @@ Na seção de Histórico de Faturamento Mensal por Tags, o usuário deve primeir
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
-    :scale: 80 %
     :align: center
 =====
 
 
 Na seção de Detalhes de Tags, é exibida uma lista com todas as Tags ou as Tags selecionadas na seção de Histórico de Faturamento Mensal por Tags. No detalhamento da Tag, é apresentada uma lista de aplicações com a Tag e um gráfico com o faturamento da Tag nos últimos 30 dias. 
 
-O usuário pode excluir uma Tag clicando no botão “  ”, no detalhamento da Tag.
+O usuário pode excluir uma Tag clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *Tag*.
+
+----
 
 
 D. Alertas
 ~~~~~~~~~~
 
-Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de webhooks, como pode ser visualizado na imagem abaixo:
+Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de *webhooks*, como pode ser visualizado na imagem abaixo:
 
 .. image:: /figuras/fig_mangue/096_mangue_alertas_webhooks.png
     :alt: Alertas webhooks 
