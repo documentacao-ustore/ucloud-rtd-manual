@@ -1752,7 +1752,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
 ====
 
-      * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
+     * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: Adicionar configMap
@@ -1772,7 +1772,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
    * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMap*.
 
 
-   * **Ação de adicionar um ConfigMap**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMap*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+   * **Ação de adicionar um configMap**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMap*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
@@ -1797,12 +1797,13 @@ Abaixo a descrição dos campos da tela acima:
 
 ====
 
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*. 
+     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*.
+     
      
      Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
 
-* **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar configMap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
+   * **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar configMap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
 
 ====
 
@@ -1878,7 +1879,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 *Cron Jobs, Jobs*
 =================
 
-Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
+Nesta opção de menu, o usuário pode observar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
 A. *Cron Jobs*
 -------------
