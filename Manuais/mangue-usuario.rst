@@ -1752,7 +1752,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
 ====
 
-      * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
+     * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: Adicionar configMap
@@ -1772,7 +1772,7 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
    * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com os valores mais recentes desta tabela de *ConfigMap*.
 
 
-   * **Ação de adicionar um ConfigMap**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMap*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
+   * **Ação de adicionar um configMap**: Basta clicar no sinal de adição |icone_adicionar| para que o usuário possa cadastrar um novo *ConfigMap*. A plataforma do Mangue.io apresenta a seguinte tela ao usuário:
 
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
@@ -1797,12 +1797,13 @@ Abaixo a descrição dos campos da tela acima:
 
 ====
 
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*. 
+     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*.
+     
      
      Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
 
-* **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar configMap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
+   * **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar configMap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
 
 ====
 
@@ -1867,7 +1868,11 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 =====
 
 
-* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
+* **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. 
+
+Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. 
+
+Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
 
 
 * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
@@ -1875,10 +1880,12 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 
 ====
 
+
+
 *Cron Jobs, Jobs*
 =================
 
-Nesta opção de menu, o usuário pode visualizar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
+Nesta opção de menu, o usuário pode observar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
 A. *Cron Jobs*
 -------------
@@ -2016,21 +2023,22 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
 
 
 Histórico
----------  
+---------
+
+A evolução do consumo dos recursos de CPU e memória do *cluster* é apresentada em formato de gráfico nomeado como "Histórico de faturamento do *cluster*", conforme a seguinte imagem. 
 
 .. image:: /figuras/fig_mangue/089_mangue_historico_faturamento.png
     :alt: Histórico faturamento mensal cluster
-    :scale: 80 %
     :align: center
 =====
 
 
-A. Histórico de Faturamento Mensal do Cluster
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A. Histórico de Faturamento Mensal do *Cluster*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta um gráfico com a evolução do valor de consumo dos recursos de CPU e Memória do cluster, para suportar e executar todos os conteúdos do Workloads (Deployments, Statefulsets, Horizontal Autoscaler, Pods).
 
-O usuário pode selecionar o período o qual deseja visualizar os valores, bastando selecionar o mês e ano apresentado logo acima do gráfico:
+O usuário pode selecionar o período o qual deseja visualizar os valores, bastando selecionar o mês e o ano apresentado logo acima do gráfico:
   
 .. image:: /figuras/fig_mangue/090_mangue_mes_ano.png
     :alt: Selecione ano e mês 
@@ -2069,16 +2077,16 @@ A linha do gráfico pode apresentar “picos” e “vales” devido a diversos 
 
 Todas as situações acima listadas são potenciais causas de aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
 
+----
 
 
-B. Histórico de Faturamento do Cluster
+B. Histórico de Faturamento do *Cluster*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este gráfico apresenta o consumo acumulado mês-a-mês dos últimos quatro (04) meses do período em que se encontra o usuário.
 
 .. image:: /figuras/fig_mangue/093_mangue_historico_cluster.png
     :alt: Histórico faturamento cluster
-    :scale: 80 %
     :align: center
 =====
   
@@ -2091,6 +2099,8 @@ Importante mencionar, a plataforma do Mangue.io ZERA todos os valores do mês no
 
 No eixo vertical, são apresentados os valores máximos arredondados para o próximo valor acima do máximo, em um período. Para o usuário identificar o valor correto, basta posicionar o ponteiro do mouse sobre a barra do mês desejado, para que a plataforma do Mangue.io possa apresentar o valor detalhado do mês em que o cursor do mouse está posicionado.
 
+----
+
 
 C. Por Tags
 ~~~~~~~~~~~
@@ -2102,8 +2112,7 @@ A tela de Faturamento por Tags é separada em duas seções:
         * Detalhes Tags.
 
 .. image:: /figuras/fig_mangue/094_mangue_historico_tags.png
-    :alt: Histórico de tags 
-    :scale: 80 %
+    :alt: Histórico de tags
     :align: center
 =====  
 
@@ -2111,20 +2120,21 @@ Na seção de Histórico de Faturamento Mensal por Tags, o usuário deve primeir
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
-    :scale: 80 %
     :align: center
 =====
 
 
 Na seção de Detalhes de Tags, é exibida uma lista com todas as Tags ou as Tags selecionadas na seção de Histórico de Faturamento Mensal por Tags. No detalhamento da Tag, é apresentada uma lista de aplicações com a Tag e um gráfico com o faturamento da Tag nos últimos 30 dias. 
 
-O usuário pode excluir uma Tag clicando no botão “  ”, no detalhamento da Tag.
+O usuário pode excluir uma Tag clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *Tag*.
+
+----
 
 
 D. Alertas
 ~~~~~~~~~~
 
-Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de webhooks, como pode ser visualizado na imagem abaixo:
+Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de *webhooks*, como pode ser visualizado na imagem abaixo:
 
 .. image:: /figuras/fig_mangue/096_mangue_alertas_webhooks.png
     :alt: Alertas webhooks 
