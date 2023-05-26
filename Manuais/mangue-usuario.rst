@@ -3591,7 +3591,16 @@ Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
 
 .. |icone_seta_diagonal| image:: /figuras/fig_mangue/icone_seta_diagonal.png
 
+.. |icone_engrenagem_azul| image:: /figuras/fig_mangue/icone_engrenagem_azul.png
 
+.. |icone_exibir| image:: /figuras/fig_mangue/icone_exibir.png
 
+.. |icone_exportar| image:: /figuras/fig_mangue/icone_exportar.png
+
+.. |icone_loadbalancer| image:: /figuras/fig_mangue/icone_loadbalancer.png
+
+.. |icone_rotulo| image:: /figuras/fig_mangue/icone_rotulo.png
+
+.. |icone_sync| image:: /figuras/fig_mangue/icone_sync.png
 
 
