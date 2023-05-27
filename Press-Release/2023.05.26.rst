@@ -7,25 +7,25 @@
 ----
 
 2023.05.26
-==========
+++++++++++
 
 
 Press release 2023.05.26 - uCloud - Ano 2023 - Mês de Maio - Período 22 a 26
-============================================================================
+----------------------------------------------------------------------------
 
 A Ustore comunica ao seu público, interno e externo, sobre os lançamentos das novas características da plataforma uCloud. A partir deste anúncio, o portal passa a atender os seguintes itens listados, divididos em dois grupos: Billing e OPS. 
 
 ====
 
 uCloud Billing
---------------
+~~~~~~~~~~~~~~
 
 xxx
 xxx
 
 
 uCloud OPS 
-----------
+~~~~~~~~~~
 
 xxxx
 xxxx
