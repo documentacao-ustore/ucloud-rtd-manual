@@ -5,13 +5,13 @@
     :align: center
 ======
 
-     Português_   -   Español_   -   English_
+     Português   -   Español_   -   English_
 
 
 
-.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html#llamadas-manual-de-apertura-5x8 
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html 
 
-.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html#tickets-opening-manual-5x8
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
 
 
 Chamados - Manual de Abertura (5x8)
