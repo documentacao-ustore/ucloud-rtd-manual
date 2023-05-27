@@ -60,14 +60,13 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
    :hidden:
    :caption: Press Release
 
-   Press-Release/2022.06-07-08
+
 
 .. toctree::
    :maxdepth: 5
    :hidden:
    :caption: Release
 
-   ::doc:`release-notes.ing-ucloud-2022-mayo`
 
 
 
