@@ -5,7 +5,7 @@
     :align: center
 ======
 
-                                      .   Português_               .   Español_                .   English_
+                              \t  .   Português_   \t            .   Español_    \t            .   English_
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/chamados.html#chamados-manual-de-abertura-5x8
 
