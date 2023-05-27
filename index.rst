@@ -58,14 +58,14 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
 .. toctree::
    :maxdepth: 5
    :hidden:
-   :caption: Press Release
+   :caption: Press-Release:
 
 
 
 .. toctree::
    :maxdepth: 5
    :hidden:
-   :caption: Release
+   :caption: Release:
 
 
 
