@@ -55,4 +55,19 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
    Release-Notes/release-notes-index
 
 
+.. toctree::
+   :maxdepth: 5
+   :hidden:
+   :caption: Comunicados - Comunicados - Announcements
+   :name: Press Release:
+
+   Press-Release/2022.06-07-08
+
+   :name: Release
+
+   ::doc:`release-notes.ing-ucloud-2022-mayo`
+
+
+
+
 
