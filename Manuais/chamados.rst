@@ -8,7 +8,6 @@
      Português_   -   Español_   -   English_
 
 
-.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/chamados.html#chamados-manual-de-abertura-5x8
 
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html#llamadas-manual-de-apertura-5x8 
 
