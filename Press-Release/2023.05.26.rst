@@ -24,37 +24,26 @@ uCloud Billing
 
 ====
 
-+----------------------------------------------------------------------------------------+
-|Franquia                                                                                |
-+========================================================================================+
-|Objetivo da feature: Reproduzir uma nova forma de cálculo do faturamento dos clientes,  |
-|baseado em consumo de franquia. Disponível para GOV.                                    |
-+----------------------------------------------------------------------------------------+
-|Localização no portal: Menu Configuração > Geral > Franquias do sistema.                |
-+----------------------------------------------------------------------------------------+
++----------------------+-----------------------------------------------------------------+
+|                      | Franquia                                                        |
++======================+=================================================================+
+|Objetivo da feature   | Reproduzir uma nova forma de cálculo do faturamento dos         | 
+|                      | clientes, baseado em consumo de franquia.                       |
+|                      | Disponível para GOV.                                            |
++----------------------+-----------------------------------------------------------------+
+|Localização no portal | Menu Configuração > Geral > Franquias do sistema.               |
++----------------------+-----------------------------------------------------------------+
 
-+----------------------------------------------------------------------------------------+
-|Franquia                                                                                |
-+============================+===========================================================+
-|Objetivo da feature         |Reproduzir uma nova forma de cálculo do faturamento dos    | 
-|                            |clientes, baseado em consumo de franquia.                  |
-|                            |Dispnível para GOV.                                        |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| [ consultar documentação ]                                |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       | Menu Configuração > Geral > Franquias do sistema.         |
-+----------------------------+-----------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------+
-|Regra de faturamento                                                                    |
-+========================================================================================+
-|Objetivo da feature: Registrar qualquer tipo de alteração realizada nas regras gerais do|  
-|setor financeiro somada a ressalva da data e vigência relacionadas à criação desta regra|
-|de faturamento.                                                                         |
-+----------------------------------------------------------------------------------------+
-|Localização no portal: Menu Administração > Contratos > Contrato > Regras do financeiro |
-|> Regras de faturamento.                                                                |
-+----------------------------------------------------------------------------------------+
++----------------------+-----------------------------------------------------------------+
+|                      | Regra de faturamento                                            |
++======================+=================================================================+
+|Objetivo da feature   | Registrar qualquer tipo de alteração realizada nas regras gerais|  
+|                      | do setor financeiro, somada a ressalva da data e da vigência    |
+|                      | relacionadas à criação desta regra de faturamento.              |
++----------------------+-----------------------------------------------------------------+
+|Localização no portal | Menu Administração > Contratos > Contrato > Regras do financeiro|
+|                      | > Regras de faturamento.                                        |
++----------------------+-----------------------------------------------------------------+
 
 ====
 
@@ -66,41 +55,44 @@ uCloud OPS
 Nuvem Oracle
 ------------
 
-+----------------------------------------------------------------------------------------+
-|Aviso sobre o limite de CPUs durante a criação da máquina virtual                       |
-+========================================================================================+
-|Objetivo da feature: Implementação do aviso sobre os possíveis erros ao selecionar um   |
-|flavor com mais CPUs do que o contrato permite para evitar problemas durante o processo |
-|de criação da máquina virtual.                                                          |
-+----------------------------------------------------------------------------------------+
-|Novo comportamento do portal: Ao selecionar um flavor com uma quantidade de CPUs que    |
-|excede o limite do contrato atual, um tooltip informativo é exibido.                    |
-+----------------------------------------------------------------------------------------+
-|Localização no portal: Menu Máquinas Virtuais > Criar Máquina Virtual.                   |
-+----------------------------------------------------------------------------------------+
++----------------------------+-----------------------------------------------------------+
+|                            | Aviso sobre o limite de CPUs durante a criação da máquina |
+|                            | virtual                                                   |
++============================+===========================================================+
+|Objetivo da feature         | Implementação do aviso sobre os possíveis erros ao        | 
+|                            | selecionar um flavor com mais CPUs do que o contrato      |
+|                            | permite para evitar problemas durante o processo de       |
+|                            | de criação da máquina virtual.                            | 
++----------------------------+-----------------------------------------------------------+
+|Novo comportamento do portal| Ao selecionar um flavor com uma quantidade de CPUs que    |
+|                            | excede o limite do contrato atual, um tooltip informativo |
+|                            | é exibido.                                                |
++----------------------------+-----------------------------------------------------------+
+|Localização no portal       | Menu Máquinas Virtuais > Criar Máquina Virtual.           |
++----------------------------+-----------------------------------------------------------+
 
-+----------------------------------------------------------------------------------------+
-|Conversão do envio e recebimento de credenciais ao novo serviço de leitura              |
-+========================================================================================+
-|Objetivo da feature: Atualização das chamadas de recebimento e envio das credenciais ao |
-|microsserviço Oracle, com a finalidade de garantir o armazenamento das credenciais no   |
-|pool.                                                                                   |
-+----------------------------------------------------------------------------------------+
-|Novo comportamento do portal: O tratamento das requisições em fila (de cada solicitação)|
-|ao serviço de mensageria está remodelado.                                               |
-+----------------------------------------------------------------------------------------+
++----------------------------+-----------------------------------------------------------+
+|                            | Conversão do envio e recebimento de credenciais ao novo   |
+|                            | serviço de leitura                                        |
++============================+===========================================================+
+|Objetivo da feature         | Atualização das chamadas de recebimento e envio das       |
+|                            | credenciais ao microsserviço Oracle, com a finalidade de  | 
+|                            | garantir o armazenamento das credenciais no pool.         |
++----------------------------+-----------------------------------------------------------+
+|Novo comportamento do portal| O tratamento das requisições em fila (de cada solicitação)|
+|                            | ao serviço de mensageria está remodelado.                 |
++----------------------------+-----------------------------------------------------------+
 
 ====
 
 Nuvem Azure
 -----------
 
-+----------------------------------------------------------------------------------------+
-|   Ajuste na exclusão de disco em máquina virtual                                       |
++----------------------------+-----------------------------------------------------------+
+|                            | Ajuste na exclusão de disco em máquina virtual            |
 +============================+===========================================================+
 |Objetivo da feature         | Melhoria específica direcionada ao usuário da máquina     |
 |                            | virtual, ao excluir discos já criados nela.               |
-|                            |                                                           |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| O botão de exclusão de disco está desbloqueado para discos|
 |                            | criados na máquina virtual.                               |
