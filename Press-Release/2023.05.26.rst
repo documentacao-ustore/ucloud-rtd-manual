@@ -36,10 +36,11 @@ uCloud Billing
 +----------------------------------------------------------------------------------------+
 |Franquia                                                                                |
 +============================+===========================================================+
-|Objetivo da feature         | Reproduzir uma nova forma de cálculo do faturamento dos   | 
-|clientes,baseado em consumo de franquia. Disponível para GOV.                           |
+|Objetivo da feature         |Reproduzir uma nova forma de cálculo do faturamento dos    | 
+|                            |clientes, baseado em consumo de franquia.                  |
+|                            |Dispnível para GOV.                                        |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| [documentação ]                                           |
+|Novo comportamento do portal| [ consultar documentação ]                                |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       | Menu Configuração > Geral > Franquias do sistema.         |
 +----------------------------+-----------------------------------------------------------+
@@ -75,7 +76,7 @@ Nuvem Oracle
 |Novo comportamento do portal: Ao selecionar um flavor com uma quantidade de CPUs que    |
 |excede o limite do contrato atual, um tooltip informativo é exibido.                    |
 +----------------------------------------------------------------------------------------+
-|Localização no portal: Menu Máquinas Virtuais > Criar Máquina Virtual                   |
+|Localização no portal: Menu Máquinas Virtuais > Criar Máquina Virtual.                   |
 +----------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------+
@@ -95,13 +96,16 @@ Nuvem Azure
 -----------
 
 +----------------------------------------------------------------------------------------+
-|                                                                                        |
+|   Ajuste na exclusão de disco em máquina virtual                                       |
 +============================+===========================================================+
-|Objetivo da feature         | xxxx                                                      |
+|Objetivo da feature         | Melhoria específica direcionada ao usuário da máquina     |
+|                            | virtual, ao excluir discos já criados nela.               |
+|                            |                                                           |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| xxxxx                                                     |
+|Novo comportamento do portal| O botão de exclusão de disco está desbloqueado para discos|
+|                            | criados na máquina virtual.                               |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       | >                                                         |
+|Localização no portal       | Menu Máquinas Virtuais > Máquina Virtual > Disco.         |
 +----------------------------+-----------------------------------------------------------+
 
 ====
