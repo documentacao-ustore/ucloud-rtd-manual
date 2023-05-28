@@ -15,7 +15,7 @@ Ano 2023 - Período 22 a 26 de Maio.
 
 ====
 
-A Ustore comunica  os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo,. A partir deste anúncio, o portal passa a atender os seguintes itens listados, sendo divididos em dois grupos: Billing e OPS. 
+Neste *press release* a Ustore comunica  os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo. A partir deste anúncio, o portal passa a atender os seguintes itens listados e divididos em dois grupos: Billing e OPS. 
 
 ====
 
@@ -53,7 +53,7 @@ uCloud OPS
 ====
 
 Nuvem Oracle
-------------
+~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
 |                            | Aviso sobre o limite de CPUs durante a criação da máquina |
@@ -105,14 +105,16 @@ Nuvem Azure
 Nuvem VMWare
 ------------
 
-+----------------------------------------------------------------------------------------+
-|                                                                                        |
++----------------------------+-----------------------------------------------------------+
+|                            | Salvar o resource pool no virtual datacenter              |
 +============================+===========================================================+
-|Objetivo da feature         | xxxx                                                      |
+|Objetivo da feature         | Alcançar a persistência do resource pool no virtual       |
+|                            | datacenter ao selecioná-lo.                               |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| xxxxx                                                     |
+|Novo comportamento do portal| Persistência do resource pool da nuvem no uCloud.         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       | >                                                         |
+|Localização no portal       | Menu Virtual Datacenters > Virtual Datacenter >           |
+|                            | > Balanceadores.                                          |
 +----------------------------+-----------------------------------------------------------+
 
 ====
