@@ -19,26 +19,34 @@ A Ustore comunica ao seu público, interno e externo, sobre os lançamentos das 
 
 ====
 
-Billing
-=======
+uCloud Billing
+==============
 
-**Franquia**
-------------
+Franquia
+--------
 
-+----------------------------------------------------------------------+
-|OBJETIVO DA FEATURE                                                   |
-+======================================================================+
-|Reproduzir uma nova forma de cálculo do faturamento dos clientes,     |
-|baseado em consumo de franquia.                                       |
-|Disponível para GOV.                                                  |
-+----------------------------------------------------------------------+
-|Localização no portal                                                 |
-+----------------------------------------------------------------------+
-|Menu Configuração > Geral > Franquias do sistema.                     |
-+----------------------------------------------------------------------+
++----------------------------------------------------------------------------------------+
+|OBJETIVO DA FEATURE                                                                     |
++========================================================================================+
+|Reproduzir uma nova forma de cálculo do faturamento dos clientes, baseado em consumo de |
+|franquia. Disponível para GOV.                                                          |
++----------------------------------------------------------------------------------------+
+|Localização no portal: Menu Configuração > Geral > Franquias do sistema.                |
++----------------------------------------------------------------------------------------+
 
-**Regra de faturamento**
 
+Regra de faturamento
+--------------------
+
++----------------------------------------------------------------------------------------+
+|OBJETIVO DA FEATURE                                                                     |
++========================================================================================+
+|Registrar qualquer tipo de alteração realizada nas regras gerais do setor financeiro,   |
+|somada a ressalva da data e vigência relacionadas à criação desta regra de faturamento. |
++----------------------------------------------------------------------------------------+
+|Localização no portal: Menu Administração > Contratos > Contrato > Regras do financeiro >|
+|> Regras de faturamento.                                                                |
++----------------------------------------------------------------------------------------+
 
 
 uCloud OPS 
