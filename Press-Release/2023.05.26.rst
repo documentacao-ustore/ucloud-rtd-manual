@@ -11,18 +11,20 @@
 
 Press release: uCloud
 ---------------------
-
 Ano 2023 - Período 22 a 26 de Maio.
 
+====
 
 A Ustore comunica ao seu público, interno e externo, sobre os lançamentos das novas características da plataforma uCloud. A partir deste anúncio, o portal passa a atender os seguintes itens listados, divididos em dois grupos: Billing e OPS. 
 
 ====
 
-uCloud Billing
-~~~~~~~~~~~~~~
+Billing
+=======
 
 **Franquia**
+------------
+
 +----------------------------------------------------------------------+
 |OBJETIVO DA FEATURE                                                   |
 +======================================================================+
@@ -30,10 +32,12 @@ uCloud Billing
 |baseado em consumo de franquia.                                       |
 |Disponível para GOV.                                                  |
 +----------------------------------------------------------------------+
-|LOCALIZAÇÃO NO PORTAL                                                 |
-+======================================================================+
+|Localização no portal                                                 |
++----------------------------------------------------------------------+
 |Menu Configuração > Geral > Franquias do sistema.                     |
 +----------------------------------------------------------------------+
+
+**Regra de faturamento**
 
 
 
