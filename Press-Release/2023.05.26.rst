@@ -62,7 +62,7 @@ Nuvem Oracle
 |Objetivo da feature         | Implementação do aviso sobre os possíveis erros ao        | 
 |                            | selecionar um flavor com mais CPUs do que o contrato      |
 |                            | permite para evitar problemas durante o processo de       |
-|                            | de criação da máquina virtual.                            | 
+|                            | criação da máquina virtual.                               | 
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| Ao selecionar um flavor com uma quantidade de CPUs que    |
 |                            | excede o limite do contrato atual, um tooltip informativo |
@@ -113,7 +113,7 @@ Nuvem VMWare
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| Persistência do resource pool da nuvem no uCloud.         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       | Menu Virtual Datacenters > Virtual Datacenter >           |
+|Localização no portal       | Menu Virtual Datacenters > Virtual Datacenter             |
 |                            | > Balanceadores.                                          |
 +----------------------------+-----------------------------------------------------------+
 
