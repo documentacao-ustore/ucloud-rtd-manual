@@ -122,15 +122,18 @@ Nuvem VMWare
 Nuvem Hyper-V
 -------------
 
-+----------------------------------------------------------------------------------------+
-|                                                                                        |
++----------------------------+-----------------------------------------------------------+
+|                            | Exibir a versão do Hyper-V                                |
 +============================+===========================================================+
-|Objetivo da feature         | xxxx                                                      |
+|Objetivo da feature         | A versão do container importado para o Hyper-V deve estar |
+|                            | contida nas credenciais e na coluna *version* existente na|
+|                            | tabela do container.                                      |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| xxxxx                                                     |
+|Novo comportamento do portal| Persistência da versão do container importado. Quando     |
+|                            | importa o container Hyper-V é habilitada uma linha version|
+|                            | na tela do container.                                     |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       | >                                                         |
-+----------------------------+-----------------------------------------------------------+
+
 
 ====
 
