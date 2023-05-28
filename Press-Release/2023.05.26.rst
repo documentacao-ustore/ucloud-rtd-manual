@@ -9,6 +9,7 @@
 2023.05.26
 ++++++++++
 
+Português   Español    English
 
 Press release 2023.05.26 - uCloud - Ano 2023 - Mês de Maio - Período 22 a 26
 ----------------------------------------------------------------------------
@@ -20,8 +21,20 @@ A Ustore comunica ao seu público, interno e externo, sobre os lançamentos das 
 uCloud Billing
 ~~~~~~~~~~~~~~
 
-xxx
-xxx
+**Franquia**
+
++----------------------------------------------------------------------+
+|OBJETIVO DA FEATURE                                                   |
++======================================================================+
+|Reproduzir uma nova forma de cálculo do faturamento dos clientes,     |
+|baseado em consumo de franquia.                                       |
+|Disponível para GOV.                                                  |
++----------------------------------------------------------------------+
+|LOCALIZAÇÃO NO PORTAL                                                 |
++----------------------------------------------------------------------+
+|Menu Configuração > Geral > Franquias do sistema.                     |
++----------------------------------------------------------------------+
+
 
 
 uCloud OPS 
