@@ -22,39 +22,40 @@ A Ustore comunica ao seu público, interno e externo, sobre os lançamentos das 
 uCloud Billing
 ==============
 
-Franquia
---------
+====
 
 +----------------------------------------------------------------------------------------+
-|OBJETIVO DA FEATURE                                                                     |
+|Franquia                                                                                |
 +========================================================================================+
-|Reproduzir uma nova forma de cálculo do faturamento dos clientes, baseado em consumo de |
-|franquia. Disponível para GOV.                                                          |
+|Objetivo da feature: Reproduzir uma nova forma de cálculo do faturamento dos clientes,  |
+|baseado em consumo de franquia. Disponível para GOV.                                    |
 +----------------------------------------------------------------------------------------+
 |Localização no portal: Menu Configuração > Geral > Franquias do sistema.                |
 +----------------------------------------------------------------------------------------+
 
-
-Regra de faturamento
---------------------
-
 +----------------------------------------------------------------------------------------+
-|OBJETIVO DA FEATURE                                                                     |
+|Regra de faturamento                                                                    |
 +========================================================================================+
-|Registrar qualquer tipo de alteração realizada nas regras gerais do setor financeiro,   |
-|somada a ressalva da data e vigência relacionadas à criação desta regra de faturamento. |
+|Objetivo da feature: Registrar qualquer tipo de alteração realizada nas regras gerais do|  
+|setor financeiro somada a ressalva da data e vigência relacionadas à criação desta regra|
+|de faturamento.                                                                         |
 +----------------------------------------------------------------------------------------+
 |Localização no portal: Menu Administração > Contratos > Contrato > Regras do financeiro |
 |> Regras de faturamento.                                                                |
 +----------------------------------------------------------------------------------------+
 
+====
 
 uCloud OPS 
 ~~~~~~~~~~
 
+=====
+
 Nuvem Oracle
 ------------
+
 **Aviso sobre o limite de CPUs durante a criação da máquina virtual**
+
 +----------------------------------------------------------------------------------------+
 |OBJETIVO DA FEATURE                                                                     |
 +========================================================================================+
