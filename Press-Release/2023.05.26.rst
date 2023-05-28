@@ -86,7 +86,7 @@ Nuvem Oracle
 ====
 
 Nuvem Azure
------------
+~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
 |                            | Ajuste na exclusão de disco em máquina virtual            |
@@ -103,7 +103,7 @@ Nuvem Azure
 ====
 
 Nuvem VMWare
-------------
+~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
 |                            | Salvar o resource pool no virtual datacenter              |
@@ -120,7 +120,7 @@ Nuvem VMWare
 ====
 
 Nuvem Hyper-V
--------------
+~~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
 |                            | Exibir a versão do Hyper-V                                |
@@ -140,15 +140,32 @@ Nuvem Hyper-V
 Portal uCloud
 -------------
 
-+----------------------------------------------------------------------------------------+
-|                                                                                        |
++----------------------------+-----------------------------------------------------------+
+|                            | Acréscimo da validação na criação da máquina virtual      |
 +============================+===========================================================+
-|Objetivo da feature         | xxxx                                                      |
+|Objetivo da feature         | Adicionar a validação no botão ``Criar`` para eliminar a  |
+|                            | possibilidade de o usuário criar a máquina virtual antes  |
+|                            | de preencher todos os campos obrigatórios.                |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal| xxxxx                                                     |
+|Novo comportamento do portal| O botão é habilitado somente após o usuário preencher     |
+|                            | todas as opções na criação da máquina virtual.            |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       | >                                                         |
+|Localização no portal       | Menu Máquinas Virtuais > Criar Máquina Virtual.           |
 +----------------------------+-----------------------------------------------------------+
+
++----------------------------+-----------------------------------------------------------+
+|                            | Permissão para compra da máquina virtual criada no        |
+|                            | Catálogo de Serviços                                      |
++============================+===========================================================+
+|Objetivo da feature         | Criar a necessidade da permissão na operação de comprar   |
+|                            | uma máquina virtual.                                      |
++----------------------------+-----------------------------------------------------------+
+|Novo comportamento do portal| Requer permissão ao usuário comum para “Compra de Máquina | 
+|                            | Virtual por Catálogo de Serviços”                         |
++----------------------------+-----------------------------------------------------------+
+|Localização no portal       | Menu Workflows > Catálogo de Serviços > Marketplace.      |
++----------------------------+-----------------------------------------------------------+
+
 
 +----------------------------------------------------------------------------------------+
 |Observação                                                                              |
