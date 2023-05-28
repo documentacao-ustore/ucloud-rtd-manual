@@ -44,13 +44,31 @@ Regra de faturamento
 |Registrar qualquer tipo de alteração realizada nas regras gerais do setor financeiro,   |
 |somada a ressalva da data e vigência relacionadas à criação desta regra de faturamento. |
 +----------------------------------------------------------------------------------------+
-|Localização no portal: Menu Administração > Contratos > Contrato > Regras do financeiro >|
+|Localização no portal: Menu Administração > Contratos > Contrato > Regras do financeiro |
 |> Regras de faturamento.                                                                |
 +----------------------------------------------------------------------------------------+
 
 
 uCloud OPS 
 ~~~~~~~~~~
+
+Nuvem Oracle
+------------
+**Aviso sobre o limite de CPUs durante a criação da máquina virtual**
++----------------------------------------------------------------------------------------+
+|OBJETIVO DA FEATURE                                                                     |
++========================================================================================+
+|Implementação do aviso sobre os possíveis erros ao selecionar um flavor com mais CPUs do|
+|que o contrato permite para evitar problemas durante o processo de criação da máquina   |
+|virtual.                                                                                |
++----------------------------------------------------------------------------------------+
+|Novo comportamento do portal: Ao selecionar um flavor com uma quantidade de CPUs que    |
+|excede o limite do contrato atual, um tooltip informativo é exibido.                    |
++----------------------------------------------------------------------------------------+
+|Localização no portal: Menu Máquinas Virtuais > Criar Máquina Virtual                   |
++----------------------------------------------------------------------------------------+
+
+
 
 xxxx
 xxxx
