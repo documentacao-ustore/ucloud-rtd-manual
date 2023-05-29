@@ -14,7 +14,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-uCloud Billing
+.. centered:: uCloud Billing
 ==============
 
 ====
