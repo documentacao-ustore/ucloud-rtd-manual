@@ -25,7 +25,7 @@ uCloud Billing
 ====
 
 ======================= ======================================================================================================================
-                            Franquia                                                        
+                        Franquia                                                        
 ======================= ======================================================================================================================
 Objetivo da feature     Reproduzir uma nova forma de cálculo do faturamento dos clientes, baseado em consumo de franquia. Disponível para GOV.
 Localização no portal   Menu Configuração > Geral > Franquias do sistema.               
