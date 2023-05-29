@@ -26,15 +26,15 @@ uCloud Billing
 
 .. table:: uCloud Billing
    :widths: auto
-   +----------------------+-----------------------------------------------------------------+
-   |                      | Franquia                                                        |
-   +======================+=================================================================+
-   |Objetivo da feature   | Reproduzir uma nova forma de cálculo do faturamento dos         | 
-   |                      | clientes, baseado em consumo de franquia.                       |
-   |                      | Disponível para GOV.                                            |
-   +----------------------+-----------------------------------------------------------------+
-   |Localização no portal | Menu Configuração > Geral > Franquias do sistema.               |
-   +----------------------+-----------------------------------------------------------------+
+   +---------------------+-------------------------------------------------------+
+   |                     |Franquia                                               |
+   +=====================+=======================================================+
+   |Objetivo da feature  |Reproduzir uma nova forma de cálculo do faturamento dos| 
+   |                     |clientes, baseado em consumo de franquia.              |
+   |                     |Disponível para GOV.                                   |
+   +---------------------+-------------------------------------------------------+
+   |Localização no portal|Menu Configuração > Geral > Franquias do sistema.      |
+   +---------------------+-------------------------------------------------------+
 
 .. table:: uCloud Billing 2
    :widths: auto
