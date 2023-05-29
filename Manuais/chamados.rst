@@ -5,7 +5,7 @@
     :align: center
 ======
 
-     Português   -   Español_   -   English_
+.. centered:: Português   -   Español_   -   English_
 
 
 

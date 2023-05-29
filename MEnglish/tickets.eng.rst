@@ -4,7 +4,7 @@
 ======
 
 
-     Português_   -   Español_   -   English
+.. centered:: Português_   -   Español_   -   English
 
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/chamados.html
