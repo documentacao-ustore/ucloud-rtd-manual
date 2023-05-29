@@ -135,8 +135,9 @@ Nuvem Hyper-V
 
 ====
 
-Portal uCloud
--------------
+.. centered:: Portal uCloud
+
+====
 
 +----------------------------+-----------------------------------------------------------+
 |Feature                     | Acréscimo da validação na criação da máquina virtual      |
