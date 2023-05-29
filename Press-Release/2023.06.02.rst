@@ -15,8 +15,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 ====
 
 .. centered:: uCloud Billing
-==============
-
+           
 ====
 
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
@@ -37,8 +36,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-uCloud OPS
-==========
+.. centered:: uCloud OPS
 
 ====
 

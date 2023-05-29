@@ -61,7 +61,7 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
    :caption: Press Release:
    :titlesonly:
    
-   Press-Release/2023.06.02
+   .. Press-Release/2023.06.02
    Press-Release/2023.05.26
    
 
