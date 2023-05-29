@@ -181,7 +181,8 @@ Portal uCloud
 +----------------------------+-----------------------------------------------------------+
 
 
-.. attention:: 
+.. attention:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.                              |
+
 +----------------------------------------------------------------------------------------+
 |Observação                                                                              |
 +========================================================================================+
