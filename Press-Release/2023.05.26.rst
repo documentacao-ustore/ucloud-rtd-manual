@@ -19,23 +19,22 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-uCloud Billing
-==============
+.. centered:: uCloud Billing
 
 ====
 
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|                     |Franquia                                                                                                              |
+|Feature              |Franquia                                                                                                              |
 +=====================+======================================================================================================================+
-|Objetivo da feature  |Reproduzir uma nova forma de cálculo do faturamento dos clientes, baseado em consumo de franquia. Disponível para GOV.|
+|Objetivo             |Reproduzir uma nova forma de cálculo do faturamento dos clientes, baseado em consumo de franquia. Disponível para GOV.|
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal|Menu Configuração > Geral > Franquias do sistema.                                                                     |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
 +----------------------+-----------------------------------------------------------------+
-|                      | Regra de faturamento                                            |
+|Feature               | Regra de faturamento                                            |
 +======================+=================================================================+
-|Objetivo da feature   | Registrar qualquer tipo de alteração realizada nas regras gerais|  
+|Objetivo              | Registrar qualquer tipo de alteração realizada nas regras gerais|  
 |                      | do setor financeiro, somada a ressalva da data e da vigência    |
 |                      | relacionadas à criação desta regra de faturamento.              |
 +----------------------+-----------------------------------------------------------------+
@@ -45,8 +44,7 @@ uCloud Billing
 
 ====
 
-uCloud OPS
-==========
+.. centered:: uCloud OPS
 
 ====
 
@@ -54,10 +52,10 @@ Nuvem Oracle
 ~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Aviso sobre o limite de CPUs durante a criação da máquina |
+|Feature                     | Aviso sobre o limite de CPUs durante a criação da máquina |
 |                            | virtual                                                   |
 +============================+===========================================================+
-|Objetivo da feature         | Implementação do aviso sobre os possíveis erros ao        | 
+|Objetivo                    | Implementação do aviso sobre os possíveis erros ao        | 
 |                            | selecionar um flavor com mais CPUs do que o contrato      |
 |                            | permite para evitar problemas durante o processo de       |
 |                            | criação da máquina virtual.                               | 
@@ -70,10 +68,10 @@ Nuvem Oracle
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Conversão do envio e recebimento de credenciais ao novo   |
+|Feature                     | Conversão do envio e recebimento de credenciais ao novo   |
 |                            | serviço de leitura                                        |
 +============================+===========================================================+
-|Objetivo da feature         | Atualização das chamadas de recebimento e envio das       |
+|Objetivo                    | Atualização das chamadas de recebimento e envio das       |
 |                            | credenciais ao microsserviço Oracle, com a finalidade de  | 
 |                            | garantir o armazenamento das credenciais no pool.         |
 +----------------------------+-----------------------------------------------------------+
@@ -87,9 +85,9 @@ Nuvem Azure
 ~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Ajuste na exclusão de disco em máquina virtual            |
+|Feature                     | Ajuste na exclusão de disco em máquina virtual            |
 +============================+===========================================================+
-|Objetivo da feature         | Melhoria específica direcionada ao usuário da máquina     |
+|Objetivo                    | Melhoria específica direcionada ao usuário da máquina     |
 |                            | virtual, ao excluir discos já criados nela.               |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| O botão de exclusão de disco está desbloqueado para discos|
@@ -104,9 +102,9 @@ Nuvem VMWare
 ~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Salvar o resource pool no virtual datacenter              |
+|Feature                     | Salvar o resource pool no virtual datacenter              |
 +============================+===========================================================+
-|Objetivo da feature         | Alcançar a persistência do resource pool no virtual       |
+|Objetivo                    | Alcançar a persistência do resource pool no virtual       |
 |                            | datacenter ao selecioná-lo.                               |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| Persistência do resource pool da nuvem no uCloud.         |
@@ -121,9 +119,9 @@ Nuvem Hyper-V
 ~~~~~~~~~~~~~
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Exibir a versão do Hyper-V                                |
+|Feature                     | Exibir a versão do Hyper-V                                |
 +============================+===========================================================+
-|Objetivo da feature         | A versão do container importado para o Hyper-V deve estar |
+|Objetivo                    | A versão do container importado para o Hyper-V deve estar |
 |                            | contida nas credenciais e na coluna *version* existente na|
 |                            | tabela do container.                                      |
 +----------------------------+-----------------------------------------------------------+
@@ -131,7 +129,9 @@ Nuvem Hyper-V
 |                            | importa o container Hyper-V é habilitada uma linha version|
 |                            | na tela do container.                                     |
 +----------------------------+-----------------------------------------------------------+
-
+|Localização no portal       | Menu Container > Container > Conectar container           |
+|                            | > Selecionar o tipo Hyper-V > Versão                      |
++----------------------------+-----------------------------------------------------------+
 
 ====
 
@@ -139,9 +139,9 @@ Portal uCloud
 -------------
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Acréscimo da validação na criação da máquina virtual      |
+|Feature                     | Acréscimo da validação na criação da máquina virtual      |
 +============================+===========================================================+
-|Objetivo da feature         | Adicionar a validação no botão ``Criar`` para eliminar a  |
+|Objetivo                    | Adicionar a validação no botão ``Criar`` para eliminar a  |
 |                            | possibilidade de o usuário criar a máquina virtual antes  |
 |                            | de preencher todos os campos obrigatórios.                |
 +----------------------------+-----------------------------------------------------------+
@@ -152,10 +152,10 @@ Portal uCloud
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
-|                            | Permissão para compra da máquina virtual criada no        |
+|Feature                     | Permissão para compra da máquina virtual criada no        |
 |                            | Catálogo de Serviços                                      |
 +============================+===========================================================+
-|Objetivo da feature         | Criar a necessidade da permissão na operação de comprar   |
+|Objetivo                    | Criar a necessidade da permissão na operação de comprar   |
 |                            | uma máquina virtual.                                      |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal| Requer permissão ao usuário comum para “Compra de Máquina | 
