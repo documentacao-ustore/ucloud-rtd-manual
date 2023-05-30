@@ -3191,10 +3191,6 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
-
-
-====
-
 Menu Máquinas Virtuais
 ======================
 
@@ -3220,6 +3216,8 @@ Quando configurada a comunicação entre a plataforma uCloud e a console do prov
   A menção *operar* significa o leitor que é a capacidade do usuário comandar certas ações diretamente nestas máquinas virtuais, como ações de: parar (*shutdown*), reiniciar (*restart*), suspender (*suspend*), remover (*delete*), para citar algumas operações básicas.
 
   Através da interface da plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Este também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, snapshot, entre outros).
+
+====
 
 Acessando uma Máquina Virtual
 -----------------------------
