@@ -3200,7 +3200,7 @@ Atenta à evolução constante do mercado brasileiro e às demandas dos nossos u
 
 O menu de Segurança, está localizado do lado esquerdo, na quarta posição, logo após as opções Dashboard, Administração e Configuração:
 
-.. .. image:: /figuras/fig_segurança/000_menu_lateral.png
+.. image:: /figuras/fig_segurança/000_menu_lateral.png
    :alt: menu lateral
    :align: center
 
@@ -3214,7 +3214,7 @@ O menu Segurança agrega três submenus, são eles:
 
    * Ethical Phishing.
 
-.. .. image:: /figuras/fig_segurança/002_menu_segurança.png
+.. image:: /figuras/fig_segurança/002_menu_segurança.png
    :alt: menu segurança
    :align: center
 
@@ -3305,7 +3305,7 @@ Acessando o *Ethical Phishing*
 
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou do Ethical Phishing.
 
-.. .. image:: /figuras/fig_segurança/001_tela_login.png
+.. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
    :align: center
 
@@ -3313,11 +3313,15 @@ Para iniciar a sessão é necessário obter as credenciais, login e a senha, pro
 
 Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança >** deve acessar o submenu **Ethical Phishing**.
 
-.. .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
+.. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
    :alt: segurança phishing
    :align: center
 
 ---- 
+
+.. centered:: Perfil de usuário Administrador com cargo de Gerente do Ethical Phishing
+
+====
 
 No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
 
@@ -3341,16 +3345,38 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
    * Página de destino. 
 
-.. .. image:: /figuras/fig_segurança/003_menu_phishing.png
+.. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
    :align: center
 
 ----
 
+.. centered:: Perfil de usuário Comum com cargo de Utilizador do Ethical Phishing 
 
+====
 
-.. .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
-   :alt: segurança phishing
+No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+
+   * Meu dashboard; 
+
+   * Dashboard do contrato; 
+
+   * Campanhas; 
+
+   * Contatos; 
+
+   * Templates ;
+
+   * Landing Pages. 
+
+.. .. image:: /figuras/fig_segurança/u.png
+   :alt: 
+   :align: center
+
+Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
+
+.. .. image:: /figuras/fig_segurança/.png
+   :alt: 
    :align: center
 
 
