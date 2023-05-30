@@ -3340,8 +3340,8 @@ Adicionalmente, é necessário que a senha de usuário de conexão seja conhecid
 
 A seguir descrição de cada seção (*card*) de forma individual:
 
-Seção Geral: Máquina Virtuais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Seção Geral: Máquinas Virtuais
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção permite visualizar as informações fundamentais e básicas da máquina virtual.
 
@@ -3432,8 +3432,8 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
 
 ====
 
-Seção Performance Instantânea
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Seção: Performance Instantânea
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta um gráfico que demonstra a ocupação, na máquina virtual, da CPU e da memória. Importante mencionar que a grande maioria dos sistemas operacionais, aloca 100% da memória disponível na máquina virtual, durante o processo de inicialização. Desta forma, o índice de memória pode ficar fixo no máximo da escala. Em relação ao índice de utilização da CPU, este apresenta a taxa de utilização corrente, e é atualizado constantemente.
 
@@ -3447,7 +3447,7 @@ Esta seção apresenta um gráfico que demonstra a ocupação, na máquina virtu
 
 ----
 
-Seção Metrics (exclusivo **AWS**)
+Seção: Metrics (exclusivo **AWS**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção é apresentada, somente, para as máquinas virtuais que são criadas no ambiente da Amazon Web Services (AWS), pois somente este provedor informa estas estatísticas de forma aberta e gratuita.
@@ -3468,8 +3468,8 @@ Esta seção é apresentada, somente, para as máquinas virtuais que são criada
 
 ----
 
-Seção Interfaces de Rede
-~~~~~~~~~~~~~~~~~~~~~~~~
+Seção: Interfaces de Rede
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta as informações da interface de rede (interface Ethernet) vinculada a esta máquina virtual. Caso seja necessário, através desta seção é possível remover a interface de rede ou adicionar uma nova interface de rede Ethernet para esta máquina virtual.
 
@@ -3505,8 +3505,8 @@ Esta seção apresenta as informações da interface de rede (interface Ethernet
 
 ----
 
-Seção Disco
-~~~~~~~~~~~
+Seção: Disco
+~~~~~~~~~~~~
 
 Esta seção apresenta a lista de todos os recursos do disco de armazenamento vinculados a esta máquina virtual.
 
@@ -3598,8 +3598,8 @@ Estas telas apresentam as informaçõs referentes ao disco de armazenamento prov
 
 ----
 
-Seção Snapshots
-~~~~~~~~~~~~~~~
+Seção: Snapshots
+~~~~~~~~~~~~~~~~
 
 Esta seção apresenta todas as imagens de snapshots que foram criados referente ao(s) disco(s) que está(ão) vinculado(s) a esta máquina virtual.
 
@@ -3635,7 +3635,7 @@ Após finalizar a transferência do arquivo da imagem de disco de armazenamento 
 
 ----
 
-Seção Signatures (**Exclusivo Azure e Google Cloud Platform**)
+Seção: Signatures (**Exclusivo Azure e Google Cloud Platform**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção são listadas todas as assinaturas vinculadas à máquina virtual que se está observando. Assinaturas são serviços vinculados a uma máquina virtual, unicamente disponíveis para os provedores Azure e Google Cloud Platform. As assinaturas podem conter apenas as ofertas de serviços que devem ser cobrados mensalmente ou no mês específico. No caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor será cobrado integralmente pelo agente de bilhetagem.
@@ -3667,7 +3667,7 @@ O usuário pode consultar o menu Configurações / Assinaturas.
 
 ====
 
-Seção Histórico de Performance (**Exclusivo Azure e GCP**)
+Seção: Histórico de Performance (**Exclusivo Azure e GCP**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção permite ao usuário gerar um gráfico de performance da máquina virtual, gráfico que apresenta as informações dos recursos de memória RAM e o uso de ciclos de CPU, durante um período específico que pode ser definido pelo usuário.
