@@ -3380,12 +3380,67 @@ Além da quantidade menor de cards apresentados em tela, também é possível id
 *Dashboard* do *Ethical Phishing*
 ---------------------------------
 
+A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+
 ====
 
 .. centered:: Jornada do usuário Administrador com cargo de Gerente do Ethical Phishing
 
 ====
 
+No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
+
+   * Meu *dashboard*;  
+
+   * *Dashboard* global de contratos;  
+
+   * *Dashboard* do contrato.
+
+.. image:: /figuras/fig_segurança/003.1_dashboards.png
+   :alt: Dashboard 
+   :align: center
+----
+
+**Meu dashboard** 
+-----------------
+
+Introdução
+~~~~~~~~~~
+
+
+Ao clicar em **Meu dashboard**, o *Admin Phishing* pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
+
+.. image:: /figuras/fig_segurança/005_meu_dashboard.png
+   :alt: meu dashboard
+   :align: center
+----
+
+A tela apresenta três botões de ações. 
+
+   * Botão ``Voltar``; 
+
+   * Botão ``Criar campanha de phishing``; 
+
+   * Botão ``Autorizar novo domínio``. 
+
+
+
+Exibem também cinco *cards*. São eles: 
+
+   * Informações de cotas; 
+
+   * Campanhas ativas; 
+
+   * Campanhas finalizadas; 
+
+   * Informação sobre os e-mails; 
+
+   * Domínios autorizados.
+
+====
+
+Criando
+~~~~~~~
 
 
 
