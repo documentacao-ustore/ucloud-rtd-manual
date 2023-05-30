@@ -3303,7 +3303,7 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 Acessando o *Ethical Phishing*
 ------------------------------
 
-Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou do Ethical Phishing.
+Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
@@ -3319,7 +3319,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Perfil de usuário Administrador com cargo de Gerente do Ethical Phishing
+.. centered:: Jornada do usuário Administrador com cargo de Gerente do Ethical Phishing
 
 ====
 
@@ -3351,7 +3351,7 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
 ----
 
-.. centered:: Perfil de usuário Comum com cargo de Utilizador do Ethical Phishing 
+.. centered:: Jornada do usuário Comum com cargo de Utilizador do Ethical Phishing 
 
 ====
 
@@ -3374,6 +3374,20 @@ No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado 
    :align: center
 
 Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
+
+====
+
+*Dashboard* do *Ethical Phishing*
+---------------------------------
+
+====
+
+.. centered:: Jornada do usuário Administrador com cargo de Gerente do Ethical Phishing
+
+====
+
+
+
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt: 
