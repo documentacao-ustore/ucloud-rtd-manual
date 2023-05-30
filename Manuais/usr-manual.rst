@@ -3194,16 +3194,13 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 Menu Segurança
 ==============
 
-Introdução
-----------
-
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
 Atenta à evolução constante do mercado brasileiro e às demandas dos nossos usuários, a Ustore apresenta o MENU DE SEGURANÇA, uma nova implementação no menu de funcionalidades do portal uCloud. 
 
 O menu de Segurança, está localizado do lado esquerdo, na quarta posição, logo após as opções Dashboard, Administração e Configuração:
 
-.. image:: /figuras/fig_segurança/000_menu_lateral.png
+.. .. image:: /figuras/fig_segurança/000_menu_lateral.png
    :alt: menu lateral
    :align: center
 
@@ -3217,21 +3214,21 @@ O menu Segurança agrega três submenus, são eles:
 
    * Ethical Phishing.
 
-.. image:: /figuras/fig_segurança/002_menu_segurança.png
+.. .. image:: /figuras/fig_segurança/002_menu_segurança.png
    :alt: menu segurança
    :align: center
 
 ---- 
 
-Menu Segurança: Tickets
-=======================
+.. Menu Segurança: Tickets
+.. =======================
 
-.. note:: Ambiente em desenvolvimento
+.. .. note:: Ambiente em desenvolvimento
 
-Menu Segurança:  Assessments
-============================
+.. Menu Segurança:  Assessments
+.. ============================
 
-.. note:: Ambiente em desenvolvimento
+.. .. note:: Ambiente em desenvolvimento
 
 Menu Segurança: Ethical Phishing
 ================================
@@ -3289,7 +3286,73 @@ Os benefícios na execução das simulações são:
    * Aumento do nível de maturidade da empresa;  
 
    * Conscientização das pessoas sobre os riscos.
- 
+
+====
+
+Resumindo o *Ethical Phishing*
+------------------------------
+
+Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
+
+Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *templates* e *landing pages*. 
+
+Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no dashboard, eles geram métricas de uso individual e coletivo.  
+
+====
+
+Acessando o *Ethical Phishing*
+------------------------------
+
+Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou do Ethical Phishing.
+
+.. .. image:: /figuras/fig_segurança/001_tela_login.png
+   :alt: tela login
+   :align: center
+
+---- 
+
+Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança >** deve acessar o submenu **Ethical Phishing**.
+
+.. .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
+   :alt: segurança phishing
+   :align: center
+
+---- 
+
+No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
+
+   * Meu dashboard; 
+
+   * Dashboard global de contratos; 
+
+   * Dashboard do contrato; 
+
+   * Contratos; 
+
+   * Usuários; 
+
+   * Campanhas; 
+
+   * Contatos; 
+
+   * Templates; 
+
+   * Perfis de envio; 
+
+   * Página de destino. 
+
+.. .. image:: /figuras/fig_segurança/003_menu_phishing.png
+   :alt: menu phishing
+   :align: center
+
+----
+
+
+
+.. .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
+   :alt: segurança phishing
+   :align: center
+
 
 ====
 
