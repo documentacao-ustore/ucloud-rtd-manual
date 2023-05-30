@@ -3439,14 +3439,89 @@ Exibem também cinco *cards*. São eles:
 
 ====
 
-Criando
-~~~~~~~
+Criando uma campanha
+~~~~~~~~~~~~~~~~~~~~~
+
+Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
+
+.. image:: /figuras/fig_segurança/006_criar_campanha.png
+   :alt: Criar campanha 
+   :align: center
+----
+
+Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem cumpridas para a criação da campanha.  Como primeiro passo, o usuário deve nomeá-la. 
+
+.. image:: /figuras/fig_segurança/007_nome_campanha.png
+   :alt: nome da campanha 
+   :align: center
+----
+
+Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  Neste passo, a tela apresenta *templates* pré-estabelecidos.
+
+.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
+
+.. image:: /figuras/fig_segurança/008_selecionar_template.png
+   :alt: selecionar template 
+   :align: center
+---- 
+
+No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
+
+.. image:: /figuras/fig_segurança/009_previsualizar_template.png
+   :alt: previsualizar template 
+   :align: center
+----
+
+Para escolher o *template*, é necessário apenas clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: ``Voltar`` e ``Selecionar uma Landing Page``. 
+
+Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a do passo anterior. 
+
+.. image:: /figuras/fig_segurança/010_landing_page.png
+   :alt: landing page 
+   :align: center
+----
+
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
+
+.. image:: /figuras/fig_segurança/011_perfil_envio.png
+   :alt: perfil de envio 
+   :align: center
+----
+
+Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
+
+.. image:: /figuras/fig_segurança/012_revisar_dados.png
+   :alt: revisar dados 
+   :align: center
+----
+
+Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
+
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este dashboard. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+
+.. image:: /figuras/fig_segurança/013_feedback_campanha.png
+   :alt: feedback campanha 
+   :align: center
+----
+
+Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
+
+.. image:: /figuras/fig_segurança/.png
+   :alt: 
+   :align: center
+----
+
+
+
+
+ 
 
 
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt: 
    :align: center
+   ----
 
 
 ====
