@@ -5,6 +5,15 @@
     :align: center
 ======
 
+.. centered:: Português   -   Español_   -   English_
+
+
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html 
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
+
+
 Chamados - Manual de Abertura (5x8)
 ====================================
 

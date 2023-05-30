@@ -5,10 +5,10 @@
 =======
 
 
-Bem vindo ao site de documentação da Ustore Brasil
-==================================================
+Bem-vindo ao ambiente de documentação da Ustore Brasil
+======================================================
 
-Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a documentação das Notas de Lançamento e o Release Notes dos softwares da Ustore.
+Este repositório disponibiliza os manuais de uso (Manual do Usuário), a documentação das Notas de Lançamento e o Release Notes dos produtos da Ustore.
 
 .. toctree::
    :maxdepth: 5
@@ -53,6 +53,21 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário) e a docum
    :caption: Release-Notes:
 
    Release-Notes/release-notes-index
+
+
+.. toctree::
+   :maxdepth: 5
+   :hidden:
+   :caption: Press Release:
+   :titlesonly:
+   
+   .. Press-Release/2023.06.02
+   Press-Release/2023.05.26
+   
+
+
+
+
 
 
 

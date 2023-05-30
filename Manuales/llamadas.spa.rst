@@ -4,6 +4,17 @@
 ======
 
 
+.. centered:: Português_   -   Español   -   English_
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/chamados.html
+
+
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
+
+
+
 Llamadas - Manual de apertura (5x8)
 ===================================
 

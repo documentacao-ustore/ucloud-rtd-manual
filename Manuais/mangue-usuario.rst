@@ -2017,7 +2017,7 @@ Ainda nessa tela é possível visualizar uma lista de detalhes sobre custo das a
    * **Preço Total**: Esta coluna apresenta a soma do preço de CPU e preço de Memória.
 
 
-     Há ainda a possibilidade de exportar as informações correspondente a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão   , ao clicar o usuário consegue baixar o arquivo logo em seguida.
+     Há ainda a possibilidade de exportar as informações correspondentes a tabela acima, em formato csv, por meio da funcionalidade “export to csv”  representada pelo seguinte botão |icone_exportar| que ao clicar o usuário consegue baixar o arquivo logo em seguida.
 
 ====
 
@@ -2105,18 +2105,22 @@ No eixo vertical, são apresentados os valores máximos arredondados para o pró
 C. Por Tags
 ~~~~~~~~~~~
 
-A plataforma Mangue.io permite que as aplicações Kubernetes possuam Tags, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes, com o objetivo de visualizar o faturamento delas. As Tags podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de Nova Aplicação em Catálogo, ou em uma aplicação já existente, demonstrado na seção de Alterar Tags em Deployments.
+A plataforma Mangue.io permite que as aplicações *Kubernetes* possuam *Tags*, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes e visualizar o faturamento delas. 
 
-A tela de Faturamento por Tags é separada em duas seções: 
-        * Histórico de Faturamento Mensal por Tags.
-        * Detalhes Tags.
+As Tags podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de "Nova Aplicação" no item Catálogo, ou em uma aplicação já existente, demonstrado na seção de "Alterar *Tags*" no item *Deployments*.
+
+A tela de Faturamento por *Tags* é separada em duas seções: 
+
+        * Histórico de Faturamento Mensal por *Tags*;
+
+        * Detalhes *Tags*.
 
 .. image:: /figuras/fig_mangue/094_mangue_historico_tags.png
     :alt: Histórico de tags
     :align: center
 =====  
 
-Na seção de Histórico de Faturamento Mensal por Tags, o usuário deve primeiramente selecionar um Cluster, para que a plataforma consiga carregar as Tags do Cluster. Após isso, o usuário pode selecionar o período desejado de faturamento e as Tags a serem exibidas em gráfico e na seção de Detalhes de Tags.
+Na seção de Histórico de Faturamento Mensal por *Tags*, o usuário deve primeiramente selecionar um *Cluster*, para que a plataforma consiga carregar as *Tags* do *Cluster*. Após isso, o usuário pode selecionar o período desejado de faturamento e as *Tags* a serem exibidas em gráfico e na seção de "Detalhes de *Tags*".
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
@@ -2124,9 +2128,9 @@ Na seção de Histórico de Faturamento Mensal por Tags, o usuário deve primeir
 =====
 
 
-Na seção de Detalhes de Tags, é exibida uma lista com todas as Tags ou as Tags selecionadas na seção de Histórico de Faturamento Mensal por Tags. No detalhamento da Tag, é apresentada uma lista de aplicações com a Tag e um gráfico com o faturamento da Tag nos últimos 30 dias. 
+Na seção de "Detalhes de *Tags*", é exibida uma lista com todas elas ou apenas *Tags* selecionadas na seção de Histórico de Faturamento Mensal por *Tags*. No detalhamento da *Tag*, é apresentada uma lista de aplicações com a *Tag* e um gráfico com o faturamento da *Tag* nos últimos 30 dias. 
 
-O usuário pode excluir uma Tag clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *Tag*.
+O usuário pode excluir uma *Tag* clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *Tag*.
 
 ----
 
@@ -2134,11 +2138,12 @@ O usuário pode excluir uma Tag clicando no botão "Lata de lixo" |icone_lata_li
 D. Alertas
 ~~~~~~~~~~
 
-Por meio de alertas, é possível ser notificado quando atingir o orçamento estabelecido para um deployment ou conjunto de deployments, quando agrupados em tags, além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. A tela de alertas contém duas listas, a lista de alertas e de *webhooks*, como pode ser visualizado na imagem abaixo:
+Por meio de alertas, é possível o usuário ser notificado quando atingir o orçamento estabelecido para um *deployment* ou conjunto de *deployments*, quando agrupados em *tags*. Além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. 
+
+Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*Webhooks*" , os detalhes de cada um deles são descritos na sequência:
 
 .. image:: /figuras/fig_mangue/096_mangue_alertas_webhooks.png
-    :alt: Alertas webhooks 
-    :scale: 80 %
+    :alt: Alertas e webhooks
     :align: center
 =====
 
