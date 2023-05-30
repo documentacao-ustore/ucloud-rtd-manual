@@ -3189,8 +3189,17 @@ Neste ponto também será possívelalterar as configurações provisionadas ao P
 
 Após completar os passos acima descritos, para configurar o Perfil de Tagueamento, será necessário iniciar o processo de aplicação das etiquetas (tags) aos dados do billing. Ao final do processo, todos os valores referentes às novas etiquetas haverão sido aplicadas às etiquetas (tags) configuradas no perfil do usuário e aos dados de billing do contrato selecionado.
 
-Máquinas Virtuais
-=================
+====
+
+
+
+====
+
+Menu Máquinas Virtuais
+======================
+
+Introdução
+----------
 
 Como mencionado anteriormente, o uCloud está posicionado como uma plataforma de *Cloud Service Broker* (broker de serviços em nuvem) que permite gerenciar múltiplos provedores de serviços de nuvem, tanto privados quanto provedores de nuvem pública.
 
@@ -3212,8 +3221,8 @@ Quando configurada a comunicação entre a plataforma uCloud e a console do prov
 
   Através da interface da plataforma uCloud o usuário pode enviar comandos para os consoles de cada provedor de nuvem, além das ações acima listadas. Este também pode visualizar as informações das configurações específicas da máquina virtual, bem como alterar ou adicionar algum recurso extra a esta máquina virtual (por exemplo: placa de rede, disco, grupo de segurança, snapshot, entre outros).
 
-Menu Máquinas Virtuais
-======================
+Acessando uma Máquina Virtual
+-----------------------------
 
 Quando o usuário acessa esta opção de menu, a plataforma uCloud apresenta uma tela com o inventário completo de todas as máquinas virtuais (instâncias, workloads) que podem ser acessadas com as credenciais da empresa.
 Esta tela pode se apresentar muito extensa por listar todas as máquinas virtuais encontradas. No exemplo abaixo, estão listadas apenas três máquinas virtuais:
@@ -3257,6 +3266,8 @@ As colunas da tela listada anteriormente, está descrita abaixo:
     * **Orphan**: Este status somente será apresentado quando uma máquina não é encontrada no provedor de serviço de nuvem ou no ambiente de virtualização do datacenter privado (hypervisor).
 
   * **TAGs (Etiquetas)**: Esta coluna apresenta as TAGs (etiquetas) que foram provisionadas diretamente através da console do provedor de serviço de nuvem pública, quanto através da plataforma uCloud (Menu Inventário de Recursos).
+
+====
 
 Gerenciando uma Máquina Virtual
 -------------------------------
@@ -3331,8 +3342,8 @@ Adicionalmente, é necessário que a senha de usuário de conexão seja conhecid
 
 A seguir descrição de cada seção (*card*) de forma individual:
 
-Seção Geral - VMs
-~~~~~~~~~~~~~~~~~
+Seção Geral: Máquina Virtuais
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção permite visualizar as informações fundamentais e básicas da máquina virtual.
 
@@ -3420,6 +3431,8 @@ Esta seção permite visualizar as informações fundamentais e básicas da máq
 * **ID de Rede**: Este campo apresenta a identificação da interface de rede elástica é um componente de rede lógico de cada provedor de serviço de nuvem pública e que representa uma placa de rede virtual.
 
 * **Network ID do Provedor**: Este campo apresenta a identificação da Rede é um componente de rede lógico de cada provedor de serviço de nuvem pública e que representa uma placa de rede virtual.
+
+====
 
 Seção Performance Instantânea
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3654,6 +3667,8 @@ O usuário pode consultar o menu Configurações / Assinaturas.
   * **Data**: Esta coluna exibe a data na qual a assinatura é vinculada à máquina virtual.
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para remover (excluir) a assinatura da máquina virtual observada. Importante ressaltar, que no caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor é cobrado integralmente pelo agente de bilhetagem.
 
+====
+
 Seção Histórico de Performance (**Exclusivo Azure e GCP**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3746,7 +3761,9 @@ Importante ressaltar que apenas são apresentados os ícones dos provedores que 
 * **Botão Voltar** |botao_voltar|: Ao clicar com o cursor do mouse sobre este botão, o usuário retorna à etapa anterior, o que permite selecionar o ambiente do provedor de serviço de nuvem desejado.
 * **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até que todos os parâmetros necessários sejam preenchidos ou atendidos, para o correto provisionamento da máquina virtual no provedor selecionado.
 
-Wizard Etapa 2 (informações básicas da máquina virtual)
+====
+
+Wizard Etapa 2 (Informações básicas da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa são solicitados alguns parâmetros básicos para o correto provisionamento da máquina virtual no provedor de serviço de nuvem:
@@ -3776,7 +3793,9 @@ Nesta etapa são solicitados alguns parâmetros básicos para o correto provisio
 
 * **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresentar a tela do Wizard Etapa 3 (ver abaixo).
 
-Wizard Etapa 3 (informações básicas da máquina virtual – cont.)
+====
+
+Wizard Etapa 3 (Informações básicas da máquina virtual – cont.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção é a continuação da etapa anterior em que são solicitados alguns parâmetros básicos para o correto provisionamento da máquina virtual, no provedor do serviço de nuvem:
@@ -3825,7 +3844,9 @@ Esta seção é a continuação da etapa anterior em que são solicitados alguns
 
 * **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresentar a tela do Wizard Etapa 4 (ver abaixo).
 
-Wizard Etapa 4a (informações de segurança da máquina virtual)
+====
+
+Wizard Etapa 4a (Informações de segurança da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa o usuário deve informar os parâmetros de segurança para o correto provisionamento da máquina virtual no provedor de serviço de nuvem:
@@ -3873,7 +3894,9 @@ Nesta etapa o usuário deve informar os parâmetros de segurança para o correto
 * **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
 * **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
 
-Wizard Etapa 4b (informações de segurança – Exclusivo Azure)
+====
+
+Wizard Etapa 4b (Informações de segurança – Exclusivo Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa o usuário deve informar os parâmetros de segurança para o correto provisionamento das máquinas virtuais no provedor de serviço de nuvem Azure, a etapa quatro possui campos - alguns deles exclusivos. Neste momento, a plataforma uCloud adapta o wizard de forma a solicitar parâmetros necessários para o ambiente da nuvem.
@@ -3898,6 +3921,8 @@ A seguir é apresentada a tela referente Wizard Etapa 4b, para máquinas virtuai
 
 * **Botão Criar** |botao_criar_off|: Este botão permanece inativo, até preencher todos os parâmetros necessários para o correto provisionamento da máquina virtual, no provedor selecionado.
 * **Botão Próximo** |botao_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresentar a tela do Wizard Etapa 4b (ver abaixo).
+
+====
 
 Wizard Etapa 5a (User data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3956,7 +3981,7 @@ Abaixo é apresentada a tela referente a Etapa 5a, para máquinas virtuais na VM
 
 ----
 
-Wizard Etapa 6 (visualizar as configurações da máquina virtual)
+Wizard Etapa 6 (Visualizar as configurações da máquina virtual)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta é a etapa final, momento que a plataforma uCloud apresenta o resumo de todas as informações referentes aos parâmetros e configurações para o provisionamento da máquina virtual no provedor de serviço de nuvem:
@@ -4023,7 +4048,12 @@ O usuário pode acompanhar a evolução do processamento da sua solicitação no
 
 Menu Scaling Groups
 ===================
-Este menu apresenta ao usuário os Grupos de Escalabilidade (Scaling Groups) provisionados na plataforma uCloud. Esta funcionalidade é comum a qualquer provedor de serviço de nuvem. Os nomes desta funcionalidade diferem em cada provedor, mas os conceitos são universais. O Grupo de Escalabilidade possibilita que novas instâncias de uma máquina virtual sejam criadas, tendo como base a máquina inicial (clonagem). Estas novas instâncias serão criadas e iniciadas automaticamente, de forma a suportar a carga de conexão em paralelo (horizontal). O Grupo de Escalabilidade tanto pode iniciar novas máquinas, bem como desligar as máquinas criadas quando a demanda de conexões diminuir - dentro dos parâmetros definidos na criação - se comporta automaticamente, aumentando ou diminuindo a quantidade de instâncias de máquinas virtuais, com base no consumo monitorado e controlado.
+
+Este menu apresenta ao usuário os Grupos de Escalabilidade (Scaling Groups) provisionados na plataforma uCloud. Esta funcionalidade é comum a qualquer provedor de serviço de nuvem. Os nomes desta funcionalidade diferem em cada provedor, mas os conceitos são universais. 
+
+O Grupo de Escalabilidade possibilita que novas instâncias de uma máquina virtual sejam criadas, tendo como base a máquina inicial (clonagem). Estas novas instâncias serão criadas e iniciadas automaticamente, de forma a suportar a carga de conexão em paralelo (horizontal). 
+
+O Grupo de Escalabilidade tanto pode iniciar novas máquinas, bem como desligar as máquinas criadas quando a demanda de conexões diminuir - dentro dos parâmetros definidos na criação - se comporta automaticamente, aumentando ou diminuindo a quantidade de instâncias de máquinas virtuais, com base no consumo monitorado e controlado.
 
 Grupo de Escalabilidade é um recurso integrado de serviços em nuvem, serviços móveis, máquinas virtuais e sites que ajuda os aplicativos a ter o melhor desempenho quando há mudanças na demanda. Importante mencionar que ‘desempenho’ pode significar coisas diferentes para aplicativos diferentes. Alguns aplicativos são limitados pela CPU, outros pela memória. Por exemplo, você pode ter um aplicativo da web que lida com milhões de solicitações durante o dia e nenhum à noite. A escala automática pode escalar seu serviço por qualquer um deles - ou por uma métrica personalizada definida pelo usuário.
 
@@ -4037,6 +4067,8 @@ Importante ressaltar que os tópicos acima são fundamentais, caso não tenham s
 Atualmente apenas dois provedores possuem interface via API-Rest, para suportar o processo de provisionamento de um Grupo de Escalabilidade, Amazon AWS e Azure.
 
 Abaixo segue descrição de ambos os processos, pois cada provedor de serviço de nuvem pública possui parâmetros específicos para o correto provisionamento de um Grupo de Escalabilidade em seu ambiente.
+
+====
 
 Criando um Scaling Group AWS
 ----------------------------
@@ -4080,7 +4112,9 @@ Abaixo segue a descrição do correto preenchimento da tela para provisionar um 
 
   Caso este botão **não esteja habilitado (cor cinza)**, significa que algum parâmetro anterior foi deixado em branco, a plataforma uCloud não permite o provisionamento da máquina virtual até que o parâmetro seja preenchido.
 
-Problemas Conhecidos com Grupo de Escalabilidade AWS
+====
+
+Problemas conhecidos com Grupo de Escalabilidade AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Importante ressaltar: Considerar que o gerenciamento das condições de ocupação de CPU e memória - para o aumento ou diminuição da quantidade de máquinas virtuais, é gerenciado unicamente pela AWS - os problemas podem estar nos critérios conflitantes para a criação ou no monitoramento.
@@ -4094,6 +4128,8 @@ Importante ressaltar: Considerar que o gerenciamento das condições de ocupaç�
 * **Erros no monitoramento**:
 
   * O status das máquinas do Grupo de Escalabilidade são mantidos atualizados pela plataforma uCloud a cada 30 segundos, problemas de comunicação Internet com o console da AWS podem fazer com que essas máquinas não sejam atualizadas na tela do uCloud.
+
+====
 
 Criado um Scaling Group Azure
 -----------------------------
@@ -4135,6 +4171,8 @@ O ambiente Microsoft Azure possui uma tela/formulário mais extenso e, portanto,
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para a criação do Grupo de Escalabilidade no ambiente Azure, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão criar para que a plataforma uCloud envie todos os parâmetros para o ambiente da AWS, para o completo provisionamento do Grupo de Escalabilidade.
 
   Caso este botão **não esteja habilitado (cor cinza)**, significa que algum parâmetro anterior foi deixado em branco, a plataforma uCloud não permitirá o provisionamento da máquina virtual até que o parâmetro seja preenchido.
+
+====
 
 
 Menu Banco de Dados
@@ -4190,6 +4228,7 @@ Esta tela pode ser muito extensa pois apresenta todas as instâncias de Bancos d
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud remova esta instância de Banco de Dados, de forma imediata e definitiva.
   * **Ícone Reiniciar** |icone_vm_reboot|: Basta clicar sobre este ícone quando o usuário necessita reiniciar a instância de Banco de Dados respectiva. Importante mencionar que reiniciar uma instância de banco de dados é necessário, geralmente, por motivos de manutenção. Por exemplo: Se o usuário fizer determinadas modificações ou alterar o parameter group de banco de dados associado à instância de banco de dados, todas as documentações online sugerem que é necessário reiniciar uma instância de Banco de Dados para que as alterações sejam implementadas.
 
+====
 
 Gerenciando um Banco de Dados
 -----------------------------
@@ -4201,8 +4240,9 @@ Quando o usuário clicar com o cursor do mouse em uma das linhas da lista de Ban
 
 ----
 
-Seção Geral - Grupo Segurança
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Seção Geral: Grupo Segurança
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * **Status**: Este campo apresenta a situação atual da instância de banco de dados no ambiente do provedor de serviço de nuvem.
 * **Container**: Este campo apresenta o nome do provedor de serviço de nuvem pública (“container”), provisionado na plataforma uCloud, o qual foi selecionado no momento do provisionamento da instância de banco de dados.
 * **Região**: Este campo apresenta o nome da região global do provedor de serviço de nuvem pública (“container”) o qual foi selecionado no momento do provisionamento da instância de banco de dados.
@@ -4225,14 +4265,18 @@ Seção Geral - Grupo Segurança
 * Último momento restaurável: Este campo apresenta a data e a hora, da cópia de segurança mais recente do banco de dados.
 * **Criado por**: Este campo apresenta uma identificação gerada, internamente, pelo provedor de serviço de nuvem pública. Importante mencionar que esta identificação não é necessariamente a mesma das credenciais do usuário registrado na plataforma uCloud.
 
-Seção Grupos de Segurança
-~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Seção: Grupos de Segurança
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 * **Nome**: Esta coluna apresenta o nome do Grupo de Segurança (security group) vinculado ao Banco de Dados, no momento do provisionamento da instância de banco de dados.
 * **Criado Por**: Esta coluna apresenta a identificação da credencial de login do usuário responsável pela criação do Grupo de Segurança.
 * **Ações**: Esta coluna apresenta dois ícones para que o usuário possa interagir com as configurações do Grupo de Segurança:
 
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud remova este Grupo de Segurança de forma imediata e definitiva.
   * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a plataforma uCloud possa apresentar uma tela que permite editar as configurações do Grupo de Segurança respectivo.
+
+====
 
 Provisionando um Banco de Dados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4243,12 +4287,15 @@ O usuário deve sempre consultar a documentação online das opções de instân
 Devido a uma grande diversidade de opções de criação de bases de dados e seus parâmetros em diferentes provedores de serviço de nuvem, para apresentar as diferenças entre provedores de serviço de nuvem, a seguir é documentado apenas os processos de criação de uma instância de base de dados com o software MySQL em três diferentes provedores.
 Desta forma o usuário pode acompanhar as caraterísticas de cada ambiente de nuvem pública e seus parâmetros específicos.
 
+====
+
 Criação de Banco de Dados (MySQL & AWS)
 ---------------------------------------
 Nas telas a seguir serão utilizadas as telas de exemplo para o provedor AWS, o qual demonstra as características e o suporte a diversos mecanismos de gerenciamento de bases de dados e seus parâmetros.
 
+====
 
-Etapa 1 Seleção do Provedor de Serviço de Nuvem (AWS) [4 nivel]
+Etapa 1 - Seleção do Provedor de Serviço de Nuvem (AWS) [4 nivel]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A seguir são utilizadas as telas de exemplo para o provedor AWS que demonstra o suporte a diversos mecanismos de gerenciamento bases de dados, apenas para apoiar a conectividade da plataforma uCloud com a API e para apoiar a didática da criação de uma Instância de Banco de Dados em um provedor de nuvem pública.
 Importante ressaltar que, para efeito didático e apenas como exemplo, são seguidas as etapas de criação de um Banco de Dados MySQL.
@@ -4263,8 +4310,10 @@ A plataforma uCloud apresenta a tela abaixo ao usuário, a seleção do provedor
 
 Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem **AWS** apresentado nesta tela.
 
-Etapa 2 Seleção do Banco de Dados (MySQL & AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 2 - Seleção do Banco de Dados (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Esta tela permite ao usuário selecionar qual o mecanismo (“*engine*”) de gerenciamento de bancos de dados. A seguir é apresentada uma tela capturada do ambiente da **AWS**, apenas como um exemplo didático.
 
 .. image:: /figuras/ucloud_databases_013b.png
@@ -4280,8 +4329,10 @@ Nesta etapa, o usuário deve clicar com o cursor do mouse sobre o ícone do MySQ
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 3 Especificações do Banco de Dados (MySQL & AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 3 - Especificações do Banco de Dados (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente computacional que dará suporte para a execução da instância de banco de dados.
 
@@ -4303,8 +4354,10 @@ Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente comput
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 4 - Configurações de acesso ao Banco de Dados (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
 
@@ -4328,8 +4381,10 @@ Nesta etapa devem ser informados os parâmetros de acesso à instância de banco
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 5 Especificações de Rede e Segurança (MySQL & AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 5 - Especificações de Rede e Segurança (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
 
@@ -4348,8 +4403,10 @@ Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode clicar e retornar a Etapa 1, na seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 6 Parâmetro de Cópia de Segurança (MySQL & AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 6 - Parâmetro de Cópia de Segurança (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros que definirão o processo de cópia de segurança (backup) da instância de banco de dados.
 
@@ -4393,14 +4450,18 @@ Nesta etapa devem ser informados os parâmetros que definirão o processo de có
 * **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a plataforma uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
   Caso este botão não esteja habilitado (cor cinza) significa que algum parâmetro anterior foi deixado em branco, desta forma, a plataforma uCloud não permite o provisionamento do Banco de Dados.
 
+====
+
 Criação de Banco de Dados (MySQL & Azure)
 -----------------------------------------
 
 Nas telas a seguir na ilustração, será utilizada a tela com o exemplo para o provedor Azure, ele demonstra as pequenas diferenças de suporte a mecanismos de gerenciamento de bases de dados e seus parâmetros.
 Na tela a seguir apresentada pela plataforma uCloud, a seleção do provedor determina o conteúdo das telas seguintes.
 
-Etapa 1 Seleção do Provedor de Serviço de Nuvem (Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 1 - Seleção do Provedor de Serviço de Nuvem (Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A seguir são utilizadas as telas de exemplo para o provedor Azure que demonstra o suporte a apenas dois mecanismos de gerenciamento de bases de dados.
 *Importante ressaltar que, para efeito didático e apenas como exemplo, seguem as etapas de criação de um Banco de Dados MySQL.*
@@ -4419,8 +4480,10 @@ Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do **MyS
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 2 Seleção do Banco de Dados (MySQL & Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 2 - Seleção do Banco de Dados (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da Azure, apenas como um exemplo didático.
 
@@ -4437,8 +4500,10 @@ Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do MySQL
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 3 Especificações do Banco de Dados (MySQL & Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 3 - Especificações do Banco de Dados (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente computacional Azure que dará suporte para a execução da instância de banco de dados.
 
@@ -4455,7 +4520,9 @@ Nesta etapa, o usuário deve informar os parâmetros iniciais do ambiente comput
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & Azure)
+====
+
+Etapa 4 - Configurações de acesso ao Banco de Dados (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
@@ -4479,8 +4546,10 @@ Nesta etapa devem ser informados os parâmetros de acesso à instância de banco
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 5 Especificações de Rede e Segurança (MySQL & Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 5 - Especificações de Rede e Segurança (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
 
@@ -4498,8 +4567,10 @@ Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 6 Parâmetro de Cópia de Segurança (MySQL & Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===
+
+Etapa 6 - Parâmetro de Cópia de Segurança (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros para definir o processo de cópia de segurança (backup) da instância de banco de dados.
 
@@ -4535,6 +4606,8 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 * **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a plataforma uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
   Caso este botão não esteja habilitado (cor cinza) significa que algum parâmetro anterior foi deixado em branco, desta forma, a plataforma uCloud não permite o provisionamento do Banco de Dados.
 
+====
+
 Criação de Banco de Dados (MySQL & GCP)
 ---------------------------------------
 
@@ -4542,9 +4615,10 @@ Nas telas a seguir na ilustração, será utilizada a tela com o exemplo para o 
 
 Na tela a seguir apresentada pela plataforma uCloud, a seleção do provedor determina o conteúdo das telas seguintes.
 
+====
 
-Etapa 1 Seleção do Provedor de Serviço de Nuvem (GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Etapa 1 - Seleção do Provedor de Serviço de Nuvem (GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nas telas seguintes utilizaremos telas de exemplo para o provedor GCP que demonstra o suporte a apenas dois mecanismos de gerenciamento de bases de dados.
 Importante ressaltar que, para efeito didático e apenas como exemplo, iremos seguir as etapas de criação de um Banco de Dados MySQL.
@@ -4559,8 +4633,10 @@ A plataforma uCloud apresenta a tela abaixo ao usuário, a seleção do provedor
 
 Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do provedor de serviço de nuvem Google Cloud apresentado nesta tela.
 
-Etapa 2 Seleção do Banco de Dados (MySQL & GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 2 - Seleção do Banco de Dados (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta tela permite ao usuário selecionar qual o mecanismo (“engine”) de gerenciamento de bancos de dados. Abaixo é apresentada uma tela capturada do ambiente da GCP, apenas como um exemplo didático.
 
@@ -4577,8 +4653,10 @@ Nesta etapa o usuário deve clicar com o cursor do mouse sobre o ícone do **MyS
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 3 Especificações do Banco de Dados (MySQL & GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 3 - Especificações do Banco de Dados (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa o usuário deverá informar os parâmetros iniciais do ambiente computacional GCP que dará suporte para a execução da instância de banco de dados.
 
@@ -4596,8 +4674,10 @@ Nesta etapa o usuário deverá informar os parâmetros iniciais do ambiente comp
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 4 Configurações de acesso ao Banco de Dados (MySQL & GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 4 - Configurações de acesso ao Banco de Dados (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de acesso à instância de banco de dados.
 
@@ -4620,8 +4700,10 @@ Nesta etapa devem ser informados os parâmetros de acesso à instância de banco
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 5 Especificações de Rede e Segurança (MySQL & GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 5 - Especificações de Rede e Segurança (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança para o acesso à infraestrutura que executa a instância de banco de dados (máquina virtual).
 
@@ -4639,8 +4721,10 @@ Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-Etapa 6 Parâmetro de Cópia de Segurança (MySQL & GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====
+
+Etapa 6 - Parâmetro de Cópia de Segurança (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta etapa devem ser informados os parâmetros para definir o processo de cópia de segurança (backup) da instância de banco de dados.
 
@@ -4675,6 +4759,8 @@ Nesta etapa devem ser informados os parâmetros para definir o processo de cópi
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da última etapa de seleção do Banco de Dados.
 * **Botão Criar**: Nesta etapa, é necessário que todos os parâmetros fundamentais para a criação da instância de Banco de Dados tenham sido informados corretamente, o usuário verifica que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a plataforma uCloud envia todos os parâmetros do Banco de Dados para o provedor de serviço de nuvem (via API-Rest) selecionado.
   Caso este botão **não esteja habilitado (cor cinza)** significa que algum parâmetro anterior foi deixado em branco, desta forma, a plataforma uCloud não permite o provisionamento do Banco de Dados.
+
+====
 
 
 Menu Virtual Datacenters
