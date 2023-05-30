@@ -3191,6 +3191,108 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
+Menu Segurança
+==============
+
+Introdução
+----------
+
+Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
+
+Atenta à evolução constante do mercado brasileiro e às demandas dos nossos usuários, a Ustore apresenta o MENU DE SEGURANÇA, uma nova implementação no menu de funcionalidades do portal uCloud. 
+
+O menu de Segurança, está localizado do lado esquerdo, na quarta posição, logo após as opções Dashboard, Administração e Configuração:
+
+.. image:: /figuras/fig_segurança/000_menu_lateral.png
+   :alt: menu lateral
+   :align: center
+
+----
+
+O menu Segurança agrega três submenus, são eles:   
+
+   * Tickets; 
+
+   * Assessments; 
+
+   * Ethical Phishing.
+
+.. image:: /figuras/fig_segurança/002_menu_segurança.png
+   :alt: menu segurança
+   :align: center
+
+---- 
+
+Menu Segurança: Tickets
+=======================
+
+.. note:: Ambiente em desenvolvimento
+
+Menu Segurança:  Assessments
+============================
+
+.. note:: Ambiente em desenvolvimento
+
+Menu Segurança: Ethical Phishing
+================================
+
+O conceito de *Ethical Phishing* envolve a simulação controlada de ataques de *phishing*, com o objetivo inicial de sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais, e assim, evitar cair em golpes. 
+
+Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir os riscos associados ao *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários.
+
+====
+
+O que é *PHISHING*?
+-------------------
+
+Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
+
+É crescente o número de ataques *“hackers”* sofridos por empresas no mundo, sua principal característica é o refinamento da invasão e a quantidade de dados subtraídos a cada crime cometido em ambiente virtual. Em paralelo, a esta recorrência é fundamental que a expansão e inovação contínuas, tanto nas pequenas empresas como nas organizações de grande porte devem priorizar a proteção e a confidencialidade dos seus dados. 
+
+No mundo real o ataque de *phishing*,  é a tentativa direcionada a roubar dados confidenciais, como informações pessoais ou senhas em sites que fingem ser legítimos. Os cibercriminosos simulam identidades falsas e tentam se passar por empresas confiáveis, enviando comunicações fraudulentas por e-mail. Normalmente elas contêm o link para um site de destino (mais conhecido como *landing page*), a principal característica deste golpe é o disfarce utilizado para fisgar o leitor e encaminhá-lo à vulnerabilidade.  
+
+Este é um dos tipos mais antigos de ataque cibernético (originado nos anos 90), e ainda, um dos mais difundidos e perigosos, com mensagens e técnicas cada vez mais elaboradas que colocam em risco as empresas e seus colaboradores. Hoje é considerado um dos ataques de engenharia social mais comum. 
+
+Os ataques podem ter até seis fases: planejamento, preparação, ataque, coleta, fraude e pós-ataque. O resultado é perigoso ao buscar o usuário como foco e ponto sensível desta investida em massa, que pode ser direcionada a gerentes, executivos ou qualquer pessoa desavisada que possa agir incorretamente, por total desconhecimento desta modalidade de cibercrime.  
+
+Muitas vezes o *phishing* é apenas o começo de um assédio mais complexo. Que tem a possibilidade de evoluir para uma varredura material que pode durar meses, trimestres ou anos, até a completa transferência dos dados num processo cauteloso para evitar a detecção da operação.  
+
+Uma forma de precaução é a conscientização destes usuários, mediante a realização de uma sondagem sobre o nível de conhecimento a respeito dos perigos dos ambientes virtuais e a crescente incidência ano após ano. 
+
+A conscientização pode prevenir e reduzir os riscos associados ao *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários. E, assim, com a difusão de informações adequadas sendo direcionadas aos usuários desconhecedores dos riscos e ameaças no ambiente virtual, busca-se reduzir o número de vítimas.
+
+====
+
+Entendendo a funcionalidade: *Ethical Phishing*
+-----------------------------------------------
+
+Esta funcionalidade do menu de Segurança, no portal do uCloud, chega como uma solução de defesa que as organizações de todos os portes podem adquirir. Ela proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime. 
+
+O **Ethical Phishing** estabelece um fluxo que permite aos gestores das empresas criar campanhas éticas de envio de mensagens fraudulentas, simulando ataques cibernéticos, com o propósito de monitorar as ações do(s) usuário(s); após o recebimento da(s) mensagem (ns) simulada(s), pode-se identificar o público passível de fragilizar a segurança em relação as informações pessoais e da empresa.  
+
+E, a partir daí, poder entender o comportamento dos colaboradores e a necessidade da orientação individual ou treinamento coletivo de orientação, sobre qual deve ser o comportamento desses usuários ao perceber um ataque real. 
+
+.. attention:: Ao saber como identificar o ataque de *phishing*, e proceder diante deste perigo cibernético, o usuário muda seu comportamento e minimiza os riscos das ameaças causadas por este golpe. 
+
+Dessa forma, inserir o *Ethical Phishing* como uma solução de defesa cibernética na empresa, agrega desempenho e agilidade aos times de processos e pessoas, com as simulações das campanhas direcionadas a entender em detalhes o comportamento de cada leitor, com a demonstração das informações precisas, distribuídas em *dashboards*, seja por grupos ou individualmente.  
+
+As vantagens das simulações de ataque é identificar atitudes sem alterar a realidade, permite observar situações e fenômenos com precisão, para treinar o comportamento em casos reais.  Além de coletar estatísticas e acompanhar a evolução. 
+
+Os benefícios na execução das simulações são:  
+
+   * Execução dos testes em ambiente controlado;  
+
+   * Avaliação do nível de conhecimento dos usuários;  
+
+   * Preparação para ataques reais;  
+
+   * Aumento do nível de maturidade da empresa;  
+
+   * Conscientização das pessoas sobre os riscos.
+ 
+
+====
+
 Menu Máquinas Virtuais
 ======================
 
