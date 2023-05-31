@@ -3191,8 +3191,8 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
-Menu Segurança
-==============
+Menu Segurança: Ethical Phishing
+================================
 
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
@@ -3230,8 +3230,8 @@ O menu Segurança agrega três submenus, são eles:
 
 .. .. note:: Ambiente em desenvolvimento
 
-Menu Segurança: Ethical Phishing
-================================
+.. Menu Segurança: Ethical Phishing
+.. ================================
 
 O conceito de *Ethical Phishing* envolve a simulação controlada de ataques de *phishing*, com o objetivo inicial de sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais, e assim, evitar cair em golpes. 
 
@@ -3300,8 +3300,8 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 
 ====
 
-Acesso com o perfil: Adminin e cargo: Gerente
----------------------------------------------
+Acessando como Admin: cargo Gerente
+===================================
 
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
 
@@ -3351,11 +3351,11 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
 ----
 
-.. centered:: Jornada do usuário Comum com cargo de Utilizador do Ethical Phishing 
+..  .. centered:: Jornada usuário Comum, cargo de Utilizador 
 
-====
+.. ====
 
-No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+..No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
 
    * Meu dashboard; 
 
@@ -3373,18 +3373,18 @@ No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado 
    :alt: 
    :align: center
 
-Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
+.. Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
 
-====
+.. ====
 
-*Dashboard* do *Ethical Phishing*
----------------------------------
+*Dashboard* do Admin: cargo Gerente
+-----------------------------------
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 ====
 
-.. centered:: Jornada do usuário Administrador com cargo de Gerente do Ethical Phishing
+.. centered:: Jornada usuário Administrador, cargo de Gerente
 
 ====
 
@@ -3585,7 +3585,16 @@ Após a confirmação, os espaços com data e hora são automaticamente preenchi
 Listando a Campanha
 ~~~~~~~~~~~~~~~~~~~
 
-A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: ``Voltar``, ``Atualizar`` e ``+ Nova  Campanha``, além de dois cards com diferentes tipos de campanha: ativas e arquivadas.  
+A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: 
+
+   * **Botão** ``Voltar``;
+   * **Botão** ``Atualizar``;
+   * **Botão** ``+ Nova  Campanha``.
+   
+Além de dois *cards* com diferentes tipos de campanha: 
+
+     * Ativas;
+     * Arquivadas.  
 
 .. image:: /figuras/fig_segurança/021_tela_campanhas.png
    :alt: tela campanhas 
@@ -3606,14 +3615,18 @@ Ambos cards exibem quatro colunas que são descritas a seguir:
 
      * Finalizado (no caso de campanhas arquivadas). 
 
-   * **Ações**: podem ser representadas por quatro ícones: 
+   * **Ações**: representadas por quatro ícones: 
 
 .. image:: /figuras/fig_segurança/022_icones_açoes.png
    :alt: icones ações 
    :align: center
 ----
 
-     * **Gráfico**: Ao clicar no ícone, o usuário é direcionado para a tela na qual permite consultar informações gerais sobre a campanha selecionada.  Nela, existem três botões de ação: ``Voltar``, ``Exportar`` e ``Concluir campanha``. 
+     * **Gráfico**: Ao clicar no ícone, o usuário é direcionado para a tela na qual permite consultar informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     
+        * **Botão** ``Voltar``;
+        * **Botão** ``Exportar``;
+        * **Botão** ``Concluir campanha``. 
 
  .. image:: /figuras/fig_segurança/023_icone_grafico.png
    :alt: icone gráfico
