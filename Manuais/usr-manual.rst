@@ -3636,6 +3636,36 @@ No fim da lista, no canto inferior esquerdo é possível observar blocos de info
 
 .. importante:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
+====
+
+**Dashboard Global do Contrato** 
+--------------------------------
+
+O usuário administrador pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
+
+Abaixo disso, os seguintes quadros são exibidos: 
+
+   * Total de contratos ativos; 
+
+   * Novos contratos; 
+
+   * Contas de envio (Vendidos/Consumido); 
+
+   * Contato ativo; 
+
+   * Campanhas (Em execução/Concluídas). 
+
+Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvidos nesta campanha.
+
+.. image:: /figuras/fig_segurança/024_dashboard_global.png
+   :alt: dashboard global
+   :scale:  
+   :align: center
+----
+
+.
+
+  
 
 
    
@@ -3647,7 +3677,8 @@ No fim da lista, no canto inferior esquerdo é possível observar blocos de info
 
 
 .. .. image:: /figuras/fig_segurança/.png
-   :alt: 
+   :alt:
+   :scale: 
    :align: center
    ----
 
