@@ -3300,8 +3300,8 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 
 ====
 
-Acessando o *Ethical Phishing*
-------------------------------
+Acesso com o perfil: Adminin e cargo: Gerente
+---------------------------------------------
 
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
 
@@ -3319,7 +3319,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Jornada do usuário Administrador com cargo de Gerente do Ethical Phishing
+.. centered:: Jornada usuário Administrador, cargo de Gerente
 
 ====
 
