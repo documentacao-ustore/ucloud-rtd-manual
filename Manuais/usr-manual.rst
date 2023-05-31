@@ -3404,9 +3404,6 @@ No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard*
 **Meu dashboard** 
 -----------------
 
-Introdução
-~~~~~~~~~~
-
 
 Ao clicar em **Meu dashboard**, o *Admin Phishing* pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
 
@@ -3439,7 +3436,7 @@ Exibem também cinco *cards*. São eles:
 
 ====
 
-Criando uma campanha
+Criando uma Campanha
 ~~~~~~~~~~~~~~~~~~~~~
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
@@ -3521,12 +3518,16 @@ Depois de concluída a tarefa, a tela é atualizada e novas informações são e
    :align: center
 ----
 
+**Recorte 1**
+
 No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de landing page. 
 
 .. image:: /figuras/fig_segurança/015.1_info_extra.png
    :alt: info extra 
    :align: center
 ----
+
+**Recorte 2**
 
 No segundo recorte, é possível importar um arquivo de Grupos de Contatos através do botão ``Importar CSV``, assim como adicionar apenas um contato clicando na ação ``Adicionar contato único``.
 
@@ -3546,6 +3547,8 @@ Na figura acima, o usuário deve preencher os campos com as informações do con
 
 .. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. 
 
+**Recorte 3**
+
 Após a adição dos contatos, os detalhes sobre o grupo selecionado são apresentados no terceiro recorte, exibido a seguir.
 
 .. image:: /figuras/fig_segurança/017_detalhes_grupo.png
@@ -3553,12 +3556,16 @@ Após a adição dos contatos, os detalhes sobre o grupo selecionado são aprese
    :align: center
 ----
 
+**Recorte 4**
+
 No lado direito da tela, informações sobre as cotas são expressas no recorte de número quatro. É possível também enviar um e-mail teste. Este, não consome sua cota de envio. Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é disponibilizado para acionamento. 
 
 .. image:: /figuras/fig_segurança/018_cotas_teste.png
    :alt: cotas teste
    :align: center
 ----
+
+**Recorte 5**
 
 Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.  
 
@@ -3576,6 +3583,15 @@ Após a confirmação, os espaços com data e hora são automaticamente preenchi
 
 Listando a Campanha
 ~~~~~~~~~~~~~~~~~~~
+
+A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: ``Voltar``, ``Atualizar`` e ``+ Nova  Campanha``, além de dois cards com diferentes tipos de campanha: ativas e arquivadas.  
+
+.. image:: /figuras/fig_segurança/.png
+   :alt: 
+   :align: center
+----
+
+
 
 
 
