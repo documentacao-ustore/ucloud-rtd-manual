@@ -3352,8 +3352,8 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-*Dashboard* do Admin: Gerente
------------------------------------
+*Dashboard* Admin: Gerente
+--------------------------
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
@@ -3571,12 +3571,14 @@ Além de dois *cards* com diferentes tipos de campanha:
      * Ativas;
      * Arquivadas.  
 
+No canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+
 .. image:: /figuras/fig_segurança/021_tela_campanhas.png
    :alt: tela campanhas 
    :align: center
 ----
 
-Ambos cards exibem quatro colunas que são descritas a seguir: 
+Ambos *cards* exibem quatro colunas que são descritas a seguir: 
 
    * Nome; 
 
@@ -3597,7 +3599,7 @@ Ambos cards exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-     * **Gráfico**: Ao clicar no ícone, o usuário é direcionado para a tela na qual permite consultar informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     * Ícone **Gráfico**: Ao clicar no ícone | |, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
         * **Botão** ``Voltar``;
         * **Botão** ``Exportar``;
@@ -3608,21 +3610,21 @@ Ambos cards exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-Além disso, também é apresentada uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
-No fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100. 
+NAlém disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
-     * **Bloco de notas**: representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+     * Ícone **Bloco de notas**: representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
 .. image:: /figuras/fig_segurança/015.3_info_extra.png
    :alt: info extra 
    :align: center
 ----
 
-     * **Folha duplicada**: copia os detalhes da campanha.
-     * **Lata de lixo**: representa a exclusão da campanha criada. 
+     * Ícone **Folha duplicada**: copia os detalhes da campanha.
+     * Ícone **Lata de lixo**: representa a exclusão da campanha criada. 
 
-.. importante:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+.. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 ====
 
