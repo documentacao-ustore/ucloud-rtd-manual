@@ -3539,7 +3539,8 @@ No segundo recorte, é possível importar um arquivo de Grupos de Contatos atrav
 Clicando nesta, o seguinte modal é exibido: 
 
 .. image:: /figuras/fig_segurança/016_adicionar_contrato.png
-   :alt: adicionar contrato 
+   :alt: adicionar contrato
+   :scale: 80% 
    :align: center
 ----
 
@@ -3586,10 +3587,59 @@ Listando a Campanha
 
 A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: ``Voltar``, ``Atualizar`` e ``+ Nova  Campanha``, além de dois cards com diferentes tipos de campanha: ativas e arquivadas.  
 
-.. image:: /figuras/fig_segurança/.png
-   :alt: 
+.. image:: /figuras/fig_segurança/021_tela_campanhas.png
+   :alt: tela campanhas 
    :align: center
 ----
+
+Ambos cards exibem quatro colunas que são descritas a seguir: 
+
+   * Nome; 
+
+   * Data de criação; 
+
+   * **Status**: Divide-se em: 
+
+     * Não iniciado; 
+
+     * Em progresso; 
+
+     * Finalizado (no caso de campanhas arquivadas). 
+
+   * **Ações**: podem ser representadas por quatro ícones: 
+
+.. image:: /figuras/fig_segurança/022_icones_açoes.png
+   :alt: icones ações 
+   :align: center
+----
+
+     * **Gráfico**: Ao clicar no ícone, o usuário é direcionado para a tela na qual permite consultar informações gerais sobre a campanha selecionada.  Nela, existem três botões de ação: ``Voltar``, ``Exportar`` e ``Concluir campanha``. 
+
+ .. image:: /figuras/fig_segurança/023_icone_grafico.png
+   :alt: icone gráfico
+   :align: center
+----
+
+Além disso, também é apresentada uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+
+No fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100. 
+
+     * **Bloco de notas**: representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+
+.. image:: /figuras/fig_segurança/015.3_info_extra.png
+   :alt: info extra 
+   :align: center
+----
+
+     * **Folha duplicada**: copia os detalhes da campanha.
+     * **Lata de lixo**: representa a exclusão da campanha criada. 
+
+.. importante:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+
+
+
+   
+
 
 
 
