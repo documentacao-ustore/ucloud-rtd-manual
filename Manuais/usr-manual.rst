@@ -3506,15 +3506,77 @@ Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de colo
 
 Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
 
-.. image:: /figuras/fig_segurança/.png
-   :alt: 
+.. image:: /figuras/fig_segurança/014_status_tarefa.png
+   :alt: status tarefa 
    :align: center
 ----
 
+Detalhando uma Campanha
+~~~~~~~~~~~~~~~~~~~~~~~
 
+Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
 
+.. image:: /figuras/fig_segurança/015_detalhes_campanha.png
+   :alt: detalhes campanha 
+   :align: center
+----
 
- 
+No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de landing page. 
+
+.. image:: /figuras/fig_segurança/015.1_info_extra.png
+   :alt: info extra 
+   :align: center
+----
+
+No segundo recorte, é possível importar um arquivo de Grupos de Contatos através do botão ``Importar CSV``, assim como adicionar apenas um contato clicando na ação ``Adicionar contato único``.
+
+.. image:: /figuras/fig_segurança/015.2_info_contato.png
+   :alt: info contato 
+   :align: center
+----
+
+Clicando nesta, o seguinte modal é exibido: 
+
+.. image:: /figuras/fig_segurança/016_adicionar_contrato.png
+   :alt: adicionar contrato 
+   :align: center
+----
+
+Na figura acima, o usuário deve preencher os campos com as informações do contato. Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado. 
+
+.. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. 
+
+Após a adição dos contatos, os detalhes sobre o grupo selecionado são apresentados no terceiro recorte, exibido a seguir.
+
+.. image:: /figuras/fig_segurança/017_detalhes_grupo.png
+   :alt: detalhes grupo 
+   :align: center
+----
+
+No lado direito da tela, informações sobre as cotas são expressas no recorte de número quatro. É possível também enviar um e-mail teste. Este, não consome sua cota de envio. Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é disponibilizado para acionamento. 
+
+.. image:: /figuras/fig_segurança/018_cotas_teste.png
+   :alt: cotas teste
+   :align: center
+----
+
+Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.  
+
+.. image:: /figuras/fig_segurança/019_teste_confirmar.png
+   :alt: teste confirmar 
+   :align: center
+----
+
+Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de feedback é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
+
+.. image:: /figuras/fig_segurança/020_teste_confirmado.png
+   :alt: teste confirmado 
+   :align: center
+----
+
+Listando a Campanha
+~~~~~~~~~~~~~~~~~~~
+
 
 
 
