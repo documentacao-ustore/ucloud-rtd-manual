@@ -3300,8 +3300,8 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 
 ====
 
-Acessando como Admin: cargo Gerente
-===================================
+Acessando como Admin: Gerente
+=============================
 
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
 
@@ -3351,33 +3351,8 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
 ----
 
-..  .. centered:: Jornada usuário Comum, cargo de Utilizador 
 
-.. ====
-
-..No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
-
-   * Meu dashboard; 
-
-   * Dashboard do contrato; 
-
-   * Campanhas; 
-
-   * Contatos; 
-
-   * Templates ;
-
-   * Landing Pages. 
-
-.. .. image:: /figuras/fig_segurança/u.png
-   :alt: 
-   :align: center
-
-.. Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
-
-.. ====
-
-*Dashboard* do Admin: cargo Gerente
+*Dashboard* do Admin: Gerente
 -----------------------------------
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
@@ -3694,6 +3669,32 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
    :scale: 
    :align: center
    ----
+
+..  .. centered:: Jornada usuário Comum, cargo de Utilizador 
+
+.. ====
+
+..No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+
+   * Meu dashboard; 
+
+   * Dashboard do contrato; 
+
+   * Campanhas; 
+
+   * Contatos; 
+
+   * Templates ;
+
+   * Landing Pages. 
+
+.. .. image:: /figuras/fig_segurança/u.png
+   :alt: 
+   :align: center
+
+.. Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
+
+.. ====
 
 
 ====
