@@ -3614,7 +3614,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
 A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
-NAlém disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
      * Ícone **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
@@ -3651,7 +3651,7 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. image:: /figuras/fig_segurança/024_dashboard_global.png
    :alt: dashboard global
-   :scale:  
+   :scale: 100 %  
    :align: center
 ----
 
@@ -3670,7 +3670,7 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt:
-   :scale: 
+   :scale: 100% 
    :align: center
    ----
 
@@ -3678,7 +3678,7 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. ====
 
-..No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+.. No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
 
    * Meu dashboard; 
 
