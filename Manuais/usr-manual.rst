@@ -3418,8 +3418,8 @@ Exibem também cinco *cards*. São eles:
 
 ====
 
-Criando uma Campanha
-`````````````````````
+.. centered:: Criando uma Campanha
+
 
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
@@ -3491,8 +3491,8 @@ Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, c
    :align: center
 ----
 
-Detalhando uma Campanha
-"""""""""""""""""""""""
+.. centered:: Detalhando uma Campanha
+
 
 Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
 
@@ -3565,8 +3565,8 @@ Após a confirmação, os espaços com data e hora são automaticamente preenchi
    :align: center
 ----
 
-Listando a Campanha
-"""""""""""""""""""
+.. centered:: Listando a Campanha
+
 
 
 A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: 
@@ -3677,7 +3677,7 @@ As colunas presentes no *card* de contrato são:
 ====
 
 **Dashboard do Contrato** 
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. 
 
@@ -3707,8 +3707,8 @@ Ao lado, também é possível observar dados sobre as campanhas: quantas estão 
    :align: center
 ----
 
-Criando o Perfil de Usuário
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Criando o Perfil de Usuário
+
 
 Para criar um perfil de usuário, o Admin: Gerente deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
 
