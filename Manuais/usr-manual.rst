@@ -3227,8 +3227,10 @@ Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir
 
 ====
 
-O que é *PHISHING* ?
-~~~~~~~~~~~~~~~~~~~~
+.. centered:: O que é *PHISHING* ?
+
+====
+
 
 Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
 
@@ -3248,12 +3250,14 @@ A conscientização pode prevenir e reduzir os riscos associados ao *phishing*, 
 
 ====
 
-Entendendo a funcionalidade: *Ethical Phishing*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Entendendo a funcionalidade: *Ethical Phishing*
+
+====
+
 
 Esta funcionalidade do menu de Segurança, no portal do uCloud, chega como uma solução de defesa que as organizações de todos os portes podem adquirir. Ela proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime. 
 
-O **Ethical Phishing** estabelece um fluxo que permite aos gestores das empresas criar campanhas éticas de envio de mensagens fraudulentas, simulando ataques cibernéticos, com o propósito de monitorar as ações do(s) usuário(s); após o recebimento da(s) mensagem (ns) simulada(s), pode-se identificar o público passível de fragilizar a segurança em relação as informações pessoais e da empresa.  
+O *Ethical Phishing* estabelece um fluxo que permite aos gestores das empresas criar campanhas éticas de envio de mensagens fraudulentas, simulando ataques cibernéticos, com o propósito de monitorar as ações do(s) usuário(s); após o recebimento da(s) mensagem (ns) simulada(s), pode-se identificar o público passível de fragilizar a segurança em relação as informações pessoais e da empresa.  
 
 E, a partir daí, poder entender o comportamento dos colaboradores e a necessidade da orientação individual ou treinamento coletivo de orientação, sobre qual deve ser o comportamento desses usuários ao perceber um ataque real. 
 
@@ -3277,8 +3281,9 @@ Os benefícios na execução das simulações são:
 
 ====
 
-Resumindo o *Ethical Phishing*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Resumindo o *Ethical Phishing*
+
+====
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
@@ -3288,8 +3293,8 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 
 ====
 
-Acesso do usuário Gerente Admin
--------------------------------
+Acesso do usuário: Gerente Admin
+--------------------------------
 
 ====
 
@@ -3348,11 +3353,13 @@ No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apre
 **Dashboard do Gerente Admin**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. 
+
+As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 ====
 
-.. centered:: Jornada usuário Gerente Admin
+.. centered:: Jornada do usuário Gerente Admin
 
 ====
 
@@ -3374,7 +3381,9 @@ No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard*
 ~~~~~~~~~~~~~~~~~
 
 
-Ao clicar em **Meu dashboard**, o *Admin Phishing* pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
+Ao clicar em **Meu dashboard**, o gerente Admin do *ethical phishing* pode criar campanhas e registrar os domínios. 
+
+Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
 
 .. image:: /figuras/fig_segurança/005_meu_dashboard.png
    :alt: meu dashboard
@@ -3423,7 +3432,11 @@ Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem c
    :align: center
 ----
 
-Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  Neste passo, a tela apresenta *templates* pré-estabelecidos.
+Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. 
+
+Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  
+
+Neste passo, a tela apresenta *templates* pré-estabelecidos.
 
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
 
@@ -3448,14 +3461,18 @@ Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida,
    :align: center
 ----
 
-Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. 
+
+Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: perfil de envio 
    :align: center
 ----
 
-Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
+Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. 
+
+Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
 
 .. image:: /figuras/fig_segurança/012_revisar_dados.png
    :alt: revisar dados 
@@ -3471,7 +3488,7 @@ Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de colo
    :align: center
 ----
 
-Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
+Após a confirmação, o *status* *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
 
 .. image:: /figuras/fig_segurança/014_status_tarefa.png
    :alt: status tarefa 
@@ -3596,7 +3613,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-     * Ícone **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
         * **Botão** ``Voltar``;
         * **Botão** ``Exportar``;
@@ -3611,15 +3628,15 @@ A tela acima "Campanha - teste campanha" mostra também uma lista com todos os c
 
 Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
-     * Ícone **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+     * **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
 .. image:: /figuras/fig_segurança/015.3_info_extra.png
    :alt: info extra 
    :align: center
 ----
 
-     * Ícone **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
-     * Ícone **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
+     * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
 .. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
@@ -3671,9 +3688,9 @@ Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do 
 
 Três botões de ações são apresentados na página: 
 
-     * ``Voltar``;
-     * ``Criar Usuário``;
-     * ``Autorizar novo domínio``.  
+     * Botão ``Voltar``;
+     * Botão ``Criar Usuário``;
+     * Botão ``Autorizar novo domínio``.  
 
 .. image:: /figuras/fig_segurança/025_dashboard_contrato.png
    :alt: dashboard contrato
@@ -3699,7 +3716,7 @@ Ao lado, também é possível observar dados sobre as campanhas: quantas estão 
 
 ----
 
-Para criar um perfil de usuário, o Gerente Admin deve ir para o tópico de Usuários do *Ethical Phishing* (hyperlink deve ser inserido do documento de 1.07) 
+Para criar um perfil de usuário, o Gerente Admin deve ir ao tópico de Usuários do *Ethical Phishing* (hyperlink deve ser inserido do documento de 1.07) 
 
 Finalizado este processo, o usuário retorna pra a tela do *Dashboard* do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
 
@@ -3751,7 +3768,7 @@ São apresentadas também quatro colunas:
 
         * Finalizado. 
 
-   * Ação: representado pelo ícone do gráfico mencionado anteriormente. 
+   * Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente. 
 
 ====
 
@@ -3874,8 +3891,8 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 
 ====
 
-Acesso do usuário como Utilizador
----------------------------------
+Acesso do usuário: Utilizador
+-----------------------------
 
 **Acessando
 ~~~~~~~~~~~~
