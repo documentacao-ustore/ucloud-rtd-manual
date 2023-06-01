@@ -3601,7 +3601,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-     * Ícone **Gráfico**: Ao clicar no ícone | |, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     * Ícone **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
         * **Botão** ``Voltar``;
         * **Botão** ``Exportar``;
@@ -3616,15 +3616,15 @@ A tela acima "Campanha - teste campanha" mostra também uma lista com todos os c
 
 NAlém disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
-     * Ícone **Bloco de notas**: representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+     * Ícone **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
 .. image:: /figuras/fig_segurança/015.3_info_extra.png
    :alt: info extra 
    :align: center
 ----
 
-     * Ícone **Folha duplicada**: copia os detalhes da campanha.
-     * Ícone **Lata de lixo**: representa a exclusão da campanha criada. 
+     * Ícone **Copiar e cola**: Este botão de ação |icone_copiar|  copia os detalhes da campanha.
+     * Ícone **Lata de lixo**: Pressionar nesta ação |icone_excluir| representa a exclusão da campanha criada. 
 
 .. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
@@ -12888,3 +12888,11 @@ Revisão 20/01/2023
 .. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
 
 .. |icone_reorganizar_dashboard| image:: /figuras/fig_ucloud/ucloud_botao_reorganizar_dashboard.png
+
+.. |icone_grafico| image:: /figuras/fig_segurança/icone_grafico.png
+
+.. |icone_editar| image:: /figuras/fig_segurança/icone_editar.png
+
+.. |icone_copiar| image:: /figuras/fig_segurança/icone_copiar.png
+
+.. |icone_excluir| image:: /figuras/fig_segurança/icone_excluir.png
