@@ -3877,8 +3877,8 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 
 ====
 
-**Página de destino**
-~~~~~~~~~~~~~~~~~~~~~
+**Landing Pages**
+~~~~~~~~~~~~~~~~
 
 .. centered:: Introdução
 
