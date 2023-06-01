@@ -3775,12 +3775,133 @@ São apresentadas também quatro colunas:
 **Contratos**
 ~~~~~~~~~~~~~
 
+Contratos é o quarto *card* do menu de Segurança *Ethical Phishing* e sua visualização é exclusiva para o usuário Gerente Admin.  
+
+.. image:: /figuras/fig_segurança/032.0_menu_contratos.png
+   :alt: menu contratos
+   :scale: 100% 
+   :align: center
+----
+
+Ao clicar nesta opção, a tela exibida apresenta dois botões de ações: ``Criar Contrato`` e ``Atualizar``, além de estar organizada em cinco colunas: 
+
+   * Nome;
+
+   * Admin; 
+
+   * CPF/CNPJ;
+
+   * Estado;
+
+   * Ações: a ação disponível é para clonar o contrato. 
 
 
-.. centered:: Detalhando
+Logo abaixo de Nome, Admin e CPF/CNPJ existem barras de pesquisa para auxiliar na busca de um contrato específico. 
+
+.. image:: /figuras/fig_segurança/032_detalhes_contrato.png
+   :alt: detalhes contrato
+   :scale: 100% 
+   :align: center
+----
+
+Também é possível notar a paginação no fim da tela, assim como os blocos de informações divididos em 10, 25, 50 ou 100 linhas. 
+
+====
+
+.. centered:: Criando Contrato
+
+====
+ 
+
+Ao clicar no botão para ``Criar Contrato``, o seguinte modal é apresentado: 
+
+.. image:: /figuras/fig_segurança/033_modal_contrato.png
+   :alt: modal contrato
+   :scale: 100% 
+   :align: center
+----
+
+Abaixo são descritos os campos para preenchimento; 
+
+   * Nome do contrato;
+
+   * Nome da empresa;
+
+   * CPF/CPNJ;
+
+   * Dia da fatura;
+
+   * Admin *login*. 
+
+Também é possível selecionar os seguintes *checkbox*, que ao posicionar o mouse acima da *tooltip* uma mensagem é apresentada. 
+
+   * Configuração automática de Contrato 
+
+.. image:: /figuras/fig_segurança/034_tooltip_um.png
+   :alt: tooltip um
+   :scale: 100% 
+   :align: center
+----
+
+   * Autocriar administrador 
+
+.. image:: /figuras/fig_segurança/035_tooltip_dois.png
+   :alt: tooltip dois
+   :scale: 100% 
+   :align: center
+----
+
+   * Ptax variável 
+
+.. image:: /figuras/fig_segurança/036_tooltip_tres.png
+   :alt: tooltip tres
+   :scale: 100% 
+   :align: center
+----
+
+Somente após o preenchimento de todos os campos obrigatórios é que o botão ``Criar`` fica habilitado para acionamento. Depois da criação, o usuário deve clicar na ação ``Atualizar`` para que o contrato recém-criado seja incrementado na lista. 
+
+====
+
+.. centered:: Detalhando Contrato
+
+====
+
+Ao selecionar o contrato desejado, o usuário é direcionado para a tela de detalhamento do contrato explicado previamente como a forma com o qual se define a relação comercial entre o provedor e a empresa que o contratou. 
+
+No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais. 
+
+Para outras informações basta acessar o Menu Administração (hyperlink: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#administracao-contrato)  
+
+A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo card “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
+
+.. image:: /figuras/fig_segurança/037_cota_segurança.png
+   :alt: cota segurança
+   :scale: 100% 
+   :align: center
+----
 
 
+Nesta área, é possível visualizar os seguintes campos: 
 
+   * **Data da renovação de cota**: espaço do tipo *dropdown* onde são exibidas opções de datas. 
+
+   * **Cota de E-mails de Phishing / Alocada**: campo editável para alteração de cota, basta clicar no ícone do bloco de notas e em seguida confirmar a ação clicando no botão azul, ou cancelando no vermelho. Ao posicionar o mouse sobre o ícone da *tooltip*, a seguinte mensagem é exibida: 
+
+.. image:: /figuras/fig_segurança/037.1_tooltip_cota.png
+   :alt: tooltip cota
+   :scale: 100% 
+   :align: center
+----
+ 
+
+   * **Quantidade de campanhas disponíveis por usuário** 
+
+   * **Quantidade de contatos por campanha** 
+
+.. nota:: Para determinar a quantidade dos dois últimos campos, basta desmarcar o checkbox “Indeterminado” que o ícone do bloco de notas é habilitado para edição. Para confirmar a ação basta clicar no botão azul, ou no vermelho para cancelar. 
+
+O mais importante, além das cotas de segurança, é a relação do usuário com o contrato, porque existem cotas que aquele usuário pode consumir.
 
 ====
 
