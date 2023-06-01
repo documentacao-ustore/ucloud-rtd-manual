@@ -3672,7 +3672,13 @@ As colunas presentes no *card* de contrato são:
 **Dashboard do Contrato** 
 -------------------------
 
-Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. Três botões de ações são apresentados na página: ``Voltar``, ``Criar Usuário`` e ``Autorizar novo domínio``.  
+Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. 
+
+Três botões de ações são apresentados na página: 
+
+     * ``Voltar``;
+     * ``Criar Usuário``;
+     * ``Autorizar novo domínio``.  
 
 .. image:: /figuras/fig_segurança/025_dashboard_contrato.png
    :alt: dashboard contrato
@@ -3680,7 +3686,13 @@ Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do 
    :align: center
 ----
 
-É permitido ao usuário digitar o mês e ano que deseja visualizar. São exibidos os detalhes das cotas de envio, informando o número de cotas disponíveis, consumidas e a quantidade de contatos ativos. Logo abaixo, é informado o próximo dia que as cotas são renovadas. Ao lado, também é possível observar dados sobre as campanhas: quantas estão em execução e quantas foram concluídas.  
+É permitido ao usuário digitar o mês e ano que deseja visualizar. 
+
+São exibidos os detalhes das cotas de envio, informando o número de cotas disponíveis, consumidas e a quantidade de contatos ativos. 
+
+Logo abaixo, é informado o próximo dia que as cotas são renovadas. 
+
+Ao lado, também é possível observar dados sobre as campanhas: quantas estão em execução e quantas foram concluídas.  
 
 .. image:: /figuras/fig_segurança/026_recorte_cotas.png
    :alt: recorte cotas
@@ -3744,7 +3756,123 @@ São apresentadas também quatro colunas:
 
    * Ação: representado pelo ícone do gráfico mencionado anteriormente. 
 
- 
+====
+
+**Contratos**
+-------------
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+
+
+**Usuários**
+------------
+
+Introdução
+~~~~~~~~~~
+
+Acessando
+~~~~~~~~~
+
+Criando o perfil de Usuário
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+**Campanhas**
+-------------
+
+Introdução
+~~~~~~~~~~~
+
+Visualizando a coleta de estatísticas no *Dashboard*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+**Contatos**
+------------
+
+Introdução
+~~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+**Templates**
+-------------
+
+Introdução
+~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~
+
+
+
+
+**Perfis de envio** 
+-------------------
+
+Protocolo de envio SMTP
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Quase toda atividade on-line é possibilitada pelos protocolos, em outras palavras, as regras e diretrizes especiais do software de rede que permitem ao computador se conectar a redes em qualquer lugar. 
+
+Diariamente as pessoas recebem e enviam e-mails, e, apesar do surgimento de outros meios de comunicação on-line, como chats de vídeos, bate-papos e transmissão ao vivo, as pessoas continuam a usar os e-mails, mesmo buscando novas formas de comunicação. Quando um e-mail é enviado, o provedor transmite o endereço do remetente, o endereço do destinatário e o conteúdo da mensagem. 
+
+O *Simple Mail Transfer Protocol-SMTP* é um protocolo usado no envio e recebimento de e-mail. Ele é responsável por garantir que os e-mails enviados cheguem aos destinatários. Seu objetivo principal é configurar as regras de comunicação entre os servidores, uma vez que eles têm uma forma específica de identificação e anúncio do tipo de intercomunicação realizada. 
+
+O protocolo SMTP está em funcionamento ao enviar um e-mail, ou seja, o computador se conecta ao servidor (computador centralizado) que gerencia um tipo específico de serviço.  
+
+Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo para o destino por meio de vários saltos. E assim, ele trabalha para localizar o paradeiro do destinatário utilizando o ID de e-mail do destinatário sendo localizado o nome do domínio.  
+
+
+Utilizando como Admin: Gerente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP podem ser encontradas na opção “Perfis de envio”, esse acesso é exclusivo para usuários administradores, tendo em vista o grau de complexidade, gerenciamento e entendimento das funcionalidades de código. 
+
+  
+
+
+
+**Página de destino**
+---------------------
+
+Introdução
+~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~~
+
+
+
 
 
 .
