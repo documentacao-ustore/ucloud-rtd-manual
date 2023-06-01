@@ -13191,3 +13191,5 @@ Revisão 20/01/2023
 .. |icone_copiar| image:: /figuras/fig_segurança/icone_copiar.png
 
 .. |icone_excluir| image:: /figuras/fig_segurança/icone_excluir.png
+
+.. |icone_lapis| image:: /figuras/fig_segurança/icone_lapis.png
