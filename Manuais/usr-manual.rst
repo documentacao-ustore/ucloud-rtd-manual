@@ -3613,7 +3613,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
 A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
-NAlém disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
      * Ícone **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
@@ -3622,14 +3622,14 @@ NAlém disto, no fim da lista, no canto inferior esquerdo é possível observar 
    :align: center
 ----
 
-     * Ícone **Copiar e cola**: Este botão de ação |icone_copiar|  copia os detalhes da campanha.
-     * Ícone **Lata de lixo**: Pressionar nesta ação |icone_excluir| representa a exclusão da campanha criada. 
+     * Ícone **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * Ícone **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
 .. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 ====
 
-**Dashboard Global do Contrato** 
+**Dashboard Global de Contratos** 
 --------------------------------
 
 O usuário administrador pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
@@ -3650,9 +3650,229 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. image:: /figuras/fig_segurança/024_dashboard_global.png
    :alt: dashboard global
-   :scale:  
+   :scale: 100 %  
    :align: center
 ----
+
+As colunas presentes no *card* de contrato são:  
+
+   * Contrato; 
+
+   * Campanhas; 
+
+   * Cotas; 
+
+   * Usuários; 
+
+   * Contratado em.
+
+====
+
+**Dashboard do Contrato** 
+-------------------------
+
+Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. 
+
+Três botões de ações são apresentados na página: 
+
+     * ``Voltar``;
+     * ``Criar Usuário``;
+     * ``Autorizar novo domínio``.  
+
+.. image:: /figuras/fig_segurança/025_dashboard_contrato.png
+   :alt: dashboard contrato
+   :scale: 100% 
+   :align: center
+----
+
+É permitido ao usuário digitar o mês e ano que deseja visualizar. 
+
+São exibidos os detalhes das cotas de envio, informando o número de cotas disponíveis, consumidas e a quantidade de contatos ativos. 
+
+Logo abaixo, é informado o próximo dia que as cotas são renovadas. 
+
+Ao lado, também é possível observar dados sobre as campanhas: quantas estão em execução e quantas foram concluídas.  
+
+.. image:: /figuras/fig_segurança/026_recorte_cotas.png
+   :alt: recorte cotas
+   :scale: 100% 
+   :align: center
+----
+
+Criando o Perfil de Usuário
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para criar um perfil de usuário, o Admin: Gerente deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
+
+Finalizado este processo, o usuário retorna pra a tela do Dashboard do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
+
+.. image:: /figuras/fig_segurança/029_dominios_lista.png
+   :alt: dominios lista
+   :scale: 100% 
+   :align: center
+----
+
+Após clicar no botão para ``Autorizar novo domínio``, o seguinte modal é apresentado.  
+
+.. image:: /figuras/fig_segurança/030_modal_dominio.png
+   :alt: modal dominio
+   :scale: 100% 
+   :align: center
+----
+
+Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual as opções para a seleção são exibidas ao clicar. Em seguida, o domínio deve ser corporativo válido, então deve-se clicar no botão ``Enviar código``.  
+
+.. nota:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
+
+Feito isso, o código de verificação é enviado para o e-mail preenchido. O usuário então deve logar neste para digitar no espaço apropriado os seis dígitos exibidos no e-mail, e em seguida clicar no botão de coloração azul ``Confirmar``. 
+
+====
+
+Listando Campanha do mês corrente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No último card da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
+
+.. image:: /figuras/fig_segurança/031_detalhes_campanhas.png
+   :alt: detalhes campanhas
+   :scale: 100% 
+   :align: center
+----
+
+São apresentadas também quatro colunas:  
+
+   * Nome;
+
+   * Data de Criação;
+
+   * Status:  
+
+        * Não iniciado;
+
+        * Em progresso;
+
+        * Finalizado. 
+
+   * Ação: representado pelo ícone do gráfico mencionado anteriormente. 
+
+====
+
+**Contratos**
+-------------
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+
+
+**Usuários**
+------------
+
+Introdução
+~~~~~~~~~~
+
+Acessando
+~~~~~~~~~
+
+Criando o perfil de Usuário
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+**Campanhas**
+-------------
+
+Introdução
+~~~~~~~~~~~
+
+Visualizando a coleta de estatísticas no *Dashboard*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+**Contatos**
+------------
+
+Introdução
+~~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+
+
+
+**Templates**
+-------------
+
+Introdução
+~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~
+
+
+
+
+**Perfis de envio** 
+-------------------
+
+Protocolo de envio SMTP
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Quase toda atividade on-line é possibilitada pelos protocolos, em outras palavras, as regras e diretrizes especiais do software de rede que permitem ao computador se conectar a redes em qualquer lugar. 
+
+Diariamente as pessoas recebem e enviam e-mails, e, apesar do surgimento de outros meios de comunicação on-line, como chats de vídeos, bate-papos e transmissão ao vivo, as pessoas continuam a usar os e-mails, mesmo buscando novas formas de comunicação. Quando um e-mail é enviado, o provedor transmite o endereço do remetente, o endereço do destinatário e o conteúdo da mensagem. 
+
+O *Simple Mail Transfer Protocol-SMTP* é um protocolo usado no envio e recebimento de e-mail. Ele é responsável por garantir que os e-mails enviados cheguem aos destinatários. Seu objetivo principal é configurar as regras de comunicação entre os servidores, uma vez que eles têm uma forma específica de identificação e anúncio do tipo de intercomunicação realizada. 
+
+O protocolo SMTP está em funcionamento ao enviar um e-mail, ou seja, o computador se conecta ao servidor (computador centralizado) que gerencia um tipo específico de serviço.  
+
+Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo para o destino por meio de vários saltos. E assim, ele trabalha para localizar o paradeiro do destinatário utilizando o ID de e-mail do destinatário sendo localizado o nome do domínio.  
+
+
+Utilizando como Admin: Gerente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP podem ser encontradas na opção “Perfis de envio”, esse acesso é exclusivo para usuários administradores, tendo em vista o grau de complexidade, gerenciamento e entendimento das funcionalidades de código. 
+
+  
+
+
+
+**Página de destino**
+---------------------
+
+Introdução
+~~~~~~~~~~
+
+Criando
+~~~~~~~
+
+Listando
+~~~~~~~~~
+
+
+
+
 
 .
 
@@ -3669,7 +3889,7 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt:
-   :scale: 
+   :scale: 100% 
    :align: center
    ----
 
@@ -3677,7 +3897,7 @@ Em seguida, são apresentados um gráfico e detalhes sobre os contratos envolvid
 
 .. ====
 
-..No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+.. No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
 
    * Meu dashboard; 
 
