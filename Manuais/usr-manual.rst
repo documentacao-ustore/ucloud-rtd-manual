@@ -3874,70 +3874,72 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 
 ====
 
-Acessando como usuário Comum: Utilizador
-========================================
+Acesso do usuário como Utilizador
+---------------------------------
 
-Acesso
-------
+**Acessando
+~~~~~~~~~~~~
 
-.. centered:: Jornada do usuário Comum, cargo de Utilizador
+----
 
-====
+.. centered:: Jornada do usuário Utilizador
 
-Dashboard
----------
+----
 
-====
-
-Usuários
---------
-
-Introdução
-~~~~~~~~~~
-
-Acesso
-~~~~~~
-
-Criando
-~~~~~~~
-
-Detalhando
-~~~~~~~~~~
+**Dashboard**
+~~~~~~~~~~~~~
 
 ====
 
-Campanhas
----------
+**Usuários**
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+.. centered:: Introdução
 
-====
 
-Contatos
---------
+.. centered:: Acesso
 
-Introdução
-~~~~~~~~~~
 
-Criando Novo Grupo
-~~~~~~~~~~~~~~~~~~
+.. centered:: Criando
 
-Listando
-~~~~~~~~
 
-Detalhando
-~~~~~~~~~~
+.. centered:: Detalhando
+
 
 ====
 
-Templates
----------
+**Campanhas**
+~~~~~~~~~~~~
+
+.. centered:: Introdução
+
 
 ====
 
-Landing Pages
--------------
+**Contatos**
+~~~~~~~~~~~~
+
+.. centered:: Introdução
+
+
+.. centered:: Criando Novo Grupo
+
+
+.. centered:: Listando
+
+
+.. centered:: Detalhando
+
+
+====
+
+**Templates**
+~~~~~~~~~~~~~~
+
+====
+
+**Landing Pages**
+~~~~~~~~~~~~~~~~
 
 
 
