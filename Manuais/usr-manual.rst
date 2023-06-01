@@ -6,10 +6,9 @@
 
 ----
 
+==========================
 uCloud - Manual do Usuário
-++++++++++++++++++++++++++
-
-----
+==========================
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
@@ -3353,8 +3352,8 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-*Dashboard* Admin: Gerente
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Dashboard* Admin: Gerente**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
@@ -3414,7 +3413,7 @@ Exibem também cinco *cards*. São eles:
 ====
 
 Criando uma Campanha
-""""""""""""""""""""
+
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
 
