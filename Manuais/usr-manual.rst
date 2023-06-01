@@ -3347,7 +3347,7 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
-   :scale: 80 %  
+   :scale: 80 %
    :align: center
 
 ----
