@@ -3192,8 +3192,11 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
-Menu Segurança: Ethical Phishing
-================================
+Menu Segurança
+==============
+
+Ethical Phishing
+----------------
 
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
@@ -3240,8 +3243,8 @@ Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir
 
 ====
 
-O que é *PHISHING*?
--------------------
+O que é *PHISHING* ?
+~~~~~~~~~~~~~~~~~~~~
 
 Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
 
@@ -3262,7 +3265,7 @@ A conscientização pode prevenir e reduzir os riscos associados ao *phishing*, 
 ====
 
 Entendendo a funcionalidade: *Ethical Phishing*
------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta funcionalidade do menu de Segurança, no portal do uCloud, chega como uma solução de defesa que as organizações de todos os portes podem adquirir. Ela proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime. 
 
@@ -3291,7 +3294,7 @@ Os benefícios na execução das simulações são:
 ====
 
 Resumindo o *Ethical Phishing*
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
@@ -3301,8 +3304,8 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 
 ====
 
-Acessando como Admin: Gerente
------------------------------
+Acessando como Gerente Admin
+----------------------------
 
 ====
 
@@ -3323,7 +3326,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Jornada usuário Administrador, cargo de Gerente
+.. centered:: Jornada usuário Gerente Admin
 
 ====
 
@@ -3358,18 +3361,18 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-**Dashboard Admin: Gerente**
+**Dashboard Gerente Admin**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 ====
 
-.. centered:: Jornada usuário Administrador, cargo de Gerente
+.. centered:: Jornada usuário Gerente Admin
 
 ====
 
-No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
+No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
 
    * Meu *dashboard*;  
 
@@ -3419,6 +3422,8 @@ Exibem também cinco *cards*. São eles:
 ====
 
 .. centered:: Criando uma Campanha
+
+====
 
 
 
@@ -3494,6 +3499,9 @@ Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, c
 .. centered:: Detalhando uma Campanha
 
 
+----
+
+
 Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
 
 .. image:: /figuras/fig_segurança/015_detalhes_campanha.png
@@ -3567,7 +3575,7 @@ Após a confirmação, os espaços com data e hora são automaticamente preenchi
 
 .. centered:: Listando a Campanha
 
-
+----
 
 A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: 
 
@@ -3709,8 +3717,10 @@ Ao lado, também é possível observar dados sobre as campanhas: quantas estão 
 
 .. centered:: Criando o Perfil de Usuário
 
+----
 
-Para criar um perfil de usuário, o Admin: Gerente deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
+
+Para criar um perfil de usuário, o Gerente Admin deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
 
 Finalizado este processo, o usuário retorna pra a tela do Dashboard do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
 
@@ -3736,8 +3746,9 @@ Feito isso, o código de verificação é enviado para o e-mail preenchido. O us
 
 ====
 
-Listando Campanha do mês corrente
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Listando Campanha do mês corrente
+
+----
 
 No último card da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
 
@@ -3766,84 +3777,86 @@ São apresentadas também quatro colunas:
 ====
 
 **Contratos**
--------------
+~~~~~~~~~~~~~
 
-Detalhando
-~~~~~~~~~~
+
+
+.. centered:: Detalhando
+
 
 
 
 ====
 
 **Usuários**
-------------
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+.. centered:: Introdução
 
-Acessando
-~~~~~~~~~
 
-Criando o perfil de Usuário
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Acessando
 
-Detalhando
-~~~~~~~~~~
+
+.. centered:: Criando o perfil de Usuário
+
+
+.. centered:: Detalhando
+
 
 
 ====
 
 **Campanhas**
--------------
+~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~~
+.. centered:: Introdução
 
-Visualizando a coleta de estatísticas no *Dashboard*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. centered:: Visualizando a coleta de estatísticas no *Dashboard*
+
 
 
 
 ====
 
 **Contatos**
-------------
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~~
+.. centered:: Introdução
 
-Criando
-~~~~~~~
 
-Listando
-~~~~~~~~
+.. centered:: Criando
 
-Detalhando
-~~~~~~~~~~
+
+.. centered:: Listando
+
+
+.. centered:: Detalhando
+
 
 
 ====
 
 **Templates**
--------------
+~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+.. centered:: Introdução
 
-Criando
-~~~~~~~
 
-Listando
-~~~~~~~~
+.. centered:: Criando
+
+
+.. centered:: Listando
+
 
 
 ====
 
 **Perfis de envio** 
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-Protocolo de envio SMTP
-~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Protocolo de envio SMTP
+
 
 Quase toda atividade on-line é possibilitada pelos protocolos, em outras palavras, as regras e diretrizes especiais do software de rede que permitem ao computador se conectar a redes em qualquer lugar. 
 
@@ -3857,8 +3870,8 @@ Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo 
 
 ====
 
-Utilizando como Admin: Gerente
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Utilizando como Gerente Admin
+
 
 No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP podem ser encontradas na opção “Perfis de envio”, esse acesso é exclusivo para usuários administradores, tendo em vista o grau de complexidade, gerenciamento e entendimento das funcionalidades de código. 
 
@@ -3867,16 +3880,16 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 ====
 
 **Página de destino**
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+.. centered:: Introdução
 
-Criando
-~~~~~~~
 
-Listando
-~~~~~~~~~
+.. centered:: Criando
+
+
+.. centered:: Listando
+
 
 ====
 
