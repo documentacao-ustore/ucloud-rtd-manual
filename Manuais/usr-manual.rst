@@ -3192,7 +3192,7 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 ====
 
 Menu Segurança: Ethical Phishing
-================================
+++++++++++++++++++++++++++++++++
 
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
