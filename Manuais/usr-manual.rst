@@ -3766,8 +3766,7 @@ Detalhando
 
 
 
-
-
+====
 
 **Usuários**
 ------------
@@ -3785,7 +3784,7 @@ Detalhando
 ~~~~~~~~~~
 
 
-
+====
 
 **Campanhas**
 -------------
@@ -3798,7 +3797,7 @@ Visualizando a coleta de estatísticas no *Dashboard*
 
 
 
-
+====
 
 **Contatos**
 ------------
@@ -3816,7 +3815,7 @@ Detalhando
 ~~~~~~~~~~
 
 
-
+====
 
 **Templates**
 -------------
@@ -3831,7 +3830,7 @@ Listando
 ~~~~~~~~
 
 
-
+====
 
 **Perfis de envio** 
 -------------------
@@ -3849,6 +3848,7 @@ O protocolo SMTP está em funcionamento ao enviar um e-mail, ou seja, o computad
 
 Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo para o destino por meio de vários saltos. E assim, ele trabalha para localizar o paradeiro do destinatário utilizando o ID de e-mail do destinatário sendo localizado o nome do domínio.  
 
+====
 
 Utilizando como Admin: Gerente
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3857,7 +3857,7 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 
   
 
-
+====
 
 **Página de destino**
 ---------------------
@@ -3870,6 +3870,81 @@ Criando
 
 Listando
 ~~~~~~~~~
+
+====
+
+Acessando como usuário Comum: Utilizador
+========================================
+
+Acesso
+------
+
+.. centered:: Jornada do usuário Comum, cargo de Utilizador
+
+====
+
+Dashboard
+---------
+
+====
+
+Usuários
+--------
+
+Introdução
+~~~~~~~~~~
+
+Acesso
+~~~~~~
+
+Criando
+~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+====
+
+Campanhas
+---------
+
+Introdução
+~~~~~~~~~~
+
+====
+
+Contatos
+--------
+
+Introdução
+~~~~~~~~~~
+
+Criando Novo Grupo
+~~~~~~~~~~~~~~~~~~
+
+Listando
+~~~~~~~~
+
+Detalhando
+~~~~~~~~~~
+
+====
+
+Templates
+---------
+
+====
+
+Landing Pages
+-------------
+
+
+
+
+
+
+
+
 
 
 
