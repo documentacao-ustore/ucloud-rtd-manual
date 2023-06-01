@@ -3623,8 +3623,8 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
    :align: center
 ----
 
-     * Ícone **Copiar e cola**: Este botão de ação |icone_copiar|  copia os detalhes da campanha.
-     * Ícone **Lata de lixo**: Pressionar nesta ação |icone_excluir| representa a exclusão da campanha criada. 
+     * Ícone **Copiar e cola**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * Ícone **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
 .. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
