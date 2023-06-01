@@ -6,9 +6,11 @@
 
 ----
 
-==========================
+
 uCloud - Manual do Usuário
-==========================
+++++++++++++++++++++++++++
+
+====
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
@@ -3302,6 +3304,9 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 Acessando como Admin: Gerente
 -----------------------------
 
+====
+
+
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
@@ -3342,7 +3347,8 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
    * Perfis de envio; 
 
-   * Página de destino. 
+   * Página de destino.
+ 
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
@@ -3352,7 +3358,7 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-**Dashboard* Admin: Gerente**
+**Dashboard Admin: Gerente**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
@@ -3378,7 +3384,7 @@ No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard*
 ----
 
 **Meu dashboard** 
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 
 Ao clicar em **Meu dashboard**, o *Admin Phishing* pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
@@ -3413,6 +3419,7 @@ Exibem também cinco *cards*. São eles:
 ====
 
 Criando uma Campanha
+`````````````````````
 
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
