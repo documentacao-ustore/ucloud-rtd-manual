@@ -3192,11 +3192,8 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
-Menu Segurança
-==============
-
-Ethical Phishing
-----------------
+Menu Segurança: *Ethical Phishing*
+==================================
 
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
@@ -3212,30 +3209,17 @@ O menu de Segurança, está localizado do lado esquerdo, na quarta posição, lo
 
 O menu Segurança agrega três submenus, são eles:   
 
-   * Tickets; 
+   * *Tickets*; 
 
-   * Assessments; 
+   * *Assessments*; 
 
-   * Ethical Phishing.
+   * *Ethical Phishing*.
 
 .. image:: /figuras/fig_segurança/002_menu_segurança.png
    :alt: menu segurança
    :align: center
 
 ---- 
-
-.. Menu Segurança: Tickets
-.. =======================
-
-.. .. note:: Ambiente em desenvolvimento
-
-.. Menu Segurança:  Assessments
-.. ============================
-
-.. .. note:: Ambiente em desenvolvimento
-
-.. Menu Segurança: Ethical Phishing
-.. ================================
 
 O conceito de *Ethical Phishing* envolve a simulação controlada de ataques de *phishing*, com o objetivo inicial de sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais, e assim, evitar cair em golpes. 
 
@@ -3298,19 +3282,19 @@ Resumindo o *Ethical Phishing*
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
-Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *templates* e *landing pages*. 
+Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *landing pages*. 
 
 Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no dashboard, eles geram métricas de uso individual e coletivo.  
 
 ====
 
-Acessando como Gerente Admin
-----------------------------
+Acesso do usuário Gerente Admin
+-------------------------------
 
 ====
 
 
-Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
+Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*.
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
@@ -3318,7 +3302,7 @@ Para iniciar a sessão é necessário obter as credenciais, login e a senha, pro
 
 ---- 
 
-Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança >** deve acessar o submenu **Ethical Phishing**.
+Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança** deve acessar o submenu **Ethical Phishing**.
 
 .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
    :alt: segurança phishing
@@ -3326,17 +3310,17 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Jornada usuário Gerente Admin
+.. centered:: Jornada do usuário Gerente Admin
 
 ====
 
-No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
+No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
 
-   * Meu dashboard; 
+   * Meu *dashboard*; 
 
-   * Dashboard global de contratos; 
+   * *Dashboard* global de contratos; 
 
-   * Dashboard do contrato; 
+   * *Dashboard* do contrato; 
 
    * Contratos; 
 
@@ -3346,7 +3330,7 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
    * Contatos; 
 
-   * Templates; 
+   * *Templates*; 
 
    * Perfis de envio; 
 
@@ -3361,7 +3345,7 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-**Dashboard Gerente Admin**
+**Dashboard do Gerente Admin**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
@@ -3425,8 +3409,6 @@ Exibem também cinco *cards*. São eles:
 
 ====
 
-
-
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
 
 .. image:: /figuras/fig_segurança/006_criar_campanha.png
@@ -3482,7 +3464,7 @@ Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar
 
 Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
 
-Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este dashboard. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
 .. image:: /figuras/fig_segurança/013_feedback_campanha.png
    :alt: feedback campanha 
@@ -3498,9 +3480,7 @@ Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, c
 
 .. centered:: Detalhando uma Campanha
 
-
 ----
-
 
 Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
 
@@ -3511,7 +3491,7 @@ Depois de concluída a tarefa, a tela é atualizada e novas informações são e
 
 **Recorte 1**
 
-No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de landing page. 
+No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de *landing page*. 
 
 .. image:: /figuras/fig_segurança/015.1_info_extra.png
    :alt: info extra 
@@ -3566,7 +3546,7 @@ Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi 
    :align: center
 ----
 
-Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de feedback é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
+Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de *feedback* é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
 
 .. image:: /figuras/fig_segurança/020_teste_confirmado.png
    :alt: teste confirmado 
@@ -3627,7 +3607,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
 Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
@@ -3648,7 +3628,7 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 **Dashboard Global de Contratos** 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário administrador pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
+O usuário Gerente Admin pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
 
 Abaixo disso, os seguintes quadros são exibidos: 
 
@@ -3719,10 +3699,9 @@ Ao lado, também é possível observar dados sobre as campanhas: quantas estão 
 
 ----
 
+Para criar um perfil de usuário, o Gerente Admin deve ir para o tópico de Usuários do *Ethical Phishing* (hyperlink deve ser inserido do documento de 1.07) 
 
-Para criar um perfil de usuário, o Gerente Admin deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
-
-Finalizado este processo, o usuário retorna pra a tela do Dashboard do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
+Finalizado este processo, o usuário retorna pra a tela do *Dashboard* do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
 
 .. image:: /figuras/fig_segurança/029_dominios_lista.png
    :alt: dominios lista
@@ -3750,7 +3729,7 @@ Feito isso, o código de verificação é enviado para o e-mail preenchido. O us
 
 ----
 
-No último card da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
+No último *card* da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
 
 .. image:: /figuras/fig_segurança/031_detalhes_campanhas.png
    :alt: detalhes campanhas
@@ -3764,7 +3743,7 @@ São apresentadas também quatro colunas:
 
    * Data de Criação;
 
-   * Status:  
+   * *Status*:  
 
         * Não iniciado;
 
@@ -3871,6 +3850,8 @@ Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo 
 ====
 
 .. centered:: Utilizando como Gerente Admin
+
+----
 
 
 No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP podem ser encontradas na opção “Perfis de envio”, esse acesso é exclusivo para usuários administradores, tendo em vista o grau de complexidade, gerenciamento e entendimento das funcionalidades de código. 
