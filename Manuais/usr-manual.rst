@@ -3303,7 +3303,7 @@ Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contato
 Acessando como Admin: Gerente
 =============================
 
-Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing.
+Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
