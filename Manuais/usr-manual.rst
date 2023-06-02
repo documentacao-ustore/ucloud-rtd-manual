@@ -6,10 +6,11 @@
 
 ----
 
+
 uCloud - Manual do Usuário
 ++++++++++++++++++++++++++
 
-----
+====
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
@@ -3191,8 +3192,8 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 
 ====
 
-Menu Segurança: Ethical Phishing
-================================
+Menu Segurança: *Ethical Phishing*
+==================================
 
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
@@ -3208,11 +3209,11 @@ O menu de Segurança, está localizado do lado esquerdo, na quarta posição, lo
 
 O menu Segurança agrega três submenus, são eles:   
 
-   * Tickets; 
+   * *Tickets*; 
 
-   * Assessments; 
+   * *Assessments*; 
 
-   * Ethical Phishing.
+   * *Ethical Phishing*.
 
 .. image:: /figuras/fig_segurança/002_menu_segurança.png
    :alt: menu segurança
@@ -3220,27 +3221,16 @@ O menu Segurança agrega três submenus, são eles:
 
 ---- 
 
-.. Menu Segurança: Tickets
-.. =======================
-
-.. .. note:: Ambiente em desenvolvimento
-
-.. Menu Segurança:  Assessments
-.. ============================
-
-.. .. note:: Ambiente em desenvolvimento
-
-.. Menu Segurança: Ethical Phishing
-.. ================================
-
 O conceito de *Ethical Phishing* envolve a simulação controlada de ataques de *phishing*, com o objetivo inicial de sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais, e assim, evitar cair em golpes. 
 
 Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir os riscos associados ao *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários.
 
 ====
 
-O que é *PHISHING*?
--------------------
+.. centered:: O que é *PHISHING* ?
+
+====
+
 
 Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
 
@@ -3260,12 +3250,14 @@ A conscientização pode prevenir e reduzir os riscos associados ao *phishing*, 
 
 ====
 
-Entendendo a funcionalidade: *Ethical Phishing*
------------------------------------------------
+.. centered:: Entendendo a funcionalidade: *Ethical Phishing*
+
+====
+
 
 Esta funcionalidade do menu de Segurança, no portal do uCloud, chega como uma solução de defesa que as organizações de todos os portes podem adquirir. Ela proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime. 
 
-O **Ethical Phishing** estabelece um fluxo que permite aos gestores das empresas criar campanhas éticas de envio de mensagens fraudulentas, simulando ataques cibernéticos, com o propósito de monitorar as ações do(s) usuário(s); após o recebimento da(s) mensagem (ns) simulada(s), pode-se identificar o público passível de fragilizar a segurança em relação as informações pessoais e da empresa.  
+O *Ethical Phishing* estabelece um fluxo que permite aos gestores das empresas criar campanhas éticas de envio de mensagens fraudulentas, simulando ataques cibernéticos, com o propósito de monitorar as ações do(s) usuário(s); após o recebimento da(s) mensagem (ns) simulada(s), pode-se identificar o público passível de fragilizar a segurança em relação as informações pessoais e da empresa.  
 
 E, a partir daí, poder entender o comportamento dos colaboradores e a necessidade da orientação individual ou treinamento coletivo de orientação, sobre qual deve ser o comportamento desses usuários ao perceber um ataque real. 
 
@@ -3289,21 +3281,25 @@ Os benefícios na execução das simulações são:
 
 ====
 
-Resumindo o *Ethical Phishing*
-------------------------------
+.. centered:: Resumindo o *Ethical Phishing*
+
+====
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
-Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *templates* e *landing pages*. 
+Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *landing pages*. 
 
 Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no dashboard, eles geram métricas de uso individual e coletivo.  
 
 ====
 
-Acessando como Admin: Gerente
-=============================
+Acesso do usuário: Gerente Admin
+--------------------------------
 
-Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do Ethical Phishing
+====
+
+
+Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
@@ -3311,7 +3307,7 @@ Para iniciar a sessão é necessário obter as credenciais, login e a senha, pro
 
 ---- 
 
-Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança >** deve acessar o submenu **Ethical Phishing**.
+Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança** deve acessar o submenu **Ethical Phishing**.
 
 .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
    :alt: segurança phishing
@@ -3319,17 +3315,17 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Jornada usuário Administrador, cargo de Gerente
+.. centered:: Jornada do usuário Gerente Admin
 
 ====
 
-No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
+No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
 
-   * Meu dashboard; 
+   * Meu *dashboard*; 
 
-   * Dashboard global de contratos; 
+   * *Dashboard* global de contratos; 
 
-   * Dashboard do contrato; 
+   * *Dashboard* do contrato; 
 
    * Contratos; 
 
@@ -3339,11 +3335,12 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 
    * Contatos; 
 
-   * Templates; 
+   * *Templates*; 
 
    * Perfis de envio; 
 
-   * Página de destino. 
+   * Página de destino.
+ 
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
@@ -3353,18 +3350,20 @@ No perfil do usuário administrador do *ethical phishing*, o *dashboard* é apre
 ----
 
 
-*Dashboard* Admin: Gerente
---------------------------
+**Dashboard do Gerente Admin**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. 
 
-====
-
-.. centered:: Jornada usuário Administrador, cargo de Gerente
+As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 ====
 
-No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
+.. centered:: Jornada do usuário Gerente Admin
+
+====
+
+No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
 
    * Meu *dashboard*;  
 
@@ -3379,10 +3378,14 @@ No perfil do usuário administrador do *ethical phishing*, o submenu *Dashboard*
 ----
 
 **Meu dashboard** 
------------------
+~~~~~~~~~~~~~~~~~
+
+----
 
 
-Ao clicar em **Meu dashboard**, o *Admin Phishing* pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
+Ao clicar em **Meu dashboard**, o gerente Admin do *ethical phishing* pode criar campanhas e registrar os domínios. 
+
+Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
 
 .. image:: /figuras/fig_segurança/005_meu_dashboard.png
    :alt: meu dashboard
@@ -3413,8 +3416,9 @@ Exibem também cinco *cards*. São eles:
 
 ====
 
-Criando uma Campanha
-~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Criando uma Campanha
+
+====
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
 
@@ -3430,7 +3434,11 @@ Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem c
    :align: center
 ----
 
-Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  Neste passo, a tela apresenta *templates* pré-estabelecidos.
+Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. 
+
+Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  
+
+Neste passo, a tela apresenta *templates* pré-estabelecidos.
 
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
 
@@ -3455,14 +3463,18 @@ Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida,
    :align: center
 ----
 
-Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. 
+
+Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: perfil de envio 
    :align: center
 ----
 
-Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
+Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. 
+
+Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
 
 .. image:: /figuras/fig_segurança/012_revisar_dados.png
    :alt: revisar dados 
@@ -3471,22 +3483,23 @@ Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar
 
 Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
 
-Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este dashboard. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
 .. image:: /figuras/fig_segurança/013_feedback_campanha.png
    :alt: feedback campanha 
    :align: center
 ----
 
-Após a confirmação, o status *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
+Após a confirmação, o *status* *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
 
 .. image:: /figuras/fig_segurança/014_status_tarefa.png
    :alt: status tarefa 
    :align: center
 ----
 
-Detalhando uma Campanha
-~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Detalhando uma Campanha
+
+----
 
 Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
 
@@ -3497,7 +3510,7 @@ Depois de concluída a tarefa, a tela é atualizada e novas informações são e
 
 **Recorte 1**
 
-No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de landing page. 
+No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de *landing page*. 
 
 .. image:: /figuras/fig_segurança/015.1_info_extra.png
    :alt: info extra 
@@ -3552,15 +3565,16 @@ Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi 
    :align: center
 ----
 
-Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de feedback é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
+Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de *feedback* é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
 
 .. image:: /figuras/fig_segurança/020_teste_confirmado.png
    :alt: teste confirmado 
    :align: center
 ----
 
-Listando a Campanha
-~~~~~~~~~~~~~~~~~~~
+.. centered:: Listando a Campanha
+
+----
 
 A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: 
 
@@ -3601,7 +3615,7 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-     * Ícone **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
         * **Botão** ``Voltar``;
         * **Botão** ``Exportar``;
@@ -3612,28 +3626,30 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de phishing e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de links clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
 Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
-     * Ícone **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+     * **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
 
 .. image:: /figuras/fig_segurança/015.3_info_extra.png
    :alt: info extra 
    :align: center
 ----
 
-     * Ícone **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
-     * Ícone **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
+     * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
-.. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 ====
 
 **Dashboard Global de Contratos** 
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-O usuário administrador pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
+----
+
+O usuário Gerente Admin pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
 
 Abaixo disso, os seguintes quadros são exibidos: 
 
@@ -3670,15 +3686,18 @@ As colunas presentes no *card* de contrato são:
 ====
 
 **Dashboard do Contrato** 
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 
 Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. 
 
 Três botões de ações são apresentados na página: 
 
-     * ``Voltar``;
-     * ``Criar Usuário``;
-     * ``Autorizar novo domínio``.  
+     * Botão ``Voltar``;
+     * Botão ``Criar Usuário``;
+     * Botão ``Autorizar novo domínio``.  
 
 .. image:: /figuras/fig_segurança/025_dashboard_contrato.png
    :alt: dashboard contrato
@@ -3700,12 +3719,13 @@ Ao lado, também é possível observar dados sobre as campanhas: quantas estão 
    :align: center
 ----
 
-Criando o Perfil de Usuário
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Criando o Perfil de Usuário
 
-Para criar um perfil de usuário, o Admin: Gerente deve ir para o tópico de Usuários do Ethical Phishing (hyperlink deve ser inserido do documento de 1.07) 
+----
 
-Finalizado este processo, o usuário retorna pra a tela do Dashboard do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
+Para criar um perfil de usuário, o Gerente Admin deve ir ao tópico de Usuários do *Ethical Phishing* (hyperlink deve ser inserido do documento de 1.07) 
+
+Finalizado este processo, o usuário retorna pra a tela do *Dashboard* do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
 
 .. image:: /figuras/fig_segurança/029_dominios_lista.png
    :alt: dominios lista
@@ -3729,10 +3749,11 @@ Feito isso, o código de verificação é enviado para o e-mail preenchido. O us
 
 ====
 
-Listando Campanha do mês corrente
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Listando Campanha do mês corrente
 
-No último card da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
+----
+
+No último *card* da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca. 
 
 .. image:: /figuras/fig_segurança/031_detalhes_campanhas.png
    :alt: detalhes campanhas
@@ -3746,7 +3767,7 @@ São apresentadas também quatro colunas:
 
    * Data de Criação;
 
-   * Status:  
+   * *Status*:  
 
         * Não iniciado;
 
@@ -3754,89 +3775,1033 @@ São apresentadas também quatro colunas:
 
         * Finalizado. 
 
-   * Ação: representado pelo ícone do gráfico mencionado anteriormente. 
+   * Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente. 
 
 ====
 
 **Contratos**
--------------
+~~~~~~~~~~~~~
 
-Detalhando
-~~~~~~~~~~
+----
+
+.. centered:: Introdução
+
+----
+
+Contratos é o quarto *card* do menu de Segurança *Ethical Phishing* e sua visualização é exclusiva para o usuário Gerente Admin.  
+
+.. image:: /figuras/fig_segurança/032.0_menu_contratos.png
+   :alt: menu contratos
+   :scale: 100% 
+   :align: center
+----
+
+Ao clicar nesta opção, a tela exibida apresenta dois botões de ações: ``Criar Contrato`` e ``Atualizar``, além de estar organizada em cinco colunas: 
+
+   * Nome;
+
+   * Admin; 
+
+   * CPF/CNPJ;
+
+   * Estado;
+
+   * Ações: a ação disponível é para clonar o contrato. 
 
 
+Logo abaixo de Nome, Admin e CPF/CNPJ existem barras de pesquisa para auxiliar na busca de um contrato específico. 
+
+.. image:: /figuras/fig_segurança/032_detalhes_contrato.png
+   :alt: detalhes contrato
+   :scale: 100% 
+   :align: center
+----
+
+Também é possível notar a paginação no fim da tela, assim como os blocos de informações divididos em 10, 25, 50 ou 100 linhas. 
+
+====
+
+.. centered:: Criando Contrato
+
+====
+ 
+
+Ao clicar no botão para ``Criar Contrato``, o seguinte modal é apresentado: 
+
+.. image:: /figuras/fig_segurança/033_modal_contrato.png
+   :alt: modal contrato
+   :scale: 100% 
+   :align: center
+----
+
+Abaixo são descritos os campos para preenchimento; 
+
+   * Nome do contrato;
+
+   * Nome da empresa;
+
+   * CPF/CPNJ;
+
+   * Dia da fatura;
+
+   * Admin *login*. 
+
+Também é possível selecionar os seguintes *checkbox*, que ao posicionar o mouse acima da *tooltip* uma mensagem é apresentada. 
+
+   * Configuração automática de Contrato 
+
+.. image:: /figuras/fig_segurança/034_tooltip_um.png
+   :alt: tooltip um
+   :scale: 100% 
+   :align: center
+----
+
+   * Autocriar administrador 
+
+.. image:: /figuras/fig_segurança/035_tooltip_dois.png
+   :alt: tooltip dois
+   :scale: 100% 
+   :align: center
+----
+
+   * Ptax variável 
+
+.. image:: /figuras/fig_segurança/036_tooltip_tres.png
+   :alt: tooltip tres
+   :scale: 100% 
+   :align: center
+----
+
+Somente após o preenchimento de todos os campos obrigatórios é que o botão ``Criar`` fica habilitado para acionamento. Depois da criação, o usuário deve clicar na ação ``Atualizar`` para que o contrato recém-criado seja incrementado na lista. 
+
+====
+
+.. centered:: Detalhando Contrato
+
+====
+
+Ao selecionar o contrato desejado, o usuário é direcionado para a tela de detalhamento do contrato explicado previamente como a forma com o qual se define a relação comercial entre o provedor e a empresa que o contratou. 
+
+No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais. 
+
+Para outras informações basta acessar o submenu Contratos no Menu Administração_ .
+
+.. _Administração https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#administracao-contrato 
+
+A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo card “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
+
+.. image:: /figuras/fig_segurança/037_cota_segurança.png
+   :alt: cota segurança
+   :scale: 100% 
+   :align: center
+----
+
+
+Nesta área, é possível visualizar os seguintes campos: 
+
+   * **Data da renovação de cota**: espaço do tipo *dropdown* onde são exibidas opções de datas. 
+
+   * **Cota de E-mails de Phishing / Alocada**: campo editável para alteração de cota, basta clicar no ícone do bloco de notas e em seguida confirmar a ação clicando no botão azul, ou cancelando no vermelho. Ao posicionar o mouse sobre o ícone da *tooltip*, a seguinte mensagem é exibida: 
+
+.. image:: /figuras/fig_segurança/037.1_tooltip_cota.png
+   :alt: tooltip cota
+   :scale: 100% 
+   :align: center
+----
+ 
+
+   * **Quantidade de campanhas disponíveis por usuário** 
+
+   * **Quantidade de contatos por campanha** 
+
+.. note:: Para determinar a quantidade dos dois últimos campos, basta desmarcar o checkbox “Indeterminado” que o ícone do bloco de notas é habilitado para edição. Para confirmar a ação basta clicar no botão azul, ou no vermelho para cancelar. 
+
+O mais importante, além das cotas de segurança, é a relação do usuário com o contrato, porque existem cotas que aquele usuário pode consumir.
 
 ====
 
 **Usuários**
-------------
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+----
 
-Acessando
-~~~~~~~~~
+.. centered:: Introdução
+----
 
-Criando o perfil de Usuário
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+**Usuário administrador do uCloud**:  
 
-Detalhando
-~~~~~~~~~~
+Este é o único usuário que, além de criar perfis de usuários no uCloud, tem a atribuição de adicionar no menu de Segurança: *Ethical Phishing* novos usuários, seja como administrador ou usuário. Este usuário pode atualizar os dados do contrato do cliente, as especificações e as autorizações de serviço.
 
+No menu de Segurança do *Ethical Phishing* existem dois tipos de usuários, são eles: 
+
+**Usuário Gerente Admin do Ethical Phishing**: 
+
+É o único usuário administrador com permissão de criar novos usuários Utilizadores, no entanto, não é possível criar dentro deste menu usuários com visualização geral para o portal uCloud. Apesar disso, é o único autorizado a adicionar novos domínios e requisições de contato, é responsável por especificar limitações de quantidade de campanha por usuário e por contatos, além de visualizar todas as campanhas do contrato. 
+
+**Usuário Utilizador (user) do Ethical Phishing** 
+
+Este tipo de usuário tem acesso a todos os contratos, configurações e campanhas. Cada cliente deve ter um único contrato que é criado pelo usuário cliente administrador do portal uCloud. 
+ 
+
+----
+
+.. centered:: Acessando Usuários
+
+----
+
+O *card* referente a Usuários é o quinto no menu de Segurança: *Ethical Phishing*. 
+
+.. image:: /figuras/fig_segurança/038_phishing_usuario.png
+   :alt: phishing usuario
+   :scale: 100% 
+   :align: center
+----
+
+Ao clicar nele, uma nova tela é apresentada. Nesta, é permitido criar, gerenciar e excluir usuários.  
+
+.. image:: /figuras/fig_segurança/039_menu_usuario.png
+   :alt: menu usuario
+   :scale: 100% 
+   :align: center
+----
+
+Na figura acima é possível observar um botão de ação ``Criar Usuário`` e cinco colunas, são elas: 
+
+   * Login;
+
+   * Nome;
+
+   * Correio Eletrônico;
+
+   * Perfil; 
+
+   * Ações. 
+
+Abaixo de todas estas colunas, com exceção da coluna de ação, há uma barra de pesquisa para auxiliar na busca. Na coluna de perfil, existe uma lista do tipo *dropdown*, com as opções de tipos de usuários para realizar uma filtragem dos usuários listados. 
+
+A coluna de ação é representada por uma lata de lixo, o que causa a remoção de um usuário.
+
+----
+
+.. centered:: Criando o perfil de Usuário
+
+----
+
+Para criar um perfil de usuário, basta clicar no botão ``Criar usuário``. 
+
+.. image:: /figuras/fig_segurança/027_botao_usuario.png
+   :alt: botão usuário
+   :scale: 100% 
+   :align: center
+----
+
+Em seguida, o modal de criação do usuário é exibido: 
+
+.. image:: /figuras/fig_segurança/028_modal_usuario.png
+   :alt: modal usuário
+   :scale: 100% 
+   :align: center
+----
+
+A seguir são descritos todos os espaços necessários para preenchimentos: 
+
+   * **Perfil do usuário**: Campos do tipo *dropdown*, e ao clicar uma lista é mostrada com as opções de usuários que podem ser criados. O usuário administrador é permitido criar outro perfil administrador (denominado *administrator*), ou usuário do tipo comum (chamado de *user*). 
+
+   * **Grupo**: Neste, é necessário pesquisar pelo nome do grupo, e em seguida selecionar o desejado. 
+
+   * **Nome**:  Área de livre digitação. Neste espaço é permitido o uso de números e caracteres especiais. 
+
+   * **Login**: Campo de livre digitação, assim como o anterior, também é possível o uso de números e caracteres especiais. 
+
+   * **Senha**:  A chave de segurança deve ter oito dígitos, sendo necessário ter letras maiúsculas e minúsculas, números e caracteres especiais.  
+
+.. attention:: O caractere especial ponto (.) não é permitido.
+ 
+
+   * **Confirmar senha**: Neste espaço deve ser repetido a chave de segurança da senha anterior. 
+
+   * **E-mail**: Deve ser preenchido com o e-mail do usuário. 
+
+   * **Telefone**: Necessário ser preenchido com o número de contato do usuário.
+
+   * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa
+
+     * GerentePhishing (em caso do usuário ser do tipo administrador);
+
+     * UtilizadorPhishing (se for usuário user).
+
+   * **Empresa**: Obrigatório fornecer o nome da empresa. 
+
+   * **Tipo de cota**: Espaço do tipo *dropdown*, e ao clicá-lo aparecem duas opções de cotas
+
+       * Contrato;
+
+       * Usuário.
+
+Caso este seja selecionado, campos extras são exibidos para preenchimento: 
+
+          * Cota de CPU;
+
+          * Cota de Faturamento;
+
+          * Cota de Memória; 
+
+          * Cota do Disco; 
+
+          * Cota de IPs Públicos;
+
+          * Cota de Máquinas Virtuais.
+
+   * **Checkbox**: Nesta área são apresentados cinco espaços de configurações extras para o usuário administrador, são elas: 
+
+     * Habilitar primeiro acesso;
+
+     * Ativar Autenticação *Multifator*;
+
+     * Ativar cota de Faturamento;
+
+     * Administrador precisa aprovar a realização de atividades;
+
+     * Criar usuário na Nuvem: caso esta *checkbox* seja escolhida, uma lista do tipo *dropdown* é apresentada com nomes de Containers a serem selecionados. 
+
+Os campos que apresentarem um asterisco (*) ao lado do nome representam itens obrigatórios a serem preenchidos.  
+
+Na parte inferior do modal são apresentados dois botões de ação ``Cancelar`` e ``Criar``. O segundo, muda para a coloração azul após os espaços serem completados. 
+
+----
+
+.. centered:: Detalhando Usuários
+
+----
+
+Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu Usuários no Menu Administração_ 
+
+.. _Administração:: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios
+
+Os *cards* com maior importância para o *Phishing* são apenas dois: Geral e Cotas de Segurança.  
+
+O primeiro apresenta três botões de ação, como ``Excluir Usuário``, ícone de edição e *flag* para ativação/desativação de configurações, além de catorze campos, são eles:  
+
+   * Perfil;
+
+   * Login;
+
+   * Nome;
+
+   * Senha; 
+
+   * Idioma; 
+
+   * Telefone; 
+
+   * Correio Eletrônico;
+
+   * Cargo;
+
+   * Válido de;
+
+   * Válido até; 
+
+   * Apenas leitura;
+
+   * Autenticação *Multifator*; 
+
+   * Ativar cota de Faturamento;
+
+   * Aprovação do administrador.
+
+.. image:: /figuras/fig_segurança/040_geral_usuario.png
+   :alt: geral usuario
+   :scale: 100% 
+   :align: center
+----
+
+É possível notar que há a especificação no campo de perfil, no caso da imagem acima, o usuário é de perfil *user* e seu cargo correspondente é o utilizadorPhishing. Assim como, na condição de usuário de perfil administrador, seu cargo correspondente seria gerentePhishing. 
+
+Caso deseje editar alguma informação, basta clicar no ícone de bloco de notas, localizado na lateral direta do *card*. Após fazer a alteração desejada, o usuário pode confirmar a mudança clicando no botão azul, ou cancelá-la clicando no vermelho. 
+
+Para habilitar alguma configuração deste *card* basta clicar sobre a *flag*, e em seguida uma mensagem de *feedback* é exibida no topo direito da tela. 
+
+.. image:: /figuras/fig_segurança/041_feedback_edição.png
+   :alt: feedback edição
+   :scale: 100% 
+   :align: center
+----
+
+O segundo *card*, de Cota de Segurança, exibe apenas um campo, conforme a imagem abaixo: 
+
+.. image:: /figuras/fig_segurança/042_usuario_cota.png
+   :alt: usuário cota
+   :scale: 100% 
+   :align: center
+----
+
+Ao posicionar o mouse acima da *tooltip*, a seguinte mensagem é apresentada: 
+
+.. image:: /figuras/fig_segurança/043_tooltip_cota.png
+   :alt: tooltip cota
+   :scale: 100% 
+   :align: center
+----
+ 
+Caso o usuário deseje deletar algum usuário, seja através da coluna de ação na tela do usuário ou pelo *card* Geral, uma mensagem de alerta é exibida em tela. 
+
+.. image:: /figuras/fig_segurança/044_mensagem_deletar.png
+   :alt: mensagem deletar
+   :scale: 100% 
+   :align: center
+----
 
 ====
 
 **Campanhas**
--------------
+~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~~
+----
 
-Visualizando a coleta de estatísticas no *Dashboard*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. centered:: Introdução
+
+----
+
+A técnica de enviar simulações de e-mails fraudulentos em campanhas de *phishing*, compreende pensar no envio de dois tipos: O e-mail parece ser verdadeiro, mas na realidade pode ter sido enviado por um usuário *“hacker”* que tem a intenção de roubar dados sigilosos. Ou um e-mail teste enviado por empresas de proteção especialistas defesa, que utilizam o *phishing* para descobrir se os destinatários destes e-mails estão atentos com a origem dos e-mails recebidos e se clicam em e-mails maliciosos e fragilizam sua segurança e da empresa onde trabalham. 
+
+Abaixo são brevemente explicadas algumas categorias de envio de *phishing*: 
+
+**Bulk Phishing**: Trata-se do envio de e-mails em massa para uma lista não filtrada de destinatários. Nesta modalidade, são encaminhados e-mails genéricos com benefícios ou promoções de marcas desconhecidas. 
+
+**Spear Phishing**:Uma pessoa específica recebe e-mails maliciosos, neste caso, o cibercriminoso possui informação direcionada sobre o alvo, como nome, empresa que atua, posição hierárquica.  
+
+**Whaling Phishing**: Este ataque é direcionado aos executivos, neste o “hacker” tenta persuadir a vítima ao fingir que é um CEO, solicitando ao executivo os acessos que ele possui, pelo fato de ocupar um cargo privilegiado e ter sua responsabilidade na empresa. 
+ 
+
+A empresa usuária desse produto *Ethical phishing* do Menu de segurança pode criar campanhas, importar usuários, assim como coletar usuários. Esta, deve gerar sua campanha em formato autônomo, sendo possível interagir com as funcionalidades. Vale ressaltar que a campanha de *ethical phishing* a ser criada tem a ética como a principal diretiva. 
+
+----
+
+.. centered:: Visualizando a coleta de estatísticas no *Dashboard*
+
+----
+
+As campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade de disparos, é possível utilizar o modo guiado (*wizard*) para a criação das campanhas de maneira simples. 
+
+   * Elas podem ser alteradas após criadas;  
+
+   * Existe a possibilidade de programar os disparos;  
+
+   * Customizar os templates visando o engajamento;  
+
+   * Coletar os resultados e entender o comportamento dos usuários. 
+
+A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do corpo de usuários para orientar que ações a empresa deve tomar. 
+
+.. image:: /figuras/fig_segurança/045.0_ataque_phishing.png
+   :alt: ataque phishing
+   :scale: 100% 
+   :align: center
+----
+
+Na tela acima diferentes *cards* são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
+
+Para um melhor entendimento desse quadro assim como o passo a passo do processo de criação de uma campanha, é necessário acessar *Dashboard* e clicar no *card* ``Meu dasboard`` seguindo a jornada do Gerente Admin do *Ethical phishing*, esta etapa da operação é publicada no tópico Meu dashboard_ e replicada na sequência para manter o leitor na linha de raciocínio "Campanhas".
+
+.. _dashboard: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#meu-dashboard
+
+----
+
+.. centered:: Jornada do Gerente Admin card Campanha
+
+----
+
+Ao clicar em **Meu dashboard**, o gerente Admin do *ethical phishing* pode criar campanhas e registrar os domínios. 
+
+Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.
+
+.. image:: /figuras/fig_segurança/005_meu_dashboard.png
+   :alt: meu dashboard
+   :align: center
+----
+
+A tela apresenta três botões de ações. 
+
+   * Botão ``Voltar``; 
+
+   * Botão ``Criar campanha de phishing``; 
+
+   * Botão ``Autorizar novo domínio``. 
+
+
+
+Exibem também cinco *cards*. São eles: 
+
+   * Informações de cotas; 
+
+   * Campanhas ativas; 
+
+   * Campanhas finalizadas; 
+
+   * Informação sobre os e-mails; 
+
+   * Domínios autorizados.
+
+====
+
+.. centered:: Criando uma Campanha
+
+====
+
+Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
+
+.. image:: /figuras/fig_segurança/006_criar_campanha.png
+   :alt: Criar campanha 
+   :align: center
+----
+
+Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem cumpridas para a criação da campanha.  Como primeiro passo, o usuário deve nomeá-la. 
+
+.. image:: /figuras/fig_segurança/007_nome_campanha.png
+   :alt: nome da campanha 
+   :align: center
+----
+
+Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. 
+
+Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  
+
+Neste passo, a tela apresenta *templates* pré-estabelecidos.
+
+.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
+
+.. image:: /figuras/fig_segurança/008_selecionar_template.png
+   :alt: selecionar template 
+   :align: center
+---- 
+
+No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
+
+.. image:: /figuras/fig_segurança/009_previsualizar_template.png
+   :alt: previsualizar template 
+   :align: center
+----
+
+Para escolher o *template*, é necessário apenas clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: ``Voltar`` e ``Selecionar uma Landing Page``. 
+
+Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a do passo anterior. 
+
+.. image:: /figuras/fig_segurança/010_landing_page.png
+   :alt: landing page 
+   :align: center
+----
+
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. 
+
+Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
+
+.. image:: /figuras/fig_segurança/011_perfil_envio.png
+   :alt: perfil de envio 
+   :align: center
+----
+
+Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. 
+
+Ao avançar para o quinto e último passo, é possível revisar todas as escolhas realizadas e verificar se está correto.
+
+.. image:: /figuras/fig_segurança/012_revisar_dados.png
+   :alt: revisar dados 
+   :align: center
+----
+
+Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
+
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+
+.. image:: /figuras/fig_segurança/013_feedback_campanha.png
+   :alt: feedback campanha 
+   :align: center
+----
+
+Após a confirmação, o *status* *“Successful”* é exibido no menu Tarefas, caso tudo ocorra sem problemas. 
+
+.. image:: /figuras/fig_segurança/014_status_tarefa.png
+   :alt: status tarefa 
+   :align: center
+----
+
+.. centered:: Detalhando uma Campanha
+
+----
+
+Depois de concluída a tarefa, a tela é atualizada e novas informações são exibidas, estas estão divididas em cinco recortes para melhor um melhor entendimento. 
+
+.. image:: /figuras/fig_segurança/015_detalhes_campanha.png
+   :alt: detalhes campanha 
+   :align: center
+----
+
+**Recorte 1**
+
+No recorte 1, você vai se concentrar no detalhe da campanha. Neste momento é possível criar uma nova campanha, nomeá-la, editar templates do e-mail e de *landing page*. 
+
+.. image:: /figuras/fig_segurança/015.1_info_extra.png
+   :alt: info extra 
+   :align: center
+----
+
+**Recorte 2**
+
+No segundo recorte, é possível importar um arquivo de Grupos de Contatos através do botão ``Importar CSV``, assim como adicionar apenas um contato clicando na ação ``Adicionar contato único``.
+
+.. image:: /figuras/fig_segurança/015.2_info_contato.png
+   :alt: info contato 
+   :align: center
+----
+
+Clicando nesta, o seguinte modal é exibido: 
+
+.. image:: /figuras/fig_segurança/016_adicionar_contrato.png
+   :alt: adicionar contrato
+   :scale: 80% 
+   :align: center
+----
+
+Na figura acima, o usuário deve preencher os campos com as informações do contato. Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado. 
+
+.. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. 
+
+**Recorte 3**
+
+Após a adição dos contatos, os detalhes sobre o grupo selecionado são apresentados no terceiro recorte, exibido a seguir.
+
+.. image:: /figuras/fig_segurança/017_detalhes_grupo.png
+   :alt: detalhes grupo 
+   :align: center
+----
+
+**Recorte 4**
+
+No lado direito da tela, informações sobre as cotas são expressas no recorte de número quatro. É possível também enviar um e-mail teste. Este, não consome sua cota de envio. Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é disponibilizado para acionamento. 
+
+.. image:: /figuras/fig_segurança/018_cotas_teste.png
+   :alt: cotas teste
+   :align: center
+----
+
+**Recorte 5**
+
+Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.  
+
+.. image:: /figuras/fig_segurança/019_teste_confirmar.png
+   :alt: teste confirmar 
+   :align: center
+----
+
+Após a confirmação, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de *feedback* é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.   
+
+.. image:: /figuras/fig_segurança/020_teste_confirmado.png
+   :alt: teste confirmado 
+   :align: center
+----
+
+.. centered:: Listando a Campanha
+
+----
+
+A nova tela ao qual o usuário administrador é direcionado apresenta três botões de ação: 
+
+   * **Botão** ``Voltar``;
+   * **Botão** ``Atualizar``;
+   * **Botão** ``+ Nova  Campanha``.
+   
+Além de dois *cards* com diferentes tipos de campanha: 
+
+     * Ativas;
+     * Arquivadas.  
+
+No canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+
+.. image:: /figuras/fig_segurança/021_tela_campanhas.png
+   :alt: tela campanhas 
+   :align: center
+----
+
+Ambos *cards* exibem quatro colunas que são descritas a seguir: 
+
+   * Nome; 
+
+   * Data de criação; 
+
+   * **Status**: Divide-se em: 
+
+     * Não iniciado; 
+
+     * Em progresso; 
+
+     * Finalizado (no caso de campanhas arquivadas). 
+
+   * **Ações**: representadas por quatro ícones: 
+
+.. image:: /figuras/fig_segurança/022_icones_açoes.png
+   :alt: icones ações 
+   :align: center
+----
+
+     * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     
+        * **Botão** ``Voltar``;
+        * **Botão** ``Exportar``;
+        * **Botão** ``Concluir campanha``. 
+
+ .. image:: /figuras/fig_segurança/023_icone_grafico.png
+   :alt: icone gráfico
+   :align: center
+----
+
+A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+
+Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+
+     * **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+
+.. image:: /figuras/fig_segurança/015.3_info_extra.png
+   :alt: info extra 
+   :align: center
+----
+
+     * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
+
+.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 
 ====
 
 **Contatos**
-------------
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~~
+----
 
-Criando
-~~~~~~~
+.. centered:: Introdução
 
-Listando
-~~~~~~~~
+----
 
-Detalhando
-~~~~~~~~~~
+Os contatos são representados pelo sétimo *card* do menu *Ethical Phishing*. 
+
+.. image:: /figuras/fig_segurança/045_menu_contatos.png
+   :alt: menu contatos
+   :scale: 100% 
+   :align: center
+----
+
+Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails. Para facilitar o processo de envio, este *card* permite ao usuário criar diferentes possibilidades de emissão. 
+
+Ao acessá-lo, uma nova tela é apresentada. 
+
+.. image:: /figuras/fig_segurança/046_tela_contatos.png
+   :alt: tela contatos
+   :scale: 100% 
+   :align: center
+----
+
+Na figura acima dois botões de ação são exibidos: ``Voltar`` e ``+ Novo Grupo``, além de um *card* para listagem e outro para visualização. 
+
+
+----
+
+.. centered:: Criando Contatos
+
+----
+
+Para iniciar o processo de criação de um grupo de contatos, o usuário deve clicar na ação para adicionar um ``+ Novo Grupo``, e a seguinte tela é apresentada. 
+
+.. image:: /figuras/fig_segurança/047_criar_grupo.png
+   :alt: criar grupo
+   :scale: 100% 
+   :align: center
+----
+ 
+
+Nesta imagem é possível verificar a existência de quatro botões de ação: ``Voltar``, ``Novo Contato``, ``Escolher arquivo`` e ``+ Importar usuários em massa``. 
+
+
+O primeiro campo de preenchimento deve ser o nome do grupo, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal abaixo dele seja liberado para preenchimento.  
+
+.. image:: /figuras/fig_segurança/048_add_contato.png
+   :alt: add contato
+   :scale: 100% 
+   :align: center
+----
+
+Os espaços a serem preenchidos são: 
+
+   * Nome; 
+
+   * Sobrenome; 
+
+   * E-mail; 
+
+   * Cargo. 
+
+
+.. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados. 
+
+.. note:: O cargo deve ser preenchido com o cargo real do colaborador, não com o usuário utilizador ou gerente de Phishing. 
+
+Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.  
+
+Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta que este prepare um arquivo em formato .CSV para fazer o *upload* do arquivo clicando no botão ``Escolher arquivo`` e em seguida confirmar a ação através do botão ``+Importar usuários em massa``. 
+
+.. image:: /figuras/fig_segurança/049_add_csv.png
+   :alt: add csv
+   :scale: 100% 
+   :align: center
+----
+
+.. note:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (; ) 
+
+Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato (exibido na figura 48). Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
+
+----
+
+.. centered:: Listando Contatos
+
+----
+
+Retornando a tela inicial de contatos, é possível visualizar dois *cards*, conforme a imagem abaixo: 
+
+.. image:: /figuras/fig_segurança/046_tela_contatos.png
+   :alt: tela contatos
+   :scale: 100% 
+   :align: center
+----
+
+O primeiro *card* é dividido em quatro colunas: 
+
+   * **Grupo**: Exibe o nome que o usuário escolheu. 
+
+   * **Quantidade**: Apresenta a quantidade de contatos inseridas no grupo. 
+
+   * **Data de Alteração**: Mostra data e hora da última alteração do grupo. 
+
+   * **Deletar**: Ação representada por um botão "Lata de lixo", essa ação significa remover o grupo permanentemente. 
+
+Abaixo dessas colunas também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100 linhas. 
+
+----
+
+.. centered:: Detalhando Contatos
+
+----
+
+Ao clicar no grupo selecionado, o *card* ao lado apresenta os detalhes dos contatos inseridos no grupo, caso a lista seja longa, uma barra de rolagem é disponibilizada do lado direito do *card* para auxiliar na navegação. 
+
+.. image:: /figuras/fig_segurança/050_detalhes_contatos.png
+   :alt: detalhes template
+   :scale: 100% 
+   :align: center
+----
+
+Este segundo *card* apresenta dois botões de ação: um ícone com seta apontando pra baixo representa a ação de *download* do arquivo, caso o usuário deseje visualizá-lo integralmente, e ``Editar``.
+
+Ao clicar no segundo, o usuário é direcionado para a mesma tela no qual os contatos foram inseridos.  
+
+.. image:: /figuras/fig_segurança/051_editar_contatos.png
+   :alt: editar contatos
+   :scale: 100% 
+   :align: center
+----
+
+É permitido ao usuário administrador deletar contatos, assim como adicionar novos. Importante relembrar que pra cada alteração feita, é necessário clicar no botão ``Salvar`` no fim do processo para que as mudanças sejam efetivadas. 
 
 
 ====
 
 **Templates**
--------------
+~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+----
 
-Criando
-~~~~~~~
+.. centered:: Introdução
 
-Listando
-~~~~~~~~
+----
 
+Este ocupa o oitavo *card* do menu *Ethical Phishing*, evidenciado na figura abaixo: 
+
+.. image:: /figuras/fig_segurança/052_menu_template.png
+   :alt: menu template
+   :scale: 100% 
+   :align: center
+----
+
+Ao acessá-lo, são apresentados dois *cards*: um contendo a lista dos *templates* e o segundo pré-visualização do *template*, além de dois botões de ação, sendo eles ``Voltar`` e ``Novo template de e-mail``.  
+
+.. image:: /figuras/fig_segurança/053_tela_template.png
+   :alt: tela template
+   :scale: 100% 
+   :align: center
+----
+
+.. centered:: Criando *Templates*
+
+----
+
+Para criar um template, é necessário clicar no botão ``Novo template de e-mail``. Feito isso, uma nova tela é apresentada: 
+
+.. image:: /figuras/fig_segurança/054_criar_template.png
+   :alt: criar template
+   :scale: 100% 
+   :align: center
+----
+
+Os seguintes campos devem ser preenchidos: 
+
+   * Nome do *template*; 
+
+   * Assunto do e-mail; 
+
+   * *Tags*; 
+
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais tags, como também é possível a criação delas. 
+
+   * Pré-visualizar imagem; 
+
+   * Área para composição do texto. 
+
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+
+   * Arquivo:
+
+     * Novo documento.
+
+   * Editar: 
+
+     * Desfazer; 
+
+     * Refazer; 
+
+     * Recortar; 
+
+     * Copiar; 
+
+     * Colar; 
+
+     * Selecionar tudo.
+
+   * Visualizar:
+
+     * Ajuda visual.
+
+   * Inserir:
+
+     * Imagem;
+
+     * Link;
+
+     * Caracteres especiais;
+
+     * Âncora. 
+
+   * Formatar: 
+
+     * Negrito;
+
+     * Itálico;
+
+     * Sublinhar; 
+
+     * Riscar;
+
+     * Sobrescrito; 
+
+     * Subscrever; 
+
+     * Código;
+
+     * Formatos; 
+
+     * Blocos;
+
+     * Alinhamento;
+
+     * Limpar formatação. 
+
+
+Também é permitido o uso de campos personalizados, como evidenciado na seguinte mensagem: 
+
+.. image:: /figuras/fig_segurança/055_mensagem.png
+   :alt: mensagem
+   :scale: 100% 
+   :align: center
+----
+
+Abaixo dessa mensagem é exibida uma *flag* com a opção de tornar o template global, caso seja de interesse do usuário, basta acioná-la. Caso contrário, apenas os usuários inseridos no contrato poderão utilizar este *template*. 
+
+No *card* ao lado é necessário fazer o *upload* de uma imagem de destaque. 
+
+.. image:: /figuras/fig_segurança/056_upload_template.png
+   :alt: upload template
+   :scale: 100% 
+   :align: center
+----
+
+Caso tente concluir este *template* sem uma figura, a seguinte mensagem é exibida:  
+
+.. image:: /figuras/fig_segurança/057_erro_imagem.png
+   :alt: erro imagem
+   :scale: 100% 
+   :align: center
+----
+
+Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail`` que muda para a cor verde ao ficar disponível para acionamento, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *templates*. 
+
+----
+
+.. centered:: Listando *Templates*
+
+----
+
+O primeiro *card* é dividido em quatro colunas, são elas: 
+
+   * Nome; 
+
+   * *Tags*; 
+
+   * Data de alteração; 
+
+   * Deletar. 
+
+.. image:: /figuras/fig_segurança/053_tela_template.png
+   :alt: tela template
+   :scale: 100% 
+   :align: center
+----
+
+No fim deste *card*, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100 linhas. 
+
+Ao selecionar o *template* desejado, o *card* lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita do *template* para uma visualização completa. 
+
+.. image:: /figuras/fig_segurança/058_pre_visualização.png
+   :alt: pre visualização
+   :scale: 100% 
+   :align: center
+----
+
+Neste *card* de pré-visualização, ao lado do nome do *Template*, é possível identificar dois ícones de ações:  
+
+   * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
+
+   * **Lápis**: O ícone |icone_lapis| indica uma edição. 
 
 ====
 
 **Perfis de envio** 
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-Protocolo de envio SMTP
-~~~~~~~~~~~~~~~~~~~~~~~~
+----
+
+.. centered:: Protocolo de envio SMTP
+
+----
 
 Quase toda atividade on-line é possibilitada pelos protocolos, em outras palavras, as regras e diretrizes especiais do software de rede que permitem ao computador se conectar a redes em qualquer lugar. 
 
@@ -3850,8 +4815,10 @@ Um servidor SMTP pode passar o e-mail para outro servidor SMTP e retransmiti-lo 
 
 ====
 
-Utilizando como Admin: Gerente
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. centered:: Utilizando como Gerente Admin
+
+----
+
 
 No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP podem ser encontradas na opção “Perfis de envio”, esse acesso é exclusivo para usuários administradores, tendo em vista o grau de complexidade, gerenciamento e entendimento das funcionalidades de código. 
 
@@ -3859,109 +4826,301 @@ No *Ethical Phishing* da plataforma uCloud, as informações relativas ao SMTP p
 
 ====
 
-**Página de destino**
----------------------
+**Landing Pages**
+~~~~~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+----
 
-Criando
-~~~~~~~
+.. centered:: Introdução
 
-Listando
-~~~~~~~~~
+----
+
+O último *card* do menu de Segurança *Ethical Phishing* é o *Landing Pages*.  
+
+.. image:: /figuras/fig_segurança/060_menu_landing_page.png
+   :alt: landing page
+   :scale: 100% 
+   :align: center
+----
+
+Ao acessá-lo, são apresentados dois *cards*: um contendo a lista das *landing pages* e o segundo pré-visualização destas, além de dois botões de ação, sendo eles ``Voltar`` e ``Novo template de Landing Page``.   
+
+.. image:: /figuras/fig_segurança/059_landing_page.png
+   :alt: landing page
+   :scale: 100% 
+   :align: center
+----
+
+.. centered:: Criando *Landing page*
+
+----
+
+Para criar uma *landing page*, o usuário precisa clicar no botão ``Novo template de landing page```.  
+
+Após isso, a tela de criação é apresentada: 
+
+.. image:: /figuras/fig_segurança/061_criar_landing_page.png
+   :alt: landing page
+   :scale: 100% 
+   :align: center
+----
+ 
+Os espaços apresentados são descritos abaixo: 
+
+   * Nome da *landing page*;
+
+   * Redirecionar após o envio dos dados para: (opcional);
+
+.. nota:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de ethical phishing. 
+
+   * *URL* - ``Importar landing page a partir de uma URL``;
+
+   * *Tags*; 
+
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais tags, como também é possível a criação delas. 
+
+   * Pré-visualizar a *landing page*; 
+
+   * Capturar dados enviados; 
+
+   * Área para composição do texto. 
+
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+
+   * Arquivo:
+
+     * Novo documento.
+
+   * Editar: 
+
+     * Desfazer; 
+
+     * Refazer; 
+
+     * Recortar; 
+
+     * Copiar; 
+
+     * Colar; 
+
+     * Selecionar tudo.
+
+   * Visualizar:
+
+     * Ajuda visual.
+
+   * Inserir:
+
+     * Imagem;
+
+     * Link;
+
+     * Caracteres especiais;
+
+     * Âncora. 
+
+   * Formatar: 
+
+     * Negrito;
+
+     * Itálico;
+
+     * Sublinhar; 
+
+     * Riscar;
+
+     * Sobrescrito; 
+
+     * Subscrever; 
+
+     * Código;
+
+     * Formatos; 
+
+     * Blocos;
+
+     * Alinhamento;
+
+     * Limpar formatação. 
+
+
+Ao fim deste *card* é exibida uma *flag* com a opção de tornar o *template* global, caso seja de interesse do usuário, basta acioná-la. Caso contrário, apenas os usuários inseridos no contrato poderão utilizar este *template*. 
+
+No *card* ao lado é necessário fazer o *upload* de uma imagem de destaque. 
+
+.. image:: /figuras/fig_segurança/062_upload_landing_page.png
+   :alt: upload landing page
+   :scale: 100% 
+   :align: center
+----
+
+Caso tente finalizar este *template* sem uma figura, a seguinte mensagem é exibida:  
+
+.. image:: /figuras/fig_segurança/057_erro_imagem.png
+   :alt: erro imagem
+   :scale: 100% 
+   :align: center
+----
+
+Para finalizar este processo, basta clicar no botão ``Salvar landing page`` que muda para a cor verde ao ficar disponível para acionamento, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *landing pages*.
+
+----
+
+.. centered:: Listando *Landing page*
+
+----
+
+O primeiro *card* é dividido em quatro colunas, são elas: 
+
+   * Nome; 
+
+   * *Tags*; 
+
+   * Data de alteração;
+
+   * Deletar. 
+
+Ao selecionar o *template* desejado, o *card* lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita e abaixo da *landing page* para uma visualização completa. 
+
+.. image:: /figuras/fig_segurança/063_listando_landing_page.png
+   :alt: listando landing page
+   :scale: 100% 
+   :align: center
+----
+
+No fim deste *card*, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100 linhas. 
+
+Neste *card* de pré-visualização, ao lado do nome da *landing page*, é possível identificar dois ícones de ações:  
+
+   * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
+
+   * **Lápis**: O ícone |icone_lapis| indica uma edição. 
+
 
 ====
 
-Acessando como usuário Comum: Utilizador
-========================================
+Acesso do usuário: Utilizador
+-----------------------------
 
-Acesso
-------
+**Acessando**
+~~~~~~~~~~~~
 
-.. centered:: Jornada do usuário Comum, cargo de Utilizador
+----
 
-====
+.. centered:: Jornada do usuário Utilizador
 
-Dashboard
----------
+----
 
-====
-
-Usuários
---------
-
-Introdução
-~~~~~~~~~~
-
-Acesso
-~~~~~~
-
-Criando
-~~~~~~~
-
-Detalhando
-~~~~~~~~~~
+**Dashboard**
+~~~~~~~~~~~~~
 
 ====
 
-Campanhas
----------
+**Usuários**
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+----
+
+
+----
+
+.. centered:: Introdução
+
+----
+
+
+----
+
+.. centered:: Acesso a Usuários
+
+----
+
+
+----
+
+.. centered:: Criando Usuários
+
+----
+
+
+----
+
+.. centered:: Detalhando Usuários
+
+----
+
 
 ====
 
-Contatos
---------
+**Campanhas**
+~~~~~~~~~~~~
 
-Introdução
-~~~~~~~~~~
+----
 
-Criando Novo Grupo
-~~~~~~~~~~~~~~~~~~
 
-Listando
-~~~~~~~~
+----
 
-Detalhando
-~~~~~~~~~~
+.. centered:: Introdução
+
+----
+
 
 ====
 
-Templates
----------
+**Contatos**
+~~~~~~~~~~~~
+
+----
+
+
+----
+
+.. centered:: Introdução
+
+----
+
+
+
+----
+
+.. centered:: Criando Novo Grupo
+
+----
+
+
+----
+
+.. centered:: Listando Contatos
+
+----
+
+
+----
+
+.. centered:: Detalhando Contatos
+
+----
+
+
+
 
 ====
 
-Landing Pages
--------------
+**Templates**
+~~~~~~~~~~~~~~
+----
 
 
 
+====
 
+**Landing Pages**
+~~~~~~~~~~~~~~~~
 
+----
 
-
-
-
-
-
-
-
-.
-
+====
   
-
-
-   
-
-
-
-
-
-
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt:
