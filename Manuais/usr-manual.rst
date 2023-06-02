@@ -3380,6 +3380,8 @@ No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard*
 **Meu dashboard** 
 ~~~~~~~~~~~~~~~~~
 
+----
+
 
 Ao clicar em **Meu dashboard**, o gerente Admin do *ethical phishing* pode criar campanhas e registrar os domínios. 
 
@@ -3645,6 +3647,8 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 **Dashboard Global de Contratos** 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 O usuário Gerente Admin pode acompanhar as informações do *Ethical Phishing* relacionadas ao painel administrativo. Nele, é possível observar dados das campanhas, classificadas por contrato e mês selecionado. Esta tela apresenta dois botões de ação: ``Voltar`` e ``Pesquisar``. O último referente ao mês e ano selecionado que o usuário deseja pesquisar. 
 
 Abaixo disso, os seguintes quadros são exibidos: 
@@ -3683,6 +3687,9 @@ As colunas presentes no *card* de contrato são:
 
 **Dashboard do Contrato** 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 
 Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada. 
 
@@ -3774,6 +3781,12 @@ São apresentadas também quatro colunas:
 
 **Contratos**
 ~~~~~~~~~~~~~
+
+----
+
+.. centered:: Introdução
+
+----
 
 Contratos é o quarto *card* do menu de Segurança *Ethical Phishing* e sua visualização é exclusiva para o usuário Gerente Admin.  
 
@@ -3908,16 +3921,29 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 **Usuários**
 ~~~~~~~~~~~~
 
+----
+
 .. centered:: Introdução
+----
 
+----
 
-.. centered:: Acessando
+.. centered:: Acessando Usuários
 
+----
 
-.. centered:: Criando o perfil de Usuário
+----
 
+.. centered:: Criando Usuários
 
-.. centered:: Detalhando
+----
+
+----
+
+.. centered:: Detalhando Usuários
+
+----
+
 
 
 
@@ -3926,10 +3952,19 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 **Campanhas**
 ~~~~~~~~~~~~~
 
+----
+
+
 .. centered:: Introdução
 
+----
+
+
+----
 
 .. centered:: Visualizando a coleta de estatísticas no *Dashboard*
+
+----
 
 
 
@@ -3939,16 +3974,29 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 **Contatos**
 ~~~~~~~~~~~~
 
+----
+
 .. centered:: Introdução
 
+----
 
-.. centered:: Criando
+----
 
+.. centered:: Criando Contatos
 
-.. centered:: Listando
+----
 
+----
 
-.. centered:: Detalhando
+.. centered:: Listando Contatos
+
+----
+
+----
+
+.. centered:: Detalhando Contatos
+
+----
 
 
 
@@ -3979,7 +4027,7 @@ Ao acessá-lo, são apresentados dois *cards*: um contendo a lista dos *template
    :align: center
 ----
 
-.. centered:: Criando
+.. centered:: Criando *Templates*
 
 ----
 
@@ -4094,7 +4142,7 @@ Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail
 
 ----
 
-.. centered:: Listando
+.. centered:: Listando *Template*
 
 ----
 
@@ -4135,8 +4183,11 @@ Neste *card* de pré-visualização, ao lado do nome do *Template*, é possível
 **Perfis de envio** 
 ~~~~~~~~~~~~~~~~~~~
 
+----
+
 .. centered:: Protocolo de envio SMTP
 
+----
 
 Quase toda atividade on-line é possibilitada pelos protocolos, em outras palavras, as regras e diretrizes especiais do software de rede que permitem ao computador se conectar a redes em qualquer lugar. 
 
@@ -4301,7 +4352,7 @@ Para finalizar este processo, basta clicar no botão ``Salvar landing page`` que
 
 ----
 
-.. centered:: Listando
+.. centered:: Listando *Landing page*
 
 ----
 
