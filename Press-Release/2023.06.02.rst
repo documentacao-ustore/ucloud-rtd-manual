@@ -109,8 +109,6 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens |
 |                            |e os estilos, assim o portal padroniza comunicação         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
 
 
 +----------------------------+-----------------------------------------------------------+
