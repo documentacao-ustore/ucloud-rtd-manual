@@ -5091,8 +5091,8 @@ Exibem também cinco *cards*. São eles:
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
 
- .. image:: /figuras/fig_segurança/006_criar_usuario.png
-   :alt: criar campanha
+ .. image:: /figuras/fig_segurança/006_criar_campanha.png
+   :alt: Criar campanha 
    :align: center
 ----
 
@@ -5107,6 +5107,7 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para
 
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
 
+----
  .. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template
    :align: center
@@ -5164,6 +5165,17 @@ Depois de concluída a criação da campanha, a tela é atualizada e novas infor
 
  .. image:: /figuras/fig_segurança/016_u_minhas_campanhas.png
    :alt: tela recortada
+   :align: center
+----
+
+**Recorte 1**
+
+No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova campanha, nomeá-la, editar *templates* do e-mail e de *landing page*.  
+
+.. note:: O *template* do e-mail e de *landing page* editados modificam apenas o HTML da campanha atual. Para confirmar as edições o usuário deve clicar no botão ``SALVAR TEMPLATE`` para as modificações realizadas no *template* do e-mail e ``SALVAR LANDING PAGE`` caso tenha realizado edições no *template* de *landing page*.  Caso o usuário desista das edições deve clicar no botão ``Cancelar`` para volta a tela de envio e detalhes da campanha.  
+
+ .. image:: /figuras/fig_segurança/017_u_edição_campanha.png
+   :alt: editar campanha
    :align: center
 ----
 
