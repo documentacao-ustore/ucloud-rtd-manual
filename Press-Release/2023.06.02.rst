@@ -38,7 +38,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-.. centered:: **Nuvem VMWare**
+.. centered:: **Nuvem VMware**
 
 
 +----------------------------+------------------------------------------------------------------------------------------------+
@@ -49,7 +49,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Quando uma máquina virtual associada a um balanceador for deletada, no menu "Tarefas" é exibida |
 |                            |a mensagem orientando remover previamente a máquina do balanceador e depois deletar             |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                                |
+|Localização no portal       |Menu Tarefas                                                                                                |
 +----------------------------+------------------------------------------------------------------------------------------------+
 
 ====
@@ -98,6 +98,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
 
+
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Refatoração dos e-mails do PMC                             |
 |                            |                                                           |
@@ -105,11 +106,12 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Objetivo                    |Normalizar e padronizar com adição de novas regras e layout|
 |                            |modelo visual e textual da comunicação do portal           |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens | 
-|                            |e os estilos, assim o portal comunica com estilo e padrão  |                                                           |
+|Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens |
+|                            |e os estilos, assim o portal comunica com estilo e padrão  |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
+
 
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Filtragem de máquinas virtuais por tag                     |
