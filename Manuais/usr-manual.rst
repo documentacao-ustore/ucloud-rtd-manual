@@ -3640,7 +3640,7 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
      * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
      * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
-.. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 ====
 
@@ -4197,7 +4197,7 @@ A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do 
 
 Na tela acima diferentes *cards* são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
 
-Para um melhor entendimento desse quadro assim como o passo a passo do processo de criação de uma campanha, é necessário acessar o *Dashboard* e clicar em ``Meu dasboard`` seguindo a jornada do Gerente Admin do *Ethical phishing*, etapa da operação publicada anteriormente no tópico Meu dashboard_.
+Para um melhor entendimento desse quadro assim como o passo a passo do processo de criação de uma campanha, é necessário acessar *Dashboard* e clicar no *card* ``Meu dasboard`` seguindo a jornada do Gerente Admin do *Ethical phishing*, esta etapa da operação é publicada no tópico Meu dashboard_ e replicada na sequência para manter o leitor na linha de raciocínio "Campanhas".
 
 .. _dashboard: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#meu-dashboard
 
@@ -4464,7 +4464,7 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
      * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
      * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
 
-.. importante:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
 
 ====
