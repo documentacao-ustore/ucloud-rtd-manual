@@ -3959,6 +3959,18 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 
 ----
 
+A técnica de enviar simulações de e-mails fraudulentos em campanhas de *phishing*, compreende pensar no envio de dois tipos: O e-mail parece ser verdadeiro, mas na realidade pode ter sido enviado por um usuário *“hacker”* que tem a intenção de roubar dados sigilosos. Ou um e-mail teste enviado por empresas de proteção especialistas defesa, que utilizam o *phishing* para descobrir se os destinatários destes e-mails estão atentos com a origem dos e-mails recebidos e se clicam em e-mails maliciosos e fragilizam sua segurança e da empresa onde trabalham. 
+
+Abaixo são brevemente explicadas algumas categorias de envio de *phishing*: 
+
+**Bulk Phishing**: Trata-se do envio de e-mails em massa para uma lista não filtrada de destinatários. Nesta modalidade, são encaminhados e-mails genéricos com benefícios ou promoções de marcas desconhecidas. 
+
+**Spear Phishing**:Uma pessoa específica recebe e-mails maliciosos, neste caso, o cibercriminoso possui informação direcionada sobre o alvo, como nome, empresa que atua, posição hierárquica.  
+
+**Whaling Phishing**: Este ataque é direcionado aos executivos, neste o “hacker” tenta persuadir a vítima ao fingir que é um CEO, solicitando ao executivo os acessos que ele possui, pelo fato de ocupar um cargo privilegiado e ter sua responsabilidade na empresa. 
+ 
+
+A empresa usuária desse produto *Ethical phishing* do Menu de segurança pode criar campanhas, importar usuários, assim como coletar usuários. Esta, deve gerar sua campanha em formato autônomo, sendo possível interagir com as funcionalidades. Vale ressaltar que a campanha de *ethical phishing* a ser criada tem a ética como a principal diretiva. 
 
 ----
 
@@ -3966,8 +3978,27 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 
 ----
 
+As campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade de disparos, é possível utilizar o modo guiado (*wizard*) para a criação das campanhas de maneira simples. 
 
+   * Elas podem ser alteradas após criadas;  
 
+   * Existe a possibilidade de programar os disparos;  
+
+   * Customizar os templates visando o engajamento;  
+
+   * Coletar os resultados e entender o comportamento dos usuários. 
+
+A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do corpo de usuários para orientar que ações a empresa deve tomar. 
+
+.. image:: /figuras/fig_segurança/045.0_ataque_phishing.png
+   :alt: ataque phishing
+   :scale: 100% 
+   :align: center
+----
+
+Na tela acima diferentes *cards* são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
+
+Para um melhor entendimento desse quadro assim como o passo a passo do processo de criação de uma campanha basta o usuário clicar aqui (inserir hyperlink do tópico “Meu dashboard” do documento 1.05) para ser direcionado ao tópico de criação de campanha no tópico de *Dashboard*.
 
 ====
 
