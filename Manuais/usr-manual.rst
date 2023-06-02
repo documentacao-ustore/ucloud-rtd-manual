@@ -4549,7 +4549,7 @@ Os espaços a serem preenchidos são:
 
 Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.  
 
-Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta que este prepare um arquivo em formato .CSV para fazer o *upload* do arquivo clicando no botão ``Escolher arquivo`` e em seguida confirmar a ação através do botão ``+Importar usuários em massa``. 
+Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta que este prepare um arquivo em formato .CSV para fazer o *upload* do arquivo clicando no botão ``Escolher arquivo`` e em seguida confirmar a ação através do botão ``+ Importar usuários em massa``. 
 
 .. image:: /figuras/fig_segurança/049_add_csv.png
    :alt: add csv
@@ -5002,19 +5002,171 @@ Neste *card* de pré-visualização, ao lado do nome da *landing page*, é poss�
 Acesso do usuário: Utilizador
 -----------------------------
 
+====
 **Acessando**
 ~~~~~~~~~~~~
 
+O usuário deve acessar a plataforma uCloud, ao iniciar a sessão necessita inserir as credenciais com o login e a senha, provisionadas previamente por um usuário com o perfil de administrador ou usuário com esta permissão. O perfil de usuário utilizador é compatível com os atributos de acesso ao *Ethical Phishing*. 
+
+.. image:: /figuras/fig_segurança/001_u_tela_login.png
+   :alt: tela login usuário
+   :align: center
+----
+
+No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+
+* Meu *dashboard*; 
+
+* *Dashboard* do contrato; 
+
+* Campanhas; 
+
+* Contatos; 
+
+* *Templates* 
+
+* *Landing Pages*. 
+  
+ .. image:: /figuras/fig_segurança/002_u_dashboard_geral.png
+   :alt: tela login usuário
+   :align: center
 ----
 
 .. centered:: Jornada do usuário Utilizador
 
 ----
 
-**Dashboard**
-~~~~~~~~~~~~~
+**Dashboard do usuário Utilizador**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+
+O submenu *Dashboard* está dividido em dois *cards*. São eles: 
+
+* Meu *dashboard*;   
+
+* *Dashboard* do contrato;  
+
+ .. image:: /figuras/fig_segurança/005_u_seleção_dashboard.png
+   :alt: dashboard usuário
+   :align: center
+----
+
+**Meu Dashboard**
+~~~~~~~~~~~~~~~~~
+
+Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.    
+
+ .. image:: /figuras/fig_segurança/006_u_meu_dashboard.png
+   :alt: dashboard usuário
+   :align: center
+----
+
+A tela apresenta três botões de ações. 
+
+* ``Voltar``; 
+
+* ``Criar campanha de phishing``; 
+
+* ``Autorizar novo domínio``. 
+
+
+Exibem também cinco *cards*. São eles: 
+
+* Informações de cotas; 
+
+* Campanhas ativas; 
+
+* Campanhas finalizadas; 
+
+* Informação sobre os e-mails; 
+
+* Domínios autorizados. 
+  
+====
+
+.. centered:: Criando uma Campanha
 
 ====
+
+Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
+
+ .. image:: /figuras/fig_segurança/006_criar_usuario.png
+   :alt: criar campanha
+   :align: center
+----
+
+Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem cumpridas para a criação da campanha. Como primeiro passo, o usuário deve nomeá-la. 
+
+ .. image:: /figuras/fig_segurança/008_u_criar_campanha_passo1.png
+   :alt: nomear campanha
+   :align: center
+----
+
+Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` é habilitado na coloração laranja bastando clicar no botão para avançar a segunda etapa. Neste passo, a tela apresenta *templates* pré-estabelecidos.  
+
+.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
+
+ .. image:: /figuras/fig_segurança/008_selecionar_template.png
+   :alt: selecionar template
+   :align: center
+----
+
+No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
+
+ .. image:: /figuras/fig_segurança/010_u_criar_campanha_passo2_visualização.png
+   :alt: visualizar template
+   :align: center
+----
+
+Para escolher o *template*, é necessário apenas clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: ``Voltar`` para regressar a etapa anterior e ``Selecionar uma Landing Page`` para avançar para a etapa 3, ao clicar no botão a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que da etapa anterior. 
+
+ .. image:: /figuras/fig_segurança/010_landing_page.png
+   :alt: selecionar landing page
+   :align: center
+----
+
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
+
+ .. image:: /figuras/fig_segurança/011_perfil_envio.png
+   :alt: selecionar perfil de envio
+   :align: center
+----
+
+Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. Ao avançar para o quinto e último passo, a plataforma exibe uma tela com um quadro informativo que contém todas as informações da campanha que está sendo criada, é possível ao usuário nesse momento revisar todas as escolhas realizadas. 
+
+ .. image:: /figuras/fig_segurança/012_revisar_dados.png
+   :alt: revisar dados
+   :align: center
+----
+
+Caso o usuário tenha cometido algum erro na criação da campanha e precise modificar uma das informações apresentadas, basta clicar no botão ``Voltar`` no canto inferior esquerdo até a etapa que precisa ser alterada. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
+
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+
+ .. image:: /figuras/fig_segurança/014_u_criar_campanha_confirmação.png
+   :alt: confirmar campanha
+   :align: center
+----
+
+Após a confirmação do usuário ao clicar no botão ``Sim``, a plataforma apresenta uma nova tela informando que a campanha está sendo criada, esse processo leva alguns segundos.  
+
+ .. image:: /figuras/fig_segurança/015_u_criar_campanha_criando.png
+   :alt: carregando campanha
+   :align: center
+====
+
+.. centered:: Envio e Detalhes da Campanha
+
+====
+
+Depois de concluída a criação da campanha, a tela é atualizada e novas informações são exibidas. 
+
+ .. image:: /figuras/fig_segurança/016_u_minhas_campanhas.png
+   :alt: tela recortada
+   :align: center
+----
+
 
 **Usuários**
 ~~~~~~~~~~~~
