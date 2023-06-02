@@ -3914,7 +3914,7 @@ Nesta área, é possível visualizar os seguintes campos:
 
    * **Quantidade de contatos por campanha** 
 
-.. nota:: Para determinar a quantidade dos dois últimos campos, basta desmarcar o checkbox “Indeterminado” que o ícone do bloco de notas é habilitado para edição. Para confirmar a ação basta clicar no botão azul, ou no vermelho para cancelar. 
+.. note:: Para determinar a quantidade dos dois últimos campos, basta desmarcar o checkbox “Indeterminado” que o ícone do bloco de notas é habilitado para edição. Para confirmar a ação basta clicar no botão azul, ou no vermelho para cancelar. 
 
 O mais importante, além das cotas de segurança, é a relação do usuário com o contrato, porque existem cotas que aquele usuário pode consumir.
 
@@ -4016,15 +4016,16 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
    * **Senha**:  A chave de segurança deve ter oito dígitos, sendo necessário ter letras maiúsculas e minúsculas, números e caracteres especiais.  
 
-.. atenção:: O caractere especial ponto (.) não é permitido. 
+.. attention:: O caractere especial ponto (.) não é permitido.
+ 
 
    * **Confirmar senha**: Neste espaço deve ser repetido a chave de segurança da senha anterior. 
 
    * **E-mail**: Deve ser preenchido com o e-mail do usuário. 
 
-   * **Telefone**: Necessário ser preenchido com o número de contato do usuário. 
+   * **Telefone**: Necessário ser preenchido com o número de contato do usuário.
 
-   * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa: 
+   * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa
 
      * GerentePhishing (em caso do usuário ser do tipo administrador);
 
@@ -4032,11 +4033,13 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
    * **Empresa**: Obrigatório fornecer o nome da empresa. 
 
-   * **Tipo de cota**: Espaço do tipo *dropdown*, e ao clicá-lo aparecem duas opções de cotas:   
+   * **Tipo de cota**: Espaço do tipo *dropdown*, e ao clicá-lo aparecem duas opções de cotas
 
-     * Contrato;
+       * Contrato;
 
-     * Usuário: Caso este seja selecionado, campos extras são exibidos para preenchimento: 
+       * Usuário.
+
+Caso este seja selecionado, campos extras são exibidos para preenchimento: 
 
           * Cota de CPU;
 
