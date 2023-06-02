@@ -3957,15 +3957,178 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 **Templates**
 ~~~~~~~~~~~~~
 
+----
+
 .. centered:: Introdução
 
+----
+
+Este ocupa o oitavo *card* do menu *Ethical Phishing*, evidenciado na figura abaixo: 
+
+.. image:: /figuras/fig_segurança/052_menu_template.png
+   :alt: menu template
+   :scale: 100% 
+   :align: center
+----
+
+Ao acessá-lo, são apresentados dois *cards*: um contendo a lista dos *templates* e o segundo pré-visualização do *template*, além de dois botões de ação, sendo eles ``Voltar`` e ``Novo template de e-mail``.  
+
+.. image:: /figuras/fig_segurança/053_tela_template.png
+   :alt: tela template
+   :scale: 100% 
+   :align: center
+----
 
 .. centered:: Criando
 
+----
+
+Para criar um template, é necessário clicar no botão ``Novo template de e-mail``. Feito isso, uma nova tela é apresentada: 
+
+.. image:: /figuras/fig_segurança/054_criar_template.png
+   :alt: criar template
+   :scale: 100% 
+   :align: center
+----
+
+Os seguintes campos devem ser preenchidos: 
+
+   * Nome do *template*; 
+
+   * Assunto do e-mail; 
+
+   * *Tags*; 
+
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais tags, como também é possível a criação delas. 
+
+   * Pré-visualizar imagem; 
+
+   * Área para composição do texto. 
+
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+
+   * Arquivo:
+
+     * Novo documento.
+
+   * Editar: 
+
+     * Desfazer; 
+
+     * Refazer; 
+
+     * Recortar; 
+
+     * Copiar; 
+
+     * Colar; 
+
+     * Selecionar tudo.
+
+   * Visualizar:
+
+     * Ajuda visual.
+
+   * Inserir:
+
+     * Imagem;
+
+     * Link;
+
+     * Caracteres especiais;
+
+     * Âncora. 
+
+   * Formatar: 
+
+     * Negrito;
+
+     * Itálico;
+
+     * Sublinhar; 
+
+     * Riscar;
+
+     * Sobrescrito; 
+
+     * Subscrever; 
+
+     * Código;
+
+     * Formatos; 
+
+     * Blocos;
+
+     * Alinhamento;
+
+     * Limpar formatação. 
+
+
+Também é permitido o uso de campos personalizados, como evidenciado na seguinte mensagem: 
+
+.. image:: /figuras/fig_segurança/055_mensagem.png
+   :alt: mensagem
+   :scale: 100% 
+   :align: center
+----
+
+Abaixo dessa mensagem é exibida uma *flag* com a opção de tornar o template global, caso seja de interesse do usuário, basta acioná-la. Caso contrário, apenas os usuários inseridos no contrato poderão utilizar este *template*. 
+
+No *card* ao lado é necessário fazer o *upload* de uma imagem de destaque. 
+
+.. image:: /figuras/fig_segurança/056_upload_template.png
+   :alt: upload template
+   :scale: 100% 
+   :align: center
+----
+
+Caso tente concluir este *template* sem uma figura, a seguinte mensagem é exibida:  
+
+.. image:: /figuras/fig_segurança/057_erro_imagem.png
+   :alt: erro imagem
+   :scale: 100% 
+   :align: center
+----
+
+Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail`` que muda para a cor verde ao ficar disponível para acionamento, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *templates*. 
+
+----
 
 .. centered:: Listando
 
+----
 
+O primeiro *card* é dividido em quatro colunas, são elas: 
+
+   * Nome; 
+
+   * *Tags*; 
+
+   * Data de alteração; 
+
+   * Deletar. 
+
+.. image:: /figuras/fig_segurança/053_tela_template.png
+   :alt: tela template
+   :scale: 100% 
+   :align: center
+----
+
+No fim deste *card*, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100 linhas. 
+
+Ao selecionar o *template* desejado, o *card* lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita do *template* para uma visualização completa. 
+
+.. image:: /figuras/fig_segurança/058_pre_visualização.png
+   :alt: pre visualização
+   :scale: 100% 
+   :align: center
+----
+
+Neste *card* de pré-visualização, ao lado do nome do *Template*, é possível identificar dois ícones de ações:  
+
+   * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
+
+   * **Lápis**: O ícone |icone_lapis| indica uma edição. 
 
 ====
 
