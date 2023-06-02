@@ -5105,14 +5105,14 @@ Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem c
 
 Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` é habilitado na coloração laranja bastando clicar no botão para avançar a segunda etapa. Neste passo, a tela apresenta *templates* pré-estabelecidos.  
 
+
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
 
-
-----
+====
  .. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template
    :align: center
-----
+====
 
 No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
 
