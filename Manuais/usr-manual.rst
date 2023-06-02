@@ -5193,9 +5193,10 @@ No segundo recorte é possível importar um arquivo de Grupos de Contatos atrav�
    :align: center
 ----
 
-Na figura acima, o usuário deve preencher os campos com as informações do contato (nome, sobrenome, E-mail e Cargo). Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado pela plataforma, caso o usuário desista da ação deve clicar em ``Cancelar `` para retornar a tela anterior.  
+Na figura acima, o usuário deve preencher os campos com as informações do contato (nome, sobrenome, E-mail e Cargo). Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado pela plataforma, caso o usuário desista da ação deve clicar em ``Cancelar`` para retornar a tela anterior.  
 
 ====
+
  .. image:: /figuras/fig_segurança/019_u_adicionar_contato_confirma.png
    :alt: botão adicionar contato
    :align: center
@@ -5204,6 +5205,7 @@ Na figura acima, o usuário deve preencher os campos com as informações do con
 .. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. Caso o usuário adicione um e-mail com domínio não autorizado para o contrato a plataforma exibe a seguinte mensagem:  
 
 =====
+
  .. image:: /figuras/fig_segurança/020_u_dominio_não_autorizado.png
    :alt: domínio não autorizado
    :align: center
