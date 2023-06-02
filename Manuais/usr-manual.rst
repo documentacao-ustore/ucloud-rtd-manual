@@ -5313,11 +5313,12 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 
 .. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
 
-====
+----
 
-.. centered:: Dashboard do contrato
+**Dashboard do contrato** 
+~~~~~~~~~~~~~~~~~~~~~~~
 
-====
+----
 
 **Usuários**
 ~~~~~~~~~~~~
