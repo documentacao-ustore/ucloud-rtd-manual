@@ -3926,17 +3926,143 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 .. centered:: Introdução
 ----
 
+ 
+**Usuário administrador do uCloud**:  
+
+Este é o único usuário que, além de criar perfis de usuários no uCloud, tem a atribuição de adicionar no menu de Segurança: *Ethical Phishing* novos usuários, seja como administrador ou usuário. Este usuário pode atualizar os dados do contrato do cliente, as especificações e as autorizações de serviço.
+
+No menu de Segurança do *Ethical Phishing* existem dois tipos de usuários, são eles: 
+
+**Usuário Gerente Admin do Ethical Phishing**: 
+
+É o único usuário administrador com permissão de criar novos usuários Utilizadores, no entanto, não é possível criar dentro deste menu usuários com visualização geral para o portal uCloud. Apesar disso, é o único autorizado a adicionar novos domínios e requisições de contato, é responsável por especificar limitações de quantidade de campanha por usuário e por contatos, além de visualizar todas as campanhas do contrato. 
+
+**Usuário Utilizador (user) do Ethical Phishing** 
+
+Este tipo de usuário tem acesso a todos os contratos, configurações e campanhas. Cada cliente deve ter um único contrato que é criado pelo usuário cliente administrador do portal uCloud. 
+ 
+
 ----
 
 .. centered:: Acessando Usuários
 
 ----
 
+O *card* referente a Usuários é o quinto no menu de Segurança: *Ethical Phishing*. 
+
+.. image:: /figuras/fig_segurança/038_phishing_usuario.png
+   :alt: phishing usuario
+   :scale: 100% 
+   :align: center
 ----
 
-.. centered:: Criando Usuários
+Ao clicar nele, uma nova tela é apresentada. Nesta, é permitido criar, gerenciar e excluir usuários.  
+
+.. image:: /figuras/fig_segurança/039_menu_usuario.png
+   :alt: menu usuario
+   :scale: 100% 
+   :align: center
+----
+
+Na figura acima é possível observar um botão de ação ``Criar Usuário`` e cinco colunas, são elas: 
+
+   * Login;
+
+   * Nome;
+
+   * Correio Eletrônico;
+
+   * Perfil; 
+
+   * Ações. 
+
+Abaixo de todas estas colunas, com exceção da coluna de ação, há uma barra de pesquisa para auxiliar na busca. Na coluna de perfil, existe uma lista do tipo *dropdown*, com as opções de tipos de usuários para realizar uma filtragem dos usuários listados. 
+
+A coluna de ação é representada por uma lata de lixo, o que causa a remoção de um usuário.
 
 ----
+
+.. centered:: Criando o perfil de Usuário
+
+----
+
+Para criar um perfil de usuário, basta clicar no botão ``Criar usuário``. 
+
+.. image:: /figuras/fig_segurança/027_botao_usuario.png
+   :alt: botão usuário
+   :scale: 100% 
+   :align: center
+----
+
+Em seguida, o modal de criação do usuário é exibido: 
+
+.. image:: /figuras/fig_segurança/028_modal_usuario.png
+   :alt: modal usuário
+   :scale: 100% 
+   :align: center
+----
+
+A seguir são descritos todos os espaços necessários para preenchimentos: 
+
+   * **Perfil do usuário**: Campos do tipo *dropdown*, e ao clicar uma lista é mostrada com as opções de usuários que podem ser criados. O usuário administrador é permitido criar outro perfil administrador (denominado *administrator*), ou usuário do tipo comum (chamado de *user*). 
+
+   * **Grupo**: Neste, é necessário pesquisar pelo nome do grupo, e em seguida selecionar o desejado. 
+
+   * **Nome**:  Área de livre digitação. Neste espaço é permitido o uso de números e caracteres especiais. 
+
+   * **Login**: Campo de livre digitação, assim como o anterior, também é possível o uso de números e caracteres especiais. 
+
+   * **Senha**:  A chave de segurança deve ter oito dígitos, sendo necessário ter letras maiúsculas e minúsculas, números e caracteres especiais.  
+
+.. atenção:: O caractere especial ponto (.) não é permitido. 
+
+   * **Confirmar senha**: Neste espaço deve ser repetido a chave de segurança da senha anterior. 
+
+   * **E-mail**: Deve ser preenchido com o e-mail do usuário. 
+
+   * **Telefone**: Necessário ser preenchido com o número de contato do usuário. 
+
+   * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa: 
+
+     * GerentePhishing (em caso do usuário ser do tipo administrador);
+
+     * UtilizadorPhishing (se for usuário user).
+
+   * **Empresa**: Obrigatório fornecer o nome da empresa. 
+
+   * **Tipo de cota**: Espaço do tipo *dropdown*, e ao clicá-lo aparecem duas opções de cotas:   
+
+     * Contrato;
+
+     * Usuário: Caso este seja selecionado, campos extras são exibidos para preenchimento: 
+
+          * Cota de CPU;
+
+          * Cota de Faturamento;
+
+          * Cota de Memória; 
+
+          * Cota do Disco; 
+
+          * Cota de IPs Públicos;
+
+          * Cota de Máquinas Virtuais.
+
+   * **Checkbox**: Nesta área são apresentados cinco espaços de configurações extras para o usuário administrador, são elas: 
+
+     * Habilitar primeiro acesso;
+
+     * Ativar Autenticação *Multifator*;
+
+     * Ativar cota de Faturamento;
+
+     * Administrador precisa aprovar a realização de atividades;
+
+     * Criar usuário na Nuvem: caso esta *checkbox* seja escolhida, uma lista do tipo *dropdown* é apresentada com nomes de Containers a serem selecionados. 
+
+Os campos que apresentarem um asterisco (*) ao lado do nome representam itens obrigatórios a serem preenchidos.  
+
+Na parte inferior do modal são apresentados dois botões de ação ``Cancelar`` e ``Criar``. O segundo, muda para a coloração azul após os espaços serem completados. 
 
 ----
 
@@ -3944,8 +4070,81 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
 
 ----
 
+Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o Menu Administração do uCloud (https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios).  
 
+Os *cards* com maior importância para o *Phishing* são apenas dois: Geral e Cotas de Segurança.  
 
+O primeiro apresenta três botões de ação, como ``Excluir Usuário``, ícone de edição e *flag* para ativação/desativação de configurações, além de catorze campos, são eles:  
+
+   * Perfil;
+
+   * Login;
+
+   * Nome;
+
+   * Senha; 
+
+   * Idioma; 
+
+   * Telefone; 
+
+   * Correio Eletrônico;
+
+   * Cargo;
+
+   * Válido de;
+
+   * Válido até; 
+
+   * Apenas leitura;
+
+   * Autenticação *Multifator*; 
+
+   * Ativar cota de Faturamento;
+
+   * Aprovação do administrador.
+
+.. image:: /figuras/fig_segurança/040_geral_usuario.png
+   :alt: geral usuario
+   :scale: 100% 
+   :align: center
+----
+
+É possível notar que há a especificação no campo de perfil, no caso da imagem acima, o usuário é de perfil *user* e seu cargo correspondente é o utilizadorPhishing. Assim como, na condição de usuário de perfil administrador, seu cargo correspondente seria gerentePhishing. 
+
+Caso deseje editar alguma informação, basta clicar no ícone de bloco de notas, localizado na lateral direta do *card*. Após fazer a alteração desejada, o usuário pode confirmar a mudança clicando no botão azul, ou cancelá-la clicando no vermelho. 
+
+Para habilitar alguma configuração deste *card* basta clicar sobre a *flag*, e em seguida uma mensagem de *feedback* é exibida no topo direito da tela. 
+
+.. image:: /figuras/fig_segurança/041_feedback_edição.png
+   :alt: feedback edição
+   :scale: 100% 
+   :align: center
+----
+
+O segundo *card*, de Cota de Segurança, exibe apenas um campo, conforme a imagem abaixo: 
+
+.. image:: /figuras/fig_segurança/042_usuario_cota.png
+   :alt: usuário cota
+   :scale: 100% 
+   :align: center
+----
+
+Ao posicionar o mouse acima da *tooltip*, a seguinte mensagem é apresentada: 
+
+.. image:: /figuras/fig_segurança/043_tooltip_cota.png
+   :alt: tooltip cota
+   :scale: 100% 
+   :align: center
+----
+ 
+Caso o usuário deseje deletar algum usuário, seja através da coluna de ação na tela do usuário ou pelo *card* Geral, uma mensagem de alerta é exibida em tela. 
+
+.. image:: /figuras/fig_segurança/044_mensagem_deletar.png
+   :alt: mensagem deletar
+   :scale: 100% 
+   :align: center
+----
 
 ====
 
