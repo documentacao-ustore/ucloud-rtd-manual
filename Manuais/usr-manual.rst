@@ -4075,7 +4075,9 @@ Na parte inferior do modal são apresentados dois botões de ação ``Cancelar``
 
 ----
 
-Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o Menu Administração do uCloud (https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios).  
+Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu Usuários no Menu Administração_ 
+
+.. _Administração:: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios
 
 Os *cards* com maior importância para o *Phishing* são apenas dois: Geral e Cotas de Segurança.  
 
