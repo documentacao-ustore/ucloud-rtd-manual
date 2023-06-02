@@ -4142,7 +4142,7 @@ Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail
 
 ----
 
-.. centered:: Listando *Template*
+.. centered:: Listando *Templates*
 
 ----
 
@@ -4505,30 +4505,8 @@ Acesso do usuário: Utilizador
 
 ----
 
-
-
-
-
-
-
-
-
-
-
-
-
-.
-
+====
   
-
-
-   
-
-
-
-
-
-
 
 .. .. image:: /figuras/fig_segurança/.png
    :alt:
