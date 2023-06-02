@@ -5013,21 +5013,21 @@ O usuário deve acessar a plataforma uCloud, ao iniciar a sessão necessita inse
    :align: center
 ----
 
-No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
+No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresentado em seis *cards*, listados a seguir: 
 
-* Meu *dashboard*; 
+   * Meu *dashboard*; 
 
-* *Dashboard* do contrato; 
+   * *Dashboard* do contrato; 
 
-* Campanhas; 
+   * Campanhas; 
 
-* Contatos; 
+   * Contatos; 
 
-* *Templates* 
+   * *Templates* 
 
-* *Landing Pages*. 
+   * *Landing Pages*. 
   
- .. image:: /figuras/fig_segurança/002_u_dashboard_geral.png
+.. image:: /figuras/fig_segurança/002_u_dashboard_geral.png
    :alt: tela login usuário
    :align: center
 ----
@@ -5043,11 +5043,11 @@ A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual qu
 
 O submenu *Dashboard* está dividido em dois *cards*. São eles: 
 
-* Meu *dashboard*;   
+   * Meu *dashboard*;   
 
-* *Dashboard* do contrato;  
+   * *Dashboard* do contrato;  
 
- .. image:: /figuras/fig_segurança/005_u_seleção_dashboard.1.png
+.. image:: /figuras/fig_segurança/005_u_seleção_dashboard.1.png
    :alt: dashboard usuário
    :align: center
 ----
@@ -5057,31 +5057,31 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
 
 Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.    
 
- .. image:: /figuras/fig_segurança/006_u_meu_dashboard.png
+.. image:: /figuras/fig_segurança/006_u_meu_dashboard.png
    :alt: dashboard usuário
    :align: center
 ----
 
 A tela apresenta três botões de ações. 
 
-* ``Voltar``; 
+   * ``Voltar``; 
 
-* ``Criar campanha de phishing``; 
+   * ``Criar campanha de phishing``; 
 
-* ``Autorizar novo domínio``. 
+   * ``Autorizar novo domínio``. 
 
 
 Exibem também cinco *cards*. São eles: 
 
-* Informações de cotas; 
+   * Informações de cotas; 
 
-* Campanhas ativas; 
+   * Campanhas ativas; 
 
-* Campanhas finalizadas; 
+   * Campanhas finalizadas; 
 
-* Informação sobre os e-mails; 
+   * Informação sobre os e-mails; 
 
-* Domínios autorizados. 
+   * Domínios autorizados. 
   
 ====
 
@@ -5091,14 +5091,14 @@ Exibem também cinco *cards*. São eles:
 
 Para criar uma campanha, o usuário deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
 
- .. image:: /figuras/fig_segurança/006_criar_campanha.png
+.. image:: /figuras/fig_segurança/006_criar_campanha.png
    :alt: Criar campanha 
    :align: center
 ----
 
 Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem cumpridas para a criação da campanha. Como primeiro passo, o usuário deve nomeá-la. 
 
- .. image:: /figuras/fig_segurança/008_u_criar_campanha_passo1.png
+.. image:: /figuras/fig_segurança/008_u_criar_campanha_passo1.png
    :alt: nomear campanha
    :align: center
 ----
@@ -5110,7 +5110,7 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para
 
 ----
 
- .. image:: /figuras/fig_segurança/008_selecionar_template.png
+.. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template
    :align: center
 
@@ -5118,28 +5118,28 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para
 
 No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
 
- .. image:: /figuras/fig_segurança/010_u_criar_campanha_passo2_visualização.png
+.. image:: /figuras/fig_segurança/010_u_criar_campanha_passo2_visualização.png
    :alt: visualizar template
    :align: center
 ----
 
 Para escolher o *template*, é necessário apenas clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: ``Voltar`` para regressar a etapa anterior e ``Selecionar uma Landing Page`` para avançar para a etapa 3, ao clicar no botão a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que da etapa anterior. 
 
- .. image:: /figuras/fig_segurança/010_landing_page.png
+.. image:: /figuras/fig_segurança/010_landing_page.png
    :alt: selecionar landing page
    :align: center
 ----
 
 Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. Para evoluir mais um passo, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponível para seleção através de uma *checkbox*.  
 
- .. image:: /figuras/fig_segurança/011_perfil_envio.png
+.. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: selecionar perfil de envio
    :align: center
 ----
 
 Feita a seleção do perfil de envio, o usuário deve clicar no botão ``Revisar dados`` localizado no lado direito no fim da página. Ao avançar para o quinto e último passo, a plataforma exibe uma tela com um quadro informativo que contém todas as informações da campanha que está sendo criada, é possível ao usuário nesse momento revisar todas as escolhas realizadas. 
 
- .. image:: /figuras/fig_segurança/012_revisar_dados.png
+.. image:: /figuras/fig_segurança/012_revisar_dados.png
    :alt: revisar dados
    :align: center
 ----
@@ -5148,14 +5148,14 @@ Caso o usuário tenha cometido algum erro na criação da campanha e precise mod
 
 Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
- .. image:: /figuras/fig_segurança/014_u_criar_campanha_confirmação.png
+.. image:: /figuras/fig_segurança/014_u_criar_campanha_confirmação.png
    :alt: confirmar campanha
    :align: center
 ----
 
 Após a confirmação do usuário ao clicar no botão ``Sim``, a plataforma apresenta uma nova tela informando que a campanha está sendo criada, esse processo leva alguns segundos.  
 
- .. image:: /figuras/fig_segurança/015_u_criar_campanha_criando.png
+.. image:: /figuras/fig_segurança/015_u_criar_campanha_criando.png
    :alt: carregando campanha
    :align: center
 ====
@@ -5166,7 +5166,7 @@ Após a confirmação do usuário ao clicar no botão ``Sim``, a plataforma apre
 
 Depois de concluída a criação da campanha, a tela é atualizada e novas informações são exibidas. 
 
- .. image:: /figuras/fig_segurança/016_u_minhas_campanhas.png
+.. image:: /figuras/fig_segurança/016_u_minhas_campanhas.png
    :alt: tela recortada
    :align: center
 ----
@@ -5175,11 +5175,15 @@ Depois de concluída a criação da campanha, a tela é atualizada e novas infor
 
 No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova campanha, nomeá-la, editar *templates* do e-mail e de *landing page*.  
 
-.. note:: O *template* do e-mail e de *landing page* editados modificam apenas o HTML da campanha atual. Para confirmar as edições o usuário deve clicar no botão ``SALVAR TEMPLATE`` para as modificações realizadas no *template* do e-mail e ``SALVAR LANDING PAGE`` caso tenha realizado edições no *template* de *landing page*.  Caso o usuário desista das edições deve clicar no botão ``Cancelar`` para volta a tela de envio e detalhes da campanha.  
+.. note:: O *template* do e-mail e de *landing page* editados modificam apenas o HTML da campanha atual. 
+   
+Para confirmar as edições o usuário deve clicar no botão ``SALVAR TEMPLATE`` para as modificações realizadas no *template* do e-mail e ``SALVAR LANDING PAGE`` caso tenha realizado edições no *template* de *landing page*.  
+
+Caso o usuário desista das edições deve clicar no botão ``Cancelar`` para volta a tela de envio e detalhes da campanha.  
 
 ----
 
- .. image:: /figuras/fig_segurança/017_u_edição_campanha.png
+.. image:: /figuras/fig_segurança/017_u_edição_campanha.png
    :alt: editar campanha
    :align: center
 ----
@@ -5188,7 +5192,7 @@ No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova cam
 
 No segundo recorte é possível importar um arquivo de Grupos de Contatos através do botão ``Importar CSV``, assim como adicionar apenas um contato clicando na ação ``Adicionar contato único``. Clicando nesta, o seguinte modal é exibido: 
 
- .. image:: /figuras/fig_segurança/018_u_adicionar_contato.png
+.. image:: /figuras/fig_segurança/018_u_adicionar_contato.png
    :alt: adicionar contato
    :align: center
 ----
@@ -5197,7 +5201,7 @@ Na figura acima, o usuário deve preencher os campos com as informações do con
 
 ====
 
- .. image:: /figuras/fig_segurança/019_u_adicionar_contato_confirma.png
+.. image:: /figuras/fig_segurança/019_u_adicionar_contato_confirma.png
    :alt: botão adicionar contato
    :align: center
 ====
@@ -5206,7 +5210,7 @@ Na figura acima, o usuário deve preencher os campos com as informações do con
 
 =====
 
- .. image:: /figuras/fig_segurança/020_u_dominio_não_autorizado.png
+.. image:: /figuras/fig_segurança/020_u_dominio_não_autorizado.png
    :alt: domínio não autorizado
    :align: center
 ====
