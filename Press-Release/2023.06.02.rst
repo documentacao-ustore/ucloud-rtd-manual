@@ -4,7 +4,7 @@
 
 Press release: uCloud
 ---------------------
-Ano 2023 - Período 29 de Maio a 02 de Junho.
+Ano 2023 - Período: 29 de Maio a 02 de Junho.
 
 ====
 
@@ -38,7 +38,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-**Nuvem VMWare**
+.. centered:: **Nuvem VMWare**
 
 
 +----------------------------+------------------------------------------------------------------------------------------------+
