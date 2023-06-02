@@ -4011,11 +4011,81 @@ Para um melhor entendimento desse quadro assim como o passo a passo do processo 
 
 ----
 
+Os contatos são representados pelo sétimo *card* do menu *Ethical Phishing*. 
+
+.. image:: /figuras/fig_segurança/045_menu_contatos.png
+   :alt: menu contatos
+   :scale: 100% 
+   :align: center
+----
+
+Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails. Para facilitar o processo de envio, este *card* permite ao usuário criar diferentes possibilidades de emissão. 
+
+Ao acessá-lo, uma nova tela é apresentada. 
+
+.. image:: /figuras/fig_segurança/046_tela_contatos.png
+   :alt: tela contatos
+   :scale: 100% 
+   :align: center
+----
+
+Na figura acima dois botões de ação são exibidos: ``Voltar`` e ``+ Novo Grupo``, além de um *card* para listagem e outro para visualização. 
+
+
 ----
 
 .. centered:: Criando Contatos
 
 ----
+
+Para iniciar o processo de criação de um grupo de contatos, o usuário deve clicar na ação para adicionar um ``+ Novo Grupo``, e a seguinte tela é apresentada. 
+
+.. image:: /figuras/fig_segurança/047_criar_grupo.png
+   :alt: criar grupo
+   :scale: 100% 
+   :align: center
+----
+ 
+
+Nesta imagem é possível verificar a existência de quatro botões de ação: ``Voltar``, ``Novo Contato``, ``Escolher arquivo`` e ``+ Importar usuários em massa``. 
+
+
+O primeiro campo de preenchimento deve ser o nome do grupo, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal abaixo dele seja liberado para preenchimento.  
+
+.. image:: /figuras/fig_segurança/048_add_contato.png
+   :alt: add contato
+   :scale: 100% 
+   :align: center
+----
+
+Os espaços a serem preenchidos são: 
+
+   * Nome; 
+
+   * Sobrenome; 
+
+   * E-mail; 
+
+   * Cargo. 
+
+
+.. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados. 
+
+.. nota:: O cargo deve ser preenchido com o cargo real do colaborador, não com o usuário utilizador ou gerente de Phishing. 
+
+Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.  
+
+Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta que este prepare um arquivo em formato .CSV para fazer o *upload* do arquivo clicando no botão ``Escolher arquivo`` e em seguida confirmar a ação através do botão ``+Importar usuários em massa``. 
+
+.. image:: /figuras/fig_segurança/049_add_csv.png
+   :alt: add csv
+   :scale: 100% 
+   :align: center
+----
+
+.. nota:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (; ) 
+
+Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato (exibido na figura 48). Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
 
 ----
 
@@ -4023,12 +4093,51 @@ Para um melhor entendimento desse quadro assim como o passo a passo do processo 
 
 ----
 
+Retornando a tela inicial de contatos, é possível visualizar dois *cards*, conforme a imagem abaixo: 
+
+.. image:: /figuras/fig_segurança/046_tela_contatos.png
+   :alt: tela contatos
+   :scale: 100% 
+   :align: center
+----
+
+O primeiro *card* é dividido em quatro colunas: 
+
+   * **Grupo**: Exibe o nome que o usuário escolheu. 
+
+   * **Quantidade**: Apresenta a quantidade de contatos inseridas no grupo. 
+
+   * **Data de Alteração**: Mostra data e hora da última alteração do grupo. 
+
+   * **Deletar**: Ação representada por um botão "Lata de lixo", essa ação significa remover o grupo permanentemente. 
+
+Abaixo dessas colunas também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100 linhas. 
+
 ----
 
 .. centered:: Detalhando Contatos
 
 ----
 
+Ao clicar no grupo selecionado, o *card* ao lado apresenta os detalhes dos contatos inseridos no grupo, caso a lista seja longa, uma barra de rolagem é disponibilizada do lado direito do *card* para auxiliar na navegação. 
+
+.. image:: /figuras/fig_segurança/050_detalhes_contatos.png
+   :alt: detalhes template
+   :scale: 100% 
+   :align: center
+----
+
+Este segundo *card* apresenta dois botões de ação: um ícone com seta apontando pra baixo representa a ação de *download* do arquivo, caso o usuário deseje visualizá-lo integralmente, e ``Editar``.
+
+Ao clicar no segundo, o usuário é direcionado para a mesma tela no qual os contatos foram inseridos.  
+
+.. image:: /figuras/fig_segurança/051_editar_contatos.png
+   :alt: editar contatos
+   :scale: 100% 
+   :align: center
+----
+
+É permitido ao usuário administrador deletar contatos, assim como adicionar novos. Importante relembrar que pra cada alteração feita, é necessário clicar no botão ``Salvar`` no fim do processo para que as mudanças sejam efetivadas. 
 
 
 ====
