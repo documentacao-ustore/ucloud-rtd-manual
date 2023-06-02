@@ -5047,7 +5047,7 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
 
 * *Dashboard* do contrato;  
 
- .. image:: /figuras/fig_segurança/005_u_seleção_dashboard.png
+ .. image:: /figuras/fig_segurança/005_u_seleção_dashboard.1.png
    :alt: dashboard usuário
    :align: center
 ----
@@ -5106,6 +5106,7 @@ Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem c
 Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` é habilitado na coloração laranja bastando clicar no botão para avançar a segunda etapa. Neste passo, a tela apresenta *templates* pré-estabelecidos.  
 
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
+
 
 ----
  .. image:: /figuras/fig_segurança/008_selecionar_template.png
