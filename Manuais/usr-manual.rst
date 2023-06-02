@@ -3884,7 +3884,9 @@ Ao selecionar o contrato desejado, o usuário é direcionado para a tela de deta
 
 No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais. 
 
-Para outras informações basta acessar o Menu Administração (hyperlink: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#administracao-contrato)  
+Para outras informações basta acessar o submenu Contratos no Menu Administração_ .
+
+.. _Administração https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#administracao-contrato 
 
 A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo card “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
 
