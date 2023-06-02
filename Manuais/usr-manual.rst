@@ -5109,9 +5109,11 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
 
 ----
+
  .. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template
    :align: center
+
 ----
 
 No canto inferior direito de cada *template* há uma lupa para uma pré-visualização, que é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem. Também é apresentada no modal uma barra de rolagem que auxilia ao usuário verificar o detalhamento do *template*.  
@@ -5176,6 +5178,7 @@ No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova cam
 .. note:: O *template* do e-mail e de *landing page* editados modificam apenas o HTML da campanha atual. Para confirmar as edições o usuário deve clicar no botão ``SALVAR TEMPLATE`` para as modificações realizadas no *template* do e-mail e ``SALVAR LANDING PAGE`` caso tenha realizado edições no *template* de *landing page*.  Caso o usuário desista das edições deve clicar no botão ``Cancelar`` para volta a tela de envio e detalhes da campanha.  
 
 ----
+
  .. image:: /figuras/fig_segurança/017_u_edição_campanha.png
    :alt: editar campanha
    :align: center
