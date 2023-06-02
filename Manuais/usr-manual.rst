@@ -4545,7 +4545,7 @@ Os espaços a serem preenchidos são:
 
 .. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados. 
 
-.. nota:: O cargo deve ser preenchido com o cargo real do colaborador, não com o usuário utilizador ou gerente de Phishing. 
+.. note:: O cargo deve ser preenchido com o cargo real do colaborador, não com o usuário utilizador ou gerente de Phishing. 
 
 Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.  
 
@@ -4557,7 +4557,7 @@ Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta q
    :align: center
 ----
 
-.. nota:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (; ) 
+.. note:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (; ) 
 
 Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato (exibido na figura 48). Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
 
