@@ -5184,6 +5184,64 @@ No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova cam
    :align: center
 ----
 
+**Recorte 2**
+
+No segundo recorte é possível importar um arquivo de Grupos de Contatos através do botão ``Importar CSV``, assim como adicionar apenas um contato clicando na ação ``Adicionar contato único``. Clicando nesta, o seguinte modal é exibido: 
+
+ .. image:: /figuras/fig_segurança/018_u_adicionar_contato.png
+   :alt: adicionar contato
+   :align: center
+----
+
+Na figura acima, o usuário deve preencher os campos com as informações do contato (nome, sobrenome, E-mail e Cargo). Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado pela plataforma, caso o usuário desista da ação deve clicar em ``Cancelar `` para retornar a tela anterior.  
+
+====
+ .. image:: /figuras/fig_segurança/019_u_adicionar_contato_confirma.png
+   :alt: botão adicionar contato
+   :align: center
+====
+
+.. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. Caso o usuário adicione um e-mail com domínio não autorizado para o contrato a plataforma exibe a seguinte mensagem:  
+
+=====
+ .. image:: /figuras/fig_segurança/020_u_dominio_não_autorizado.png
+   :alt: domínio não autorizado
+   :align: center
+====
+
+**Recorte 3** 
+
+Após a adição dos contatos, os detalhes sobre o grupo selecionado são apresentados no terceiro recorte, exibido a seguir.  
+
+.. image:: /figuras/fig_segurança/021_u_detalhes_grupo.png
+   :alt: detalhes grupo
+   :align: center
+----
+
+**Recorte 4** 
+
+No lado direito da tela, informações sobre as cotas são expressas no recorte de número quatro, nessa parte o usuário terá acesso a informações como: o número de cotas disponíveis para envio, quantas cotas de envio já foram consumidas, e cotas de envios após a campanha. É possível também enviar um e-mail teste. Este, não consome sua cota de envio. Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é disponibilizado para acionamento. 
+
+.. image:: /figuras/fig_segurança/022_u_cotas_teste.png
+   :alt: detalhes grupo
+   :align: center
+----
+
+**Recorte 5** 
+
+Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.   
+
+.. image:: /figuras/fig_segurança/022_u_cotas_teste.png
+   :alt: detalhes grupo
+   :align: center
+====
+
+.. centered:: Campanhas de *Phishing*
+
+====
+
+
+
 
 **Usuários**
 ~~~~~~~~~~~~
