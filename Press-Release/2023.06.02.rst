@@ -107,7 +107,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                            |modelo visual e textual da comunicação do portal           |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens |
-|                            |e os estilos, assim o portal comunica com estilo e padrão  |
+|                            |e os estilos, assim o portal padroniza comunicação         |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
