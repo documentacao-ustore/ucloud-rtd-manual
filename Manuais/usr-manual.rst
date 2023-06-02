@@ -5241,9 +5241,79 @@ Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi 
 .. centered:: Campanhas de *Phishing*
 
 ====
+A nova tela ao qual o usuário Utilizador é direcionado apresenta três botões de ação: 
 
+   * **Botão** ``Voltar``;
+   * **Botão** ``Atualizar``;
+   * **Botão** ``+ Nova  Campanha``.
+   
+Além de dois *cards* com diferentes tipos de campanha: 
 
+     * Ativas;
+     * Arquivadas.  
 
+No canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+
+.. image:: /figuras/fig_segurança/021_tela_campanhas.png
+   :alt: tela campanhas 
+   :align: center
+----
+
+Ambos *cards* exibem quatro colunas que são descritas a seguir: 
+
+   * Nome; 
+
+   * Data de criação; 
+
+   * **Status**: Divide-se em: 
+
+     * Não iniciado; 
+
+     * Em progresso; 
+
+     * Finalizado (no caso de campanhas arquivadas). 
+
+   * **Ações**: representadas por quatro ícones: 
+
+.. image:: /figuras/fig_segurança/022_icones_açoes.png
+   :alt: icones ações 
+   :align: center
+----
+
+       * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
+     
+           * **Botão** ``Voltar``;
+  
+           * **Botão** ``Exportar``;
+  
+           * **Botão** ``Concluir campanha``. 
+
+ .. image:: /figuras/fig_segurança/023_icone_grafico.png
+   :alt: icone gráfico
+   :align: center
+----
+
+A tela acima mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+
+Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
+
+     * **Bloco de notas**: Este botão |icone_editar| representa a tela de envio e detalhes da campanha, já exibida anteriormente. 
+
+.. image:: /figuras/fig_segurança/015.3_info_extra.png
+   :alt: info extra 
+   :align: center
+----
+
+     * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
+     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
+
+.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+
+====
+
+.. centered:: Dashboard do contrato
+
+====
 
 **Usuários**
 ~~~~~~~~~~~~
