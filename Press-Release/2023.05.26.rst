@@ -1,6 +1,6 @@
 
-.. figure:: /figuras/ucloud.png
-   :alt: Logo uCLoud
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
    :scale: 50 %
    :align: center
    
