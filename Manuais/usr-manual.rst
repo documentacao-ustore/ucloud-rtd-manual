@@ -5240,8 +5240,8 @@ No lado direito da tela, informações sobre as cotas são expressas no recorte 
 
 Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.   
 
-.. image:: /figuras/fig_segurança/022_u_cotas_teste.png
-   :alt: detalhes grupo
+.. image:: /figuras/fig_segurança/023_u_teste_1.png
+   :alt: checkbox confirma
    :align: center
 ====
 
