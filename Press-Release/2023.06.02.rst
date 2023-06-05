@@ -19,11 +19,11 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 |Feature              |Relatório de gestão de crédito                                                                                        |
 +=====================+======================================================================================================================+
-|Objetivo             |O relatório utilitário proporciona ao administrador do sistema realizar o controle individual dos créditos do cliente |
-|                     |"a receber". Paralelamente, o administrador visualiza a somatória dos créditos na nuvem e a totalidade recebida pelo  |
+|Objetivo             |O relatório utilitário proporciona ao administrador do sistema realizar o controle individual dos créditos "a receber"|
+|                     |do cliente. Paralelamente, o administrador visualiza a somatória dos créditos na nuvem e a totalidade recebida pelo   |
 |                     |cliente                                                                                                               |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|Localização no portal|                                                                                                                      |
+|Localização no portal|Menu Financeiro > Utilitários                                                                                         |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
 
@@ -44,7 +44,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Quando uma máquina virtual associada a um balanceador for deletada, no menu "Tarefas" é exibida |
 |                            |a mensagem orientando remover previamente a máquina do balanceador e depois deletar             |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |Menu Tarefas                                                                                                |
+|Localização no portal       |Menu Tarefas                                                                                    |
 +----------------------------+------------------------------------------------------------------------------------------------+
 
 ====
@@ -57,13 +57,13 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Feature                     |Listagem de Virtual Datacenters concedidos                 |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Apresentar dados com persistência e precisão na lista de   |
-|                            |Virtual Datacenters concedidos                                                           |
+|Objetivo                    |Apresentar os dados com persistência e precisão na lista de|
+|                            |Virtual Datacenters concedidos                             |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|Visualização precisa da lista de Virtual Datacenters conce | 
-|                            |didos ao estar navegando dentro do Contrato                |
+|Novo comportamento do portal|Visualização precisa das informações na lista de Virtual   |
+|                            |Datacenters concedidos ao navegar dentro do Contrato       |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Administração > Contratos > Contrato > VDCs concedidos|
 +----------------------------+-----------------------------------------------------------+
 
 
@@ -71,13 +71,13 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Feature                     |Listagem de Pacotes                                        |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Visualizar os nomes dos pacotes de uma conta de acordo com |                                                           |
+|Objetivo                    |Visualizar os nomes dos pacotes de uma conta de acordo com |
 |                            |o idioma selecionado                                       |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|Ao definir novo idioma na plataforma, a lista de pacotes   | 
 |                            |de uma conta é exibida de acordo com língua optada         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Configuração > Gerenciamento de contas                |
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
@@ -91,7 +91,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                            |ça é alterada conforme a variação do tipo de perfil do     |
 |                            |usuário                                                    |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Configuração > Gerenciamento de contas                |
 +----------------------------+-----------------------------------------------------------+
 
 
@@ -117,14 +117,14 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Apresentar na lista de máquinas virtuais o filtro por tag e| 
 |                            |permissão de filtragem, adição do atributo specification   |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Máquinas Virtuais > Máquinas virtuais                 |
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Nova mensagem de erro ao logar no portal                   |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Apresentar mensagem específica ao usuário que insere login |                                                          |
+|Objetivo                    |Apresentar mensagem específica ao usuário que insere login |
 |                            |ou senha inválidos.                                        |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|Agora é possível visualizar a nova mensagem informativa de |
@@ -134,7 +134,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                            |                                                           | 
 |                            |A melhoria aumenta o nível de segurança no PMC.            |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Tela inicial do portal                                     |
 +----------------------------+-----------------------------------------------------------+
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
