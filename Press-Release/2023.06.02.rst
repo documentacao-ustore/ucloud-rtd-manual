@@ -19,9 +19,9 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 |Feature              |Relatório de gestão de crédito                                                                                        |
 +=====================+======================================================================================================================+
-|Objetivo             |O relatório utilitário proporciona ao administrador do sistema realizar o controle individual dos créditos do cliente | 
+|Objetivo             |O relatório utilitário proporciona ao administrador do sistema realizar o controle individual dos créditos do cliente |
 |                     |"a receber". Paralelamente, o administrador visualiza a somatória dos créditos na nuvem e a totalidade recebida pelo  |
-|                     |cliente                                                                                                               |                                                                              |
+|                     |cliente                                                                                                               |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal|                                                                                                                      |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
