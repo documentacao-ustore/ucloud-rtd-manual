@@ -71,7 +71,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Feature                     |Listagem de Pacotes                                        |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Visualizar os nomes dos pacotes de uma conta de acordo com |                                                           |
+|Objetivo                    |Visualizar os nomes dos pacotes de uma conta de acordo com |
 |                            |o idioma selecionado                                       |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|Ao definir novo idioma na plataforma, a lista de pacotes   | 
@@ -124,7 +124,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Feature                     |Nova mensagem de erro ao logar no portal                   |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Apresentar mensagem específica ao usuário que insere login |                                                          |
+|Objetivo                    |Apresentar mensagem específica ao usuário que insere login |
 |                            |ou senha inválidos.                                        |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|Agora é possível visualizar a nova mensagem informativa de |
