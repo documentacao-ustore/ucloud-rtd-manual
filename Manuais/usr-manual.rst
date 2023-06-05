@@ -5386,7 +5386,7 @@ Feito isso, o código de verificação é enviado para o e-mail preenchido. O us
 
 .. nota:: O card “Domínios autorizados” também é exibido na opção *Meu dashboard*, nele constam as mesmas opções apresentadas acima_.
 
-.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_. 
 
 ----
 
@@ -5415,9 +5415,9 @@ São apresentadas também quatro colunas:
 
     * Finalizado. 
 
-* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em "Meu Dashboard"_.
+* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em "Meu Dashboard_.
 
-.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_." 
 
 ----
 
