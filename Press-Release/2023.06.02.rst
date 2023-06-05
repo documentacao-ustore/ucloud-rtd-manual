@@ -3,7 +3,7 @@
 
 .. figure:: /figuras/_ustore.png
    :alt: Logo uStore
-   :scale: 80 %
+   :scale: 60 %
    :align: right
 
 ----
