@@ -5381,13 +5381,13 @@ Após clicar no botão para ``Autorizar novo domínio``, o modal “Renegociar c
 Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual opções para a seleção são exibidas ao clicar. Em seguida, o domínio deve ser corporativo válido, então deve-se clicar no botão ``Enviar código``.  
 
 
-.. nota:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
+.. warning:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
 
 
 Feito isso, o código de verificação é enviado para o e-mail preenchido. O usuário então deve logar neste para digitar no espaço apropriado os seis dígitos exibidos no e-mail, e em seguida clicar no botão de coloração azul ``Confirmar``. 
 
 
-.. nota:: O card “Domínios autorizados” também é exibido na opção *Meu dashboard*, nele constam as mesmas opções apresentadas acima_.
+.. important:: O card “Domínios autorizados” também é exibido na opção *Meu dashboard*, nele constam as mesmas opções apresentadas acima_.
 
 
 .. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_. 
