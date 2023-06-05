@@ -3,15 +3,15 @@
 
 .. figure:: /figuras/_ustore.png
    :alt: Logo uStore
-   :scale: 40 %
-   :align: right
+   :scale: 50 %
+   :align: center
 
 ----
 
 
 Press release: uCloud
 ---------------------
-Ano 2023 - Período: 29 de Maio a 02 de Junho.
+Ano 2023 - Período: 29 de Maio a 02 de Junho
 
 ====
 
