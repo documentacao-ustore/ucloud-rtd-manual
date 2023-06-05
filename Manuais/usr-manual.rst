@@ -5006,10 +5006,16 @@ Acesso do usuário: Utilizador
 -----------------------------
 
 ====
+
 **Acessando**
 ~~~~~~~~~~~~
 
-O usuário deve acessar a plataforma uCloud, ao iniciar a sessão necessita inserir as credenciais com o login e a senha, provisionadas previamente por um usuário com o perfil de administrador ou usuário com esta permissão. O perfil de usuário utilizador é compatível com os atributos de acesso ao *Ethical Phishing*. 
+----
+
+O usuário Utilizador deve acessar a plataforma uCloud, ao iniciar a sessão necessita inserir as credenciais com o login e a senha, provisionadas previamente por um usuário com o perfil Gerente Admin ou usuário com esta permissão. O perfil de usuário Utilizador é compatível com os atributos de acesso ao *Ethical Phishing*. Detalhamento destes perfis o leitor encontra em Usuários_.
+
+.. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios 
+
 
 .. image:: /figuras/fig_segurança/001_u_tela_login.png
    :alt: tela login usuário
@@ -5042,6 +5048,9 @@ No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresen
 **Dashboard do usuário Utilizador**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
+
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 O submenu *Dashboard* está dividido em dois *cards*. São eles: 
@@ -5057,6 +5066,9 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
 
 **Meu Dashboard**
 ~~~~~~~~~~~~~~~~~
+
+----
+
 
 Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela o usuário também pode acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.    
 
@@ -5423,43 +5435,9 @@ São apresentadas também quatro colunas:
 
 * Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em Meu Dashboard_.
 
-.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_. 
+.. _Dashboard: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
 
 ----
-
-**Usuários**
-~~~~~~~~~~~~
-
-----
-
-
-----
-
-.. centered:: Introdução
-
-----
-
-
-----
-
-.. centered:: Acesso a Usuários
-
-----
-
-
-----
-
-.. centered:: Criando Usuários
-
-----
-
-
-----
-
-.. centered:: Detalhando Usuários
-
-----
-
 
 ====
 
