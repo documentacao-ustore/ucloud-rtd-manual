@@ -81,7 +81,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Visualização dos recursos de segurança nas telas do Portal |
+|Feature                     |Visualização dos recursos de segurança nas telas do portal |
 |                            |                                                           |
 +============================+===========================================================+
 |Objetivo                    |Adequar o formato de visibilidade dos módulos de segurança |
@@ -96,7 +96,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Refatoração dos e-mails do Portal                          |
+|Feature                     |Refatoração dos e-mails do portal                          |
 |                            |                                                           |
 +============================+===========================================================+
 |Objetivo                    |Normalizar e padronizar a comunicação, com adição de novas |
