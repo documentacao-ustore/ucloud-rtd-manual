@@ -63,7 +63,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Visualização precisa das informações na lista de Virtual   |
 |                            |Datacenters concedidos ao navegar dentro do Contrato       |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Administração > Contratos > Contrato > VDCs concedidos|
 +----------------------------+-----------------------------------------------------------+
 
 
@@ -77,7 +77,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Ao definir novo idioma na plataforma, a lista de pacotes   | 
 |                            |de uma conta é exibida de acordo com língua optada         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Configuração > Gerenciamento de contas                |
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
@@ -91,7 +91,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                            |ça é alterada conforme a variação do tipo de perfil do     |
 |                            |usuário                                                    |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Configuração > Gerenciamento de contas                |
 +----------------------------+-----------------------------------------------------------+
 
 
@@ -117,7 +117,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Apresentar na lista de máquinas virtuais o filtro por tag e| 
 |                            |permissão de filtragem, adição do atributo specification   |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Máquinas Virtuais > Máquinas virtuais                 |
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
@@ -134,7 +134,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                            |                                                           | 
 |                            |A melhoria aumenta o nível de segurança no PMC.            |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Tela inicial do portal                                     |
 +----------------------------+-----------------------------------------------------------+
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
