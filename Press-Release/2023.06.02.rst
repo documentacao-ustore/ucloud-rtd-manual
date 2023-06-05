@@ -23,7 +23,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |                     |do cliente. Paralelamente, o administrador visualiza a somatória dos créditos na nuvem e a totalidade recebida pelo   |
 |                     |cliente                                                                                                               |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|Localização no portal|                                                                                                                      |
+|Localização no portal|Menu Financeiro > Utilitários                                                                                         |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
 
