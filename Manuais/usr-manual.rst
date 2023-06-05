@@ -5085,7 +5085,7 @@ Exibem também cinco *cards*. São eles:
   
 ====
 
-.. centered:: Criando uma Campanha
+.. centered:: Criando uma Campanha de *Phishing*
 
 ====
 
