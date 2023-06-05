@@ -5433,7 +5433,7 @@ São apresentadas também quatro colunas:
 
     * Finalizado. 
 
-* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em Meu Dashboard_
+* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em Meu Dashboard_.
 
 .. _Dashboard: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
 
@@ -5459,17 +5459,21 @@ A partir da plataforma é possível enviar e-mails testes para descobrir se os d
 
 Tais campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade de disparos. Para acessar essa opção e interagir com essa funcionalidade basta ao usuário clicar no *card* “Campanhas” conforme a imagem a seguir:  
 
+
  .. image:: figuras/fig_segurança/039_u_card_template.png
    :alt: card template
    :align: center
 ----
 
+
 A plataforma exibe a tela “Campanhas”, nela é possível visualizar e gerenciar as campanhas ativas e arquivadas:  
+
 
  .. image:: figuras/fig_segurança/021_tela_campanhas.png
    :alt: tela campanhas
    :align: center
 ----
+
 
 A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona o usuário para a tela inicial, ``Atualizar`` para apresentar a lista mais recente de campanhas ativas e arquivadas e ``+ Nova  Campanha`` que encaminha o usuário para a criação de uma nova campanha. Para mais detalhes convidamos o leitor para leitura dos tópicos: **Campanhas de Phishing** e **Criando Campanha de Phishing** presentes no capítulo *Dashboard do Ethical Phishing*_.
 
@@ -5492,17 +5496,21 @@ A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona 
 
 No modulo do *Ethical Phishing* temos a página de Contatos, para acessá-la basta clicar no botão ``Contatos`` da página inicial conforme a imagem seguinte:  
 
+
  .. image:: figuras/fig_segurança/040_u_card_contatos.png
    :alt: card contatos
    :align: center
 ----
 
+
 Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails. Para facilitar o processo de envio, este card permite ao usuário criar diferentes possibilidades de emissão, é possível criar e gerenciar os contatos, criar grupos ou importar um arquivo formato .CSV com todos os e-mails destinatários, além da alternativa de adicionar um contato único à campanha. Ao acessá-lo, uma nova tela é apresentada.  
+
 
  .. image:: figuras/fig_segurança/046_tela_contatos.png
    :alt: tela contatos
    :align: center
 ----
+
 
 Na figura acima dois botões de ação são exibidos: ``Voltar`` e ``+ Novo Grupo``, além de um card para listagem e outro para visualização. 
 
@@ -5514,20 +5522,24 @@ Na figura acima dois botões de ação são exibidos: ``Voltar`` e ``+ Novo Grup
 
 Para iniciar o processo de criação de um grupo de contatos, o usuário deve clicar na ação para adicionar um ``+ Novo Grupo``, e a seguinte tela é apresentada. 
 
+
  .. image:: figuras/fig_segurança/047_criar_grupo.png
    :alt: tela de criação de grupo
    :align: center
 ----
+
 
 Nesta imagem é possível verificar a existência de quatro botões de ação: ``Voltar``, ``Novo Contato``, ``Escolher ficheiro`` e ``+ Importar usuários em massa``.  
 
 O primeiro campo de preenchimento deve ser o nome do grupo, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal abaixo dele seja liberado para preenchimento.    
 
 
+
  .. image:: figuras/fig_segurança/048_add_contato.png
    :alt: adicionar contato
    :align: center
 ----
+
 
 Os espaços a serem preenchidos são:  
 
@@ -5541,19 +5553,23 @@ Os espaços a serem preenchidos são:
 
 .. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados, caso o usuário indique um e-mail de um domínio não permitido, a plataforma exibe a seguinte mensagem: 
 
+
  .. image:: figuras/fig_segurança/020_u_dominio_não_autorizado.png
    :alt: aviso de domínio
    :align: center
 ----
 
+
 Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.   
 
 Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta que este prepare um arquivo em formato .CSV para fazer o *upload* clicando no botão ``Escolher ficheiro`` e após selecionar o arquivo salvo na máquina confirmar a ação através do botão ``+ Importar usuários em massa``. 
+
 
  .. image:: figuras/fig_segurança/046_u_contatos_importar_usuarios.png
    :alt: botões importar usuários
    :align: center
 ----
+
 
 .. nota:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (;)  
 
@@ -5567,10 +5583,12 @@ Após confirmar a ação, a tela de visualização apresenta os detalhes informa
 
 Retornando a tela inicial de contatos, é possível visualizar dois cards, conforme a imagem abaixo: 
 
+
  .. image:: figuras/fig_segurança/046_tela_contatos.png
    :alt: tela contatos
    :align: center
 ----
+
 
 O primeiro card é dividido em quatro colunas:  
 
@@ -5581,6 +5599,7 @@ O primeiro card é dividido em quatro colunas:
 * Data de Alteração: Mostra data e hora da última alteração do grupo.  
 
 * Deletar: Representada por um ícone de lata de lixo, essa ação significa remover o grupo permanentemente. Ao clicar no ícone a seguinte mensagem de alerta é exibida:
+
 
  .. image:: figuras/fig_segurança/048_excluir_contatos_aviso.png
    :alt: aviso exclusão
@@ -5594,10 +5613,12 @@ O primeiro card é dividido em quatro colunas:
 
 Ao clicar no grupo selecionado, o *card* ao lado apresenta os detalhes dos contatos inseridos no grupo. 
 
+
  .. image:: figuras/fig_segurança/050_detalhes_contatos.png
    :alt: detalhe de contato
    :align: center
 ----
+
 
 Este segundo card apresenta dois botões de ação: um ícone com seta apontando pra baixo representando a ação de *download* do arquivo e ``Editar``.  
 
@@ -5605,10 +5626,12 @@ Ao clicar no botão de download, é realizada a descarga de um arquivo em format
 
 Ao clicar no botão de "Edição", o usuário é direcionado para a mesma tela no qual os contatos foram inseridos.   
 
+
  .. image:: figuras/fig_segurança/051_editar_contatos.png
    :alt: tela de contatos
    :align: center
 ----
+
 
 Importante relembrar que pra cada alteração feita, é necessário clicar no botão ``Salvar`` no fim do processo para que as mudanças sejam efetivadas. 
 
