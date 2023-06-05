@@ -17,20 +17,15 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 ====
 
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|Feature              |                                                                                                                      |
+|Feature              |Relatório de gestão de crédito                                                                                        |
 +=====================+======================================================================================================================+
-|Objetivo             |                                                                                                                      |
+|Objetivo             |O relatório utilitário proporciona ao administrador do sistema realizar o controle individual dos créditos do cliente |
+|                     |"a receber". Paralelamente, o administrador visualiza a somatória dos créditos na nuvem e a totalidade recebida pelo  |
+|                     |cliente                                                                                                               |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal|                                                                                                                      |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
-+----------------------+-----------------------------------------------------------------+
-|Feature               |                                                                 |
-+======================+=================================================================+
-|Objetivo              |                                                                 |
-+----------------------+-----------------------------------------------------------------+
-|Localização no portal |                                                                 |
-+----------------------+-----------------------------------------------------------------+
 
 ====
 
@@ -38,7 +33,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 ====
 
-.. centered:: **Nuvem VMWare**
+.. centered:: **Nuvem VMware**
 
 
 +----------------------------+------------------------------------------------------------------------------------------------+
@@ -49,7 +44,7 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Novo comportamento do portal|Quando uma máquina virtual associada a um balanceador for deletada, no menu "Tarefas" é exibida |
 |                            |a mensagem orientando remover previamente a máquina do balanceador e depois deletar             |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                                |
+|Localização no portal       |Menu Tarefas                                                                                                |
 +----------------------------+------------------------------------------------------------------------------------------------+
 
 ====
@@ -59,14 +54,14 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 ====
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Listagem de Virtual Datacenter                             |
+|Feature                     |Listagem de Virtual Datacenters concedidos                 |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
+|Objetivo                    |Apresentar dados com persistência e precisão na lista de   |
+|                            |Virtual Datacenters concedidos                                                           |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
+|Novo comportamento do portal|Visualização precisa da lista de Virtual Datacenters conce | 
+|                            |didos ao estar navegando dentro do Contrato                |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
@@ -76,27 +71,29 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Feature                     |Listagem de Pacotes                                        |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
+|Objetivo                    |Visualizar os nomes dos pacotes de uma conta de acordo com |                                                           |
+|                            |o idioma selecionado                                       |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
+|Novo comportamento do portal|Ao definir novo idioma na plataforma, a lista de pacotes   | 
+|                            |de uma conta é exibida de acordo com língua optada         |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Visualização de recursos de segurança em telas do PMC      |
+|Feature                     |Visualização dos recursos de segurança nas telas do PMC    |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
+|Objetivo                    |Adequar o formato de visibilidade dos módulos de segurança |
+|                            |em conformidade com o tipo de perfil do usuário            |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
+|Novo comportamento do portal|A visão dos funcionalidades nos cards do módulo de seguran | 
+|                            |ça é alterada conforme a variação do tipo de perfil do     |
+|                            |usuário                                                    |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
+
 
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Refatoração dos e-mails do PMC                             |
@@ -105,11 +102,10 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 |Objetivo                    |Normalizar e padronizar com adição de novas regras e layout|
 |                            |modelo visual e textual da comunicação do portal           |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens | 
-|                            |e os estilos, assim o portal comunica com estilo e padrão  |                                                           |
+|Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens |
+|                            |e os estilos, assim o portal padroniza comunicação         |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
+
 
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Filtragem de máquinas virtuais por tag                     |

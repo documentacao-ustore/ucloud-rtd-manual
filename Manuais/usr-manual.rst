@@ -3289,7 +3289,7 @@ Em resumo, este módulo de segurança é desenvolvido com o conceito de ser éti
 
 Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *landing pages*. 
 
-Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no dashboard, eles geram métricas de uso individual e coletivo.  
+Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no *dashboard*, eles geram métricas de uso individual e coletivo.  
 
 ====
 
@@ -3298,6 +3298,9 @@ Acesso do usuário: Gerente Admin
 
 ====
 
+.. centered:: Jornada do usuário Gerente Admin
+
+====
 
 Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*.
 
@@ -3315,9 +3318,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-.. centered:: Jornada do usuário Gerente Admin
 
-====
 
 No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
 
@@ -3359,9 +3360,6 @@ As atividades relacionadas ao *ethical phishing* refletem no painel os indicador
 
 ====
 
-.. centered:: Jornada do usuário Gerente Admin
-
-====
 
 No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
 
@@ -3434,9 +3432,9 @@ Feito isso, uma nova tela surge, e é apresentado ao usuário 5 etapas a serem c
    :align: center
 ----
 
-Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. 
+Em seguida, é possível selecionar uma ou mais *tags*, caso deseje, também é permitido criar *tags* para facilitar a identificação da campanha. 
 
-Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que estará desabilitado em cor cinza até que o usuário nomeie a Campanha, para ir para o próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` será habilitado na coloração laranja bastando clicar no  botão para avançar a segunda etapa.  
+Após isso, o usuário tem a opção de duas ações: ``Cancelar`` para voltar a tela anterior, e ``Selecionar um template``, que se mostra desabilitado ao estar na coloração cinza até que o usuário nomeie a Campanha. Para ir ao próximo passo o usuário deve nomear a campanha, o botão ``Selecionar um template`` é habilitado na coloração laranja bastando clicar no botão para avançar a segunda etapa.  
 
 Neste passo, a tela apresenta *templates* pré-estabelecidos.
 
@@ -3481,7 +3479,7 @@ Ao avançar para o quinto e último passo, é possível revisar todas as escolha
    :align: center
 ----
 
-Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
+Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: *“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”*. 
 
 Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
@@ -3626,7 +3624,9 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
    :align: center
 ----
 
-A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
+A tela acima "Campanha - teste campanha" mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. 
+
+Ao clicar no ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
 Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
@@ -3886,7 +3886,7 @@ No contrato são definidos os custos, a margem financeira, taxa de conversão de
 
 Para outras informações basta acessar o submenu Contratos no Menu Administração_ .
 
-.. _Administração https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#administracao-contrato 
+.. _Administração https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao 
 
 A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo card “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
 
@@ -3931,7 +3931,7 @@ O mais importante, além das cotas de segurança, é a relação do usuário com
  
 **Usuário administrador do uCloud**:  
 
-Este é o único usuário que, além de criar perfis de usuários no uCloud, tem a atribuição de adicionar no menu de Segurança: *Ethical Phishing* novos usuários, seja como administrador ou usuário. Este usuário pode atualizar os dados do contrato do cliente, as especificações e as autorizações de serviço.
+Este é o único personagem que, além de criar perfis no uCloud, tem a atribuição de adicioná-los ao *Ethical Phishing* (seja como Gerente Admin ou Utilizador). Este usuário Administrador do uCloud pode atualizar os dados do contrato do cliente, as especificações e as autorizações de serviço.
 
 No menu de Segurança do *Ethical Phishing* existem dois tipos de usuários, são eles: 
 
@@ -4014,10 +4014,13 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
    * **Login**: Campo de livre digitação, assim como o anterior, também é possível o uso de números e caracteres especiais. 
 
-   * **Senha**:  A chave de segurança deve ter oito dígitos, sendo necessário ter letras maiúsculas e minúsculas, números e caracteres especiais.  
+   * **Senha**:  A chave de segurança deve ter oito dígitos, sendo necessário ter letras maiúsculas e minúsculas, números e caracteres especiais. 
+
+
 
 .. attention:: O caractere especial ponto (.) não é permitido.
  
+
 
    * **Confirmar senha**: Neste espaço deve ser repetido a chave de segurança da senha anterior. 
 
@@ -4077,7 +4080,7 @@ Na parte inferior do modal são apresentados dois botões de ação ``Cancelar``
 
 Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu Usuários no Menu Administração_ 
 
-.. _Administração:: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios
+.. _Administração: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios
 
 Os *cards* com maior importância para o *Phishing* são apenas dois: Geral e Cotas de Segurança.  
 
@@ -4559,7 +4562,7 @@ Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta q
 
 .. note:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (; ) 
 
-Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato (exibido na figura 48). Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
+Após confirmar a ação, a tela de visualização apresenta os detalhes. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato (exibido na figura 48). Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
 
 ----
 
