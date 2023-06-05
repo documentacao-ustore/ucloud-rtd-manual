@@ -1,20 +1,23 @@
-2023.06.02
-++++++++++
 
-.. figure:: /figuras/ucloud.png
-   :alt: Logo uCLoud
-   :align: right
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
 
 ----
 
+2023.06.02
+==========
 
 Press release: uCloud
 ---------------------
-Ano 2023 - Período: 29 de Maio a 02 de Junho.
+Ano 2023 - Período: 29 de Maio a 02 de Junho
 
 ====
 
-Neste *press release* a Ustore comunica  os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo. A partir deste anúncio, o portal passa a atender os seguintes itens listados e divididos em dois grupos: Billing e OPS. 
+Nesta comunicação a Ustore anuncia os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo. 
+
+A partir deste anúncio, o portal passa a atender os seguintes itens listados e divididos em dois grupos: Billing e OPS. 
 
 ====
 
