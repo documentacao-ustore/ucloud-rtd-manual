@@ -81,14 +81,14 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 +----------------------------+-----------------------------------------------------------+
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Visualização dos recursos de segurança nas telas do PMC    |
+|Feature                     |Visualização dos recursos de segurança nas telas do Portal |
 |                            |                                                           |
 +============================+===========================================================+
 |Objetivo                    |Adequar o formato de visibilidade dos módulos de segurança |
 |                            |em conformidade com o tipo de perfil do usuário            |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|A visão dos funcionalidades nos cards do módulo de seguran | 
-|                            |ça é alterada conforme a variação do tipo de perfil do     |
+|Novo comportamento do portal|Alterada a visão das funcionalidades nos cards do módulo de| 
+|                            |segurança conforme a variação do tipo de perfil do         |
 |                            |usuário                                                    |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |Menu Configuração > Gerenciamento de contas                |
@@ -96,11 +96,11 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |Refatoração dos e-mails do PMC                             |
+|Feature                     |Refatoração dos e-mails do Portal                          |
 |                            |                                                           |
 +============================+===========================================================+
-|Objetivo                    |Normalizar e padronizar com adição de novas regras e layout|
-|                            |modelo visual e textual da comunicação do portal           |
+|Objetivo                    |Normalizar e padronizar a comunicação, com adição de novas |
+|                            |regras e layout, novo modelo visual e textual              |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|A reestrutura dos templates de e-mails persiste as imagens |
 |                            |e os estilos, assim o portal padroniza comunicação         |
