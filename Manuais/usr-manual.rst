@@ -5111,7 +5111,6 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags* para
 
 .. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
 
-----
 
 .. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template
@@ -5184,7 +5183,6 @@ Para confirmar as edições o usuário deve clicar no botão ``SALVAR TEMPLATE``
 
 Caso o usuário desista das edições deve clicar no botão ``Cancelar`` para volta a tela de envio e detalhes da campanha.  
 
-----
 
 .. image:: /figuras/fig_segurança/017_u_edição_campanha.png
    :alt: editar campanha
@@ -5202,21 +5200,20 @@ No segundo recorte é possível importar um arquivo de Grupos de Contatos atrav�
 
 Na figura acima, o usuário deve preencher os campos com as informações do contato (nome, sobrenome, E-mail e Cargo). Somente após completar os espaços, o botão de ``Adicionar Contato`` é ativado pela plataforma, caso o usuário desista da ação deve clicar em ``Cancelar`` para retornar a tela anterior.  
 
-====
 
 .. image:: /figuras/fig_segurança/019_u_adicionar_contato_confirma.png
    :alt: botão adicionar contato
    :align: center
-====
+----
 
 .. attention:: Apenas e-mails com domínios confirmados podem ser adicionados. Caso o usuário adicione um e-mail com domínio não autorizado para o contrato a plataforma exibe a seguinte mensagem:  
 
-=====
+
 
 .. image:: /figuras/fig_segurança/020_u_dominio_não_autorizado.png
    :alt: domínio não autorizado
    :align: center
-====
+----
 
 **Recorte 3** 
 
@@ -5232,7 +5229,7 @@ Após a adição dos contatos, os detalhes sobre o grupo selecionado são aprese
 No lado direito da tela, informações sobre as cotas são expressas no recorte de número quatro, nessa parte o usuário terá acesso a informações como: o número de cotas disponíveis para envio, quantas cotas de envio já foram consumidas, e cotas de envios após a campanha. É possível também enviar um e-mail teste. Este, não consome sua cota de envio. Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é disponibilizado para acionamento. 
 
 .. image:: /figuras/fig_segurança/022_u_cotas_teste.png
-   :alt: detalhes grupo
+   :alt: cotas teste
    :align: center
 ----
 
