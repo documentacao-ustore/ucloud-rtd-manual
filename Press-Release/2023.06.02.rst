@@ -1,5 +1,3 @@
-2023.06.02
-++++++++++
 
 .. figure:: /figuras/_ustore.png
    :alt: Logo uStore
@@ -8,6 +6,8 @@
 
 ----
 
+2023.06.02
+==========
 
 Press release: uCloud
 ---------------------
