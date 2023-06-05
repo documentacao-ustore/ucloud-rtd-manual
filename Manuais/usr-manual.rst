@@ -5346,7 +5346,12 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 
 ----
 
-Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada, possibilitando o acompanhamento dos dados das campanhas do contrato logado na sessão no mês selecionado. Três botões de ações são apresentados na página: ``Voltar``, ``Criar Usuário`` e ``Autorizar novo domínio``, além do card de contato com o Suporte.   
+Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada, possibilitando o acompanhamento dos dados das campanhas do contrato logado na sessão no mês selecionado. Quatro botões de ações são apresentados na página: 
+
+* ``Voltar``;
+* ``Criar Usuário``
+* ``Autorizar novo domínio`` 
+* ``Suporte``.   
 
  .. image:: /figuras/fig_segurança/032_u_dashboard_contratos.png
    :alt: tela dashboard do contrato
@@ -5364,7 +5369,9 @@ Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do 
 
 ----
 
-Do lado direito da tela, é possível observar o card de domínios autorizados. 
+Do lado direito da tela, é possível observar o card de domínios autorizados_.
+
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_. 
 
  .. image:: /figuras/fig_segurança/029_dominios_lista.png
    :alt: dominios autorizados
@@ -5385,12 +5392,6 @@ Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *drop
 
 
 Feito isso, o código de verificação é enviado para o e-mail preenchido. O usuário então deve logar neste para digitar no espaço apropriado os seis dígitos exibidos no e-mail, e em seguida clicar no botão de coloração azul ``Confirmar``. 
-
-
-.. important:: O card “Domínios autorizados” também é exibido na opção *Meu dashboard*, nele constam as mesmas opções apresentadas acima_.
-
-
-.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_
 
 
 ----
@@ -5422,7 +5423,7 @@ São apresentadas também quatro colunas:
 
 * Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em Meu Dashboard_.
 
-.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_." 
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7_. 
 
 ----
 
