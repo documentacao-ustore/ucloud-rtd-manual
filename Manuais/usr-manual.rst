@@ -5240,6 +5240,13 @@ Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi 
 .. image:: /figuras/fig_segurança/023_u_teste_1.png
    :alt: checkbox confirma
    :align: center
+----
+
+Após o usuário confirmar que testou o e-mail e que está pronto para poder iniciar a campanha, os espaços com data e hora são automaticamente preenchidos, e o botão para ``Rodar campanha`` é habilitado. Depois de clicar nesta ação, é necessário pressionar o botão localizado na parte inferior da página para ``Salvar e continuar mais tarde`` e uma mensagem de feedback é exibida no canto inferior direito da página informando que a solicitação de campanha foi enviada.
+
+.. image:: /figuras/fig_segurança/024_u_teste_2.png
+   :alt: teste confirmado
+   :align: center
 ====
 
 .. centered:: Campanhas de *Phishing*
@@ -5292,12 +5299,27 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
   
            * **Botão** ``Concluir campanha``. 
 
+Ao clicar no botão ``Concluir campanha`` a plataforma apresenta uma mensagem de confirmação:  
+
+ .. image:: /figuras/fig_segurança/028_u_aviso_campanhas.png
+   :alt: aviso campanhas
+   :align: center
+----
+
+Se o usuário optar por concluir a campanha, um aviso aparece no canto inferior direito da tela, informando que a solicitação de finalização da campanha foi enviada ao sistema.  
+
+ .. image:: /figuras/fig_segurança/029_u_solicitação_campanhas.png
+   :alt: solicitação campanhas
+   :align: Center
+----
+
+A tela abaixo mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue.
+
  .. image:: /figuras/fig_segurança/023_icone_grafico.png
    :alt: icone gráfico
    :align: center
 ----
 
-A tela acima mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *phishing* e informações adicionais como: número de e-mails enviados, número de e-mails abertos, número de *links* clicados e a quantidade de contatos que enviaram seus dados. Ao clicar o ícone de ajuda, representado por um olho, ao lado dos números, os colaboradores que fizeram essas ações são evidenciados na lista que se segue. 
 
 Além disto, no fim da lista, no canto inferior esquerdo é possível observar blocos de informações que podem ser apresentados com 10, 25, 50 e 100 linhas. 
 
@@ -5309,14 +5331,98 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 ----
 
      * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
-     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. 
+     * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. Ao clicar no ícone um aviso aparece no canto inferior direito da tela, informando que a solicitação para exclusão da campanha foi enviada ao sistema. 
 
-.. important:: Nenhum aviso de confirmação é apresentada antes de deletar a campanha, é exibida apenas uma mensagem de feedback. Após a atualização da página, a mudança é feita. 
+ .. image:: /figuras/fig_segurança/033_u_solicitação_exclusão_campanhas.png
+   :alt: feedback exclusãO
+   :align: center
+----
+
+.. important:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha, é exibida apenas a mensagem de aviso descrita acima. 
 
 ----
 
 **Dashboard do contrato** 
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+-----
+
+.. centered:: Introdução
+
+----
+
+Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada, possibilitando o acompanhamento dos dados das campanhas do contrato logado na sessão no mês selecionado. Três botões de ações são apresentados na página: ``Voltar``, ``Criar Usuário`` e ``Autorizar novo domínio``, além do card de contato com o Suporte.   
+
+ .. image:: /figuras/fig_segurança/032_u_dashboard_contratos.png
+   :alt: tela dashboard do contrato
+   :align: center
+----
+
+É permitido ao usuário digitar o mês e ano que deseja visualizar. São exibidos os detalhes das cotas de envio, informando o número de cotas disponíveis, consumidas e a quantidade de contatos ativos. Logo abaixo, é informado o próximo dia que as cotas são renovadas. Ao lado, também é possível observar dados sobre as campanhas: quantas estão em execução e quantas foram concluídas.  
+
+ .. image:: /figuras/fig_segurança/026_recorte_cotas.png
+   :alt: detalhes de cotas
+   :align: center
+----
+
+.. centered:: Domínios autorizados
+
+----
+
+Do lado direito da tela, é possível observar o card de domínios autorizados. 
+
+ .. image:: /figuras/fig_segurança/036_u_dominios_autorizados.png
+   :alt: dominios autorizados
+   :align: center
+----
+
+Após clicar no botão para ``Autorizar novo domínio``, o modal “Renegociar cotas” é apresentado: 
+
+ .. image:: /figuras/fig_segurança/037_u_renegociar_cotas.png
+   :alt: renegociar cotas
+   :align: center
+----
+
+Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual opções para a seleção são exibidas ao clicar. Em seguida, o domínio deve ser corporativo válido, então deve-se clicar no botão ``Enviar código``.  
+
+.. nota:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
+
+Feito isso, o código de verificação é enviado para o e-mail preenchido. O usuário então deve logar neste para digitar no espaço apropriado os seis dígitos exibidos no e-mail, e em seguida clicar no botão de coloração azul ``Confirmar``. 
+
+.. nota:: O card “Domínios autorizados” também é exibido na opção *Meu dashboard*, nele constam as mesmas opções apresentadas acima_.
+
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
+
+----
+
+.. centered:: Listando campanhas na jornada do Utilizador 
+
+----
+
+No último card da tela são exibidas as campanhas do mês corrente, neste é possível utilizar a barra de pesquisa para auxiliar na busca.  
+
+ .. image:: /figuras/fig_segurança/031_detalhes_campanhas.png
+   :alt: detalhes das campanhas
+   :align: center
+----
+
+São apresentadas também quatro colunas:  
+
+* Nome 
+
+* Data de Criação 
+
+* Status:  
+
+    * Não iniciado 
+
+    * Em progresso 
+
+    * Finalizado. 
+
+* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em "Meu Dashboard"_.
+
+.. _https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id7 
 
 ----
 
