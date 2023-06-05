@@ -5333,12 +5333,7 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
      * **Copiar e colar**: Esta ação |icone_copiar|  copia e cola os detalhes da campanha.
      * **Lata de lixo**: Pressionar neste |icone_excluir| representa a exclusão da campanha criada. Ao clicar no ícone um aviso aparece no canto inferior direito da tela, informando que a solicitação para exclusão da campanha foi enviada ao sistema. 
 
- .. image:: /figuras/fig_segurança/033_u_solicitação_exclusão_campanhas.png
-   :alt: feedback exclusãO
-   :align: center
-----
-
-.. important:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha, é exibida apenas a mensagem de aviso descrita acima. 
+.. important:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha. 
 
 ----
 
@@ -5371,14 +5366,14 @@ Apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do 
 
 Do lado direito da tela, é possível observar o card de domínios autorizados. 
 
- .. image:: /figuras/fig_segurança/036_u_dominios_autorizados.png
+ .. image:: /figuras/fig_segurança/029_dominios_lista.png
    :alt: dominios autorizados
    :align: center
 ----
 
 Após clicar no botão para ``Autorizar novo domínio``, o modal “Renegociar cotas” é apresentado: 
 
- .. image:: /figuras/fig_segurança/037_u_renegociar_cotas.png
+ .. image:: /figuras/fig_segurança/030_modal_dominio.png
    :alt: renegociar cotas
    :align: center
 ----
