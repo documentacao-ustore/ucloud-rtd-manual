@@ -3195,6 +3195,9 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 Menu Segurança: *Ethical Phishing*
 ==================================
 
+====
+
+
 Os melhores sistemas de segurança do mundo são desafiados constantemente pelos cibercriminosos, no intuito de confundir o elemento humano, considerado como a parte mais sensível de qualquer sistema de defesa. Estes criminosos intencionam persuadir o usuário inexperiente que talvez desconheça os riscos e as ameaças do espaço virtual, para roubar dados, interromper operações, falsificar informações, espionar, dentre outros. Suas ações são cada vez mais elaboradas e aumentam o risco à segurança das informações, tanto empresariais como pessoais.    
 
 Atenta à evolução constante do mercado brasileiro e às demandas dos nossos usuários, a Ustore apresenta o MENU DE SEGURANÇA, uma nova implementação no menu de funcionalidades do portal uCloud. 
@@ -3232,11 +3235,11 @@ Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir
 ====
 
 
-Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
+Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais "online", é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
 
-É crescente o número de ataques *“hackers”* sofridos por empresas no mundo, sua principal característica é o refinamento da invasão e a quantidade de dados subtraídos a cada crime cometido em ambiente virtual. Em paralelo, a esta recorrência é fundamental que a expansão e inovação contínuas, tanto nas pequenas empresas como nas organizações de grande porte devem priorizar a proteção e a confidencialidade dos seus dados. 
+É crescente o número de ataques *“hackers”* sofridos por empresas no mundo, sua principal característica é o refinamento da invasão e a quantidade de dados subtraídos a cada crime cometido em ambiente virtual. Em paralelo a esta recorrência é fundamental que a expansão e inovação contínuas tanto nas pequenas empresas como nas organizações de grande porte devem priorizar a proteção e a confidencialidade dos seus dados. 
 
-No mundo real o ataque de *phishing*,  é a tentativa direcionada a roubar dados confidenciais, como informações pessoais ou senhas em sites que fingem ser legítimos. Os cibercriminosos simulam identidades falsas e tentam se passar por empresas confiáveis, enviando comunicações fraudulentas por e-mail. Normalmente elas contêm o link para um site de destino (mais conhecido como *landing page*), a principal característica deste golpe é o disfarce utilizado para fisgar o leitor e encaminhá-lo à vulnerabilidade.  
+No mundo real o ataque de *phishing*,  é a tentativa direcionada a roubar dados confidenciais, como informações pessoais ou senhas em sites que fingem ser legítimos. Os cibercriminosos simulam identidades falsas e tentam se passar por empresas confiáveis, enviando comunicações fraudulentas por e-mail. Normalmente elas contêm o "link" para um site de destino (mais conhecido como *landing page*), a principal característica deste golpe é o disfarce utilizado para fisgar o leitor e encaminhá-lo à vulnerabilidade.  
 
 Este é um dos tipos mais antigos de ataque cibernético (originado nos anos 90), e ainda, um dos mais difundidos e perigosos, com mensagens e técnicas cada vez mais elaboradas que colocam em risco as empresas e seus colaboradores. Hoje é considerado um dos ataques de engenharia social mais comum. 
 
@@ -3265,7 +3268,7 @@ E, a partir daí, poder entender o comportamento dos colaboradores e a necessida
 
 Dessa forma, inserir o *Ethical Phishing* como uma solução de defesa cibernética na empresa, agrega desempenho e agilidade aos times de processos e pessoas, com as simulações das campanhas direcionadas a entender em detalhes o comportamento de cada leitor, com a demonstração das informações precisas, distribuídas em *dashboards*, seja por grupos ou individualmente.  
 
-As vantagens das simulações de ataque é identificar atitudes sem alterar a realidade, permite observar situações e fenômenos com precisão, para treinar o comportamento em casos reais.  Além de coletar estatísticas e acompanhar a evolução. 
+As vantagens das simulações de ataque é identificar atitudes sem alterar a realidade, permite observar situações e fenômenos com precisão, para treinar o comportamento em casos reais. Além de coletar estatísticas e acompanhar a evolução. 
 
 Os benefícios na execução das simulações são:  
 
@@ -3287,7 +3290,7 @@ Os benefícios na execução das simulações são:
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
-Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *landing pages*. 
+Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, a checagem é realizada com a criação de campanhas maliciosas simulando ataques de *Phishing*, com a criação de *Templates* e *Landing pages*. 
 
 Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no *dashboard*, eles geram métricas de uso individual e coletivo.  
 
@@ -3302,7 +3305,11 @@ Acesso do usuário: Gerente Admin
 
 ====
 
-Para iniciar a sessão é necessário obter as credenciais, login e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*.
+
+JAIRO TESTANDO
+
+
+Para iniciar a sessão é necessário obter as credenciais, *login* e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*.
 
 .. image:: /figuras/fig_segurança/001_tela_login.png
    :alt: tela login
@@ -3310,7 +3317,7 @@ Para iniciar a sessão é necessário obter as credenciais, login e a senha, pro
 
 ---- 
 
-Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Ao estar logado, seja ele com o perfil do usuário administrador ou comum, ambos compatíveis com os atributos de acesso ao *Ethical Phishing*, visualiza as funcionalidades do **menu Segurança** deve acessar o submenu **Ethical Phishing**.
+Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal do uCloud.  Uma vez logado, seja ele com o perfil do usuário administrador ou utilizador, ambos compatíveis com os atributos de acesso ao *Ethical Phishing* podem observar as funcionalidades do **menu Segurança** e acessar o submenu **Ethical Phishing**.
 
 .. image:: /figuras/fig_segurança/002.1_segurança_phishing.png
    :alt: segurança phishing
@@ -3318,9 +3325,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 ---- 
 
-
-
-No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apresentado em dez cards, listados a seguir: 
+No perfil do usuário gerente Admin do *Ethical Phishing*, o *Dashboard* é apresentado em dez *cards*, listados a seguir: 
 
    * Meu *dashboard*; 
 
@@ -3340,7 +3345,7 @@ No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apre
 
    * Perfis de envio; 
 
-   * Página de destino.
+   * *Landing Pages* página de destino.
  
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
@@ -3354,14 +3359,17 @@ No perfil do usuário gerente admin do *ethical phishing*, o *dashboard* é apre
 **Dashboard do Gerente Admin**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
+
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. 
 
-As atividades relacionadas ao *ethical phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
 
 ====
 
 
-No perfil do usuário gerente admin do *ethical phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
+No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
 
    * Meu *dashboard*;  
 
@@ -4030,9 +4038,9 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
    * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa
 
-     * GerentePhishing (em caso do usuário ser do tipo administrador);
+     * gerentePhishing (em caso do usuário ser do tipo administrador);
 
-     * UtilizadorPhishing (se for usuário user).
+     * utilizadorPhishing (se for usuário user).
 
    * **Empresa**: Obrigatório fornecer o nome da empresa. 
 
