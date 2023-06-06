@@ -5468,6 +5468,9 @@ São apresentadas também quatro colunas:
 
 ----
 
+.. centered:: Introdução
+
+----
 A técnica de enviar simulações de e-mails fraudulentos em campanhas de *phishing*, compreende pensar no envio de dois tipos: O e-mail parece ser verdadeiro, mas na realidade pode ter sido enviado por um usuário *“hacker”* que tem a intenção de roubar dados sigilosos. Ou um e-mail teste enviado por empresas de proteção especialistas defesa, que utilizam o *phishing* para descobrir se os destinatários destes e-mails estão atentos com a origem dos e-mails recebidos e se clicam em e-mails maliciosos e fragilizam sua segurança e da empresa onde trabalham. 
 
 Abaixo são brevemente explicadas algumas categorias de envio de *phishing*: 
@@ -5498,7 +5501,7 @@ As campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade d
 
 * Elas podem ser alteradas após criadas;  
 
-*  Existe a possibilidade de programar os disparos;  
+* Existe a possibilidade de programar os disparos;  
 
 * Customizar os templates visando o engajamento;  
 
@@ -5506,17 +5509,19 @@ As campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade d
 
 A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do corpo de usuários para orientar que ações a empresa deve tomar. 
 
-.. image:: /figuras/fig_segurança/045.0_ataque_phishing 
+.. image:: /figuras/fig_segurança/045.0_ataque_phishing.png 
    :alt: ataque phishing
    :align: center
 ----
 
 
-Na tela acima diferentes cards são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
+Na tela acima diferentes cards são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. 
+
+Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
 
 ----
 
-.. centered:: Introdução
+.. centered:: Acessando
 
 ----
 
@@ -5542,9 +5547,9 @@ A plataforma exibe a tela “Campanhas”, nela é possível visualizar e gerenc
 ----
 
 
-A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona o usuário para a tela inicial, ``Atualizar`` para apresentar a lista mais recente de campanhas ativas e arquivadas e ``+ Nova  Campanha`` que encaminha o usuário para a criação de uma nova campanha. Para mais detalhes convidamos o leitor para leitura dos tópicos: **Campanhas de Phishing** e **Criando Campanha de Phishing** presentes no capítulo *Dashboard do Ethical Phishing*_.
+A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona o usuário para a tela inicial, ``Atualizar`` para apresentar a lista mais recente de campanhas ativas e arquivadas e ``+ Nova  Campanha`` que encaminha o usuário para a criação de uma nova campanha. Para mais detalhes convidamos o leitor para leitura dos tópicos: **Campanhas de Phishing** e **Criando Campanha de Phishing** presentes no capítulo *Dashboard do Ethical Phishing*_ .
 
-.. _Phishing*: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
+.. _Phishing: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
 
 
 ====
