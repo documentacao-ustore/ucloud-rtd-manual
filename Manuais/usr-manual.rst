@@ -5721,7 +5721,9 @@ Os seguintes campos devem ser preenchidos:
 * *Tags* 
 
 
+
 .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
+
 
 
 * Pré-visualizar imagem  
@@ -5797,7 +5799,8 @@ Também é permitido o uso de campos personalizados, como evidenciado na seguint
 
 Abaixo dessa mensagem é exibida uma *flag* com a opção de ``Salvar Template de E-mail``, o botão fica desabilitado na cor cinza até que o usuário adicione uma imagem de destaque, realizada essa ação o botão se habilita ficando na cor verde. 
 
-.. image:: /figuras/fig_segurança/056_u_templates_salvar_template.png
+
+.. image:: /figuras/fig_segurança/056_u_templates_salvar.png
    :alt: botão salvar template
    :align: center
 ----
