@@ -5444,6 +5444,54 @@ São apresentadas também quatro colunas:
 
 ----
 
+A técnica de enviar simulações de e-mails fraudulentos em campanhas de *phishing*, compreende pensar no envio de dois tipos: O e-mail parece ser verdadeiro, mas na realidade pode ter sido enviado por um usuário *“hacker”* que tem a intenção de roubar dados sigilosos. Ou um e-mail teste enviado por empresas de proteção especialistas defesa, que utilizam o *phishing* para descobrir se os destinatários destes e-mails estão atentos com a origem dos e-mails recebidos e se clicam em e-mails maliciosos e fragilizam sua segurança e da empresa onde trabalham. 
+
+Abaixo são brevemente explicadas algumas categorias de envio de *phishing*: 
+
+* **Bulk Phishing**: Trata-se do envio de e-mails em massa para uma lista não filtrada de destinatários. Nesta modalidade, são encaminhados e-mails genéricos com benefícios ou promoções de marcas desconhecidas. 
+
+* **Spear Phishing**:Uma pessoa específica recebe e-mails maliciosos, neste caso, o cibercriminoso possui informação direcionada sobre o alvo, como nome, empresa que atua, posição hierárquica.  
+
+* **Whaling Phishing**: Este ataque é direcionado aos executivos, neste o “hacker” tenta persuadir a vítima ao fingir que é um CEO, solicitando ao executivo os acessos que ele possui, pelo fato de ocupar um cargo privilegiado e ter sua responsabilidade na empresa. 
+
+
+A empresa usuária desse projeto de segurança pode criar campanhas, importar usuários, assim como coletar usuários. Esta, deve gerar sua campanha em formato autônomo, sendo possível interagir com as funcionalidades. Vale ressaltar que a campanha de *phishing* a ser criada tem a diretiva de ser ética. 
+
+Por ser tratar de um projeto de segurança, as campanhas criadas no *Ethical Phishing* tem a diretiva de ser éticas, um dos seus principais objetivos é a coleta de resultados para a compreensão e entendimento do comportamento dos usuários.  
+
+A partir da plataforma é possível enviar e-mails testes para descobrir se os destinatários estão atentos a origem dos e-mails recebidos e se clicam em e-mails maliciosos, fragilizando a segurança dos seus dados pessoais e da empresa onde trabalham. 
+
+Tais campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade de disparos.  
+
+----
+
+.. centered:: Visualizando a coleta de estatísticas no Dashboard
+
+----
+
+
+As campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade de disparos, é possível utilizar o modo guiado (*wizard*) para a criação das campanhas de maneira simples. 
+
+* Elas podem ser alteradas após criadas;  
+
+*  Existe a possibilidade de programar os disparos;  
+
+* Customizar os templates visando o engajamento;  
+
+* Coletar os resultados e entender o comportamento dos usuários. 
+
+A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do corpo de usuários para orientar que ações a empresa deve tomar. 
+
+.. image:: /figuras/fig_segurança/045.0_ataque_phishing 
+   :alt: ataque phishing
+   :align: center
+----
+
+
+Na tela acima diferentes cards são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
+
+----
+
 .. centered:: Introdução
 
 ----
@@ -5632,9 +5680,188 @@ Importante relembrar que pra cada alteração feita, é necessário clicar no bo
 ~~~~~~~~~~~~~~
 ----
 
+.. centered:: Introdução
+
+----
+
+No card de *Templates* do menu *Ethical Phishing*, podemos visualizar a lista de *templates* de e-mails criados e uma prévia de como os mesmos se parecem visualmente, para acessá-lo basta clicar no *card* evidenciado na figura abaixo: 
+
+.. image:: /figuras/fig_segurança/052_u_templates_acesso.png
+   :alt: card template
+   :align: center 
+----
 
 
-====
+Ao acessá-lo, são apresentados dois cards: um contendo a lista dos *templates* e o segundo apresentando uma pré-visualização do *template* selecionado, além de dois botões de ação:
+* ``Voltar``
+* ``Novo Template de e-mail``. 
+
+.. image:: /figuras/fig_segurança/053_tela_template.png
+   :alt: tela templates
+   :align: center
+----
+
+.. centered:: Criando *Template* de E-mail
+
+----
+
+Para criar um *template*, é necessário clicar no botão ``Novo template de e-mail``. Feito isso, uma nova tela é apresentada: 
+
+.. image:: /figuras/fig_segurança/054_criar_template.png 
+   :alt: criar template
+   :align: center
+----
+
+Os seguintes campos devem ser preenchidos:  
+
+* Nome do template  
+
+* Assunto do e-mail;  
+
+* *Tags* 
+
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
+
+
+* Pré-visualizar imagem  
+
+* Área para composição de texto. 
+
+
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+
+* Arquivo 
+
+  * Novo documento 
+
+* Editar 
+
+  * Desfazer 
+
+  * Refazer 
+
+  * Recortar 
+
+  * Copiar 
+
+  * Colar 
+
+  * Selecionar tudo 
+
+* Visualizar 
+
+  * Ajuda visual 
+
+* Inserir 
+
+  * Imagem 
+
+  * Link 
+
+  * Caracteres especiais 
+
+  * Âncora 
+
+* Formatar 
+
+   * Negrito 
+
+  * Itálico 
+
+  * Sublinhar 
+
+  * Riscar 
+
+  * Sobrescrito 
+
+  * Subscrever 
+
+  * Código 
+
+  * Formatos 
+
+  * Blocos 
+
+  * Alinhamento  
+
+  * Limpar formatação. 
+
+
+Também é permitido o uso de campos personalizados, como evidenciado na seguinte mensagem:   
+
+.. image:: /figuras/fig_segurança/055_mensagem.png
+   :alt: mensagem template
+   :align: center
+----
+
+Abaixo dessa mensagem é exibida uma *flag* com a opção de ``Salvar Template de E-mail``, o botão fica desabilitado na cor cinza até que o usuário adicione uma imagem de destaque, realizada essa ação o botão se habilita ficando na cor verde. 
+
+.. image:: /figuras/fig_segurança/056_u_templates_salvar_template.png
+   :alt: botão salvar template
+   :align: center
+----
+ 
+No *card* ao lado o usuário deve realizar o upload de uma imagem de destaque. 
+
+
+.. image:: /figuras/fig_segurança/056_upload_template.png
+   :alt: upload template
+   :align: center
+----
+
+Caso tente concluir este *template* sem uma figura, a seguinte mensagem é exibida: 
+
+
+.. image:: /figuras/fig_segurança/057_erro_imagem.png 
+   :alt: mensagem de erro
+   :align: center
+----
+
+Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail``, após isso, uma mensagem de feedback é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *templates*.   
+
+----
+
+.. centered:: Listando
+
+----
+
+O primeiro *card* é dividido em quatro colunas, são elas: 
+
+* Nome;  
+
+* *Tags*;  
+
+* Data de alteração;  
+
+* Deletar. 
+
+
+.. image:: /figuras/fig_segurança/053_template_card.png
+   :alt: card template
+   :align: center
+----
+ 
+No fim deste *card*, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100.  
+
+Ao selecionar o *template* desejado, o card lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita do *template* para uma visualização completa. 
+
+.. image:: /figuras/fig_segurança/058_pre_visualização.png 
+   :alt: pré visualizaçãO
+   :align: center
+----
+
+Neste card de pré-visualização, ao lado do nome do *template*, é possível identificar dois ícones de ações: 
+
+   * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
+
+   * **Lápis**: O ícone |icone_lapis| indica uma edição. 
+
+Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta clicar no ícone de lixeira, a plataforma exibirá uma mensagem de alerta, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista da ação basta clicar em ``Fechar``. A exclusão será permanente.  
+
+.. image:: /figuras/fig_segurança/061_u_templates_exclusão.png 
+   :alt: mensagem exclusãO
+   :align: center
+----
 
 **Landing Pages**
 ~~~~~~~~~~~~~~~~
