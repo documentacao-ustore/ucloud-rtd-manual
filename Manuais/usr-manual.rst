@@ -3232,11 +3232,11 @@ Essa abordagem ética é usada para melhorar a segurança cibernética e reduzir
 ====
 
 
-Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais online, é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
+Por analogia, o termo de origem inglesa *“Phishing”* remete ao significado de “pescar”. E nesta correlação, surge a imagem de um pescador jogando o anzol com uma isca à espera de fisgar a vítima na primeira mordida. Em computação, se trata de um tipo de roubo de identidade e de informações confidenciais "online", é considerado por muitos especialistas como o tipo mais simples de ciberataque e, ao mesmo tempo, o mais perigoso e eficiente. 
 
-É crescente o número de ataques *“hackers”* sofridos por empresas no mundo, sua principal característica é o refinamento da invasão e a quantidade de dados subtraídos a cada crime cometido em ambiente virtual. Em paralelo, a esta recorrência é fundamental que a expansão e inovação contínuas, tanto nas pequenas empresas como nas organizações de grande porte devem priorizar a proteção e a confidencialidade dos seus dados. 
+É crescente o número de ataques *“hackers”* sofridos por empresas no mundo, sua principal característica é o refinamento da invasão e a quantidade de dados subtraídos a cada crime cometido em ambiente virtual. Em paralelo a esta recorrência é fundamental que a expansão e inovação contínuas tanto nas pequenas empresas como nas organizações de grande porte devem priorizar a proteção e a confidencialidade dos seus dados. 
 
-No mundo real o ataque de *phishing*,  é a tentativa direcionada a roubar dados confidenciais, como informações pessoais ou senhas em sites que fingem ser legítimos. Os cibercriminosos simulam identidades falsas e tentam se passar por empresas confiáveis, enviando comunicações fraudulentas por e-mail. Normalmente elas contêm o link para um site de destino (mais conhecido como *landing page*), a principal característica deste golpe é o disfarce utilizado para fisgar o leitor e encaminhá-lo à vulnerabilidade.  
+No mundo real o ataque de *phishing*,  é a tentativa direcionada a roubar dados confidenciais, como informações pessoais ou senhas em sites que fingem ser legítimos. Os cibercriminosos simulam identidades falsas e tentam se passar por empresas confiáveis, enviando comunicações fraudulentas por e-mail. Normalmente elas contêm o "link" para um site de destino (mais conhecido como *landing page*), a principal característica deste golpe é o disfarce utilizado para fisgar o leitor e encaminhá-lo à vulnerabilidade.  
 
 Este é um dos tipos mais antigos de ataque cibernético (originado nos anos 90), e ainda, um dos mais difundidos e perigosos, com mensagens e técnicas cada vez mais elaboradas que colocam em risco as empresas e seus colaboradores. Hoje é considerado um dos ataques de engenharia social mais comum. 
 
@@ -3287,7 +3287,7 @@ Os benefícios na execução das simulações são:
 
 Em resumo, este módulo de segurança é desenvolvido com o conceito de ser ético, uma vez que se destina a monitorar o nível de conhecimento sobre a segurança das informações recebidas e entregues nos ambientes virtuais sem causar danos aos destinários destas mensagens.  
 
-Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *landing pages*. 
+Tudo ocorre como se fosse uma auditoria para sondagem de dados sobre o comportamento dos usuários ao receber e-mails, a checagem é realizada com a criação de campanhas maliciosas simulando ataques de *phishing*, com a criação de *Templates* e *Landing pages*. 
 
 Tal investigação, tem o objetivo de monitorar os contatos ou grupos de contatos que o recebem, resultando em um detalhamento do número de pessoas que enviaram os dados solicitados e dos e-mails maliciosos que foram abertos, lidos e clicados, redirecionando membros da equipe para páginas falsas (muito parecidas com as verdadeiras), podendo estes usuários enviarem dados e informações sensíveis, seja a nível pessoal ou da empresa. Os dados são visualizados no *dashboard*, eles geram métricas de uso individual e coletivo.  
 
