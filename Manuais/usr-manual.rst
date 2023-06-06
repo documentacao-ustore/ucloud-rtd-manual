@@ -5721,7 +5721,7 @@ Os seguintes campos devem ser preenchidos:
 * *Tags* 
 
 
-   .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
 
 
 * Pré-visualizar imagem  
@@ -5879,6 +5879,7 @@ O último card do menu *Ethical Phishing* é o “Landing Pages”. Nesse card p
 ----
  
 Ao acessá-lo, são apresentados dois cards: um contendo a lista das *landing pages* e o segundo apresentando uma pré-visualização da *landing page* selecionada, além de dois botões de ação:
+
 * ``Voltar`` 
 * ``Novo Template de Landing Page``. 
 
@@ -5907,7 +5908,7 @@ Os espaços apresentados são descritos abaixo:
 
    .. nota:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de *ethical phishing*_. 
       
-      .. _phishing* https://ustore.com.br/documents/alerta-campanha.pdf
+.. _phishing* https://ustore.com.br/documents/alerta-campanha.pdf
 
 * URL - ``Importar landing page a partir de uma URL``.  
 
