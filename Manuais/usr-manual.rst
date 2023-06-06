@@ -5629,15 +5629,15 @@ Retornando a tela inicial de contatos, é possível visualizar dois cards, confo
 ----
 
 
-O primeiro card é dividido em quatro colunas:  
+O primeiro *card* é dividido em quatro colunas:  
 
-* Grupo: Exibe o nome que o usuário escolheu.  
+* **Grupo**: Exibe o nome que o usuário escolheu.  
 
-* Quantidade: Apresenta a quantidade de contatos inseridas no grupo.  
+* **Quantidade**: Apresenta a quantidade de contatos inseridas no grupo.  
 
-* Data de Alteração: Mostra data e hora da última alteração do grupo.  
+* **Data de Alteração**: Mostra data e hora da última alteração do grupo.  
 
-* Deletar: Representada por um ícone de lata de lixo, essa ação significa remover o grupo permanentemente. Ao clicar no ícone a seguinte mensagem de alerta é exibida:
+* **Deletar**: Representada por um ícone de lata de lixo, essa ação significa remover o grupo permanentemente. Ao clicar no ícone a seguinte mensagem de alerta é exibida:
 
 
 .. image:: /figuras/fig_segurança/048_excluir_contatos_aviso.png
@@ -5720,6 +5720,7 @@ Os seguintes campos devem ser preenchidos:
 
 * *Tags* 
 
+
 .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
 
 
@@ -5800,7 +5801,8 @@ Abaixo dessa mensagem é exibida uma *flag* com a opção de ``Salvar Template d
    :alt: botão salvar template
    :align: center
 ----
- 
+
+
 No *card* ao lado o usuário deve realizar o upload de uma imagem de destaque. 
 
 
