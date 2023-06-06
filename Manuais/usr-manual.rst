@@ -4030,9 +4030,9 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
    * **Cargo**: Campo de livre digitação, deve ser completado com o cargo que o usuário ocupa
 
-     * GerentePhishing (em caso do usuário ser do tipo administrador);
+     * gerentePhishing (em caso do usuário ser do tipo administrador);
 
-     * UtilizadorPhishing (se for usuário user).
+     * utilizadorPhishing (se for usuário user).
 
    * **Empresa**: Obrigatório fornecer o nome da empresa. 
 
