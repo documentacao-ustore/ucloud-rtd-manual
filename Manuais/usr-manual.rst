@@ -5080,11 +5080,11 @@ Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e reg
 
 A tela apresenta três botões de ações. 
 
-   * ``Voltar``; 
+   * ``Voltar``
 
-   * ``Criar campanha de phishing``; 
+   * ``Criar campanha de phishing``
 
-   * ``Autorizar novo domínio``. 
+   * ``Autorizar novo domínio``
 
 
 Assim como cinco *cards*. São eles: 
@@ -5284,9 +5284,9 @@ Depois de clicar nesta ação, é necessário pressionar o botão localizado na 
 
 A nova tela ao qual o usuário Utilizador é direcionado apresenta três botões de ação: 
 
-   * **Botão** ``Voltar``;
-   * **Botão** ``Atualizar``;
-   * **Botão** ``+ Nova  Campanha``.
+   * **Botão** ``Voltar``
+   * **Botão** ``Atualizar``
+   * **Botão** ``+ Nova  Campanha``
    
 Além de dois *cards* com diferentes tipos de campanha: 
 
@@ -5323,11 +5323,11 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
        * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
-           * **Botão** ``Voltar``;
+           * **Botão** ``Voltar``
   
-           * **Botão** ``Exportar``;
+           * **Botão** ``Exportar``
   
-           * **Botão** ``Concluir campanha``. 
+           * **Botão** ``Concluir campanha`` 
 
 Ao clicar no botão ``Concluir campanha`` a plataforma apresenta a mensagem de confirmação a seguir:  
 
@@ -5382,10 +5382,10 @@ Este dashboard do usuário Utilizador apresenta telas relacionadas ao *Ethical P
 
 Quatro botões de ações são apresentados na página: 
 
-* ``Voltar``;
-* ``Criar Usuário``;
-* ``Autorizar novo domínio``; 
-* ``Suporte``.   
+* ``Voltar``
+* ``Criar Usuário``
+* ``Autorizar novo domínio`` 
+* ``Suporte``   
 
  .. image:: /figuras/fig_segurança/032_u_dashboard_contratos.png
    :alt: tela dashboard do contrato
