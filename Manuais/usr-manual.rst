@@ -3306,7 +3306,6 @@ Acesso do usuário: Gerente Admin
 ====
 
 
-JAIRO TESTANDO
 
 
 Para iniciar a sessão é necessário obter as credenciais, *login* e a senha, provisionadas previamente por um usuário com o perfil de administrador do uCloud ou perfil de administrador com cargo de gerente do *Ethical Phishing*.
