@@ -5721,9 +5721,7 @@ Os seguintes campos devem ser preenchidos:
 * *Tags* 
 
 
-
-.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
-
+   .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
 
 
 * Pré-visualizar imagem  
@@ -5767,7 +5765,7 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
 
 * Formatar 
 
-   * Negrito 
+  * Negrito 
 
   * Itálico 
 
@@ -5873,6 +5871,173 @@ Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta cli
 
 ----
 
+O último card do menu *Ethical Phishing* é o “Landing Pages”. Nesse card podemos visualizar a lista de *Landing Pages* criadas e uma prévia de como as mesmas se parecem visualmente. Para Acessá-lo basta clicar no *card* "Landing Pages" destacado na figura abaixo:   
+
+.. image:: /figuras/fig_segurança/062_u_landing_acesso.png
+   :alt: card landing page
+   :align: center
+----
+ 
+Ao acessá-lo, são apresentados dois cards: um contendo a lista das *landing pages* e o segundo apresentando uma pré-visualização da *landing page* selecionada, além de dois botões de ação:
+* ``Voltar`` 
+* ``Novo Template de Landing Page``. 
+
+.. image:: /figuras/fig_segurança/059_landing_page.png
+   :alt: tela inicial landing page
+   :align: center
+----
+
+.. centered:: Criando uma *Landing Page*
+
+----
+
+Para criar uma *landing page*, é necessário clicar no botão ``Novo landing page``. Feito isso, a tela de criação é apresentada: 
+
+.. image:: /figuras/fig_segurança/061_criar_landing_page.png
+   :alt: criar landing page
+   :align: center
+----
+
+Os espaços apresentados são descritos abaixo: 
+
+* Nome da *landing page*  
+
+* Redirecionar após o envio dos dados para: (opcional) 
+
+
+   .. nota:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de *ethical phishing*_. 
+      
+      .. _phishing* https://ustore.com.br/documents/alerta-campanha.pdf
+
+* URL - ``Importar landing page a partir de uma URL``.  
+
+* *Tags*  
+
+   .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
+
+  
+* ``Pré-visualizar landing page``  
+
+* Capturar dados enviados  
+
+* Área para composição de texto.  
+
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+
+* Arquivo  
+
+  * Novo documento  
+
+* Editar  
+
+  * Desfazer  
+
+  * Refazer  
+
+  * Recortar  
+
+  * Copiar  
+
+  * Colar  
+
+  * Selecionar tudo  
+
+* Visualizar  
+
+  * Ajuda visual  
+
+* Inserir  
+
+  * Imagem  
+
+  * Link  
+
+  * Caracteres especiais  
+
+  * Âncora  
+
+* Formatar  
+
+  * Negrito  
+
+  * Itálico  
+
+  * Sublinhar  
+
+  * Riscar  
+
+  * Sobrescrito  
+
+  * Subscrever  
+
+  * Código  
+
+  * Formatos  
+
+  * Blocos  
+
+  * Alinhamento   
+
+  * Limpar formatação.  
+
+No card ao lado o usuário pode realizar o upload de uma imagem de destaque. 
+
+
+.. image:: /figuras/fig_segurança/062_upload_landing_page.png 
+   :alt: upload imagem
+   :align: center
+----
+
+Caso tente finalizar esta *landing page* sem uma figura, a seguinte mensagem é exibida:   
+
+.. image:: /figuras/fig_segurança/057_erro_imagem.png
+   :alt: mensagem erro
+   :align: center
+----
+
+Para concluir este processo, basta clicar no botão ``Salvar landing page`` que muda para a cor verde ao ficar disponível para acionamento, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *landing pages*. 
+
+----
+
+.. centered:: Listando
+
+----
+
+O primeiro *card* é dividido em quatro colunas, são elas: 
+
+* Nome;  
+
+* *Tags*;  
+
+* Data de alteração;  
+
+* Deletar. 
+
+.. image:: /figuras/fig_segurança/063_listando_landing_page.png
+   :alt: listando landnig page
+   :align: center
+----
+
+Ao selecionar a *landing page* desejada, o *card* lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita e abaixo para uma visualização completa. 
+
+.. image:: /figuras/fig_segurança/063_visualizando_landing_page.png
+   :alt: detalhando landing page
+   :align: center
+----
+
+No fim deste card, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100. 
+
+Neste card de pré-visualização, ao lado do nome da *landing page*, é possível identificar dois ícones de ações: 
+
+   * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
+
+   * **Lápis**: O ícone |icone_lapis| indica uma edição. 
+
+Caso o usuário deseje deletar um dos modelos de *landing page* da lista, basta clicar no ícone de lixeira, a plataforma exibe uma mensagem de alerta, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista basta clicar em ``Fechar``. A exclusão é permanente. 
+
+.. image:: /figuras/fig_segurança/069_u_landing_exclusão.png
+   :alt: mensagem exclusãO
+   :align: center
 ====
   
 
