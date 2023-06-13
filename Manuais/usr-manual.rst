@@ -4555,7 +4555,7 @@ Os espaços a serem preenchidos são:
 
 .. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados. 
 
-.. note:: O cargo deve ser preenchido com o cargo real do colaborador, não com o usuário utilizador ou gerente de Phishing. 
+.. note:: O cargo deve ser preenchido com o posição real do colaborador na empresa, não com o usuário utilizador ou gerente de Ethical Phishing. 
 
 Após adicionar as informações o usuário deve clicar no botão ``Salvar Contato`` de coloração verde, feito isso, as informações sobre este são automaticamente listadas no campo abaixo da área do Nome do Grupo. Desse modo, os contatos são adicionados manualmente um a um.  
 
@@ -5043,7 +5043,7 @@ No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresen
 
    * Contatos; 
 
-   * *Templates* 
+   * *Templates*; 
 
    * *Landing Pages*. 
   
@@ -5059,7 +5059,7 @@ No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresen
 ----
 
 
-A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing* o que facilita a tomada de decisões.  
+A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing*, o que facilita a tomada de decisões.  
 
 O submenu *Dashboard* está dividido em dois *cards*. São eles: 
 
@@ -5078,7 +5078,7 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
 ----
 
 
-Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e quais foram finalizadas.    
+Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.    
 
 .. image:: /figuras/fig_segurança/006_u_meu_dashboard.png
    :alt: dashboard usuário
@@ -5112,14 +5112,14 @@ Assim como cinco *cards*. São eles:
 
 ====
 
-Para criar uma campanha, o usuário Utilizador deve clicar no botão ``Criar campanha de phishing``, conforme figura abaixo: 
+Para criar uma campanha, o usuário Utilizador deve clicar no botão ``Criar campanha de phishing``, conforme exibido na figura abaixo: 
 
 .. image:: /figuras/fig_segurança/006_criar_campanha.png
    :alt: Criar campanha 
    :align: center
 ----
 
-Feito isso, uma nova tela é apresentada, a qual exibe ao 5 etapas a serem cumpridas para a criação da campanha. Como primeiro passo, o usuário deve nomeá-la. 
+Feito isso, uma nova tela é apresentada, a qual exibe 5 etapas a serem cumpridas para a criação da campanha. Como primeiro passo, o usuário deve nomeá-la. 
 
 .. image:: /figuras/fig_segurança/008_u_criar_campanha_passo1.png
    :alt: nomear campanha
@@ -5131,10 +5131,10 @@ Em seguida, caso deseje, é possível selecionar uma ou mais *tags* para facilit
 * ``Cancelar`` 
 * ``Selecionar um template``
   
-O segundo botão permanece desabilitado em cor cinza até que o usuário nomeie a campanha. Feito isso, a ação de ``Selecionar um template`` é habilitado na coloração laranja bastando clicar nele para avançar. Neste próximo passo, a tela apresenta *templates* pré-estabelecidos.  
+O segundo botão permanece desabilitado na coloração cinza até que o usuário nomeie a campanha. Feito isso, a ação de ``Selecionar um template`` é habilitada, passando para a cor laranja, basta clicar neste para avançar. Neste próximo passo, a tela apresenta *templates* pré-estabelecidos.  
 
 
-.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única, caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
+.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única. Caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro. 
 
 
 .. image:: /figuras/fig_segurança/008_selecionar_template.png
@@ -5143,42 +5143,48 @@ O segundo botão permanece desabilitado em cor cinza até que o usuário nomeie 
 
 ----
 
-No canto inferior direito de cada *template* há uma lupa para uma pré-visualização. Esta é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem, além disso é apresentada uma barra de rolagem na lateral direita que auxilia ao usuário verificar o detalhamento do *template*.  
+No canto inferior direito de cada *template* há uma lupa para uma pré-visualização. Esta é exibida em um modal com a ação de ``Fechar`` logo abaixo da imagem, além disso é apresentada uma barra de rolagem na lateral direita que auxilia o usuário a verificar o detalhamento do *template*.  
 
 .. image:: /figuras/fig_segurança/010_u_criar_campanha_passo2_visualização.png
    :alt: visualizar template
    :align: center
 ----
 
-Para escolher o *template*, é necessário apenas clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: 
+Para escolher o *template*, é necessário clicar na própria imagem ou no *checkbox* no canto superior direito. 
+
+Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: 
 
 * ``Voltar`` 
 * ``Selecionar uma Landing Page`` 
   
-Ao clicar no botão a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a etapa anterior. 
+Ao clicar na segunda ação, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a etapa anterior. 
 
 .. image:: /figuras/fig_segurança/010_landing_page.png
    :alt: selecionar landing page
    :align: center
 ----
 
-Com a finalidade de avançar mais uma etapa, cabe ao usuário Utilizador clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto da ação de ``Voltar``. Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
+Com a finalidade de avançar mais uma etapa, cabe ao usuário Utilizador clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto da ação de ``Voltar``. 
+
+Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: selecionar perfil de envio
    :align: center
 ----
 
-Feita a seleção do perfil de envio, é necessário clicar no botão ``Revisar dados`` localizado no canto inferior direito. Ao avançar para o quinto e último passo, a plataforma exibe uma tela com um quadro informativo que contém todas as informações da campanha que está sendo criada, é possível ao usuário nesse momento revisar todas as escolhas realizadas. 
+Após isso, é necessário clicar no botão ``Revisar dados`` localizado no canto inferior direito. 
+
+Ao avançar para o quinto e último passo, a plataforma exibe uma tela com um quadro informativo que contém todas as informações da campanha que está sendo criada. Neste momento é possível revisar todas as escolhas realizadas. 
 
 .. image:: /figuras/fig_segurança/012_revisar_dados.png
    :alt: revisar dados
    :align: center
 ----
 
-Caso o usuário tenha cometido algum erro na criação da campanha e precise modificar uma das informações apresentadas, basta clicar no botão ``Voltar`` no canto inferior esquerdo até a etapa que precisa ser alterada. 
+Caso o usuário tenha cometido algum erro na criação da campanha e precise modificar alguma das informações apresentadas, basta clicar no botão ``Voltar`` no canto inferior esquerdo até a etapa que precisa ser alterada. 
 
-Abaixo dos quadros informativos, há uma mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
+Abaixo dos quadros informativos, há a seguinte mensagem em tela: **“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”**. 
 
 Se todos os dados estiverem certos, é necessário apenas clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
@@ -5207,7 +5213,7 @@ Depois de concluída a criação da campanha, a tela é atualizada e novas infor
 
 **Recorte 1**
 
-No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova campanha, nomeá-la, editar *templates* do e-mail e de *landing page*.  
+No recorte 1 temos os detalhes da campanha, nele é possível criar uma nova campanha, nomeá-la, editar *templates* do e-mail e da *landing page*.  
 
 .. note:: O *template* do e-mail e de *landing page* editados modificam apenas o HTML da campanha atual. 
    
@@ -5350,9 +5356,9 @@ Se o usuário Utilizador optar por concluir a campanha, um aviso aparece no cant
    :align: Center
 ----
 
-A tela abaixo mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *Phishing* e informações adicionais como: números de e-mails enviados, de e-mails abertos, de *links* clicados e de contatos que enviaram seus dados.
+A tela abaixo mostra também uma lista com todos os contatos aos quais foram enviados os e-mails de *Phishing* e informações adicionais como: números de e-mails enviados, e-mails abertos, *links* clicados e contatos que enviaram seus dados.
 
-Ao clicar no ícone de ajuda, representado por um olho ao lado dos números, detalhes sobre os colaboradores que fizeram essas ações são evidenciados na lista que se segue.
+Ao clicar no ícone de ajuda, representado por um olho ao lado dos números, detalhes sobre os colaboradores que fizeram essas ações são evidenciados na lista que segue abaixo.
 
  .. image:: /figuras/fig_segurança/023_icone_grafico.png
    :alt: icone gráfico
@@ -5399,7 +5405,7 @@ Quatro botões de ações são apresentados na página:
    :align: center
 ----
 
-É permitido ao usuário digitar o mês e ano que deseja visualizar. São exibidos os detalhes das cotas de envio, informando o número de cotas disponíveis, consumidas e a quantidade de contatos ativos. 
+É permitido ao usuário digitar o mês e ano que deseja visualizar. São exibidos os detalhes das cotas de envio, informando o número disponível, consumido e a quantidade de contatos ativos. 
 
 Logo abaixo, é informado o próximo dia em que as cotas são renovadas. Ao lado, é possível observar dados sobre quantas campanhas estão em execução e foram concluídas.  
 
@@ -5532,7 +5538,7 @@ Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma
 
 ----
 
-Por ser tratar de um projeto de segurança, as campanhas criadas no *Ethical Phishing* tem a diretiva de ser éticas, um dos seus principais objetivos é a coleta de resultados para a compreensão e entendimento do comportamento dos usuários.  
+Por ser tratar de um projeto de segurança, as campanhas criadas no *Ethical Phishing* têm a diretiva de serem éticas, um dos seus principais objetivos é a coleta de resultados para a compreensão e entendimento do comportamento dos usuários.  
 
 A partir da plataforma é possível enviar e-mails testes para descobrir se os destinatários estão atentos a origem dos e-mails recebidos e se clicam em e-mails maliciosos, fragilizando a segurança dos seus dados pessoais e da empresa onde trabalham. 
 
@@ -5545,7 +5551,7 @@ Tais campanhas podem ser gerenciadas de acordo com o cronograma ou a necessidade
 ----
 
 
-A plataforma exibe a tela “Campanhas”, nela é possível visualizar e gerenciar as campanhas ativas e arquivadas:  
+A plataforma exibe a tela de Campanhas, nesta é possível visualizar e gerenciar as campanhas ativas e arquivadas:  
 
 
 .. image:: /figuras/fig_segurança/021_tela_campanhas.png
@@ -5554,7 +5560,13 @@ A plataforma exibe a tela “Campanhas”, nela é possível visualizar e gerenc
 ----
 
 
-A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona o usuário para a tela inicial, ``Atualizar`` para apresentar a lista mais recente de campanhas ativas e arquivadas e ``+ Nova  Campanha`` que encaminha o usuário para a criação de uma nova campanha. Para mais detalhes convidamos o leitor para leitura dos tópicos: **Campanhas de Phishing** e **Criando Campanha de Phishing** presentes no capítulo *Dashboard do Ethical Phishing*_ .
+Esta tela apresenta três botões de ação: 
+
+* ``Voltar``
+* ``Atualizar`` 
+* ``+ Nova  Campanha`` 
+  
+Para mais detalhes convidamos o leitor para leitura dos tópicos: **Campanhas de Phishing** e **Criando Campanha de Phishing** presentes no capítulo Dashboard do Ethical Phishing_ .
 
 .. _Phishing: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
 
@@ -5570,7 +5582,7 @@ A tela campanhas apresenta três botões de ação: ``Voltar``, que redireciona 
 
 ----
 
-No modulo do *Ethical Phishing* temos a página de Contatos, para acessá-la basta clicar no botão ``Contatos`` da página inicial conforme a imagem seguinte:  
+No modulo do *Ethical Phishing* temos a página de Contatos, para acessá-la basta clicar no *card* ``Contatos`` da página inicial conforme a imagem seguinte:  
 
 
 .. image:: /figuras/fig_segurança/040_u_card_contatos.png
@@ -5579,7 +5591,9 @@ No modulo do *Ethical Phishing* temos a página de Contatos, para acessá-la bas
 ----
 
 
-Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails. Para facilitar o processo de envio, este card permite ao usuário criar diferentes possibilidades de emissão, é possível criar e gerenciar os contatos, criar grupos ou importar um arquivo formato .CSV com todos os e-mails destinatários, além da alternativa de adicionar um contato único à campanha. Ao acessá-lo, uma nova tela é apresentada.  
+Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails. Para facilitar o processo de envio, é permitido ao usuário Utilizador criar diferentes possibilidades de emissão, criar e gerenciar os contatos, gerar grupos ou importar um arquivo formato .CSV com todos os e-mails destinatários, além da alternativa de adicionar um contato único à campanha. 
+
+Ao acessar este *card*, uma nova tela é apresentada.  
 
 
 .. image:: /figuras/fig_segurança/046_tela_contatos.png
@@ -5588,7 +5602,12 @@ Estes, são importantes para estabelecer quem recebe a campanha em seus e-mails.
 ----
 
 
-Na figura acima dois botões de ação são exibidos: ``Voltar`` e ``+ Novo Grupo``, além de um card para listagem e outro para visualização. 
+Na figura acima dois botões de ação são exibidos: 
+
+* ``Voltar`` 
+* ``+ Novo Grupo``
+
+Além de dois *cards*: um para listagem e outro para visualização. 
 
 ----
 
@@ -5605,9 +5624,14 @@ Para iniciar o processo de criação de um grupo de contatos, o usuário deve cl
 ----
 
 
-Nesta imagem é possível verificar a existência de quatro botões de ação: ``Voltar``, ``Novo Contato``, ``Escolher ficheiro`` e ``+ Importar usuários em massa``.  
+Nesta imagem é possível verificar a existência de quatro botões de ação: 
 
-O primeiro campo de preenchimento deve ser o nome do grupo, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal abaixo dele seja liberado para preenchimento.    
+* ``Voltar``
+* ``Novo Contato``
+* ``Escolher ficheiro`` 
+* ``+ Importar usuários em massa``
+
+O primeiro passso a ser feito é nomear o grupo. Em seguida, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal dele, exibido abaixo, seja habilitado para preenchimento.    
 
 
 .. image:: /figuras/fig_segurança/048_add_contato.png
@@ -5625,6 +5649,8 @@ Os espaços a serem preenchidos são:
 * E-mail;  
 
 * Cargo.  
+
+.. note:: O cargo deve ser preenchido com o posição real do colaborador na empresa, não com o usuário utilizador ou gerente de Ethical Phishing. 
 
 .. attention:: Vale ressaltar que apenas e-mails com domínios já confirmados podem ser adicionados, caso o usuário indique um e-mail de um domínio não permitido, a plataforma exibe a seguinte mensagem: 
 
@@ -5648,6 +5674,7 @@ Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta q
 
 .. nota:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (;)  
 
+
 Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato. Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
 
 ----
@@ -5656,7 +5683,7 @@ Após confirmar a ação, a tela de visualização apresenta os detalhes informa
 
 ----
 
-Retornando a tela inicial de contatos, é possível visualizar dois cards, conforme a imagem abaixo: 
+Retornando a tela inicial de contatos, é possível visualizar dois *cards*, conforme a imagem abaixo: 
 
 
 .. image:: /figuras/fig_segurança/046_tela_contatos.png
@@ -5665,7 +5692,7 @@ Retornando a tela inicial de contatos, é possível visualizar dois cards, confo
 ----
 
 
-O primeiro *card* é dividido em quatro colunas:  
+O primeiro é dividido em quatro colunas:  
 
 * **Grupo**: Exibe o nome que o usuário escolheu.  
 
@@ -5695,7 +5722,7 @@ Ao clicar no grupo selecionado, o *card* ao lado apresenta os detalhes dos conta
 ----
 
 
-Este segundo card apresenta dois botões de ação: um ícone com seta apontando pra baixo representando a ação de *download* do arquivo e ``Editar``.  
+Este apresenta dois botões de ação: um ícone com seta apontando pra baixo representando a ação de *download* do arquivo e ``Editar``.  
 
 Ao clicar no botão de download, é realizada a descarga de um arquivo em formato .CSV com todas as informações do grupo de contatos selecionado. 
 
@@ -5720,7 +5747,7 @@ Importante relembrar que pra cada alteração feita, é necessário clicar no bo
 
 ----
 
-No card de *Templates* do menu *Ethical Phishing*, podemos visualizar a lista de *templates* de e-mails criados e uma prévia de como os mesmos se parecem visualmente, para acessá-lo basta clicar no *card* evidenciado na figura abaixo: 
+No quinto *card* de do menu *Ethical Phishing*, podemos visualizar a lista de *templates* de e-mails criados e uma prévia de como os mesmos se parecem visualmente, para acessá-lo basta clicar no bloco evidenciado na figura abaixo: 
 
 .. image:: /figuras/fig_segurança/052_u_templates_acesso.png
    :alt: card template
@@ -5728,7 +5755,8 @@ No card de *Templates* do menu *Ethical Phishing*, podemos visualizar a lista de
 ----
 
 
-Ao acessá-lo, são apresentados dois cards: um contendo a lista dos *templates* e o segundo apresentando uma pré-visualização do *template* selecionado, além de dois botões de ação:
+Ao acessá-lo, são apresentados dois cards: um contendo a lista dos *templates* e o segundo apresentando uma pré-visualização do selecionado, além de dois botões de ação:
+
 * ``Voltar``
 * ``Novo Template de e-mail``. 
 
@@ -5741,7 +5769,7 @@ Ao acessá-lo, são apresentados dois cards: um contendo a lista dos *templates*
 
 ----
 
-Para criar um *template*, é necessário clicar no botão ``Novo template de e-mail``. Feito isso, uma nova tela é apresentada: 
+Para criar um *template*, é necessário clicar no botão ``Novo template de e-mail``. Em seguida, uma nova tela é apresentada: 
 
 .. image:: /figuras/fig_segurança/054_criar_template.png 
    :alt: criar template
@@ -5750,15 +5778,13 @@ Para criar um *template*, é necessário clicar no botão ``Novo template de e-m
 
 Os seguintes campos devem ser preenchidos:  
 
-* Nome do template  
+* Nome do *template*  
 
 * Assunto do e-mail;  
 
 * *Tags* 
 
-
-.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
-
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas.
 
 * Pré-visualizar imagem  
 
@@ -5793,7 +5819,7 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
 
   * Imagem 
 
-  * Link 
+  * *Link* 
 
   * Caracteres especiais 
 
@@ -5824,14 +5850,14 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
   * Limpar formatação. 
 
 
-Também é permitido o uso de campos personalizados, como evidenciado na seguinte mensagem:   
+É permitido o uso de campos personalizados, como descrito na mensagem seguinte:   
 
 .. image:: /figuras/fig_segurança/055_mensagem.png
    :alt: mensagem template
    :align: center
 ----
 
-Abaixo dessa mensagem é exibida uma *flag* com a opção de ``Salvar Template de E-mail``, o botão fica desabilitado na cor cinza até que o usuário adicione uma imagem de destaque, realizada essa ação o botão se habilita ficando na cor verde. 
+Abaixo desta mensagem é exibida uma *flag* com a opção de ``Salvar Template de E-mail``, esta fica desabilitado na cor cinza até que o usuário adicione uma imagem de destaque. Realizada esta ação, o botão altera a coloração para verde. 
 
 
 .. image:: /figuras/fig_segurança/056_u_templates_salvar.png
@@ -5840,7 +5866,7 @@ Abaixo dessa mensagem é exibida uma *flag* com a opção de ``Salvar Template d
 ----
 
 
-No *card* ao lado o usuário deve realizar o upload de uma imagem de destaque. 
+No *card* ao lado o usuário deve realizar o *upload* de uma imagem de destaque. 
 
 
 .. image:: /figuras/fig_segurança/056_upload_template.png
@@ -5856,7 +5882,7 @@ Caso tente concluir este *template* sem uma figura, a seguinte mensagem é exibi
    :align: center
 ----
 
-Para finalizar este processo, basta clicar no botão ``Salvar template de e-mail``, após isso, uma mensagem de feedback é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *templates*.   
+Para finalizar este processo de criação de *template*, é necessário clicar no botão ``Salvar template de e-mail``, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *templates*.   
 
 ----
 
@@ -5880,22 +5906,22 @@ O primeiro *card* é dividido em quatro colunas, são elas:
    :align: center
 ----
  
-No fim deste *card*, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100.  
+No fim deste *card*, é possível observar que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100.  
 
-Ao selecionar o *template* desejado, o card lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita do *template* para uma visualização completa. 
+Ao selecionar o *template* desejado, o *card* lateral apresenta a pré-visualização deste, juntamente com uma barra de rolagem à direita do *template* para uma visualização completa. 
 
 .. image:: /figuras/fig_segurança/058_pre_visualização.png 
    :alt: pré visualizaçãO
    :align: center
 ----
 
-Neste card de pré-visualização, ao lado do nome do *template*, é possível identificar dois ícones de ações: 
+Na área de pré-visualização, ao lado da listagem dos *templates*, é possível identificar dois ícones de ações: 
 
    * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
 
    * **Lápis**: O ícone |icone_lapis| indica uma edição. 
 
-Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta clicar no ícone de lixeira, a plataforma exibirá uma mensagem de alerta, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista da ação basta clicar em ``Fechar``. A exclusão será permanente.  
+Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta clicar no ícone de lixeira. A plataforma exibe uma mensagem de alerta e, para confirmar a ação, o usuário deve clicar no botão ``Sim``. Caso desista da ação é necessário clicar em ``Fechar``. A exclusão é permanente.  
 
 .. image:: /figuras/fig_segurança/061_u_templates_exclusão.png 
    :alt: mensagem exclusãO
@@ -5907,14 +5933,14 @@ Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta cli
 
 ----
 
-O último card do menu *Ethical Phishing* é o “Landing Pages”. Nesse card podemos visualizar a lista de *Landing Pages* criadas e uma prévia de como as mesmas se parecem visualmente. Para Acessá-lo basta clicar no *card* "Landing Pages" destacado na figura abaixo:   
+O último *card* do menu *Ethical Phishing* é o "Landing Pages", é possível para o usuário Utilizador visualizar a lista de *Landing Pages* criadas e uma visualização prévia. Para ter acesso a essas funções basta clicar no último *card* da tela, destacado na figura abaixo:   
 
 .. image:: /figuras/fig_segurança/062_u_landing_acesso.png
    :alt: card landing page
    :align: center
 ----
  
-Ao acessá-lo, são apresentados dois cards: um contendo a lista das *landing pages* e o segundo apresentando uma pré-visualização da *landing page* selecionada, além de dois botões de ação:
+Em seguida, são apresentados dois *cards*: um contendo a lista das *landing pages* e o segundo apresentando uma pré-visualização da *landing page* selecionada, além de dois botões de ação:
 
 * ``Voltar`` 
 * ``Novo Template de Landing Page``. 
@@ -5928,7 +5954,7 @@ Ao acessá-lo, são apresentados dois cards: um contendo a lista das *landing pa
 
 ----
 
-Para criar uma *landing page*, é necessário clicar no botão ``Novo landing page``. Feito isso, a tela de criação é apresentada: 
+Para criar uma *landing page*, é necessário clicar no botão ``Novo landing page`` e a tela de criação é apresentada: 
 
 .. image:: /figuras/fig_segurança/061_criar_landing_page.png
    :alt: criar landing page
@@ -5937,29 +5963,27 @@ Para criar uma *landing page*, é necessário clicar no botão ``Novo landing pa
 
 Os espaços apresentados são descritos abaixo: 
 
-* Nome da *landing page*  
+* Nome da *landing page*; 
 
-* Redirecionar após o envio dos dados para: (opcional) 
+* Redirecionar após o envio dos dados para;
 
+.. attention:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de ethical phishing_.
+ 
+.. _phishing: https://ustore.com.br/documents/alerta-campanha.pdf
 
-   .. nota:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de *ethical phishing*_. 
-      
-.. _phishing* https://ustore.com.br/documents/alerta-campanha.pdf
+* URL - ``Importar landing page a partir de uma URL``  
 
-* URL - ``Importar landing page a partir de uma URL``.  
+* *Tags*;  
 
-* *Tags*  
+.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, assim como criá-las.
 
-   .. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas. 
-
-  
 * ``Pré-visualizar landing page``  
 
-* Capturar dados enviados  
+* Capturar dados enviados; 
 
 * Área para composição de texto.  
 
-Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *Ethical Phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
 
 * Arquivo  
 
@@ -5987,7 +6011,7 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
 
   * Imagem  
 
-  * Link  
+  * *Link*  
 
   * Caracteres especiais  
 
@@ -6017,7 +6041,7 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
 
   * Limpar formatação.  
 
-No card ao lado o usuário pode realizar o upload de uma imagem de destaque. 
+No *card* ao lado o usuário pode realizar o *upload* de uma imagem de destaque. 
 
 
 .. image:: /figuras/fig_segurança/062_upload_landing_page.png 
@@ -6032,7 +6056,7 @@ Caso tente finalizar esta *landing page* sem uma figura, a seguinte mensagem é 
    :align: center
 ----
 
-Para concluir este processo, basta clicar no botão ``Salvar landing page`` que muda para a cor verde ao ficar disponível para acionamento, após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *landing pages*. 
+Para concluir este processo, basta clicar no botão ``Salvar landing page`` que muda para a cor verde ao ser disponibilizado para acionamento. Após isso, uma mensagem de *feedback* é exibida no canto inferior direito da tela e o usuário é direcionado para a tela inicial de *landing pages*. 
 
 ----
 
@@ -6055,22 +6079,22 @@ O primeiro *card* é dividido em quatro colunas, são elas:
    :align: center
 ----
 
-Ao selecionar a *landing page* desejada, o *card* lateral apresenta sua pré-visualização, juntamente com uma barra de rolagem à direita e abaixo para uma visualização completa. 
+Ao selecionar a *landing page* desejada, o *card* lateral apresenta sua pré-visualização, asssim como uma barra de rolagem à direita e abaixo para uma visualização completa. 
 
 .. image:: /figuras/fig_segurança/063_visualizando_landing_page.png
    :alt: detalhando landing page
    :align: center
 ----
 
-No fim deste card, também é possível perceber que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100. 
+No fim deste *card*, é possível observar que há a possibilidade de visualização por blocos de informação de 10, 25, 50 ou 100. 
 
-Neste card de pré-visualização, ao lado do nome da *landing page*, é possível identificar dois ícones de ações: 
+Na área de pré-visualização, ao lado da listagem das *landing pages*, dois ícones de ação são identificados: 
 
    * **Copiar e colar**: Este botão |icone_copiar| indica uma ação de copiar e colar; 
 
    * **Lápis**: O ícone |icone_lapis| indica uma edição. 
 
-Caso o usuário deseje deletar um dos modelos de *landing page* da lista, basta clicar no ícone de lixeira, a plataforma exibe uma mensagem de alerta, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista basta clicar em ``Fechar``. A exclusão é permanente. 
+Caso o usuário deseje deletar um dos modelos de *landing page* da lista, basta clicar no ícone de lixeira. A plataforma exibe uma mensagem de alerta e, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista é necessário clicar em ``Fechar``. Vale ressaltar que a exclusão é permanente. 
 
 .. image:: /figuras/fig_segurança/069_u_landing_exclusão.png
    :alt: mensagem exclusãO
