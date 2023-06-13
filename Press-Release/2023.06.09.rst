@@ -50,7 +50,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 |Novo comportamento do portal|Na criação de um grupo de segurança houve adaptação da chamada  |
 |                            |de protocolos a estes grupos, para a chamada atualizada.        |
 +----------------------------+----------------------------------------------------------------+
-|Localização no portal       |                                                                |
+|Localização no portal       |Menu Grupo de Segurança > Regras                                |
 +----------------------------+----------------------------------------------------------------+
 
 
@@ -62,7 +62,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 +----------------------------+------------------------------------------------------------------+
 |Novo comportamento do portal|O novo atributo transfere as configurações da máquina a ser criada| 
 +----------------------------+------------------------------------------------------------------+
-|Localização no portal       |                                                                  |
+|Localização no portal       |Menu Máquina Virtual > Criar Máquina Virtual                      |
 +----------------------------+------------------------------------------------------------------+
 
 ====
@@ -75,7 +75,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 +============================+=======================================================================================+
 |Objetivo                    |Melhorar o comportamento do snapshot para esta nuvem e correta apresentação ao usuário |
 +----------------------------+---------------------------------------------------------------------------------------+
-|Novo comportamento do portal|Ao excluir snapshot o erro é exibido ao usuário na aba tarefas                         |
+|Novo comportamento do portal|Ao excluir o snapshot, caso de falha o erro é exibido ao usuário na aba tarefas.       |
 +----------------------------+---------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Tarefas > Tarefas                                                                 |
 +----------------------------+---------------------------------------------------------------------------------------+
@@ -92,14 +92,13 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 +============================+===========================================================+
 |Objetivo                    |Evoluir a funcionalidade de cadastro de um token de API do |
 |                            |GitLab e um do GitHub por usuário.                         |
-|                            |Criação de um card contendo todas as regras presentes nos  |
-|                            |critérios de aceitação da issue no link.                   |
 +----------------------------+-----------------------------------------------------------+
 |Novo comportamento do portal|Permite a possibilidade de cadastrar mais de um token, em  |
 |                            |ambas plataformas e conecta um ambiente privado ou público |
 |                            |sem trocar as credenciais.                                 |
 +----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
+|Localização no portal       |Menu Administração > Usuários > Minhas credenciais de      |
+|                            |repositórios remotos                                       |
 +----------------------------+-----------------------------------------------------------+
 
 
@@ -132,7 +131,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: AWS RDS 
    :scale: 80 %
    :align: center
-----
 
 ====
 
@@ -152,7 +150,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: AWS EBS 
    :scale: 80 %
    :align: center
-----
 
 ====
 
@@ -171,7 +168,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: AWS ELB 
    :scale: 80 %
    :align: center
-----
 
 ====
 
@@ -191,7 +187,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: Heat Map 
    :scale: 80 %
    :align: center
-----
 
 ====
 
@@ -203,7 +198,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 |Novo comportamento do portal|É possivel salvar os relatórios gerados pela plataforma, e visualizar uma seção exclusiva para  |
 |                            |os relatórios, detalhamento, colunas informativas e ação de visualizar e deletar.               |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |Compare clouds > Reports                                                                                  |
+|Localização no portal       |Compare clouds > Reports                                                                        |
 +----------------------------+------------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_usavings/notas/006_compare_clouds_reports.png
