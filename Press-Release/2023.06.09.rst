@@ -1,14 +1,20 @@
-2023.06.02
-++++++++++
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
 
+----
 
-Press release: uCloud
----------------------
-Ano 2023 - Período 05 a 09 de Junho.
+2023.06.09
+==========
+
+Press release
+-------------
+Ano 2023 - Período: 05 a 09 de Junho
 
 ====
 
-Neste *press release* a Ustore comunica  os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo. A partir deste anúncio, o portal passa a atender os seguintes itens listados e divididos em dois grupos: Billing e OPS. 
+Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lançamentos desta semana, das novas características nas plataformas **uCloud (Billing e OPS)** e **uSavings**. 
 
 ====
 
@@ -17,20 +23,13 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 ====
 
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|Feature              |                                                                                                                      |
+|Feature              |Relatório para utilização da integração PMC com o Odin                                                                |
 +=====================+======================================================================================================================+
-|Objetivo             |                                                                                                                      |
+|Objetivo             |O novo utilitário do uCloud Billing integração PMC com o Odin, é responsável pela visualização do consumo e envio do  |
+|                     |mesmo para o sistema de faturamento da Embratel (Odin).                                                               |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-|Localização no portal|                                                                                                                      |
+|Localização no portal|Menu Financeiro > Utilitários > Painéis de utilitários financeiros> Integração PMC com Odin                           |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
-
-+----------------------+-----------------------------------------------------------------+
-|Feature               |                                                                 |
-+======================+=================================================================+
-|Objetivo              |                                                                 |
-+----------------------+-----------------------------------------------------------------+
-|Localização no portal |                                                                 |
-+----------------------+-----------------------------------------------------------------+
 
 ====
 
@@ -41,84 +40,45 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 **Nuvem Oracle**
 
 
-+----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
-+============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
++----------------------------+----------------------------------------------------------------+
+|Feature                     |Mudança na chamada de Grupos de Segurança envolvendo protocolos |
++============================+================================================================+
+|Objetivo                    |Adicionadas opções ao ENUM de protocolo no micro serviço Oracle.|
+|                            |Assim como criadas algumas validações na hora de montar o objeto|
+|                            |com estas novas regras de protocolo.                            |
++----------------------------+----------------------------------------------------------------+
+|Novo comportamento do portal|Na criação de um grupo de segurança houve adaptação da chamada  |
+|                            |de protocolos a estes grupos, para a chamada atualizada.        |
++----------------------------+----------------------------------------------------------------+
+|Localização no portal       |                                                                |
++----------------------------+----------------------------------------------------------------+
 
 
-+----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
-+============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
++----------------------------+------------------------------------------------------------------+
+|Feature                     |Adição de atributo para criar Máquina Virtual com sucesso         |
++============================+==================================================================+
+|Objetivo                    |Identificada a necessidade de passar novo atributo para que a     | 
+|                            |operação de criar máquinas virtuais nesta nuvem seja bem sucedida |
++----------------------------+------------------------------------------------------------------+
+|Novo comportamento do portal|O novo atributo transfere as configurações da máquina a ser criada| 
++----------------------------+------------------------------------------------------------------+
+|Localização no portal       |                                                                  |
++----------------------------+------------------------------------------------------------------+
 
 ====
 
 **Nuvem Azure**
 
 
-+----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
-+============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
-
-====
-
-**Nuvem VMWare**
-
-
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Feature                     |                                                                                                |
-+============================+================================================================================================+
-|Objetivo                    |                                                                                                |
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|                                                                                                |
-|                            |                                                                                                |
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                                |
-+----------------------------+------------------------------------------------------------------------------------------------+
-
-====
-
-**Nuvem Hyper-V**
-
-
-+----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
-+============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
++----------------------------+---------------------------------------------------------------------------------------+
+|Feature                     |Tratamento de erro à exclusão do snapshot com comportamento semelhante ucloud/nuvem    |
++============================+=======================================================================================+
+|Objetivo                    |Melhorar o comportamento do snapshot para esta nuvem e correta apresentação ao usuário |
++----------------------------+---------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Ao excluir snapshot o erro é exibido ao usuário na aba tarefas                         |
++----------------------------+---------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Tarefas > Tarefas                                                                 |
++----------------------------+---------------------------------------------------------------------------------------+
 
 
 ====
@@ -128,31 +88,136 @@ Neste *press release* a Ustore comunica  os lançamentos das novas característi
 ====
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
+|Feature                     |Conexão com repositórios                                   |
 +============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
+|Objetivo                    |Evoluir a funcionalidade de cadastro de um token de API do |
+|                            |GitLab e um do GitHub por usuário.                         |
+|                            |Criação de um card contendo todas as regras presentes nos  |
+|                            |critérios de aceitação da issue no link.                   |
 +----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
+|Novo comportamento do portal|Permite a possibilidade de cadastrar mais de um token, em  |
+|                            |ambas plataformas e conecta um ambiente privado ou público |
+|                            |sem trocar as credenciais.                                 |
 +----------------------------+-----------------------------------------------------------+
 |Localização no portal       |                                                           |
 +----------------------------+-----------------------------------------------------------+
 
 
-+----------------------------+-----------------------------------------------------------+
-|Feature                     |                                                           |
-|                            |                                                           |
-+============================+===========================================================+
-|Objetivo                    |                                                           |
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Novo comportamento do portal|                                                           | 
-|                            |                                                           |
-+----------------------------+-----------------------------------------------------------+
-|Localização no portal       |                                                           |
-+----------------------------+-----------------------------------------------------------+
+====
+
+.. centered:: Plataforma uSavings
+
+====
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - RDS                                                                                       |
++============================+================================================================================================+
+|Objetivo                    |Visualizar gráficos que mostram consumo                                                         |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Dentro da seção de RDS na tela de AWS é possível fazer a visualização de gráficos mostrando o   |
+|                            |consumo, coletado pelo cost explorer, das instâncias RDS do container selecionando no relatório.|
+|                            |Possibilita visualizar a relação das recomendações de melhoria do redimento mensal da conta.    |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |Seção RDS > tela AWS                                                                            |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/001_aws_rds.png
+   :alt: AWS RDS 
+   :scale: 80 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/002_aws_rds.png
+   :alt: AWS RDS 
+   :scale: 80 %
+   :align: center
+----
+
+====
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - EBS                                                                                       |
++============================+================================================================================================+
+|Objetivo                    |Visualizar lista de recomendações                                                               |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Dentro da tela de AWS a seção de EBS exibe alguns gráficos e uma lista de recomendações que o   |
+|                            |usuário pode seguir na conta, que auxilia na economia da conta AWS.                             | 
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |Tela AWS > relatório EBS                                                                        |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/003_aws_ebs.png
+   :alt: AWS EBS 
+   :scale: 80 %
+   :align: center
+----
+
+====
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - ELB                                                                                       |
++============================+================================================================================================+
+|Objetivo                    |Visualizar relatório ELB                                                                        |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Na última seção da tela AWS há o relatório ELB. Exibe alguns dados de custo e consumo dos Load  |
+|                            |Balancers da conta.                                                                             | 
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |Tela AWS > relatório ELB                                                                        |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/004_aws_elb.png
+   :alt: AWS ELB 
+   :scale: 80 %
+   :align: center
+----
+
+====
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Heat Map                                                                                        |
++============================+================================================================================================+
+|Objetivo                    |Apresentação mapa de calor dos container por região                                             |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|A tela Heatmap possibilita identificar no mapa mundi a concentração dos recursos de containers. |
+|                            |Exibe separadamente quanto cada família de recurso custa por região.                            |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |Tela Heatmap > Heat Map Containers                                                              |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/005_heat_map.png
+   :alt: Heat Map 
+   :scale: 80 %
+   :align: center
+----
+
+====
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Compare Clouds - Reports                                                                        |
++============================+================================================================================================+
+|Objetivo                    |Os relatórios gerados devem ser salvos                                                          |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|É possivel salvar os relatórios gerados pela plataforma, e visualizar uma seção exclusiva para  |
+|                            |os relatórios, detalhamento, colunas informativas e ação de visualizar e deletar.               |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |Compare clouds > Reports                                                                                  |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/006_compare_clouds_reports.png
+   :alt: Compare clouds reports 
+   :scale: 80 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/007_reports.png
+   :alt: Reports 
+   :scale: 80 %
+   :align: center
+----
+
 
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
