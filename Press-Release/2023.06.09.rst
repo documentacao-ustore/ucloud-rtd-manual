@@ -18,7 +18,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-.. centered:: uCloud Billing
+.. centered:: **uCloud Billing**
            
 ====
 
@@ -33,11 +33,15 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-.. centered:: uCloud OPS
+.. centered:: **uCloud OPS**
 
 ====
 
-**Nuvem Oracle**
+===
+
+.. centered:: Nuvem Oracle
+
+====
 
 
 +----------------------------+----------------------------------------------------------------+
@@ -67,8 +71,9 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-**Nuvem Azure**
+.. centered:: Nuvem Azure
 
+====
 
 +----------------------------+---------------------------------------------------------------------------------------+
 |Feature                     |Tratamento de erro à exclusão do snapshot com comportamento semelhante ucloud/nuvem    |
@@ -83,7 +88,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-.. centered:: Portal uCloud
+.. centered:: **Portal uCloud**
 
 ====
 
@@ -104,7 +109,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-.. centered:: Plataforma uSavings
+.. centered:: **Plataforma uSavings**
 
 ====
 
@@ -132,9 +137,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :scale: 80 %
    :align: center
 
-====
-
-
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |AWS - EBS                                                                                       |
 +============================+================================================================================================+
@@ -150,8 +152,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: AWS EBS 
    :scale: 80 %
    :align: center
-
-====
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |AWS - ELB                                                                                       |
@@ -169,9 +169,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :scale: 80 %
    :align: center
 
-====
-
-
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Heat Map                                                                                        |
 +============================+================================================================================================+
@@ -187,8 +184,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :alt: Heat Map 
    :scale: 80 %
    :align: center
-
-====
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Compare Clouds - Reports                                                                        |
@@ -213,6 +208,8 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
    :align: center
 ----
 
-
+Este conjunto de funcionalidades descritas neste documento reafirmam o constante compromisso de evolução dos produtos da Ustore e o alinhamento às necessidades do mercado e clientes.
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+Este press release semanal é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades dos produtos e inovações geradas na Ustore.
