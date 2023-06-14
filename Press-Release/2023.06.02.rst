@@ -42,8 +42,9 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 ====
 
-.. centered:: **Nuvem VMware**
+.. centered:: Nuvem VMware
 
+====
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Tratamento na mensagem de erro ao deletar máquina virtual associada a um recurso                |
@@ -147,3 +148,5 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 +----------------------------+-----------------------------------------------------------+
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+Este press release tem periodicidade semanal, divulga as inovações geradas nos produtos Ustore.

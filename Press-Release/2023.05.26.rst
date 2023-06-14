@@ -46,12 +46,14 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 ====
 
-.. centered:: uCloud OPS 
+.. centered:: **uCloud OPS** 
    
 
 ====
 
-**Nuvem Oracle**
+.. centered:: Nuvem Oracle
+
+====
 
 
 +----------------------------+-----------------------------------------------------------+
@@ -84,7 +86,9 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 ====
 
-**Nuvem Azure**
+.. centered:: **Nuvem Azure**
+
+====
 
 
 +----------------------------+-----------------------------------------------------------+
@@ -101,7 +105,9 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 ====
 
-**Nuvem VMWare**
+.. centered:: **Nuvem VMWare**
+
+====
 
 
 +----------------------------+-----------------------------------------------------------+
@@ -118,7 +124,9 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 ====
 
-**Nuvem Hyper-V**
+.. centered:: **Nuvem Hyper-V**
+
+====
 
 
 +----------------------------+-----------------------------------------------------------+
@@ -170,3 +178,5 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+Este press release tem periodicidade semanal, divulga as novidades geradas nos produtos Ustore.
