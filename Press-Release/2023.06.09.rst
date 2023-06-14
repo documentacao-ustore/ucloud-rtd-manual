@@ -37,8 +37,6 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
-===
-
 .. centered:: Nuvem Oracle
 
 ====
@@ -128,14 +126,15 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 .. figure:: /figuras/fig_usavings/notas/001_aws_rds.png
    :alt: AWS RDS 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/002_aws_rds.png
    :alt: AWS RDS 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
+----
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |AWS - EBS                                                                                       |
@@ -150,8 +149,9 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 .. figure:: /figuras/fig_usavings/notas/003_aws_ebs.png
    :alt: AWS EBS 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
+----
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |AWS - ELB                                                                                       |
@@ -166,8 +166,9 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 .. figure:: /figuras/fig_usavings/notas/004_aws_elb.png
    :alt: AWS ELB 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
+----
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Heat Map                                                                                        |
@@ -182,8 +183,9 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 .. figure:: /figuras/fig_usavings/notas/005_heat_map.png
    :alt: Heat Map 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
+----
 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Compare Clouds - Reports                                                                        |
@@ -198,13 +200,13 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 .. figure:: /figuras/fig_usavings/notas/006_compare_clouds_reports.png
    :alt: Compare clouds reports 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/007_reports.png
    :alt: Reports 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
 ----
 
@@ -212,4 +214,4 @@ Este conjunto de funcionalidades descritas neste documento reafirmam o constante
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
 
-Este press release semanal é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades dos produtos e inovações geradas na Ustore.
+Este press release semanal é uma ferramenta de comunicação fundamental ao trabalho de divulgação das novidades e inovações dos produtos gerados na Ustore.
