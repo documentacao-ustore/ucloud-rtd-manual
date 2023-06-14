@@ -5631,7 +5631,7 @@ Nesta imagem é possível verificar a existência de quatro botões de ação:
 * ``Escolher ficheiro`` 
 * ``+ Importar usuários em massa``
 
-O primeiro passso a ser feito é nomear o grupo. Em seguida, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal dele, exibido abaixo, seja habilitado para preenchimento.    
+O primeiro passo a ser feito é nomear o grupo. Em seguida, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal dele, exibido abaixo, seja habilitado para preenchimento.    
 
 
 .. image:: /figuras/fig_segurança/048_add_contato.png
@@ -5782,11 +5782,11 @@ Os seguintes campos devem ser preenchidos:
 
 * Assunto do e-mail;  
 
-* *Tags* 
+* *Tags*;
 
-.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas.
+.. note:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas.
 
-* Pré-visualizar imagem  
+* Pré-visualizar imagem;  
 
 * Área para composição de texto. 
 
@@ -5973,9 +5973,9 @@ Os espaços apresentados são descritos abaixo:
 
 * URL - ``Importar landing page a partir de uma URL``  
 
-* *Tags*;  
+* *Tags*;
 
-.. nota:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, assim como criá-las.
+.. note:: Como mencionado anteriormente, é possível adicionar uma ou mais *tags*, assim como criá-las.
 
 * ``Pré-visualizar landing page``  
 
@@ -6079,7 +6079,7 @@ O primeiro *card* é dividido em quatro colunas, são elas:
    :align: center
 ----
 
-Ao selecionar a *landing page* desejada, o *card* lateral apresenta sua pré-visualização, asssim como uma barra de rolagem à direita e abaixo para uma visualização completa. 
+Ao selecionar a *landing page* desejada, o *card* lateral apresenta sua pré-visualização, assim como uma barra de rolagem à direita e abaixo para uma visualização completa. 
 
 .. image:: /figuras/fig_segurança/063_visualizando_landing_page.png
    :alt: detalhando landing page
@@ -6094,7 +6094,9 @@ Na área de pré-visualização, ao lado da listagem das *landing pages*, dois �
 
    * **Lápis**: O ícone |icone_lapis| indica uma edição. 
 
-Caso o usuário deseje deletar um dos modelos de *landing page* da lista, basta clicar no ícone de lixeira. A plataforma exibe uma mensagem de alerta e, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista é necessário clicar em ``Fechar``. Vale ressaltar que a exclusão é permanente. 
+Caso o usuário deseje deletar um dos modelos de *landing page* da lista, basta clicar no ícone de lixeira. A plataforma exibe uma mensagem de alerta e, para confirmar a ação, o usuário deve clicar no botão ``Sim``, caso desista é necessário clicar em ``Fechar``. 
+
+Vale ressaltar que a exclusão é permanente. 
 
 .. image:: /figuras/fig_segurança/069_u_landing_exclusão.png
    :alt: mensagem exclusãO
