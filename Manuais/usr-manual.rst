@@ -3474,9 +3474,9 @@ Ao clicar na segunda ação, a tela para seleção de um *template* para a pági
    :align: center
 ----
 
-Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto da ação de ``Voltar``. 
+Com a finalidade de avançar mais uma etapa, cabe ao usuário clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto da ação ``Voltar``. 
 
-Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
+Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de um *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: perfil de envio 
@@ -3754,7 +3754,7 @@ Após clicar no botão para ``Autorizar novo domínio``, o seguinte modal é apr
    :align: center
 ----
 
-Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual as opções para a seleção são exibidas ao clicar. O camopo seguinte representa a continuação do e-mail, e este deve ser preenchido com um domínio corporativo válido, e então clicar no botão ``Enviar código``.  
+Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual as opções para a seleção são exibidas ao clicar. O campo seguinte representa a continuação do e-mail, e este deve ser preenchido com um domínio corporativo válido, e então clicar no botão ``Enviar código``.  
 
 .. warning:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
 
@@ -4316,7 +4316,7 @@ Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida,
    :align: center
 ----
 
-Com a finalidade de avançar, cabe ao usuário gerente Adimin clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão de ``Voltar``. 
+Com a finalidade de avançar, cabe ao usuário gerente Adimin clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão ``Voltar``. 
 
 Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
 
