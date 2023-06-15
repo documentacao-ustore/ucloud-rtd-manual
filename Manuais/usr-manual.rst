@@ -3569,7 +3569,7 @@ No lado direito da tela, informações sobre as cotas são expressas no recorte 
 
 **Recorte 5**
 
-Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.  
+Posterior ao teste do e-mail, há um *checkbox* para confirmar que o teste foi feito no último recorte. Este também informa que a campanha pode ser iniciada.  
 
 .. image:: /figuras/fig_segurança/019_teste_confirmar.png
    :alt: teste confirmar 
@@ -4318,7 +4318,7 @@ Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida,
 
 Com a finalidade de avançar, cabe ao usuário gerente Admin clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão ``Voltar``. 
 
-Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
+Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de um *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: perfil de envio 
@@ -4413,7 +4413,7 @@ Após preencher os campos necessários o botão para ``Enviar e-mail teste`` é 
 
 **Recorte 5**
 
-Posterior ao teste do e-mail, há uma *checkbox* para confirmar que o teste foi feito no último recorte. Este informa que a campanha pode ser iniciada.  
+Posterior ao teste do e-mail, há um *checkbox* para confirmar que o teste foi feito no último recorte. Este informa que a campanha pode ser iniciada.  
 
 .. image:: /figuras/fig_segurança/019_teste_confirmar.png
    :alt: teste confirmar 
@@ -5287,7 +5287,7 @@ Ao clicar na segunda ação, a tela para seleção de um *template* para a pági
 
 Com a finalidade de avançar mais uma etapa, cabe ao usuário Utilizador clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto da ação de ``Voltar``. 
 
-Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
+Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de um *checkbox*.  
 
 .. image:: /figuras/fig_segurança/011_perfil_envio.png
    :alt: selecionar perfil de envio
@@ -5396,7 +5396,7 @@ No lado direito da tela, informações sobre as cotas são expressas no recorte 
 
 **Recorte 5** 
 
-Posterior ao teste do e-mail, há uma *checkbox* para confirmar que a realização deste foi feita.   
+Posterior ao teste do e-mail, há um *checkbox* para confirmar que a realização deste foi feita.   
 
 .. image:: /figuras/fig_segurança/023_u_teste_1.png
    :alt: checkbox confirma
