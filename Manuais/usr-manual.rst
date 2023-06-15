@@ -4316,7 +4316,7 @@ Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida,
    :align: center
 ----
 
-Com a finalidade de avançar, cabe ao usuário gerente Adimin clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão ``Voltar``. 
+Com a finalidade de avançar, cabe ao usuário gerente Admin clicar no botão ``Selecionar perfil de envio`` no canto inferior direito, do lado oposto do botão ``Voltar``. 
 
 Em seguida, a tela de perfil de envio é apresentada com as opções de perfil de envio SMTP disponíveis para seleção através de uma *checkbox*.  
 
