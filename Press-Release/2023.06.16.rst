@@ -1,0 +1,77 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+----
+
+2023.06.16
+==========
+
+Press release
+-------------
+Ano 2023 - Período 12 a 16 de Junho
+
+====
+
+Nesta comunicação a Ustore anuncia os lançamentos semanais das novas características da plataforma **uCloud**: **Billing** e **OPS**. 
+====
+
+.. centered:: uCloud Billing
+           
+====
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Alertas do Budget                                                                                                                          |
++============================+===========================================================================================================================================+
+|Objetivo                    |Enviar alertas de budget baseado no percentual do consumo do cliente em relação ao budget "estimado"?                                      |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|A funcionalidade busca todos os budgets não deletados de todos os contratos para o mês corrente. Exclusivo aos budgets que possuem alertas.|
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Administração > Contratos > card Budgets > editar Budget                                                                              |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+====
+
+.. centered:: uCloud OPS
+
+====
+
+
+**Nuvem VMware**
+
+
++----------------------------+---------------------------------------------------+
+|Feature                     |Tagueamento de recursos do inventário              |
++============================+===================================================+
+|Objetivo                    |Mapear a criação de recursos para a nuvem VMware   |
++----------------------------+---------------------------------------------------+
+|Novo comportamento do portal|Os recursos do inventário são tagueáveis apenas no |
+|                            |portal uCloud                                      |
++----------------------------+---------------------------------------------------+
+|Localização no portal       |                                                   |
++----------------------------+---------------------------------------------------+
+
+====
+
+**Nuvem Hyper-V**
+
+
++----------------------------+--------------------------------------------------+
+|Feature                     |Mapeamento do inventário de recursos              |
+|                            |                                                  |
++============================+==================================================+
+|Objetivo                    |Mapear a criação de recursos para a nuvem VMware  |
+|                            |                                                  |
++----------------------------+--------------------------------------------------+
+|Novo comportamento do portal|                                                  | 
+|                            |                                                  |
++----------------------------+--------------------------------------------------+
+|Localização no portal       |                                                  |
++----------------------------+--------------------------------------------------+
+
+
+
+
+.. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
