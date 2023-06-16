@@ -1288,6 +1288,138 @@ When the user accesses the Catalog menu, the Mangue.io platform presents the scr
 New application
 ----------------
 
+This modality is the form the Mangue.io platform conducts the user through the screens, requesting the information in sequence so that, posteriorly, the Mangue.io platform makes the compilation of information generating the application within the Cluster and Namespace selected in the gear tab |icone_engrenagem| “Configuration Selection”.
+
+Below are described the steps to fill the forms from the screens that guide the user.
+
+A. **First Step: New application**
+
+For the creation of a new application (Deployment) the Mangue.io platform segments the process in two steps, the user must fill the following blanks:
+
+.. image:: /figuras/fig_mangue/056_mangue_criar_deployment.png
+    :alt: create deployment
+    :align: center
+----
+
+* **Name**: This space is mandatory, the user must inform the application (Deployment) name with which this stays identified on Mangue.io platform;
+* **Replicas**: This blank is mandatory, the user must inform the number (full)that they desire to allocate to execute the application (Deployment) as soon as created. This number is allocated in the computing infrastructure so that the user obtains a better performance experience, and the Mangue.io platform takes care of allocating these computing resources; 
+* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register http://hub.docker.com. The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
+
+.. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
+    :alt: search image
+    :align: center
+----
+
+The user just needs to click with the mouse cursor on the line of the desired image to select the best image available.
+
+* **Container name**: This blank is mandatory, in it the name with which the user intends to identify it within the Mangue.io platform must be informed;
+* **Block execution of privileged user**: On this space the user can block all the Deployment containers for it to be executed in a privileged way, with access to resources and Kernel capacities of the Host machine;
+* **Specify user, group or system file ID**: On this area it is possible to indicate the user, group or system file ID the container is executed;
+* **Application Tags**:On this blank the user can inform the application Tags, as well as create a Tag to be associated to the application;
+* ``Add`` **button**: To create a new application (Deployment) the Mangue.io platform segments the process in two steps. After the user confirms the action with the ``Add`` button the user views the following screen:
+
+.. image:: /figuras/fig_mangue/058_mangue_modal_imagem.png
+    :alt: configure image
+    :align: center
+----
+
+* **Image version**: This blank is mandatory on it the user must inform how the application (Deployment) is identified on the environment. This blank can be filled with numbers or characters, to attend to the user demand (e.g.: latest, last, 1.xx, 1.20);
+
+* **ContainerPort**: This area is mandatory on it the user must inform which TCP-IP container port can be used for the application (Deployment) to be available to others users access;
+  
+      * **Maximum Resource to be used [CPU in millicores]**: On this space the user can inform the maximum of CPU resources that must be allocated, on the computing infrastructure of the Cluster to offer the maximum performance for this application (Deployment). This quantity must be informed with a full number, to support and execute the application (Deployment);
+  
+      * **Minimum Resource to be used [CPU in millicores]**: On this blank the user can inform the minimum of CPU resources that must be allocated, on the computing infrastructure of the Cluster to offer the minimum acceptable performance for this application (Deployment). This quantity must be informed with a full number, to support and execute the application (Deployment);
+  
+      * **Maximum Resource to be used [Memory in millicores]**: On this area the user can inform the maximum of RAM memory resources that must be allocated, on the computing infrastructure of the Cluster to offer the maximum performance to this application (Deployment). This quantity must be informed with a full number to support and execute the Deployment;
+  
+      * **Minimum Resource to be used [Memory in millicores]**: On this blank the user must inform the minimum of RAM memory resources that can be allocated, on the computing infrastructure of the Cluster to offer the minimum acceptable performance for this application (Deployment). This quantity must be informed with a full number, to support and execute the new application (Deployment);
+  
+* **Allow privileged execution**: On this blank the user must inform if the container has access to the resources and Kernel capacities of the Host machine;
+  
+* **Specify user, group or file system ID**: On this area it is possible to indicate the user, group or file system ID that the container is executed;
+  
+* **Registry Secret**: On this blank the user must inform the Secret name of the images server associated with this image. By clicking with the mouse over this blank, the Mangue.io platform presents a list file of Secrets available on the private image server; 
+  
+* ``Next`` **button**: When the user clicks on the ``Next`` button the Mangue.io platform presents the screen with the blanks respectives of Secrets and Environment Variables of the container. See the screen below:
+
+.. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
+    :alt: secrets and Variables
+    :align: center
+----
+
+* Environment Variables:
+
+      * Environment variable name;
+      * Environment variable content;
+      * ``Add`` button
+* Secrets
+      * Secret name;
+      * Environment Variable;
+      * Secret Key;
+      * Secret Value;
+      * ``Add`` button;
+      * ``Create Secret`` button;
+      * ``Back`` button
+      * ``Finish`` button.
+
+After clicking on the **Finish** button, the Mangue.io platform closes the sub screens and returns to the first step of the new application process, it presents the its configuration listed, as the example below:
+
+.. image:: /figuras/fig_mangue/061_mangue_lista_aplicacao.png
+    :alt: application list
+    :align: center
+----
+
+Below  the content description of the columns presented on this list:
+
+* **#**: Shows the container sequential number on the present list;
+
+* **Container**: Displays the container name informed on the previous steps, the start of a new application creation process (Deployment);
+
+* **Image**: Presents the image name of the application that was selected from the images register server (e.g.: http://hub.docker.com);
+  
+* **Version**: Displays the information of the application version (Deployment) informed on the previous steps;
+
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, it presents a submenu with the following options:
+
+.. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
+    :alt: actions submenu
+    :align: center
+----
+
+      * **Add PersistentVolumeClaim**: Through this screen the user may configure the file characteristics regarding the *PersistentVolumeClaim* (PVC). The Mangue.io platform simplifies the PVC configuration process, offering to the user options on the graphic interface that conduct the decisions regarding the PVC, as below:
+  
+.. image:: /figuras/fig_mangue/063_mangue_add_pvc.png
+    :alt: add PVC
+    :align: Center
+----
+
+          * **Size / 1Gi, 5Gi, 10Gi**: The user can select the volume size simply by clicking with the mouse cursor over the desired number, selecting the best size option for this PVC. The options are expressed in Gigabytes (1, 5, or 10);
+          * **Size / Customized**: Another way of creating a PVC with a volume with a differing size from the previous options, the Mangue.io platform presents a slide bar that allows the user to select the PVC’s desired size. Using the mouse cursor over the orange indicator, the user can move this indicator (left or right) to define the final desired size. The minimum size is 1 Gigabyte and the maximum of 100 Gigabytes;
+          * **Storage Class**: This blank is a dropdown list that is composed only of NFS servers configured on the Mangue.io platform. The user must select the more adequate NFS server to receive the PVC file;
+          * **Access Mode**: This column presents the access configuration to this volume, these access modes can be three, they are: *ReadWriteOnce*, *ReadOnlyMany*, *ReadWriteMany*;
+          * **Mount Path**: On this space the user must inform the path where the volume is mounted on the container. If the application base is on a Linux environment, the montage volume path must use the notation of the Linux operating system;
+          * **Volume name**: On this area the user must inform the name of the volume file that is created on the Cluster operating system.
+
+      * **Add ConfigMap**: A *ConfigMap* is an API object used to store non-confidential data in key-value pairs. On this sub screen the user can include and configure the desired *ConfigMap(s)*  file(s) for their environment.
+  
+.. image:: /figuras/fig_mangue/064_mangue_add_configmap.png
+    :alt: add ConfigMap
+    :align: center
+----
+
+          * **ConfigMap Name**: This blank is mandatory, the user must inform the desired name to register in the Mangue.io platform and identify this *ConfigMap*;
+          * ``Add`` **button**;
+          * **Mount Path**: This space is mandatory the user must inform the path where the volume is mounted on the container. If the application base is in a Linux environment, the mount path of the volume must use the environment notation of the Linux operating system;
+          * **File Name**: This area is mandatory the user must inform the file name that is created on the virtual machine operational system that uses the *ConfigMap*;
+          * **File content**: This blank is mandatory and the user must fill in with the specific content of the *ConfigMap*;
+          * ``Add ConfigMap`` **button**: After filling in all the previous blanks the user must press this button with the mouse cursor so the Mangue.io platform can promote the creation, configuration and recording of the *ConfigMap* for this new application (Deployment).
+     * **Edit Container**: When selected this option the Mangue.io platform presents the screen regarding the **Fist Step: New Application**, so the user can edit the configurations on this container.
+     * **Exclude Container**: This action is defined and when actioned the Mangue.io platform removes allo the container initial configuration, **no confirmation of this action is required.**
+
+B. Validate New Application
+
+ 
 
 
 
