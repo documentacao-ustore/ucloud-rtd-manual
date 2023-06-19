@@ -2065,17 +2065,17 @@ Assim que o ícone do calendário é clicado, é possível selecionar o ano dese
 
 Logo que o usuário selecionar o mês, a plataforma do Mangue.io inicia o processo de busca e cálculo dos valores do mês e ano selecionado. Este processo pode demorar alguns segundos e o usuário pode acompanhar a evolução deste processamento, acompanhando uma “linha preta” que aparece da esquerda para a direita no alto da área do browser de internet.
 
-No minuto em que a linha preencher totalmente o topo da área do browser, a plataforma do Mangue.io atualizará o gráfico da tela com os valores diários do mês e ano selecionado.
+No minuto em que a linha preencher totalmente o topo da área do browser, a plataforma do Mangue.io atualiza o gráfico da tela com os valores diários do mês e ano selecionado.
 
 Importante mencionar que os valores diários apresentados refletem até o dia corrente, em outras palavras, se o usuário deseja consultar os valores do mês, e o mês corrente se encontra (por exemplo) na primeira quinzena, o gráfico representa apenas do dia 1º até o dia 15 do mês corrente.
 
 Este gráfico apresenta uma linha da evolução do valor de consumo de infraestrutura computacional e pode ser compreendido como uma progressão matemática. Em outras palavras, é o valor do consumo do dia anterior somado ao valor de consumo do dia corrente, e, assim, sucessivamente.
 
-A cada início de mês, o valor será “zerado” iniciando um novo ciclo de cálculo de consumo da infraestrutura computacional para o período do mês, até o dia corrente. Desta forma, o valor do primeiro dia do mês pode não ser apresentado imediatamente, pois a plataforma do Mangue.io necessita computar este valor do dia após as 24 horas do primeiro dia – o valor do dia corrente é apresentado após 24 horas.
+A cada início de mês, o valor é “zerado” iniciando um novo ciclo de cálculo de consumo da infraestrutura computacional para o período do mês, até o dia corrente. Desta forma, o valor do primeiro dia do mês pode não ser apresentado imediatamente, pois a plataforma do Mangue.io necessita computar este valor do dia após as 24 horas do primeiro dia – o valor do dia corrente é apresentado após 24 horas.
 
-A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, Updates, CronJobs criação de novas aplicações, deployments entre outros.
+A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, Updates, *CronJobs* criação de novas aplicações, *deployments* entre outros.
 
-Todas as situações acima listadas são potenciais causas de aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
+Todas as situações acima listadas são potenciais causas do aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
 
 ----
 
@@ -2091,7 +2091,7 @@ Este gráfico apresenta o consumo acumulado mês-a-mês dos últimos quatro (04)
 =====
   
 
-Na figura acima, pode-se ver o exemplo de como a plataforma do Mangue.io apresenta os valores do consumo de infraestrutura do cluster. Este gráfico exibe os últimos quatro meses do consumo.
+Na figura acima, pode-se ver o exemplo de como a plataforma do Mangue.io apresenta os valores do consumo de infraestrutura do *cluster*. Este gráfico exibe os últimos quatro meses do consumo.
 
 
 O valor acumulado do mês corrente, representa o consumo do primeiro dia do mês até o dia da consulta; desta forma, caso o dia corrente seja na primeira semana do mês, o valor acumulado representa  o consumo da semana. 
@@ -2105,22 +2105,23 @@ No eixo vertical, são apresentados os valores máximos arredondados para o pró
 C. Por Tags
 ~~~~~~~~~~~
 
-A plataforma Mangue.io permite que as aplicações *Kubernetes* possuam *Tags*, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes e visualizar o faturamento delas. 
+A plataforma Mangue.io permite que as aplicações *Kubernetes* possuam *tags*, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes e visualizar o faturamento delas. 
 
-As Tags podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de "Nova Aplicação" no item Catálogo, ou em uma aplicação já existente, demonstrado na seção de "Alterar *Tags*" no item *Deployments*.
+As *tags* podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de "Nova Aplicação" no item Catálogo, ou em uma aplicação já existente, demonstrado na seção de "Alterar *tags*" no item *Deployments*.
 
-A tela de Faturamento por *Tags* é separada em duas seções: 
+A tela de Faturamento por *tags* é separada em duas seções: 
 
-        * Histórico de Faturamento Mensal por *Tags*;
+     * Histórico de Faturamento Mensal por *tags*;
 
-        * Detalhes *Tags*.
+     * Detalhes *tags*.
 
 .. image:: /figuras/fig_mangue/094_mangue_historico_tags.png
     :alt: Histórico de tags
     :align: center
-=====  
+----
+ 
 
-Na seção de Histórico de Faturamento Mensal por *Tags*, o usuário deve primeiramente selecionar um *Cluster*, para que a plataforma consiga carregar as *Tags* do *Cluster*. Após isso, o usuário pode selecionar o período desejado de faturamento e as *Tags* a serem exibidas em gráfico e na seção de "Detalhes de *Tags*".
+Na seção de Histórico de Faturamento Mensal por *tags*, o usuário deve primeiramente selecionar um *Cluster*, para que a plataforma consiga carregar as *tags* do *Cluster*. Após isso, o usuário pode selecionar o período desejado de faturamento e as *tags* a serem exibidas em gráfico e na seção de "Detalhes de *tags*".
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
@@ -2128,9 +2129,9 @@ Na seção de Histórico de Faturamento Mensal por *Tags*, o usuário deve prime
 =====
 
 
-Na seção de "Detalhes de *Tags*", é exibida uma lista com todas elas ou apenas *Tags* selecionadas na seção de Histórico de Faturamento Mensal por *Tags*. No detalhamento da *Tag*, é apresentada uma lista de aplicações com a *Tag* e um gráfico com o faturamento da *Tag* nos últimos 30 dias. 
+Na seção de "Detalhes de *tags*", é exibida uma lista com todas elas ou apenas *tags* selecionadas na seção de Histórico de Faturamento Mensal por *tags*. No detalhamento da *tag*, é apresentada uma lista de aplicações com a *tag* e um gráfico com o faturamento da *tag* nos últimos 30 dias. 
 
-O usuário pode excluir uma *Tag* clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *Tag*.
+O usuário pode excluir uma *tag* clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *tag*.
 
 ----
 
@@ -2147,35 +2148,34 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
     :align: center
 =====
 
-
-
-                                                                     * Alertas: Exibe uma lista de alertas, com as seguintes colunas:
-                                                                     * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                     * Nome: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, actions e webhooks selecionados no momento de criação do alerta. Como pode ser visto na imagem abaixo:
+   * **Alertas**: Exibe uma lista de alertas, com as seguintes colunas:
+     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável ``check mark``. Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+     * **Nome**: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, *actions* e *webhooks* selecionados no momento da criação do alerta. Como pode ser visto na imagem abaixo:
   
-  .. image:: /figuras/fig_mangue/097_mangue_alert.png
+.. image:: /figuras/fig_mangue/097_mangue_alert.png
     :alt: Alerta 
     :scale: 80 %
     :align: center
 =====
 
-                                                                        * Barra de progresso: Corresponde ao valor atual dos deployments associados ao alerta, tendo como 100% o valor de orçamento do alerta.
-                                                                        * Actions: Action que será executada no momento em que os deployments associados a um alerta atingirem o preço de orçamento.
-                                                                        * Webhooks: Webhook que será executado no momento em que os deployments associados a um alerta atingirem o preço de orçamento.
-                                                                        * Aplicação: Esta coluna apresenta o deployment ou conjunto de deployments selecionados para o alerta correspondente no momento de criação do alerta.
-                                                                        * Status: Esta coluna apresenta dois valores possíveis, “DONE” e “PENDING”:
-                                                                        * DONE: Indica que o alerta já atingiu o preço do orçamento e que foi executado, disparando os webhooks e actions configurados.
-                                                                        * PENDING: Indica que o alerta não foi executado.
-                                                                        * Data: Esta coluna apresenta a data de criação do alerta
-                                                                        * Cota Alerta: Esta coluna apresenta o preço de orçamento definido para o alerta.
-                                                                        * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção para “deletar alerta”:
+       * **Barra de progresso**: Corresponde ao valor atual dos *deployments* associados ao alerta, tendo como 100% o valor de orçamento do alerta.
+       * **Actions**: *Action* executada no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
+       * **Webhooks**: *Webhook* executado no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
+     * **Aplicação**: Esta coluna apresenta o *deployment* ou conjunto de *deployments* selecionados para o alerta correspondente no momento de criação do alerta.
+     * **Status**: Esta coluna apresenta dois valores possíveis, “DONE” e “PENDING”:
+       * **DONE**: Indica que o alerta já atingiu o preço do orçamento e que foi executado, disparando os *webhooks* e *actions* configurados.
+       * **PENDING**: Indica que o alerta não foi executado.
+   * **Data**: Esta coluna apresenta a data de criação do alerta.
+   * **Cota Alerta**: Esta coluna apresenta o preço de orçamento definido para o alerta.
+   * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| que ao ser clicado, apresenta uma única opção para deletar o alerta:
+
 .. image:: /figuras/fig_mangue/098_mangue_deletar_alerta.png
     :alt: Deletar alerta 
     :scale: 80 %
     :align: center
 =====
           
-                                                                           * Deletar Alerta: Quando o usuário seleciona esta ação a plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+   * **Deletar Alerta**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
   
 .. image:: /figuras/fig_mangue/099_mangue_aviso_deletar.png
     :alt: Aviso deletar 
@@ -2185,48 +2185,53 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
 
 
 Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, webhook e actions:
-                                                                           * Detalhes: Nesta etapa é solicitado informações voltadas para o alerta especificamente, são solicitadas as seguintes informações:
-                                                                           * Nome: Campo correspondente ao nome do alerta
-                                                                           * Descrição: Campo correspondente à descrição do alerta
-                                                                           * Tipo: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
-                                                                           * Prazo: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
-                                                                           * Orçamento: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. O Valor de Orçamento precisa ser maior que o valor de Custo Atual
-  .. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
+
+* Detalhes: Nesta etapa é solicitado informações voltadas para o alerta especificamente, são solicitadas as seguintes informações:
+* Nome: Campo correspondente ao nome do alerta
+* Descrição: Campo correspondente à descrição do alerta
+* Tipo: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
+* Prazo: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
+* Orçamento: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. O Valor de Orçamento precisa ser maior que o valor de Custo Atual
+
+.. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
     :alt: Alerta detalhes 
     :scale: 80 %
     :align: center
 =====
 
-                                                                           * Webhook: Nesta etapa há uma lista de webhooks, o usuário poderá selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
+* Webhook: Nesta etapa há uma lista de webhooks, o usuário poderá selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
+
 .. image:: /figuras/fig_mangue/101_mangue_alerta_webhook.png
     :alt: Alerta webhook 
     :scale: 80 %
     :align: center
 =====  
 
-                                                                           * Ações: Nesta etapa é possível selecionar uma ação para ser executada no momento de execução do alerta, existem três valores que o usuário poderá selecionar para ação, como no exemplo da imagem abaixo:
-  .. image:: /figuras/fig_mangue/102_mangue_alerta_acoes.png
+* Ações: Nesta etapa é possível selecionar uma ação para ser executada no momento de execução do alerta, existem três valores que o usuário poderá selecionar para ação, como no exemplo da imagem abaixo:
+
+.. image:: /figuras/fig_mangue/102_mangue_alerta_acoes.png
     :alt: Alerta ações 
     :scale: 80 %
     :align: center
 =====
 
-                                                                           * Escalonamento da Aplicação: Esta ação permite que o usuário configure a troca da quantidade de réplicas em execução das aplicações selecionadas. No momento em que o alerta for executado, possibilita reduzir/aumentar a quantidade de instâncias de uma aplicação, de forma alinhada ao custo atual da mesma aplicação. Exemplo na imagem a seguir:
+* Escalonamento da Aplicação: Esta ação permite que o usuário configure a troca da quantidade de réplicas em execução das aplicações selecionadas. No momento em que o alerta for executado, possibilita reduzir/aumentar a quantidade de instâncias de uma aplicação, de forma alinhada ao custo atual da mesma aplicação. Exemplo na imagem a seguir:
   
-  .. image:: /figuras/fig_mangue/103_mangue_escalonamento_aplicacao.png
+.. image:: /figuras/fig_mangue/103_mangue_escalonamento_aplicacao.png
     :alt: Escalonamento aplicação 
     :scale: 80 %
     :align: center
 =====
 
-                                                                           * Alterar Request e Limits: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
-  .. image:: /figuras/fig_mangue/104_mangue_alterar_request_limit.png
+* Alterar Request e Limits: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
+
+.. image:: /figuras/fig_mangue/104_mangue_alterar_request_limit.png
     :alt: Alterar request limit 
     :scale: 80 %
     :align: center
 =====
 
-                                                                           * Parar Aplicação: Também é possível parar as aplicações selecionadas, a partir do momento em que o alerta for executado. Para isso, é necessário clicar em “Confirmar parada da aplicação”.
+* Parar Aplicação: Também é possível parar as aplicações selecionadas, a partir do momento em que o alerta for executado. Para isso, é necessário clicar em “Confirmar parada da aplicação”.
   
 .. image:: /figuras/fig_mangue/105_mangue_parar_aplicacao.png
     :alt: Parar aplicação 
@@ -2237,7 +2242,8 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 
 Lembrar que ao menos um webhook ou uma ação deve ser informada para possibilitar a criação do alerta.
 
-                                                                           * Webhooks: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
+* Webhooks: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
+
 Um webhook pode conter as duas formas de retorno, no entanto no momento de criar um alerta e associar ao webhook existente é necessário escolher uma das formas (HTTP ou Email) para envio de informações no momento de execução do alerta
 
 .. image:: /figuras/fig_mangue/106_mangue_webhooks.png
@@ -2246,14 +2252,14 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
 
-                                                                           * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                           * Nome: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
-                                                                           * Método: Esta coluna apresenta o método HTTP selecionado no momento de criação do webhook, podendo haver os seguintes valores: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”.
-                                                                           * Url: Esta coluna apresenta url de destino para envio da mensagem.
-                                                                           * Body:Esta coluna apresenta o corpo da requisição HTTP
-                                                                           * Email: Esta coluna apresenta o email de destino para envio de mensagem por email.
-                                                                           * Alertas: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
-                                                                           * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as opções abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
+* Método: Esta coluna apresenta o método HTTP selecionado no momento de criação do webhook, podendo haver os seguintes valores: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”.
+* Url: Esta coluna apresenta url de destino para envio da mensagem.
+* Body:Esta coluna apresenta o corpo da requisição HTTP
+* Email: Esta coluna apresenta o email de destino para envio de mensagem por email.
+* Alertas: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as opções abaixo:
   
 .. image:: /figuras/fig_mangue/107_mangue_acoes_webhook.png
     :alt: 
@@ -2261,26 +2267,28 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
         
-                                                                              * Deletar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+* Deletar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+
 .. image:: /figuras/fig_mangue/108_mangue_deletar_webhook.png
     :alt: Deletar webhook 
     :scale: 80 %
     :align: center
 =====
 
-                                                                              * Editar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
+* Editar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
+
 .. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
     :alt: Editar webhook 
     :scale: 80 %
     :align: center
 =====
 
-                                                                              * Nome: Neste campo deve ser informado o nome do webhook
-                                                                              * Método: Neste campo pode ser informado o método para requisição HTTP
-                                                                              * URL: Neste campo pode ser informado a url para requisição HTTP
-                                                                              * Body: Neste campo pode ser informado o body para requisição HTTP
-                                                                              * Email: Neste campo pode ser informado o email para envio de mensagens.
-                                                                              * Mensagem:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
+* Nome: Neste campo deve ser informado o nome do webhook
+* Método: Neste campo pode ser informado o método para requisição HTTP
+* URL: Neste campo pode ser informado a url para requisição HTTP
+* Body: Neste campo pode ser informado o body para requisição HTTP
+* Email: Neste campo pode ser informado o email para envio de mensagens.
+* Mensagem:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
 
 
 Nesta seção de webhooks é possível visualizar o ícone de adicionar webhook, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para adicionar o webhook, é exatamente igual ao formulário apresentado para editar webhook.
@@ -2292,8 +2300,10 @@ Recomendações
 =============
 
 A plataforma Mangue.io pode realizar recomendações para otimizar a utilização de CPU e memória das aplicações do Cluster, com o objetivo de evitar desperdício. No Kubernetes realiza a alocação de recursos a uma aplicação utilizando os seguintes conceitos:
-                                                                              * Request: Quantidade mínima de recurso alocado à aplicação. Exemplo: uma aplicação com memory request de 256 MB sempre tem alocada essa quantidade de memória, mesmo se aplicação sempre utilizar apenas 20 MB.
-                                                                              * Limit: Caso a aplicação precise utilizar mais recursos do que especificado em Request, o Kubernetes tenta alocar mais recursos caso a máquina Nó tenha disponível. É possível limitar a quantidade de recursos que o Kubernetes tenta alocar a aplicação utilizando Limit. Exemplo: uma aplicação com request de 256 MB e limit de 512 MB sempre tem alocada a ela 256 MB, se ela precisar de mais memória ela pode ser alocada até 512 MB e caso isso não seja o suficiente a aplicação fica sem memória, podendo causar lentidão ou instabilidade na aplicação.
+
+* Request: Quantidade mínima de recurso alocado à aplicação. Exemplo: uma aplicação com memory request de 256 MB sempre tem alocada essa quantidade de memória, mesmo se aplicação sempre utilizar apenas 20 MB.
+* Limit: Caso a aplicação precise utilizar mais recursos do que especificado em Request, o Kubernetes tenta alocar mais recursos caso a máquina Nó tenha disponível. É possível limitar a quantidade de recursos que o Kubernetes tenta alocar a aplicação utilizando Limit. Exemplo: uma aplicação com request de 256 MB e limit de 512 MB sempre tem alocada a ela 256 MB, se ela precisar de mais memória ela pode ser alocada até 512 MB e caso isso não seja o suficiente a aplicação fica sem memória, podendo causar lentidão ou instabilidade na aplicação.
+
 A plataforma realiza a otimização analisando as métricas históricas de uso de CPU e memória, assim verificando se uma aplicação está com mais recurso alocado que necessário ou com recursos insuficientes para manter a estabilidade.
 
 .. image:: /figuras/fig_mangue/110_mangue_recomendacoes.png
@@ -2303,16 +2313,18 @@ A plataforma realiza a otimização analisando as métricas históricas de uso d
 =====  
 
 Na página de recomendações é exibida uma lista com as aplicações no namespace e Cluster atual, e, é possível pesquisar recomendações através do nome da aplicação.
+
 Abaixo descrevemos as informações presentes na tabela de tarefas agendadas.
-                                                                              * #: Número sequencial da recomendação cadastrada na plataforma do Mangue.io.
-                                                                              * App: Nome da aplicação com a recomendação.
-                                                                              * CPU Request Atual/Ideal: Indica o valor atual e recomendado de CPU Request. Caso não haja recomendação nessa coluna é exibido “- / -”.
-                                                                              * CPU Limit Atual/Ideal: Indica o valor atual e recomendado de CPU Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
-                                                                              * Memory  Request Atual/Ideal: Indica o valor atual e recomendado de Memory Request. Caso não haja recomendação nessa coluna será exibido “- / -”.
-                                                                              * Memory Limit Atual/Ideal: Indica o valor atual e recomendado de Memory Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
-                                                                              * Ações: Esta coluna possui os seguintes elementos: 
-                                                                              * um botão de “Aplicar”, que ao ser clicado os valores recomendados na aplicação.
-                                                                              * um botão de ação “  ” que ao ser clicado, apresenta as seguinte opção:
+
+* #: Número sequencial da recomendação cadastrada na plataforma do Mangue.io.
+* App: Nome da aplicação com a recomendação.
+* CPU Request Atual/Ideal: Indica o valor atual e recomendado de CPU Request. Caso não haja recomendação nessa coluna é exibido “- / -”.
+* CPU Limit Atual/Ideal: Indica o valor atual e recomendado de CPU Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
+* Memory  Request Atual/Ideal: Indica o valor atual e recomendado de Memory Request. Caso não haja recomendação nessa coluna será exibido “- / -”.
+* Memory Limit Atual/Ideal: Indica o valor atual e recomendado de Memory Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
+* Ações: Esta coluna possui os seguintes elementos: 
+* um botão de “Aplicar”, que ao ser clicado os valores recomendados na aplicação.
+* um botão de ação “  ” que ao ser clicado, apresenta as seguinte opção:
 
 .. image:: /figuras/fig_mangue/111_mangue_descartar_recomendacao.png
     :alt: Descartar recomendação 
@@ -2320,8 +2332,8 @@ Abaixo descrevemos as informações presentes na tabela de tarefas agendadas.
     :align: center
 ===== 
 
-                                                                                 * Descartar recomendação atual: Ao selecionar a opção de descartar a recomendação selecionada é removida, e é exibida uma recomendação anterior caso tenha.
-                                                                                 * um botão de “Mais Sugestões”, que ao clicar redireciona para uma página onde será exibido uma lista com  as recomendações geradas anteriormente.
+* Descartar recomendação atual: Ao selecionar a opção de descartar a recomendação selecionada é removida, e é exibida uma recomendação anterior caso tenha.
+* um botão de “Mais Sugestões”, que ao clicar redireciona para uma página onde será exibido uma lista com  as recomendações geradas anteriormente.
   
 
 .. image:: /figuras/fig_mangue/112_mangue_historico_recomendacao.png
@@ -2334,8 +2346,11 @@ Permissões
 ==========
 
 Todos os pontos descritos neste segmento, estão armazenados na base de dados que suporta a instalação da plataforma do Mangue.io. Esta base de dados, e seu conteúdo, deve ser gerenciado e alterado no prompt do sistema operacional Linux dos servidores (máquinas virtuais) que suportam a infraestrutura da plataforma do Mangue.io.
+
 Durante o processo de implantação padrão da plataforma do Mangue.io, é instalado um gerenciador de base de dados (MariaDB / MySQL) e o conteúdo desta base de dados e seus registros referentes a Clusters, Permissões, Billing, Contratos, ClusterRole, ClusterRoleBinding, Service e ServiceAccount, são populados durante o processo de pós-instalação do software.
+
 Não é objeto deste documento descrever o processo de inclusão de novos registros na base de dados da plataforma do Mangue.io, entre em contato com a área de suporte da Ustore para que você possa ter acesso ao documento “Manual de Instalação do Mangue.io (veja item: Conteúdo Padrão do Banco de Dados)”.
+
 Nas próximas telas descrevemos como a interface da plataforma do Mangue.io apresenta o conteúdo da base de dados através da interface HTML do Mangue.io.
 
 
@@ -2361,13 +2376,6 @@ B. Informações de usuários
 Nesta seção são listadas as informações sobre os usuários do contrato, e o nível de permissão de cada usuário. As permissões por usuário refletem o nível de permissão atribuído para um usuário no uCloud, seguindo o exemplo da tabela abaixo:
 
 
-uCloud
-	Mangue.io
-	Administrador de contrato
-	cluster-admin
-	Usuário comum
-	edit
-
 .. image:: /figuras/fig_mangue/114_mangue_tabela_ucloud.png
     :alt: Tabela uCloud Mangue.io 
     :scale: 80 %
@@ -2377,18 +2385,20 @@ uCloud
 Caso tenha ocorrido alguma mudança de permissão em algum dos usuários, seja usuário removido do contrato, usuário adicionado ao contrato, ou até mesmo nível de permissão alterada, há uma rotina para sincronizar as permissões dos usuários com o uCloud, refletindo tais mudanças no Mangue.io. No entanto, caso tenha o interesse de executar a sincronização das permissões naquele exato momento, há um botão ao lado direito, com nome “Sync users”   , ao clicar é executada a mesma função para sincronização de permissões que seria executada pela rotina.
 
 Por meio da lista de usuários é possível extrair as seguintes informações:
-                                                                                 * Login: Este campo apresenta o login do usuário que foi provisionado na base de dados da plataforma do Mangue.io.
-                                                                                 * Role: Esta coluna apresenta o perfil de autorização (role) do usuário provisionado.
-                                                                                 * Service Account: Esta coluna apresenta o service account associado ao usuário
-                                                                                 * Cluster Role: Esta coluna apresenta o cluster role associado ao usuário
-                                                                                 * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a seguinte opção como a figura abaixo:
+
+* Login: Este campo apresenta o login do usuário que foi provisionado na base de dados da plataforma do Mangue.io.
+* Role: Esta coluna apresenta o perfil de autorização (role) do usuário provisionado.
+* Service Account: Esta coluna apresenta o service account associado ao usuário
+* Cluster Role: Esta coluna apresenta o cluster role associado ao usuário
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a seguinte opção como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/115_mangue_deletar_permissoes.png
     :alt: Deletar permissões 
     :scale: 80 %
     :align: center
 =====
-                                                                                    * Deletar Permissões: Quando o usuário selecionar esta ação ele remove as permissões do usuário correspondente a linha selecionada. A plataforma do Mangue.io solicita a confirmação para deletar a permissão do usuário no Mangue.io, conforme imagem abaixo:
+
+* Deletar Permissões: Quando o usuário selecionar esta ação ele remove as permissões do usuário correspondente a linha selecionada. A plataforma do Mangue.io solicita a confirmação para deletar a permissão do usuário no Mangue.io, conforme imagem abaixo:
   
 .. image:: /figuras/fig_mangue/116_mangue_aviso_permissao.png
     :alt: Aviso permissão 
@@ -2416,11 +2426,11 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 =====
 
 
-                                                                                    * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                    * Nome: Nesta coluna é apresentado o nome do role adicionado pelo usuário.
-                                                                                    * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
-                                                                                    * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta role.
-                                                                                    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nesta coluna é apresentado o nome do role adicionado pelo usuário.
+* Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
+* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta role.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/118_mangue_acoes_role.png
     :alt: Ações Role 
@@ -2429,7 +2439,7 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 =====
 
 
-                                                                                       * Deletar Role: Quando o usuário seleciona esta ação ele remove a role do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o grupo desejado da base de dados da plataforma do Mangue.io:
+* Deletar Role: Quando o usuário seleciona esta ação ele remove a role do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o grupo desejado da base de dados da plataforma do Mangue.io:
   
 
 .. image:: /figuras/fig_mangue/119_mangue_deletar_role.png
@@ -2441,7 +2451,8 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 Caso o usuário tenha executado esta ação por engano, é necessário cadastrar o grupo na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
 
 
-                                                                                          * Editar Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+* Editar Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+
 Esta opção abre uma tela de edição da role usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
 .. image:: /figuras/fig_mangue/120_mangue_editar_role.png
@@ -2469,11 +2480,11 @@ Um RoleBinding pode fazer referência a qualquer papel no mesmo namespace. Como 
 =====
 
 
-                                                                                          * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                          * Nome: Nesta coluna é apresentado o nome da rolebinding adicionado pelo usuário. Ao clicar com o mouse sobre o nome do configmap a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que irá permitir ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
-                                                                                          * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role
-                                                                                          * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta rolebinding
-                                                                                          * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nesta coluna é apresentado o nome da rolebinding adicionado pelo usuário. Ao clicar com o mouse sobre o nome do configmap a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que irá permitir ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
+* Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role
+* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta rolebinding
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/122_mangue_acoes_bindings.png
     :alt: Ações Bindings 
@@ -2482,7 +2493,7 @@ Um RoleBinding pode fazer referência a qualquer papel no mesmo namespace. Como 
 =====
 
 
-                                                                                             * Deletar RoleBinding: Quando o usuário seleciona esta ação ele remove a rolebinding do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) a rolebinding desejada da base de dados da plataforma do Mangue.io:
+* Deletar RoleBinding: Quando o usuário seleciona esta ação ele remove a rolebinding do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) a rolebinding desejada da base de dados da plataforma do Mangue.io:
   
 .. image:: /figuras/fig_mangue/123_mangue_aviso_bindings.png
     :alt: Aviso bindings
@@ -2494,7 +2505,8 @@ Um RoleBinding pode fazer referência a qualquer papel no mesmo namespace. Como 
 Caso o usuário tenha executado esta ação por engano, será necessário cadastrar a rolebinding na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
 
 
-                                                                                                * Editar Rolebinding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma rolebinding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+* Editar Rolebinding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma rolebinding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+
 Esta opção abre uma tela de edição da rolebinding usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
 .. image:: /figuras/fig_mangue/124_mangue_editar_binding.png
@@ -2521,17 +2533,17 @@ Quando um usuário acessa o cluster, você é autenticado pelo APIServer como um
 =====
 
 
-                                                                                                * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                * Nome: Nesta coluna é apresentado o nome da serviceaccount adicionado pelo usuário. 
-                                                                                                * Namespace: Informa o namespace em que o serviceaccount  foi criado.
-                                                                                                * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta serviceaccount
-                                                                                                * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
-  
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nesta coluna é apresentado o nome da serviceaccount adicionado pelo usuário. 
+* Namespace: Informa o namespace em que o serviceaccount  foi criado.
+* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta serviceaccount
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
 
 
 
-                                                                                                   * Deletar ServiceAccount: Quando o usuário seleciona esta ação ele irá remover a serviceaccount do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) a servceaccount desejada da base de dados da plataforma do Mangue.io:
-  
+
+* Deletar ServiceAccount: Quando o usuário seleciona esta ação ele irá remover a serviceaccount do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) a servceaccount desejada da base de dados da plataforma do Mangue.io:
+
 
 .. image:: /figuras/fig_mangue/.png
     :alt: 
@@ -2548,9 +2560,11 @@ Cluster Role
 Uma RBAC role ou ClusterRole contém regras que representam um conjunto de permissões.
 ClusterRole, por outro lado, é um recurso sem espaço de nomes. Os recursos têm nomes diferentes (Role e ClusterRole) porque um objeto Kubernetes sempre precisa ter namespace ou não; não pode ser ambos.
 ClusterRole tem vários usos, você pode usá-lo para:
-                                                                                                      * Definir permissões em recursos com namespace e ser concedido dentro de namespaces individuais;
-                                                                                                      * Definir permissões em recursos com namespaces e ser concedido em todos os namespaces;
-                                                                                                      * Definir permissões em recursos com escopo de cluster;
+
+* Definir permissões em recursos com namespace e ser concedido dentro de namespaces individuais;
+* Definir permissões em recursos com namespaces e ser concedido em todos os namespaces;
+* Definir permissões em recursos com escopo de cluster;
+
 Se você quiser definir uma função em um namespace, use uma role; se você quiser definir uma role em todo o cluster, use um ClusterRole.
 O usuário nota que esta tela possui diversas seções, cada seção está descrita abaixo respectivamente.
 
@@ -2566,11 +2580,11 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Roles
 =====
 
 
-                                                                                                      * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                      * Nome: Nesta coluna é apresentado o nome da Cluster Roles adicionado pelo usuário. 
-                                                                                                      * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
-                                                                                                      * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta Cluster Roles.
-                                                                                                      * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nesta coluna é apresentado o nome da Cluster Roles adicionado pelo usuário. 
+* Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
+* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta Cluster Roles.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/.png
     :alt: 
@@ -2579,7 +2593,8 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Roles
 =====
 
 
-                                                                                                         * Editar Cluster Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+* Editar Cluster Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+
 Esta opção abre uma tela de edição da Cluster Role usando a sintaxe de código YAML, como o exemplo da tela abaixo. O código de uma Cluster Role pode ser longo, e esta tela ser muito longa, apresentamos aqui apenas algumas linhas da tela.
   
 .. image:: /figuras/fig_mangue/.png
@@ -2590,9 +2605,13 @@ Esta opção abre uma tela de edição da Cluster Role usando a sintaxe de códi
 
 
 Ao clicar com o mouse na área cinza ao lado do número da linha que o usuário deseja editar, em seguida pode iniciar a digitação do seu código YAML. 
+
 A cada nova linha o usuário deve clicar “Enter” para abrir outra linha. 
+
 Indica-se ao usuário utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. 
+
 Em resumo, a Cluster Role proporciona a opção de criar ou editar o código YAML na plataforma do Mangue.io.
+
 Após editar a Cluster Role o usuário deve clicar no botão verde “Enviar” para que todo o código seja enviado e aplicado ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
 
 
@@ -2610,11 +2629,11 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Role 
 =====
 
 
-                     * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                     * Nome: Nesta coluna é apresentado o nome da Cluster Role Binding adicionado pelo usuário. 
-                    * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
-                    * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta ClusterRole Binding.
-                     * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Nesta coluna é apresentado o nome da Cluster Role Binding adicionado pelo usuário. 
+* Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
+* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta ClusterRole Binding.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/.png
     :alt: 
@@ -2623,7 +2642,7 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as Cluster Role 
 =====
 
 
-                                     * Editar Cluster Role Binding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role Binding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+* Editar Cluster Role Binding: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma Cluster Role Binding, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
 
 Esta opção abre uma tela de edição da Cluster Role Binding usando a sintaxe de código YAML, como o exemplo da tela abaixo.
   
@@ -2647,53 +2666,61 @@ C. Pod Security Policy
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Pod Security Policy é um recurso do Kubernetes que permite o usuário limitar as aplicações criadas por um ServiceAccount específico, ou todos. Sendo assim possível, por exemplo, proibir que um ServiceAccount crie uma aplicação que utilize o usuário root.
+
 A tela de Pod Security Policy é separada em duas seções: 
-                   * Pod Security Policy.
-                   * Cluster Role e Role Binding de Pod Security Policy.
+
+* Pod Security Policy.
+* Cluster Role e Role Binding de Pod Security Policy.
   
 
 Na seção de Pod Security Policy é exibido uma lista com os Pod Security Policy do Cluster e é exibido uma barra de pesquisa para pesquisar utilizando o nome.
-Abaixo descrevemos as informações presentes na tabela de Pod Security Policy.
-                       * #: Número sequencial do Pod Security Policy cadastrado na Plataforma do Mangue.io.
-                       * Nome: Nome do Pod Security Policy especificado pelo usuário durante a criação.
-                       * Privilegiado: Permite que as aplicações criadas utilizem recursos e capacidades Kernel da máquina Host.
-                       * Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-                       * ID Usuário: Faixa de ID de Usuário que as aplicações criadas podem utilizar na execução.
-                       * ID Grupo: Faixa de ID de Grupo que as aplicações criadas utilizam na execução.
-                       * ID Arquivo de Sistemas: Faixa ID de Arquivo de Sistema que as aplicações criadas utilizam na execução.
-                       * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
-  
 
-                                                                                                                                              * Criar Cluster Role: Ao selecionar a opção de criar cluster role é     apresentada a tela abaixo, através da qual o usuário pode criar um Cluster Role para o Pod Security Policy.
-                                                                                                                                              * Deletar Pod Security Policy: Ao selecionar a opção de excluir é deletado o Pod Security Policy do Cluster.
-  
+Abaixo descrevemos as informações presentes na tabela de Pod Security Policy.
+
+* #: Número sequencial do Pod Security Policy cadastrado na Plataforma do Mangue.io.
+* Nome: Nome do Pod Security Policy especificado pelo usuário durante a criação.
+* Privilegiado: Permite que as aplicações criadas utilizem recursos e capacidades Kernel da máquina Host.
+* Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
+* ID Usuário: Faixa de ID de Usuário que as aplicações criadas podem utilizar na execução.
+* ID Grupo: Faixa de ID de Grupo que as aplicações criadas utilizam na execução.
+* ID Arquivo de Sistemas: Faixa ID de Arquivo de Sistema que as aplicações criadas utilizam na execução.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+
+
+* Criar Cluster Role: Ao selecionar a opção de criar cluster role é apresentada a tela abaixo, através da qual o usuário pode criar um Cluster Role para o Pod Security Policy.
+* Deletar Pod Security Policy: Ao selecionar a opção de excluir é deletado o Pod Security Policy do Cluster.
+
 
 Para criar um Pod Security Policy é necessário clicar no botão de “  ”, ao clicar é exibido a tela abaixo.
-  
+
 
 Os campos necessários para a criação de Pod Security Policy são os seguintes:
-                                                                                                               * Nome do Pod Security Policy: Nome do Pod Security Policy a ser criado.
-                                                                                                               * Permitir Containers Privilegiados: Permite a criação de recursos que utilizam containers privilegiados, esses containers podem ter acesso aos recursos e capacidades Kernel da máquina Host.
-                                                                                                               * Permitir Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-                                                                                                               * Limitar Usuário: Caso seja selecionado é exibido uma lista (“drop-down list”), com as opções de: 
-                                                                                                               * Proibir Root: essa opção permite a criação de aplicação que utilize qualquer ID de usuário, com a exceção do ID do usuário root.
-                                                                                                               * Limitar por ID de Usuário, essa opção limita a criação de aplicação para que utilize apenas uma faixa de ID de usuário especificada.
-                                                                                                               * Limitar Grupo: Permite apenas aplicações que utilizem a faixa de ID de Grupo especificada.
-                                                                                                               * Limitar Arquivo de Sistema: Permite apenas aplicações que utilizem a faixa de ID de Arquivo de Sistema especificada.
+
+* Nome do Pod Security Policy: Nome do Pod Security Policy a ser criado.
+* Permitir Containers Privilegiados: Permite a criação de recursos que utilizam containers privilegiados, esses containers podem ter acesso aos recursos e capacidades Kernel da máquina Host.
+* Permitir Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
+* Limitar Usuário: Caso seja selecionado é exibido uma lista (“drop-down list”), com as opções de: 
+* Proibir Root: essa opção permite a criação de aplicação que utilize qualquer ID de usuário, com a exceção do ID do usuário root.
+* Limitar por ID de Usuário, essa opção limita a criação de aplicação para que utilize apenas uma faixa de ID de usuário especificada.
+* Limitar Grupo: Permite apenas aplicações que utilizem a faixa de ID de Grupo especificada.
+* Limitar Arquivo de Sistema: Permite apenas aplicações que utilizem a faixa de ID de Arquivo de Sistema especificada.
+
 Após preencher todos os campos obrigatórios, o botão de “Adicionar Pod Security Policy” está disponível e quando o usuário clicar nele a plataforma cria o Pod Security Policy e exibe uma mensagem de status.
+
 Na seção de Cluster Role e Role Binding de Pod Security Policy é exibido uma lista com os Cluster Role e Role Bindings dos Pod Security Policy e é exibido uma barra de pesquisa para pesquisar utilizando o nome dos recursos.
+
 Abaixo a descrição das informações presentes na tabela de Pod Security Policy.
-                                                                                                               * #: Número sequencial do Cluster Role cadastrado na Plataforma do Mangue.io.
-                                                                                                               * Cluster Role: Nome do Cluster Role especificado pelo usuário durante a criação.
-                                                                                                               * Pod Security Policy: Nome do Pod Security Policy associado ao Cluster Role.
-                                                                                                               * Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-                                                                                                               * Role Binding: Nome do Role Binding associado ao Cluster Role.
-                                                                                                               * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+* #: Número sequencial do Cluster Role cadastrado na Plataforma do Mangue.io.
+* Cluster Role: Nome do Cluster Role especificado pelo usuário durante a criação.
+* Pod Security Policy: Nome do Pod Security Policy associado ao Cluster Role.
+* Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
+* Role Binding: Nome do Role Binding associado ao Cluster Role.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
   
 
-                                                                                                                  * Criar Role Binding: Ao selecionar a opção de criar cluster role é apresentada a tela abaixo, através da qual o usuário pode criar um Role Binding associando o Cluster Role a ServiceAccounts.
-                                                                                                                  * Deletar Role Binding: Caso tenha um Role Binding associado ao Cluster Role é exibido a opção de deletar o Role Binding, ao selecionar a opção o Role Binding é deletado.
-                                                                                                                  * Deletar Cluster Role: Ao selecionar a opção de excluir é deletado o Cluster Role selecionado.
+* Criar Role Binding: Ao selecionar a opção de criar cluster role é apresentada a tela abaixo, através da qual o usuário pode criar um Role Binding associando o Cluster Role a ServiceAccounts.
+* Deletar Role Binding: Caso tenha um Role Binding associado ao Cluster Role é exibido a opção de deletar o Role Binding, ao selecionar a opção o Role Binding é deletado.
+* Deletar Cluster Role: Ao selecionar a opção de excluir é deletado o Cluster Role selecionado.
   
 
 
@@ -2702,32 +2729,37 @@ Integrações
 ===========
 
 Através deste menu Integrações, o usuário pode conectar a plataforma do Mangue.io com entidades, serviços e provedores externos. 
+
 Estas integrações permitem ao usuário ampliar a abrangência da plataforma do Mangue.io conectando e integrando a atual infraestrutura, a qual suporta e executa a instalação do Mangue.io com os gerenciadores de containers em provedores públicos. Este menu vem como propósito de tratar outras questões além da simples gestão do Kubernetes, como por exemplo:
-                                                                                                                  * Integração via linha de comando nos containers executados no cluster;
-                                                                                                                  * Criação de clusters Kubernetes nas nuvens públicas das AWS e Google;
-                                                                                                                  * Importar clusters Kubernetes já existentes;
-                                                                                                                  * Importar credenciais para que os procedimentos de criação de clusters nas nuvens públicas sejam mais facilmente efetuadas.
+
+* Integração via linha de comando nos containers executados no cluster;
+* Criação de clusters Kubernetes nas nuvens públicas das AWS e Google;
+* Importar clusters Kubernetes já existentes;
+* Importar credenciais para que os procedimentos de criação de clusters nas nuvens públicas sejam mais facilmente efetuadas.
 
 
 1. Clusters
 ~~~~~~~~~~~
 
 O menu Integrações/Clusters permite ao usuário integrar a plataforma do Mangue.io a um cluster existente, que pode estar ativo em outra infraestrutura computacional, à plataforma do Mangue.io. Além disso, esta tela apresenta uma lista com as informações dos clusters integrados ao Mangue.io
+
 O menu Integrações/Cluster permite fazer todo o gerenciamento e integração dos Clusters Kubernetes gerenciados pela plataforma a partir de um usuário. Neste menu é possível provisionar clusters Kubernetes nas infraestruturas da Amazon e Google (EKS e GKE), lembrando que para provisionar esses clusters é necessário adicionar uma credencial no menu Integrações/Credenciais. 
+
 Também é possível adicionar um cluster Kubernetes que não tenha sido provisionado na plataforma, seja ele no seu ambiente On Premise ou na nuvem. Vale ressaltar que clusters que tiverem as APIS do Kubernetes modificadas, podem não corresponder positivamente às chamadas das APIS do Kubernetes feitas pelo Mangue.io.
   
 
 
 
 Na lista pode-se encontrar as informações de cada cluster configurado e integrado a plataforma do Mangue.io:
-                                                                                                                  * Nome: Nesta coluna é apresentado o nome que foi utilizado para identificar o Cluster durante o processo de configuração pelo usuário.
-                                                                                                                  * IP Público: Esta coluna apresenta a informação do endereço TCP-IP Público do cluster. Este é o endereço pelo qual o cluster pode ser utilizado para acessar as aplicações (deployments) que estão sendo executadas neste cluster.
-                                                                                                                  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
+
+* Nome: Nesta coluna é apresentado o nome que foi utilizado para identificar o Cluster durante o processo de configuração pelo usuário.
+* IP Público: Esta coluna apresenta a informação do endereço TCP-IP Público do cluster. Este é o endereço pelo qual o cluster pode ser utilizado para acessar as aplicações (deployments) que estão sendo executadas neste cluster.
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
   
 
 
 
-                                                                                                                     * Editar Cluster: Nesta opção o usuário pode editar as características de um cluster existente e quando selecionado a plataforma apresenta a tela abaixo:
+* Editar Cluster: Nesta opção o usuário pode editar as características de um cluster existente e quando selecionado a plataforma apresenta a tela abaixo:
 
 
   
@@ -2741,78 +2773,98 @@ Cluster Admin Token: Neste campo o usuário pode alterar a cadeia de caracteres 
 Confirmar: O usuário deve pressionar este botão após confirmar todos os campos alterados.
 
 
-                                                                                                                     * Deletar Cluster: Quando o usuário selecionar esta ação ele remove o cluster. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) da plataforma do Mangue.io:
-
-
-  
-
+* Deletar Cluster: Quando o usuário selecionar esta ação ele remove o cluster. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) da plataforma do Mangue.io:
 
 
 Caso o usuário tenha executado esta ação por engano, será necessário incluir o cluster novamente na plataforma do Mangue.io. Veja a sequência de inclusão de um novo cluster que está descrito neste documento abaixo.
+
 A plataforma do Mangue.io permite ao usuário tanto integrar com infraestrutura de cluster existente quanto implementar ou criar um cluster novo.
+
 Na sequência o processo de integração é descrito, ele permite ao usuário agregar um cluster existente ou novo à plataforma do Mangue.io.
-                                                                                                                     
+
+
 2. Integrar Cluster
 ~~~~~~~~~~~~~~~~~~~
 
 Para iniciar o processo de Integrar um Cluster o usuário deve clicar com o mouse sobre o botão do lado esquerdo para que a tela apresente os campos específicos.
-  
 
+``inserir imagem``  
 
-
-
-
-                                                                                                                     * Nome do Cluster: Neste campo o usuário deve informar o nome de referência com o qual o cluster é identificado na plataforma do Mangue.io.
-                                                                                                                     * Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, o Cluster é associado ao contrato selecionado.
-                                                                                                                     * Tipo de Cluster: Este campo é uma lista (“drop-down list”) com as quatro opções disponíveis na plataforma do Mangue.io. Atualmente estão disponíveis os ambientes públicos: Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes System (EKS), Azure Kubernetes Service (AKS) e IBM Cloud (IKS). Quando selecionada cada uma das opções de destino a plataforma do Mangue.io se comporta da forma correta para se comunicar e gerenciar o cluster de forma correta.
-                                                                                                                     * IP para acesso da API: Neste campo o usuário deve informar o endereço TCP-IP Público para que o cluster seja possível ser acessado.
-                                                                                                                     * Path para acesso da API: Neste campo o usuário deve informar a rota utilizada para acesso a API do Kubernetes, caso tenha.
-                                                                                                                     * Porta para acesso da API: Neste campo o usuário deve informar o número da PORTA TCP-IP para que o cluster seja acessado.
-                                                                                                                     * Cluster Admin Token: Neste campo o usuário deve informar a cadeia de caracteres (string) que foi gerada pelo provedor público de cluster com o objetivo de conferir e autenticar a identidade (token) da configuração com o cluster. Importante consultar o processo de geração de identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente.
-                                                                                                                     * Botão Integrar: Ao finalizar o preenchimento dos campos acima, o usuário deve clicar com o mouse no botão verde “Integrar” para que a plataforma do Mangue.io inclua este cluster na lista apresentada nesta tela.
-                                                                                                                     * A ação de atualizar: Caso a interface do Mangue.io não apresente na lista, o cluster recém configurado, o usuário deve clicar no ícone “  ” para que a aplicação exiba a lista atualizada desta tabela de clusters.
+* Nome do Cluster: Neste campo o usuário deve informar o nome de referência com o qual o cluster é identificado na plataforma do Mangue.io.
+* Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, o Cluster é associado ao contrato selecionado.
+* Tipo de Cluster: Este campo é uma lista (“drop-down list”) com as quatro opções disponíveis na plataforma do Mangue.io. Atualmente estão disponíveis os ambientes públicos: Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes System (EKS), Azure Kubernetes Service (AKS) e IBM Cloud (IKS). Quando selecionada cada uma das opções de destino a plataforma do Mangue.io se comporta da forma correta para se comunicar e gerenciar o cluster de forma correta.
+* IP para acesso da API: Neste campo o usuário deve informar o endereço TCP-IP Público para que o cluster seja possível ser acessado.
+* Path para acesso da API: Neste campo o usuário deve informar a rota utilizada para acesso a API do Kubernetes, caso tenha.
+* Porta para acesso da API: Neste campo o usuário deve informar o número da PORTA TCP-IP para que o cluster seja acessado.
+* Cluster Admin Token: Neste campo o usuário deve informar a cadeia de caracteres (string) que foi gerada pelo provedor público de cluster com o objetivo de conferir e autenticar a identidade (token) da configuração com o cluster. Importante consultar o processo de geração de identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente.
+* Botão Integrar: Ao finalizar o preenchimento dos campos acima, o usuário deve clicar com o mouse no botão verde “Integrar” para que a plataforma do Mangue.io inclua este cluster na lista apresentada nesta tela.
+* A ação de atualizar: Caso a interface do Mangue.io não apresente na lista, o cluster recém configurado, o usuário deve clicar no ícone “  ” para que a aplicação exiba a lista atualizada desta tabela de clusters.
 
 
 3. Integrar Múltiplos Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
+
+``inserir imagem``  
 
 Para iniciar o processo de Integrar Múltiplos Clusters o usuário deve clicar com o mouse sobre o botão do lado direito para que a tela apresente os campos específicos.
+
 Nesta tela o usuário pode integrar vários Clusters existentes nos provedores de nuvens públicas. Deve selecionar as quais deseja procurar, em seguida são exibidos os campos: 
-                                                                                                                        * Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, a plataforma carrega as credenciais do contrato selecionado.
-                                                                                                                        * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a nuvem pública. Após preencher todos os campos, o usuário deve clicar no botão de “Pesquisar” e a plataforma exibe uma lista (“drop-down list”) dos Clusters já existentes nas plataformas selecionadas. O usuário deve selecionar os Clusters que deseja para serem integrados a plataforma, após selecionar o botão de “Integrar” está disponível para ser clicado.
 
+* Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, a plataforma carrega as credenciais do contrato selecionado.
+* Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a nuvem pública. Após preencher todos os campos, o usuário deve clicar no botão de “Pesquisar” e a plataforma exibe uma lista (“drop-down list”) dos Clusters já existentes nas plataformas selecionadas. O usuário deve selecionar os Clusters que deseja para serem integrados a plataforma, após selecionar o botão de “Integrar” está disponível para ser clicado.
 
+4. Criar Cluster on Premise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+``inserir imagem``
+
+Por meio do botão Criar Cluster é possível criar um cluster on premise, ao qual o usuário poderá informar o ip, usuário, senha e o tipo (Master, worker) de cada uma das máquinas que juntas irão formar o cluster kubernetes. Para isso é necessário preencher informações como:
+
+   * Nome de cluster: Neste campo o usuário deve informar o nome de referência com o qual o cluster é identificado na plataforma do Mangue.io.
+   * Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, o Cluster é associado ao contrato selecionado.
+   * IP da máquina: Endereço ip da máquina que há o interesse de criar incluir no momento de criação do cluster
+   * Tipo da máquina: Determina o tipo da máquina, pode ser worker ou master:
+     * Worker: São máquinas responsáveis por receber as tarefas atribuídas pelo node master, executá-las e reportar o status de volta para o node master, logo, são as máquinas que executam os containers docker que contém as aplicações
+     * Master: o node master é considerado o cérebro do cluster kubernetes, pois, é responsável por gerenciar e controlar os nodes workers, tomando decisões sobre onde e como executar as aplicações.
+   * Usuário: Usuário necessário para conectar a máquina informada no campo de IP
+   * Senha: Senha necessária para logar com usuário e ip informados nos campos anteriores.
+   * ETCD: É um campo checkbox ao qual se habilitado, então aquela máquina também funcionará como etcd. Caso nenhuma das máquinas informadas tenha o etcd habilitado, então por padrão a máquina de node master também irá funcionar como etcd
+
+É necessário ao menos duas máquinas para que a criação do cluster ocorra com sucesso. As máquinas precisam de acesso a internet. Assim como também é recomendável no mínimo 2CPU por nó, 4GB de memória por nó e 80GB de armazenamento por nó. 
+
+Ao clicar em criar, será exibido uma tela contendo o console do processo de criação do cluster on premise, conforme imagem abaixo:
+
+``inserir imagem``
 
 
 Integração de Cluster Simplificada – Via Form (GKE, EKS, AKS, IBM Cloud)
 ------------------------------------------------------------------------
 
 A plataforma do Mangue.io permite simplificar o processo de integração com um cluster existente nos provedores de nuvem pública (Amazon, Google, Azure e IBM) através de um formulário que direciona o usuário para o preenchimento de credenciais e configurações de forma bem clara e simples.
+
 Na tela a seguir o usuário pode ver que abaixo de cada logo de provedor de serviço público existe um botão que apresenta o formulário respectivo de cada provedor:
-  
 
-
+``inserir imagem``
 
 Nas telas abaixo esclarecemos as características do formulário específico de cada provedor.
-                                                                                                                        
+
+
 1. Google Kubernetes Engine – GKE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Google, o usuário deve clicar com o cursor do mouse na área cinza abaixo do logo do Google Kubernetes Engine e a plataforma do Mangue.io apresenta a tela abaixo com o formulário GKE:
-  
 
+``inserir imagem`` 
 
-
-                                                                                                                        * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-                                                                                                                        * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-                                                                                                                        * Credenciais do GKE: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com o Google Cloud Platform. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-                                                                                                                        * Número de Nodes (por zona): Neste campo o usuário deve informar um número inteiro, que irá definir a quantidade de nós (nodes) desejado para este cluster.
-                                                                                                                        * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Google Cloud Platform.
-                                                                                                                        * Tipo de Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Google Cloud Platform.
-                                                                                                                        * Versão Principal: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-                                                                                                                        * Criar Cluster: Basta o usuário clicar sobre o botão “Criar Cluster”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas. Para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna deve-se inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
-                                                                                                                        * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
+   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
+   * Credenciais do GKE: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com o Google Cloud Platform. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
+   * Número de Nodes (por zona): Neste campo o usuário deve informar um número inteiro, que irá definir a quantidade de nós (nodes) desejado para este cluster.
+   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Google Cloud Platform.
+   * Tipo de Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Google Cloud Platform.
+   * Versão Principal: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
+   * Criar Cluster: Basta o usuário clicar sobre o botão “Criar Cluster”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas. Para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna deve-se inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
+     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
 
 
 
@@ -2822,62 +2874,64 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
 
 Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Amazon AWS, o usuário deve clicar com o cursor na área cinza abaixo do logo do Elastic Kubernetes Service – Amazon EKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário EKS:
   
+``inserir imagem``
 
 
-
-                                                                                                                        * Contrato: O usuário selecionará o contrato para a plataforma carregar as credenciais deste.
-                                                                                                                        * Nome do Cluster: Neste campo o usuário deve preencher com o nome de identificação do cluster para a plataforma do Mangue.io.
-                                                                                                                        * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Amazon Web Services – AWS. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-                                                                                                                        * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Amazon Web Services – AWS.
-                                                                                                                        * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-                                                                                                                        * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da AWS.
-                                                                                                                        * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-                                                                                                                        * Botão Confirmar: Basta o usuário clicar sobre o botão “Confirmar”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna da plataforma do Mangue.io, inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
-                                                                                                                        * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+   * Contrato: O usuário selecionará o contrato para a plataforma carregar as credenciais deste.
+   * Nome do Cluster: Neste campo o usuário deve preencher com o nome de identificação do cluster para a plataforma do Mangue.io.
+   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Amazon Web Services – AWS. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
+   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Amazon Web Services – AWS.
+   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
+   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da AWS.
+   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
+   * Botão Confirmar: Basta o usuário clicar sobre o botão “Confirmar”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna da plataforma do Mangue.io, inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
+     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
                                                                                                                         
 3. AKS
 ~~~~~~
 
 Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Azure, o usuário deve clicar com o cursor na área cinza abaixo do logo do Azure Kubernetes Service – Azure AKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário AKS:
-  
 
-                                                                                                                        * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-                                                                                                                        * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-                                                                                                                        * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Azure. Importante ressaltar que cada deve-se consultar a documentação específica de cada provedor para como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-                                                                                                                        * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da Azure.
-                                                                                                                        * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-                                                                                                                        * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Azure.
-                                                                                                                        * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-                                                                                                                        * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
-                                                                                                                        * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+``inserir imagem``  
+
+   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
+   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
+   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Azure. Importante ressaltar que cada deve-se consultar a documentação específica de cada provedor para como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
+   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da Azure.
+   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
+   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Azure.
+   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
+   * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
+     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
 
 4. IBM Cloud
 ~~~~~~~~~~~~
 
 Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Azure, o usuário deve clicar com o cursor na área cinza abaixo do logo do IBM Cloud Kubernetes Service – IBM IKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário IKS:
-  
 
-                                                                                                                        * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-                                                                                                                        * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-                                                                                                                        * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a IBM Cloud. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-                                                                                                                        * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da IBM Cloud.
-                                                                                                                        * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-                                                                                                                        * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da IBM Cloud.
-                                                                                                                        * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-                                                                                                                        * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
-                                                                                                                        * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+``inserir imagem``  
+
+   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
+   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
+   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a IBM Cloud. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
+   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da IBM Cloud.
+   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
+   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da IBM Cloud.
+   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
+   * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
+     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
 
 
 Container Execution
 -------------------
 
-O menu Integrações/Container Execution permite configurar uma interface de comunicação com os containers que estão sendo executados em um POD. Para que isso seja possível, é necessário fornecer uma credencial de acesso ao cluster Kubernetes. Esta credencial é chamada de KubeConfig[1] - ou arquivo de configuração do cluster Kubernetes. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do cluster, endereço da API do cluster e algumas outras informações descritas no link que pode ser encontrado na nota de rodapé desta página.
+O menu Integrações/Container Execution permite configurar uma interface de comunicação com os containers que estão sendo executados em um POD. Para que isso seja possível, é necessário fornecer uma credencial de acesso ao cluster Kubernetes. Esta credencial é chamada de KubeConfig [Link: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/
+] - ou arquivo de configuração do cluster Kubernetes. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do cluster, endereço da API do cluster e algumas outras informações descritas no link que pode ser encontrado na nota de rodapé desta página.
+  
+``inserir imagem``
   
 
-  
-
-o
-	É importante salientar que o endereço TCP-IP informado da API do cluster deve ser um endereço que seja alcançável pela infraestrutura computacional da sub-rede onde a plataforma do Mangue.io foi implantada.
+É importante salientar que o endereço TCP-IP informado da API do cluster deve ser um endereço que seja alcançável pela infraestrutura computacional da sub-rede onde a plataforma do Mangue.io foi implantada.
 	
 
 Caso já tenha o KubeConfig cadastrado, o usuário pode exibi-lo clicando no ícone “  ”. Também é possível excluir o KubeConfig cadastrado clicando no ícone “  ”.
@@ -2889,44 +2943,51 @@ Performance
 -----------
 
 A plataforma do Mangue.io pode utilizar a API do Metric Server para realizar a coleta das métricas do Kubernetes, mas não apenas de métricas de desempenho sobre suas workloads, pods e containers, mas também de eventos e novos eventos gerados por seu cluster.
+
 Esta tela está dividida em duas seções, as quais descrevemos abaixo:
-                                                                                                                        1. Seção: Adicionar o Monitoramento
+
+1. Seção: Adicionar o Monitoramento
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 Nesta seção, na parte superior da tela, é apresentado um formulário com os campos necessários para que o usuário preencha:
   
+``inserir imagem``
 
 
-
-                                                                                                                        * * IP de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número do endereço TCP-IP do Cluster no qual está instalado o Metric Server.
-                                                                                                                        * * Path do Metric Server: Este campo é obrigatório, e deve ser preenchido com a rota utilizada pelo o Metric Server no Cluster
-                                                                                                                        * * Porta de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número da porta TCP-IP do Cluster no qual está instalado o Metric Server.
-                                                                                                                        * Token: Neste campo o usuário deve utilizar um Bearer Token (mencionado no tópico abaixo) de um Service Account com a permissão de realizar consultas na API do Metric Server.
-                                                                                                                        * Confirmar: O usuário deve pressionar este botão após checar todos os campos anteriores e assim, confirmar as configurações referentes ao servidor de monitoramento.
-
+   * * IP de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número do endereço TCP-IP do Cluster no qual está instalado o Metric Server.
+   * * Path do Metric Server: Este campo é obrigatório, e deve ser preenchido com a rota utilizada pelo o Metric Server no Cluster
+   * * Porta de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número da porta TCP-IP do Cluster no qual está instalado o Metric Server.
+   * Token: Neste campo o usuário deve utilizar um Bearer Token (mencionado no tópico abaixo) de um Service Account com a permissão de realizar consultas na API do Metric Server.
+   * Confirmar: O usuário deve pressionar este botão após checar todos os campos anteriores e assim, confirmar as configurações referentes ao servidor de monitoramento.
 
 
+2. Seção: Monitoramentos Disponíveis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                                                                                                                        2. Seção: Monitoramentos Disponíveis
 Esta seção da tela apresenta uma lista de todos os servidores que estão configurados no ambiente da plataforma do Mangue.io.
+
 Abaixo a descrição das informações presentes nesta lista.
-                                                                                                                        * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
-                                                                                                                        * IP de Monitoramento: Nesta coluna é apresentado o número do endereço TCP-IP do servidor de monitoramento.
-                                                                                                                        * Porta de Monitoramento: Nesta coluna é apresentado o número da porta TCP-IP do servidor de monitoramento.
-                                                                                                                        * Bearer Token: Nesta coluna é apresentado uma parte do Bearer Token utilizado para realizar as consultas no Cluster.
-                                                                                                                        * Bilhetagem: Exibe se a bilhetagem está ativada.
-                                                                                                                        * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+
+   * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
+   * IP de Monitoramento: Nesta coluna é apresentado o número do endereço TCP-IP do servidor de monitoramento.
+   * Porta de Monitoramento: Nesta coluna é apresentado o número da porta TCP-IP do servidor de monitoramento.
+   * Bearer Token: Nesta coluna é apresentado uma parte do Bearer Token utilizado para realizar as consultas no Cluster.
+   * Bilhetagem: Exibe se a bilhetagem está ativada.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
   
+``inserir imagem``
 
 
-
-                                                                                                                           * Ativar/Desativar Bilhetagem: Ao selecionar essa opção é ativado ou desativado a bilhetagem do monitoramento.
-                                                                                                                           * Editar: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o conteúdo dos campos previamente descritos no item Seção: Adicione o Monitoramento na página anterior.
+   * Ativar/Desativar Bilhetagem: Ao selecionar essa opção é ativado ou desativado a bilhetagem do monitoramento.
+   * Editar: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o conteúdo dos campos previamente descritos no item Seção: Adicione o Monitoramento na página anterior.
   
+``inserir imagem``
 
 
-
-                                                                                                                           * Deletar Monitoramento: Ao selecionar a opção de deletar é solicitada uma confirmação da ação pelo usuário, e em seguida um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
+   * Deletar Monitoramento: Ao selecionar a opção de deletar é solicitada uma confirmação da ação pelo usuário, e em seguida um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
   
-
+``inserir imagem``
 
 
 Importante ressaltar que esta ação é definitiva e remove (apaga) esta configuração da plataforma do Mangue.io, pois são apagadas todas as referências deste servidor de monitoramento na plataforma do Mangue.io.
@@ -2935,19 +2996,24 @@ Helm
 ----
 
 Helm é uma ferramenta que permite a instalação de aplicações Kubernetes, funcionando como um gerenciador de pacotes para o Kubernetes, as aplicações Helm são definidas no repósitorio de aplicações Helm. Para utilizar a funcionalidade de Helm é necessário ter cadastrado previamente o KubeConfig do Cluster na plataforma Mangue.io.
-  
+
+``inserir imagem``  
 
 Na tela inicial da página de Helm é exibida uma tabela com os Helms instalados na aplicação. Possibilitando que o usuário realize a pesquisa de Helm através do nome. Na tela inicial, o usuário também pode visualizar os Helms que foram deletados, assim permitindo que sejam reinstalados novamente. 
-Abaixo descrevemos as informações presentes na tabela de Helms.
-                                                                                                                           * #: Número sequencial do Helm cadastrado na plataforma do Mangue.io.
-                                                                                                                           * Nome: Nome do Helm especificado pelo usuário durante a criação.
-                                                                                                                           * Data de Criação: Data em que foi criado a aplicação Helm no Cluster
-                                                                                                                           * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
-  
 
-                                                                                                                              * Editar Helm: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o nome e argumentos da aplicação Helm
-                                                                                                                              * Excluir Helm: Ao selecionar a opção de excluir será desinstalado o Helm selecionado do Cluster.
-  
+Abaixo descrevemos as informações presentes na tabela de Helms.
+
+  * #: Número sequencial do Helm cadastrado na plataforma do Mangue.io.
+  * Nome: Nome do Helm especificado pelo usuário durante a criação.
+  * Data de Criação: Data em que foi criado a aplicação Helm no Cluster
+  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+
+``inserir imagem``  
+
+  * Editar Helm: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o nome e argumentos da aplicação Helm
+  * Excluir Helm: Ao selecionar a opção de excluir será desinstalado o Helm selecionado do Cluster.
+
+``inserir imagem``  
 
 Para criar um Helm é necessário clicar no botão de “  ” é essencial especificar seu nome e selecionar na lista de Helms o nome da aplicação no repositório. Também é possível especificar argumentos para a aplicação, algumas aplicações Helm necessitam de argumentos para realizar a configuração. Após preencher todos os campos necessários, o botão de “Adicionar Helm” está disponível para ser clicado. Ao clicar na plataforma Mangue.io ela realiza a instalação do Helm, após ser instalado exibe uma mensagem de sucesso. 
 
@@ -2958,76 +3024,87 @@ Server VS Code
 --------------
 
 O Visual Studio Code é um Ambiente de Desenvolvimento Integrado (Integrated Development Environment - IDE) para o desenvolvimento de aplicações. Essa IDE pode ser instalada em um Cluster, através de um Deployment, assim permitindo que a IDE seja executada dentro de um navegador do usuário. Para utilizar a funcionalidade de Server VS Code é necessário ter cadastrado previamente o KubeConfig do Cluster na plataforma Mangue.io.
+
 Na tela de Server VS Code será exibida uma lista atualizada, com os Visual Studio Code no Cluster atualmente. Também é possível que o usuário realize a pesquisa dos Visual Studio Code instalados, por meio do nome.
   
+``inserir imagem``
 
 Abaixo descrevemos as informações presentes na tabela de VS Codes.
-                                                                                                                              * #: Número sequencial do VS Code cadastrado na plataforma do Mangue.io.
-                                                                                                                              * Nome: Nome do VS Code especificado pelo usuário durante a criação.
-                                                                                                                              * Usuário: Nome do usuário que criou o Visual Studio Code.
-                                                                                                                              * Data de Criação: Data em que foi criado o Visual Studio Code no Cluster
-                                                                                                                              * Réplicas: Quantidade de réplicas do deployment disponíveis e desejadas
-                                                                                                                              * IP: IP do Visual Studio Code para ser acessado no navegador Web.
-                                                                                                                              * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de excluir VS Code, como mostra a figura:
-  
 
-                                                                                                                                 * Excluir  VS Code: Ao selecionar a opção de excluir é removido o VS Code selecionado do Cluster.
+   * #: Número sequencial do VS Code cadastrado na plataforma do Mangue.io.
+   * Nome: Nome do VS Code especificado pelo usuário durante a criação.
+   * Usuário: Nome do usuário que criou o Visual Studio Code.
+   * Data de Criação: Data em que foi criado o Visual Studio Code no Cluster
+   * Réplicas: Quantidade de réplicas do deployment disponíveis e desejadas
+   * IP: IP do Visual Studio Code para ser acessado no navegador Web.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de excluir VS Code, como mostra a figura:
+
+``inserir imagem``  
+
+   * Excluir  VS Code: Ao selecionar a opção de excluir é removido o VS Code selecionado do Cluster.
   
+``inserir imagem``
 
 Para criar um Visual Studio Code é necessário clicar no botão de “  ” e preencher os campos abaixo:
-                                                                                                                                 * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
-                                                                                                                                 * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
-                                                                                                                                 * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
-                                                                                                                                 * Porta: O usuário pode selecionar a porta que é utilizada no serviço.
-                                                                                                                                 * Tipo do Tamanho: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
-                                                                                                                                 * Ingress Class: Caso o tipo de serviço selecionado seja Ingress é necessário selecionar a Ingress Class a ser utilizada pelo o serviço.
-                                                                                                                                 * URL do Servidor VS Code: Caso o tipo de serviço selecionado seja Ingress é necessário especificar a rota do Ingress. Exemplo: /vscode
-                                                                                                                                 * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
-                                                                                                                                 * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
+   
+   * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
+   * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
+   * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
+   * Porta: O usuário pode selecionar a porta que é utilizada no serviço.
+   * Tipo do Tamanho: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
+   * Ingress Class: Caso o tipo de serviço selecionado seja Ingress é necessário selecionar a Ingress Class a ser utilizada pelo o serviço.
+   * URL do Servidor VS Code: Caso o tipo de serviço selecionado seja Ingress é necessário especificar a rota do Ingress. Exemplo: /vscode
+   * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
+   * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
 
 Services, Load Balancing and Networking
 =======================================
 
 Os Pods nascem e morrem, e quando morrem, morrem mesmo, não ressuscitam. Os controladores ReplicaSets, em particular, criam e apagam Pods dinamicamente (por exemplo: ao escalar ou reduzir). Embora cada Pod tenha seu próprio endereço TCP-IP, até mesmo estes  não podem ser considerados estáveis ao longo do tempo (ex.: Protocolo de Configuração Dinâmica de Endereços de Rede, em inglês, Dynamic Host Configuration Protocol - DHCP). Isso pode gerar um problema, se algum conjunto de Pods (nomeado de back-end) fornece funcionalidade a outros pods (nomeado de front-end) dentro de um cluster do Mangue.io; Como esses front-ends descobrem e controlam os back-ends que estão neste conjunto? É neste momento que se introduzem os Serviços.
+
 Um Serviço no Mangue.io é uma instância do objeto Service do Kubernetes que, por sua vez, é uma abstração que define um conjunto lógico de Pods e uma política pela qual é possível acessá-los. O conjunto de Pods segmentados por um serviço é, geralmente, determinado por um conjunto de Labels.
+
 O menu Services, Load Balancing and Networking é dividido em dois submenus os quais correspondem por: Serviços, Ingress. Cada submenu tem um propósito específico descrito a seguir.
 
 Serviços
 --------
 
 É uma maneira abstrata de expor um aplicativo em execução em um conjunto de pods como um serviço de rede. Com o Kubernetes, o usuário não precisa modificar seu aplicativo para usar um mecanismo de Service Discovery desconhecido. O Kubernetes fornece aos pods seus próprios endereços TCP-IP e um único nome DNS para um conjunto de pods e pode balancear a carga entre eles. Neste submenu serão listados os serviços existentes no namespace o qual o usuário está navegando.
+
 O menu Networking/Serviços apresenta todos os serviços de um cluster em um determinado namespace, na tabela temos informações listadas como na tela abaixo:
   
+``inserir imagem``
 
 
+   * Serviço: Representa o nome do serviço criado, é o identificador principal de um serviço na hora de executar uma pesquisa na barra de pesquisa. 
+   * Protocolo: Responsável por identificar o tipo do protocolo desse serviço, podem ser por exemplo: TCP, UDP. 
+   * Tipo: Representa o tipo do serviço criado no Kubernetes, existem três tipos de serviço são eles:
+     * NodePort: São serviços acessíveis externamente através do range de portas de 30000 a 32767.
+     * ClusterIP: São serviços que só serão possíveis de ser acessados na rede interna do cluster.
+     * LoadBalancer: É um tipo de serviço existente com o intuito de provisionar um LoadBalancer na 7ª camada, para que seja feita a comunicação com o serviço da 4ª camada criado no cluster Kubernetes.
+   * Port: São as portas que o serviço está apto a receber requisições.
+   * Duração: Responsável por identificar a quanto tempo a estrutura do serviço foi criada.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
 
-                                                                                                                                    * Serviço: Representa o nome do serviço criado, é o identificador principal de um serviço na hora de executar uma pesquisa na barra de pesquisa. 
-                                                                                                                                    * Protocolo: Responsável por identificar o tipo do protocolo desse serviço, podem ser por exemplo: TCP, UDP. 
-                                                                                                                                    * Tipo: Representa o tipo do serviço criado no Kubernetes, existem três tipos de serviço são eles:
-                                                                                                                                    * NodePort: São serviços acessíveis externamente através do range de portas de 30000 a 32767.
-                                                                                                                                    * ClusterIP: São serviços que só serão possíveis de ser acessados na rede interna do cluster.
-                                                                                                                                    * LoadBalancer: É um tipo de serviço existente com o intuito de provisionar um LoadBalancer na 7ª camada, para que seja feita a comunicação com o serviço da 4ª camada criado no cluster Kubernetes.
-                                                                                                                                    * Port: São as portas que o serviço está apto a receber requisições.
-                                                                                                                                    * Duração: Responsável por identificar a quanto tempo a estrutura do serviço foi criada.
-                                                                                                                                    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
-  
+``inserir imagem``  
 
 Abaixo segue descrição de cada opção deste submenu:
-                                                                                                                                       * Adicionar Ingres: Ingress é um serviço que pode ser configurado para fornecer aos Serviços URLs acessíveis externamente. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Esta tela efetua a criação de um Ingress em duas etapas, inicialmente a criação de um balanceador de carga, e em sequência a criação do Ingress na plataforma do Mangue.io.
-  
 
-Nome do Ingress: Neste campo o usuário deve informar um nome que faz este serviço ser configurado na plataforma do Mangue.io.
-Gerar LoadBalancer: Após informar o nome do ingress o usuário deve clicar no botão verde com o ícone de um balanceador de carga (“  ”) para iniciar o processo de criação do balanceador de carga na plataforma do Mangue.io. O usuário deve esperar um feedback de alerta que é apresentado no canto superior direito da tela informado o sucesso ou erro desta ação.
-Adicionar: Após a criação, com sucesso, do balanceador de carga, o usuário deverá clicar no botão Adicionar para efetuar a criação do serviço de ingress na plataforma do Mangue.io.
+   * Adicionar Ingres: Ingress é um serviço que pode ser configurado para fornecer aos Serviços URLs acessíveis externamente. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Esta tela efetua a criação de um Ingress em duas etapas, inicialmente a criação de um balanceador de carga, e em sequência a criação do Ingress na plataforma do Mangue.io.
+
+ ``inserir imagem`` 
+
+   * Nome do Ingress: Neste campo o usuário deve informar um nome que faz este serviço ser configurado na plataforma do Mangue.io.
+   * Gerar LoadBalancer: Após informar o nome do ingress o usuário deve clicar no botão verde com o ícone de um balanceador de carga (“  ”) para iniciar o processo de criação do balanceador de carga na plataforma do Mangue.io. O usuário deve esperar um feedback de alerta que é apresentado no canto superior direito da tela informado o sucesso ou erro desta ação.
+   * Adicionar: Após a criação, com sucesso, do balanceador de carga, o usuário deverá clicar no botão Adicionar para efetuar a criação do serviço de ingress na plataforma do Mangue.io.
 
 
-                                                                                                                                       * Deletar Serviço: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão "Deletar". Na sequência é apresentado o feedback de alerta no canto superior direito da tela informando o sucesso ou erro.
+   * Deletar Serviço: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão "Deletar". Na sequência é apresentado o feedback de alerta no canto superior direito da tela informando o sucesso ou erro.
   
 
 Importante ressaltar que esta ação é definitiva e remove (apaga) esta configuração da plataforma do Mangue.io, pois serão apagadas todas as referências deste servidor de monitoramento na plataforma do Mangue.io.
 
-
-                                                                                                                                       * Editar Serviço: Esta opção do menu de ações exibe a opção `Editar serviço`. Quando selecionada a plataforma do Mangue.io apresenta o conteúdo do arquivo em formato JSON com todas as configurações do serviço no Kubernetes. O usuário pode editar o que for necessário neste arquivo e selecionar o botão de “Enviar”. Aguardar o feedback da ação que abre o seguinte modal:
+   * Editar Serviço: Esta opção do menu de ações exibe a opção `Editar serviço`. Quando selecionada a plataforma do Mangue.io apresenta o conteúdo do arquivo em formato JSON com todas as configurações do serviço no Kubernetes. O usuário pode editar o que for necessário neste arquivo e selecionar o botão de “Enviar”. Aguardar o feedback da ação que abre o seguinte modal:
   
 
 Recomendamos que somente usuários experientes em sintaxe YAML ou Kubernetes efetue as alterações no código de um serviço, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
@@ -3042,19 +3119,20 @@ Logo acima da tabela, existem três elementos com os quais o usuário poderá at
 
 
 
-                                                                                                                                       * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo que possibilita ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado desta busca apenas os Updates que contiverem a palavra-chave da pesquisa são recuperados.
-                                                                                                                                       * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Ingress.
+   * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo que possibilita ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado desta busca apenas os Updates que contiverem a palavra-chave da pesquisa são recuperados.
+   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Ingress.
   
 
 Abaixo descrevemos as informações da lista apresentada nesta tela:
-                                                                                                                                          * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
-                                                                                                                                          * Nome: Esta coluna apresenta o nome do Ingress que foi informado durante o processo de cadastramento do Ingress na plataforma do Mangue.io.
-                                                                                                                                          * Host: Esta coluna apresenta a informação do nome do servidor (server name) que está registrado no DNS, ou o número do endereço TCP-IP deste servidor.
-                                                                                                                                          * Serviço: Esta coluna apresenta a informação de qual serviço este Ingress está associado.
-                                                                                                                                          * Address: Esta coluna apresenta o número do endereço TCP-IP do Ingress que foi configurado na plataforma do Mangue.io.
-                                                                                                                                          * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do Ingress até a presente data que o usuário está consultando esta lista.
-                                                                                                                                          * Ações: Esta coluna apresenta um botão de ação para deletar ingress, por meio do ícone de lixeira “  ”, Ao clicar no ícone será solicitado do usuário confirmação para conseguir deletar o ingress, conforme imagem abaixo:
-  
+
+   * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
+   * Nome: Esta coluna apresenta o nome do Ingress que foi informado durante o processo de cadastramento do Ingress na plataforma do Mangue.io.
+   * Host: Esta coluna apresenta a informação do nome do servidor (server name) que está registrado no DNS, ou o número do endereço TCP-IP deste servidor.
+   * Serviço: Esta coluna apresenta a informação de qual serviço este Ingress está associado.
+   * Address: Esta coluna apresenta o número do endereço TCP-IP do Ingress que foi configurado na plataforma do Mangue.io.
+   * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do Ingress até a presente data que o usuário está consultando esta lista.
+   * Ações: Esta coluna apresenta um botão de ação para deletar ingress, por meio do ícone de lixeira “  ”, Ao clicar no ícone será solicitado do usuário confirmação para conseguir deletar o ingress, conforme imagem abaixo:
+
 
 
 
@@ -3064,10 +3142,13 @@ Namespaces
 ==========
 
 O Kubernetes oferece suporte a vários clusters virtuais apoiados por um mesmo cluster físico. Esses clusters virtuais são chamados de “namespaces”. Os namespaces são identificados por um “nome”. Estes podem conter diversos ‘recursos’, e cada recurso deve ter seu nome único. O usuário pode criar o mesmo recurso várias vezes (repetindo o mesmo nome) mas estes recursos devem estar configurados em um namespaces distinto.
+
 Namespaces também dão suporte a definição de quotas, como por exemplo um namespace voltado para um ambiente de Produção e um namespace para o ambiente de Homologação.
+
 De forma clara, o ambiente computacional designado para o namespace Produção deve ter maior capacidade de recursos computacionais do cluster que o namespace configurado para um ambiente de Homologação – afinal este ambiente possui uma carga de uso eventual. As quotas limitam a quantidade de recursos computacionais que um determinado Namespace pode consumir.
+
 O menu Namespaces apresenta uma lista de todos os namespaces de um determinado cluster, na tabela temos informações como: nome do namespace, status e duração do namespace. Os namespaces consistem em diferentes áreas de trabalho que fazem parte de um cluster.
-  
+
 
 
 
@@ -3077,41 +3158,48 @@ Para que o usuário possa criar um namespaces, este deve clicar sobre ícone do 
 
 
 A tela acima possui apenas um campo onde o usuário deve preencher o nome que deseja criar para o novo namespaces e clicar com o cursor do mouse no botão “Adicionar Namespaces”, para incluir este na plataforma do Mangue.io. A plataforma do Mangue.io apresenta um feedback dessa ação no campo superior direito da tela do browser de internet.
+
 Este novo namespace é criado dentro do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
+
 Após a inclusão de um novo namespace, caso este nome não se apresente na lista, o usuário pode clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
+
 Na última coluna da tabela existe a opção de deletar o namespace, quando esta coluna for selecionada ela abre um modal de confirmação. E caso confirmada, há um feedback de criação para o usuário.
   
 
 Abaixo a descrição dos campos da tabela apresentada nesta tela:
-                                                                                                                                             * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                             * Nome: Esta coluna apresenta o nome do namespaces que foi informado durante o processo de cadastramento do namespaces na plataforma do Mangue.io.
-                                                                                                                                             * Status: O status de um namespaces identifica o estado atual do namespaces. Podem ser apresentados por Running, Pending ou “!” (ponto de exclamação).
-                                                                                                                                                * O status Running identifica que nenhum erro está acontecendo com o namespaces.
-                                                                                                                                                * O status Pending identifica algum estado de transição no namespaces. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
-                                                                                                                                                * O status “!” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o namespaces.
-                                                                                                                                                * Cota: Esta coluna apresenta um ícone de um “olho” (“  ”) que irá ficar ativo somente nas linhas de namespaces que possuam alguma cota definida para este. O usuário deve posicionar o cursor do mouse sobre o ícone e a plataforma do Mangue.io irá apresentar uma janela pop-up com nome e as características da cota definida para este namespace.
-  
 
-                                                                                                                                                   * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do namespaces até a presente data que o usuário está consultando esta lista.
-                                                                                                                                                   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
-  
+   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+   * Nome: Esta coluna apresenta o nome do namespaces que foi informado durante o processo de cadastramento do namespaces na plataforma do Mangue.io.
+   * Status: O status de um namespaces identifica o estado atual do namespaces. Podem ser apresentados por Running, Pending ou “!” (ponto de exclamação).
+   * O status Running identifica que nenhum erro está acontecendo com o namespaces.
+   * O status Pending identifica algum estado de transição no namespaces. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
+   * O status “!” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o namespaces.
+   * Cota: Esta coluna apresenta um ícone de um “olho” (“  ”) que irá ficar ativo somente nas linhas de namespaces que possuam alguma cota definida para este. O usuário deve posicionar o cursor do mouse sobre o ícone e a plataforma do Mangue.io irá apresentar uma janela pop-up com nome e as características da cota definida para este namespace.
 
-                                                                                                                                                      * Adicionar Labels: Um rótulo (label) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os softwares armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (labels) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no link do rodapé do site de documentação Kubernetes.io[2]).
-  
+
+   * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do namespaces até a presente data que o usuário está consultando esta lista.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
+
+
+   * Adicionar Labels: Um rótulo (label) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os softwares armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (labels) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no link do rodapé do site de documentação Kubernetes.io[2]).
+
 
 
 
 Esta tela possui dois campos e dois botões:
-Chave: Neste campo o usuário deve preencher com o nome pelo qual a chave (key) será identificada.
-Valor: Neste campo o usuário deve preencher com um número inteiro que será o valor da chave.
-Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a chave e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado uma chave/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
+
+   Chave: Neste campo o usuário deve preencher com o nome pelo qual a chave (key) será identificada.
+   Valor: Neste campo o usuário deve preencher com um número inteiro que será o valor da chave.
+   Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a chave e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado uma chave/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
   
 
-Confirmar: O usuário deve clicar no botão “Confirmar” quando houver completado de informar a(s) chave(s)/valor(es) necessária(s) ao namespaces. Ao clicar no botão, a plataforma do Mangue.io irá configurar estas informações e fechar esta tela, apresenta o feedback da ação no canto superior direito da tela do browser de internet.
+   Confirmar: O usuário deve clicar no botão “Confirmar” quando houver completado de informar a(s) chave(s)/valor(es) necessária(s) ao namespaces. Ao clicar no botão, a plataforma do Mangue.io irá configurar estas informações e fechar esta tela, apresenta o feedback da ação no canto superior direito da tela do browser de internet.
 
 
-                                                                                                                                                      * Adicionar Cota de Recurso: Esta tela permite ao usuário estabelecer a quantidade ideal de recursos computacionais que o namespace consome para manter a sua performance ideal, bem como estabelecer o seu limite máximo de consumo de recursos computacionais.
+   * Adicionar Cota de Recurso: Esta tela permite ao usuário estabelecer a quantidade ideal de recursos computacionais que o namespace consome para manter a sua performance ideal, bem como estabelecer o seu limite máximo de consumo de recursos computacionais.
+
 A definição de uma cota pode impactar em outros serviços (workloads) cadastrados na plataforma o Mangue.io. Quando o usuário define um limite de CPU e Memória para um namespaces caso um deployment possua vários pods, réplicas ou Autoescalador Horizontal, estes nunca ultrapassam o limite de recurso computacional estabelecido na cota. 
+
 Por exemplo: se um deployment necessita iniciar uma nova réplica definida no Auto Escalador Horizontal, e o limite de CPU e Memória já houver sido alcançado, a plataforma do Mangue.io não inicia a nova réplica, mesmo que os valores definidos no Autoescalador Horizontal sejam alcançados, mas o limite da cota não permite haver recursos computacionais disponíveis para esta nova réplica.
   
 
@@ -3125,7 +3213,7 @@ Memory Limit: Neste campo o usuário deve preencher com um número inteiro que �
 Confirmar: Quando o usuário preencher todos os campos deste formulário ele deve clicar no botão “Confirmar” para que a plataforma do Mangue.io configure e inclua as cotas de recursos ao namespaces selecionado.
 
 
-                                                                                                                                                      * Deletar: A terceira opção deste submenu permite que o usuário possa apagar (deletar) um namespace definitivamente do cluster que foi selecionado na ‘aba’ Configurações; e ao ser clicado abrirá a seguinte tela de interface solicitando a confirmação por parte do usuário:
+   * Deletar: A terceira opção deste submenu permite que o usuário possa apagar (deletar) um namespace definitivamente do cluster que foi selecionado na ‘aba’ Configurações; e ao ser clicado abrirá a seguinte tela de interface solicitando a confirmação por parte do usuário:
   
 
 
@@ -3141,9 +3229,13 @@ Nodes
 =====
 
 O menu Nodes apresenta todos os nodes (Máquinas virtuais) de um determinado cluster. Em Overview Nodes é possível visualizar graficamente o consumo dos recursos (CPU e memória) de todos os Nodes de um Cluster em um determinado período. 
+
 O consumo de CPU é medido em MilliCores e o de memória em MegaBytes, ambos em função do tempo, conforme podemos verificar na figura abaixo. 
+
 É permitido ao usuário selecionar o período desejado clicando sobre os botões localizados acima dos gráficos. As opções disponíveis para o usuário estão entre os últimos 30, 15, 7 e 1 dia(s) e, nas últimas 12 horas. Para os períodos de 30, 15 e 7 dias, as aferições em função do tempo são diárias e para os períodos de 1 dia e 12 horas, são por hora. 
+
 Destacado na cor azul do gráfico de barras, são apresentadas as quantidades de recursos utilizados naquele período selecionado, seja ele por dia ou por hora, conforme escolhido pelo usuário, enquanto a cor verde mensura a quantidade total de recursos, ou seja, que permanecem ociosos naquele período. 
+
 A quantidade total de recursos dos Nodes de um Cluster, tanto para CPU quanto para memória, é representada pela soma dessas duas medidas.  
 
 
@@ -3156,51 +3248,62 @@ A quantidade total de recursos dos Nodes de um Cluster, tanto para CPU quanto pa
   
 
 Logo acima da tabela, existe um elemento com o qual o usuário pode atuar:
-                                                                                                                                                      * Exibir Nós por Contrato: Selecionando esta opção, aparece um campo, onde o usuário pode informar o nome do contrato pelo qual deseja realizar sua busca.
+
+   * Exibir Nós por Contrato: Selecionando esta opção, aparece um campo, onde o usuário pode informar o nome do contrato pelo qual deseja realizar sua busca.
 
 
 Abaixo a descrição das colunas desta tabela:
-                                                                                                                                                      * Nome: Nome do node.
-                                                                                                                                                      * Status: Corresponde ao estado atual do node.
-                                                                                                                                                      * Running: Indica que o node está “saudável”.
-                                                                                                                                                      * Failure: Indica que algum erro aconteceu com o node, ou no presente momento este se encontra indisponível.
-                                                                                                                                                      * CPU Utilizada: Representa o consumo atual do recurso de CPU da máquina virtual (node). Este valor está expresso com uma fração de número inteiro (decimais) da quantidade de CPU existente na infraestrutura que compõe a máquina virtual. A infraestrutura computacional existente da máquina virtual suporta e executa micro serviços (ex.: deployment), os quais consomem apenas uma pequena parte do total de recurso de CPU. Assim, a aplicação apresenta a quantidade decimal do total de CPU consumido pela máquina virtual.
-                                                                                                                                                      * Memória Utilizada: O consumo atual do recurso de Memória RAM da máquina virtual. Este valor está expresso em Gigabytes, da quantidade total Megabytes de memória RAM existente na infraestrutura que compõe a máquina virtual (node). A infraestrutura computacional existente da máquina virtual (node) para suportar e executar micro serviços (ex.: deployment), desta forma um micro serviço consome apenas uma pequena parte do total de recurso de Megabytes de Memória RAM de um node.
+
+   * Nome: Nome do node.
+   * Status: Corresponde ao estado atual do node.
+   * Running: Indica que o node está “saudável”.
+   * Failure: Indica que algum erro aconteceu com o node, ou no presente momento este se encontra indisponível.
+   * CPU Utilizada: Representa o consumo atual do recurso de CPU da máquina virtual (node). Este valor está expresso com uma fração de número inteiro (decimais) da quantidade de CPU existente na infraestrutura que compõe a máquina virtual. A infraestrutura computacional existente da máquina virtual suporta e executa micro serviços (ex.: deployment), os quais consomem apenas uma pequena parte do total de recurso de CPU. Assim, a aplicação apresenta a quantidade decimal do total de CPU consumido pela máquina virtual.
+   * Memória Utilizada: O consumo atual do recurso de Memória RAM da máquina virtual. Este valor está expresso em Gigabytes, da quantidade total Megabytes de memória RAM existente na infraestrutura que compõe a máquina virtual (node). A infraestrutura computacional existente da máquina virtual (node) para suportar e executar micro serviços (ex.: deployment), desta forma um micro serviço consome apenas uma pequena parte do total de recurso de Megabytes de Memória RAM de um node.
 
 
 Para o usuário conhecer detalhes de todos os pods de um node específico, basta clicar com o cursor do mouse sobre o nome do node para que a plataforma do Mangue.io apresente a seção com uma lista de todos os pod que estão em execução no node selecionado.
   
 
 A seção “Pods” apresenta uma tabela que lista todos os pods em execução neste node. Exibe informações detalhadas como nome, nó em que está sendo rodado, status atual do pod, imagem, juntamente com sua versão e tempo de vida (veja a descrição completa dos campos desta tabela no item Seção: PODs).
+
 Caso seja necessário o usuário consultar os logs, ou ter acesso ao prompt do sistema operacional de um pod específico, na coluna Ações o usuário deve clicar com o cursor do mouse sobre o ícone “  ” para que a plataforma do Mangue.io apresente um submenu com a opção de acesso ao log e a linha de comando do pod selecionado.
+
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
   
 
 
 
-                                                                                                                                                      * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os nodes que contiverem a palavra-chave da pesquisa.
-                                                                                                                                                      * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com os lista de nomes de nodes configurados na plataforma do Mangue.io.
-                                                                                                                                                      * Adicionar Labels: Caso o usuário necessite adicionar um (ou mais) label ao node o usuário deve clicar com o cursor do mouse no ícone de rótulos (labels - “  ”) para que a plataforma do Mangue.io apresentar a seguinte tela:
+   * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os nodes que contiverem a palavra-chave da pesquisa.
+   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com os lista de nomes de nodes configurados na plataforma do Mangue.io.
+   * Adicionar Labels: Caso o usuário necessite adicionar um (ou mais) label ao node o usuário deve clicar com o cursor do mouse no ícone de rótulos (labels - “  ”) para que a plataforma do Mangue.io apresentar a seguinte tela:
   
 
 
 
-                                                                                                                                                         * Selecionar Nós: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os nodes configurados na plataforma do Mangue.io. Basta o usuário clicar com cursor do mouse sobre o nome do node desejado para selecionar.
-                                                                                                                                                         * Nome da Label: Neste campo o usuário deve preencher com o nome pelo qual a label (key) é identificada.
-                                                                                                                                                         * Valor da Label: Neste campo o usuário deve preencher com um número inteiro que é o valor da chave.
-                                                                                                                                                         * Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a label e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado um label/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
-                                                                                                                                                         * Obs: Adicionar labels aos nodes pode ser importante para os usuários que desejam fazer configurações de Node Affinity aos seus Deployments.
-                                                                                                                                                         * Finalizar: Este botão permite adicionar (o)s label(s) selecionados na plataforma do Mangue.io. Na sequência é exibido o feedback desta ação.  
+   * Selecionar Nós: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os nodes configurados na plataforma do Mangue.io. Basta o usuário clicar com cursor do mouse sobre o nome do node desejado para selecionar.
+   * Nome da Label: Neste campo o usuário deve preencher com o nome pelo qual a label (key) é identificada.
+   * Valor da Label: Neste campo o usuário deve preencher com um número inteiro que é o valor da chave.
+   * Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a label e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado um label/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
+
+* Obs: Adicionar labels aos nodes pode ser importante para os usuários que desejam fazer configurações de Node Affinity aos seus Deployments.
+
+   * Finalizar: Este botão permite adicionar (o)s label(s) selecionados na plataforma do Mangue.io. Na sequência é exibido o feedback desta ação.  
 
 
 Migração de Cluster
 ===================
 
 O Mangue.io é uma plataforma de Gestão de Ambientes de Múltiplos Orquestradores de Container, que permite a orquestração, a implantação (localização e agendamento) e a operacionalização (execução) de containers de aplicações dentro de um cluster computacional (público ou privado) ou entre clusters computacionais (público e/ou privado).
+
 A plataforma opera em um modelo de multicloud híbrido e, dessa forma, permite às empresas total controle, suporte para a sustentação de cópias de segurança (backup), replicação e migração de ambientes.
+
 O menu Migrações de Cluster é responsável por realizar a migração de múltiplos recursos entre clusters – de público e/ou privado para público e/ou privado.
+
 Através da plataforma do Mangue.io o usuário pode migrar o conteúdo completo de um cluster – com todos seus diversos tipos de workloads – para outro cluster.
+
 A praticidade de migração de todos os tipos de workloads entre clusters facilita a criação de um ambiente de Múltiplos Orquestradores de Contêineres preparado para cenários de Disaster Recovery.
+
 A plataforma do Mangue.io é agnóstica a provedores de serviços (privados, públicos) e através da funcionalidade do menu Migrações o usuário pode manter, gerenciar e operar diversas cópias de seu clusters em múltiplos orquestradores de containers, de forma simultânea e centralizada.
 
 
@@ -3215,45 +3318,51 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
   
 
-                                                                                                                                                         1. Selecionar o Cluster Origem (Seção Migração)
-                                                                                                                                                         * Este campo é um “drop-down list” e são listados apenas os clusters configurados no item Integrar Cluster.
+1. Selecionar o Cluster Origem (Seção Migração)
+
+   * Este campo é um “drop-down list” e são listados apenas os clusters configurados no item Integrar Cluster.
 
 
-                                                                                                                                                         2. Selecionar o Cluster Destino (Seção Migração)
-                                                                                                                                                         * Este campo é um “drop-down list” e são listados apenas os clusters  configurados no item Integrar Cluster.
+2. Selecionar o Cluster Destino (Seção Migração)
+   
+   * Este campo é um “drop-down list” e são listados apenas os clusters  configurados no item Integrar Cluster.
 
 
-                                                                                                                                                         3. Selecionar Namespace (Seção Workloads)
-                                                                                                                                                         * Este campo é um “drop-down list” e são listados apenas os namespaces configurados no item Namespaces.
-                                                                                                                                                         * Se caso a linha abaixo deste campo estiver pontilhada, significa que não existe nenhum namepaces configurados e disponível para migração no cluster de origem informado no passo 1. Veja exemplo na tela abaixo:
+3. Selecionar Namespace (Seção Workloads)
+
+   * Este campo é um “drop-down list” e são listados apenas os namespaces configurados no item Namespaces.
+   * Se caso a linha abaixo deste campo estiver pontilhada, significa que não existe nenhum namepaces configurados e disponível para migração no cluster de origem informado no passo 1. Veja exemplo na tela abaixo:
+  
+  
+
+
+   * Quando existem namespaces configurados a plataforma do Mangue.io apresenta uma linha contínua abaixo deste campo, veja exemplo abaixo:
   
   
 
 
 
-                                                                                                                                                         * Quando existem namespaces configurados a plataforma do Mangue.io apresenta uma linha contínua abaixo deste campo, veja exemplo abaixo:
-  
-  
+4. Selecionar o Tipo de Workload (Seção Workloads)
+   
+   * Este campo é um “drop-down list” e nele apresenta-se a lista de todos os tipos de workloads configurados no item Workloads.
+   * Ao clicar neste campo, a plataforma do Mangue.io apresenta uma relação de workloads que são passíveis de serem migrados de um cluster para outro (Configmaps, Deployments, Daemonsets, Statefulsets, Ingresses, Services).
+   * No Kubernetes, não existe um objeto, componente ou qualquer tipo de construção chamada “workload”. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu cluster.
 
+5. Selecionar o Nome do Workload (Seção Workloads)
 
-
-                                                                                                                                                         4. Selecionar o Tipo de Workload (Seção Workloads)
-                                                                                                                                                         * Este campo é um “drop-down list” e nele apresenta-se a lista de todos os tipos de workloads configurados no item Workloads.
-                                                                                                                                                         * Ao clicar neste campo, a plataforma do Mangue.io apresenta uma relação de workloads que são passíveis de serem migrados de um cluster para outro (Configmaps, Deployments, Daemonsets, Statefulsets, Ingresses, Services).
-                                                                                                                                                         * No Kubernetes, não existe um objeto, componente ou qualquer tipo de construção chamada “workload”. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu cluster.
-                                                                                                                                                         5. Selecionar o Nome do Workload (Seção Workloads)
-                                                                                                                                                         * Este campo é um “drop-down list” e são listados apenas os nomes de workloads que fazem parte do mesmo tipo de workload selecionado no campo anterior.
-                                                                                                                                                         * Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este é adicionado na lista de migração, conforme o exemplo abaixo:
+   * Este campo é um “drop-down list” e são listados apenas os nomes de workloads que fazem parte do mesmo tipo de workload selecionado no campo anterior.
+   * Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este é adicionado na lista de migração, conforme o exemplo abaixo:
   
 
 
 
-                                                                                                                                                            * A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
+   * A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
   
 
 
 
-                                                                                                                                                            6. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo informações como: Nome do recurso, Tipo do recurso, Namespace, Cluster de Origem e Cluster destino. A plataforma do Mangue.io inicia a movimentação dos workloads entre os clusters selecionados, e logo em seguida, há um feedback dessa ação que é apresentada no canto superior direito da tela do browser.
+6. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo informações como: Nome do recurso, Tipo do recurso, Namespace, Cluster de Origem e Cluster destino. A plataforma do Mangue.io inicia a movimentação dos workloads entre os clusters selecionados, e logo em seguida, há um feedback dessa ação que é apresentada no canto superior direito da tela do browser.
+
 Após confirmar este procedimento a plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os clusters indicados, uma mensagem de feedback é apresentada no canto superior direito da tela do browser de internet. 
 
 
@@ -3261,31 +3370,41 @@ Migração de Namespace
 ---------------------
 
 Este menu é responsável por realizar a migração de múltiplos recursos entre namespaces do mesmo Cluster.
+
 Esta tela é segmentada em duas seções, como a tela de Migração de Cluster: Migração entre Namespaces e Workloads, e o processo de migração é simples e o usuário é guiado de forma intuitiva para completar o processo de preenchimento da tela da plataforma do Mangue.io.
+
 Abaixo apresentamos o processo para o correto preenchimento da tela de migração:
 
 
   
 
-                                                                                                                                                            1. Selecionar o Namespace Origem (Seção Migração)
-                                                                                                                                                            * Este campo é um “drop-down list” e são listados os namespaces do Cluster.
-                                                                                                                                                            2. Selecionar o Namespace Destino (Seção Migração)
-                                                                                                                                                            * Este campo é um “drop-down list” e são listados os namespaces do Cluster.
-                                                                                                                                                            3. Selecionar o Tipo de Workload (Seção Workloads)
-                                                                                                                                                            * Este campo é um “drop-down list” ele lista todos os tipos de recursos disponíveis para migração.
-                                                                                                                                                            4. Selecionar o Nome do Workload (Seção Workloads)
-                                                                                                                                                            * Este campo é um “drop-down list” e serão listados apenas os nomes dos recursos que fazem parte do mesmo tipo de workload selecionado no campo anterior.
-                                                                                                                                                            * Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este será adicionado na lista de migração, conforme o exemplo abaixo:
+1. Selecionar o Namespace Origem (Seção Migração)
+
+* Este campo é um “drop-down list” e são listados os namespaces do Cluster.
+
+2. Selecionar o Namespace Destino (Seção Migração)
+
+* Este campo é um “drop-down list” e são listados os namespaces do Cluster.
+
+3. Selecionar o Tipo de Workload (Seção Workloads)
+
+* Este campo é um “drop-down list” ele lista todos os tipos de recursos disponíveis para migração.
+
+4. Selecionar o Nome do Workload (Seção Workloads)
+
+* Este campo é um “drop-down list” e serão listados apenas os nomes dos recursos que fazem parte do mesmo tipo de workload selecionado no campo anterior.
+* Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este será adicionado na lista de migração, conforme o exemplo abaixo:
   
 
 
 
-                                                                                                                                                               * A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
+* A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
   
 
 
 
-                                                                                                                                                               5. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo  informações como: Nome do recurso, Tipo do recurso, Namespace, Namespace de Origem e Namespace destino. A plataforma do Mangue.io inicia a movimentação dos workloads entre os namespaces selecionados, e logo em seguida, há um feedback dessa ação que será apresentada no canto superior direito da tela do browser.
+5. Confirmar: Após selecionados, os recursos são exibidos na tabela contendo  informações como: Nome do recurso, Tipo do recurso, Namespace, Namespace de Origem e Namespace destino. A plataforma do Mangue.io inicia a movimentação dos workloads entre os namespaces selecionados, e logo em seguida, há um feedback dessa ação que será apresentada no canto superior direito da tela do browser.
+
 Após confirmar este procedimento a plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os namespaces indicados, um uma mensagem de feedback será apresentada no canto superior direito da tela do browser de internet.
 
 
@@ -3293,25 +3412,28 @@ Registry
 ========
 
 O menu Registry apresenta todos os Docker Registries integrados à plataforma. O Docker Registry provê um serviço para hospedagem de imagens do Docker análogo ao que está disponível no hub.docker.com, porém com a possibilidade de uso e hospedagem em uma rede interna. Os Registries podem e devem ser utilizados como alternativa para armazenamento de imagens docker dos servidores e aplicações de uma organização. 
+
 No menu Registry é possível conectar a um registry privado, ou seja, um servidor de registro de imagem privado da organização. Ou um serviço de registro de imagem público, como o http://hub.docker.com.
+
 Há nesta seção uma tabela contendo as informações dos Registries adicionados ao Kubernetes, lembrando que os registries são segredos (veja o item Secrets) criados por namespace.
+
 Logo acima da tabela, existem dois elementos com os quais o usuário poderá atuar:
   
 
 
 
-                                                                                                                                                               * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Registry desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os Registry que contiverem a palavra-chave da pesquisa.
-                                                                                                                                                               * Adicionar um Registry: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo Registry na plataforma. Na sequência é exibida a tela abaixo:
+* A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Registry desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os Registry que contiverem a palavra-chave da pesquisa.
+* Adicionar um Registry: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo Registry na plataforma. Na sequência é exibida a tela abaixo:
   
 
 
 
-                                                                                                                                                                  * Nome do Servidor: Este campo é obrigatório e o usuário deve informar o nome do servidor de Registry que deseja configurar na plataforma do Mangue.io.
-                                                                                                                                                                  * Username: Este campo é obrigatório e o usuário deve informar o login de usuário provisionado no sistema operacional do servidor de registry existente;
-                                                                                                                                                                  * Email: Este campo é obrigatório e o usuário deve informar o e-mail do usuário que é utilizado para fazer autenticação no servidor de registry;
-                                                                                                                                                                  * Senha: Este campo é obrigatório e o usuário deve informar a senha do login de usuário, provisionado no sistema operacional do servidor, que será utilizado para fazer autenticação deste usuário no servidor de registry
-                                                                                                                                                                  * Nome Secret: Nome do Secret a ser criado para os dados do Registry.
-                                                                                                                                                                  * Botão Confirmar: Após o usuário alterar todos os campos anteriores, ele deve clicar com o cursor do mouse sobre este botão para confirmar as alterações informadas para a plataforma do Mangue.io.
+* Nome do Servidor: Este campo é obrigatório e o usuário deve informar o nome do servidor de Registry que deseja configurar na plataforma do Mangue.io.
+* Username: Este campo é obrigatório e o usuário deve informar o login de usuário provisionado no sistema operacional do servidor de registry existente;
+* Email: Este campo é obrigatório e o usuário deve informar o e-mail do usuário que é utilizado para fazer autenticação no servidor de registry;
+* Senha: Este campo é obrigatório e o usuário deve informar a senha do login de usuário, provisionado no sistema operacional do servidor, que será utilizado para fazer autenticação deste usuário no servidor de registry
+* Nome Secret: Nome do Secret a ser criado para os dados do Registry.
+* Botão Confirmar: Após o usuário alterar todos os campos anteriores, ele deve clicar com o cursor do mouse sobre este botão para confirmar as alterações informadas para a plataforma do Mangue.io.
 
 
 Abaixo é descrito as colunas apresentadas nesta lista de registries:
@@ -3319,20 +3441,20 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 
 
 
-                                                                                                                                                                  * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                                                  * Nome: Esta coluna apresenta o nome do servidor de Registro de imagem criado;
-                                                                                                                                                                  * Username: Esta coluna apresenta o nome do usuário que é utilizado para fazer autenticação no servidor de registro de imagem;
-                                                                                                                                                                  * Email: Esta coluna apresenta o e-mail do usuário que é utilizado para fazer autenticação no servidor de registro de imagem;
-                                                                                                                                                                  * Senha: Esta coluna apresenta a senha do usuário que é utilizado para fazer autenticação no servidor de registro de imagem
-                                                                                                                                                                  * URL do Servidor: Esta coluna apresenta a url que o usuário utiliza para se autenticar e baixar as imagens do servidor de registro de imagem;
-                                                                                                                                                                  * Duração: Esta coluna indica a quanto tempo aquela credencial para acesso ao servidor de registro de imagem está criada na plataforma;
-                                                                                                                                                                  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* Nome: Esta coluna apresenta o nome do servidor de Registro de imagem criado;
+* Username: Esta coluna apresenta o nome do usuário que é utilizado para fazer autenticação no servidor de registro de imagem;
+* Email: Esta coluna apresenta o e-mail do usuário que é utilizado para fazer autenticação no servidor de registro de imagem;
+* Senha: Esta coluna apresenta a senha do usuário que é utilizado para fazer autenticação no servidor de registro de imagem
+* URL do Servidor: Esta coluna apresenta a url que o usuário utiliza para se autenticar e baixar as imagens do servidor de registro de imagem;
+* Duração: Esta coluna indica a quanto tempo aquela credencial para acesso ao servidor de registro de imagem está criada na plataforma;
+* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
   
 
-                                                                                                                                                                     * Deletar Registry: Ação responsável por apagar a credencial de acesso ao servidor de registro de imagem. Ao selecionar este botão a plataforma do Mangue.io solicita confirmar a operação de remoção da credencial. Lembrando que esta ação ao ser confirmada é irreversível. Caso alguma aplicação do Cluster utilize esta credencial para baixar o container docker, após a deleção esta ação de baixar o container docker  falha, já que a credencial foi apagada.
+* Deletar Registry: Ação responsável por apagar a credencial de acesso ao servidor de registro de imagem. Ao selecionar este botão a plataforma do Mangue.io solicita confirmar a operação de remoção da credencial. Lembrando que esta ação ao ser confirmada é irreversível. Caso alguma aplicação do Cluster utilize esta credencial para baixar o container docker, após a deleção esta ação de baixar o container docker  falha, já que a credencial foi apagada.
   
 
-                                                                                                                                                                     * Editar Registry: Ação responsável por fornecer um mecanismo para atualizar as informações de uma credencial de acesso a um servidor de registro de imagem. Ao selecionar a ação “Editar Registry” aparece uma tela com as informações adicionadas anteriormente para a credencial em questão, podendo alterar os campos desejados e ao clicar no botão "Confirmar” a credencial é atualizada. Um alerta com feedback para a ação de atualizar é gerado no canto superior direito da tela do browser de internet.
+* Editar Registry: Ação responsável por fornecer um mecanismo para atualizar as informações de uma credencial de acesso a um servidor de registro de imagem. Ao selecionar a ação “Editar Registry” aparece uma tela com as informações adicionadas anteriormente para a credencial em questão, podendo alterar os campos desejados e ao clicar no botão "Confirmar” a credencial é atualizada. Um alerta com feedback para a ação de atualizar é gerado no canto superior direito da tela do browser de internet.
   
 
 Nome do Servidor: Neste campo o usuário pode alterar o nome do servidor de Registry existente.
@@ -3348,17 +3470,19 @@ Secrets
 =======
 
 Secrets (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, tokens, OAuth e chaves SSH. Empregar essa informação através de um Secret é a forma mais segura e flexível do que ‘expor’ a informação, em uma definição de ciclo de vida do Pod ou em uma imagem de contêiner. Os valores de um segredo são salvos em BASE64[3] . O que não significa que há uma certa “camada” de criptografia nas informações, adicionalmente, esta é a abordagem mais recomendada para armazenamento de informações sensíveis.
+
 Ao selecionar este menu será apresentado uma lista de todos os secrets presentes no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
 
 
   
 
 O menu de Segredo contém uma tabela com as seguintes informações:
-                                                                                                                                                                     * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-                                                                                                                                                                     * Nome: Esta coluna apresenta o nome do Secret que foi utilizado no momento de sua configuração.
-                                                                                                                                                                     * Tipo: Tipo do segredo.
-                                                                                                                                                                     * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste secret.
-                                                                                                                                                                     * Ações: Esta coluna apresenta um botão de ação, que é uma lata de lixo “  ” que ao ser clicado, remove o secret da mesma linha. Ao selecionar a ação “Deletar Secret” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+
+   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+   * Nome: Esta coluna apresenta o nome do Secret que foi utilizado no momento de sua configuração.
+   * Tipo: Tipo do segredo.
+   * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste secret.
+   * Ações: Esta coluna apresenta um botão de ação, que é uma lata de lixo “  ” que ao ser clicado, remove o secret da mesma linha. Ao selecionar a ação “Deletar Secret” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
   
 
 
@@ -3367,7 +3491,9 @@ Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualque
 
 
 Se o usuário necessita conhecer os conteúdos armazenados de um Secret, este  deve clicar sobre o nome do Secret para que a plataforma do Mangue.io apresente as informações específicas configuradas para o Secret em uma seção abaixo da lista.
+
 Esta nova seção da tela apresenta a lista de todos os componentes de um secret.
+
 Para cada componente do secret a plataforma do Mangue.io apresenta um ícone de visualização do conteúdo do componente do Secret. Este ícone é representado com “olho” (“  ”), quando o usuário clicar sobre o ícone a plataforma do Mangue.io  apresenta o conteúdo do componente como o exemplo abaixo:
   
 
@@ -3380,54 +3506,64 @@ Schedule Task
 =============
 
 A plataforma Mangue.io pode agendar tarefas para serem realizadas em uma data posterior, tarefas como: 
-                                                                                                                                                                        * Atualizar Deployment.
-                                                                                                                                                                        * Escalar Deployment.
-                                                                                                                                                                        * Atualizar ConfigMap.
+
+   * Atualizar Deployment.
+   * Escalar Deployment.
+   * Atualizar ConfigMap.
   
 
 Na página de Schedule Task é exibida uma lista com as tarefas agendadas na plataforma, também é possível pesquisar as tarefas agendadas através do nome do recurso.
+
 Abaixo é descrito as informações presentes na tabela de tarefas agendadas.
-                                                                                                                                                                        * #: Número sequencial do VS Code cadastrado na plataforma do Mangue.io.
-                                                                                                                                                                        * Data Agendada: Data para qual a tarefa foi agendada.
-                                                                                                                                                                        * Tipo: Tipo de tarefa a ser realizada.
-                                                                                                                                                                        * Detalhes: Detalhes sobre a tarefa a ser realizada.
-                                                                                                                                                                        * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as seguintes opções:
+
+   * #: Número sequencial do VS Code cadastrado na plataforma do Mangue.io.
+   * Data Agendada: Data para qual a tarefa foi agendada.
+   * Tipo: Tipo de tarefa a ser realizada.
+   * Detalhes: Detalhes sobre a tarefa a ser realizada.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as seguintes opções:
   
 
-                                                                                                                                                                           * Editar Agendamento: Ao selecionar a opção de editar será apresentada a tela com as informações do agendamento, sendo possível editá-las.
-                                                                                                                                                                           * Cancelar Agendamento: Ao selecionar a opção de cancelar agendamento, a data desejada será excluída da plataforma.
+   * Editar Agendamento: Ao selecionar a opção de editar será apresentada a tela com as informações do agendamento, sendo possível editá-las.
+   * Cancelar Agendamento: Ao selecionar a opção de cancelar agendamento, a data desejada será excluída da plataforma.
 
 
   
 
 Para criar uma tarefa agendada é necessário clicar no botão de “  ” e é necessário preencher os campos abaixo:
-                                                                                                                                                                           * Data Atualização: Data e horário em que a tarefa será executada.
-                                                                                                                                                                           * Tipo de Tarefa: Tipo de tarefa a ser executada, as opções são:
-                                                                                                                                                                           * Atualizar Deployment.
-                                                                                                                                                                           * Escalar Deployment.
-                                                                                                                                                                           * Atualizar ConfigMap.
+
+   * Data Atualização: Data e horário em que a tarefa será executada.
+   * Tipo de Tarefa: Tipo de tarefa a ser executada, as opções são:
+   * Atualizar Deployment.
+   * Escalar Deployment.
+   * Atualizar ConfigMap.
 
 
   
 
 Caso seja selecionada a opção de “Atualizar Deployment” será necessário preencher os novos campos, conforme a figura acima, de: 
-                                                                                                                                                                           * Deployment: O usuário deve selecionar o deployment a ser atualizado,
-                                                                                                                                                                           * Nome do Container: O nome do container a ser atualizado.
-                                                                                                                                                                           * Versão do Container: Versão para qual o Container será atualizado.
+
+   * Deployment: O usuário deve selecionar o deployment a ser atualizado,
+   * Nome do Container: O nome do container a ser atualizado.
+   * Versão do Container: Versão para qual o Container será atualizado.
 
 
   
 
 Caso seja selecionada a opção de “Escalar Deployment”, é essencial preencher os novos campos, conforme a figura acima, de: 
-                                                                                                                                                                           * Deployment: O usuário deve selecionar o deployment a ser atualizado,
-                                                                                                                                                                           * Réplicas: Quantidade de réplicas a qual o Deployment será escalado.
+
+   * Deployment: O usuário deve selecionar o deployment a ser atualizado,
+   * Réplicas: Quantidade de réplicas a qual o Deployment será escalado.
   
 
 Caso seja selecionado a opção de “Atualizar ConfigMap” é necessário preencher os novos campos, conforme a figura acima, de: 
-* ConfigMap: O usuário deve selecionar o ConfigMap que será atualizado.
-* Nome do ConfigMap: O usuário deve preencher com o nome do ConfigMap desejado.
+
+   * ConfigMap: O usuário deve selecionar o ConfigMap que será atualizado.
+   * Nome do ConfigMap: O usuário deve preencher com o nome do ConfigMap desejado.
+
 É possível adicionar ou remover arquivos clicando nos ícones de “  ” e “  ” respectivamente.
+
 Os campos de um arquivo de ConfigMap são:
+
 * Nome do Arquivo: O usuário deve informar no nome do arquivo a ser criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
 * Conteúdo do Arquivo: O usuário deve preencher com o conteúdo específico do arquivo a ser criado.
 
@@ -3436,30 +3572,39 @@ Storage
 =======
 
 Lidar com aplicações em contêineres tem alguns desafios, e um destes desafio é como interagir com arquivos em disco. Os arquivos em disco de um container são efêmeros, isto representa alguns problemas para aplicações não triviais empacotadas em containers. Primeiro, quando um container falha, o Mangue.io tenta reiniciá-lo, mas com isso os arquivos em disco serão perdidos, logo, o container começa sempre com um estado limpo. Em segundo lugar, ao executar containers juntos em um Pod, geralmente é necessário compartilhar arquivos entre esses contêineres. A abstração de Volume do Kubernetes utilizada no Mangue.io resolve esses dois problemas (para o ambiente Docker é diferente[4]).
+
 Por outro lado, um volume do Kubernetes (utilizado pelo Mangue.io) tem uma vida útil explícita – o mesmo que o Pod que o contém. Consequentemente, um volume ultrapassa todos os contêineres que são executados no Pod e os dados são preservados nas reinicializações deste mesmo contêiner. Naturalmente, quando um Pod deixa de existir, o volume deixa de existir também. Talvez mais importante do que isso, como o Kubernetes suporta muitos tipos de volumes, e um Pod pode usar qualquer número deles simultaneamente, a plataforma do Mangue.io também herda essa capacidade. 
+
 Em sua essência, um Volume é apenas um diretório, possivelmente com alguns dados, que são acessíveis aos contêineres em um Pod. O diretório é o “local”, e seu “conteúdo” é determinado pelo tipo de volume específico utilizado.
+
 Na sessão de Storage o usuário encontra os menus relacionados a estrutura de armazenamento de dados persistentes em Kubernetes. É possível por navegar por três estruturas diferentes:
-* StorageClass
-* Persistent Volumes
-* Persistent Volume Claims
+
+   * StorageClass
+   * Persistent Volumes
+   * Persistent Volume Claims
 
 
 StorageClass
 ------------
 
 Os StorageClass são responsáveis por criar classes de storage de diferentes tipos, pode-se encarar como exemplo o seguinte cenário:
+
 1. Um usuário tem dois tipos de discos montados em dois NFS servers diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações.
+
 2. Desta forma o usuário deve criar dois StorageClass diferentes, cada um representa um servidor de NFS: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo.
+
 Quando o usuário selecionar o menu Storage/StorageClass a plataforma do Mangue.io apresenta a lista de todos os StorageClass que existem configurados no cluster que foi selecionado na aba engrenagens “Seleção de Configuração” da plataforma do Mangue.io. 
 
+
 Abaixo são descritos as colunas desta lista:
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo"|icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
-* Nome: Nome do StorageClass.
-* Provisioner: Nome do provisionador do StorageClass.
-* Duração: Descreve há quanto tempo atrás o recurso foi criado.
-* Ações: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
-* Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este StorageClass pode apresentar um erro fatal (*crash*) em sua execução.
+
+   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo"|icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+   * Nome: Nome do StorageClass.
+   * Provisioner: Nome do provisionador do StorageClass.
+   * Duração: Descreve há quanto tempo atrás o recurso foi criado.
+   * Ações: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
+   * Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+   * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este StorageClass pode apresentar um erro fatal (*crash*) em sua execução.
 
 
 
@@ -3468,94 +3613,106 @@ PersistentVolume
 ----------------
 
 Os PersistentVolumes (PV) são uma parte do armazenamento no cluster que foi provido por um administrador ou provisionado dinamicamente usando StorageClass. É um recurso do cluster, assim como um node. PVs são plugins de volume como o recurso Volumes, mas têm um ciclo de vida independente de qualquer Pod individual que usa o PV.
+
 Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Mangue.io apresenta a lista de todos os PersistentVolumes que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-* Capacity: Esta coluna apresenta o tamanho/capacidade do PersistentVolume em Gigabytes.
-* Access Modes: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
-* ReadWriteOnce: O volume será montado e poderá receber instruções de leitura e escrita apenas de um único node.
-* ReadOnlyMany: O volume será montado e tem permissão apenas de leitura, mas de diferentes nodes simultaneamente, não sendo permitido escrita.
-* ReadWriteMany: O volume será montado e poderá receber instruções de leitura e escrita simultaneamente, mas de diferentes nodes.
-* Reclaim Policy: Quando um usuário conclui seu volume, ele pode excluir os objetos do Persistent Volumes Claim da API que permite a recuperação (reclaim) do recurso. A política de recuperação para um PersistentVolume informa ao cluster o que fazer com o volume depois que ele for liberado da sua reivindicação. Existem atualmente três políticas de recuperação:
-* Retain: A política (retain) permite a recuperação manual do recurso. Quando o PersistentVolumeClaim é excluído, o PersistentVolume ainda existe e o volume é considerado "liberado". Mas ainda não está disponível para outra reclamação porque os dados do reclamante anterior permanecem no volume.
-* Delete: Para volumes que oferecem suporte à política de recuperação de exclusão, esta remove o objeto PersistentVolume do Kubernetes, bem como o arquivo de armazenamento associado na infraestrutura externa (por ex.: um volume AWS EBS, GCP PD ou Disco do Azure).
-* Recycle: Nesta última opção a política de recuperação para um PersistentVolume permite ao cluster fazer uma limpeza básica. 
-* Status: Esta coluna apresenta a situação atual (status) da solicitação do volume, existem dois status que podem ser apresentados:
-* Bound: Quando as vinculações (binding) do tamanho volume correspondem ao espaço designado no ambiente computacional do node.
-* Unbound: Quando as vinculações (binding) do tamanho do volume não correspondem ao espaço designado no ambiente computacional do  node.
-* StorageClass: Esta coluna apresenta o nome do StorageClass ao qual o PersistentVolume está associado.
-* Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
-* Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolume poderá apresentar um erro fatal (crash) em sua execução.
+
+   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado o ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+   * Capacity: Esta coluna apresenta o tamanho/capacidade do PersistentVolume em Gigabytes.
+   * Access Modes: Esta coluna apresenta a configuração de acesso a este volume, esses modos de acesso podem ser três, são eles:
+   * ReadWriteOnce: O volume será montado e poderá receber instruções de leitura e escrita apenas de um único node.
+   * ReadOnlyMany: O volume será montado e tem permissão apenas de leitura, mas de diferentes nodes simultaneamente, não sendo permitido escrita.
+   * ReadWriteMany: O volume será montado e poderá receber instruções de leitura e escrita simultaneamente, mas de diferentes nodes.
+   * Reclaim Policy: Quando um usuário conclui seu volume, ele pode excluir os objetos do Persistent Volumes Claim da API que permite a recuperação (reclaim) do recurso. A política de recuperação para um PersistentVolume informa ao cluster o que fazer com o volume depois que ele for liberado da sua reivindicação. Existem atualmente três políticas de recuperação:
+   * Retain: A política (retain) permite a recuperação manual do recurso. Quando o PersistentVolumeClaim é excluído, o PersistentVolume ainda existe e o volume é considerado "liberado". Mas ainda não está disponível para outra reclamação porque os dados do reclamante anterior permanecem no volume.
+   * Delete: Para volumes que oferecem suporte à política de recuperação de exclusão, esta remove o objeto PersistentVolume do Kubernetes, bem como o arquivo de armazenamento associado na infraestrutura externa (por ex.: um volume AWS EBS, GCP PD ou Disco do Azure).
+   * Recycle: Nesta última opção a política de recuperação para um PersistentVolume permite ao cluster fazer uma limpeza básica. 
+   * Status: Esta coluna apresenta a situação atual (status) da solicitação do volume, existem dois status que podem ser apresentados:
+   * Bound: Quando as vinculações (binding) do tamanho volume correspondem ao espaço designado no ambiente computacional do node.
+   * Unbound: Quando as vinculações (binding) do tamanho do volume não correspondem ao espaço designado no ambiente computacional do  node.
+   * StorageClass: Esta coluna apresenta o nome do StorageClass ao qual o PersistentVolume está associado.
+   * Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
+   * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+   * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolume poderá apresentar um erro fatal (crash) em sua execução.
 
 
 PersistentVolumeClaims
 ----------------------
 
 Os PersistentVolumeClaims (PVC) são uma solicitação de armazenamento por um usuário. É semelhante a um pod. Os pods consomem recursos do node e os PVCs consomem recursos PV. Os pods podem solicitar níveis específicos de recursos (CPU e memória). Os PVCs podem solicitar tamanhos específicos de armazenamento e modos de acesso (por exemplo, eles podem ser montados ReadWriteOnce, ReadOnlyMany ou ReadWriteMany).
+
 O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um determinado namespace do cluster, a tabela exibe informações como:
   
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-* Nome: Responsável por identificar o nome do PVC
-* Capacidade: Esta coluna apresenta o tamanho/capacidade do PersistentVolumeClaim em Gigabytes.
-* Status: Responsável por identificar o estado do PVC, geralmente podem ser os seguintes estados:
-* Bound: Quando o PVC foi criado com sucesso.
-* Pending: Quando está no aguardo de alguma instrução para que seja criado com sucesso.
-* Terminating: Quando está no aguardo de alguma instrução para que seja deletado com sucesso.
-* Provisioner: Responsável por identificar qual StorageClass aquele PVC está utilizando.
-* Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
-* Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
-* Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolumeClaim pode apresentar um erro fatal (crash) em sua execução.
+   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+   * Nome: Responsável por identificar o nome do PVC
+   * Capacidade: Esta coluna apresenta o tamanho/capacidade do PersistentVolumeClaim em Gigabytes.
+   * Status: Responsável por identificar o estado do PVC, geralmente podem ser os seguintes estados:
+   * Bound: Quando o PVC foi criado com sucesso.
+   * Pending: Quando está no aguardo de alguma instrução para que seja criado com sucesso.
+   * Terminating: Quando está no aguardo de alguma instrução para que seja deletado com sucesso.
+   * Provisioner: Responsável por identificar qual StorageClass aquele PVC está utilizando.
+   * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
+   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
+   * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+   * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer workload do cluster que esteja associado, ou utilize, este PersistentVolumeClaim pode apresentar um erro fatal (crash) em sua execução.
 
 
 Tarefas
 =======
 
 A plataforma do Mangue.io é um ambiente que se comunica com o gerenciador de container Kubernetes via API-Restful, desta forma sempre que o usuário adiciona, ou re-configura algum recurso através da interface do Mangue.io, a plataforma envia uma ‘tarefa’ via API-Restful para o cluster Kubernetes para que esta tarefa seja executada.
+
 Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta-a para o usuário na tabela da interface. Abaixo a tela Tarefas exibe um exemplo:
 
 Na lista podemos encontrar o status das tarefas referentes ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io:
-* Operação: Nesta coluna é apresentado uma descrição sucinta da tarefa que foi executada pelo usuário através da interface do Mangue.io.
-* Cluster: Nesta coluna é apresentado a identificação do cluster em que a tarefa ocorreu.
-* Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
-* Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
+
+   * Operação: Nesta coluna é apresentado uma descrição sucinta da tarefa que foi executada pelo usuário através da interface do Mangue.io.
+   * Cluster: Nesta coluna é apresentado a identificação do cluster em que a tarefa ocorreu.
+   * Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
+   * Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
   
-* Data de Início: Esta coluna apresenta a data e hora em que a tarefa foi criada na plataforma do Mangue.io. O formato de data a apresentação é de: dia/mês/ano (padrão brasileiro – DD/MM/AAA), para o formato de hora é de: hora, minuto e segundo (formato 24 horas – HH:MM:SS).
-* Criado em: Esta coluna apresenta a quantidade de dias decorridos desde a data de início da tarefa (coluna anterior)
-* Status: Esta coluna apresenta o conteúdo da mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta esta resposta para o usuário em três status diferentes:
-* SUCCESS: Tarefa enviada para o Kubernetes e foi processada com sucesso;
-* PENDING: Tarefa enviada para o Kubernetes e está sendo processada, até o presente momento não foi encerrada;
-* FAILED: Tarefa enviada para o Kubernetes e seu processamento gerou erro/falha durante a tentativa de sua execução.
+   * Data de Início: Esta coluna apresenta a data e hora em que a tarefa foi criada na plataforma do Mangue.io. O formato de data a apresentação é de: dia/mês/ano (padrão brasileiro – DD/MM/AAA), para o formato de hora é de: hora, minuto e segundo (formato 24 horas – HH:MM:SS).
+   * Criado em: Esta coluna apresenta a quantidade de dias decorridos desde a data de início da tarefa (coluna anterior)
+   * Status: Esta coluna apresenta o conteúdo da mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta esta resposta para o usuário em três status diferentes:
+     * SUCCESS: Tarefa enviada para o Kubernetes e foi processada com sucesso;
+     * PENDING: Tarefa enviada para o Kubernetes e está sendo processada, até o presente momento não foi encerrada;
+     * FAILED: Tarefa enviada para o Kubernetes e seu processamento gerou erro/falha durante a tentativa de sua execução.
 
 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
+
 * A ação de pesquisa: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa por alguma parte do texto presente na coluna “Operação”. Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas as linhas que contiverem a palavra-chave da pesquisa.
+
 Esta pesquisa é sensível ao caso das letras (maiúsculas / minúsculas), portanto, o resultado da busca pela palavra “Deletar” será diferente do resultado da busca pela palavra “deletar”.
+
 Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/string deste campo, e clicar sobre o ícone da lupa “  ” (busca por campo em ‘branco’) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
-* A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os status mais recentes desta tabela de tarefas.
+
+   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os status mais recentes desta tabela de tarefas.
 
 
 Clusters Workloads
 ==================
 
 Esta opção de menu lista todas as cargas de trabalho (workloads) existentes em todos os clusters integrados à plataforma do Mangue.io.
+
 Inicialmente, é relevante esclarecer o que é exatamente uma carga de trabalho (workload). No Kubernetes, não há objeto, componente e qualquer tipo de construção chamada “carga de trabalho”. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu cluster. Pode ser sinônimo de microsserviços, aplicativos, containers ou processos. As cargas de trabalho, geralmente, são processos de longa duração, mas também podem ser de curta duração sob demanda ou jobs em lote.
+
 A plataforma do Mangue.io pode gerenciar diversos componentes que o Kubernetes oferece para gerenciar e configurar suas cargas de trabalho. Pode-se listar pods e para os componentes que encapsulam pods, como ReplicaSets, Deployments, DaemonSets e StatefulSets. Em seguida, detalhamento sobre os componentes periféricos, como Serviços, EndPoints e Ingress.
+
 Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser extensa. Abaixo está apresentado um exemplo de um destes componentes que são listados na tela:
 
-* # ‘coluna acionável’: Esta coluna apresenta o número sequencial da workload na lista exibida.
-* Nome: Esta coluna apresenta o nome do workload que foi criado durante o processo de inclusão deste componente na plataforma do Mangue.io.
-* Tipo: Esta coluna apresenta o tipo específico do(s) componente(s) workload(s).
-* Deployments
-* Daemonsets
-* Horizontal Autoscaler
-* Pods
-* Statefulsets
-* Updates
-* Réplicas: Esta coluna apresenta a quantidade de réplicas ativas que este componente possui no presente momento da consulta.
-* Cluster: Esta coluna apresenta o nome do cluster o qual o componente está associado. A plataforma do Mangue.io exibe todos os clusters com os quais possui configuração de integração.
-* Namespace: Esta coluna apresenta o nome do namespace que o componente está associado.
+   * # ‘coluna acionável’: Esta coluna apresenta o número sequencial da workload na lista exibida.
+   * Nome: Esta coluna apresenta o nome do workload que foi criado durante o processo de inclusão deste componente na plataforma do Mangue.io.
+   * Tipo: Esta coluna apresenta o tipo específico do(s) componente(s) workload(s).
+     * Deployments
+     * Daemonsets
+   * Horizontal Autoscaler
+   * Pods
+   * Statefulsets
+   * Updates
+   * Réplicas: Esta coluna apresenta a quantidade de réplicas ativas que este componente possui no presente momento da consulta.
+   * Cluster: Esta coluna apresenta o nome do cluster o qual o componente está associado. A plataforma do Mangue.io exibe todos os clusters com os quais possui configuração de integração.
+   * Namespace: Esta coluna apresenta o nome do namespace que o componente está associado.
 
 Caso o usuário necessite visualizar todas as informações detalhadas de um componente presente na lista, basta clicar com o cursor do mouse sobre o nome do componente e a plataforma do Mangue.io apresenta as mesmas informações presentes no menu Workloads (exemplo de informações de um deployment abaixo):
   
@@ -3572,8 +3729,7 @@ Este documento conclui a apresentação e descrição do Mangue.io, uma platafor
 ====
 
 Equipe Ustore
-Manual de Uso do Mangue.IO. 4ª Edição. Versão 1.
-
+Manual de Uso do Mangue.IO. 4ª Edição. Versão 2. Revisada 16/06/2023.
 
 
 .. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png

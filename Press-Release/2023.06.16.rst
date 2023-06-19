@@ -15,6 +15,9 @@ Ano 2023 - Período 12 a 16 de Junho
 ====
 
 Nesta comunicação a Ustore anuncia os lançamentos semanais das novas características da plataforma **uCloud**: **Billing** e **OPS**. 
+
+====
+
 ====
 
 .. centered:: uCloud Billing
@@ -24,11 +27,17 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |Alertas do Budget                                                                                                                          |
 +============================+===========================================================================================================================================+
-|Objetivo                    |Enviar alertas de budget baseado no percentual do consumo do cliente em relação ao budget "estimado"?                                      |
+|Objetivo                    |Enviar alertas de budget por e-mail, baseado no percentual do consumo do cliente em relação ao budget estimado.                            |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|A funcionalidade busca todos os budgets não deletados de todos os contratos para o mês corrente. Exclusivo aos budgets que possuem alertas.|
+|Novo comportamento do portal|A funcionalidade busca todos os budgets não deletados em todos os contratos para o mês corrente, exclusivo ao budget habilitado com alerta.|
+|                            |É enviado um e-mail para o endereço eletrônico previamente cadastrado, por cada nível de consumo total alocado para o budget, são eles:    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |Menu Administração > Contratos > card Budgets > editar Budget                                                                              |
+|                            |* Normal: Corresponde a 0%-49% de consumo total;                                                                                           |
+|                            |* Warning: Indica 50%-89% de consumo total;                                                                                                |
+|                            |* Danger: Representa 90%-99% de consumo total;                                                                                             |
+|                            |* Over: Está acima de 100% do consumo total.                                                                                               |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Administração > Contratos > card Budgets > Criar Budget                                                                               |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -42,36 +51,38 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 **Nuvem VMware**
 
 
-+----------------------------+---------------------------------------------------+
-|Feature                     |Tagueamento de recursos do inventário              |
-+============================+===================================================+
-|Objetivo                    |Mapear a criação de recursos para a nuvem VMware   |
-+----------------------------+---------------------------------------------------+
-|Novo comportamento do portal|Os recursos do inventário são tagueáveis apenas no |
-|                            |portal uCloud                                      |
-+----------------------------+---------------------------------------------------+
-|Localização no portal       |                                                   |
-+----------------------------+---------------------------------------------------+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Tagueamento de recursos do inventário                                                                                                     |
++============================+==========================================================================================================================================+
+|Objetivo                    |Mapear a criação de recursos para a nuvem VMware                                                                                          |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|É possível taguear todos os recursos do inventário VMware, eles são tagueáveis apenas no portal uCloud.                                   |
+|                            |O portal exibe um aviso ao usuário, informando que o tagueamento é local, e que ao importar o container novamente, as tags são perdidas.  |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Inventário de recursos                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 ====
 
 **Nuvem Hyper-V**
 
 
-+----------------------------+--------------------------------------------------+
-|Feature                     |Mapeamento do inventário de recursos              |
-|                            |                                                  |
-+============================+==================================================+
-|Objetivo                    |Mapear a criação de recursos para a nuvem VMware  |
-|                            |                                                  |
-+----------------------------+--------------------------------------------------+
-|Novo comportamento do portal|                                                  | 
-|                            |                                                  |
-+----------------------------+--------------------------------------------------+
-|Localização no portal       |                                                  |
-+----------------------------+--------------------------------------------------+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Tagueamento de recursos do inventário                                                                                                     |
++============================+==========================================================================================================================================+
+|Objetivo                    |Mapear a criação de recursos para a nuvem Hyper-V                                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|É possível taguear todos os recursos do inventário Hyper-V, eles são tagueáveis apenas no portal uCloud.                                  |
+|                            |O portal exibe um aviso ao usuário, informando que o tagueamento é local, e que ao importar o container novamente, as tags são perdidas.  |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Inventário de recursos                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 
+Este conjunto de funcionalidades descritas neste documento reafirmam o constante compromisso de evolução dos produtos da Ustore e o alinhamento às necessidades do mercado e clientes.
 
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+
+Este press release semanal é uma ferramenta de comunicação fundamental ao trabalho de divulgação das novidades e inovações dos produtos gerados na Ustore.
