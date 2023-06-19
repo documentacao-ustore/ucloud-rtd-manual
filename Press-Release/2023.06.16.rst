@@ -31,6 +31,7 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento do portal|A funcionalidade busca todos os budgets não deletados em todos os contratos para o mês corrente, exclusivo ao budget habilitado com alerta.|
 |                            |É enviado um e-mail para o endereço eletrônico previamente cadastrado, por cada nível de consumo total alocado para o budget, são eles:    |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |                            |* Normal: Corresponde a 0%-49% de consumo total;                                                                                           |
 |                            |* Warning: Indica 50%-89% de consumo total;                                                                                                |
 |                            |* Danger: Representa 90%-99% de consumo total;                                                                                             |
@@ -68,12 +69,10 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |Tagueamento de recursos do inventário                                                                                                     |
-|                            |                                                                                                                                          |
 +============================+==========================================================================================================================================+
 |Objetivo                    |Mapear a criação de recursos para a nuvem Hyper-V                                                                                         |
-|                            |                                                                                                                                          |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|É possível taguear todos os recursos do inventário Hyper-V, eles são tagueáveis apenas no portal uCloud.                                  |                                                  | 
+|Novo comportamento do portal|É possível taguear todos os recursos do inventário Hyper-V, eles são tagueáveis apenas no portal uCloud.                                  |
 |                            |O portal exibe um aviso ao usuário, informando que o tagueamento é local, e que ao importar o container novamente, as tags são perdidas.  |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Inventário de recursos                                                                                                               |
