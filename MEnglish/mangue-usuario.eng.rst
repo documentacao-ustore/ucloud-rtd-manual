@@ -1363,7 +1363,7 @@ The user just needs to click with the mouse cursor on the line of the desired im
       * ``Back`` button
       * ``Finish`` button.
 
-After clicking on the **Finish** button, the Mangue.io platform closes the sub screens and returns to the first step of the new application process, it presents the its configuration listed, as the example below:
+After clicking on the ``Finish`` button, the Mangue.io platform closes the sub screens and returns to the first step of the new application process, it presents the its configuration listed, as the example below:
 
 .. image:: /figuras/fig_mangue/061_mangue_lista_aplicacao.png
     :alt: application list
@@ -1417,13 +1417,121 @@ Below  the content description of the columns presented on this list:
      * **Edit Container**: When selected this option the Mangue.io platform presents the screen regarding the **Fist Step: New Application**, so the user can edit the configurations on this container.
      * **Exclude Container**: This action is defined and when actioned the Mangue.io platform removes allo the container initial configuration, **no confirmation of this action is required.**
 
-B. Validate New Application
+B. **Validate New Application**
 
- 
+If the user clicks with the mouse over the container name the Mangue.io platform presents a screen with all the information about Container resources.
+
+The Mangue.io platform identifies all the resources of *PersistentVolumeClaim*, *ConfigMap*, of the container the user configured for this application and list these resources according to the example of the screen below:
+
+.. image:: /figuras/fig_mangue/065_mangue_recurso_container.png
+    :alt: container resources
+    :align: center
+----
 
 
+* **#**: This column presents the container sequential number in the presented list;
+* **Name**: This column shows the name of the resource informed on previous steps;
+* **Type**: This column displays the type of resource created on previous steps;.
+* **Mount Path**: This column presents the information of the operational system directory according how it was configured on previous steps;
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, it presents a submenu with the following options:
+
+.. image:: /figuras/fig_mangue/066_mangue_acoes_recursos.png
+    :alt: actions resources
+    :align: center
+----
+
+      * Attach to another container: A Mangue.io platform facility allows the user to attach this application to a different container than the one created since the beginning of this process. When loading this option the Mangue.io platform presents the following screen:
+
+.. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
+    :alt: create PVC
+    :align: Center
+----
+
+When clicking over the containers blank a drop-down list is presented with the containers available and configured on the Mangue.io platform. The user just needs to select the desired container and confirm the action.
+
+      * **Delete**: This action is definitive and by actioning it the Mangue.io platform removes all the container initial configuration;
+
+.. attention:: There is no request confirmation on the "Delete" action.
 
 
+C. **Second Step: Deploy on the Clusters**
+
+This section enables the understanding of how to operate one of the greatest facilities of this platform. It allows the creation, launch and execution of this new application (Deployment) in more than one Cluster, simultaneously. 
+
+The platform makes it possible to operationalize the selection of one (or more) Cluster (s) currently configured on the Mangue.io environment. The image and the description of this section is below:
+
+.. image:: /figuras/fig_mangue/068_mangue_deploy_clusters.png
+    :alt: deploy on the clusters
+    :align: center
+----
+
+* **Clusters Available**: This blank when selected presents the drop-down list with all the configured Clusters on the platform. The user just needs to select which ones they want to launch and execute the application Deployment that is being created.
+* ``Next`` **Button**: The user must click on this button to start the third and last step to create a new application (Deployment).
+
+
+D. **Third Step: Enable Zero Down-time**
+
+As mentioned at the start of this topic, the objective of this first approach - Creation of New Application via screens/forms on Mangue.io - is to minimize the potential YAML syntax errors for a Kubernetes environment. 
+
+The creation of a code in YAML syntax in the Kubernetes environment demands a high degree of specialization and knowledge from the developer. Thus the syntax correct for the environment, may have all the dependencies needed to generate the desired result and be integrated in the Kubernetes environment use (e.g.: an application/ Deployment).
+
+The development of an application (Deployment) script with the YAML syntax in a Kubernetes environment can be very long, and the dependencies between script sections and with external elements (PVCs; *ConfigMaps*, environment variables, among others) can induce the script creation with errors or parameters absence failures, decorring of the little experience or attempt of using a script developed by another person.
+
+For example:
+
+A generic script found on the virtual environment may not make clear all the dependencies of environment variables and external files.
+
+The scripts adaptation process (very little documented in the year of 2018) could be a great frustration and prevent the popularization of the Kubernetes environment, therefore the Mangue.io platform simplifies this process by guiding the user through screens and forms.
+
+After the complete fill in (of this second part) of all the blanks of screens and forms regarding the application (Deployment) creation the Mangue.io platform generates the complete YAML script and, by consequence, its compilation with no errors. 
+
+This document's reader can see below the description of the next screens that are part of the last step before the finalization and creation of the application (Deployment) that is executed and managed by the Mangue.io platform. 
+
+.. image:: /figuras/fig_mangue/069_mangue_habilitar_downtime.png
+    :alt: enable down time
+    :align: center
+----
+
+* **MaxSurge**: On this space the user must inform the maximum quantity of replicas they wish to keep active on the Mangue.io platform. During the update process of the application (Deployment) version, this number is responsible for keeping a minimum of replicas to guarantee the user experience during an update process;
+* **MaxUnavailable**: On this blank the user must inform the maximum quantity of replicas they wish to keep unavailable on the Mangue.io platform. During an update process of the application (Deployment) version, this number indicates to the Mangue.io the quantity of replicas that can be updated in a parallel mode;
+* **Container**: This is a header of a section that indicates the container name that is being created for this new application (Deployment).
+* **Section ReadinessProbe**: The Kubernetes environment uses *ReadinessProbe* to know when a container is ready to start to accept traffic. A Pod is considered ready when all its containers are concluded. On the blanks below the user must insert the values referring to the environment of *ReadinessProbe*.
+
+      * **SuccessThreshold**: On this blank the user must inform a full number that defines the minimal quantity of containers that the Mangue.io platform must keep available during the process of update in a way to guarantee the user experience that is using the application (Deployment);
+  
+      * **FailureThreshold**: In this area the user must register a full number that defines the maximum quantity of containers that are unavailable during an update process of the application (Deployment) version. This number indicates to the Mangue.io platform the quantity of replicas that may be updates in a parallel manner;
+  
+      * **ReadinessPath**: On this space the user must indicate the path of the directory where is created a file register (log) that stores all the events during the process of container update;
+  
+      * **Request Headers**: On this subsection the user may configure the update events register file content layout that must be created, adding columns (headers) and the column content;
+  
+      * **Header name**: On this blank the user must inform the column name that is created within the update events register file (log).
+  
+      * **Header Value**: This space the user must indicate the initial value of the column that is created within the update events register file (log).
+  
+      * ``Add`` **button**: This button informs the Mangue.io Platform the set header/value must be configured in the update events register file (log). The user may add the quantity of columns that is made necessary, they just need to fill in the values on the previous blanks and press the ``Add`` button.
+  
+* **LivenessProbe**: The Kubernetes environment uses *LivenessProbe* to know when to restart a container. These probes are performed in intervals of time (seconds) defined by the user and after this period it is added a line on the log file. On the spaces below the user enters with the values referring to the *LivenessProbe* environment:
+  
+      * **PeriodSeconds**: On this blank the user must inform the full number that represents the period of seconds referring to the probe activity break (*livenessprobe*);
+  
+      * **ReadinessPath**: In this area the user must indicate the path to the directory where a register file (log) is created that stores all the events during the container update process.;
+  
+      * **Request Headers**: On this subsection the user may configure the update events register file content layout to be created, adding the columns (headers) and the column content;
+  
+      * **Header name**: On this blank the user must inform the column name that is created within the update events register file (log).
+  
+      * **Header Value**: This space the user must indicate the initial value of the column that is created within the update events register file (log).
+  
+      * ``Add`` **button**: This button informs the Mangue.io platform the set header/value must be configured in the update events register file (log). The user may add the quantity of columns that is made necessary, they just need to fill in the values on the previous blanks and press the ``Add`` button.
+  
+      * ``Back`` **button**: If the user needs to go back to a previous step, they must press this button. It is important to highlight that in this operation all the information filled on this screen by the user is lost, and the Mangue.io platform returns to the previous screen. 
+  
+      * ``Finish`` **button**: The user must press this button when the filling of all the blanks from the previous screens are concluded, when it's ready to start the application (Deployment). The Mangue.io platform compiles all the information on the blanks and generates a YAML script. By compiling this script and generating the application (and all its dependencies: PVCs, *ConfigMaps*, log files, among others) it is executed and managed within the Mangue.io platform environment.
+
+At this point the Mangue.io platform ends the application (Deployment) screens creation and the user can find their new application installed on the **Workloads/Deployments** menu screen.
+
+The user may have a larger quantity of information about its new application on the "Deployment Information" menu.
 
 
 
