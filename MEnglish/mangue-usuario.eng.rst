@@ -1395,7 +1395,7 @@ Below  the content description of the columns presented on this list:
 ----
 
           * **Size / 1Gi, 5Gi, 10Gi**: The user can select the volume size simply by clicking with the mouse cursor over the desired number, selecting the best size option for this PVC. The options are expressed in Gigabytes (1, 5, or 10);
-          * **Size / Customized**: Another way of creating a PVC with a volume with a differing size from the previous options, the Mangue.io platform presents a slide bar that allows the user to select the PVC’s desired size. Using the mouse cursor over the orange indicator, the user can move this indicator (left or right) to define the final desired size. The minimum size is 1 Gigabyte and the maximum of 100 Gigabytes;
+          * **Size / Customized**: Another way of creating a PVC with a volume with a differing size from the previous options, the Mangue.io platform presents a slide bar that allows the user to select the PVC's desired size. Using the mouse cursor over the orange indicator, the user can move this indicator (left or right) to define the final desired size. The minimum size is 1 Gigabyte and the maximum of 100 Gigabytes;
           * **Storage Class**: This blank is a dropdown list that is composed only of NFS servers configured on the Mangue.io platform. The user must select the more adequate NFS server to receive the PVC file;
           * **Access Mode**: This column presents the access configuration to this volume, these access modes can be three, they are: *ReadWriteOnce*, *ReadOnlyMany*, *ReadWriteMany*;
           * **Mount Path**: On this space the user must inform the path where the volume is mounted on the container. If the application base is on a Linux environment, the montage volume path must use the notation of the Linux operating system;
@@ -1416,6 +1416,8 @@ Below  the content description of the columns presented on this list:
           * ``Add ConfigMap`` **button**: After filling in all the previous blanks the user must press this button with the mouse cursor so the Mangue.io platform can promote the creation, configuration and recording of the *ConfigMap* for this new application (Deployment).
      * **Edit Container**: When selected this option the Mangue.io platform presents the screen regarding the **Fist Step: New Application**, so the user can edit the configurations on this container.
      * **Exclude Container**: This action is defined and when actioned the Mangue.io platform removes allo the container initial configuration, **no confirmation of this action is required.**
+  
+----
 
 B. **Validate New Application**
 
@@ -1453,6 +1455,7 @@ When clicking over the containers blank a drop-down list is presented with the c
 
 .. attention:: There is no request confirmation on the "Delete" action.
 
+----
 
 C. **Second Step: Deploy on the Clusters**
 
@@ -1468,6 +1471,7 @@ The platform makes it possible to operationalize the selection of one (or more) 
 * **Clusters Available**: This blank when selected presents the drop-down list with all the configured Clusters on the platform. The user just needs to select which ones they want to launch and execute the application Deployment that is being created.
 * ``Next`` **Button**: The user must click on this button to start the third and last step to create a new application (Deployment).
 
+----
 
 D. **Third Step: Enable Zero Down-time**
 
@@ -1532,6 +1536,111 @@ This document's reader can see below the description of the next screens that ar
 At this point the Mangue.io platform ends the application (Deployment) screens creation and the user can find their new application installed on the **Workloads/Deployments** menu screen.
 
 The user may have a larger quantity of information about its new application on the "Deployment Information" menu.
+
+-----
+
+Deploy via YAML
+-----------------
+
+This is the second approach the Mangue.io platform allows the user to upload a text file, whose content is the application codification in YAML syntax, already adapted and prepared for a Kubernetes environment.
+
+The YAML stands for “Ain't a markup language”, according to https://yaml.org/, is an amicable data serialization default to any programming language. YAML was created in the belief that all data can be represented adequately as a combination of lists, hashes (maps) and scalar data (simple values).
+
+The syntax is relatively simple and was projected considering that it is very readable, but that also was easily mapped for the common types of data in most high-level languages. Beyond that, YAML uses a notation based on indentation and a set of distinct characters of the ones used by XML, making that both languages are easily composed in one another. 
+
+Any user with a YAML syntax knowledge can use the Mangue.io interface to create a: Deployment, Service, *Statefulsets*, Volume or Ingress.
+
+The Mangue.io platform allows the user expert in YAML enters with their code in a free manner directly through the interface (data-entry), or upload a file in text format not formatted (ASCII) of a directory/folder of their computer to the Mangue.io platform.
+
+When clicking over the Deploy via YAML Code option the Mangue.io platform presents the following screen:
+
+.. image:: /figuras/fig_mangue/070_mangue_deploy_clusters.png
+    :alt: deploy clusters
+    :align: center
+----
+
+A. **Available Clusters**
+
+The user must click over the “Available Clusters” blank to open a drop-down list of all the configured clusters on the Mangue.io platform, then select the recipient Cluster in which the Deployment is created and executed.
+
+There is a mensage present on the screen that is important to highlight for the Deployment via YAML creation process.
+
+.. note:: In case no Cluster is selected, the deploy is made only on the Cluster being used currently.
+
+----
+
+B. **Template**
+
+On the sequence the user must select one of the YAML code model options (template) that is previously configured on the Mangue.io platform, this functionality adds productivity to the user, and each model type is an option on the drop-down list:
+
+* **Default**: Allows the user to configure the YAML code in a free way. In this option the user must have a good YAML syntax knowledge to enter with the desired code. The user must start clicking with the mouse on the gray area beside the number “1”, before starting to type their YAML code. 
+
+.. attention:: For each new line the user must use the ``Enter`` key to start a new line. 
+
+The user must use their own development experience to structure the syntax of their code line by line. Through this option the user may enter with a YAML code to create, provision a new Pod on the Mangue.io platform.
+
+* **Deployment**: In this option the Mangue.io platform presents a new YAML code template with the initial syntax to create a Deployment. The user may use the mouse to click on the  desired line and on the location, then start the typing of the specific parameter for the Deployment. Therefore, editing the YAML code template the platform presents.
+* **Service**: On this option the Mangue.io platform presents a YAML code template with the initial syntax to create a Service. The user may use the mouse to click on the desired line and on the location, then start the typing of the specific parameters for the service. Therefore, editing the YAML code template the platform presents.
+* **Statefulsets**: On this option the Mangue.io platform presents a YAML code template with the initial syntax to create a Statefulsets. The user may use the mouse to click on the desired line and on the location, then it is possible to start the typing of the specific parameters for the *Statefulsets*. Therefore, editing the YAML code template the platform presents;
+* **Volume**: On this option the Mangue.io platform presents a YAML code template with the initial syntax to create a Volume. The user may use the mouse to click on the desired line and on the location, then start the typing of the specific parameters for the Volume. Therefore, editing the YAML code template the platform presents.
+* **Ingress**: On this option the Mangue.io platform presents a YAML code template with the initial syntax to create a definition of Ingress. The user may use the mouse to click on the desired line and on the location, then start the typing of the specific parameters. Therefore, editing the YAML code template the platform presents.
+
+The expert user in YAML may see that the use of templates increases productivity and keeps the code better documented and structured according to the best practices.
+
+----
+
+C. **Browse**
+
+This button allows the user to upload a text non formatted (ASCII) file type, with a YAML code previously created by the user. The user must click on the ``Browse`` button, in this action the Mangue.io platform to presents the "File Explorer" screen of your computer, then, it is necessary to select the folder/directory where the code file is located.
+
+The Mangue.io platform is configured to identify and present all the files with extensions “.yaml and .yml” present on the folder/directory selected. In case the user has saved on their source code in a file with different extension, they must type the full name of the file on the blank “Name” or select the option “All files (*.*)” to locate and select the desired file.
+
+.. image:: /figuras/fig_mangue/071_mangue_arquivo_yaml.png
+    :alt: file Explorer
+    :align: center
+----
+
+When the user selects the desired file, just click on the ``Open`` button, so the Mangue.io platform uploads the content from the selected file to the interface, at this moment the user visualizes that the Mangue.io platform numbers, sequentially, all the lines of the uploaded code.
+
+At this point the user can edit the code directly through the Mangue.io platform interface, to personalize or correct any YAML code line present on the screen.
+
+----
+
+D. **Submit**
+
+When the user is concludes the insertion of all the YAML code content and is secure that this code is correct, the green button ``Submit`` must be clicked for the Mangue.io platform to perform the code load and its consequent compilation by make this code available as Deployment, Service, *Statefulsets*, Volume or Ingress.
+
+At this point the Mangue.io platform closes the application (Deployment) creation screens, then the user can find their new application listed on the "Workloads/Deployments" screen.
+
+The user can view a larger quantity of information about its new application on the "Deployment Information" menu.
+
+----
+
+E. **Server VS Code**
+
+.. image:: /figuras/fig_mangue/072_mangue_add_vscode.png
+    :alt: add server vs code
+    :align: center
+----
+
+To create a Visual Studio Code is necessary to click on the |icone_adicionar| button and fill in the blanks below:
+
+* **Server VS Code name**: Server VS Code name to be created;
+* **Server VS Code size**: Disk size to be made available for the Visual Studio Code. The size measure is defined on the “Type of Size” blank;
+* **Type of Service**: The user may select the type of service to be attributed to the Visual Studio Code deployment. The available options are: Cluster IP, *NodePort*, Load Balancer and Ingress;
+* **Port**: The user can select the port to be used in the service;
+* **Type of Size**: Specifies the size unit. The available options are: Gi e Mi;
+* **Ingress Class**: In case the type of service selected is Ingress it is necessary to select the Ingress CLass to be used for the service;
+* **Server VS Code URL**: In case the type of service selected is Ingress it is necessary to specify its route path. Example: */vscode*;
+* **Activate authentication**: The user can attribute a password that is necessary to access the server VS Code;
+* **Servier VS Code password**: Password to be used to access the server VS Code.
+
+----
+
+ConfigMap
+=========
+
+
 
 
 
