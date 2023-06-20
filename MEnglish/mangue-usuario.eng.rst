@@ -1640,9 +1640,363 @@ To create a Visual Studio Code is necessary to click on the |icone_adicionar| bu
 ConfigMap
 =========
 
+In a simple way, it is possible to affirm the *ConfigMap* is a set of key-value pairs destined to the configuration storage, that is kept within files that can be consumed through pods. It is very similar to Secrets, but provides a work mode with strings that do not possess confidential data, like: passwords, keys, tokens and other sensitive data.
 
+The *configMap* files, can be both complex files that have few rules, as well as files on JSON format complexes and full of rules.
 
+It is important to highlight that a *configMap* file can contain the complex content of a JSON, the user just needs to fill the content of this file obeying the correct syntax of a JSON.
 
+When selecting this option on the bar slide, the Mangue.io platform presents the following screen which contains a listing of all the *configMaps* registered on the platform.
+
+.. image:: /figuras/fig_mangue/073_mangue_configmaps.png
+    :alt: configMaps
+    :align: center
+----
+
+Below the description of each column of this table:
+
+* **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
+
+When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+
+In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+* **Name**: On this column is presented the *configMap* name added by the user. When clicking with the mouse over the name, the Mangue.io platform presents a screen with the content(s) of the *configMap* file(s). 
+
+By default is presented only the visualization of a line from the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes for a double diagonal arrow |icone_seta_diagonal|. Therefore, allowing the user to redimension the listed content space, and accommodate the size that is adequate for the user, for its better viewing.
+
+.. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
+    :alt: configmaps file
+    :align: center
+----
+
+It is important to highlight that this window does not allow the edition of the listed content.
+
+* **Duration**: On this column is presented the time (in days) since the *configMap* creation moment.
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, it presents two options, as the following figure:
+
+.. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
+    :alt: actions configmaps
+    :align: center
+----
+
+      * **Delete configMap**: When the user selects this option the Mangue.io platform presents the screen below requesting the confirmation of the *configMap* removal option.
+
+.. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
+    :alt: delete Configmap
+    :align: center
+----
+
+.. note:: It is important to highlight that this action is definitive and removes the file from the operating system, not being able to restore it, thus all the references of this **configMap** on the Mangue.io platform are erased. Therefore, it is necessary to recreate the file from the beginning.
+
+      * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
+
+.. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
+    :alt: add configmap
+    :align: center
+----
+
+The following image is a cutout of the elements positioned above the table, there are three different and available actions to the user:
+
+.. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
+    :alt: search update
+    :align: center
+----
+
+* **Search action**: In case the present list on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to perform a search by the *ConfigMaps* desired name. The user just needs to inform part of the name and click ``Enter`` or click over the "Magnifying glass" icon |icone_lupa_verde|. As result of this search only the *ConfigMaps* that contain the key-word will come up on the search.
+* **Update action**: Just click on the  |icone_update| icon for the Mangue.io to update the interface with the most recent values from this *ConfigMaps* table.
+* **Action of adding a ConfigMap**: Just click on the plus sign |icone_adicionar| so the user can register a new *ConfigMaps*. The Mangue.io platform presents the following screen to the user:
+
+.. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
+    :alt: add configmap
+    :align: center
+----
+
+Below the description of the blanks on the screen above:
+
+* **configMap name**: On this blank the user must type the desired *configMap* name, then click over the plus sign icon |icone_adicionar|, which results in the Mangue.io platform adding the blanks below:
+  
+      * **“n” File**: For each time the user clicks on the plus sign |icone_adicionar| the Mangue.io platform adds a gray line with the *configMap* file sequential number. In case the user needs to remove (erase) the file configured on the "Trash bin" icon |icone_lixo_vermelho| just opt for removing the **“n”** file from the *configMap*.
+      * **File name**: On this space the user must inform the file name that is created on the recipient operational system that supports the deployment execution. It is important to remember that this name, and its respective extension, must follow the rules of file naming of the recipient operational system, therefore must contain only ASCII default characters. 
+
+.. attention:: There must not be used the letters with accents (á, é, í, ã, õ, ç, among others), there may be an error on the file creation on the operational system.
+
+      * **File content**: On this blank the user must type the named file content, on the previous blank. This content that must be informed according to the technical necessity and the objective of this *configMap*.
+  
+By default is presented only the visualization of some lines on the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes to a double diagonal arrow |icone_seta_diagonal|. Therefore, allowing the user to redimension the space of the listed content and, accommodate the size that is adequate to the user, for better viewing this blank.
+
+      * **``Add configMap`` button**: After the user informs the necessary *configMap* file(s), the user must click with the mouse over the button ``Add configMap``, for the Mangue.io platform to perform the creation of the referred file(s) on the recipient operating system environment. After this action over this button the platform closes this window and returns to the screen where the *configMap* list is presentes.
+
+====
+
+Cluster Events
+===============
+
+Through this menu option, the Mangue.io platform presents all the events that occurred on the cluster and namespace selected on the gear tab |icone_engrenagem| "Configuration Selection". For each selection of contract/cluster/namespace the events list is automatically updated. 
+
+.. image:: /figuras/fig_mangue/080_mangue_cluster_events.png
+    :alt: cluster events
+    :align: center
+----
+
+Below the content description of each column presented on the list:
+
+* **#**: Event's sequential number on the presented list;
+* **Name**: Event name the Mangue.io platforms generated for the deployment;
+* **Type of event**: 
+
+    Describes the type of event occurred, and can be listed the following types of events:
+
+      * Normal;
+
+      * Warning.
+  
+* **Type of object**: Describes which configured object on the Mangue.io platform originated the listed event. The identification of the type of object, allows the user to identify this origin so it can have access to the object and act on the event resolution. It can be through the object redefinition, or opt for its removal. The types of object can be some of the listed below:
+  
+      * Deployments;
+
+      * *Daemonsets*;
+  
+      * Horizontal Autoscaler;
+  
+      * Pods;
+
+      * *Statefulsets*;
+  
+      * Updates;
+  
+      * Services;
+  
+      * Ingress;
+  
+      * *StorageClass*;
+  
+      * *PersistentVolumes*;
+
+      * *PersistentVolumesClaim*.
+  
+* **Object name**: Name of the event resource.
+* **Mensage**: 
+
+      * Pulled;
+
+      * Created;
+
+      * Started;
+  
+      * *NoPods*;
+  
+      * *FailedGetScale*;
+
+      * *ProvisioningFailed*;
+  
+      * *FailedBinding*.
+  
+* **Executed in**: Informs how long ago the event happened.
+
+The following image is a cutout of the elements positioned above the table, there are three actions different and available to the user:
+
+.. image:: /figuras/fig_mangue/081_mangue_pesquisar_evento.png
+    :alt: search event
+    :align: center
+----
+
+* **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired event name. 
+
+They just need to inform part of the name and click ``Enter`` or click on the icon with the "Magnifying glass" |icone_lupa_verde|. 
+
+As a result of this search only comes up the events that contains the searched key-word;
+
+* **Update action**: Just click on the icon |icone_update| so the Mangue.io update the interface with the most recent values of the events table;
+
+====
+
+Cron Jobs, Jobs
+===============
+
+On this menu option, the user can observe two distinct functions of the Mangue.io platform, they are jobs and cron jobs. The user views the list of all jobs and cron jobs, the list presents what is programmed for the contract, cluster and namespace selected on the gears tab |icone_engrenagem| "Configuration Selection". For each contract/cluster/namespace selection the list is automatically updated.
+
+----
+
+A. **Cron Jobs**
+The Cron Jobs are useful to create periodic and recurring tasks (jobs), such as execute backups or send emails. The Cron Jobs can schedule individual tasks for a specific time,  as well as programming a job for when its cluster is probably idle. 
+
+The Mangue.io platform lists all the cron jobs configured in its environment:
+
+.. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
+    :alt: cron jobs
+    :align: center
+---
+
+Below the content description for every column presented on the list:
+
+* **#**: Cron job's sequential number on the presented list;
+* **Name**: Cron job name the Mangue.io platform generates for the deployment;
+* **Schedule**: Shows the schedule configuration (date and time) programmed for executing this cron job;
+* **Duration**: Presents the cron job duration time;
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, displays the option to delete CronJob as shown in the following picture:
+
+.. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
+    :alt: delete cron job
+    :align: center
+----
+
+B. **Jobs**
+
+A job creates one or more pods and guarantees that one of their specific numbers is closed with triumph. As the pods are successfully concluded, the job tracks the well successful conclusions. When a specified number of well successful conclusions is reached, the task (that is, Job) is concluded. Excluding a job cleans all the created pods.
+
+The user can also configure a job for it to be executed, in parallel, in various pods.
+
+.. image:: /figuras/fig_mangue/084_mangue_jobs.png
+    :alt: jobs
+    :align: center
+----
+
+Below the content description of each column presented on the list:
+
+* **Name**: Job name the Mangue.io platform generates for the deployment;
+* **Status**: This column presents three possible values, “COMPLETED”, “IN PROGRESS” AND “FAILED”:
+
+      * **COMPLETED**:  Job executed with success;
+  
+      * **IN PROGRESS**: Job being executed;
+
+      * **FAILED**: Job failed on the execution.
+
+* **Parallelism**: Number of pods for parallel execution;
+* **Conclusions**: Well successful conclusions;.
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, it displays the option to delete the job, as shown in the figure:
+
+.. image:: /figuras/fig_mangue/085_mangue_deletar_job.png
+    :alt: delete job
+    :align: center
+----
+
+Invoicing
+=========
+
+This Mangue.io platform option is a great ally to the companie's Financial Governance. Few tools available on the market currently present the computing infrastructure consumption in real values, to support a serverless environment based in containers (Kubernetes).
+
+The term serverless may take a false notion that this environment does not generate computing infrastructure costs, but any software application always needs a computing resource (CPU, memory, disk, operating system - OS).
+
+For this software to be executed each item loads its cost of use, storage licensing (OS and softwares) and must be calculated day to day, for it to meet the criteria and policies of the Cost Governance and Financial Governance.
+
+The Mangue.io platform has a database that accumulated month-to-month infrastructure consumption values, since the moment of its installation. This database is calculated day-to-day and accumulated the consumption values, according to the formula calculation presented on the topic "Cluster Consumption Value Calculation".
+By selecting this menu option the Mangue.io platform presents the following screen:
+
+.. image:: /figuras/fig_mangue/086_mangue_faturamento_cluster.png
+    :alt: cluster Invoicing
+    :align: center
+----
+
+The Mangue.io platform presents the cluster and namespace values selected on the gears tab |icone_engrenagem| "Configuration Selection". For each selection of a new contract/cluster/namespace the values and graphs are automatically updated.
+
+This screen is divided in two different sections, next is the detailing of each section.
+
+----
+
+Consolidated Report
+--------------------
+
+This screen presents information about the monthly consumption of clusters, the user can view the price of each cluster on the pie graph present on the image below. As well as it is possible to view the consumption per user, this only occurs when the deployment is created through the Mangue.io, once it is stored on the deployment the responsible user information for its creation.
+
+.. image:: /figuras/fig_mangue/087_mangue_overview_financeiro.png
+    :alt: invoicing overview
+    :align: center
+----
+
+By selecting a cluster the information on the screen is reloaded according to the selected cluster, this includes both the graphs that inform the price per cluster and user, as well as the table with details about the application costs.
+
+By default the consult is done considering all the cluster namespaces, but the user can filter by a specific namespace clicking on ``Select a namespace`` the information on the screen are reloaded as it is on the previous item, distinguishing for returning only the selected namespace values.
+
+Still on this screen is possible to visualize a details list about the application costs, as can be seen on the image below:
+
+.. image:: /figuras/fig_mangue/088_mangue_lista_aplicacoes.png
+    :alt: application list
+    :align: center
+----
+
+* **Name**: This column presents the deployment name, reminding that for the deployment to appear here it needs to be in a cluster with the “ticket” enabled;
+* **User**: This column presents the user responsible for the application creation;.
+* **Namespace**: This column presents the namespace which the application belongs;
+* **CPU price**: This column presents the cost per application CPU corresponding to the selected month;
+* **Memory price**: This column presents the cost per application Memory corresponding to the selected month;
+* **Total price**: This column presents the sum of CPU and Memory price.
+
+There is still the possibility to export the information corresponding to the table above, in csv format, through the functionality “export to csv” represented by the following button |icone_exportar|, that when clicking the user can download the file right after.
+
+----
+
+History
+--------
+
+The CPU resources and cluster memory consumption is presented in a graph format named as “Cluster Invoicing History”, as the following image:
+ 
+.. image:: /figuras/fig_mangue/089_mangue_historico_faturamento.png
+    :alt: invoicing History
+    :align: center
+----
+
+A. **Monthly Cluster Invoicing History** 
+
+This section presents a graph with the evolution of CPU and cluster Memory resource consumption value, to support and execute all the Workloads contents (Deployments, *Statefulsets*, Horizontal Autoscaler, Pods, *Statefulsets*). 
+
+The user may select the period which they desire to visualize the values, just needing to select the month and year presented right above the graph:
+
+.. image:: /figuras/fig_mangue/090_mangue_mes_ano.png
+    :alt: month and year
+    :align: center
+----
+
+By clicking on the calendar icon, the Mangue.io platform presents an annual selection screen, where the user may choose which year they wish to view:
+
+.. image:: /figuras/fig_mangue/091_mangue_ano.png
+    :alt: year
+    :align: center
+----
+
+As soon as the calendar is clicked, it is possible to select the desired year on the Mangue.io platform, according to the image of the screen above. Next, the user may select the month they wish to visualize and its accumulated values:
+
+.. image:: /figuras/fig_mangue/092_mangue_mes.png
+    :alt: month
+    :align: center
+----
+
+As soon as the user selects the month, the Mangue.io platform indicates the process of search and value calculation of month and year selected. This process may take a few seconds and the user may follow this process evolution, monitoring a “black line” that appears from the left to the right on the top of the internet browser area.
+
+The minute the line fills in at the top of the browser area, the Mangue.io platform updates the graph of the screen with daily values of the month and year selected.
+
+It is important to mention the daily values presented reflect until the current day, in other words, if the user desires to consult the month values, and current month is found (for example) on the first fortnight, the graph represents only from the first until the 15th day of the current month. 
+
+This graph represents an evolution line of the computing infrastructure consumption value and can be comprehended as a mathematical progression. In other words, is the consumption value of the previous day added to the current day consumption and, then, successively. 
+
+For each beginning of the month, the value is “zeroed” starting a new calculation cycle of the computing infrastructure for the month period, until the current day. This way, the value of the first day of the month can not be presented immediately, because the Mangue.io platform needs to compute the value of the day after 24 hours of the first day - the value of the current day is presented after 24 hours.
+
+The graph line may present “peaks” and “valleys” due to several factors, therefore must be taken into consideration the environment in its totality. Consumption increase can be recurring with the launch of Horizontal Autoscalers, Migrations, Updates, Cron Jobs creation of new applications, deployment among others.
+
+All the situations listed above are potential causes of computing infrastructure consumption increase and the evolution due to total values of this graph.
+
+----
+
+B. **Cluster Invoicing History**
+
+This graph presents the month-to-month accumulated consumption of the last four (04) months of the period the user is found.
+
+.. image:: /figuras/fig_mangue/093_mangue_historico_cluster.png
+    :alt: cluster invoicing History
+    :align: center
+----
+
+On the figure above, can be seen the example of how the Mangue.io platform presents the cluster infrastructure consumption values. This graph exhibits the last four months of consumption.
+
+The current month's accumulated value represents the consumption of the first day of the month until the consult day; this way, in case the current day is the first week of the month, the accumulated value represents the week's consumption.
+
+It is important to mention, the Mangue.io platform ZEROES all the values of the month on the first day of each month. And starts the sum (mathematical progression) until the last day of the month (day 30 or 31 - except the month of February).
+
+On the vertical axis, are presented the maximum rounded value for the next value above the maximum, in a period. For the user to identify the correct value, just position the mouse pointer over the bar of the desired month, for the Mangue.io platform may present the detailed value of the month in which the mouse cursor is positioned. 
+
+----
+
+C. **By Tags**
 
 
 
