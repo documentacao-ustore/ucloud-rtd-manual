@@ -1660,6 +1660,7 @@ Below the description of each column of this table:
 When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
 In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+
 * **Name**: On this column is presented the *configMap* name added by the user. When clicking with the mouse over the name, the Mangue.io platform presents a screen with the content(s) of the *configMap* file(s). 
 
 By default is presented only the visualization of a line from the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes for a double diagonal arrow |icone_seta_diagonal|. Therefore, allowing the user to redimension the listed content space, and accommodate the size that is adequate for the user, for its better viewing.
@@ -1686,7 +1687,9 @@ It is important to highlight that this window does not allow the edition of the 
     :align: center
 ----
 
+
 .. note:: It is important to highlight that this action is definitive and removes the file from the operating system, not being able to restore it, thus all the references of this **configMap** on the Mangue.io platform are erased. Therefore, it is necessary to recreate the file from the beginning.
+
 
       * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
 
@@ -1718,13 +1721,15 @@ Below the description of the blanks on the screen above:
       * **“n” File**: For each time the user clicks on the plus sign |icone_adicionar| the Mangue.io platform adds a gray line with the *configMap* file sequential number. In case the user needs to remove (erase) the file configured on the "Trash bin" icon |icone_lixo_vermelho| just opt for removing the **“n”** file from the *configMap*.
       * **File name**: On this space the user must inform the file name that is created on the recipient operational system that supports the deployment execution. It is important to remember that this name, and its respective extension, must follow the rules of file naming of the recipient operational system, therefore must contain only ASCII default characters. 
 
+
 .. attention:: There must not be used the letters with accents (á, é, í, ã, õ, ç, among others), there may be an error on the file creation on the operational system.
+
 
       * **File content**: On this blank the user must type the named file content, on the previous blank. This content that must be informed according to the technical necessity and the objective of this *configMap*.
   
 By default is presented only the visualization of some lines on the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes to a double diagonal arrow |icone_seta_diagonal|. Therefore, allowing the user to redimension the space of the listed content and, accommodate the size that is adequate to the user, for better viewing this blank.
 
-      * **``Add configMap`` button**: After the user informs the necessary *configMap* file(s), the user must click with the mouse over the button ``Add configMap``, for the Mangue.io platform to perform the creation of the referred file(s) on the recipient operating system environment. After this action over this button the platform closes this window and returns to the screen where the *configMap* list is presentes.
+      * ``Add configMap`` **button**: After the user informs the necessary *configMap* file(s), the user must click with the mouse over the button ``Add configMap``, for the Mangue.io platform to perform the creation of the referred file(s) on the recipient operating system environment. After this action over this button the platform closes this window and returns to the screen where the *configMap* list is presentes.
 
 ====
 
@@ -1818,6 +1823,7 @@ On this menu option, the user can observe two distinct functions of the Mangue.i
 ----
 
 A. **Cron Jobs**
+
 The Cron Jobs are useful to create periodic and recurring tasks (jobs), such as execute backups or send emails. The Cron Jobs can schedule individual tasks for a specific time,  as well as programming a job for when its cluster is probably idle. 
 
 The Mangue.io platform lists all the cron jobs configured in its environment:
@@ -1825,7 +1831,7 @@ The Mangue.io platform lists all the cron jobs configured in its environment:
 .. image:: /figuras/fig_mangue/082_mangue_cronjobs.png
     :alt: cron jobs
     :align: center
----
+----
 
 Below the content description for every column presented on the list:
 
@@ -1998,11 +2004,209 @@ On the vertical axis, are presented the maximum rounded value for the next value
 
 C. **By Tags**
 
+The Mangue.io platform allows the Kubernetes application to have Tags, composed by a set of key and value, with the objective to group similar applications and the objective of viewing their invoicing. 
+
+The Tags can be created or associated with an application during the creation process of an application, according to the demonstration on the "New Application" section on Catalog, or in an already existing application, demonstrated on the "Change Tags" section in Deployments. 
+
+The Invoicing by Tags screen is separated in two sections: 
+
+* Monthly invoicing by tags history;
+* Tags details.
+
+.. image:: /figuras/fig_mangue/94_mangue_historico_tags.png
+    :alt: tags history
+    :align: center
+----
+
+On the Monthly Invoicing by Tags History section, the user must first select a Cluster, so the platform can load the Cluster Tags. After that, the user may select the desired invoicing period and the Tags to be exhibited in graph and on the Tags Details section.
+
+.. image:: /figuras/fig_mangue/95_mangue_detalhes_tag.png
+    :alt: tags details
+    :align: center
+----
+
+On the Tags Details section, is exhibited a list with all of them or only the selected Tags on the Monthly Invoicing by Tags History section. On the Tag detailing, is presented a list of applications with Tag and a graph with the Tag invoicing in the last 30 days.
+
+The user can exclude a Tag clicking on the |icone_lata_lixo_preta| button, on the Tag detailing.
+
+----
+
+D. **Alerts** 
+
+Through alerts, it is possible for the user to be notified when reaching the established budget for a deployment or set of deployments, when grouped in tags. Besides being able to configure the actions that must be executed when the budget for these resources is achieved. This makes it possible for the user to have more control over the cost of each service. 
+
+As viewed on the following images, a card displays "Alerts" and the other "Webhooks", the details of each one of them are described on the sequence:
+
+.. image:: /figuras/fig_mangue/96_mangue_alertas_webhooks.png
+    :alt: alert webhooks
+    :align: center
+----
+
+* **Alerts**: Shows an alert list, with the following columns:
+
+      * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|.
+  
+When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+
+In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+      * **Name**: This column presents the alert name defined on its creation moment. When selecting this blank is presented the information screen about the alert, on it the user can visualize a progress bar, actions and webhooks selected in the creation moment. As can be seen on the image below:
+
+.. image:: /figuras/fig_mangue/97_mangue_alert.png
+    :alt: alert
+    :align: center
+----
+
+      * **Progress bar**: Corresponds to the current value of the deployments associated with the alert, having as 100% the alert budget value;
+  
+      * **Actions**: Action executed in the moment in which the deployments associated to an alert reach the budget price;
+  
+      * **Webhooks**: Webhook executed in the moment in which the deployments associated to an alert reach the budget price;
+  
+      * **Application**: This column presents the deployment or set of deployments selected for the corresponding alert in the moment of the alert creation;
+  
+      * **Status**: This column presents two possible values, “DONE” and “PENDING”:
+  
+          * **DONE**: Indicates the alert has already reached the budget price and that was executed, shooting the webhooks and configured actions;
+
+          * **PENDING**:Indicates the alert was not executed;
+
+      * **Date**: This column presents the creation date of the alert;
+  
+      * **Alert quota**: This column presents the budget price defined for the alert;
+
+      * **Actions**: This column presents the action button |icone_acao| when clicked, it presents a single option to delete the alert.
+	
+.. image:: /figuras/fig_mangue/98_mangue_deletar_alerta.png
+    :alt: delete alert
+    :align: center
+----
+	
+          * **Delete Alert**: When the user selects this action the Mangue.io platform requires a confirmation from the user to remove (erase) the desired alert from the platform database:
 
 
+.. image:: /figuras/fig_mangue/99_mangue_aviso_deletar.png
+    :alt: warning delete
+    :align: center
+----
 
+On this alert sections it is possible to visualize the add alert icon, as the following example |icone_adicionar|, by clicking on the button is presented a form with blanks for the user that enable the creation of an alert, following a flow of three steps, details, webhooks and actions:
 
+* **Details**: On this step is required information about the alert specifically: 
 
+      * **Name**: Blank corresponding to the alert name;
+  
+      * **Description**: Blank corresponding to the alert description;
+  
+      * **Type**: There are two possible values for the type, by Tag to select a set of deployments, and by Deployment to select only one deployment. By selecting a tag or deployment occurs a search of the total cost value corresponding to the deployment or selected tag, this value is presented on the Current Cost blank presented on the screen;
+  
+      * **Deadline**: This blank may be defined a deadline for the alert execution, the alerts with the pending status are not executed after the deadline established for the alert;
+  
+      * **Budget**: On this blank may be informed the alert budget price, when the total cost of the selected deployments sum reaches the value informed the alert is executed. 
+  
+
+.. attention:: The Budget Value needs to be bigger than the Current Cost value.
+
+.. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
+    :alt: details modal
+    :align: center
+----
+
+* **Webhook**: On this step there is a list of webhooks, the user can select none or several. When selecting a webhook it is listed below for the user to inform the type of return executed, being able to choose between HTTP or e-mail. 
+
+.. image:: /figuras/fig_mangue/101_mangue_alerta_webhook.png
+    :alt: webhook modal
+    :align: center
+----
+
+* **Actions**: On this step it is possible to select an action to be executed in the moment of alert execution, there are three values the user can select for action, as the example on the image below:
+
+.. image:: /figuras/fig_mangue/102_mangue_alerta_acoes.png
+    :alt: alert actions
+    :align: center
+----
+
+      * **Application Escalation**: This action allows the user to configure the switch of quantity of replicas in execution of the selected application. The moment in which the alert is executed, makes it possible to decrease/increase the quantity of instances of an application, in an aligned way to the current cost of the same application. Example on the following image:
+
+.. image:: /figuras/fig_mangue/103_mangue_escalonamento_aplicacao.png
+    :alt: application Escalation
+    :align: center
+----
+
+      * **Change Request and Limits**: This action allows the user to change the request and limit of the selected applications, by the moment in which the alert is executed. Example on the following image:
+
+.. image:: /figuras/fig_mangue/104_mangue_alterar_request_limit.png
+    :alt: change request limit
+    :align: center
+----
+
+      * **Stop Application**: It is also possible to stop the selected application, by the moment in which the alert is executed. For that, it is necessary to click on ``Confirm application stop``.
+
+.. image:: /figuras/fig_mangue/105_mangue_parar_aplicacao.png
+    :alt: stop application
+    :align: center
+----
+
+.. note:: At least one webhook or one action must be informed to enable the alert creation.
+
+* **Webhooks**: The webhook is a form of sending information to some recipient when an event happens, in this case when the deployments related to the alert reach the budget price defined on the alert creation, the Webhook shoots the information. The Mangue.io provides two forms of sending information: through the HTTP protocol, and/or through the email.
+
+.. image:: /figuras/fig_mangue/106_mangue_webhooks.png
+    :alt: webhooks
+    :align: center
+----
+
+      * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
+  
+When the user choses a line or several, the Mangue.io platform presents an icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+
+In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+
+      * **Name**: This column presents the webhook name defined in the creation moment;
+
+      * **Method**: This column presents the HTTP method selected in the webhook creation moment, there may be the following values: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”;
+  
+      * **Url**: This column presents the recipient url to send the message;
+  
+      * **Body**:This column presents the HTTP requisition body;
+
+      * **Email**: This column presents the recipient email to send the message to the corresponding webhook;
+
+      * **Alerts**: This column presents an alerts list that are related to the corresponding webhook;
+
+      * **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, it presents the following options:
+
+.. image:: /figuras/fig_mangue/107_mangue_acoes_webhook.png
+    :alt: actions webhook
+    :align: center
+----
+
+          * **Delete Webhook**: When the user selects this action the Mangue.io platform requires confirmation from the user to remove (erase) the desired alert from the database: 
+
+.. image:: /figuras/fig_mangue/108_mangue_deletar_webhook.png
+    :alt: delete webhook
+    :align: center
+----
+
+          * **Edit Webhook**: When the user selects this action the Mangue.io platform presents the form present on the image below with the webhook information, for the user to edit.
+
+.. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
+    :alt: edit webhook
+    :align: center
+----
+
+* **Name**: On this blank must be informed the webhook name;
+* **Method**: On this blank may be informed the HTTP requisition method;
+* **URL**: On this blank may be informed the HTTP requisition url;
+* **Body**: On this blank may be informed the HTTP requisition body;
+* **Email**: On this blank may be informed the email to send messages;.
+* **Menssage**:  On this blank may be informed the message that is sent to the email informed on the previous blank.
+
+On this webhook section it is possible to visualize the add webhook icon, as the following example |icone_adicionar|, by clicking on the button a form is presented to add a webhook, it is exactly the same as the form presented to edit webhook.
+
+====
+
+Recommendations
+===============
 
 
 
@@ -2041,3 +2245,18 @@ C. **By Tags**
 .. |icone_lupa_verde| image:: /figuras/fig_mangue/icone_lupa_verde.png
 
 .. |icone_update| image:: /figuras/fig_mangue/icone_update.png
+
+.. |icone_seta_diagonal| image:: /figuras/fig_mangue/icone_seta_diagonal.png
+
+.. |icone_exibir| image:: /figuras/fig_mangue/icone_exibir.png
+
+.. |icone_exportar| image:: /figuras/fig_mangue/icone_exportar.png
+
+.. |icone_load_balancer| image:: /figuras/fig_mangue/icone_loadbalancer.png
+
+.. |icone_rotulo| image:: /figuras/fig_mangue/icone_rotulo.png
+
+.. |icone_engrenagem_azul| image:: /figuras/fig_mangue/icone_engrenagem_azul.png
+
+.. |icone_sync| image:: /figuras/fig_mangue/icone_sync.png
+
