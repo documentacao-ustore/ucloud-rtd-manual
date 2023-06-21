@@ -2149,7 +2149,13 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
 =====
 
    * **Alertas**: Exibe uma lista de alertas, com as seguintes colunas:
-     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável ``check mark``. Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+  
+     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+
+Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+
+Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+  
      * **Nome**: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, *actions* e *webhooks* selecionados no momento da criação do alerta. Como pode ser visto na imagem abaixo:
   
 .. image:: /figuras/fig_mangue/097_mangue_alert.png
@@ -2163,8 +2169,11 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
        * **Webhooks**: *Webhook* executado no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
      * **Aplicação**: Esta coluna apresenta o *deployment* ou conjunto de *deployments* selecionados para o alerta correspondente no momento de criação do alerta.
      * **Status**: Esta coluna apresenta dois valores possíveis, “DONE” e “PENDING”:
+
        * **DONE**: Indica que o alerta já atingiu o preço do orçamento e que foi executado, disparando os *webhooks* e *actions* configurados.
+
        * **PENDING**: Indica que o alerta não foi executado.
+  
    * **Data**: Esta coluna apresenta a data de criação do alerta.
    * **Cota Alerta**: Esta coluna apresenta o preço de orçamento definido para o alerta.
    * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| que ao ser clicado, apresenta uma única opção para deletar o alerta:
@@ -2186,12 +2195,14 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
 
 Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, webhook e actions:
 
-* Detalhes: Nesta etapa é solicitado informações voltadas para o alerta especificamente, são solicitadas as seguintes informações:
-* Nome: Campo correspondente ao nome do alerta
-* Descrição: Campo correspondente à descrição do alerta
-* Tipo: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
-* Prazo: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
-* Orçamento: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. O Valor de Orçamento precisa ser maior que o valor de Custo Atual
+* **Detalhes**: Nesta etapa é solicitado informações voltadas para o alerta especificamente, são solicitadas as seguintes informações:
+* **Nome**: Campo correspondente ao nome do alerta
+* **Descrição**: Campo correspondente à descrição do alerta
+* **Tipo**: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
+* **Prazo**: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
+* **Orçamento**: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. 
+
+.. warning:: O Valor de Orçamento precisa ser maior que o valor de Custo Atual
 
 .. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
     :alt: Alerta detalhes 
@@ -2199,7 +2210,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* Webhook: Nesta etapa há uma lista de webhooks, o usuário poderá selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
+* **Webhook**: Nesta etapa há uma lista de webhooks, o usuário pode selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
 
 .. image:: /figuras/fig_mangue/101_mangue_alerta_webhook.png
     :alt: Alerta webhook 
@@ -2207,7 +2218,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====  
 
-* Ações: Nesta etapa é possível selecionar uma ação para ser executada no momento de execução do alerta, existem três valores que o usuário poderá selecionar para ação, como no exemplo da imagem abaixo:
+* **Ações**: Nesta etapa é possível selecionar uma ação para ser executada no momento de execução do alerta, existem três valores que o usuário pode selecionar para ação, como no exemplo da imagem abaixo:
 
 .. image:: /figuras/fig_mangue/102_mangue_alerta_acoes.png
     :alt: Alerta ações 
@@ -2215,7 +2226,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* Escalonamento da Aplicação: Esta ação permite que o usuário configure a troca da quantidade de réplicas em execução das aplicações selecionadas. No momento em que o alerta for executado, possibilita reduzir/aumentar a quantidade de instâncias de uma aplicação, de forma alinhada ao custo atual da mesma aplicação. Exemplo na imagem a seguir:
+* **Escalonamento da Aplicação**: Esta ação permite que o usuário configure a troca da quantidade de réplicas em execução das aplicações selecionadas. No momento em que o alerta for executado, possibilita reduzir/aumentar a quantidade de instâncias de uma aplicação, de forma alinhada ao custo atual da mesma aplicação. Exemplo na imagem a seguir:
   
 .. image:: /figuras/fig_mangue/103_mangue_escalonamento_aplicacao.png
     :alt: Escalonamento aplicação 
@@ -2223,7 +2234,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* Alterar Request e Limits: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
+* **Alterar Request e Limits**: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
 
 .. image:: /figuras/fig_mangue/104_mangue_alterar_request_limit.png
     :alt: Alterar request limit 
@@ -2231,7 +2242,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* Parar Aplicação: Também é possível parar as aplicações selecionadas, a partir do momento em que o alerta for executado. Para isso, é necessário clicar em “Confirmar parada da aplicação”.
+* **Parar Aplicação**: Também é possível parar as aplicações selecionadas, a partir do momento em que o alerta for executado. Para isso, é necessário clicar em “Confirmar parada da aplicação”.
   
 .. image:: /figuras/fig_mangue/105_mangue_parar_aplicacao.png
     :alt: Parar aplicação 
@@ -2242,7 +2253,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 
 Lembrar que ao menos um webhook ou uma ação deve ser informada para possibilitar a criação do alerta.
 
-* Webhooks: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
+* **Webhooks**: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
 
 Um webhook pode conter as duas formas de retorno, no entanto no momento de criar um alerta e associar ao webhook existente é necessário escolher uma das formas (HTTP ou Email) para envio de informações no momento de execução do alerta
 
@@ -2252,14 +2263,17 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
 
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-* Nome: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
-* Método: Esta coluna apresenta o método HTTP selecionado no momento de criação do webhook, podendo haver os seguintes valores: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”.
-* Url: Esta coluna apresenta url de destino para envio da mensagem.
-* Body:Esta coluna apresenta o corpo da requisição HTTP
-* Email: Esta coluna apresenta o email de destino para envio de mensagem por email.
-* Alertas: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as opções abaixo:
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
+  
+Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone da "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+
+* **Nome**: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
+* **Método**: Esta coluna apresenta o método HTTP selecionado no momento de criação do webhook, podendo haver os seguintes valores: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”.
+* **Url**: Esta coluna apresenta url de destino para envio da mensagem.
+* **Body**:Esta coluna apresenta o corpo da requisição HTTP
+* **Email**: Esta coluna apresenta o email de destino para envio de mensagem por email.
+* **Alertas**: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado, apresenta as opções abaixo:
   
 .. image:: /figuras/fig_mangue/107_mangue_acoes_webhook.png
     :alt: 
@@ -2267,7 +2281,7 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
         
-* Deletar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+* **Deletar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
 
 .. image:: /figuras/fig_mangue/108_mangue_deletar_webhook.png
     :alt: Deletar webhook 
@@ -2275,7 +2289,7 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
 
-* Editar Webhook: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
+* **Editar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
 
 .. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
     :alt: Editar webhook 
@@ -2283,12 +2297,12 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
     :align: center
 =====
 
-* Nome: Neste campo deve ser informado o nome do webhook
-* Método: Neste campo pode ser informado o método para requisição HTTP
-* URL: Neste campo pode ser informado a url para requisição HTTP
-* Body: Neste campo pode ser informado o body para requisição HTTP
-* Email: Neste campo pode ser informado o email para envio de mensagens.
-* Mensagem:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
+* **Nome**: Neste campo deve ser informado o nome do webhook
+* **Método**: Neste campo pode ser informado o método para requisição HTTP
+* **URL**: Neste campo pode ser informado a url para requisição HTTP
+* **Body**: Neste campo pode ser informado o body para requisição HTTP
+* **Email**: Neste campo pode ser informado o email para envio de mensagens.
+* **Mensagem**:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
 
 
 Nesta seção de webhooks é possível visualizar o ícone de adicionar webhook, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para adicionar o webhook, é exatamente igual ao formulário apresentado para editar webhook.
