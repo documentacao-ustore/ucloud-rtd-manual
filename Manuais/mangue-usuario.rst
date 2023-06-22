@@ -2211,10 +2211,15 @@ Conforme visualizado nas seguintes imagens, um card exibe "Alertas" e o outro "*
 Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte  |icone_adicionar|, ao clicar no botão é apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, *webhook* e *actions*:
 
    * **Detalhes**: Nesta etapa são solicitadas informações voltadas para o alerta especificamente:
+
      * **Nome**: Campo correspondente ao nome do alerta;
+
      * **Descrição**: Campo correspondente à descrição do alerta;
+
      * **Tipo**: Existem dois valores possíveis para o tipo, por *tag* para selecionar um conjunto de *deployments*, e por *Deployment* para selecionar apenas um *deployment*. Ao selecionar a *tag* ou *deployment* ocorre uma busca do valor de custo total correspondente ao *deployment* ou *tag* selecionada, esse valor é apresentado no campo de "Custo Atual" presente na tela;
+
      * **Prazo**: Neste campo pode ser definido um prazo para execução do alerta; os alertas com status *pending* não são executados após o prazo estabelecido para o alerta;
+
      * **Orçamento**: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos *deployments* selecionados atingir o valor informado o alerta é executado. 
      
 
@@ -2227,7 +2232,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* **Webhook**: Nesta etapa há uma lista de webhooks, o usuário pode selecionar nenhum ou vários webhooks. Ao selecionar um webhook ele será listado abaixo para que o usuário informe o tipo de retorno que será executado, podendo escolher HTTP ou E-mail.
+* **Webhook**: Nesta etapa há uma lista de *webhooks*, o usuário pode selecionar nenhum ou vários. Ao selecionar um *webhook* ele é listado abaixo para que o usuário informe o tipo de retorno executado, podendo escolher HTTP ou E-mail.
 
 .. image:: /figuras/fig_mangue/101_mangue_alerta_webhook.png
     :alt: Alerta webhook 
@@ -2251,7 +2256,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* **Alterar Request e Limits**: Esta ação permite que o usuário altere o request e limite das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
+* **Alterar Request e Limits**: Esta ação permite que o usuário altere o *request* e *limit* das aplicações selecionadas, a partir do momento em que o alerta for executado. Exemplo na imagem a seguir:
 
 .. image:: /figuras/fig_mangue/104_mangue_alterar_request_limit.png
     :alt: Alterar request limit 
@@ -2268,11 +2273,10 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 =====
 
 
-Lembrar que ao menos um webhook ou uma ação deve ser informada para possibilitar a criação do alerta.
+Lembrar que ao menos um *webhook* ou uma ação deve ser informada para possibilitar a criação do alerta.
 
-* **Webhooks**: O webhook é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os deployments relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o Webhook dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
+* **Webhooks**: O *webhook* é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os *deployments* relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o *Webhook* dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de Email.
 
-Um webhook pode conter as duas formas de retorno, no entanto no momento de criar um alerta e associar ao webhook existente é necessário escolher uma das formas (HTTP ou Email) para envio de informações no momento de execução do alerta
 
 .. image:: /figuras/fig_mangue/106_mangue_webhooks.png
     :alt: Webhoooks 
@@ -2282,23 +2286,30 @@ Um webhook pode conter as duas formas de retorno, no entanto no momento de criar
 
 * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
   
-Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone da "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone da "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
-* **Nome**: Esta coluna apresenta o nome do webhook definido no momento de criação dele.
-* **Método**: Esta coluna apresenta o método HTTP selecionado no momento de criação do webhook, podendo haver os seguintes valores: “GET”, “POST”, “PUT”, “DELETE”, “PATCH”.
-* **Url**: Esta coluna apresenta url de destino para envio da mensagem.
-* **Body**:Esta coluna apresenta o corpo da requisição HTTP
-* **Email**: Esta coluna apresenta o email de destino para envio de mensagem por email.
-* **Alertas**: Esta coluna apresenta uma lista de alertas que estão relacionados ao webhook correspondente
-* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| que ao ser clicado, apresenta as opções abaixo:
-  
+* **Nome**: Esta coluna exibe o nome do *webhook* definido no momento de criação;
+
+* **Método**: Esta coluna indica o método HTTP selecionado no momento de criação do *webhook*, podendo haver os seguintes valores: “*GET*”, “*POST*”, “*PUT*”, “*DELETE*”, “*PATCH*”;
+
+* **Url**: Esta coluna apresenta url de destino para envio da mensagem;
+
+* **Body**:Esta coluna exibe o corpo da requisição HTTP;
+
+* **E-mail**: Esta coluna indica o e-mail de destino para envio de mensagem por e-mail;
+
+* **Alertas**: Esta coluna apresenta uma lista de alertas que estão relacionados ao *webhook* correspondente;
+
+* **Ações**: Esta coluna mostra o botão ``Ação`` |icone_acao| ao ser clicado, apresenta as seguintes opções:
+
+
 .. image:: /figuras/fig_mangue/107_mangue_acoes_webhook.png
     :alt: 
     :scale: 80 %
     :align: center
 =====
         
-* **Deletar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+* **Deletar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados:
 
 .. image:: /figuras/fig_mangue/108_mangue_deletar_webhook.png
     :alt: Deletar webhook 
@@ -2306,7 +2317,7 @@ Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io aprese
     :align: center
 =====
 
-* **Editar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
+* **Editar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do *webhook*, para que o usuário possa editar.
 
 .. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
     :alt: Editar webhook 
@@ -2314,15 +2325,22 @@ Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io aprese
     :align: center
 =====
 
-* **Nome**: Neste campo deve ser informado o nome do webhook
-* **Método**: Neste campo pode ser informado o método para requisição HTTP
-* **URL**: Neste campo pode ser informado a url para requisição HTTP
-* **Body**: Neste campo pode ser informado o body para requisição HTTP
-* **Email**: Neste campo pode ser informado o email para envio de mensagens.
-* **Mensagem**:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
+* **Nome**: O nome do *webhook* deve ser informado;
+
+* **Método**: Indica o método para requisição HTTP;
+
+* **URL**: Informa a url para requisição HTTP;
+
+* **Body**: Comunica o *body* para requisição HTTP;
+
+* **E-mail**: Indica o e-mail para envio de mensagens;
+
+* **Mensagem**: Neste campo indicar a mensagem que é enviada para o e-mail informado no campo anterior.
 
 
-Nesta seção de webhooks é possível visualizar o ícone de adicionar webhook, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para adicionar o webhook, é exatamente igual ao formulário apresentado para editar webhook.
+Nesta seção de *webhooks* é possível visualizar o ícone de adicionar, como no exemplo seguinte |icone_adicionar| 
+
+.. note:: O formulário de adição do *webhook*, é o mesmo apresentado para editar *webhook*.
 
 
 
