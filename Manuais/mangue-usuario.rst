@@ -287,6 +287,7 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 
 A. **Adicionar Persistent Volume Claim**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Aplicações que são executadas em containers guardam seus dados em memória, e os containers e *pods* que são executados pelo *Kubernetes* podem eventualmente morrer, o que impacta na perda dos dados guardados em memória. Caso um usuário tenha informações sensíveis para persistir, tais como volumes de banco de dados, deve-se criar um *PersistentVolumeClaim*.
 
@@ -342,6 +343,7 @@ Para confirmar todos os valores e opções informados, basta o usuário clicar c
 ====
 
 B. **Adicionar Serviço**
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 A segunda opção deste submenu permite que o usuário possa adicionar um serviço, ao ser clicado abre a seguinte tela de interface modal:
   
@@ -380,6 +382,7 @@ Para confirmar todas as opções acima informadas, o usuário deve clicar com o 
 ====
 
 C. **Deletar Deployment**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A terceira opção deste submenu permite que o usuário possa apagar definitivamente um *Deployment* do *cluster* e do *namespace* que foi selecionado na aba **Configurações**; ao ser clicado, abre a seguinte tela de interface modal solicitando a confirmação por parte do usuário:
 
@@ -399,7 +402,7 @@ Basta o usuário clicar sobre o botão ``Deletar`` para confirmar a sua ação e
 ====	
 
 D. **Editar Deployment**
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Algumas informações não são passíveis de edição através dos formulários do Mangue.io. Elementos, como por exemplo: 
 
@@ -420,6 +423,7 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
 =====
       
 E. **Alterar Tags**
+~~~~~~~~~~~~~~~~~~~~
 
 A função desta tela permite ao usuário alterar as *Tags* associadas à aplicação selecionada. A partir dela, é possível criar uma *Tag*, ao clicar no ícone adicionar |icone_adicionar| para ser associada à aplicação. 
 
@@ -437,6 +441,7 @@ A função desta tela permite ao usuário alterar as *Tags* associadas à aplica
 =====
 
 F. **Escalar Deployment**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A função desta tela permite ao usuário informar o número (inteiro) desejado para incrementar o número de réplicas da aplicação (*deployment*), as quais são iniciadas automaticamente após a confirmação com o clique do mouse sobre o botão ``Escalar``.
 
@@ -450,7 +455,7 @@ Importante ressaltar que há um aumento de consumo no uso de CPU e da memória d
 ====
 
 G. **Migrar Deployment**
-
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Na sexta opção do menu de ações do *Deployment*, há a opção migrar o *deployment* entre diferentes *clusters* configurados na plataforma do Mangue.io.
 
@@ -467,7 +472,7 @@ Para efetuar a migração, basta o usuário clicar sobre o botão ``Migrar`` e a
 =====
 
 H. **Modificar Versão**
-
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a imagem "Atualizar Versão de *Deployment*". Por meio deste controle, o usuário pode gerar uma “nova versão” para qualquer *deployment* existente na plataforma do Mangue.io.
 
@@ -487,6 +492,7 @@ Após preencher com a informação desejada, o usuário deve clicar sobre o bot�
 ====
 
 J. **Rollback**
+~~~~~~~~~~~~~~~~
 
 Esta opção permite ao usuário efetuar a ação de reverter a versão do *deployment* para sua versão imediatamente anterior à existente na plataforma do Mangue.io.
 
@@ -513,6 +519,7 @@ O usuário pode notar que esta tela possui diversas seções, cada uma descrita 
 
 
 A. **Seção: Deployment Overview**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção exibe três gráficos, sendo dois de desempenho e um de valor:
 
@@ -532,7 +539,7 @@ Também são exibidos botões de interação para o usuário, eles podem especif
 
 
 B. **Seção: ReplicaSet**
-
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 A seção **Replicaset** mostra uma tabela que lista todos os *replicasets* presentes para um *deployment*, nesta lista mostra informações como:
 
@@ -568,6 +575,7 @@ Nesta parte, a plataforma do Mangue.io apresenta as seguintes informações:
 
 
 C. **Seção: PODs**
+~~~~~~~~~~~~~~~~~~
 
 Na seção **Pods** há uma tabela com a listagem de todos os *pods* presentes para o *deployment*, cada um detalha suas informações como: 
 
@@ -655,6 +663,7 @@ Caso o *pod* tenha mais de um container sendo executado existe um *dropdown* que
 =====
 
 D. **Seção: Volumes e Segredos**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção são listados todos os **Volumes** (arquivos que armazenam dados) ou **Segredos** (arquivos, ou definições de autenticação quando necessários), associados ao *deployment* selecionado.
 
@@ -675,6 +684,7 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 =====
 
 E. **Seção: Eventos**
+~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção, são listados todos os eventos atrelados a um *deployment*. Eventos esses que podem ser: por alteração na quantidade de *Pods*/Réplicas, mudança na versão dos containers do *deployment* ou qualquer outra mudança no estado deste.
   
@@ -727,6 +737,7 @@ A plataforma do Mangue.io apresenta as seguintes informações nesta seção:
 
 
 F. **Seção: Autoescalador Horizontal de Pods**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A plataforma do Mangue.io permite que o usuário defina as regras para que a performance do *deployment* seja sempre a melhor possível, e a plataforma do Mangue.io pode aumentar o processamento em paralelo do *deployment*, executar diversas instâncias (réplicas) para garantir que os usuários tenham sempre a melhor experiência de uso possível. 
 
@@ -820,7 +831,7 @@ A opção “Deletar” do menu de Ações do Horizontal *Autoscalers* apresenta
     :align: center
 =====
 
-Ao clicar sobre a opção “Editar”, a plataforma do Mangue.io apresenta a tela abaixo, onde é possível o usuário alterar os valores existentes do Auto Escalador Horizontal. A imagem seguinte "Auto Escalador Horizontal – Criação" apresenta opções sobre como alterar os valores. 
+Ao clicar sobre a opção ``Editar``, a plataforma do Mangue.io apresenta a tela abaixo, onde é possível o usuário alterar os valores existentes do Auto Escalador Horizontal. A imagem seguinte "Auto Escalador Horizontal – Criação" apresenta opções sobre como alterar os valores. 
   
 
 .. image:: /figuras/fig_mangue/039_mangue_criar_autoescalador.png
@@ -836,6 +847,7 @@ Através do menu *Workloads* / Autoescalador Horizontal o usuário pode visualiz
 
 
 G. **Seção: Preço da Aplicação no último mês**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção exibe a tela "Preço da aplicação no último mês", nela são listadas as colunas de moeda, preço por memória, preço por CPU e preço total da aplicação, na sequência cada uma das colunas é detalhada:
 
@@ -910,6 +922,7 @@ Esta seção apresenta todos os *Daemonsets* de um *cluster* em um determinado *
 
 
 **Informações do DaemonSet**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Caso o usuário clique sobre o nome de algum *Daemonsets* presente na lista, a plataforma do Mangue.io exibe a tela com as informações de um *Daemonset*, conforme o exemplo abaixo:
 
@@ -1887,7 +1900,7 @@ Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chav
 
 Nesta opção de menu, o usuário pode observar duas funções distintas da plataforma do Mangue.io, são *jobs* e *cron jobs*. O usuário visualiza a lista de todos os *jobs* e *cronjobs*, a lista apresenta o que está programado para o contrato, *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| "Seleção de Configuração". A cada seleção de contrato/*cluster*/*namespace* a lista é atualizada automaticamente.
 
-A. *Cron Jobs*
+*Cron Jobs*
 -------------
 
 Os *CronJobs* são úteis para criar tarefas (*jobs*) periódicas e recorrentes, como executar *backups* ou enviar e-mails. Os *CronJobs* podem agendar tarefas individuais para um horário específico, como também, programar um trabalho para quando seu *cluster* provavelmente está ocioso.
@@ -1918,7 +1931,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 =====
   
 
-B. *Jobs*
+*Jobs*
 --------
 
 Um *job* cria um ou mais *pods* e garante que um número específico deles seja encerrado com êxito. Conforme os *pods* são concluídos com sucesso, o *job* rastreia as conclusões bem-sucedidas. Quando um número especificado de conclusões bem-sucedidas é alcançado, a tarefa (ou seja, *Job*) está concluída. Excluir um *job* limpa os *pods* criados.
@@ -2289,7 +2302,7 @@ Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io aprese
     :align: center
 =====
 
-* **Editar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do webhook, para que o usuário possa editar.
+* **Editar Webhook**: Quando o usuário seleciona esta ação a plataforma do Mangue.io apresenta o formulário presente na imagem abaixo com as informações do *webhook*, para que o usuário possa editar.
 
 .. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
     :alt: Editar webhook 
@@ -2297,15 +2310,17 @@ Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io aprese
     :align: center
 =====
 
-* **Nome**: Neste campo deve ser informado o nome do webhook
-* **Método**: Neste campo pode ser informado o método para requisição HTTP
-* **URL**: Neste campo pode ser informado a url para requisição HTTP
-* **Body**: Neste campo pode ser informado o body para requisição HTTP
-* **Email**: Neste campo pode ser informado o email para envio de mensagens.
-* **Mensagem**:  Neste campo pode ser informada a mensagem que é enviada para o email informado no campo anterior.
+* **Nome**: O nome do *webhook* deve ser informado
+* **Método**: Indica o método para requisição HTTP
+* **URL**: Informa a url para requisição HTTP
+* **Body**: Comunica o body para requisição HTTP
+* **Email**: Indica o email para envio de mensagens.
+* **Mensagem**:  Expressa a mensagem que é enviada para o email informado no campo anterior.
 
 
-Nesta seção de webhooks é possível visualizar o ícone de adicionar webhook, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para adicionar o webhook, é exatamente igual ao formulário apresentado para editar webhook.
+Nesta seção de *webhooks* é possível visualizar o ícone de adicionar, como no exemplo seguinte |icone_adicionar|.
+
+.. attention:: O formulário de adição de *webhook* é o mesmo apresentado para edição.
 
 
 
@@ -2315,8 +2330,8 @@ Recomendações
 
 A plataforma Mangue.io pode realizar recomendações para otimizar a utilização de CPU e memória das aplicações do Cluster, com o objetivo de evitar desperdício. No Kubernetes realiza a alocação de recursos a uma aplicação utilizando os seguintes conceitos:
 
-* Request: Quantidade mínima de recurso alocado à aplicação. Exemplo: uma aplicação com memory request de 256 MB sempre tem alocada essa quantidade de memória, mesmo se aplicação sempre utilizar apenas 20 MB.
-* Limit: Caso a aplicação precise utilizar mais recursos do que especificado em Request, o Kubernetes tenta alocar mais recursos caso a máquina Nó tenha disponível. É possível limitar a quantidade de recursos que o Kubernetes tenta alocar a aplicação utilizando Limit. Exemplo: uma aplicação com request de 256 MB e limit de 512 MB sempre tem alocada a ela 256 MB, se ela precisar de mais memória ela pode ser alocada até 512 MB e caso isso não seja o suficiente a aplicação fica sem memória, podendo causar lentidão ou instabilidade na aplicação.
+* **Request**: Quantidade mínima de recurso alocado à aplicação. Exemplo: uma aplicação com memory request de 256 MB sempre tem alocada essa quantidade de memória, mesmo se aplicação sempre utilizar apenas 20 MB.
+* **Limit**: Caso a aplicação precise utilizar mais recursos do que especificado em Request, o Kubernetes tenta alocar mais recursos caso a máquina Nó tenha disponível. É possível limitar a quantidade de recursos que o Kubernetes tenta alocar a aplicação utilizando Limit. Exemplo: uma aplicação com request de 256 MB e limit de 512 MB sempre tem alocada a ela 256 MB, se ela precisar de mais memória ela pode ser alocada até 512 MB e caso isso não seja o suficiente a aplicação fica sem memória, podendo causar lentidão ou instabilidade na aplicação.
 
 A plataforma realiza a otimização analisando as métricas históricas de uso de CPU e memória, assim verificando se uma aplicação está com mais recurso alocado que necessário ou com recursos insuficientes para manter a estabilidade.
 
@@ -2324,30 +2339,32 @@ A plataforma realiza a otimização analisando as métricas históricas de uso d
     :alt: Recomendações 
     :scale: 80 %
     :align: center
-=====  
+=====
 
 Na página de recomendações é exibida uma lista com as aplicações no namespace e Cluster atual, e, é possível pesquisar recomendações através do nome da aplicação.
 
 Abaixo descrevemos as informações presentes na tabela de tarefas agendadas.
 
-* #: Número sequencial da recomendação cadastrada na plataforma do Mangue.io.
-* App: Nome da aplicação com a recomendação.
-* CPU Request Atual/Ideal: Indica o valor atual e recomendado de CPU Request. Caso não haja recomendação nessa coluna é exibido “- / -”.
-* CPU Limit Atual/Ideal: Indica o valor atual e recomendado de CPU Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
-* Memory  Request Atual/Ideal: Indica o valor atual e recomendado de Memory Request. Caso não haja recomendação nessa coluna será exibido “- / -”.
-* Memory Limit Atual/Ideal: Indica o valor atual e recomendado de Memory Limit. Caso não haja recomendação nessa coluna será exibido “- / -”.
-* Ações: Esta coluna possui os seguintes elementos: 
-* um botão de “Aplicar”, que ao ser clicado os valores recomendados na aplicação.
-* um botão de ação “  ” que ao ser clicado, apresenta as seguinte opção:
+* **#**: Número sequencial da recomendação cadastrada na plataforma do Mangue.io.
+* **App**: Nome da aplicação com a recomendação.
+* **CPU Request Atual/Ideal**: Indica o valor atual e recomendado de CPU Request. Caso não haja recomendação nessa coluna é exibido “- / -”.
+* **CPU Limit Atual/Ideal**: Indica o valor atual e recomendado de CPU Limit. Caso não haja recomendação nessa coluna é apresentado “- / -”.
+* **Memory  Request Atual/Ideal**: Indica o valor atual e recomendado de Memory Request. Caso não haja recomendação nessa coluna é mostrado “- / -”.
+* **Memory Limit Atual/Ideal**: Indica o valor atual e recomendado de Memory Limit. Caso não haja recomendação nessa coluna é exibido “- / -”.
+* **Ações**: Esta coluna possui os seguintes elementos:
+ 
+      * Botão ``Aplicar``, que ao ser clicado os valores recomendados na aplicação.
+
+      * Botão ``Ação`` |icone_acao| que ao ser clicado, apresenta as seguinte opção:
 
 .. image:: /figuras/fig_mangue/111_mangue_descartar_recomendacao.png
     :alt: Descartar recomendação 
     :scale: 80 %
     :align: center
-===== 
+=====
 
-* Descartar recomendação atual: Ao selecionar a opção de descartar a recomendação selecionada é removida, e é exibida uma recomendação anterior caso tenha.
-* um botão de “Mais Sugestões”, que ao clicar redireciona para uma página onde será exibido uma lista com  as recomendações geradas anteriormente.
+* **Descartar recomendação atual**: Ao selecionar a opção de descartar a recomendação selecionada é removida, e é exibida uma recomendação anterior caso exista.
+* **Botão** ``Mais Sugestões``: ao clicar redireciona para uma página onde é apresentada uma lista com  as recomendações geradas anteriormente.
   
 
 .. image:: /figuras/fig_mangue/112_mangue_historico_recomendacao.png
@@ -2365,7 +2382,7 @@ Durante o processo de implantação padrão da plataforma do Mangue.io, é insta
 
 Não é objeto deste documento descrever o processo de inclusão de novos registros na base de dados da plataforma do Mangue.io, entre em contato com a área de suporte da Ustore para que você possa ter acesso ao documento “Manual de Instalação do Mangue.io (veja item: Conteúdo Padrão do Banco de Dados)”.
 
-Nas próximas telas descrevemos como a interface da plataforma do Mangue.io apresenta o conteúdo da base de dados através da interface HTML do Mangue.io.
+Nas próximas telas descrevemos como a interface da plataforma apresenta o conteúdo da base de dados através da interface HTML do Mangue.io.
 
 
 Contrato
@@ -2379,12 +2396,12 @@ Abaixo está a tela que apresenta informações sobre o contrato selecionado no 
     :align: center
 =====  
 
-A. Informações do contrato
+A. **Informações do contrato**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 É possível visualizar os administradores do contrato, preço por CPU e preço por memória definidos para o contrato.
                                                                                  
-B. Informações de usuários
+B. **Informações de usuários**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção são listadas as informações sobre os usuários do contrato, e o nível de permissão de cada usuário. As permissões por usuário refletem o nível de permissão atribuído para um usuário no uCloud, seguindo o exemplo da tabela abaixo:
@@ -2394,17 +2411,18 @@ Nesta seção são listadas as informações sobre os usuários do contrato, e o
     :alt: Tabela uCloud Mangue.io 
     :scale: 80 %
     :align: center
-=====	
+=====
 
-Caso tenha ocorrido alguma mudança de permissão em algum dos usuários, seja usuário removido do contrato, usuário adicionado ao contrato, ou até mesmo nível de permissão alterada, há uma rotina para sincronizar as permissões dos usuários com o uCloud, refletindo tais mudanças no Mangue.io. No entanto, caso tenha o interesse de executar a sincronização das permissões naquele exato momento, há um botão ao lado direito, com nome “Sync users”   , ao clicar é executada a mesma função para sincronização de permissões que seria executada pela rotina.
+Caso tenha ocorrido alguma mudança de permissão em algum dos usuários, seja usuário removido do contrato, usuário adicionado ao contrato, ou até mesmo nível de permissão alterada, há uma rotina para sincronizar as permissões dos usuários com o uCloud, refletindo tais mudanças no Mangue.io. 
+No entanto, caso tenha o interesse de executar a sincronização das permissões naquele exato momento, há um icone ao lado direito |icone_sync|, ao clicar é executada a mesma função para sincronização de permissões que seria executada pela rotina.
 
 Por meio da lista de usuários é possível extrair as seguintes informações:
 
-* Login: Este campo apresenta o login do usuário que foi provisionado na base de dados da plataforma do Mangue.io.
-* Role: Esta coluna apresenta o perfil de autorização (role) do usuário provisionado.
-* Service Account: Esta coluna apresenta o service account associado ao usuário
-* Cluster Role: Esta coluna apresenta o cluster role associado ao usuário
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, exibe a seguinte opção como a figura abaixo:
+* **Login**: Este campo apresenta o login do usuário que foi provisionado na base de dados da plataforma do Mangue.io.
+* **Role**: Esta coluna apresenta o perfil de autorização (*role*) do usuário provisionado.
+* *Service Account*: Esta coluna apresenta o *service account* associado ao usuário
+* *Cluster Role*: Esta coluna apresenta o *cluster role* associado ao usuário
+* Ações: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a seguinte opção como a figura abaixo:
   
 .. image:: /figuras/fig_mangue/115_mangue_deletar_permissoes.png
     :alt: Deletar permissões 
@@ -2412,7 +2430,7 @@ Por meio da lista de usuários é possível extrair as seguintes informações:
     :align: center
 =====
 
-* Deletar Permissões: Quando o usuário selecionar esta ação ele remove as permissões do usuário correspondente a linha selecionada. A plataforma do Mangue.io solicita a confirmação para deletar a permissão do usuário no Mangue.io, conforme imagem abaixo:
+* **Deletar Permissões**: Ao selecionar esta ação são removidas as permissões do usuário correspondente a linha selecionada. A plataforma solicita a confirmação para deletar a permissão do usuário no Mangue.io, conforme imagem abaixo:
   
 .. image:: /figuras/fig_mangue/116_mangue_aviso_permissao.png
     :alt: Aviso permissão 
@@ -2425,13 +2443,15 @@ Roles
 -----
 
 O controle de acesso baseado em funções/perfil (Role Based Access Control - RBAC) é um método de regular o acesso a recursos de computador ou rede com base nas funções de usuários individuais em sua organização.
+
 Uma RBAC role (permissão/perfil) ou ClusterRole contém regras que representam um conjunto de permissões.
-Uma role sempre define permissões em um namespace específico; ao criar uma role, você deve especificar o namespace ao qual ela pertence.
+
+.. note:: Uma role sempre define permissões em um namespace específico; ao criar uma role, deve-se especificar o namespace ao qual ela pertence.
 
 A. Seção: Roles
 ~~~~~~~~~~~~~~~
 
-Nesta seção o usuário pode ver a lista de todas as roles existentes no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
+Nesta seção o usuário pode ver a lista de todas as roles existentes no cluster que foi selecionado na aba engrenagens |icone_engrenagem| "Seleção de Configuração".
   
 .. image:: /figuras/fig_mangue/117_mangue_roles.png
     :alt: Roles 
@@ -2440,11 +2460,16 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 =====
 
 
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-* Nome: Nesta coluna é apresentado o nome do role adicionado pelo usuário.
-* Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role.
-* Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta role.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções assim como a figura abaixo:
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
+
+Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas.
+
+Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| com um único comando.
+
+* **Nome**: Nesta coluna é apresentado o nome do *role* adicionado pelo usuário.
+* **Labels**: *Labels* são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe *yaml* da *role*.
+* **Duração**: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta *role*.
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, apresenta duas opções:
   
 .. image:: /figuras/fig_mangue/118_mangue_acoes_role.png
     :alt: Ações Role 
@@ -2453,7 +2478,7 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 =====
 
 
-* Deletar Role: Quando o usuário seleciona esta ação ele remove a role do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”. Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o grupo desejado da base de dados da plataforma do Mangue.io:
+* **Deletar Role**: Quando o usuário seleciona esta ação ele remove a *role* do *cluster* que foi selecionado na aba engrenagens |icone_engrenagem| "Seleção de Configuração". Vale lembrar que esta ação é irreversível e definitiva. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o grupo desejado da base de dados:
   
 
 .. image:: /figuras/fig_mangue/119_mangue_deletar_role.png
@@ -2465,9 +2490,9 @@ Nesta seção o usuário pode ver a lista de todas as roles existentes no cluste
 Caso o usuário tenha executado esta ação por engano, é necessário cadastrar o grupo na base de dados da plataforma do Mangue.io via qualquer ferramenta de SSH; A ação de incluir configurações na base de dados é feita através de linha de comando no sistema operacional Linux da máquina virtual que suporta a execução da plataforma do Mangue.io.
 
 
-* Editar Role: Recomendamos que somente usuários experientes em sintaxe YAML faça as alterações em uma role, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes.
+* **Editar Role**: Recomendamos que somente usuários experientes em sintaxe *YAML* faça as alterações em uma *role*, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de *clusters* existentes.
 
-Esta opção abre uma tela de edição da role usando a sintaxe de código YAML, como o exemplo da tela abaixo.
+Esta opção abre uma tela de edição da *role* usando a sintaxe de código *YAML*, como o exemplo da tela abaixo.
   
 .. image:: /figuras/fig_mangue/120_mangue_editar_role.png
     :alt: Editar role 
@@ -2476,9 +2501,9 @@ Esta opção abre uma tela de edição da role usando a sintaxe de código YAML,
 =====
 
 
-O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código YAML. A cada nova linha o usuário deve usar a tecla “Enter” para iniciar uma nova linha. O usuário deve utilizar a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção o usuário poderá entrar (ou editar) com um código YAML para criar, para editar a role na plataforma do Mangue.io.
+O usuário deve iniciar clicando com o mouse na área cinza ao lado do número da linha que deseja editar, antes de iniciar a digitação do seu código *YAML*. A cada nova linha o usuário deve usar a tecla ``Enter`` para iniciar uma nova linha, utilizando a sua própria experiência de desenvolvimento para estruturar a sintaxe de seu código linha a linha. Através desta opção é possível entrar (ou editar) com um código *YAML* para criar, para editar a *role* na plataforma do Mangue.io.
 
-Após editar a role o usuário deverá clicar no botão verde “Enviar” para que todo o código seja enviado e aplicado ao cluster que foi selecionado na aba engrenagens “   Seleção de Configuração”.
+Após editar a *role* o usuário deve clicar no botão verde ``Enviar`` para que todo o código seja enviado e aplicado ao *cluster* que foi selecionado na aba engrenagens |icone_engrenagem|  "Seleção de Configuração".
 
 
 B. Seção: Role Bindings
@@ -2494,7 +2519,7 @@ Um RoleBinding pode fazer referência a qualquer papel no mesmo namespace. Como 
 =====
 
 
-* # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
+* # coluna acionável: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
 * Nome: Nesta coluna é apresentado o nome da rolebinding adicionado pelo usuário. Ao clicar com o mouse sobre o nome do configmap a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de configmap. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla (“  ”), que irá permitir ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo.
 * Labels: Labels são usados para especificar a identificação de atributos de objetos que são significativos e relevantes e presentes na sintaxe yaml da role
 * Duração: Esta coluna apresenta o tempo decorrido em dias desde o momento da aplicação inicial desta rolebinding
