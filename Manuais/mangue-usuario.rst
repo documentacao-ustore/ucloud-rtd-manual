@@ -317,7 +317,7 @@ Nesta tela o usuário deve preencher os campos com as seguintes informações:
      * **Peta**: *Petabytes* quando o usuário deseja criar um arquivo com o valor anterior multiplicado por 1.000.000.000.000.000;
 
 
-.. attention:: |atencao| A plataforma do Mangue.io não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
+.. attention:: A plataforma do Mangue.io não valida, previamente, se existe o espaço em disco disponível, no tamanho informado. Ao usuário não é apresentado nenhum aviso, caso o ambiente computacional não disponha o espaço necessário, também não é apresentada nenhuma mensagem de erro no momento da criação deste volume persistente com as características informadas.
 	
 
 .. note:: O usuário pode verificar uma indicação de erro, na coluna **Status** na tela do menu *Workloads / Deployments* e consultar o *deployment* específico, ao qual o *PersistentVolume* está associado, conforme a imagem anterior exibida no tópico *Deployments*.
@@ -419,9 +419,9 @@ Essa funcionalidade atende aos usuários que tenham conhecimento no formato dos 
     :align: center
 =====
       
-E. **Alterar Tags**
+E. **Alterar tags**
 
-A função desta tela permite ao usuário alterar as *Tags* associadas à aplicação selecionada. A partir dela, é possível criar uma *Tag*, ao clicar no ícone adicionar |icone_adicionar| para ser associada à aplicação. 
+A função desta tela permite ao usuário alterar as *tags* associadas à aplicação selecionada. A partir dela, é possível criar uma *tag*, ao clicar no ícone Adicionar |icone_adicionar| para ser associada à aplicação. 
 
 
 .. image:: /figuras/fig_mangue/019.1_mangue_alterar_tag.png
@@ -429,7 +429,7 @@ A função desta tela permite ao usuário alterar as *Tags* associadas à aplica
     :align: center
 =====
 
-.. important:: Para criar uma *Tag* é necessário especificar sua chave e valor.
+.. important:: Para criar uma *tag* é necessário especificar sua chave e valor.
 
 .. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
     :alt: Criar Tag
@@ -477,7 +477,7 @@ Após clicar em “Atualizar Versão da Aplicação” a plataforma apresenta a 
     :align: center
 =====
 
-Este campo é alfanumérico e o usuário pode entrar com a informação desejada para identificar a nova versão do *deployment* selecionado. As novas versões são de controle único do usuário, pois se referem às ofertas criadas por este usuário.
+Este campo é alfanumérico, o usuário pode entrar com a informação desejada para identificar a nova versão do *deployment* selecionado. As novas versões são de controle único do usuário, pois se referem às ofertas criadas por este usuário.
 
 Após preencher com a informação desejada, o usuário deve clicar sobre o botão ``Enviar`` para confirmar a ação de criar a versão para o *deployment*.
 
@@ -1256,7 +1256,7 @@ Nova Aplicação
 
 Esta modalidade é a forma que a plataforma do Mangue.io conduz o usuário através de telas, solicitando as informações na sequência para que, posteriormente, a plataforma no Mangue.io faça a compilação das informações gerando a aplicação dentro do *Cluster* e *Namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”.
 
-Abaixo descritas as etapas de preenchimento dos formulários das telas que guiam o usuário.
+Abaixo são descritas as etapas de preenchimento dos formulários das telas que guiam o usuário.
 
 ====
 
@@ -1313,12 +1313,12 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
      * **Máximo Recurso a ser utilizado [CPU em milicores]**: Nesta lacuna o usuário consegue informar o máximo de recursos de CPU que podem ser alocados, na infraestrutura computacional do *Cluster* para oferecer o máximo de performance para esta aplicação *(Deployment)*. Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação *(Deployment)*;
 
 
-     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
+     * **Mínimo Recurso a ser utilizado [CPU em milicores]**: Neste campo o usuário consegue informar o mínimo de recursos de CPU que podem ser alocados na infraestrutura computacional do *Cluster*, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a aplicação (*Deployment*);
      
-     * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste espaço o usuário consegue informar o máximo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer o máximo de performance para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o *Deployment*;
+     * **Máximo Recurso a ser utilizado [Memória em milicores]**: Neste espaço o usuário consegue informar o máximo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do *Cluster*, para oferecer o máximo de performance para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar o *Deployment*;
 
 
-     * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Nesta lacuna o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do Cluster, para oferecer a performance mínima aceitável para esta aplicação (Deployment). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
+     * **Mínimo Recurso a ser utilizado [Memória em milicores]**: Nesta lacuna o usuário consegue informar o mínimo de recursos de memória RAM que pode ser alocada na infraestrutura computacional do *Cluster*, para oferecer a performance mínima aceitável para esta aplicação (*Deployment*). Esta quantidade deve ser informada com um número inteiro, para suportar e executar a nova aplicação;
 
 
    * **Permitir execução privilegiada**: Neste campo o usuário deve informar se o container tem acesso aos recursos e capacidades *Kernel* da máquina *Host*;
@@ -1327,10 +1327,10 @@ Basta o usuário clicar com o cursor do mouse na linha da imagem desejada para s
    * **Especificar ID de usuário, grupo ou arquivo de sistema**: Neste espaço é possível indicar o ID de usuário, grupo ou arquivo de sistema que o container é executado;
 
 
-   * **Registry Secret**: Nesta lacuna o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Quando o usuário clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado. A plataforma do Mangue.io apresenta apenas os arquivos de *Secrets* privados que estão presentes na plataforma do Mangue.io.
+   * **Registry Secret**: Nesta lacuna o usuário deve informar o nome do *Secret* do servidor de imagens associado a esta imagem. Ao clicar com o mouse sobre este campo, a plataforma do Mangue.io apresenta uma lista de arquivos de *Secrets* disponíveis no servidor de imagem privado.
 
 
-   * **Botão** ``Próximo``: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do container. Veja a tela abaixo:
+   * **Botão** ``Próximo``: Quando o usuário clica sobre o botão ``Próximo``, a plataforma do Mangue.io apresenta a tela com campos respectivos de *Secrets* e Variáveis de Ambiente do *container*. Veja a tela abaixo:
   
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
@@ -1367,15 +1367,15 @@ Após o usuário clicar no botão ``Finalizar``, a plataforma do Mangue.io encer
 
 Abaixo a descrição do conteúdo das colunas apresentadas nesta lista:
 
-   * **#**: Esta coluna apresenta o número sequencial do container na lista apresentada.
+   * **#**: Exibe o número sequencial do container na lista apresentada.
 
-   * **Container**: Esta coluna apresenta o nome do container informado nas etapas anteriores, o início do processo de criação de uma nova aplicação (*Deployment*).
+   * **Container**: Mostra o nome do container informado nas etapas anteriores, o início do processo de criação de uma nova aplicação (*Deployment*).
 
-   * **Imagem**: Esta coluna apresenta o nome da imagem da aplicação que foi selecionada do servidor de registro de imagens (ex: http://hub.docker.com).
+   * **Imagem**: Apresenta o nome da imagem da aplicação que foi selecionada do servidor de registro de imagens (ex: http://hub.docker.com).
 
-   * **Versão**: Esta coluna apresenta a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
+   * **Versão**: Exibe a informação da versão da aplicação (*Deployment*) dita nas etapas anteriores.
 
-   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta um submenu com as seguintes opções:
+   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| ao ser clicado, apresenta um submenu com as seguintes opções:
   
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
@@ -1415,7 +1415,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Nome do ConfigMap**: Este campo é obrigatório, o usuário deve informar o nome desejado para cadastrar na plataforma do Mangue.io e identificar este *ConfigMap*.
 
-   * **Botão** ``Adicionar``;
+   * **Botão** ``Adicionar`` |icone_adicionar|;
 
    * **Mount Path**: Esta lacuna é obrigatória, o usuário deve informar o caminho onde o volume é montado no container. Se a base da aplicação é um ambiente Linux, o caminho de montagem do volume deve utilizar a notação do ambiente do sistema operacional Linux. 
 
@@ -1427,7 +1427,7 @@ A plataforma do Mangue.io simplifica o processo de configuração do PVC, oferec
 
    * **Editar Container**: Quando selecionada esta opção a plataforma do Mangue.io apresenta a tela referente ao **Primeiro Passo: Nova Aplicação**, para que o usuário possa editar as configurações deste container.
 
-   * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do container, **não é solicitada uma confirmação desta ação**.
+   * **Excluir Container**: Esta ação é definitiva e quando acionada a plataforma do Mangue.io remove toda a configuração inicial do *container*, **não é solicitada uma confirmação desta ação**.
 
 ====
 
@@ -1463,20 +1463,25 @@ A plataforma do Mangue.io identifica os recursos de *PersistentVolumeClaim*, *Co
 =====
 
 
-   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. Ao carregar esta opção a plataforma do Mangue.io apresenta a seguinte tela:
+   * **Atachar a outro container**: Uma facilidade da plataforma do Mangue.io permite que o usuário possa anexar (atachar) esta aplicação a um container diferente do que foi criado desde o início deste processo. 
+   
+   Ao carregar esta opção a plataforma do Mangue.io apresenta a seguinte tela:
 
 .. image:: /figuras/fig_mangue/067_mangue_criar_pcv.png
     :alt: Selecionar container
     :align: center
 =====
 
-   Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
+Ao clicar sobre o campo *containers* é apresentada uma lista *(dropdown list)* com os containers disponíveis e configurados na plataforma do Mangue.io. Basta o usuário selecionar o container desejado e confirmar a ação.
 
    * **Excluir**: Esta ação é definitiva, ao acioná-la a plataforma do Mangue.io remove toda a configuração inicial do container. 
 
+
 .. attention:: Não há solicitação de uma confirmação na ação "Excluir".
 
+
 ====
+
 
 C. Segundo passo: Deploy nos Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1687,7 +1692,7 @@ Para criar um Visual Studio Code é necessário clicar no botão |icone_adiciona
    * **Porta**: O usuário pode selecionar a porta que é utilizada no serviço.
    * **Tipo do tamanho**: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
    * **Ingress Class**: Caso o tipo de serviço selecionado seja *Ingress* é necessário selecionar a *Ingress Class* a ser utilizada pelo serviço.
-   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho desta rota. Exemplo: */vscode*.
+   * **URL do servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar o caminho da rota deste. Exemplo: */vscode*.
    * **Ativar autenticação**: O usuário pode atribuir uma senha, ela é necessária para acessar o servidor *VS Code*.
    * **Senha do servidor VS Code**: Senha a ser utilizada para acessar o servidor *VS Code*.
 
@@ -1697,7 +1702,7 @@ Para criar um Visual Studio Code é necessário clicar no botão |icone_adiciona
 ConfigMap
 =========
 
-De forma simples, pode-se afirmar que *ConfigMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
+De forma simples, pode-se afirmar que *configMap* é um conjunto de par de chave-valor destinada ao armazenamento de configurações, é armazenado dentro de arquivos que podem ser consumidos através de *pods*. Ele é muito parecido com *Secrets*, mas fornece um modo de trabalho com *strings* que não possuem dados confidenciais, como: senhas, chaves, *tokens* e outros dados sigilosos.
 
 Os arquivos de *configMap*, podem ser tanto arquivos complexos que possuem poucas regras, como também arquivos no formato *JSON* complexos e cheios de regras.
 
@@ -1731,16 +1736,16 @@ Abaixo a descrição de cada coluna desta tabela:
 
 Importante ressaltar que esta janela não permite a edição do conteúdo listado.
 
-   * **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configMap*.
+* **Duração**: Nesta coluna é apresentado o tempo (em dias) desde o momento de criação do *configMap*.
 
-   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a seguinte figura:
+* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado apresenta duas opções, assim como a seguinte figura:
   
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
     :alt: Ações configmap
     :align: center
 =====
 
-     * **Deletar configmap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configMap*.
+   * **Deletar configMap**: Quando o usuário selecionar esta opção a plataforma do Mangue.io apresenta a tela abaixo solicitando a confirmação da opção de remoção do *configMap*.
   
 .. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
     :alt: Deletar configmap 
@@ -1748,11 +1753,13 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
     :align: center
 =====
 
+
 .. note:: Importante ressaltar que esta ação é definitiva e remove o arquivo do sistema operacional, não sendo possível recuperá-lo, pois são apagadas todas as referências deste *configmap* na plataforma do Mangue.io. Logo é necessário recriar o arquivo desde o início.
+
 
 ====
 
-     * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
+   * **Editar configMap**: Ao selecionar esta opção a plataforma do Mangue.io apresenta a seguinte tela, local onde o usuário pode efetuar as alterações necessárias no conteúdo do(s) arquivo(s) de *configMap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: Adicionar configMap
@@ -1793,6 +1800,8 @@ Abaixo a descrição dos campos da tela acima:
 
      * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
 
+
+
 .. attention:: Não devem ser utilizadas letras com acentuação (á, é, í, ã, õ, ç entre outros), pois pode haver erro na criação do arquivo no sistema operacional.
 
 ====
@@ -1824,9 +1833,7 @@ Abaixo a descrição do conteúdo de cada coluna da lista apresentada:
 
   * **Nome**: Nome do evento que a plataforma do Mangue.io gerou para o *deployment*; 
 
-  * **Tipo de evento**: 
-     
-     Descreve o tipo do evento ocorrido, podem ser listados os seguintes tipos de eventos:
+  * **Tipo de evento**: Descreve o tipo do evento ocorrido, podem ser listados os seguintes tipos de eventos:
 
      * Normal;
      * Warning.
@@ -1962,9 +1969,9 @@ Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Fina
 
 O termo *serverless* pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de *software* sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional-SO). 
 
-Para que este software seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e softwares) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
+Para que este *software* seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e *softwares*) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
 
-A plataforma do Mangue.io possui uma base de dados que acumula os valores de consumo de infraestrutura mês-a-mês, desde o momento da sua instalação. Esta base de dados é calculada dia-a-dia e acumula os valores de consumo, de acordo com a fórmula de cálculo apresentada no tópico Cálculo do Valor do Consumo do Cluster.
+A plataforma do Mangue.io possui uma base de dados que acumula os valores de consumo de infraestrutura mês-a-mês, desde o momento da sua instalação. Esta base de dados é calculada dia-a-dia e acumula os valores de consumo, de acordo com a fórmula de cálculo apresentada no tópico "Cálculo do Valor do Consumo do Cluster".
 
 Ao selecionar esta opção do menu a plataforma do Mangue.io apresenta a seguinte tela:
   
@@ -1985,7 +1992,7 @@ Relatório Consolidado
 ---------------------
 
 
-Esta tela apresenta informações quanto ao consumo mensal dos *clusters*, o usuário consegue visualizar o preço de cada *cluster* no gráfico de pizza presente na imagem acima. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o *deployment* é criado por meio do Mangue.io, uma vez que é guardado no *deployment* a informação do usuário responsável por sua criação.
+Esta tela apresenta informações quanto ao consumo mensal dos *clusters*, o usuário consegue visualizar o preço de cada *cluster* no gráfico de pizza presente na imagem abaixo. Assim como é possível visualizar o consumo por usuário, isso somente ocorre quando o *deployment* é criado por meio do Mangue.io, uma vez que é guardado no *deployment* a informação do usuário responsável por sua criação.
 
 .. image:: /figuras/fig_mangue/087_mangue_overview_financeiro.png
     :alt: Overview financeiro 
@@ -2065,7 +2072,7 @@ Assim que o ícone do calendário é clicado, é possível selecionar o ano dese
 
 Logo que o usuário selecionar o mês, a plataforma do Mangue.io inicia o processo de busca e cálculo dos valores do mês e ano selecionado. Este processo pode demorar alguns segundos e o usuário pode acompanhar a evolução deste processamento, acompanhando uma “linha preta” que aparece da esquerda para a direita no alto da área do browser de internet.
 
-No minuto em que a linha preencher totalmente o topo da área do browser, a plataforma do Mangue.io atualiza o gráfico da tela com os valores diários do mês e ano selecionado.
+No minuto em que a linha preencher totalmente o topo da área do *browser*, a plataforma do Mangue.io atualiza o gráfico da tela com os valores diários do mês e ano selecionado.
 
 Importante mencionar que os valores diários apresentados refletem até o dia corrente, em outras palavras, se o usuário deseja consultar os valores do mês, e o mês corrente se encontra (por exemplo) na primeira quinzena, o gráfico representa apenas do dia 1º até o dia 15 do mês corrente.
 
@@ -2073,7 +2080,7 @@ Este gráfico apresenta uma linha da evolução do valor de consumo de infraestr
 
 A cada início de mês, o valor é “zerado” iniciando um novo ciclo de cálculo de consumo da infraestrutura computacional para o período do mês, até o dia corrente. Desta forma, o valor do primeiro dia do mês pode não ser apresentado imediatamente, pois a plataforma do Mangue.io necessita computar este valor do dia após as 24 horas do primeiro dia – o valor do dia corrente é apresentado após 24 horas.
 
-A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, Updates, *CronJobs* criação de novas aplicações, *deployments* entre outros.
+A linha do gráfico pode apresentar “picos” e “vales” devido a diversos fatores, portanto deve-se levar em consideração o ambiente em sua totalidade. Aumento de consumo pode ser decorrente do lançamento de Autoescaladores Horizontais, Migrações, *Updates*, *CronJobs* criação de novas aplicações, *deployments* entre outros.
 
 Todas as situações acima listadas são potenciais causas do aumento de consumo de infraestrutura computacional e a decorrente evolução dos valores totais deste gráfico.
 
@@ -2107,7 +2114,7 @@ C. Por Tags
 
 A plataforma Mangue.io permite que as aplicações *Kubernetes* possuam *tags*, compostas por um conjunto de chave e valor, com o objetivo de agrupar aplicações semelhantes e visualizar o faturamento delas. 
 
-As *tags* podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de "Nova Aplicação" no item Catálogo, ou em uma aplicação já existente, demonstrado na seção de "Alterar *tags*" no item *Deployments*.
+As *tags* podem ser criadas ou associadas a uma aplicação durante o processo de criação de uma aplicação, conforme demonstrado na seção de **"Nova Aplicação"** no item **Catálogo**, ou em uma aplicação já existente, demonstrado na seção de **"Alterar *tags*"** no item *Deployments*.
 
 A tela de Faturamento por *tags* é separada em duas seções: 
 
@@ -2141,16 +2148,22 @@ D. Alertas
 
 Por meio de alertas, é possível o usuário ser notificado quando atingir o orçamento estabelecido para um *deployment* ou conjunto de *deployments*, quando agrupados em *tags*. Além de conseguir configurar ações que devem ser executadas quando o orçamento para esses recursos for atingido. Isso possibilita ao usuário ter mais controle sobre o custo com cada serviço. 
 
-Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*Webhooks*" , os detalhes de cada um deles são descritos na sequência:
+Conforme visualizado nas seguintes imagens, um card exibe "Alertas" e o outro "*Webhooks*", os detalhes de cada um deles são descritos na sequência:
 
 .. image:: /figuras/fig_mangue/096_mangue_alertas_webhooks.png
     :alt: Alertas e webhooks
     :align: center
 =====
 
-   * **Alertas**: Exibe uma lista de alertas, com as seguintes colunas:
-     * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável ``check mark``. Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
-     * **Nome**: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, *actions* e *webhooks* selecionados no momento da criação do alerta. Como pode ser visto na imagem abaixo:
+* **Alertas**: Exibe uma lista de alertas, com as seguintes colunas:
+
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   
+   Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+   
+   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+
+   * **Nome**: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, *actions* e *webhooks* selecionados no momento da criação. Como pode ser visto na imagem abaixo:
   
 .. image:: /figuras/fig_mangue/097_mangue_alert.png
     :alt: Alerta 
@@ -2158,15 +2171,24 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
     :align: center
 =====
 
-       * **Barra de progresso**: Corresponde ao valor atual dos *deployments* associados ao alerta, tendo como 100% o valor de orçamento do alerta.
-       * **Actions**: *Action* executada no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
-       * **Webhooks**: *Webhook* executado no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
-     * **Aplicação**: Esta coluna apresenta o *deployment* ou conjunto de *deployments* selecionados para o alerta correspondente no momento de criação do alerta.
-     * **Status**: Esta coluna apresenta dois valores possíveis, “DONE” e “PENDING”:
-       * **DONE**: Indica que o alerta já atingiu o preço do orçamento e que foi executado, disparando os *webhooks* e *actions* configurados.
-       * **PENDING**: Indica que o alerta não foi executado.
+   * **Barra de progresso**: Corresponde ao valor atual dos *deployments* associados ao alerta, tendo como 100% o valor de orçamento do alerta.
+
+   * **Actions**: *Action* executada no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
+
+   * **Webhooks**: *Webhook* executado no momento em que os *deployments* associados a um alerta atingirem o preço de orçamento.
+
+   * **Aplicação**: Esta coluna apresenta o *deployment* ou conjunto de *deployments* selecionados para o alerta correspondente no momento de criação do alerta.
+
+   * **Status**: Esta coluna apresenta dois valores possíveis, “DONE” e “PENDING”:
+
+     * **DONE**: Indica que o alerta já atingiu o preço do orçamento e que foi executado, disparando os *webhooks* e *actions* configurados.
+
+     * **PENDING**: Indica que o alerta não foi executado.
+
    * **Data**: Esta coluna apresenta a data de criação do alerta.
+
    * **Cota Alerta**: Esta coluna apresenta o preço de orçamento definido para o alerta.
+
    * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| que ao ser clicado, apresenta uma única opção para deletar o alerta:
 
 .. image:: /figuras/fig_mangue/098_mangue_deletar_alerta.png
@@ -2175,7 +2197,7 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
     :align: center
 =====
           
-   * **Deletar Alerta**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma do Mangue.io:
+     * **Deletar Alerta**: Quando o usuário seleciona esta ação a plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) o alerta desejado da base de dados da plataforma:
   
 .. image:: /figuras/fig_mangue/099_mangue_aviso_deletar.png
     :alt: Aviso deletar 
@@ -2184,14 +2206,19 @@ Conforme visualizado nas seguintes imagens um card exibe "Alertas" e o outro "*W
 =====
 
 
-Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte “  ”, ao clicar no botão será apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, webhook e actions:
+Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, como no exemplo seguinte  |icone_adicionar|, ao clicar no botão é apresentado um formulário para o usuário com campos que possibilitam a criação de um alerta, seguindo um fluxo de três etapas, detalhes, *webhook* e *actions*:
 
-* Detalhes: Nesta etapa é solicitado informações voltadas para o alerta especificamente, são solicitadas as seguintes informações:
-* Nome: Campo correspondente ao nome do alerta
-* Descrição: Campo correspondente à descrição do alerta
-* Tipo: Existem dois valores possíveis para o tipo, por Tag para selecionar um conjunto de deployments, e Deployment para selecionar apenas um deployment. Ao selecionar a tag ou deployment ocorre uma busca do valor de custo total correspondente ao deployment ou tag selecionada, esse valor é apresentado no campo de Custo Atual presente na tela.
-* Prazo: Neste campo pode ser definido um prazo para execução do alerta, alertas mesmo com status pending não serão executados após o prazo definido para o alerta.
-* Orçamento: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos deployments selecionados atingir o valor informado neste campo o alerta será executado. O Valor de Orçamento precisa ser maior que o valor de Custo Atual
+   * **Detalhes**: Nesta etapa são solicitadas informações voltadas para o alerta especificamente:
+     * **Nome**: Campo correspondente ao nome do alerta;
+     * **Descrição**: Campo correspondente à descrição do alerta;
+     * **Tipo**: Existem dois valores possíveis para o tipo, por *tag* para selecionar um conjunto de *deployments*, e por *Deployment* para selecionar apenas um *deployment*. Ao selecionar a *tag* ou *deployment* ocorre uma busca do valor de custo total correspondente ao *deployment* ou *tag* selecionada, esse valor é apresentado no campo de "Custo Atual" presente na tela;
+     * **Prazo**: Neste campo pode ser definido um prazo para execução do alerta; os alertas com status *pending* não são executados após o prazo estabelecido para o alerta;
+     * **Orçamento**: Neste campo pode ser informado o preço de orçamento do alerta, quando o custo total da soma dos *deployments* selecionados atingir o valor informado o alerta é executado. 
+     
+
+.. note:: O valor de orçamento precisa ser maior que o valor de "Custo Atual".
+
+
 
 .. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
     :alt: Alerta detalhes 
