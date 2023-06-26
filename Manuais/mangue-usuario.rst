@@ -3401,11 +3401,10 @@ Abaixo segue descrição de cada opção deste submenu:
 
    * Adicionar Ingres: Ingress é um serviço que pode ser configurado para fornecer aos Serviços URLs acessíveis externamente. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Esta tela efetua a criação de um Ingress em duas etapas, inicialmente a criação de um balanceador de carga, e em sequência a criação do Ingress na plataforma do Mangue.io.
 
- ``inserir imagem`` 
-
- .. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+ 
+ .. image:: /figuras/fig_mangue/165_mangue_add_ingress.png
+    :alt: Add Ingress
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3417,9 +3416,9 @@ Abaixo segue descrição de cada opção deste submenu:
 
    * Deletar Serviço: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão "Deletar". Na sequência é apresentado o feedback de alerta no canto superior direito da tela informando o sucesso ou erro.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/166_mangue_aviso_ingress.png
+    :alt: Aviso Ingress
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3428,9 +3427,9 @@ Importante ressaltar que esta ação é definitiva e remove (apaga) esta configu
 
    * Editar Serviço: Esta opção do menu de ações exibe a opção `Editar serviço`. Quando selecionada a plataforma do Mangue.io apresenta o conteúdo do arquivo em formato JSON com todas as configurações do serviço no Kubernetes. O usuário pode editar o que for necessário neste arquivo e selecionar o botão de “Enviar”. Aguardar o feedback da ação que abre o seguinte modal:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/167_mangue_editar_servico.png
+    :alt: Editar Serviço
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3444,9 +3443,9 @@ Ingress
 O Ingress expõe as rotas HTTP e HTTPS de fora do cluster para serviços dentro do cluster. O roteamento de tráfego é controlado por regras definidas no recurso Ingress. Um Ingress pode ser configurado para fornecer aos Serviços URLs acessíveis externamente, Load Balancing, configuração para SSL / TLS. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Neste submenu, serão listados os Ingress existentes no namespace que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
 Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/168_mangue_pesquisar_atualizacoes.png
+    :alt: Pesquisar atualizações
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3455,9 +3454,9 @@ Logo acima da tabela, existem três elementos com os quais o usuário poderá at
    * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo que possibilita ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado desta busca apenas os Updates que contiverem a palavra-chave da pesquisa são recuperados.
    * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Ingress.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/169_mangue_ingress.png
+    :alt: Ingress
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3472,9 +3471,9 @@ Abaixo descrevemos as informações da lista apresentada nesta tela:
    * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do Ingress até a presente data que o usuário está consultando esta lista.
    * Ações: Esta coluna apresenta um botão de ação para deletar ingress, por meio do ícone de lixeira “  ”, Ao clicar no ícone será solicitado do usuário confirmação para conseguir deletar o ingress, conforme imagem abaixo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/170_mangue_aviso_deletar_ingress.png
+    :alt: Aviso deletar Ingress
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3493,9 +3492,9 @@ De forma clara, o ambiente computacional designado para o namespace Produção d
 
 O menu Namespaces apresenta uma lista de todos os namespaces de um determinado cluster, na tabela temos informações como: nome do namespace, status e duração do namespace. Os namespaces consistem em diferentes áreas de trabalho que fazem parte de um cluster.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/171_mangue_namespaces.png
+    :alt: Namespaces
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3503,9 +3502,9 @@ O menu Namespaces apresenta uma lista de todos os namespaces de um determinado c
 
 Para que o usuário possa criar um namespaces, este deve clicar sobre ícone do sinal de adição ‘+’, para que seja apresentada a tela a seguir onde o usuário pode configurar um novo namespace:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/172_mangue_add_namespace.png
+    :alt: Adicionar namespace
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3519,9 +3518,9 @@ Após a inclusão de um novo namespace, caso este nome não se apresente na list
 
 Na última coluna da tabela existe a opção de deletar o namespace, quando esta coluna for selecionada ela abre um modal de confirmação. E caso confirmada, há um feedback de criação para o usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/171_mangue_namespaces.png
+    :alt: Namespace deletar
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3536,9 +3535,9 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
    * O status “!” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o namespaces.
    * Cota: Esta coluna apresenta um ícone de um “olho” (“  ”) que irá ficar ativo somente nas linhas de namespaces que possuam alguma cota definida para este. O usuário deve posicionar o cursor do mouse sobre o ícone e a plataforma do Mangue.io irá apresentar uma janela pop-up com nome e as características da cota definida para este namespace.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/173_mangue_test_quota.png
+    :alt: Teste cota
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3546,18 +3545,18 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
    * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do namespaces até a presente data que o usuário está consultando esta lista.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/174_mangue_acoes_namespace.png
+    :alt: Ações namespace
+    :scale: 100 %
     :align: center
 =====  
 
 
    * Adicionar Labels: Um rótulo (label) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os softwares armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (labels) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no link do rodapé do site de documentação Kubernetes.io[2]).
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/175_mangue_label_namespace.png
+    :alt: Adicionar label namespace 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3569,9 +3568,9 @@ Esta tela possui dois campos e dois botões:
    Valor: Neste campo o usuário deve preencher com um número inteiro que será o valor da chave.
    Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a chave e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado uma chave/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/176_mangue_label_chave_valor.png
+    :alt: Label chave valor
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3585,9 +3584,9 @@ A definição de uma cota pode impactar em outros serviços (workloads) cadastra
 
 Por exemplo: se um deployment necessita iniciar uma nova réplica definida no Auto Escalador Horizontal, e o limite de CPU e Memória já houver sido alcançado, a plataforma do Mangue.io não inicia a nova réplica, mesmo que os valores definidos no Autoescalador Horizontal sejam alcançados, mas o limite da cota não permite haver recursos computacionais disponíveis para esta nova réplica.
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/177_mangue_add_cota.png
+    :alt: Adicionar cota recurso
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3603,19 +3602,14 @@ Confirmar: Quando o usuário preencher todos os campos deste formulário ele dev
 
    * Deletar: A terceira opção deste submenu permite que o usuário possa apagar (deletar) um namespace definitivamente do cluster que foi selecionado na ‘aba’ Configurações; e ao ser clicado abrirá a seguinte tela de interface solicitando a confirmação por parte do usuário:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/178_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====  
 
 
-
- Warning 
-
-
-Atenção
-	Essa é uma ação extremamente destrutiva, pois ao deletar um namespace será deletado também TODOS os recursos e serviços presentes no mesmo.
+.. attention:: Essa é uma ação extremamente destrutiva, pois ao deletar um namespace será deletado também TODOS os recursos e serviços presentes no mesmo.
 	
 
 Nodes
@@ -3632,16 +3626,16 @@ Destacado na cor azul do gráfico de barras, são apresentadas as quantidades de
 A quantidade total de recursos dos Nodes de um Cluster, tanto para CPU quanto para memória, é representada pela soma dessas duas medidas.  
 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/179_mangue_overview_nodes.png
+    :alt: Overview Nodes
+    :scale: 100 %
     :align: center
 =====  
 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/180_mangue_nodes.png
+    :alt: Nodes
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3669,9 +3663,9 @@ Abaixo a descrição das colunas desta tabela:
 
 Para o usuário conhecer detalhes de todos os pods de um node específico, basta clicar com o cursor do mouse sobre o nome do node para que a plataforma do Mangue.io apresente a seção com uma lista de todos os pod que estão em execução no node selecionado.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/181_mangue_pods.png
+    :alt: Pods
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3682,9 +3676,9 @@ Caso seja necessário o usuário consultar os logs, ou ter acesso ao prompt do s
 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/182_mangue_pesquisar_node.png
+    :alt: Pesquisar Node
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3694,9 +3688,9 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
    * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com os lista de nomes de nodes configurados na plataforma do Mangue.io.
    * Adicionar Labels: Caso o usuário necessite adicionar um (ou mais) label ao node o usuário deve clicar com o cursor do mouse no ícone de rótulos (labels - “  ”) para que a plataforma do Mangue.io apresentar a seguinte tela:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/183_mangue_label_nods.png
+    :alt: Label Nods
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3710,6 +3704,8 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 * Obs: Adicionar labels aos nodes pode ser importante para os usuários que desejam fazer configurações de Node Affinity aos seus Deployments.
 
    * Finalizar: Este botão permite adicionar (o)s label(s) selecionados na plataforma do Mangue.io. Na sequência é exibido o feedback desta ação.  
+
+====
 
 
 Migração de Cluster
@@ -3736,9 +3732,9 @@ O usuário pode notar que esta tela é segmentada em duas seções: Migração e
 
 Abaixo apresentamos o processo para o correto preenchimento da tela de migração:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/184_mangue_migracao_clusters.png
+    :alt: Migração clusters
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3759,9 +3755,9 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
    * Este campo é um “drop-down list” e são listados apenas os namespaces configurados no item Namespaces.
    * Se caso a linha abaixo deste campo estiver pontilhada, significa que não existe nenhum namepaces configurados e disponível para migração no cluster de origem informado no passo 1. Veja exemplo na tela abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/185_mangue_workloads_tracejado.png
+    :alt: Workloads
+    :scale: 100 %
     :align: center
 =====  
   
@@ -3769,9 +3765,9 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
    * Quando existem namespaces configurados a plataforma do Mangue.io apresenta uma linha contínua abaixo deste campo, veja exemplo abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/186_mangue_workloads_continua.png
+    :alt: Workloads 
+    :scale: 100 %
     :align: center
 =====  
   
@@ -3786,12 +3782,12 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
 5. Selecionar o Nome do Workload (Seção Workloads)
 
-   * Este campo é um “drop-down list” e são listados apenas os nomes de workloads que fazem parte do mesmo tipo de workload selecionado no campo anterior.
+   * Este campo é um “dropdown list” e são listados apenas os nomes de workloads que fazem parte do mesmo tipo de workload selecionado no campo anterior.
    * Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este é adicionado na lista de migração, conforme o exemplo abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/187_mangue_workloads.png
+    :alt: Selecionar workloads
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3799,9 +3795,9 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
    * A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: Editar cluster rolebinding
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/188_mangue_workloads_lista.png
+    :alt: Workloads lista
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3821,9 +3817,9 @@ Esta tela é segmentada em duas seções, como a tela de Migração de Cluster: 
 
 Abaixo apresentamos o processo para o correto preenchimento da tela de migração:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/189_mangue_migracao_namespaces.png
+    :alt: Migração entre namespace
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3846,18 +3842,18 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 * Este campo é um “drop-down list” e serão listados apenas os nomes dos recursos que fazem parte do mesmo tipo de workload selecionado no campo anterior.
 * Quando o usuário preenche todos os campos anteriores (namespace, Tipo de workload) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável (“  ”). Assim que o usuário selecionar um dos nomes, este será adicionado na lista de migração, conforme o exemplo abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/190_mangue_workloads_tipo.png
+    :alt: Workloads tipo
+    :scale: 100 %
     :align: center
 =====  
 
 
 * A plataforma do Mangue.io permite adicionar diversos tipos de workloads para que a migração de diversos workloads possa ser efetuada de uma única etapa, conforme o exemplo da tela abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/191_mangue_workloads_lista.png
+    :alt: Workloads lista
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3878,9 +3874,9 @@ Há nesta seção uma tabela contendo as informações dos Registries adicionado
 
 Logo acima da tabela, existem dois elementos com os quais o usuário poderá atuar:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/192_mangue_pesquisar_registry.png
+    :alt: Pesquisar Registry 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3888,9 +3884,9 @@ Logo acima da tabela, existem dois elementos com os quais o usuário poderá atu
 * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Registry desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os Registry que contiverem a palavra-chave da pesquisa.
 * Adicionar um Registry: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo Registry na plataforma. Na sequência é exibida a tela abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/193_mangue_criar_edit_secret.png
+    :alt: Criar Editar Secret para Registry 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3905,9 +3901,9 @@ Logo acima da tabela, existem dois elementos com os quais o usuário poderá atu
 
 Abaixo é descrito as colunas apresentadas nesta lista de registries:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/194_mangue_registry_lista.png
+    :alt: Registry lista 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3921,25 +3917,25 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 * Duração: Esta coluna indica a quanto tempo aquela credencial para acesso ao servidor de registro de imagem está criada na plataforma;
 * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/195_mangue_acoes_registry/.png
+    :alt: Ações registry 
+    :scale: 100 %
     :align: center
 =====    
 
 * Deletar Registry: Ação responsável por apagar a credencial de acesso ao servidor de registro de imagem. Ao selecionar este botão a plataforma do Mangue.io solicita confirmar a operação de remoção da credencial. Lembrando que esta ação ao ser confirmada é irreversível. Caso alguma aplicação do Cluster utilize esta credencial para baixar o container docker, após a deleção esta ação de baixar o container docker  falha, já que a credencial foi apagada.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/196_mangue_deletar_registry.png
+    :alt: Deletar Registry 
+    :scale: 100 %
     :align: center
 =====    
 
 * Editar Registry: Ação responsável por fornecer um mecanismo para atualizar as informações de uma credencial de acesso a um servidor de registro de imagem. Ao selecionar a ação “Editar Registry” aparece uma tela com as informações adicionadas anteriormente para a credencial em questão, podendo alterar os campos desejados e ao clicar no botão "Confirmar” a credencial é atualizada. Um alerta com feedback para a ação de atualizar é gerado no canto superior direito da tela do browser de internet.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/197_mangue_criar_editar_secret.png
+    :alt: Criar Editar Secret para Registry  
+    :scale: 100 %
     :align: center
 =====    
 
@@ -3949,7 +3945,7 @@ Email: Neste campo o usuário pode alterar o e-mail do usuário que é utilizado
 Senha: Neste campo o usuário pode alterar a senha do usuário que é utilizado para fazer autenticação no servidor de registry
 Botão Confirmar: Após o usuário alterar todos os campos anteriores, ele deve clicar com o cursor do mouse sobre este botão para confirmar as alterações informadas para a plataforma do Mangue.io.
 
-
+====
 
 
 Secrets
@@ -3959,9 +3955,9 @@ Secrets (segredos) permitem armazenar e gerenciar informações consideradas con
 
 Ao selecionar este menu será apresentado uma lista de todos os secrets presentes no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/198_mangue_lista_segredos.png
+    :alt: Lista Secret
+    :scale: 100 %
     :align: center
 =====  
   
