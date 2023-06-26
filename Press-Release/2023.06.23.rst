@@ -1,0 +1,102 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+----
+
+2023.06.23
+==========
+
+Press release
+-------------
+Ano 2023 - Período 19 a 23 de Junho
+
+====
+
+Nesta comunicação a Ustore apresenta os quadros adequados à interação com os provedores das nuvens *AWS*, *Azure*, *GCP*, *IBM* e *Oracle* criados para mostrar de forma sintética os recursos integrados e suportados pelo portal uCloud. Pode ser informação de consulta para as soluções ofertadas nos ambientes híbridos ou multi-nuvem gerenciados pelo uCloud.
+
+
+====
+
+
+====
+
+.. centered:: Amazon Web Services (AWS)
+
+====
+
+*Amazon Web Services*, também conhecido como *AWS*, é uma plataforma de serviços de computação em nuvem concedida pela Amazon.com. Os serviços são oferecidos em várias áreas geográficas distribuídas pelo mundo. No tocante à interação com o provedor de serviço de nuvem pública *AWS*, o seguinte quadro detalha as ações suportadas pela plataforma uCloud:
+
+.. figure:: /figuras/fig_press/quadro_nuvens/001_aws.png
+   :alt: quadro AWS
+   :scale: 100 %
+   :align: center
+
+
+====
+
+.. centered:: Microsoft Azure (Azure)
+
+====
+
+*Microsoft Azure*, por vezes anunciado como Azure, é uma plataforma de computação em nuvem operada pela *Microsoft* que fornece acesso, gerenciamento, desenvolvimento de aplicativos e serviços por meio de *datacenters* distribuídos em todo o mundo. Quanto à interação com o provedor de serviço de nuvem pública *Microsoft AZURE*, o quadro exibido abaixo descreve as ações suportadas (recursos) pela plataforma uCloud:
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/002_azure.png
+   :alt: quadro Azure
+   :scale: 100 %
+   :align: center
+
+
+====
+
+.. centered:: Google Cloud Platform (GCP)
+
+====
+
+*Google Cloud Platform* (*GCP*) é uma suíte de computação em nuvem que oferece uma série de soluções através da tecnologia armazenada na nuvem e que permite destacar a rapidez, a escalabilidade da sua infraestrutura nas aplicações. No que se refere à interação com o provedor de serviço de nuvem pública *Google Cloud Platform*, nosso portal dá suporte à nuvem e disponibiliza os recursos listados abaixo:
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/003_google.png
+   :alt: quadro google
+   :scale: 100 %
+   :align: center
+
+
+
+====
+
+.. centered:: IBM Cloud
+
+====
+
+A *IBM Cloud* é uma plataforma de computação em nuvem que oferece serviços escaláveis de infraestrutura, plataforma e *software*. Ela auxilia empresas a construir, implementar, gerenciar aplicativos e serviços em nuvem, com recursos avançados de segurança e governança. Em referência à interação com o provedor de serviço de nuvem pública *IBM Cloud*, nosso portal oferece suporte à nuvem e disponibiliza os seguintes recursos:
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/004_ibm.png
+   :alt: quadro ibm
+   :scale: 100 %
+   :align: center
+
+
+====
+
+.. centered:: Oracle Cloud
+
+====
+
+*Oracle Cloud* é um serviço de computação em nuvem que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de *datacenters* gerenciados pela *Oracle Corporation*. Relativo à interação do provedor de serviço de nuvem pública *Oracle Cloud*, a plataforma uCloud oferece suporte à nuvem e  disponibiliza os recursos listados a seguir: 
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle.png
+   :alt: quadro oracle
+   :scale: 100 %
+   :align: center
+----
+
+
+
+O material detalhado neste documento reafirma o constante compromisso de evolução dos produtos da Ustore e o alinhamento às necessidades do mercado de armazenamento em nuvem.
+
+Este press release semanal é uma ferramenta de divulgação das novidades na Ustore.
