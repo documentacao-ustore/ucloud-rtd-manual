@@ -2477,17 +2477,17 @@ In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which 
 * **Name**: On this column, it is presented the *serviceaccount* name added by the user;
 * **Namespace**: Informs the namespace in which the *serviceaccount* was created;
 * **Duration**: On this column presents the time elapsed in days since the moment of the initial application of this *serviceaccount*;
-* **Actions**: This columns presents the ``Action`` button |icone_acao| when clicked, it presents a single option:
+* **Action**: This columns presents the ``Action`` button |icone_acao| when clicked, it presents a single option:
 
-.. image:: /figuras/fig_mangue/126_mangue_aviso_service_account.png
-    :alt: warning service account
+.. image:: /figuras/fig_mangue/125.1_deletar_serviceaccount.png
+    :alt: delete service account
     :align: center
 ----
 
-      * **Delete ServiceAccount**: When the user selects this action they remove the *serviceaccount* of the cluster that was selected on the gears tab |icone_engrenagem| “Configuration Selection”. It is important to remember that this action is irreversible and definitive. The Mangue.io platform requests confirmation from the user to remove (erase) the *serviceaccount* desired from the database:
+      * **Delete ServiceAccount**: When the user selects this action they remove the *serviceaccount* of the cluster that was selected on the gears tab |icone_engrenagem| "Configuration Selection". It is important to remember that this action is irreversible and definitive. The Mangue.io platform requests confirmation from the user to remove (erase) the *serviceaccount* desired from the database:
 
-.. image:: /figuras/fig_mangue/127_mangue_cluster_role.png
-    :alt: cluster role
+.. image:: /figuras/fig_mangue/126_mangue_aviso_service_account.png
+    :alt: warning service account
     :align: center
 ----
 
@@ -2497,6 +2497,430 @@ In case the user had executed this action by mistake, it is necessary to registe
 
 Cluster Role
 ------------
+
+A RBAC role or *ClusterRole* has rules that represent a set of permissions.
+
+*ClusterRole*, on the other hand, is a resource with no name space. The resources have different names (Role and *ClusterRole*) because a Kubernetes object always needs to have a namespace or not; it cannot be both.
+
+*ClusterRoles* has several uses, it can be used to:
+
+* Define permissions in resources with namespace and be conceded within the individual namespaces;
+* Define permissions in resources with namespaces and be conceded in all the namespaces;
+* Define permissions in resources with the cluster scope.
+
+If you want to define a function in a namespace, use a role; if you want to define a role in the whole cluster, use a *ClusterRole*.
+
+The user notes that this screen has multiple sections, each section is described below respectively.
+
+A. **Section: Cluster Roles**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On this screen the Mangue.io platform presents a list of all the Cluster Roles configured and the time since its creation.
+
+.. image:: /figuras/fig_mangue/127_mangue_cluster_role.png
+    :alt: cluster role list
+    :align: center
+----
+
+* **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
+
+When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+
+In this case the "Trash bin" icon |icone_lixo_vermelho|  is presented, which allows to remove all the items indicated by the user with a single command;
+
+* **Name**: On this column, it is presented the Cluster Roles name added by the user;
+
+* **Labels**: Labels are used to specify the objects attributes identification that are significant and relevant and present on the role yaml syntax;
+
+* **Duration**: On this column presents the time elapsed in days since the moment of the initial application of this Cluster Roles;
+
+* **Action**: This columns presents the ``Action`` button |icone_acao| when clicked, it presents a single option:
+
+.. image:: /figuras/fig_mangue/128_mangue_editar_clusterole.png
+    :alt: action edit
+    :align: center
+----
+
+      * **Edit Cluster Role**: It is recommended that only users experts in YAML syntax make the alterations in a Cluster Role, because the codification (or alteration) of the syntax in a wrong form may result in the access lost to all the existing clusters' environment.
+ 
+This option opens a Cluster Role edition screen using the YAML syntax code, as the example on the screen below. 
+
+The code of a Cluster Role can be long, and its screen very long, the example of some lines of this code on the screen that follows. 
+
+.. image:: /figuras/fig_mangue/129_mangue_editar_clusterrole.png
+    :alt: code cluster role
+    :align: center
+----
+
+When clicking with the mouse on the gray area next to the number of the line that the user wishes to edit, next the typing of their YAML code may start.
+
+At each new line the user must click ``Enter`` to open another line.
+
+It is indicated to the user to use their very own development experience to structure the syntax of their code line by line.
+
+Summarizing, the Cluster Role provides the option to create or edit a YAML code on the Mangue.io platform.
+
+After editing the Cluster Role the user must lick on the green-colored button ``Send`` for the entire code is sent and applied to the cluster selected on the gears tab |icone_engrenagem_azul| "Configuration Selection".
+
+----
+
+B. **Section: Cluster Role Binding**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On this screen the Mangue.io platform presents a list of all the Cluster Role Binding configured and the time since its creation.
+
+.. image:: /figuras/fig_mangue/130_mangue_cluster_role_binding.png
+    :alt: cluster role binding list
+    :align: center
+----
+
+* **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|.
+
+When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+
+In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+
+* **Name**: On this column, it is presented the Cluster Role Binding name added by the user;
+
+* **Labels**: Labels are used to specify the objects attributes identification that are significant, relevant and present on the role yaml syntax;
+
+* **Duration**: On this column presents the time elapsed in days since the moment of the initial application of this Cluster Role Binding;
+
+* **Action**: This columns presents the ``Action`` button |icone_acao| when clicked, it presents a single option:
+
+.. image:: /figuras/fig_mangue/131_mangue_editar_cluster_role_binding.png
+    :alt: action edit
+    :align: center
+----
+
+      * **Edit Cluster Role Binding**: It is recommended that only users experts in YAML syntax make the alterations in a Cluster Role Binding, because the codification (or alteration) of the syntax in a wrong form may result in the access lost to all the existing clusters' environment.
+  
+This option opens a screen of Cluster Role Binding edition using the YAML syntax code, as the example on the screen below:
+
+.. image:: /figuras/fig_mangue/132_mangue_editar_clusterrolebinding.png
+    :alt: edit cluster role binding
+    :align: center
+----
+
+When clicking with the mouse on the gray area next to the number of the line that the user wishes to edit, before starting the typing of their YAML code.
+
+At each new line the user must click ``Enter`` to open another line.
+
+It is indicated to the user to use their very own development experience to structure the syntax of their code line by line.
+
+Summarizing, the Cluster Role Binding provides the option to create or edit a YAML code on the Mangue.io platform.
+
+After editing the Cluster Role Binding the user must click on the green-colored button ``Send`` for the entire code is sent and applied to the cluster that was selected on the gears tab |icone_engrenagem_azul| "Configuration Selection".
+
+----
+
+C. **Pod Security Policy**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pod Security Policy is a Kubernetes resource that allows the user to limitate the applications created for a specific *ServiceAccount*, or all. That being possible, for example, prohibits that a *ServiceAccount* creates an application that uses the user root.
+
+The Pod Security Policy screen is separated into two sections: 
+
+* Pod Security Policy.
+* Cluster Role and Role Binding of Pod Security Policy.
+
+.. image:: /figuras/fig_mangue/133_mangue_pod_clusterrole_binding.png
+    :alt: pod security and cluster role
+    :align: center
+----
+
+On the Pod Security Policy section is shown a list with the Cluster's Pod Security Policy and is shown a bar search to search using the name.
+
+Below we describe the information present on the Pod Security Policy table.
+
+* **#**: Pod Security Policy sequential number registered on the Mangue.io platform.
+* **Name**: Pod Security Policy name specified by the user during the creation.
+* **Privileged**: Allows that all created applications use resources and Kernel capacities of the Host machine.
+* **Allows Privileges Escalation**: Allows that the application created alters its user ID, making it possible that container's sons processes get more privileges than the father privilege.
+* **User ID**: User ID range that the created applications may use on the execution.
+* **Group ID**: Group ID range that the created applications use on the execution.
+* **Systems File ID**: System File ID range that the create applications use on the execution.
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, presents two options: 
+
+.. image:: /figuras/fig_mangue/134_mangue_acoes_security.png
+    :alt: actions security
+    :align: center
+----
+
+      * **Create Cluster Role**: When selecting the option to create a cluster role it is presented on the screen below, through which the user may create a Cluster Role for the Pod Security Policy.
+
+      * **Delete Pod Security Policy**: When selecting the option to exclude is deleted the Pod Security Policy from the Cluster.
+
+.. image:: /figuras/fig_mangue/135_mangue_adicionar_security.png
+    :alt: add security
+    :align: center
+----
+
+To create a Pod Security Policy it is necessary to click on the |icone_adicionar| button, when clicking it is exhibited the screen below:
+
+.. image:: /figuras/fig_mangue/136_mangue_adicionar_pod_securityy.png
+    :alt: add pod
+    :align: center
+----
+
+The blanks needed for the Pod Security Policy creation are the following:
+
+* **Pod Security Policy Name**: Pod Security Policy name to be created.
+* **Allow Privileged Containers**: Allows the creation of resources that use privileged containers, these containers may have access to the resources and Kernel capacities from the Host machine.
+* **Allow Privilege Escalation**: Allows that the created application alters its User ID, making it possible for the containers' sons processes to get more privileges than the father process.
+* **Limit User**: In case it is selected a dropdown list is displayed, with the options to: 
+  
+      * **Prohibit Root**: this option allows the creation of an application that uses any user ID, with the exception of the root user ID.
+
+      * **Limit per User ID**: this option allows the creation of an application that uses only a specified User ID range.
+* **Limit Group**: Allows only applications that use the range of specified Group ID.
+* **Limit System File**: Allows only applications that use the range of specified System File ID.
+
+After filling out all the mandatory blanks, the ``Add Pod Security Policy`` button is available and when the user clicks on it the platform creates the Pod Security Policy and shows a status message.
+
+On the Cluster Role and Role Binding section of Pod Security Policy is shown a list with all the Cluster Role and Role Bindings of the Pod Security Policy and is shown a search bar to search using the name of resources.
+
+Below the description of information present on the Pod Security Policy table.
+
+* **#**: Cluster Role sequential number registered on the Mangue.io platform.
+* **Cluster Role**: Cluster Role name specified by the user during the creation.
+* **Pod Security Policy**: Pod Security Policy name associated with the Cluster Role.
+* **Allows the Privilege Escalation**: Allows that the application created alters its User ID, making it possible the container's sons process get more privileges than the father process.
+* **Role Binding**: Role Binding name associated with the Cluster Role.
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, presents the following options:
+
+.. image:: /figuras/fig_mangue/137_mangue_acoes_role.png
+    :alt: actions role
+    :align: center
+----
+
+      * **Create Role Binding**: When selecting the option to create cluster role is presented the screen below, through which the user may create a Role Binding associating the Cluster Role with the *ServiceAccounts*.
+      * **Delete Role Binding**: In case there is a Role Binding associated with the Cluster Role it is exhibited the option to delete the Role Binding, when selecting the option the Role Binding is deleted.
+      * **Delete Cluster Role**: When selecting the option to exclude is deleted the selected Cluster Role.
+
+.. image:: /figuras/fig_mangue/138_mangue_add_rolebinding.png
+    :alt: add role binding
+    :align: center
+====
+
+Integrations
+==============
+
+Through this Integrations menu, the user may connect the Mangue.io platform with entities, services and external providers. These integrations allow the user to expand the Mangue.io platform coverage connecting and integrating the current infrastructure, to which supports and executes the Mangue.io installation with the containers managers in public providers. 
+
+This menu comes with the purpose of treating other questions beyond the simple Kubernetes management, like for example:
+
+* Integration via containers command line executed in the cluster;
+* Clusters Kubernetes creation in the public clouds AWS and Google;
+* Import already existing clusters Kubernetes;
+* Import credentials for the cluster's creation procedures in public clouds are more easily performed.
+
+A. **Clusters**
+~~~~~~~~~~~~~~~~
+
+The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
+
+The Integrations/Cluster menu allows to make all the management and integration of Clusters Kubernetes managed by the platform through a user. In this menu, it is possible to provision clusters Kubernetes on the Amazon and Google (EKS e GKE) infrastructures, reminding that to provision these clusters is necessary to add a credential on the Integration/Credentials menu.
+
+It is also possible to add a cluster Kubernetes that had not been provisioned on the platform, whether it is on its On Premise environment or in the cloud. It is important to highlight that the clusters that have the Kubernetes APIS modified, may not correspond positively to the Kubernetes APIS calls made by Mangue.io.
+
+.. image:: /figuras/fig_mangue/139_mangue_integracao_clusters_kubernetes.png
+    :alt: integrations
+    :align: center
+----
+
+On the list it may find information of each cluster configured and integrated to the Mangue.io platform:
+
+* **Name**: On this column it is presented the name that was used to identify the Cluster during the process of configuration by the user. 
+* **Public IP**: This column presents the information of the cluster's Public TCP-IP Address. This is the address by which the cluster may be used to access the applications (deployments) that are being executed on this cluster.
+* **Actions**: This column presents the ``Action`` button |icone_acao| when clicked, presents the actions two options: 
+
+.. image:: /figuras/fig_mangue/140_mangue_acoes_cluster.png
+    :alt: actions cluster
+    :align: center
+----
+
+      * **Edit Cluster**: On this option the user may edit the characteristics of an existing cluster and when selected the platform presents the screen below:
+
+.. image:: /figuras/fig_mangue/141_mangue_editar_cluster.png
+    :alt: edit cluster
+    :align: center
+----
+
+          * **Cluster name**: On this blank the user may alter the reference name with which cluster is configured.
+          * **IP for API access**: On this blank the user may alter the Public TCP-IP Address so the cluster is possible to be accessed.
+          * **API access port**: On this blank the user may alter the TCP-IP PORT so it is possible to access the cluster.
+          * **Cluster Admin Token**: On this blank the user may alter the character chain (string) that was generated by the public provider with the objective to confirm and authenticate the configuration identity (token) with the cluster. In case it is necessary to alter this chain of characters, it is important to consult the process of identification generation (token) of each provider, or each container management environment, specifically.
+          * ``Confirm`` **button**: The user must press this button after confirming all the altered blanks.
+
+      * **Delete Cluster**: When the user selects this action they remove the cluster. The Mangue.io platform requires the user confirmation to remove (erase) from the Mangue.io platform:
+
+.. image:: /figuras/fig_mangue/142_mangue_aviso_cluster.png
+    :alt: warning cluster
+    :align: center
+----
+
+In case the user has executed this action by mistake, it is necessary to include the cluster again on the Mangue.io platform. See the sequence of inclusion of a new cluster that is described in this document below.
+
+The Mangue.io platform allows the user to integrate with the infrastructure of an existing cluster as well as implementing or creating a new cluster.
+
+In the sequence the process of integration is described, it allows the user to add an existing cluster or a new one to the Mangue.io platform.
+
+----
+
+B. **Integrate Cluster**
+~~~~~~~~~~~~~~~~~~~~~~
+
+To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
+
+.. image:: /figuras/143_mangue_cluster_existente.png
+    :alt: existing cluster
+    :align: center
+----
+
+* **Cluster Name**: On this blank the user must inform the reference name with which cluster is identified on the Mangue.io platform.
+* **Contract**:This blank is a dropdown list with the user's contracts, when selecting, the Cluster is associated with the selected contract.
+* **Type of Cluster**: This blank is a dropdown list with the four available options on the Mangue.io platform. Currently available are public environments: Google Kubernetes Engine (**GKE**), Amazon Elastic Kubernetes System (**EKS**), Azure Kubernetes Service (**AKS**) and IBM Cloud (**IKS**). When selected, each one of the recipient options the Mangue.io platform behaves in the correct way to communicate and manage the cluster in the correct way. 
+* **IP for API access**: On this blank the user must inform the Public TCP-IP Address so the cluster is possible to be accessed.
+* **Path for API access**: On this blank the user must inform the path used to access the Kubernetes’ API, in case there is.
+* **Port for API access**: On this blank the user must inform the TCP-IP PORT number so the cluster is accessed. 
+* **Cluster Admin Token**: On this blank the user may alter the character chain (string) that was generated by the public provider with the objective to confirm and authenticate the configuration identity (token) with the cluster. In case it is necessary to alter this chain of characters, it is important to consult the process of identification generation (token) of each provider, or each container management environment, specifically.
+* **Integrate button**: When finalizing the filling of the blanks above, the user must click with the mouse on the green button ``Integrate`` so the Mangue.io platform includes this cluster on the list presented on this screen.
+* **Action of updating**: In case the Mangue.io interface does not present the list, the cluster newly configured, the user must click on the |icone_update| icon so the application exhibits the updated list of this clusters' table.
+
+----
+
+C. **Integrate Multiple Clusters**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
+    :alt: multiple clusters
+    :align: center
+----
+
+To start the process of Integrating Multiple Clusters the user must click with the mouse on the button on the right side so the screen presents the specific blanks.
+
+On this screen the user may integrate several existing Clusters on the public cloud providers. They must select which they wish to search, next the following blanks are exhibited:
+
+* **Contract**: This blank is a dropdown list with the user's contracts, when selecting, the partform loads the credentials of the selected contract.
+* **Credential**: The user must select one of the access credentials registered on the Mangue.io platform to confirm their identity alongside the environment contracted with the public cloud. 
+
+After filling in all the blanks, the user must click on the ``Search`` button and the platform shows a dropdown list of the Clusters already existing on the selected platforms. The user must select the Clusters that are to be integrated to the platform, after selecting the ``Integrate`` button is available to be clicked.
+
+-----
+
+D. **Create Cluster on Premise**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
+    :alt: cluster on premise
+    :align: center
+----
+
+Through the ``Create Cluster`` button it is possible to create a cluster on premise, which the user can inform the IP, user, password and type (master, worker) of each one of the machines that together form the Kubernetes Cluster. For that it is necessary to fill out information such as:
+
+* **Cluster name**: On this blank the user must inform the reference name which the cluster is identified in the Mangue.io platform.
+* **Contract**: This blank is a dropdown list with the user's contracts, the cluster is associated with the selected contract.
+* **Machine IP**: Determines the machine type, it can be worker or master:
+
+      * **Worker**: These are machines responsible for receiving the tasks attributed from the node master, executing them and reporting the status to the node master, thus, they are the machines that execute the docker containers that have the applications.
+
+      * **Master**: The node master is considered the Kubernetes cluster brain, because it is responsible for managing and controlling the nodes workers, making decisions about where and how to execute the applications.
+
+* **User**: The user is necessary to connect the informed machine on the  IP blank.
+* **Password**: Necessary to log in with the user and IP informed on the previous blanks.
+* **ETCD**: It's a checkbox space which if enabled, then that machine also works as ETCD. In case none of the machines informed have the ETCD enabled, then by default te node master machine also works as ETCD
+
+It is necessary at least two machines for the cluster creation to occur with success. The machines need access to the internet. As well as it is recommended the minimum of 2 CPU, 4GB of memory and 80GB of storage per node. 
+
+When clicking on ``Create``, a screen with the on premise cluster creation process console is shown, as the image below:
+
+.. image:: /figuras/fig_mangue/146_mangue_log_cluster.png
+    :alt: log cluster
+    :align: center
+----
+
+
+Simplified Cluster Integration – Via Form (GKE, EKS, AKS, IBM Cloud)
+-------------------------------------------------------------------------------
+
+The Mangue.io platform allows to simplify the integration process with an existing cluster in the public cloud providers (Amazon, Google, Azure and IBM) through the form that directs the user to the filling of credentials and configurations in a very clear and simple way.
+
+On the following screen the user can see that below each public service provider logo there is a button that presents the respective form of each provider:
+
+.. image:: /figuras/fig_mangue/147_mangue_cirar_integrar.png
+    :alt: create integrate
+    :align: center
+----
+
+On the screens below is described the specific forms characteristics of each provider.
+
+A. **Google Kubernetes Engine – GKE**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To perform an integration (via form) with a container manager existing on the Google provider, the user must click with the mouse cursor on the gray area below the Google Kubernetes Engine logo and the Mangue.io platform presents the screen below with the GKE form:
+
+.. image:: /figuras/fig_mangue/148_mangue_google_info.png
+    :alt: google infor
+    :align: center
+----
+
+* **Contract**: The user selects the contract for the platform to load this contract's credentials.
+* **Cluster Name**: On this blank the user must fill in this blank with the cluster's identification name for the Mangue.io platform.
+* **GKE Credentials**: The user must select one of the access credentials registered on the Mangue.io platform to confirm their identity alongside the environment contracted by the Google Cloud Platform. It is important to highlight that the specific documentation of each provider must be consulted about how to generate/create these credentials with permission to the provider's containers management. 
+* **Number of Nodes (per zone)**: On this blank the user must inform the full number that defines the quantity of nodes desired for this cluster.
+* **Region**: On this blank the user must select from a dropdown list the regions available on the specific provider. In this case are listed only the global regions specified on the Google Cloud Platform.
+* **Machine Type**: On this blank the user must select from a dropdown the type machine configuration (CPU, Memory, Disk or Template) available on the provider. In this case are listed only the Google Cloud Platform specified templates. 
+* **Main Version**: On this blank the user selects the Kubernetes version available on the public cloud provider. 
+* ``Create Cluster`` **button**: The user just needs to click on the ``Create Cluster`` button, when all the configurations regarding all the nodes are finished. For the Mangue.io platform to add a new cluster to the internal infrastructure it must start this new cluster to the computing environment that is executed as one more containers (clusters) manager environment. 
+
+      * **Action of updating**: The cluster creation depends on the public cloud provider, the status of the cluster creation can be followed in Tasks.
+
+----
+
+B. **Elastic Kubernetes Service – Amazon EKS**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To perform an integration (via form) with a container manager existing on the Amazon AWS provider, the user must click with the cursor on the gray area below the Elastic Kubernetes Service - Amazon EKS logo and the Mangue.io platform presents the screen below with the EKS form:
+
+.. image:: /figuras/fig_mangue/149_mangue_amazon_info.png
+    :alt: amazon info
+    :align: Center
+----
+
+* **Contract**: The user selects the contract for the platform to load their credentials.
+* **Cluster Name**: On this blank the user must fill in with the cluster identification name for the Mangue.io platform.
+* **Credential**: The user must select one of the access credentials registered on the Mangue.io platform to confirm their identity alongside the environment contracted with the Amazon Web Services - AWS. It is important to highlight that the specific documentation of each provider must be consulted about how to generate/create these credentials with permission to the provider's containers management environment.
+* **Region**: On this blank the user must select from a dropdown list the regions available in the specific provider. In this case are listed only the global regions specified on the Amazon Web Services - AWS. 
+* **Kubernetes Version**: On this blank the user selects the Kubernetes version available on the public cloud provider.
+* **Machine Template**: On this blank the user must select from a dropdown list the type of machine configuration (CPU, Memory, Disk or Template) available on the provider. In this case are listed only the specific templates from the AWS.
+* **Quantity of Nodes**: On this blank the user must inform the full number, necessary to the quantity of nodes for the cluster infrastructure.
+* ``Confirm`` **button**: The user just needs to click on the ``Confirm`` button, when all the configurations regarding to all the nodes are finalized, for the Mangue.io platform adds a new cluster to the Mangue.io platform internal infrastructure, start this new cluster to the computing environment that is executed as once more containers (clusters) manager environment. 
+
+    * **Action of updating**: The cluster creation depends on the public cloud provider, the status of the cluster creation can be followed in Tasks.
+
+----
+
+C. **AKS**
+~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
