@@ -3970,9 +3970,9 @@ O menu de Segredo contém uma tabela com as seguintes informações:
    * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste secret.
    * Ações: Esta coluna apresenta um botão de ação, que é uma lata de lixo “  ” que ao ser clicado, remove o secret da mesma linha. Ao selecionar a ação “Deletar Secret” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
+    :alt: Aviso deletar 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3986,9 +3986,9 @@ Esta nova seção da tela apresenta a lista de todos os componentes de um secret
 
 Para cada componente do secret a plataforma do Mangue.io apresenta um ícone de visualização do conteúdo do componente do Secret. Este ícone é representado com “olho” (“  ”), quando o usuário clicar sobre o ícone a plataforma do Mangue.io  apresenta o conteúdo do componente como o exemplo abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/200_mangue_valores.png
+    :alt: Valores 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4005,9 +4005,9 @@ A plataforma Mangue.io pode agendar tarefas para serem realizadas em uma data po
    * Escalar Deployment.
    * Atualizar ConfigMap.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/201_mangue_agenda_tarefa.png
+    :alt: Agenda tarefas
+    :scale: 100 %
     :align: center
 =====    
 
@@ -4021,18 +4021,18 @@ Abaixo é descrito as informações presentes na tabela de tarefas agendadas.
    * Detalhes: Detalhes sobre a tarefa a ser realizada.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as seguintes opções:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/202_mangue_acoes_agendamento.png
+    :alt: Ações agendamento
+    :scale: 100 %
     :align: center
 =====  
 
    * Editar Agendamento: Ao selecionar a opção de editar será apresentada a tela com as informações do agendamento, sendo possível editá-las.
    * Cancelar Agendamento: Ao selecionar a opção de cancelar agendamento, a data desejada será excluída da plataforma.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/203_mangue_agendar_tarefa.png
+    :alt: Agendar tarefas 
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4045,9 +4045,9 @@ Para criar uma tarefa agendada é necessário clicar no botão de “  ” e é 
    * Escalar Deployment.
    * Atualizar ConfigMap.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/204_mangue_deployment.png
+    :alt: Deployment
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4058,9 +4058,9 @@ Caso seja selecionada a opção de “Atualizar Deployment” será necessário 
    * Nome do Container: O nome do container a ser atualizado.
    * Versão do Container: Versão para qual o Container será atualizado.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/205_mangue_deployment_opcoes.png
+    :alt: Deployment opções 
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4070,9 +4070,9 @@ Caso seja selecionada a opção de “Escalar Deployment”, é essencial preenc
    * Deployment: O usuário deve selecionar o deployment a ser atualizado,
    * Réplicas: Quantidade de réplicas a qual o Deployment será escalado.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/206_mangue_configmap.png
+    :alt: Configmap mapeando
+    :scale: 100 %
     :align: center
 =====    
 
@@ -4087,6 +4087,8 @@ Os campos de um arquivo de ConfigMap são:
 
 * Nome do Arquivo: O usuário deve informar no nome do arquivo a ser criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
 * Conteúdo do Arquivo: O usuário deve preencher com o conteúdo específico do arquivo a ser criado.
+
+====
 
 
 Storage
@@ -4116,9 +4118,9 @@ Os StorageClass são responsáveis por criar classes de storage de diferentes ti
 
 Quando o usuário selecionar o menu Storage/StorageClass a plataforma do Mangue.io apresenta a lista de todos os StorageClass que existem configurados no cluster que foi selecionado na aba engrenagens “Seleção de Configuração” da plataforma do Mangue.io. 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/207_mangue_storageclass.png
+    :alt: StorageClass
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4130,17 +4132,17 @@ Abaixo são descritos as colunas desta lista:
    * Duração: Descreve há quanto tempo atrás o recurso foi criado.
    * Ações: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
    
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/208_mangue_deletar_storageclass.png
+    :alt: Deletar StorageClass
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/209_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====    
   
@@ -4156,9 +4158,9 @@ Os PersistentVolumes (PV) são uma parte do armazenamento no cluster que foi pro
 
 Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Mangue.io apresenta a lista de todos os PersistentVolumes que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/210_mangue_pv.png
+    :alt: Persistent volumes
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4179,17 +4181,17 @@ Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Man
    * Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
+    :alt: Deletar volume
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/212_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====     
    
@@ -4203,9 +4205,9 @@ Os PersistentVolumeClaims (PVC) são uma solicitação de armazenamento por um u
 
 O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um determinado namespace do cluster, a tabela exibe informações como:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/213_mangue_pvc.png
+    :alt: Persistent volume claim
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4220,17 +4222,17 @@ O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um 
    * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
+    :alt: Deletar volume
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/212_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====     
    
@@ -4244,9 +4246,9 @@ A plataforma do Mangue.io é um ambiente que se comunica com o gerenciador de co
 
 Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta-a para o usuário na tabela da interface. Abaixo a tela Tarefas exibe um exemplo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/214_mangue_tarefas.png
+    :alt: Tarefas
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4257,9 +4259,9 @@ Na lista podemos encontrar o status das tarefas referentes ao cluster que foi se
    * Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
    * Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/214_mangue_tarefas.png
+    :alt: Info status
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4273,9 +4275,9 @@ Na lista podemos encontrar o status das tarefas referentes ao cluster que foi se
 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/192_mangue_pesquisar_registry.png
+    :alt: Pesquisar registry
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4300,9 +4302,9 @@ A plataforma do Mangue.io pode gerenciar diversos componentes que o Kubernetes o
 
 Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser extensa. Abaixo está apresentado um exemplo de um destes componentes que são listados na tela:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/216_mangue_workloads.png
+    :alt: Workloads
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4321,7 +4323,7 @@ Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser
 
 Caso o usuário necessite visualizar todas as informações detalhadas de um componente presente na lista, basta clicar com o cursor do mouse sobre o nome do componente e a plataforma do Mangue.io apresenta as mesmas informações presentes no menu Workloads (exemplo de informações de um deployment abaixo):
 
-.. image:: /figuras/fig_mangue/.png
+.. image:: /figuras/fig_mangue/217_mangue_deployment_info.png
     :alt: 
     :scale: 80 %
     :align: center
