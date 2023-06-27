@@ -3109,6 +3109,8 @@ Na tela a seguir o usuário pode ver que abaixo de cada logo de provedor de serv
 
 Nas telas abaixo esclarecemos as características do formulário específico de cada provedor.
 
+----
+
 
 1. Google Kubernetes Engine – GKE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3141,7 +3143,7 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
      
      * **A ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
 
-
+----
 
 
 2. Elastic Kubernetes Service – Amazon EKS
@@ -3176,7 +3178,7 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
    
      * **Ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
 
-
+----
 
 3. AKS
 ~~~~~~
@@ -3209,7 +3211,7 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
    
      * **Ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
 
-
+----
 
 4. IBM Cloud
 ~~~~~~~~~~~~
@@ -3271,6 +3273,7 @@ Esta credencial é chamada de *KubeConfig* [Link: https://kubernetes.io/docs/con
 Caso já tenha o *KubeConfig* cadastrado, o usuário pode exibi-lo clicando no ícone |icone_exibir|. Também é possível excluir o *KubeConfig* cadastrado clicando no ícone |icone_lata_lixo_preta|.
 
 
+====
 
 
 Performance
@@ -3305,6 +3308,8 @@ Nesta seção, na parte superior da tela, é apresentado um formulário com os c
    * **Token**: Neste campo o usuário deve utilizar um *Bearer Token* (mencionado no tópico abaixo) de um *Service Account* com a permissão de realizar consultas na API do *Metric Server*.
    
    * **Confirmar**: O usuário deve pressionar este botão após checar todos os campos anteriores e assim, confirmar as configurações referentes ao servidor de monitoramento.
+
+----
 
 
 2. Seção: Monitoramentos Disponíveis
@@ -3424,9 +3429,11 @@ Após preencher todos os campos necessários, o botão de ``Adicionar Helm`` est
 Server VS Code
 --------------
 
-O Visual Studio Code é um Ambiente de Desenvolvimento Integrado (Integrated Development Environment - IDE) para o desenvolvimento de aplicações. Essa IDE pode ser instalada em um Cluster, através de um Deployment, assim permitindo que a IDE seja executada dentro de um navegador do usuário. Para utilizar a funcionalidade de Server VS Code é necessário ter cadastrado previamente o KubeConfig do Cluster na plataforma Mangue.io.
+O *Visual Studio Code* é um Ambiente de Desenvolvimento Integrado (Integrated Development Environment - IDE) para o desenvolvimento de aplicações. Essa IDE pode ser instalada em um *Cluster*, através de um *Deployment*, assim permitindo que a IDE seja executada dentro de um navegador do usuário. 
 
-Na tela de Server VS Code será exibida uma lista atualizada, com os Visual Studio Code no Cluster atualmente. Também é possível que o usuário realize a pesquisa dos Visual Studio Code instalados, por meio do nome.
+Para utilizar a funcionalidade de *Server VS Code* é necessário ter cadastrado previamente o *KubeConfig* do *Cluster* na plataforma Mangue.io.
+
+Na tela de *Server VS Code* é exibida uma lista atualizada, com o *Visual Studio Code* no *Cluster* atualmente. Também é possível que o usuário realize a pesquisa dos *Visual Studio Code* instalados, por meio do nome.
   
 
 
@@ -3437,15 +3444,21 @@ Na tela de Server VS Code será exibida uma lista atualizada, com os Visual Stud
 =====  
 
 
-Abaixo descrevemos as informações presentes na tabela de VS Codes.
+Abaixo a descrição das informações presentes na tabela de *VS Code*.
 
-   * #: Número sequencial do VS Code cadastrado na plataforma do Mangue.io.
-   * Nome: Nome do VS Code especificado pelo usuário durante a criação.
-   * Usuário: Nome do usuário que criou o Visual Studio Code.
-   * Data de Criação: Data em que foi criado o Visual Studio Code no Cluster
-   * Réplicas: Quantidade de réplicas do deployment disponíveis e desejadas
-   * IP: IP do Visual Studio Code para ser acessado no navegador Web.
-   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de excluir VS Code, como mostra a figura:
+   * **#**: Número sequencial do *VS Code* cadastrado na plataforma do Mangue.io.
+   
+   * **Nome**: Nome do *VS Code* especificado pelo usuário durante a criação;
+   
+   * **Usuário**: Nome do usuário que criou o *Visual Studio Code*;
+   
+   * **Data de Criação**: Data em que foi criado o *Visual Studio Code* no *Cluster*;
+   
+   * **Réplicas**: Quantidade de réplicas do *deployment* disponíveis e desejadas;
+   
+   * **IP**: IP do *Visual Studio Code* para ser acessado no navegador *Web*;
+   
+     * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta a opção de excluir *VS Code*, como mostra a figura:
 
   
 
@@ -3456,7 +3469,7 @@ Abaixo descrevemos as informações presentes na tabela de VS Codes.
 =====  
 
 
-   * Excluir  VS Code: Ao selecionar a opção de excluir é removido o VS Code selecionado do Cluster.
+   * **Excluir VS Code**: Ao selecionar a opção de excluir é removido o *VS Code* selecionado do *Cluster*.
   
 
 
@@ -3467,33 +3480,55 @@ Abaixo descrevemos as informações presentes na tabela de VS Codes.
 =====  
 
 
-Para criar um Visual Studio Code é necessário clicar no botão de “  ” e preencher os campos abaixo:
+Para criar um *Visual Studio Code* é necessário clicar no botão de Adição |icone_adicionar| e preencher os campos abaixo:
    
-   * Nome do Servidor VS Code: Nome do servidor Visual Studio Code a ser criado.
-   * Tamanho do Servidor VS Code: Tamanho de disco a ser disponibilizado para o Visual Studio Code. A medida do tamanho é definida no campo de Tipo do Tamanho.
-   * Tipo de Serviço: O usuário pode selecionar o tipo de serviço a ser atribuído ao deployment do Visual Studio Code. As opções disponíveis são: Cluster IP, NodePort, Load Balancer e Ingress
-   * Porta: O usuário pode selecionar a porta que é utilizada no serviço.
-   * Tipo do Tamanho: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi.
-   * Ingress Class: Caso o tipo de serviço selecionado seja Ingress é necessário selecionar a Ingress Class a ser utilizada pelo o serviço.
-   * URL do Servidor VS Code: Caso o tipo de serviço selecionado seja Ingress é necessário especificar a rota do Ingress. Exemplo: /vscode
-   * Ativar autenticação: O usuário pode atribuir uma senha que é necessária para acessar o Servidor VS Code.
-   * Senha do Servidor VS Code: Senha a ser utilizada para acessar o Servidor VS Code.
+   * **Nome do Servidor VS Code**: Nome do servidor *Visual Studio Code* a ser criado;
+   
+   * **Tamanho do Servidor VS Code**: Tamanho de disco a ser disponibilizado para o *Visual Studio Code*. A medida do tamanho é definida no campo de Tipo do Tamanho;
+   
+   * **Tipo de Serviço**: O usuário pode selecionar o tipo de serviço a ser atribuído ao *deployment* do *Visual Studio Code*. As opções disponíveis são: *Cluster IP*, *NodePort*, *Load Balancer* e *Ingress*;
+   
+   * **Porta**: O usuário pode selecionar a porta que é utilizada no serviço;
+   
+   * **Tipo do Tamanho**: Especifica a unidade de tamanho. As opções disponíveis são: Gi e Mi;
+   
+   * **Ingress Class**: Caso o tipo de serviço escolhido seja *Ingress* é necessário selecionar a *Ingress Class* a ser utilizada pelo o serviço;
+   
+   * **URL do Servidor VS Code**: Caso o tipo de serviço selecionado seja *Ingress* é necessário especificar a rota do *Ingress*. Exemplo: /vscode;
+   
+   * **Ativar autenticação**: O usuário pode atribuir uma senha que é necessária para acessar o *Servidor VS Code*;
+   
+   * **Senha do Servidor VS Code**: Senha a ser utilizada para acessar o *Servidor VS Code*.
+
+
+===
+
+
 
 Services, Load Balancing and Networking
 =======================================
 
-Os Pods nascem e morrem, e quando morrem, morrem mesmo, não ressuscitam. Os controladores ReplicaSets, em particular, criam e apagam Pods dinamicamente (por exemplo: ao escalar ou reduzir). Embora cada Pod tenha seu próprio endereço TCP-IP, até mesmo estes  não podem ser considerados estáveis ao longo do tempo (ex.: Protocolo de Configuração Dinâmica de Endereços de Rede, em inglês, Dynamic Host Configuration Protocol - DHCP). Isso pode gerar um problema, se algum conjunto de Pods (nomeado de back-end) fornece funcionalidade a outros pods (nomeado de front-end) dentro de um cluster do Mangue.io; Como esses front-ends descobrem e controlam os back-ends que estão neste conjunto? É neste momento que se introduzem os Serviços.
+Os *Pods* nascem e morrem, e quando morrem, morrem mesmo, não ressuscitam. Os controladores *ReplicaSets*, em particular, criam e apagam *Pods* dinamicamente (por exemplo: ao escalar ou reduzir). 
 
-Um Serviço no Mangue.io é uma instância do objeto Service do Kubernetes que, por sua vez, é uma abstração que define um conjunto lógico de Pods e uma política pela qual é possível acessá-los. O conjunto de Pods segmentados por um serviço é, geralmente, determinado por um conjunto de Labels.
+Embora cada *Pod* tenha seu próprio endereço TCP-IP, até mesmo estes não podem ser considerados estáveis ao longo do tempo (ex.: Protocolo de Configuração Dinâmica de Endereços de Rede, em inglês, *Dynamic Host Configuration Protocol* - *DHCP*). 
 
-O menu Services, Load Balancing and Networking é dividido em dois submenus os quais correspondem por: Serviços, Ingress. Cada submenu tem um propósito específico descrito a seguir.
+Isso pode gerar um problema, se algum conjunto de *Pods* (nomeado de *back-end*) fornece funcionalidade a outros *pods* (nomeado de *front-end*) dentro de um *cluster* do Mangue.io; Como esses *front-ends* descobrem e controlam os *back-ends* que estão neste conjunto? É neste momento que se introduzem os Serviços.
+
+Um Serviço no Mangue.io é uma instância do objeto *Service do Kubernetes* que, por sua vez, é uma abstração que define um conjunto lógico de *Pods* e uma política pela qual é possível acessá-los. O conjunto de *Pods* segmentados por um serviço é, geralmente, determinado por um conjunto de *Labels*.
+
+O menu *Services*, *Load Balancing and Networking* é dividido em dois submenus os quais correspondem por: Serviços, *Ingress*. Cada submenu tem um propósito específico descrito a seguir.
+
+====
+
 
 Serviços
 --------
 
-É uma maneira abstrata de expor um aplicativo em execução em um conjunto de pods como um serviço de rede. Com o Kubernetes, o usuário não precisa modificar seu aplicativo para usar um mecanismo de Service Discovery desconhecido. O Kubernetes fornece aos pods seus próprios endereços TCP-IP e um único nome DNS para um conjunto de pods e pode balancear a carga entre eles. Neste submenu serão listados os serviços existentes no namespace o qual o usuário está navegando.
+É uma maneira abstrata de expor um aplicativo em execução em um conjunto de *pods* como um serviço de rede. Com o *Kubernetes*, o usuário não precisa modificar seu aplicativo para usar um mecanismo de *Service Discovery* desconhecido. 
 
-O menu Networking/Serviços apresenta todos os serviços de um cluster em um determinado namespace, na tabela temos informações listadas como na tela abaixo:
+O *Kubernetes* fornece aos *pods* seus próprios endereços TCP-IP e um único nome *DNS* para um conjunto de *pods* e pode balancear a carga entre eles. Neste submenu são listados os serviços existentes no *namespace* o qual o usuário está navegando.
+
+O menu *Networking*/Serviços apresenta todos os serviços de um *cluster* em um determinado *namespace*, na tabela temos informações listadas como na tela abaixo:
   
 
 
@@ -3504,16 +3539,23 @@ O menu Networking/Serviços apresenta todos os serviços de um cluster em um det
 =====  
 
 
-   * Serviço: Representa o nome do serviço criado, é o identificador principal de um serviço na hora de executar uma pesquisa na barra de pesquisa. 
-   * Protocolo: Responsável por identificar o tipo do protocolo desse serviço, podem ser por exemplo: TCP, UDP. 
-   * Tipo: Representa o tipo do serviço criado no Kubernetes, existem três tipos de serviço são eles:
-     * NodePort: São serviços acessíveis externamente através do range de portas de 30000 a 32767.
-     * ClusterIP: São serviços que só serão possíveis de ser acessados na rede interna do cluster.
-     * LoadBalancer: É um tipo de serviço existente com o intuito de provisionar um LoadBalancer na 7ª camada, para que seja feita a comunicação com o serviço da 4ª camada criado no cluster Kubernetes.
-   * Port: São as portas que o serviço está apto a receber requisições.
-   * Duração: Responsável por identificar a quanto tempo a estrutura do serviço foi criada.
-   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
-
+   * **Serviço**: Representa o nome do serviço criado, é o identificador principal de um serviço na hora de executar uma pesquisa na barra de pesquisa;
+   
+   * **Protocolo**: Responsável por identificar o tipo do protocolo desse serviço, podem ser por exemplo: TCP, UDP;
+   
+   * **Tipo**: Representa o tipo do serviço criado no *Kubernetes*, existem três tipos de serviço são eles:
+   
+     * **NodePort**: São serviços acessíveis externamente através do range de portas de 30000 a 32767;
+   
+     * **ClusterIP**: São serviços que só serão possíveis de ser acessados na rede interna do *cluster*;
+   
+     * **LoadBalancer**: É um tipo de serviço existente com o intuito de provisionar um *LoadBalancer* na 7ª camada, para que seja feita a comunicação com o serviço da 4ª camada criado no *cluster Kubernetes*;
+   
+   * **Port**: São as portas que o serviço está apto a receber requisições;
+   
+   * **Duração**: Responsável por identificar a quanto tempo a estrutura do serviço foi criada;
+   
+   * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta três opções:
   
 
 .. image:: /figuras/fig_mangue/164_mangue_acoes_servico.png
@@ -3525,7 +3567,8 @@ O menu Networking/Serviços apresenta todos os serviços de um cluster em um det
 
 Abaixo segue descrição de cada opção deste submenu:
 
-   * Adicionar Ingres: Ingress é um serviço que pode ser configurado para fornecer aos Serviços URLs acessíveis externamente. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Esta tela efetua a criação de um Ingress em duas etapas, inicialmente a criação de um balanceador de carga, e em sequência a criação do Ingress na plataforma do Mangue.io.
+     * **Adicionar Ingress**: *Ingress* é um serviço que pode ser configurado para fornecer aos Serviços URLs acessíveis externamente. Um *Ingress Controller* é responsável por complementar o *Ingress*, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou *front-ends* adicionais para ajudar a lidar com o tráfego. 
+     Esta tela efetua a criação de um *Ingress* em duas etapas, inicialmente a criação de um balanceador de carga, e em sequência a criação do *Ingress* na plataforma do Mangue.io.
 
  
  .. image:: /figuras/fig_mangue/165_mangue_add_ingress.png
@@ -3535,12 +3578,14 @@ Abaixo segue descrição de cada opção deste submenu:
 =====  
 
 
-   * Nome do Ingress: Neste campo o usuário deve informar um nome que faz este serviço ser configurado na plataforma do Mangue.io.
-   * Gerar LoadBalancer: Após informar o nome do ingress o usuário deve clicar no botão verde com o ícone de um balanceador de carga (“  ”) para iniciar o processo de criação do balanceador de carga na plataforma do Mangue.io. O usuário deve esperar um feedback de alerta que é apresentado no canto superior direito da tela informado o sucesso ou erro desta ação.
-   * Adicionar: Após a criação, com sucesso, do balanceador de carga, o usuário deverá clicar no botão Adicionar para efetuar a criação do serviço de ingress na plataforma do Mangue.io.
+   * **Nome do Ingress**: Neste campo o usuário deve informar um nome que faz este serviço ser configurado na plataforma do Mangue.io;
+   
+   * **Gerar LoadBalancer**: Após informar o nome do *ingress* o usuário deve clicar no botão verde com o ícone de um balanceador de carga |icone_loadbalancer| para iniciar o processo de criação do balanceador de carga na plataforma do Mangue.io. O usuário deve esperar um *feedback* de alerta que é apresentado no canto superior direito da tela informado o sucesso ou erro desta ação;
+   
+   * **Adicionar**: Após a criação, com sucesso, do balanceador de carga, o usuário deve clicar no botão ``Adicionar`` para efetuar a criação do serviço de *ingress* na plataforma do Mangue.io;
 
 
-   * Deletar Serviço: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão "Deletar". Na sequência é apresentado o feedback de alerta no canto superior direito da tela informando o sucesso ou erro.
+     * **Deletar Serviço**: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão ``Deletar``. Na sequência é apresentado o *feedback* de alerta no canto superior direito da tela informando o sucesso ou erro.
 
 .. image:: /figuras/fig_mangue/166_mangue_aviso_ingress.png
     :alt: Aviso Ingress
@@ -3551,7 +3596,7 @@ Abaixo segue descrição de cada opção deste submenu:
 
 Importante ressaltar que esta ação é definitiva e remove (apaga) esta configuração da plataforma do Mangue.io, pois serão apagadas todas as referências deste servidor de monitoramento na plataforma do Mangue.io.
 
-   * Editar Serviço: Esta opção do menu de ações exibe a opção `Editar serviço`. Quando selecionada a plataforma do Mangue.io apresenta o conteúdo do arquivo em formato JSON com todas as configurações do serviço no Kubernetes. O usuário pode editar o que for necessário neste arquivo e selecionar o botão de “Enviar”. Aguardar o feedback da ação que abre o seguinte modal:
+     * **Editar Serviço**: Esta opção do menu de ações exibe a opção ``Editar serviço``. Quando selecionada a plataforma do Mangue.io apresenta o conteúdo do arquivo em formato *JSON* com todas as configurações do serviço no *Kubernetes*. O usuário pode editar o que for necessário neste arquivo e selecionar o botão  ``Enviar``. Aguardar o *feedback* da ação que abre o seguinte modal:
 
 .. image:: /figuras/fig_mangue/167_mangue_editar_servico.png
     :alt: Editar Serviço
@@ -3560,14 +3605,26 @@ Importante ressaltar que esta ação é definitiva e remove (apaga) esta configu
 =====  
 
 
-Recomendamos que somente usuários experientes em sintaxe YAML ou Kubernetes efetue as alterações no código de um serviço, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de clusters existentes. O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código YAML que a plataforma lhe apresenta.
+Recomendamos que somente usuários experientes em sintaxe *YAML* ou *Kubernetes* efetue as alterações no código de um serviço, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de *clusters* existentes. 
+
+O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código *YAML* que a plataforma lhe apresenta.
+
+====
 
 
 Ingress
 -------
 
-O Ingress expõe as rotas HTTP e HTTPS de fora do cluster para serviços dentro do cluster. O roteamento de tráfego é controlado por regras definidas no recurso Ingress. Um Ingress pode ser configurado para fornecer aos Serviços URLs acessíveis externamente, Load Balancing, configuração para SSL / TLS. Um Ingress Controller é responsável por complementar o Ingress, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou front-ends adicionais para ajudar a lidar com o tráfego. Neste submenu, serão listados os Ingress existentes no namespace que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
-Logo acima da tabela, existem três elementos com os quais o usuário poderá atuar:
+O *Ingress* expõe as rotas HTTP e HTTPS de fora do *cluster* para serviços dentro do *cluster*. O roteamento de tráfego é controlado por regras definidas no recurso *Ingress*. 
+
+Um Ingress pode ser configurado para fornecer aos Serviços URLs acessíveis externamente, *Load Balancer*, configuração para SSL / TLS. 
+
+Um *Ingress Controller* é responsável por complementar o *Ingress*, geralmente com um balanceador de carga, embora também possa configurar seu roteador de borda ou *front-ends* adicionais para ajudar a lidar com o tráfego. 
+
+Neste submenu, são listados os *Ingress* existentes no *namespace* selecionado na aba engrenagens |icone_engrenagem|  “Seleção de Configuração” da plataforma do Mangue.io.
+
+Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
+
   
 .. image:: /figuras/fig_mangue/168_mangue_pesquisar_atualizacoes.png
     :alt: Pesquisar atualizações
@@ -3577,8 +3634,9 @@ Logo acima da tabela, existem três elementos com os quais o usuário poderá at
 
 
 
-   * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo que possibilita ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado desta busca apenas os Updates que contiverem a palavra-chave da pesquisa são recuperados.
-   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de Ingress.
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo que possibilita ao usuário efetuar uma pesquisa pelo nome do *update* desejado. Basta informar parte do nome e teclar enter ou clicar sobre o ícone "Lupa" |icone_lupa_verde|. Como resultado desta busca apenas os *updates* que contiverem a palavra-chave da pesquisa são recuperados;
+   
+   * **Ação de atualizar**: Basta clicar no ícone |icone_update| para que o Mangue.io atualize a interface com os valores mais recentes desta tabela de *Ingress*.
 
 .. image:: /figuras/fig_mangue/169_mangue_ingress.png
     :alt: Ingress
@@ -3587,15 +3645,22 @@ Logo acima da tabela, existem três elementos com os quais o usuário poderá at
 =====  
 
 
-Abaixo descrevemos as informações da lista apresentada nesta tela:
+Abaixo a descrição das informações da lista apresentada nesta tela:
 
-   * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
-   * Nome: Esta coluna apresenta o nome do Ingress que foi informado durante o processo de cadastramento do Ingress na plataforma do Mangue.io.
-   * Host: Esta coluna apresenta a informação do nome do servidor (server name) que está registrado no DNS, ou o número do endereço TCP-IP deste servidor.
-   * Serviço: Esta coluna apresenta a informação de qual serviço este Ingress está associado.
-   * Address: Esta coluna apresenta o número do endereço TCP-IP do Ingress que foi configurado na plataforma do Mangue.io.
-   * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do Ingress até a presente data que o usuário está consultando esta lista.
-   * Ações: Esta coluna apresenta um botão de ação para deletar ingress, por meio do ícone de lixeira “  ”, Ao clicar no ícone será solicitado do usuário confirmação para conseguir deletar o ingress, conforme imagem abaixo:
+   * **#**: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io;
+   
+   * **Nome**: Esta coluna apresenta o nome do *Ingress* informado durante o processo de cadastramento do Ingress na plataforma do Mangue.io;
+   
+   * **Host**: Esta coluna exibe a informação do nome do servidor (*server name*) que está registrado no DNS, ou o número do endereço TCP-IP deste servidor;
+   
+   * **Serviço**: Esta coluna mostra a informação de qual serviço este *Ingress* está associado;
+   
+   * **Address**: Esta coluna apresenta o número do endereço TCP-IP do *Ingress* configurado na plataforma do Mangue.io;
+   
+   * **Duração**: Esta coluna exibe tempo em dias decorridos desde a data da criação do *Ingress* até a presente data que o usuário está consultando esta lista;
+   
+   * **Ações**: Esta coluna mostra o botão ``Ação`` para deletar *ingress*, por meio do ícone "Lixeira"  |icone_lata_lixo_preta|. Ao clicar no ícone é solicitado ao usuário a confirmação para conseguir deletar o *ingress*, conforme imagem abaixo:
+
 
 .. image:: /figuras/fig_mangue/170_mangue_aviso_deletar_ingress.png
     :alt: Aviso deletar Ingress
@@ -3605,18 +3670,21 @@ Abaixo descrevemos as informações da lista apresentada nesta tela:
 
 
 
-No caso de o usuário ter incluído um novo Ingress, recentemente, mas o usuário não encontra o nome na lista, o que o usuário pode fazer é clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
+No caso de o usuário ter incluído um novo *Ingress*, recentemente, mas o usuário não encontra o nome na lista, o que o usuário pode fazer é clicar no ícone |icone_update| para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
+
+====
+
 
 Namespaces
 ==========
 
-O Kubernetes oferece suporte a vários clusters virtuais apoiados por um mesmo cluster físico. Esses clusters virtuais são chamados de “namespaces”. Os namespaces são identificados por um “nome”. Estes podem conter diversos ‘recursos’, e cada recurso deve ter seu nome único. O usuário pode criar o mesmo recurso várias vezes (repetindo o mesmo nome) mas estes recursos devem estar configurados em um namespaces distinto.
+O *Kubernetes* oferece suporte a vários *clusters* virtuais apoiados por um mesmo *cluster* físico. Esses *clusters* virtuais são chamados de *namespaces*. Os *namespaces* são identificados por um “nome”. Estes podem conter diversos ‘recursos’, e cada recurso deve ter seu nome único. O usuário pode criar o mesmo recurso várias vezes (repetindo o mesmo nome) mas estes recursos devem estar configurados em um *namespaces* distinto.
 
-Namespaces também dão suporte a definição de quotas, como por exemplo um namespace voltado para um ambiente de Produção e um namespace para o ambiente de Homologação.
+*Namespaces* também dão suporte a definição de cotas, como por exemplo um *namespace* voltado para um ambiente de Produção e um *namespace* para o ambiente de Homologação.
 
-De forma clara, o ambiente computacional designado para o namespace Produção deve ter maior capacidade de recursos computacionais do cluster que o namespace configurado para um ambiente de Homologação – afinal este ambiente possui uma carga de uso eventual. As quotas limitam a quantidade de recursos computacionais que um determinado Namespace pode consumir.
+De forma clara, o ambiente computacional designado para o *namespace* Produção deve ter maior capacidade de recursos computacionais do *cluster* que o *namespace* configurado para um ambiente de Homologação – afinal este ambiente possui uma carga de uso eventual. As cotas limitam a quantidade de recursos computacionais que um determinado *Namespace* pode consumir.
 
-O menu Namespaces apresenta uma lista de todos os namespaces de um determinado cluster, na tabela temos informações como: nome do namespace, status e duração do namespace. Os namespaces consistem em diferentes áreas de trabalho que fazem parte de um cluster.
+O menu *Namespaces* apresenta uma lista de todos os *namespaces* de um determinado *cluster*, na tabela temos informações como: nome do *namespace*, *status* e duração do *namespace*. Os *namespaces* consistem em diferentes áreas de trabalho que fazem parte de um *cluster*.
 
 .. image:: /figuras/fig_mangue/171_mangue_namespaces.png
     :alt: Namespaces
@@ -3626,7 +3694,7 @@ O menu Namespaces apresenta uma lista de todos os namespaces de um determinado c
 
 
 
-Para que o usuário possa criar um namespaces, este deve clicar sobre ícone do sinal de adição ‘+’, para que seja apresentada a tela a seguir onde o usuário pode configurar um novo namespace:
+Para que o usuário possa criar um *namespaces*, este deve clicar sobre ícone do sinal de adição |icone_adicionar|, para que seja apresentada a tela a seguir onde o usuário pode configurar um novo *namespace*:
   
 .. image:: /figuras/fig_mangue/172_mangue_add_namespace.png
     :alt: Adicionar namespace
@@ -3636,13 +3704,13 @@ Para que o usuário possa criar um namespaces, este deve clicar sobre ícone do 
 
 
 
-A tela acima possui apenas um campo onde o usuário deve preencher o nome que deseja criar para o novo namespaces e clicar com o cursor do mouse no botão “Adicionar Namespaces”, para incluir este na plataforma do Mangue.io. A plataforma do Mangue.io apresenta um feedback dessa ação no campo superior direito da tela do browser de internet.
+A tela acima possui apenas um campo onde o usuário deve preencher o nome que deseja criar para o novo *namespaces* e clicar com o cursor do mouse no botão ``Adicionar Namespaces`` para incluir este na plataforma do Mangue.io. A plataforma do Mangue.io apresenta um *feedback* dessa ação no campo superior direito da tela do *browser* de *internet*.
 
-Este novo namespace é criado dentro do cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io.
+Este novo *namespace* é criado dentro do *cluster* selecionado na aba engrenagens  |icone_engrenagem| “Seleção de Configuração” da plataforma do Mangue.io.
 
-Após a inclusão de um novo namespace, caso este nome não se apresente na lista, o usuário pode clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
+Após a inclusão de um novo *namespace*, caso este nome não se apresente na lista, o usuário pode clicar no ícone |icone_update| para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
 
-Na última coluna da tabela existe a opção de deletar o namespace, quando esta coluna for selecionada ela abre um modal de confirmação. E caso confirmada, há um feedback de criação para o usuário.
+Na última coluna da tabela existe a opção de deletar o *namespace*, quando esta coluna for selecionada ela abre um modal de confirmação. E caso confirmada, há um *feedback* de criação para o usuário.
 
 .. image:: /figuras/fig_mangue/171_mangue_namespaces.png
     :alt: Namespace deletar
@@ -3653,13 +3721,19 @@ Na última coluna da tabela existe a opção de deletar o namespace, quando esta
 
 Abaixo a descrição dos campos da tabela apresentada nesta tela:
 
-   * # ‘coluna acionável’: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável (“   - check mark”). Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso será apresentado um ícone de lata de lixo (“  ”) que permite ao usuário remover todos os itens selecionados com um único comando.
-   * Nome: Esta coluna apresenta o nome do namespaces que foi informado durante o processo de cadastramento do namespaces na plataforma do Mangue.io.
-   * Status: O status de um namespaces identifica o estado atual do namespaces. Podem ser apresentados por Running, Pending ou “!” (ponto de exclamação).
-   * O status Running identifica que nenhum erro está acontecendo com o namespaces.
-   * O status Pending identifica algum estado de transição no namespaces. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição.
-   * O status “!” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o namespaces.
-   * Cota: Esta coluna apresenta um ícone de um “olho” (“  ”) que irá ficar ativo somente nas linhas de namespaces que possuam alguma cota definida para este. O usuário deve posicionar o cursor do mouse sobre o ícone e a plataforma do Mangue.io irá apresentar uma janela pop-up com nome e as características da cota definida para este namespace.
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. Neste caso é apresentado um ícone "Lata de lixo" |icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando;
+   
+   * **Nome**: Esta coluna apresenta o nome do namespaces que foi informado durante o processo de cadastramento do namespaces na plataforma do Mangue.io;
+   
+   * **Status**: O status de um namespaces identifica o estado atual do namespaces. Podem ser apresentados por Running, Pending ou “!” (ponto de exclamação);
+   
+     * O status Running identifica que nenhum erro está acontecendo com o namespaces;
+   
+     * O status Pending identifica algum estado de transição no namespaces. Seja por atualização, inicialização do processo do container ou qualquer atividade que identifique um estado de transição;
+   
+     * O status “!” (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o namespaces;
+   
+   * **Cota**: Esta coluna apresenta um ícone de um “olho” (“  ”) que irá ficar ativo somente nas linhas de namespaces que possuam alguma cota definida para este. O usuário deve posicionar o cursor do mouse sobre o ícone e a plataforma do Mangue.io irá apresentar uma janela pop-up com nome e as características da cota definida para este namespace.
 
 .. image:: /figuras/fig_mangue/173_mangue_test_quota.png
     :alt: Teste cota
@@ -3668,8 +3742,9 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
 =====  
 
 
-   * Duração: Esta coluna apresenta tempo em dias decorridos desde a data da criação do namespaces até a presente data que o usuário está consultando esta lista.
-   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
+   * **Duração**: Esta coluna apresenta tempo em dias decorridos desde a data da criação do namespaces até a presente data que o usuário está consultando esta lista.
+   
+   * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta três opções como a figura abaixo:
 
 .. image:: /figuras/fig_mangue/174_mangue_acoes_namespace.png
     :alt: Ações namespace
@@ -3678,7 +3753,7 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
 =====  
 
 
-   * Adicionar Labels: Um rótulo (label) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os softwares armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (labels) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no link do rodapé do site de documentação Kubernetes.io[2]).
+     * **Adicionar Labels**: Um rótulo (label) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os softwares armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (labels) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no link do rodapé do site de documentação Kubernetes.io[2]).
 
 .. image:: /figuras/fig_mangue/175_mangue_label_namespace.png
     :alt: Adicionar label namespace 
@@ -3690,9 +3765,11 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
 
 Esta tela possui dois campos e dois botões:
 
-   Chave: Neste campo o usuário deve preencher com o nome pelo qual a chave (key) será identificada.
-   Valor: Neste campo o usuário deve preencher com um número inteiro que será o valor da chave.
-   Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a chave e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado uma chave/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
+   * **Chave**: Neste campo o usuário deve preencher com o nome pelo qual a chave (key) será identificada.
+   
+   * **Valor**: Neste campo o usuário deve preencher com um número inteiro que será o valor da chave.
+   
+   * **Adicionar**: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a chave e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado uma chave/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
 
 .. image:: /figuras/fig_mangue/176_mangue_label_chave_valor.png
     :alt: Label chave valor
@@ -3701,10 +3778,10 @@ Esta tela possui dois campos e dois botões:
 =====  
 
 
-   Confirmar: O usuário deve clicar no botão “Confirmar” quando houver completado de informar a(s) chave(s)/valor(es) necessária(s) ao namespaces. Ao clicar no botão, a plataforma do Mangue.io irá configurar estas informações e fechar esta tela, apresenta o feedback da ação no canto superior direito da tela do browser de internet.
+   * **Confirmar**: O usuário deve clicar no botão “Confirmar” quando houver completado de informar a(s) chave(s)/valor(es) necessária(s) ao namespaces. Ao clicar no botão, a plataforma do Mangue.io irá configurar estas informações e fechar esta tela, apresenta o feedback da ação no canto superior direito da tela do browser de internet.
 
 
-   * Adicionar Cota de Recurso: Esta tela permite ao usuário estabelecer a quantidade ideal de recursos computacionais que o namespace consome para manter a sua performance ideal, bem como estabelecer o seu limite máximo de consumo de recursos computacionais.
+     * **Adicionar Cota de Recurso**: Esta tela permite ao usuário estabelecer a quantidade ideal de recursos computacionais que o namespace consome para manter a sua performance ideal, bem como estabelecer o seu limite máximo de consumo de recursos computacionais.
 
 A definição de uma cota pode impactar em outros serviços (workloads) cadastrados na plataforma o Mangue.io. Quando o usuário define um limite de CPU e Memória para um namespaces caso um deployment possua vários pods, réplicas ou Autoescalador Horizontal, estes nunca ultrapassam o limite de recurso computacional estabelecido na cota. 
 
@@ -3718,15 +3795,20 @@ Por exemplo: se um deployment necessita iniciar uma nova réplica definida no Au
 
 
 
-Nome da Cota: Informar o nome com o qual a cota será identificada para o namespaces na plataforma do Mangue.io.
-CPU Request: Neste campo o usuário deve preencher com um número inteiro que é o valor inicial de quantidade de CPU que o namespace deve requerer para manter a performance ideal.
-Memory Request: Neste campo o usuário deve preencher com um número inteiro que é o valor inicial de quantidade de Memória que o namespace deve requerer para manter a performance ideal.
-CPU Limit: Neste campo o usuário deve preencher com um número inteiro que é o valor do limite máximo de quantidade de CPU que o namespace deve restringir para não exaurir os recursos computacionais do cluster.
-Memory Limit: Neste campo o usuário deve preencher com um número inteiro que é o valor do limite máximo de quantidade de Memória que o namespace deve restringir para não exaurir os recursos computacionais do cluster.
-Confirmar: Quando o usuário preencher todos os campos deste formulário ele deve clicar no botão “Confirmar” para que a plataforma do Mangue.io configure e inclua as cotas de recursos ao namespaces selecionado.
+   * **Nome da Cota**: Informar o nome com o qual a cota será identificada para o namespaces na plataforma do Mangue.io.
+   
+   * **CPU Request**: Neste campo o usuário deve preencher com um número inteiro que é o valor inicial de quantidade de CPU que o namespace deve requerer para manter a performance ideal.
+
+   * **Memory Request**: Neste campo o usuário deve preencher com um número inteiro que é o valor inicial de quantidade de Memória que o namespace deve requerer para manter a performance ideal.
+
+   * **CPU Limit**: Neste campo o usuário deve preencher com um número inteiro que é o valor do limite máximo de quantidade de CPU que o namespace deve restringir para não exaurir os recursos computacionais do cluster.
+
+   * **Memory Limit**: Neste campo o usuário deve preencher com um número inteiro que é o valor do limite máximo de quantidade de Memória que o namespace deve restringir para não exaurir os recursos computacionais do cluster.
+
+   * **Confirmar**: Quando o usuário preencher todos os campos deste formulário ele deve clicar no botão “Confirmar” para que a plataforma do Mangue.io configure e inclua as cotas de recursos ao namespaces selecionado.
 
 
-   * Deletar: A terceira opção deste submenu permite que o usuário possa apagar (deletar) um namespace definitivamente do cluster que foi selecionado na ‘aba’ Configurações; e ao ser clicado abrirá a seguinte tela de interface solicitando a confirmação por parte do usuário:
+     * **Deletar**: A terceira opção deste submenu permite que o usuário possa apagar (deletar) um namespace definitivamente do cluster que foi selecionado na ‘aba’ Configurações; e ao ser clicado abrirá a seguinte tela de interface solicitando a confirmação por parte do usuário:
   
 .. image:: /figuras/fig_mangue/178_mangue_aviso_deletar.png
     :alt: Aviso deletar
@@ -3736,7 +3818,9 @@ Confirmar: Quando o usuário preencher todos os campos deste formulário ele dev
 
 
 .. attention:: Essa é uma ação extremamente destrutiva, pois ao deletar um namespace será deletado também TODOS os recursos e serviços presentes no mesmo.
-	
+
+====
+
 
 Nodes
 =====
@@ -3774,17 +3858,22 @@ A quantidade total de recursos dos Nodes de um Cluster, tanto para CPU quanto pa
 
 Logo acima da tabela, existe um elemento com o qual o usuário pode atuar:
 
-   * Exibir Nós por Contrato: Selecionando esta opção, aparece um campo, onde o usuário pode informar o nome do contrato pelo qual deseja realizar sua busca.
+   * **Exibir Nós por Contrato**: Selecionando esta opção, aparece um campo, onde o usuário pode informar o nome do contrato pelo qual deseja realizar sua busca.
 
 
 Abaixo a descrição das colunas desta tabela:
 
-   * Nome: Nome do node.
-   * Status: Corresponde ao estado atual do node.
-   * Running: Indica que o node está “saudável”.
-   * Failure: Indica que algum erro aconteceu com o node, ou no presente momento este se encontra indisponível.
-   * CPU Utilizada: Representa o consumo atual do recurso de CPU da máquina virtual (node). Este valor está expresso com uma fração de número inteiro (decimais) da quantidade de CPU existente na infraestrutura que compõe a máquina virtual. A infraestrutura computacional existente da máquina virtual suporta e executa micro serviços (ex.: deployment), os quais consomem apenas uma pequena parte do total de recurso de CPU. Assim, a aplicação apresenta a quantidade decimal do total de CPU consumido pela máquina virtual.
-   * Memória Utilizada: O consumo atual do recurso de Memória RAM da máquina virtual. Este valor está expresso em Gigabytes, da quantidade total Megabytes de memória RAM existente na infraestrutura que compõe a máquina virtual (node). A infraestrutura computacional existente da máquina virtual (node) para suportar e executar micro serviços (ex.: deployment), desta forma um micro serviço consome apenas uma pequena parte do total de recurso de Megabytes de Memória RAM de um node.
+   * **Nome**: Nome do node.
+   
+   * **Status**: Corresponde ao estado atual do node.
+   
+     * **Running**: Indica que o node está “saudável”.
+   
+     * **Failure**: Indica que algum erro aconteceu com o node, ou no presente momento este se encontra indisponível.
+   
+   * **CPU Utilizada**: Representa o consumo atual do recurso de CPU da máquina virtual (node). Este valor está expresso com uma fração de número inteiro (decimais) da quantidade de CPU existente na infraestrutura que compõe a máquina virtual. A infraestrutura computacional existente da máquina virtual suporta e executa micro serviços (ex.: deployment), os quais consomem apenas uma pequena parte do total de recurso de CPU. Assim, a aplicação apresenta a quantidade decimal do total de CPU consumido pela máquina virtual.
+   
+   * **Memória Utilizada**: O consumo atual do recurso de Memória RAM da máquina virtual. Este valor está expresso em Gigabytes, da quantidade total Megabytes de memória RAM existente na infraestrutura que compõe a máquina virtual (node). A infraestrutura computacional existente da máquina virtual (node) para suportar e executar micro serviços (ex.: deployment), desta forma um micro serviço consome apenas uma pequena parte do total de recurso de Megabytes de Memória RAM de um node.
 
 
 Para o usuário conhecer detalhes de todos os pods de um node específico, basta clicar com o cursor do mouse sobre o nome do node para que a plataforma do Mangue.io apresente a seção com uma lista de todos os pod que estão em execução no node selecionado.
@@ -3810,10 +3899,13 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 
 
 
-   * A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os nodes que contiverem a palavra-chave da pesquisa.
-   * A ação de atualizar: Basta clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com os lista de nomes de nodes configurados na plataforma do Mangue.io.
-   * Adicionar Labels: Caso o usuário necessite adicionar um (ou mais) label ao node o usuário deve clicar com o cursor do mouse no ícone de rótulos (labels - “  ”) para que a plataforma do Mangue.io apresentar a seguinte tela:
-  
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Update desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os nodes que contiverem a palavra-chave da pesquisa.
+   
+   * **Ação de atualizar**: Basta clicar no ícone “  ” para que o Mangue.io possa atualizar a interface com os lista de nomes de nodes configurados na plataforma do Mangue.io.
+   
+   * **Adicionar Labels**: Caso o usuário necessite adicionar um (ou mais) label ao node o usuário deve clicar com o cursor do mouse no ícone de rótulos (labels - “  ”) para que a plataforma do Mangue.io apresentar a seguinte tela:
+
+
 .. image:: /figuras/fig_mangue/183_mangue_label_nods.png
     :alt: Label Nods
     :scale: 100 %
@@ -3822,14 +3914,17 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 
 
 
-   * Selecionar Nós: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os nodes configurados na plataforma do Mangue.io. Basta o usuário clicar com cursor do mouse sobre o nome do node desejado para selecionar.
-   * Nome da Label: Neste campo o usuário deve preencher com o nome pelo qual a label (key) é identificada.
-   * Valor da Label: Neste campo o usuário deve preencher com um número inteiro que é o valor da chave.
-   * Adicionar: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a label e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado um label/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
+   * **Selecionar Nós**: Ao clicar sobre campo é apresentada uma lista (drop-down) com todos os nodes configurados na plataforma do Mangue.io. Basta o usuário clicar com cursor do mouse sobre o nome do node desejado para selecionar.
+   
+   * **Nome da Label**: Neste campo o usuário deve preencher com o nome pelo qual a label (key) é identificada.
+   
+   * **Valor da Label**: Neste campo o usuário deve preencher com um número inteiro que é o valor da chave.
+   
+   * **Adicionar**: O usuário deve clicar com o cursor do mouse sobre este botão para adicionar a label e seu valor na plataforma do Mangue.io. Ao clicar sobre este botão a plataforma do Mangue.io limpa ambos os campos e cria uma lista logo abaixo. Caso o usuário tenha adicionado um label/valor de forma errada, basta clicar no botão “Remover”, que o respectivo par de informação é removido, e o usuário pode cadastrar um novo par (chave/valor) com o conteúdo correto.
 
-* Obs: Adicionar labels aos nodes pode ser importante para os usuários que desejam fazer configurações de Node Affinity aos seus Deployments.
+       * Obs: Adicionar labels aos nodes pode ser importante para os usuários que desejam fazer configurações de Node Affinity aos seus Deployments.
 
-   * Finalizar: Este botão permite adicionar (o)s label(s) selecionados na plataforma do Mangue.io. Na sequência é exibido o feedback desta ação.  
+   * **Finalizar**: Este botão permite adicionar (o)s label(s) selecionados na plataforma do Mangue.io. Na sequência é exibido o feedback desta ação.  
 
 ====
 
@@ -3988,6 +4083,8 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
 Após confirmar este procedimento a plataforma do Mangue.io efetua a migração de todas as workloads selecionadas entre os namespaces indicados, um uma mensagem de feedback será apresentada no canto superior direito da tela do browser de internet.
 
+====
+
 
 Registry
 ========
@@ -4007,8 +4104,9 @@ Logo acima da tabela, existem dois elementos com os quais o usuário poderá atu
 =====  
 
 
-* A ação de pesquisa: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Registry desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os Registry que contiverem a palavra-chave da pesquisa.
-* Adicionar um Registry: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo Registry na plataforma. Na sequência é exibida a tela abaixo:
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde será possível ao usuário efetuar uma pesquisa pelo nome do Registry desejado. Basta informar parte do nome do update e teclar enter ou clicar sobre o ícone da lupa “  ”. Como resultado dessa busca virão apenas os Registry que contiverem a palavra-chave da pesquisa.
+   
+   * **Adicionar um Registry**: Basta clicar no sinal de adição “+” para que o usuário possa cadastrar um novo Registry na plataforma. Na sequência é exibida a tela abaixo:
   
 .. image:: /figuras/fig_mangue/193_mangue_criar_edit_secret.png
     :alt: Criar Editar Secret para Registry 
@@ -4017,12 +4115,17 @@ Logo acima da tabela, existem dois elementos com os quais o usuário poderá atu
 =====  
 
 
-* Nome do Servidor: Este campo é obrigatório e o usuário deve informar o nome do servidor de Registry que deseja configurar na plataforma do Mangue.io.
-* Username: Este campo é obrigatório e o usuário deve informar o login de usuário provisionado no sistema operacional do servidor de registry existente;
-* Email: Este campo é obrigatório e o usuário deve informar o e-mail do usuário que é utilizado para fazer autenticação no servidor de registry;
-* Senha: Este campo é obrigatório e o usuário deve informar a senha do login de usuário, provisionado no sistema operacional do servidor, que será utilizado para fazer autenticação deste usuário no servidor de registry
-* Nome Secret: Nome do Secret a ser criado para os dados do Registry.
-* Botão Confirmar: Após o usuário alterar todos os campos anteriores, ele deve clicar com o cursor do mouse sobre este botão para confirmar as alterações informadas para a plataforma do Mangue.io.
+   * **Nome do Servidor**: Este campo é obrigatório e o usuário deve informar o nome do servidor de Registry que deseja configurar na plataforma do Mangue.io.
+   
+   * **Username**: Este campo é obrigatório e o usuário deve informar o login de usuário provisionado no sistema operacional do servidor de registry existente;
+   
+   * **Email**: Este campo é obrigatório e o usuário deve informar o e-mail do usuário que é utilizado para fazer autenticação no servidor de registry;
+   
+   * **Senha**: Este campo é obrigatório e o usuário deve informar a senha do login de usuário, provisionado no sistema operacional do servidor, que será utilizado para fazer autenticação deste usuário no servidor de registry
+   
+   * **Nome Secret**: Nome do Secret a ser criado para os dados do Registry.
+   
+   * **Botão** ``Confirmar``: Após o usuário alterar todos os campos anteriores, ele deve clicar com o cursor do mouse sobre este botão para confirmar as alterações informadas para a plataforma do Mangue.io.
 
 
 Abaixo é descrito as colunas apresentadas nesta lista de registries:
