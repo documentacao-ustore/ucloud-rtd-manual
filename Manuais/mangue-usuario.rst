@@ -2698,7 +2698,7 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as *Cluster Role
   
 .. image:: /figuras/fig_mangue/128_mangue_editar_clusterole.png
     :alt: Editar cluster role 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====
 
@@ -2711,7 +2711,7 @@ O código de uma *Cluster Role* pode ser longo, e esta tela ser muito longa, a s
   
 .. image:: /figuras/fig_mangue/129_mangue_editar_clusterrole.png
     :alt: Editar cluster role 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====
 
@@ -2736,7 +2736,7 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as *Cluster Role
   
 .. image:: /figuras/fig_mangue/130_mangue_cluster_role_binding.png
     :alt: Cluster role binding 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====
 
@@ -2754,7 +2754,7 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as *Cluster Role
 
 .. image:: /figuras/fig_mangue/131_mangue_editar_cluster_role_binding.png
     :alt: Editar cluster role binding 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====
 
@@ -2765,7 +2765,7 @@ Esta opção abre uma tela de edição da *Cluster Role Binding* usando a sintax
   
 .. image:: /figuras/fig_mangue/132_mangue_editar_clusterrolebinding.png
     :alt: Editar cluster rolebinding
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====
 
@@ -2782,96 +2782,122 @@ Após editar a *Cluster Role Binding* o usuário deve clicar no botão verde “
 C. Pod Security Policy
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Pod Security Policy é um recurso do Kubernetes que permite o usuário limitar as aplicações criadas por um ServiceAccount específico, ou todos. Sendo assim possível, por exemplo, proibir que um ServiceAccount crie uma aplicação que utilize o usuário root.
+*Pod Security Policy* é um recurso do *Kubernetes* que permite o usuário limitar as aplicações criadas por um *ServiceAccount* específico, ou todos. Sendo assim possível, por exemplo, proibir que um *ServiceAccount* crie uma aplicação que utilize o usuário *root*.
 
-A tela de Pod Security Policy é separada em duas seções: 
+A tela de *Pod Security Policy* é separada em duas seções: 
 
-* Pod Security Policy.
-* Cluster Role e Role Binding de Pod Security Policy.
+* *Pod Security Policy*;
+* *Cluster Role* e *Role Binding* de *Pod Security Policy*.
 
 
 .. image:: /figuras/fig_mangue/133_mangue_pod_clusterrole_binding.png
     :alt: Pod cluster role binding
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
-Na seção de Pod Security Policy é exibido uma lista com os Pod Security Policy do Cluster e é exibido uma barra de pesquisa para pesquisar utilizando o nome.
+Na seção de *Pod Security Policy* é exibido uma lista com os *Pod Security Policy* do *Cluster* e é exibido uma barra de pesquisa para pesquisar utilizando o nome.
 
-Abaixo descrevemos as informações presentes na tabela de Pod Security Policy.
+Abaixo a descrição das informações presentes na tabela de *Pod Security Policy*.
 
-* #: Número sequencial do Pod Security Policy cadastrado na Plataforma do Mangue.io.
-* Nome: Nome do Pod Security Policy especificado pelo usuário durante a criação.
-* Privilegiado: Permite que as aplicações criadas utilizem recursos e capacidades Kernel da máquina Host.
-* Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-* ID Usuário: Faixa de ID de Usuário que as aplicações criadas podem utilizar na execução.
-* ID Grupo: Faixa de ID de Grupo que as aplicações criadas utilizam na execução.
-* ID Arquivo de Sistemas: Faixa ID de Arquivo de Sistema que as aplicações criadas utilizam na execução.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+  * **#**: Número sequencial do *Pod Security Policy* cadastrado na Plataforma do Mangue.io;
+
+  * **Nome**: Nome do *Pod Security Policy* especificado pelo usuário durante a criação;
+
+  * **Privilegiado**: Permite que as aplicações criadas utilizem recursos e capacidades *Kernel* da máquina *Host*;
+
+  * **Permite Escalada de Privilégios**: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai;
+
+  * **ID Usuário**: Faixa de ID de Usuário que as aplicações criadas podem utilizar na execução;
+
+  * **ID Grupo**: Faixa de ID de Grupo que as aplicações criadas utilizam na execução;
+
+  * **ID Arquivo de Sistemas**: Faixa ID de Arquivo de Sistema que as aplicações criadas utilizam na execução;
+
+  * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, exibe duas opções:
 
 .. image:: /figuras/fig_mangue/134_mangue_acoes_security.png
     :alt: Ações security
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-* Criar Cluster Role: Ao selecionar a opção de criar cluster role é apresentada a tela abaixo, através da qual o usuário pode criar um Cluster Role para o Pod Security Policy.
-* Deletar Pod Security Policy: Ao selecionar a opção de excluir é deletado o Pod Security Policy do Cluster.
+     * **Criar Cluster Role**: Ao selecionar a opção de criar *Cluster role* é apresentada a tela abaixo, através da qual o usuário pode criar um *Cluster Role* para o *Pod Security Policy*;
+     
+     * **Deletar Pod Security Policy**: Ao selecionar a opção de excluir é deletado o *Pod Security Policy do Cluster*.
 
 .. image:: /figuras/fig_mangue/135_mangue_adicionar_security.png
     :alt: Adicionar cluster role
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-Para criar um Pod Security Policy é necessário clicar no botão de “  ”, ao clicar é exibido a tela abaixo.
+Para criar um *Pod Security Policy* é necessário clicar no botão ``Adicionar`` |icone_adicionar|, ao clicar é exibido a tela abaixo:
 
 .. image:: /figuras/fig_mangue/136_mangue_adicionar_pod_security.png
-    :alt: Adiconar pod security 
-    :scale: 80 %
+    :alt: Adicionar pod security 
+    :scale: 100 %
     :align: center
 =====  
 
 
-Os campos necessários para a criação de Pod Security Policy são os seguintes:
+Os campos necessários para a criação de *Pod Security Policy* são os seguintes:
 
-* Nome do Pod Security Policy: Nome do Pod Security Policy a ser criado.
-* Permitir Containers Privilegiados: Permite a criação de recursos que utilizam containers privilegiados, esses containers podem ter acesso aos recursos e capacidades Kernel da máquina Host.
-* Permitir Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-* Limitar Usuário: Caso seja selecionado é exibido uma lista (“drop-down list”), com as opções de: 
-* Proibir Root: essa opção permite a criação de aplicação que utilize qualquer ID de usuário, com a exceção do ID do usuário root.
-* Limitar por ID de Usuário, essa opção limita a criação de aplicação para que utilize apenas uma faixa de ID de usuário especificada.
-* Limitar Grupo: Permite apenas aplicações que utilizem a faixa de ID de Grupo especificada.
-* Limitar Arquivo de Sistema: Permite apenas aplicações que utilizem a faixa de ID de Arquivo de Sistema especificada.
+  * **Nome do Pod Security Policy**: Nome do *Pod Security Policy* a ser criado;
 
-Após preencher todos os campos obrigatórios, o botão de “Adicionar Pod Security Policy” está disponível e quando o usuário clicar nele a plataforma cria o Pod Security Policy e exibe uma mensagem de status.
+  * **Permitir Containers Privilegiados**: Permite a criação de recursos que utilizam containers privilegiados, esses containers podem ter acesso aos recursos e capacidades *Kernel* da máquina *Host*;
 
-Na seção de Cluster Role e Role Binding de Pod Security Policy é exibido uma lista com os Cluster Role e Role Bindings dos Pod Security Policy e é exibido uma barra de pesquisa para pesquisar utilizando o nome dos recursos.
+  * **Permitir Escalada de Privilégios**: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai;
 
-Abaixo a descrição das informações presentes na tabela de Pod Security Policy.
-* #: Número sequencial do Cluster Role cadastrado na Plataforma do Mangue.io.
-* Cluster Role: Nome do Cluster Role especificado pelo usuário durante a criação.
-* Pod Security Policy: Nome do Pod Security Policy associado ao Cluster Role.
-* Permite Escalada de Privilégios: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai.
-* Role Binding: Nome do Role Binding associado ao Cluster Role.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+  * **Limitar Usuário**: Caso seja selecionado é exibido uma lista (*dropdown list*), com as opções de:
+
+     * **Proibir Root**: Essa opção permite a criação de aplicação que utilize qualquer ID de usuário, com a exceção do ID do usuário *root*;
+
+     * **Limitar por ID de Usuário**: Essa opção limita a criação de aplicação para que utilize apenas uma faixa de ID de usuário especificada;
+
+  * **Limitar Grupo**: Permite apenas aplicações que utilizem a faixa de ID de Grupo especificada;
+
+  * **Limitar Arquivo de Sistema**: Permite apenas aplicações que utilizem a faixa de ID de Arquivo de Sistema especificada.
+
+Após preencher todos os campos obrigatórios, o botão ``Adicionar Pod Security Policy`` está disponível, quando o usuário clicar nele a plataforma cria o *Pod Security Policy* e exibe uma mensagem de *status*.
+
+Na seção de *Cluster Role* e *Role Binding* de *Pod Security Policy* é exibido uma lista com os *Cluster Role* e *Role Bindings* do *Pod Security Policy* e é exibido uma barra de pesquisa para pesquisar utilizando o nome dos recursos.
+
+Abaixo a descrição das informações presentes na tabela de *Pod Security Policy*.
+
+
+   * **#**: Número sequencial do *Cluster Role* cadastrado na Plataforma do Mangue.io;
+
+   * **Cluster Role**: Nome do *Cluster Role* especificado pelo usuário durante a criação;
+
+   * **Pod Security Policy**: Nome do *Pod Security Policy* associado ao *Cluster Role*;
+
+   * **Permite Escalada de Privilégios**: Permite que a aplicação criada altere o seu ID de Usuário, possibilitando que processos filhos do container ganhem mais privilégios que o processo pai;
+
+   * **Role Binding**: Nome do *Role Binding* associado ao *Cluster Role*;
+
+   * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta as seguintes opções:
 
 .. image:: /figuras/fig_mangue/137_mangue_acoes_role.png
     :alt: Ações role
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-* Criar Role Binding: Ao selecionar a opção de criar cluster role é apresentada a tela abaixo, através da qual o usuário pode criar um Role Binding associando o Cluster Role a ServiceAccounts.
-* Deletar Role Binding: Caso tenha um Role Binding associado ao Cluster Role é exibido a opção de deletar o Role Binding, ao selecionar a opção o Role Binding é deletado.
-* Deletar Cluster Role: Ao selecionar a opção de excluir é deletado o Cluster Role selecionado.
+   * **Criar Role Binding**: Ao selecionar a opção de criar *Cluster role* é apresentada a tela abaixo, através da qual o usuário pode criar um *Role Binding* associando o *Cluster Role* a *ServiceAccounts*;
+   
+   * **Deletar Role Binding**: Caso tenha um *Role Binding* associado ao *Cluster Role* é exibido a opção de deletar o *Role Binding*, ao selecionar a opção o *Role Binding* é deletado;
+   
+   * **Deletar Cluster Role**: Ao selecionar a opção de excluir é deletado o *Cluster Role* selecionado.
+
+
   
 .. image:: /figuras/fig_mangue/138_mangue_add_rolebinding.png
     :alt: Adicionar role binding
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -2880,104 +2906,125 @@ Abaixo a descrição das informações presentes na tabela de Pod Security Polic
 Integrações
 ===========
 
-Através deste menu Integrações, o usuário pode conectar a plataforma do Mangue.io com entidades, serviços e provedores externos. 
 
-Estas integrações permitem ao usuário ampliar a abrangência da plataforma do Mangue.io conectando e integrando a atual infraestrutura, a qual suporta e executa a instalação do Mangue.io com os gerenciadores de containers em provedores públicos. Este menu vem como propósito de tratar outras questões além da simples gestão do Kubernetes, como por exemplo:
+Através deste menu **Integrações**, o usuário pode conectar a plataforma do Mangue.io com entidades, serviços e provedores externos. 
 
-* Integração via linha de comando nos containers executados no cluster;
-* Criação de clusters Kubernetes nas nuvens públicas das AWS e Google;
-* Importar clusters Kubernetes já existentes;
-* Importar credenciais para que os procedimentos de criação de clusters nas nuvens públicas sejam mais facilmente efetuadas.
+Estas integrações permitem ao usuário ampliar a abrangência da plataforma do Mangue.io conectando e integrando a atual infraestrutura, a qual suporta e executa a instalação do Mangue.io com os gerenciadores de containers em provedores públicos. Este menu vem como propósito de tratar outras questões além da simples gestão do *Kubernetes*, como por exemplo:
+
+   * Integração via linha de comando nos containers executados no *cluster*;
+   
+   * Criação de *Clusters Kubernetes* nas nuvens públicas das *AWS* e *Google*;
+   
+   * Importar *Clusters Kubernetes* já existentes;
+   
+   * Importar credenciais para que os procedimentos de criação de *Clusters* nas nuvens públicas sejam mais facilmente efetuadas;
+
+   * Criação de *clusters on premise*.
+
+----
 
 
 1. Clusters
 ~~~~~~~~~~~
 
-O menu Integrações/Clusters permite ao usuário integrar a plataforma do Mangue.io a um cluster existente, que pode estar ativo em outra infraestrutura computacional, à plataforma do Mangue.io. Além disso, esta tela apresenta uma lista com as informações dos clusters integrados ao Mangue.io
+O menu Integrações/*Clusters* permite ao usuário integrar a plataforma do Mangue.io a um *cluster* existente, que pode estar ativo em outra infraestrutura computacional, à plataforma do Mangue.io. Além disso, esta tela apresenta uma lista com as informações dos *clusters* integrados ao Mangue.io.
 
-O menu Integrações/Cluster permite fazer todo o gerenciamento e integração dos Clusters Kubernetes gerenciados pela plataforma a partir de um usuário. Neste menu é possível provisionar clusters Kubernetes nas infraestruturas da Amazon e Google (EKS e GKE), lembrando que para provisionar esses clusters é necessário adicionar uma credencial no menu Integrações/Credenciais. 
+O menu Integrações/*Cluster* permite fazer todo o gerenciamento e integração dos *Clusters Kubernetes* gerenciados pela plataforma a partir de um usuário. Neste menu é possível provisionar *Clusters Kubernetes* nas infraestruturas da *Amazon* e *Google* (EKS e GKE), lembrando que para provisionar esses *clusters* é necessário adicionar uma credencial no menu Integrações/Credenciais. 
 
-Também é possível adicionar um cluster Kubernetes que não tenha sido provisionado na plataforma, seja ele no seu ambiente On Premise ou na nuvem. Vale ressaltar que clusters que tiverem as APIS do Kubernetes modificadas, podem não corresponder positivamente às chamadas das APIS do Kubernetes feitas pelo Mangue.io.
-  
+Também é possível adicionar um *Cluster Kubernetes* que não tenha sido provisionado na plataforma, seja ele no seu ambiente *On Premise* ou na nuvem. Vale ressaltar que *Clusters* que tiverem as APIS do *Kubernetes* modificadas, podem não corresponder positivamente às chamadas das APIS do *Kubernetes* feitas pelo Mangue.io.
+
+
 .. image:: /figuras/fig_mangue/139_mangue_integracao_clusters_kubernetes.png
     :alt: Integrações clusters kubernetes
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 
-Na lista pode-se encontrar as informações de cada cluster configurado e integrado a plataforma do Mangue.io:
+Na lista pode-se encontrar as informações de cada *Cluster* configurado e integrado a plataforma do Mangue.io:
 
-* Nome: Nesta coluna é apresentado o nome que foi utilizado para identificar o Cluster durante o processo de configuração pelo usuário.
-* IP Público: Esta coluna apresenta a informação do endereço TCP-IP Público do cluster. Este é o endereço pelo qual o cluster pode ser utilizado para acessar as aplicações (deployments) que estão sendo executadas neste cluster.
-* Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta uma única opção como a figura abaixo:
-  
+   * **Nome**: Nesta coluna é apresentado o nome que foi utilizado para identificar o *Cluster* durante o processo de configuração pelo usuário.
+
+   * **IP Público**: Esta coluna apresenta a informação do endereço TCP-IP Público do cluster. Este é o endereço pelo qual o cluster pode ser utilizado para acessar as aplicações (deployments) que estão sendo executadas neste cluster.
+
+   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, apresenta uma única opção:
+
+
 .. image:: /figuras/fig_mangue/140_mangue_acoes_cluster.png
     :alt: Ações cluster
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 
-* Editar Cluster: Nesta opção o usuário pode editar as características de um cluster existente e quando selecionado a plataforma apresenta a tela abaixo:
+   * **Editar Cluster**: Nesta opção o usuário pode editar as características de um *Cluster* existente e quando selecionado a plataforma apresenta a tela abaixo:
 
 .. image:: /figuras/fig_mangue/141_mangue_editar_cluster.png
     :alt: Editar cluster
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
-  
 
+   * **Nome do Cluster**: Neste campo o usuário pode alterar o nome de referência com o qual o *cluster* está configurado;
 
+   * **IP para acesso da API**: Neste campo o usuário pode alterar o endereço TCP-IP Público para possibilitar que o *cluster* seja acessado;
 
-Nome do Cluster: Neste campo o usuário pode alterar o nome de referência com o qual o cluster está configurado.
-IP para acesso da API: Neste campo o usuário pode alterar o endereço TCP-IP Público para que o cluster seja possível ser acessado.
-Porta para acesso da API: Neste campo o usuário pode alterar a PORTA TCP-IP para que seja possível acessar o cluster.
-Cluster Admin Token: Neste campo o usuário pode alterar a cadeia de caracteres (string) que foi gerada pelo provedor público com o objetivo de confirmar e autenticar a identidade (token) da configuração com o cluster. Caso seja necessário alterar esta cadeia de caracteres, é importante consultar o processo de geração da identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente.
-Confirmar: O usuário deve pressionar este botão após confirmar todos os campos alterados.
+   * **Porta para acesso da API**: Neste campo o usuário pode alterar a PORTA TCP-IP para que seja possível acessar o *cluster*;
 
+   * **Cluster Admin Token**: Neste campo o usuário pode alterar a cadeia de caracteres (*string*) que foi gerada pelo provedor público com o objetivo de confirmar e autenticar a identidade (*token*) da configuração com o *cluster*. Caso seja necessário alterar esta cadeia de caracteres, é importante consultar o processo de geração da identificação (*token*) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente;
 
-* Deletar Cluster: Quando o usuário selecionar esta ação ele remove o cluster. A plataforma do Mangue.io irá solicitar confirmação do usuário para remover (apagar) da plataforma do Mangue.io:
+   * **Confirmar**: O usuário deve pressionar este botão após confirmar todos os campos alterados.
+
+   * **Deletar Cluster**: Quando o usuário selecionar esta ação ele remove o *Cluster*. A plataforma do Mangue.io solicita confirmação do usuário para remover (apagar) da plataforma do Mangue.io:
+
 
 .. image:: /figuras/fig_mangue/142_mangue_aviso_cluster.png
     :alt: Aviso cluster
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-Caso o usuário tenha executado esta ação por engano, será necessário incluir o cluster novamente na plataforma do Mangue.io. Veja a sequência de inclusão de um novo cluster que está descrito neste documento abaixo.
+Caso o usuário tenha executado esta ação por engano, é necessário incluir o *cluster* novamente na plataforma do Mangue.io. Vide a sequência de inclusão de um novo *cluster* que está descrito neste documento abaixo.
 
-A plataforma do Mangue.io permite ao usuário tanto integrar com infraestrutura de cluster existente quanto implementar ou criar um cluster novo.
+A plataforma do Mangue.io permite ao usuário tanto integrar com infraestrutura de *cluster* presente quanto implementar ou criar um *cluster* novo.
 
-Na sequência o processo de integração é descrito, ele permite ao usuário agregar um cluster existente ou novo à plataforma do Mangue.io.
+Na sequência o processo de integração é descrito, ele permite ao usuário agregar um *cluster* existente ou novo à plataforma do Mangue.io.
 
 
 2. Integrar Cluster
 ~~~~~~~~~~~~~~~~~~~
 
-Para iniciar o processo de Integrar um Cluster o usuário deve clicar com o mouse sobre o botão do lado esquerdo para que a tela apresente os campos específicos.
+Para iniciar o processo de Integrar um *Cluster* o usuário deve clicar com o mouse sobre o botão do lado esquerdo para que a tela apresente os campos específicos.
 
 
 .. image:: /figuras/fig_mangue/143_mangue_cluster_existente.png
     :alt: Integrar cluster existente
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-* Nome do Cluster: Neste campo o usuário deve informar o nome de referência com o qual o cluster é identificado na plataforma do Mangue.io.
-* Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, o Cluster é associado ao contrato selecionado.
-* Tipo de Cluster: Este campo é uma lista (“drop-down list”) com as quatro opções disponíveis na plataforma do Mangue.io. Atualmente estão disponíveis os ambientes públicos: Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes System (EKS), Azure Kubernetes Service (AKS) e IBM Cloud (IKS). Quando selecionada cada uma das opções de destino a plataforma do Mangue.io se comporta da forma correta para se comunicar e gerenciar o cluster de forma correta.
-* IP para acesso da API: Neste campo o usuário deve informar o endereço TCP-IP Público para que o cluster seja possível ser acessado.
-* Path para acesso da API: Neste campo o usuário deve informar a rota utilizada para acesso a API do Kubernetes, caso tenha.
-* Porta para acesso da API: Neste campo o usuário deve informar o número da PORTA TCP-IP para que o cluster seja acessado.
-* Cluster Admin Token: Neste campo o usuário deve informar a cadeia de caracteres (string) que foi gerada pelo provedor público de cluster com o objetivo de conferir e autenticar a identidade (token) da configuração com o cluster. Importante consultar o processo de geração de identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente.
-* Botão Integrar: Ao finalizar o preenchimento dos campos acima, o usuário deve clicar com o mouse no botão verde “Integrar” para que a plataforma do Mangue.io inclua este cluster na lista apresentada nesta tela.
-* A ação de atualizar: Caso a interface do Mangue.io não apresente na lista, o cluster recém configurado, o usuário deve clicar no ícone “  ” para que a aplicação exiba a lista atualizada desta tabela de clusters.
+   * **Nome do Cluster**: Nesta área o usuário deve indicar o nome de referência com o qual o *cluster* é identificado na plataforma do Mangue.io;
+
+   * **Contrato**: Este campo é uma lista (*dropdown list*) com os contratos do usuário, ao selecionar, o *Cluster* é associado ao contrato selecionado;
+
+   * **Tipo de Cluster**: Este campo é uma lista (*dropdown list*) com as quatro opções disponíveis na plataforma do Mangue.io. Atualmente estão disponíveis os ambientes públicos: *Google Kubernetes Engine* (GKE), *Amazon Elastic Kubernetes System* (EKS), *Azure Kubernetes Service* (AKS) e *IBM Cloud* (IKS). Quando selecionada cada uma das opções de destino a plataforma do Mangue.io se comporta da forma correta para se comunicar e gerenciar o cluster de forma correta;
+
+   * **IP para acesso da API**: Neste espaço o usuário deve informar o endereço TCP-IP Público para que o *cluster* seja possível ser acessado;
+
+   * **Path para acesso da API**: Neste campo o usuário deve indicar a rota utilizada para acesso a API do *Kubernetes*, caso tenha;
+
+   * **Porta para acesso da API**: Nesta área o usuário deve informar o número da PORTA TCP-IP para que o cluster seja acessado;
+
+   * **Cluster Admin Token**: Neste espaço o usuário deve informar a cadeia de caracteres (*string*) que foi gerada pelo provedor público de *cluster* com o objetivo de conferir e autenticar a identidade (token) da configuração com o cluster. Importante consultar o processo de geração de identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente;
+
+   * **Botão** ``Integrar``: Ao finalizar o preenchimento dos campos acima, o usuário deve clicar com o mouse no botão verde “Integrar” para que a plataforma do Mangue.io inclua este cluster na lista apresentada nesta tela;
+
+     * **Ação de atualizar**: Caso a interface do Mangue.io não apresente na lista, o *cluster* recém configurado, o usuário deve clicar no ícone |icone_update| para que a aplicação exiba a lista atualizada desta tabela de *clusters*.
 
 
 3. Integrar Múltiplos Clusters
@@ -2986,17 +3033,20 @@ Para iniciar o processo de Integrar um Cluster o usuário deve clicar com o mous
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
     :alt: Multiplos clusters 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-Para iniciar o processo de Integrar Múltiplos Clusters o usuário deve clicar com o mouse sobre o botão do lado direito para que a tela apresente os campos específicos.
+Para iniciar o processo de Integrar Múltiplos *Clusters* o usuário deve clicar com o mouse sobre o botão do lado direito para que a tela apresente os campos específicos.
 
-Nesta tela o usuário pode integrar vários Clusters existentes nos provedores de nuvens públicas. Deve selecionar as quais deseja procurar, em seguida são exibidos os campos: 
+Nesta tela o usuário pode integrar vários *Clusters* existentes nos provedores de nuvens públicas. Deve selecionar as quais deseja procurar, em seguida são exibidos os campos: 
 
-* Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, a plataforma carrega as credenciais do contrato selecionado.
-* Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a nuvem pública. Após preencher todos os campos, o usuário deve clicar no botão de “Pesquisar” e a plataforma exibe uma lista (“drop-down list”) dos Clusters já existentes nas plataformas selecionadas. O usuário deve selecionar os Clusters que deseja para serem integrados a plataforma, após selecionar o botão de “Integrar” está disponível para ser clicado.
+   * **Contrato**: Este campo é uma lista (*dropdown list*) com os contratos do usuário, ao selecionar, a plataforma carrega as credenciais do contrato selecionado;
+   
+   * **Credencial**: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a nuvem pública. Após preencher todos os campos, o usuário deve clicar no botão ``Pesquisar`` e a plataforma exibe uma lista (*dropdown list*) dos *Clusters* já existentes nas plataformas selecionadas. O usuário deve selecionar os *Clusters* que deseja para serem integrados a plataforma, após selecionar o botão ``Integrar`` está disponível para ser clicado.
+
+
 
 4. Criar Cluster on Premise
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3004,31 +3054,39 @@ Nesta tela o usuário pode integrar vários Clusters existentes nos provedores d
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
     :alt: Cluster on premise
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-Por meio do botão Criar Cluster é possível criar um cluster on premise, ao qual o usuário poderá informar o ip, usuário, senha e o tipo (Master, worker) de cada uma das máquinas que juntas irão formar o cluster kubernetes. Para isso é necessário preencher informações como:
+Por meio do botão ``Criar Cluster`` é possível criar um *cluster on premise*, ao qual o usuário pode informar o IP, usuário, senha e o tipo (*Master, worker*) de cada uma das máquinas que juntas formam o *cluster kubernetes*. Para isso, é necessário preencher informações como:
 
-   * Nome de cluster: Neste campo o usuário deve informar o nome de referência com o qual o cluster é identificado na plataforma do Mangue.io.
-   * Contrato: Este campo é uma lista (“drop-down list”) com os contratos do usuário, ao selecionar, o Cluster é associado ao contrato selecionado.
-   * IP da máquina: Endereço ip da máquina que há o interesse de criar incluir no momento de criação do cluster
-   * Tipo da máquina: Determina o tipo da máquina, pode ser worker ou master:
-     * Worker: São máquinas responsáveis por receber as tarefas atribuídas pelo node master, executá-las e reportar o status de volta para o node master, logo, são as máquinas que executam os containers docker que contém as aplicações
-     * Master: o node master é considerado o cérebro do cluster kubernetes, pois, é responsável por gerenciar e controlar os nodes workers, tomando decisões sobre onde e como executar as aplicações.
-   * Usuário: Usuário necessário para conectar a máquina informada no campo de IP
-   * Senha: Senha necessária para logar com usuário e ip informados nos campos anteriores.
-   * ETCD: É um campo checkbox ao qual se habilitado, então aquela máquina também funcionará como etcd. Caso nenhuma das máquinas informadas tenha o etcd habilitado, então por padrão a máquina de node master também irá funcionar como etcd
+   * **Nome de cluster**: Neste campo o usuário deve informar o nome de referência com o qual o *cluster* é identificado na plataforma do Mangue.io;
 
-É necessário ao menos duas máquinas para que a criação do cluster ocorra com sucesso. As máquinas precisam de acesso a internet. Assim como também é recomendável no mínimo 2CPU por nó, 4GB de memória por nó e 80GB de armazenamento por nó. 
+   * **Contrato**: Este campo é uma lista (*dropdown list*) com os contratos do usuário, ao selecionar, o *Cluster* é associado ao contrato selecionado;
 
-Ao clicar em criar, será exibido uma tela contendo o console do processo de criação do cluster on premise, conforme imagem abaixo:
+   * **IP da máquina**: Endereço IP da máquina que há o interesse de criar incluir no momento de criação do *cluster*;
+   
+   * **Tipo da máquina**: Determina o tipo da máquina, pode ser *worker* ou *master*:
+
+     * **Worker**: São máquinas responsáveis por receber as tarefas atribuídas pelo *node master*, executá-las e reportar o *status* de volta para o *node master*, logo, são as máquinas que executam os *containers docker* que contém as aplicações;
+     
+     * **Master**: O *node master* é considerado o cérebro do *cluster kubernetes*, pois, é responsável por gerenciar e controlar os *nodes workers*, tomando decisões sobre onde e como executar as aplicações;
+   
+   * **Usuário**: Usuário necessário para conectar a máquina informada no campo de IP;
+
+   * **Senha**: Senha necessária para logar com usuário e ip informados nos campos anteriores;
+
+   * **ETCD**: É um campo *checkbox* ao qual se habilitado, então aquela máquina funciona como Etcd. Caso nenhuma das máquinas informadas tenha o Etcd habilitado, então por padrão a máquina de *node master* também funciona como Etcd.
+
+É necessário ao menos duas máquinas para que a criação do *cluster* ocorra com sucesso. As máquinas precisam de acesso a *Internet*. Assim como também é recomendável no mínimo 2CPU por nó, 4GB de memória por nó e 80GB de armazenamento por nó. 
+
+Ao clicar ``Criar`` é exibida uma tela contendo o console do processo de criação do *cluster on premise*, conforme imagem abaixo:
 
 
 .. image:: /figuras/fig_mangue/146_mangue_log_cluster.png
     :alt: Log cluster
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3037,7 +3095,7 @@ Ao clicar em criar, será exibido uma tela contendo o console do processo de cri
 Integração de Cluster Simplificada – Via Form (GKE, EKS, AKS, IBM Cloud)
 ------------------------------------------------------------------------
 
-A plataforma do Mangue.io permite simplificar o processo de integração com um cluster existente nos provedores de nuvem pública (Amazon, Google, Azure e IBM) através de um formulário que direciona o usuário para o preenchimento de credenciais e configurações de forma bem clara e simples.
+A plataforma do Mangue.io permite simplificar o processo de integração com um *cluster* existente nos provedores de nuvem pública (*Amazon, Google, Azure* e *IBM*) através de um formulário que direciona o usuário para o preenchimento de credenciais e configurações de forma bem clara e simples.
 
 Na tela a seguir o usuário pode ver que abaixo de cada logo de provedor de serviço público existe um botão que apresenta o formulário respectivo de cada provedor:
 
@@ -3065,15 +3123,23 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
 =====  
 
 
-   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-   * Credenciais do GKE: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com o Google Cloud Platform. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-   * Número de Nodes (por zona): Neste campo o usuário deve informar um número inteiro, que irá definir a quantidade de nós (nodes) desejado para este cluster.
-   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Google Cloud Platform.
-   * Tipo de Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Google Cloud Platform.
-   * Versão Principal: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-   * Criar Cluster: Basta o usuário clicar sobre o botão “Criar Cluster”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas. Para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna deve-se inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
-     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+   * **Contrato**: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato;
+   
+   * **Nome do Cluster**: Neste campo o usuário deve preencher este campo com o nome de identificação do *cluster* para a plataforma do Mangue.io;
+   
+   * **Credenciais do GKE**: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com o *Google Cloud Platform*. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor;
+   
+   * **Número de Nodes (por zona)**: Neste espaço o usuário deve informar um número inteiro, que define a quantidade de nós (*nodes*) desejado para este *cluster*;
+   
+   * **Região**: Neste campo o usuário deve selecionar de uma lista (*dropdown*) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da *Google Cloud Platform*;
+   
+   * **Tipo de Máquina**: Neste espaço o usuário deve selecionar de uma lista (*dropdown*) o tipo de configuração de máquina (CPU, Memória, Disco ou *Template*) disponíveis no provedor. Neste caso são listados apenas os *templates* específicos da *Google Cloud Platform*;
+   
+   * **Versão Principal**: Neste campo o usuário seleciona a versão do *Kubernetes* disponível no provedor de nuvem pública;
+   
+   * **Criar Cluster**: Basta o usuário clicar sobre o botão “Criar Cluster”, quando todas as configurações referentes a todos os nós (*nodes*) estiverem finalizadas. Para que a plataforma do Mangue.io acrescente novo *cluster* à infraestrutura interna deve-se inicializar este novo *cluster* ao ambiente computacional que é executado como mais um ambiente gerenciador de containers (*cluster*);
+     
+     * **A ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
 
 
 
@@ -3081,93 +3147,128 @@ Para efetuar uma integração (via formulário) com um gerenciador de container 
 2. Elastic Kubernetes Service – Amazon EKS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Amazon AWS, o usuário deve clicar com o cursor na área cinza abaixo do logo do Elastic Kubernetes Service – Amazon EKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário EKS:
+Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor *Amazon AWS*, o usuário deve clicar com o cursor na área cinza abaixo do logo do *Elastic Kubernetes Service* – *Amazon EKS* e a plataforma do Mangue.io apresenta a tela abaixo com o formulário EKS:
   
 
 .. image:: /figuras/fig_mangue/149_mangue_amazon_info.png
     :alt: Amazon info
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 
-   * Contrato: O usuário selecionará o contrato para a plataforma carregar as credenciais deste.
-   * Nome do Cluster: Neste campo o usuário deve preencher com o nome de identificação do cluster para a plataforma do Mangue.io.
-   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Amazon Web Services – AWS. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso serão listados apenas as regiões globais específicas da Amazon Web Services – AWS.
-   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da AWS.
-   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-   * Botão Confirmar: Basta o usuário clicar sobre o botão “Confirmar”, quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, para que a plataforma do Mangue.io acrescente novo cluster à infraestrutura interna da plataforma do Mangue.io, inicializar este novo cluster ao ambiente computacional que será executado como mais um ambiente gerenciador de containers (cluster).
-     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
-                                                                                                                        
+   * **Contrato**: O usuário seleciona o contrato para a plataforma carregar as credenciais deste;
+   
+   * **Nome do Cluster**: Neste campo o usuário deve preencher com o nome de identificação do *cluster* para a plataforma do Mangue.io;
+   
+   * **Credencial**: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a *Amazon Web Services – AWS*. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de *containers* do provedor;
+   
+   * **Região**: Neste espaço o usuário deve selecionar de uma lista (*dropdown*) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da *Amazon Web Services – AWS*;
+   
+   * **Versão do Kubernetes**: Nesta área o usuário seleciona a versão do *Kubernetes* disponível no provedor de nuvem pública;
+   
+   * **Template da Máquina**: Neste campo o usuário deve selecionar de uma lista (*dropdown*) o tipo de configuração de máquina (CPU, Memória, Disco ou *Template*) disponíveis no provedor. Neste caso são listados apenas os *templates* específicos da *AWS*;
+   
+   * **Quantidade de Nós**: Nesta área o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do *cluster*;
+   
+   * **Botão** ``Confirmar``: Basta o usuário clicar sobre o botão ``Confirmar``, quando todas as configurações referentes a todos os nós (*nodes*) estiverem finalizadas, para que a plataforma do Mangue.io acrescente novo *cluster* à infraestrutura interna da plataforma do Mangue.io, inicializar este novo *cluster* ao ambiente computacional que é executado como mais um ambiente gerenciador de containers (*cluster*);
+   
+     * **Ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
+
+
+
 3. AKS
 ~~~~~~
 
-Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Azure, o usuário deve clicar com o cursor na área cinza abaixo do logo do Azure Kubernetes Service – Azure AKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário AKS:
+Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor *Azure*, o usuário deve clicar com o cursor na área cinza abaixo do logo do *Azure Kubernetes Service – Azure AKS* e a plataforma do Mangue.io apresenta a tela abaixo com o formulário AKS:
 
   
 .. image:: /figuras/fig_mangue/150_mangue_azure_info.png
     :alt: Azure info
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a Azure. Importante ressaltar que cada deve-se consultar a documentação específica de cada provedor para como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da Azure.
-   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da Azure.
-   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-   * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
-     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+   * **Contrato**: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato;
+   
+   * **Nome do Cluster**: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io;
+   
+   * **Credencial**: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a *Azure*. Importante ressaltar que cada deve-se consultar a documentação específica de cada provedor para como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor;
+   
+   * **Região**: Neste campo o usuário deve selecionar de uma lista (*dropdown*) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da *Azure*;
+   
+   * **Versão do Kubernetes**: Neste espaço o usuário seleciona a versão do *Kubernetes* disponível no provedor de nuvem pública;
+   
+   * **Template da Máquina**: Nesta área o usuário deve selecionar de uma lista (*dropdown*) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os *templates* específicos da *Azure*;
+   
+   * **Quantidade de Nós**: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do *cluster*;
+   
+   * **Botão** ``Confirmar``: O usuário deve clicar sobre o botão ``Confirmar`` quando todas as configurações referentes a todos os nós (*nodes*) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele é executado como mais um ambiente gerenciador de containers (*cluster*);
+   
+     * **Ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
+
+
 
 4. IBM Cloud
 ~~~~~~~~~~~~
 
-Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor Azure, o usuário deve clicar com o cursor na área cinza abaixo do logo do IBM Cloud Kubernetes Service – IBM IKS e a plataforma do Mangue.io apresenta a tela abaixo com o formulário IKS:
+
+Para efetuar uma integração (via formulário) com um gerenciador de container existente no provedor *Azure*, o usuário deve clicar com o cursor na área cinza abaixo do logo do *IBM Cloud Kubernetes Service – IBM IKS* e a plataforma do Mangue.io apresenta a tela abaixo com o formulário IKS:
 
  
 .. image:: /figuras/fig_mangue/151_mangue_ibm_info.png
     :alt: IBM info
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-   * Contrato: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato.
-   * Nome do Cluster: Neste campo o usuário deve preencher este campo com o nome de identificação do cluster para a plataforma do Mangue.io.
-   * Credencial: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a IBM Cloud. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor.
-   * Região: Neste campo o usuário deve selecionar de uma lista (“drop-down”) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da IBM Cloud.
-   * Versão do Kubernetes: Neste campo o usuário seleciona a versão do Kubernetes disponível no provedor de nuvem pública.
-   * Template da Máquina: Neste campo o usuário deve selecionar de uma lista (“drop-down”) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso serão listados apenas os templates específicos da IBM Cloud.
-   * Quantidade de Nós: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do cluster.
-   * Botão Confirmar: O usuário deve clicar sobre o botão “Confirmar” quando todas as configurações referentes a todos os nós (nodes) estiverem finalizadas, assim a aplicação acrescenta novo cluster à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo cluster ao ambiente computacional ele será executado como mais um ambiente gerenciador de containers (cluster).
-     * A ação de atualizar: A criação do Cluster depende do provedor de nuvem pública, o estado da criação do Cluster pode ser acompanhado em Tarefas.
+   * **Contrato**: O usuário seleciona o contrato para a plataforma carregar as credenciais deste contrato;
+   
+   * **Nome do Cluster**: Neste campo o usuário deve preencher este campo com o nome de identificação do *cluster* para a plataforma do Mangue.io;
+   
+   * **Credencial**: O usuário deve selecionar uma das credenciais de acesso cadastradas na plataforma do Mangue.io para confirmar a identidade deste junto ao ambiente contratado com a *IBM Cloud*. Importante ressaltar que deve-se consultar a documentação específica de cada provedor sobre como gerar/criar estas credenciais com permissão ao ambiente de gerenciamento de containers do provedor;
+   
+   * **Região**: Neste campo o usuário deve selecionar de uma lista (*dropdown*) as regiões disponíveis no provedor específico. Neste caso são listados apenas as regiões globais específicas da *IBM Cloud*;
+   
+   * **Versão do Kubernetes**: Neste espaço o usuário seleciona a versão do *Kubernetes* disponível no provedor de nuvem pública;
+   
+   * **Template da Máquina**: Nesta área o usuário deve selecionar de uma lista (*dropdown*) o tipo de configuração de máquina (CPU, Memória, Disco ou “Template”) disponíveis no provedor. Neste caso são listados apenas os *templates* específicos da *IBM Cloud*;
+   
+   * **Quantidade de Nós**: Neste campo o usuário deve informar um número inteiro, necessário para a quantidade de nós para a infraestrutura do *cluster*;
+   
+   * **Botão** ``Confirmar``: O usuário deve clicar sobre o botão ``Confirmar`` quando todas as configurações referentes a todos os nós (*nodes*) estiverem finalizadas, assim a aplicação acrescenta novo *cluster* à infraestrutura interna da plataforma do Mangue.io. Ao inicializar este novo *cluster* ao ambiente computacional ele é executado como mais um ambiente gerenciador de containers (*cluster*);
+   
+     * **A ação de atualizar**: A criação do *Cluster* depende do provedor de nuvem pública, o estado da criação do *Cluster* pode ser acompanhado em Tarefas.
+
+
+====
+
 
 
 Container Execution
 -------------------
 
-O menu Integrações/Container Execution permite configurar uma interface de comunicação com os containers que estão sendo executados em um POD. Para que isso seja possível, é necessário fornecer uma credencial de acesso ao cluster Kubernetes. Esta credencial é chamada de KubeConfig [Link: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/
-] - ou arquivo de configuração do cluster Kubernetes. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do cluster, endereço da API do cluster e algumas outras informações descritas no link que pode ser encontrado na nota de rodapé desta página.
+
+O menu Integrações/*Container Execution* permite configurar uma interface de comunicação com os containers que estão sendo executados em um *POD*. Para que isso seja possível, é necessário fornecer uma credencial de acesso ao *cluster Kubernetes*. 
+
+Esta credencial é chamada de *KubeConfig* [Link: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/] - ou arquivo de configuração do *cluster Kubernetes*. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do *cluster*, endereço da API do *cluster* e algumas outras informações descritas no *link* que pode ser encontrado na nota de rodapé desta página.
   
 
 .. image:: /figuras/fig_mangue/152_mangue_arquivo_config_kubernetes.png
     :alt: Container execution
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
   
 
-É importante salientar que o endereço TCP-IP informado da API do cluster deve ser um endereço que seja alcançável pela infraestrutura computacional da sub-rede onde a plataforma do Mangue.io foi implantada.
+.. note:: É importante salientar que o endereço TCP-IP informado da API do cluster deve ser um endereço que seja alcançável pela infraestrutura computacional da sub-rede onde a plataforma do Mangue.io foi implantada.
 	
 
-Caso já tenha o KubeConfig cadastrado, o usuário pode exibi-lo clicando no ícone “  ”. Também é possível excluir o KubeConfig cadastrado clicando no ícone “  ”.
+Caso já tenha o *KubeConfig* cadastrado, o usuário pode exibi-lo clicando no ícone |icone_exibir|. Também é possível excluir o *KubeConfig* cadastrado clicando no ícone |icone_lata_lixo_preta|.
 
 
 
@@ -3175,9 +3276,10 @@ Caso já tenha o KubeConfig cadastrado, o usuário pode exibi-lo clicando no íc
 Performance
 -----------
 
-A plataforma do Mangue.io pode utilizar a API do Metric Server para realizar a coleta das métricas do Kubernetes, mas não apenas de métricas de desempenho sobre suas workloads, pods e containers, mas também de eventos e novos eventos gerados por seu cluster.
+A plataforma do Mangue.io pode utilizar a API do *Metric Server* para realizar a coleta das métricas do *Kubernetes*, mas não apenas de métricas de desempenho sobre suas *workloads*, *pods* e *containers*, mas também de eventos e novos eventos gerados por seu *cluster*.
 
-Esta tela está dividida em duas seções, as quais descrevemos abaixo:
+Esta tela está dividida em duas seções, descritas abaixo:
+
 
 1. Seção: Adicionar o Monitoramento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3188,111 +3290,135 @@ Nesta seção, na parte superior da tela, é apresentado um formulário com os c
 
 .. image:: /figuras/fig_mangue/153_mangue_add_monitoramento.png
     :alt: Add monitoramento
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 
-   * * IP de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número do endereço TCP-IP do Cluster no qual está instalado o Metric Server.
-   * * Path do Metric Server: Este campo é obrigatório, e deve ser preenchido com a rota utilizada pelo o Metric Server no Cluster
-   * * Porta de Monitoramento: Este campo é obrigatório, e deve ser preenchido com o número da porta TCP-IP do Cluster no qual está instalado o Metric Server.
-   * Token: Neste campo o usuário deve utilizar um Bearer Token (mencionado no tópico abaixo) de um Service Account com a permissão de realizar consultas na API do Metric Server.
-   * Confirmar: O usuário deve pressionar este botão após checar todos os campos anteriores e assim, confirmar as configurações referentes ao servidor de monitoramento.
+   * **IP de Monitoramento**: Este campo é obrigatório, deve ser preenchido com o número do endereço TCP-IP do *Cluster* no qual está instalado o *Metric Server*.
+   
+   * **Path do Metric Server**: Este espaço é obrigatória, deve ser preenchido com a rota utilizada pelo o *Metric Server* no *Cluster*;
+   
+   * **Porta de Monitoramento**: Esta área é obrigatório, deve ser preenchido com o número da porta TCP-IP do *Cluster* no qual está instalado o *Metric Server*;
+   
+   * **Token**: Neste campo o usuário deve utilizar um *Bearer Token* (mencionado no tópico abaixo) de um *Service Account* com a permissão de realizar consultas na API do *Metric Server*.
+   
+   * **Confirmar**: O usuário deve pressionar este botão após checar todos os campos anteriores e assim, confirmar as configurações referentes ao servidor de monitoramento.
 
 
 2. Seção: Monitoramentos Disponíveis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Esta seção da tela apresenta uma lista de todos os servidores que estão configurados no ambiente da plataforma do Mangue.io.
+
 
 Abaixo a descrição das informações presentes nesta lista.
 
-   * #: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io.
-   * IP de Monitoramento: Nesta coluna é apresentado o número do endereço TCP-IP do servidor de monitoramento.
-   * Porta de Monitoramento: Nesta coluna é apresentado o número da porta TCP-IP do servidor de monitoramento.
-   * Bearer Token: Nesta coluna é apresentado uma parte do Bearer Token utilizado para realizar as consultas no Cluster.
-   * Bilhetagem: Exibe se a bilhetagem está ativada.
-   * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+
+   * **#**: Número sequencial do servidor de monitoramento cadastrado na plataforma do Mangue.io;
+   
+   * **IP de Monitoramento**: Nesta coluna é apresentado o número do endereço TCP-IP do servidor de monitoramento;
+   
+   * **Porta de Monitoramento**: Nesta coluna é apresentado o número da porta TCP-IP do servidor de monitoramento;
+   
+   * **Bearer Token**: Nesta coluna é apresentado uma parte do *Bearer Token* utilizado para realizar as consultas no *Cluster*;
+   
+   * **Bilhetagem**: Exibe se a bilhetagem está ativada;
+   
+     * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta duas opções:
   
 
 .. image:: /figuras/fig_mangue/154_mangue_acoes_bilhetagem.png
     :alt: Ações desativar editar deletar
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-   * Ativar/Desativar Bilhetagem: Ao selecionar essa opção é ativado ou desativado a bilhetagem do monitoramento.
-   * Editar: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o conteúdo dos campos previamente descritos no item Seção: Adicione o Monitoramento na página anterior.
+   * **Ativar/Desativar Bilhetagem**: Ao selecionar essa opção é ativado ou desativado a bilhetagem do monitoramento;
+   
+   * **Editar**: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o conteúdo dos campos previamente descritos no item Seção: "Adicione o Monitoramento".
   
 
 .. image:: /figuras/fig_mangue/155_mangue_editar_monitoramento.png
     :alt: Editar monitoramento
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-   * Deletar Monitoramento: Ao selecionar a opção de deletar é solicitada uma confirmação da ação pelo usuário, e em seguida um feedback de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
+   * **Deletar Monitoramento**: Ao selecionar a opção de deletar é solicitada uma confirmação da ação pelo usuário, e em seguida um *feedback* de alerta é criado no canto superior direito da tela informando o sucesso ou erro.
   
 
 
 .. image:: /figuras/fig_mangue/156_mangue_aviso_deletar.png
     :alt: Aviso deletar
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 Importante ressaltar que esta ação é definitiva e remove (apaga) esta configuração da plataforma do Mangue.io, pois são apagadas todas as referências deste servidor de monitoramento na plataforma do Mangue.io.
 
+
+====
+
+
 Helm
 ----
 
-Helm é uma ferramenta que permite a instalação de aplicações Kubernetes, funcionando como um gerenciador de pacotes para o Kubernetes, as aplicações Helm são definidas no repósitorio de aplicações Helm. Para utilizar a funcionalidade de Helm é necessário ter cadastrado previamente o KubeConfig do Cluster na plataforma Mangue.io.
+Helm é uma ferramenta que permite a instalação de aplicações *Kubernetes*, funcionando como um gerenciador de pacotes para o *Kubernetes*, as aplicações Helm são definidas no repósitorio de aplicações Helm. Para utilizar a funcionalidade de Helm é necessário ter cadastrado previamente o *KubeConfig* do *Cluster* na plataforma Mangue.io.
 
 
 .. image:: /figuras/fig_mangue/157_mangue_helm.png
     :alt: Helm
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
 Na tela inicial da página de Helm é exibida uma tabela com os Helms instalados na aplicação. Possibilitando que o usuário realize a pesquisa de Helm através do nome. Na tela inicial, o usuário também pode visualizar os Helms que foram deletados, assim permitindo que sejam reinstalados novamente. 
 
-Abaixo descrevemos as informações presentes na tabela de Helms.
 
-  * #: Número sequencial do Helm cadastrado na plataforma do Mangue.io.
-  * Nome: Nome do Helm especificado pelo usuário durante a criação.
-  * Data de Criação: Data em que foi criado a aplicação Helm no Cluster
-  * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta duas opções como a figura abaixo:
+Abaixo a descrição das informações presentes na tabela de Helms.
+
+   * **#**: Número sequencial do Helm cadastrado na plataforma do Mangue.io;
+  
+   * **Nome**: Nome do Helm especificado pelo usuário durante a criação;
+  
+   * **Data de Criação**: Data em que foi criado a aplicação Helm no *Cluster*;
+  
+   * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta duas opções:
 
  
 
 .. image:: /figuras/fig_mangue/158_mangue_acoes_helm.png
     :alt: Ações Helm
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-  * Editar Helm: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o nome e argumentos da aplicação Helm
-  * Excluir Helm: Ao selecionar a opção de excluir será desinstalado o Helm selecionado do Cluster.
+     * **Editar Helm**: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o nome e argumentos da aplicação *Helm*;
+     
+     * **Excluir Helm**: Ao selecionar esta opção "Excluir" é desinstalado o Helm selecionado do *Cluster*.
 
   
 
 .. image:: /figuras/fig_mangue/159_mangue_add_helm.png
     :alt: Adiconar Helm
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
 
-Para criar um Helm é necessário clicar no botão de “  ” é essencial especificar seu nome e selecionar na lista de Helms o nome da aplicação no repositório. Também é possível especificar argumentos para a aplicação, algumas aplicações Helm necessitam de argumentos para realizar a configuração. Após preencher todos os campos necessários, o botão de “Adicionar Helm” está disponível para ser clicado. Ao clicar na plataforma Mangue.io ela realiza a instalação do Helm, após ser instalado exibe uma mensagem de sucesso. 
+Para criar um Helm clicar no botão Adição |icone_adicionar| é necessário especificar seu nome e selecionar na lista de Helms o nome da aplicação no repositório. Também é possível especificar argumentos para a aplicação, algumas aplicações Helm necessitam de argumentos para realizar a configuração. 
 
+Após preencher todos os campos necessários, o botão de ``Adicionar Helm`` está disponível para ser clicado. Ao clicar na plataforma Mangue.io ela realiza a instalação do Helm, ao ser instalado exibe uma mensagem de sucesso. 
 
+====
 
 
 Server VS Code
@@ -3306,7 +3432,7 @@ Na tela de Server VS Code será exibida uma lista atualizada, com os Visual Stud
 
 .. image:: /figuras/fig_mangue/160_mangue_server_vscode.png
     :alt: Server VsCode
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3325,7 +3451,7 @@ Abaixo descrevemos as informações presentes na tabela de VS Codes.
 
 .. image:: /figuras/fig_mangue/161_mangue_excluir_vscode.png
     :alt: Excluir VsCode
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3336,7 +3462,7 @@ Abaixo descrevemos as informações presentes na tabela de VS Codes.
 
 .. image:: /figuras/fig_mangue/162_mangue_add_vscode.png
     :alt: Add VsCode
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3373,7 +3499,7 @@ O menu Networking/Serviços apresenta todos os serviços de um cluster em um det
 
 .. image:: /figuras/fig_mangue/163_mangue_servicos.png
     :alt: Serviços
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3392,7 +3518,7 @@ O menu Networking/Serviços apresenta todos os serviços de um cluster em um det
 
 .. image:: /figuras/fig_mangue/164_mangue_acoes_servico.png
     :alt: Ações serviços
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3970,9 +4096,9 @@ O menu de Segredo contém uma tabela com as seguintes informações:
    * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste secret.
    * Ações: Esta coluna apresenta um botão de ação, que é uma lata de lixo “  ” que ao ser clicado, remove o secret da mesma linha. Ao selecionar a ação “Deletar Secret” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
+    :alt: Aviso deletar 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -3986,9 +4112,9 @@ Esta nova seção da tela apresenta a lista de todos os componentes de um secret
 
 Para cada componente do secret a plataforma do Mangue.io apresenta um ícone de visualização do conteúdo do componente do Secret. Este ícone é representado com “olho” (“  ”), quando o usuário clicar sobre o ícone a plataforma do Mangue.io  apresenta o conteúdo do componente como o exemplo abaixo:
   
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/200_mangue_valores.png
+    :alt: Valores 
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4005,9 +4131,9 @@ A plataforma Mangue.io pode agendar tarefas para serem realizadas em uma data po
    * Escalar Deployment.
    * Atualizar ConfigMap.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/201_mangue_agenda_tarefa.png
+    :alt: Agenda tarefas
+    :scale: 100 %
     :align: center
 =====    
 
@@ -4021,18 +4147,18 @@ Abaixo é descrito as informações presentes na tabela de tarefas agendadas.
    * Detalhes: Detalhes sobre a tarefa a ser realizada.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta as seguintes opções:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/202_mangue_acoes_agendamento.png
+    :alt: Ações agendamento
+    :scale: 100 %
     :align: center
 =====  
 
    * Editar Agendamento: Ao selecionar a opção de editar será apresentada a tela com as informações do agendamento, sendo possível editá-las.
    * Cancelar Agendamento: Ao selecionar a opção de cancelar agendamento, a data desejada será excluída da plataforma.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/203_mangue_agendar_tarefa.png
+    :alt: Agendar tarefas 
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4045,9 +4171,9 @@ Para criar uma tarefa agendada é necessário clicar no botão de “  ” e é 
    * Escalar Deployment.
    * Atualizar ConfigMap.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/204_mangue_deployment.png
+    :alt: Deployment
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4058,9 +4184,9 @@ Caso seja selecionada a opção de “Atualizar Deployment” será necessário 
    * Nome do Container: O nome do container a ser atualizado.
    * Versão do Container: Versão para qual o Container será atualizado.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/205_mangue_deployment_opcoes.png
+    :alt: Deployment opções 
+    :scale: 100 %
     :align: center
 =====  
   
@@ -4070,9 +4196,9 @@ Caso seja selecionada a opção de “Escalar Deployment”, é essencial preenc
    * Deployment: O usuário deve selecionar o deployment a ser atualizado,
    * Réplicas: Quantidade de réplicas a qual o Deployment será escalado.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/206_mangue_configmap.png
+    :alt: Configmap mapeando
+    :scale: 100 %
     :align: center
 =====    
 
@@ -4087,6 +4213,8 @@ Os campos de um arquivo de ConfigMap são:
 
 * Nome do Arquivo: O usuário deve informar no nome do arquivo a ser criado no sistema operacional da máquina virtual que utilizar o ConfigMap.
 * Conteúdo do Arquivo: O usuário deve preencher com o conteúdo específico do arquivo a ser criado.
+
+====
 
 
 Storage
@@ -4116,9 +4244,9 @@ Os StorageClass são responsáveis por criar classes de storage de diferentes ti
 
 Quando o usuário selecionar o menu Storage/StorageClass a plataforma do Mangue.io apresenta a lista de todos os StorageClass que existem configurados no cluster que foi selecionado na aba engrenagens “Seleção de Configuração” da plataforma do Mangue.io. 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/207_mangue_storageclass.png
+    :alt: StorageClass
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4130,17 +4258,17 @@ Abaixo são descritos as colunas desta lista:
    * Duração: Descreve há quanto tempo atrás o recurso foi criado.
    * Ações: Esta coluna apresenta o botão de ``Ação`` |icone_acao| que ao ser clicado, apresenta a opção de apagar StorageClass selecionado:
    
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/208_mangue_deletar_storageclass.png
+    :alt: Deletar StorageClass
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar StorageClass” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/209_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====    
   
@@ -4156,9 +4284,9 @@ Os PersistentVolumes (PV) são uma parte do armazenamento no cluster que foi pro
 
 Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Mangue.io apresenta a lista de todos os PersistentVolumes que existem configurados no cluster que foi selecionado na aba engrenagens “   Seleção de Configuração” da plataforma do Mangue.io. 
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/210_mangue_pv.png
+    :alt: Persistent volumes
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4179,17 +4307,17 @@ Quando o usuário selecionar o menu Storage/PersistentVolume a plataforma do Man
    * Age: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o volume selecionado:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
+    :alt: Deletar volume
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/212_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====     
    
@@ -4203,9 +4331,9 @@ Os PersistentVolumeClaims (PVC) são uma solicitação de armazenamento por um u
 
 O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um determinado namespace do cluster, a tabela exibe informações como:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/213_mangue_pvc.png
+    :alt: Persistent volume claim
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4220,17 +4348,17 @@ O menu Storage/Persistent Volume Claims apresenta todos os PVCs presentes em um 
    * Duração: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste PersistentVolume.
    * Ações: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
+    :alt: Deletar volume
+    :scale: 100 %
     :align: center
 =====     
    
    * Ao selecionar a ação “Deletar Volume” a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/212_mangue_aviso_deletar.png
+    :alt: Aviso deletar
+    :scale: 100 %
     :align: center
 =====     
    
@@ -4244,9 +4372,9 @@ A plataforma do Mangue.io é um ambiente que se comunica com o gerenciador de co
 
 Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensagem de retorno/resposta do Gerenciador de Kubernetes e apresenta-a para o usuário na tabela da interface. Abaixo a tela Tarefas exibe um exemplo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/214_mangue_tarefas.png
+    :alt: Tarefas
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4257,9 +4385,9 @@ Na lista podemos encontrar o status das tarefas referentes ao cluster que foi se
    * Usuário: Nesta coluna é apresentado a identificação do usuário que efetuou o login na plataforma e solicitou a ação na interface do Mangue.io.
    * Detalhes: Nesta coluna é apresentado um ícone de uma letra “i”, nas linhas em que a coluna ‘status’ esteja com o status “Failed” a plataforma do Mangue.io apresenta um pop-up com detalhes do resultado da tarefa. O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de pop-up com o conteúdo da mensagem de erro retornado pelo Kubernetes para a plataforma do Mangue.io. Veja um exemplo abaixo:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/214_mangue_tarefas.png
+    :alt: Info status
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4273,9 +4401,9 @@ Na lista podemos encontrar o status das tarefas referentes ao cluster que foi se
 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/192_mangue_pesquisar_registry.png
+    :alt: Pesquisar registry
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4300,9 +4428,9 @@ A plataforma do Mangue.io pode gerenciar diversos componentes que o Kubernetes o
 
 Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser extensa. Abaixo está apresentado um exemplo de um destes componentes que são listados na tela:
 
-.. image:: /figuras/fig_mangue/.png
-    :alt: 
-    :scale: 80 %
+.. image:: /figuras/fig_mangue/216_mangue_workloads.png
+    :alt: Workloads
+    :scale: 100 %
     :align: center
 =====  
 
@@ -4321,12 +4449,14 @@ Por se tratar de uma quantidade muito grande de componentes, esta lista pode ser
 
 Caso o usuário necessite visualizar todas as informações detalhadas de um componente presente na lista, basta clicar com o cursor do mouse sobre o nome do componente e a plataforma do Mangue.io apresenta as mesmas informações presentes no menu Workloads (exemplo de informações de um deployment abaixo):
 
-.. image:: /figuras/fig_mangue/.png
+.. image:: /figuras/fig_mangue/217_mangue_deployment_info.png
     :alt: 
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 =====    
-________________
+
+
+====
 
 
 Conclusão
