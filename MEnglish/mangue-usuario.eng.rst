@@ -19,7 +19,7 @@ Information technology solutions that make it possible to implement a scalable, 
 Presentation
 ============
 
-This document aims to explain the use of the Mangue.io Platform, an environment management platform for multiple container orchestrators. 
+This document aims to explain the use of the Mangue.io platform, an environment management platform for multiple container orchestrators. 
 
 This manual introduces the concepts, screens, functionalities and commands for using this product. 
 
@@ -34,7 +34,7 @@ Mangue.io is an environment management platform for multiple container orchestra
 
 The platform operates on a hybrid multicloud model and, this way, allows the organizations total control, support for sustaining backups, replication and environment migration. Centered on an agile, secure and productive approach to continuous application delivery for implantation, tests and updates with zero downtime and deployments rollback. 
 
-The Mangue.io Platform supports the implantation and operationalization of image-based applications from a registry service. Besides, it also allows the creation of services for the applications (internal or external to the cluster to which the application belongs).
+The Mangue.io platform supports the implantation and operationalization of image-based applications from a registry service. Besides, it also allows the creation of services for the applications (internal or external to the cluster to which the application belongs).
 
 
 ====
@@ -264,7 +264,7 @@ On the table the following columns are presented with their respective informati
    
   * **Trash bin** |icone_lixo_vermelho|: This option allows the user to remove all the selected items with a single command.
   
-  * **Change version** |icone_alterar|: This option allows the user to update multiple deployments at once, to which the user can inform the next version of each of them.
+  * **Change version** |icone_alterar_versao|: This option allows the user to update multiple deployments at once, to which the user can inform the next version of each of them.
   
 * **Deploys:** It is the representation of the *deployment.d name*;
   
@@ -327,7 +327,7 @@ On this screen the user must fill out the blanks with the following information:
       * **Peta:** Petabytes when the user wants to create a file with the previous value multiplied by 1,000,000,000,000,000;
 
 
-.. attention:: The Mangue.io Platform does not validate, previously, if there is an available disk space, in the informed size. No warning is presented to the user, if the computing environment does not have the necessary space, no error message is presented when creating this persistent volume with the informed characteristics.
+.. attention:: The Mangue.io platform does not validate, previously, if there is an available disk space, in the informed size. No warning is presented to the user, if the computing environment does not have the necessary space, no error message is presented when creating this persistent volume with the informed characteristics.
 
 
 
@@ -639,7 +639,9 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the *Docker Hub* (https://hub.docker.com/);
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_ .
+
+.. _Hub: https://hub.docker.com/;
 
 * **Duration**: Presents the time (in days) elapsed since the creation of this deployment;
 
@@ -989,10 +991,10 @@ The definition of “Scalability Rules” controls the increment in the amount o
 =====
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
-* 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
-
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+  
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+  
+  In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
   
 * **Name:** Identifies the name of the Autoscaler created, and normally it must be the same name as the Deployment;
   
@@ -1053,10 +1055,10 @@ The Mangue.io platform can help the user create as many pods as needed for its K
 The image above displays the listing of the created pods, followed by a description of the meaning of each one of the seven columns on this screen:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
- 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
-
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+  
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+  
+  In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: Deployment name that is established in its creation;
 
@@ -1070,7 +1072,9 @@ In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allo
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is *Docker Hub* (https://hub.docker.com/);
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_ .
+
+.. _Hub: https://hub.docker.com/.
 
 * **Duration:** Presents the time (in days) elapsed since the creation of this Deployment;
 
@@ -1136,10 +1140,10 @@ On this functionality the Mangue platform presents all *statefulsets* of a clust
 =====
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
-
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
-
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+  
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+  
+  In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: It is the representation of the *Statefulsets* name;
   
@@ -1170,7 +1174,7 @@ In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allo
     :align: center
 =====
 
-      * **Edit Statefulsets**: This option presents a screen with a JSON file with all the *Statefulsets* configurations in Kubernetes, the user can edit whatever is necessary and select the edit option and wait for the action feedback from the Mangue.io Platform. This functionality attends the users that have knowledge about the Kubernetes files format. 
+      * **Edit Statefulsets**: This option presents a screen with a JSON file with all the *Statefulsets* configurations in Kubernetes, the user can edit whatever is necessary and select the edit option and wait for the action feedback from the Mangue.io platform. This functionality attends the users that have knowledge about the Kubernetes files format. 
 
 .. image:: /figuras/fig_mangue/049_mangue_editar_statefulsets.png
     :alt: Edit 
@@ -1256,9 +1260,7 @@ Right above the table, there are three elements with which the user can act:
 =====
 
 
-* **The search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired Update name. 
-  
-It is just necessary to inform part of the name and type enter or click on the "Magnifying glass" icon |icone_lupa_verde|. As a result of this search only comes up the Updates that contains the key-word of the search;
+* **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired Update name. It is just necessary to inform part of the name and type enter or click on the "Magnifying glass" icon |icone_lupa_verde|. As a result of this search only comes up the Updates that contains the key-word of the search;
 
 * **The update action**: Just click on the icon |icone_update| for the Mangue.io to update the interface with the most recent values of the Updates table;
 
@@ -1274,9 +1276,9 @@ Next, follows the description of the blanks of this screen:
 
 * **Token:** This blank is filled with a string of characters after the user clicks on the ``Generate Token`` button, the blank is filled with the token string that is informed for the communication with the Mangue.io API. This token must be saved and informed to authenticate the C.I. versions. When generating a token, it must be sent via API for the Mangue.io server, because it is responsible for guaranteeing the integrity of the requisition sent. 
 
-* **Namespace:** When clicking on this blank, it is presented a list (dropdown) with all the existing Namespaces in the cluster selected on the “Configuration Selection” tab.
+* **Namespace:** When clicking on this blank, it is presented a dropdown list with all the existing Namespaces in the cluster selected on the “Configuration Selection” tab.
 
-* **Deployment:** When clicking on the blank is presented a list (drop-down) with all the Deployment associated with the namespace selected on the previous blank. 
+* **Deployment:** When clicking on the blank is presented a dropdown list with all the Deployment associated with the namespace selected on the previous blank. 
 
 * ``Create`` **button:** When the user configures all the blanks on this screen, with the correct criteria to add an update event (update), they must click over the ``Create`` button to add the update event on the Mangue.io platform. This new event is added to the list with the pending status. By clicking on the ``Create`` button a permission is generated for the user to register the updates on the platform through calls to the Mangue API. An alert feedback is created on the superior right corner of the screen informing of the “Success” or “Error”. 
 
@@ -1337,7 +1339,11 @@ For the creation of a new application (Deployment) the Mangue.io platform segmen
 
 * **Name**: This space is mandatory, the user must inform the application (Deployment) name with which this stays identified on Mangue.io platform;
 * **Replicas**: This blank is mandatory, the user must inform the number (full)that they desire to allocate to execute the application (Deployment) as soon as created. This number is allocated in the computing infrastructure so that the user obtains a better performance experience, and the Mangue.io platform takes care of allocating these computing resources; 
-* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register http://hub.docker.com. The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
+* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register_ . 
+
+.. _register: http://hub.docker.com. 
+
+The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
     :alt: search image
@@ -1418,7 +1424,7 @@ Below  the content description of the columns presented on this list:
 
 .. image:: /figuras/fig_mangue/062_mangue_acoes_submenu.png
     :alt: actions submenu
-    :scale: 80%
+    :scale: 60%
     :align: center
 ----
 
@@ -1551,7 +1557,7 @@ This document's reader can see below the description of the next screens that ar
   
       * **Header Value**: This space the user must indicate the initial value of the column that is created within the update events register file (log).
   
-      * ``Add`` **button**: This button informs the Mangue.io Platform the set header/value must be configured in the update events register file (log). The user may add the quantity of columns that is made necessary, they just need to fill in the values on the previous blanks and press the ``Add`` button.
+      * ``Add`` **button**: This button informs the Mangue.io platform the set header/value must be configured in the update events register file (log). The user may add the quantity of columns that is made necessary, they just need to fill in the values on the previous blanks and press the ``Add`` button.
   
 * **LivenessProbe**: The Kubernetes environment uses *LivenessProbe* to know when to restart a container. These probes are performed in intervals of time (seconds) defined by the user and after this period it is added a line on the log file. On the spaces below the user enters with the values referring to the *LivenessProbe* environment:
   
@@ -1700,9 +1706,9 @@ Below the description of each column of this table:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
-
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+  
+  In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column is presented the *configMap* name added by the user. When clicking with the mouse over the name, the Mangue.io platform presents a screen with the content(s) of the *configMap* file(s). 
 
@@ -1736,6 +1742,7 @@ It is important to highlight that this window does not allow the edition of the 
 
       * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
 
+
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: add configmap
     :align: center
@@ -1748,10 +1755,7 @@ The following image is a cutout of the elements positioned above the table, ther
     :align: center
 ----
 
-* **Search action**: In case the present list on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to perform a search by the *ConfigMaps* desired name. The user just needs to inform part of the name and click ``Enter`` or click over the "Magnifying glass" icon |icone_lupa_verde|. 
-
-As result of this search only the *ConfigMaps* that contain the key-word will come up on the search.
-
+* **Search action**: In case the present list on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to perform a search by the *ConfigMaps* desired name. The user just needs to inform part of the name and click ``Enter`` or click over the "Magnifying glass" icon |icone_lupa_verde|. As result of this search only the *ConfigMaps* that contain the key-word will come up on the search.
 * **Update action**: Just click on the  |icone_update| icon for the Mangue.io to update the interface with the most recent values from this *ConfigMaps* table.
 * **Action of adding a ConfigMap**: Just click on the plus sign |icone_adicionar| so the user can register a new *ConfigMaps*. The Mangue.io platform presents the following screen to the user:
 
@@ -1771,7 +1775,8 @@ Below the description of the blanks on the screen above:
 .. attention:: There must not be used the letters with accents (á, é, í, ã, õ, ç, among others), there may be an error on the file creation on the operational system.
 
 
-      * **File content**: On this blank the user must type the named file content, on the previous blank. This content that must be informed according to the technical necessity and the objective of this *configMap*.
+
+* **File content**: On this blank the user must type the named file content, on the previous blank. This content that must be informed according to the technical necessity and the objective of this *configMap*.
 
 
 By default is presented only the visualization of some lines on the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes to a double diagonal arrow |icone_seta_diagonal|. Therefore, allowing the user to redimension the space of the listed content and, accommodate the size that is adequate to the user, for better viewing this blank.
@@ -1852,9 +1857,7 @@ The following image is a cutout of the elements positioned above the table, ther
     :align: center
 ----
 
-* **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired event name. They just need to inform part of the name and click ``Enter`` or click on the icon with the "Magnifying glass" |icone_lupa_verde|. 
-
-As a result of this search only comes up the events that contains the searched key-word;
+* **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired event name. They just need to inform part of the name and click ``Enter`` or click on the icon with the "Magnifying glass" |icone_lupa_verde|. As a result of this search only comes up the events that contains the searched key-word;
 
 * **Update action**: Just click on the icon |icone_update| so the Mangue.io update the interface with the most recent values of the events table;
 
@@ -1891,6 +1894,7 @@ Below the content description for every column presented on the list:
     :alt: delete cron job
     :align: center
 ----
+
 
 B. **Jobs**
 ~~~~~~~~~~~~
@@ -2149,7 +2153,9 @@ As viewed on the following images, a card displays "Alerts" and the other "Webho
   
       * **Description**: Blank corresponding to the alert description;
   
-      * **Type**: There are two possible values for the type, by Tag to select a set of deployments, and by Deployment to select only one deployment. By selecting a tag or deployment occurs a search of the total cost value corresponding to the deployment or selected tag, this value is presented on the Current Cost blank presented on the screen;
+      * **Type**: There are two possible values for the type, by Tag to select a set of deployments, and by Deployment to select only one deployment. 
+      
+        By selecting a tag or deployment occurs a search of the total cost value corresponding to the deployment or selected tag, this value is presented on the Current Cost blank presented on the screen;
   
       * **Deadline**: This blank may be defined a deadline for the alert execution, the alerts with the pending status are not executed after the deadline established for the alert;
   
@@ -2264,12 +2270,15 @@ Recommendations
 
 The Mangue.io platform may make recommendations to optimize the CPU and Memory usage of the Cluster applications, with the objective to avoid waste. On Kubernetes makes the resource allocation to an application using the following concepts:
 
-* **Request**: Minimal quantity of allocated resources to the application. Example: an application with memory request of 256 MB always has allocated that memory quantity, even if the application always use only 20MB;
+* **Request**: Minimal quantity of allocated resources to the application. 
+  
+   Example: an application with memory request of 256 MB always has allocated that memory quantity, even if the application always use only 20MB;
+
 * **Limit**: In case the application needs to use more resources than specified on Request, the Kubernetes tries to allocate more resources in case the machine does not have it available. It is possible to limit the resource quantity the Kubernetes tries to allocate the application using Limit. 
 
-Example: an application request of 256 MB always has 256 MB allocated, if it needs more memory it can be allocated until 512MB and in case it is not enough the application runs out of memory, causing slowness or instability on the application.
+   Example: an application request of 256 MB always has 256 MB allocated, if it needs more memory it can be allocated until 512MB and in case it is not enough the application runs out of memory, causing slowness or instability on the application.
 
-The platform makes the optimization by analyzing the history metrics of CPU and memory usage, therefore verifying if an application is with more resources allocated than necessary or with insufficient resources to keep the stability. 
+   The platform makes the optimization by analyzing the history metrics of CPU and memory usage, therefore verifying if an application is with more resources allocated than necessary or with insufficient resources to keep the stability. 
 
    .. image:: /figuras/fig_mangue/110_mangue_recomendacoes.png
     :alt: recommendations 
@@ -2392,9 +2401,9 @@ In this section the user may see a list of all the existing roles in the cluster
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column it presents the role name added by the user;
 
@@ -2451,13 +2460,13 @@ A *RoleBinding* may make reference to any role in the same namespace. As an alte
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the “Trash bin” icon |icone_lixo_vermelho|  is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the “Trash bin” icon |icone_lixo_vermelho|  is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column is presented the *rolebinding* name added by the user. When clicking with the mouse over the name, the Mangue.io platform presents a screen with the content(s) of the *configMap* file(s). 
 
-By default it presents only the visualization of a line from the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes for a double diagonal arrow |icone_seta_diagonal|, that allows the user to redimension the listed content blank size, for a better view of this blank.
+   By default it presents only the visualization of a line from the file content, in case the content is bigger than the blank, the user can position the mouse on the inferior right corner, until the mouse cursor changes for a double diagonal arrow |icone_seta_diagonal|, that allows the user to redimension the listed content blank size, for a better view of this blank.
 
 * **Labels**: Labels are used to specify the objects attributes identification that are significant and relevant and present on the role yaml syntax;
 
@@ -2510,9 +2519,9 @@ When a user accesses the cluster, they are authenticated by *APIServer* as a spe
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column, it is presented the *serviceaccount* name added by the user;
 
@@ -2569,9 +2578,9 @@ On this screen the Mangue.io platform presents a list of all the Cluster Roles c
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho|  is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho|  is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column, it is presented the Cluster Roles name added by the user;
 
@@ -2621,9 +2630,9 @@ On this screen the Mangue.io platform presents a list of all the Cluster Role Bi
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|.
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: On this column, it is presented the Cluster Role Binding name added by the user;
 
@@ -2758,6 +2767,7 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Import already existing clusters Kubernetes;
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
 
+
 A. **Clusters**
 ~~~~~~~~~~~~~~~~
 
@@ -2809,7 +2819,9 @@ The Mangue.io platform allows the user to integrate with the infrastructure of a
 
 In the sequence the process of integration is described, it allows the user to add an existing cluster or a new one to the Mangue.io platform.
 
+
 ----
+
 
 B. **Integrate Cluster**
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -2832,7 +2844,9 @@ To start the process of Integrating a Cluster the user must click with the mouse
 * **Integrate button**: When finalizing the filling of the blanks above, the user must click with the mouse on the green button ``Integrate`` so the Mangue.io platform includes this cluster on the list presented on this screen.
 * **Action of updating**: In case the Mangue.io interface does not present the list, the cluster newly configured, the user must click on the |icone_update| icon so the application exhibits the updated list of this clusters' table.
 
+
 ----
+
 
 C. **Integrate Multiple Clusters**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2851,10 +2865,13 @@ On this screen the user may integrate several existing Clusters on the public cl
 
 After filling in all the blanks, the user must click on the ``Search`` button and the platform shows a dropdown list of the Clusters already existing on the selected platforms. The user must select the Clusters that are to be integrated to the platform, after selecting the ``Integrate`` button is available to be clicked.
 
+
 -----
+
 
 D. **Create Cluster on Premise**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
     :alt: cluster on premise
@@ -2971,9 +2988,6 @@ To perform an integration (via form) with a container manager existing in the Az
 D. **IBM Cloud**
 ~~~~~~~~~~~~~~~~
 
-**IBM Cloud**
-~~~~~~~~~~~~
-
 To perform an integration (via form) with a container manager existing in the IBM provider, the user must click with the cursor on the gray area below the **IBM Cloud Kubernetes Service - IBM IKS** logo and the Mangue.io platform presents the screen below with the IKS form:
 
 .. image:: /figuras/fig_mangue/151_mangue_ibm_info.png
@@ -3000,11 +3014,9 @@ Container Execution
 
 The Integrations/Container Execution menu allows to configure a communication interface with the containers that are being executed in a POD. For it to be possible, it is necessary to provide an access credential to the Kubernetes cluster. 
 
-This credential is called KubeConfig_ .
+This credential is called KubeConfig_. 
 
-.. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
-
-- or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+.. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
 
 .. image:: /figuras/fig_mangue/152_mangue_arquivo_config_kubernetes.png
     :alt: kubeconfig file
@@ -3224,7 +3236,7 @@ Below follows the description of each option in this submenu:
 
       * **Add Ingres**: Ingress is a service that may be configured to provide the URLs Services external accessible. An Ingress Controller is responsible for complementing the Ingress, generally with a load balancer, although it is also possible to configure its edge router or additional front-ends to help to deal with the traffic. 
   
-      This screen performs the creation of an Ingress in two steps, initially the creation of a load balancer, and in sequence the Ingress creation on the Mangue.io platform.
+        This screen performs the creation of an Ingress in two steps, initially the creation of a load balancer, and in sequence the Ingress creation on the Mangue.io platform.
 
 .. image:: /figuras/fig_mangue/165_mangue_add_ingress.png
     :alt: add ingress
@@ -3248,7 +3260,8 @@ Below follows the description of each option in this submenu:
 .. important:: It is important to highlight that this action is definite and removes (erases) this configuration from the Mangue.io Platform, because all references of this monitoring server are erased on the Mangue.io platform.
 
 
-      * **Edit Service**: This option of the actions menu shows the option ``Edit Service``. When selected the Mangue.io platform presents the content of the file in JSON format with all the configurations of the Kubernetes service. The user may edit what is necessary in this service and select the ``Send`` button. Await the action feedback that opens the following modal.
+* **Edit Service**: This option of the actions menu shows the option ``Edit Service``. When selected the Mangue.io platform presents the content of the file in JSON format with all the configurations of the Kubernetes service. The user may edit what is necessary in this service and select the ``Send`` button. Await the action feedback that opens the following modal.
+
 
 .. image:: /figuras/fig_mangue/167_mangue_editar_servico.png
     :alt: edit service
@@ -3288,10 +3301,10 @@ Right above the table, there are three elements which the user may act:
 Below is described the information of the list presented on this screen:
 
 * **#**: Monitoring Service sequential number registered on the Mangue.io platform.
-* **Name**: This column presents the Ingress name that was informed during the Ingress registration process on the Mangue.io Platform.
+* **Name**: This column presents the Ingress name that was informed during the Ingress registration process on the Mangue.io platform.
 * **Host**: This column presents the information of the server name that is registered on the DNS, or the number of the TCP-IP address of this server.
 * **Service**: This column presents the information of which service this Ingress is associated with.
-* **Address**: This column presents the Ingress  number of the TCP-IP address that was configured on the Mangue.io Platform.
+* **Address**: This column presents the Ingress  number of the TCP-IP address that was configured on the Mangue.io platform.
 * **Duration**: This column presents the time in days passed since the creation date of the Ingress until the present date that the user is consulting this list.
 * **Actions**: This column presents a button of action to delete the ingress through the trash icon |icone_lixo|. When clicking on the icon is solicited from the user the confirmation to be possible to delete the Ingress, according to the picture below:
 
@@ -3345,9 +3358,9 @@ Below is described the blanks of the table presented on this screen:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: This column presents the namespace name that was informed during the registration process of the namespace on the Mangue.io platform. 
 * **Status**: A namespace status identifies the current state of the namespace. They can be presented by Running, Pending or “!” (exclamation point):
@@ -3373,7 +3386,8 @@ In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allo
     :align: center
 ----
 
-      * **Add Labels**: A label allows the user to map their own organizationals structures in system objects in a loosely coupled way, without imposing that the softwares store these mappings. Labels are created with two attributions 'key' and 'value' and are attached to objects, like pods. The labels must be used to specify the objects attributes identification that are significant and relevant for the users. The labels may be used to organize and select subset of objects (detailed information here_ .
+      * **Add Labels**: A label allows the user to map their own organizationals structures in system objects in a loosely coupled way, without imposing that the softwares store these mappings. Labels are created with two attributions 'key' and 'value' and are attached to objects, like pods. The labels must be used to specify the objects attributes identification that are significant and relevant for the users. The labels may be used to organize and select subset of objects (detailed information here_.
+  
 .. _ here: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/).
 
 .. image:: /figuras/fig_mangue/175_mangue_label_namespace.png
@@ -3387,14 +3401,14 @@ This screen has two blanks and two buttons:
 
           * **Value**: On this blank the user must fill in with the full number that is the key value.
 
-          * ``Add``: The user must click with the mouse cursor over this button to add the key and its value on the Mangue.io platform. When clicking over this button the Manue,io Platform cleans both blanks and creates a list right below. In case the user has added a key/value in the wrong way, they just need to click on the ``Remove`` button, that the respective pair of information is removed, and the user may register a new pair (key/value) with the correct content.
+          * ``Add`` **button**: The user must click with the mouse cursor over this button to add the key and its value on the Mangue.io platform. When clicking over this button the Manue,io Platform cleans both blanks and creates a list right below. In case the user has added a key/value in the wrong way, they just need to click on the ``Remove`` button, that the respective pair of information is removed, and the user may register a new pair (key/value) with the correct content.
 
 .. image:: /figuras/fig_mangue/176_mangue_label_chave_valor.png
     :alt: key and value
     :align: center
 ----
 
-          * ``Confirm``: The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
+          * ``Confirm`` **button* : The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
 
       * **Add the Resource Quota**: This screen allows the user to establish the ideal quantity of computing resources that the namespace consumes to keep its ideal performance, as well as establishing its maximum consumption limit of computing resources.
 
@@ -3417,7 +3431,7 @@ For example: if a deployment needs to start a new replica defined on the Horizon
 
           * **Memory Limit**: On this blank the user must fill in with a full number that is the value of the Memory quantity maximum limit the namespace must restrict for it to not exhaust the cluster's computing resources.
 
-          * ``Confirm``: When the user fills in all the blanks of this form they must click on the button ``Confirm`` for the Mangue.io platform to configure and include the resources quota to the selected namespaces.
+          * ``Confirm`` **button** : When the user fills in all the blanks of this form they must click on the button ``Confirm`` for the Mangue.io platform to configure and include the resources quota to the selected namespaces.
 
       * **Delete**: The third option this submenu allows the user to erase (delete) a namespace definitely of the cluster that was selected on the “Configurations” tab; and when clicked opens the following interface screen requiring the confirmation on part of the user.
 
@@ -3427,7 +3441,7 @@ For example: if a deployment needs to start a new replica defined on the Horizon
 ----
 
 
-.. warning:: This is an extremely destructive action, because when deleting a namespace it also deletes ALL the resources and services present on it.
+.. warning:: This is an extremely destructive action, because when deleting a namespace it also deletes **all** the resources and services present on it.
 
 
 Nodes
@@ -3490,7 +3504,7 @@ Right above the table, there are three elements with which the user can act:
 
 * **Search action**: In case the list presented on this screen is very long (occupying more than one page), there is a blank where it is possible for the user to perform a search by the name of the desired Node. The user just needs to inform part of the node name and type enter or click over the "Magnifying glass" icon  |icone_lupa_verde|. As a result of this search only nodes that have the key-word of the search appear.
 
-* **The update action**: Just click on the icon |icone_update| so Mangue.io may update the interface with the list of node names configured on the Mangue.io platform.
+* **Update action**: Just click on the icon |icone_update| so Mangue.io may update the interface with the list of node names configured on the Mangue.io platform.
 
 * **Add Labels**: In case the user needs to add one (or more) label to the node the user must click with the mouse cursors on the labels icon |icone_rotulo| for the Mangue.io platform presents the following screen:
 
@@ -3505,13 +3519,13 @@ Right above the table, there are three elements with which the user can act:
 
 * **Label value**: On this blank the user must fill in with a full number that is the key value.
 
-* ``Add``: The user must click with the mouse cursor over this button to add a label and its value on the Mangue.io platform. When clicking over this button the Mangue.io platform cleans both the blanks and creates a list right below. In case the user has added a label/value in the wrong way, just click on the ``Remove`` button, that the respective pair of information is removed, and the user may register in a new pair (key/value) with the correct content.
+* ``Add`` **button** : The user must click with the mouse cursor over this button to add a label and its value on the Mangue.io platform. When clicking over this button the Mangue.io platform cleans both the blanks and creates a list right below. In case the user has added a label/value in the wrong way, just click on the ``Remove`` button, that the respective pair of information is removed, and the user may register in a new pair (key/value) with the correct content.
 
 
 .. note:: Add labels when nodes may be important for the users that wish to make configurations of the Node Affinity to their Deployments.
 
 
-* **Finish**: This button allows the user to add the label(s) selected on the Mangue.io platform. In sequence the feedback of this action is added.
+* ``Finish`` **button**: This button allows the user to add the label(s) selected on the Mangue.io platform. In sequence the feedback of this action is added.
 
 
 ====
@@ -3667,9 +3681,9 @@ Registry
 
 The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on hub.docker.com, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
 
-On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the docker_ . 
+On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the docker_. 
 
-.. _docker: http://hub.docker.com.
+.. _docker: http://hub.docker.com/ .
 There is in this section a table containing the information of Registries added to the Kubernetes, reminding that the registries are secrets (see the item **Secrets**) created by namespace.
 
 Right above the table, there are two elements which the user can act:
@@ -3704,9 +3718,9 @@ Below is described the columns presented on the registries list:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: This column presents the Registry server name of the image created;
 * **Username**: This column presents the username that is used to make the authentication on the image registry server;
@@ -3763,14 +3777,15 @@ The Secret menu contains a table with the following information:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: This column presents the Secret name that was used in the moment of its configuration;
 * **Type**: Type of Secret;
 * **Duration**: This column presents the time (in days) elapsed since the creation of this secret.
 * **Actions**: This column presents an action button, that is a trash bin |icone_lixo| that when clicked, removes the secret from the same line. When selecting the action ``Delete Secret`` the Mangue.io platform requests the action confirmation from the user.
+
 
 
 .. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
@@ -3815,7 +3830,7 @@ On the Schedule Task page is shown a list with scheduled tasks on the platform, 
 
 Below is described the information present on the table of scheduled tasks.
 
-* **#**: VS Code sequential number registered on the Mangue.io Platform.
+* **#**: VS Code sequential number registered on the Mangue.io platform.
 * **Scheduled Date**: Date which the task was scheduled.
 * **Type**: Type of task to be done.
 * **Details**: Details about the task to be done.
@@ -3873,7 +3888,7 @@ In case is selected the option of “Escalate Deployment”, it is essential to 
     :align: center
 ----
 
-In case selected the option to “Update *ConfigMap*” is necessary to fill in the new blanks, as the figure above shows: 
+If selected the option to “Update *ConfigMap*” is necessary to fill in the new blanks, as the figure above shows: 
 
 * **ConfigMap**: The user must select the *ConfigMap* to be updated.
 * **ConfigMap name**: The user must fill in with the *ConfigMap* name.
@@ -3895,7 +3910,7 @@ Dealing with container applications has some challenges, and one of these challe
 
 First, when a container fails, the Mangue.io tries to restart it, but with that the disk files are lost, then, the container always starts with a clean state. In second place, when executing containers together in a Pod, generally it is necessary to share files among these containers. The abstraction of Kubernetes Volume used on Mangue.io solves those two issues (for the Docker environment is different).
 
-.. attention::  Docker is also a concept of volumes, although is a bit more flexible and less managed. On the Docer, the volume is simply a directory in the disk or in another container.
+.. attention::  Docker is also a concept of volumes, although is a bit more flexible and less managed. On the Docker, the volume is simply a directory in the disk or in another container.
 
 On the other hand, the Kubernetes volume (used by Mangue.io) has an explicit lifespan - the same as the Pod that contains it. Consequently, a volume bypasses all the containers that are executed in the Pod and its data are preserved on the restarts of this same container. Naturally, when a Pod stops existing, the volume stops existing as well. 
 
@@ -3932,9 +3947,9 @@ Below are described the columns of this list:
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the "Trash bin" icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: *StorageClass* name.
 * **Provisioner**: *StorageClass* provisioner name.
@@ -3971,9 +3986,9 @@ When the user selects the menu Storage/*PersistentVolume* the Mangue.io platform
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Capacity**: This column presents the size/capacity of *PersistentVolume* in Gigabytes.
 * **Access Modes**: This columns present the access configuration to this volume, these access modes may be three, they are:
@@ -4031,9 +4046,9 @@ The Storage/*PersistentVolumeClaims* menu presents all the PVCs present in a cer
 
 * **# actionable column**: This column presents an alternative way to remove (erase) various rows in a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. 
 
-When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
+   When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent the user's actions to be executed once for all the selected lines. 
 
-In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
+   In this case the “Trash bin” icon |icone_lixo_vermelho| is presented, which allows to remove all the items indicated by the user with a single command;
 
 * **Name**: Responsible for identifying the PVC name.
 * **Capacity**: This column presents the size/capacity of the *PersistentVolumeClaim* in Gigabytes.
@@ -4189,7 +4204,7 @@ Reviewed - 27/06/2023
 
 .. |icone_engrenagem| image:: /figuras/fig_mangue/icone_engrenagem.png
 
-.. |icone_lata_lixo_preta| image:: /figuras/fig_mangue/icone_lixo.png
+.. |icone_lixo| image:: /figuras/fig_mangue/icone_lixo.png
 
 .. |icone_lupa_vermelha| image:: /figuras/fig_mangue/icone_lupa_vermelha.png
 
@@ -4221,7 +4236,7 @@ Reviewed - 27/06/2023
 
 .. |icone_exportar| image:: /figuras/fig_mangue/icone_exportar.png
 
-.. |icone_load_balancer| image:: /figuras/fig_mangue/icone_loadbalancer.png
+.. |icone_loadbalancer| image:: /figuras/fig_mangue/icone_loadbalancer.png
 
 .. |icone_rotulo| image:: /figuras/fig_mangue/icone_rotulo.png
 
