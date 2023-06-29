@@ -639,7 +639,7 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_ .
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_.
 
 .. _Hub: https://hub.docker.com/;
 
@@ -1072,7 +1072,7 @@ The image above displays the listing of the created pods, followed by a descript
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_ .
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_.
 
 .. _Hub: https://hub.docker.com/.
 
@@ -1339,7 +1339,7 @@ For the creation of a new application (Deployment) the Mangue.io platform segmen
 
 * **Name**: This space is mandatory, the user must inform the application (Deployment) name with which this stays identified on Mangue.io platform;
 * **Replicas**: This blank is mandatory, the user must inform the number (full)that they desire to allocate to execute the application (Deployment) as soon as created. This number is allocated in the computing infrastructure so that the user obtains a better performance experience, and the Mangue.io platform takes care of allocating these computing resources; 
-* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register_ . 
+* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register_. 
 
 .. _register: http://hub.docker.com. 
 
@@ -1740,6 +1740,7 @@ It is important to highlight that this window does not allow the edition of the 
 .. note:: It is important to highlight that this action is definitive and removes the file from the operating system, not being able to restore it, thus all the references of this **configMap** on the Mangue.io platform are erased. Therefore, it is necessary to recreate the file from the beginning.
 
 
+
       * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
 
 
@@ -1898,6 +1899,7 @@ Below the content description for every column presented on the list:
 
 B. **Jobs**
 ~~~~~~~~~~~~
+
 
 A job creates one or more pods and guarantees that one of their specific numbers is closed with triumph. As the pods are successfully concluded, the job tracks the well successful conclusions. When a specified number of well successful conclusions is reached, the task (that is, Job) is concluded. Excluding a job cleans all the created pods.
 
@@ -2768,6 +2770,8 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
 
 
+----
+
 A. **Clusters**
 ~~~~~~~~~~~~~~~~
 
@@ -2850,6 +2854,7 @@ To start the process of Integrating a Cluster the user must click with the mouse
 
 C. **Integrate Multiple Clusters**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
     :alt: multiple clusters
@@ -3016,7 +3021,8 @@ The Integrations/Container Execution menu allows to configure a communication in
 
 This credential is called KubeConfig_. 
 
-.. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+.. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
+- or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
 
 .. image:: /figuras/fig_mangue/152_mangue_arquivo_config_kubernetes.png
     :alt: kubeconfig file
@@ -3257,7 +3263,7 @@ Below follows the description of each option in this submenu:
 ----
 
 
-.. important:: It is important to highlight that this action is definite and removes (erases) this configuration from the Mangue.io Platform, because all references of this monitoring server are erased on the Mangue.io platform.
+.. important:: It is important to highlight that this action is definite and removes (erases) this configuration from the Mangue.io platform, because all references of this monitoring server are erased on the Mangue.io platform.
 
 
 * **Edit Service**: This option of the actions menu shows the option ``Edit Service``. When selected the Mangue.io platform presents the content of the file in JSON format with all the configurations of the Kubernetes service. The user may edit what is necessary in this service and select the ``Send`` button. Await the action feedback that opens the following modal.
@@ -3702,7 +3708,7 @@ Right above the table, there are two elements which the user can act:
     :align: center
 ----
 
-* **Server Name**: This blank is mandatory and the user must inform the Registry server name they wish to configure on the Mangue.io Platform.
+* **Server Name**: This blank is mandatory and the user must inform the Registry server name they wish to configure on the Mangue.io platform.
 * **Username**: This blank is mandatory and the user must inform the user login provisioned in the operating system of the existing registry server;
 * **Email**: This blank is mandatory and the user must inform the user email that is used to make the authentication on the registry server;
 * **Password**: This blank is mandatory and the user must inform the user login password, provisioned in the operating system of the server, that is used to make the authentication of this user on the registry server;
@@ -3785,8 +3791,6 @@ The Secret menu contains a table with the following information:
 * **Type**: Type of Secret;
 * **Duration**: This column presents the time (in days) elapsed since the creation of this secret.
 * **Actions**: This column presents an action button, that is a trash bin |icone_lixo| that when clicked, removes the secret from the same line. When selecting the action ``Delete Secret`` the Mangue.io platform requests the action confirmation from the user.
-
-
 
 .. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
     :alt: warning delete
