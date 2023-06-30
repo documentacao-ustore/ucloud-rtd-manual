@@ -256,7 +256,11 @@ A **Deployment** is a Kubernetes object, the orchestrator used by the Mangue.io,
 
 On the table the following columns are presented with their respective information: 
 
-* **# actionable column:** This column presents an alternative way to remove (delete) multiple rows with a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent user actions to be performed at once in all selected lines. In this case three icons with very distinct actions are displayed:
+* **# actionable column:** This column presents an alternative way to remove (delete) multiple rows with a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|.
+  
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent user actions to be performed at once in all selected lines. 
+  
+  In this case three icons with very distinct actions are displayed:
   
   * **Rollback** |icone_reversao|: This option allows the user to perform an action of reversing the current version of the selected deployment(s) for its immediate previous version to the existing one on the Mangue.io Platform. 
   
@@ -1871,7 +1875,7 @@ On this menu option, the user can observe two distinct functions of the Mangue.i
 
 ----
 
-A. **Cron Jobs**
+A. Cron Jobs
 ----------------
 
 The Cron Jobs are useful to create periodic and recurring tasks (jobs), such as execute backups or send emails. The Cron Jobs can schedule individual tasks for a specific time,  as well as programming a job for when its cluster is probably idle. 
@@ -1897,7 +1901,7 @@ Below the content description for every column presented on the list:
 ----
 
 
-B. **Jobs**
+B. Jobs
 ----------
 
 
@@ -2772,8 +2776,8 @@ This menu comes with the purpose of treating other questions beyond the simple K
 
 ----
 
-A. **Clusters**
----------------
+A. Clusters
+~~~~~~~~~~~~
 
 The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
 
@@ -2826,8 +2830,8 @@ In the sequence the process of integration is described, it allows the user to a
 
 ----
 
-B. **Integrate Cluster**
-------------------------
+B. Integrate Cluster
+~~~~~~~~~~~~~~~~~~~~
 
 To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
 
@@ -2850,8 +2854,8 @@ To start the process of Integrating a Cluster the user must click with the mouse
 
 ----
 
-C. **Integrate Multiple Clusters**
----------------------------------
+C. Integrate Multiple Clusters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
@@ -2871,8 +2875,8 @@ After filling in all the blanks, the user must click on the ``Search`` button an
 
 ----
 
-D. **Create Cluster on Premise**
--------------------------------
+D. Create Cluster on Premise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
@@ -2964,8 +2968,8 @@ To perform an integration (via form) with a container manager existing on the Am
 
 ----
 
-C. **AKS**
-~~~~~~~~~~
+C. **Azure Kubernetes Services - AKS**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To perform an integration (via form) with a container manager existing in the Azure provider, the user must click with the cursor on the gray area below the **Azure Kubernetes Service - Azure AKS** logo and the Mangue.io platform presents the screen below with the AKS form:
 
@@ -3682,11 +3686,14 @@ After confirming this procedure the Mangue.io platform performs the migration of
 Registry
 ========
 
-The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on hub.docker.com, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
+The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on Hub Docker_, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
+
+.. _Docker: http://hub.docker.com
 
 On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the docker_. 
 
-.. _docker: http://hub.docker.com/ .
+.. _docker: http://hub.docker.com
+
 There is in this section a table containing the information of Registries added to the Kubernetes, reminding that the registries are secrets (see the item **Secrets**) created by namespace.
 
 Right above the table, there are two elements which the user can act:
