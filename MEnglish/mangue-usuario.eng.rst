@@ -109,6 +109,8 @@ Home screen
 The Overview home screen displays some graphs referring to the consumption values of computing resources specific to the user's selection, the details of the graphs follow below:
 
 
+----
+
 Cluster Monthly Price Graph
 ---------------------------
 
@@ -146,6 +148,8 @@ For the user to confirm the action of deleting all financial data (values) of co
 With this action all cluster consumption values are removed and a new period of information collection is started, losing all the information accumulated (the historic series) of the selected cluster. 
 
 
+----
+
 Cluster Consumption Value Calculation 
 --------------------------------------
 
@@ -164,6 +168,8 @@ The CPU and Memory price used is the same price as the contract resources, the v
 
 At the end of each 24-hours cycle, the total consumption value of the computing resources is stored in the Mangue.io Platform database and previously presented in the graph in: Cluster Monthly Price.
 
+
+----
 
 Total CPU Usage Graph
 ---------------------
@@ -256,7 +262,11 @@ A **Deployment** is a Kubernetes object, the orchestrator used by the Mangue.io,
 
 On the table the following columns are presented with their respective information: 
 
-* **# actionable column:** This column presents an alternative way to remove (delete) multiple rows with a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|. When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent user actions to be performed at once in all selected lines. In this case three icons with very distinct actions are displayed:
+* **# actionable column:** This column presents an alternative way to remove (delete) multiple rows with a single command. Each row is represented by a selectable icon |uCloud_icone_coluna_acionavel|.
+  
+  When the user choses a line or several, the Mangue.io platform presents the icon(s) above this column, they represent user actions to be performed at once in all selected lines. 
+  
+  In this case three icons with very distinct actions are displayed:
   
   * **Rollback** |icone_reversao|: This option allows the user to perform an action of reversing the current version of the selected deployment(s) for its immediate previous version to the existing one on the Mangue.io Platform. 
   
@@ -639,7 +649,7 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_ .
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_.
 
 .. _Hub: https://hub.docker.com/
 
@@ -1026,6 +1036,7 @@ By clicking on the ``Delete`` button the Horizontal Autoscaler is removed, and t
 
 .. attention:: A feedback  alert is created in the upper right corner of the screen informing the “success” or “error”.
 
+----
 
 PODs
 -----
@@ -1072,9 +1083,9 @@ The image above displays the listing of the created pods, followed by a descript
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker_. Hub.
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_.
 
-.. _Docker: https://hub.docker.com/
+.. _Hub: https://hub.docker.com
 
 * **Duration:** Presents the time (in days) elapsed since the creation of this Deployment;
 
@@ -1326,6 +1337,8 @@ This modality is the form the Mangue.io platform conducts the user through the s
 
 Below are described the steps to fill the forms from the screens that guide the user.
 
+
+----
 
 A. **First Step: New application**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1739,7 +1752,7 @@ It is important to highlight that this window does not allow the edition of the 
 
 .. note:: It is important to highlight that this action is definitive and removes the file from the operating system, not being able to restore it, thus all the references of this **configMap** on the Mangue.io platform are erased. Therefore, it is necessary to recreate the file from the beginning.
 
-
+----
 
       * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
 
@@ -1870,10 +1883,10 @@ Cron Jobs, Jobs
 On this menu option, the user can observe two distinct functions of the Mangue.io platform, they are jobs and cron jobs. The user views the list of all jobs and cron jobs, the list presents what is programmed for the contract, cluster and namespace selected on the gears tab |icone_engrenagem| "Configuration Selection". For each contract/cluster/namespace selection the list is automatically updated.
 
 
-~~~~
+----
 
-A. **Cron Jobs**
-~~~~~~~~~~~~~~~~
+A. Cron Jobs
+----------------
 
 The Cron Jobs are useful to create periodic and recurring tasks (jobs), such as execute backups or send emails. The Cron Jobs can schedule individual tasks for a specific time,  as well as programming a job for when its cluster is probably idle. 
 
@@ -1895,12 +1908,11 @@ Below the content description for every column presented on the list:
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: delete cron job
     :align: center
-~~~~~
+----
 
 
-B. **Jobs**
-~~~~~~~~~~~~
-
+B. Jobs
+----------
 
 A job creates one or more pods and guarantees that one of their specific numbers is closed with triumph. As the pods are successfully concluded, the job tracks the well successful conclusions. When a specified number of well successful conclusions is reached, the task (that is, Job) is concluded. Excluding a job cleans all the created pods.
 
@@ -2331,6 +2343,8 @@ It is not object of this document do described the inclusion process of new regi
 On the next screens are described how the platform interface presents the database content through the Mangue.io HTML interface.
 
 
+----
+
 Contract
 ---------
 
@@ -2346,6 +2360,8 @@ A. **Contract information**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is possible to visualize the contract administers, price per CPU and price per memory defined for the contract.
+
+----
 
 B. **Users information**
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2391,6 +2407,8 @@ A RBAC role (permission/profile) or *ClusterRole* contains rules that represent 
 
 .. note:: A role always defines permissions in a specific namespace; when creating a rule it must specify the namespace to which it belongs.
 
+
+----
 
 A. **Section: Roles**
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -2568,6 +2586,9 @@ A RBAC role or *ClusterRole* has rules that represent a set of permissions.
 If you want to define a function in a namespace, use a role; if you want to define a role in the whole cluster, use a *ClusterRole*.
 
 The user notes that this screen has multiple sections, each section is described below respectively.
+
+
+----
 
 A. **Section: Cluster Roles**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2771,10 +2792,10 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
 
 
-~~~~~~
+----
 
-A. **Clusters**
-~~~~~~~~~~~~~~~~
+A. Clusters
+~~~~~~~~~~~~
 
 The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
 
@@ -2825,10 +2846,10 @@ The Mangue.io platform allows the user to integrate with the infrastructure of a
 In the sequence the process of integration is described, it allows the user to add an existing cluster or a new one to the Mangue.io platform.
 
 
-~~~~~~
+----
 
-B. **Integrate Cluster**
-~~~~~~~~~~~~~~~~~~~~~~
+B. Integrate Cluster
+~~~~~~~~~~~~~~~~~~~~
 
 To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
 
@@ -2849,10 +2870,10 @@ To start the process of Integrating a Cluster the user must click with the mouse
 * **Action of updating**: In case the Mangue.io interface does not present the list, the cluster newly configured, the user must click on the |icone_update| icon so the application exhibits the updated list of this clusters' table.
 
 
-~~~~
+----
 
-C. **Integrate Multiple Clusters**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C. Integrate Multiple Clusters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
@@ -2870,10 +2891,10 @@ On this screen the user may integrate several existing Clusters on the public cl
 After filling in all the blanks, the user must click on the ``Search`` button and the platform shows a dropdown list of the Clusters already existing on the selected platforms. The user must select the Clusters that are to be integrated to the platform, after selecting the ``Integrate`` button is available to be clicked.
 
 
-~~~~~
+----
 
-D. **Create Cluster on Premise**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D. Create Cluster on Premise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
@@ -2918,6 +2939,8 @@ On the following screen the user can see that below each public service provider
 ----
 
 On the screens below is described the specific forms characteristics of each provider.
+
+----
 
 A. **Google Kubernetes Engine – GKE**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2965,8 +2988,8 @@ To perform an integration (via form) with a container manager existing on the Am
 
 ----
 
-C. **AKS**
-~~~~~~~~~~
+C. **Azure Kubernetes Services - AKS**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To perform an integration (via form) with a container manager existing in the Azure provider, the user must click with the cursor on the gray area below the **Azure Kubernetes Service - Azure AKS** logo and the Mangue.io platform presents the screen below with the AKS form:
 
@@ -3017,7 +3040,7 @@ Container Execution
 
 The Integrations/Container Execution menu allows to configure a communication interface with the containers that are being executed in a POD. For it to be possible, it is necessary to provide an access credential to the Kubernetes cluster. 
 
-This credential is called KubeConfig_. - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+This credential is called KubeConfig_ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
 
 .. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
 
@@ -3041,6 +3064,8 @@ Performance
 The Mangue.io platform may use the Metric Server's API to make the collection of Kubernetes' metrics, but not only the performance metrics regarding its workloads, pods and containers, but also the events and new events generated by its cluster.
 
 This screen is divided in two sections, which is described below:
+
+----
 
 A. **Section: Add the Monitoring**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3447,6 +3472,7 @@ For example: if a deployment needs to start a new replica defined on the Horizon
 
 .. warning:: This is an extremely destructive action, because when deleting a namespace it also deletes **all** the resources and services present on it.
 
+----
 
 Nodes
 =====
@@ -3683,11 +3709,14 @@ After confirming this procedure the Mangue.io platform performs the migration of
 Registry
 ========
 
-The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on hub.docker.com, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
+The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on Hub Docker_, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
 
-On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the docker_. 
+.. _Docker: http://hub.docker.com
 
-.. _docker: http://hub.docker.com/ .
+On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the Docker_. 
+
+.. _Docker: http://hub.docker.com
+
 There is in this section a table containing the information of Registries added to the Kubernetes, reminding that the registries are secrets (see the item **Secrets**) created by namespace.
 
 Right above the table, there are two elements which the user can act:
@@ -4080,6 +4109,7 @@ When selecting the action “Delete Volume” the Mangue.io platform requests ac
 
 .. note:: It is important to highlight that this action when confirmed is irreversible. Any cluster workload that is associated with, or use, this *PersistentVolumeClaim* can present a fatal error (crash) in its execution.
 
+----
 
 Tasks
 ======
