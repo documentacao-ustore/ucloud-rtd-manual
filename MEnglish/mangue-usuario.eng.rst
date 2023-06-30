@@ -639,7 +639,7 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_ .
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_.
 
 .. _Hub: https://hub.docker.com/
 
@@ -1072,9 +1072,9 @@ The image above displays the listing of the created pods, followed by a descript
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker_. Hub.
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_.
 
-.. _Docker: https://hub.docker.com/
+.. _Hub: https://hub.docker.com
 
 * **Duration:** Presents the time (in days) elapsed since the creation of this Deployment;
 
@@ -1738,8 +1738,7 @@ It is important to highlight that this window does not allow the edition of the 
 
 
 .. note:: It is important to highlight that this action is definitive and removes the file from the operating system, not being able to restore it, thus all the references of this **configMap** on the Mangue.io platform are erased. Therefore, it is necessary to recreate the file from the beginning.
-
-
+----
 
       * **Edit Configmap**: When selecting this option the Mangue.io platform presents the following screen, place where the user can perform the necessary alterations on the *configMap* file(s) content(s).
 
@@ -1870,10 +1869,10 @@ Cron Jobs, Jobs
 On this menu option, the user can observe two distinct functions of the Mangue.io platform, they are jobs and cron jobs. The user views the list of all jobs and cron jobs, the list presents what is programmed for the contract, cluster and namespace selected on the gears tab |icone_engrenagem| "Configuration Selection". For each contract/cluster/namespace selection the list is automatically updated.
 
 
-~~~~
+----
 
 A. **Cron Jobs**
-~~~~~~~~~~~~~~~~
+----------------
 
 The Cron Jobs are useful to create periodic and recurring tasks (jobs), such as execute backups or send emails. The Cron Jobs can schedule individual tasks for a specific time,  as well as programming a job for when its cluster is probably idle. 
 
@@ -1895,11 +1894,11 @@ Below the content description for every column presented on the list:
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: delete cron job
     :align: center
-~~~~~
+----
 
 
 B. **Jobs**
-~~~~~~~~~~~~
+----------
 
 
 A job creates one or more pods and guarantees that one of their specific numbers is closed with triumph. As the pods are successfully concluded, the job tracks the well successful conclusions. When a specified number of well successful conclusions is reached, the task (that is, Job) is concluded. Excluding a job cleans all the created pods.
@@ -2771,10 +2770,10 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
 
 
-~~~~~~
+----
 
 A. **Clusters**
-~~~~~~~~~~~~~~~~
+---------------
 
 The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
 
@@ -2825,10 +2824,10 @@ The Mangue.io platform allows the user to integrate with the infrastructure of a
 In the sequence the process of integration is described, it allows the user to add an existing cluster or a new one to the Mangue.io platform.
 
 
-~~~~~~
+----
 
 B. **Integrate Cluster**
-~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
 
@@ -2849,10 +2848,10 @@ To start the process of Integrating a Cluster the user must click with the mouse
 * **Action of updating**: In case the Mangue.io interface does not present the list, the cluster newly configured, the user must click on the |icone_update| icon so the application exhibits the updated list of this clusters' table.
 
 
-~~~~
+----
 
 C. **Integrate Multiple Clusters**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
@@ -2870,10 +2869,10 @@ On this screen the user may integrate several existing Clusters on the public cl
 After filling in all the blanks, the user must click on the ``Search`` button and the platform shows a dropdown list of the Clusters already existing on the selected platforms. The user must select the Clusters that are to be integrated to the platform, after selecting the ``Integrate`` button is available to be clicked.
 
 
-~~~~~
+----
 
 D. **Create Cluster on Premise**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
@@ -3017,7 +3016,7 @@ Container Execution
 
 The Integrations/Container Execution menu allows to configure a communication interface with the containers that are being executed in a POD. For it to be possible, it is necessary to provide an access credential to the Kubernetes cluster. 
 
-This credential is called KubeConfig_. - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+This credential is called KubeConfig_ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
 
 .. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
 
