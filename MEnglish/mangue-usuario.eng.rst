@@ -131,7 +131,7 @@ These values are stored in an internal database of the Mangue.io platform, so th
 
 If the user wishes, this database (“Ticket”) can be cleared, removing all the information stored, in order to zero all the accumulated values. 
 
-For this purpose, the user must click on the “Trash Bin” |icone_lata_lixo_preta| icon. The Mangue.io platform requests a confirmation from the user for the action displaying the screen below: 
+For this purpose, the user must click on the “Trash Bin” |icone_lixo| icon. The Mangue.io platform requests a confirmation from the user for the action displaying the screen below: 
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
@@ -639,9 +639,9 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_.
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_ .
 
-.. _Hub: https://hub.docker.com/;
+.. _Hub: https://hub.docker.com/
 
 * **Duration**: Presents the time (in days) elapsed since the creation of this deployment;
 
@@ -1072,9 +1072,9 @@ The image above displays the listing of the created pods, followed by a descript
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_.
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker_. Hub.
 
-.. _Hub: https://hub.docker.com/.
+.. _Docker: https://hub.docker.com/
 
 * **Duration:** Presents the time (in days) elapsed since the creation of this Deployment;
 
@@ -1341,7 +1341,7 @@ For the creation of a new application (Deployment) the Mangue.io platform segmen
 * **Replicas**: This blank is mandatory, the user must inform the number (full)that they desire to allocate to execute the application (Deployment) as soon as created. This number is allocated in the computing infrastructure so that the user obtains a better performance experience, and the Mangue.io platform takes care of allocating these computing resources; 
 * **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register_. 
 
-.. _register: http://hub.docker.com. 
+.. _register: http://hub.docker.com 
 
 The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
 
@@ -1869,7 +1869,8 @@ Cron Jobs, Jobs
 
 On this menu option, the user can observe two distinct functions of the Mangue.io platform, they are jobs and cron jobs. The user views the list of all jobs and cron jobs, the list presents what is programmed for the contract, cluster and namespace selected on the gears tab |icone_engrenagem| "Configuration Selection". For each contract/cluster/namespace selection the list is automatically updated.
 
-----
+
+~~~~
 
 A. **Cron Jobs**
 ~~~~~~~~~~~~~~~~
@@ -1894,7 +1895,7 @@ Below the content description for every column presented on the list:
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: delete cron job
     :align: center
-----
+~~~~~
 
 
 B. **Jobs**
@@ -2083,7 +2084,7 @@ On the Monthly Invoicing by Tags History section, the user must first select a C
 
 On the Tags Details section, is exhibited a list with all of them or only the selected Tags on the Monthly Invoicing by Tags History section. On the Tag detailing, is presented a list of applications with Tag and a graph with the Tag invoicing in the last 30 days.
 
-The user can exclude a Tag clicking on the |icone_lata_lixo_preta| button, on the Tag detailing.
+The user can exclude a Tag clicking on the |icone_lixo| button, on the Tag detailing.
 
 ----
 
@@ -2770,7 +2771,7 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
 
 
-----
+~~~~~~
 
 A. **Clusters**
 ~~~~~~~~~~~~~~~~
@@ -2824,8 +2825,7 @@ The Mangue.io platform allows the user to integrate with the infrastructure of a
 In the sequence the process of integration is described, it allows the user to add an existing cluster or a new one to the Mangue.io platform.
 
 
-----
-
+~~~~~~
 
 B. **Integrate Cluster**
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -2849,8 +2849,7 @@ To start the process of Integrating a Cluster the user must click with the mouse
 * **Action of updating**: In case the Mangue.io interface does not present the list, the cluster newly configured, the user must click on the |icone_update| icon so the application exhibits the updated list of this clusters' table.
 
 
-----
-
+~~~~
 
 C. **Integrate Multiple Clusters**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2871,8 +2870,7 @@ On this screen the user may integrate several existing Clusters on the public cl
 After filling in all the blanks, the user must click on the ``Search`` button and the platform shows a dropdown list of the Clusters already existing on the selected platforms. The user must select the Clusters that are to be integrated to the platform, after selecting the ``Integrate`` button is available to be clicked.
 
 
------
-
+~~~~~
 
 D. **Create Cluster on Premise**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3019,10 +3017,10 @@ Container Execution
 
 The Integrations/Container Execution menu allows to configure a communication interface with the containers that are being executed in a POD. For it to be possible, it is necessary to provide an access credential to the Kubernetes cluster. 
 
-This credential is called KubeConfig_. 
+This credential is called KubeConfig_. - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
 
 .. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
-- or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+
 
 .. image:: /figuras/fig_mangue/152_mangue_arquivo_config_kubernetes.png
     :alt: kubeconfig file
@@ -3794,7 +3792,7 @@ The Secret menu contains a table with the following information:
 
 .. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
     :alt: warning delete
-    :algn: center
+    :align: center
 ----
 
 
