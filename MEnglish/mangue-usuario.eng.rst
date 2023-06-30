@@ -3713,9 +3713,9 @@ The Registry menu presents all the Docker Registries integrated to the platform.
 
 .. _Docker: http://hub.docker.com
 
-On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the docker_. 
+On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the Docker_. 
 
-.. _docker: http://hub.docker.com
+.. _Docker: http://hub.docker.com
 
 There is in this section a table containing the information of Registries added to the Kubernetes, reminding that the registries are secrets (see the item **Secrets**) created by namespace.
 
