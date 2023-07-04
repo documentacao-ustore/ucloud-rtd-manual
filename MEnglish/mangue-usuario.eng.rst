@@ -1273,7 +1273,7 @@ Right above the table, there are three elements with which the user can act:
 
 * **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired Update name. It is just necessary to inform part of the name and type enter or click on the "Magnifying glass" icon |icone_lupa_verde|. As a result of this search only comes up the Updates that contains the key-word of the search;
 
-* **The update action**: Just click on the icon |icone_update| for the Mangue.io to update the interface with the most recent values of the Updates table;
+* **Update action**: Just click on the icon |icone_update| for the Mangue.io to update the interface with the most recent values of the Updates table;
 
 * **Create Integration with Updates**: Just click on the plus sign |icone_adicionar| for the user to register a new update for a Deployment in a certain Namespace. The Mangue.io platform presents the following screen for the user: 
 
@@ -2794,8 +2794,8 @@ This menu comes with the purpose of treating other questions beyond the simple K
 
 ----
 
-A. Clusters
-~~~~~~~~~~~~
+Clusters
+---------
 
 The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
 
@@ -2848,8 +2848,8 @@ In the sequence the process of integration is described, it allows the user to a
 
 ----
 
-B. Integrate Cluster
-~~~~~~~~~~~~~~~~~~~~
+Integrate Cluster
+-----------------
 
 To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
 
@@ -2872,9 +2872,8 @@ To start the process of Integrating a Cluster the user must click with the mouse
 
 ----
 
-C. Integrate Multiple Clusters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Integrate Multiple Clusters
+------------------------------
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
     :alt: multiple clusters
@@ -2893,8 +2892,8 @@ After filling in all the blanks, the user must click on the ``Search`` button an
 
 ----
 
-D. Create Cluster on Premise
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Cluster on Premise
+-------------------------
 
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
@@ -2926,8 +2925,8 @@ When clicking on ``Create``, a screen with the on premise cluster creation proce
 ----
 
 
-Simplified Cluster Integration – Via Form (GKE, EKS, AKS, IBM Cloud)
--------------------------------------------------------------------------------
+Simplified Process of Cluster Integration via Form 
+----------------------------------------------------
 
 The Mangue.io platform allows to simplify the integration process with an existing cluster in the public cloud providers (Amazon, Google, Azure and IBM) through the form that directs the user to the filling of credentials and configurations in a very clear and simple way.
 
@@ -3437,7 +3436,7 @@ This screen has two blanks and two buttons:
     :align: center
 ----
 
-          * ``Confirm`` **button* : The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
+          * ``Confirm`` **button** : The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
 
       * **Add the Resource Quota**: This screen allows the user to establish the ideal quantity of computing resources that the namespace consumes to keep its ideal performance, as well as establishing its maximum consumption limit of computing resources.
 
@@ -4123,7 +4122,7 @@ By the end of the task processing, the Mangue.io platform receives feedback from
     :align: center
 ----
 
-On the list is possible to find the tasks status regarding the cluster that was selected on the gears tab |icone_engrenagem_azul| "Configuration Selection" from the Mangue.io platform:
+On the list is possible to find the tasks status regarding the cluster that was selected on the gears tab |icone_engrenagem| "Configuration Selection" from the Mangue.io platform:
 
 * **Operation**: On this column is presented a succinct description of the task that was executed by the user through the Mangue.io interface.
 * **Cluster**: On this column is presented the cluster identification in which the task occurred.
