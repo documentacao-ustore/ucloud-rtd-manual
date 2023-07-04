@@ -209,13 +209,8 @@ The user menu bar is located on the left of the screen and, initially, is presen
 =====
 
 
-Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option's submenu to the user, see the example in the figure below.
+Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option's submenu to the user, detailed in the sequence.
 
-
-.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
-    :alt: Submenu Example 
-    :scale: 80 %
-    :align: center
 =====
 
 
@@ -225,7 +220,7 @@ Workloads
 On this Workloads user menu option, the dashboard presents information about Deployments, *Daemonsets*, Horizontal Autoscaler, *StatefulSets* and Updates.
 
 
-.. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
+.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
     :alt: Workloads Menu 
     :scale: 80 %
     :align: center
@@ -1758,8 +1753,8 @@ It is important to highlight that this window does not allow the edition of the 
 
 The following image is a cutout of the elements positioned above the table, there are three different and available actions to the user:
 
-.. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
-    :alt: search update
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
+    :alt: Search update
     :align: center
 ----
 
@@ -3306,8 +3301,8 @@ An Ingress Controller is responsible for complementing the Ingress, generally wi
 
 Right above the table, there are three elements which the user may act:
 
-.. image:: /figuras/fig_mangue/168_mangue_pesquisar_atualizacoes.png
-    :alt: search update
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
+    :alt: Search update
     :align: center
 ----
 
