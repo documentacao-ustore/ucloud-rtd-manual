@@ -209,13 +209,8 @@ The user menu bar is located on the left of the screen and, initially, is presen
 =====
 
 
-Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option's submenu to the user, see the example in the figure below.
+Some menu options have a submenu, which are presented when the user places the mouse over the indication (less than sign “<”). When clicking on this icon |icone_sinal_menor|, the interface presents this option's submenu to the user, detailed in the sequence.
 
-
-.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
-    :alt: Submenu Example 
-    :scale: 80 %
-    :align: center
 =====
 
 
@@ -225,7 +220,7 @@ Workloads
 On this Workloads user menu option, the dashboard presents information about Deployments, *Daemonsets*, Horizontal Autoscaler, *StatefulSets* and Updates.
 
 
-.. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
+.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
     :alt: Workloads Menu 
     :scale: 80 %
     :align: center
@@ -649,7 +644,7 @@ On this section, the Mangue.io platform presents the following information:
   
       * **!** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the deployment and its replicas. For example: the image of a container is passed with an inexistent version, thus, its download does not occur;
 
-* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the Docker Hub_.
+* **Image**: This column presents the information of the public image that was used for the creation of this deployment. This image can be found in public websites that contain technical information regarding the application itself, an example is the website Docker Hub_.
 
 .. _Hub: https://hub.docker.com/
 
@@ -1083,9 +1078,7 @@ The image above displays the listing of the created pods, followed by a descript
 
       * **“!”** (exclamation mark) identifies an alarm, in other words, that something wrong happened with the Deployment and its replicas. For example: when the image of a container is passed with an inexistent version, thus, the download of this container does not occur;
 
-* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example of one used is Docker Hub_.
-
-.. _Hub: https://hub.docker.com
+* **Image:** This column presents the public image information that was used to create this deployment. This image can be found on public websites that contain technical information regarding the application itself, an example is the website Docker Hub_.
 
 * **Duration:** Presents the time (in days) elapsed since the creation of this Deployment;
 
@@ -1273,7 +1266,7 @@ Right above the table, there are three elements with which the user can act:
 
 * **Search action**: In case the list presented on this screen is too long (occupying more than one page), there is a blank where it is possible for the user to make a search with the desired Update name. It is just necessary to inform part of the name and type enter or click on the "Magnifying glass" icon |icone_lupa_verde|. As a result of this search only comes up the Updates that contains the key-word of the search;
 
-* **The update action**: Just click on the icon |icone_update| for the Mangue.io to update the interface with the most recent values of the Updates table;
+* **Update action**: Just click on the icon |icone_update| for the Mangue.io to update the interface with the most recent values of the Updates table;
 
 * **Create Integration with Updates**: Just click on the plus sign |icone_adicionar| for the user to register a new update for a Deployment in a certain Namespace. The Mangue.io platform presents the following screen for the user: 
 
@@ -1352,11 +1345,7 @@ For the creation of a new application (Deployment) the Mangue.io platform segmen
 
 * **Name**: This space is mandatory, the user must inform the application (Deployment) name with which this stays identified on Mangue.io platform;
 * **Replicas**: This blank is mandatory, the user must inform the number (full)that they desire to allocate to execute the application (Deployment) as soon as created. This number is allocated in the computing infrastructure so that the user obtains a better performance experience, and the Mangue.io platform takes care of allocating these computing resources; 
-* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register_. 
-
-.. _register: http://hub.docker.com 
-
-The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
+* **Search Image**: This area is mandatory, an image search of an application is performed in the server of image register http://hub.docker.com. The user can inform a sequence of characters (even if partial) of any image cataloged on Hub Docker, and the Mangue.io platform does a search and presents a list that contains the characters sequence. See the example below, with the sequence search “wordp”, to search the application **Wordpress** image:
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
     :alt: search image
@@ -1764,8 +1753,8 @@ It is important to highlight that this window does not allow the edition of the 
 
 The following image is a cutout of the elements positioned above the table, there are three different and available actions to the user:
 
-.. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
-    :alt: search update
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
+    :alt: Search update
     :align: center
 ----
 
@@ -2794,8 +2783,8 @@ This menu comes with the purpose of treating other questions beyond the simple K
 
 ----
 
-A. Clusters
-~~~~~~~~~~~~
+Clusters
+---------
 
 The Integrations/Clusters menu allows the user to integrate the Mangue.io platform to an existing cluster, that may be active in another computing infrastructure, to the Mangue.io platform. Beyond that, this screen presents a list with the information of clusters integrated to the Mangue.io.
 
@@ -2848,8 +2837,8 @@ In the sequence the process of integration is described, it allows the user to a
 
 ----
 
-B. Integrate Cluster
-~~~~~~~~~~~~~~~~~~~~
+Integrate Cluster
+-----------------
 
 To start the process of Integrating a Cluster the user must click with the mouse over the button on the left side so the screen presents the specific blanks.
 
@@ -2872,9 +2861,8 @@ To start the process of Integrating a Cluster the user must click with the mouse
 
 ----
 
-C. Integrate Multiple Clusters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Integrate Multiple Clusters
+------------------------------
 
 .. image:: /figuras/fig_mangue/144_mangue_multiplos_clusters.png
     :alt: multiple clusters
@@ -2893,8 +2881,8 @@ After filling in all the blanks, the user must click on the ``Search`` button an
 
 ----
 
-D. Create Cluster on Premise
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Cluster on Premise
+-------------------------
 
 
 .. image:: /figuras/fig_mangue/145_mangue_cluster_premise.png
@@ -2926,8 +2914,8 @@ When clicking on ``Create``, a screen with the on premise cluster creation proce
 ----
 
 
-Simplified Cluster Integration – Via Form (GKE, EKS, AKS, IBM Cloud)
--------------------------------------------------------------------------------
+Simplified Process of Cluster Integration via Form 
+----------------------------------------------------
 
 The Mangue.io platform allows to simplify the integration process with an existing cluster in the public cloud providers (Amazon, Google, Azure and IBM) through the form that directs the user to the filling of credentials and configurations in a very clear and simple way.
 
@@ -3313,8 +3301,8 @@ An Ingress Controller is responsible for complementing the Ingress, generally wi
 
 Right above the table, there are three elements which the user may act:
 
-.. image:: /figuras/fig_mangue/168_mangue_pesquisar_atualizacoes.png
-    :alt: search update
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
+    :alt: Search update
     :align: center
 ----
 
@@ -3415,9 +3403,9 @@ Below is described the blanks of the table presented on this screen:
     :align: center
 ----
 
-      * **Add Labels**: A label allows the user to map their own organizationals structures in system objects in a loosely coupled way, without imposing that the softwares store these mappings. Labels are created with two attributions 'key' and 'value' and are attached to objects, like pods. The labels must be used to specify the objects attributes identification that are significant and relevant for the users. The labels may be used to organize and select subset of objects (detailed information here_.
+      * **Add Labels**: A label allows the user to map their own organizationals structures in system objects in a loosely coupled way, without imposing that the softwares store these mappings. Labels are created with two attributions 'key' and 'value' and are attached to objects, like pods. The labels must be used to specify the objects attributes identification that are significant and relevant for the users. The labels may be used to organize and select subset of objects (detailed information on Kubernetes_ documentation website).
   
-.. _ here: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/).
+.. _Kubernetes: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/.
 
 .. image:: /figuras/fig_mangue/175_mangue_label_namespace.png
     :alt: add label
@@ -3437,7 +3425,7 @@ This screen has two blanks and two buttons:
     :align: center
 ----
 
-          * ``Confirm`` **button* : The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
+          * ``Confirm`` **button** : The user must click on the ``Confirm`` button when they have completed informing the key(s)/value(s) necessary(ies) to the namespaces. When clicking on the button, the Mangue.io platform configures this information and closes this screen, presenting the action feedback on the superior right corner of the screen on the internet browser.
 
       * **Add the Resource Quota**: This screen allows the user to establish the ideal quantity of computing resources that the namespace consumes to keep its ideal performance, as well as establishing its maximum consumption limit of computing resources.
 
@@ -3709,13 +3697,9 @@ After confirming this procedure the Mangue.io platform performs the migration of
 Registry
 ========
 
-The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on Hub Docker_, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
+The Registry menu presents all the Docker Registries integrated to the platform. The Docker Registry provides a service for image hosting of the analog Docker to the one which is available on Hub_, but with the possibility of use and hosting in an internal network. The Registries may and must be used as an alternative for storage of the providers docker images and applications of an organization. 
 
-.. _Docker: http://hub.docker.com
-
-On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like the Docker_. 
-
-.. _Docker: http://hub.docker.com
+On the Registry menu is possible to connect to a private registry, that is, a registry provider of the private image of the organization. Or a registry service of a public image, like for example the Docker Hub_. 
 
 There is in this section a table containing the information of Registries added to the Kubernetes, reminding that the registries are secrets (see the item **Secrets**) created by namespace.
 
@@ -4123,7 +4107,7 @@ By the end of the task processing, the Mangue.io platform receives feedback from
     :align: center
 ----
 
-On the list is possible to find the tasks status regarding the cluster that was selected on the gears tab |icone_engrenagem_azul| "Configuration Selection" from the Mangue.io platform:
+On the list is possible to find the tasks status regarding the cluster that was selected on the gears tab |icone_engrenagem| "Configuration Selection" from the Mangue.io platform:
 
 * **Operation**: On this column is presented a succinct description of the task that was executed by the user through the Mangue.io interface.
 * **Cluster**: On this column is presented the cluster identification in which the task occurred.
