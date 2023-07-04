@@ -129,7 +129,7 @@ Estes valores são armazenados em uma base de dados interna da plataforma do Man
 
 Se o usuário desejar, esta base de dados (“Bilhetador”) pode ser limpa, removendo toda a informação armazenada, de forma a “zerar” todos os valores acumulados. 
 
-Para esta finalidade, o usuário deve clicar sobre o ícone “Lata de Lixo” |icone_lata_lixo_preta|. A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
+Para esta finalidade, o usuário deve clicar sobre o ícone “Lixeira” |icone_lata_lixo_preta|. A plataforma do Mangue.io solicita a confirmação do usuário para esta ação apresentando a tela abaixo:
 
 
 .. image:: /figuras/fig_mangue/005_mangue_deletar_bilhetador.png
@@ -255,9 +255,7 @@ Um **Deployment** é um objeto do *Kubernetes*, orquestrador utilizado pelo Mang
 
 Na tabela são apresentadas as seguintes colunas com suas respectivas informações: 
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez em todas as linhas selecionadas. 
    
@@ -277,7 +275,7 @@ Na tabela são apresentadas as seguintes colunas com suas respectivas informaç�
 
 * **Instâncias**: Apresentada a quantidade de réplicas que estão operacionais de um *deployment*, e pela quantidade total de réplicas operacionais desejadas para este *deployment*. Estão divididas por uma barra (“/”) onde os valores encontrados antes da barra são as réplicas operacionais, e os valores após a barra representam a quantidade esperada de réplicas operacionais;
 
-* **Status**: O status de um *deployment* identifica seu estado atual. Podem ser apresentados como *Running*, *Pending* ou “*!*” (ponto de exclamação);
+* **Status**: O *status* de um *deployment* identifica seu estado atual. Podem ser apresentados como *Running*, *Pending* ou “*!*” (ponto de exclamação);
 
      * O *status* **Running** identifica que nenhum erro está acontecendo com o *deployment*;
 
@@ -961,13 +959,11 @@ A definição de "Regras de Escalabilidade" controla o incremento da quantidade 
     :align: center
 =====
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
 
       Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-      Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
    * **Nome:** Identifica o nome do Autoescalador criado, e normalmente deve ser o mesmo nome do *Deployment*;
 
@@ -1030,13 +1026,11 @@ A plataforma do Mangue.io pode ajudá-lo a criar quantos *pods* forem necessári
 
 A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o significado de cada uma das sete colunas desta tela:
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: Nome do *Deployment* que é estabelecido no momento da criação deste;
 
@@ -1084,7 +1078,7 @@ Cada uma das opções deste submenu está descrita abaixo:
 
 * **Log**: Na terceira opção, o usuário é capaz de visualizar os *logs* de um determinado *Pod* de uma forma semelhante ao que se obtém com uma sessão de emulação de console de terminal SSH. 
 
-   O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). 
+  O usuário é capaz, também, de filtrar o número de registros (linhas) que ele gostaria de observar (opções são: 10, 20, 50, 100, 300, 500, 1000, all). 
    
    
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
@@ -1119,7 +1113,7 @@ Nesta funcionalidade a plataforma do Mangue apresenta todos os *statefulsets* de
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: É a representação do nome do *Statefulsets*;
 
@@ -1777,7 +1771,7 @@ Abaixo a descrição de cada coluna desta tabela:
 
   Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
 
-  Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+  Neste caso é apresentado um ícone de "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
 
 * **Nome**: Nesta coluna é apresentado o nome do *configMap* adicionado pelo usuário. Ao clicar com o mouse sobre o nome, a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configMap*. 
@@ -1850,10 +1844,10 @@ Abaixo a descrição dos campos da tela acima:
    * **Nome do configMap**: Neste campo o usuário deve digitar o nome do *configMap* desejado, em seguida clicar sobre o ícone do sinal de adição |icone_adicionar|, o que resulta na plataforma do Mangue.io a adição dos campos abaixo:
 
 
-     * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *configMap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lata de lixo" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configMap*.
+   * **Arquivo “n”**: A cada vez que o usuário clicar sobre o sinal de adição |icone_adicionar| a plataforma do Mangue.io insere uma linha cinza com o número sequencial do arquivo de *configMap*. Caso o usuário necessite remover (apagar) o arquivo configurado no ícone "Lixeira" |icone_lixo_vermelho| basta optar por remover o arquivo **“n”** do *configMap*.
 
 
-     * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
+   * **Nome do Arquivo**: Neste espaço o usuário deve informar o nome do arquivo que é criado no sistema operacional destino que dá suporte a execução do *deployment*. Importante lembrar que este nome, e sua respectiva extensão, devem seguir as regras de nomeação de arquivos do sistema operacional destino, portanto devem conter apenas caracteres ASCII padrão.
 
 
 
@@ -1861,10 +1855,10 @@ Abaixo a descrição dos campos da tela acima:
 
 ====
 
-     * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*.
+   * **Conteúdo do Arquivo**: Neste campo o usuário deve digitar o conteúdo do arquivo nomeado, no campo anterior. Conteúdo este que deve ser informado conforme a necessidade técnica e o objetivo deste *configMap*.
      
      
-     Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
+    Por padrão é apresentada somente a visualização de algumas linhas do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o cursor do mouse mude para uma seta diagonal dupla |icone_seta_diagonal|. Desta forma, permite ao usuário redimensionar o espaço do conteúdo listado e acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste.
      
 
    * **Botão** ``Adicionar configMap``: Após o usuário informar o(s) arquivo(s) de *configMap* necessário(s), o usuário deve clicar com o mouse sobre o botão ``Adicionar configMap`` para a plataforma do Mangue.io efetuar a criação do(s) referido(s) arquivo(s) no ambiente do sistema operacional destino. Após esta ação sobre este botão a plataforma fecha esta janela e retorna para a tela onde é apresentada a lista de *configMap*.
@@ -2044,9 +2038,7 @@ Ao selecionar esta opção do menu a plataforma do Mangue.io apresenta a seguint
 
 A plataforma do Mangue.io apresenta os valores do *cluster* e *namespace* selecionados na aba engrenagens |icone_engrenagem| “Seleção de Configuração”. 
 
-A cada seleção de um novo contrato/*cluster*/*namespace* os valores e os gráficos são atualizados automaticamente.
-
-Esta tela está dividida em duas seções diferentes, a seguir o detalhamento de cada seção.
+A cada seleção de um novo contrato/*cluster*/*namespace* os valores e os gráficos são atualizados automaticamente. Esta tela está dividida em duas seções diferentes, a seguir o detalhamento de cada seção.
 
 ====
 
@@ -2192,7 +2184,7 @@ A tela de Faturamento por *tags* é separada em duas seções:
 ----
  
 
-Na seção de Histórico de Faturamento Mensal por *tags*, o usuário deve primeiramente selecionar um *Cluster*, para que a plataforma consiga carregar as *tags* do *Cluster*. Após isso, o usuário pode selecionar o período desejado de faturamento e as *tags* a serem exibidas em gráfico e na seção de "Detalhes de *tags*".
+Na seção de Histórico de Faturamento Mensal por *tags*, o usuário deve primeiramente selecionar um *Cluster*, para que a plataforma consiga carregar as *tags* do *Cluster*. Após isso, o usuário pode escolher o período desejado de faturamento e as *tags* a serem exibidas em gráfico e na seção de "Detalhes de *tags*".
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
@@ -2202,7 +2194,7 @@ Na seção de Histórico de Faturamento Mensal por *tags*, o usuário deve prime
 
 Na seção de "Detalhes de *tags*", é exibida uma lista com todas elas ou apenas *tags* selecionadas na seção de Histórico de Faturamento Mensal por *tags*. No detalhamento da *tag*, é apresentada uma lista de aplicações com a *tag* e um gráfico com o faturamento da *tag* nos últimos 30 dias. 
 
-O usuário pode excluir uma *tag* clicando no botão "Lata de lixo" |icone_lata_lixo_preta| no detalhamento da *tag*.
+O usuário pode excluir uma *tag* clicando no botão "Lixeira" |icone_lata_lixo_preta| no detalhamento da *tag*.
 
 ----
 
@@ -2224,9 +2216,9 @@ Conforme visualizado nas seguintes imagens, um card exibe "Alertas" e o outro "*
 
    * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
-      Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-      Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+     Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
    * **Nome**: Esta coluna apresenta o nome do alerta definido no momento de criação do mesmo. Ao selecionar este campo é apresentado na tela informações sobre o alerta, nela o usuário consegue visualizar uma barra de progresso, *actions* e *webhooks* selecionados no momento da criação. Como pode ser visto na imagem abaixo:
   
@@ -2280,7 +2272,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 
      * **Descrição**: Campo correspondente à descrição do alerta;
 
-     * **Tipo**: Existem dois valores possíveis para o tipo, por *tag* para selecionar um conjunto de *deployments*, e por *Deployment* para selecionar apenas um *deployment*. Ao selecionar a *tag* ou *deployment* ocorre uma busca do valor de custo total correspondente ao *deployment* ou *tag* selecionada, esse valor é apresentado no campo de "Custo Atual" presente na tela;
+     * **Tipo**: Existem dois valores possíveis para o tipo, por *tag* para selecionar um conjunto de *deployments*, e por *Deployment* para escolher apenas um *deployment*. Ao selecionar a *tag* ou *deployment* ocorre uma busca do valor de custo total correspondente ao *deployment* ou *tag* escolhida, esse valor é apresentado no campo de "Custo Atual" presente na tela;
 
      * **Prazo**: Neste campo pode ser definido um prazo para execução do alerta; os alertas com status *pending* não são executados após o prazo estabelecido para o alerta;
 
@@ -2308,7 +2300,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 
 .. image:: /figuras/fig_mangue/102_mangue_alerta_acoes.png
     :alt: Alerta ações 
-    :scale: 100 %
+    :scale: 90 %
     :align: center
 =====
 
@@ -2337,7 +2329,7 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
 =====
 
 
-.. note:: Lembrar que ao menos um *webhook* ou uma ação deve ser informada para possibilitar a criação do alerta.
+.. note:: Ao menos um *webhook* ou uma ação deve ser informada para possibilitar a criação do alerta.
 
 
 * **Webhooks**: O *webhook* é uma forma de envio de informações para algum destino quando um evento acontecer, neste caso quando os *deployments* relacionados ao alerta atingem o preço de orçamento definido na criação do alerta, o *Webhook* dispara as informações. O Mangue.io fornece duas formas para o envio das informações, por meio do protocolo HTTP, e/ou por meio de e-mail.
@@ -2349,13 +2341,11 @@ Nesta seção de alertas é possível visualizar o ícone de adicionar alerta, c
     :align: center
 =====
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
   
-   Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta os ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+   Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone da "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+   Neste caso é apresentado o ícone da "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
 * **Nome**: Esta coluna exibe o nome do *webhook* definido no momento de criação;
 
@@ -2495,12 +2485,14 @@ Abaixo está a tela que apresenta informações sobre o contrato selecionado no 
 =====  
 
 A. **Informações do contrato**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 É possível visualizar os administradores do contrato, preço por CPU e preço por memória definidos para o contrato.
-                                                                                 
+
+----
+
 B. **Informações de usuários**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesta seção são listadas as informações sobre os usuários do contrato, e o nível de permissão de cada usuário. As permissões por usuário refletem o nível de permissão atribuído para um usuário no uCloud, seguindo o exemplo da tabela abaixo:
 
@@ -2521,7 +2513,7 @@ Por meio da lista de usuários é possível extrair as seguintes informações:
 * **Role**: Esta coluna apresenta o perfil de autorização (*role*) do usuário provisionado;
 * **Service Account**: Esta coluna apresenta o *service account* associado ao usuário;
 * **Cluster Role**: Esta coluna apresenta o *cluster role* associado ao usuário;
-* **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, exibe a seguinte opção:
+* **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, exibe a seguinte opção:
   
 .. image:: /figuras/fig_mangue/115_mangue_deletar_permissoes.png
     :alt: Deletar permissões 
@@ -2561,13 +2553,11 @@ Nesta seção o usuário pode ver a lista de todas as *roles* existentes no *clu
 =====
 
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|.
 
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas.
 
-Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+   Neste caso é apresentado um ícone de "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
 
 * **Nome**: Nesta coluna é apresentado o nome do *role* adicionado pelo usuário;
 
@@ -2633,7 +2623,7 @@ Um *RoleBinding* pode fazer referência a qualquer papel no mesmo *namespace*. C
 
    Quando o usuário escolhe uma linha; ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: Nesta coluna é apresentado o nome da *rolebinding* adicionado pelo usuário. Ao clicar com o mouse sobre o nome do *configMap* a plataforma do Mangue.io apresenta uma tela com o(s) conteúdo(s) do(s) arquivo(s) de *configMap*. Por padrão será apresentado somente a visualização de uma linha do conteúdo do arquivo, caso o conteúdo seja maior do que o campo, o usuário pode posicionar o mouse no canto inferior direito, até que o curso o mouse mude para uma seta diagonal dupla |icone_seta_diagonal|, que permite ao usuário redimensionar o tamanho do campo de conteúdo listado, para acomodar o tamanho que for adequado ao usuário, para a melhor visualização deste campo;
 
@@ -2697,13 +2687,11 @@ Quando um usuário acessa o *cluster*, você é autenticado pelo *APIServer* com
 =====
 
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado um ícone de "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone de "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: Nesta coluna é apresentado o nome da *serviceaccount* adicionado pelo usuário;
 
@@ -2770,13 +2758,11 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as *Cluster Role
 =====
 
 
-* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-
-   Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+* **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: Nesta coluna é apresentado o nome da *Cluster Role* adicionada pelo usuário;
 
@@ -2837,7 +2823,7 @@ Nesta tela a plataforma do Mangue.io apresenta a lista de todas as *Cluster Role
    
    Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
    
-   Neste caso é apresentado o ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+   Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
 
 * **Nome**: Nesta coluna é apresentado o nome da *Cluster Role Binding* adicionado pelo usuário;
 
@@ -2931,7 +2917,7 @@ Abaixo a descrição das informações presentes na tabela de *Pod Security Poli
 =====  
 
 
-Para criar um *Pod Security Policy* é necessário clicar no botão ``Adicionar`` |icone_adicionar|, ao clicar é exibido a tela abaixo:
+Para criar um *Pod Security Policy* é necessário clicar no botão ``Adicionar`` |icone_adicionar|, ao clicar é exibida a tela abaixo:
 
 .. image:: /figuras/fig_mangue/136_mangue_adicionar_pod_security.png
     :alt: Adicionar pod security 
@@ -3021,8 +3007,8 @@ Estas integrações permitem ao usuário ampliar a abrangência da plataforma do
 ----
 
 
-A. Clusters
-~~~~~~~~~~~
+Clusters
+--------
 
 
 O menu Integrações/*Clusters* permite ao usuário integrar a plataforma do Mangue.io a um *cluster* existente, que pode estar ativo em outra infraestrutura computacional, à plataforma do Mangue.io. Além disso, esta tela apresenta uma lista com as informações dos *clusters* integrados ao Mangue.io.
@@ -3046,7 +3032,7 @@ Na lista pode-se encontrar as informações de cada *Cluster* configurado e inte
 
    * **IP Público**: Esta coluna apresenta a informação do endereço TCP-IP Público do cluster. Este é o endereço pelo qual o cluster pode ser utilizado para acessar as aplicações (deployments) que estão sendo executadas neste cluster.
 
-   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, apresenta uma única opção:
+   * **Ações**: Esta coluna apresenta o botão ``Ação`` |icone_acao| ao ser clicado, apresenta a figura abaixo:
 
 
 .. image:: /figuras/fig_mangue/140_mangue_acoes_cluster.png
@@ -3094,8 +3080,10 @@ Na sequência o processo de integração é descrito, ele permite ao usuário ag
 
 ----
 
-B. Integrar Cluster
-~~~~~~~~~~~~~~~~~~~
+
+Integrar Cluster
+----------------
+
 
 
 Para iniciar o processo de Integrar um *Cluster* o usuário deve clicar com o mouse sobre o botão do lado esquerdo para que a tela apresente os campos específicos.
@@ -3120,7 +3108,7 @@ Para iniciar o processo de Integrar um *Cluster* o usuário deve clicar com o mo
 
    * **Porta para acesso da API**: Nesta área o usuário deve informar o número da PORTA TCP-IP para que o cluster seja acessado;
 
-   * **Cluster Admin Token**: Neste espaço o usuário deve informar a cadeia de caracteres (*string*) que foi gerada pelo provedor público de *cluster* com o objetivo de conferir e autenticar a identidade (token) da configuração com o cluster. Importante consultar o processo de geração de identificação (token) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente;
+   * **Cluster Admin Token**: Neste espaço o usuário deve informar a cadeia de caracteres (*string*) que foi gerada pelo provedor público de *cluster* com o objetivo de conferir e autenticar a identidade (*token*) da configuração com o cluster. Importante consultar o processo de geração de identificação (*token*) de cada provedor, ou cada ambiente de gerenciamento de container, especificamente;
 
    * **Botão** ``Integrar``: Ao finalizar o preenchimento dos campos acima, o usuário deve clicar com o mouse no botão verde “Integrar” para que a plataforma do Mangue.io inclua este cluster na lista apresentada nesta tela;
 
@@ -3128,8 +3116,10 @@ Para iniciar o processo de Integrar um *Cluster* o usuário deve clicar com o mo
 
 ----
 
-C. Integrar Múltiplos Clusters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Integrar Múltiplos Clusters
+---------------------------
+
 
 
 
@@ -3150,8 +3140,8 @@ Nesta tela o usuário pode integrar vários *Clusters* existentes nos provedores
 
 ----
 
-D. Criar Cluster on Premise
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Criar Cluster on Premise
+------------------------
 
 
 
@@ -3195,8 +3185,8 @@ Ao clicar ``Criar`` é exibida uma tela contendo o console do processo de criaç
 
 
 
-Integração de Cluster Simplificada – Via Form (GKE, EKS, AKS, IBM Cloud)
-------------------------------------------------------------------------
+Processo simplificado de integração de cluster via formulário
+-------------------------------------------------------------
 
 A plataforma do Mangue.io permite simplificar o processo de integração com um *cluster* existente nos provedores de nuvem pública (*Amazon, Google, Azure* e *IBM*) através de um formulário que direciona o usuário para o preenchimento de credenciais e configurações de forma bem clara e simples.
 
@@ -3359,8 +3349,9 @@ Container Execution
 
 O menu Integrações/*Container Execution* permite configurar uma interface de comunicação com os containers que estão sendo executados em um *POD*. Para que isso seja possível, é necessário fornecer uma credencial de acesso ao *cluster Kubernetes*. 
 
-Esta credencial é chamada de *KubeConfig* [Link: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/] - ou arquivo de configuração do *cluster Kubernetes*. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do *cluster*, endereço da API do *cluster* e algumas outras informações descritas no *link* que pode ser encontrado na nota de rodapé desta página.
-  
+Esta credencial é chamada de *KubeConfig* ou arquivo de configuração do *cluster Kubernetes*. Neste arquivo de configuração existem informações como: certificados SSL para acesso a API do *cluster*, endereço da API do *cluster* e algumas outras informações descritas em KubeConfig_ .
+
+.. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/
 
 .. image:: /figuras/fig_mangue/152_mangue_arquivo_config_kubernetes.png
     :alt: Container execution
@@ -3373,7 +3364,7 @@ Esta credencial é chamada de *KubeConfig* [Link: https://kubernetes.io/docs/con
 .. note:: É importante salientar que o endereço TCP-IP informado da API do cluster deve ser um endereço que seja alcançável pela infraestrutura computacional da sub-rede onde a plataforma do Mangue.io foi implantada.
 	
 
-Caso já tenha o *KubeConfig* cadastrado, o usuário pode exibi-lo clicando no ícone |icone_exibir|. Também é possível excluir o *KubeConfig* cadastrado clicando no ícone |icone_lata_lixo_preta|.
+Caso já tenha o *KubeConfig* cadastrado, o usuário pode exibi-lo clicando no ícone |icone_exibir|. Também é possível excluir o *KubeConfig* cadastrado clicando no ícone "Lixeira" |icone_lata_lixo_preta|.
 
 
 ====
@@ -3390,7 +3381,7 @@ Esta tela está dividida em duas seções, descritas abaixo:
 
 
 A. Seção: Adicionar o Monitoramento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Nesta seção, na parte superior da tela, é apresentado um formulário com os campos necessários para que o usuário preencha:
@@ -3479,7 +3470,7 @@ Importante ressaltar que esta ação é definitiva e remove (apaga) esta configu
 Helm
 ----
 
-Helm é uma ferramenta que permite a instalação de aplicações *Kubernetes*, funcionando como um gerenciador de pacotes para o *Kubernetes*, as aplicações Helm são definidas no repósitorio de aplicações Helm. Para utilizar a funcionalidade de Helm é necessário ter cadastrado previamente o *KubeConfig* do *Cluster* na plataforma Mangue.io.
+*Helm* é uma ferramenta que permite a instalação de aplicações *Kubernetes*, funcionando como um gerenciador de pacotes para o *Kubernetes*, as aplicações *Helm* são definidas no repósitorio de aplicações *Helm*. Para utilizar a funcionalidade de *Helm* é necessário ter cadastrado previamente o *KubeConfig* do *Cluster* na plataforma Mangue.io.
 
 
 .. image:: /figuras/fig_mangue/157_mangue_helm.png
@@ -3489,16 +3480,16 @@ Helm é uma ferramenta que permite a instalação de aplicações *Kubernetes*, 
 =====  
 
 
-Na tela inicial da página de Helm é exibida uma tabela com os Helms instalados na aplicação. Possibilitando que o usuário realize a pesquisa de Helm através do nome. Na tela inicial, o usuário também pode visualizar os Helms que foram deletados, assim permitindo que sejam reinstalados novamente. 
+Na tela inicial da página de *Helm* é exibida uma tabela com os *Helms* instalados na aplicação. Possibilitando que o usuário realize a pesquisa de *Helm* através do nome. Na tela inicial, o usuário também pode visualizar os Helms que foram deletados, assim permitindo que sejam reinstalados novamente. 
 
 
-Abaixo a descrição das informações presentes na tabela de Helms.
+Abaixo a descrição das informações presentes na tabela de *Helms*.
 
-   * **#**: Número sequencial do Helm cadastrado na plataforma do Mangue.io;
+   * **#**: Número sequencial do *Helm* cadastrado na plataforma do Mangue.io;
   
    * **Nome**: Nome do Helm especificado pelo usuário durante a criação;
   
-   * **Data de Criação**: Data em que foi criado a aplicação Helm no *Cluster*;
+   * **Data de Criação**: Data em que foi criado a aplicação *Helm* no *Cluster*;
   
    * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta duas opções:
 
@@ -3513,7 +3504,7 @@ Abaixo a descrição das informações presentes na tabela de Helms.
 
      * **Editar Helm**: Ao selecionar a opção de editar é apresentada a tela abaixo, através da qual o usuário pode alterar o nome e argumentos da aplicação *Helm*;
      
-     * **Excluir Helm**: Ao selecionar esta opção "Excluir" é desinstalado o Helm selecionado do *Cluster*.
+     * **Excluir Helm**: Ao selecionar esta opção "Excluir" é desinstalado o *Helm* selecionado do *Cluster*.
 
   
 
@@ -3524,15 +3515,15 @@ Abaixo a descrição das informações presentes na tabela de Helms.
 =====  
 
 
-Para criar um Helm clicar no botão Adição |icone_adicionar| é necessário especificar seu nome e selecionar na lista de Helms o nome da aplicação no repositório. Também é possível especificar argumentos para a aplicação, algumas aplicações Helm necessitam de argumentos para realizar a configuração. 
+Para criar um *Helm*, ao clicar no botão Adição |icone_adicionar| é necessário especificar seu nome e selecionar na lista de *Helms* o nome da aplicação no repositório. Também é possível especificar argumentos para a aplicação, algumas aplicações *Helm* necessitam de argumentos para realizar a configuração. 
 
 Após preencher todos os campos necessários, o botão ``Adicionar Helm`` está disponível para ser clicado. Ao clicar na plataforma Mangue.io ela realiza a instalação do Helm, ao ser instalado exibe uma mensagem de sucesso. 
 
 ====
 
 
-Server VS Code
---------------
+Server VsCode
+-------------
 
 O *Visual Studio Code* é um Ambiente de Desenvolvimento Integrado (Integrated Development Environment - IDE) para o desenvolvimento de aplicações. Essa IDE pode ser instalada em um *Cluster*, através de um *Deployment*, assim permitindo que a IDE seja executada dentro de um navegador do usuário. 
 
@@ -3691,6 +3682,7 @@ Abaixo segue descrição de cada opção deste submenu:
    * **Adicionar**: Após a criação, com sucesso, do balanceador de carga, o usuário deve clicar no botão ``Adicionar`` para efetuar a criação do serviço de *ingress* na plataforma do Mangue.io;
 
 
+
      * **Deletar Serviço**: Na segunda opção do menu de ações dos serviços existe a opção deletar, ao ser selecionada abre um modal de confirmação, neste pede para confirmar a ação, clicando no botão ``Deletar``. Na sequência é apresentado o *feedback* de alerta no canto superior direito da tela informando o sucesso ou erro.
 
 
@@ -3712,7 +3704,7 @@ Importante ressaltar que esta ação é definitiva e remove (apaga) esta configu
 =====  
 
 
-Recomendamos que somente usuários experientes em sintaxe *YAML* ou *Kubernetes* efetue as alterações no código de um serviço, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de *clusters* existentes. 
+Recomenda-se que somente usuários experientes em sintaxe *YAML* ou *Kubernetes* efetue as alterações no código de um serviço, pois a codificação (ou alteração) da sintaxe de forma errônea pode acarretar perda de acesso a todo o ambiente de *clusters* existentes. 
 
 O usuário pode usar o mouse para clicar na linha (e no local) desejada para iniciar a digitação dos seus parâmetros específicos do serviço, dessa forma editando o modelo do código *YAML* que a plataforma lhe apresenta.
 
@@ -3814,7 +3806,7 @@ Para que o usuário possa criar um *namespaces*, este deve clicar sobre ícone d
 
 A tela acima possui apenas um campo onde o usuário deve preencher o nome que deseja criar para o novo *namespaces* e clicar com o cursor do mouse no botão ``Adicionar Namespaces`` para incluir este na plataforma do Mangue.io. A plataforma do Mangue.io apresenta um *feedback* dessa ação no campo superior direito da tela do *browser* de *internet*.
 
-Este novo *namespace* é criado dentro do *cluster* selecionado na aba engrenagens  |icone_engrenagem| “Seleção de Configuração” da plataforma do Mangue.io.
+Este novo *namespace* é criado dentro do *cluster* selecionado na aba engrenagens  |icone_engrenagem_azul| “Seleção de Configuração” da plataforma do Mangue.io.
 
 Após a inclusão de um novo *namespace*, caso este nome não se apresente na lista, o usuário pode clicar no ícone |icone_update| para que o Mangue.io possa atualizar a interface com a lista mais recente desta tabela.
 
@@ -3830,13 +3822,11 @@ Na última coluna da tabela existe a opção de deletar o *namespace*, quando es
 
 Abaixo a descrição dos campos da tabela apresentada nesta tela:
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
       Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado um ícone "Lata de lixo" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
    
    * **Nome**: Esta coluna apresenta o nome do *namespaces* informado durante o processo de cadastramento do *namespaces* na plataforma do Mangue.io;
    
@@ -3868,7 +3858,7 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
 =====  
 
 
-     * **Adicionar Labels**: Um rótulo (*label*) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os *softwares* armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (*labels*) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no *link* do rodapé do site de documentação Kubernetes_ ).
+     * **Adicionar Labels**: Um rótulo (*label*) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os *softwares* armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (*labels*) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no site de documentação Kubernetes_ ).
 
 
 .. _Kubernetes: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
@@ -4082,12 +4072,12 @@ Abaixo o processo para o correto preenchimento da tela de migração:
 
   
 
-1. Selecionar o *Cluster* Origem (Seção Migração)
+1. Selecionar o *Cluster* **Origem** (Seção Migração)
 
    * Este campo é um *dropdown list* e são listados apenas os clusters configurados no item Integrar *Cluster*.
 
 
-2. Selecionar o *Cluster* Destino (Seção Migração)
+2. Selecionar o *Cluster* **Destino** (Seção Migração)
    
    * Este campo é um *dropdown list* e são listados apenas os *clusters* configurados no item Integrar *Cluster*.
 
@@ -4115,13 +4105,15 @@ Abaixo o processo para o correto preenchimento da tela de migração:
   
 
 
-4. Selecionar o Tipo de *Workload* (Seção *Workloads*)
+4. Selecionar o **Tipo** de *Workload* (Seção *Workloads*)
    
    * Este campo é um *dropdown list* e nele apresenta-se a lista de todos os tipos de *workloads* configurados no item *Workloads*.
    * Ao clicar neste campo, a plataforma do Mangue.io apresenta uma relação de *workloads* que são passíveis de serem migrados de um *cluster* para outro (*Configmaps, Deployments, Daemonsets, Statefulsets, Ingresses, Services*).
    * No *Kubernetes*, não existe um objeto, componente ou qualquer tipo de construção chamada *workload*. No entanto, o termo é frequentemente usado como uma categoria geral para tarefas e serviços que o usuário deseja executar em seu *cluster*.
 
-5. Selecionar o Nome do *Workload* (Seção *Workloads*)
+
+
+5. Selecionar o **Nome** do *Workload* (Seção *Workloads*)
 
    * Este campo é um *dropdown list* e são listados apenas os nomes de *workloads* que fazem parte do mesmo tipo de *workload* selecionado no campo anterior.
    * Quando o usuário preenche todos os campos anteriores (*namespace, Tipo de workload*) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Assim que o usuário selecionar um dos nomes, este é adicionado na lista de migração, conforme o exemplo abaixo:
@@ -4144,7 +4136,7 @@ Abaixo o processo para o correto preenchimento da tela de migração:
 
 
 
-6. Confirmar: 
+6. **Confirmar**: 
 
    * Após selecionados, os recursos são exibidos na tabela contendo informações como: Nome do recurso, Tipo do recurso, *Namespace*, *Cluster* de Origem e *Cluster* destino. A plataforma do Mangue.io inicia a movimentação dos *workloads* entre os *clusters* selecionados, e logo em seguida, há um feedback dessa ação que é apresentada no canto superior direito da tela do *browser*.
 
@@ -4158,7 +4150,7 @@ Migração de Namespace
 
 Este menu é responsável por realizar a migração de múltiplos recursos entre *namespaces* do mesmo *Cluster*.
 
-Esta tela é segmentada em duas seções, como a tela de Migração de *Cluster*: Migração entre *Namespaces* e *Workloads*, e o processo de migração é simples e o usuário é guiado de forma intuitiva para completar o processo de preenchimento da tela da plataforma do Mangue.io.
+Esta tela é segmentada em duas seções, como a tela de **Migração** de *Cluster*: Migração entre *Namespaces* e *Workloads*, e o processo de migração é simples e o usuário é guiado de forma intuitiva para completar o processo de preenchimento da tela da plataforma do Mangue.io.
 
 Abaixo apresentamos o processo para o correto preenchimento da tela de migração:
 
@@ -4170,19 +4162,19 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 
   
 
-1. Selecionar o *Namespace* Origem (Seção Migração)
+1. Selecionar o *Namespace* **Origem** (Seção Migração)
 
    * Este campo é um *dropdown list* e são listados os *namespaces* do *Cluster*.
 
-2. Selecionar o *Namespace* Destino (Seção Migração)
+2. Selecionar o *Namespace* **Destino** (Seção Migração)
 
    * Este campo é um *dropdown list* e são listados os *namespaces* do *Cluster*.
 
-3. Selecionar o Tipo de *Workload* (Seção *Workloads*)
+3. Selecionar o **Tipo** de *Workload* (Seção *Workloads*)
 
    * Este campo é um *dropdown list* ele lista todos os tipos de recursos disponíveis para migração.
 
-4. Selecionar o Nome do *Workload* (Seção *Workloads*)
+4. Selecionar o **Nome** do *Workload* (Seção *Workloads*)
 
    * Este campo é um *dropdown list* e serão listados apenas os nomes dos recursos que fazem parte do mesmo tipo de workload selecionado no campo anterior.
    * Quando o usuário preenche todos os campos anteriores (*namespace*, Tipo de *workload*) a plataforma do Mangue.io apresenta a lista de nomes disponíveis e o usuário pode selecionar um dos nomes pois cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. Assim que o usuário selecionar um dos nomes, este será adicionado na lista de migração, conforme o exemplo abaixo:
@@ -4203,7 +4195,7 @@ Abaixo apresentamos o processo para o correto preenchimento da tela de migraçã
 =====  
 
 
-5. Confirmar: 
+5. **Confirmar**: 
 
    * Após selecionados, os recursos são exibidos na tabela contendo informações como: Nome do recurso, Tipo do recurso, *Namespace*, *Namespace* de Origem e *Namespace* destino. A plataforma do Mangue.io inicia a movimentação dos *workloads* entre os *namespaces* selecionados, e logo em seguida, há um *feedback* dessa ação que é apresentada no canto superior direito da tela do *browser*.
 
@@ -4263,13 +4255,11 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 =====  
 
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+      Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Quando o usuário seleciona uma linha, ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, e que representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
-      
-      Neste caso é apresentado um ícone "Lata de lixo" |icone_lixo| que permite ao usuário remover todos os itens selecionados com um único comando.
+      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Esta coluna exibe o nome do servidor de Registro de imagem criado;
    
@@ -4283,7 +4273,7 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
    
    * **Duração**: Esta coluna indica a quanto tempo aquela credencial para acesso ao servidor de registro de imagem está criada na plataforma;
    
-   * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| ao ser clicado, apresenta duas opções como a figura abaixo:
+   * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| ao ser clicado, apresenta duas opções:
 
 .. image:: /figuras/fig_mangue/195_mangue_acoes_registry.png
     :alt: Ações registry 
@@ -4323,7 +4313,9 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 Secrets
 =======
 
-*Secrets* (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, *tokens*, *OAuth* e chaves SSH. Empregar essa informação através de um *Secret* é a forma mais segura e flexível do que "expor" a informação, em uma definição de ciclo de vida do *Pod* ou em uma imagem de container. Os valores de um segredo são salvos em BASE64[3]. O que não significa que há uma certa “camada” de criptografia nas informações, adicionalmente, esta é a abordagem mais recomendada para armazenamento de informações sensíveis.
+*Secrets* (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, *tokens*, *OAuth* e chaves SSH. Empregar essa informação através de um *Secret* é a forma mais segura e flexível do que "expor" a informação, em uma definição de ciclo de vida do *Pod* ou em uma imagem de container. Os valores de um segredo são salvos em BASE64 [Base64 é um método para codificação de dados para transferência na Internet (codificação MIME para transferência de conteúdo). É utilizado frequentemente para transmitir dados binários por meios de transmissão que lidam apenas com texto.]. 
+
+O que não significa que há uma certa “camada” de criptografia nas informações, adicionalmente, esta é a abordagem mais recomendada para armazenamento de informações sensíveis.
 
 Ao selecionar este menu é apresentada uma lista de todos os *secrets* presentes no *cluster* selecionado na aba engrenagens |icone_engrenagem| “Seleção de Configuração” da plataforma do Mangue.io.
 
@@ -4336,13 +4328,11 @@ Ao selecionar este menu é apresentada uma lista de todos os *secrets* presentes
 
 O menu de Segredo contém uma tabela com as seguintes informações:
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+      Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado um ícone de "Lata de lixo" |icone_lata_lixo_preta|  permite ao usuário remover todos os itens selecionados com um único comando.
+      Neste caso é apresentado o ícone de "Lixeira" |icone_lixo_vermelho| ele permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Esta coluna apresenta o nome do *Secret* utilizado no momento de sua configuração;
    
@@ -4350,7 +4340,7 @@ O menu de Segredo contém uma tabela com as seguintes informações:
 
    * **Duração**: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste *secret*;
 
-   * **Ações**: Esta coluna apresenta o botão de ação, que é uma "Lata de lixo" |icone_lixo_vermelho| ao ser clicado, remove o *secret* da mesma linha. Ao selecionar a ação ``Deletar Secret`` a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+   * **Ações**: Esta coluna apresenta o botão de ação, que é uma "Lixeira" |icone_lata_lixo_preta| ao ser clicado, remove o *secret* da mesma linha. Ao selecionar a ação ``Deletar Secret`` a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
   
 .. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
     :alt: Aviso deletar 
@@ -4359,13 +4349,13 @@ O menu de Segredo contém uma tabela com as seguintes informações:
 =====  
 
 
-Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload8 do *cluster* que esteja associado, ou utilize, este *secret* pode apresentar um erro fatal (crash) em sua execução.
+Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado, ou utilize, este *secret* pode apresentar um erro fatal (*crash*) em sua execução.
 
 Se o usuário necessita conhecer os conteúdos armazenados de um *Secret*, este deve clicar sobre o nome do *Secret* para que a plataforma do Mangue.io apresente as informações específicas configuradas para o *Secret* em uma seção abaixo da lista.
 
 Esta nova seção da tela apresenta a lista de todos os componentes de um *secret*.
 
-Para cada componente do *secret* a plataforma do Mangue.io apresenta um ícone de visualização do conteúdo do componente do *Secret*. Este ícone é representado com o icone |icone_exibir|, quando o usuário clicar sobre o ícone a plataforma do Mangue.io  apresenta o conteúdo do componente como o exemplo abaixo:
+Para cada componente do *secret* a plataforma do Mangue.io apresenta um ícone de visualização do conteúdo do componente do *Secret*. Ele é representado com o ícone |icone_exibir|, quando o usuário clicar sobre o ícone a plataforma do Mangue.io  apresenta o conteúdo do componente como o exemplo abaixo:
   
 .. image:: /figuras/fig_mangue/200_mangue_valores.png
     :alt: Valores 
@@ -4425,7 +4415,7 @@ Abaixo a descrição das informações presentes na tabela de tarefas agendadas:
 =====  
   
 
-Para criar uma tarefa agendada é necessário clicar no botão de “  ” e é necessário preencher os campos abaixo:
+Para criar uma tarefa agendada é necessário clicar no botão "Adição" |icone_adicionar| e preencher os campos abaixo:
 
    * **Data Atualização**: Data e horário em que a tarefa é executada;
 
@@ -4450,7 +4440,7 @@ Caso seja selecionada a opção de “Atualizar Deployment” é necessário pre
 
    * **Nome do Container**: O nome do container a ser atualizado;
 
-   * **Versão do Container**: Versão para a qual o Container será atualizado.
+   * **Versão do Container**: Versão para a qual o Container é atualizado.
 
 .. image:: /figuras/fig_mangue/205_mangue_deployment_opcoes.png
     :alt: Deployment opções 
@@ -4463,7 +4453,7 @@ Caso seja selecionada a opção de ``Escalar Deployment``, é essencial preenche
 
    * **Deployment**: O usuário deve selecionar o *deployment* a ser atualizado;
 
-   * **Réplicas**: Quantidade de réplicas a qual o *Deployment* será escalado.
+   * **Réplicas**: Quantidade de réplicas a qual o *Deployment* é escalado.
 
 .. image:: /figuras/fig_mangue/206_mangue_configmap.png
     :alt: Configmap mapeando
@@ -4473,7 +4463,7 @@ Caso seja selecionada a opção de ``Escalar Deployment``, é essencial preenche
 
 Caso seja selecionado a opção de ``Atualizar ConfigMap`` é necessário preencher os novos campos, conforme a figura acima: 
 
-   * **ConfigMap**: O usuário deve selecionar o *ConfigMap* que será atualizado;
+   * **ConfigMap**: O usuário deve selecionar o *ConfigMap*  a ser atualizado;
 
    * **Nome do ConfigMap**: O usuário deve preencher com o nome do *ConfigMap* desejado.
 
@@ -4491,13 +4481,13 @@ Os campos de um arquivo de *ConfigMap* são:
 Storage
 =======
 
-Lidar com aplicações em containeres tem alguns desafios, e um destes desafio é como interagir com arquivos em disco. Os arquivos em disco de um container são efêmeros, isto representa alguns problemas para aplicações não triviais empacotadas em containers. 
+Lidar com aplicações em containers tem alguns desafios, e um destes desafio é como interagir com arquivos em disco. Os arquivos em disco de um container são efêmeros, isto representa alguns problemas para aplicações não triviais empacotadas em containers. 
 
 Primeiro, quando um container falha, o Mangue.io tenta reiniciá-lo, mas com isso os arquivos em disco são perdidos, logo, o container começa sempre com um estado limpo. 
 
-Em segundo lugar, ao executar containers juntos em um *Pod*, geralmente é necessário compartilhar arquivos entre esses containeres. 
+Em segundo lugar, ao executar containers juntos em um *Pod*, geralmente é necessário compartilhar arquivos entre esses containers. 
 
-A abstração de Volume do *Kubernetes* utilizada no Mangue.io resolve esses dois problemas (para o ambiente *Docker* é diferente[4]).
+A abstração de Volume do *Kubernetes* utilizada no Mangue.io resolve esses dois problemas (para o ambiente *Docker* é diferente pois também tem um conceito de volumes, embora seja um pouco mais flexível e menos gerenciado. No *Docker*, um volume é simplesmente um diretório no disco ou em outro container.).
 
 Por outro lado, um volume do *Kubernetes* (utilizado pelo Mangue.io) tem uma vida útil explícita – o mesmo que o *Pod* que o contém. Consequentemente, um volume ultrapassa todos os containeres que são executados no *Pod* e os dados são preservados nas reinicializações deste mesmo container. Naturalmente, quando um *Pod* deixa de existir, o volume deixa de existir também. Talvez mais importante do que isso, como o *Kubernetes* suporta muitos tipos de volumes, e um *Pod* pode usar qualquer número deles simultaneamente, a plataforma do Mangue.io também herda essa capacidade. 
 
@@ -4520,9 +4510,9 @@ StorageClass
 
 Os *StorageClass* são responsáveis por criar classes de *storage* de diferentes tipos, pode-se encarar como exemplo o seguinte cenário:
 
-1. Um usuário tem dois tipos de discos montados em dois *NFS servers* diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações;
+a. Um usuário tem dois tipos de discos montados em dois *NFS servers* diferentes e deseja utilizar o disco com maior potencial de leitura e escrita para um tipo de aplicação e o disco com menor potencial de leitura e escrita para as demais aplicações;
 
-2. Desta forma o usuário deve criar dois *StorageClass* diferentes, cada um representa um servidor de *NFS*: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo;
+b. Desta forma o usuário deve criar dois *StorageClass* diferentes, cada um representa um servidor de *NFS*: um para o disco que tem potencial de leitura e escrita mais rápido e outro para o disco que tem potencial de leitura e escrita mais baixo;
 
 Quando o usuário selecionar o menu *Storage/StorageClass* a plataforma do Mangue.io apresenta a lista de todos os *StorageClass* que existem configurados no *cluster* selecionado na aba engrenagens |icone_engrenagem_azul|  “Seleção de Configuração” da plataforma do Mangue.io. 
 
@@ -4534,13 +4524,11 @@ Quando o usuário selecionar o menu *Storage/StorageClass* a plataforma do Mangu
 
 Abaixo são descritos as colunas desta lista:
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
+      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone "Lata de lixo"|icone_lixo_vermelho| que permite ao usuário remover todos os itens selecionados com um único comando.
+      Neste caso é apresentado o ícone "Lixeira"|icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Nome do *StorageClass*;
    
@@ -4548,7 +4536,7 @@ Abaixo são descritos as colunas desta lista:
    
    * **Duração**: Descreve há quanto tempo atrás o recurso foi criado;
    
-   * **Ações**: Esta coluna apresenta o botão de ``Ação`` |icone_acao| ao ser clicado, apresenta a opção de apagar *StorageClass* selecionado:
+   * **Ações**: Esta coluna apresenta o botão de Ação |icone_acao| ao ser clicado, apresenta a opção de apagar *StorageClass* selecionado:
    
 .. image:: /figuras/fig_mangue/208_mangue_deletar_storageclass.png
     :alt: Deletar StorageClass
@@ -4574,7 +4562,7 @@ PersistentVolume
 
 Os *PersistentVolumes* (PV) são uma parte do armazenamento no *cluster* que foi provido por um administrador ou provisionado dinamicamente usando *StorageClass*. É um recurso do *cluster*, assim como um *node*. PVs são *plugins* de volume como o recurso Volumes, mas têm um ciclo de vida independente de qualquer *Pod* individual que usa o PV.
 
-Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do Mangue.io apresenta a lista de todos os *PersistentVolumes* que existem configurados no *cluster* selecionado na aba engrenagens |icone_engrenagem|  “Seleção de Configuração” da plataforma do Mangue.io. 
+Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do Mangue.io apresenta a lista de todos os *PersistentVolumes* que existem configurados no *cluster* selecionado na aba engrenagens |icone_engrenagem_azul|  “Seleção de Configuração” da plataforma do Mangue.io. 
 
 .. image:: /figuras/fig_mangue/210_mangue_pv.png
     :alt: Persistent volumes
@@ -4586,7 +4574,7 @@ Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do M
    
       Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone "Lata de lixo" |icone_lata_lixo_preta| que permite ao usuário remover todos os itens selecionados com um único comando;
+      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
    
    * **Capacity**: Esta coluna apresenta o tamanho/capacidade do *PersistentVolume* em *Gigabytes*;
    
@@ -4616,7 +4604,7 @@ Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do M
    
    * **Age**: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste *PersistentVolume*;
    
-   * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta a opção de apagar o volume selecionado.
+   * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| ao ser clicado, apresenta a opção de apagar o volume selecionado.
 
 .. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
     :alt: Deletar volume
@@ -4652,13 +4640,11 @@ O menu *Storage/Persistent Volume Claims* apresenta todos os PVCs presentes em u
     :align: center
 =====  
 
-   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. 
-   
-      Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
+   * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+      Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone de "Lata de lixo" |icone_lata_lixo_preta| que permite ao usuário remover todos os itens selecionados com um único comando;
+      Neste caso é apresentado o ícone de "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
    
    * **Nome**: Responsável por identificar o nome do PVC;
    
@@ -4676,7 +4662,7 @@ O menu *Storage/Persistent Volume Claims* apresenta todos os PVCs presentes em u
    
    * **Duração**: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste *PersistentVolume*;
    
-   * **Ações**: Esta coluna apresenta um botão de ação “  ” que ao ser clicado, apresenta a opção de apagar o PVC selecionado:
+   * **Ações**: Esta coluna apresenta o botão "Ação" |icone_acao| ao ser clicado, apresenta a opção de apagar o PVC selecionado:
 
 .. image:: /figuras/fig_mangue/211_mangue_deletar_volume.png
     :alt: Deletar volume
@@ -4709,7 +4695,7 @@ Ao final do processamento da tarefa, a plataforma do Mangue.io recebe uma mensag
     :align: center
 =====  
 
-Na lista podemos encontrar o *status* das tarefas referentes ao *cluster* selecionado na aba engrenagens |icone_engrenagem_azul| “Seleção de Configuração” da plataforma do Mangue.io:
+Na lista pode-se encontrar o *status* das tarefas referentes ao *cluster* selecionado na aba "Engrenagens" |icone_engrenagem_azul| “Seleção de Configuração” da plataforma do Mangue.io:
 
    * **Operação**: Nesta coluna é apresentada uma descrição sucinta da tarefa executada pelo usuário através da interface do Mangue.io;
    
@@ -4721,7 +4707,7 @@ Na lista podemos encontrar o *status* das tarefas referentes ao *cluster* seleci
    
       O usuário deve posicionar o cursor do mouse sobre a letra “i” e a plataforma do Mangue.io apresenta uma tela de *pop-up* com o conteúdo da mensagem de erro retornado pelo *Kubernetes* para a plataforma do Mangue.io. Veja um exemplo abaixo:
 
-.. image:: /figuras/fig_mangue/214_mangue_tarefas.png
+.. image:: /figuras/fig_mangue/215_mangue_info_status.png
     :alt: Info status
     :scale: 100 %
     :align: center
@@ -4749,13 +4735,13 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
 =====  
 
 
-   * **Ação de pesquisa**: Caso a lista de apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa por alguma parte do texto presente na coluna “Operação”. 
+   * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa por alguma parte do texto presente na coluna “Operação”. 
    
-      Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa |icone_lupa_vermelha|. Essa busca apresenta como resultado apenas as linhas que contiverem a palavra-chave da pesquisa;
+      Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa |icone_lupa_verde|. Essa busca apresenta como resultado apenas as linhas que contiverem a palavra-chave da pesquisa;
 
       Esta pesquisa é sensível ao caso das letras (maiúsculas / minúsculas), portanto, o resultado da busca pela palavra “Deletar” será diferente do resultado da busca pela palavra “deletar”.
 
-      Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/string deste campo, e clicar sobre o ícone da lupa “  ” (busca por campo em ‘branco’) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
+      Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/*string* deste campo, e clicar sobre o ícone "Lupa" ||icone_lupa_verde (busca por campo em branco) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
 
    * **Ação de atualizar**: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os *status* mais recentes desta tabela de tarefas.
 
