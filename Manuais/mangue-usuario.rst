@@ -202,13 +202,8 @@ A barra de menu do usuário fica localizada à esquerda da tela e, inicialmente,
 =====
 
 
-Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor que “<”).  Ao clicar sobre este ícone |icone_sinal_menor|, a interface apresenta o submenu desta opção ao usuário, veja o exemplo na figura abaixo.
-  
+Algumas opções de menu possuem um submenu, que são apresentadas quando o usuário posiciona o mouse sobre a indicação (sinal de menor que “<”).  Ao clicar sobre este ícone |icone_sinal_menor|, a interface apresenta o submenu desta opção ao usuário, detalhado na sequência.
 
-.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
-    :alt: Exemplo de um Submenu
-    :scale: 80 %
-    :align: center
 =====
 
 
@@ -218,8 +213,8 @@ Workloads
 Nesta opção do menu de usuário *Workloads* o seu *dashboard* apresenta as informações sobre *Deployments*, *Daemonsets*, Horizontal *Autoscaler*, *StatefulSets* e os *Updates*.
   
 
-.. image:: /figuras/fig_mangue/013_mangue_submenu_workload.png
-    :alt: Menu Workloads 
+.. image:: /figuras/fig_mangue/009_mangue_submenu_workload.png
+    :alt: Exemplo de submenu  
     :scale: 80 %
     :align: center
 =====
@@ -617,7 +612,9 @@ Nesta seção, a plataforma do Mangue.io apresenta as seguintes informações:
 
      * **!** (ponto de exclamação) mostra que algo errado aconteceu com o *deployment* e suas réplicas. Por exemplo: A imagem de um container é passada com uma versão inexistente, logo, o *download* deste container não ocorre;
 
-* **Imagem**: Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
+* **Imagem**: Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o site Docker Hub_
+
+.. _Hub: https://hub.docker.com/
 
 * **Duração**: Apresenta o tempo (em dias) decorridos desde a criação deste *deployment*;
 
@@ -1044,7 +1041,7 @@ A imagem acima exibe a listagem dos *pods* criados, a seguir a descrição com o
 
      * **“!”** (ponto de exclamação) identifica um alarme, em outras palavras, que algo errado aconteceu com o *Deployment* e suas réplicas. Por exemplo: a imagem de um container é passada com uma versão inexistente, logo, o *download* deste não ocorre;
 
-* **Imagem:** Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o *Docker Hub* (https://hub.docker.com/);
+* **Imagem:** Esta coluna apresenta a informação da imagem pública utilizada para a criação deste *Deployment*. Esta imagem pode ser encontrada em sites públicos que contenham informações técnicas referentes à aplicação em si, um exemplo é o site Docker Hub_ 
 
 * **Duração:** Apresenta o tempo (em dias) decorridos desde a criação deste *Deployment*;
 
@@ -1817,7 +1814,7 @@ Importante ressaltar que esta janela não permite a edição do conteúdo listad
 
 A imagem a seguir é um recorte dos elementos posicionados acima da tabela, existem três ações diferentes e  disponíveis ao usuário:
   
-.. image:: /figuras/fig_mangue/078_mangue_pesquisar_atualizacao.png
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
     :alt: Pesquisar atualização
     :align: center
 =====
@@ -1926,9 +1923,9 @@ A imagem a seguir é um recorte dos elementos posicionados acima da tabela, exis
 
 * **Ação de pesquisa**: Caso a lista apresentada nesta tela seja muito longa (ocupando mais de uma página), existe um campo onde é possível ao usuário efetuar uma pesquisa pelo nome do *deployment* desejado. 
 
-Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. 
+  Basta informar parte do nome do evento e teclar ``Enter`` ou clicar sobre o ícone da "Lupa" |icone_lupa_verde|. 
 
-Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
+  Como resultado desta busca aparecem apenas os eventos que contêm a palavra-chave da pesquisa.
 
 
 * **Ação de atualizar**: Basta clicar no ícone |icone_update| para o Mangue.io atualizar a interface com a lista mais recente de eventos desta tabela.
@@ -2022,9 +2019,9 @@ Faturamento
 
 Esta opção da plataforma do Mangue.io é uma grande aliada à Governança Financeira das empresas. Poucas ferramentas disponíveis no mercado atualmente apresentam os valores reais de consumo de infraestrutura computacional, para suportar um ambiente *serverless* baseado em *containers* (*Kubernetes*).
 
-O termo *serverless* pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de *software* sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional-SO). 
+O termo *serverless* pode levar a uma falsa noção de que este ambiente não gera custos de infraestrutura computacional, mas qualquer aplicação de *software* sempre necessita de um recurso computacional (CPU, memória, disco, sistema operacional). 
 
-Para que este *software* seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (SO e *softwares*) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
+Para que este *software* seja executado cada item carrega seu custo de uso, de armazenamento, de licenciamento (sistema operacional e *softwares*) e deve ser calculado dia a dia, para que atenda a critérios e políticas de Governança de Custos e Governança Financeira.
 
 A plataforma do Mangue.io possui uma base de dados que acumula os valores de consumo de infraestrutura mês-a-mês, desde o momento da sua instalação. Esta base de dados é calculada dia-a-dia e acumula os valores de consumo, de acordo com a fórmula de cálculo apresentada no tópico "Cálculo do Valor do Consumo do Cluster".
 
@@ -3725,7 +3722,7 @@ Neste submenu, são listados os *Ingress* existentes no *namespace* selecionado 
 Logo acima da tabela, existem três elementos com os quais o usuário pode atuar:
 
   
-.. image:: /figuras/fig_mangue/168_mangue_pesquisar_atualizacoes.png
+.. image:: /figuras/fig_mangue/053.1_mangue_pesquisar_atualização.png
     :alt: Pesquisar atualizações
     :scale: 100 %
     :align: center
@@ -3858,7 +3855,7 @@ Abaixo a descrição dos campos da tabela apresentada nesta tela:
 =====  
 
 
-     * **Adicionar Labels**: Um rótulo (*label*) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os *softwares* armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (*labels*) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos (informação detalhada no site de documentação Kubernetes_ ).
+     * **Adicionar Labels**: Um rótulo (*label*) permite ao usuário mapear suas próprias estruturas organizacionais em objetos do sistema de uma forma fracamente acoplada, sem impor que os *softwares* armazenem esses mapeamentos. Rótulos são criados com duas atribuições ‘chave’ e ‘valor’ e são anexados a objetos, como pods. Os rótulos (*labels*) devem ser usados para especificar a identificação de atributos de objetos que são significativos e relevantes para os usuários. Os rótulos podem ser usados para organizar e selecionar subconjuntos de objetos, informação detalhada no site de documentação Kubernetes_ .
 
 
 .. _Kubernetes: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
@@ -4209,7 +4206,7 @@ Registry
 
 O menu *Registry* apresenta todos os *Docker Registries* integrados à plataforma. O *Docker Registry* provê um serviço para hospedagem de imagens do *Docker* análogo ao que está disponível no hub.docker.com, porém com a possibilidade de uso e hospedagem em uma rede interna. Os *Registries* podem e devem ser utilizados como alternativa para armazenamento de imagens *docker* dos servidores e aplicações de uma organização. 
 
-No menu *Registry* é possível conectar a um *registry* privado, ou seja, um servidor de registro de imagem privado da organização. Ou um serviço de registro de imagem público, como o http://hub.docker.com.
+No menu *Registry* é possível conectar a um *registry* privado, ou seja, um servidor de registro de imagem privado da organização. Ou um serviço de registro de imagem público, como por exemplo Docker Hub_.
 
 Há nesta seção uma tabela contendo as informações dos *Registries* adicionados ao *Kubernetes*, lembrando que os *registries* são segredos (veja o item *Secrets*) criados por *namespace*.
 
@@ -4257,9 +4254,9 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 
    * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário escolhe uma linha, ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+     Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Esta coluna exibe o nome do servidor de Registro de imagem criado;
    
@@ -4313,11 +4310,14 @@ Abaixo é descrito as colunas apresentadas nesta lista de registries:
 Secrets
 =======
 
-*Secrets* (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, *tokens*, *OAuth* e chaves SSH. Empregar essa informação através de um *Secret* é a forma mais segura e flexível do que "expor" a informação, em uma definição de ciclo de vida do *Pod* ou em uma imagem de container. Os valores de um segredo são salvos em BASE64 [Base64 é um método para codificação de dados para transferência na Internet (codificação MIME para transferência de conteúdo). É utilizado frequentemente para transmitir dados binários por meios de transmissão que lidam apenas com texto.]. 
+*Secrets* (segredos) permitem armazenar e gerenciar informações consideradas confidenciais ou sensíveis, tais como: senhas, *tokens*, *OAuth* e chaves SSH. Empregar essa informação através de um *Secret* é a forma mais segura e flexível do que "expor" a informação, em uma definição de ciclo de vida do *Pod* ou em uma imagem de container. Os valores de um segredo são salvos em BASE64.
+
+.. note:: Base64 é um método para codificação de dados para transferência na *Internet* (codificação MIME para transferência de conteúdo). É utilizado frequentemente para transmitir dados binários por meios de transmissão que lidam apenas com texto.
 
 O que não significa que há uma certa “camada” de criptografia nas informações, adicionalmente, esta é a abordagem mais recomendada para armazenamento de informações sensíveis.
 
 Ao selecionar este menu é apresentada uma lista de todos os *secrets* presentes no *cluster* selecionado na aba engrenagens |icone_engrenagem| “Seleção de Configuração” da plataforma do Mangue.io.
+
 
 .. image:: /figuras/fig_mangue/198_mangue_lista_segredos.png
     :alt: Lista Secret
@@ -4330,9 +4330,9 @@ O menu de Segredo contém uma tabela com as seguintes informações:
 
    * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário escolhe uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário para serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone de "Lixeira" |icone_lixo_vermelho| ele permite remover todos os itens indicados pelo usuário com um único comando.
+     Neste caso é apresentado o ícone de "Lixeira" |icone_lixo_vermelho| ele permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Esta coluna apresenta o nome do *Secret* utilizado no momento de sua configuração;
    
@@ -4340,7 +4340,7 @@ O menu de Segredo contém uma tabela com as seguintes informações:
 
    * **Duração**: Esta coluna apresenta o tempo (em dias) decorridos desde a criação deste *secret*;
 
-   * **Ações**: Esta coluna apresenta o botão de ação, que é uma "Lixeira" |icone_lata_lixo_preta| ao ser clicado, remove o *secret* da mesma linha. Ao selecionar a ação ``Deletar Secret`` a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
+   * **Ações**: Esta coluna apresenta o botão "Ação" representado por uma "Lixeira" |icone_lata_lixo_preta| que ao ser clicado, remove o *secret* da mesma linha. Ao selecionar a ação ``Deletar Secret`` a plataforma do Mangue.io solicita confirmação da ação pelo usuário.
   
 .. image:: /figuras/fig_mangue/199_mangue_aviso_deletar.png
     :alt: Aviso deletar 
@@ -4375,7 +4375,7 @@ Schedule Task
 A plataforma Mangue.io pode agendar tarefas para serem realizadas em uma data posterior, tarefas como: 
 
    * Atualizar *Deployment*;
-   * Escalar *Deployment;
+   * Escalar *Deployment*;
    * Atualizar *ConfigMap*.
 
 .. image:: /figuras/fig_mangue/201_mangue_agenda_tarefa.png
@@ -4467,7 +4467,7 @@ Caso seja selecionado a opção de ``Atualizar ConfigMap`` é necessário preenc
 
    * **Nome do ConfigMap**: O usuário deve preencher com o nome do *ConfigMap* desejado.
 
-É possível adicionar ou remover arquivos clicando nos ícones de “  ” e “  ” respectivamente.
+É possível adicionar ou remover arquivos clicando nos ícones "Adicionar" |icone_adicionar_vermelho| e "Lixeira" |icone_lixo_vermelho| respectivamente.
 
 Os campos de um arquivo de *ConfigMap* são:
 
@@ -4526,9 +4526,9 @@ Abaixo são descritos as colunas desta lista:
 
    * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
       
-      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone "Lixeira"|icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
+     Neste caso é apresentado o ícone "Lixeira"|icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando.
    
    * **Nome**: Nome do *StorageClass*;
    
@@ -4552,7 +4552,7 @@ Abaixo são descritos as colunas desta lista:
     :align: center
 =====    
   
-   * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *StorageClass* pode apresentar um erro fatal (*crash*) em sua execução.
+Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *StorageClass* pode apresentar um erro fatal (*crash*) em sua execução.
 
 ----
 
@@ -4572,9 +4572,9 @@ Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do M
 
    * **# coluna acionável**: Esta coluna apresenta uma forma alternativa de remover (apagar) várias linhas com um único comando. Cada linha está representada por um ícone selecionável |uCloud_icone_coluna_acionavel|. 
    
-      Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
+     Quando o usuário seleciona uma linha ou várias, a plataforma do Mangue.io apresenta o(s) ícone(s) acima desta coluna, eles representam ações ao usuário a serem executadas de uma única vez para todas as linhas selecionadas. 
       
-      Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
+     Neste caso é apresentado o ícone "Lixeira" |icone_lixo_vermelho| que permite remover todos os itens indicados pelo usuário com um único comando;
    
    * **Capacity**: Esta coluna apresenta o tamanho/capacidade do *PersistentVolume* em *Gigabytes*;
    
@@ -4620,7 +4620,7 @@ Quando o usuário selecionar o menu *Storage/PersistentVolume* a plataforma do M
     :align: center
 =====     
    
-     * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *PersistentVolume* pode apresentar um erro fatal (*crash*) em sua execução.
+Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *PersistentVolume* pode apresentar um erro fatal (*crash*) em sua execução.
 
 ----
 
@@ -4678,7 +4678,7 @@ O menu *Storage/Persistent Volume Claims* apresenta todos os PVCs presentes em u
     :align: center
 =====     
    
-     * Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *PersistentVolumeClaim* pode apresentar um erro fatal (*crash*) em sua execução.
+Importante ressaltar que esta ação ao ser confirmada é irreversível. Qualquer *workload* do *cluster* que esteja associado ou utilize, este *PersistentVolumeClaim* pode apresentar um erro fatal (*crash*) em sua execução.
 
 ----
 
@@ -4739,11 +4739,11 @@ Logo acima da tabela, existem três elementos com os quais o usuário pode atuar
    
       Basta informar parte do nome da operação e teclar enter, ou clicar sobre o ícone da lupa |icone_lupa_verde|. Essa busca apresenta como resultado apenas as linhas que contiverem a palavra-chave da pesquisa;
 
-      Esta pesquisa é sensível ao caso das letras (maiúsculas / minúsculas), portanto, o resultado da busca pela palavra “Deletar” será diferente do resultado da busca pela palavra “deletar”.
+      Esta pesquisa é sensível ao caso das letras (maiúsculas / minúsculas), portanto, o resultado da busca pela palavra “Deletar” é diferente do resultado da busca pela palavra “deletar”.
 
-      Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/*string* deste campo, e clicar sobre o ícone "Lupa" ||icone_lupa_verde (busca por campo em branco) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
+      Caso a busca não retorne nenhuma incidência, a lista fica em branco. Para voltar a lista inicial, o usuário deve apagar qualquer conteúdo/*string* deste campo, e clicar sobre o ícone "Lupa" |icone_lupa_verde| (busca por campo em branco) e a plataforma do Mangue.io apresenta o conteúdo completo da lista antes de qualquer busca.
 
-   * **Ação de atualizar**: Basta clicar no ícone “  ” para que o Mangue.io atualize a interface com os *status* mais recentes desta tabela de tarefas.
+   * **Ação de atualizar**: Basta clicar no ícone |icone_update| para que o Mangue.io atualize a interface com os *status* mais recentes desta tabela de tarefas.
 
 ----
 
