@@ -845,7 +845,7 @@ La definición de "Reglas de Escabilidad" controla el aumento de la cantidad de 
 
     Cuando el usuario elige una fila, o varias, la plataforma Mangue.io presenta icono(s) encima de esta columna, que representan acciones al usuario para ser ejecutadas de una sola vez para todas las filas seleccionadas. 
 
-    En este caso se mostra el icono de “Papelera” |icone_lixo_vermelho| que permite eliminar todos los elementos por indicados por el usuario con un solo comando.
+    En este caso se mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos por indicados por el usuario con un solo comando.
 
 * **Nombre**: Identifica el nombre del Autoescalador creado, y normalmente debe ser el mismo nombre del *Deployment*;
 * **Min. Réplicas**: Identifica el parámetro colocado al crear el escalador correspondiente al número mínimo de réplicas que este escalador garantiza para el *Deployment* al que está asociado;
@@ -902,7 +902,7 @@ La imagen de arriba muestra el listado de pods creados y, a continuación, la de
 
     Cuando el usuario elige una fila, o varias, la plataforma Mangue.io presenta el (los) icono(s) encima de esta columna, que representan acciones al usuario para ser ejecutadas de una sola vez para todas las filas seleccionadas. 
 
-    En este caso es presentado el icono “Papelera” |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando.
+    En este caso es presentado el icono "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando.
 
 * **Nombre**: Nombre del *Deployment* que se establece en el momento de su creación;
 * **Nodo:** Presenta el nombre del nodo Kubernetes que está ejecutando este *Deployment*;
@@ -975,18 +975,18 @@ En esta funcionalidad la plataforma del Mangue presenta todos los *statefulsets*
 
     Cuando el usuario elige una fila, o varias, la plataforma Mangue.io presenta el (los) icono(s) encima de esta columna, que representan acciones al usuario para ser ejecutadas de una sola vez para todas las filas seleccionadas. 
 
-    En este caso se mostra el icono “Papelera” |icone_lixo_vermelho| que permite eliminar todos los elementos seleccionados con un solo comando.
+    En este caso se mostra el icono "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos seleccionados con un solo comando.
 
 * **Nombre:** Es la representación del nombre del *Statefulsetss*.
 * **Labels:** Son los identificadores de los *Statefulsetss*, usados para ser el acoplamiento a un servicio. 
 * **Instancias:** Los valores mostrados aquí indican que la cantidad de réplicas de un *Statefulsets* están divididos por una barra ("/") donde los valores que se encuentran en el lado izquierdo de la barra es el valor de las réplicas activas y operativas, y los valores en el lado derecho de la barra representa la cantidad máxima de réplicas que pueden ser activadas para mantener el rendimiento deseado del *Statefulsets*;
-* **Status:** El status de un *Statefulsets* identifica el estado de cada *Statefulsets* listados. Puede ser presentado por **Running**, **Pending** o **"!"** (signo de exclamación).
+* **Status:** El status de un *Statefulsets* identifica el estado de cada *Statefulsets* listados. Puede ser presentado por **Running**, **Pending** o **“!”** (signo de exclamación).
 
       * El status **Running** identifica que ningún error está sucediendo con el *Statefulsets*.
 
       * El status **Pending** identifica algún estado de transición en el *Statefulsets*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.		
 
-      * El status **"!"** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Statefulsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el download de este *container* no ocurre;
+      * El status **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Statefulsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el download de este *container* no ocurre;
 
 *  **IP:** En el caso de que el *Statefulsets* tenga un servicio asociado, es en este campo donde la IP del balanceador de carga puede ser un servicio de tipo *Loadbalancer*, puerto de acceso al servicio si es un servicio externo (tipo *nodePort*), o el *string* "IP interna" si es un servicio interno del *cluster* (tipo *ClusterIp*).
 * **Imagen y versión:** Si hay más de una imagen o versión de un *container*, se listan uno debajo del otro, como en el ejemplo del 6º *Statefulsets* listado en la imagen de la tabla *Statefulsets*.
@@ -1069,7 +1069,7 @@ Justo encima de la tabla, hay tres elementos con los que el usuario podrá actua
     :align: center
 =====
 
-* **Acción de búsqueda:** Si la lista presentada en esta pantalla es muy larga (ocupa más de una página), hay un campo donde el usuario puede buscar por el nombre del *Update* deseado. Sólo tiene que introducir parte del nombre y pulsar “Enter” o hacer clic en el icono de la lupa |icone_lupa_verde|. Como resultado de esta búsqueda sólo aparecerán los *Updates* que contengan la palabra clave de la búsqueda;
+* **Acción de búsqueda:** Si la lista presentada en esta pantalla es muy larga (ocupa más de una página), hay un campo donde el usuario puede buscar por el nombre del *Update* deseado. Sólo tiene que introducir parte del nombre y pulsar “Enter” o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda sólo aparecerán los *Updates* que contengan la palabra clave de la búsqueda;
 * **Acción de actualizar:** Basta hacer click en el icono |icone_update| para actualizar la interfaz de la plataforma Mangue.io con los valores más recientes de esta tabla de *Updates*.
 * **Crear integración de Updates:** Basta hacer clic en el signo |icone_adicionar| para el usuario registrar una nueva actualización para un *Deployment* en un determinado *Namespace*. La plataforma Mangue.io presenta al usuario la siguiente pantalla:
 
@@ -1478,7 +1478,9 @@ El usuario debe utilizar su propia experiencia de desarrollo para estructurar la
 * **Ingress**: En esta opción, la plataforma Mangue.io presenta un modelo de código *YAML* con la sintaxis inicial para crear una definición de *Ingress*. El usuario puede utilizar el ratón para hacer clic en la línea y la ubicación deseadas y, a continuación, empezar a escribir sus parámetros específicos. De esta forma, editar el modelo del código *YAML* que la plataforma presenta.
 
 El usuario experimentado en *YAML* puede constatar que el uso de modelos aumenta la productividad y mantiene el código bien documentado y estructurado de acuerdo con las mejores prácticas.
+
 ====
+
 
 C. Browse
 ~~~~~~~~~
@@ -1498,6 +1500,7 @@ En este punto el usuario puede editar el código directamente a través de la in
 
 ====
 
+
 D. Submit
 ~~~~~~~~~
 
@@ -1508,6 +1511,7 @@ En este momento la plataforma Mangue.io cierra las pantallas de creación de apl
 El usuario puede visualizar más informaciones sobre su nueva aplicación en el menú de informaciones del *Deployment*.
 
 ====
+
 
 E. Server VsCode
 ~~~~~~~~~~~~~~~~
@@ -1557,9 +1561,7 @@ A continuación se describe cada columna de esta tabla:
 
 * **Nombre**: Esta columna es presentado el nombre del *configmap* añadido por el usuario. Al pulsar el ratón sobre el nombre, la plataforma Mangue.io muestra una pantalla con el (los) contenido(s) del (de los) archivos de *configmap*. 
 
-Por defecto, sólo se visualiza una línea del contenido del archivo. Si el contenido es más grande que el campo, el usuario puede posicionar el ratón en la esquina inferior derecha, hasta que el cursor del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|. 
-
-De esta forma, permite al usuario redimensionar el espacio del contenido listado, y acomodar el tamaño que sea adecuado al usuario, para la mejor visualización del mismo.
+Por defecto, sólo se visualiza una línea del contenido del archivo. Si el contenido es más grande que el campo, el usuario puede posicionar el ratón en la esquina inferior derecha, hasta que el cursor del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|. De esta forma, permite al usuario redimensionar el espacio del contenido listado, y acomodar el tamaño que sea adecuado al usuario, para la mejor visualización del mismo.
 
 .. image:: /figuras/fig_mangue/074_mangue_configmaps_arquivo.png
     :alt: Configmaps arquivo
@@ -1602,7 +1604,7 @@ La siguiente imagen es un recorte de los elementos posicionados encima de la tab
     :align: center
 ====
 
-* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es muy larga (ocupando más de una página), existe un campo donde es posible al usuario realizar una búsqueda por el nombre del *ConfigMap* deseado. Basta informar parte del nombre y pulsar ``Enter`` o hacer clic en el icono de la lupa |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *ConfigMap* que contienen la palabra clave de la búsqueda.
+* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es muy larga (ocupando más de una página), existe un campo donde es posible al usuario realizar una búsqueda por el nombre del *ConfigMap* deseado. Basta informar parte del nombre y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *ConfigMap* que contienen la palabra clave de la búsqueda.
 
 * **Acción de actualizar**: Basta hacer clic en el icono |icone_update| para que el Mangue.io actualice la interfaz con los valores más recientes de esta tabla de *ConfigMap*.
 
@@ -1630,7 +1632,7 @@ A continuación se describen los campos de la pantalla anterior:
 
       Por defecto se presenta sólo la visualización de algunas líneas del contenido del archivo, en caso de que el contenido sea más grande que el campo, el usuario puede posicionar el ratón en la esquina inferior derecha, hasta que el cursor del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|. De esta forma, permite al usuario redimensionar el espacio del contenido listado y acomodar el tamaño que sea adecuado al usuario, para la mejor visualización del mismo.
 
-**Botón** ``Añadir Configmap``: Después de que el usuario informe (el/los) archivo(s) de *configmap* necesario(s), el usuario debe hacer clic con el ratón en el botón ``Añadir Configmap``, para que la plataforma Mangue.io pueda crear el/los referido(s) archivo(s) en el ambiente del sistema operativo de destino. Tras esta acción sobre este botón la plataforma cierra esta ventana y vuelve a la pantalla donde se presenta la lista de *Configmaps*.
+* **Botón** ``Añadir Configmap``: Después de que el usuario informe (el/los) archivo(s) de *configmap* necesario(s), el usuario debe hacer clic con el ratón en el botón ``Añadir Configmap``, para que la plataforma Mangue.io pueda crear el/los referido(s) archivo(s) en el ambiente del sistema operativo de destino. Tras esta acción sobre este botón la plataforma cierra esta ventana y vuelve a la pantalla donde se presenta la lista de *Configmaps*.
 
 ====
 
@@ -1707,7 +1709,7 @@ La siguiente imagen es un recorte de los elementos posicionados encima de la tab
 
 * **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es demasiado larga (ocupando más de una página), existe un campo donde el usuario puede realizar una búsqueda por el nombre del *Deployment* deseado. 
 
-Basta introducir parte del nombre del evento y pulsar ``Enter`` o hacer clic en el icono de la lupa |icone_lupa_verde|. 
+Basta introducir parte del nombre del evento y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. 
 
 Como resultado de esta búsqueda, aparecen únicamente los eventos que contienen la palabra clave buscada.
  
@@ -1829,11 +1831,16 @@ También en esta pantalla se puede ver una lista de detalles sobre los costes de
     :align: center
 =====  
 
-** **Nombre**: Esta columna muestra el nombre del *deployment*, recordando que para que el *deployment* aparezca aquí debe estar en un *cluster* con la taquilla habilitada.
+* **Nombre**: Esta columna muestra el nombre del *deployment*, recordando que para que el *deployment* aparezca aquí debe estar en un *cluster* con la taquilla habilitada.
+
 * **Usuario**: Esta columna muestra el usuario responsable por la creación de la aplicación.
+
 * **Namespace**: Esta columna presenta el *namespace* al que pertenece la aplicación.
+
 * **Precio de la CPU**: Esta columna muestra el coste por CPU de la aplicación correspondiente al mes seleccionado.
+
 * **Precio de la memoria**: Esta columna muestra el coste por memoria de la aplicación correspondiente al mes seleccionado.
+
 * **Precio total**: Esta columna presenta la suma del precio de la CPU y del precio de la memoria.
 
 También existe la posibilidad de exportar las informaciones correspondientes a la tabla de arriba, en formato csv, a través de la funcionalidad “*export to csv*” representada por el botón |icone_exportar|, al pulsarlo el usuario puede descargar el archivo inmediatamente después.
@@ -1941,7 +1948,7 @@ En la sección Historial de Facturación Mensual por *tags*, el usuario debe sel
 
 En la sección Detalles de *tags*, se mostra una lista de todos los *tags* o de los *tags* seleccionados en la sección Historial de Facturación Mensual por *tags*. En el detallamiento del *tag* se mostra una lista de aplicaciones con el *tag* y un gráfico con la facturación del *tag* en los últimos 30 días.
 
-El usuario puede eliminar un *tag* pulsando el botón de “papelera” |icone_lata_lixo_preta|,  en el Detallamiento del *tag*.
+El usuario puede eliminar un *tag* pulsando el botón de "Papelera" |icone_lixo|, en el Detallamiento del *tag*.
 
 ====
 
@@ -2271,9 +2278,12 @@ En esta sección el usuario puede ver la lista de todos los *roles* existentes e
 
     En este caso es mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
 
-** **Nombre**: En esta columna es presentado el nombre del *role* añadido por el usuario.
+* **Nombre**: En esta columna es presentado el nombre del *role* añadido por el usuario.
+
 * **Labels**: Labels se utilizan para especificar la identificación de los atributos de los objetos que son significativos, relevantes y que están presentes en la sintaxis *yaml* del *role*.
+
 * **Duración**: Esta columna presenta el tiempo transcurrido en días desde la aplicación inicial de este *role*.
+
 * **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| al ser pulsado, presenta dos opciones:
 
 .. image:: /figuras/fig_mangue/118_mangue_acoes_role.png
@@ -2592,9 +2602,12 @@ Para crear un *Pod Security Policy* es necesario hacer clic en el botón ``Añad
 
 Los campos necesarios para la creación de *Pod Security Policy* son los siguientes:
 
-** **Nombre del Pod Security Policy**: Nombre del *Pod Security Policy* a ser creado.
+* **Nombre del Pod Security Policy**: Nombre del *Pod Security Policy* a ser creado.
+
 * **Permitir Containers Privilegiados**: Permite la creación de recursos que utilizan *containers* privilegiados, estos *containers* pueden tener acceso a los recursos y capacidades del *Kernel* de la máquina *Host*.
+
 * **Permitir escalada de privilegios**: Permite que la aplicación creada cambie el ID de usuario, permitiendo que los procesos hijos del *container* obtengan más privilegios que el proceso padre.
+
 * **Limitar usuario**: En caso de ser seleccionado, se muestra una lista (*drop-down list*), con las opciones de: 
 
       * **Prohibir Root**: Esta opción permite la creación de aplicación que utilice cualquier ID de usuario, con la excepción del ID de usuario *root*.
@@ -2686,11 +2699,16 @@ En la lista se puede encontrar la información de cada *Cluster* configurado e i
     :align: center
 =====
 
-** **Nombre del cluster**: En este campo el usuario puede cambiar el nombre de referencia con el cual el *cluster* está configurado.
+* **Nombre del cluster**: En este campo el usuario puede cambiar el nombre de referencia con el cual el *cluster* está configurado.
+
 * **IP para acceso a la API**: En este campo el usuario puede cambiar la dirección TCP-IP pública para poder acceder al *cluster*.
+
 * **Puerto para el acceso a la API**: En este campo el usuario puede cambiar el PUERTO TCP-IP para poder acceder al *cluster*.
+
 * **Cluster Admin Token**: En este campo el usuario puede cambiar la cadena de caracteres (*string*) que fue generado por el proveedor público con el fin de confirmar y autenticar la identidad (*token*) de la configuración con el *cluster*. En caso de que sea necesario cambiar esta cadena de caracteres, es importante consultar el proceso de generación de identificación (*token*) de cada proveedor, o de cada entorno de gestión de *container*, específicamente.
+
 * **Confirmar**:  El usuario debe pulsar este botón después de confirmar todos los campos modificados.
+
 * **Eliminar Cluster**: Cuando el usuario selecciona esta acción elimina el *cluster*. La plataforma Mangue.io solicita la confirmación del usuario para eliminar (borrar) el *cluster* de la plataforma:
 
 .. image:: /figuras/fig_mangue/142_mangue_aviso_cluster.png
@@ -2725,7 +2743,7 @@ Para iniciar el proceso de Integrar un *Cluster* el usuario debe hacer clic con 
 * **Path de acceso a la API**: En este campo el usuario debe informar la ruta utilizada para acceder a la API de *Kubernetes*, en caso de existir.
 * **Puerto de acceso a la API**: En este campo el usuario debe informar el número del PUERTO TCP-IP para poder acceder al *cluster*.
 * **Cluster Admin Token**: En este campo el usuario debe informar la cadena de caracteres (*string*) que fue generada por el proveedor público del *cluster* con el objetivo de verificar y autenticar la identidad (*token*) de la configuración con el *cluster*. Es importante consultar el proceso de generación de identificación (*token*) de cada proveedor, o de cada ambiente de gestión de *container*, específicamente.
-**Botón** ``Integrar``: Al terminar de rellenar los campos de arriba, el usuario debe hacer clic con el ratón en el botón de ``Integrar`` para que la plataforma Mangue.io incluya este *cluster* en la lista presentada en esta pantalla.
+* **Botón** ``Integrar``: Al terminar de rellenar los campos de arriba, el usuario debe hacer clic con el ratón en el botón de ``Integrar`` para que la plataforma Mangue.io incluya este *cluster* en la lista presentada en esta pantalla.
       * **Acción de actualización**: Si la interfaz de Mangue.io no muestra el *cluster* recientemente configurado, el usuario debe hacer clic en el icono  |icone_update| para que la aplicación muestre la lista actualizada de esta tabla de *clusters*.
 
 ====
@@ -2912,7 +2930,7 @@ Esta credencial se llama * KubeConfig* - o archivo de configuración del *cluste
 
 .. note:: Es importante tener en cuenta que la dirección TCP-IP informada desde la API del *cluster* debe ser una dirección alcanzable por la infraestructura computacional de la subred donde la plataforma Mangue.io ha sido implantada.
 
-Si ya tiene registrado el *KubeConfig* el usuario puede visualizarlo pulsando sobre el icono |icone_exibir|. También es posible eliminar el *KubeConfig* registrado haciendo clic en el icono de papelera |icone_lixo|.
+Si ya tiene registrado el *KubeConfig* el usuario puede visualizarlo pulsando sobre el icono |icone_exibir|. También es posible eliminar el *KubeConfig* registrado haciendo clic en el icono de "Papelera" |icone_lixo|.
 
 ====
 
@@ -3006,7 +3024,7 @@ A continuación describimos las informaciones presentes en la tabla de Helms.
 * **Nombre**: Nombre del Helm especificado por el usuario durante la creación.
 * **Fecha de Creación**: Fecha en la que ha sido creada la aplicación Helm en el *Cluster*. 
 * **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| que al ser pulsado, presenta dos opciones:
-* 
+
 .. image:: /figuras/fig_mangue/158_mangue_acoes_helm.png
     :alt: Ações Helm
     :scale: 100 %
@@ -3119,8 +3137,7 @@ El menú *Networking*/Servicios presenta todos los servicios de un *cluster* en 
 
       * **ClusterIP**: Son servicios a los que sólo se puede acceder en la red interna del *cluster*.
 
-      * **LoadBalancer**: Es un tipo de servicio existente con la finalidad de aprovisionar un *LoadBalancer* en la 
-7ª capa, para que la comunicación se realice con el servicio de la 4ª capa creado en el *cluster Kubernetes*.
+      * **LoadBalancer**: Es un tipo de servicio existente con la finalidad de aprovisionar un *LoadBalancer* en la 7ª capa, para que la comunicación se realice con el servicio de la 4ª capa creado en el *cluster Kubernetes*.
 
 * **Port**: Son los puertos en los que el servicio puede recibir peticiones.
 * **Duración**: Responsable de identificar desde cuándo ha sido creada la estructura del servicio;
@@ -3164,7 +3181,7 @@ Es importante tener en cuenta que esta acción es definitiva y elimina (borra) e
     :alt: Editar Serviço
     :scale: 100 %
     :align: center
-=====  
+=====
 
 
 Recomendamos que sólo los usuarios con experiencia en la sintaxis *YAML* o Kubernetes realicen cambios en el código de un servicio, ya que codificar (o cambiar) la sintaxis de forma incorrecta puede llevar a la pérdida de acceso a todo el ambiente de *clusters* existentes. 
@@ -3192,7 +3209,7 @@ Encima de la tabla, hay tres elementos con los que el usuario puede trabajar:
     :align: center
 =====
 
-* **Acción de Búsqueda**: Si la lista que se presenta en esta pantalla es muy larga (ocupando más de una página), hay un campo que permite al usuario buscar por el nombre del *Update* deseado. Basta introducir una parte del nombre y pulsar “Enter” o hacer clic en el icono de la lupa |icone_lupa_verde|. Como resultado de esta búsqueda sólo se recuperan los *Updates* que contengan la palabra clave de la búsqueda.
+* **Acción de Búsqueda**: Si la lista que se presenta en esta pantalla es muy larga (ocupando más de una página), hay un campo que permite al usuario buscar por el nombre del *Update* deseado. Basta introducir una parte del nombre y pulsar “Enter” o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda sólo se recuperan los *Updates* que contengan la palabra clave de la búsqueda.
 
 * **Acción de Actualizar**: Basta hacer clic en el icono |icone_update|  para que Mangue.io actualice la interfaz con los valores más recientes de esta tabla de *Ingress*.
 
@@ -3210,7 +3227,7 @@ A continuación describimos la información de la lista que aparece en esta pant
 * **Servicio**: Esta columna presenta la información del servicio al que está asociado este *Ingress*.
 * **Address**: Esta columna presenta el número de la dirección TCP-IP del *Ingress* que fue configurada en la plataforma Mangue.io.
 * **Duración**: Esta columna presenta el tiempo en días transcurridos desde la fecha de creación del *Ingress* hasta la fecha actual en que el usuario está consultando esta lista.
-* **Acciones**: Esta columna presenta el botón de ``Acción`` para eliminar *Ingress*, mediante el icono de papelera |icone_lata_lixo_preta|. Al hacer clic en el icono, se solicita al usuario la confirmación para proceder a la eliminación del *ingress*, de acuerdo con la imagen que aparece a continuación:
+* **Acciones**: Esta columna presenta el botón de ``Acción`` para eliminar *Ingress*, mediante el icono de "Papelera" |icone_lixo|. Al hacer clic en el icono, se solicita al usuario la confirmación para proceder a la eliminación del *ingress*, de acuerdo con la imagen que aparece a continuación:
 
 .. image:: /figuras/fig_mangue/170_mangue_aviso_deletar_ingress.png
     :alt: Aviso deletar Ingress
@@ -3249,7 +3266,7 @@ Para que el usuario pueda crear un *namespace*, debe hacer clic en el icono de s
 
 La pantalla de arriba tiene un solo campo en el que el usuario debe rellenar el nombre que desea crear para el nuevo *namespace* y hacer clic con el cursor del ratón en el botón ``Añadir Namespaces``, para incluirlo en la plataforma. La plataforma Mangue.io presenta un *feedback* de esta acción en el campo superior derecho de la pantalla del navegador de internet.
 
-Este nuevo *namespace* es creado dentro del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| “Selección de configuración” de la plataforma Mangue.io.
+Este nuevo *namespace* es creado dentro del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración" de la plataforma Mangue.io.
 
 Tras la inclusión de un nuevo *namespace*, si este nombre no aparece en la lista, el usuario puede hacer clic en el icono |icone_update| para que Mangue.io actualice la interfaz con la lista más reciente de esta tabla.
 
@@ -3274,11 +3291,11 @@ A continuación se describen los campos de la tabla presentada en esta pantalla:
 * **Nombre**: Esta columna presenta el nombre del *namespaces* que fue informado durante el proceso de registro de *namespaces* en la plataforma Mangue.io.
 * **Status**: Identifica el estado actual del *namespaces*. Puede ser presentado por *Running*, *Pending* o “!” (signo de exclamación).
 
-      * *Running* identifica que no hay ningún error con los *namespaces*.
+      * **Running** identifica que no hay ningún error con los *namespaces*.
 
-      * *Pending* identifica algún estado de transición en los *namespaces*. Ya sea por actualización, inicialización del proceso del *container* o cualquier actividad que identifique un estado de transición.
+      * **Pending** identifica algún estado de transición en los *namespaces*. Ya sea por actualización, inicialización del proceso del *container* o cualquier actividad que identifique un estado de transición.
 
-      * “!” (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con los *namespaces*.
+      * **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con los *namespaces*.
 
 * **Cuota**:  Esta columna presenta un icono de un "ojo" |icone_exibir| que se queda activo en las líneas de *namespaces* que tengan alguna cuota definida. El usuario debe posicionar el cursor del ratón sobre el icono y la plataforma Mangue.io presenta una ventana *pop-up* con el nombre y las características de la cuota definida para este *namespace*.
 
@@ -3289,7 +3306,7 @@ A continuación se describen los campos de la tabla presentada en esta pantalla:
 =====  
 
 * **Duración**: Esta columna presenta el tiempo en días transcurridos desde la fecha de creación de los *namespaces* hasta la fecha actual en que el usuario está consultando esta lista.
-* **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao que al ser pulsado, presenta tres opciones como la figura siguiente:
+* **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| que al ser pulsado, presenta tres opciones como la figura siguiente:
 
 .. image:: /figuras/fig_mangue/174_mangue_acoes_namespace.png
     :alt: Ações namespace
@@ -3415,7 +3432,7 @@ Justo encima de la tabla, hay tres elementos con los que el usuario puede actuar
     :align: center
 =====  
 
-* **Acción de búsqueda**: Si la lista presentada en esta pantalla es muy larga (ocupa más de una página), hay un campo donde el usuario puede buscar por el nombre del *Update* deseado. Sólo tiene que introducir parte del nombre del *update* y pulsar ``Enter`` o hacer clic en el icono de la lupa |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *nodes* que contengan la palabra llave buscada.
+* **Acción de búsqueda**: Si la lista presentada en esta pantalla es muy larga (ocupa más de una página), hay un campo donde el usuario puede buscar por el nombre del *Update* deseado. Sólo tiene que introducir parte del nombre del *update* y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *nodes* que contengan la palabra llave buscada.
 * **Acción de actualización**: Basta hacer clic en el icono |icone_update| para que Mangue.io actualice la interfaz con la lista de nombres de *nodes* configurados en la plataforma Mangue.io.
 * **Añadir Labels**: Si el usuario necesita añadir una (o varias) *labels* al *node*, debe hacer clic con el cursor del ratón en el icono de las etiquetas (labels) |icone_rotulo| y la plataforma Mangue.io presenta la siguiente pantalla:
 
@@ -3468,7 +3485,6 @@ A continuación presentamos el proceso para el correcto relleno de la pantalla d
 1. Seleccionar el *Cluster* **Origen** (Sección Migración)
 
 * Este campo es un *dropdown list* y son listados los *clusters* configurados en el ítem Integrar *Cluster*.
-
 
 2. Seleccione el *Cluster* **Destino** (Sección Migración)
 
@@ -3602,7 +3618,7 @@ Justo encima de la tabla, hay dos elementos con los que el usuario puede actuar:
     :align: center
 =====
 
-* **Acción de búsqueda**: Si la lista que se presenta en esta pantalla resulta muy larga (ocupando más de una página), existe un campo en el que se puede buscar por el nombre del *Registry* deseado. Sólo es necesario introducir parte del nombre del *update* y pulsar “Enter” o hacer clic en el icono de la lupa |icone_lupa_verde|. Como resultado de esta búsqueda aparecen sólo los *Registry* que contengan la palabra llave buscada.
+* **Acción de búsqueda**: Si la lista que se presenta en esta pantalla resulta muy larga (ocupando más de una página), existe un campo en el que se puede buscar por el nombre del *Registry* deseado. Sólo es necesario introducir parte del nombre del *update* y pulsar “Enter” o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda aparecen sólo los *Registry* que contengan la palabra llave buscada.
 * **Añadir un Registry**: Basta hacer clic en el signo de suma |icone_adicionar| para que el usuario pueda registrar un nuevo *Registry* en la plataforma. A continuación, aparece la siguiente pantalla:
 
 .. image:: /figuras/fig_mangue/193_mangue_criar_edit_secret.png
@@ -3632,7 +3648,7 @@ A continuación se describen las columnas presentadas en esta lista de *registri
 
     Cuando el usuario elige una fila, o varias, la plataforma Mangue.io presenta el (los) icono(s) encima de esta columna, que representan acciones al usuario para ser ejecutadas de una sola vez para todas las filas seleccionadas. 
 
-    En este caso es mostra el icono de “papelera” |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
+    En este caso es mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
 
 * **Nombre**: Esta columna presenta el nombre del servidor de Registro de imagen creado;
 * **Username**: Esta columna presenta el nombre de usuario que se utiliza para realizar la autenticación en el servidor de registro de imagen;
@@ -3735,7 +3751,7 @@ La plataforma Mangue.io puede programar tareas para ser realizadas en una fecha 
 
 * Actualizar *Deployment*.
 * Escalar *Deployment*.
-*Actualizar *ConfigMap*.
+* Actualizar *ConfigMap*.
 
 .. image:: /figuras/fig_mangue/201_mangue_agenda_tarefa.png
     :alt: Agenda tarefas
@@ -4067,11 +4083,11 @@ Encima de la tabla, hay tres elementos con los que el usuario puede actuar:
 
 * **Acción de Búsqueda**: Si la lista presentada en esta pantalla es muy larga (más de una página), hay un campo donde el usuario puede buscar por parte del texto en la columna “Operación”. 
 
-    Sólo tiene que introducir parte del nombre de la operación y pulsar “Enter”, o hacer clic en el icono de lupa |icone_lupa_verde|. Como resultado de esta búsqueda, sólo apareceren las líneas que contengan la palabra clave de la búsqueda.
+    Sólo tiene que introducir parte del nombre de la operación y pulsar “Enter”, o hacer clic en el icono de "Lupa" |icone_lupa_verde|. Como resultado de esta búsqueda, sólo apareceren las líneas que contengan la palabra clave de la búsqueda.
 
     Esta búsqueda distingue entre mayúsculas y minúsculas, de forma que el resultado de la búsqueda de la palabra “Eliminar” es diferente del resultado de la búsqueda de la palabra “eliminar”.
 
-    Si la búsqueda no retorna ninguna incidencia, la lista aparece en blanco. Para volver a la lista inicial, el usuario debe borrar cualquier contenido/*string* de este campo, y hacer clic en el icono de la lupa |icone_lupa_verde| (buscar por el campo 'en blanco') y la plataforma Mangue.io presenta el contenido completo de la lista antes de cualquier búsqueda.
+    Si la búsqueda no retorna ninguna incidencia, la lista aparece en blanco. Para volver a la lista inicial, el usuario debe borrar cualquier contenido/*string* de este campo, y hacer clic en el icono de "La lupa" |icone_lupa_verde| (buscar por el campo 'en blanco') y la plataforma Mangue.io presenta el contenido completo de la lista antes de cualquier búsqueda.
 
 * **Acción de actualizar**: Basta hacer clic en el icono |icone_update| para que Mangue.io actualice la interfaz con el *status* más reciente de esta tabla de tareas.
 
@@ -4134,9 +4150,7 @@ Este documento concluye la presentación y descripción del Mangue.io, una plata
 
 **Equipo Ustore**
 
-Manual de uso Mangue.io Ed. 5 Año 2023
-
-====
+Manual de uso Mangue.io Ed. 4 Año 2023
 
 
 
