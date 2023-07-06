@@ -2679,7 +2679,7 @@ After editing the Cluster Role Binding the user must click on the green-colored 
 
 ----
 
-C. **Pod Security Policy**
+C. **Section: Pod Security Policy**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pod Security Policy is a Kubernetes resource that allows the user to limitate the applications created for a specific *ServiceAccount*, or all. That being possible, for example, prohibits that a *ServiceAccount* creates an application that uses the user root.
@@ -2779,7 +2779,7 @@ This menu comes with the purpose of treating other questions beyond the simple K
 * Clusters Kubernetes creation in the public clouds AWS and Google;
 * Import already existing clusters Kubernetes;
 * Import credentials for the cluster's creation procedures in public clouds are more easily performed.
-
+* Creation of clusters on premise.
 
 ----
 
@@ -3028,7 +3028,7 @@ Container Execution
 
 The Integrations/Container Execution menu allows to configure a communication interface with the containers that are being executed in a POD. For it to be possible, it is necessary to provide an access credential to the Kubernetes cluster. 
 
-This credential is called KubeConfig_ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described on the link.
+This credential is called KubeConfig_ - or Kubernetes cluster configuration file. In this configuration file there is information like: SSL Certificates for API cluster access, API cluster address and some other information described in KubeConfig.
 
 .. _KubeConfig: https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/ 
 
