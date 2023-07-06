@@ -5,6 +5,14 @@
 
 ----
 
+
+.. centered:: Português      -     Español_    
+
+
+.. _Español:
+
+====
+
 2023.06.09
 ==========
 
@@ -14,7 +22,7 @@ Ano 2023 - Período: 05 a 09 de Junho
 
 ====
 
-Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lançamentos desta semana, das novas características nas plataformas **uCloud (Billing e OPS)** e **uSavings**. 
+Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lançamentos desta semana, das novas características nas plataformas **uCloud: Billing, OPS** e **uSavings**. 
 
 ====
 
@@ -34,6 +42,8 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 ====
 
 .. centered:: **uCloud OPS**
+
+====
 
 ====
 
