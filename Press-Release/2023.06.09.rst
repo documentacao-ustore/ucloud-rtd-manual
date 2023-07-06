@@ -5,6 +5,13 @@
 
 ----
 
+.. centered:: Português      -     Español_    
+
+
+.. _Español:
+
+====
+
 2023.06.09
 ==========
 
