@@ -43,7 +43,7 @@ En esta comunicación Ustore anuncia los lanzamientos semanales de las novedades
 |                            |* Normal: Corresponde al 0%-49% del consumo total;                                                                                         |
 |                            |* Warning: Indica el 50%-89% del consumo total;                                                                                            |
 |                            |* Danger: Representa el 90%-99% del consumo total;                                                                                         |
-|                            |* Over: Está por encima del 100% del consumo total.                                                                                  |
+|                            |* Over: Está por encima del 100% del consumo total.                                                                                        |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |Ubicación en el portal      |Menú Administración > Contratos > card Budgets > Crear Budget                                                                              |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
