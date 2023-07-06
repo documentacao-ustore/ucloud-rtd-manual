@@ -47,8 +47,11 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 
 ====
 
+====
 
-**Nuvem VMware**
+.. centered:: **Nuvem VMware**
+
+====
 
 
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
@@ -64,7 +67,9 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 
 ====
 
-**Nuvem Hyper-V**
+.. centered:: **Nuvem Hyper-V**
+
+====
 
 
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
