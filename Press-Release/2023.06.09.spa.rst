@@ -42,11 +42,13 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
 
+
 ====
 
 .. centered:: **uCloud OPS**
 
 ====
+
 
 ====
 
@@ -94,6 +96,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 ====
 
 
+
 +----------------------------+---------------------------------------------------------------------------------------+
 |Feature                     |Tratamiento de errores en la eliminación de snapshots con comportamiento similar       |
 |                            |similar ucloud/nube                                                                    |
@@ -115,6 +118,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 ====
 
 
+
 +----------------------------+-----------------------------------------------------------+
 |Feature                     |Conexión con repositorios                                  |
 +============================+===========================================================+
@@ -128,7 +132,6 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 |Ubicación en el portal      |Menú Administración > Usuarios > Mis credenciales de       |
 |                            |repositorios remotos                                       |
 +----------------------------+-----------------------------------------------------------+
-
 
 
 ====
@@ -250,10 +253,13 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 ----
 
 
+
 Este conjunto de funcionalidades descritas en este documento reafirma el compromiso constante con la evolución de los productos Ustore y la adecuación a las necesidades del mercado y de los clientes.
 
 
+
 .. note:: El acceso a estas nuevas funcionalidades queda restringido al contrato. Las funcionalidades no contratadas por el cliente no están disponibles en el ambiente hasta la formalización y/o negociación para adquirir los lanzamientos.
+
 
 
 Esta nota de prensa semanal es una herramienta de comunicación fundamental en el trabajo de divulgación de las novedades e innovaciones de los productos generados en Ustore.
