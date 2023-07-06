@@ -2859,8 +2859,8 @@ Após editar a *Cluster Role Binding* o usuário deve clicar no botão verde “
 
 ----
 
-C. Pod Security Policy
-~~~~~~~~~~~~~~~~~~~~~~
+C. Seção: Pod Security Policy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Pod Security Policy* é um recurso do *Kubernetes* que permite o usuário limitar as aplicações criadas por um *ServiceAccount* específico, ou todos. Sendo assim possível, por exemplo, proibir que um *ServiceAccount* crie uma aplicação que utilize o usuário *root*.
 

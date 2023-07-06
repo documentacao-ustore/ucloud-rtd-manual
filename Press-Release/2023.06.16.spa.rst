@@ -1,0 +1,210 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+
+----
+
+
+2023.06.16
+==========
+
+
+Nota de Prensa
+-------------
+Año 2023 - Periodo del 12 al 16 de Junio
+
+
+====
+
+
+En esta comunicación Ustore anuncia los lanzamientos semanales de las novedades de la plataforma **uCloud**: **Billing** y **OPS**.
+
+
+====
+
+
+====
+
+
+.. centered:: uCloud Billing
+           
+====
+
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Alertas del Budget                                                                                                                         |
++============================+===========================================================================================================================================+
+|Objetivo                    |Enviar alertas de budget por correo electrónico, basadas en el porcentaje de consumo del cliente en relación al budget estimado.           |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento        |La funcionalidad busca todos los budgets no eliminados en todos los contratos para el mes en curso, exclusivo para el budget habilitado    |
+|del portal                  |con alerta. Se envía un correo electrónico a la dirección de correo electrónico previamente registrada para cada nivel de consumo total    |
+|                            |asignado al budget, son:                                                                                                                   |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|                            |* Normal: Corresponde al 0%-49% del consumo total;                                                                                         |
+|                            |* Warning: Indica el 50%-89% del consumo total;                                                                                            |
+|                            |* Danger: Representa el 90%-99% del consumo total;                                                                                         |
+|                            |* Over: Over: Está por encima del 100% del consumo total.                                                                                  |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal      |Menú Administración > Contratos > card Budgets > Crear Budget                                                                              |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+====
+
+
+.. centered:: uCloud OPS
+
+
+====
+
+
+
+
+**Nube VMware**
+
+
+
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Etiquetado de recursos del inventario                                                                                                     |
++============================+==========================================================================================================================================+
+|Objetivo                    |Asignar la creación de recursos a la nube VMware                                                                                          |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento        |Es posible etiquetar todos los recursos del inventario VMware, solo son etiquetables en el portal uCloud. El portal presenta una          |
+|del portal                  |advertencia al usuario, informando que el etiquetado es local, y que al importar el container de nuevo, los tags son perdidos.            |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal      |Menú Inventario de recursos                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+====
+
+
+**Nube Hyper-V**
+
+
+
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Etiquetado de recursos del inventario                                                                                                     |
++============================+==========================================================================================================================================+
+|Objetivo                    |Asignar la creación de recursos a la nube Hyper-V                                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento        |Es posible etiquetar todos los recursos del inventario Hyper-V, solo son etiquetables en el portal uCloud. El portal presenta una         |
+|del portal                  |advertencia al usuario, informando que el etiquetado es local, y que al importar el container de nuevo, los tags son perdidos.            |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal      |Menú Inventario de recursos                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+Este conjunto de funcionalidades descritas en este documento reafirma el compromiso constante con la evolución de los productos Ustore y la adecuación a las necesidades del mercado y de los clientes.
+
+
+
+
+.. note:: El acceso a estas nuevas funcionalidades queda restringido al contrato. Las funcionalidades no contratadas por el cliente no están disponibles en el ambiente hasta la formalización y/o negociación para adquirir los lanzamientos.
+
+
+
+
+Esta nota de prensa semanal es una herramienta de comunicación fundamental en el trabajo de divulgación de las novedades e innovaciones de los productos generados en Ustore.
+
+
+
+PUBLICAÇÃO ORIGINAL ABAIXO
+
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+----
+
+2023.06.16
+==========
+
+Nota de Prensa
+-------------
+Año 2023 - Periodo del 12 al 16 de Junio
+
+====
+
+En esta comunicación Ustore anuncia los lanzamientos semanales de las novedades de la plataforma **uCloud**: **Billing** y **OPS**.
+
+====
+
+====
+
+.. centered:: uCloud Billing
+           
+====
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Alertas del Budget                                                                                                                          |
++============================+===========================================================================================================================================+
+|Objetivo                    |Enviar alertas de budget por correo electrónico, basadas en el porcentaje de consumo del cliente en relación al budget estimado.                           |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento del portal|La funcionalidad busca todos los budgets no eliminados en todos los contratos para el mes en curso, exclusivo para el budget habilitado con alerta.|
+|                            |Se envía un correo electrónico a la dirección de correo electrónico previamente registrada para cada nivel de consumo total asignado al budget, son:    |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|                            |* Normal: Corresponde al 0%-49% del consumo total;                                                                                           |
+|                            |* Warning: Indica el 50%-89% del consumo total;                                                                                                |
+|                            |* Danger: Representa el 90%-99% del consumo total;                                                                                             |
+|                            |* Over: Over: Está por encima del 100% del consumo total.                                                                                               |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal       |Menú Administración > Contratos > card Budgets > Crear Budget                                                                              |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+====
+
+.. centered:: uCloud OPS
+
+====
+
+
+**Nube VMware**
+
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Etiquetado de recursos del inventario                                                                                                     |
++============================+==========================================================================================================================================+
+|Objetivo                    |Asignar la creación de recursos a la nube VMware                                                                                          |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento del portal|Es posible etiquetar todos los recursos del inventario VMware, solo son etiquetables en el portal uCloud.                                   |
+|                            |El portal presenta una advertencia al usuario, informando que el etiquetado es local, y que al importar el container de nuevo, los tags son perdidos. |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal       |Menú Inventario de recursos                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+====
+
+**Nube Hyper-V**
+
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Etiquetado de recursos del inventario                                                                                                      |
++============================+==========================================================================================================================================+
+|Objetivo                    |Asignar la creación de recursos a la nube Hyper-V                                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento del portal|Es posible etiquetar todos los recursos del inventario Hyper-V, solo son etiquetables en el portal uCloud.                                  |
+|                            |El portal presenta una advertencia al usuario, informando que el etiquetado es local, y que al importar el container de nuevo, los tags son perdidos.  |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el portal       |Menú Inventario de recursos                                                                                                              |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Este conjunto de funcionalidades descritas en este documento reafirma el compromiso constante con la evolución de los productos Ustore y la adecuación a las necesidades del mercado y de los clientes.
+
+
+.. note:: El acceso a estas nuevas funcionalidades queda restringido al contrato. Las funcionalidades no contratadas por el cliente no están disponibles en el ambiente hasta la formalización y/o negociación para adquirir los lanzamientos.
+
+
+Esta nota de prensa semanal es una herramienta de comunicación fundamental en el trabajo de divulgación de las novedades e innovaciones de los productos generados en Ustore.
+
