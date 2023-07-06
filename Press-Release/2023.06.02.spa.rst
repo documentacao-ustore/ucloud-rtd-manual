@@ -1,0 +1,183 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+
+----
+
+
+.. centered:: Português_      -     Español    
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.html
+
+====
+
+2023.06.02
+==========
+
+
+Nota de Prensa: uCloud
+---------------------
+Año 2023 - Periodo: del 29 de Mayo al 2 de Junio
+
+
+====
+
+En esta comunicación Ustore anuncia los lanzamientos de las nuevas funcionalidades de la plataforma uCloud, a su público interno y externo. 
+
+
+A partir de este anuncio, el portal atiende a los siguientes elementos listados y divididos en dos grupos: Billing y OPS.
+
+====
+
+====
+
+.. centered:: uCloud Billing
+           
+====
+
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature              |Informe de gestión de créditos                                                                                        |
++=====================+======================================================================================================================+
+|Objetivo             |El informe de utilidad permite al administrador del sistema realizar el control individualizado de los créditos       |
+|                     |"por recibir" del cliente. Paralelamente, el administrador visualiza la suma de los créditos en la nube y la          | 
+|                     |totalidade recibida por el cliente.                                                                                   |
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el      |Menú Financiero > Utilidades                                                                                          |
+|portal               |                                                                                                                      |
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+
+
+====
+
+.. centered:: uCloud OPS
+
+====
+
+.. centered:: Nuvem VMware
+
+====
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Tratamiento en el mensaje de error al eliminar una máquina virtual asociada a un recurso        |
++============================+================================================================================================+
+|Objetivo                    |Mejorar la información sobre errores insertando en el menú "Tareas" un mensaje con la acción    |
+|                            |que se debe ejecutar.                                                                           |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Nuevo funcionamiento del    |Cuando una máquina virtual asociada a un balanceador es eliminada, en el menú "Tareas" aparece  |
+|portal                      |un mensaje aconsejando retirar previamente la máquina del balanceador y después eliminar.       | 
++----------------------------+------------------------------------------------------------------------------------------------+
+|Ubicación en el portal      |Menú Tareas                                                                                     |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: Portal uCloud
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Listado de Virtual Datacenters concedidos                  |
+|                            |                                                           |
++============================+===========================================================+
+|Objetivo                    |Presentar los datos con persistencia y exactitud en la     |
+|                            |lista de Virtual Datacenters concedidos.                   | 
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |Visualización precisa de las informaciones en el listado   |
+|portal                      |de Virtual Datacenters concedidos al navegar dentro        | 
+|                            |del Contrato.                                              |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      |Menú Administración > Contratos > Contrato >               |
+|                            |VDCs concedidos                                            |
++----------------------------+-----------------------------------------------------------+
+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Listado de Paquetes                                        |
+|                            |                                                           |
++============================+===========================================================+
+|Objetivo                    |Visualizar los nombres de los paquetes de una cuenta en    |
+|                            |función del idioma seleccionado.                           | 
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |Al definir un nuevo idioma en la plataforma, el listado    |
+|portal                      |de paquetes de una cuenta se presenta en función de la     |
+|                            |lengua elegida.                                            |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      |Menú Configuración > Gestión de cuentas                    |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Visualización de los recursos de seguridad en las          |
+|                            |pantallas del portal                                       |
++============================+===========================================================+
+|Objetivo                    |Adaptar el formato de visibilidad de los módulos de        |
+|                            |seguridad en función del tipo de perfil del usuario.       |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |Modificada la vista de las funcionalidades en las tarjetas |
+|portal                      |del módulo de seguridad en función de la variación del     |
+|                            |tipo de perfil del usuario.                                |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      |Menú Configuración > Gestión de cuentas                    |
++----------------------------+-----------------------------------------------------------+
+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Refactorización de los correos electrónicos del portal     |
+|                            |                                                           |
++============================+===========================================================+
+|Objetivo                    |Normalizar y estandarizar la comunicación, con la          |
+|                            |incorporación de nuevas reglas y layout, nuevo modelo      |
+|                            |visual y textual.                                          |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |La reestructuración de los templates de correos            |
+|portal                      |electrónicos preserva las imágenes y estilos, de modo que  | 
+|                            |el portal estandariza la comunicación.                     |
++----------------------------+-----------------------------------------------------------+
+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Filtrado de máquinas virtuales por tag                     |
+|                            |                                                           |
++============================+===========================================================+
+|Objetivo                    |Desarrollar un método de filtrado de máquinas virtuales    |
+|                            |basado en los tags creados.                                |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |Presentar en la lista de máquinas virtuales el filtro por  |
+|portal                      |tag y el permiso de filtrado, agregando el atributo de     |
+|                            |specification.                                             |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      |Menú Máquinas Virtuales > Máquinas Virtuales               |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Nuevo mensaje de error al iniciar sesión en el portal      |
+|                            |                                                           |
++============================+===========================================================+
+|Objetivo                    |Presentar un mensaje específico al usuario que introduzca  |
+|                            |un login o contraseña no válidos.                          |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    |Ahora es posible visualizar el nuevo mensaje informativo   |
+|portal                      |de que uno de los dos campos pueden estar incorrectos      |
+|                            |(login o contraseña) El portal permite un nuevo intento,   |
+|                            |en caso de que el usuario recuerde o active el método de   |
+|                            |recuperación de contraseña disponible.                     |
+|                            |                                                           | 
+|                            |El perfeccionamiento aumenta el nivel de seguridad         |
+|                            |en el PMC.                                                 |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      |Pantalla inicial del portal                                |
++----------------------------+-----------------------------------------------------------+
+
+
+.. note:: El acceso a estas nuevas funcionalidades queda restringido al contrato. Las funcionalidades no contratadas por el cliente no están disponibles en el ambiente hasta la formalización y/o negociación para adquirir los lanzamientos.
+
+
+Esta nota de prensa se publica semanalmente y divulga las innovaciones generadas por los productos Ustore.
