@@ -8,7 +8,7 @@
 .. centered:: Português      -     Español_    
 
 
-.. _Español:
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.09.spa.html
 
 ====
 
