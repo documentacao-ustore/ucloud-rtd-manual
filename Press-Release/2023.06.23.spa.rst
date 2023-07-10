@@ -18,12 +18,13 @@
 ==========
 
 Nota de prensa
--------------
+--------------
+
 Año 2023 - Período: del 19 al 23 de Junio
 
 ====
 
-En esta comunicación Ustore presenta los cuadros apropiados para la interacción con los proveedores de la nube *AWS*, *Azure*, *GCP*, *IBM* e *Oracle*.
+En esta comunicación, Ustore presenta los cuadros adecuados para la interacción con los proveedores de nube *AWS*, *Azure*, *GCP*, *IBM* e *Oracle* creados para presentar de forma sintética los recursos integrados y soportados por el portal uCloud. Puede ser información de consulta para las soluciones ofrecidas en los ambientes híbridos o multi-nube gestionados por uCloud.
 
 
 ====
@@ -104,5 +105,8 @@ A *IBM Cloud* es una plataforma de computación en nube que ofrece servicios esc
    :align: center
 ----
 
+El material detallado en este documento reafirma el constante compromiso de evolución de los productos Ustore y su alineación con las necesidades del mercado de almacenamiento en nube. 
+
+Esta nota de prensa semanal es una herramienta de divulgación de las novedades en Ustore.
 
 

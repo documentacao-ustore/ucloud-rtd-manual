@@ -25,7 +25,7 @@ Año 2023 - Periodo: del 29 de Mayo al 2 de Junio
 
 ====
 
-En esta comunicación Ustore anuncia los lanzamientos de las nuevas funcionalidades de la plataforma uCloud, a su público interno y externo. 
+En esta comunicación, Ustore anuncia los lanzamientos de las nuevas funcionalidades de la plataforma uCloud, a su público interno y externo. 
 
 
 A partir de este anuncio, el portal atiende a los siguientes elementos listados y divididos en dos grupos: Billing y OPS.
