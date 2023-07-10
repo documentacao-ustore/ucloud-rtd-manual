@@ -55,7 +55,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 
 ====
 
-.. centered:: Nuvem Oracle
+.. centered:: Nube Oracle
 
 ====
 
@@ -94,7 +94,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 
 ====
 
-.. centered:: Nuvem Azure
+.. centered:: Nube Azure
 
 ====
 
@@ -102,10 +102,10 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 
 +----------------------------+---------------------------------------------------------------------------------------+
 |Feature                     |Tratamiento de errores en la eliminación de snapshots con comportamiento similar       |
-|                            |similar ucloud/nube                                                                    |
+|                            |ucloud/nube                                                                            |
 +============================+=======================================================================================+
 |Objetivo                    |Mejorar el comportamiento de snapshot para esta nube y la correcta presentación al     |
-|                            |al usuario.                                                                            |
+|                            |usuario.                                                                               |
 +----------------------------+---------------------------------------------------------------------------------------+
 |Nuevo funcionamiento del    |Al eliminar el snapshot, en caso de fallo el error se presenta al usuario en la        |
 |portal                      |pestaña de tareas.                                                                     |

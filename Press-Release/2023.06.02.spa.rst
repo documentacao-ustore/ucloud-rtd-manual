@@ -57,7 +57,7 @@ A partir de este anuncio, el portal atiende a los siguientes elementos listados 
 
 ====
 
-.. centered:: Nuvem VMware
+.. centered:: Nube VMware
 
 ====
 
