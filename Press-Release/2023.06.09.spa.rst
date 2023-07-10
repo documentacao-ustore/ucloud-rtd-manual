@@ -16,7 +16,7 @@
 2023.06.09
 ==========
 
-Nota de Prensa
+Nota de prensa
 --------------
 
 Año 2023 - Período: del 05 al 09 de Junio
@@ -44,7 +44,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 |portal               |                                                                                                                      |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
-
+====
 
 ====
 
@@ -113,6 +113,7 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 |Ubicación en el portal      |Menú Tareas > Tareas                                                                   |
 +----------------------------+---------------------------------------------------------------------------------------+
 
+====
 
 ====
 
@@ -135,6 +136,8 @@ En esta comunicación Ustore anuncia a su público interno y externo, los lanzam
 |Ubicación en el portal      |Menú Administración > Usuarios > Mis credenciales de       |
 |                            |repositorios remotos                                       |
 +----------------------------+-----------------------------------------------------------+
+
+====
 
 
 ====

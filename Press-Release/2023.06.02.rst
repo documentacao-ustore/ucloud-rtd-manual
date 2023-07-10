@@ -6,6 +6,15 @@
 
 ----
 
+
+.. centered:: Português      -     Español_    
+
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.spa.html
+
+
+====
+
 2023.06.02
 ==========
 
@@ -18,6 +27,8 @@ Ano 2023 - Período: 29 de Maio a 02 de Junho
 Nesta comunicação a Ustore anuncia os lançamentos das novas características da plataforma uCloud, ao seu público interno e externo. 
 
 A partir deste anúncio, o portal passa a atender os seguintes itens listados e divididos em dois grupos: Billing e OPS. 
+
+====
 
 ====
 
@@ -35,6 +46,7 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 |Localização no portal|Menu Financeiro > Utilitários                                                                                         |
 +---------------------+----------------------------------------------------------------------------------------------------------------------+
 
+====
 
 ====
 
@@ -56,6 +68,9 @@ A partir deste anúncio, o portal passa a atender os seguintes itens listados e 
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Tarefas                                                                                    |
 +----------------------------+------------------------------------------------------------------------------------------------+
+
+====
+
 
 ====
 

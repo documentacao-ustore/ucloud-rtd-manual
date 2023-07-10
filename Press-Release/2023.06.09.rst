@@ -43,7 +43,11 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 
 ====
 
+====
+
 .. centered:: **uCloud OPS**
+
+====
 
 ====
 
@@ -93,6 +97,8 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 |Localização no portal       |Menu Tarefas > Tarefas                                                                 |
 +----------------------------+---------------------------------------------------------------------------------------+
 
+====
+
 
 ====
 
@@ -114,6 +120,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 |                            |repositórios remotos                                       |
 +----------------------------+-----------------------------------------------------------+
 
+====
 
 ====
 
