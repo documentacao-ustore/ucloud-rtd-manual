@@ -1,0 +1,208 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+   
+----
+
+.. centered:: Português_      -     Español   
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.05.26.html
+
+
+====
+
+
+2023.05.26
+==========
+
+Nota de Prensa: uCloud
+----------------------
+
+Año 2023 - Periodo: del 22 al 26 de Mayo
+
+====
+
+En esta comunicación Ustore comunica los lanzamientos de las nuevas características de la plataforma uCloud, a su público interno y externo. A partir de este anuncio, el portal atiende a los siguientes elementos listados y divididos en dos grupos: *Billing* y OPS. 
+
+====
+
+.. centered:: uCloud Billing
+
+====
+
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature              |Franquicia                                                                                                            |
++=====================+======================================================================================================================+
+|Objetivo             |Reproducir una nueva forma de cálculo de la facturación de los clientes basada en el consumo de la franquicia.        |
+|                     |Disponible para GOV.                                                                                                  |
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+|Ubicación en el      |Menú Configuración > General > Franquicias del sistema.                                                               |
+|portal               |                                                                                                                      |
++---------------------+----------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------+-----------------------------------------------------------------+
+|Feature               | Regla de facturación                                            |
++======================+=================================================================+
+|Objetivo              |Registrar cualquier tipo de cambio realizado en las reglas       |
+|                      |generales del sector financiero, así como la advertencia de la   |
+|                      |fecha y vigencia relacionadas con la creación de esta regla de   |
+|                      |facturación.                                                     |
++----------------------+-----------------------------------------------------------------+
+|Ubicación en el       |Menú Administración > Contratos > Contrato > Reglas financieras  |
+|portal                |> Reglas de facturación.                                         |
++----------------------+-----------------------------------------------------------------+
+
+
+====
+
+.. centered:: **uCloud OPS** 
+   
+
+====
+
+.. centered:: Nube Oracle
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Aviso sobre el límite de CPUs durante la creación de      |
+|                            | la máquina virtual                                        | 
++============================+===========================================================+
+|Objetivo                    | Implementación del aviso sobre los posibles errores al    | 
+|                            | seleccionar un flavor con más CPU que el contrato         |
+|                            | permite para evitar problemas durante el proceso de       |
+|                            | creación de la máquina virtual.                           | 
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | Al seleccionar un flavor con una cantidad de CPUs que     |
+|portal                      | supera el límite del contrato actual, un tooltip          |
+|                            | informativo es mostrado.                                  |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Máquinas Virtuales > Crear Máquina Virtual.          |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Conversión del envío y recepción de credenciales al       |
+|                            | nuevo servicio de lectura                                 |
++============================+===========================================================+
+|Objetivo                    | Actualización de las llamadas de recepción y envío de las |
+|                            | credenciales al microservicio Oracle, con el objetivo de  |
+|                            | garantizar el almacenamiento de las credenciales en       |  
+|                            | el pool.                                                  |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | El tratamiento de las peticiones en cola                  |
+|portal                      | (para cada solicitud) al servicio de mensajería           |
+|                            | ha sido remodelado.                                       |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: **Nube Azure**
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Ajuste en la eliminación de disco en máquina virtual      |
++============================+===========================================================+
+|Objetivo                    | Mejoramiento específico dirigido al usuario de la máquina |
+|                            | virtual, al eliminar discos ya creados en la misma.       |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | El botón de eliminación de disco está desbloqueado para   |
+|portal                      | los discos creados en la máquina virtual.                 |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Máquinas Virtuales > Máquina Virtual > Disco.        |
++----------------------------+-----------------------------------------------------------+
+
+
+====
+
+.. centered:: **Nube VMWare**
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Guardar el resource pool en el virtual datacenter         |
++============================+===========================================================+
+|Objetivo                    | Lograr la persistencia del resource pool en el virtual    |
+|                            | datacenter al seleccionarlo.                              |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | Persistencia del resource pool de la nube en uCloud.      |
+|portal                      |                                                           |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Virtual Datacenters > Virtual Datacenter             |
+|                            | > Balanceadores.                                          |
++----------------------------+-----------------------------------------------------------+
+
+
+====
+
+.. centered:: **Nube Hyper-V**
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Exhibir la versión del Hyper-V                            |
++============================+===========================================================+
+|Objetivo                    | La versión del container importado para el Hyper-V debe   |
+|                            | estar contenida en las credenciales y en la columna       |
+|                            | *version* de la tabla del container.                      |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | Persistencia de la versión del container importado.       |
+|portal                      | Cuando importa el container Hyper-V, se habilita una      |
+|                            | línea de versión en la pantalla del container.            |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Container > Container > Conectar container           |
+|                            | > Seleccionar el tipo Hyper-V > Versión                   |
++----------------------------+-----------------------------------------------------------+
+
+
+====
+
+.. centered:: Portal uCloud
+
+====
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Aumento de la validación en la creación de la máquina     |
+|                            | virtual                                                   |
++============================+===========================================================+
+|Objetivo                    | Añadir la validación en el botón ``Crear`` para eliminar  |
+|                            | la posibilidad de que el usuario pueda crear la máquina   |
+|                            | virtual antes de rellenar todos los campos obligatorios.  |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | El botón se habilita después de que el usuario haya       |
+|portal                      | rellenado todas las opciones durante la creación de la    |
+|                            | máquina virtual.                                          |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Máquinas Virtuales > Crear Máquina Virtual.          |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Permiso para compra de la máquina virtual creada en el    |
+|                            | Catálogo de Servicios                                     |
++============================+===========================================================+
+|Objetivo                    | Crear la necesidad del permiso en la operación de comprar |
+|                            | una máquina virtual.                                      |
++----------------------------+-----------------------------------------------------------+
+|Nuevo funcionamiento del    | Requiere permiso al usuario común para "Compra de Máquina | 
+|portal                      | Virtual por Catálogo de Servicios"                        |
++----------------------------+-----------------------------------------------------------+
+|Ubicación en el portal      | Menú Workflows > Catálogo de Servicios > Marketplace.     |
++----------------------------+-----------------------------------------------------------+
+
+
+
+
+.. note:: El acceso a estas nuevas funcionalidades queda restringido al contrato. Las funcionalidades no contratadas por el cliente no están disponibles en el ambiente hasta la formalización y/o negociación para adquirir los lanzamientos.
+
+
+Esta nota de prensa se publica semanalmente y divulga las innovaciones generadas por los productos Ustore.
