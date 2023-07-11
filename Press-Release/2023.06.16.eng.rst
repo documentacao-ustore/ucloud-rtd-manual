@@ -1,0 +1,106 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+----
+
+.. centered:: Português_      -     Español_     -     English    
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.16.html
+
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.16.spa.html
+
+====
+
+2023.06.16
+==========
+
+Press release
+-------------
+Year 2023 - Period: 12-16 June 
+
+====
+
+In this communication, Ustore announces weekly releases of new features on the **uCloud** platform: **Billing** and **OPS**. 
+
+====
+
+====
+
+.. centered:: uCloud Billing
+           
+====
+
+
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Budget Alerts                                                                                                                           |
++============================+========================================================================================================================================+
+|Objective                   |Send budget alerts via email, based on the customer's consumption percentage regarding the estimated budget.                            |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |The feature searches all the non-deleted budgets in all the companies for the current month, exclusive to the budget enabled with the   |
+|                            |alert.                                                                                                                                  | 
+|                            |An email is sent for the electronic address previously registered, for each total consumption level allocated for the budget, they are: |   
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|                            |* Normal: Corresponds to 0%-49% of total consumption;                                                                                   |
+|                            |* Warning: Indicates 50%-89% of total consumption;                                                                                      |
+|                            |* Danger: Represents 90%-99% of total consumption;                                                                                      |
+|                            |* Over: Is over 100% of total consumption.                                                                                              |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Location on the portal      |Administration Menu > Companies > card Budgets > Create Budget                                                                          |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: uCloud OPS
+
+====
+
+====
+
+.. centered:: **VMware Cloud**
+
+====
+
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Inventory’s resources tagging                                                                                                           |
++============================+========================================================================================================================================+
+|Objective                   |Map the resources creation for the VMware cloud                                                                                         |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |It is possible to tag all the VMware inventory’s resources, they are only taggable on the uCloud portal.                                |
+|                            |The portal displays a warning to the user, informing that the tagging is local, and by importing the container again, the tags are lost.|
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+|Location on the portal      |Resources Inventory Menu                                                                                                                |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+
+
+====
+
+.. centered:: **Hyper-V Cloud**
+
+====
+
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Inventory’s resources tagging                                                                                                     |
++============================+==========================================================================================================================================+
+|Objective                    |Map the resources creation for the Hyper-V cloud                                                                                            |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Portal’s new behavior|It is possible to tag all the Hyper-V inventory’s resources, they are only taggable on the uCloud portal.                                  |
+|                            |The portal displays a warning to the user, informing that the tagging is local, and by importing the container again, the tags are lost. |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+|Location on the portal      |Resources Inventory Menu                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+This set of features described in this document reaffirm the constant commitment with Ustore’s products evolution and the alignment to the needs of the market and clients.
+
+
+.. note:: The access to these new functionalities is restricted to the contract. Functionalities non-contracted by the client are not available on the environment until the formalization and/or deal to acquire the releases.
+
+
+This weekly press release is a fundamental communication tool for advertising news and innovations work of the products generated at Ustore.

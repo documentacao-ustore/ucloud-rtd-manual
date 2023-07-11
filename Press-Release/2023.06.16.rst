@@ -5,7 +5,7 @@
 
 ----
 
-.. centered:: Português      -     Español_    
+.. centered:: Português      -     Español_     -     English_    
 
 
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.16.spa.html
@@ -54,6 +54,7 @@ Nesta comunicação a Ustore anuncia os lançamentos semanais das novas caracter
 .. centered:: uCloud OPS
 
 ====
+
 
 ====
 
