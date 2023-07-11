@@ -6,16 +6,12 @@
    
 ----
 
-
-
 .. centered:: Português      -     Español_    
 
 
-.. _Español:
-
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.05.26.spa.html
 
 ====
-
 
 2023.05.26
 ==========
