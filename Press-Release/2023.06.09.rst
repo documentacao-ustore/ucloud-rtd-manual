@@ -136,7 +136,7 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Dentro da seção de RDS na tela de AWS é possível fazer a visualização de gráficos mostrando o   |
 |                            |consumo, coletado pelo cost explorer, das instâncias RDS do container selecionando no relatório.|
-|                            |Possibilita visualizar a relação das recomendações de melhoria do redimento mensal da conta.    |
+|                            |Possibilita visualizar a relação das recomendações de melhoria do rendimento mensal da conta.   |
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Localização no portal       |Seção RDS > tela AWS                                                                            |
 +----------------------------+------------------------------------------------------------------------------------------------+
@@ -190,12 +190,12 @@ Nesta comunicação a Ustore anuncia ao seu público interno e externo, os lanç
 +----------------------------+------------------------------------------------------------------------------------------------+
 |Feature                     |Heat Map                                                                                        |
 +============================+================================================================================================+
-|Objetivo                    |Apresentação mapa de calor dos container por região                                             |
+|Objetivo                    |Apresentação mapa de calor do container por região                                              |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|A tela Heatmap possibilita identificar no mapa mundi a concentração dos recursos de containers. |
+|Novo comportamento do portal|A tela Heat Map possibilita identificar no mapa mundi a concentração dos recursos de containers.|
 |                            |Exibe separadamente quanto cada família de recurso custa por região.                            |
 +----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |Tela Heatmap > Heat Map Containers                                                              |
+|Localização no portal       |Tela Heat Map > Heat Map Containers                                                             |
 +----------------------------+------------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_usavings/notas/005_heat_map.png
