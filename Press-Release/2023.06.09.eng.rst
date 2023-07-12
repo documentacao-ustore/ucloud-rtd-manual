@@ -1,0 +1,236 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+
+----
+
+
+2023.06.09
+==========
+
+Press release
+-------------
+
+Year 2023 - Period: 05 - 09 June
+
+====
+
+In this communication Ustore announces to your internal and external public this week’s releases, new features on the **uCloud (Billing e OPS)** and **uSavings** platforms. 
+
+====
+
+====
+
+.. centered:: **uCloud Billing**
+           
+====
+
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature               |Report to use the PMC integration with the Odin                                                                       |
++=====================-+======================================================================================================================+
+|Objective             |The new uCloud Billing utility PMC integration with the Odin, is responsible for consumption and sending view of the  |
+|                      |Embratel’s invoicing system (Odin).                                                                                   |
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Location on the portal|Billing Menu > Utilities> Billing utility panel> PMC integration with Odin                                            |
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: **uCloud OPS**
+
+====
+
+====
+
+.. centered:: Oracle Cloud
+
+====
+
++----------------------------+----------------------------------------------------------------+
+|Feature                     |Change on the Security Groups call evolving protocols           |
++============================+================================================================+
+|Objective                   |Options added to the protocol ENUM in the Oracle micro service. |
+|                            |Also some validations were created while mounting the object    |
+|                            |with these new protocol rules.                                  |
++----------------------------+----------------------------------------------------------------+
+|Portal’s new behavior       |On the creation of a security group there was a change in the   |
+|                            |call adaptation of protocols to these groups, for the updated   |
+|                            |call.                                                           |
++----------------------------+----------------------------------------------------------------+
+|Location on the portal      |Security Group Menu > Rules                                     |
++----------------------------+----------------------------------------------------------------+
+
++----------------------------+--------------------------------------------------------------------+
+|Feature                     |Attribute addition to create a Virtual Machine with success         | 
++============================+====================================================================+
+|Objective                   |Identifies a need to identify the need to pass new attribute so the | 
+|                            |operation of creations virtual machines on this cloud is successful.|
++----------------------------+--------------------------------------------------------------------+
+|Portal’s new behavior       |The new attribute transfers the configurations of the machine to be |
+|                            |created.                                                            | 
++----------------------------+--------------------------------------------------------------------+
+|Location on the portal      |Virtual Machine Menu > Create Virtual Machine                       |
++----------------------------+--------------------------------------------------------------------+
+
+====
+
+.. centered:: Azure Cloud
+
+====
+
++----------------------------+---------------------------------------------------------------------------------------+
+|Feature                     |Error treatment to snapshot exclusion with similar behavior ucloud/cloud               |
++============================+=======================================================================================+
+|Objective                   |Improve snapshot behavior for this cloud and right presentation to the user.           |
++----------------------------+---------------------------------------------------------------------------------------+
+|Portal’s new behavior       |When deleting the snapshot, failure case the error is displayed to the user on the     |
+|                            |tasks tab.                                                                             |
++----------------------------+---------------------------------------------------------------------------------------+
+|Location on the portal      |Tasks Menu > Tasks                                                                     |
++----------------------------+---------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: **uCloud Portal**
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Connection with repositories                               |
++============================+===========================================================+
+|Objective                   |Evolve the registry functionality of a API GitLab and a    |
+|                            |GitHub API tokens per user.                                |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       |Allows the possibility to register more than one token, in |
+|                            |both platforms and connects to a private or public         |
+|                            |environment without changing the credentials.              |
++----------------------------+-----------------------------------------------------------+
+|Location on the Portal      |Administration Menu > Users > My credentials of remote     |
+|                            |repositories                                               |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: **uSavings Platform**
+
+====
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - RDS                                                                                       |
++============================+================================================================================================+
+|Objective                   |View charts that show consumption.                                                              |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |In the RDS section on the AWS screen is possible to view the charts showing the                 |
+|                            |consumption, collected by the cost explorer, of the container 's RDS instances selected on the  |
+|                            |report. Enables viewing the monthly performance improvements list of the account.               |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the portal      |RDS Section > AWS screen                                                                        |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/001_aws_rds.png
+   :alt: AWS RDS 
+   :scale: 100 %
+   :align: center
+----
+
+
+.. figure:: /figuras/fig_usavings/notas/002_aws_rds.png
+   :alt: AWS RDS 
+   :scale: 100 %
+   :align: center
+----
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - EBS                                                                                       |
++============================+================================================================================================+
+|Objective                   |View recommendations list.                                                                      |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |In the AWS screen the EBS section displays some charts and a list of recommendations that       |
+|                            |the user can follow on the account, that helps on the savings of the AWS account.               | 
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the portal      |AWS screen > EBS report                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/003_aws_ebs.png
+   :alt: AWS EBS 
+   :scale: 100 %
+   :align: center
+----
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS - ELB                                                                                       |
++============================+================================================================================================+
+|Objective                   |View ELB report.                                                                                |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |In the last section of the AWS screen there is the ELB report. It displays some cost data and   |
+|                            |Load Balancers consumption of the account.                                                      | 
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the portal      |Screen AWS > ELB report                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/004_aws_elb.png
+   :alt: AWS ELB 
+   :scale: 100 %
+   :align: center
+----
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Heat Map                                                                                        |
++============================+================================================================================================+
+|Objective                   |Heat map presentation of the container per region.                                              |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |The Heat Map screen makes it possible to identify on the world map the container's resources    |
+|                            |concentration. Displays separately how much each resource family costs per region.              |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the Portal      |Heat Map Screen > Heat Map Containers                                                           |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/005_heat_map.png
+   :alt: Heat Map 
+   :scale: 100 %
+   :align: center
+----
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Compare Clouds - Reports                                                                        |
++============================+================================================================================================+
+|Objective                   |The reports generated must be saved.                                                            |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |It is possible to save the reports generated by the platform, and view a exclusive section for  |
+|                            |the reports, detailing, informative columns and viewing and deleting action.                    |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the portal      |Compare clouds > Reports                                                                        |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/006_compare_clouds_reports.png
+   :alt: Compare clouds reports 
+   :scale: 100 %
+   :align: center
+----
+
+
+.. figure:: /figuras/fig_usavings/notas/007_reports.png
+   :alt: Reports 
+   :scale: 100 %
+   :align: center
+----
+
+
+This set of features described in this document reaffirm the constant commitment with Ustore’s products evolution and the alignment to the needs of the market and clients.
+
+
+.. note:: The access to these new functionalities is restricted to the contract. Functionalities non-contracted by the client are not available on the environment until the formalization and/or deal to acquire the releases.
+
+
+This weekly press release is a fundamental communication tool for advertising news and innovations work of the products generated at Ustore.
