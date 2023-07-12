@@ -1,0 +1,150 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+
+
+----
+
+
+2023.06.02
+==========
+
+Press release: uCloud
+---------------------
+Year 2023 - Period: 29 May - 02 June
+
+====
+
+In this communication Ustore announces this week’s releases, new features on the uCloud platform, to its internal and external public.
+
+From this announcement, the portal meets the following items listed and divided into two groups: Billing e OPS. 
+
+====
+
+====
+
+.. centered:: uCloud Billing
+           
+====
+
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature                |Credit gestion report                                                                                                 |
++=======================+======================================================================================================================+
+|Objective              |The utility report provides to the system administrator to make the individual control of credits “to receive” from   |
+|                       |the client. Parallelly, the administrator views the sum of credits in the cloud and its totality received from the    |
+|                       |client.                                                                                                               |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Location on  the portal|Billing Menu > Utilities                                                                                              |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: uCloud OPS
+
+====
+
+====
+
+.. centered:: VMware Cloud
+
+====
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |Error message treatment when deleting virtual machine associated with a resource                |
++============================+================================================================================================+
+|Objective                   |Improve information about error, inserting on the “Tasks” menu message with the action to be    |
+|                            |executed.                                                                                       |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Portal’s new behavior       |When a virtual machine associated with a load balancer is deleted, on the “Tasks” menu is       |
+|                            |displayed the message guiding to previously remove the machine from the load balancer and then  |
+|                            |delete.                                                                                         |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Location on the portal      |Tasks Menu                                                                                      |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+====
+
+.. centered:: uCloud Portal 
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Listing of virtual datacenters conceded                    |
++============================+===========================================================+
+|Objective                   |Present the data with persistence and precision on the list|
+|                            |of Virtual Datacenters conceded.                           |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       |Viewing needs Virtual Datacenters conceded information     |
+|                            |when browsing in Company.                                  |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      |Administration Menu > Companies > Company > conceded VDCs  |
++----------------------------+-----------------------------------------------------------+
+
++----------------------------+------------------------------------------------------------+
+|Feature                     |Bundle list                                                 |
+|                            |                                                            |
++============================+============================================================+
+|Objective                   |Vie the bundle names of an account according to the         |
+|                            |language selected.                                          |
++----------------------------+------------------------------------------------------------+
+|Portal’s new behavior       |When defining a new language on the platform, the bundle    |
+|                            |list of an account is shown according to the opted language.|
++----------------------------+------------------------------------------------------------+
+|Location on the portal      |Configuration Menu > Accounts management                    |
++----------------------------+------------------------------------------------------------+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Viewing security resources on the portal’s screens         |
++============================+===========================================================+
+|Objective                   |Adequate the viewing format of the security modules        |
+|                            |according with the type of user profile.                   |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       |Altered the functionalities view on the security modules   |
+|                            |card according to the variation of the user profile type.  |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      |Configuration Menu > Account management                    |
++----------------------------+-----------------------------------------------------------+
+
++----------------------------+------------------------------------------------------------+
+|Feature                     |Refactoring portal’s emails                                 |
++============================+============================================================+
+|Objective                   |Normalize and standardize the communication, with the       |
+|                            |addition of new rules and layout, new viewing and reading   |
+|                            |template.                                                   |
++----------------------------+------------------------------------------------------------+
+|Portal’s new behavior       |The emails’ templates restructure persists the images and   |
+|                            |the styles, therefore the portal standardizes communication.|
++----------------------------+------------------------------------------------------------+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |Filtering virtual machines by tag                          |
++============================+===========================================================+
+|Objective                   |Develop virtual machine filtering method based on the tags |
+|                            |created.                                                   |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       |Present in the virtual machine list the filter by tag and  |
+|                            |filtering permission, specification attribute addition.    |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      |Virtual Machines Menu > Virtual Machines                   |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     |New error message by logging in the portal                 |
++============================+===========================================================+
+|Objective                   |Present specific message to the user that inserts invalid  |
+|                            |login or password.                                         |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       |Now it is possible to view the new informative message that|
+|                            |one of the two blanks can be wrong (login or password) The |
+|                            |portal allows a new attempt, in case the user remembers or |
+|                            |trigger the available password recovery method.            |
+|                            |The improvement increases the PMC security level.          |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      |Portal home screen                                         |
++----------------------------+-----------------------------------------------------------+
+
+.. note:: The access to these new functionalities is restricted to the contract. Functionalities non-contracted by the client are not available on the environment until the formalization and/or deal to acquire the releases.
+
+This press release is weekly, it advertises news and innovations work of the products generated at Ustore.
