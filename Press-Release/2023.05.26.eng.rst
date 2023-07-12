@@ -1,0 +1,181 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+   
+----
+
+
+2023.05.26
+==========
+
+Press release: uCloud
+---------------------
+Year 2023 - Period: 22 - 26 May
+
+====
+
+In this press release Ustore announces this week’s releases, new features on the uCloud platform, to its internal and external public. From this announcement, the portal meets the following items listed and divided into two groups: Billing e OPS.  
+
+====
+
+====
+
+.. centered:: uCloud Billing
+
+====
+
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature               |Franchise                                                                                                             |
++======================+======================================================================================================================+
+|Objective             | Reproduct a new form of customer’s invoicing calculation, based on franchise consumption. Available for GOV.         |
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+|Location on the portal| Configuration Menu > General > System franchises.                                                                    |
++----------------------+----------------------------------------------------------------------------------------------------------------------+
+
++----------------------+-----------------------------------------------------------------+
+|Feature               | Invoicing Rules                                                 |
++======================+=================================================================+
+|Objective             | Register any type of alteration made on the general rules       |  
+|                      | of the billing sector, alongside the date reservation and       |
+|                      | validity related to the creation of this invoicing rule.        |
++----------------------+-----------------------------------------------------------------+
+|Location on the portal| Administration Menu > Companies > Company > Billing rules >     |
+|                      | Invoicing rules.                                                |
++----------------------+-----------------------------------------------------------------+
+
+====
+
+.. centered:: **uCloud OPS** 
+
+====
+
+====
+
+.. centered:: Oracle Cloud 
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Warning about the CPUs limit during the virtual machine   |
+|                            |creation                                                   |
++============================+===========================================================+
+|Objective                   | Warning implementation about the possible errors when     | 
+|                            | selecting a flavor with more CPUs than the company it     |
+|                            | allows to avoid problems during the virtual machine       |      
+|                            | creation process.                                         |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | When selecting a flavor with a number of CPUs that        |
+|                            | exceeds the current company limit, an informative tooltip |
+|                            | is displayed.                                             |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Virtual Machines Menu> Create Virtual Machines.           |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Sending and receiving conversion of credentials to the new|
+|                            | reading service.                                          |
++============================+===========================================================+
+|Objective                   | Updating the calls of receiving and sending credentials   |
+|                            | emails to the Oracle microservice, with the finality to   | 
+|                            | guarantee the credentials storage on the pool.            |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | The requests treatment in queue (of each request) to the  |
+|                            | service of messenger is remodeled.                        |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: **Azure Cloud**
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Adjustment on the disk exclusion in the virtual machine   |
++============================+===========================================================+
+|Objective                   | Specific improvement directed to the virtual machine’s    |
+|                            | user, when deleting the disks already created in it.      |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | The disk exclusion button is unlocked for disks           |
+|                            | created on the virtual machine.                           |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Virtual Machines Menu > Virtual Machines > Disk.          |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: **VMware Cloud**
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Save the resource pool on the virtual datacenter          |
++============================+===========================================================+
+|Objective                   | Reach resource pool persistence on the virtual datacenter |
+|                            | when selecting it.                                        |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | Resource pool persistence on the uCloud cloud.            |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Virtual Datacenters Menu > Virtual Datacenter >           |
+|                            | Load Balancers                                            |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: **Hyper-V Cloud**
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Display the Hyper-V version                               |
++============================+===========================================================+
+|Objective                   | The imported container version for the Hyper-V must be    |
+|                            | contained in the credentials and on the *version* column  |
+|                            | existing in the container table.                          |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | Persistence of the imported container version. When       |
+|                            | importing the Hyper-V container a version line is enabled |
+|                            | on the container screen.                                  |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Container Menu > Container > Connect container >          |
+|                            | Select type of Hyper-V > Version                          |
++----------------------------+-----------------------------------------------------------+
+
+====
+
+.. centered:: uCloud Portal
+
+====
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Validation addition on the virtual machine creation       |
++============================+===========================================================+
+|Objective                   | Add validation on the ``Create`` button to eliminate the  |
+|                            | possibility of the user creating the virtual machine      |
+|                            | before filling out all the mandatory blanks.              |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | The button is enabled only after the user fills out all   |
+|                            | the options on the virtual machine creation.              |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Virtual Machines Menu > Virtual Machines                  |
++----------------------------+-----------------------------------------------------------+
+
+
++----------------------------+-----------------------------------------------------------+
+|Feature                     | Permission to purchase the virtual machine created on the |
+|                            | Services Catalog                                          |
++============================+===========================================================+
+|Objective                   | Create the need for permission in the operation to buy a  |
+|                            | virtual machine.                                          |
++----------------------------+-----------------------------------------------------------+
+|Portal’s new behavior       | Requires permission from the common user to “Purchase     | 
+|                            | Virtual Machine through Services Catalog”.                |
++----------------------------+-----------------------------------------------------------+
+|Location on the portal      | Workflows Menu > Services Catalog > Marketplace.          |
++----------------------------+-----------------------------------------------------------+
+
+
+.. note:: The access to these new functionalities is restricted to the contract. Functionalities non-contracted by the client are not available on the environment until the formalization and/or deal to acquire the releases.
+
+This press release is weekly, it advertises news and innovations work of the products generated at Ustore.
