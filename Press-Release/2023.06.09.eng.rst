@@ -6,6 +6,14 @@
 
 ----
 
+.. centered:: Português_      -     Español_     -     English    
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.09.html
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.09.spa.html
+
+====
 
 2023.06.09
 ==========
@@ -29,7 +37,7 @@ In this communication Ustore announces to your internal and external public this
 
 +----------------------+----------------------------------------------------------------------------------------------------------------------+
 |Feature               |Report to use the PMC integration with the Odin                                                                       |
-+=====================-+======================================================================================================================+
++======================+======================================================================================================================+
 |Objective             |The new uCloud Billing utility PMC integration with the Odin, is responsible for consumption and sending view of the  |
 |                      |Embratel’s invoicing system (Odin).                                                                                   |
 +----------------------+----------------------------------------------------------------------------------------------------------------------+
