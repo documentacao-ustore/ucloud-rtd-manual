@@ -5,6 +5,14 @@
 
 
 ----
+.. centered:: Português_      -     Español_     -     English    
+
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.html
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.spa.html
+
+====
 
 
 2023.06.02

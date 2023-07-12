@@ -6,22 +6,22 @@
 
 ----
 
-
-.. centered:: Português_      -     Español    
+.. centered:: Português_      -     Español     -     English_    
 
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.html
+
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.eng.html
 
 ====
 
 2023.06.02
 ==========
 
-
 Nota de prensa: uCloud
 ----------------------
 Año 2023 - Periodo: del 29 de Mayo al 2 de Junio
-
 
 ====
 

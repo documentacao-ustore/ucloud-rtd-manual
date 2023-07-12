@@ -7,11 +7,12 @@
 ----
 
 
-.. centered:: Português      -     Español_    
+.. centered:: Português      -     Español_     -     English_    
 
 
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.spa.html
 
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.02.eng.html 
 
 ====
 

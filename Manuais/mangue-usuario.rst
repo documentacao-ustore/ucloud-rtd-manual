@@ -3425,7 +3425,7 @@ Abaixo a descrição das informações presentes nesta lista.
    
    * **Bilhetagem**: Exibe se a bilhetagem está ativada;
    
-     * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta duas opções:
+     * **Ações**: Esta coluna apresenta o botão Ação |icone_acao| ao ser clicado, apresenta a imagem que segue:
   
 
 .. image:: /figuras/fig_mangue/154_mangue_acoes_bilhetagem.png
