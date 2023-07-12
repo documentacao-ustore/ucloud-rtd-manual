@@ -10,6 +10,7 @@
 
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.16.spa.html
 
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Press-Release/2023.06.16.eng.html
 
 ====
 
