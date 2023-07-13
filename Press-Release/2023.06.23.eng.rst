@@ -27,7 +27,7 @@ Year 2023 - Period: 19 - 23 June
 
 ====
 
-In this communication Ustore presents the adequates tables to the interaction with the providers of the AWS, Azure, GCP, IBM and Oracle clouds created to show the synthetic form of integrated and supported resources by the uCloud portal. It can consult information for the solutions offered in the hybrid or multi-cloud environments managed by the uCloud.
+In this communication Ustore presents the appropriate tables to the interaction with the providers of the AWS, Azure, GCP, IBM and Oracle clouds created to show the synthetic form of integrated and supported resources by the uCloud portal. It can consult information for the solutions offered in the hybrid or multi-cloud environments managed by the uCloud.
 
 ====
 
