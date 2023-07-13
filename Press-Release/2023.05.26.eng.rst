@@ -64,7 +64,7 @@ In this press release Ustore announces this week’s releases, new features on t
 ====
 
 +----------------------------+-----------------------------------------------------------+
-|Feature                     | Warning about the CPUs limit during the virtual machine   |
+|Feature                     |Warning about the CPUs limit during the virtual machine    |
 |                            |creation                                                   |
 +============================+===========================================================+
 |Objective                   | Warning implementation about the possible errors when     | 
