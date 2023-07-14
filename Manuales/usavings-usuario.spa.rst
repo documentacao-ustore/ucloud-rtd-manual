@@ -5,6 +5,14 @@
     :align: center
 ======
 
+.. centered:: Português_     -     Español     -     English_
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usavings-usuario.html
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/usavings-usuario.eng.html
+
+====
+
 uSavings - Manual de Utilización
 ++++++++++++++++++++++++++++++++
 
