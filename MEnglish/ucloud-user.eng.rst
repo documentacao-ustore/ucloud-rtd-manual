@@ -6,6 +6,14 @@
 
 ----
 
+.. centered:: Português_     -     Español_     -     English
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/ucloud-usuario.spa.html 
+
+====
+
 uCloud - User Manual
 ++++++++++++++++++++
 

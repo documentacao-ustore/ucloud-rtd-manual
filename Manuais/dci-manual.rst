@@ -4,7 +4,13 @@
     :align: center
 ======
 
+.. centered:: Português     -     Español_     -     English_
 
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/dci.spa.html
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/dci.eng.html
+
+====
 
 DCI - Manual de Funcionalidades  
 ===============================
