@@ -1,11 +1,20 @@
-Mangue.io - Manual de uso
-+++++++++++++++++++++++++
 
 .. image:: /figuras/mangue-logo-peq.png
     :alt: Logo Mangue
     :scale: 50 %
     :align: center
 =====
+
+.. centered:: Português_     -     Español     -     English_
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/mangue-usuario.html 
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/mangue-usuario.eng.html
+
+====
+
+Mangue.io - Manual de uso
++++++++++++++++++++++++++
 
 Solucciones de tecnología de la información que permitem implementar una arquitectura computacional escalable, sólida y confiable en la nube distribuida. 
 
