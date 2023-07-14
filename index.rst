@@ -19,8 +19,8 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
    Manuais/dci-manual
    Manuais/usr-manual
    Manuais/usavings-usuario
+   Manuais/mangue-usuario
    
-..   Manuais/mangue-usuario
 ..   Manuais/udrive-usuario
 ..   Manuais/ulog-usuario
 ..   Manuais/umonitor-usuario
