@@ -8,14 +8,14 @@
 Bem-vindo ao ambiente de documentação da Ustore Brasil
 ======================================================
 
-Este repositório disponibiliza os manuais de uso (Manual do Usuário), a documentação das Notas de Lançamento e o Release Notes dos produtos da Ustore.
+Este Este repositório disponibiliza as informações dos nossos produtos, categorizados em: **Manual** para consulta sobre o uso dos softwares; **Press-release** comunica as novas características dos produtos; **Release-notes** consolida as diversas atualizações e **Serviços**.
 
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: Manual Português:
+   :caption: Manual:
 
-   Manuais/chamados
+   
    Manuais/dci-manual
    Manuais/usr-manual
    Manuais/usavings-usuario
@@ -25,34 +25,6 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
 ..   Manuais/ulog-usuario
 ..   Manuais/umonitor-usuario
 ..   Manuais/umove-usuario
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Manual English:
-   
-   MEnglish/dci.eng
-   MEnglish/tickets.eng
-   MEnglish/usavings-usuario.eng
-
-.. toctree::
-   :maxdepth: 5
-   :hidden:
-   :caption: Manual Español:
-
-   
-   Manuales/dci.spa
-   Manuales/llamadas.spa
-   Manuales/ucloud-usuario.spa
-   Manuales/usavings-usuario.spa
-
-
-.. toctree::
-   :maxdepth: 5
-   :hidden:
-   :caption: Release-Notes:
-
-   Release-Notes/release-notes-index
 
 
 .. toctree::
@@ -66,6 +38,25 @@ Este repositório disponibiliza os manuais de uso (Manual do Usuário), a docume
    Press-Release/2023.06.09
    Press-Release/2023.06.02
    Press-Release/2023.05.26
+
+
+.. toctree::
+   :maxdepth: 5
+   :hidden:
+   :caption: Release-Notes:
+
+   Release-Notes/release-notes-index
+
+
+.. toctree::
+   :macdepth: 5
+   :hidden:
+   :caption: Serviços:
+
+   Manuais/chamados
+
+
+
    
 
 
