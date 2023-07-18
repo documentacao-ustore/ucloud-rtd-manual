@@ -4043,6 +4043,8 @@ A seguir são descritos todos os espaços necessários para preenchimentos:
 
 .. attention:: O caractere especial ponto (.) não é permitido.
 
+----
+
    * **Confirmar senha**: Neste espaço deve ser repetido a chave de segurança da senha anterior. 
 
    * **E-mail**: Deve ser preenchido com o e-mail do usuário. 
@@ -4704,6 +4706,8 @@ Os seguintes campos devem ser preenchidos:
 
 .. note:: Como mencionado anteriormente, é possível adicionar uma ou mais tags, como também é possível a criação delas.
 
+----
+
    * Pré-visualizar imagem; 
 
    * Área para composição do texto. 
@@ -4918,7 +4922,7 @@ Ao lado do último campo, há uma *flag* com a opção de ignorar erros de certi
 
 Depois de preenchidas esses espaços, a plataforma permite salvar o Perfil de Envio cadastrado, habilitando o botão localizado na parte inferior direita da tela que fica na cor verde, como evidenciado na tela abaixo:  
 
-.. image:: /figuras/fig_seguranças/068_botao_perfil.png
+.. image:: /figuras/fig_segurança/068_botao_perfil.png
    :alt:  botão salvar perfil
    :align: center
 ----
@@ -5011,11 +5015,15 @@ Os espaços apresentados são descritos abaixo:
 
 .. note:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de ethical phishing. 
 
+----
+
    * *URL* - ``Importar landing page a partir de uma URL``;
 
    * *Tags*; 
 
 .. attention:: Como mencionado anteriormente, é possível adicionar uma ou mais tags, assim como criá-las. 
+
+----
 
    * Pré-visualizar a *landing page*; 
 
@@ -5208,7 +5216,7 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
 
 Ao clicar em **Meu dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.    
 
-.. image:: /figuras/fig_segurança/006_u_meu_dashboard.png
+.. image:: /figuras/fig_segurança/005_meu_dashboard.png
    :alt: dashboard usuário
    :align: center
 ----
