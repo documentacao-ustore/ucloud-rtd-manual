@@ -3356,7 +3356,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o *Dashboard* é apre
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
-   :scale: 60 % 
+   :scale: 100 % 
    :align: center
 
 ----
@@ -3385,7 +3385,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard*
 
 .. image:: /figuras/fig_segurança/003.1_dashboards.png
    :alt: Dashboard 
-   :scale: 80 %
+   :scale: 100 %
    :align: center
 ----
 
