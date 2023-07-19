@@ -11,8 +11,13 @@
 
 ====
 
+Español.versión
+===============
+
+====
+
 DCI - Manual de Funcionalidades  
-===============================
+-------------------------------
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.
