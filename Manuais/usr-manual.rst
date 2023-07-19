@@ -12552,8 +12552,17 @@ Abaixo segue a descrição dos campos desta seção:
 .. De Acordo
 .. ---------
 
+Menu Provedor de contas
+=======================
+
+Este menu está em fase de editoração. Em substituição ao menu abaixo.
+
+
 Menu Containers
 ===============
+
+.. attention:: Este menu está em re-elaboração para atualização, após as melhorias ocorridas neste mês.
+
 
 O termo Containers na plataforma uCloud é utilizado para representar um Hypervisor, seja este público e/ou privado. Um container é uma abstração lógica para agrupar todos os recursos (máquinas virtuais, servidores, discos, storages) de um determinado tipo de hypervisor. Por exemplo, um container privado representa a conexão com uma instância do VMware vCenter, com um Pool do XenSever ou com o Keystone do Openstack.
 
