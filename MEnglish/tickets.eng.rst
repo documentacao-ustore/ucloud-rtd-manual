@@ -21,7 +21,7 @@ English.version
 ====
 
 Tickets - Opening Manual (5x8)
-==============================
+------------------------------
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 
@@ -39,7 +39,7 @@ In this system some ITIL and COBIT metrics are used, in addition to the **Servic
 ----
 
 How to access the tickets opening in the system
------------------------------------------------------
+-----------------------------------------------
 
 In order to authenticate themselves in the system it is necessary to use a web browser according to the user option, to this moment no incompatibility with browsers tested (Firefox, Google Chrome and Microsoft Edge) was found.
 
