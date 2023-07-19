@@ -12,8 +12,13 @@
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html 
 
 
+====
 
 
+English.version
+===============
+
+====
 
 Tickets - Opening Manual (5x8)
 ==============================

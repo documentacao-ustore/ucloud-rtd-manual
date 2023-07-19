@@ -22,9 +22,9 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 
    
    Manuais/dci-manual
+   Manuais/mangue-usuario
    Manuais/usr-manual
    Manuais/usavings-usuario
-   Manuais/mangue-usuario
    
 ..   Manuais/udrive-usuario
 ..   Manuais/ulog-usuario
