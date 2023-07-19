@@ -10,21 +10,32 @@ Bem-vindo ao ambiente de documentação da Ustore Brasil
 
 Este repositório disponibiliza as informações dos nossos produtos, categorizados em: 
 
-   *  **Manual** para consulta sobre o uso dos softwares; 
+   *  **Produtos** apresenta os manuais para consulta sobre o uso dos softwares; 
    *  **Press-release** comunica as novas características dos produtos; 
-   *  **Release-notes** consolida as diversas atualizações e 
-   *  **Serviços**.
+   *  **Release-note** consolida as diversas atualizações; 
+   *  **Serviços** disponíveis.
 
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: Manual:
+   :caption: Produtos:
 
    
    Manuais/dci-manual
+   Manuales/dci.spa
+   MEnglish/dci.eng
+   
    Manuais/mangue-usuario
+   Manuales/mangue-usuario.spa
+   MEnglish/mangue-usuario.eng
+   
    Manuais/usr-manual
+   Manuales/ucloud-usuario.spa
+   MEnglish/ucloud-user.eng
+   
    Manuais/usavings-usuario
+   Manuales/usavings-usuario.spa
+   MEnglish/usavings-usuario.eng
    
 ..   Manuais/udrive-usuario
 ..   Manuais/ulog-usuario
@@ -48,7 +59,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 .. toctree::
    :maxdepth: 5
    :hidden:
-   :caption: Release-Notes:
+   :caption: Release-Note:
 
    Release-Notes/release-notes-index
 

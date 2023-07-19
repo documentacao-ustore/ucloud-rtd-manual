@@ -13,8 +13,13 @@
 
 ====
 
+Español.versión
++++++++++++++++
+
+====
+
 Mangue.io - Manual de uso
-+++++++++++++++++++++++++
+=========================
 
 Solucciones de tecnología de la información que permitem implementar una arquitectura computacional escalable, sólida y confiable en la nube distribuida. 
 

@@ -14,8 +14,13 @@
 
 ====
 
+Español.versión
++++++++++++++++
+
+====
+
 uCloud - Manual del Usuário
-+++++++++++++++++++++++++++
+===========================
 
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.

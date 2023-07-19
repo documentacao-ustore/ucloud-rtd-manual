@@ -12,7 +12,7 @@
 
 ====
 
-Mangue.io - Manual do usuário
+Mangue.io - Manual do Usuário
 +++++++++++++++++++++++++++++
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.

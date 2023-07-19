@@ -23,7 +23,7 @@ Español.versión
 
 
 Llamadas - Manual de apertura (5x8)
-===================================
+-----------------------------------
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.
