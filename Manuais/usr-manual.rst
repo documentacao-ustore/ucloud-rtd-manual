@@ -3356,7 +3356,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o *Dashboard* é apre
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
    :alt: menu phishing
-   :scale: 90 % 
+   :scale: 100 % 
    :align: center
 
 ----
@@ -3812,7 +3812,7 @@ Contratos é o quarto *card* do menu de Segurança *Ethical Phishing* e sua visu
 
 .. image:: /figuras/fig_segurança/032.0_menu_contratos.png
    :alt: menu contratos
-   :scale: 90% 
+   :scale: 100% 
    :align: center
 ----
 
@@ -4522,7 +4522,7 @@ Os contatos são representados pelo sétimo *card* do menu *Ethical Phishing*.
 
 .. image:: /figuras/fig_segurança/045_menu_contatos.png
    :alt: menu contatos
-   :scale: 90% 
+   :scale: 100% 
    :align: center
 ----
 
@@ -4979,18 +4979,6 @@ O último *card* do menu de Segurança *Ethical Phishing* é o *Landing Pages*.
 .. image:: /figuras/fig_segurança/060_menu_landing_page.png
    :alt: landing page
    :scale: 100% 
-   :align: center
-----
-
-.. image:: /figuras/fig_segurança/060_menu_landing_page.png
-   :alt: landing page
-   :scale: 90% 
-   :align: center
-----
-
-.. image:: /figuras/fig_segurança/060_menu_landing_page.png
-   :alt: landing page
-   :scale: 80% 
    :align: center
 ----
 
