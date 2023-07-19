@@ -13,6 +13,13 @@
 
 .. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
 
+====
+
+Español.versión
+===============
+
+====
+
 
 
 Llamadas - Manual de apertura (5x8)
