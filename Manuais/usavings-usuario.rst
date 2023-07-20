@@ -13,7 +13,7 @@
 
 ====
 
-uSavings - Manual do Usuário
+USAVINGS - Manual do usuário
 ++++++++++++++++++++++++++++
 
 
