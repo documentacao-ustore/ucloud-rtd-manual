@@ -14,8 +14,11 @@
 .. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
 
 
-Chamados - Manual de Abertura (5x8)
-====================================
+Manual de abertura
+==================
+
+Chamados (5x8)
+===============
 
 
 

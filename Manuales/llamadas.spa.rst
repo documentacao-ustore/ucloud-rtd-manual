@@ -15,15 +15,12 @@
 
 ====
 
-Español.versión
-===============
 
-====
+Manual de apertura
+==================
 
-
-
-Llamadas - Manual de apertura (5x8)
------------------------------------
+Llamadas (5x8)
+==============
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.
