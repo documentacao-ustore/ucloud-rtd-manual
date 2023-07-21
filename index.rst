@@ -13,26 +13,50 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    *  **Produtos** apresenta os manuais para consulta sobre o uso dos softwares; 
    *  **Press-release** comunica as novas características dos produtos; 
    *  **Release-note** consolida as diversas atualizações; 
-   *  **Serviços** disponíveis.
+   *  **Suporte** disponível.
+
+
+.. centered:: Español     -     English
+
+
 
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: Produtos:
+   :caption: DCI:
 
    
    Manuais/dci-manual
    Manuales/dci.spa
    MEnglish/dci.eng
+
+
+.. toctree::
+   :maxdepth: 10
+   :hidden:
+   :caption: Mangue.io:
+
    
    Manuais/mangue-usuario
    Manuales/mangue-usuario.spa
    MEnglish/mangue-usuario.eng
+
+.. toctree::
+   :maxdepth: 10
+   :hidden:
+   :caption: uCLoud:
+
    
    Manuais/usr-manual
    Manuales/ucloud-usuario.spa
    MEnglish/ucloud-user.eng
-   
+
+
+.. toctree::
+   :maxdepth: 10
+   :hidden:
+   :caption: uSavings:
+
    Manuais/usavings-usuario
    Manuales/usavings-usuario.spa
    MEnglish/usavings-usuario.eng
