@@ -67,7 +67,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 .. toctree::
    :maxdepth: 5
    :hidden:
-   :caption: Chamados-Llamadas-Tickets:
+   :caption: Suporte:
 
 
    Manuais/chamados

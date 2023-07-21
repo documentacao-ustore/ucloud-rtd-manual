@@ -14,17 +14,12 @@
 .. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
 
 
-Manual de apertura
-==================
-
-Llamadas (5x8)
---------------
-
+Llamadas - Manual de apertura
+=============================
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.
 
 ----
-
 
 Presentación
 ------------
