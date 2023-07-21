@@ -69,6 +69,11 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    :hidden:
    :caption: Serviços:
 
+.. toctree::
+   :maxdepth: 5
+   :hidden:
+   :caption: Chamados
+
    Manuais/chamados
    Manuales/llamadas.spa
    MEnglish/tickets.eng
