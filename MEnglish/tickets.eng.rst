@@ -14,13 +14,11 @@
 
 ====
 
-English.version
-===============
+Opening manual
+==============
 
-====
-
-Tickets - Opening Manual (5x8)
-------------------------------
+Tickets (5x8)
+=============
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 

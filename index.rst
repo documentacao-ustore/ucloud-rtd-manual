@@ -67,12 +67,8 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 .. toctree::
    :maxdepth: 5
    :hidden:
-   :caption: Serviços:
+   :caption: Chamados-Llamadas-Tickets:
 
-.. toctree::
-   :maxdepth: 5
-   :hidden:
-   :caption: Chamados
 
    Manuais/chamados
    Manuales/llamadas.spa
