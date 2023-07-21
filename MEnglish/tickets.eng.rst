@@ -12,13 +12,12 @@
 .. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuales/llamadas.spa.html 
 
 
-====
 
 Opening manual
 ==============
 
 Tickets (5x8)
-=============
+-------------
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 
