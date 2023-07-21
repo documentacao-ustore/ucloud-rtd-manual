@@ -14,20 +14,12 @@
 .. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/tickets.eng.html
 
 
-Manual de abertura
-==================
-
-Chamados (5x8)
---------------
-
-
+Chamados - Manual de abertura
+=============================
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 
-
-
 ----
-
 
 Apresentação
 ------------
