@@ -5,7 +5,7 @@
     :align: center
 ======
 
-.. centered:: Português_     -     English_
+.. centered:: Português_     -     Español     -     English_
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usavings-usuario.html
 
@@ -13,17 +13,10 @@
 
 ====
 
-Español.versión
-+++++++++++++++
-
-====
-
-uSavings - Manual de Utilización
-================================
-
+Manual de utilización
+=====================
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
-
 
 ------
 

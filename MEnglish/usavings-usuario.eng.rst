@@ -5,7 +5,7 @@
     :align: center
 ======
 
-.. centered:: Português_     -     Español_
+.. centered:: Português_     -     Español_     -     English
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usavings-usuario.html
 
@@ -13,19 +13,12 @@
 
 ====
 
-English.version
-+++++++++++++++
-
-====
-
-uSavings - User Manual       
-======================
-
+User manual       
+===========
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 
 ----
-
 
 
 Introduction
