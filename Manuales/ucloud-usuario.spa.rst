@@ -6,7 +6,7 @@
 
 ----
 
-.. centered:: Português_     -     English_
+.. centered:: Português_     -     Español     -     English_
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html
 
@@ -14,13 +14,8 @@
 
 ====
 
-Español.versión
-+++++++++++++++
-
-====
-
-uCloud - Manual del Usuário
-===========================
+Manual del usuario
+==================
 
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.

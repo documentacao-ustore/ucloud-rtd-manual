@@ -6,7 +6,7 @@
     :align: center
 =====
 
-.. centered:: Português_     -     Español_
+.. centered:: Português_     -     Español_     -     English
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/mangue-usuario.html 
 
@@ -15,17 +15,10 @@
 
 ====
 
-English.version
-+++++++++++++++
-
-====
-
-Mangue.io - User manual
-=======================
-
+User manual
++++++++++++
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a distributed cloud. 
-
 
 ====
 

@@ -3,21 +3,18 @@
     :align: center
 ======
 
-.. centered:: Português_     -     English_
+.. centered:: Português_     -     Español     -     English_
+
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/dci-manual.html
+
 
 .. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/MEnglish/dci.eng.html
 
 ====
 
-Español.versión
-===============
-
-====
-
-DCI - Manual de Funcionalidades  
--------------------------------
+DCI - Manual de Funcionalidad  
+=============================
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.

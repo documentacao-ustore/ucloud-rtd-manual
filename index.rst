@@ -10,13 +10,13 @@ Bem-vindo ao ambiente de documentação da Ustore Brasil
 
 Este repositório disponibiliza as informações dos nossos produtos, categorizados em: 
 
-   *  **Produtos** apresenta os manuais para consulta sobre o uso dos softwares; 
+   *  **Manuais** para consulta sobre a utilização dos softwares; 
    *  **Press-release** comunica as novas características dos produtos; 
    *  **Release-note** consolida as diversas atualizações; 
    *  **Suporte** disponível.
 
 
-.. centered:: Español     -     English
+.. .. centered:: Español     -     English
 
 
 

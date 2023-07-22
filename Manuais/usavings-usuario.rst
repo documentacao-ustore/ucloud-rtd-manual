@@ -13,10 +13,8 @@
 
 ====
 
-USAVINGS - Manual do usuário
-++++++++++++++++++++++++++++
-
-
+Manual do usuário
++++++++++++++++++
 
 Soluções em tecnologia da informação que viabilizam implementar uma arquitetura computacional escalável, sólida e confiável em nuvem híbrida.
 

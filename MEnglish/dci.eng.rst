@@ -3,7 +3,7 @@
     :align: center
 ======
 
-.. centered:: Português_     -     Español_
+.. centered:: Português_     -     Español_     -     English
 
 .. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/dci-manual.html
 
@@ -12,13 +12,8 @@
 
 ====
 
-English.version
-===============
-
-====
-
 DCI - Functionalities Manual
-----------------------------
+============================
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 

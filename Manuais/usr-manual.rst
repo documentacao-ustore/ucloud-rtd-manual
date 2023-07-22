@@ -14,8 +14,8 @@
 
 ====
 
-UCLOUD - Manual do usuário
-++++++++++++++++++++++++++
+Manual do usuário
++++++++++++++++++
 
 ====
 
