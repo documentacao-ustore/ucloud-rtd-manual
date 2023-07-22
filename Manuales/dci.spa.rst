@@ -13,8 +13,8 @@
 
 ====
 
-DCI - Manual de Funcionalidad  
-=============================
+Manual de funcionalidad  
+=======================
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.

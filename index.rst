@@ -16,26 +16,19 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    *  **Suporte** disponível.
 
 
-.. .. centered:: Español     -     English
-
-
-
 .. toctree::
    :maxdepth: 10
    :hidden:
    :caption: DCI:
-
    
    Manuais/dci-manual
    Manuales/dci.spa
    MEnglish/dci.eng
 
-
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: Mangue.io:
-
+   :caption: mangue.io:
    
    Manuais/mangue-usuario
    Manuales/mangue-usuario.spa
@@ -44,18 +37,16 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: uCLoud:
+   :caption: ucloud:
 
-   
    Manuais/usr-manual
    Manuales/ucloud-usuario.spa
    MEnglish/ucloud-user.eng
 
-
 .. toctree::
    :maxdepth: 10
    :hidden:
-   :caption: uSavings:
+   :caption: usavings:
 
    Manuais/usavings-usuario
    Manuales/usavings-usuario.spa
@@ -65,7 +56,6 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 ..   Manuais/ulog-usuario
 ..   Manuais/umonitor-usuario
 ..   Manuais/umove-usuario
-
 
 .. toctree::
    :maxdepth: 5
@@ -79,7 +69,6 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Press-Release/2023.06.02
    Press-Release/2023.05.26
 
-
 .. toctree::
    :maxdepth: 5
    :hidden:
@@ -87,24 +76,11 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 
    Release-Notes/release-notes-index
 
-
 .. toctree::
    :maxdepth: 5
    :hidden:
    :caption: Suporte:
 
-
    Manuais/chamados
    Manuales/llamadas.spa
    MEnglish/tickets.eng
-
-
-
-   
-
-
-
-
-
-
-
