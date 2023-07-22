@@ -1,4 +1,3 @@
-
 .. image:: /figuras/index/_ustore_pequena.png
    :alt: Logo Ustore Brasil
    :align: center
@@ -25,6 +24,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Manuales/dci.spa
    MEnglish/dci.eng
 
+
 .. toctree::
    :maxdepth: 10
    :hidden:
@@ -33,6 +33,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Manuais/mangue-usuario
    Manuales/mangue-usuario.spa
    MEnglish/mangue-usuario.eng
+
 
 .. toctree::
    :maxdepth: 10
@@ -43,6 +44,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Manuales/ucloud-usuario.spa
    MEnglish/ucloud-user.eng
 
+
 .. toctree::
    :maxdepth: 10
    :hidden:
@@ -51,11 +53,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Manuais/usavings-usuario
    Manuales/usavings-usuario.spa
    MEnglish/usavings-usuario.eng
-   
-..   Manuais/udrive-usuario
-..   Manuais/ulog-usuario
-..   Manuais/umonitor-usuario
-..   Manuais/umove-usuario
+
 
 .. toctree::
    :maxdepth: 5
@@ -69,12 +67,14 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Press-Release/2023.06.02
    Press-Release/2023.05.26
 
+
 .. toctree::
    :maxdepth: 5
    :hidden:
    :caption: Release-Note:
 
    Release-Notes/release-notes-index
+
 
 .. toctree::
    :maxdepth: 5
@@ -84,3 +84,9 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    Manuais/chamados
    Manuales/llamadas.spa
    MEnglish/tickets.eng
+
+   
+..   Manuais/udrive-usuario
+..   Manuais/ulog-usuario
+..   Manuais/umonitor-usuario
+..   Manuais/umove-usuario
