@@ -15,7 +15,7 @@
 ====
 
 User manual
-===========
++++++++++++
 
 Information technology solutions that make it possible to implement a scalable, solid and reliable computing architecture in a hybrid cloud.
 

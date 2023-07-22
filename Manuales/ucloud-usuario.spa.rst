@@ -15,7 +15,7 @@
 ====
 
 Manual del usuario
-==================
+++++++++++++++++++
 
 
 Soluciones de tecnologías de la información que permiten implementar una arquitectura de cómputo escalable, sólida y confiable en una nube distribuida.
