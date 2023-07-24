@@ -1,14 +1,29 @@
-uCloud - Notas de Publicación Junio|Julio|Agosto - 2022
-=======================================================
-
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
-   :scale: 50 %
+   :scale: 60 %
    :align: center
    
 ----
 
-Plataforma uCloud versión: *Update tags 5.3-b56 y 1.0-account88*
+.. centered:: Português_     -     Español     -     English_
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/nota-de-lançamento-ucloud-2022-jun.jul.ago.html 
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/press-release-ucloud-2022-jun.jul.aug.html 
+
+====
+
+2022.06-08
+++++++++++
+
+Notas de publicación: uCloud
+============================
+
+Período: Junio | Julio | Agosto 
+
+Versión: `Update tags 5.3-b56 y 1.0-account88`
+
+====
 
 Presentación
 ============
@@ -18,6 +33,9 @@ Ustore renueva la plataforma uCloud en línea con la continua evolución de las 
 Este lanzamiento evoca el principio de la norma ISO 9001, desarrollada por la *Organización Internacional de Normalización* (en Brasil conocida como ABNT NBR ISO 9001). El objetivo es establecer normas consistentes que aumenten la calidad de los procesos aplicados y resulten en una mejora continua y ajustes en la funcionalidad, en busca de gestión de calidad y excelencia empresarial.
 
 Las mejoras que se presentan a continuación se refieren al principio de gestión de la calidad citado en la norma ISO 9001, realizadas durante los meses de junio, julio y agosto del año en curso.
+
+
+====
 
 Noticias
 ========
@@ -30,6 +48,8 @@ Esta nota de publicación divulga las treinta y tres mejoras globales realizadas
 * Mejora de la plataforma uCloud en *Account*, *uCloudOPS* y *Billing*;
 
 * Nuevas implementaciones.
+
+====
 
 Nubes Públicas y Privadas
 =========================
@@ -91,6 +111,8 @@ VMware 6.5 ou superior (vCenter/vSphere)
 En cuanto a la interacción con el hipervisor VMware 6.5 o superior, se relaciona la siguiente mejora:
 
 * La política de programación de Scaling Group permite al usuario crear la política que define el momento de crear nuevas máquinas.
+
+====
 
 Perfeccionamiento de la plataforma uCloud en *Account*, *uCloudOPS* y *Billing*
 ===============================================================================
@@ -162,6 +184,8 @@ En Ustore la práctica de perfeccionamiento continuo adoptado en la mejora de la
 * La pantalla de resumen detallado de la factura, incrementa la carga de datos y hace más rápida la entrega de resultados de la petición en su interfaz. 
 
 * Mejora en la visualización del cierre de facturas con usuarios multicontratos: Un usuario vinculado a más de un contrato, tiene la opción de ver el cierre de la factura con los gastos de cada contrato específico de forma individual.
+
+====
 
 Nuevas Implementaciones
 =======================
