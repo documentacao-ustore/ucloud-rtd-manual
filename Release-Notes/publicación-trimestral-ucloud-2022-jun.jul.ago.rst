@@ -18,7 +18,9 @@
 
 Consolidado: uCloud
 ===================
-Trimestre: Junio | Julio | Agosto
+
+Año 2022 - Periodo: Junio | Julio | Agosto
+
 Versión: `Update tags 5.3-b56 y 1.0-account90`
 
 ----
@@ -89,11 +91,7 @@ Para acceder al submenú *Budget* en el portal uCloud, el usuario debe hacer cli
 
 ----
 
-
-
-
 Al seleccionar en la lista el contrato deseado, aparece una nueva pantalla con los detalles del contrato. La pantalla de detalles del contrato puede considerarse una de las más grandes de la plataforma uCloud, ya que presenta diecisiete tipos de datos diferentes, exhibiendo las tarjetas:
-
 
   * 1.General; 
   * 2.Categorías de Precios;
@@ -114,15 +112,10 @@ Al seleccionar en la lista el contrato deseado, aparece una nueva pantalla con l
   * 17.Perfil de Facturación por *Container*.
 
 
-
-
 .. figure:: /figuras/fig_budget/02_budget_tela_contrato.png
    :alt: Budget tela contrato 
    :align: center
-
-
 ----
-  
 
 
 En esta pantalla de detalle del contrato, el usuario debe utilizar la barra de desplazamiento y navegar hasta encontrar la cuarta `tarjeta` llamada *Budget* que se muestra a continuación:
@@ -131,13 +124,7 @@ En esta pantalla de detalle del contrato, el usuario debe utilizar la barra de d
 .. figure:: /figuras/fig_budget/03_contrato_budget.png
    :alt: Contrato tela Budget  
    :align: center
-
-
 ----
-
-
-
-
 
 
 La `Tarjeta Budget` exhibe dos botones, ``REFRESH`` y ``+Añadir``. 
@@ -151,13 +138,7 @@ Al hacer clic en el botón ``+ Añadir``, se presenta el modal "Crear Budget", y
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
    :alt: Budget Adicionar 
    :align: center
-
-
 ---- 
-
-
-
-
 
 
 Creando *Budget* y *Sub Budget*
@@ -170,43 +151,30 @@ El modal "Crear *Budget*", presenta los campos: nombre, intervalo, mes, *"checkb
 A continuación, se muestran los detalles de los `Sub Budgets` como: desambiguación, selección del *container*, valor y los botones ``+Incluir Subbudget``, ``Cancelar`` y ``Crear``.
 
 
-
-
 .. important:: |importante| La desambiguación es responsable por el propósito del Sub Budget, por lo tanto, al hacer clic en el "Checkbox", el usuario visualiza y puede filtrar uno de los cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimensión - TagUsn.
 
 
 .. figure:: /figuras/fig_budget/04_criar_budget.png
    :alt: Criar Budget 
    :align: center
-
-
 ---- 
-  
-
 
 Tras pulsar el botón ``+Añadir``, se presenta la pantalla de creación del *Budget* como se muestra en la imagen anterior, en ella el usuario debe rellenar todos los campos y configurar la generación del informe basado en el consumo.
-
-
 
 
 * `Nombre`: Espacio destinado al nombre del *Budget*. 
 * `Intervalo`: Presentado como un menú desplegable, este campo es responsable por el período deseado para la creación del informe (mensual, trimestral, semestral o anual).
 
 
-
-
 .. figure:: /figuras/fig_budget/05_criar_budget_preencher_intervalo.png
    :alt: Preencher intervalo 
    :align: center
-
-
 ---- 
  
             
 En el proceso de crear y configurar el *Budget*, el usuario tiene la opción de seleccionar en la plataforma el "Intervalo" que pretende generar en el informe. A continuación se detallan las pantallas correspondientes a los cuatro tipos de intervalos permitidos en esta creación.
 
-
-
+----
 
 Intervalo Trimestral
 ~~~~~~~~~~~~~~~~~~~~
@@ -215,11 +183,7 @@ Intervalo Trimestral
 .. figure:: /figuras/fig_budget/05_budget_trimestral.png
    :alt: Budget trimestral 
    :align: center
-
-
 ---- 
-
-
 
 
 Al observar la figura anterior, en el espacio "Intervalo", es necesario hacer clic en la opción "Trimestral", como resultado la interfaz presenta un "*checkbox*" con cuatro opciones de periodo, situada al lado de la `tarjeta` "Detalles de los *Sub Budgets*". El usuario debe seleccionar de acuerdo con el trimestre que desea generar el informe.
@@ -227,9 +191,7 @@ Al observar la figura anterior, en el espacio "Intervalo", es necesario hacer cl
 
 La aplicación permite al usuario elegir cualquiera de los trimestres disponibles dentro del periodo de un año, comenzando siempre a partir del mes elegido, situado en el campo "Seleccione el mes".
 
-
-
-
+----
  
 Intervalo Semestral
 ~~~~~~~~~~~~~~~~~~
@@ -238,8 +200,6 @@ Intervalo Semestral
 .. figure:: /figuras/fig_budget/05_budget_semestral.png
    :alt: Budget semestral 
    :align: center
-
-
 ---- 
   
 En el menú desplegable "Intervalo", al seleccionar la opción "Semestral", la *tarjeta* referente a los periodos presentados como intervalos semestrales aparece al lado de los detalles del *Sub Budget*, en forma de *“checkbox”*.  
@@ -247,7 +207,7 @@ En el menú desplegable "Intervalo", al seleccionar la opción "Semestral", la *
 
 La aplicación genera dos alternativas con los semestres disponibles dentro del periodo de un año. Comenzando a partir del mes elegido que se encuentra en el campo "Seleccione el mes".
 
-
+----
 
 Intervalo Anual
 ~~~~~~~~~~~~~~~
@@ -256,10 +216,7 @@ Intervalo Anual
 .. figure:: /figuras/fig_budget/05_budget_anual.png 
    :alt: Budget anual 
    :align: center
-
-
 ---- 
-
 
 
 Al seleccionar el intervalo anual, aparece una lista con todos los meses correspondientes al periodo de 1 año, a partir del mes seleccionado en el campo "Seleccione el mes".  
@@ -274,7 +231,7 @@ Al incluir un *Sub Budget*, el mismo se añade para todos los meses, recordando 
 
 .. attention:: |atencao| Al crear Sub Budgets para todos los meses del año, la suma debe limitarse al valor total del Budget.
 
-
+----
 
 Intervalo Mensual
 ~~~~~~~~~~~~~~~~
@@ -293,10 +250,7 @@ En la secuencia siguiente, el usuario debe completar los espacios restantes, com
 .. figure:: /figuras/fig_budget/06_criar_budget_mes.png
    :alt: Budget mensal 
    :align: center
-
-
 ---- 
-  
 
 
 * **Budget Recurrente**: Responsable por la activación, o no, del informe continuo. 
@@ -312,10 +266,7 @@ En el mes siguiente, se creará otro *Budget*, en el caso de trimestral y semest
 .. figure:: /figuras/fig_budget/07_criar_budget_recorrente.png
    :alt: Criar budget recorrente  
    :align: center
-
-
 ---- 
-
 
 
 * **Valor**: Campo que hace referencia al valor del informe.
@@ -338,8 +289,6 @@ Después de rellenar estos datos, se deben completar los campos sobre los detall
 .. figure:: /figuras/fig_budget/08_desambiguação.png
    :alt: Desambiguação  
    :align: center
-
-
 ---- 
     
 Seleccionado el tipo de Desambiguación, el siguiente punto es rellenar el valor de *Sub Budgets*, en la *tarjeta* "Detalles del Sub Budget".  
@@ -348,8 +297,6 @@ Seleccionado el tipo de Desambiguación, el siguiente punto es rellenar el valor
 .. figure:: /figuras/fig_budget/09_criar_budget_valor.png
    :alt: Criar budget valor 
    :align: center 
-
-
 ---- 
 
 
@@ -361,18 +308,13 @@ En este paso, el valor del *Sub Budget* debe rellenarse, y cuando se introduce e
 Una vez completados todos los datos, el usuario debe pulsar el botón ``Incluir Subbudget`` para finalizar la inclusión. Como resultado de la operación, la pantalla exhibe la lista de *Sub Budget* incluido como se muestra en la imagen siguiente:
 
 
-
-
 .. important:: |importante| El saldo restante corresponde al valor que indica el saldo restante del Budget, equivale al valor del Budget sustraído por la suma del valor de todos los Sub Budgets.  El botón "Crear Budget" permanece desactivado si el saldo restante es diferente de 0. 
 
 
 .. figure:: /figuras/fig_budget/10_criar_budget_incluir_sub.png 
    :alt: Criar budget incluir sub 
    :align: center
-
-
 ---- 
-  
 
 
 Para crear el segundo *Budget*, el usuario debe seguir los pasos detallados anteriormente en el ciclo de creación del primer *Budget*. Proceda al punto "Detalles de los Sub Budgets" que se muestra a continuación:
@@ -381,8 +323,6 @@ Para crear el segundo *Budget*, el usuario debe seguir los pasos detallados ante
 .. figure:: /figuras/fig_budget/08_desambiguação.png
    :alt: Desambiguação   
    :align: center
-
-
 ----  
 
 
@@ -392,8 +332,6 @@ En este flujo, para detallar el `Sub Budget` con una desambiguación distinta, b
 .. figure:: /figuras/fig_budget/12_subbudget_detalhes.png
    :alt: Subbudget detalhes  
    :align: center
-
-
 ----
   
 
@@ -404,13 +342,9 @@ Al rellenar el valor deseado, es necesario observar la cantidad disponible en el
 Ambos se muestran en el listado de abajo:
 
 
-
-
 .. figure:: /figuras/fig_budget/14_subbudget_criado.png
    :alt: Subbudget criado 
    :align: center
-
-
 ----
   
  
@@ -438,10 +372,7 @@ La columna "Acciones" permite al usuario realizar dos ejecuciones representadas 
 .. figure:: /figuras/fig_budget/15_editar_budgets.png
    :alt: Editar budgets  
    :align: center
-
-
 ----
-
 
 
 Al pulsar el botón ``Editar`` en el *Budget* elegido, se muestra el modal de edición con toda las informaciones previamente rellenadas.
@@ -450,22 +381,16 @@ Al pulsar el botón ``Editar`` en el *Budget* elegido, se muestra el modal de ed
 .. figure:: /figuras/fig_budget/16_editar_budget.png
    :alt: Editar budget 
    :align: center
-
-
 ----
   
 
-
 En esta pantalla es posible cambiar el nombre, el mes, el valor, si el *Budget* es por coste o por cantidad consumida, y además, se pueden hacer cambios en los *Sub Budgets*. Resaltando que hay una limitación del intervalo, después de la creación de un *Budget* es imposible cambiarlo.
-
-
 
 
 .. important:: |importante| En resumen, los Sub Budgets creados no se modifican, es necesario eliminar y añadir el nuevo Budget.
 
 
 ----
-
 
 
 Visualizando el Informe de Costes de `Budgets`
@@ -503,31 +428,22 @@ El segundo tópico `“Paneles Basados en Factura”` reúne cinco tipos de pane
 5. Tendencia de Facturación.   
 
 
-
-
 Para acceder al `Informe de Costes de Budgets`, el usuario debe hacer clic en la opción `Coste de Budgets`, que se muestra en la siguiente pantalla:
 
 
 .. figure:: /figuras/fig_budget/17_painéis_consumo.png
    :alt: Painéis baseados em consumo  
    :align: center
-
-
 ----
   
-
-
 En la pantalla de "Detalles de los Costes de Budgets", el usuario debe seleccionar un contrato, haciendo clic en el contrato deseado se muestra la siguiente pantalla:
 
 
 .. figure:: /figuras/fig_budget/18_detalhamento_custos.png
    :alt: Detalhamento de custos 
    :align: center
-
-
 ----
   
-
 
 Al hacer clic en "Período", el icono calendario es exhibido por la plataforma, el usuario debe seleccionar el mes o los meses deseados. Por último, debe pulsar en buscar.
 
@@ -535,11 +451,7 @@ Al hacer clic en "Período", el icono calendario es exhibido por la plataforma, 
 .. figure:: /figuras/fig_budget/19_detalhamento_período.png
    :alt: Detalhamento período 
    :align: center 
-
-
 ----
-
-
 
 Al final de la selección del periodo, como resultado de la búsqueda, el sistema filtra todos los `budgets` dentro del periodo determinado.
 
@@ -547,12 +459,8 @@ Al final de la selección del periodo, como resultado de la búsqueda, el sistem
 .. figure:: /figuras/fig_budget/20_detalhe_subbudget.png
    :alt: Detalhamento subbudget 
    :align: center 
-
-
 ----
   
-
-
 Al visualizar la lista de los **Budgets**, se muestra en pantalla la siguiente información:
 
 
@@ -566,8 +474,6 @@ Al visualizar la lista de los **Budgets**, se muestra en pantalla la siguiente i
 8. Valor Asignado para el `Budget`.
 
 
-
-
 Al hacer clic en el *Budget* para visualizar los *Sub Budgets*, la interfaz ofrece las informaciones necesarias para que el usuario pueda comprender los costes, que son:
 
 
@@ -578,8 +484,6 @@ Al hacer clic en el *Budget* para visualizar los *Sub Budgets*, la interfaz ofre
 5. Valor consumido de la Desambiguación;
 6. Barra de Consumo;
 7. Valor asignado para el `sub budget`.
-
-
 
 
 .. note:: |nota| Al elegir un *Budget* que tenga un intervalo trimestral, semestral o anual, la plataforma sólo muestra los *Sub Budgets* correspondientes al periodo seleccionado. En esta opción, la plataforma entiende que se trata de un periodo incompleto de este *Budget*. Para presentar todos los meses, debe elegirse el período completo del presupuesto.
@@ -597,7 +501,6 @@ El *branding* del portal Multicloud es permitido a través de la personalizació
 ----
 
 
-
 3. **Dimensión**:
 ----------------
 
@@ -606,8 +509,6 @@ La Dimensión es una nueva implementación de la plataforma uCloud, y fue creada
 
 
 Así, se elaboraron operaciones lógicas y un filtro, con el fin de identificar en el *Billing* qué recursos pertenecen a una determinada dimensión. Para entender mejor los dos puntos que construyen este concepto, observe los siguientes ejemplos:
-
-
 
 
 1. Unifica un conjunto de `Tags` que son diferentes pero que tienen el mismo significado/función.
@@ -621,14 +522,10 @@ Así, se elaboraron operaciones lógicas y un filtro, con el fin de identificar 
    * producT: CTE
 
 
-
-
 Como se puede observar, los `Tags` anteriores expresan lo mismo, aunque son divergentes en su forma escrita. Es importante recordar que se pueden **aplicar en diferentes nubes**, pero en los mismos recursos, donde deberían comportarse igualmente.
 
 
 Así, al unificar este grupo de `Tags` en una dimensión, es posible identificar todos los recursos que están dentro de este contexto, y así tener una nueva forma de visualización de Informes, `Budget` y `Forecast`.
-
-
 
 
 2. Crea expresiones lógicas.
@@ -882,15 +779,11 @@ Utilizando el Operador Lógico
 Los operadores lógicos forman parte del lenguaje de programación y se utilizan con el objetivo de crear expresiones de tipo verdaderas y falsas. Estas se usan para unir dos expresiones divergentes y elaborar una expresión condicional más compleja. 
 
 
-
-
 .. image:: /figuras/fig_ucloud_findimensao/17_dimensão_operadores_lógicos_closeup.png
    :alt: Financeiro Dimensão_operadores_lógicos_closeup
    :scale: 80 %
    :align: center
 ----
-
-
 
 
 Para entender mejor su aplicación, a continuación se detallan las informaciones sobre los dos operadores utilizados en la creación de "Dimensión".
@@ -908,15 +801,11 @@ Para entender mejor su uso, el usuario debe seguir el proceso de creación.
 Al situar el cursor del ratón sobre la opción del operador </> “OR”, aparece el siguiente mensaje:
 
 
-
-
 .. image:: /figuras/fig_ucloud_findimensao/18_dimensão_operador_ou_closeup.png
    :alt: Financeiro Dimensão_operador_ou_closeup
    :scale: 80 %
    :align: center
 ----
-
-
 
 
 Es decir, aunque uno de los `Tags` no exista, la acción se realiza sólo con el `Tag` existente.
@@ -932,13 +821,10 @@ Cuando se pone el ratón sobre el operador </> AND, aparece el siguiente mensaje
    :align: center
 ----
 
-
-
 Es decir, al buscar los `Tags`, si sólo uno de los `Tags` es inexistente, la acción es detenida.
 
 
 En este ejemplo, se ha seleccionado el operador "AND" (en lengua inglesa), y la confirmación de la acción se presenta en el cambio de ambas estructuras:
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/20_dimensão_operador_selecionado.png
@@ -947,7 +833,7 @@ En este ejemplo, se ha seleccionado el operador "AND" (en lengua inglesa), y la 
 ----
 
 
-  
+ 
 Una vez finalizado este primer proceso de creación de "Tag", el usuario debe crear el segundo "Tag", repitiendo el flujo de creación detallado anteriormente.
 
 
@@ -976,7 +862,6 @@ Para listar la "Dimensión" recién creada, normalmente la pantalla muestra el l
 A continuación, la pantalla que muestra la lista debe exhibir la "Dimensión" creada, como aparece en la figura siguiente:
 
 
-
 .. image:: /figuras/fig_ucloud_findimensao/22_dimensão_listagem_final.png
    :alt: Financeiro Dimensão_listagem_final
    :align: center
@@ -998,9 +883,7 @@ Editando una Dimensión
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-
 Para editar una dimensión, el usuario debe hacer clic en el botón ``Editar`` correspondiente a la edición en la columna "Acciones" del listado de "Dimensión", como se detalla a continuación:
-
 
 
 .. image:: /figuras/fig_ucloud_findimensao/23_dimensão_botão_editar.png
@@ -1017,7 +900,6 @@ Al hacerlo, se muestra la pantalla con la estructura montada y finalizada, como 
    :alt: Financeiro Dimensão_estrutura_completa
    :align: center
 ----
-
 
 
 Observando la figura anterior, se nota el icono de la basurera. Es decir, el usuario tiene tanto la posibilidad de crear otros grupos y añadir más `Tags`, así como de eliminarlos.  
@@ -1044,8 +926,6 @@ Además, la "Dimensión" se utiliza en el modal "Crear Budget" que se incluye en
  
 
 ----
-
-
 
 
 4. **Import y Export de ofertas de servicios en (XML + YAML)**:
@@ -1087,8 +967,6 @@ En este documento se generan diferentes tipos de índices, que pueden ser tablas
   4. TOP 3 Contratos por Nube en Detalle.
 
 
-
-
 .. attention:: |atencao| Cada una de estas categorías está separada y organizada del mayor al menor consumo. 
 
 
@@ -1109,8 +987,6 @@ Para generar el Informe de Monitoreo de Consumo (v1) en el portal uCloud, el usu
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
    :alt: Menu_Financeiro
    :align: center 
-
-
 ----
   
 
@@ -1121,10 +997,7 @@ En la pantalla siguiente se muestran todas las opciones relacionadas con el acce
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/2_Financeiro_painéis.png 
    :alt: Financeiro_painéis
    :align: center 
-
-
 ----
-
 
 
 Haciendo clic en el ``submenú Informes``, el tópico "Paneles basados en el Consumo" permite acceder a los informes relacionados con el consumo del mes en curso introducido en la búsqueda por el usuario.
@@ -1133,23 +1006,17 @@ Haciendo clic en el ``submenú Informes``, el tópico "Paneles basados en el Con
 .. figure:: /figuras/fig_budget/17_painéis_consumo.png 
    :alt: Painéis_baseados_consumo
    :align: center 
-
-
 ----
   
 
 En él se agrupan siete tipos de informes, uno de los cuales es el **Informe de Monitoreo de Consumo - IMC.v1**.
 
 
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/4_Descrição.png 
    :alt: Descrição
    :align: center 
-
-
 ----
   
-
 
 Al hacer clic en esta opción, el usuario puede generar el documento deseado.
 
@@ -1160,23 +1027,15 @@ Al hacer clic en esta opción, el usuario puede generar el documento deseado.
 Creación del IMC.v1
 ~~~~~~~~~~~~~~~~
 
-
-
 Tras hacer clic en **Informe de Monitoreo de Consumo (v1) - IMC.v1**, se abre una nueva pantalla en la que el usuario puede seleccionar el mes y el año que desea visualizar, así como filtrar los contratos deseados.
-
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/5_RMConsumo.png 
    :alt: Relatório Monitoramento Consumo v1 
    :align: center 
-
-
 ----
   
-
-
 En este mismo modal, se muestran dos botones: 
-
 
 
 * ``GENERAR INFORME`` Permanece disponible para la activación cuando se selecciona al menos un contrato.
@@ -1184,42 +1043,30 @@ En este mismo modal, se muestran dos botones:
 
 
 
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/6_Seleção_mês_e_ano.png 
    :alt: Seleção_mês_e_ano
    :align: center 
-
-
 ----
 
 
 La barra de desplazamiento, situada en el lado derecho, ayuda al usuario a navegar por el modal en busca del contrato pretendido. La barra de búsqueda facilita la consulta, el usuario sólo tiene que escribir las letras iniciales del contrato.
 
 
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/7_Barras_rolagem_pesquisa.png 
    :alt: Barras_rolagem_pesquisa
    :align: center 
-
-
 ----
   
-
-
 Tras hacer clic en “Generar Informe”, se abre una nueva pantalla en la que aparece el mes seleccionado por el usuario y los botones ``*DOWNLOAD*`` y ``GENERAR NUEVO INFORME``.
-
 
 
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/8_Download_recorte_RMCv1.png 
    :alt: Desbloquear_download
    :align: center 
-
-
 ----
 
 
 El desbloqueo del botón ``*DOWNLOAD*`` sólo se realiza cuando los datos se compilan en la plataforma y la misma proporciona el informe del período y del contrato seleccionado. 
-
 
 
 En el ejemplo de la siguiente pantalla, la plataforma informa que el "usuario no tiene informes generados para los contratos y períodos seleccionados" y pide al usuario que pulse sobre ``GENERAR NUEVO INFORME``. 
@@ -1228,15 +1075,10 @@ En el ejemplo de la siguiente pantalla, la plataforma informa que el "usuario no
 Para la ejecución de la descarga del archivo, basta con que el usuario haga clic en el botón citado.
 
 
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/9_Gerar_relatório.png 
    :alt: Gerar_relatório
    :align: center 
-
-
 ----  
-
-
 
 En el caso de no disponer de datos, los informes no quedan disponibles para el mes seleccionado, el botón ``*DOWNLOAD*`` aparece inactivo (color gris) y la plataforma emite el mensaje mencionado en el ejemplo anterior e impreso en la imagen de arriba.
 
@@ -1250,31 +1092,19 @@ Siguiendo el *status* en el menú de Tareas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-
 En el flujo de crear el IMC.v1, la plataforma presenta dos tipos de situación, según el perfil del usuario que está conectado a la plataforma. El *status* de la tarea en la parte superior de la pantalla difiere, para cada tipo de usuario un procedimiento, según la secuencia descrita:
-
-
 
 
 **Caso 1:** 
 
 
-
-
 * **Usuario admin**: Al abrir la funcionalidad “Tareas”, hay que observar la ventana de "Aprobaciones pendientes" que muestra las columnas: Operación, Usuario, Detalles, Progreso, Fecha de inicio, Duración, *Status* y Acciones. 
-
-
 
 
 **Caso 2:** 
 
 
-
-
 * **Usuario user**: Al crear el informe, debe solicitar al administrador de su contrato que apruebe la tarea solicitada.
-
-
 
 
 **Procedimiento:**
@@ -1283,22 +1113,13 @@ En el flujo de crear el IMC.v1, la plataforma presenta dos tipos de situación, 
 En la columna "Acciones" situada en la ventana "Aprobaciones Pendientes" **el usuario admin** del contrato debe aprobar la acción "Generar Informe". En el caso del **usuario user**, debe solicitar al administrador del contrato que realice o no la aprobación de la tarea.
 
 
-
-
-
-
 .. figure:: /figuras/fig_ucloud_fin_rmcv1/10_Tarefas.png 
    :alt: Tarefas
    :align: center 
-
-
 ----
 
 
-
-
 Luego debe esperar la actualización del "Status" que puede ser: En ejecución ``Running``; Fallo ``Failed`` o Éxito ``Successfull``.
-
 
 
 Una vez que el proceso de creación del nuevo informe fue exitoso, los datos fueron compilados en la plataforma uCloud. 

@@ -20,7 +20,10 @@
 
 Consolidado: uCloud
 ===================
-Trimestre: Junho | Julho | Agosto
+
+Ano 2022 - Período: Junho | Julho | Agosto
+
+
 Versão: `Update tags 5.3-b56 e 1.0-account90`
 
 ----

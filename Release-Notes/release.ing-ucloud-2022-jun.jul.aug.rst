@@ -17,9 +17,11 @@
 2022.06-08
 ++++++++++
 
-Consolidado: uCloud
-===================
-Quarterly: June | July | August
+Consolidated: uCloud
+====================
+
+Year 2023 - Period: June | July | August
+
 Version: `Update tags 5.3-b56 and 1.0-account90`
 
 ----
