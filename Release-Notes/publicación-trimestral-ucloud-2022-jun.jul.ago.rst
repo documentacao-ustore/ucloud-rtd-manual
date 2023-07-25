@@ -1,18 +1,27 @@
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
-   :scale: 50 %
+   :scale: 60 %
    :align: center
    
 ----
 
+.. centered:: Português_     -     Español     -     English_
 
-Publicación Trimestral: Junio | Julio | Agosto - Año 2022
-=========================================
-Plataforma uCloud versión: *Update tags 5.3-b56 y 1.0-account90*
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/release-ucloud-2022-jun-jul-ago.html
 
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/release.ing-ucloud-2022-jun.jul.aug.html
+
+====
+
+2022.06-08
+++++++++++
+
+Consolidado: uCloud
+===================
+Trimestre: Junio | Julio | Agosto
+Versión: `Update tags 5.3-b56 y 1.0-account90`
 
 ----
-
 
 Presentación
 ==========

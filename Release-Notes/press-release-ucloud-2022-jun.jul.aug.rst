@@ -3,12 +3,29 @@ uCloud - Press Release June|July|August - 2022
 
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
-   :scale: 50 %
+   :scale: 60 %
    :align: center
    
 ----
 
-uCloud Platform version: *Update tags 5.3-b56 e 1.0-account88*
+.. centered:: Português_     -     Español_     -     English
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/nota-de-lançamento-ucloud-2022-jun.jul.ago.html 
+
+.. _Español: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/notas-de-publicación-ucloud-2022-jun.jul.ago.html
+
+====
+
+2022.06-08
+++++++++++
+
+Press Release: uCloud
+=====================
+Period: June | July | August 
+
+Version: `Update tags 5.3-b56 and 1.0-account88`
+
+====
 
 Introduction
 ============
@@ -18,6 +35,8 @@ Ustore renews the uCloud platform in line with the continuous evolution of innov
 This release evokes the principle of the ISO 9001 standard, prepared by the International Organization for Standardization (known in Brazil as ABNT NBR ISO 9001). The objective of which is to establish consistent standards that increase the quality of the applied processes and result in continuous improvement and adjustments in functionalities, in the pursuit of quality management and business excellence.
 
 The improvements presented below refer to the quality management principle mentioned in the ISO 9001 standard, carried out during the months of June, July and August of the current year.
+
+====
 
 News
 ====
@@ -29,6 +48,8 @@ This press release discloses the thirty-three global improvements made to some o
 * uCloud Platform Enhancement in Account, uCloudOPS and Billing;
 
 * New implementations.
+
+====
 
 Public and Private Clouds
 =========================
@@ -90,6 +111,8 @@ VMware 6.5 or superior (vCenter/vSphere)
 Regarding the interaction with the VMware hypervisor 6.5 or superior, the following improvement is related:
 
 * The scheduling policy for Scaling Group allows the user to create the policy that defines when to create new machine(s).
+
+====
 
 uCloud Platform Enhancement in Account, uCloudOPS and Billing
 =============================================================
@@ -161,6 +184,9 @@ At Ustore, the practice of continuous improvement adopted to improve the uCloud 
 * The detailed invoice Summary screen increases data loading and makes the delivery of the request result faster in your interface
 
 * Improved visualization of invoice closing with multi-contract users: A user linked to more than one contract has the option to see the invoice closing with the expenses of each specific contract individually.
+
+====
+
 
 New Implementation
 ==================

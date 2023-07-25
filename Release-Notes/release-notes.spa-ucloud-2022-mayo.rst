@@ -1,14 +1,27 @@
-uCloud - Notas Mayo - 2022 
-==========================
-
 .. figure:: /figuras/ucloud.png
    :alt: Logo uCLoud
-   :scale: 50 %
+   :scale: 60 %
    :align: center
    
 ----
 
-Plataforma uCloud Versión: *update tag 5.2-b35*
+.. centered:: Português_     -     Español     -     English_
+
+.. _Português: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/release-notes-ucloud-2022-07-01.html 
+
+.. _English: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/release-notes.ing-ucloud-2022-mayo.html
+
+====
+
+2022.05
++++++++
+
+Consolidado: uCloud
+===================
+Período: Mayo 
+Versión:  `Update tag 5.2-b35`
+
+====
 
 Presentación
 =============
