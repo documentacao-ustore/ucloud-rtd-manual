@@ -19,7 +19,7 @@
 Press release: uCloud
 =====================
 
-Período: Junho|Julho|Agosto
+Período: Junho | Julho | Agosto
 
 Versão: `Update tags 5.3-b56 e 1.0-account88`
 
@@ -35,7 +35,7 @@ Neste lançamento é evocado o princípio da norma ISO 9001, elaborada pela Orga
 
 As melhorias apresentadas a seguir referem-se ao princípio da gestão da qualidade citada na norma ISO 9001, realizada durante os meses de junho, julho e agosto do corrente.
 
-===
+====
 
 Notícias 
 ========
