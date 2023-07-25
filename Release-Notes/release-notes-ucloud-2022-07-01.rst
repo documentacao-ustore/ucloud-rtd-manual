@@ -18,7 +18,9 @@
 
 Consolidado: uCloud
 ===================
-Período: Maio
+
+Ano 2022 - Período: Maio
+
 Versão: `Update tag 5.2-b35`
 
 ====
@@ -40,6 +42,7 @@ Atenta à evolução constante do mercado brasileiro e às demandas dos nossos u
 
 Além da ampliação do conceito existente, este release notes detalha o update ocorrido na plataforma uCloud, constante na *(tag.5.2-b35)* atendendo às diversas demandas mercadológicas dos nossos clientes, capazes de transformar a forma de gerenciar nuvens públicas e privadas com a plataforma uCloud.
 
+====
 
 Novas implementações
 ====================
@@ -56,6 +59,7 @@ Além das inovações mais robustas, elencadas em três temas. Estas novas imple
 #. TAGs Virtuais
 #. Oracle Cloud Infrastructure
 
+====
 
 Ações Corretivas
 ================
@@ -121,9 +125,13 @@ Em relação à interação com o hypervisor de nuvem privada VMware 6.5 (ou sup
 - Correção da importação de container.
 - Atualização da API para a versão 35.0.
 
+====
+
 Integrações
 ===========
 - Houve uma implementação e melhoria da comunicação com o agente de monitoramento (Mangue/uCloud).
+
+====
 
 Atualizações
 ============
@@ -144,6 +152,8 @@ Menu Perfis de Visualização
 
 #. Adição dos módulos uLog e uMonitor como opção de seleção em Perfis de Visualização.
 
+====
+
 Descritivo das Novas Implementações
 ===================================
 
@@ -153,6 +163,8 @@ Neste capítulo estão elencadas as novas implementações e serão esclarecidas
 #. Account 
 #. TAGs Virtuais
 #. Oracle Cloud Infrastructure (OCI) - *apenas as funcionalidades de operação*.
+
+====
 
 Descrição de Account
 ====================
@@ -174,6 +186,8 @@ Esta funcionalidade auxilia o gerenciamento e o controle do ambiente da organiza
 Possibilita organizar e compartilhar os recursos entre as “Contas” criadas, além de aplicar as políticas de controle de serviço aos **contratos**, **grupos** e **usuários**, otimizando a melhoria da governança. Esta nova modelagem insere a camada “Conta” no menu **Administração** a qual representa um novo processo para promover o alinhamento em torno da funcionalidade “Contas” e, assim, conduzir as organizações a obter um maior controle.
 
 Esta funcionalidade “**Contas**” tem como objetivo entregar à organização a possibilidade de segmentar clientes por porte (máquinas virtuais), por volume de receita (custos financeiros), possibilita entender o desempenho por “Conta” e filtrar o seu histórico por linha de negócio.
+
+----
 
 Segmentação por Quantidade de Máquinas Virtuais (Exemplo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -199,6 +213,8 @@ Exemplo de Casos de Uso
 * *Contrato Empresa Galáxia (qtde. VMs 20)*:
 
 Apenas no objetivo de exemplificar um cenário, iremos descrever oferta de serviços de utilização da Plataforma uCloud na modalidade SaaS (Software como Serviço) para a empresa Galáxia, e na sua “Conta” existem 20 máquinas virtuais (ativas e gerenciadas pela  Plataforma uCloud), se enquadra no nível Tier “A” - sendo o valor mensal a ser investido pela Empresa Galáxia será R$ 1,500 reais ou dólares (a depender do país que a empresa está estabelecida). Uma observação importante, caso a conta utilize somente 18 máquinas, esta ainda será classificada no Tier “A”.
+
+----
 
 Segmentação por Contas
 ----------------------
@@ -243,6 +259,8 @@ Adicionalmente, a funcionalidade "*Contas*" possibilita utilizar as políticas d
 
 Ao estabelecer esses padrões de permissão, acessos e visualizações aos recursos, organiza e qualifica o privilégio que cada usuário terá dentro dos ambientes dos provedores de nuvem pública em que cada contrato/grupo/usuário pertence, criando assim, permissões diferentes e necessárias para criar controles minuciosos em cada conta.
 
+====
+
 Descrição de TAGs Virtuais
 ==========================
 
@@ -268,7 +286,8 @@ Mas devemos ressaltar que para o ambiente do provedor de serviço de nuvem públ
 .. important:: Pelo fato das TAGs serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *TAGs virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
  
 A Plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de billing (CSV) do provedor de serviço de nuvem pública e, consequentemente, recebe todas as TAGs existentes no provedor.
- 
+
+---- 
  
 As TAGs Virtuais da Plataforma uCloud
 -------------------------------------
@@ -301,6 +320,8 @@ A “*TAG Virtual*” deve ser aplicada pelo cliente usuário dentro do portal u
 
 As organizações que utilizam processos automatizados para gerenciar a infraestrutura incluem as TAGs adicionais específicas para automatização, em geral, criam agrupamentos relevantes a fim de organizar os recursos nas dimensões técnicas, comerciais e de segurança. 
 
+----
+
 Normalização de TAGs Virtuais
 -----------------------------
 
@@ -323,6 +344,8 @@ Este processo pode levar algum tempo, pois é executado com comparação de *str
 
 Com este processo a Plataforma uCloud complementa a nova funcionalidade de TAGs Virtuais, mas deve ser executada somente quando o usuário Administrador de Custos identifica que existem recursos sem TAGs Virtuais. 
 
+----
+
 Quando utilizar
 ----------------
 
@@ -341,6 +364,8 @@ A nova implementação do portal uCloud possibilita apresentar no relatório fin
 .. note:: As chaves e os valores de TAGs podem ou não ser refletidas no relatório  (report) de bilhetagem (billing) das diversas nuvens. As TAGs não têm significado semântico no Amazon EC2, são interpretadas como uma sequência de caracteres.
 
 Assim, os recursos importados do arquivo de billing das nuvens públicas que por quaisquer políticas destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma “*TAG Virtual*” dentro do portal. 
+
+----
 
 Restrições das TAGs
 -------------------
@@ -362,6 +387,8 @@ No caso da aplicação das “TAGs Virtuais”, existem algumas dicas e restriç
 .. important:: As chaves e os valores de TAGs são *Case Sensitive*, em outras palavras diferenciam **MAIÚSCULAS de minúsculas**.
 
 .. warning:: O prefixo **aws** é reservado para uso da Amazon Web Service (AWS). Não é possível editar nem excluir a chave ou o valor de uma TAG quando ela tem uma chave de TAG com esse prefixo. As TAGs com o prefixo aws: não contam para as TAGs por limite de recurso.
+
+----
 
 Como utilizar
 -------------
@@ -445,6 +472,7 @@ No momento de exportar o relatório de faturamento as “TAGs Virtuais” retorn
 
 A figura acima apresenta a aplicação das “TAGs virtuais'', por meio do Accountant *virtual-tag-applier*, e sua normalização, utilizando o Accountant *virtual-tag-normalizer*.
 
+----
 
 Oracle Cloud Infrastructure (OCI)
 ---------------------------------

@@ -18,7 +18,9 @@
 
 Consolidado: uCloud
 ===================
-Período: Mayo 
+
+Año 2022 - Período: Mayo
+
 Versión:  `Update tag 5.2-b35`
 
 ====
@@ -40,6 +42,8 @@ Atenta a la constante evolución del mercado brasileño y a las demandas de nues
 
 Además de la ampliación del concepto existente, este *Release Notes detalla el update* ocurrido en la plataforma uCloud, contenida en la (tag.5.2-b35) atendiendo a las diversas demandas mercadológicas de nuestros clientes, capaces de transformar la forma de gestionar las nubes públicas y privadas con la plataforma uCloud.
 
+----
+
 Nuevas Implementaciones
 =======================
 
@@ -56,6 +60,8 @@ Además de las innovaciones más sólidas, enumeradas en tres temas. Estas nueva
 #. Account
 #. TAGs Virtuales
 #. Oracle OPS
+
+----
 
 Acciones Correctivas
 ====================
@@ -129,10 +135,14 @@ En cuanto a la interacción con el hipervisor de nube privada VMware 6.5 (o supe
 
 * Actualización de la API a la versión 35.0.
 
+----
+
 Integraciones
 -------------
 
 * Hubo una implementación y mejora de la comunicación con el agente de monitoreo (*Mangue/uCloud*).
+
+----
 
 Actualizaciones
 ---------------
@@ -145,15 +155,21 @@ A continuación enumeramos la lista de actualizaciones que se han implementado e
 
 #. Revisión de la comunicación en los mensajes de excepción del portal, enfoque en la interacción del usuario con el contenido y la experiencia de uso.
 
+----
+
 Menu Virtual Datacenter (VDC)
 -----------------------------
 
 #. Reducción del tiempo de carga en la pantalla de edición de VDC de un *container*.
 
+----
+
 Menú Perfiles de Visualización
 ------------------------------
 
 #. Adición de los módulos uLog y uMonitor como opción de selección en los Perfiles de Visualización.
+
+----
 
 Descripción de las nuevas implementaciones
 ==========================================
@@ -165,6 +181,8 @@ A continuación describiremos las características técnicas y operativas de tre
 #. TAGs Virtuales
 
 #. Oracle Cloud Infrastructure (OCI) - *solo las funcionalidades de operación*
+
+----
 
 Descripción del Account
 =======================
@@ -249,6 +267,8 @@ Adicionalmente, la funcionalidad "*Contas*" posibilita utilizar las políticas d
 
 Al establecer estos patrones de permisos, accesos y visualizaciones de los recursos, organiza y califica el privilegio que tendrá cada usuario dentro de los ambientes de los proveedores de la nube pública a los que pertenece cada contrato/grupo/usuario, creando así permisos diferentes y necesarios para crear controles minuciosos en cada cuenta.
 
+----
+
 Descripción de TAGs Virtuales
 =============================
 
@@ -274,6 +294,8 @@ Pero debemos señalar que para el ambiente del proveedor de servicios en la nube
 .. important:: Debido a que los *TAGs* son accesibles a muchos servicios en los proveedores de la nube, es relevante evitar añadir datos privados o confidenciales a los *TAGs* virtuales, como por ejemplo: identificación personal, información confidencial o sensible.
 
 La Plataforma uCloud sincroniza y recibe el contenido del archivo de *billing* (CSV) del proveedor de servicios en la nube pública y, en consecuencia, recibe todos los *TAGs* existentes en el proveedor.
+
+----
 
 TAGs Virtuales de la Plataforma uCloud
 --------------------------------------
@@ -305,6 +327,8 @@ El "*TAG Virtual*" debe ser aplicado por el cliente usuario dentro del portal uC
 
 Las organizaciones que utilizan procesos automatizados para gestionar la infraestructura incluyen los *TAGS* adicionales específicos para la automatización, en general, crean agrupaciones relevantes para organizar los recursos en las dimensiones técnicas, comerciales y de seguridad.
 
+----
+
 Normalización de TAGs Virtuales
 -------------------------------
 
@@ -327,6 +351,8 @@ Este proceso puede llevar algún tiempo, ya que se realiza con la comparación d
 
 Con este proceso la Plataforma uCloud complementa la nueva funcionalidad de los *TAGs* Virtuales, pero solo debe ejecutarse cuando el usuario Administrador de Costes identifique que hay recursos sin *TAGs* Virtuales.
 
+----
+
 ¿Cuándo utilizar?
 -----------------
 
@@ -345,6 +371,8 @@ La nueva implementación del portal uCloud permite presentar informes en el repo
 .. note:: Las claves y los valores de los *TAGs* pueden o no reflejarse en el informe (*report*) de facturación (*billing*) de las distintas nubes. Los *TAGs* no tienen significado semántico en Amazon EC2, se interpretan como una cadena de caracteres.
 
 Así, los recursos importados del archivo de *billing* de las nubes públicas que por alguna política de estos proveedores no indexen la etiqueta al recurso del servicio en la nube, pueden recibir un "*TAG virtual*" dentro del portal.
+
+----
 
 Restricciones de los TAGs
 -------------------------
@@ -368,6 +396,8 @@ En el caso de la aplicación de "TAGs virtuales", hay algunos consejos básicos 
 .. important:: Las claves y los valores de los *TAGs* distinguen entre mayúsculas y minúsculas.
 
 .. warning:: El prefijo aws se reserva para el uso de AWS. No se puede editar o eliminar la clave o el valor de un *TAG* cuando tiene una clave *TAG* con este prefijo. Los *TAGs* con el prefijo aws: no cuentan para los *TAGs* de límite de recursos.
+
+----
 
 ¿Cómo se utiliza?
 -----------------

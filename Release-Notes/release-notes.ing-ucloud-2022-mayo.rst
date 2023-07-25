@@ -18,7 +18,8 @@
 
 Consolidated: uCloud
 ====================
-Period: May
+Year 2022 - Period: May
+
 Version: `Update tag 5.2-b35`
 
 ====
@@ -40,6 +41,8 @@ Alert to the constant evolution in the Brazilian market and to our users demands
 
 In addition to expanding the existing concept, this release notes details the updates occurred in the uCloud Platform, included in (*tag.5.2-b35*) attending to the several market demands of our clients, capable of transforming the public and private clouds management form with the uCloud platform.
 
+----
+
 New implementations 
 ===================
 
@@ -58,6 +61,8 @@ In addition to the most robust innovations, listed in three themes. These new im
 #. Virtual TAGs 
 
 #. Oracle Cloud Infrastructure
+
+----
 
 Corrective Actions
 ==================
@@ -127,10 +132,14 @@ Regarding the interaction with the VMware 6.5 (or superior) private cloud hyperv
 
 * API update to version 35.0.
 
+----
+
 Integrations
 ------------
 
 * There was one implementation and improvement of communication with the monitoring agent (Mangue/uCloud)
+
+----
 
 Updates
 -------
@@ -153,6 +162,8 @@ Visualization Profiles Menu
 
 #. Addition of uLog and uMonitor modules as selection option in Visualization Profiles.
 
+----
+
 Description of New Implementations
 ==================================
 
@@ -163,6 +174,8 @@ Below is described the technical and operational characteristics of three new im
 #.	Virtual TAGs 
 
 #.	Oracle Cloud Infrastructure (OCI) - Operation functionalities only. 
+
+----
 
 Account Description
 ===================
@@ -248,6 +261,8 @@ Additionally, the functionality “Accounts” makes it possible to use the cont
 
 By establishing these defaults of permission, access and resources visualization, it organizes and qualifies the privilege each user will have within the environment the public cloud providers in each contract/group/user belongs, creating that way, different and necessary permissions to create minuncious controls in each account.
 
+----
+
 Description of Virtual TAGs 
 ===========================
 
@@ -274,6 +289,7 @@ But we must highlight that to the public cloud service provider’s environment,
 
 The uCloud Platform synchronizes and receives the content of the billing file (CSV) from the public cloud service provider and, consequently, receives all the TAGs existing in the provider.
 
+----
 
 The uCloud Platform Virtual Tags
 --------------------------------
@@ -304,6 +320,8 @@ The Virtual TAG must be applied by the user client within the uCloud portal, in 
 
 The organizations that use the automated processes to manage the infrastructure include the additional TAGs specific for automation, in general they create relevant grouping to organize the resources in technical, commercial and security dimensions.
 
+----
+
 Virtual TAGs Normalization
 --------------------------
 
@@ -327,6 +345,8 @@ This process may take a while, because it is performed with the string compariso
 
 With this process, the uCloud Platform complements the new Virtual TAGs functionality, but it must be executed only when the Cost Administrator user identifies that there are resources with no Virtual TAGs.
 
+----
+
 When to use
 -----------
 
@@ -345,6 +365,8 @@ The new implementation from the uCloud portal enables users to present the infor
 .. note:: The keys and TAGs values may or may not be reflected in the billing report of several clouds. The TAGs don’t save semantic meaning in the Amazon EC2, they are interpreted as a character sequence.
 
 Thus, resources imported from the public cloud billing file that, by any policies of these providers, fail to index the tag to the cloud service resource, may receive a “Virtual TAG” within the portal.
+
+----
 
 TAGs Restrictions
 -----------------
@@ -368,6 +390,8 @@ In case of the Virtual TAGs application, there are some tips and basic restricti
 .. important:: The keys and TAGs values are Case Sensitive, in other words, differentiate **UPPERCASE from lowercase**. 
 
 .. warning:: The **aws** prefix it’s reserved for the Amazon Web Service (AWS) use. It’s not possible to edit nor exclude the key or the value of a TAG when it has a key with this prefix. The TAGs with the aws prefix: don’t count to TAGs by resource limit.
+
+----
 
 How to use
 ----------

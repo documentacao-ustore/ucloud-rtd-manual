@@ -10,6 +10,7 @@
 
 Release consolidado: uCloud
 ===========================
+
 Período: Março
 
 ====
@@ -33,8 +34,10 @@ Atenta à evolução constante do mercado brasileiro e às demandas de nossos us
 
 Entre as novidades da nova versão destaca o Switch Roles, o Perfil de Permissionamento, o Catálogo de Serviços e o Workflow; que descreveremos a seguir.
 
+----
+
 Novas implementações
---------------------
+====================
 
 Abaixo apresentamos a lista de novas implementações:
 
@@ -45,17 +48,20 @@ Abaixo apresentamos a lista de novas implementações:
 
 Abaixo iremos esclarecer e descrever as novas implementações acima listadas.
 
+----
+
 Correções de Erros
-------------------
+==================
 
 Abaixo descrevemos as ações corretivas devido a situações que foram reportados erros e quais foram as ações corretivas de nossa equipe de desenvolvimento.
 
 Amazon Web Services (AWS)
-+++++++++++++++++++++++++
+-------------------------
 Não existe nenhuma menção referente a qualquer alteração para o presente documento.
 
+
 Microsoft Azure (Azure)
-+++++++++++++++++++++++
+-----------------------
 Em **janeiro de 2022** a Azure parou de adicionar informações de billing em moeda americana (dólar) e iniciou cobranças dos valores das faturas em moeda brasileira (Real), somente para os contratos CSP.
 
 Isto acarretou que o desde 27 de janeiro de 2022, nenhum novo registro com valor do custo de recurso computacional é adicionado no arquivo de billing em dólar, e o bucket existente não está sendo atualizado e os valores não se encontram mais nesta área de armazenamento (bucket). Desta forma, os valores dos relatórios financeiros das faturas Azure se apresentam zerados. **Isto não é um erro**, pois *a Plataforma uCloud está corretamente configurada para coletar os valores do billing na área dólar americano, mas a Azure não está atualizando mais as informações contidas no arquivo de billing*.
@@ -73,23 +79,25 @@ Nos casos em que a credencial atual não permite o acesso à nova área de bucke
 Para ambos os casos, indicamos que o usuário entre em contato com a Equipe de Suporte da Ustore (chamados@usto.re) para ajudá-lo nesta configuração do bucket e a respectiva adequação das regras de faturamento do(s) contrato(s) que estão vinculados à Azure CSP.
 
 Google Cloud Platform (GCP)
-+++++++++++++++++++++++++++
+---------------------------
 Não existe nenhuma menção referente a qualquer alteração para o presente documento.
 
 Huawei Web Services (Huawei)
-++++++++++++++++++++++++++++
+----------------------------
 Não existe nenhuma menção referente a qualquer alteração para o presente documento.
 
 VMware 6.5 ou superior (vCenter/vSphere)
-++++++++++++++++++++++++++++++++++++++++
+----------------------------------------
 Não existe nenhuma menção referente a qualquer alteração para o presente documento.
 
+----
+
 Atualização e Novas APIs
-++++++++++++++++++++++++
+========================
 Não existe nenhuma menção referente a qualquer alteração para o presente documento.
 
 Switch Roles
-============
+------------
 
 Quando um usuário de infraestrutura multi-nuvem precisa alternar entre diversos consoles de provedores de nuvem, o processo de login com diversas credenciais em diversos consoles gera um gasto de tempo e pode incorrer em erros de digitação de logins e senhas.
 
@@ -152,6 +160,8 @@ A funcionalidade Switch Roles possibilita a um usuário alternar tanto seu níve
 Com esta nova funcionalidade um único usuário poderá acessar, por exemplo, a nuvem Azure e a nuvem AWS com a possibilidade de ter responsabilidades, permissões e níveis de acesso completamente diferentes e específicos para cada um dos ambientes dos provedores de nuvem pública.
 
 A personalização das permissões de atividades que o usuário poderá possuir será esclarecido no tópico **Perfil de Permissionamento**, neste documento.
+
+----
 
 Fluxos de Trabalho - Workflows
 ==============================
@@ -278,6 +288,8 @@ Antes da execução do script, o usuário pode clicar com o cursor do mouse sobr
 
 A Plataforma uCloud permite ao usuário adicionar a quantidade de campos desejados e suas *tags/etiquetas* para a execução de uma Tarefas Associada. Adicionalmente permite que o usuário configure quais tags/etiquetas são obrigatórias seu preenchimento, ou personalizar com um conteúdo inicial que será assumido como padrão/default.
 
+----
+
 Catálogo de Serviços
 ====================
 
@@ -357,6 +369,8 @@ Com esta nova funcionalidade pode-se comprovar o elevado nível em que atingimos
 
 O custo mensal que decorre da existência deste recurso de máquina virtual, será apresentado na Fatura Mensal visualizada no menu **Financeiro**.
 
+----
+
 Perfil de Permissionamento
 ==========================
 
@@ -406,7 +420,7 @@ O usuário Josué está vinculado a dois contratos diferentes e possui a capacid
 Ainda para ilustrar este exemplo, com a nova implementação de Perfil de Permissionamento, seria possível criar diferentes conjuntos de permissões e vincular cada conjunto (Perfil de Permissionamento) a cada usuário e provisionar um nível de granularidade bem específico.
 
 Cenário exemplo (AWS):
-++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~
 
 +-------------------------------+-----------+--------------------+------------+
 | Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão  |
@@ -426,7 +440,7 @@ Atualmente é possível provisionar quatro (04) Perfis de Permissionamento difer
 Vejamos o exemplo do usuário **Josué** que possui características diferentes para cada contrato.
 
 Cenário Exemplo (AZURE e AWS):
-++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +-------------------------------+-----------+--------------------+-------------+
 | Perfil de Permissionamento    | Usuário   | Virtual Datacenter | Permissão   |
@@ -440,6 +454,8 @@ Este é um exemplo da simplicidade e da transparência que advém da ampliação
 Anteriormente o usuário teria de ter duas credenciais diferentes (ex: ``josue.aws/senhaABC`` e ``josue.azure/senha123``) e efetuar diversas sessões de login diferentes na Plataforma uCloud.
 
 Com a combinação do novo Perfil de Permissionamento em conjunto da funcionalidade Switch Roles será possível aplicar esta mudança de tipos de permissões sem a necessidade de troca do usuário, isso será feito com um através da seleção de contrato e/ou container que este usuário deseja acessar.
+
+----
 
 Conclusão
 =========
