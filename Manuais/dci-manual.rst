@@ -51,6 +51,7 @@ Após essa compra o usuário recebe as suas credenciais de acesso, enviadas dire
 
 .. image:: /figuras/fig_dci/001_log_in.png
     :alt: login
+    :scale: 80 %
     :align: center
 ======
 
@@ -105,7 +106,8 @@ Para a completa visualização dos serviços do DCI existem alguns menus na late
 
 
 .. image:: /figuras/fig_dci/003_menu_admin.png
-    :alt: menu administração 
+    :alt: menu administração
+    :scale: 80 % 
     :align: center
 ======
 
@@ -131,7 +133,8 @@ Este menu contém submenus que possibilitam visualizar:
   * Excursionamentos. 
 
 .. image:: /figuras/fig_dci/004_menu_dci.png
-    :alt: menu dci 
+    :alt: menu dci
+    :scale: 80 % 
     :align: center
 ======
 
