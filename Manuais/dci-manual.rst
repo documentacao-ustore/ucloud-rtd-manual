@@ -71,12 +71,14 @@ Visão Geral
 Neste primeiro contato é importante entender o impacto de algumas ferramentas existentes no menu superior direito, exibido ao usuário no acesso, após seu login no DCI. 
   
 
-A imagem seguinte é um recorte do menu superior direito, ele demonstra componentes relevantes ao usuário, detalhados a seguir como: 
+A imagem seguinte é um recorte do menu superior direito, ele demonstra componentes relevantes ao usuário, detalhados a seguir como:
+
+
   * Nome; 
   * E-mail;
   * Configurações de conta;
   * Acesso a este manual de funcionalidades;
-  * Logout
+  * Logout.
 
 
 .. image:: /figuras/fig_dci/002_nome_config_manual_logout.png
