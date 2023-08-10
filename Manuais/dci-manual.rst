@@ -258,7 +258,7 @@ Na sequência, a tela circuitos exibe separadamente em oito colunas informativas
 Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
 
 
-.. image:: /figuras/fig_dci/009_circuito_cardhistorico.png
+.. image:: /figuras/fig_dci/009_circuito_card_histórico.png
     :alt: Circuito card historico
     :align: center
 ======
@@ -269,8 +269,8 @@ Além disso, é permitido realizar algumas operações dentro do circuito, como 
 ----
 
 
-Menu Tarefas
-------------
+Menu **Tarefas**
+----------------
 
 Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
 
