@@ -51,7 +51,7 @@ Após essa compra o usuário recebe as suas credenciais de acesso, enviadas dire
 
 .. image:: /figuras/fig_dci/001_log_in.png
     :alt: login
-    :scale: 80 %
+    :scale: 100 %
     :align: center
 ======
 
@@ -98,43 +98,42 @@ A imagem seguinte é um recorte do menu superior direito, ele demonstra componen
 ----
 
 
-Menu Administração
-------------------
+Menu **Administração**
+----------------------
 
 Para a completa visualização dos serviços do DCI existem alguns menus na lateral esquerda da plataforma, neste é possível encontrar informações valiosas ao produto.
   
-
-
-.. image:: /figuras/fig_dci/003_menu_admin.png
-    :alt: menu administração
-    :scale: 80 % 
-    :align: center
-======
-
 Ao acessar este menu de Administração é possível o usuário operacionalizar os submenus: 
 
   * Usuários;
   * Grupos;
   * Contratos.
 
+.. image:: /figuras/fig_dci/003_menu_admin.png
+    :alt: menu administração
+    :scale: 100 % 
+    :align: center
+======
+
 .. hyperlink
 
 .. https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao
 
-----
 
-**Menu DCI**
+Menu **DCI**
 ------------
 
-Este menu contém submenus que possibilitam visualizar:
+Este menu contém três submenus que possibilitam visualizar:
 
   * Portas;
   * Circuitos;
   * Excursionamentos. 
 
+Na sequência cada um destes submenus é detalhado.
+
 .. image:: /figuras/fig_dci/004_menu_dci.png
     :alt: menu dci
-    :scale: 80 % 
+    :scale: 100 % 
     :align: center
 ======
 
@@ -143,7 +142,7 @@ Submenu Portas
 ~~~~~~~~~~~~~~
 
 
-Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se observar as ações a serem tomadas com cada item. 
+Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam as informações sobre cada uma das portas. 
 
 
 .. image:: /figuras/fig_dci/005_menu_portas.png
@@ -153,7 +152,7 @@ Nesta tela é possível visualizar seus recursos de portas, além disso, pode-se
 
 Três funcionalidades são apresentadas: 
 
-  * O botão para ``Exibir recursos desabilitados``; 
+  * O botão para ``Incluir recursos desabilitados``; 
   * A ação de ``Procurar``;
   * O botão para atualização da página ``Refresh``.
 
@@ -168,7 +167,7 @@ As informações das portas, são divididas em seis colunas e apresentadas, conf
 
 
 
-Ao selecionar uma porta, é possível visualizar os detalhes de forma completa. A nova página apresenta três funcionalidades para ``Baixar LOA``, ``Reenviar LOA`` e o botão de ``Confirmado``.
+Ao selecionar uma porta, é possível visualizar os detalhes de forma completa, esta nova página apresenta em seu cabeçalho algumas opções acionadas pelos botões de ``Voltar`` ,  ``Baixar LOA``, ``Reenviar LOA`` e  ``Confirmado``, no corpo da tela estão distribuídos os *cards* a seguir descritos. 
 
 .. image:: /figuras/fig_dci/006_menu_porta_spo.png
     :alt: Menu porta spo 
@@ -181,6 +180,7 @@ O submenu Portas exibe alguns *cards* categorizados com as informações:
   * Vlans;
   * Histórico.
 
+----
 
 *Card* Geral
 """"""""""""
@@ -202,9 +202,10 @@ Os elementos deste *card* “Geral” são divididos em catorze tipos:
   * Data de criação;
   * Data de alocação.
 
+----
  
 *Card* Vlans
-""""""""""
+""""""""""""
 
 A funcionalidade de atualização da página ``Refresh`` é apresentada, e as informações são divididas em quatro colunas: 
 
@@ -215,6 +216,7 @@ A funcionalidade de atualização da página ``Refresh`` é apresentada, e as in
 
 As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100 linhas.
 
+----
 
 Submenu Circuitos
 ~~~~~~~~~~~~~~~~~~
@@ -253,10 +255,12 @@ Na sequência, a tela circuitos exibe separadamente em oito colunas informativas
 
 Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
 
-.. image:: /figuras/fig_dci/009_circuito_card_histórico.png
-    :alt: Circuito card histórico
+
+.. image:: /figuras/fig_dci/009_circuito_cardhistorico.png
+    :alt: Circuito card historico
     :align: center
 ======
+
 
 Além disso, é permitido realizar algumas operações dentro do circuito, como por exemplo, a alteração de VLAN ou a mudança de tipo. 
 
@@ -268,17 +272,17 @@ Menu Tarefas
 
 Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
 
+.. image:: /figuras/fig_dci/010_menu_tarefas.png
+    :alt: Menu Tarefas 
+    :align: center
+======
+
 
 Painel de Tarefas
 ~~~~~~~~~~~~~~~~~
 
 
 Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. 
-
-.. image:: /figuras/fig_dci/010_menu_tarefas.png
-    :alt: Menu Tarefas 
-    :align: center
-======
 
 Este menu possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
 
