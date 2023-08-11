@@ -68,10 +68,10 @@ Visão Geral
 -----------
 
 
-Neste primeiro contato é importante entender o impacto de algumas ferramentas existentes no menu superior direito, exibido ao usuário no acesso, após seu login no DCI. 
+Neste primeiro contato é importante entender o impacto de algumas ferramentas existentes no menu superior direito, exibido ao usuário após seu login no DCI. 
   
 
-A imagem seguinte é um recorte do menu superior direito, ele demonstra componentes relevantes ao usuário, detalhados a seguir como:
+A imagem seguinte é um recorte do menu superior direito, ele demonstra componentes relevantes ao usuário, como nome, e-mail, configurações de conta, acesso a este manual de funcionalidades e logout, cada um descrito em detalhe a seguir.
 
 
   * Nome; 
@@ -155,8 +155,8 @@ Este submenu possibilita visualizar os recursos de portas, além disso, pode-se 
 Três funcionalidades são apresentadas: 
 
   * O botão para ``Incluir recursos desabilitados``; 
-  * A ação de ``Procurar``;
-  * O botão para atualização da página ``Refresh``.
+  * A ação de ``Procurar``: sinalizado pela lupa que indica ao usuário a possibilidade de busca;
+  * O botão para atualização da página ao clicar em ``Refresh``.
 
 As informações das portas, são divididas em seis colunas e apresentadas, conforme mencionadas abaixo:
 
@@ -169,14 +169,14 @@ As informações das portas, são divididas em seis colunas e apresentadas, conf
 
 
 
-Ao selecionar uma porta, é possível visualizar os detalhes de forma completa, esta nova página apresenta em seu cabeçalho algumas opções acionadas pelos botões de ``Voltar`` ,  ``Baixar LOA``, ``Reenviar LOA`` e  ``Confirmado``, no corpo da tela estão distribuídos os *cards* a seguir descritos. 
+Ao selecionar uma porta, é possível visualizar os detalhes de forma completa, esta nova página apresenta em seu cabeçalho algumas opções acionadas pelos botões de ``Voltar`` ,  ``Baixar LOA``, ``Reenviar LOA`` e  ``Confirmado``, no corpo da tela estão distribuídos os *cards* descritos na sequência. 
 
 .. image:: /figuras/fig_dci/006_menu_porta_spo.png
     :alt: Menu porta spo 
     :align: center
 ======
 
-O submenu Portas exibe alguns *cards* categorizados com as informações: 
+O submenu Portas exibe três *cards* categorizando relevantes informações: 
 
   * Geral;
   * Vlans;
@@ -187,7 +187,14 @@ O submenu Portas exibe alguns *cards* categorizados com as informações:
 *Card* Geral
 """"""""""""
 
-Os elementos deste *card* “Geral” são divididos em catorze tipos:
+Este *card* está contido no submenu Portas, menu DCI. Ele apresenta as principais informações desta Porta.
+
+.. image:: /figuras/fig_dci/006_a_portas_card_geral.png
+    :alt: card geral 
+    :align: center
+======
+
+ Após preenchidos os catorze elementos, listados na sequência, eles devem exibir um panorama geral ao usuário, inclusive a data de criação e alocação desta porta, como mostra o exemplo acima: 
 
   * Usuário;
   * Nome da empresa;
@@ -209,7 +216,16 @@ Os elementos deste *card* “Geral” são divididos em catorze tipos:
 *Card* Vlans
 """"""""""""
 
-A funcionalidade de atualização da página ``Refresh`` é apresentada, e as informações são divididas em quatro colunas: 
+O segundo *card* mostrado neste submenu Portas, localizado no lado direito da tela, além das informações contém um botão de ação de coloração verde. 
+
+
+.. image:: /figuras/fig_dci/006_b_portas_card_vlans.png
+    :alt: card vlans 
+    :align: center
+======
+
+
+O *card* Vlans exibe no lado direito superior uma funcionalidade de atualização da página que pode ser acionada pelo botão ``Refresh``, em seguida as informações são divididas em quatro colunas: 
 
   * Vlans em Uso;
   * Circuitos;
@@ -220,11 +236,23 @@ As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100 lin
 
 ----
 
+*Card* Histórico
+""""""""""""""""
+
+.. image:: /figuras/fig_dci/009_circuito_card_histórico.png
+    :alt: Circuito card historico
+    :align: center
+======
+
+.. note:: conteúdo em elaboração.
+
+----
+
 Submenu Circuitos
 ~~~~~~~~~~~~~~~~~~
 
 
-Esta tela permite visualizar seus recursos de circuitos, possibilitando observar as ações a serem tomadas com cada item. 
+Esta tela permite visualizar a lista de circuitos, possibilitando observar as ações a serem tomadas com cada item, distribuídos nos botões e colunas. 
 
 
 .. image:: /figuras/fig_dci/007_menu_circuitos.png
@@ -232,13 +260,15 @@ Esta tela permite visualizar seus recursos de circuitos, possibilitando observar
     :align: center
 ======
 
-Nesta tela, inicialmente três funcionalidades são apresentadas em formato de botão, são elas:
+Nesta tela, inicialmente pode-se observar as ações disponibilizadas pela aplicação, como incluir recursos desabilitados, buscar uma informação, atualizar a tela após proceder alteração e oito colunas que categorizam as informações sobre cada um dos circuitos.
+
+Três funcionalidades são apresentadas:
   
-  * Botão ``Exibir recursos desabilitados``;
+  * Botão ``Incluir recursos desabilitados``;
   * A ação de ``Procurar``: o sinal da lupa indica ao usuário a ação de buscar algo;
   * Botão ``Refresh``: indica que ao clicar neste botão a página é atualizada.
 
-Na sequência, a tela circuitos exibe separadamente em oito colunas informativas, listadas abaixo:
+Na sequência, a tela circuitos exibe separadamente as oito colunas informativas, listadas abaixo:
 
 
   * Designação;
@@ -255,7 +285,7 @@ Na sequência, a tela circuitos exibe separadamente em oito colunas informativas
     :align: center
 ======
 
-Ao clicar em cada circuito individualmente, é possível visualizar as informações de histórico de ações realizadas e seu histórico de excursionamento nesse circuito. 
+Ao clicar em cada circuito individualmente, é possível visualizar detalhes das informações, iniciando pelo botão com a ação de ``Voltar``, o *card* Geral, *card* Configurações, *card* Excursionamentos e por último, o *card* Histórico. 
 
 
 .. image:: /figuras/fig_dci/009_circuito_card_histórico.png
