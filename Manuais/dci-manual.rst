@@ -35,7 +35,7 @@ Apresentação
 
 A rede definida por *software* (SDN) é uma arquitetura que permite um gerenciamento e controle mais eficiente dos recursos de rede, ela delimita o plano de controle do plano de dados. 
 
-Em termos descomplicados, significa que as funções de controle e dados da rede estão separadas, o que permite maior flexibilidade e automação no gerenciamento de rede.
+Em termos descomplicados, comunicação entre datacenters significa que as funções de controle e dados da rede estão separadas, o que permite maior flexibilidade e automação no gerenciamento de rede.
 
 
 ----
@@ -44,7 +44,7 @@ Como logar no DCI
 -----------------
 
 
-Para ter acesso à plataforma é necessário ter realizado uma primeira compra no Painel do Cliente. 
+Para ter acesso à plataforma é necessário ter realizado uma "Primeira compra" no Painel do Cliente. 
 
 Após essa compra o usuário recebe as suas credenciais de acesso, enviadas diretamente ao seu e-mail registrado. 
 
@@ -71,7 +71,7 @@ Visão Geral
 Neste primeiro contato é importante entender o impacto de algumas ferramentas existentes no menu superior direito, exibido ao usuário após seu login no DCI. 
   
 
-A imagem seguinte é um recorte do menu superior direito, ele demonstra componentes relevantes ao usuário, como nome, e-mail, configurações de conta, acesso a este manual de funcionalidades e logout, cada um descrito em detalhe a seguir.
+A imagem seguinte é um recorte do menu superior direito, apresentado em todas as telas disponíveis ao usuário. Este menu demonstra componentes relevantes como nome, e-mail, configurações de conta, acesso a este manual de funcionalidades e logout, cada um descrito em detalhe a seguir.
 
 
   * Nome; 
@@ -87,7 +87,7 @@ A imagem seguinte é um recorte do menu superior direito, ele demonstra componen
 ======
 
  
-**Ícone de notificação**  |icone_tarefas|: Este ícone é um ponto relevante para a visualização de todas as atividades que são realizadas no Portal. Através deste é possível observar as ações mais recentes, refletidas em forma de notificação na tela de Tarefas.
+**Ícone de notificação**  |icone_tarefas|: Este ícone é um ponto relevante para a visualização de todas as atividades que são realizadas no portal. Através deste é possível observar as ações mais recentes, refletidas em forma de notificação na tela "Tarefas".
 
 **Nome**: Exibe o nome do usuário logado e seu endereço de e-mail.
   
@@ -113,7 +113,7 @@ Ao acessar este menu de Administração é possível o usuário operacionalizar 
 
 .. image:: /figuras/fig_dci/003_menu_admin.png
     :alt: menu administração
-    :scale: 100 % 
+    :scale: 80 % 
     :align: center
 ======
 
@@ -135,7 +135,7 @@ Na sequência cada um destes submenus é detalhado.
 
 .. image:: /figuras/fig_dci/004_menu_dci.png
     :alt: menu dci
-    :scale: 100 % 
+    :scale: 80 % 
     :align: center
 ======
 
@@ -144,7 +144,7 @@ Submenu Portas
 ~~~~~~~~~~~~~~
 
 
-Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam as informações sobre cada uma das portas. 
+Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do Datacenter, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
 
 
 .. image:: /figuras/fig_dci/005_menu_portas.png
@@ -152,9 +152,10 @@ Este submenu possibilita visualizar os recursos de portas, além disso, pode-se 
     :align: center
 ======
 
+
 Três funcionalidades são apresentadas: 
 
-  * O botão para ``Incluir recursos desabilitados``; 
+  * O botão para ``Incluir recursos desabilitados``: Ao clicar neste botão o usuário pode visualizar os recursos que estão desabilitados; 
   * A ação de ``Procurar``: sinalizado pela lupa que indica ao usuário a possibilidade de busca;
   * O botão para atualização da página ao clicar em ``Refresh``.
 
@@ -236,23 +237,23 @@ As informações sobre as Vlans são exibidas em blocos de 10, 25, 50 ou 100 lin
 
 ----
 
-*Card* Histórico
-""""""""""""""""
+.. *Card* Histórico
+.. """"""""""""""""
 
-.. image:: /figuras/fig_dci/009_circuito_card_histórico.png
+.. .. image:: /figuras/fig_dci/009_circuito_card_histórico.png
     :alt: Circuito card historico
     :align: center
-======
+.. ======
 
-.. note:: conteúdo em elaboração.
+.. .. note:: conteúdo em elaboração.
 
-----
+.. ----
 
 Submenu Circuitos
 ~~~~~~~~~~~~~~~~~~
 
 
-Esta tela permite visualizar a lista de circuitos, possibilitando observar as ações a serem tomadas com cada item, distribuídos nos botões e colunas. 
+Esta tela permite visualizar a lista de Circuitos, possibilitando observar as ações a serem tomadas com cada item, distribuídos nos botões e colunas. 
 
 
 .. image:: /figuras/fig_dci/007_menu_circuitos.png
@@ -264,7 +265,7 @@ Nesta tela, inicialmente pode-se observar as ações disponibilizadas pela aplic
 
 Três funcionalidades são apresentadas:
   
-  * Botão ``Incluir recursos desabilitados``;
+  * Botão ``Incluir recursos desabilitados``: Ao clicar neste botão o usuário pode visualizar os recursos que estão desabilitados;
   * A ação de ``Procurar``: o sinal da lupa indica ao usuário a ação de buscar algo;
   * Botão ``Refresh``: indica que ao clicar neste botão a página é atualizada.
 
@@ -280,21 +281,154 @@ Na sequência, a tela circuitos exibe separadamente as oito colunas informativas
   * *Status*;
   * *Golden Jumper*.
 
+
+
+Ao clicar em cada circuito individualmente, é possível visualizar detalhes das informações, iniciando pelo botão com a ação de ``Voltar``, o *card* Geral, *card* Configurações, *card* Excursionamentos e por último, o *card* Histórico. 
+
 .. image:: /figuras/fig_dci/008_menu_circuito_spo.png
     :alt: Menu Circuito spo 
     :align: center
 ======
 
-Ao clicar em cada circuito individualmente, é possível visualizar detalhes das informações, iniciando pelo botão com a ação de ``Voltar``, o *card* Geral, *card* Configurações, *card* Excursionamentos e por último, o *card* Histórico. 
+Neste detalhamento do circuito listado, o usuário visualiza quatro *cards* que categorizam informações distintas:
 
+  * Geral;
+  * Configurações;
+  * Excursionamentos:
+  * Histórico.
+
+----
+
+*Card* Geral
+""""""""""""
+Este *card* está contido no submenu Circuito, apresenta as principais informações deste.
+
+.. image:: /figuras/fig_dci/008_a_menu_circuito_card_geral.png
+    :alt: circuito card geral
+    :align: center
+======
+
+Composto de oito elementos como mostra o exemplo acima, eles refletem o panorama geral do circuito ao usuário, inclusive as portas que ligam-se através do circuito, listados na sequência:
+
+  * Usuário;
+  * Nome da empresa;
+  * CPF/CNPJ;
+  * Designação;
+  * Data da criação;
+  * Data da ativação;
+  * Porta origem;
+  * Porta destino.
+
+----
+
+*Card* Configurações
+""""""""""""""""""""
+
+O segundo *card* do submenu Circuito, apresenta as principais informações deste.
+
+.. image:: /figuras/fig_dci/008_b_menu_circuito_card_configurações.png
+    :alt: circuito card configurações
+    :align: center
+======
+
+O *card* Configurações disponibiliza no seu lado superior direito a funcionalidade de atualizar a página, ela pode ser acionada pelo botão ``Refresh``. Este *card* disponibiliza algumas informações como:
+
+  * Status: “Ativado” e na sequência o botão ``Bloquear``;
+  * O motivo do bloqueio:
+         * Tipo e na sequência o botão ``Alterar tipo``;
+         * Banda atual;
+         * Vlan porta origem e na sequência o botão ``Alterar vlans``;
+         * Vlan porta destino.
+
+----
+
+*Card* Excursionamentos
+"""""""""""""""""""""""
+
+O terceiro *card* do submenu Circuito, apresenta as principais informações deste.
+
+.. image:: /figuras/fig_dci/008_c_menu_circuito_card_excursionamentos.png
+    :alt: circuito card excursionamentos
+    :align: center
+======
+
+Ao visualizar o *card* Excursionamentos neste é permitido utilizar os dois botões localizados à direita, são eles: ``+Criar excursionamento`` e ```Refresh``. Este *card* exibe sete colunas contendo informações como:
+
+  * Banda;
+  * Data de início estimada;
+         * Data final estimada;
+         * Data de início;
+         * Data final;
+         * Status;
+         * Ação.
+
+----
+
+*Card* Histórico
+""""""""""""""""
+O último *card* do submenu Circuito, apresenta as seguintes informações sobre o histórico de ações realizadas: 
 
 .. image:: /figuras/fig_dci/009_circuito_card_histórico.png
     :alt: Circuito card historico
     :align: center
 ======
 
+  * Operação:
+  * Autor;
+  * Data e Hora. 
 
-Além disso, é permitido realizar algumas operações dentro do circuito, como por exemplo, a alteração de VLAN ou a mudança de tipo. 
+Ao final é exibido um bloco com a opção de selecionar as informações em blocos de 10, 25, 50 ou 100 linhas.
+
+----
+
+Submenu Excursionamentos
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Card* Geral
+""""""""""""
+
+Este submenu possibilita a visualização dos Excursionamentos: finalizados, interrompidos, pendentes, agendados ou ativados do usuário, nele é possível verificar além dos status do excursionamento, a quantidade de banda a ser expandida no circuito e a banda base do mesmo, tendo-se as datas de começo e finalização estimadas e as datas em que o excursionamento realmente aconteceu ou finalizou, as portas e suas Vlans também estão disponíveis para visualização.
+
+Nesta tela são exibidas as opções para duas funcionalidades:
+
+  * Botão ``Refresh``: indica que ao clicar neste botão a página é atualizada;
+  * Botão de ação ``+ Criar Excursionamento``: o sinal de mais indica ao usuário que ao clicar pode criar algo.
+
+
+.. image:: /figuras/fig_dci/013_menu_excursionamentos.png
+    :alt: excursionamentos
+    :align: center
+======
+
+Para agendar um excursionamento é necessário clicar no botão ``+ Criar Excursionamento`` e preencher os campos no modal apresentado.
+
+
+.. image:: /figuras/fig_dci/013_submenu_criar_excursionamento_circuito.png
+    :alt: criar excursionamento circuito
+    :align: center
+======
+
+Ao visualizar este novo modal para criar excursionamento o usuário observa os seguintes campos:
+
+  * Data de início;
+  * Data final e horário;
+  * Circuito.
+
+No campo "data de início" o usuário seleciona a data pretendida para o agendamento do começo deste excursionamento e a data desejada para o término deste. Além de informar no espaço seguinte sobre qual circuito esse excursionamento deve ser executado.  
+
+Após o preenchimento desses dados é exibido ao usuário a capacidade base do circuito selecionado, além da capacidade máxima possível para aquele circuito e o campo "Banda" que permite selecionar a banda estimada, de acordo com a imagem seguinte: 
+
+
+.. image:: /figuras/fig_dci/013_submenu_criar_excursionamento_banda.png
+    :alt: criar excursionamento banda
+    :align: center
+======
+
+Ao finalizar o preenchimento com os dados necessários, o usuário pode clicar no botão ``Criar excursionamento`` e seguir à próxima etapa deste fluxo. 
+
+.. note:: O botão ``Cancelar`` pode ser acionado a qualquer momento, no caso da desistência desta criação.
+
+Após criado o excursionamento, a operação está completa. Ela possibilita ao usuário verificar o mesmo no submenu "Excursionamento" com todas as suas informações, juntamente com a opção de cancelar tal excursionamento.  
 
 ----
 
@@ -304,17 +438,18 @@ Menu **Tarefas**
 
 Na aba de tarefas é possível acompanhar todas as operações realizadas dentro da plataforma.
 
-.. image:: /figuras/fig_dci/010_menu_tarefas.png
-    :alt: Menu Tarefas 
-    :align: center
-======
-
+----
 
 Painel de Tarefas
 ~~~~~~~~~~~~~~~~~
 
 
 Como supracitado, a tela de tarefas é importante para acompanhar o andamento dos pedidos realizados na plataforma. 
+
+.. image:: /figuras/fig_dci/010_menu_tarefas.png
+    :alt: Menu Tarefas 
+    :align: center
+======
 
 Este menu possibilita visualizar quaisquer casos de erro, acompanhar o *status* dos pedidos e cancelar algumas operações. 
 
@@ -334,8 +469,8 @@ A tela acima apresenta na parte superior direita o símbolo de tarefas, o nome d
 As tarefas são apresentadas em formato de lista, categorizadas em abas contendo as informações sobre: 
 
        * Tarefas;
-       * Aprovações Pendentes;
-       * Tarefas Agendadas.
+       * Aprovações pendentes;
+       * Tarefas agendadas.
  
 .. image:: /figuras/fig_dci/012_menu_tarefas_abas_listas.png
     :alt: Lista de tarefas 
@@ -383,14 +518,14 @@ O objetivo deste estado é direcionar a ação de acompanhamento, de acordo com 
 Conclusão
 ---------
 
-Este documento apresentou uma descrição breve das funcionalidades contidas no produto Data Center Interconnnect - DCI, desenvolvido pela Ustore.
+Este documento apresentou a descrição das funcionalidades contidas no produto **Data Center Interconnect - DCI**, desenvolvido pela Ustore.
 
 
 ====
 
 **Equipe Ustore**
 
-DCI Manual de funcionalidades - v.4 - Revisão 25/07/2023 - Criado em 08/02/2023.
+DCI Manual de funcionalidades - v.5 - Atualização 25/07 Revisão 03/08/2023 - Criado em 08/02/2023.
 
 
 
