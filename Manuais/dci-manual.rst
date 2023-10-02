@@ -72,14 +72,14 @@ Visão Geral
 Neste primeiro contato é importante entender o impacto de algumas ferramentas existentes no menu superior direito, exibido ao usuário após seu login no DCI. 
   
 
-A imagem seguinte é um recorte do menu superior direito, apresentado em todas as telas disponíveis ao usuário. Este menu demonstra componentes relevantes como nome, e-mail, configurações de conta, acesso a este manual de funcionalidades e logout, cada um descrito em detalhe a seguir.
+A imagem seguinte é um recorte do menu superior direito, apresentado em todas as telas disponíveis ao usuário. Este menu demonstra componentes relevantes como nome, e-mail, configurações de conta, acesso a este manual de funcionalidades e *logout*, cada um descrito em detalhe a seguir.
 
 
   * Nome; 
   * E-mail;
   * Configurações de conta;
   * Acesso a este manual de funcionalidades;
-  * Logout.
+  * *Logout*.
 
 
 .. image:: /figuras/fig_dci/002_nome_config_manual_logout.png
@@ -147,7 +147,7 @@ Submenu Portas
 
 Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. 
 
-As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do Datacenter, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
+As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do *Datacenter*, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
 
 
 .. image:: /figuras/fig_dci/005_menu_portas.png
@@ -168,7 +168,7 @@ As informações das portas, são divididas em seis colunas e apresentadas, conf
   * *Status*;
   * Banda;
   * Tipo;
-  * *Data Center*;
+  * *Datacenter*;
   * *Golden Jumper*.
 
 
@@ -209,7 +209,7 @@ Este *card* está contido no submenu Portas, menu DCI. Ele apresenta as principa
   * Roteador porta;
   * Posição do DGO;
   * *Status*;
-  * Datacenter;
+  * *Datacenter*;
   * Cidade;
   * Tipo de porta;
   * Data de criação;
@@ -362,7 +362,7 @@ Ao visualizar o *card* Excursionamentos neste é permitido utilizar os dois bot�
          * Data final estimada;
          * Data de início;
          * Data final;
-         * Status;
+         * *Status*;
          * Ação.
 
 ----
@@ -489,7 +489,7 @@ A aba "Tarefas" exibe onze tipos de informações divididas em colunas:
   * Designação;
   * Razão social;
   * Autor;
-  * *Erro*;
+  * Erro;
   * Progresso em porcentagem;
   * Data de início;
   * Duração;
