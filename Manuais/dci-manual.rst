@@ -1,6 +1,7 @@
 
-.. image:: /figuras/index/_ustore_pequena.png
-    :alt: logo ustore
+.. image:: /figuras/fig_dci/014_dci_logomarca.png
+    :alt: logo dci
+    :scale: 80 %
     :align: center
 ======
 
@@ -144,7 +145,9 @@ Submenu Portas
 ~~~~~~~~~~~~~~
 
 
-Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do Datacenter, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
+Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. 
+
+As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do Datacenter, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
 
 
 .. image:: /figuras/fig_dci/005_menu_portas.png
@@ -377,7 +380,7 @@ O último *card* do submenu Circuito, apresenta as seguintes informações sobre
   * Autor;
   * Data e Hora. 
 
-Ao final é exibido um bloco com a opção de selecionar as informações em blocos de 10, 25, 50 ou 100 linhas.
+Ao final é exibido um agrupamento com a opção de selecionar as informações em blocos de 10, 25, 50 ou 100 linhas.
 
 ----
 
@@ -387,7 +390,9 @@ Submenu Excursionamentos
 *Card* Geral
 """"""""""""
 
-Este submenu possibilita a visualização dos Excursionamentos: finalizados, interrompidos, pendentes, agendados ou ativados do usuário, nele é possível verificar além dos status do excursionamento, a quantidade de banda a ser expandida no circuito e a banda base do mesmo, tendo-se as datas de começo e finalização estimadas e as datas em que o excursionamento realmente aconteceu ou finalizou, as portas e suas Vlans também estão disponíveis para visualização.
+Este submenu possibilita a visualização dos Excursionamentos: finalizados, interrompidos, pendentes, agendados ou ativados do usuário. 
+
+Nele é possível verificar além dos status do excursionamento, a quantidade de banda a ser expandida no circuito e a banda base do mesmo, tendo-se as datas de começo e finalização estimadas e as datas em que o excursionamento realmente aconteceu ou finalizou, as portas e suas Vlans também estão disponíveis para visualização.
 
 Nesta tela são exibidas as opções para duas funcionalidades:
 
@@ -424,7 +429,7 @@ Após o preenchimento desses dados é exibido ao usuário a capacidade base do c
     :align: center
 ======
 
-Ao finalizar o preenchimento com os dados necessários, o usuário pode clicar no botão ``Criar excursionamento`` e seguir à próxima etapa deste fluxo. 
+Ao completar a inserção dos dados necessários, o usuário pode clicar no botão ``Criar excursionamento`` e seguir à próxima etapa deste fluxo. 
 
 .. note:: O botão ``Cancelar`` pode ser acionado a qualquer momento, no caso da desistência desta criação.
 
@@ -525,7 +530,7 @@ Este documento apresentou a descrição das funcionalidades contidas no produto 
 
 **Equipe Ustore**
 
-DCI Manual de funcionalidades - v.5 - Atualização 25/07 Revisão 03/08/2023 - Criado em 08/02/2023.
+DCI Manual de funcionalidades - v.5 - Atualização 28/09/2023 Revisão 03/08/2023 - Criado em 08/02/2023.
 
 
 
