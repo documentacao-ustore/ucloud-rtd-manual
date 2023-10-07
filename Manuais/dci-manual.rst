@@ -145,7 +145,7 @@ Submenu Portas
 ~~~~~~~~~~~~~~
 
 
-Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponbilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. 
+Este submenu possibilita visualizar os recursos de portas, além disso, pode-se observar as ações disponibilizadas como incluir recursos desabilitados ao listar, buscar uma informação, atualizar a tela após modificação e seis colunas que categorizam cada uma das portas. 
 
 As portas ligam-se por intermédio dos Circuitos, elas podem ou não ter circuitos, todas as portas estão dentro do *Datacenter*, ao comprar a porta, o cliente recebe a LOA (carta de autorização) ela é necessária para o fluxo do processo.
 
@@ -334,11 +334,11 @@ O segundo *card* do submenu Circuito, apresenta as principais informações dest
     :align: center
 ======
 
-O *card* Configurações disponibiliza no seu lado superior direito a funcionalidade de atualizar a página, ela pode ser acionada pelo botão ``Refresh``. Este *card* disponibiliza algumas informações como:
+O *card* Configurações disponibiliza no seu lado superior direito a funcionalidade de atualizar a página, ela pode ser acionada pelo botão ``Refresh``. Este *card* oferece algumas informações como:
 
-  * Status: “Ativado” e na sequência o botão ``Bloquear``;
+  * Status: “Ativado”, seguido do botão ``Bloquear``;
   * O motivo do bloqueio:
-         * Tipo e na sequência o botão ``Alterar tipo``;
+         * Tipo e o botão ``Alterar tipo``;
          * Banda atual;
          * Vlan porta origem e na sequência o botão ``Alterar vlans``;
          * Vlan porta destino.
@@ -355,7 +355,7 @@ O terceiro *card* do submenu Circuito, apresenta as principais informações des
     :align: center
 ======
 
-Ao visualizar o *card* Excursionamentos neste é permitido utilizar os dois botões localizados à direita, são eles: ``+Criar excursionamento`` e ```Refresh``. Este *card* exibe sete colunas contendo informações como:
+Ao visualizar o *card* Excursionamentos neste é permitido utilizar os dois botões localizados à direita, são eles: ``+Criar excursionamento`` e ``Refresh``. Este *card* exibe sete colunas contendo informações como:
 
   * Banda;
   * Data de início estimada;
@@ -413,13 +413,13 @@ Para agendar um excursionamento é necessário clicar no botão ``+ Criar Excurs
     :align: center
 ======
 
-Ao visualizar este novo modal para criar excursionamento o usuário observa os seguintes campos:
+Ao visualizar este novo modal para criar excursionamento o usuário observa o seguinte:
 
   * Data de início;
   * Data final e horário;
   * Circuito.
 
-No campo "data de início" o usuário seleciona a data pretendida para o agendamento do começo deste excursionamento e a data desejada para o término deste. Além de informar no espaço seguinte sobre qual circuito esse excursionamento deve ser executado.  
+Em "data de início" o usuário pode selecionar a data pretendida para o agendamento do começo deste excursionamento e a data desejada para o término deste. Além de informar no espaço seguinte sobre qual circuito esse excursionamento deve ser executado.  
 
 Após o preenchimento desses dados é exibido ao usuário a capacidade base do circuito selecionado, além da capacidade máxima possível para aquele circuito e o campo "Banda" que permite selecionar a banda estimada, de acordo com a imagem seguinte: 
 
@@ -507,10 +507,10 @@ O objetivo deste estado é direcionar a ação de acompanhamento, de acordo com 
 **Status de Sucesso** - exibido na coloração verde, significa que a operação foi concluída com sucesso.
  
   
-**Status de Falha** - apresentado na coloração vermelha, significa que ocorreu algum problema durante a operação. Na própria tarefa falhada é possível constatar qual é o motivo da irregularidade, através da coluna de "Erro".
+**Status de Falha** - apresentado na cor vermelha, significa que ocorreu algum problema durante a operação. Na própria tarefa falhada é possível constatar qual é o motivo da irregularidade, através da coluna de "Erro".
 
   
-**Status de Aprovada** - mostrada na coloração verde, significa que a operação ocorreu com sucesso. Porém depende de alguma ação do usuário, seja ele o "admin" ou "user": 
+**Status de Aprovada** - mostrada em verde, significa que a operação ocorreu com sucesso. Porém depende de alguma ação do usuário, seja ele o "admin" ou "user": 
 
     * Para casos como "Primeira Venda", fica pendente ao usuário a confirmação do *Golden Jumper* de ambas as portas. 
 
