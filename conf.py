@@ -19,12 +19,11 @@
 
 project = 'Documentação Ustore-BR'
 html_logo = './figuras/_ustore_w.png'
-copyright = '2022, Ustore Brasil'
+copyright = '2023, Ustore Brasil'
 author = 'Ustore Brasil'
 
 # The full version, including alpha/beta/rc tags
 release = '4.0'
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -40,7 +39,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 
 # -- Options for HTML output -------------------------------------------------
 
