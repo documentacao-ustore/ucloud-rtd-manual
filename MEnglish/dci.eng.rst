@@ -160,7 +160,7 @@ The ports information, are divided in six columns and presented, as mentioned ab
 * Datacenter
 * Golden Jumper
 
-When selecting a port, it is possible to view the details completely, this new page presents in its header some options actioned by the buttons to ``Back``, ``Download LOA``, ``Resend LOA`` and the ``Confirm`` button, on the screen body are distributed on the card described in the sequence..
+When selecting a port, it is possible to view the details completely, this new page presents in its header some options actioned by the buttons to ``Back``, ``Download LOA``, ``Resend LOA`` and the ``Confirm`` button, on the screen body are distributed on the card described in the sequence.
 
 .. image:: /figuras/fig_dci_ing/006_menu_port_spo.png
     :alt: port menu
@@ -344,7 +344,7 @@ History card
 
 The last card on the Circuits submenu, it presents the following information about the history of actions done:
 
-.. image:: /figuras/fig_dci_ing/009_circuit_card_history.png
+.. image:: /figuras/fig_dci_ing/009_menu_circuit_card_history.png
     :alt: Circuit history card 
     :align: center
 ======
