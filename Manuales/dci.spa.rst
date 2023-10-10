@@ -27,7 +27,7 @@ Introducción
 ------------
 
 
-Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect - DCI** de la plataforma Ustore.
+Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect - DCI** de la plataforma uCloud.
 
 
 ----
@@ -37,9 +37,9 @@ Presentación
 
 **Data Center Interconnect - DCI** es una solución de conectividad cuya red es definida por software. 
 
-Una red definida por software (una SDN) es una arquitectura de red que permite una gestión y control más eficientes de los recursos de red, ya que separa el plano de control del plano de datos.
+La red definida por software (SDN) es una arquitectura que permite una gestión y control más eficientes de los recursos de red, delimitando el plano de control del plano de datos.
 
-En términos más sencillos, significa que las funciones de control y datos de la red están separadas, lo que permite una mejor flexibilidad y automatización en la gestión de la red.
+En términos sencillos, la communicación entre *datacenters* significa que las funciones de control y datos de la red están separadas, lo que permite una mejor flexibilidad y automatización en la gestión de la red.
 
 ----
 
@@ -47,7 +47,7 @@ Cómo conectarse al DCI
 ----------------------
 
 
-Para acceder a la plataforma es necesario haber realizado una primera compra en el Panel del Cliente.
+Para acceder a la plataforma es necesario haber realizado una "Primera compra" en el Panel del Cliente.
 
 Tras esta compra, el usuario recibe sus credenciales de acceso, enviadas directamente a su correo electrónico registrado.
 
@@ -60,7 +60,7 @@ Tras esta compra, el usuario recibe sus credenciales de acceso, enviadas directa
 
 El usuario debe rellenar los campos ``login`` y ``contraseña`` con las credenciales recibidas del administrador de la plataforma.
 
-Haga clic en el botón ``Entrar``.
+Pulsar el botón ``Entrar``.
 
 Tras este procedimiento, la pantalla de inicio del Portal es presentada.
 
@@ -69,11 +69,10 @@ Tras este procedimiento, la pantalla de inicio del Portal es presentada.
 Visión General
 --------------
 
-Al principio, es importante comprender el impacto de algunas herramientas que aparecen en el menú superior derecho.
+Al principio, es importante comprender el impacto de algunas herramientas que aparecen en el menú superior derecho, que se muestra al usuario tras iniciar la sesión en el DCI.
 
-Así, el recorte del menú superior que se muestra en la siguiente imagen presenta componentes relevantes, que se describen detalladamente a continuación.
+La seguiente image es un fragmento del menú superior derecho, presentado en todas las pantallas disponibles para el usuario. Este menú muestra componentes relevantes como nombre, correo eletrónico, configuraciones de cuenta, manual de funcionalidades y salir cada uno descrito en detalle a continuación.
 
-.
   * Nombre; 
   * Correo electrónico;
   * Configuraciones de Cuenta;
@@ -87,7 +86,7 @@ Así, el recorte del menú superior que se muestra en la siguiente imagen presen
 ======
 
 
-**Icono de notificación** |icone_tarefas|   : Este icono es un punto importante para visualizar todas las actividades realizadas en el portal. Mediante este icono se pueden observar las acciones más recientes, reflejadas en forma de notificación en la pantalla "Tareas".
+**Icono de notificación** |icone_tarefas|: Este icono es un punto importante para visualizar todas las actividades realizadas en el portal. Mediante este icono se pueden observar las acciones más recientes, reflejadas en forma de notificación en la pantalla "Tareas".
 
 **Nombre**: Muestra el nombre del usuario conectado y su dirección de correo electrónico.
   
@@ -164,7 +163,7 @@ Las informaciones de los puertos se dividen en seis columnas y se presentan como
   * *Datacenter*;
   * *Golden Jumper*.
 
-Al seleccionar un puerto, es posible visualizar todos los detalles por completo. La cabecera de esta nueva página muestra algunas opciones, que se activan mediante los botones ``Volver``, ``Descargar LOA``, ``Reenviar LOA`` y ``Confirmado`, en el cuerpo de la pantalla están distribuidos los *cards* que se describen a continuación.
+Al seleccionar un puerto, es posible visualizar todos los detalles por completo. La cabecera de esta nueva página muestra algunas opciones, que se activan mediante los botones ``Volver``, ``Descargar LOA``, ``Reenviar LOA`` y ``Confirmado``, en el cuerpo de la pantalla están distribuidos los *cards* que se describen a continuación.
 
 
 .. image:: /figuras/fig_dci_spa/006_puertos_detalles.png
@@ -204,7 +203,7 @@ Una vez completados los catorce elementos que se enumeran a continuación, ésto
   * Enrutador Puerto;
   * Posición DGO;
   * *Status*;
-  * Datacenter;
+  * *Datacenter*;
   * Ciudad;
   * Tipo de puerto;
   * Fecha de creación;
@@ -346,11 +345,11 @@ El tercer *card* del submenú Circuito muestra las principales informaciones sob
 Al visualizar el *card* de Excursiones, se puede utilizar los dos botones situados a la derecha: ``+Crear Excursión`` y ``Actualizar``. Este *card* exhibe siete columnas que contienen informaciones tales como: 
 
 * Banda;
-  * Fecha de inicio estimada;
+* **Fecha de inicio estimada;**
          * Fecha final estimada
          * Fecha de inicio;
          * Fecha final;
-         * Status;
+         * *Status*;
          * Acción.
 
 ----
@@ -369,7 +368,7 @@ El último *card* del submenú Circuito muestra las siguientes informaciones sob
   * Operación:
   * Autor;
   * Fecha/Hora.
-  *Status
+  * *Status*
 
 Al final, se muestra un bloque con la opción de seleccionar las informaciones en bloques de 10, 25, 50 o 100 líneas.
 
@@ -426,7 +425,7 @@ Una vez creada la excursión, la operación está completa. Ésta permite al usu
 
 ----
 
-Menú Tareas
+Menú **Tareas**
 -----------
 
 En la pestaña de tareas es posible monitorizar todas las operaciones realizadas dentro de la plataforma.
