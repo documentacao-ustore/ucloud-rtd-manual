@@ -25,7 +25,7 @@ Introduction
 ------------
 
 
-This document consists of a manual with a brief description of the main functionalities contained in the **Data Center Interconnect - DCI** product, from the Ustore platform.
+This document consists of a manual with a brief description of the main functionalities contained in the **Data Center Interconnect - DCI** product, from the uCloud platform.
 
 ----
 
