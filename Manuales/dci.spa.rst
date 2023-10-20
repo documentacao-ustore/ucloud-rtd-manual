@@ -14,40 +14,39 @@
 
 ====
 
-Manual de funcionalidad  
-=======================
+DCI - Manual de Funcionalidades  
+===============================
 
 
 Soluciones en tecnología de la información que posibilitan implementar una arquitectura computacional escalable, sólida y confiable en nube híbrida.
+
 
 ====
 
 
 Introducción
-------------
+----------
 
-
-Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect - DCI** de la plataforma uCloud.
-
+Este documento consiste en un manual con una breve descripción de las principales funcionalidades contenidas en el producto **Data Center Interconnect – DCI** de la plataforma uCloud.
 
 ----
 
+
 Presentación
-------------------
+-------------
 
-**Data Center Interconnect - DCI** es una solución de conectividad cuya red es definida por software. 
+**Data Center Interconnect - DCI** es una solución de conectividad cuya red es definida por *software*.
 
-La red definida por software (SDN) es una arquitectura que permite una gestión y control más eficientes de los recursos de red, delimitando el plano de control del plano de datos.
+La red definida por *software* (SDN) es una arquitectura que permite una gestión y un control más eficientes de los recursos de red, delimitando el plan de control del plan de datos.
 
-En términos sencillos, la communicación entre *datacenters* significa que las funciones de control y datos de la red están separadas, lo que permite una mejor flexibilidad y automatización en la gestión de la red.
+En términos sencillos, la comunicación entre *datacenters* significa que las funciones de control y datos de la red están separadas, lo que permite una mayor flexibilidad y automatización en la gestión de la red.
 
 ----
 
 Cómo conectarse al DCI
-----------------------
+-------------------------
 
-
-Para acceder a la plataforma es necesario haber realizado una "Primera compra" en el Panel del Cliente.
+Para acceder a la plataforma es necesario haber realizado una “Primera compra” en el Panel del Cliente.
 
 Tras esta compra, el usuario recibe sus credenciales de acceso, enviadas directamente a su correo electrónico registrado.
 
@@ -57,8 +56,7 @@ Tras esta compra, el usuario recibe sus credenciales de acceso, enviadas directa
     :align: center
 ======
 
-
-El usuario debe rellenar los campos ``login`` y ``contraseña`` con las credenciales recibidas del administrador de la plataforma.
+El usuario debe rellenar los campos ``Usuario`` y ``Contraseña`` con las credenciales recibidas del administrador de la plataforma. 
 
 Pulsar el botón ``Entrar``.
 
@@ -67,11 +65,12 @@ Tras este procedimiento, la pantalla de inicio del Portal es presentada.
 ----
 
 Visión General
---------------
+---------------
 
 Al principio, es importante comprender el impacto de algunas herramientas que aparecen en el menú superior derecho, que se muestra al usuario tras iniciar la sesión en el DCI.
 
-La seguiente image es un fragmento del menú superior derecho, presentado en todas las pantallas disponibles para el usuario. Este menú muestra componentes relevantes como nombre, correo eletrónico, configuraciones de cuenta, manual de funcionalidades y salir cada uno descrito en detalle a continuación.
+La siguiente imagen es un fragmento del menú superior derecho, presentado en todas las pantallas disponibles para el usuario. Este menú muestra componentes relevantes como nombre, correo electrónico, configuraciones de cuenta, manual de funcionalidades y *salir, cada uno descrito en detalle a continuación.
+
 
   * Nombre; 
   * Correo electrónico;
@@ -85,8 +84,7 @@ La seguiente image es un fragmento del menú superior derecho, presentado en tod
     :align: center
 ======
 
-
-**Icono de notificación** |icone_tarefas|: Este icono es un punto importante para visualizar todas las actividades realizadas en el portal. Mediante este icono se pueden observar las acciones más recientes, reflejadas en forma de notificación en la pantalla "Tareas".
+**Icono de notificación** |icone_tarefas|   : Este icono es un punto importante para visualizar todas las actividades realizadas en el portal. Mediante este icono se pueden observar las acciones más recientes, reflejadas en forma de notificación en la pantalla "Tareas".
 
 **Nombre**: Muestra el nombre del usuario conectado y su dirección de correo electrónico.
   
@@ -94,17 +92,17 @@ La seguiente image es un fragmento del menú superior derecho, presentado en tod
 
 **Manual de Funcionalidades**: Direcciona el usuario para el documento "Manual de Funcionalidades" almacenado en el ambiente de documentación online de Ustore Brasil.
 
-**Salir**: salir o cerrar la sesión de la aplicación.
+**Salir**: Salir o cerrar la sesión de la aplicación.
 
 ----
 
-
 Menú **Administración**
--------------------
+---------------------------
 
 Para tener una visión completa de los servicios de DCI, existen algunos menús en la parte lateral izquierda de la plataforma, donde se puede encontrar informaciones valiosas de los productos.
 
 Al acceder a este menú de Administración, es posible al usuario hacer uso de los submenús:
+
 
   * Usuarios;
   * Grupos;
@@ -129,19 +127,17 @@ Este menú contiene tres submenús que posibilitan visualizar:
 
 A continuación, se detallan cada uno de estos submenús.
 
+
 .. image:: /figuras/fig_dci_spa/004_menu_DCI.png
     :alt: Menú DCI
     :scale: 80 % 
     :align: center
 ======
 
- 
 Submenú Puertos
-~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~
 
 Este submenú permite visualizar los recursos de los puertos, así como las acciones disponibles como mostrar recursos deshabilitados al listar, buscar información, actualizar la pantalla tras una modificación y seis columnas que categorizan cada uno de los puertos. Los puertos están conectados a través de Circuitos, éstos pueden o no tener circuitos, todos los puertos están dentro del *Datacenter*, cuando se adquiere el puerto, el cliente recibe la LOA (carta de autorización) necesaria para el flujo del proceso.
-
 
 .. image:: /figuras/fig_dci_spa/005_submenu_puertos.png
     :alt: Submenú Puertos 
@@ -165,14 +161,13 @@ Las informaciones de los puertos se dividen en seis columnas y se presentan como
 
 Al seleccionar un puerto, es posible visualizar todos los detalles por completo. La cabecera de esta nueva página muestra algunas opciones, que se activan mediante los botones ``Volver``, ``Descargar LOA``, ``Reenviar LOA`` y ``Confirmado``, en el cuerpo de la pantalla están distribuidos los *cards* que se describen a continuación.
 
-
 .. image:: /figuras/fig_dci_spa/006_puertos_detalles.png
     :alt: Submenú puertos detalles 
     :align: center
 ======
 
-
 El submenú Puertos exhibe tres *cards* que categorizan relevantes informaciones: 
+
 
   * General;
   * Vlans;
@@ -203,14 +198,13 @@ Una vez completados los catorce elementos que se enumeran a continuación, ésto
   * Enrutador Puerto;
   * Posición DGO;
   * *Status*;
-  * *Datacenter*;
+  * Datacenter;
   * Ciudad;
   * Tipo de puerto;
   * Fecha de creación;
   * Fecha de asignación.
 
 ----
-
 
 *Card* Vlans
 """"""""""""
@@ -225,6 +219,7 @@ El segundo *card* presentado en este submenú Puertos, situado a la derecha de l
 
 El *card* Vlans exhibe en la parte superior derecha una funcionalidad de actualización de la página que puede activarse a través del botón ``Actualizar``; a continuación, las informaciones se dividen en cuatro columnas:
 
+
   * Vlans en uso;
   * Circuito;
   * Banda;
@@ -235,7 +230,7 @@ Las informaciones sobre Vlans se presentan en bloques de 10, 25, 50 o 100 línea
 ----
 
 Submenú Circuitos
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 Esta pantalla permite visualizar la lista de Circuitos, haciendo posible observar las acciones que deben realizarse con cada ítem, distribuidos en los botones y columnas.
 
@@ -252,7 +247,6 @@ Se presentan tres funcionalidades:
   * La acción de ``Buscar``: el signo de la lupa indica al usuario la acción de buscar algo;
   * Botón ``Actualizar``: indica que al pulsar este botón la página es actualizada.
 
-
 De esta manera, la pantalla de circuitos presenta las ocho columnas informativas por separado, que se enumeran a continuación:
 
   * Designación;
@@ -265,7 +259,6 @@ De esta manera, la pantalla de circuitos presenta las ocho columnas informativas
   * *Golden Jumper*.
 
 Haciendo clic en cada circuito individualmente, es posible visualizar los detalles de las informaciones, empezando por el botón con la acción de ``Volver``, el *card* General, el *card* Configuraciones, el *card* Excursiones y, por último, el *card* Historial.
-
 
 .. image:: /figuras/fig_dci_spa/010_detalles_circuito.png
     :alt: Detalles Circuito 
@@ -306,19 +299,19 @@ Compuesto por ocho elementos, como se muestra en el ejemplo de arriba, reflejan 
 
 ----
 
-
 *Card* Configuraciones
 """"""""""""""""""""
 
 El segundo *card* del submenú Circuito muestra las principales informaciones acerca de éste.
+
 
 .. image:: /figuras/fig_dci_spa/012_card_configuraciones_submenu_circuito.png
     :alt: circuito card configuraciones
     :align: center
 ======
 
-
 El *card* Configuraciones ofrece en su parte superior derecha la funcionalidad de actualizar la página, que puede ser activada mediante el botón ``Actualizar``. Este *card* ofrece algunas informaciones como:
+
 
   * Status: “Activado”, seguido del botón ``Bloquear``;
   * Motivo del bloqueo:
@@ -328,14 +321,13 @@ El *card* Configuraciones ofrece en su parte superior derecha la funcionalidad d
          * Vlan Puerto Origen y a continuación el botón ``Cambiar Vlans``;
          * Vlan Puerto Destino.
 
-
 ----
-
 
 *Card* Excursiones
 """""""""""""""""""""""
 
 El tercer *card* del submenú Circuito muestra las principales informaciones sobre éste.
+
 
 .. image:: /figuras/fig_dci_spa/013_card_excursiones_submenu_circuito.png
     :alt: circuito card excursiones
@@ -345,15 +337,15 @@ El tercer *card* del submenú Circuito muestra las principales informaciones sob
 Al visualizar el *card* de Excursiones, se puede utilizar los dos botones situados a la derecha: ``+Crear Excursión`` y ``Actualizar``. Este *card* exhibe siete columnas que contienen informaciones tales como: 
 
 * Banda;
-* **Fecha de inicio estimada;**
+  * Fecha de inicio estimada;
          * Fecha final estimada
          * Fecha de inicio;
          * Fecha final;
-         * *Status*;
+         * Status;
          * Acción.
 
-----
 
+----
 
 *Card* Historial
 """"""""""""""""
@@ -368,7 +360,7 @@ El último *card* del submenú Circuito muestra las siguientes informaciones sob
   * Operación:
   * Autor;
   * Fecha/Hora.
-  * *Status*
+  * Status
 
 Al final, se muestra un bloque con la opción de seleccionar las informaciones en bloques de 10, 25, 50 o 100 líneas.
 
@@ -411,7 +403,6 @@ En el área "fecha de inicio", el usuario selecciona la fecha deseada para progr
 
 Una vez introducidos estos datos, se muestra al usuario la capacidad base del circuito seleccionado, así como la capacidad máxima posible para ese circuito y el campo "Banda", que permite seleccionar la banda estimada, tal y como se muestra en la siguiente imagen:
 
-
 .. image:: /figuras/fig_dci_spa/017_crear_excursión_detalles.png
     :alt: crear excursión detalles
     :align: center
@@ -425,13 +416,15 @@ Una vez creada la excursión, la operación está completa. Ésta permite al usu
 
 ----
 
-Menú **Tareas**
------------
+Menu **Tareas**
+----------------
 
 En la pestaña de tareas es posible monitorizar todas las operaciones realizadas dentro de la plataforma.
 
+----
+
 Panel de Tareas
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Como ya se ha mencionado, la pantalla de tareas es importante para supervisar el progreso de los pedidos realizados en la plataforma.
 
@@ -458,6 +451,7 @@ Las tareas son presentadas en formato de lista, categorizadas en pestañas que c
        * Tareas;
        * Tareas pendientes;
        * Tareas programadas.
+
 
 .. image:: /figuras/fig_dci_spa/020_tareas_detalles.png
     :alt: Tareas detalles 
@@ -501,12 +495,10 @@ Conclusión
 
 Este documento presenta la descripción de las funcionalidades contenidas en el producto **Data Center Interconnect – DCI**, desarrollado por Ustore.
 
-
 ====
 
 **Equipo Ustore**
 
 DCI Manual de Funcionalidades - v.5 - Actualización 28/09/2023 - Revisión 03/08/2023 - Creado el 08/02/2023.
-
 
 .. |icone_tarefas| image:: /figuras/ucloud_icone_sino.png
