@@ -31,7 +31,6 @@ Este documento consiste en un manual con una breve descripción de las principal
 
 ----
 
-
 Presentación
 -------------
 
@@ -69,7 +68,7 @@ Visión General
 
 Al principio, es importante comprender el impacto de algunas herramientas que aparecen en el menú superior derecho, que se muestra al usuario tras iniciar la sesión en el DCI.
 
-La siguiente imagen es un fragmento del menú superior derecho, presentado en todas las pantallas disponibles para el usuario. Este menú muestra componentes relevantes como nombre, correo electrónico, configuraciones de cuenta, manual de funcionalidades y *salir, cada uno descrito en detalle a continuación.
+La siguiente imagen es un fragmento del menú superior derecho, presentado en todas las pantallas disponibles para el usuario. Este menú muestra componentes relevantes como nombre, correo electrónico, configuraciones de cuenta, manual de funcionalidades y salir, cada uno descrito en detalle a continuación.
 
 
   * Nombre; 
@@ -103,11 +102,9 @@ Para tener una visión completa de los servicios de DCI, existen algunos menús 
 
 Al acceder a este menú de Administración, es posible al usuario hacer uso de los submenús:
 
-
   * Usuarios;
   * Grupos;
   * Contratos.
-
 
 .. image:: /figuras/fig_dci_spa/003_menu_administracion.png
     :alt: Menú Administración
@@ -137,7 +134,10 @@ A continuación, se detallan cada uno de estos submenús.
 Submenú Puertos
 ~~~~~~~~~~~~
 
-Este submenú permite visualizar los recursos de los puertos, así como las acciones disponibles como mostrar recursos deshabilitados al listar, buscar información, actualizar la pantalla tras una modificación y seis columnas que categorizan cada uno de los puertos. Los puertos están conectados a través de Circuitos, éstos pueden o no tener circuitos, todos los puertos están dentro del *Datacenter*, cuando se adquiere el puerto, el cliente recibe la LOA (carta de autorización) necesaria para el flujo del proceso.
+Este submenú permite visualizar los recursos de los puertos, así como las acciones disponibles como mostrar recursos deshabilitados al listar, buscar información, actualizar la pantalla tras una modificación y seis columnas que categorizan cada uno de los puertos. 
+
+Los puertos están conectados a través de Circuitos, éstos pueden o no tener circuitos, todos los puertos están dentro del *Datacenter*, cuando se adquiere el puerto, el cliente recibe la LOA (carta de autorización) necesaria para el flujo del proceso.
+
 
 .. image:: /figuras/fig_dci_spa/005_submenu_puertos.png
     :alt: Submenú Puertos 
@@ -269,7 +269,7 @@ En este desglose del circuito listado, el usuario visualiza cuatro *cards* que c
 
   * General;
   * Configuraciones;
-  * Excursiones:
+  * Excursiones;
   * Historial.
 
 ----
@@ -314,10 +314,10 @@ El *card* Configuraciones ofrece en su parte superior derecha la funcionalidad d
 
 
   * Status: “Activado”, seguido del botón ``Bloquear``;
-  * Motivo del bloqueo:
+  * Motivo de bloqueo:
          * Tipo y el botón ``Cambiar tipo``;
          * Banda actual;
-         * Banda base
+         * Banda base;
          * Vlan Puerto Origen y a continuación el botón ``Cambiar Vlans``;
          * Vlan Puerto Destino.
 
@@ -337,12 +337,12 @@ El tercer *card* del submenú Circuito muestra las principales informaciones sob
 Al visualizar el *card* de Excursiones, se puede utilizar los dos botones situados a la derecha: ``+Crear Excursión`` y ``Actualizar``. Este *card* exhibe siete columnas que contienen informaciones tales como: 
 
 * Banda;
-  * Fecha de inicio estimada;
-         * Fecha final estimada
-         * Fecha de inicio;
-         * Fecha final;
-         * Status;
-         * Acción.
+* Fecha de inicio estimada;
+* Fecha final estimada
+* Fecha de inicio;
+* Fecha final;
+* Status;
+* Acción.
 
 
 ----
@@ -357,10 +357,10 @@ El último *card* del submenú Circuito muestra las siguientes informaciones sob
     :align: center
 ======
 
-  * Operación:
+  * Operación;
   * Autor;
-  * Fecha/Hora.
-  * Status
+  * Fecha/Hora;
+  * Status.
 
 Al final, se muestra un bloque con la opción de seleccionar las informaciones en bloques de 10, 25, 50 o 100 líneas.
 
