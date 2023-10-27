@@ -392,21 +392,21 @@ O Dashboard reúne os dados de cotas referentes a CPU, Memória, Disco, IPs Púb
 
 As cotas sobre serviços demonstram os limites alocados para o usuário. A depender do perfil do usuário o tipo de cota varia e este visualiza apenas o que está reservado e o que está disponível para o tipo de usuário logado na plataforma uCloud. 
 
----
+----
 
 Os cinco gráficos circulares apresentam indicadores com características diferentes descritos na sequência: 
 
 Uso da CPU
 ~~~~~~~~~~
 
-  * **CPU**: as informações são apresentadas em números percentuais / quantidade. Os parâmetros apresentados neste indicador quantitativo possibilita observar com facilidade se o serviço alocado está livre ou em utilização. Demonstra o recurso reservado e o disponível no momento da consulta, a depender do tipo de cota, contrato e perfil do usuário.
+  * **CPU**: As informações são apresentadas em números percentuais / quantidade. Os parâmetros apresentados neste indicador quantitativo possibilita observar com facilidade se o serviço alocado está livre ou em utilização. Demonstra o recurso reservado e o disponível no momento da consulta, a depender do tipo de cota, contrato e perfil do usuário.
 
 Uso da Memória
 ~~~~~~~~~~~~~~
 
   * **Memória**: Gigabytes. 
 
-Uso do disco
+Uso do Disco
 ~~~~~~~~~~~~
 
   * **Disco**:  Gigabytes.
@@ -414,12 +414,12 @@ Uso do disco
 Cota de IPs Públicos
 ~~~~~~~~~~~~~~~~~~~~
 
-  * **IPs Públicos**: números percentuais / quantidade.
+  * **IPs Públicos**: Números percentuais / quantidade.
 
 Cota de Máquinas Virtuais
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  * **Máquinas Virtuais**: números percentuais / quantidade. Os parâmetros apresentados neste indicador quantitativo possibilita observar com facilidade se o serviço alocado está livre ou em utilização. Demonstra o recurso reservado e o disponível no momento da consulta, a depender do tipo de cota, contrato e perfil do usuário.
+  * **Máquinas Virtuais**: Números percentuais / quantidade. Os parâmetros apresentados neste indicador quantitativo possibilita observar com facilidade se o serviço alocado está livre ou em utilização. Demonstra o recurso reservado e o disponível no momento da consulta, a depender do tipo de cota, contrato e perfil do usuário.
 
 ----
 
@@ -835,7 +835,7 @@ Para que o usuário possa acessar a funcionalidade **Conta** *(Account)* é nece
    :align: center
 ----
 
-Ao clicar em **Conta** *(Account)*, a plataforma uCloud exibe a nova tela, nesta pode-se observar no canto superior direito os dois (2) símbolos que representam: Contrato e Tarefas, além do Nome do usuário logado no portal. Exibe também, a Lista de Contas, os botões `Refresh` e `+Criar Conta`.
+Ao clicar em **Conta** *(Account)*, a plataforma uCloud exibe a nova tela, nesta pode-se observar no canto superior direito os dois (2) símbolos que representam: Contrato e Tarefas, além do Nome do usuário logado no portal. Exibe também, a Lista de Contas, os botões ``Refresh`` e ``+Criar Conta``.
   
 .. figure:: /figuras/fig_ucloud_admin/1_conta.png
    :align: center
@@ -878,7 +878,7 @@ As políticas de controle desta funcionalidade estabelecem as barreiras de prote
 Em resumo, o administrador pode gerenciar as permissões de visualização e permissionamento de cada usuário dentro de cada grupo, ambos contidos no contrato. 
 
 
-.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função `roles` “Administrador da plataforma”.  No caso do seu usuário ter outro nível de permissão, favor entrar em contato com o seu provedor do portal. Ao contactá-lo a equipe autorizada pode executar as customizações necessárias para o seu ambiente*.
+.. note:: *As atividades abaixo listadas estão restritas somente às credenciais de usuários com as permissões de função roles “Administrador da plataforma”.  No caso do seu usuário ter outro nível de permissão, favor entrar em contato com o seu provedor do portal. Ao contactá-lo a equipe autorizada pode executar as customizações necessárias para o seu ambiente*.
 
 
 ----
@@ -891,7 +891,7 @@ Conta
 Principal e Sub-Conta
 ~~~~~~~~~~~~~~~~~~~~~
 
-A imagem abaixo mostra a tela de entrada da funcionalidade **Conta** *(Account)*, nesta o Administrador da plataforma pode criar a primeira conta ao clicar em:  `+Criar Conta`. 
+A imagem abaixo mostra a tela de entrada da funcionalidade **Conta** *(Account)*, nesta o Administrador da plataforma pode criar a primeira conta ao clicar em:  ``+Criar Conta``. 
 
 .. figure:: /figuras/fig_ucloud_admin/1_conta.png
    :align: center
@@ -923,7 +923,7 @@ A imagem abaixo mostra a tela de entrada da funcionalidade **Conta** *(Account)*
   
       * Cada uma destas colunas recupera as informações existentes no banco de dados do portal previamente inseridas pelo Administrador da Conta. 
 
-      * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão `Refresh` e `+Criar Conta`.
+      * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão ``Refresh`` e ``+Criar Conta``.
  
       * A lista de Contas pode apresentar as informações recuperadas em `cards` de 10, 20, 50 ou 100 linhas.
   
@@ -939,13 +939,13 @@ Criando Conta
    :align: center
 ----
 
-Ao abrir a tela principal, clique no botão `+Criar conta`. A partir deste momento uma nova tela é apresentada **Criar Conta**. Ela exibe os campos em branco que devem ser preenchidos adequadamente, neste exemplo a conta será integradora e seu nome [Teste Integrator].
+Ao abrir a tela principal, clique no botão ``+Criar conta``. A partir deste momento uma nova tela é apresentada **Criar Conta**. Ela exibe os campos em branco que devem ser preenchidos adequadamente, neste exemplo a conta será integradora e seu nome [Teste Integrator].
 
 .. figure:: /figuras/fig_ucloud_admin/2_criar_conta_integrator.png
    :align: center
 ----
 
-* **Botão Criar Conta**: Ao clicar neste botão, será aberta uma nova tela com cinco (5) campos a serem preenchidos com as informações a seguir detalhadas:
+* **Botão** ``Criar Conta``: Ao clicar neste botão, será aberta uma nova tela com cinco (5) campos a serem preenchidos com as informações a seguir detalhadas:
 
   * **Nome da Conta**: Este campo Nome da Conta aceita letras e números e deve conter pelo menos 4 caracteres, máximo 64 caracteres;
 
@@ -957,7 +957,7 @@ Ao abrir a tela principal, clique no botão `+Criar conta`. A partir deste momen
    
   * **Tipo da conta**: Ao clicar na botão de seleção, existem duas opções a escolher: Produtor(a) ou Integrador(a). 
 
-      * A conta principal deve ser Integrador (a), após a criação desta, será possível criar a conta secundária nomeada de Produtor (a). 
+      * A conta principal deve ser Integrador (a), após a criação desta, é possível criar a conta secundária nomeada de Produtor (a). 
       * Integrador(a) `Integrator` e  Produtor(a) `Producer`.
 
 
@@ -977,7 +977,7 @@ No exemplo utilizado, a seleção do pacote para a conta tipo Integrador(a) é `
 
 
 
-   * **Pacote Integrator AV**: Este é o único pacote que deve ser selecionado para a conta principal Integrador(a) *(Integrator)*. Ao finalizar a seleção do pacote, deve-se clicar em  `Criar`.
+   * **Pacote Integrator AV**: Este é o único pacote que deve ser selecionado para a conta principal Integrador(a) *(Integrator)*. Ao finalizar a seleção do pacote, deve-se clicar em  ``Criar``.
 
 .. figure:: /figuras/fig_ucloud_admin/4_criar_conta_integrator_pct_preenchido.png
    :align: center
@@ -985,9 +985,9 @@ No exemplo utilizado, a seleção do pacote para a conta tipo Integrador(a) é `
 
 Após finalizada a escolha dos pacotes o usuário deve criar a conta. No caso de perceber a falta de alguma etapa ou cometeu algum erro, pode clicar no botão cancelar e iniciar a operação.  
 
-      * **Botão Cancelar**: Pode ser utilizado no caso da desistência da operação.
+      * **Botão** ``Cancelar``: Pode ser utilizado no caso da desistência da operação.
   
-      * **Botão Criar**: Deve ser utilizado para finalizar a operação Criar conta.
+      * **Botão** ``Criar``: Deve ser utilizado para finalizar a operação Criar conta.
 
       * **Bloco de linhas**: Apresenta a quantidade selecionada de informação.
  
@@ -1004,7 +1004,7 @@ Listando a Conta criada
 
 Neste fluxo, o usuário deve listar a conta criada. Na finalização da etapa Criar Conta Integradora é necessário checar se a conta está criada. 
 
-Para isto, deve-se clicar no botão `Refresh` e localizar o nome utilizado para a conta recém criada. 
+Para isto, deve-se clicar no botão ``Refresh`` e localizar o nome utilizado para a conta recém criada. 
 
 No exemplo seguinte a conta nomeada na Lista de Contas é [Teste Integrator].
 
@@ -1013,9 +1013,9 @@ No exemplo seguinte a conta nomeada na Lista de Contas é [Teste Integrator].
 ----
 
 
-  * **Botão Refresh**: Deve ser utilizado para atualizar os dados da tela.
+  * **Botão** ``Refresh``: Deve ser utilizado para atualizar os dados da tela.
 
-  * **Visualização da conta criada**: Na finalização deste fluxo é importante comprovar que a conta está criada,  para isto, deve-se clicar no botão `Refresh`e localizar a conta recém criada na Lista de Contas.
+  * **Visualização da conta criada**: Na finalização deste fluxo é importante comprovar que a conta está criada,  para isto, deve-se clicar no botão ``Refresh``e localizar a conta recém criada na Lista de Contas.
 
   * **Barra de Pesquisa**: Facilita o uso do buscador e a recuperação das informações em cada uma das colunas na Lista de Contas. Para isto, basta inserir o termo que pretende localizar e aguardar o resultado da pesquisa ser apresentado.
 
@@ -1025,13 +1025,13 @@ No exemplo seguinte a conta nomeada na Lista de Contas é [Teste Integrator].
 Detalhando a Conta
 ~~~~~~~~~~~~~~~~~~
 
-Para verificar a tela de detalhes da conta de forma minuciosa, basta clicar na Lista de Contas, depois posicionar o cursor em cima do nome da conta que se pretende analisar e clicar. Uma nova tela com todos detalhes da conta será apresentada, imagem abaixo:
+Para verificar a tela de detalhes da conta de forma minuciosa, basta clicar na Lista de Contas, depois posicionar o cursor em cima do nome da conta que se pretende analisar e clicar. Uma nova tela com todos detalhes da conta é apresentada, conforme a seguinte imagem:
 
 .. figure:: /figuras/fig_ucloud_admin/6_detalhe_conta_integrator.png
    :align: center
 ----
 
-A composição da conta criada é segmentada em `cards`. Que são as informações gerais da conta ao ser criada, o contrato associado e o usuário que está logado no momento da criação, a lista dos administradores da conta, a relação das sub-contas, os perfis de visualização e os perfis de permissionamento, a lista dos pacotes e tiers. Estas informações reunidas em uma única tela facilita a visualização e possibilita a gestão da conta em sua totalidade.
+A composição da conta criada é segmentada em `cards`. Que são as informações gerais da conta ao ser criada, o contrato associado e o usuário que está logado no momento da criação, a lista dos administradores da conta, a relação das sub-contas, os perfis de visualização e os perfis de permissionamento, a lista dos pacotes e `tiers`. Estas informações reunidas em uma única tela facilita a visualização e possibilita a gestão da conta em sua totalidade.
 
 Estes `cards` permitem realizar atividades de edição, adição, atualização, associação, criação de sub-conta, criação de perfis de visualização e permissionamento. Por último, a edição e a atualização da lista de pacotes. 
 
@@ -1040,7 +1040,7 @@ Estes `cards` permitem realizar atividades de edição, adição, atualização,
 ----
 
 
-   * **Detalhamento do `card` Geral**: Neste detalhamento das informações gerais da conta criada, é possível visualizar o Nome da Conta, Nome da Empresa, Número do Cliente, CNPJ ou CPF, Telefone, E-mail, URL, Idioma, Data, Hora da Criação e Endereço.
+   * **Detalhamento do** *card* **Geral**: Neste detalhamento das informações gerais da conta criada, é possível visualizar o Nome da Conta, Nome da Empresa, Número do Cliente, CNPJ ou CPF, Telefone, E-mail, URL, Idioma, Data, Hora da Criação e Endereço.
 
 
 
@@ -1064,15 +1064,15 @@ Em seguida posicionar o cursor em cima do nome da conta integradora e clicar par
    :align: center
 ----
 
-O primeiro `card` localizado do lado esquerdo da tela apresenta a informação Geral. O segundo `card` Administradores possibilita adicionar usuários administradores. O terceiro `card` abriga e apresenta as Sub-Contas. Este `card` Sub-contas possibilita realizar as operações `Refresh` - `Associar` e `+Criar Sub-Conta`.
+O primeiro `card` localizado do lado esquerdo da tela apresenta a informação Geral. O segundo `card` Administradores possibilita adicionar usuários administradores. O terceiro `card` abriga e apresenta as Sub-Contas. Este `card` Sub-contas possibilita realizar as operações [`Refresh`] - [`Associar`] e [`+Criar Sub-Conta`].
 
 Neste tópico o fluxo segue para criar uma sub-conta. Para isto, clicar no botão `+Criar Sub-Conta` em seguida preencher os campos necessários, obedecendo o mesmo parâmetro utilizado para criar a conta principal.
 
 * | Nome da sub-conta | Número do Cliente | CPF/CNPJ | Site do cliente | Tipo da Conta | 
 
-  * **Botão +Criar Sub-Conta**: 
+  * **Botão** ``+Criar Sub-Conta``: 
 
-  * Ao clicar neste botão, será aberta uma nova tela com cinco (5) campos a preencher, com as seguintes informações:
+  * Ao clicar neste botão, é aberta uma nova tela com cinco (5) campos a preencher, com as seguintes informações:
 
 .. figure:: /figuras/fig_ucloud_admin/8_criar_subconta_producer1.png
    :align: center
@@ -1125,7 +1125,7 @@ Neste tópico o fluxo segue para criar uma sub-conta. Para isto, clicar no botã
   
       * O modo de cobrança escolhido é VM + Custo na nuvem.
  
-      * Para finalizar clicar no botão `Criar`.
+      * Para finalizar clicar no botão ``Criar``.
 
 .. figure:: /figuras/fig_ucloud_admin/11_subconta_producer1_listada.png
    :align: center
@@ -1178,7 +1178,7 @@ A Lista de Contas possibilita ao usuário visualizar a lista completa de todas a
 
    * Cada uma destas colunas recupera as informações existentes no banco de dados do portal previamente inseridas pelo Administrador da Conta.
  
-   * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão `Refresh` e `+Criar Conta`.
+   * Adicionalmente, a tela apresenta dois botões que permitem ao usuário proceder duas operações distintas: Atualizar a tela no botão ``Refresh`` e ``+Criar Conta``.
  
 
 
@@ -1943,7 +1943,7 @@ Para criar ou editar um *Budget* é necessário o usuário estar no menu Adminis
 O *Budget* é um relatório baseado em consumo criado com o objetivo de definir um orçamento total para um determinado período (nomeado como Intervalo), seja mensal, trimestral, semestral ou anual. Este relatório baseado em consumo, além de definir um orçamento total, permite sua visualização com o detalhamento de custos de *Budgets*.
 
 
-Quando traduzido do inglês para o português, *“budget”* refere-se à palavra ´orçamento´ e corresponde a uma nova implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
+Quando traduzido do inglês para o português, *“budget”* refere-se à palavra *orçamento* e corresponde a uma nova implementação no Portal uCloud, definida por um relatório baseado em consumo que visa fixar o orçamento total para um período e possibilita as previsões de custo. 
 
 ----
 
@@ -1960,7 +1960,7 @@ Para acessar o submenu *Budget* no portal uCloud, o usuário deve clicar no menu
 ----
 
 
-Ao selecionar na lista o contrato desejado, é exibida uma nova tela com os detalhes do contrato. A tela de detalhamento do contrato pode ser considerada uma das maiores telas da plataforma uCloud, entrega dezessete tipos diferentes de dados, exibindo os cards:
+Ao selecionar na lista o contrato desejado, é exibida uma nova tela com os detalhes do contrato. A tela de detalhamento do contrato pode ser considerada uma das maiores telas da plataforma uCloud, entrega dezessete tipos diferentes de dados, exibindo os `cards`:
 
   * 1.Geral; 
   * 2.Categorias de Preço;
@@ -1998,11 +1998,11 @@ Nesta tela detalhada do contrato, o usuário deve usar a barra de rolagem e nave
 
 
 
-O `card Budget` exibe dois botões, `[REFRESH]` e `[+Adicionar]`. 
+O `card Budget` exibe dois botões, ``REFRESH`` e ``+Adicionar``. 
 
 .. attention:: Neste exemplo de imagem ainda não foram criados os *Budgets*, por isto está em branco, com o símbolo de atenção. 
    
-Clicando no botão `“+ Adicionar”`, o modal “Criar Budget” é apresentado, e a partir desse ponto, o usuário inicia a primeira criação. 
+Clicando no botão ``+ Adicionar``, o modal “Criar Budget” é apresentado, e a partir desse ponto, o usuário inicia a primeira criação. 
 
 .. figure:: /figuras/fig_budget/03_budget_adicionar.png
    :alt: Budget Adicionar 
@@ -2014,9 +2014,9 @@ Clicando no botão `“+ Adicionar”`, o modal “Criar Budget” é apresentad
 Criando *Budget* e *Sub Budget*
 -------------------------------
 
-O modal “Criar *Budget*”, apresenta os campos: nome, intervalo, mês, *“checkbox”* para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
+O modal “Criar *Budget*”, apresenta os campos: nome, intervalo, mês, `checkbox` para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
 
-Em seguida, são exibidos os detalhes do `sub budgets` como: desambiguação, seleção de container, valor e os botões `[+Incluir Subbudget] [Cancelar]` e `[Criar]`.
+Em seguida, são exibidos os detalhes do `sub budgets` como: desambiguação, seleção de container, valor e os botões ``+Incluir Subbudget``- ``Cancelar`` e ``Criar``.
 
 
 .. important:: A desambiguação é responsável pelo propósito do sub budget, assim, ao clicar no “Checkbox”, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Container - Cloud Type - Dimension - TagUsn. 
@@ -2028,11 +2028,11 @@ Em seguida, são exibidos os detalhes do `sub budgets` como: desambiguação, se
 ---- 
   
 
-Após clicar no botão `[+Adicionar]`, a tela da criação do *Budget* é apresentada conforme a imagem acima, nela o usuário deve preencher todos os campos e configurar a geração do relatório baseado em consumo.
+Após clicar no botão ``+Adicionar``, a tela da criação do *Budget* é apresentada conforme a imagem acima, nela o usuário deve preencher todos os campos e configurar a geração do relatório baseado em consumo.
 
 
-* `Nome`: Espaço referente ao nome do *Budget*. 
-* `Intervalo`: É apresentado como um menu suspenso, este campo é responsável pelo período desejado para a criação do relatório (mensal, trimestral, semestral ou anual).
+* **Nome**: Espaço referente ao nome do *Budget*. 
+* **Intervalo**: É apresentado como um menu suspenso, este campo é responsável pelo período desejado para a criação do relatório (mensal, trimestral, semestral ou anual).
 
 .. figure:: /figuras/fig_budget/05_criar_budget_preencher_intervalo.png
    :alt: Preencher intervalo 
@@ -2055,7 +2055,7 @@ Intervalo Trimestral
 ---- 
 
 
-Ao observar a figura acima, no espaço "Intervalo" é necessário clicar na opção "Trimestral", como resultado a interface apresenta um "*checkbox*" com quatro opções de período, localizado ao lado do `card` "Detalhes do *sub budgets*". O usuário deve selecionar de acordo com o trimestre que deseja gerar o relatório.
+Ao observar a figura acima, no espaço "Intervalo" é necessário clicar na opção "Trimestral", como resultado a interface apresenta um `checkbox` com quatro opções de período, localizado ao lado do `card` "Detalhes do *sub budgets*". O usuário deve selecionar de acordo com o trimestre que deseja gerar o relatório.
 
 A aplicação permite ao usuário escolher qualquer um dos trimestres disponíveis dentro do período de um ano, iniciando sempre a partir do mês escolhido, localizado no campo “Selecione o mês”.
 
@@ -2070,7 +2070,7 @@ Intervalo Semestral
 
 ---- 
   
-No menu suspenso de “Intervalo”, ao selecionar a opção "Semestral", o *card* referente aos períodos apresentados como intervalos semestrais aparece ao lado dos detalhes do *sub budget*, em forma de *“checkbox”*.  
+No menu suspenso de “Intervalo”, ao selecionar a opção "Semestral", o *card* referente aos períodos apresentados como intervalos semestrais aparece ao lado dos detalhes do *sub budget*, em forma de `checkbox`.  
 
 A aplicação gera duas alternativas com os semestres disponíveis dentro do período de um ano. Iniciando a partir do mês escolhido, localizado no campo “Selecione o mês”.
 
@@ -2119,7 +2119,7 @@ Na sequência abaixo, o usuário deve concluir os espaços restantes, completand
 
 Esta função habilita a criação automática. 
 
-Por exemplo: no próximo mês será criado outro *budget*, no caso de trimestral e semestral, será criado um mês depois do último mês do período. 
+Por exemplo: no próximo mês é criado outro *budget*, no caso de trimestral e semestral, é criado um mês depois do último mês do período. 
   
 .. figure:: /figuras/fig_budget/07_criar_budget_recorrente.png
    :alt: Criar budget recorrente  
@@ -2204,7 +2204,7 @@ Para finalizar o processo de criação de *Budgets* e *sub budgets*, basta clica
 
 ----
 
-Editando Budget 
+Editando *Budget* 
 ---------------
 
 Para editar um *Budget*, basta o usuário acessar o menu Administração, e em seguida clicar no submenu Contratos, a plataforma exibe a lista de todos os contratos existentes.
@@ -2342,7 +2342,7 @@ A Tela de visualização de contrato é a uma das mais extensas telas da platafo
 
 ----
 
-Seção Geral
+Seção: Geral
 -----------
 
 Quando um contrato é provisionado no sistema, o usuário com perfil de Administrador informa os dados cadastrais básicos da organização, informações gerais para um contrato, tais como Identificação do contrato, nome da empresa, o código CNPJ para empresas (ou CPF no caso de pessoa física), a forma padrão de faturamento das máquinas deste contrato (este padrão de faturamento fica válido somente no caso de não existir regras de bilhetagem no restante do contrato).
@@ -2369,7 +2369,7 @@ Através desta configuração é possível estabelecer a data de validade (expir
 ----
 
 
-Seção Regras de Faturamento
+Seção: Regras de Faturamento
 ---------------------------
 
 Nesta seção o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a plataforma uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair a taxa PTAX do último dia útil do mês.
@@ -2386,7 +2386,9 @@ Podem ser:
 #. Quantidade de Casas Decimais: Este campo define a quantidade de casas decimais e é muito útil quando o Contrato possui valor em moeda estrangeira.
 #. Perfil de Tagueamento: Ver opção de Menu Configurações / Tagueamento de Recursos USN.
 
-Seção Categorias de Preço
+----
+
+Seção: Categorias de Preço
 -------------------------
 
 Nesta seção é possível provisionar as categorias de preço utilizadas para agrupar os preços do contrato, quando este contrato está associado a uma empresa do Governo municipal, estadual ou federal em que os valores a serem apresentados referente ao consumo dos recursos computacionais de nuvem deverão ser convertidos para a métrica de Unidade de Serviço de Nuvem (USN).
@@ -2401,8 +2403,9 @@ A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviço
 Conforme mencionado, o Administrador do Contrato, deverá efetuar o provisionamento de Categorias de Preço somente no caso deste contrato controlar algum órgão do Governo Brasileiro no âmbito municipal, estadual ou federal, única e somente este deve ser regido pela métrica de USN.
 Importante ressaltar que se deve ignorar provisionar qualquer Categorias de Preço quando o seu contrato for controlar os recursos computacionais de nuvem de uma organização privada.
 
+----
 
-Seção Políticas de Alertas
+Seção: Políticas de Alertas
 --------------------------
 
 A plataforma uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a plataforma uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo:
@@ -2427,7 +2430,9 @@ Para alternar entre os estados basta clicar com o cursor do mouse e o campo ser�
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos de configuração de uma Política de Alerta.
 
-Seção Preço dos Recursos - Contrato
+----
+
+Seção: Preço dos Recursos - Contrato
 -----------------------------------
 
 Esta seção permite que o Administrador do Contrato possa redefinir os valores dos recursos que estão sendo consumidos dentro deste contrato. Através desta tela é possível definir preços diferentes para os recursos cobrados pelo provedor de serviço de nuvem. Estes novos valores devem ser informados manual e individualmente, não sendo necessário que todos sejam informados.
@@ -2446,7 +2451,9 @@ Recomendamos fortemente que, qualquer alteração nos Valores dos Recursos alter
 
 ..  attention:: *Lembramos ao usuário: ao informar qualquer novo valor, este ‘novo valor’ altera o valor da fatura mensal a ser cobrada pelo provedor, e qualquer diferença, multa ou penalidade contratual advindas destas alterações não são responsabilidade da Ustore ou da plataforma uCloud, pois a plataforma está desempenhando o função pela qual foi desenhada a efetuar.*
 
-Seção Cota do Contrato
+----
+
+Seção: Cota do Contrato
 ----------------------
 
 A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato apresenta os limites financeiros e os limites definidos para a quantidade dos recursos definidos para o contrato, pela organização.
@@ -2470,7 +2477,9 @@ Abaixo segue o detalhamento dos valores da tela acima:
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos de configuração de Cotas do Contrato.
 
-Seção Contato Primário
+----
+
+Seção: Contato Primário
 ----------------------
 
 Esta seção possibilita ao Administrador do Contrato informar os dados de contato de um responsável Financeiro, Fiscal ou Contábil referente a este contrato.
@@ -2485,8 +2494,9 @@ Esta seção não é obrigatória, e o não preenchimento desta seção não imp
 
 Recomendamos o preenchimento destas informações para que a plataforma uCloud possa enviar informações automaticamente para o gestor do contrato.
 
+----
 
-Seção Administradores
+Seção: Administradores
 ---------------------
 
 Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que possuem permissão de alterar qualquer um dos dados que compõem um contrato.
@@ -2497,7 +2507,7 @@ Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que 
 
 ----
 
-Seção Dados da Empresa
+Seção: Dados da Empresa
 ----------------------
 
 Esta seção possibilita ao Administrador do Contrato informar os dados genéricos da empresa associada a este contrato.
@@ -2510,7 +2520,9 @@ Esta seção possibilita ao Administrador do Contrato informar os dados genéric
 
 Esta seção não é obrigatória. No caso desta seção deixar de ser preenchida, isto não impede ou bloqueia as funcionalidades e o perfeito uso da plataforma uCloud.
 
-Seção Virtual Datacenters Concedidos
+----
+
+Seção: Virtual Datacenters Concedidos
 ------------------------------------
 
 Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela plataforma uCloud – veja mais informações acima no item Administração de Contrato.
@@ -2525,7 +2537,9 @@ Quando ocorre a vinculação de um VDC a um contrato, significa que o usuário a
 
 Favor consultar *uCloud - Manual do Administrador*, para conhecer os procedimentos de como vincular um VDC a um contrato.
 
-Seção Usuários
+----
+
+Seção: Usuários
 --------------
 
 Nesta seção (card) estão listados todos os usuários que estão vinculados, indiretamente, ao contrato. A associação do usuário ao contrato é estabelecida, pela inclusão do usuário a um Grupo e a vinculação do Grupo ao Contrato. Desta forma, o usuário fica vinculado a um contrato, ele compartilha e consome os limites financeiros e os limites (cotas) dos recursos computacionais de nuvem.
@@ -2538,7 +2552,7 @@ Nesta seção é possível verificar as cotas de cada usuário e o consumo dos r
 
 ----
 
-Seção Grupos
+Seção: Grupos
 ------------
 
 Esta seção apresenta todos os Grupos vinculados ao Contrato. A plataforma uCloud mostra ou lista as cotas que foram alocadas para cada Grupo vinculado ao Contrato. É possível verificar as cotas de cada grupo e o consumo dos recursos, dentro do grupo, até o momento da pesquisa.
@@ -2569,7 +2583,9 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A plataforma uClo
    * **Botão Ok**: Ao clicar com o cursor do mouse sobre este botão, a plataforma uCloud encerra esta tela e retorna à visualização do Contrato, e a relação de grupos vinculados ao contrato, atualizada com o novo grupo.
    * **Botão “+Criar Grupo”** |botao_adiciona_grp|: Através deste botão o usuário, com perfil de Administrador de Grupo, poderá provisionar um novo grupo na plataforma uCloud. Mediante este botão, o novo grupo ficará obrigatoriamente vinculado ao contrato que se está visualizando. Veja a descrição de todo o processo de provisionamento de um grupo na plataforma uCloud no item Criando Novo Grupo.
 
-Seção Dados de Faturamento
+----
+
+Seção: Dados de Faturamento
 --------------------------
 
 Nesta seção são apresentadas as informações de Faturamento de um Contrato. Estas informações, geralmente, são necessárias para integrações automatizadas com sistemas de CRM, showback e chargeback.
@@ -2582,7 +2598,9 @@ Nesta seção são apresentadas as informações de Faturamento de um Contrato. 
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos para informar os dados de Faturamento do Contrato.
 
-Seção Perfis de Permissionamento
+----
+
+Seção: Perfis de Permissionamento
 --------------------------------
 
 Esta seção (card) se aplica ao usuário Administrador da plataforma uCloud (perfil diferente do Administrador do Contrato), que tiver provisionado antecipadamente Perfis de Permissões através do menu Configurações / Perfis de Permissionamento. Somente um usuário com o perfil Administrador da plataforma é responsável pela gerência de todos e dos demais grupos e permissões.
@@ -2596,7 +2614,9 @@ Quando um Perfil de Permissionamento é vinculado ao Contrato, isto implica que 
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos de como provisionar um Perfil de Permissionamento e vincular um VDC a um contrato.
 
-Seção Produtos
+----
+
+Seção: Produtos
 --------------
 
 Um produto pode ser visto como recurso, um software, o valor de uma licença específica, um serviço recorrente ou qualquer coisa que se seja necessário incluir em um Contrato. Importante ressaltar que o produto sempre será algo que não existe ou que não pode ser criado e gerenciado pela plataforma uCloud, diretamente no console dos provedores de nuvem pública e/ou privada. É indicado configurar um Produto quando a oferta é o Virtual Data Center como um todo, no caso de serviços, ofertas específicas para máquinas virtuais, é recomendado optar pelas assinaturas.
@@ -2608,6 +2628,8 @@ Um produto pode ser visto como recurso, um software, o valor de uma licença esp
 ----
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos de como adicionar um Produto a um contrato.
+
+----
 
 Seção Permissões Concedidas
 ---------------------------
@@ -2621,6 +2643,8 @@ Esta seção (card) permite personalizar as permissões concedidas aos usuários
 ----
 
 Favor consultar o documento: Manual do Administrador da plataforma uCloud, para conhecer os procedimentos de como provisionar ou excluir Permissões vinculadas a um contrato.
+
+----
 
 Seção Perfil de Faturamento de Container
 ----------------------------------------
@@ -2636,6 +2660,8 @@ Através desta configuração é possível que sejam definidos preços distintos
 
 Favor consultar uCloud - Manual do Administrador, para conhecer os procedimentos de como provisionar um contrato.
 
+----
+
 Provisionando Contrato
 ----------------------
 
@@ -2650,11 +2676,14 @@ O menu configuração permite que o usuário com perfil de Administrador da plat
 A plataforma uCloud é um ambiente, por definição, multi-empresas (multi tenant). Portanto, todos os parâmetros definidos impactam todas as empresas, seus contratos e todos os usuários de forma global. Este impacto é de responsabilidade do usuário com o perfil de Administrador da plataforma, que possui o perfeito conhecimento e compreensão de todas as implicações destas configurações globais.
 Os submenus descritos a seguir permitem configurações que terão impacto em muitas atividades e rotinas de todos os usuários e empresas provisionados.
 
+----
 
 Geral
 -----
 
 Esta tela está dividida em seções, por meio destas seções (*card*) o Administrador da plataforma, pode definir as cotas (limites) padronizados para serem aplicados a qualquer novo usuário adicionado na plataforma quando consumir/criar recursos computacionais em nuvem (público e/ou privado).
+
+----
 
 Seção: Geral
 ~~~~~~~~~~~~
@@ -2664,13 +2693,15 @@ Abaixo segue descrição detalhada desta seção. Importante ressaltar que somen
 
 ----
 
-*Card*: Sincronizar Active Directory
+*Card*: Sincronizar *Active Directory*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 * **Botão** ``Sincronizar Active Directory``: Este botão permite configurar a integração de um servidor de *Active Directory* para o ambiente e seja possível validar, duplamente, as credenciais de usuários provisionados no ambiente de forma global. Favor consultar o documento: Manual do Administrador da plataforma uCloud, para os procedimentos corretos de configurar a sincronização com um servidor de *Active Directory*.
 
 * **Botão** ``Ativação Automática On/Off``: Este botão tem função de permitir que todos os novos usuários provisionados via o processo descrito no item "Criando Novo Usuário" sejam ativados de forma automática e se registrar na plataforma uCloud.
+
+----
 
 Aplicar perfis
 """"""""""""""
@@ -2697,7 +2728,7 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 
 ----
 
-Seção: Configurações de Usuários LDAP Server
+Seção: Configurações de Usuários *LDAP Server*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção permite que o Administrador da plataforma selecione quais usuários provisionados na plataforma uCloud devem ter suas credenciais sincronizadas com o servidor de LDAP/AD configurado no botão “Sincronizar Active Directory” da seção Geral.
@@ -2706,7 +2737,7 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 
 ----
 
-Seção: Upload de Termo de Responsabilidade
+Seção: *Upload* de Termo de Responsabilidade (novo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
@@ -2717,7 +2748,7 @@ Console
 *Card*: Controladores console
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Criar controlador console
+Criar Controlador console
 """""""""""""""""""""""""
 
 ----
@@ -2743,6 +2774,8 @@ A Ustore possui em seu portfólio o produto uSDN para complementar ambientes de 
 
 Importante ressaltar que a configuração das telas abaixo somente será necessária quando a plataforma uCloud estiver configurada para o controle e o gerenciamento dos recursos computacionais em um data center privado. Para o gerenciamento e controle dos recursos computacionais de nuvem pública, as telas abaixo não demandam configuração e podem ser ignoradas.
 
+----
+
 Seção: Configurações de Rede
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2754,6 +2787,8 @@ Nesta tela são provisionadas as configurações de rede (de forma geral) que se
 * **Botão Network Sharing**: Este botão permite configurar a opção de que a rede que se está provisionando a configuração seja compartilhada (shared) ou não. Se este botão estiver com a opção “ON” ativa, significa que a configuração de rede será de uma rede que pode ser compartilhada. Se o botão estiver com a opção “OFF” ativa, significa que a configuração de rede será privada e os seus endereços TCP-IP serão privados.
 
 Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da plataforma uCloud.
+
+----
 
 *Card*: Controladores SDN
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2771,15 +2806,17 @@ Importante mencionar que para a instalação do controlador de SDN é necessári
 * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud remova este Controlador SDN de forma imediata e definitiva.
 * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone e a plataforma uCloud apresenta uma tela que permite editar as configurações do Servidor de SDN respectivo. Importante mencionar que apenas o usuário com perfil de Administrador de plataforma, poderá editar os valores informados nesta tela.
 
+----
+
 Criando SDN controlador
 """""""""""""""""""""""
 
-Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da plataforma uCloud.
+Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e você encontra os procedimentos de configuração dos parâmetros gerais da plataforma uCloud.
 
 ----
 
-Sub-redes públicas
-===================
+Menu Sub-redes públicas
+=======================
 
 Quando a empresa configura um servidor de SDN para controlar as configurações de sua rede privada, são controlados e gerenciados apenas endereços restritos (privados). Estes endereços não podem ser acessados de máquinas que estejam em outras redes.
 
@@ -2787,8 +2824,11 @@ Para que o controlador SDN possa gerenciar os endereços que poderão ser acessa
 
 Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP-IP que sejam públicos, para quando um recurso computacional da nuvem privada (máquina virtual) necessitar de um endereço público, a plataforma uCloud possa interagir com o Gerenciador SDN e vincular um endereço TCP-IP Público para este recurso computacional (máquina virtual).
 
-*Card*: Sub-redes públicas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
+
+
+Card: Sub-redes públicas
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * **Nome**: Este campo apresenta o nome da rede que foi escolhido no momento do provisionamento da configuração da rede.
 * **CIDR**: Este campo apresenta o CIDR, ou endereçamento IP sem classes, acrescentado com a respectiva definição de bloco de endereços (“/xx”). Esta configuração de CIDR e a quantidade de blocos de endereços, deve ser definida pela equipe de engenharia de redes de dados da empresa.
@@ -2799,8 +2839,11 @@ Esta opção de menu permite que sejam criadas faixas (ranges) de endereços TCP
 * **Ignored Address**: Este campo apresenta a lista de endereços TCP-IP, definidos pela equipe de rede da empresa, a ser ignorado e evitado, para serem assinalados a recursos computacionais. Os endereços apresentados nesta lista estão separados por vírgula.
 * **Ações**: Esta coluna apresenta apenas o Ícone Lata de Lixo |icone_lixo|. Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud remova a configuração de Sub-Rede Pública de forma imediata e definitiva. Importante ressaltar que a plataforma uCloud não solicita confirmação desta remoção para o usuário, a ação de remoção é imediata e irreversível. Se a ação não foi intencional, o usuário deverá iniciar o processo de configuração da Sub-Rede Pública novamente desde seu início.
 
+----
+
 Atualizar
 """""""""
+
 
 Adicionar Sub-rede
 """""""""""""""""""
@@ -2815,6 +2858,8 @@ Assinaturas
 ------------
 
 Assinaturas são serviços vinculados a uma máquina virtual. As assinaturas têm que conter apenas as ofertas de serviços que devem ser cobrados mensalmente ou mês específico. No caso da remoção de uma assinatura vinculada a uma máquina virtual, o valor será cobrado integralmente pelo agente de bilhetagem.
+
+----
 
 *Card*: Assinaturas
 ~~~~~~~~~~~~~~~~~~~~
@@ -3092,11 +3137,11 @@ Para provisionar um novo perfil de visualização, o usuário deve clicar com o 
   * **Botão Criar**: Após certificar que todas as opções de menu desejadas foram configuradas, o usuário deve clicar com o botão do mouse no botão Criar para configurar as alterações, de forma definitiva e imediata. A plataforma uCloud apresenta uma mensagem pop-up, no canto superior direito da tela, com a informação de que o novo Perfil de Visualização está cadastrado.
 
 Após esta ação a plataforma uCloud fecha esta tela e retorna à tela anterior com seu conteúdo atualizado e apresenta o novo Perfil de Visualização recém provisionado.
--
+
 ----
 
 Editando Perfil de visualização
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O usuário pode verificar que ao visualizar a lista de perfis existem dois ícones na coluna Ações:
 
@@ -3140,6 +3185,8 @@ Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedo
 
 .. important:: |importante| *Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da plataforma uCloud onde está descrito o processo correto de provisionar um Billing Admin.*
 
+----
+
 Administração de bilhetagem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3155,7 +3202,7 @@ Segue a descrição dos botões que compõem a bilhetagem:
 ----
 
 Informações de Registro (LOG) do Billing Admin
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A configuração de Billing Admin é a forma como a plataforma uCloud identifica o arquivo da fatura (cobrança) dos valores, referentes aos custos dos recursos computacionais de nuvem, nas credenciais do cliente.
 Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
@@ -3228,7 +3275,7 @@ A seguir, será descrito o processo de criação de um perfil de etiquetamento d
 ----
 
 Criação de um Tagueamento de Recurso USN
-----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O usuário deve acessar o menu Configuração, submenu Tagueamento de Recurso USN para a plataforma uCloud apresentar a tela abaixo:
 
@@ -3316,10 +3363,10 @@ Após completar os passos acima descritos, para configurar o Perfil de Tagueamen
 Gerenciamento de Contas (novo)
 ------------------------------
 
-*Card*: Lista de Tiers
+*Card*: Lista de *Tiers*
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Criar Tier
+Criar *Tier*
 """"""""""
 
 Seção: Lista de Pacotes
@@ -3334,7 +3381,7 @@ Criar Pacote
 Editar Pacote
 """""""""""""
 
-Adicionar e remover Tiers
+Adicionar e remover *Tiers*
 """""""""""""""""""""""""
 
 ----
@@ -3450,7 +3497,7 @@ Criar novo template
 Criar novo cliente
 """"""""""""""""""
 
-----
+
 
 .. CIS Control (novo)
 .. -----------
@@ -3461,10 +3508,11 @@ Criar novo cliente
 .. Novo Assessment
 .. """""""""""""""
 
+----
 
 
- *Ethical Phishing*
--------------------
+*Ethical Phishing*
+------------------
 
 
 O conceito de *Ethical Phishing* envolve a simulação controlada de ataques de *phishing*, com o objetivo inicial de sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais, e assim, evitar cair em golpes. 
