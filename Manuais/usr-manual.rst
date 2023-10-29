@@ -566,7 +566,7 @@ Ainda para ilustrar este exemplo, com a nova implementação de Perfil de Permis
 
 ----
 
-Cenário exemplo (AWS):
+Cenário Exemplo (AWS):
 ~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------+---------+--------------------+-----------+
@@ -823,7 +823,7 @@ Ao estabelecer esses padrões de permissão, acesso e visualização aos recurso
 ----
 
 
-Como acessar 
+Como Acessar 
 ~~~~~~~~~~~~
 
 
@@ -998,7 +998,7 @@ Após finalizada a escolha dos pacotes o usuário deve criar a conta. No caso de
 
 ----
 
-Listando a Conta criada
+Listando a Conta Criada
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -1049,7 +1049,7 @@ Estes `cards` permitem realizar atividades de edição, adição, atualização,
 ----
 
 
-Criando Sub-Conta
+Criando a Sub-Conta
 ~~~~~~~~~~~~~~~~~~
 
 
@@ -1195,8 +1195,8 @@ Por fim, a Lista de Contas pode ser customizada e apresentar as informações re
 
 ----
 
-Menu Administração / Usuários
------------------------------
+Usuários
+--------
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1273,7 +1273,7 @@ Os quatro (04) tipos básicos de perfil de usuários na plataforma uCloud são d
 ----
 
 Visualizando um Usuário
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1433,7 +1433,7 @@ Por padrão, somente o próprio usuário pode alterar sua própria senha. Estand
    * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de máquinas virtuais (VMs) deste usuário. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma uCloud atualiza a tela de forma a representar este padrão de busca.
 
 Criando Novo Usuário
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Antes de tratar da criação de um usuário é importante estabelecer que para a plataforma uCloud um Usuário está vinculado a um Contrato e pode pertencer a um ou mais Grupos. O Contrato está vinculado a uma Conta. 
 
@@ -1557,8 +1557,10 @@ Desta forma, antes de iniciar a criação de um novo usuário, é importante ver
 
    * **Botão Criar**: Após todos os campos obrigatórios e opcionais para provisionar o novo usuário estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar, assim a Plataforma uCloud provisiona o novo usuário em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, significa que algum campo obrigatório permanece sem preenchimento (o usuário deve checar e corrigir) ou a sequência de caracteres da senha do login deve ser inferior a quatro (04) caracteres.
 
-Administração / Grupos
-----------------------
+----
+
+Grupos
+~~~~~~
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1599,7 +1601,7 @@ Estes limites podem ser ajustados a qualquer momento (aumento ou redução) da p
 
 
 Visualizando Grupo
-------------------
+~~~~~~~~~~~~~~~~~~
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1773,7 +1775,7 @@ Abaixo descreveos os campos desta tela:
 
 
 Criando Novo Grupo
-------------------
+~~~~~~~~~~~~~~~~~~
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1838,8 +1840,8 @@ Após o usuário confirmar a ação de criar um grupo, a plataforma uCloud encer
 ----
 
 
-Administração / Contrato
-------------------------
+Contrato
+--------
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
@@ -1929,14 +1931,15 @@ Um usuário, sem perfil de Administrador  de Contrato ou Grupo, pode visualizar 
 
 ----
 
-Menu Administração / Contratos
-------------------------------
+Relacionar *Budget* ao Contrato
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para criar ou editar um *Budget* é necessário o usuário estar no menu Administração, em seguida clicar no submenu Contrato, a plataforma exibe a lista de todos os contratos existentes e nela o usuário pode clicar no contrato relacionado ao *Budget* que deseja editar.
 
+----
 
 *Budget*
---------
+~~~~~~~~
 
 
 
@@ -1948,7 +1951,7 @@ Quando traduzido do inglês para o português, *“budget”* refere-se à palav
 ----
 
 Acessando o *Budget*
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 
 Para acessar o submenu *Budget* no portal uCloud, o usuário deve clicar no menu Administração, e em seguida no submenu Contratos. Na tela abaixo, é apresentada a lista de todos os contratos existentes.
@@ -2012,7 +2015,7 @@ Clicando no botão ``+ Adicionar``, o modal “Criar Budget” é apresentado, e
 
 
 Criando *Budget* e *Sub Budget*
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O modal “Criar *Budget*”, apresenta os campos: nome, intervalo, mês, `checkbox` para selecionar se o relatório é recorrente, o valor por custo ou por quantidade consumida. 
 
@@ -2046,7 +2049,7 @@ No processo de criar e configurar o *Budget*, o usuário tem a opção de seleci
 ----
 
 Intervalo Trimestral
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 .. figure:: /figuras/fig_budget/05_budget_trimestral.png
    :alt: Budget trimestral 
@@ -2062,7 +2065,7 @@ A aplicação permite ao usuário escolher qualquer um dos trimestres disponíve
 ----
  
 Intervalo Semestral
-~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 .. figure:: /figuras/fig_budget/05_budget_semestral.png
    :alt: Budget semestral 
@@ -2077,7 +2080,7 @@ A aplicação gera duas alternativas com os semestres disponíveis dentro do per
 ----
 
 Intervalo Anual
-~~~~~~~~~~~~~~~
+"""""""""""""""
 
 .. figure:: /figuras/fig_budget/05_budget_anual.png 
    :alt: Budget anual 
@@ -2098,7 +2101,7 @@ Ao incluir um *sub budget*, o mesmo é adicionado para todos os meses, lembrando
 ----
 
 Intervalo Mensal
-~~~~~~~~~~~~~~~~
+""""""""""""""""
 
 A tela Intervalo Mensal é mostrada na continuação do processo de preenchimento dos campos da tela “Criar *Budget*”. Para o intervalo mensal, o relatório contempla o mês escolhido.
 
@@ -2205,7 +2208,7 @@ Para finalizar o processo de criação de *Budgets* e *sub budgets*, basta clica
 ----
 
 Editando *Budget* 
----------------
+~~~~~~~~~~~~~~~~~
 
 Para editar um *Budget*, basta o usuário acessar o menu Administração, e em seguida clicar no submenu Contratos, a plataforma exibe a lista de todos os contratos existentes.
 
@@ -2240,7 +2243,7 @@ Nesta tela é possível alterar o nome, mês, valor, se o *budget* é por custo 
 
 
 Visualizando o Relatório de Custo de `Budgets`
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios. Esta visualização permite ao usuário a possibilidade de manter-se informado sobre as previsões de custo em detalhe.
 
@@ -2332,7 +2335,7 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 ----
 
 Visualizando Contrato
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 A Tela de visualização de contrato é a uma das mais extensas telas da plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
 
@@ -2343,7 +2346,7 @@ A Tela de visualização de contrato é a uma das mais extensas telas da platafo
 ----
 
 Seção: Geral
------------
+""""""""""""
 
 Quando um contrato é provisionado no sistema, o usuário com perfil de Administrador informa os dados cadastrais básicos da organização, informações gerais para um contrato, tais como Identificação do contrato, nome da empresa, o código CNPJ para empresas (ou CPF no caso de pessoa física), a forma padrão de faturamento das máquinas deste contrato (este padrão de faturamento fica válido somente no caso de não existir regras de bilhetagem no restante do contrato).
 
@@ -2370,7 +2373,7 @@ Através desta configuração é possível estabelecer a data de validade (expir
 
 
 Seção: Regras de Faturamento
----------------------------
+""""""""""""""""""""""""""""
 
 Nesta seção o Administrador do Contrato pode personalizar as regras de como os valores dos custos do contrato podem ser convertidos para moeda local, também personaliza, se para o cálculo de conversão de moeda aplicará no fator de conversão: um valor fixo ou um valor variável. Para o valor variável, a plataforma uCloud está configurada para obter a taxa do valor de conversão diretamente do site do Banco Central do Brasil, local onde pode extrair a taxa PTAX do último dia útil do mês.
 
@@ -2389,7 +2392,7 @@ Podem ser:
 ----
 
 Seção: Categorias de Preço
--------------------------
+""""""""""""""""""""""""""
 
 Nesta seção é possível provisionar as categorias de preço utilizadas para agrupar os preços do contrato, quando este contrato está associado a uma empresa do Governo municipal, estadual ou federal em que os valores a serem apresentados referente ao consumo dos recursos computacionais de nuvem deverão ser convertidos para a métrica de Unidade de Serviço de Nuvem (USN).
 A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços, divididos em categorias: os serviços de IaaS, PaaS e serviços técnicos. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade objetivamente definida a ser cobrada pelos serviços de computação em nuvem. A métrica de USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
@@ -2406,7 +2409,7 @@ Importante ressaltar que se deve ignorar provisionar qualquer Categorias de Pre�
 ----
 
 Seção: Políticas de Alertas
---------------------------
+"""""""""""""""""""""""""""
 
 A plataforma uCloud possibilita, ao usuário com perfil de Administrador do Contrato, definir Políticas de Alertas de consumo individual de recursos computacionais de nuvem. Quando a condição da regra for atingida a plataforma uCloud envia um e-mail para o Administrador de Contrato. Veja o exemplo da tela abaixo:
 
@@ -2433,7 +2436,7 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 ----
 
 Seção: Preço dos Recursos - Contrato
------------------------------------
+""""""""""""""""""""""""""""""""""""
 
 Esta seção permite que o Administrador do Contrato possa redefinir os valores dos recursos que estão sendo consumidos dentro deste contrato. Através desta tela é possível definir preços diferentes para os recursos cobrados pelo provedor de serviço de nuvem. Estes novos valores devem ser informados manual e individualmente, não sendo necessário que todos sejam informados.
 
@@ -2454,7 +2457,7 @@ Recomendamos fortemente que, qualquer alteração nos Valores dos Recursos alter
 ----
 
 Seção: Cota do Contrato
-----------------------
+"""""""""""""""""""""""
 
 A tela abaixo apresenta um exemplo da seção (card) de um contrato, o contrato apresenta os limites financeiros e os limites definidos para a quantidade dos recursos definidos para o contrato, pela organização.
 
@@ -2480,7 +2483,7 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 ----
 
 Seção: Contato Primário
-----------------------
+"""""""""""""""""""""""
 
 Esta seção possibilita ao Administrador do Contrato informar os dados de contato de um responsável Financeiro, Fiscal ou Contábil referente a este contrato.
 
@@ -2497,7 +2500,7 @@ Recomendamos o preenchimento destas informações para que a plataforma uCloud p
 ----
 
 Seção: Administradores
----------------------
+""""""""""""""""""""""
 
 Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que possuem permissão de alterar qualquer um dos dados que compõem um contrato.
 
@@ -2508,7 +2511,7 @@ Esta seção apresenta a relação de usuários (e/ou Grupos de Usuários), que 
 ----
 
 Seção: Dados da Empresa
-----------------------
+"""""""""""""""""""""""
 
 Esta seção possibilita ao Administrador do Contrato informar os dados genéricos da empresa associada a este contrato.
 
@@ -2523,7 +2526,7 @@ Esta seção não é obrigatória. No caso desta seção deixar de ser preenchid
 ----
 
 Seção: Virtual Datacenters Concedidos
-------------------------------------
+"""""""""""""""""""""""""""""""""""""
 
 Nesta seção o usuário Administrador do Contrato vincula o Virtual Data Center (VDC) ao contrato. Esta é uma das alternativas de Governança de Custos permitida pela plataforma uCloud – veja mais informações acima no item Administração de Contrato.
 
@@ -2540,7 +2543,7 @@ Favor consultar *uCloud - Manual do Administrador*, para conhecer os procediment
 ----
 
 Seção: Usuários
---------------
+"""""""""""""""
 
 Nesta seção (card) estão listados todos os usuários que estão vinculados, indiretamente, ao contrato. A associação do usuário ao contrato é estabelecida, pela inclusão do usuário a um Grupo e a vinculação do Grupo ao Contrato. Desta forma, o usuário fica vinculado a um contrato, ele compartilha e consome os limites financeiros e os limites (cotas) dos recursos computacionais de nuvem.
 
@@ -2553,7 +2556,7 @@ Nesta seção é possível verificar as cotas de cada usuário e o consumo dos r
 ----
 
 Seção: Grupos
-------------
+"""""""""""""
 
 Esta seção apresenta todos os Grupos vinculados ao Contrato. A plataforma uCloud mostra ou lista as cotas que foram alocadas para cada Grupo vinculado ao Contrato. É possível verificar as cotas de cada grupo e o consumo dos recursos, dentro do grupo, até o momento da pesquisa.
 
@@ -2586,7 +2589,7 @@ Esta seção apresenta todos os Grupos vinculados ao Contrato. A plataforma uClo
 ----
 
 Seção: Dados de Faturamento
---------------------------
+"""""""""""""""""""""""""""
 
 Nesta seção são apresentadas as informações de Faturamento de um Contrato. Estas informações, geralmente, são necessárias para integrações automatizadas com sistemas de CRM, showback e chargeback.
 
@@ -2601,7 +2604,7 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 ----
 
 Seção: Perfis de Permissionamento
---------------------------------
+"""""""""""""""""""""""""""""""""
 
 Esta seção (card) se aplica ao usuário Administrador da plataforma uCloud (perfil diferente do Administrador do Contrato), que tiver provisionado antecipadamente Perfis de Permissões através do menu Configurações / Perfis de Permissionamento. Somente um usuário com o perfil Administrador da plataforma é responsável pela gerência de todos e dos demais grupos e permissões.
 Quando um Perfil de Permissionamento é vinculado ao Contrato, isto implica que todos seus Grupos e Usuários recebem as mesmas permissões para acessar os menus da plataforma definidas neste perfil, de forma a permitir aos usuários vinculados a este contrato acesso às funcionalidades da plataforma uCloud definidas neste perfil de permissionamento.
@@ -2617,7 +2620,7 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 ----
 
 Seção: Produtos
---------------
+"""""""""""""""
 
 Um produto pode ser visto como recurso, um software, o valor de uma licença específica, um serviço recorrente ou qualquer coisa que se seja necessário incluir em um Contrato. Importante ressaltar que o produto sempre será algo que não existe ou que não pode ser criado e gerenciado pela plataforma uCloud, diretamente no console dos provedores de nuvem pública e/ou privada. É indicado configurar um Produto quando a oferta é o Virtual Data Center como um todo, no caso de serviços, ofertas específicas para máquinas virtuais, é recomendado optar pelas assinaturas.
 
@@ -2631,8 +2634,8 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 
 ----
 
-Seção Permissões Concedidas
----------------------------
+Seção: Permissões Concedidas
+"""""""""""""""""""""""""""
 
 Esta seção (card) permite personalizar as permissões concedidas aos usuários com acesso às funcionalidades na plataforma uCloud, de forma global. Estas permissões básicas, definidas e vinculadas ao Contrato, implicam que todos seus Grupos e Usuários recebam as mesmas permissões de acesso às funcionalidades definidas nesta seção. Diferente do Perfil de Permissionamento, esta configuração permite que o usuário com perfil de Administrador de Contrato adicione ou remova, permissões não previstas no Perfil de Permissionamento. Permite também, remover/excluir permissões do Contrato.
 
@@ -2646,8 +2649,8 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 
 ----
 
-Seção Perfil de Faturamento de Container
-----------------------------------------
+Seção: Perfil de Faturamento de Container
+"""""""""""""""""""""""""""""""""""""""""
 
 Esta seção apresenta todos os dados relacionados ao perfil de faturamento de um contrato por tipo de container a ser utilizado. A plataforma uCloud permite vincular um Contrato a um Container. O termo container representa um hypervisor ou conexão com uma nuvem pública, sendo assim é possível que existam perfis de preços distintos de acordo com o container que um usuário possa vincular a um contrato.
 Através desta configuração é possível que sejam definidos preços distintos por perfil de faturamento (preço fixo, recurso alocado ou recurso efetivamente utilizado) por tipo de container.
@@ -2663,7 +2666,7 @@ Favor consultar uCloud - Manual do Administrador, para conhecer os procedimentos
 ----
 
 Provisionando Contrato
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Importante ressaltar que não é objetivo deste documento descrever o processo de provisionamento de um contrato, pois apenas os usuários com perfil de Administrador da plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da plataforma uCloud onde descrevemos o processo como provisionar um contrato.
 
@@ -2725,6 +2728,11 @@ Seção: Preço dos Recursos
 
 A seção Preço dos Recursos permite definir os preços por hora de consumo para CPU, Memória e Disco, os valores cobrados por taxa de transferência e por recursos de rede.
 Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e você irá encontrar os procedimentos de configuração dos parâmetros gerais da plataforma uCloud.
+
+----
+
+Criar custo padrão do sistema
+"""""""""""""""""""""""""""""
 
 ----
 
@@ -2815,8 +2823,8 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 
 ----
 
-Menu Sub-redes públicas
-=======================
+Sub-redes públicas
+-------------------
 
 Quando a empresa configura um servidor de SDN para controlar as configurações de sua rede privada, são controlados e gerenciados apenas endereços restritos (privados). Estes endereços não podem ser acessados de máquinas que estejam em outras redes.
 
@@ -3100,7 +3108,7 @@ Após esta ação a plataforma uCloud fecha a tela e retorna à tela anterior, s
 
 ----
 
-Perfis de visualização
+Perfis de Visualização
 ----------------------
 
 O Perfil de Visualização permite ao usuário *visualizar* as opções do menu de usuário. De certa forma, pode ser complementar ao Perfil de Permissionamento (descrito acima) para criar um controle bem granular do que um usuário pode ou não pode visualizar, das opções da barra de menu apresentadas à esquerda.
@@ -3115,7 +3123,7 @@ Esta tela possui dois botões em sua parte superior, suas funções, são descri
 
 ----
 
-Criando Perfil de visualização
+Criando Perfil de Visualização
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para provisionar um novo perfil de visualização, o usuário deve clicar com o cursor do mouse sobre este botão, assim a plataforma uCloud apresenta a tela abaixo:
@@ -3140,7 +3148,7 @@ Após esta ação a plataforma uCloud fecha esta tela e retorna à tela anterior
 
 ----
 
-Editando Perfil de visualização
+Editando Perfil de Visualização
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O usuário pode verificar que ao visualizar a lista de perfis existem dois ícones na coluna Ações:
@@ -3187,7 +3195,7 @@ Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedo
 
 ----
 
-Administração de bilhetagem
+Administração de Bilhetagem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -3253,6 +3261,7 @@ Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones
 
 Lançar Accountant
 """""""""""""""""
+
 
 Gerenciar caches
 """"""""""""""""
@@ -3441,61 +3450,323 @@ O menu Segurança agrega três submenus, são eles:
 ---- 
 
 
-Tickets (novo)
--------
+.. Tickets (novo)
+.. -------
 
-Chamados de Processos
----------------------
+.. Chamados de Processos
+.. ---------------------
 
-Botão: Abrir chamado
-~~~~~~~~~~~~~~~~~~~~
+.. Botão: Abrir chamado
+.. ~~~~~~~~~~~~~~~~~~~~
 
-Botão: Calendário
-~~~~~~~~~~~~~~~~~
+.. Botão: Calendário
+.. ~~~~~~~~~~~~~~~~~
 
-Botão: Pesquisar
-~~~~~~~~~~~~~~~~
+.. Botão: Pesquisar
+.. ~~~~~~~~~~~~~~~~
 
-*Card*: Chamados abertos - urgente
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. *Card*: Chamados abertos - urgente
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Card*: Chamados abertos
-~~~~~~~~~~~~~~~~~~~~~~
+.. *Card*: Chamados abertos
+.. ~~~~~~~~~~~~~~~~~~~~~~
 
-*Card*: Chamados fechados
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. *Card*: Chamados fechados
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Relatório de chamados: Dashboard de atendimento
------------------------------------------------
+.. Relatório de chamados: Dashboard de atendimento
+.. -----------------------------------------------
 
-Botão: Calendário
-~~~~~~~~~~~~~~~~~~
+.. Botão: Calendário
+.. ~~~~~~~~~~~~~~~~~~
 
-Botão: Pesquisar
-~~~~~~~~~~~~~~~~
+.. Botão: Pesquisar
+.. ~~~~~~~~~~~~~~~~
+
+.. ----
+
+Assessment
+----------
+
+O Assessment é o novo submenu da plataforma uCloud, inserido no menu Segurança. Trata-se de uma feature que objetiva avaliar por meio da aplicação de um questionário eletrônico, qualquer estado ou necessidade de determinada área, seja ela relacionada a maturidade ou entendimento sobre o nível de evolução que se encontra determinado projeto ou área da empresa.   
 
 ----
 
-Assessments (novo)
-------------------
-
-Auto assessment
+Auto assessment (novo)
 ---------------
+
+É uma avaliação rápida e abrangente utilizada para identificar estado, necessidade ou ponto-chave. Tal avaliação pode analisar situações ao gerar respostas e obter dados que ao serem lidas e agrupadas possibilitam a tomada de decisão ágil. Por meio deste relatório é possível identificar ou sondar o nível de maturidade em relação aos assuntos abordados e obter um diagnóstico imediato e completo sobre o que está sendo analisado neste formulário previamente elaborado.
+
+``inserir imagem``
+
+Dividido em duas partes:  
+
+. Templates: responsável pela gestão das perguntas, disponibiliza a construção das perguntas do questionário, relacionado a configuração de template; 
+
+. Clientes: corresponde a gestão dos formulários respondidos, usuários e respostas. 
+
+----
 
 *Card*: Templates
 ~~~~~~~~~~~~~~~~~
 
+``inserir imagem``
+
+Templates é o primeiro card do submenu auto assessment, a seguir detalhamento do fluxo de utilização:
+
+----
+
 Templates de auto assessment
 """"""""""""""""""""""""""""
+
+``inserir imagem``
+
+A tela acima possibilita ao usuário a gestão dos templates do auto assessment. A esquerda da tela ao clicar no botão ``Voltar`` o usuário retorna a tela anterior, no lado direito o botão ``+ Criar novo template`` se acionado permite ao usuário logado fazer um template. 
+
+Os templates criados têm a característica global, isto significa ser apresentado a todos os contratos da plataforma uCloud. 
+
+.. note:: As operações de edição e exclusão são permitidas apenas ao usuário logado na criação, por isto exclusivamente ele pode modificá-lo nas ações de: "excluir", "editar" ou "clonar". 
+
 
 Criar novo template
 """""""""""""""""""
 
+Ao clicar no botão ``+ Criar novo template`` um novo modal é exibido contendo áreas a serem preenchidas de acordo com a necessidade do usuário que deseja sondar determinada área ou público da empresa.
+
+``inserir imagem``
+
+Os campos para preenchimento são listados a seguir. 
+
+* Título; 
+
+* Descrição; 
+
+* Seções do formulário; 
+
+* Questões do formulário; 
+
+* Botão ``Salvar template``. 
+
+``inserir imagem``
+
+No fluxo de fazer o novo template, o campo "título" deve ser preenchido, em seguida a "descrição", depois criar as "seções do formulário", ao escrever o nome da nova seção, o usuário pode clicar no sinal "+" e um novo card é apresentado do lado direito da tela.   
+
+Neste fluxo o novo espaço é exibido "Nome da seção" ao preenchê-lo o campo seguinte é "o que esta seção avalia" este conteúdo aceita 240 caracteres, utilizado no relatório para informar ao cliente sua finalidade. As próximas lacunas para completar são:  
+
+* Label: pergunta relacionada a alguma temática; 
+
+* Descrição: nesta lacuna inserir a pergunta; 
+
+* Questão obrigatória: informar se é obrigatória ou não; 
+
+* Clicar em ``Salvar``. 
+
+Este fluxo pode ser repetido quantas vezes for necessário até completar todas as perguntas relacionadas a esta seção. Depois pode abrir uma nova seção e inserir informações necessárias para efetuar a sondagem. O usuário customiza seu formulário de auto assessment até o momento que perceba estar completo. 
+
+``inserir imagem``
+
+Ao finalizar o preenchimento, o usuário observa que o botão ``Salvar o template`` está na coloração verde permitindo seu acionamento. Ao clicar uma mensagem é exibida conforme abaixo: 
+
+``inserir imagem``
+
+“Sua solicitação de criação de um novo template foi enviada”. 
+
+``inserir imagem``
+
+Ao clicar em salvar e ler a mensagem, a nova tela se apresenta. No caso de não carregar os dados deste novo template criado, o usuário pode utilizar o botão ``Atualizar`` e aguardar que carregar os dados recém inseridos.
+
+``inserir imagem``
+
+O template criado disponibiliza as informações em colunas, são: 
+
+* Título; 
+
+* Criado por; 
+
+* Data de criação; 
+
+* Operações: "Excluir" "Editar" "Clonar". 
+
+Ao clonar um modelo todos os dados são copiados e apenas o título apresenta a adição do termo "cópia" que deve ser modificado todo o campo para criar um novo template. Caso tenha copiado por engano, é permitido apagá-lo ao clicar na coluna "operações - excluir", uma mensagem é exibida perguntando se está confirmada a exclusão e os botões ``Cancelar`` ou ``Confirmar``.
+
+``inserir imagem``
+
+Ao clicar em confirmar a exclusão, basta atualizar a lista de templates na nova tela exibida.  
+
+``inserir imagem``
+
+Estes modelos listados podem ser criados de acordo com a necessidade do usuário. 
+
+----
+
 *Card*: Clientes
 ~~~~~~~~~~~~~~~~
 
+Clientes é o segundo card do submenu auto assessment, a seguir detalhamento do fluxo de utilização: 
+
+``inserir imagem``
+
+Os modelos podem ser criados e associados ao cliente no momento desejado pelo usuário. 
+
+``inserir imagem``
+
+Ao clicar no submenu Clientes, basta clicar no botão ``Atualizar`` para visualizar a lista de todos os templates existentes. 
+
+``inserir imagem``
+
+Na tela acima "Clientes" o usuário pode listar e gerenciar os clientes de auto assessment. Ela exibe três botões de ação: 
+
+* **Botão** ``Voltar``; 
+
+* **Botão** ``Atualizar``; 
+
+* **Botão** ``Criar novo cliente``. 
+
+As informações listadas se apresentam em colunas, são elas: 
+
+ * Nome; 
+
+ * E-mail; 
+
+ * Data de cadastro; 
+
+ * Vencimento em dias; 
+
+ * Ações possibilita as operações de "Editar" e "Excluir". 
+
+Além do detalhamento acima, a listagem pode ser recuperada em blocos de 10, 25, 50 ou 100 linhas.  
+
+----
+
 Criar novo cliente
 """"""""""""""""""
+
+``inserir imagem``
+
+Na tela inicial de "Clientes" o usuário deve clicar no botão ``+Criar novo cliente`` para iniciar o fluxo e depois associar um template desejado ao cliente criado ou escolhido. 
+
+``inserir imagem``
+
+O modal acima possibilita "Criar novo cliente" para o auto assessment. Os campos devem ser preenchidos para executar esta operação, então o usuário deve incluir as informações abaixo: 
+
+* Nome do cliente; 
+
+* E-mail; 
+
+* Nome da empresa; 
+
+* CNPJ; 
+
+* Área de atuação. 
+
+``inserir imagem``
+
+Acima é exibido um recorte da "Área de atuação", neste momento o usuário deve selecionar a opção desejada.  
+
+Ao finalizar o preenchimento, o botão que se apresenta no início está na coloração cinza, e ao término é alterado para verde, permitindo assim concluir a criação deste cliente.
+
+``inserir imagem``
+
+----
+
+Listando cliente
+""""""""""""""""
+
+Ao clicar no nome do cliente uma nova tela se apresenta com os dados detalhados que foram preenchidos no momento da criação.  
+
+``inserir imagem``
+
+É importante checar os dados e se for necessário editar algo é possível clicando no botão ``Editar cliente``. Na hipótese de o cliente criado estar incorreto, é possível deletá-lo ao clicar no botão ``Excluir cliente``.
+
+----
+
+Associando Template ao Cliente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nesta mesma tela listada com as “Informações do cliente”, são apresentados os "Formulários" criados previamente de forma global. 
+
+``inserir imagem``
+
+Este é o momento propício a proceder a associação deste cliente ao formulário desejado. Neste exemplo, a escolha do template é permitida pois já havia sido criado dois templates, um com o título de "Avaliação de maturidade FinOps" e o outro "Avaliação de maturidade em segurança", conforme a seguinte imagem:
+
+``inserir imagem``
+
+Ao finalizar a seleção, basta clicar no botão ``+`` e aguardar.
+
+``inserir imagem``
+
+Uma nova tela é apresentada conforme figura acima, o usuário deve clicar no termo "Atualizar" e logo visualiza o template que segue:
+
+``inserir imagem``
+
+Este se apresenta na coloração verde, com status "Aberto", data de criação, além das informações: 
+
+* Copiar link; 
+
+* Enviar link; 
+
+* Fechar; 
+
+* Regerar link; 
+
+* Ver detalhes.
+
+----
+
+Status dos formulários de auto Assessment
+"""""""""""""""""""""""""""""""""""""""""
+
+Os templates são criados em formato global, por isto são exibidos para todos os usuários na tela de "Informações do cliente", eles podem ser atualizados e ordenados. Cada um dos templates criados evoluem o tipo de status, conforme são utilizados: 
+
+* Ao ser criado: "aberto" coloração verde. Está associado ao cliente, mas não está respondido; 
+
+* O cliente recebe o link e respondido: "respondido" coloração azul; 
+
+* Quando é fechado pelo usuário do sistema: "fechado" coloração "vermelha". Ao ser cancelado o template a qualquer momento, ele altera sua cor e marca a data.
+
+Existe um prazo máximo para este formulário se manter disponível. Os dias começam a contar desde o início da criação, normalmente, pode permanecer de 7 a, no máximo, 30 dias. Após este período os formulários são deletados do sistema.
+
+``inserir imagem``
+
+Em resumo, o formulário pode ser "aberto e fechado" ou "aberto e respondido".
+
+----
+
+Gerando gráficos de visualização
+""""""""""""""""""""""""""""""""
+
+``inserir imagem``
+
+Ao clicar no template "Respondido", de acordo com a seguinte imagem: 
+
+``inserir imagem``
+
+``inserir imagem``
+
+É gerada uma prévia com os relatórios de gráficos por assunto, respostas ou informações. Sempre as três abas se relacionam ao formulário. Administrador e cliente têm acesso as informações. Estas permanecem guardadas por um período determinado de 90 dias. 
+
+``inserir imagem``
+
+``inserir imagem``
+
+``inserir imagem``
+
+Classificação das respostas, análise geral, comparação e tabelinha de cores: 
+
+. Inexistente: 0; 
+
+. Inicial: 1 – 1 > 19; 
+
+. Limitado: 2 – 20 > 39; 
+
+. Definido: 3 – 40 > 59; 
+
+. Gerenciado: 4 – 60 > 79; 
+
+. Otimizado: 5 – 80 > 100. 
+
+Sendo possível exportar este por meio de um arquivo formato .pdf. 
+
 
 
 
@@ -3673,7 +3944,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard*
    :align: center
 ----
 
-**Meu dashboard** 
+**Meu Dashboard** 
 ~~~~~~~~~~~~~~~~~
 
 ----
