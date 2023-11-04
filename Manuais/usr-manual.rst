@@ -1431,6 +1431,8 @@ Por padrão, somente o próprio usuário pode alterar sua própria senha. Estand
 .. * **Seção Máquinas Virtuais**: Esta seção apresenta uma lista das máquinas virtuais (VMs) ou cargas de trabalho (workloads) que foram criadas por este usuário, durante uma sessão ativa na Plataforma uCloud.
 
    * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de máquinas virtuais (VMs) deste usuário. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma uCloud atualiza a tela de forma a representar este padrão de busca.
+  
+----
 
 Criando Novo Usuário
 ~~~~~~~~~~~~~~~~~~~~
@@ -1532,7 +1534,7 @@ Desta forma, antes de iniciar a criação de um novo usuário, é importante ver
 ----
 
 
-.. warning:: A plataforma uCloud não permitirá que o usuário inicie uma sessão ativa sem antes o usuário substituir a senha originalmente informada. Após o usuário informar a nova senha, será armazenada de forma encriptada nas bases de dados internas, neste momento a sessão do usuário se torna ativa para iniciar o uso da plataforma uCloud normalmente.
+.. warning:: A plataforma uCloud não permite que o usuário inicie uma sessão ativa sem antes o usuário substituir a senha originalmente informada. Após o usuário informar a nova senha, ela é armazenada de forma encriptada nas bases de dados internas, neste momento a sessão do usuário se torna ativa para iniciar o uso da plataforma uCloud normalmente.
 ----
 
 * **Ativar Autenticação Multifator**: Este campo é um campo de seleção “check box” que indica se este usuário terá seu processo de autenticação na plataforma (login) sendo verificado duplamente antes de aprovar que este usuário tenha acesso a plataforma uCloud. Será enviada uma mensagem para o correio eletrônico informado no campo **e-mail** com um link/url para o usuário confirmar a segunda etapa de autenticação.
@@ -1541,21 +1543,19 @@ Desta forma, antes de iniciar a criação de um novo usuário, é importante ver
 
 .. * **Administrador precisa aprovar a realização de atividades**: Este campo é um campo de seleção "checkbox" que indica todas as ações e solicitações efetuadas na interface da Plataforma uCloud, elas devem ser aprovadas por um usuário Administrador do Grupo. Esta é uma funcionalidade destinada a aumentar o controle de governança de custos e operações.
 
-  * Na prática, qualquer novo recurso computacional (uma nova máquina virtual) que este usuário solicitar através da interface do uCloud: a solicitação não será enviada para o provedor de serviço de nuvem (público e/ou privado) de forma imediata, a solicitação ocorrerá em 2 tempos. No primeiro momento, ela aguarda a aprovação do Administrador do Grupo. No segundo tempo, após a aprovação do administrador do grupo (se aprovada) a solicitação segue no processo de criação/alteração solicitada por este usuário.
+* Na prática, qualquer novo recurso computacional (uma nova máquina virtual) que este usuário solicitar através da interface do uCloud: a solicitação não será enviada para o provedor de serviço de nuvem (público e/ou privado) de forma imediata, a solicitação ocorrerá em 2 tempos. No primeiro momento, ela aguarda a aprovação do Administrador do Grupo. No segundo tempo, após a aprovação do administrador do grupo (se aprovada) a solicitação segue no processo de criação/alteração solicitada por este usuário.
 
 .. * **Criar Usuário na Nuvem**: Este campo é um campo de seleção "checkbox" que indica as credenciais de login e senha deste usuário (informadas acima), elas serão enviadas ao provedor de serviço de nuvem pública para que seja provisionado um usuário com as mesmas credenciais de acesso no provedor de serviço de nuvem pública selecionado abaixo.
 
-   * **Containers**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todos os containers configurados na Plataforma uCloud. O usuário deve selecionar um provedor da lista.
+* **Containers**: Este campo é obrigatório e do tipo “Dropdown” quando o usuário clica com o cursor do mouse, a Plataforma uCloud lista todos os containers configurados na Plataforma uCloud. O usuário deve selecionar um provedor da lista.
 
 .. .. figure:: /figuras/uCloud_menu_usuario_021.png
    :alt: Menu de Usuario
    :align: center
 
-----
-
 .. * **Permissões**: O usuário recebe/herda todas as permissões definidas no Grupo ao qual ele pertence, bem como as permissões estabelecidas no Contrato e por último as permissões específicas deste usuário. Esta tabela é opcional, ela permite adicionar ou revogar as permissões que este usuário recebe, o que permite efetuar ações ou acessar menus na Plataforma uCloud. São cento e trinta e duas (132) permissões disponíveis que podem ser associadas ao usuário (todas ou apenas uma parte). Qualquer alteração efetuada nas permissões disponíveis (inclusão ou revogação) será aplicada de forma imediata no login deste usuário após a confirmação. Veja o item Configurações / Perfis de Permissionamento para uma forma alternativa de criar grupos de permissões customizados para sua empresa.
 
-   * **Botão Criar**: Após todos os campos obrigatórios e opcionais para provisionar o novo usuário estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar, assim a Plataforma uCloud provisiona o novo usuário em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, significa que algum campo obrigatório permanece sem preenchimento (o usuário deve checar e corrigir) ou a sequência de caracteres da senha do login deve ser inferior a quatro (04) caracteres.
+* **Botão Criar**: Após todos os campos obrigatórios e opcionais para provisionar o novo usuário estarem preenchidos o usuário pode clicar com o cursor do mouse no botão verde Criar, assim a Plataforma uCloud provisiona o novo usuário em suas bases de dados internas. Caso o botão Criar não seja apresentado na cor verde, significa que algum campo obrigatório permanece sem preenchimento (o usuário deve checar e corrigir) ou a sequência de caracteres da senha do login deve ser inferior a quatro (04) caracteres.
 
 ----
 
@@ -1605,7 +1605,7 @@ Visualizando Grupo
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
-Estando na listagem de grupos é possível visualizar algumas informações de um grupo, para isto, basta clicar com o mouse sobre a linha à qual um grupo faz parte e a plataforma uCloud apresentará a tela com todas as informações de um grupo provisionado na plataforma. Através desta tela é possível adicionar novas configurações ao perfil de um usuário.
+Estando na listagem de grupos é possível visualizar algumas informações de um grupo, para isto, basta clicar com o mouse sobre a linha à qual um grupo faz parte e a plataforma uCloud apresenta a tela com todas as informações de um grupo provisionado na plataforma. Através desta tela é possível adicionar novas configurações ao perfil de um usuário.
 
 A tela de visualização de detalhes de um usuário está dividida em seções, descrita abaixo;
 
@@ -1671,7 +1671,7 @@ Abaixo descreveos os campos desta tela:
 
 ----
 
-* **Botão Editar** |botao_editar|; Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a plataforma uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
+* **Botão Editar** |botao_editar|: Para vincular um Grupo a um Virtual Data Center, o usuário Administrador do Grupo (ou usuário com autorização) deve clicar neste botão para que a plataforma uCloud possa apresentar a tela para adicionar ou excluir um Virtual Data Center vinculado a este grupo.
 
 .. figure:: /figuras/uCloud_menu_grupo_007.png
    :alt: menu de usuário
@@ -1685,7 +1685,7 @@ Abaixo descreveos os campos desta tela:
 
 * **Botão Aplicar**: Após certificar que todas as alterações necessárias foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Aplicar para configurar as alterações, de forma definitiva e imediata, para o grupo que se está alterando. Após esta ação a plataforma uCloud fecha esta tela e retorna à tela anterior com seu conteúdo apresentando a nova relação de permissões do usuário.
 
-* **Coluna Ações / Botão Kick-Off** ; Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
+* **Coluna Ações / Botão Kick-Off** : Este botão permite desvincular o Virtual Data Center do Grupo em uma ação. Basta o usuário clicar com o mouse no botão Kick-Off para que o VDC seja desvinculado do Grupo, de forma definitiva e imediata, para o grupo que se está alterando. Importante ressaltar que esta ação não solicita validação para o usuário.
 
 * **Seção Usuários**: Esta seção da tela apresenta a lista de todos os usuários que estão vinculados ao grupo e o respectivo consumo individual de recursos computacionais. Através desta tela o usuário com perfil de Administrador do Grupo, pode acompanhar qual(is) usuário(s) consome(m) mais recursos computacionais nos provedores de nuvem (público e/ou privado);
 
@@ -1695,9 +1695,9 @@ Abaixo descreveos os campos desta tela:
 
 ----
 
-* **Botão Criar Usuário**; Este botão permite provisionar um novo usuário na plataforma uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a plataforma uCloud apresenta a tela de Criando Novo Usuário.
+* **Botão Criar Usuário**: Este botão permite provisionar um novo usuário na plataforma uCloud já vinculando este novo usuário ao grupo que se está visualizando. Esta é a metodologia recomendada pela Ustore para provisionar novos usuários para acessar o ambiente. Quando clicar com o botão do Mouse sobre este botão, a plataforma uCloud apresenta a tela de Criando Novo Usuário.
 
-* **Botão Adicionar Usuário Existente**; Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela;
+* **Botão Adicionar Usuário Existente**: Este botão permite vincular um usuário existente a este grupo. Quando o usuário clicar com o cursor do mouse neste botão será apresentada uma tela;
 
 .. figure:: /figuras/uCloud_menu_grupo_009.png
    :alt: menu de usuário
@@ -1713,8 +1713,8 @@ Abaixo descreveos os campos desta tela:
 
 .. * **Cota de CPU** : Esta coluna apresenta o número inteiro que representa o limite (cota) da quantidade de CPU que foi definida para este grupo. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de grupos com base no valor da quantidade de CPU de forma crescente ou decrescente.
 
-  * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
-  * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
+.. * Se o usuário for provisionado para consumir cota do grupo o valor desta coluna será zero (0).
+.. * Se o usuário for provisionado com limites (cotas) individuais, esta coluna apresenta o valor específico deste usuário.
 
 .. * **Cota de Faturamento** : Esta coluna apresenta o número que representa o limite (cota) do valor financeiro que foi definido para o usuário. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a Plataforma uCloud classifica a lista de usuários com base no valor financeiro de forma crescente ou decrescente.
 
@@ -1888,6 +1888,8 @@ Abaixo seguem descritas as colunas apresentadas nesta tabela:
   * **Expirado**: Esta opção determina que os recursos computacionais devem continuar existindo no provedor de serviço de nuvem (incorrendo o custo, mesmo sem uso). Esta opção depende da data informada no campo Prazo do Contrato.
   * **Cleaned/Limpo**: Esta opção determina que no caso do contrato se encontrar encerrado, por atingir/ultrapassar a data definida no Prazo do Contrato. Todos os seus recursos de nuvem serão expurgados (removidos) automaticamente dos ambientes dos provedores de serviço.
   * **Manual**: Esta opção determina que no caso do contrato se encontrar encerrado, ultrapassou a data definida no Prazo do Contrato, todos seus recursos de nuvem deverão ser expurgados (removidos) manualmente dos ambientes dos provedores de serviço.
+
+----
 
 Governança Financeira via Contrato
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2337,7 +2339,7 @@ Ao clicar no *Budget* para visualizar os *sub budgets*, a interface entrega as i
 Visualizando Contrato
 ~~~~~~~~~~~~~~~~~~~~~
 
-A Tela de visualização de contrato é a uma das mais extensas telas da plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
+A tela de visualização de contrato é a uma das mais extensas telas da plataforma uCloud e com a quantidade de dezesseis (16) seções (cards). Para simplificar a descrição, cada seção será apresentada de forma individualizada. Abaixo segue um exemplo da tela inicial e descrição de cada seção (card) em separado.
 
 .. figure:: /figuras/ucloud_menu_contrato_002.png
    :alt: menu de contrato
@@ -2356,7 +2358,7 @@ Quando um contrato é provisionado no sistema, o usuário com perfil de Administ
 
 ----
 
-Deve ser informadas as credenciais de login de um usuário no campo Administrador, neste momento este usuário (simples) fica associado ao perfil de Administrador do Contrato. Veja a seção (card) abaixo:
+Devem ser informadas as credenciais de login de um usuário no campo Administrador, neste momento este usuário (simples) fica associado ao perfil de Administrador do Contrato. Veja a seção (card) abaixo:
 
 Abaixo detalhamento dos campos não mencionados;
 
@@ -2386,7 +2388,9 @@ Favor consultar o documento: Manual do Administrador da plataforma uCloud, para 
 ----
 
 Podem ser:
+
 #. Quantidade de Casas Decimais: Este campo define a quantidade de casas decimais e é muito útil quando o Contrato possui valor em moeda estrangeira.
+
 #. Perfil de Tagueamento: Ver opção de Menu Configurações / Tagueamento de Recursos USN.
 
 ----
@@ -2395,6 +2399,7 @@ Seção: Categorias de Preço
 """"""""""""""""""""""""""
 
 Nesta seção é possível provisionar as categorias de preço utilizadas para agrupar os preços do contrato, quando este contrato está associado a uma empresa do Governo municipal, estadual ou federal em que os valores a serem apresentados referente ao consumo dos recursos computacionais de nuvem deverão ser convertidos para a métrica de Unidade de Serviço de Nuvem (USN).
+
 A Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços, divididos em categorias: os serviços de IaaS, PaaS e serviços técnicos. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade objetivamente definida a ser cobrada pelos serviços de computação em nuvem. A métrica de USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
 .. figure:: /figuras/ucloud_menu_contrato_021.png
@@ -2780,7 +2785,7 @@ A Ustore possui em seu portfólio o produto uSDN para complementar ambientes de 
 
 A Ustore possui em seu portfólio o produto uSDN para complementar ambientes de data center privado (on-premises) para transformar o ambiente privado de forma a simplificar a configuração de parâmetros de rede de dados através da interface da plataforma uCloud.
 
-Importante ressaltar que a configuração das telas abaixo somente será necessária quando a plataforma uCloud estiver configurada para o controle e o gerenciamento dos recursos computacionais em um data center privado. Para o gerenciamento e controle dos recursos computacionais de nuvem pública, as telas abaixo não demandam configuração e podem ser ignoradas.
+Importante ressaltar que a configuração das telas abaixo somente é necessária quando a plataforma uCloud estiver configurada para o controle e o gerenciamento dos recursos computacionais em um data center privado. Para o gerenciamento e controle dos recursos computacionais de nuvem pública, as telas abaixo não demandam configuração e podem ser ignoradas.
 
 ----
 
@@ -3182,11 +3187,16 @@ Billing Admin
 -------------
 
 A configuração de Billing Admin é a forma como a plataforma uCloud identifica o arquivo da fatura (cobrança) dos valores, referentes aos custos dos recursos computacionais de nuvem, nas credenciais do cliente.
+
 Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
+
 A configuração de Billing Admin, na plataforma uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
+
 A plataforma uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
 Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato.
+
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a plataforma uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
+
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
 
 .. inserir tela (remover este comentario)
@@ -3213,11 +3223,16 @@ Informações de Registro (LOG) do Billing Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A configuração de Billing Admin é a forma como a plataforma uCloud identifica o arquivo da fatura (cobrança) dos valores, referentes aos custos dos recursos computacionais de nuvem, nas credenciais do cliente.
+
 Normalmente, os provedores de nuvem calculam os custos dos recursos computacionais num período de seis ou oito horas. Após este período de contabilização, um arquivo texto não formatado (Comma Separated Values – .CSV) é atualizado com todos os valores de todo o período de vigência da relação do cliente com o provedor.
+
 A configuração de Billing Admin, na plataforma uCloud, estabelece uma identificação e o agendamento de um processo de sincronização (download) do conteúdo do arquivo texto não formatado (.CSV), do provedor para dentro das bases de dados do uCloud. Esta sincronização é planejada para que a apresentação dos valores na tela do uCloud seja rápida, uma vez que todos os valores já estão atualizados e prontos para o usuário consultar - valores dos recursos computacionais do provedor de serviço de nuvem.
+
 A plataforma uCloud não cria valores - o ator responsável por gerar e adicionar um valor aos recursos computacionais consumidos no período, são os provedores de serviço de nuvem pública.
 Qualquer discrepância de valores, consultados na console do provedor pelo usuário e na interface da plataforma uCloud pode estar associada a alguma condição específica estabelecida no Contrato. Veja acima no item Administração de Contrato.
+
 Nesta tela, são listados apenas os provedores provisionados para esta empresa. Importante ressaltar que a plataforma uCloud é um ambiente multi-nuvem (multi-cloud), desta forma, pode ser listada mais de uma configuração de Billing Admin para cada empresa.
+
 Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedores diferentes de serviço de nuvem (AWS e Azure). É possível haver apenas um ou mais provedores configurados.
 
 .. image:: /figuras/ucloud_billing_admin_001.png
@@ -3227,7 +3242,7 @@ Na tela a seguir, é apresentado um exemplo de Billing Profile para dois provedo
 ----
 
 Importante mencionar que não é objetivo deste documento descrever o processo de configuração de Billing Admin, pois apenas usuários com perfil de Administrador da plataforma uCloud têm permissão para isto. Veja o documento Manual do Administrador da plataforma uCloud onde está descrito o processo correto de provisionar um Billing Admin.
-Segue a descrição dos botões desta tela;
+Segue a descrição dos botões desta tela:
 
 * **Botão Lançar Accountant** |botao_lanca_acct|: Este botão apresenta a tela para provisionar um novo Billing Profile na plataforma uCloud. Importa ressaltar que apenas o usuário com perfil de Administrador de plataforma pode provisionar um novo Billing Profile. Veja o documento Manual do Administrador da plataforma uCloud onde está descrito o processo correto de provisionar um Billing Admin.
 * **Botão Limpar Histórico** |botao_limpa_acct|: *ATENÇÃO, é relevante ressaltar que este botão efetua o expurgo (apaga) completo de todos os registros de valores de bilhetagem das bases de dados da plataforma uCloud, de forma definitiva e irreversível. Serão removidos todos os valores desde a data  inicial até o dia da ação*.
@@ -3239,6 +3254,7 @@ Registro (LOG) do Billing Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 É permitido ao usuário com o perfil de Administrador do Contrato identificar potenciais discrepâncias de valores, que porventura sejam apresentadas no menu Financeiro, este usuário pode verificar se há algum problema na comunicação entre a plataforma uCloud e a console do provedor, através do botão “Log”.
+
 Ao visualizar todos os Billing Admin, o usuário pode identificar alguns ícones a cada configuração provisionada;
 
 .. image:: /figuras/ucloud_billing_admin_002.png
@@ -3279,7 +3295,7 @@ No modelo de cobrança do recurso computacional de nuvem pública, todo recurso 
 
 Uma etiqueta (tag) é um rótulo no qual o usuário atribui um valor a um recurso computacional de nuvem pública. As etiquetas (tags) permitem categorizar seus recursos nas nuvens. Por exemplo, o usuário ou a organização, podem definir um conjunto de etiquetas (tag), para as instâncias do Amazon EC2, na sua conta que auxilie rastrear o nível do agrupamento (empilhamento de valores - stack) de cada recurso computacional de nuvem pública consumido.
 
-A seguir, será descrito o processo de criação de um perfil de etiquetamento de recursos computacionais de nuvem pública (tag profile) em USN.
+A seguir, é descrito o processo de criação de um perfil de etiquetamento de recursos computacionais de nuvem pública (tag profile) em USN.
 
 ----
 
