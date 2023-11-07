@@ -3160,8 +3160,8 @@ O usuário pode verificar que ao visualizar a lista de perfis existem dois ícon
 
 * Ações: Esta coluna apresenta dois ícones para que o usuário possa interagir com o perfil de visualização desejado:
 
-  * **Ícone Lata de Lixo |icone_lixo|**: Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud possa remover (excluir) este Perfil de Visualização, de forma imediata e definitiva.
-  * **Ícone Edição |icone_edita_on|**: Basta o usuário clicar sobre este ícone para que a plataforma uCloud possa apresentar uma tela que permite editar Perfil de Visualização respectivo. Importante mencionar que apenas o usuário com a permissão correta poderá editar as opções de menu de um Perfil de Visualização.
+  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão para que a plataforma uCloud possa remover (excluir) este Perfil de Visualização, de forma imediata e definitiva.
+  * **Ícone Edição** |icone_edita_on|: Basta o usuário clicar sobre este ícone para que a plataforma uCloud possa apresentar uma tela que permite editar Perfil de Visualização respectivo. Importante mencionar que apenas o usuário com a permissão correta poderá editar as opções de menu de um Perfil de Visualização.
 
 .. image:: /figuras/ucloud_perfil_visualizacao_003.png
    :alt: perfil de permissionamento
@@ -3526,9 +3526,9 @@ Ao clicar no submenu "Relatório de chamados" a tela "Dashboard de atendimento" 
 Dashboard de atendimento
 """"""""""""""""""""""""
 
-Esta apresenta o campo "Calendário" que disponibiliza o período a selecionar e o botão ``Pesquisar``.
+Esta tela apresenta o campo "Calendário" que disponibiliza o período a selecionar e o botão ``Pesquisar``.
 
-ao selecionar o range de meses dentro do período de um ano, é possível carregar as informações referente os chamados para determinados processos.
+Ao selecionar o range de meses dentro do período de um ano, é possível carregar as informações referente os chamados para determinados processos.
 
 .. Botão: Calendário
 .. """"""""""""""""""
@@ -3543,7 +3543,7 @@ Assessments (novo)
 
 O Assessment é o novo submenu da plataforma uCloud, inserido no menu Segurança. Trata-se de uma feature que objetiva avaliar por meio da aplicação de um questionário eletrônico, qualquer estado ou necessidade de determinada área, seja ela relacionada a maturidade ou entendimento sobre o nível de evolução que se encontra determinado projeto ou área da empresa.
 
-.. note:: Está composto pelas funcionalidades "Auto assessment" e "CIS Control", sendo primeira detalhada a seguir e a segunda está em desenvolvimento (outubro.2023).
+.. note:: O menu Assessments é composto pelas funcionalidades "Auto assessment" e "CIS Control", sendo a primeira detalhada na sequência e a segunda encontra-se em estado de desenvolvimento (novembro.2023).
 
 ----
 
@@ -3601,7 +3601,7 @@ Os campos para preenchimento são listados a seguir.
 
 * Questões do formulário; 
 
-* Botão ``Salvar template``. 
+* **Botão** ``Salvar template``. 
 
 ``inserir imagem``
 
@@ -3615,7 +3615,7 @@ Neste fluxo o novo espaço é exibido "Nome da seção" ao preenchê-lo o campo 
 
 * Questão obrigatória: informar se é obrigatória ou não; 
 
-* Clicar no botão ``Salvar``. 
+* Clicar no **botão** ``Salvar``. 
 
 Este fluxo pode ser repetido quantas vezes for necessário até completar todas as perguntas relacionadas a esta seção. Depois pode abrir uma nova seção e inserir informações necessárias para efetuar a sondagem. O usuário customiza seu formulário de auto assessment até o momento que perceba estar completo. 
 
@@ -3944,7 +3944,7 @@ Ao visualizar a imagem acima, o usuário deve inserir as credenciais no portal d
 
 No perfil do usuário gerente Admin do *Ethical Phishing*, o *Dashboard* é apresentado em dez *cards*, listados a seguir: 
 
-   * Meu *dashboard*; 
+   * Meu *Dashboard*; 
 
    * *Dashboard* global de contratos; 
 
@@ -3962,7 +3962,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o *Dashboard* é apre
 
    * Perfis de envio; 
 
-   * *Landing Pages* página de destino.
+   * *Landing Pages*.
  
 
 .. image:: /figuras/fig_segurança/003_menu_phishing.png
@@ -3988,7 +3988,7 @@ As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicador
 
 No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard* está dividido em três *cards*. São eles: 
 
-   * Meu *dashboard*;  
+   * Meu *Dashboard*;  
 
    * *Dashboard* global de contratos;  
 
@@ -4006,7 +4006,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard*
 ----
 
 
-Ao clicar em **Meu dashboard**, o gerente Admin do *Ethical Phishing* pode criar campanhas e registrar os domínios. 
+Ao clicar em **Meu Dashboard**, o gerente Admin do *Ethical Phishing* pode criar campanhas e registrar os domínios. 
 
 Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.
 
@@ -4017,11 +4017,11 @@ Nesta tela é possível acompanhar questões relativas ao número de contatos ca
 
 A tela apresenta três botões de ações. 
 
-   * Botão ``Voltar``; 
+   * **Botão** ``Voltar``; 
 
-   * Botão ``Criar campanha de phishing``; 
+   * **Botão** ``Criar campanha de phishing``; 
 
-   * Botão ``Autorizar novo domínio``. 
+   * **Botão** ``Autorizar novo domínio``. 
 
 
 
@@ -4059,14 +4059,14 @@ Feito isso, uma nova tela é apresentada, a qual exibe 5 etapas a serem cumprida
 
 Em seguida, caso deseje, é possível selecionar uma ou mais tags para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações:
 
-* Botão ``Cancelar``
-* Botão ``Selecionar um template``
+* **Botão** ``Cancelar``
+* **Botão** ``Selecionar um template``
   
 O segundo botão permanece desabilitado na coloração cinza até que o usuário nomeie a campanha. Feito isso, a ação de ``Selecionar um template`` é habilitada, passando para a cor laranja, basta clicar neste para avançar.  
 
 Neste passo, a tela apresenta *templates* pré-estabelecidos.
 
-.. note:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única. Caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
+.. important:: Não podem existir campanhas com o mesmo nome, cada uma deve ser única. Caso o usuário nomeie uma campanha com um nome já existente a plataforma exibe uma mensagem de erro.
 
 .. image:: /figuras/fig_segurança/008_selecionar_template.png
    :alt: selecionar template 
@@ -4082,10 +4082,10 @@ No canto inferior direito de cada *template* há uma lupa para uma pré-visualiz
 
 Para escolher o *template*, é necessário clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: 
 
-* Botão ``Voltar`` 
-* Botão ``Selecionar uma Landing Page``
+* **Botão** ``Voltar`` 
+* **Botão** ``Selecionar uma Landing Page``
 
-Ao clicar na segunda ação, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que o passo anterior. 
+Ao clicar na segunda ação, a tela para seleção de um *template* para a *landing page* apresentada com as mesmas funcionalidades da pré-visualização e de escolha que o passo anterior. 
 
 .. image:: /figuras/fig_segurança/010_landing_page.png
    :alt: landing page 
@@ -4112,7 +4112,7 @@ Ao avançar para o quinto e último passo, é possível revisar todas as escolha
 
 Caso não, basta clicar no botão ``Voltar`` no canto inferior esquerdo até o passo que precisa ser alterado. Abaixo dos quadros informativos, há uma mensagem em tela: *“Após a confirmação será liberada a opção de importação de contatos, envio e teste de e-mails, assim como informações de cotas”*. 
 
-Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
+Se todos os dados estiverem certos, basta clicar no botão ``Confirmar`` de coloração verde para finalizar este *Dashboard*. Feito isso, uma mensagem de confirmação é apresentada em tela. 
 
 .. image:: /figuras/fig_segurança/013_feedback_campanha.png
    :alt: feedback campanha 
@@ -4249,9 +4249,9 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
      * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
-        * Botão ``Voltar``;
-        * Botão ``Exportar``;
-        * Botão ``Concluir campanha``. 
+        * **Botão** ``Voltar``;
+        * **Botão** ``Exportar``;
+        * **Botão** ``Concluir campanha``. 
 
  .. image:: /figuras/fig_segurança/023_icone_grafico.png
    :alt: icone gráfico
@@ -4329,9 +4329,9 @@ Este *dashboard* apresenta telas relacionadas ao *Ethical Phishing* e o painel a
 
 Três botões de ações são apresentados na página: 
 
-     * Botão ``Voltar``;
-     * Botão ``Criar Usuário``;
-     * Botão ``Autorizar novo domínio``.  
+     * **Botão** ``Voltar``;
+     * **Botão** ``Criar Usuário``;
+     * **Botão** ``Autorizar novo domínio``.  
 
 .. image:: /figuras/fig_segurança/025_dashboard_contrato.png
    :alt: dashboard contrato
@@ -4355,10 +4355,15 @@ Ao lado, é possível observar dados sobre quantas campanhas estão em execuçã
 
 ----
 
-Para criar um perfil de usuário, o Gerente Admin deve ir ao tópico de Usuários do Ethical Phishing_. 
+Para criar um perfil de usuário, o Gerente Admin deve consultar o tópico de Usuários_ do Ethical Phishing_ . 
 
-.. _Phishing: 
+.. _Usuários:
 https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
+
+
+.. _Phishing:
+https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#acesso-do-usuario-gerente-admin 
+
 
 Finalizado este processo, o usuário retorna pra a tela do *Dashboard* do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
 
@@ -4433,8 +4438,8 @@ Contratos é o quarto *card* do menu de Segurança *Ethical Phishing* e sua visu
 
 Ao clicar nesta opção, a tela exibida apresenta dois botões de ações: 
 
-* Botão ``Criar Contrato``; 
-* Botão ``Atualizar``.
+* **Botão** ``Criar Contrato``; 
+* **Botão** ``Atualizar``.
   
 Além de estar organizada em cinco colunas: 
 
@@ -4524,13 +4529,13 @@ Ao selecionar o contrato desejado, o usuário é direcionado para a tela de deta
 
 No contrato são definidos os custos, a margem financeira, taxa de conversão de moeda, custos de recursos (opcional) e a cota (limite) global que pode ser uma cota financeira ou uma cota de recursos computacionais. 
 
-Para outras informações basta acessar o submenu Contrato pertencento ao Menu Administração_ .
+Para outras informações basta acessar o submenu Contrato_ pertencente ao Menu Administração.
 
-.. _Administração: 
+.. _Contrato: 
 https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#contrato
 
 
-A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo card “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
+A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo *card* “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
 
 .. image:: /figuras/fig_segurança/037_cota_segurança.png
    :alt: cota segurança
@@ -4718,9 +4723,10 @@ Na parte inferior do modal são apresentados dois botões de ação ``Cancelar``
 
 ----
 
-Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu Usuários no Menu Administração_ 
+Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu usuários_ no Menu Administração. 
 
-.. _Administração: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-administracao-usuarios
+.. _usuários:
+https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
 
 Os *cards* com maior importância para o *Ethical Phishing* são apenas dois: "Geral" e "Cotas de Segurança".  
 
@@ -4752,7 +4758,7 @@ O primeiro apresenta três botões de ação, como ``Excluir Usuário``, ícone 
 
    * Ativar cota de Faturamento;
 
-   * Aprovação do administrador.
+   * Aprovação do Administrador.
 
 .. image:: /figuras/fig_segurança/040_geral_usuario.png
    :alt: geral usuario
@@ -4847,8 +4853,7 @@ Na tela acima diferentes *cards* são exibidos, é possível visualizar detalhes
 
 Para um melhor entendimento desse quadro assim como o passo a passo do processo de criação de uma campanha, é necessário acessar *Dashboard* e clicar no *card* ``Meu dashboard`` seguindo a jornada do Gerente Admin do *Ethical phishing*, esta etapa da operação é publicada no tópico Meu dashboard_ e replicada na sequência para manter o leitor na linha de raciocínio "Campanhas".
 
-.. _dashboard: 
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#meu-dashboard
+.. _dashboard: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#meu-dashboard
 
 
 ----
@@ -4857,7 +4862,7 @@ https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest
 
 ----
 
-Ao clicar em **Meu dashboard**, o gerente Admin do *Ethical Phishing* pode criar campanhas e registrar os domínios. 
+Ao clicar em **Meu Dashboard**, o gerente Admin do *Ethical Phishing* pode criar campanhas e registrar os domínios. 
 
 Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.
 
@@ -4868,11 +4873,11 @@ Nesta tela é possível acompanhar questões relativas ao número de contatos ca
 
 A tela apresenta três botões de ações. 
 
-   * Botão ``Voltar``; 
+   * **Botão** ``Voltar``; 
 
-   * Botão ``Criar campanha de phishing``; 
+   * **Botão** ``Criar campanha de phishing``; 
 
-   * Botão ``Autorizar novo domínio``. 
+   * **Botão** ``Autorizar novo domínio``. 
 
 
 
@@ -4912,8 +4917,8 @@ Em seguida, caso deseje, também é possível selecionar uma ou mais *tags*, ass
 
 Após isso, o usuário tem a opção de duas ações: 
 
-* Botão ``Cancelar``; 
-* Botão ``Selecionar um template``.
+* **Botão** ``Cancelar``; 
+* **Botão** ``Selecionar um template``.
 
 O segundo botão permanece desabilitado na coloração cinza até que o usuário nomeie a campanha, este só é alterado para a cor laranja quando estiver habilitado, bastando clicar na ação para avançar a etapa.  
 
@@ -4935,7 +4940,7 @@ No canto inferior direito de cada *template* há uma lupa para uma pré-visualiz
 
 Para escolher o *template*, é necessário clicar na própria imagem ou no *checkbox* no canto superior direito. Na parte inferior da tela é possível visualizar a quantidade de páginas, assim como dois botões de ações: ``Voltar`` e ``Selecionar uma Landing Page``. 
 
-Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a do etapa anterior. 
+Para avançar para o terceiro passo, basta clicar no segundo botão. Em seguida, a tela para seleção de um *template* para a landing page é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a do etapa anterior. 
 
 .. image:: /figuras/fig_segurança/010_landing_page.png
    :alt: landing page 
@@ -5062,9 +5067,9 @@ Feita a confirmação, os espaços com data e hora são automaticamente preenchi
 
 A nova tela ao qual o usuário gerente Admin é direcionado apresenta três botões de ação: 
 
-   * Botão ``Voltar``;
-   * Botão ``Atualizar``;
-   * Botão ``+ Nova  Campanha``.
+   * **Botão** ``Voltar``;
+   * **Botão** ``Atualizar``;
+   * **Botão** ``+ Nova  Campanha``.
    
 Além de dois *cards* com diferentes tipos de campanha: 
 
@@ -5101,9 +5106,9 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
      * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
-        * Botão ``Voltar``;
-        * Botão ``Exportar``;
-        * Botão ``Concluir campanha``. 
+        * **Botão** ``Voltar``;
+        * **Botão** ``Exportar``;
+        * **Botão** ``Concluir campanha``. 
 
  .. image:: /figuras/fig_segurança/023_icone_grafico.png
    :alt: icone gráfico
@@ -5158,8 +5163,8 @@ Ao acessar este card, uma nova tela é apresentada.
 
 Na figura acima dois botões de ação são exibidos: 
 
-* Botão ``Voltar``; 
-* Botão ``+ Novo Grupo``.
+* **Botão** ``Voltar``; 
+* **Botão** ``+ Novo Grupo``.
 
 Além de dois *cards*: um para listagem e outro para visualização. 
 
@@ -5181,10 +5186,10 @@ Para iniciar o processo de criação de um grupo de contatos, o usuário deve cl
 
 Nesta imagem é possível verificar a existência de quatro botões de ação: 
 
-* Botão ``Voltar``;
-* Botão ``Novo Contato``;
-* Botão ``Escolher arquivo``; 
-* Botão ``+ Importar usuários em massa``.
+* **Botão** ``Voltar``;
+* **Botão** ``Novo Contato``;
+* **Botão** ``Escolher arquivo``; 
+* **Botão** ``+ Importar usuários em massa``.
 
 
 O primeiro passo a ser feito é nomear o grupo. Em seguida, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal dele, exibido abaixo, seja habilitado para preenchimento.  
@@ -5220,7 +5225,7 @@ Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta q
    :align: center
 ----
 
-.. note:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando o sinal de ponto e vírgula (; ) 
+.. note:: O arquivo em formato .csv corresponde a valores separados por vírgula, este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando o sinal de ponto e vírgula (;). 
 
 Após confirmar a ação, a tela de visualização apresenta os detalhes. Para salvar os dados informados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato. Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
 
@@ -5604,8 +5609,8 @@ O último *card* do menu de Segurança *Ethical Phishing* é o *Landing Pages*.
 
 Ao acessá-lo, são apresentados dois *cards*: um contendo a lista das *landing pages* e o segundo pré-visualização destas, além de dois botões de ação, sendo eles:
 
-*  Botão ``Voltar``; 
-*  Botão ``Novo template de Landing Page``.
+*  **Botão** ``Voltar``; 
+*  **Botão** ``Novo template de Landing Page``.
 
 .. image:: /figuras/fig_segurança/059_landing_page.png
    :alt: landing page
@@ -5774,10 +5779,9 @@ Acesso do usuário: Utilizador
 
 ====
 
-**Acessando**
-""""""""""""
+Acessando
+"""""""""
 
-----
 
 O usuário Utilizador deve acessar a plataforma uCloud, ao iniciar a sessão necessita inserir as credenciais com o login e a senha, provisionadas previamente por um usuário com o perfil Gerente Admin ou usuário com esta permissão. O perfil de usuário Utilizador é compatível com os atributos de acesso ao *Ethical Phishing*. Detalhamento destes perfis o leitor encontra em Usuários_.
 
@@ -5789,7 +5793,7 @@ O usuário Utilizador deve acessar a plataforma uCloud, ao iniciar a sessão nec
    :align: center
 ----
 
-No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresentado em seis *cards*, listados a seguir: 
+No perfil do usuário utilizador do *Ethical Phishing*, o *Dashboard* é apresentado em seis *cards*, listados a seguir: 
 
    * Meu *Dashboard*; 
 
@@ -5809,10 +5813,9 @@ No perfil do usuário utilizador do *Ethical Phishing*, o *dashboard* é apresen
 ----
 
 
-**Dashboard do usuário Utilizador**
-"""""""""""""""""""""""""""""""""""
+Dashboard do usuário Utilizador
+"""""""""""""""""""""""""""""""
 
-----
 
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing*, o que facilita a tomada de decisões.  
@@ -5828,10 +5831,8 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
    :align: center
 ----
 
-**Meu Dashboard**
-"""""""""""""""""
-
-----
+Meu Dashboard
+"""""""""""""
 
 
 Ao clicar em **Meu Dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.    
@@ -5843,11 +5844,11 @@ Ao clicar em **Meu Dashboard**, o usuário Utilizador pode criar campanhas e reg
 
 A tela apresenta três botões de ações. 
 
-   * Botão ``Voltar``;
+   * **Botão** ``Voltar``;
 
-   * Botão ``Criar campanha de phishing``;
+   * **Botão** ``Criar campanha de phishing``;
 
-   * Botão ``Autorizar novo domínio``.
+   * **Botão** ``Autorizar novo domínio``.
 
 
 Assim como cinco *cards*. São eles: 
@@ -5884,8 +5885,8 @@ Feito isso, uma nova tela é apresentada, a qual exibe 5 etapas a serem cumprida
 
 Em seguida, caso deseje, é possível selecionar uma ou mais *tags* para facilitar a identificação da campanha. Após isso, o usuário tem a opção de duas ações: 
 
-* Botão ``Cancelar``;
-* Botão ``Selecionar um template``.
+* **Botão** ``Cancelar``;
+* **Botão** ``Selecionar um template``.
   
 O segundo botão permanece desabilitado na coloração cinza até que o usuário nomeie a campanha. Feito isso, a ação de ``Selecionar um template`` é habilitada, passando para a cor laranja, basta clicar neste para avançar. Neste próximo passo, a tela apresenta *templates* pré-estabelecidos.  
 
@@ -5910,10 +5911,10 @@ Para escolher o *template*, é necessário clicar na própria imagem ou no *chec
 
 Na parte inferior da página é possível visualizar a quantidade de páginas, assim como dois botões de ações: 
 
-* Botão ``Voltar``;
-* Botão ``Selecionar uma Landing Page``.
+* **Botão** ``Voltar``;
+* **Botão** ``Selecionar uma Landing Page``.
   
-Ao clicar na segunda ação, a tela para seleção de um *template* para a página destino é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a etapa anterior. 
+Ao clicar na segunda ação, a tela para seleção de um *template* para a *landing page* é apresentada com as mesmas funcionalidades da pré-visualização e de escolha que a etapa anterior. 
 
 .. image:: /figuras/fig_segurança/010_landing_page.png
    :alt: selecionar landing page
@@ -6054,9 +6055,9 @@ Depois de clicar nesta ação, é necessário pressionar o botão localizado na 
 
 A nova tela ao qual o usuário Utilizador é direcionado apresenta três botões de ação: 
 
-   * Botão ``Voltar``;
-   * Botão ``Atualizar``;
-   * Botão ``+ Nova  Campanha``.
+   * **Botão** ``Voltar``;
+   * **Botão** ``Atualizar``;
+   * **Botão** ``+ Nova  Campanha``.
    
 Além de dois *cards* com diferentes tipos de campanha: 
 
@@ -6093,11 +6094,11 @@ Ambos *cards* exibem quatro colunas que são descritas a seguir:
 
        * **Gráfico**: Ao clicar no ícone |icone_grafico|, o usuário é direcionado para a tela abaixo, na qual é permitido consultar as informações gerais sobre a campanha selecionada e visualizar os três botões de ação: 
      
-           * Botão ``Voltar``;
+           * **Botão** ``Voltar``;
   
-           * Botão ``Exportar``;
+           * **Botão** ``Exportar``;
   
-           * Botão ``Concluir campanha``. 
+           * **Botão** ``Concluir campanha``. 
 
 A plataforma apresenta a mensagem de confirmação a seguir ao clicar no botão ``Concluir campanha``:  
 
@@ -6139,23 +6140,23 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 
 ----
 
-**Dashboard do Contrato** 
-""""""""""""""""""""""""
+Dashboard do Contrato
+"""""""""""""""""""""
 
------
+----
 
 .. centered:: Introdução
 
 ----
 
-Este dashboard do usuário Utilizador apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada, possibilitando o acompanhamento dos dados das campanhas do contrato logado na sessão no mês selecionado. 
+Este Dashboard do usuário Utilizador apresenta telas relacionadas ao *Ethical Phishing* e o painel administrativo do contrato da sessão logada, possibilitando o acompanhamento dos dados das campanhas do contrato logado na sessão no mês selecionado. 
 
 Quatro botões de ações são apresentados na página: 
 
-* Botão ``Voltar``;
-* Botão ``Criar Usuário``;
-* Botão ``Autorizar novo domínio``;
-* Botão ``Suporte``.
+* **Botão** ``Voltar``;
+* **Botão** ``Criar Usuário``;
+* **Botão** ``Autorizar novo domínio``;
+* **Botão** ``Suporte``.
 
  .. image:: /figuras/fig_segurança/032_u_dashboard_contratos.png
    :alt: tela dashboard do contrato
@@ -6175,11 +6176,7 @@ Logo abaixo, é informado o próximo dia em que as cotas são renovadas. Ao lado
 
 ----
 
-Do lado direito da tela, é possível observar o card de domínios autorizados, detalhado previamente no tópico de Meu Dashboard_.
-
-.. _Dashboard: 
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dashboard
-
+Do lado direito da tela, é possível observar o card de domínios autorizados.
 
 
  .. image:: /figuras/fig_segurança/029_dominios_lista.png
@@ -6230,15 +6227,12 @@ São apresentadas também quatro colunas:
 
     * Finalizado. 
 
-* Ação: representado pelo ícone do gráfico |icone_grafico| mencionado anteriormente em Meu Dashboard_.
-
-.. _Dashboard: 
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#dashboard
+* Ação: representado pelo ícone do gráfico |icone_grafico|. 
 
 ----
 
-**Campanhas**
-"""""""""""""
+Campanhas
+"""""""""
 
 ----
 
@@ -6289,7 +6283,7 @@ A imagem de simulações de ataques *phishing* abaixo auxilia o entendimento do 
 ----
 
 
-Na tela acima diferentes cards são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. 
+Na tela acima diferentes *cards* são exibidos, é possível visualizar detalhes sobre as cotas disponíveis e as consumidas, a quantidade de e-mails cadastrados e as campanhas disparadas. 
 
 Logo abaixo há um quadro informativo sobre a data de renovação da cota, e uma listagem de campanhas ativas e finalizadas. 
 
@@ -6323,26 +6317,25 @@ A plataforma exibe a tela de Campanhas, nesta é possível visualizar e gerencia
 
 Esta tela apresenta três botões de ação: 
 
-* Botão ``Voltar``;
-* Botão ``Atualizar``;
-* Botão ``+ Nova  Campanha``. 
+* **Botão** ``Voltar``;
+* **Botão** ``Atualizar``;
+* **Botão** ``+ Nova  Campanha``. 
   
 Para outros detalhes convidamos o leitor consultar os tópicos: 
 
   * **Campanhas de Phishing**;
   * **Criando Campanha de Phishing**.
 
-Ambos presentes no capítulo Campanhas do submenu Ethical Phishing_.
+Ambos presentes no capítulo Campanhas_ do submenu Ethical Phishing.
 
-.. _Phishing:
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#campanhas
+.. _Campanhas: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#campanhas
 
 
 
 ====
 
-**Contatos**
-"""""""""""
+Contatos
+""""""""
 
 ----
 
@@ -6372,8 +6365,8 @@ Ao acessar este *card*, uma nova tela é apresentada.
 
 Na figura acima dois botões de ação são exibidos: 
 
-* Botão ``Voltar``;
-* Botão ``+ Novo Grupo``.
+* **Botão** ``Voltar``;
+* **Botão** ``+ Novo Grupo``.
 
 Além de dois *cards*: um para listagem e outro para visualização. 
 
@@ -6394,10 +6387,10 @@ Para iniciar o processo de criação de um grupo de contatos, o usuário deve cl
 
 Nesta imagem é possível verificar a existência de quatro botões de ação: 
 
-* Botão ``Voltar``;
-* Botão ``Novo Contato``;
-* Botão ``Escolher ficheiro``;
-* Botão ``+ Importar usuários em massa``.
+* **Botão** ``Voltar``;
+* **Botão** ``Novo Contato``;
+* **Botão** ``Escolher ficheiro``;
+* **Botão** ``+ Importar usuários em massa``.
 
 O primeiro passo a ser feito é nomear o grupo. Em seguida, para inserir o primeiro contato é necessário clicar no botão ``Novo Contato`` para que o modal dele, exibido abaixo, seja habilitado para preenchimento.    
 
@@ -6441,7 +6434,7 @@ Caso seja desejo do usuário adicionar todos os contatos uma única vez, basta q
 ----
 
 
-.. note:: CSV corresponde a valores separados por vírgula, em português. Este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (;)  
+.. note:: O arquivo formato .csv corresponde a valores separados por vírgula, este tipo de arquivo armazena informações de planilhas e tabelas. Para estruturar esse arquivo basta escrever os detalhes de um mesmo usuário numa única linha, separando os itens utilizando um ponto e vírgula (;).  
 
 
 Após confirmar a ação, a tela de visualização apresenta os detalhes informados. Para salvar os dados, basta clicar no botão ``Salvar`` localizado abaixo do modal de criação de um novo contato. Feito isso, é necessário clicar no botão ``Voltar`` no topo da página pra visualizar a lista de grupos criados. 
@@ -6495,7 +6488,7 @@ Este apresenta dois botões de ação: um ícone com seta apontando pra baixo re
 
 Ao clicar no botão de ``Download`` é realizada a descarga de um arquivo em formato .CSV com todas as informações do grupo de contatos selecionado. 
 
-Ao clicar no botão ``Edição``, o usuário é direcionado para a mesma tela na qual os contatos foram inseridos.   
+Pressionando o botão ``Edição``, o usuário é direcionado para a mesma tela na qual os contatos foram inseridos.   
 
 
 .. image:: /figuras/fig_segurança/051_editar_contatos.png
@@ -6508,8 +6501,8 @@ Importante relembrar que para cada alteração feita, é necessário clicar no b
 
 ====
 
-**Templates**
-"""""""""""""
+Templates
+"""""""""
 ----
 
 .. centered:: Introdução
@@ -6532,8 +6525,8 @@ Ao acessá-lo, são apresentados dois *cards*:
 
 Além de dois botões de ação, são eles:
 
-* Botão ``Voltar``;
-* Botão ``Novo Template de e-mail``. 
+* **Botão** ``Voltar``;
+* **Botão** ``Novo Template de e-mail``. 
 
 .. image:: /figuras/fig_segurança/053_tela_template.png
    :alt: tela templates
@@ -6563,11 +6556,11 @@ Os seguintes campos devem ser preenchidos:
 
 * Área para composição de texto. 
 
-.. note:: Como já mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também é possível a criação delas.
+.. note:: Como mencionado anteriormente, é possível adicionar uma ou mais *tags*, como também a criação delas.
 
 
 
-Na área para composição do texto, é possível escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
+Na área para composição do texto, é permitido escrever a mensagem desejada para ser exibida no e-mail de *phishing*. Neste campo, cinco colunas de configurações do tipo *dropdown* são apresentadas, promovendo uma extensão de possibilidades na escrita. 
 
 * Arquivo: 
 
@@ -6626,7 +6619,7 @@ Na área para composição do texto, é possível escrever a mensagem desejada p
   * Limpar formatação. 
 
 
-É permitido o uso de campos personalizados, como descrito na mensagem seguinte:   
+É liberado o uso de campos personalizados, como descrito na mensagem seguinte:   
 
 .. image:: /figuras/fig_segurança/055_mensagem.png
    :alt: mensagem template
@@ -6704,10 +6697,10 @@ Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta cli
    :align: center
 ----
 
-**Landing Pages**
-"""""""""""""""""
+Landing Pages
+"""""""""""""
 
-----
+
 
 O último *card* do menu *Ethical Phishing* é o "Landing Pages", é possível para o usuário Utilizador visualizar a lista de *Landing Pages* criadas e uma visualização prévia. Para ter acesso a essas funções basta clicar no último *card* da tela, destacado na figura abaixo:   
 
@@ -6718,8 +6711,8 @@ O último *card* do menu *Ethical Phishing* é o "Landing Pages", é possível p
  
 Em seguida, são apresentados dois *cards*: um contendo a lista das *landing pages* e o segundo apresentando uma pré-visualização da *landing page* selecionada, além de dois botões de ação:
 
-* Botão ``Voltar``;
-* Botão ``Novo Template de Landing Page``. 
+* **Botão** ``Voltar``;
+* **Botão** ``Novo Template de Landing Page``. 
 
 .. image:: /figuras/fig_segurança/059_landing_page.png
    :alt: tela inicial landing page
@@ -6879,41 +6872,6 @@ Vale ressaltar que a exclusão é permanente.
    :align: center
 ====
   
-
-.. .. image:: /figuras/fig_segurança/.png
-   :alt:
-   :scale: 100% 
-   :align: center
-   ----
-
-..  .. centered:: Jornada usuário Comum, cargo de Utilizador 
-
-.. ====
-
-.. No perfil do usuário comum do *ethical phishing*, o *dashboard* é apresentado em seis cards, listados a seguir: 
-
-   * Meu dashboard; 
-
-   * Dashboard do contrato; 
-
-   * Campanhas; 
-
-   * Contatos; 
-
-   * Templates ;
-
-   * Landing Pages. 
-
-.. .. image:: /figuras/fig_segurança/u.png
-   :alt: 
-   :align: center
-
-.. Além da quantidade menor de cards apresentados em tela, também é possível identificar que para o usuário comum o acesso ao suporte é facilitado. A representação do bloco de suporte está localizada logo acima dos demais cards, e nele consta a seguinte mensagem: “Atenção usuário! Este painel deve ser utilizado no caso de problemas na operação da aplicação”
-
-.. ====
-
-
-====
 
 Menu Máquinas Virtuais
 ======================
