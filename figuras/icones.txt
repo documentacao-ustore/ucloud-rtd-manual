@@ -1,6 +1,8 @@
-.. |icone_cancel| image:: /figuras/uCloud_icone_cancela_vermelho.png
+Revisado em 07.11.2023 por Rosa de La Vega:
 
 .. |icone_conf_verde| image:: /figuras/uCloud_icone_confirma_verde.png
+
+.. |icone_cancela_vermelho| image:: /figuras/uCloud_icone_cancela_vermelho.png
 
 .. |icone_cota_grp| image:: /figuras/ucloud_icone_cota_grupo.png
 
@@ -18,6 +20,8 @@
 
 .. |icone_agenda| image:: /figuras/uCloud_icone_agendar.png
 
+.. |icone_amplia_vdc| image:: /figuras/ucloud_icone_amplia_vdc.png
+
 .. |icone_anexa_branco| image:: /figuras/uCloud_icone_anexar_branco.png
 
 .. |icone_conecta_rede| image:: /figuras/uCloud_icone_conecta_rede.png
@@ -33,3 +37,35 @@
 .. |icone_remove_user| image:: /figuras/uCloud_icone_remove_user.png
 
 .. |icone_visualiza| image:: /figuras/uCloud_icone_visualiza.png
+
+.. |icone_vm_start| image:: /figuras/ucloud_icone_vm_start.png
+
+.. |icone_vm_stop| image:: /figuras/ucloud_icone_vm_stop.png
+
+.. |icone_vm_reboot| image:: /figuras/ucloud_icone_vm_reboot.png
+
+.. |icone_vm_suspend| image:: /figuras/ucloud_icone_vm_suspend.png
+
+.. |icone_vm_desconecta| image:: /figuras/ucloud_icone_vm_desconecta.png
+
+.. |icone_vm_ssh| image:: /figuras/ucloud_icone_vm_ssh.png
+
+.. |icone_vm_rdp| image:: /figuras/ucloud_icone_vm_rdp.png
+
+.. |icone_vm_clone| image:: /figuras/ucloud_icone_vm_clone.png
+
+.. |icone_vm_resume| image:: /figuras/ucloud_icone_vm_resume.png
+
+.. |icone_edita_vdc| image:: /figuras/ucloud_icone_edita_vdc.png
+
+.. |icone_revert_snap| image:: /figuras/ucloud_icone_revert_snap.png
+
+.. |icone_wf_ativo| image:: /figuras/ucloud_icone_wf_ativo.png
+
+.. |icone_wf_parado| image:: /figuras/ucloud_icone_wf_parado.png
+
+.. |icone_lapis_workflow| image:: /figuras/ucloud_icone_edita_workflow.png
+
+revisado em 07.11.2023 por Rosa de La Vega.
+
+
