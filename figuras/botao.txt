@@ -1,3 +1,5 @@
+Revisado 07.11.2023 por Rosa de La Vega.
+
 .. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
 
 .. |botaoadiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
@@ -42,16 +44,21 @@
 
 .. |botao_refresh| image:: /figuras/uCloud_botao_refresh.png
 
+.. |botao_proximo| image:: /figuras/ucloud_botao_proximo.png
+
+.. |botao_voltar| image:: /figuras/ucloud_botao_voltar.png
+
+.. |botao_criar_off| image:: /figuras/ucloud_botao_criar_cinza.png
+
+.. |botao_criar_on| image:: /figuras/ucloud_botao_criar_verde.png
+
+.. |botao_cencela_verm| image:: /figuras/ucloud_botao_cancela_verm.png
+
 .. |botao_seleciona_azul| image:: /figuras/uCloud_botao_seleciona_azul.png
 
-.. |botao_adiciona| image:: /figuras/uCloud_botao_adicionar.png
+.. |botao_adicionacarrinho| image:: /figuras/ucloud_botao_colocacarrinho.png
 
-.. |botao_adiciona_user| image:: /figuras/uCloud_botao_adicionar_usuario_exist.png
+.. |botao_finalizapedido| image:: /figuras/ucloud_botao_finalizapedido.png
 
-.. |botao_adiciona_grp| image:: /figuras/uCloud_botao_criar_grupo.png
 
-.. |botao_cria_user| image:: /figuras/uCloud_botao_criar_usuario.png
-
-.. |botao_editar| image:: /figuras/uCloud_botao_editar.png
-
-.. |botao_exclui_grp| image:: /figuras/uCloud_botao_excluir_grupo.png
+revisado 07.11.2023 por Rosa de La Vega.
