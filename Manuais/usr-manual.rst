@@ -5510,7 +5510,7 @@ Ao clicar nessa opção, o usuário Gerente Admin tem acesso a lista de perfis d
 
 ----
 
-.. centered:: Criando Perfil de Envio
+.. centered:: Criando o Perfil de Envio
 
 ----
 
@@ -5813,9 +5813,10 @@ No perfil do usuário utilizador do *Ethical Phishing*, o *Dashboard* é apresen
 ----
 
 
-Dashboard do usuário Utilizador
-"""""""""""""""""""""""""""""""
+**Dashboard do usuário Utilizador**
+"""""""""""""""""""""""""""""""""""
 
+----
 
 
 A funcionalidade *Dashboard* tem como principal objetivo ser um painel visual que oferece de maneira centralizada um conjunto de informações. As atividades relacionadas ao *Ethical Phishing* refletem no painel os indicadores de acompanhamento ocorrido nas simulações das campanhas de *phishing*, o que facilita a tomada de decisões.  
@@ -5831,9 +5832,10 @@ O submenu *Dashboard* está dividido em dois *cards*. São eles:
    :align: center
 ----
 
-Meu Dashboard
-"""""""""""""
+**Meu Dashboard**
+"""""""""""""""""
 
+----
 
 Ao clicar em **Meu Dashboard**, o usuário Utilizador pode criar campanhas e registrar os domínios. Nesta tela é possível acompanhar questões relativas ao número de contatos cadastrados, campanhas disparadas, cotas disponíveis e consumidas, quais campanhas estão ativas e finalizadas.    
 
@@ -6138,9 +6140,10 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 
 .. important:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha. 
 
+----
 
-Dashboard do Contrato
-"""""""""""""""""""""
+**Dashboard do Contrato**
+"""""""""""""""""""""""""
 
 ----
 
@@ -6228,9 +6231,10 @@ São apresentadas também quatro colunas:
 
 * Ação: representado pelo ícone do gráfico |icone_grafico|. 
 
+----
 
-Campanhas
-"""""""""
+**Campanhas**
+"""""""""""""
 
 ----
 
@@ -6330,19 +6334,18 @@ Ambos presentes no capítulo Campanhas_ do submenu Ethical Phishing.
 
 .. _Campanhas: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#acesso-do-usuario-utilizador
 
+----
 
 
-
-====
-
-Contatos
-""""""""
+**Contatos**
+"""""""""""""
+----
 
 .. centered:: Introdução
 
 ----
 
-No modulo do *Ethical Phishing* temos a página de Contatos, para acessá-la basta clicar no *card* ``Contatos`` da página inicial conforme a imagem seguinte:  
+No módulo do *Ethical Phishing* temos a página de Contatos, para acessá-la basta clicar no *card* ``Contatos`` da página inicial conforme a imagem seguinte:  
 
 
 .. image:: /figuras/fig_segurança/040_u_card_contatos.png
@@ -6500,8 +6503,12 @@ Importante relembrar que para cada alteração feita, é necessário clicar no b
 
 ====
 
-Templates
-"""""""""
+
+**Templates**
+"""""""""""""
+
+----
+
 
 .. centered:: Introdução
 
@@ -6695,10 +6702,11 @@ Caso o usuário deseje deletar um dos modelos de *templates* da lista, basta cli
    :align: center
 ----
 
-Landing Pages
-"""""""""""""
 
+**Landing Pages**
+"""""""""""""""""
 
+----
 
 O último *card* do menu *Ethical Phishing* é o "Landing Pages", é possível para o usuário Utilizador visualizar a lista de *Landing Pages* criadas e uma visualização prévia. Para ter acesso a essas funções basta clicar no último *card* da tela, destacado na figura abaixo:   
 
