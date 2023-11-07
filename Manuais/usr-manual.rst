@@ -6138,7 +6138,6 @@ Além disto, no fim da lista, no canto inferior esquerdo é possível observar b
 
 .. important:: Nenhuma mensagem de confirmação é apresentada antes de deletar a campanha. 
 
-----
 
 Dashboard do Contrato
 """""""""""""""""""""
@@ -6194,7 +6193,7 @@ Após clicar no botão para ``Autorizar novo domínio``, o modal “Renegociar c
 Nas informações sobre o correio eletrônico, o primeiro campo é do tipo *dropdown* no qual opções para a seleção são exibidas ao clicar. O campo seguinte representa a continuação do e-mail, e este deve ser preenchido com um domínio corporativo válido, e então clicar no botão ``Enviar código``.  
 
 
-.. warning:: Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
+.. warning:: |importante| Não são aceitos e-mails genéricos como: Gmail, Yahoo, Hotmail, entre outros. 
 
 
 Feito isso, o código de verificação é enviado para o e-mail digitado acima. Após o recebimento dos seis numerais via e-mail, é necessário então digitá-los no espaço apropriado, e em seguida clicar no botão de coloração azul ``Confirmar``. 
@@ -6229,7 +6228,6 @@ São apresentadas também quatro colunas:
 
 * Ação: representado pelo ícone do gráfico |icone_grafico|. 
 
-----
 
 Campanhas
 """""""""
@@ -6239,6 +6237,8 @@ Campanhas
 .. centered:: Introdução
 
 ----
+
+
 A técnica de enviar simulações de e-mails fraudulentos em campanhas de *phishing*, compreende pensar no envio de dois tipos: O e-mail parece ser verdadeiro, mas na realidade pode ter sido enviado por um usuário *“hacker”* que tem a intenção de roubar dados sigilosos. Ou um e-mail teste enviado por empresas de proteção especialistas defesa, que utilizam o *phishing* para descobrir se os destinatários destes e-mails estão atentos com a origem dos e-mails recebidos e se clicam em e-mails maliciosos e fragilizam sua segurança e da empresa onde trabalham. 
 
 Abaixo são brevemente explicadas algumas categorias de envio de *phishing*: 
@@ -6328,7 +6328,8 @@ Para outros detalhes convidamos o leitor consultar os tópicos:
 
 Ambos presentes no capítulo Campanhas_ do submenu Ethical Phishing.
 
-.. _Campanhas: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#campanhas
+.. _Campanhas: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#acesso-do-usuario-utilizador
+
 
 
 
@@ -6336,8 +6337,6 @@ Ambos presentes no capítulo Campanhas_ do submenu Ethical Phishing.
 
 Contatos
 """"""""
-
-----
 
 .. centered:: Introdução
 
@@ -6503,7 +6502,6 @@ Importante relembrar que para cada alteração feita, é necessário clicar no b
 
 Templates
 """""""""
-----
 
 .. centered:: Introdução
 
@@ -6736,7 +6734,7 @@ Os espaços apresentados são descritos abaixo:
 
 * Redirecionar após o envio dos dados para;
 
-.. attention:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de ethical phishing_.
+.. attention:: Em caso de não ser adicionada uma URL de redirecionamento, o usuário é encaminhado à página padrão do alerta de campanha de ethical phishing.
  
 .. _phishing: https://ustore.com.br/documents/alerta-campanha.pdf
 
@@ -6746,7 +6744,7 @@ Os espaços apresentados são descritos abaixo:
 
 .. note:: Como mencionado anteriormente, é possível adicionar uma ou mais *tags*, assim como criá-las.
 
-* ``Pré-visualizar landing page``  
+* **Botão** ``Pré-visualizar landing page``;  
 
 * Capturar dados enviados; 
 
