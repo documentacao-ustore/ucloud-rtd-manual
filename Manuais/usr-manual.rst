@@ -4001,7 +4001,7 @@ No perfil do usuário gerente Admin do *Ethical Phishing*, o submenu *Dashboard*
 ----
 
 **Meu Dashboard** 
-~~~~~~~~~~~~~~~~~
+"""""""""""""""""
 
 ----
 
@@ -4357,12 +4357,10 @@ Ao lado, é possível observar dados sobre quantas campanhas estão em execuçã
 
 Para criar um perfil de usuário, o Gerente Admin deve consultar o tópico de Usuários_ do Ethical Phishing_ . 
 
-.. _Usuários:
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
+.. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#id8
 
 
-.. _Phishing:
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#acesso-do-usuario-gerente-admin 
+.. _Phishing: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#acesso-do-usuario-gerente-admin 
 
 
 Finalizado este processo, o usuário retorna pra a tela do *Dashboard* do contrato. Do lado direito da tela, é possível observar o *card* de domínios autorizados. 
@@ -4531,8 +4529,7 @@ No contrato são definidos os custos, a margem financeira, taxa de conversão de
 
 Para outras informações basta acessar o submenu Contrato_ pertencente ao Menu Administração.
 
-.. _Contrato: 
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#contrato
+.. _Contrato: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#contrato
 
 
 A tela de Contratos é bem extensa, contendo vinte *cards*. No entanto, o mais importante em ligação com o *Phishing* é o sétimo *card* “Cota de Segurança” que se encontra ao lado do *card* de *Budget*. Para achá-lo com mais facilidade, pode usar a barra de rolagem no lado direito da página para auxiliar na procura.  
@@ -4725,8 +4722,8 @@ Na parte inferior do modal são apresentados dois botões de ação ``Cancelar``
 
 Ao clicar no usuário desejado, os detalhes sobre o mesmo são apresentados em onze *cards*.  Para outras informações, é indicado acessar o submenu usuários_ no Menu Administração. 
 
-.. _usuários:
-https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
+.. _usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
+
 
 Os *cards* com maior importância para o *Ethical Phishing* são apenas dois: "Geral" e "Cotas de Segurança".  
 
@@ -5771,7 +5768,7 @@ Neste *card* de pré-visualização, ao lado do nome da *landing page*, é poss�
 ====
 
 Acesso do usuário: Utilizador
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ====
 
@@ -5779,8 +5776,8 @@ Acesso do usuário: Utilizador
 
 ====
 
-Acessando
-"""""""""
+**Acessando**
+""""""""""""
 
 
 O usuário Utilizador deve acessar a plataforma uCloud, ao iniciar a sessão necessita inserir as credenciais com o login e a senha, provisionadas previamente por um usuário com o perfil Gerente Admin ou usuário com esta permissão. O perfil de usuário Utilizador é compatível com os atributos de acesso ao *Ethical Phishing*. Detalhamento destes perfis o leitor encontra em Usuários_.
