@@ -237,3 +237,1328 @@ Our commitment regards the integration compatibility maintenance, so the most re
 
 
 ====
+
+Access to the uCloud platform
+=============================
+
+Dashboard
+===========
+
+Section: Company billing quota
+-------------------------------
+
+Section: Shortcuts
+------------------
+
+Virtual Machines
+~~~~~~~~~~~~~~~~~
+
+Virtual Datacenters
+~~~~~~~~~~~~~~~
+
+Billing
+~~~~~~~~
+
+Templates
+~~~~~~~~
+
+Section: Recent tasks
+-----------------------
+
+Section: Quota information about services
+------------------------------------------
+
+CPU usage
+~~~~~~~~~
+
+Memory usage
+~~~~~~~~~~~~
+
+Disk usage
+~~~~~~~~~~
+
+Public IPs quota
+~~~~~~~~~~~~~~~~~~~~
+
+Virtual Machines quota
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Section: Virtual Machines
+.. -----------------------
+.. User Menu
+.. ===============
+
+
+Administration Menu 
+==================
+
+Switch Roles
+-------------
+
+Switch Roles - Mock scenario
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mock scenario (AWS):
+~~~~~~~~~~~~~~~~~~~~~~
+
+Mock scenario (AZURE and AWS):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Switch Roles - Using
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Account
+-----------------
+
+Introduction
+~~~~~~~~~~~
+
+Account type
+~~~~~~~~~~~~
+
+How to access
+~~~~~~~~~~~
+
+Integrator and Producer accounts 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Account
+----------
+
+Main and Sub-Account
+~~~~~~~~~~~~~~~~~
+
+Creating Account 
+~~~~~~~~~~~~~~~~~
+
+Listing the created Account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Detailing the Account
+~~~~~~~~~~~~~~~~~~~~~
+
+Creating Sub-Account
+~~~~~~~~~~~~~~~~~~~~~
+
+How to view the Accounts List:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Company
+.. --------
+
+.. Create company
+.. ~~~~~~~~~~~~~~~~~
+
+.. Groups
+.. -------
+
+.. Create Group
+.. ~~~~~~~~~~~~~~
+
+.. Users
+.. -------
+
+.. Create User
+.. ~~~~~~~~~~~~~~~~~
+
+Users
+-------
+
+Viewing a User
+~~~~~~~~~~~~~~
+
+Creating New User
+~~~~~~~~~~~~~~~~~
+
+Groups
+~~~~~~~
+
+Viewing Group
+~~~~~~~~~~~~~~
+
+Creating New Group
+~~~~~~~~~~~~~~~~~~~~
+
+Company
+~~~~~~~~
+
+Financial Governance via Company
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Computing Resources Financial Isolation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Computing Resources Logical Isolation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Relate Budget to the Company 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Budget
+~~~~~~~~
+
+Accessing Budget
+~~~~~~~~~~~~~~~~~
+
+Creating Budget and Sub Budget
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Quarterly Period
+"""""""""""""""
+
+Semiannual Period
+"""""""""""""""
+
+Annual Period
+"""""""""""""""
+
+Monthly Period
+"""""""""""""""
+
+Editing Budget 
+~~~~~~~~~~~~~~~
+
+Viewing Budget Cost Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Viewing Company
+~~~~~~~~~~~~~~~
+
+Section: General
+""""""""""""""""
+
+Section: Billing Rules
+""""""""""""""""""""""
+
+Section: Price Categories
+""""""""""""""""""""""""""
+
+Section: Alerts Policies
+""""""""""""""""""""""""""
+
+Section: Resources Price - Company
+"""""""""""""""""""""""""""""""""""
+
+Section: Company Quota
+""""""""""""""""""""""""
+
+Section: Primary Contact
+""""""""""""""""""""""""""
+
+Section: Administrators
+""""""""""""""""""""""""""
+
+Section: Business Data
+""""""""""""""""""""""""""
+
+Section: Conceded Virtual Datacenters
+""""""""""""""""""""""""""""""""""""""""
+
+Section: Users
+"""""""""""""""
+
+Section: Groups
+""""""""""""""""
+
+Section: Billing Data
+"""""""""""""""""""""
+
+Section: Permission Profiles
+""""""""""""""""""""""""""""
+
+Section: Products
+"""""""""""""""""""
+
+Section: Conceded Permissions
+"""""""""""""""""""""""""""""""""
+
+Section: Container Billing Profile
+""""""""""""""""""""""""""""""""""
+
+Provisioning Company
+~~~~~~~~~~~~~~~~~~~~
+
+Configuration Menu
+===================
+
+..  Configuration 
+..  -------------------- (H2)
+
+General
+--------
+
+Section: General
+~~~~~~~~~~~~~~~~
+
+Card: Synchronize Active Directory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Apply profiles
+""""""""""""""
+
+Section: Resources Price
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create default system cost
+""""""""""""""""""""""""""
+
+Section: LDAP Server Users Configurations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Agreement Term upload (new)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Accessing
+""""""""""
+
+Adding
+"""""""
+
+Detailing
+""""""""""
+
+Listing
+""""""""
+
+Console
+--------
+
+Card: Console controllers
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create console controller
+"""""""""""""""""""""""""
+
+Network
+---------
+
+Section: Network Configurations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Card: SDN Controller
+~~~~~~~~~~~~~~~~~~~~~~
+
+Creating a SDN controller
+"""""""""""""""""""""""""
+
+Public Subnets
+---------------
+
+Card: Public subnets
+~~~~~~~~~~~~~~~~~~~~
+                                 
+Update
+"""""""
+
+Add subnet
+"""""""""""
+
+Subscriptions
+-------------
+
+Card: Subscription
+~~~~~~~~~~~~~~~~~~
+
+Creating subscription
+"""""""""""""""""""""""
+
+Flavor Billing Profile
+-----------------------
+
+Creating Flavor Billing Profile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Permission Profiles
+--------------------
+
+View and Edit Permission Profile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating a Permission Profile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Viewing Profiles
+------------------
+
+Creating Viewing Profile
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Editing Viewing Profile
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Billing Admin
+--------------
+
+Ticketing Administration
+~~~~~~~~~~~~~~~~~~~~~~
+
+Launch Accountant
+""""""""""""""""""
+
+Manage caches
+""""""""""""""
+
+Billing Admin LOG information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Billing Admin LOG
+~~~~~~~~~~~~~~~~~~
+
+USN Tagging Resources
+----------------------
+
+Creation of a USN Tagging Resource
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Accounts management (new)
+---------------------------
+
+Card: Tiers List
+~~~~~~~~~~~~~~~
+
+Create Tier
+"""""""""""""""
+
+Section: Bundle list
+~~~~~~~~~~~~~~~~~~~~
+
+Create Bundle
+"""""""""""""""
+
+Card: Accounts list
+~~~~~~~~~~~~~~~~~~~~
+
+Edit Bundle
+"""""""""""
+
+Add and remove Tiers
+""""""""""""""""""""
+
+Environment settings (new)
+---------------------------
+
+Card: Environment settings
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add setting
+""""""""""""
+
+Section: Hidden elements
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add setting
+""""""""""""
+
+Card: Exhibition elements
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add setting
+"""""""""""""
+
+Security Menu
+==============
+
+Tickets (new)
+-------------
+			
+Processes tickets
+~~~~~~~~~~~~~~~~~~~
+
+Button: Open ticket
+"""""""""""""""""
+
+Button: Calendar
+""""""""""""""
+
+Button: Search
+"""""""""""""
+
+Card: Opened tickets - urgent
+"""""""""""""""""""""""""""
+
+Card: Opened tickets
+""""""""""""""""""""
+
+Card: Closed tickets
+"""""""""""""""""""""
+
+Tickets report 
+~~~~~~~~~~~~~~~~~
+
+Support dashboard
+"""""""""""""""""""""
+
+Button: Calendar
+""""""""""""""
+
+Button: Search
+""""""""""""""
+
+Assessments (new)
+------------------
+
+Auto assessment (new)
+~~~~~~~~~~~~~~~~~~~
+
+Card: Templates
+""""""""""""""
+
+Auto assessment templates
+""""""""""""""""""""""""
+
+Create new template
+""""""""""""""
+
+Card: Clients
+""""""""""""""
+
+Create new Client
+""""""""""""""
+
+Listing Client
+"""""""""""""
+
+Associating template to the Client
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Auto assessment’s status forms
+""""""""""""""""""""""""""""""""""
+
+Generating graphs for viewing
+""""""""""""""""""""""""""
+
+.. CIS Control (new)
+.. ~~~~~~~~~~~~~
+
+.. Card: Assessment
+.. """"""""""""""
+
+.. New Assessment
+.. """"""""""""""
+
+Ethical Phishing
+-----------------
+
+User access: Admin Manager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+ **Admin Manager Dashboard**
+""""""""""""""""""""""""""
+
+----
+
+**My dashboard** 
+""""""""""""""""""""""""""
+
+----
+    
+**Companies Global Dashboard** 
+""""""""""""""""""""""""""
+
+----
+**Company Dashboard** 
+""""""""""""""""""""""""""
+
+----
+**Companies**
+""""""""""""""
+
+----
+
+**Users**
+""""""""""
+
+----
+
+**Campaigns**
+"""""""""""""
+
+----
+**Contacts**
+""""""""""""""
+
+----
+
+**Templates**
+""""""""""""""
+
+**Sending Profiles** 
+""""""""""""""""""""
+
+----
+
+**Landing Pages**
+""""""""""""""""""
+
+----
+User access: User 
+~~~~~~~~~~~~~~~~~~
+
+----
+
+**Accessing**
+""""""""""""
+
+----
+
+**Dashboard for the User User**
+"""""""""""""""""""""""""""""""
+
+----
+
+**My Dashboard**
+""""""""""""""""
+
+----
+
+**Company’s Dashboard** 
+""""""""""""""""""""""""
+
+----
+
+**Campaigns**
+""""""""""""
+
+----
+
+**Contacts**
+""""""""""""
+
+----
+
+**Templates**
+""""""""""""
+
+----
+
+**Landing Pages**
+"""""""""""""""""
+
+----
+
+Virtual Machines Menu 
+======================
+
+Introduction
+------------
+
+Accessing a Virtual Machine
+-----------------------------
+
+Managing a Virtual Machine
+----------------------------
+
+Section General: Virtual Machines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Instantaneous Performance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Section: Metrics (**AWS** exclusive)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Network Interfaces
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Disk
+~~~~~~~~~~~~~
+
+Section: Snapshots
+~~~~~~~~~~~~~~~~
+
+Section: Signatures (**Exclusive Azure and Google Cloud Platform**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Performance History (**Exclusive Azure and GCP**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating a Virtual Machine
+---------------------------
+
+Wizard Step 1 (Cloud Selection)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 2 (Virtual Machine basics information)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 3 (Virtual Machine basics information – cont.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 4a (Virtual Machine security information)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 4b (Security Information – Exclusive Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 5a (User data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 5b (**User data VMware**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wizard Step 6 (View the virtual machine configurations)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Orchestrator Menu (new)
+=====================
+
+Cluster
+--------
+
+Cluster Service
+~~~~~~~~~~~~~~
+
+Scaling Groups Menu
+===================
+
+Creating an AWS Scaling Group
+------------------------------
+
+Problems known with AWS Scaling Group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating an Azure Scaling Group
+--------------------------------
+
+Creating an Openstack Scaling 
+------------------------------
+
+Creating an vCloud Scaling 
+---------------------------
+
+Databases Menu
+===================
+
+Managing a Database
+---------------------
+
+Section General: Security Group 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Section: Security Groups
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Provisioning a Database 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Database creation (MySQL & AWS)
+---------------------------------
+
+Step 1 - Cloud Service Provider Selection (AWS) [level 4]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 2 - Database Selection (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Step 3 - Database Specification (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 4 - Database configurations access (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 5 - Network and Security Specifications (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 6 - Security Copy Parameter (MySQL & AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Database creation (MySQL & Azure)
+----------------------------------
+
+Step 1 - Cloud Service Provider Selection (Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 2 - Database Selection (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 3 - Database Specifications (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 4 - Database access configurations (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 5 - Network and Security Specifications (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 6 - Security Copy Parameter (MySQL & Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Database creation (MySQL & GCP)
+--------------------------------
+
+Step 1 - Cloud Service Provider Selection (GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 2 - Database selection (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 3 - Database Specifications (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 4 - Database access configurations (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 5 - Network and Security Specifications (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Step 6 - Security Copy Parameter (MySQL & GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Virtual Datacenters Menu 
+=====================
+
+Managing Virtual Datacenters
+------------------------------
+
+General (new)
+~~~~~~~~~~~~~
+			
+Hosts (new)
+~~~~~~~~~~~~
+			
+Networks (new)
+~~~~~~~~~~~~~~
+			
+Key Pair (new)
+~~~~~~~~~~~~~~
+
+Security Group (new)
+~~~~~~~~~~~~~~~~~~~~
+
+Templates (new)
+~~~~~~~~~~~~~~~
+			
+Flavors (new)
+~~~~~~~~~~
+
+Storages (new)
+~~~~~~~~~~~~~~
+
+Catalog (new)
+~~~~~~~~~~~~~
+
+Load balancers (new)
+~~~~~~~~~~~~~~~~~~~~
+
+Database (new)
+~~~~~~~~~~~~~~
+
+Virtual machines (new)
+~~~~~~~~~~~~~~~~~~~~~~
+
+Editing a Virtual Datacenter
+------------------------------
+
+Creating a Virtual Datacenter
+-----------------------------
+
+Billing Menu 
+==============
+
+Private Businesses
+-------------------
+
+Public Businesses (USN)
+-----------------------
+
+Corporate Environment
+----------------------
+
+**Reports**
+-------------
+
+Consumption-Based Panels
+-------------------------
+
+Service History Report
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Cadenced Billing Report
+~~~~~~~~~~~~~~~~~~~~~~
+
+Product Relational Cost Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Resource Viewing Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Budgets Costs Report
+-----------------------
+
+Consumption Monitoring Report
+------------------------------
+
+Accessing CMR.v1
+~~~~~~~~~~~~~~~~~~
+
+Creating CMR.v1
+~~~~~~~~~~~~~~~~
+
+Following the status on the Tasks menu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enabling the CMR.v1’s download
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Viewing CMR.v1
+~~~~~~~~~~~~~~~~~
+
+Cost limit based-Reports
+-------------------------
+
+Defining the Reports
+~~~~~~~~~~~~~~~~~~~~
+
+A. Cost Limit Reports
+~~~~~~~~~~~~~~~~~~~~~~~~
+   
+**New features:**
+~~~~~~~~~~~~~~~~~~~
+
+**Step by step:**
+~~~~~~~~~~~~~~~~~~
+
+1. Executing without saving
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Steps for Configuration:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Periods Details:**
+~~~~~~~~~~~~~~~~~~~~~
+
+**Post-configuration procedures:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Cases in which the data are presented differently:**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. Saving a cost limit configuration (Creation)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. Executing from a saved configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. Editing a cost limit
+~~~~~~~~~~~~~~~~~~~~~~~
+
+5. Deleting a cost limit
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. Filtering by period
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+7. Generating projection for the following months
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Possible error messages:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Risk analysis
+~~~~~~~~~~~~~~~
+
+**Step by step:**
+~~~~~~~~~~~~~~~
+
+1. Executing a risk analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+1. Generate cost limit report from the risk analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. Generate risk analysis from the cost limit report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+Invoice based-panels
+---------------------
+
+My invoice
+~~~~~~~~~~~~
+
+Billing
+~~~~~~~~~
+
+.. * **Virtual Machines**:
+
+.. * **Subscriptions**:
+
+.. * **Snapshots**:
+
+.. * **Public IPs**:
+
+.. * **Load Balancers**:
+
+.. * **DNS Zones**:
+
+.. * **VPNs**:
+
+.. * **Non-managed items**:
+
+
+Consolidated Invoicing Report (CIR)
+------------------------------------
+
+Accessing the CIR
+~~~~~~~~~~~~~~~
+
+Selecting the CIR
+~~~~~~~~~~~~~~~~~~
+
+Following the CIR search
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Listing the CIR companies
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Detailing CIR actions
+~~~~~~~~~~~~~~~~~~~~~~~
+   
+Use case: 
+~~~~~~~~~~~~
+
+Billing Trend Report (BTR)
+----------------------------
+
+Accessing the BTR
+~~~~~~~~~~~~~~~~~~~
+
+Creating a BTR
+~~~~~~~~~~~~~~
+How to download the file 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Following the download on the Tasks Menu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Viewing the BTR
+~~~~~~~~~~~~~~~
+   
+Grouping by product name
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grouping by Tag
+~~~~~~~~~~~~~~~~~~
+
+Filtering by anomaly
+~~~~~~~~~~~~~~~~~~
+
+Linked Accounts
+----------------
+
+**Utilities**
+--------------
+   
+**Dimension**
+~~~~~~~~~~~~
+
+Creating a Dimension
+~~~~~~~~~~~~~~~~~~~~
+
+Creating a Tags grouping
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating Tag
+~~~~~~~~~~~~~
+
+Using the logical operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Listing Dimension
+~~~~~~~~~~~~~~~~~
+
+Editing a Dimension
+~~~~~~~~~~~~~~~~~~~~~
+
+Where the "Dimension" is used
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Virtual Tags**
+~~~~~~~~~~~~~~~~~
+   
+uCloud’s platform Virtual Tags
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Normalizing Virtual Tags
+~~~~~~~~~~~~~~~~~~~~~~~
+
+When to use
+~~~~~~~~~~~~~
+
+Tags restrictions
+~~~~~~~~~~~~~~~~~
+
+How to use
+~~~~~~~~~~~~
+
+.. Cost Threshold
+.. ~~~~~~~~~~~~~~
+
+.. Billing Menu (USN)
+.. ---------------------
+
+.. Brazilian Govern Environment
+.. ---------------------------
+
+.. Billing Menu / USN Billing
+.. =============================
+
+Service Order Menu
+====================
+
+Using the Service Order
+-------------------------
+
+Creating the Service Order
+--------------------------
+
+Add Cost Estimate in USN and TSU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Managing Service Order
+-----------------------
+
+Card: General
+~~~~~~~~~~~~
+
+Card: Cost Estimate (USN)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Card: Cost Estimate Configuration (TSU)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Card: Agreement
+~~~~~~~~~~~~~~~~
+
+.. Service Order Menu
+.. =====================
+
+.. Managing Service Order
+.. ------------------------------
+
+.. General Section - Service Order
+.. ------------------------------
+
+.. Estimate Cost Section (USN)
+.. ------------------------------
+
+.. Cost Estimate Configuration (TSU)
+.. -----------------------------------
+
+.. Agreement
+.. ---------
+
+Recommendation Menu (new)
+-------------------------
+
+Account Providers Menu
+----------------------
+
+This menu is on the editing phase. Substituting to the menu below.
+
+Containers Menu
+==============
+
+.. attention:: This menu is re-elaboration for updates, after the improvements occurred this month.
+
+Managing a Container
+---------------------
+
+Creating New Container
+----------------------
+
+Hosts Menu 
+==========
+
+Viewing a Host
+----------------
+
+Networks Menu 
+=============
+
+Networks
+--------
+  
+Manage Network
+----------------
+
+Add “Subnet” in the AWS environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add  “Subnet” in the Azure environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add “Subnet” in GCP environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Add “Subnet” in the Private environment (VMware)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create New Network
+------------------
+
+Create Network in Public Cloud Service Providers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Network in Private Network (On-Premisses)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Network in Public Cloud Service Providers (AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Network in Public Cloud Service Providers (Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Public Cloud Service Providers (GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Network in Private Environment (VMware)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Public IPs
+------------
+   
+Requesting a Public IP (**AWS and GCP**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requesting a Public IP (**Azure**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requesting a Public IP (private environment, e.g: **VMware vCenter**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Security Groups and ACLs
+--------------------------
+
+Manage Security Group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create Security Group
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Key Pair
+-----------
+
+Manage a Key Pair
+~~~~~~~~~~~~~~~~~~
+
+Creating a Key Pair
+~~~~~~~~~~~~~~~~~~~~
+
+Importing a Key Pair
+~~~~~~~~~~~~~~~~~~~~~~
+
+Load Balancers
+----------------
+
+Managing Load Balancer
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating Load Balancer (Environments: AWS and GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating Load Balancer (Environment: Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. DNS Zones
+.. ---------
+
+.. Manage Public DNS Zone
+.. ~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Create Public DNS Zone (AWS and GCP)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Create Public DNS Zone (Azure)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Create Private DNS Zone - Observation
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+VPN
+---
+
+Create VPN in 3 Steps
+~~~~~~~~~~~~~~~~~~~~~
+
+Create Customer Gateway
+~~~~~~~~~~~~~~~~~~~~
+
+Create Private Gateway
+~~~~~~~~~~~~~~~~~~~~~~
+
+Create VPN Tunnel
+~~~~~~~~~~~~~~~~~~
+
+Storages Menu
+=============
+
+Viewing a Storage
+-----------------------
+
+Templates Menu 
+=============
+
+Flavors Menu 
+============
+  
+Viewing a Flavor
+------------------
+
+Workflows Menu 
+==============
+  
+Direct Execution
+----------------
+
+Editing Workflow
+-----------------
+
+Creating Workflow
+----------------
+
+Definition of Workflow
+~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Inclusion of Associated Tasks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Creating Associated Task
+--------------------------
+
+Shutdown Task/Activation of Virtual Machine Programmer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+Create Snapshot Task
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Script Task
+~~~~~~~~~~~~~~~~
+
+Client Server (Puppet)
+----------------------
+   
+Provision a Puppet Server
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Tasks Menu
+===========
+
+Tasks tab
+-----------
+
+Pending Approvals Tab
+-----------------------
+
+Scheduled Tasks Tab
+--------------------
+
+Resources Inventory Menu
+=======================
+
+Native Tags Editor
+--------------------
+
+Colors and Custom Menu
+========================
