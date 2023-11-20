@@ -241,6 +241,8 @@ Our commitment regards the integration compatibility maintenance, so the most re
 Access to the uCloud platform
 =============================
 
+----
+
 Dashboard
 ===========
 
@@ -283,11 +285,7 @@ Public IPs quota
 Virtual Machines quota
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Section: Virtual Machines
-.. -----------------------
-.. User Menu
-.. ===============
-
+----
 
 Administration Menu 
 ==================
@@ -295,13 +293,13 @@ Administration Menu
 Switch Roles
 -------------
 
-Switch Roles - Mock scenario
+Switch Roles - Mock Scenario
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mock scenario (AWS):
+Mock Scenario (AWS):
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Mock scenario (AZURE and AWS):
+Mock Scenario (AZURE and AWS):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Switch Roles - Using
@@ -313,10 +311,10 @@ Account
 Introduction
 ~~~~~~~~~~~
 
-Account type
+Account Type
 ~~~~~~~~~~~~
 
-How to access
+How to Access
 ~~~~~~~~~~~
 
 Integrator and Producer accounts 
@@ -331,7 +329,7 @@ Main and Sub-Account
 Creating Account 
 ~~~~~~~~~~~~~~~~~
 
-Listing the created Account
+Listing the Created Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Detailing the Account
@@ -342,24 +340,6 @@ Creating Sub-Account
 
 How to view the Accounts List:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Company
-.. --------
-
-.. Create company
-.. ~~~~~~~~~~~~~~~~~
-
-.. Groups
-.. -------
-
-.. Create Group
-.. ~~~~~~~~~~~~~~
-
-.. Users
-.. -------
-
-.. Create User
-.. ~~~~~~~~~~~~~~~~~
 
 Users
 -------
@@ -478,11 +458,10 @@ Section: Container Billing Profile
 Provisioning Company
 ~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Configuration Menu
 ===================
-
-..  Configuration 
-..  -------------------- (H2)
 
 General
 --------
@@ -505,20 +484,8 @@ Create default system cost
 Section: LDAP Server Users Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Section: Agreement Term upload (new)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Accessing
-""""""""""
-
-Adding
-"""""""
-
-Detailing
-""""""""""
-
-Listing
-""""""""
+Section: Agreement Term upload
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Console
 --------
@@ -556,7 +523,7 @@ Add subnet
 Subscriptions
 -------------
 
-Card: Subscription
+Card: Subscriptions
 ~~~~~~~~~~~~~~~~~~
 
 Creating subscription
@@ -589,7 +556,7 @@ Editing Viewing Profile
 Billing Admin
 --------------
 
-Ticketing Administration
+Billing Administration
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Launch Accountant
@@ -744,7 +711,7 @@ User access: Admin Manager
 
 ----
 
- **Admin Manager Dashboard**
+**Admin Manager Dashboard**
 """"""""""""""""""""""""""
 
 ----
@@ -758,10 +725,12 @@ User access: Admin Manager
 """"""""""""""""""""""""""
 
 ----
+
 **Company Dashboard** 
 """"""""""""""""""""""""""
 
 ----
+
 **Companies**
 """"""""""""""
 
@@ -776,6 +745,7 @@ User access: Admin Manager
 """""""""""""
 
 ----
+
 **Contacts**
 """"""""""""""
 
@@ -783,6 +753,8 @@ User access: Admin Manager
 
 **Templates**
 """"""""""""""
+
+----
 
 **Sending Profiles** 
 """"""""""""""""""""
@@ -793,6 +765,7 @@ User access: Admin Manager
 """"""""""""""""""
 
 ----
+
 User access: User 
 ~~~~~~~~~~~~~~~~~~
 
@@ -901,6 +874,8 @@ Wizard Step 5b (**User data VMware**)
 Wizard Step 6 (View the virtual machine configurations)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Orchestrator Menu (new)
 =====================
 
@@ -909,6 +884,8 @@ Cluster
 
 Cluster Service
 ~~~~~~~~~~~~~~
+
+----
 
 Scaling Groups Menu
 ===================
@@ -927,6 +904,8 @@ Creating an Openstack Scaling
 
 Creating an vCloud Scaling 
 ---------------------------
+
+----
 
 Databases Menu
 ===================
@@ -991,7 +970,7 @@ Database creation (MySQL & GCP)
 Step 1 - Cloud Service Provider Selection (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Step 2 - Database selection (MySQL & GCP)
+Step 2 - Database Selection (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step 3 - Database Specifications (MySQL & GCP)
@@ -1005,6 +984,8 @@ Step 5 - Network and Security Specifications (MySQL & GCP)
 
 Step 6 - Security Copy Parameter (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Virtual Datacenters Menu 
 =====================
@@ -1053,6 +1034,8 @@ Editing a Virtual Datacenter
 
 Creating a Virtual Datacenter
 -----------------------------
+
+----
 
 Billing Menu 
 ==============
@@ -1226,6 +1209,7 @@ Accessing the BTR
 
 Creating a BTR
 ~~~~~~~~~~~~~~
+
 How to download the file 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
    
@@ -1304,6 +1288,8 @@ How to use
 .. Billing Menu / USN Billing
 .. =============================
 
+----
+
 Service Order Menu
 ====================
 
@@ -1349,13 +1335,19 @@ Card: Agreement
 .. Agreement
 .. ---------
 
+----
+
 Recommendation Menu (new)
--------------------------
+=========================
+
+----
 
 Account Providers Menu
-----------------------
+=======================
 
 This menu is on the editing phase. Substituting to the menu below.
+
+----
 
 Containers Menu
 ==============
@@ -1368,11 +1360,15 @@ Managing a Container
 Creating New Container
 ----------------------
 
+----
+
 Hosts Menu 
 ==========
 
 Viewing a Host
 ----------------
+
+----
 
 Networks Menu 
 =============
@@ -1491,20 +1487,28 @@ Create Private Gateway
 Create VPN Tunnel
 ~~~~~~~~~~~~~~~~~~
 
+----
+
 Storages Menu
 =============
 
 Viewing a Storage
 -----------------------
 
+----
+
 Templates Menu 
 =============
+
+----
 
 Flavors Menu 
 ============
   
 Viewing a Flavor
 ------------------
+
+----
 
 Workflows Menu 
 ==============
@@ -1542,6 +1546,8 @@ Client Server (Puppet)
 Provision a Puppet Server
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Tasks Menu
 ===========
 
@@ -1554,11 +1560,15 @@ Pending Approvals Tab
 Scheduled Tasks Tab
 --------------------
 
+----
+
 Resources Inventory Menu
 =======================
 
 Native Tags Editor
 --------------------
 
-Colors and Custom Menu
-========================
+----
+
+Colors and Custom Menu (new)
+============================
