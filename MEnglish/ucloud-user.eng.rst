@@ -995,41 +995,41 @@ Virtual Datacenters Menu
 Managing Virtual Datacenters
 ------------------------------
 
-General (new)
-~~~~~~~~~~~~~
+Section: General (new)
+~~~~~~~~~~~~~~~~~~~~~~~
 			
-Hosts (new)
-~~~~~~~~~~~~
+Section: Hosts (new)
+~~~~~~~~~~~~~~~~~~~~~
 			
-Networks (new)
-~~~~~~~~~~~~~~
+Section: Networks (new)
+~~~~~~~~~~~~~~~~~~~~~~~~
 			
-Key Pair (new)
-~~~~~~~~~~~~~~
+Section: Key Pair (new)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Security Group (new)
-~~~~~~~~~~~~~~~~~~~~
+Section: Security Group (new)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Templates (new)
-~~~~~~~~~~~~~~~
+Section: Templates (new)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 			
-Flavors (new)
-~~~~~~~~~~
+Section: Flavors (new)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Storages (new)
-~~~~~~~~~~~~~~
+Section: Storages (new)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Catalog (new)
-~~~~~~~~~~~~~
+Section: Catalog (new)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Load balancers (new)
-~~~~~~~~~~~~~~~~~~~~
+Section: Load balancers (new)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Database (new)
-~~~~~~~~~~~~~~
+Section: Database (new)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Virtual machines (new)
-~~~~~~~~~~~~~~~~~~~~~~
+Section: Virtual machines (new)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Editing a Virtual Datacenter
 ------------------------------
@@ -1070,91 +1070,92 @@ Resource Viewing Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Budgets Costs Report
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Consumption Monitoring Report
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Accessing CMR.v1
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""
 
 Creating CMR.v1
-~~~~~~~~~~~~~~~~
+""""""""""""""""
 
 Following the status on the Tasks menu
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""
 
 Enabling the CMR.v1’s download
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""
 
 Viewing CMR.v1
-~~~~~~~~~~~~~~~~~
+"""""""""""""""
 
 Cost limit based-Reports
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Defining the Reports
-~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 A. Cost Limit Reports
-~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""
    
 **New features:**
-~~~~~~~~~~~~~~~~~~~
+
 
 **Step by step:**
-~~~~~~~~~~~~~~~~~~
 
-1. Executing without saving
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. **Executing without saving**
+
 
 **Steps for Configuration:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **Periods Details:**
-~~~~~~~~~~~~~~~~~~~~~
+
 
 **Post-configuration procedures:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **Cases in which the data are presented differently:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2. Saving a cost limit configuration (Creation)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. Executing from a saved configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. **Saving a cost limit configuration (Creation)**
 
-4. Editing a cost limit
-~~~~~~~~~~~~~~~~~~~~~~~
 
-5. Deleting a cost limit
-~~~~~~~~~~~~~~~~~~~~~~~~
+3. **Executing from a saved configuration**
 
-6. Filtering by period
-~~~~~~~~~~~~~~~~~~~~~~~~
 
-7. Generating projection for the following months
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4. **Editing a cost limit**
 
-Possible error messages:
-~~~~~~~~~~~~~~~~~~~~~~~
+
+5. **Deleting a cost limit**
+
+
+6. **Filtering by period**
+
+
+7. **Generating projection for the following months**
+
+----
+
+.. centered:: Possible error messages:
+----
 
 B. Risk analysis
-~~~~~~~~~~~~~~~
+""""""""""""""""
 
 **Step by step:**
-~~~~~~~~~~~~~~~
 
-1. Executing a risk analysis
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. **Executing a risk analysis**
    
-1. Generate cost limit report from the risk analysis
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. Generate risk analysis from the cost limit report
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. **Generate cost limit report from the risk analysis**
+
+
+3. **Generate risk analysis from the cost limit report**
+
   
 Invoice based-panels
 ---------------------

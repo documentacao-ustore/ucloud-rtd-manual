@@ -2751,7 +2751,27 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 ----
 
 Seção: *Upload* de Termo de Responsabilidade (novo)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Acessando
+"""""""""""
+
+----
+
+Adicionando 
+""""""""""""
+
+----
+
+Detalhando
+""""""""""""
+
+----
+
+Listando
+""""""""
 
 ----
 
