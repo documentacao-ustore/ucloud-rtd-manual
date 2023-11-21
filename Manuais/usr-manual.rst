@@ -8523,7 +8523,7 @@ A seguir cada seção está descrita de forma individual, para detalhar suas inf
 
 ----
 
-**Seção Geral**
+**Seção: Geral**
 ~~~~~~~~~~~~~~~~
 
 Esta seção apresenta as características gerais do Virtual Datacenter. Nesta seção é possível alterar a lista dos recursos computacionais que serão visualizados pelo usuário, quando selecionado este VDC.
@@ -8538,7 +8538,10 @@ Esta seção apresenta as características gerais do Virtual Datacenter. Nesta s
     * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a plataforma uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo é alterada permanentemente nas bases de dados da plataforma uCloud.
     * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo retorna para os valores iniciais, antes de qualquer preenchimento ou alteração.
 
-* **Seção Regiões**: Esta seção apresenta somente as regiões globais, do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+**Seção: Regiões**
+~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta somente as regiões globais, do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
 .. image:: /figuras/ucloud_virtualdatacenter004.png
    :alt: Virtual Datacenter - Exemplo
@@ -8547,19 +8550,51 @@ Esta seção apresenta as características gerais do Virtual Datacenter. Nesta s
 
 ----
 
-* **Seção Redes**: Esta seção apresenta somente as Redes TCP-IP (e subnets) do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+**Seção: Redes**
+~~~~~~~~~~~~~~~~
 
-* **Seção Templates**: Esta seção apresenta somente os templates do provedor de serviço de nuvem, que foram definidos para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+Esta seção apresenta somente as Redes TCP-IP (e subnets) do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
-* **Seção Flavors**: Esta seção apresenta somente os flavors do provedor de serviço de nuvem, inicialmente definidos e disponíveis aos usuários quando da seleção do VDC.
+**Seção: Par de Chave**
+~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Seção Storages**: Esta seção apresenta somente opções de armazenamento (storage) do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+**Seção: Grupo de Segurança**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Seção Grupos de Segurança**: Esta seção apresenta somente os Grupos de Segurança do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+Esta seção apresenta somente os Grupos de Segurança do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
 
-* **Seção Catálogo**: Esta seção apresenta somente as Ofertas do Catálogo de Serviços que o usuário Administrador do Contrato provisionou e selecionou para ficarem disponíveis aos usuários quando estes selecionarem o VDC.
 
-* **Seção Máquinas Virtuais**: Esta seção apresenta a lista de todas as máquinas virtuais que foram criadas ao selecionar o VDC durante o processo de provisionamento de uma máquina virtual.
+**Seção: Templates**
+~~~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta somente os templates do provedor de serviço de nuvem, que foram definidos para ficar disponíveis aos usuários quando estes selecionarem o VDC.
+
+**Seção: Flavors**
+~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta somente os flavors do provedor de serviço de nuvem, inicialmente definidos e disponíveis aos usuários quando da seleção do VDC.
+
+**Seção: Storages**
+~~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta somente opções de armazenamento (storage) do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
+
+
+**Seção: Catálogo**
+~~~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta somente as Ofertas do Catálogo de Serviços que o usuário Administrador do Contrato provisionou e selecionou para ficarem disponíveis aos usuários quando estes selecionarem o VDC.
+
+**Seção: Balanceadores**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Seção: Bancos de Dados**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Seção: Máquinas Virtuais**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Esta seção apresenta a lista de todas as máquinas virtuais que foram criadas ao selecionar o VDC durante o processo de provisionamento de uma máquina virtual.
 
   * **Nome**: Nesta coluna será apresentado o nome da máquina virtual informado no momento da sua criação no console do provedor de serviço de nuvem, ou quando configurado através do uCloud. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a plataforma uCloud classifica a lista de nomes de máquinas virtuais de forma alfabética crescente (a – z) ou decrescente (z – a).
   * **Usuário**: Esta coluna apresenta as credenciais do usuário registrado, em uma sessão na plataforma uCloud, o qual foi o responsável pelo provisionamento da máquina virtual. Como forma de simplificar a visualização, ao clicar com o botão do mouse no título desta coluna, a plataforma uCloud classifica a lista de nomes de usuários de forma alfabética crescente (a – z) ou decrescente (z – a).
@@ -9643,8 +9678,8 @@ Existem três quadros neste relatório com as informações de inteligência de 
 
 
 
-Relatório de Custo de `Budgets`
--------------------------------
+Relatório de Custo de *Budgets*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para visualizar o Relatório de Custo de `Budgets`, o usuário deve clicar no menu Financeiro, e em seguida clicar no submenu Relatórios, primeiro tópico `“Painéis Baseados em Consumo”`. Este painel baseado em consumo possibilita o acesso aos relatórios referentes ao mês atual, digitado na busca pelo usuário. 
 
@@ -9759,7 +9794,7 @@ Este relatório baseado em consumo, além de definir um orçamento total, permit
 
 
 Relatório de Monitoramento de Consumo
--------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -9783,7 +9818,7 @@ Além disso, o **Relatório de Monitoramento de Consumo (v1)**, nomeado de forma
 
 
 Acessando o RMC.v1
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
 
 Para gerar o Relatório de Monitoramento de Consumo (v1) no portal uCloud, o usuário deve acessar o menu “Financeiro”, identificado no canto inferior esquerdo. E em seguida, clicar no submenu “Relatórios”. 
@@ -9836,7 +9871,7 @@ Clicando nesta opção, o usuário pode gerar o documento desejado.
 ----
 
 Criando o RMC.v1
-~~~~~~~~~~~~~~~~
+""""""""""""""""
 
 
 Após clicar em **Relatório de Monitoramento de Consumo (v1) - RMC.v1**, é aberta uma nova tela, na qual o usuário pode selecionar o mês e o ano que deseja visualizar, além de filtrar os contratos pretendidos.
@@ -9925,7 +9960,7 @@ Quando existe dado a ser publicado no período selecionado pelo usuário, a plat
 ----
 
 Acompanhando o *status* no menu Tarefas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""
 
 
 No fluxo de criar o RMC.v1, a plataforma apresenta dois tipos de situação, de acordo com o perfil do usuário que estiver logado na plataforma. O status da tarefa no topo da tela difere, para cada tipo de usuário um procedimento, na sequência descrito:
@@ -9966,7 +10001,7 @@ Após o êxito no processo de criar o novo relatório, os dados foram compilados
 
 
 Habilitando o *download* do RMC.v1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""
 
 
 Ao criar o novo relatório com sucesso, o usuário deve repetir o fluxo para baixá-lo, uma vez que os dados estão compilados na plataforma uCloud. 
@@ -10008,7 +10043,7 @@ Na finalização desta sequência de atividades, para executar o descarregamento
 
 
 Visualizando o RMC.v1
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 
 
@@ -10326,7 +10361,7 @@ Essa atualização possui um vasto índice, contendo tabelas, relatórios e grá
 
 
 Relatórios Baseados em Limite de Custo
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Os relatórios de limite de custo são baseados em consumo, implementados com o objetivo de definir um limite de custo como ponto de referência, para que o usuário consiga monitorar os gastos e, por meio de projeções, prever quando o consumo total no mês ultrapassa esse valor de referência. 
@@ -10389,14 +10424,14 @@ Este registro trata do acesso ao botão de opção: **Relatórios baseados em li
 
 
 Definindo os Relatórios
-~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""
 
 
 Adiante é descrito cada relatório baseado em limite de custo, juntamente com uma breve explicação de como utilizá-los:
 
 
 A. Relatório de Limite de Custos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""
 
 O relatório de limite de custo permite que o usuário observe mês a mês o consumo realizado, tornando possível executar o monitoramento de quais meses ultrapassaram o limite de custo definido pelo mesmo, e representado em tela através de uma linha tracejada. 
 
@@ -10412,22 +10447,22 @@ Na imagem abaixo é possível observar como este relatório é exibido com um gr
 
 
 **Novas características:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 A tela de “Relatório de limite de custos” se difere dos demais relatórios, pois nela é possível realizar todas as operações, sendo elas: criar, editar, deletar e executar. Dessa forma, torna-se simples ao usuário realizar suas ações.
 
 
 **Passo a passo:**
-~~~~~~~~~~~~~~~~~~
+
 
 
 Nesse momento é informado o passo a passo para a realização dessas ações na tela de limite de custo.
 
 
 
-1. Executando sem salvar
-~~~~~~~~~~~~~~~~~~~~~~~~
+**1. Executando sem salvar**
+
 
 
 Para executar o relatório, sem ter um limite de custo salvo previamente, é necessário clicar no botão de coloração verde nomeado “Configurar limite de custo”, localizado no canto inferior direito do *card*, como evidenciado na imagem a seguir:
@@ -10459,7 +10494,7 @@ Abaixo é detalhado cada espaço do modal acima para o preenchimento:
 
 
 **Etapas para a Configuração:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -10495,7 +10530,7 @@ O usuário também pode adicionar vários filtros ao mesmo tempo através do *ch
   
 
 **Detalhes dos Intervalos:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -10511,7 +10546,7 @@ Cada intervalo configura automaticamente o seu mês inicial e final. A tabela ab
 
 
 **Procedimentos pós configuração:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -10556,7 +10591,7 @@ Ao clicar em "Configurações Aplicadas" é oportunizado ao usuário alterar uma
 
 
 **Casos em que os dados são apresentados de formas diferentes:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -10597,8 +10632,7 @@ Para tornar esse entendimento acessível ao usuário, foi inserido um *tooltip* 
 
 
 
-2. Salvando uma configuração de limite de custo (Criação)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**2. Salvando uma configuração de limite de custo (Criação)**
 
 
 Para salvar uma configuração, é necessário a realização do "Passo a passo 1", mostrado anteriormente.
@@ -10609,10 +10643,10 @@ Em seguida, o usuário deve buscar o terceiro *card* “Configurações Aplicada
 
 Dessa forma, se mantém salva esta configuração realizada para execução do relatório.
 
+----
 
 
-3. Executando a partir de uma configuração salva
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**3. Executando a partir de uma configuração salva**
 
 
 Após realizar o "Passo a passo 1 e 2", o usuário deve clicar na ação de *Refresh* para recarregar a listagem de configurações existentes. O ícone para atualização da tela é evidenciado na imagem abaixo:
@@ -10623,8 +10657,6 @@ Após realizar o "Passo a passo 1 e 2", o usuário deve clicar na ação de *Ref
    :align: center
 
 ----
-
-
 
 
 Na sequência, o usuário deve clicar em “Selecione um limite de custo” e é exibida uma tela para selecionar uma configuração salva a partir do seu nome.
@@ -10646,10 +10678,7 @@ Neste cenário, outras quatro opções de "Ações" são liberadas para o usuár
 ----
 
 
-
-4. Editando um limite de custo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+**4. Editando um limite de custo**
 
 
 Para realizar uma edição, o usuário precisa selecionar um limite de custo, e pressionar em “Editar”, terceiro botão localizado na parte de "Ações".
@@ -10661,8 +10690,6 @@ Para realizar uma edição, o usuário precisa selecionar um limite de custo, e 
 
 ----
 
-
-
 Neste fluxo, o modal  de “Edição de Cost Threshold” é exibido:
 
 
@@ -10671,16 +10698,14 @@ Neste fluxo, o modal  de “Edição de Cost Threshold” é exibido:
    :align: center
 
 ---- 
-   
   
 
 Nele, o usuário pode alterar as configurações do limite de custo e salvar, pressionando no botão “Editar", de coloração verde, localizado no canto inferior direito.
 
+----
 
 
-5. Apagando um limite de custo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+**5. Apagando um limite de custo**
 
 
 Após o usuário selecionar um limite de custo, deve clicar em “Remover”, quarto botão na parte de "Ações":
@@ -10691,17 +10716,12 @@ Após o usuário selecionar um limite de custo, deve clicar em “Remover”, qu
    :align: center
 
 ----
-  
-
 
 Para finalizar, é necessário atualizar a listagem de limite de custo para checar se a informação deixou ser exibida.
 
+----
 
-
-
-6. Filtrando por período
-~~~~~~~~~~~~~~~~~~~~~~~~
-
+**6. Filtrando por período**
 
 
 O usuário precisa selecionar um limite de custo, e depois clicar em “Filtrar por intervalo de tempo" segundo botão na parte de "Ações", representado por uma lupa.
@@ -10722,7 +10742,6 @@ Na sequência é apresentado o modal de “Busca personalizada por período”:
 ----  
 
 
-
 Neste modal, o usuário pode observar o nome e o intervalo do limite de custo selecionado, sendo possível mudar o mês de início do período.
 
 
@@ -10731,8 +10750,6 @@ Neste modal, o usuário pode observar o nome e o intervalo do limite de custo se
    :align: center
 
 ----  
-
-
 
 Após realizar essa alteração, o usuário pode pressionar em “Executar” e processar o limite de custo selecionado, com os filtros que estão presentes dentro do limite de custo. Contudo, agora em um período de tempo diferente.
 
@@ -10743,11 +10760,9 @@ Após realizar essa alteração, o usuário pode pressionar em “Executar” e 
    * O usuário consegue voltar até o mês no qual o limite de custo é criado.
    * Não é possível selecionar o mês inicial sendo maior que o mês atual.
 
+----
 
-
-
-7. Gerando projeção para os meses seguintes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**7. Gerando projeção para os meses seguintes**
 
 
 Caso o usuário selecione o intervalo trimestral, semestral ou anual, são utilizados meses a frente nesse período, dessa forma, é realizada uma projeção baseada nos últimos 6 meses de registros. 
@@ -10762,15 +10777,12 @@ Na figura abaixo esse período de projeção é apresentado, no modal de “Cost
 
 ----
 
-
-
 Após carregar as informações, é possível o usuário notar que, ao gerar o relatório, alguns meses possuem um asterisco **(*)** ao lado. 
 
 
 .. attention:: |atencao| Este asterisco ao lado do mês significa: “Projeção”. Ela é baseada nas informações dos 6 últimos meses. Assim, o período que ainda ocorre pode ser delineado a partir da utilização da base de informações passadas. 
    
 .. note:: A base dos últimos 6 meses projeta os meses à frente que são exibidos com asterisco. 
-
 
 
 Além disso, existe uma legenda no gráfico, que informa qual o período de consumo utilizado para gerar a projeção.
@@ -10783,8 +10795,6 @@ Além disso, existe uma legenda no gráfico, que informa qual o período de cons
 ----
 
 
-
-
 E nas informações de custo por nome do produto ou por dimensão, é exibido ao lado o nome “projeção” nos meses que foram gerados através dessa projeção.
 
 .. figure:: /figuras/fig_lc_ar/25_ucloud_finrel_con_custo_produto.png
@@ -10792,11 +10802,10 @@ E nas informações de custo por nome do produto ou por dimensão, é exibido ao
    :align: center
 
 ----
-  
 
+.. centered:: Possíveis mensagens de erro:
 
-Possíveis mensagens de erro:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
 
 Abaixo são listadas algumas mensagens de erro que o usuário pode receber ao executar o relatório de limite de custo:
@@ -10882,11 +10891,8 @@ Acontece quando o usuário clicar em “Filtrar por período” e informar um m�
 
 
 B. Análise de Risco
-~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""
    
-
-
-
 O relatório de análise de risco permite que a partir de um limite de custo salvo, seja possível realizar uma análise e exibir em tela o consumo atual, o consumo previsto para o mês atual, e qual é o risco do consumo ultrapassar o limite de custo previamente definido.
 
 .. figure:: /figuras/fig_lc_ar/30_ucloud_finrel_con_limite_custo.png
@@ -10897,16 +10903,12 @@ O relatório de análise de risco permite que a partir de um limite de custo sal
   
 
 **Passo a passo:**
-~~~~~~~~~~~~~~~~~~
 
 
 Nesse momento é informado o passo a passo para a realização dessas ações dentro da tela de limite de custo.
 
 
-1. Executando uma análise de risco
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+**1. Executando uma análise de risco**
 
 
 Para realizar o processamento é necessário que o usuário crie um limite de custo na tela de “Relatório de limite de custo”, após isso ele pode acessar a tela de "Análise de risco” e nela são listados todos os limites de custos salvos. 
@@ -10920,8 +10922,6 @@ A partir deste momento, é possível selecionar uma ou mais opções, para reali
    :align: center
 
 ----
-
-
 
 Após realizar o processamento, o usuário pode visualizar: 
 
@@ -10942,9 +10942,6 @@ Observe a imagem a seguir para melhor visualização:
    :align: center
 
 ----
-
-
-
 
 Na imagem anterior é possível observar uma escala contendo o nível de risco. Para uma melhor compreensão dos riscos, o usuário deve clicar no botão de coloração laranja no canto inferior direito da tela, representado por uma seta branca apontando para o lado direito. 
 
@@ -10979,13 +10976,10 @@ Percebe-se que ao passar de um nível para o outro, as cores são alteradas. O r
 
 Os riscos moderado e alto são exibidos na cor amarela, enquanto os riscos muito alto e extremo são expostos de coloração vermelha.
 
+----
 
 
-
-2. Gerar relatório de limite de custo a partir da análise de risco
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+**2. Gerar relatório de limite de custo a partir da análise de risco**
 
 
 Após realizar o processamento da análise de risco, o usuário pode clicar no ícone de gráfico, localizado no canto superior direito do *card*, gerado no resultado. 
@@ -11000,14 +10994,9 @@ Após realizar o processamento da análise de risco, o usuário pode clicar no �
 
 Com isso, ele é redirecionado para a tela de relatório de limite de custo onde ocorre o processamento automático do limite de custo no qual clicou.
 
+----
 
-
-
-
-
-3. Gerar análise de risco a partir do relatório de limite de custo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+**3. Gerar análise de risco a partir do relatório de limite de custo**
 
 
 Após o usuário executar um limite de custo já salvo, é exibida uma nova opção na parte de “Configurações aplicadas”, onde é redirecionado para a tela de análise de risco, processando automaticamente a partir do limite de custo processado.
@@ -11264,7 +11253,7 @@ Na continuidade a descrição dos quadros apresentados neste relatório:
 
 
 Relatório Consolidado de Faturamento (RCF)
-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Esta opção de submenu permite ao usuário consultar relatórios de consumo, que possibilitam uma governança de custos de recursos computacionais de nuvem, de forma muito granular e com apresentação dos valores em Unidade de Serviço de Nuvem (USN). 
@@ -11274,7 +11263,7 @@ Esta opção de submenu permite ao usuário consultar relatórios de consumo, qu
 ----
 
 Acessando o RCF
-~~~~~~~~~~~~~~~
+"""""""""""""""
 
 Para acessar o relatório, o usuário deve clicar em “Financeiro”, localizado no menu de funcionalidades no lado esquerdo da tela, e logo após clicar em “Relatórios”.
 
@@ -11304,11 +11293,8 @@ Ao clicar no botão correspondente, a plataforma uCloud apresenta a seguinte tel
 ----
 
 
-
-
-
 Selecionando o RCF
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
 O usuário pode selecionar um período e um contrato para buscar o histórico de fatura, ao clicar no campo para **inserção da data**, a plataforma uCloud entrega uma tela com o calendário, para que se possa selecionar o período desejado (neste é possível percorrer meses e anos passados), depois de selecionada a data, os botões disponíveis ao usuário são: ``Cancelar`` e ``Aplicar``:
 
@@ -11410,7 +11396,7 @@ Em qualquer momento, o botão ``Cancelar`` pode ser pressionado, em ambos casos 
 
 
 Acompanhando a pesquisa do RCF
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""
 
 
 Ao clicar em pesquisar, o usuário deve aguardar a plataforma uCloud buscar as informações solicitadas, a referida ação pode levar alguns minutos conforme exemplo a seguir.
@@ -11419,8 +11405,6 @@ Ao clicar em pesquisar, o usuário deve aguardar a plataforma uCloud buscar as i
    :alt: aguardar pesquisa
    :align: center
 ----  
-
-
 
 Realizada a busca, caso não existam informações referentes às seleções dos filtros, a plataforma uCloud informa que não existe histórico de faturamento para o contrato no período informado.
 
@@ -11449,10 +11433,8 @@ Na existência de informações, a plataforma uCloud evolui para dois tipos de c
    :align: center
 ----  
 
-
-
 Listando os contratos no RCF
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""
 
 
 Efetuado o carregamento das informações, a plataforma exibe a lista dos contratos encontrados conforme a busca realizada pelo usuário, a tela mostra oito colunas:
@@ -11532,14 +11514,10 @@ Neste fluxo são detalhadas as colunas da tela "Listando contratos":
 
 
 Detalhando as ações do RCF
-~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-
-
+""""""""""""""""""""""""""
 
 
 A última coluna dos contratos listados é a de ações, ela apresenta 4 botões: ``Ver Detalhes``, ``Baixar``, ``Abrir Fatura`` e ``Fechar Fatura``, segue em detalhes a função de cada um.   
-
-
 
 
 * **Botão** ``Ver detalhes``: Ao clicar nesta opção, o usuário pode visualizar os detalhes da fatura do contrato. Para as faturas com *status* “Fechada” a plataforma  uCloud apresenta a tela abaixo:
@@ -11600,7 +11578,7 @@ Na tela ainda é possível agendar a produção do relatório para uma data espe
 
 
 Caso de uso: 
-~~~~~~~~~~~~
+""""""""""
 
 **Obter o relatório no formato CSV**
 
@@ -11731,7 +11709,7 @@ Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário co
 
 
 Relatório Tendência de Faturamento (RTF)
-----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 O Relatório de Tendência de Faturamento, nomeado de forma resumida como RTF, é baseado em faturas que se referem às informações de valores financeiros sobre um período encerrado. Ele permite ao usuário consultar informações relacionadas ao faturamento de um contrato, e detalha a visualização a partir de um filtro mensal. 
@@ -11745,7 +11723,7 @@ Na sequência está detalhado o fluxo de consultas às informações baseadas em
 ----
 
 Acessando o RTF
-~~~~~~~~~~~~~~~
+"""""""""""""""
 
 Para acessar o RTF, basta o usuário clicar no menu Financeiro, depois no submenu Relatórios, como mostra a figura abaixo:
 
@@ -11764,7 +11742,7 @@ Esta tela é dividida em dois grupos : "Painéis Baseados em Consumo" e "Painéi
 
 
 Criando um RTF
-~~~~~~~~~~~~~~
+"""""""""""""""
 
 Ao clicar no botão ``Tendência de faturamento``, a plataforma apresenta a tela a seguir:
 
@@ -11863,7 +11841,7 @@ Se o usuário desejar o *download* do último arquivo gerado, deve continuar o f
 ----
 
 Como fazer o *download* do arquivo 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""
 
 Após confirmar o sucesso da tarefa, o usuário deve refazer os passos para retornar à página de Relatórios, assim como o processo para exportar os dados, até a aparição do modal de **Gerando Novo Relatório**.
 
@@ -11880,7 +11858,7 @@ Para descarregar o RTF em arquivo formato.xlsx (Excel), o usuário deve clicar n
 ----
 
 Acompanhando o *download* no Menu Tarefas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""
 
 
 Ao solicitar a geração de um novo relatório, é possível acompanhar a evolução da *task* no Menu Tarefas, conforme imagem abaixo.
@@ -11903,7 +11881,7 @@ O arquivo é baixado em formato .xlsx (Excel), conforme apresentado a seguir.
 
 
 Visualizando o RTF
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
 
 Como mencionado anteriormente, há dois tipos de visualização na exportação para obter uma análise mais completa do relatório:
@@ -11924,7 +11902,7 @@ A partir dessa primeira filtragem, devem aparecer todos os recursos do contrato 
 ----
 
 Agrupamento por nome do produto
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""
 
 
 A primeira tela do relatório a ser apresentada são as informações gerais sobre o contrato, onde do lado esquerdo é apresentado um gráfico sobre o gasto total por mês. 
@@ -12002,7 +11980,7 @@ As três últimas colunas referentes ao ano e mês do período selecionado, no c
 ----
 
 Agrupamento por *Tag*
-~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 Quando agrupada por *tag*, um menu suspenso é apresentado na área do contrato com as seguintes opções de filtragem:
 
@@ -12044,7 +12022,7 @@ As três últimas colunas referem-se ao ano e mês do período selecionado, no c
 
 
 Filtragem por anomalia
-~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""
 
 
 Possibilita ao usuário realizar a filtragem por anomalia dentro do contrato analisando todos os recursos. Para isso, consta uma *flag* “Mostrar apenas anomalias” com a opção de acionar ou não. Ao acioná-la, os recursos exibidos em tela são reduzidos, mostrando apenas aqueles que realmente possuem anomalias de gastos. 
@@ -12081,7 +12059,7 @@ No entanto, caso haja anomalias de gastos, uma coluna de coloração distinta ap
 
 
 Linked Accounts
-----------------
+"""""""""""""""
 
 
 Caso o usuário não possua contas associadas ao contrato, uma mensagem aparece abaixo da data: "Esse contrato não possui *Linked Accounts*".
@@ -12120,8 +12098,6 @@ Se for de interesse do usuário exportar os dados das *Linked Accounts* para sua
 
 ====
 
-====
-
 
 **Utilitários**
 --------------
@@ -12133,6 +12109,8 @@ O grande desafio é o gerenciamento destes ambientes híbridos das diversas nuve
 Neste cenário híbrido de multicloud, os recursos computacionais necessitam de governança financeira e a plataforma uCloud proporciona o gerencimento deste recursos utilizados nos ambientes. É por meio do menu financeiro que o usuário pode ter acesso a diversas formas de visualização sobre a evolução dos custos referentes ao consumo dos recursos computacionais.  
 
 A plataforma organiza a otimização destes custos ao padronizar e situar os limites tanto financeiros quanto quantitativos e qualitativos dos recursos computacionais obtidos nos múltiplos provedores de nuvem. Além dos painéis existentes, o submenu Relatórios inova ao viabilizar as implementações: Dimensão e Tags Virtuais, funcionalidades utilitárias que favorecem os relatórios a seguir detalhados. 
+
+----
 
 
 **Dimensão**
@@ -12166,9 +12144,11 @@ Sendo assim, ao unificar esse grupo de `Tags` em uma dimensão, é possível ide
 
 No exemplo acima, a expressão representa que essa dimensão deseja todos os recursos que tenham as `Tags`: “product: EFG & departamento:TI”. Esta expressão é considerada simples, no entanto, algo mais complexo pode ser construído a partir do que foi implementado.
 
+----
+
 
 Criando uma Dimensão
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 Para criar uma dimensão, o usuário deve clicar no menu Financeiro, e em seguida no submenu Utilitários, que exibe duas opções apresentadas na imagem seguinte: 
 
@@ -12226,9 +12206,11 @@ Para entender melhor a função de cada campo, observar os detalhamentos destas 
 
 * Botão “Salvar”: Após o preenchimento completo dos dados, o usuário deve pressionar o botão “Salvar”, para que estes não se percam.
 
+----
+
 
 Criando um Agrupamento de *Tags*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""
 
 
 Após preencher o nome da "Dimensão", o usuário deve criar um grupo para sua estrutura. Ao passar o cursor do mouse sobre a opção “Agrupamento de *Tags*”, aparece a seguinte mensagem:
@@ -12275,7 +12257,7 @@ Na imagem abaixo, é possível notar também que na função da Estrutura, na pa
 
 
 Criando *Tag*
-~~~~~~~~~~~~~
+"""""""""""""
 
 
 Clicando no ícone de adição “+” ao lado do grupo criado e posicionando o cursor do mouse sobre a opção da `Tag`, é exibida a seguinte mensagem:
@@ -12362,9 +12344,11 @@ Após a inicialização do processo de criação de uma "Dimensão", é necessá
 
 Para isso, o usuário deve clicar no sinal de adição “+” ao lado de Estrutura, o qual aparecem dois **operadores lógicos** </> OU e </> E. 
 
+----
+
 
 Utilizando o operador lógico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""
   
 
 Operadores lógicos fazem parte da linguagem de programação, e eles são usados com o objetivo de criar expressões do tipo verdadeiro e falso. Estes têm o intuito de juntar duas expressões divergentes e elaborar uma expressão condicional mais complexa. 
@@ -12428,9 +12412,11 @@ Finalizando esta etapa, é exibida a estrutura final de uma dimensão, e para ar
 
 Ao concluir essa ação, a "Dimensão" salva é apresentada na listagem de dimensão.
 
+----
+
 
 Listando Dimensão
-~~~~~~~~~~~~~~~~~
+"""""""""""""""""
 
 
 Para listar a "Dimensão" recém-criada, normalmente a tela exibe a listagem. Na consulta da tela "Listagem de Dimensões", caso ela não atualize automaticamente, o usuário deve clicar no botão “Atualizar” no canto superior direito da tela.
@@ -12450,9 +12436,11 @@ Nesta tela o usuário pode optar entre criar uma nova dimensão, editar uma dime
 
 Nesta lista, são apresentadas as colunas “Nome” e “Ações”, as informações podem ser customizadas e recuperadas ao clicar nos blocos de 10, 25, 50 ou 100 linhas. A coluna “Ações” possibilita as operações de “Editar” e “Excluir”.   
 
+----
+
 
 Editando uma Dimensão
-~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 
 Para editar uma Dimensão, basta o usuário clicar no botão referente à edição na coluna "Ações" na listagem de "Dimensão", como detalhado abaixo:
@@ -12473,18 +12461,17 @@ Fazendo isso, a tela com a estrutura montada e finalizada é exibida, como exemp
    :align: center
 ----
 
-
-
-
 Ao observar a figura acima, nota-se o ícone da lata de lixo. Ou seja, o usuário tem tanto a possibilidade de criar outros grupos e adicionar mais `Tags`, assim como excluí-los. 
 
 É possível também perceber que a cada ação feita, a Estrutura, localizada no fim da página, é modificada.
 
 Para que a mudança seja efetivada, é necessário que o usuário pressione o botão “Salvar” ao lado da função de Estrutura, localizado no canto inferior direito da página.
 
+----
+
 
 Onde a "Dimensão" é utilizada
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""
 
 Atualmente, essa implementação agrupa *Tags*  e reúne-as na "Dimensão" criada, facilitando a visualização categorizada em outras funcionalidades da plataforma. 
 
@@ -12537,10 +12524,12 @@ Por ser um processo manual e executado por um usuário no console do provedor de
 .. important:: Pelo fato das *Tags* serem acessíveis a muitos serviços nos provedores de nuvens, é relevante evitar adicionar dados privados ou confidenciais às *Tags Virtuais*, como por exemplo: identificação pessoal, informação confidencial ou sigilosa.
  
 A plataforma do uCloud sincroniza e recebe o conteúdo do arquivo de *billing* (formato .csv) do provedor de serviço de nuvem pública e, consequentemente, recebe todas as *Tags* existentes no provedor.
- 
+
+----
+
  
 As *Tags* Virtuais da plataforma uCloud
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""
 
 O processo de vincular uma *Tag* a um recurso é manual, de acordo com o mencionado acima, isto consome muito tempo e, principalmente, não se repete de forma automática para novos serviços de um recurso que já tenha uma *Tag* vinculada.
 
@@ -12582,10 +12571,10 @@ Deste modo, a visualização das informações é facilitada para a tomada de de
 
 As organizações que utilizam processos automatizados para gerenciar a infraestrutura incluem as *Tags* adicionais específicas para automatização, em geral, criam agrupamentos relevantes com o propósito de organizar os recursos nas dimensões técnicas, comerciais e de segurança. 
 
-
+----
 
 Normalizando *Tags* Virtuais
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""
 
 Importante mencionar que a existência contínua de um recurso no provedor de serviço de nuvem, gera novos serviços ou produtos que decorrem da existência/manutenção do recurso na nuvem do provedor de serviço de nuvem pública (ex.: *snapshots*).
 
@@ -12606,8 +12595,9 @@ Este processo pode levar algum tempo, pois é executado com comparação de *str
 
 Com este processo a plataforma uCloud complementa a nova funcionalidade de *Tags* Virtuais, que deve ser executada somente quando o usuário Administrador de Custos identifica a existência de recursos **sem** *Tags* Virtuais. 
 
-Quando utilizar
-~~~~~~~~~~~~~~~
+
+Quando utilizar:
+"""""""""""""""
 
 A partir desta nova implementação, direcionada à classificação, normalização e visualização das informações obtidas dos diversos provedores de nuvem pública, a nova funcionalidade *“Tags Virtuais”* possibilita "*etiquetar/taguear*", ou seja, marcar os recursos que por alguma regra ou definição, não tenha sido possível encontrar registrado no *billing* de determinado provedor de nuvem utilizado pela organização ou cliente usuário.
 
@@ -12627,8 +12617,10 @@ A nova implementação do portal uCloud possibilita apresentar no relatório fin
 
 Assim, os recursos importados do arquivo de *billing* das nuvens públicas que por quaisquer políticas destes provedores deixam de indexar a etiqueta ao recurso do serviço de nuvens, podem receber uma *“Tag Virtual”* dentro do portal. 
 
+----
+
 Restrições das *Tags*
-~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 No caso da aplicação das *Tags Virtuais*, existem algumas dicas e restrições básicas a serem aplicadas:
 
@@ -12650,8 +12642,10 @@ No caso da aplicação das *Tags Virtuais*, existem algumas dicas e restrições
 
 .. warning:: O prefixo **aws** é reservado para uso da Amazon Web Service (AWS). Não é possível editar nem excluir a chave ou o valor de uma Tag quando ela tem uma chave de Tag com esse prefixo. As Tags com o prefixo aws: não contam para as Tags por limite de recurso.
 
+----
+
 Como utilizar
-~~~~~~~~~~~~~
+"""""""""""""
 
 Esta nova implementação possibilita taguear os recursos ausentes de marcação na bilhetagem das nuvens, seja por regra ou definição. O que resulta em ganho de informação relevante daqueles recursos que deixariam de ser categorizados e recuperados. 
 
@@ -13185,8 +13179,8 @@ Menu Recomendações (novo)
 
 ----
 
-Menu Provedor de contas
-=======================
+Menu Account Providers
+======================
 
 Este menu está em fase de editoração. Em substituição ao menu abaixo.
 
@@ -13675,7 +13669,7 @@ Após esta etapa o usuário deverá solicitar a criação da sub-rede dentro da 
 ----
 
 
-Criar Rede em Provedores de Serviço de Nuvem Público (AWS)
+Criar Rede em Provedores de Serviço de Nuvem Pública (AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Caso o usuário necessite selecionar um ambiente na AWS para provisionar uma nova rede, a tela será alterada conforme os campos exibidos abaixo:
@@ -13702,7 +13696,7 @@ A seguir a descrição detalhada dos campos da tela apresentada:
 
 ----
 
-Criar Rede em Provedores de Serviço de Nuvem Público (Azure)
+Criar Rede em Provedores de Serviço de Nuvem Pública (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Caso o usuário necessite selecionar um ambiente na Azure para provisionar uma nova rede, antes de iniciar o processo de criação a plataforma uCloud apresenta uma mensagem de aviso informando ao usuário não efetuar a criação de novas redes em regiões em que sua assinatura dos serviços deste provedor não esteja vinculada:
@@ -13741,7 +13735,7 @@ A seguir a descrição detalhada dos campos da tela exibida acima:
 
 ----
 
-Criar Rede em Provedores de Serviço de Nuvem Público (GCP)
+Criar Rede em Provedores de Serviço de Nuvem Pública (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Caso o usuário necessite selecionar um ambiente na GCP para provisionar uma nova rede, a tela será alterada com apresentada conforme os campos exibidos abaixo:
@@ -15192,6 +15186,12 @@ A plataforma uCloud obtém esta informação de forma regular e constante, atrav
 * **Ícone de Remover** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a plataforma uCloud remove (exclui) este disco, de forma imediata e definitiva. Esta ação é efetivada na região de disponibilidade na qual o armazenamento (storage) está vinculado, o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado). A plataforma uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - *Favor consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada*.
 
 ----
+
+Menu Templates
+==============
+
+----
+
 
 Menu Flavors
 ============
