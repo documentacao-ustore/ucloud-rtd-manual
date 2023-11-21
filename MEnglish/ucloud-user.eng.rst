@@ -188,7 +188,7 @@ It aggregates the monitoring, Cloud Workflow functionalities and makes it possib
 
 ====
 
-Integration and Interoperability between Platforms (API uCloud) 
+Integration and Interoperability among platforms (API uCloud) 
 ---------------------------------------------------------------
 
 Interoperability is the capability to interact and interchange data between two or more systems (computers, means of communication, networks, software and other information technology components) according to a defined method, with the purpose to obtain the expected result. Interoperability defines if two components of a system, developed with different tools and providers, can or cannot act together.
@@ -252,16 +252,16 @@ Section: Company billing quota
 Section: Shortcuts
 ------------------
 
-Virtual Machines
+**Virtual Machines**
 ~~~~~~~~~~~~~~~~~
 
-Virtual Datacenters
+**Virtual Datacenters**
 ~~~~~~~~~~~~~~~
 
-Billing
+**Billing**
 ~~~~~~~~
 
-Templates
+**Templates**
 ~~~~~~~~
 
 Section: Recent tasks
@@ -360,7 +360,7 @@ Creating New Group
 ~~~~~~~~~~~~~~~~~~~~
 
 Company
-~~~~~~~~
+--------
 
 Financial Governance via Company
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -502,7 +502,7 @@ Network
 Section: Network Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Card: SDN Controller
+Card: SDN Controllers
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Creating a SDN controller
@@ -622,13 +622,15 @@ Card: Exhibition elements
 Add setting
 """""""""""""
 
+----
+
 Security Menu
 ==============
 
 Tickets (new)
 -------------
 			
-Processes tickets
+Processes tickets (new)
 ~~~~~~~~~~~~~~~~~~~
 
 Button: Open ticket
@@ -649,7 +651,7 @@ Card: Opened tickets
 Card: Closed tickets
 """""""""""""""""""""
 
-Tickets report 
+Tickets report (new)
 ~~~~~~~~~~~~~~~~~
 
 Support dashboard
@@ -670,10 +672,10 @@ Auto assessment (new)
 Card: Templates
 """"""""""""""
 
-Auto assessment templates
+Auto assessment Templates
 """"""""""""""""""""""""
 
-Create new template
+Create new Template
 """"""""""""""
 
 Card: Clients
@@ -685,7 +687,7 @@ Create new Client
 Listing Client
 """""""""""""
 
-Associating template to the Client
+Associating Template to the Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Auto assessment’s status forms
@@ -841,7 +843,7 @@ Section: Disk
 Section: Snapshots
 ~~~~~~~~~~~~~~~~
 
-Section: Signatures (**Exclusive Azure and Google Cloud Platform**)
+Section: Subscriptions (**Exclusive Azure and Google Cloud Platform**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Section: Performance History (**Exclusive Azure and GCP**)
@@ -876,7 +878,7 @@ Wizard Step 6 (View the virtual machine configurations)
 
 ----
 
-Orchestrator Menu (new)
+Orchestrator Menu
 =====================
 
 Cluster
