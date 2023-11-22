@@ -11683,7 +11683,7 @@ Na tela constam as mesmas informações apresentadas na tela do *status* “Fech
 .. note:: |nota| Todos os procedimentos descritos no *status* “Fechada” sobre a obtenção dos arquivos nos formatos PDF e CSV também podem ser realizados quando o Status da fatura está “Aberta”.
 
 
-* **Botão** ``Baixar``: Caso o usuário já conheça as informações relativas ao contrato listado e deseje fazer *download* de toda a lista de itens da fatura em um arquivo tipo planilha eletrônica (MS-Excel), basta clicar sobre o botão ``Baixar``, e o modal “Gerando Novo Relatório” é apresentado. Para que o usuário possa obter o arquivo CSV deve seguir o mesmo procedimento apresentado no Caso de Uso, consultar aqui_.  
+* **Botão** ``Baixar`` |ícone_baixar|: Caso o usuário já conheça as informações relativas ao contrato listado e deseje fazer *download* de toda a lista de itens da fatura em um arquivo tipo planilha eletrônica (MS-Excel), basta clicar sobre o botão ``Baixar``, e o modal “Gerando Novo Relatório” é apresentado. Para que o usuário possa obter o arquivo CSV deve seguir o mesmo procedimento apresentado no Caso de Uso, consultar aqui_.  
 
 
 .. _aqui: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#caso-de-uso
@@ -11695,7 +11695,7 @@ Na tela constam as mesmas informações apresentadas na tela do *status* “Fech
 ----
 
 
-    * **Botão** ``Abrir Fatura``: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Fechada”; abrir uma fatura fechada significa que a empresa necessita de alguma ação de correção nos valores da fatura, que deve ser providenciado antes do pagamento do referido valor apresentado. 
+    * **Botão** ``Abrir Fatura`` |ícone_abrir_fatura|: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Fechada”; abrir uma fatura fechada significa que a empresa necessita de alguma ação de correção nos valores da fatura, que deve ser providenciado antes do pagamento do referido valor apresentado. 
 
 
 Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou cancelar a ação. 
@@ -11707,7 +11707,7 @@ Ao clicar no botão a seguinte tela é exibida, cabendo ao usuário confirmar ou
 ----
 
 
-    * **Botão** ``Fechar Fatura``: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Aberta”; na coluna “Data de Fechamento” no caso do usuário passar o cursor do mouse pelo símbolo de atenção, é mostrada a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”, conforme exibido no exemplo seguinte. 
+    * **Botão** ``Fechar Fatura`` |ícone_fechar_fatura|: Este botão apenas está disponível para as faturas nas quais seu *status* está com a informação “Aberta”; na coluna “Data de Fechamento” no caso do usuário passar o cursor do mouse pelo símbolo de atenção, é mostrada a mensagem: “A data de fechamento da sua fatura não foi informada porque ela ainda está em aberto”, conforme exibido no exemplo seguinte. 
 
 
 
@@ -16233,3 +16233,12 @@ Revisão 20/01/2023
 .. |icone_excluir| image:: /figuras/fig_segurança/icone_excluir.png
 
 .. |icone_lapis| image:: /figuras/fig_segurança/icone_lapis.png
+
+.. |ícone_abrir_fatura| image:: /figuras/fig_rcf/ícone_abrir_fatura.png
+
+.. |ícone_baixar| image:: /figuras/fig_rcf/ícone_baixar.png
+
+.. |ícone_fechar_fatura| image:: /figuras/fig_rcf/ícone_fechar_fatura.png
+
+.. |ícone_visualizar| image:: /figuras/fig_rcf/ícone_visualizar.png
+
