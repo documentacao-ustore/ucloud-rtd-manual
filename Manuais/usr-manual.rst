@@ -14027,8 +14027,8 @@ A seguir a descrição detalhada dos campos da tela exibida acima:
 
 * **Ícone Agendar**: Este ícone permite ao usuário agendar o provisionamento da solicitação do Endereço TCP-IP Público, o valor padrão é Desabilitado (vermelho).
 
-  * **Ícone Desabilitado** |icone_habil_verde|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Endereço TCPIP Público será imediatamente provisionado no ambiente do provedor de serviço de nuvem privado, basta o usuário clicar com o cursor do mouse no botão Criar (verde).
-  * **Ícone Habilitado** |icone_desb_verm|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Endereço TCP-IP Público no ambiente do provedor de serviço de nuvem privada. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da plataforma uCloud.
+  * **Ícone Desabilitado** |uCloud_icone_desabilita_vermelho|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Endereço TCPIP Público será imediatamente provisionado no ambiente do provedor de serviço de nuvem privado, basta o usuário clicar com o cursor do mouse no botão Criar (verde).
+  * **Ícone Habilitado** |uCloud_icone_habilita_verde|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Endereço TCP-IP Público no ambiente do provedor de serviço de nuvem privada. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da plataforma uCloud.
     Quando alterar o ícone para habilitado (verde), a plataforma uCloud permitirá ao usuário inserir uma data desejada.
 
   * **Ícone Calendário** |icone_agenda|: Basta o usuário clicar sobre o ícone do calendário para a plataforma uCloud apresentar o pop-up na tela e permitir ao usuário selecionar a data desejada, conforme abaixo:
@@ -16239,11 +16239,11 @@ Revisão 20/01/2023
 
 .. |icone_cota_indv| image:: /figuras/ucloud_icone_cota_individual.png
 
-.. |icone_desb_verm| image:: /figuras/uCloud_icone_desabilita_vermelho.png
+.. |uCloud_icone_desabilita_vermelho| image:: /figuras/uCloud_icone_desabilita_vermelho.png
 
 .. |icone_edita_on| image:: /figuras/uCloud_icone_editar_on.png
 
-.. |icone_habil_verde| image:: /figuras/uCloud_icone_habilita_verde.png
+.. |uCloud_icone_habilita_verde| image:: /figuras/uCloud_icone_habilita_verde.png
 
 .. |icone_lixo| image:: /figuras/uCloud_icone_lixo.png
 
