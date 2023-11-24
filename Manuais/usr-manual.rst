@@ -13358,6 +13358,11 @@ Abaixo segue a descrição das colunas desta lista de hosts:
 
 ----
 
+Criar Hosts
+-----------
+
+----
+
 Visualizando um Host
 --------------------
 
@@ -14658,6 +14663,16 @@ A seguir a descrição dos campos desta tela:
 * **Botão Criar**: Após o usuário informar todos os parâmetros fundamentais para o correto funcionamento do Balanceador, nos ambientes do provedor de serviços de nuvem (pública e/ou privada), o usuário pode verificar que este botão alterna para o modo ativo (cor verde). Basta clicar com o cursor do mouse sobre o botão Criar e a plataforma uCloud envia todos os parâmetros para os ambientes, de forma a provisionar um Balanceador.
   Caso este botão não esteja habilitado (cor cinza), significa que algum parâmetro anterior deixou de ser preenchido e o campo está em branco, logo a plataforma uCloud não permitirá o provisionamento do Balanceador.
 
+----
+
+Grupos de Recursos vCloud
+-------------------------
+
+----
+
+Criar Grupo de Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. Zonas DNS
 .. ---------
@@ -15096,7 +15111,7 @@ Para o caso de criar VPNs IPSEC, a plataforma do uCloud abre um *pop up* para ex
 ----
 
 Menu Storages
-============
+=============
 
 Depois do provisionamento de um Container (provedor de nuvem pública), a plataforma uCloud efetua a ‘importação’ de todas as suas características e recursos computacionais existentes, deste modo permite ao usuário interação neste ambiente através da interface do uCloud, um dos recursos computacionais disponíveis é o recurso de armazenamento (Storage).
 
@@ -15121,6 +15136,11 @@ A seguir a descrição das características de cada coluna:
 * **Utilizado**: Esta coluna apresenta o valor total da ocupação do recurso computacional do Storage (armazenamento) tal como este se encontra no ambiente do provedor de serviço de nuvem pública.
 * **Uso**: Esta coluna apresenta o percentual de ocupação do recurso computacional do Storage (armazenamento) da mesma maneira como este se encontra no ambiente do provedor de serviço de nuvem pública.
 * **Upload**: Esta coluna apresenta a informação sobre este recurso computacional do Storage (armazenamento) que está habilitado para receber os dados para serem armazenados diretamente de uma rede externa, esta informação é obtida diretamente do ambiente do provedor de serviço de nuvem pública.
+
+----
+
+Criar Storage
+-------------
 
 ----
 
@@ -15244,6 +15264,11 @@ A seguir a descrição detalhada das colunas desta lista:
   * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a plataforma uCloud permite remover (excluir) a configuração do Flavor, de forma imediata e definitiva. A plataforma uCloud apresenta a tela de *pop up* para solicitar a confirmação do usuário.
 
 .. note:: Importante ressaltar: esta ação remove a configuração do Flavor apenas da base de dados interna da plataforma uCloud, de forma permanente; Esta ação não efetua a remoção do Flavor do ambiente do provedor de serviço de nuvem pública.
+
+----
+
+Criar Flavor
+------------
 
 ----
 
@@ -15545,7 +15570,7 @@ As funcionalidades disponíveis são as seguintes:
 
 ----
 
-Tarefa de Desligamento/Ativação Programado de Máquina Virtual
+Tarefa de Desligamento/Ativação Programada de Máquina Virtual
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O exemplo de desligamento programado, pode ser muito útil para se utilizar da funcionalidade de workflows para desligar (*shutdown*) de um servidor em um horário programado (por ex.: sexta-feira às 23h59) para que as cobranças decorrentes do uso deste servidor sejam interrompidas durante o fim de emana e a empresa possa receber o benefício de economia de custos referentes ao consumo desta infraestrutura.
@@ -15837,10 +15862,42 @@ Basta o usuário clicar sobre o botão **Criar** que a plataforma uCloud apresen
 
 ----
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-
-
 .. [*] Open Source Puppet site: https://puppet.com/docs/puppet/6/puppet_overview.html
+
+----
+
+Catálogo de Serviços
+--------------------
+
+----
+
+Recursos: Novo Serviço
+~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Recursos: Enviar
+~~~~~~~~~~~~~~~~
+
+----
+
+Meus serviços anteriores
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Marketplace: Histórico de serviços contratados
+""""""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Minhas ofertas contratadas
+""""""""""""""""""""""""""
+
+----
+
+Minhas ofertas cadastradas
+""""""""""""""""""""""""""
 
 ----
 
@@ -16014,6 +16071,12 @@ Na coluna **Tag** o usuário pode encontrar a informação necessária, referent
 
 ----
 
+Criar grupo de recursos dinâmico
+--------------------------------
+
+----
+
+
 Editor de Etiquetas (tags) Nativo
 ---------------------------------
 
@@ -16045,8 +16108,31 @@ Na coluna Ações, o usuário pode encontrar o Ícone de Edição Ativo |icone_e
     * **Valor**: Neste campo o usuário deve preencher com informação referente ao valor que deseja vincular a chave do recurso.
     * **Botão Criar**: Após certificar que todas as informações - a chave e o seu valor - foram configuradas (inclusões ou exclusões), o usuário deve clicar com o botão do mouse no botão Criar para aplicar alterações, de forma definitiva e imediata. Este botão é obrigatório, no caso do usuário efetuar a remoção das informações existentes a uma etiqueta (tag), após clicar no botão Lata de Lixo. Em seguida, o usuário deve clicar sobre este botão para a plataforma uCloud fechar esta tela e retornar à tela anterior, com seu conteúdo atualizado.
 
+Tag
+~~~~
+
+Sem Tag
+~~~~~~~~
+
+----
+
 Menu Cores e Personalização (novo)
 ===========================
+
+Personalização de Interface Gráfica
+-----------------------------------
+
+Informações do tema
+~~~~~~~~~~~~~~~~~~~
+
+Identidade
+~~~~~~~~~~
+
+Cores: Modo claro ou escuro
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Temas cadastrados
+~~~~~~~~~~~~~~~~~~
 
 
 ====
