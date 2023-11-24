@@ -7041,9 +7041,10 @@ Adicionalmente, é necessário que a senha de usuário de conexão seja conhecid
   * **Botão Não Cancelar**: Este botão permite ao usuário cancelar a ação e manter a máquina virtual tanto no provedor de serviço de nuvem quanto na interface da plataforma uCloud. Será apresentada uma tela informando, ao usuário, informando que a máquina virtual não será excluída.
   * **Botão Sim Pode Excluir**: Ao clicar com o cursor do mouse neste botão, a plataforma uCloud envia a solicitação de exclusão para o provedor de serviço de nuvem (público e/ou privado) no qual esta máquina virtual está sendo executada, e em seguida, remove a mesma das bases de dados do uCloud. Importante mencionar, que quaisquer recursos computacionais adicionais (disco adicional, IP Públicos, snapshot) associados a esta máquina virtual, não serão excluídos.
 
-----
 
 A seguir descrição de cada seção (*card*) de forma individual:
+
+----
 
 Seção Geral: Máquinas Virtuais
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -7891,6 +7892,8 @@ O ambiente Microsoft Azure possui uma tela/formulário mais extenso e, portanto,
 Criando um Scaling Openstack
 ----------------------------
 
+----
+
 Criando um Scaling vCloud
 -------------------------
 
@@ -8129,7 +8132,8 @@ Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode clicar e retornar a Etapa 1, na seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-====
+----
+
 
 Etapa 6 - Parâmetro de Cópia de Segurança (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -8293,7 +8297,8 @@ Nesta etapa devem ser informados os parâmetros de Rede e de Grupo de Segurança
 * **Botão Voltar**: Este botão se encontra ativo, por se tratar da primeira etapa do processo, o usuário pode retornar para a Etapa 1, seleção do provedor de serviço de nuvem.
 * **Botão Próximo**: Este botão se encontra inativo, por se tratar da primeira etapa de seleção do Banco de Dados.
 
-===
+----
+
 
 Etapa 6 - Parâmetro de Cópia de Segurança (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -8558,6 +8563,8 @@ Esta seção apresenta as características gerais do Virtual Datacenter. Nesta s
     * **Ícone de Confirmação** |icone_conf_verde|: Quando o usuário confirma a intenção de alterar o conteúdo do campo desejado, a plataforma uCloud apresenta um ícone de confirmação. Após ter finalizado a alteração do conteúdo do campo o usuário deve clicar com o cursor do mouse no botão verde para confirmar a alteração. Após esta ação a informação do campo é alterada permanentemente nas bases de dados da plataforma uCloud.
     * **Ícone de Cancelamento** |icone_cancela_vermelho|: Caso o usuário tenha clicado sobre o ícone de edição por engano, ou não deseja que a alteração seja armazenada (gravada) permanentemente, basta o usuário clicar com o cursor do mouse sobre o ícone vermelho, para cancelar as alterações e o conteúdo do campo retorna para os valores iniciais, antes de qualquer preenchimento ou alteração.
 
+----
+
 **Seção: Regiões**
 ~~~~~~~~~~~~~~~~~~
 
@@ -8575,41 +8582,57 @@ Esta seção apresenta somente as regiões globais, do provedor de serviço de n
 
 Esta seção apresenta somente as Redes TCP-IP (e subnets) do provedor de serviço de nuvem, que foram definidas para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
+----
+
 **Seção: Par de Chave**
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 **Seção: Grupo de Segurança**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta somente os Grupos de Segurança do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
 
+----
 
 **Seção: Templates**
 ~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta somente os templates do provedor de serviço de nuvem, que foram definidos para ficar disponíveis aos usuários quando estes selecionarem o VDC.
 
+----
+
 **Seção: Flavors**
 ~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta somente os flavors do provedor de serviço de nuvem, inicialmente definidos e disponíveis aos usuários quando da seleção do VDC.
+
+----
 
 **Seção: Storages**
 ~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta somente opções de armazenamento (storage) do provedor de serviço de nuvem, anteriormente definidos e disponíveis aos usuários quando estes selecionarem o VDC.
 
+----
 
 **Seção: Catálogo**
 ~~~~~~~~~~~~~~~~~~~~
 
 Esta seção apresenta somente as Ofertas do Catálogo de Serviços que o usuário Administrador do Contrato provisionou e selecionou para ficarem disponíveis aos usuários quando estes selecionarem o VDC.
 
+----
+
 **Seção: Balanceadores**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 **Seção: Bancos de Dados**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 **Seção: Máquinas Virtuais**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -14004,8 +14027,8 @@ A seguir a descrição detalhada dos campos da tela exibida acima:
 
 * **Ícone Agendar**: Este ícone permite ao usuário agendar o provisionamento da solicitação do Endereço TCP-IP Público, o valor padrão é Desabilitado (vermelho).
 
-  * **Ícone Desabilitado** |icone_habilita_verde|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Endereço TCPIP Público será imediatamente provisionado no ambiente do provedor de serviço de nuvem privado, basta o usuário clicar com o cursor do mouse no botão Criar (verde).
-  * **Ícone Habilitado** |icone_desabilita_verm|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Endereço TCP-IP Público no ambiente do provedor de serviço de nuvem privada. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da plataforma uCloud.
+  * **Ícone Desabilitado** |icone_habil_verde|: Este ícone indica que não existe agendamento estabelecido. Isto significa que este Endereço TCPIP Público será imediatamente provisionado no ambiente do provedor de serviço de nuvem privado, basta o usuário clicar com o cursor do mouse no botão Criar (verde).
+  * **Ícone Habilitado** |icone_desb_verm|: Este ícone indica que o usuário pretende agendar uma data para o provisionamento de um Endereço TCP-IP Público no ambiente do provedor de serviço de nuvem privada. Este processo permite escolher a melhor data para que o recurso computacional de nuvem possa iniciar sua cobrança de valores em datas pré-definidas pela empresa usuária da plataforma uCloud.
     Quando alterar o ícone para habilitado (verde), a plataforma uCloud permitirá ao usuário inserir uma data desejada.
 
   * **Ícone Calendário** |icone_agenda|: Basta o usuário clicar sobre o ícone do calendário para a plataforma uCloud apresentar o pop-up na tela e permitir ao usuário selecionar a data desejada, conforme abaixo:
@@ -14689,7 +14712,6 @@ Criar Grupo de Recursos
    :align: center
    :class: with-border
 
-----
 
 .. Quando o usuário acessa o menu Zonas DNS, a Plataforma uCloud apresenta uma lista com todas as zonas de DNS criadas por um usuário no ambiente de um provedor de serviço de nuvem (pública e/ou privada).
 
@@ -14699,7 +14721,6 @@ Criar Grupo de Recursos
    :align: center
    :class: with-border
 
-----
 
 .. A seguir a descrição das colunas desta tela:
 
@@ -14715,7 +14736,7 @@ Criar Grupo de Recursos
 .. * **Criado Por**: Esta coluna apresenta as credenciais de login do usuário que estava registrado na Plataforma uCloud e é o responsável pelo provisionamento da Zona DNS.
 .. * **Ação**: Esta coluna apresenta duas opções de ação a ser realizada pelo usuário, por intermédio dos ícones e o usuário possa interagir com a Zona DNS selecionada:
 
-  * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma uCloud remove (exclui) esta Zona DNS, de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
+.. * **Ícone Lata de Lixo** |icone_lixo|: Basta clicar com o cursor do mouse sobre este botão e a Plataforma uCloud remove (exclui) esta Zona DNS, de forma imediata e definitiva. Esta ação será efetivada no ambiente de rede selecionado (público e/ou privado), o tempo necessário para que a referida ação seja aplicada é totalmente dependente do tempo do ambiente destino (público e/ou privado), a Plataforma uCloud não acrescenta ou reduz qualquer tempo nas ações desejadas - Consultar o menu Tarefas para acompanhar a evolução na execução da ação desejada.
   * **Ícone Edição**: Basta o usuário clicar sobre este ícone e a Plataforma uCloud apresenta uma tela que permite a edição das configurações da Zona DNS, o usuário pode seguir as instruções do item: A. Gerenciar Zona DNS.
 
 .. * **Busca Rápida**: O usuário pode notar que logo abaixo do nome da coluna existe um campo em ‘branco’ que permite efetuar uma busca rápida no conteúdo da listagem para reduzir e estreitar a quantidade de incidências desta lista de Zonas DNS. Basta preencher o campo em branco com uma sequência de caracteres que possa ser relevante e a Plataforma uCloud atualiza a tela de forma a representar este padrão de busca.
@@ -14737,7 +14758,6 @@ Criar Grupo de Recursos
    :align: center
    :class: with-border
 
-----
 
 .. A seguir, a descrição das seções desta tela:
 
@@ -14775,7 +14795,6 @@ Criar Grupo de Recursos
    :align: center
    :class: with-border
 
-----
 
 .. Após incluir todas as informações necessárias para provisionar o novo registro, basta o usuário clicar com o cursor do mouse no Ícone de Confirmação o que permite a Plataforma uCloud provisionar o novo registro, de forma definitiva no ambiente do provedor de serviço de nuvem pública. Favor consultar a documentação online do seu provedor de serviço de nuvem pública, se precisar entender as características específicas para ambiente do provedor de serviço.
 
