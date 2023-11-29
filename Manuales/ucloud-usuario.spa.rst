@@ -307,7 +307,6 @@ Sección: Atajos
 
 ----
 
-
 Sección: Tareas recientes
 ---------------------------
 
@@ -334,7 +333,6 @@ Cuota de Máquinas Virtuales
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
-
 
 
 .. Sección Contenedores
@@ -717,30 +715,64 @@ Cuenta *(Account)*
 Introducción
 ~~~~~~~~~~~~~~
 
+----
 
+Tipo de cuenta (`Account`)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
 
+¿Cómo acceder?
+~~~~~~~~~~~~~~~
 
+----
 
+Cuentas Integrador y Productor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
 
+Cuentas 
+--------
 
+Principal y subcuenta
+~~~~~~~~~~~~~~~~~~~~~~
 
+----
 
+Creando una Cuenta
+~~~~~~~~~~~~~~~~~~~~~~
 
+----
 
+Listando la Cuenta Creada
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
 
+Detallando la Cuenta
+~~~~~~~~~~~~~~~~~~~~~~
 
-Menú Administración / Usuarios
-------------------------------
+----
 
+Creando la Subcuenta
+~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+¿Cómo visualizar la Lista de Cuentas?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Usuarios
+----------
 
 La plataforma uCloud tiene sus propias bases de datos que almacenan la información de los usuarios, como el inicio de sesión y la contraseña, de manera segura y encriptada. La pantalla de inicio del **Menú de Administración** muestra la lista de usuarios aprovisionados, la información de inicio de sesión de un usuario, el grupo al que está asociado el usuario y el tipo de perfil para este inicio de sesión.
 
 Dependiendo del tipo de perfil de usuario que esté accediendo al sistema, la Plataforma uCloud solo presentará la relación de usuario que el perfil que está registrado y activo puede gestionar o administrar.
 
-.. figure:: /figuras/uCloud_menu_administracao_usuario_001.png
+   .. figure:: /figuras/uCloud_menu_administracao_usuario_001.png
    :scale: 80 %
    :align: center
 
@@ -793,7 +825,7 @@ A continuación se muestra la descripción de los cuatro tipos básicos del perf
 
 * **Usuario Administrador de Contrato y Administrador de Grupo**: La Plataforma de uCloud permite que un usuario pueda estar asociado como Administrador de un Grupo y, simultáneamente, Administrador de un Contrato este usuario está identificado en la lista con la marca (flag) gráfica: ``user`` y una estrella estará completamente llena indicando que este usuario es un Administrador de Grupo y de Contrato.
   
-  * Esta doble asociación de perfil permite a este usuario un alto nivel de control y administración del entorno de la empresa.
+ * Esta doble asociación de perfil permite a este usuario un alto nivel de control y administración del entorno de la empresa.
   
 * **Auditor**: es un usuario que tiene acceso al menú de la Gestión Financiera y realiza el seguimiento de la facturación del portal, así como define las reglas de fijación de precios del contrato.
 
@@ -801,11 +833,11 @@ A continuación se muestra la descripción de los cuatro tipos básicos del perf
   * Este usuario está identificado en el listado con la marca (flag) gráfica: ``user`` el término indica que este usuario es un Auditor del Contrato.
 
 Los otros cuatro perfiles (**Administrator, Service, VDI User, VDI Administrator**) son perfiles internos de la Plataforma de uCloud, no estarán cubiertos en este documento. Póngase en contacto con su punto focal en Ustore para obtener los documentos específicos: *Manual del Administrador de la Plataforma uCloud y 
-Manual del Entorno VDI Ustore*
+.. Manual del Entorno VDI Ustore*
 
+----
 
-
-Visualización de un Usuario
+Visualizando un usuario
 ---------------------------
 
 En la lista de usuarios es posible ver la información de un usuario, simplemente haga clic con el mouse sobre la línea en la que se presenta el usuario, la Plataforma de uCloud mostrará la pantalla con toda la información del usuario aprovisionado en la plataforma. En esta pantalla es posible añadir nuevas configuraciones al perfil de un usuario. 
@@ -848,7 +880,6 @@ Tras la confirmación de la Eliminación del usuario, este usuario y sus credenc
   * **Solo Lectura**: Este campo configura a un usuario que no tiene permiso para realizar ninguna acción a través de la Plataforma de uCloud, pero su inicio de sesión está activo y tiene la capacidad de ver todas las pantallas que tiene permiso.
 
 .. important:: Este es un campo tipo *"checkbox"* que el usuario puede actuar para alternar su modo actual, `siempre que su perfil permita proceder a cambio`. Si el icono está en color rojo, simplemente haga clic con el cursor del mouse y el campo se activará para el color verde. Si el icono está en color verde, simplemente haga clic con el mouse y el campo se desactivará poniéndose en color rojo.
-
 
 * **Autenticación Multifactor**: Este campo indica si este usuario tendrá su proceso de autenticación en la plataforma (login) siendo verificado doblemente, antes de aprobar que este usuario tenga acceso a la Plataforma de uCloud. Para ello, se enviará un mensaje en el número de servicio móvil del celular registrado.
 
@@ -984,11 +1015,10 @@ Puede ingresar parte del nombre de un grupo y hacer clic en el cursor del mouse 
 
 * **Búsqueda Rápida**: Es posible que el usuario no pueda notar que justo debajo del nombre de la columna hay un campo 'en blanco' que le permite realizar una búsqueda rápida sobre el contenido del listado para reducir y reducir la cantidad de incidencias de esta lista de máquinas virtuales *(VMs)* de este usuario. Simplemente complete el campo en blanco con una cadena que pueda ser relevante, y la plataforma uCloud actualiza la pantalla para representar este patrón de búsqueda.
 
+----
 
-
-
-Creación de Usuario
--------------------
+Creando un Nuevo Usuario
+--------------------------
 
 Antes de tratar con la creación de un usuario, es importante establecer que para la Plataforma uCloud un Usuario está vinculado a un Grupo y un Grupo está vinculado por un Contrato [Usuario<Grupo<Contrato].
 
@@ -1060,17 +1090,34 @@ Para aprovisionar a un usuario en la Plataforma uCloud, segue la descripción de
 
 * **Cuota de Usuario**: Cuando el usuario la selecciona, la Plataforma uCloud solicita que se informen los límites de recursos computacionales (cuotas) financieros o individuales, como se muestra en la pantalla a continuación:
 
+----
 
-
-
-
-
-
-
-
-
-Administración / Grupos
+Grupos
 -----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Viendo Grupo
 ------------
