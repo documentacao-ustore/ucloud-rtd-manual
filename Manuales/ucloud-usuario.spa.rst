@@ -735,6 +735,8 @@ Cuentas Integrador y Productor
 Cuentas 
 --------
 
+----
+
 Principal y subcuenta
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1094,6 +1096,402 @@ Para aprovisionar a un usuario en la Plataforma uCloud, segue la descripción de
 
 Grupos
 -----------------------
+
+----
+
+Visualizando Grupo
+------------------------
+
+----
+
+Creando un Nuevo Grupo
+-------------------------
+
+----
+
+Contrato
+-------------------------
+
+----
+
+Gobernanza Financiera vía Contrato
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Aislamiento Financiero de los Recursos Computacionales
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Aislamiento Lógico de Recursos Computacionales
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Aislamiento Lógico de Recursos Computacionales
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Relacionar *Budget* al Contrato
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Budget*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Accediendo al *Budget*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando *Budget* y *Sub-Budget*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Intervalo Trimestral
+""""""""""""""""""""
+
+----
+
+Intervalo Semestral
+""""""""""""""""""""
+
+----
+
+Intervalo Anual
+""""""""""""""""""""
+
+----
+
+Intervalo Mensual
+""""""""""""""""""""
+
+----
+
+Editando Budget 
+~~~~~~~~~~~~~~~~~
+
+----
+
+Visualizando el Informe de Costos de `Budgets`
+~~~~~~~~~~~~~~~~~
+
+----
+
+Visualizando Contrato
+~~~~~~~~~~~~~~~~~
+
+----
+
+Sección: General
+""""""""""""""""""
+
+----
+
+Sección: Reglas de Facturación
+""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Categorías de Precio
+""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Políticas de Alertas
+""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Precio de los Recursos - Contrato
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Cuota del Contrato
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Contacto Primario
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Administradores
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Datos de la Empresa
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Virtual Datacenters Concedidos
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Usuarios
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Grupos
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Datos de Facturación
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Perfiles de Permisos
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Productos
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Permisos Concedidos
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Perfil de Facturación de Container
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Aprovisionamiento de Contrato
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Menú Configuración
+=====================
+
+----
+
+General
+--------
+
+----
+
+Sección: General
+~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Card*: Sincronizar *Active Directory*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Aplicar perfiles
+"""""""""""""""""
+
+----
+
+Sección: Precio de los Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear un costo estándar del sistema
+"""""""""""""""""""""""""""""""""""""
+
+----
+
+Sección: Configuraciones de Usuario *LDAP Server*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Seção: *Upload* de Termo de Responsabilidade
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Consola
+-------
+
+----
+
+*Card*: Controladores de consola
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear controlador de consola
+"""""""""""""""""""""""""""""
+
+----
+
+Red
+-----
+
+----
+
+Sección: Configuraciones de Red
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Card*: Controladores SDN
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando SDN controlador
+"""""""""""""""""""""""
+
+----
+
+Subredes públicas
+-------------------
+
+----
+
+*Card*: Subredes públicas
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Actualizar
+""""""""""
+
+----
+
+Añadir Subred
+""""""""""
+
+----
+
+Suscripciones
+---------------
+
+----
+
+*Card*: Suscripciones
+~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando Suscripción
+""""""""""""""""""""
+
+----
+
+Flavor Billing Profile
+-----------------------
+
+----
+
+Creando Flavor Billing Profile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Perfiles de Permiso
+---------------------
+
+----
+
+Visualizar y Editar Perfil de Permisos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando Perfil de Permiso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Perfiles de Visualización
+-----------------------------
+
+----
+
+Creando Perfil de Visualización
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Editando Perfil de Visualización
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Billing Admin
+---------------
+
+----
+
+Administración de Billetaje
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
