@@ -16147,8 +16147,11 @@ Informações do tema
 Identidade
 ~~~~~~~~~~
 
-Cores: Modo claro ou escuro
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cores: Modo claro 
+~~~~~~~~~~~~~~~~~
+
+Cores: Modo escuro
+~~~~~~~~~~~~~~~~~~
 
 Temas cadastrados
 ~~~~~~~~~~~~~~~~~~
@@ -16159,10 +16162,9 @@ Temas cadastrados
 **Equipe Ustore**
 
 
-uCloud Manual de uso
-Atualização 26/10/2023.
- 
-Revisão 20/01/2023
+uCloud Manual de uso. Atualização 05/12/2023. 
+
+Revisão 20/01/2023.
 
 
 
