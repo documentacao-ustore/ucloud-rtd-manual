@@ -717,12 +717,12 @@ Introducción
 
 ----
 
-Tipo de cuenta (`Account`)
+Tipo de Cuenta (`Account`)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
-¿Cómo acceder?
+¿Cómo Acceder?
 ~~~~~~~~~~~~~~~
 
 ----
@@ -737,7 +737,7 @@ Cuentas
 
 ----
 
-Principal y subcuenta
+Principal y Subcuenta
 ~~~~~~~~~~~~~~~~~~~~~~
 
 ----
@@ -769,6 +769,8 @@ Creando la Subcuenta
 
 Usuarios
 ----------
+
+.. attention:: Este menú está siendo reelaborado para ser actualizado, tras las mejoras y nuevas implantaciones realizadas este trimestre.
 
 La plataforma uCloud tiene sus propias bases de datos que almacenan la información de los usuarios, como el inicio de sesión y la contraseña, de manera segura y encriptada. La pantalla de inicio del **Menú de Administración** muestra la lista de usuarios aprovisionados, la información de inicio de sesión de un usuario, el grupo al que está asociado el usuario y el tipo de perfil para este inicio de sesión.
 
@@ -841,6 +843,8 @@ Los otros cuatro perfiles (**Administrator, Service, VDI User, VDI Administrator
 
 Visualizando un usuario
 ---------------------------
+
+.. attention:: Este menú está siendo reelaborado para ser actualizado, tras las mejoras y nuevas implantaciones realizadas este trimestre.
 
 En la lista de usuarios es posible ver la información de un usuario, simplemente haga clic con el mouse sobre la línea en la que se presenta el usuario, la Plataforma de uCloud mostrará la pantalla con toda la información del usuario aprovisionado en la plataforma. En esta pantalla es posible añadir nuevas configuraciones al perfil de un usuario. 
 
@@ -1121,11 +1125,6 @@ Gobernanza Financiera vía Contrato
 
 Aislamiento Financiero de los Recursos Computacionales
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-----
-
-Aislamiento Lógico de Recursos Computacionales
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
@@ -1584,8 +1583,8 @@ Botón: Búsqueda
 
 ----
 
-Informe de llamadas 
-~~~~~~~~~~~~~~~~~~~~~
+Informe de llamadas
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
