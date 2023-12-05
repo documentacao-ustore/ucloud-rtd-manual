@@ -2546,6 +2546,7 @@ Gestionando la Orden de Servicio
 ----
 
 Menú Recomendaciones (nuevo)
+=============================
 
 ----
 
@@ -2704,7 +2705,7 @@ Creando un Par de Claves
 
 ----
 
-Importando um Par de Claves
+Importando un Par de Claves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
@@ -2766,6 +2767,8 @@ Crear Túnel VPN
 
 Menú Storage
 =============
+
+----
 
 Crear Storage
 ---------------
@@ -2977,7 +2980,7 @@ Temas registrados
 **Equipe Ustore**
 
 
-uCloud Manual de uso
+uCloud Manual de uso.
 Actualización 05/12/2023.
  
 
