@@ -717,12 +717,12 @@ Introducción
 
 ----
 
-Tipo de cuenta (`Account`)
+Tipo de Cuenta (`Account`)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
-¿Cómo acceder?
+¿Cómo Acceder?
 ~~~~~~~~~~~~~~~
 
 ----
@@ -737,7 +737,7 @@ Cuentas
 
 ----
 
-Principal y subcuenta
+Principal y Subcuenta
 ~~~~~~~~~~~~~~~~~~~~~~
 
 ----
@@ -769,6 +769,8 @@ Creando la Subcuenta
 
 Usuarios
 ----------
+
+.. attention:: Este menú está siendo reelaborado para ser actualizado, tras las mejoras y nuevas implantaciones realizadas este trimestre.
 
 La plataforma uCloud tiene sus propias bases de datos que almacenan la información de los usuarios, como el inicio de sesión y la contraseña, de manera segura y encriptada. La pantalla de inicio del **Menú de Administración** muestra la lista de usuarios aprovisionados, la información de inicio de sesión de un usuario, el grupo al que está asociado el usuario y el tipo de perfil para este inicio de sesión.
 
@@ -841,6 +843,8 @@ Los otros cuatro perfiles (**Administrator, Service, VDI User, VDI Administrator
 
 Visualizando un usuario
 ---------------------------
+
+.. attention:: Este menú está siendo reelaborado para ser actualizado, tras las mejoras y nuevas implantaciones realizadas este trimestre.
 
 En la lista de usuarios es posible ver la información de un usuario, simplemente haga clic con el mouse sobre la línea en la que se presenta el usuario, la Plataforma de uCloud mostrará la pantalla con toda la información del usuario aprovisionado en la plataforma. En esta pantalla es posible añadir nuevas configuraciones al perfil de un usuario. 
 
@@ -1121,11 +1125,6 @@ Gobernanza Financiera vía Contrato
 
 Aislamiento Financiero de los Recursos Computacionales
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-----
-
-Aislamiento Lógico de Recursos Computacionales
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
@@ -1584,8 +1583,8 @@ Botón: Búsqueda
 
 ----
 
- Informe de llamadas 
-~~~~~~~~~~~~~~~~~~~~~
+Informe de llamadas
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----
 
@@ -2154,8 +2153,616 @@ Menú Financiero
 
 ----
 
+Empresas Privadas
+-----------------
 
+----
 
+Empresas Públicas (USN)
+------------------------
+
+----
+
+Ambiente Corporativo
+-----------------------
+
+----
+
+**Informes**
+----------------
+
+----
+
+Paneles Basados en el Consumo
+-------------------------------
+
+----
+
+Informe de Historial de Servicio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Informe de Costos Cadenciados
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Informe de Costo Relacional de Producto
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Informe de Visualización de Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Informe de Costos de *Budgets*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Informe de Monitoreo de Consumo (IMC)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Accediendo al IMC.v1
+""""""""""""""""""
+
+----
+
+Creando el IMC.v1
+""""""""""""""""""
+
+----
+
+Siguiendo el *status* en el menú de Tareas
+"""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Habilitación del *download* del IMC.v1
+"""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Visualizando el IMC.v1
+"""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Informes Basados en Límites de Costos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Definiendo los Informes
+"""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+A. Informe de Límite de Costos
+"""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+**Nuevas características:**
+
+----
+
+**Paso a paso:**
+
+----
+
+**1. Ejecutando sin guardar**
+
+----
+
+**Etapas para la Configuración:**
+
+----
+
+**Detalles de los Intervalos:**
+
+----
+
+**Procedimientos posteriores a la configuración:**
+
+----
+
+**Casos en que los datos se presentan de formas diferentes:**
+
+----
+
+**2. Guardando una configuración de límite de costo (Creación)**
+
+----
+
+**3. Ejecutando partiendo de una configuración guardada**
+
+----
+
+**4. Editando un límite de costo**
+
+----
+
+**5. Eliminando un límite de costo**
+
+----
+
+**6. Filtrando por período**
+
+----
+
+**7. Generando proyecciones para los meses siguientes**
+
+----
+
+.. centered:: Possíveis mensagens de erro:
+
+----
+
+B. Análisis de Riesgos
+"""""""""""""""""""""""
+
+----
+
+**Paso a paso:**
+
+----
+
+**1. Ejecutando un análisis de riesgos**
+
+----
+
+**2. Generar informe de límite de costo partiendo del análisis de riesgos**
+
+----
+
+**3. Generar análisis de riesgos partiendo del informe de límites de costo**
+
+----
+
+Paneles Basados en Facturas
+-----------------------------
+
+----
+
+Mi Factura
+~~~~~~~~~~~~
+
+----
+
+Financiero
+~~~~~~~~~~~~
+
+----
+
+Informe Consolidado de Facturación (ICF)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Accediendo al ICF
+""""""""""""""""""
+
+----
+
+Seleccionando el ICF
+""""""""""""""""""""
+
+----
+
+Siguiendo la consulta del ICF
+""""""""""""""""""""""""""""""
+
+----
+
+Listado de contratos en el ICF
+""""""""""""""""""""""""""""""
+
+----
+
+Detallando las acciones del ICF
+""""""""""""""""""""""""""""""
+
+----
+
+Caso de uso:
+""""""""""""""
+
+----
+
+Informe Tendencia de Facturación (ITF)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Accediendo el ITF
+""""""""""""""""""
+
+----
+
+Creando un ITF
+""""""""""""""""""
+
+----
+
+Como descargar el archivo
+""""""""""""""""""""""""""
+
+----
+
+Siguiendo el *download* en el Menú Tareas
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Visualizando el ITF
+"""""""""""""""""""""
+
+----
+
+Agrupación por nombre del producto
+"""""""""""""""""""""""""""""""""""
+
+----
+
+Agrupación por *Tag*
+"""""""""""""""""""""""
+
+----
+
+Filtrado por anomalía
+"""""""""""""""""""""""
+
+----
+
+Linked Accounts
+"""""""""""""""""""""""
+
+----
+
+**Utilidades**
+---------------
+
+----
+
+**Dimensión**
+~~~~~~~~~~~~~~
+
+----
+
+Creando una Dimensión
+""""""""""""""""""""""""
+
+----
+
+Creando una Agrupación de *Tags*
+""""""""""""""""""""""""""""""""
+
+----
+
+Creando *Tag*
+""""""""""""""""
+
+----
+
+Utilizando el operador lógico
+""""""""""""""""""""""""""""""""
+
+----
+
+Listado de Dimensión
+""""""""""""""""""""""""
+
+----
+
+Editando una Dimensión
+""""""""""""""""""""""""
+
+----
+
+Donde se utiliza la “Dimensión”
+""""""""""""""""""""""""""""""""""
+
+----
+
+**Tags Virtuales**
+~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Tags* Virtuales de la plataforma uCloud
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Normalizando *Tags* Virtuales
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+¿Cuándo utilizar?
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Restricciones de los *Tags*
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+¿Cómo se utiliza?
+""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Menú Orden de Servicio
+=======================
+
+----
+
+Utilizando la Orden de Servicio
+---------------------------------
+
+----
+
+Creando la Orden de Servicio
+---------------------------------
+
+----
+
+Añadir Estimación de Costos en USN y UST
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Gestionando la Orden de Servicio
+----------------------------------
+
+----
+
+*Card* : General
+~~~~~~~~~~~~~~~~~~
+
+----
+
+*Card* : Estimación de Costos (USN)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Card* : Configuración de Estimación de Costos (UST)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+*Card* : De acuerdo
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Menú Recomendaciones (nuevo)
+
+----
+
+Menú Account Providers 
+=======================
+
+----
+
+Menú Containers
+===============
+
+----
+
+Gestionando un Container
+------------------------
+
+----
+
+Creando un Nuevo Container
+---------------------------
+
+----
+
+Menú Hosts
+==========
+
+----
+
+Crear Hosts
+--------------
+
+----
+
+Visualizando un Host
+-----------------------
+
+----
+
+Menú Redes
+============
+
+----
+
+Redes
+----------
+
+----
+
+Gestionar Red
+----------------
+
+----
+
+Añadir “Subred” al ambiente AWS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Añadir “Subred” al ambiente Azure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Añadir “Subred” al ambiente GCP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Añadir “Subred” en el ambiente Privado (VMware)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Nueva Red
+--------------------
+
+----
+
+Crear Red en los Proveedores de Servicios de Nube Pública
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Red en Ambiente Privado (On-Premises)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Red en Proveedores de Servicios de Nube Pública (AWS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Red en Proveedores de Servicios de Nube Pública (Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Red en Proveedores de Servicios de Nube Pública (GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Red en Ambiente Privado (VMware)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+IPs públicas
+----------------
+
+----
+
+Solicitando una IP Pública (**AWS y GCP**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Solicitando una IP Pública (**Azure**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Solicitando una IP Pública (ambiente privado: **VMware vCenter**)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Grupos de Seguridad y ACLs
+--------------------------
+
+----
+
+Gestionar Grupo de Seguridad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Grupo de Seguridad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Par de Claves
+-----------------
+
+----
+
+Gestionar un Par de Claves
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando un Par de Claves
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Importando um Par de Claves
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Balanceadores
+---------------------
+
+----
+
+Gestionando Balanceador
+~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando Balanceador (Ambientes AWS y GCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Creando Balanceador (Ambiente Azure)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Grupos de Recursos vCloud
+-----------------------------
+
+----
+
+Crear Grupo de Recursos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+VPN
+------------------------
+
+----
+
+Crear VPN en 3 pasos
+~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Customer Gateway
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Private Gateway
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Crear Túnel VPN
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 
 
@@ -2356,201 +2963,200 @@ Menú Financiero
 .. Sección Metrics (exclusivo AWS)
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Interfaces de Red
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Interfaces de Red
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Disco
-~~~~~~~~~~~~~
+.. Sección Disco
+.. ~~~~~~~~~~~~~
 
-Sección Snapshots
-~~~~~~~~~~~~~~~~~
+.. Sección Snapshots
+.. ~~~~~~~~~~~~~~~~~
 
-Sección Signatures *(Exclusivo Azure y Google Cloud Platform)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Signatures *(Exclusivo Azure y Google Cloud Platform)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Historial de Rendimiento *(Azure y GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Historial de Rendimiento *(Azure y GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Creando una Máquina Virtual
----------------------------
+.. Creando una Máquina Virtual
+.. ---------------------------
 
-Wizard Paso 1: *Selección de la Nube*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 1: *Selección de la Nube*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 2: *Información básica de la máquina virtual - parte 1*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 2: *Información básica de la máquina virtual - parte 1*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 3: *Información básica de la máquina virtual - parte 2*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 3: *Información básica de la máquina virtual - parte 2*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 4a: *Informaciones de seguridad de la máquina virtual*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 4a: *Informaciones de seguridad de la máquina virtual*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 4b: *Información de seguridad -Exclusivo Azure*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 4b: *Información de seguridad -Exclusivo Azure*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 5a: *User data*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 5a: *User data*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 5b: *User data VMware*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 5b: *User data VMware*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wizard Paso 6: *Ver la configuración de la máquina virtual*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Wizard Paso 6: *Ver la configuración de la máquina virtual*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Monitoreo de Máquina Virtual
-----------------------------
+.. Monitoreo de Máquina Virtual
+.. ----------------------------
 
-Performance
-~~~~~~~~~~~
+.. Performance
+.. ~~~~~~~~~~~
 
+.. Menú Scaling Groups
+.. ===================
 
-Menú Scaling Groups
-===================
+.. Creando un Scaling Group AWS
+.. ----------------------------
 
-Creando un Scaling Group AWS
-----------------------------
+.. Problemas Conocidos con el Grupo de Escalabilidad AWS
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Problemas Conocidos con el Grupo de Escalabilidad AWS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Creando un Scaling Group Azure
+.. ------------------------------
 
-Creando un Scaling Group Azure
-------------------------------
+.. Menú Base de Datos
+.. ==================
 
-Menú Base de Datos
-==================
+.. Administración de una Base de Datos
+.. -----------------------------------
 
-Administración de una Base de Datos
------------------------------------
+.. Sección General / Grupo de Seguridad
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección General / Grupo de Seguridad
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Grupos de Seguridad
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Grupos de Seguridad
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Aprovisionamiento de una Base de Datos
+.. --------------------------------------
 
-Aprovisionamiento de una Base de Datos
---------------------------------------
+.. Creación de Bases de Datos *(MySQL & AWS)*
+.. ------------------------------------------
 
-Creación de Bases de Datos *(MySQL & AWS)*
-------------------------------------------
+.. Paso 1: Selección del Proveedor de Servicios en la Nube *(AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 1: Selección del Proveedor de Servicios en la Nube *(AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 2: Selección de la Base de Datos *(MySQL & AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 2: Selección de la Base de Datos *(MySQL & AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 3: Especificaciones de la Base de Datos *(MySQL & AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 3: Especificaciones de la Base de Datos *(MySQL & AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 5: Especificaciones de Red y Seguridad *(MySQL & AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & AWS)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 6: Parámetro de Copia de Seguridad *(MySQL & AWS)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Creación de Bases de Datos *(MySQL & Azure)*
+.. --------------------------------------------
 
-Creación de Bases de Datos *(MySQL & Azure)*
---------------------------------------------
+.. Paso 1: Selección del Proveedor de Servicios en la Nube *(Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 1: Selección del Proveedor de Servicios en la Nube *(Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 2: Selección de la Base de Datos *(MySQL & Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 2: Selección de la Base de Datos *(MySQL & Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 3: Especificaciones de la Base de Datos *(MySQL & Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 3: Especificaciones de la Base de Datos *(MySQL & Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 5: Especificaciones de Red y Seguridad *(MySQL & Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & Azure)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 6: Parámetro de Copia de Seguridad *(MySQL & Azure)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Creación de Bases de Datos *(MySQL & GCP)*
+.. ------------------------------------------
 
-Creación de Bases de Datos *(MySQL & GCP)*
-------------------------------------------
+.. Paso 1: Selección del Proveedor de Servicios en la Nube *(GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 1: Selección del Proveedor de Servicios en la Nube *(GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 2: Selección de la Base de Datos *(MySQL & GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 2: Selección de la Base de Datos *(MySQL & GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 3: Especificaciones de la Base de Datos *(MySQL & GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 3: Especificaciones de la Base de Datos *(MySQL & GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 5: Especificaciones de Red y Seguridad *(MySQL & GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & GCP)*
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Paso 6: Parámetro de Copia de Seguridad *(MySQL & GCP)*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Menú Virtual Datacenters
+.. ========================
 
-Menú Virtual Datacenters
-========================
+.. Gestionando Virtual Datacenters
+.. -------------------------------
 
-Gestionando Virtual Datacenters
--------------------------------
+.. Editando un Virtual Datacenter
+.. ------------------------------
 
-Editando un Virtual Datacenter
-------------------------------
+.. Creando un Virtual Datacenter
+.. -----------------------------
 
-Creando un Virtual Datacenter
------------------------------
+.. Menú Financiero
+.. ===============
 
-Menú Financiero
-===============
-
-Entorno Corporativo
--------------------
+.. Entorno Corporativo
+.. -------------------
 
 .. Entorno Gobierno Brasileño
 .. --------------------------
 
-Menú Financiero (Entorno Corporativo)
-=====================================
+.. Menú Financiero (Entorno Corporativo)
+.. =====================================
 
-Sección Mi Factura
-------------------
+.. Sección Mi Factura
+.. ------------------
 
-Sección Factura Actual
-~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Factura Actual
+.. ~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Máquinas Virtuales
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Máquinas Virtuales
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección IP Pública
-~~~~~~~~~~~~~~~~~~
+.. Sección IP Pública
+.. ~~~~~~~~~~~~~~~~~~
 
-Sección Equilibradores
-~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Equilibradores
+.. ~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Elementos No Administrados
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección Elementos No Administrados
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección ‘X’ Contratos
----------------------
+.. Sección ‘X’ Contratos
+.. ---------------------
 
-Sección de Factura del Contrato ‘xyz’
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Sección de Factura del Contrato ‘xyz’
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sección Grupos
-~~~~~~~~~~~~~~
+.. Sección Grupos
+.. ~~~~~~~~~~~~~~
 
-Factura de Grupo en el Contrato
--------------------------------
+.. Factura de Grupo en el Contrato
+.. -------------------------------
 
-Facturación del Usuario
------------------------
+.. Facturación del Usuario
+.. -----------------------
 
 .. Menú Financiero (USN)
 .. =====================
@@ -2582,56 +3188,56 @@ Facturación del Usuario
 .. De Acuerdo
 .. ~~~~~~~~~~
 
-Menú Contenedores
-=================
+.. Menú Contenedores
+.. =================
 
-Gestión de un Contenedor
-------------------------
+.. Gestión de un Contenedor
+.. ------------------------
 
-Creando un Nuevo Contenedor
----------------------------
+.. Creando un Nuevo Contenedor
+.. ---------------------------
 
-Menú Hosts
-==========
+.. Menú Hosts
+.. ==========
 
-Menú Red
-========
+.. Menú Red
+.. ========
 
-Redes
------
+.. Redes
+.. -----
 
-Agregar *Subred* en el entorno AWS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Agregar *Subred* en el entorno AWS
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Agregar *Subred* al entorno de Azure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Agregar *Subred* al entorno de Azure
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Agregar *Subred* al entorno GCP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Agregar *Subred* al entorno GCP
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Agregar *Subred* al entorno Privado (ejemplo: VMware)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Agregar *Subred* al entorno Privado (ejemplo: VMware)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Proveedores de Servicios de Nube Pública
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Crear Red en Proveedores de Servicios de Nube Pública
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Entorno Privado (On-Premises)
+.. Crear Red en Entorno Privado (On-Premises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Proveedores de Servicios de Nube Pública (AWS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Crear Red en Proveedores de Servicios de Nube Pública (AWS)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Proveedores de Servicios de Nube Pública (Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Crear Red en Proveedores de Servicios de Nube Pública (Azure)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Proveedores de Servicios de Nube Pública (GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Crear Red en Proveedores de Servicios de Nube Pública (GCP)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Crear Red en Entorno Privado (ejemplo: VMware)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Crear Red en Entorno Privado (ejemplo: VMware)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Menú IPs Públicos
-=================
+.. Menú IPs Públicos
+.. =================
 
 Solicitar una IP Pública (AWS y GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
