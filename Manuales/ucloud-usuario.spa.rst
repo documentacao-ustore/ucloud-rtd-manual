@@ -1603,12 +1603,12 @@ Botón: Búsqueda
 
 ----
 
-Evaluación (nuevo)
+Assessments (nuevo)
 ----------------------
 
 ----
 
-Autoevaluación
+Auto assessment
 ~~~~~~~~~~~~~~~
 
 ----
@@ -1618,7 +1618,7 @@ Autoevaluación
 
 ----
 
-Modelos de Autoevaluación
+Modelos de Auto assessment
 """""""""""""""""
 
 ----
@@ -1648,7 +1648,7 @@ Asociando modelo al Cliente
 
 ----
 
-Status de los formularios de Autoevaluación
+Status de los formularios de Auto assessment
 """"""""""""""""""""""""""""""""""""""""""""
 
 ----
@@ -1663,12 +1663,12 @@ CIS Control (nuevo)
 
 ----
 
-*Card*: Evaluación
+*Card*: Assessment
 """""""""""""""""""
 
 ----
 
-Nueva Evaluación
+Nuevo Assessment
 """""""""""""""""""
 
 ----
@@ -2764,638 +2764,223 @@ Crear Túnel VPN
 
 ----
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.. Viendo Grupo
-.. ------------
-
-.. Creando Grupo
-.. -------------
-
-.. Administración / Contrato
-.. -------------------------
-
-.. Gobernanza Financiera a través del Contrato
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Aislamiento Financiero de Recursos Informáticos
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Aislamiento Lógico de Recursos Computacionales
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Viendo Contrato
-.. ---------------
-
-.. Sección General
-.. ---------------
-
-.. Sección Reglas de Facturación
-.. -----------------------------
-
-.. Sección Categorías de Precio
-.. ----------------------------
-
-.. Sección Políticas de Alertas
-.. ----------------------------
-
-.. Sección Precio de los Recursos - Contrato
-.. -----------------------------------------
-
-.. Sección Cuota del Contrato
-.. --------------------------
-
-.. Sección Contacto Principal
-.. --------------------------
-
-.. Sección Administradores
-.. -----------------------
-
-.. Sección Datos de la Empresa
-.. ---------------------------
-
-.. Sección Virtual Datacenters Otorgados
-.. -------------------------------------
-
-.. Sección Usuarios
-.. ----------------
-
-.. Sección Grupos
-.. --------------
-
-.. Sección Datos de Facturación
-.. ----------------------------
-
-.. Sección Perfiles de Permisos
-.. ----------------------------
-
-.. Sección Productos
-.. -----------------
-
-.. Sección Permisos Concedidos
-.. ---------------------------
-
-.. Sección Perfil de Facturación de Contenedores
-.. ---------------------------------------------
-
-.. Aprovisionamiento de Contrato
-.. -----------------------------
-
-
-.. Menú Configuración / General
-.. ============================
-
-.. Sección General
-.. ---------------
-
-.. Sección Precio de los Recursos
-.. ------------------------------
-
-.. Sección de Configuraciones de Usuarios del LDAP Server
-.. ------------------------------------------------------
-
-.. Menú Configuración / Red
-.. ========================
-
-.. Sección Configuración de Red
-.. ----------------------------
-
-.. Sección Controlador SDN
-.. -----------------------
-
-.. Menú Configuración / Sub-redes Públicas
-.. =======================================
-
-.. Menú Configuración / Firmas
-.. ===========================
-
-.. Creando Firma
-.. -------------
-
-.. Menú Configuración / Flavor Billing Profile
-.. ===========================================
-
-.. Creando un Flavor Billing Profile
-.. ---------------------------------
-
-.. Menú Configuración / Perfiles de Permisos
-.. =========================================
-
-.. Ver y Editar un Perfil de Permisos
-.. ----------------------------------
-
-.. Creando un Perfil de Permisos
-.. -----------------------------
-
-.. Menú Configuración / Perfiles de Visualización
-.. ==============================================
-
-.. Botón Crear Perfil de Vista
-.. ---------------------------
-
-.. Editar Perfil de Vista
-.. ----------------------
-
-.. Menú Configuración / Billing Admin
-.. ==================================
-
-.. Información de Registro *(LOG)* de Billing Admin
-.. ------------------------------------------------
-
-.. Etiqueta de Recursos USN
-.. ------------------------
-
-.. Creación de una Etiqueta de Recursos USN
-.. ----------------------------------------
-
-.. Una vez creado el perfil es posible editar
-.. ------------------------------------------
-
-
-
-.. Menú Máquinas Virtuales
-.. =======================
-
- .. *1. **Gobernanza Financiera**
-
- .. *2. **Billing (Facturación de los Servicios)**
-
- .. *3. **Supervisión de la Infraestructura**
-
- .. *4. **Inventario (*Assessment*)**
-
-.. La plataforma de uCloud se conecta ...
-
-..  *5. **Operación de la Infraestructura**
-
-.. Con el inventario disponible ...
-
-.. Submenú Máquinas Virtuales
-.. --------------------------
-
-.. Administración de una Máquina Virtual
-.. -------------------------------------
-
-.. Sección General / Máquinas Virtuales
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección de Rendimiento Instantáneo
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Metrics (exclusivo AWS)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Interfaces de Red
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Disco
-.. ~~~~~~~~~~~~~
-
-.. Sección Snapshots
-.. ~~~~~~~~~~~~~~~~~
-
-.. Sección Signatures *(Exclusivo Azure y Google Cloud Platform)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Historial de Rendimiento *(Azure y GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Creando una Máquina Virtual
-.. ---------------------------
-
-.. Wizard Paso 1: *Selección de la Nube*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 2: *Información básica de la máquina virtual - parte 1*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 3: *Información básica de la máquina virtual - parte 2*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 4a: *Informaciones de seguridad de la máquina virtual*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 4b: *Información de seguridad -Exclusivo Azure*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 5a: *User data*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 5b: *User data VMware*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Wizard Paso 6: *Ver la configuración de la máquina virtual*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Monitoreo de Máquina Virtual
-.. ----------------------------
-
-.. Performance
-.. ~~~~~~~~~~~
-
-.. Menú Scaling Groups
-.. ===================
-
-.. Creando un Scaling Group AWS
-.. ----------------------------
-
-.. Problemas Conocidos con el Grupo de Escalabilidad AWS
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Creando un Scaling Group Azure
-.. ------------------------------
-
-.. Menú Base de Datos
-.. ==================
-
-.. Administración de una Base de Datos
-.. -----------------------------------
-
-.. Sección General / Grupo de Seguridad
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Grupos de Seguridad
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Aprovisionamiento de una Base de Datos
-.. --------------------------------------
-
-.. Creación de Bases de Datos *(MySQL & AWS)*
-.. ------------------------------------------
-
-.. Paso 1: Selección del Proveedor de Servicios en la Nube *(AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 2: Selección de la Base de Datos *(MySQL & AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 3: Especificaciones de la Base de Datos *(MySQL & AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & AWS)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Creación de Bases de Datos *(MySQL & Azure)*
-.. --------------------------------------------
-
-.. Paso 1: Selección del Proveedor de Servicios en la Nube *(Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 2: Selección de la Base de Datos *(MySQL & Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 3: Especificaciones de la Base de Datos *(MySQL & Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & Azure)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Creación de Bases de Datos *(MySQL & GCP)*
-.. ------------------------------------------
-
-.. Paso 1: Selección del Proveedor de Servicios en la Nube *(GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 2: Selección de la Base de Datos *(MySQL & GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 3: Especificaciones de la Base de Datos *(MySQL & GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 4: Configuraciones de acceso a la Base de Datos *(MySQL & GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 5: Especificaciones de Red y Seguridad *(MySQL & GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Paso 6: Parámetro de Copia de Seguridad *(MySQL & GCP)*
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Menú Virtual Datacenters
-.. ========================
-
-.. Gestionando Virtual Datacenters
-.. -------------------------------
-
-.. Editando un Virtual Datacenter
-.. ------------------------------
-
-.. Creando un Virtual Datacenter
-.. -----------------------------
-
-.. Menú Financiero
-.. ===============
-
-.. Entorno Corporativo
-.. -------------------
-
-.. Entorno Gobierno Brasileño
-.. --------------------------
-
-.. Menú Financiero (Entorno Corporativo)
-.. =====================================
-
-.. Sección Mi Factura
-.. ------------------
-
-.. Sección Factura Actual
-.. ~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Máquinas Virtuales
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección IP Pública
-.. ~~~~~~~~~~~~~~~~~~
-
-.. Sección Equilibradores
-.. ~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Elementos No Administrados
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección ‘X’ Contratos
-.. ---------------------
-
-.. Sección de Factura del Contrato ‘xyz’
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Sección Grupos
-.. ~~~~~~~~~~~~~~
-
-.. Factura de Grupo en el Contrato
-.. -------------------------------
-
-.. Facturación del Usuario
-.. -----------------------
-
-.. Menú Financiero (USN)
-.. =====================
-
-.. Entorno Gobierno Brasileño
-.. --------------------------
-
-.. Menú Financiero / USN Billing
-.. -----------------------------
-
-.. Menú Financiero / Informe Consolidado de Facturación
-.. ----------------------------------------------------
-
-.. Orden de Trabajo
-.. ================
-
-.. Administrar la Orden de Trabajo
-.. -------------------------------
-
-.. Sección General
-.. ~~~~~~~~~~~~~~~
-
-.. Sección Estimación de Costos (USN)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Configuración de Estimación de Costos (UST)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. De Acuerdo
-.. ~~~~~~~~~~
-
-.. Menú Contenedores
-.. =================
-
-.. Gestión de un Contenedor
-.. ------------------------
-
-.. Creando un Nuevo Contenedor
-.. ---------------------------
-
-.. Menú Hosts
-.. ==========
-
-.. Menú Red
-.. ========
-
-.. Redes
-.. -----
-
-.. Agregar *Subred* en el entorno AWS
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Agregar *Subred* al entorno de Azure
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Agregar *Subred* al entorno GCP
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Agregar *Subred* al entorno Privado (ejemplo: VMware)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Proveedores de Servicios de Nube Pública
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Entorno Privado (On-Premises)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Proveedores de Servicios de Nube Pública (AWS)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Proveedores de Servicios de Nube Pública (Azure)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Proveedores de Servicios de Nube Pública (GCP)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Crear Red en Entorno Privado (ejemplo: VMware)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Menú IPs Públicos
-.. =================
-
-Solicitar una IP Pública (AWS y GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Solicitar una IP Pública (Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Solicitar una IP Pública (entorno privado VMware vCenter)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Menú Grupos de Seguridad y ACLs
-===============================
-
-Administrar Grupo de Seguridad
-------------------------------
-
-Crear Grupo de Seguridad
-------------------------
-
-Menú Par de Claves
-==================
-
-Administrar un Par de Claves
-----------------------------
-
-Crear un Par de Claves
-----------------------
-
-Importando un Par de Claves
----------------------------
-
-Menú Equilibradores
-===================
-
-Administrando Equilibrador
---------------------------
-
-Creando Equilibrador (entornos AWS y GCP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Creando Equilibrador (entorno Azure)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Menú Zona DNS
+Menú Storage
 =============
 
-Administrar Zona DNS Pública (AWS y GCP)
-----------------------------------------
-
-Crear Zona DNS Pública (Azure)
-------------------------------
-
-Crear Zona DNS Privada (observación)
-------------------------------------
-
-Menú VPN
-========
-
-Crear la VPN en 3 pasos
------------------------
-
-Crear Customer Gateway
-----------------------
-
-Crear Private Gateway
----------------------
-
-Crear Túnel VPN
+Crear Storage
 ---------------
 
-Menú Storage
-============
+----
 
-Visualización de un Storage
----------------------------
+Visualizando un Storage
+--------------------------
 
-Menú Templates
+----
+
+Menú Modelos
 ==============
+
+----
 
 Menú Flavors
 ============
 
-Visualización de un Flavor
---------------------------
+----
+
+Crear Flavor
+------------
+
+----
+
+Visualizando un Flavor
+-------------------------
+
+----
 
 Menú Workflows
 ==============
 
-Workflows / Direct Execution
-============================
+----
 
-Editando Workflows xxxx
-------------------
+Direct Execution
+----------------
+
+----
+
+Editando Workflow
+----------------
+
+----
 
 Creando Workflow
 ----------------
 
+----
+
+Definición del Flujo de Trabajo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Inclusión de Tareas Asociadas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
 Creando Tareas Asociadas
-------------------------
-
-Tarea de iniciar y detener máquinas virtuales
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Tarea de crear imagen de disco (instantánea)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Tarea de Script
-~~~~~~~~~~~~~~~
-
-Workflows / Cliente Server (Puppet*)
-====================================
-
-Workflows / Catálogo de Servicios
-=================================
-
-Comprando Oferta - Catálogo de Servicio
-=======================================
-
-Creando Oferta / Catálogo de Servicio
-=====================================
-
-Creación de oferta a través de Menús de la Plataforma uCloud
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Creación de oferta a través de la carga de Archivo JSON
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Menú Workflows / Catálogo de Servicios
-.. ======================================
-
-Menú Tareas
-===========
-
-Pestana Tareas
---------------
-
-Pestana Aprobaciones Pendientes
--------------------------------
-
-Pestana Tareas Programados
 --------------------------
 
-Menú Inventário de Recursos
-===========================
+----
 
-Editor de Etiquetas *(tags)* Nativo
------------------------------------
+Tarea de Cierre/Activación Programada de la Máquina Virtual
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Conclusión
-----------
+----
+
+Tarea de Crear Imagen de Disco (Snapshot)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+----
+
+Tarea de Script
+~~~~~~~~~~~~~~~~~~~~
+
+
+----
+
+Client Server (Puppet)
+----------------------
+
+----
+
+Aprovisionar un Puppet Server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Catálogo de Servicios
+--------------------
+
+----
+
+Recursos: Nuevo Servicio
+~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Recursos: Enviar
+~~~~~~~~~~~~~~~~
+
+----
+
+Mis servicios anteriores
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Marketplace: Historial de servicios contratados
+""""""""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Mis ofertas contratadas
+""""""""""""""""""""""""""
+
+----
+
+Mis ofertas registradas
+""""""""""""""""""""""""""
+
+----
+
+Menú Tareas
+============
+
+----
+
+Pestaña de Tareas
+---------------------
+
+----
+
+Pestaña de Aprobaciones Pendientes
+-------------------------------------
+
+----
+
+Pestaña de Tareas Programadas
+---------------------------------
+
+----
+
+Menú Inventario de Recursos
+=============================
+
+----
+
+Crear grupo de recursos dinámicos
+------------------------------------
+
+----
+
+Editor de Etiquetados (tags) Nativo
+-------------------------------------
+
+----
+
+Tag
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Sin Tag
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Menú Colores y Personalización
+===============================
+
+----
+
+Personalización de la Interfaz Gráfica
+-----------------------------------------
+
+----
+
+Informaciones del tema
+~~~~~~~~~~~~~~~~~~~
+
+----
+
+Identidad
+~~~~~~~~~~
+
+----
+
+Colores: Modo claro
+~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Colores: Modo oscuro
+~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Temas registrados
+~~~~~~~~~~~~~~~~~~
 
 ====
 
-**Equipo Ustore**
+**Equipe Ustore**
 
 
 uCloud Manual de uso
-Revisión 22/11/2022
+Actualización 05/12/2023.
+ 
+
 
 
 .. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
@@ -3558,41 +3143,4 @@ Revisión 22/11/2022
 
 .. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
