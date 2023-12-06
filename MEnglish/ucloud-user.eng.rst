@@ -1368,6 +1368,9 @@ Creating New Container
 Hosts Menu 
 ==========
 
+Create Hosts
+-------------
+
 Viewing a Host
 ----------------
 
@@ -1460,6 +1463,12 @@ Creating Load Balancer (Environments: AWS and GCP)
 Creating Load Balancer (Environment: Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+vCloud Resources Group
+----------------------
+
+Create Resources Group
+~~~~~~~~~~~~~~~~~~~~~~
+
 .. DNS Zones
 .. ---------
 
@@ -1495,6 +1504,9 @@ Create VPN Tunnel
 Storages Menu
 =============
 
+Create Storage
+---------------
+
 Viewing a Storage
 -----------------------
 
@@ -1507,7 +1519,10 @@ Templates Menu
 
 Flavors Menu 
 ============
-  
+
+Create Flavor
+--------------
+
 Viewing a Flavor
 ------------------
 
@@ -1549,6 +1564,27 @@ Client Server (Puppet)
 Provision a Puppet Server
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+Services Catalog
+----------------
+
+Resources: New Service
+~~~~~~~~~~~~~~~~~~~~~~
+
+Resources: Sending
+~~~~~~~~~~~~~~~~~~
+
+My previous services
+~~~~~~~~~~~~~~~~~~~~
+
+Marketplace: History of contracted services
+"""""""""""""""""""""""""""""""""""""""
+
+My contracted offers
+""""""""""""""""
+
+My registered offers
+"""""""""""""""""""""
+
 ----
 
 Tasks Menu
@@ -1568,10 +1604,36 @@ Scheduled Tasks Tab
 Resources Inventory Menu
 =======================
 
+Create dynamic resources group
+------------------------------
+
 Native Tags Editor
 --------------------
 
+Tag
+~~~~
+
+Without Tag
+~~~~~~~~~~
 ----
 
 Colors and Custom Menu (new)
 ============================
+
+Graphic interface Customization
+-------------------------------
+
+Theme info
+~~~~~~~~~~
+
+Identity
+~~~~~~~~
+
+Colors: Light mode
+~~~~~~~~~~~~~~~~~~
+
+Colors: Dark mode
+~~~~~~~~~~~~~~~~~~
+
+Registered themes
+~~~~~~~~~~~~~~~~
