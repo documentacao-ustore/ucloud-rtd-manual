@@ -492,7 +492,7 @@ This document presented a brief description of the functionalities contained on 
 
 ====
 
-DCI Functionalities manual - v.5 - Update 09/28/2023 - Review 08/02/2023. Created on 08/02/2023.
+DCI Functionalities manual - v.5 - Updated 09/28/2023 - Reviewed 08/03/2023 - Created on 08/02/2023.
 
 
 
