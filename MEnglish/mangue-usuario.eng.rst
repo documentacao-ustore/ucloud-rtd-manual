@@ -4208,9 +4208,7 @@ Ustore Team.
 
 **Ustore Team**
 
-Mangue.io User Manual - 4th Edition - 2nd Version 
-
-Reviewed - 27/06/2023
+Mangue.io User Manual - 4th Edition v.2 - Reviewed 27/06/2023
 
 
 
