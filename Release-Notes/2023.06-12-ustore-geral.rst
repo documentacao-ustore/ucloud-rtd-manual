@@ -58,8 +58,9 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 |Novo comportamento do portal|Realiza uma varredura no cluster kubernetes em busca de configurações incorretas ou     |
 |                            |situações específicas que podem prejudicar o funcionamento do cluster.                  |
 |                            |Atualmente são realizadas as seguintes verificações:                                    |
-|                            |                                                                                        |                            |* Services redirecionando para pods que não existem;                                    |
-|                            |  * Ingresses redirecionando para services que não existem;                             | 
+|                            |                                                                                        |
+|                            |  * Services redirecionando para pods que não existem;                                  | 
+|                            |  * Ingresses redirecionando para services que não existem;                             |
 |                            |  * Namespaces não utilizados, sem qualquer pod;                                        |
 |                            |  * Namespaces inativos, com erro no momento de deletar;                                |
 |                            |  * Deployment/Statefulset/Daemonset sem resources definido;                            |
@@ -70,7 +71,8 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 |Localização no portal       |Cluster > Health                                                                        |
 +----------------------------+----------------------------------------------------------------------------------------+
 
-.. figure:: /figuras/fig_mangue/notas/001_cluster health.png
+
+.. figure:: /figuras/fig_mangue/notas/001_cluster_health.png
    :alt:  Cluster Health
    :scale: 100 %
    :align: center
@@ -99,7 +101,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
-.. figure:: /figuras/fig_mangue/notas/002_cluster score.png
+.. figure:: /figuras/fig_mangue/notas/002_cluster_score.png
    :alt: Cluster Score  
    :scale: 100 %
    :align: center
@@ -163,7 +165,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
-.. figure:: /figuras/fig_mangue/notas/003_coleta logs distribuídos.png
+.. figure:: /figuras/fig_mangue/notas/003_coleta_logs_distribuídos.png
    :alt: Coleta logs distribuídos 
    :scale: 100 %
    :align: center
@@ -190,7 +192,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 
 
 
-.. figure:: /figuras/fig_mangue/notas/004_recomendação de nodes.png
+.. figure:: /figuras/fig_mangue/notas/004_recomendação_de_nodes.png
    :alt: Recomendação de nodes 
    :scale: 100 %
    :align: center
@@ -223,7 +225,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 
 
 
-.. figure:: /figuras/fig_mangue/notas/005_recursos alocados.png
+.. figure:: /figuras/fig_mangue/notas/005_recursos_alocados.png
    :alt: Recursos alocados  
    :scale: 100 %
    :align: center
@@ -248,7 +250,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
-.. figure:: /figuras/fig_mangue/notas/006_workloads yaml.png
+.. figure:: /figuras/fig_mangue/notas/006_workloads_yaml.png
    :alt: Workloads yaml  
    :scale: 100 %
    :align: center
@@ -275,7 +277,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
-.. figure:: /figuras/fig_mangue/notas/007_recomendações sem outliers.png
+.. figure:: /figuras/fig_mangue/notas/007_recomendações_sem_outliers.png
    :alt: Recomendações sem outliers  
    :scale: 100 %
    :align: center
