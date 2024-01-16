@@ -1,0 +1,675 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+   
+----
+
+.. .. centered:: Português      -     Español_    -     English_    
+
+
+.. .. _Español: 
+
+.. .. _English: 
+
+====
+
+2023.06-12
+==========
+
+Release Consolidado
+-------------------
+
+Ano 2023 - Período: Junho a Dezembro
+
+----
+
+Apresentação
+
+Este release da  é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
+
+Este release consolidado é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos fornecer o resultado registrado sobre o aprimoramento, melhorias e/ou correções. Noticiando assim, a visibilidade adequada ao processo de desenvolvimento deste produto.
+
+----
+
+Plataforma Mangue.io
+
+----
+
+O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a Dezembro do ano 2023, desenvolveu  o total de 08 (oito) novas implementações descritas na sequência.
+
+----
+
+----
+
+.. centered:: Cluster Health
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Cluster Health                                                                          |
++============================+========================================================================================+
+|Objetivo                    |Monitorar, avaliar e sugerir a segurança e a conformidade dos ambientes Kubernetes      |
++----------------------------+----------------------------------------------------------------------------------------+
+|Descrição                   |A análise de saúde de um cluster kubernetes consiste em práticas que a comunidade vem   |
+|                            |chamando de KSPM (Kubernetes Security Posture Management), que tem a finalidade de      |
+|                            |automatizar a segurança e a conformidade em clusters kubernetes.                        |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Realiza uma varredura no cluster kubernetes em busca de configurações incorretas ou     |
+|                            |situações específicas que podem prejudicar o funcionamento do cluster.                  |
+|                            |Atualmente são realizadas as seguintes verificações:                                    |
+|                            |* Ingresses redirecionando para services que não existem;                               | 
+|                            |* Services redirecionando para pods que não existem;                                    |
+|                            |* Namespaces não utilizados, sem qualquer pod;                                          |
+|                            |* Namespaces inativos, com erro no momento de deletar;                                  |
+|                            |* Deployment/Statefulset/Daemonset sem resources definido;                              |
+|                            |* Deployment/Statefulset/Daemonset sem resources limits definido;                       |
+|                            |* Pod sem probes/readiness/liveness definido;                                           |
+|                            |* Pod potencialmente com erros, devido a muitos restarts.                               |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Cluster > Health                                                                        |
++----------------------------+----------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_mangue/notas/001_cluster health.png
+   :alt:  Cluster Health
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Cluster Score
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Cluster Score                                                                           |
++============================+========================================================================================+
+|Objetivo                    |Informar ao usuário como o cluster Kubernetes se encontra configurado                   |
++----------------------------+----------------------------------------------------------------------------------------+
+|Descrição                   |Alinhada a feature de cluster health, cada sugestão é classificada de acordo com o grau |
+|                            |de criticidade, sendo eles: health, information, warning e critical. Cada um destes     |
+|                            |influencia no score gerado para o recurso analisado, por consequência, no score total.  |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Permite visualizar de forma simples, direta e interativa como se encontra configurado   |
+|                            |o cluster kubernetes.                                                                   |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Cluster > Health                                                                        |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_mangue/notas/002_cluster score.png
+   :alt: Cluster Score  
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Integração de cluster RKE
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Integração de cluster RKE (Rancher Kubernetes Engine)                                   |
++============================+========================================================================================+
+|Objetivo                    |Garantir a perfeita integração e comunicação entre o mangue e um cluster RKE            |
++----------------------------+----------------------------------------------------------------------------------------+
+|Descrição                   |Este processo engloba uma modificação abrangente em todo o portal existente.            |
+|                            |Busca otimizar a sua estrutura e lógica para harmonizar-se de maneira eficiente com as  |
+|                            |especificidades do cluster RKE.                                                         |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Visualizar e gerenciar todos os recursos do cluster RKE através do Mangue.io.           |
+|                            |Proporcionando uma abordagem mais integrada e simplificada para a administração         |
+|                            |do ambiente Kubernetes criado pelo Rancher.                                             |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+----
+
+.. centered:: Coleta de logs distribuídos
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Coleta de logs distribuídos                                                             |
++============================+========================================================================================+
+|Objetivo                    |Dar visibilidade de forma centralizada aos logs distribuídos de uma aplicação.          |
++----------------------------+----------------------------------------------------------------------------------------+
+|Descrição                   |Em um ambiente Kubernetes é comum encontrar várias instâncias de uma mesma aplicação,   |
+|                            |com intuito de garantir disponibilidade. Entretanto, são necessárias abordagens         |
+|                            |específicas para a coleta de logs distribuídos entre os containers/instâncias de uma    |
+|                            |aplicação, garantindo a visualização dos logs correspondentes a esta.                   |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Visualizar os logs de um deployment, statefulset, daemonset ou pod. A visualização do   |
+|                            |log não se limita a tela, logo o usuário consegue navegar na plataforma e utilizar suas |
+|                            |funcionalidades. Ao mesmo tempo em que consegue acompanhar os logs das aplicações       |
+|                            |selecionadas. Assim como existem ações que permitem modificar os parâmetros sobre a     | 
+|                            |visualização dos logs, são elas:                                                        |
+|                            |* Full screen: Exibir os logs em tela cheia;                                            |
+|                            |* Auto-refresh: Buscar novos logs a cada intervalo de tempo definido pelo usuário;      |
+|                            |* Auto-scroll: Acompanhar os logs mais recentes em tela;                                |
+|                            |* Limite de linhas: Limitar total de linhas de logs exibidas em tela.                   |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Em todo o portal na parte inferior da tela.                                             |
++----------------------------+----------------------------------------------------------------------------------------+
+|Como utilizar               |Na parte inferior da tela são visualizados os seguintes ícones  ``^`` ``+``             |
+|                            |* Ao clicar no primeiro ícone é mostrado o espaço de exibição dos logs.                 |
+|                            |* O segundo ícone permite visualizar o log de algum recurso, solicitando as informações |
+|                            |demonstradas a seguir:
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_mangue/notas/003_coleta logs distribuídos.png
+   :alt: Coleta logs distribuídos 
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Recomendação de nodes
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Recomendação de nodes                                                                   |
++============================+========================================================================================+
+|Objetivo                    |Recomendar o tamanho ideal de cada node do cluster Kubernetes, com base no uso de cpu e |
+|                            |memória.                                                                                |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de cpu e     |
+|                            |e memória do mesmo.                                                                     |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Financeiro > Recomendações                                                              |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+
+.. figure:: /figuras/fig_mangue/notas/004_recomendação de nodes.png
+   :alt: Recomendação de nodes 
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Recursos alocados
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Recursos alocados                                                                       |
++============================+========================================================================================+
+|Objetivo                    |Visualizar cpu e memória alocadas para os workloads do cluster Kubernetes.              |
++----------------------------+----------------------------------------------------------------------------------------+
+|Descrição                   |A alocação de recursos no portal é introduzida para proporcionar aos usuários uma visão |
+|                            |imediata e clara do uso de cpu e memória nos workloads do cluster Kubernetes.           |
+|                            |Essa medida visa otimizar a eficiência operacional, permitindo ajustes dinâmicos para   |
+|                            |evitar gargalos de desempenho e garantir uma distribuição equilibrada de recursos.      |
+|                            |Essa transparência possibilita uma gestão mais eficaz, assegurando uma utilização       |
+|                            |estratégica dos recursos disponíveis.                                                   |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Ao oferecer transparência instantânea sobre os recursos utilizados, qualifica o usuário |
+|                            |a otimizar eficientemente o desempenho do sistema                                       |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Overview                                                                                |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+
+.. figure:: /figuras/fig_mangue/notas/005_recursos alocados.png
+   :alt: Recursos alocados  
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Workloads yaml
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Workloads yaml                                                                          |
++============================+========================================================================================+
+|Objetivo                    |Editar workloads no formato yaml                                                        |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Editar em yaml para os recursos como deployment, facilitando a forma de visualização ao |
+|                            |possibilitar a edição como json e yaml.                                                 |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Workloads > Deployments > Editar Deployment                                             |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_mangue/notas/006_workloads yaml.png
+   :alt: Workloads yaml  
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Recomendação sem outliers
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------+
+|Feature                     |Recomendação sem outliers                                                               |
++============================+========================================================================================+
+|Descrição                   |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
+|                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
+|                            |e consistentes.                                                                         |
++----------------------------+----------------------------------------------------------------------------------------+
+|Novo comportamento do portal|Editar em yaml para recursos como deployment, facilitando a forma de visualização e     |
+|                            |possibilitando a edição como json e yaml.                                               |
++----------------------------+----------------------------------------------------------------------------------------+
+|Localização no portal       |Financeiro > Recomendações                                                              |
++----------------------------+----------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_mangue/notas/007_recomendações sem outliers.png
+   :alt: Recomendações sem outliers  
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+Plataforma uSavings
+
+----
+
+
+O time de desenvolvimento da plataforma uSavings durante o período de Junho a Dezembro do ano 2023, desenvolveu  13 (treze) novas implementações descritas na sequência.
+
+----
+
+.. centered:: Tasks
+
+----
+
++----------------------------+-------------------------------------------------------------------------------+
+|Feature                     |Tasks                                                                          |
++============================+===============================================================================+
+|Objetivo                    |Apresentar a listagem das ações executadas no portal                           |
++----------------------------+-------------------------------------------------------------------------------+
+|Novo comportamento do portal|Dentro da tela "Tasks" é possível visualizar as ações executadas na plataforma.|
+|                            |Diferenciadas por dois tipos de status:                                        |
+|                            |  * Sinal positivo - ação terminada;                                           |
+|                            |  * Sinal negativo - ação falhada.                                             |
++----------------------------+-------------------------------------------------------------------------------+
+|Localização no portal       |Tasks                                                                          |
++----------------------------+-------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/008_tasks.png
+   :alt: Tasks 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+.. centered:: DBVM
+
+----
+
++----------------------------+-------------------------------------------------------------------------------+
+|Feature                     |DBVM - Máquina Virtual de banco de dados                                       |
++============================+===============================================================================+
+|Objetivo                    |Listar as DBVMs de um container e apresentar savings                           |
++----------------------------+-------------------------------------------------------------------------------+
+|Novo comportamento no portal|Mostra a listagem das instâncias DBVM, exceto AWS Aurora. Exibe dados sobre    |
+|                            |a instância e recomendação de savings para a mesma.                            |
++----------------------------+-------------------------------------------------------------------------------+
+|Localização no portal       |Database > DBVM                                                                |
++----------------------------+-------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/009_dbvm.png
+   :alt: DBVM 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+.. centered:: AWS - EC2
+
+----
+
+
++----------------------------+------------------------------------------------------------------------------------------------+
+|Feature                     |AWS EC2 - Elastic Comput Cloud                                                                  |
++============================+================================================================================================+
+|Objetivo                    |Listar instâncias EC2 conjuntamente as recomendações de savings                                 |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Indica recomendações para as instâncias EC2 que estão no container em que foi gerado o relatório|
+|                            |Desta forma, pode apresentar gráficos com diversas maneiras de como gerar savings para uma conta|
+|                            |específica.                                                                                     |
++----------------------------+------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > EC2                                                                                       |
++----------------------------+------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/010_ec2.png
+   :alt: EC2 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/010_ec2a.png
+   :alt: EC2 
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: VPC
+
+----
+
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+|Feature                     |VPC - Virtual Private Cloud                                                                                          |
++============================+=====================================================================================================================+
+|Objetivo                    |Listar VPCs simultaneamente com as recomendações de savings                                                          |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Mostra a listagem de VPCs, NAT Gateways e VPC endpoints. Em conjunto com a recomendação de savings para esses objetos|
+|+---------------------------+---------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > VPC                                                                                                            |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/011_vpc.png
+   :alt: VPC
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/011_vpca.png
+   :alt: VPC 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/011_vpcb.png
+   :alt: VPC
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Cloud Trail
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |CloudTrail                                                                                                                                             |
++============================+=======================================================================================================================================================+
+|Objetivo                    |Mostrar a lista de CloudTrails e dados de billing para os CloudTrails do container                                                                     |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Demonstrar de forma clara e evidente se existem CloudTrails duplicados, apresenta em forma de gráficos os diferentes tipos de preço para este recurso, |
+|                            |como também mostra alguns dados sobre os CloudTrails criados.                                                                                          | 
++----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > CloudTrail                                                                                                                                       |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/012_cloudtrail.png
+   :alt: CloudTrail 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/013_cloudtraila.png
+   :alt: CloudTrail 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+.. centered:: DynamoDB
+
+----
+
++----------------------------+-----------------------------------------------------------------+
+|Feature                     |DynamoDB                                                         |
++============================+=================================================================+
+|Objetivo                    |Listagem das tabelas no DynamoDB e recomendações para as mesmas. |
++----------------------------+-----------------------------------------------------------------+
+|Novo comportamento no portal|Recomendação de troca do tier das tabelas existentes de acordo   |
+|                            |com o uso. Visualização dos preços das tabelas e do quanto pode  |
+|                            |ser economizado com a opção da troca do tier                     |
++----------------------------+-----------------------------------------------------------------+
+|Localização no portal       |AWS > Dynamo DB                                                  |
++----------------------------+-----------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/014_dynamodb.png
+   :alt: DynamoDB 
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: Open Search
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Open Search                                                                                                              |
++============================+=========================================================================================================================+
+|Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio                       |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Realiza uma sequência de análises no domínio, o que permite promover as recomendações em cima do disco, flavor e outras. |
+|                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações                          | 
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > OpenSearch                                                                                                         |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/015_opensearch.png
+   :alt: OpenSearch 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/016_opensearcha.png
+   :alt: OpenSearch 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+.. centered:: ElasticCache
+
+----
+
++----------------------------+----------------------------------------------------------------------------------------------+
+|Feature                     |ElasticCache                                                                                  |
++============================+==============================================================================================+
+|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações.              |
++----------------------------+----------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElasticCache. Como   |
+|                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada    |
+|                            |recomendação.                                                                                 |
++----------------------------+----------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > ElastiCache                                                                             | 
++--------------------------- +----------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/017_elasticache.png
+   :alt: ElastiCache 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+Plataforma uCloud Billing
+
+----
+
+O time de desenvolvimento da plataforma uCloud, durante o período de Junho a Dezembro do ano 2023, desenvolveu  xx (xxxx) novas implementações descritas na sequência.
+
+----
+
+----
+
+.. centered::uCloud Billing
+
+----
+
+----
+
+
+
+----
+
+.. centered:: Alertas de Budget
+
+----
+
+``inserir hyperlink``
+
+----
+
+.. centered:: Budget
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Custo Relacional de Produto
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Franquia
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Integração com o sistema financeiro EBT/ODIN
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Regra de Faturamento
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Relatório Consolidado de Faturamento
+
+----
+
+``inserir hyperlink``
+
+----
+
+.. centered:: Relatório de Gestão de Crédito da Fatura
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: Relatório para Utilização da Integração PMC com o sistema financeiro EBT/ODIN
+
+----
+
+``inserir hyperlink``
+
+----
+
+----
+
+.. centered:: uCloud OPS
+
+----
+
+----
+
+
+----
+
+.. centered:: Menu Configuração: Termo de Responsabilidade
+
+----
+
+``inserir hyperlink``
+
+----
+
+.. centered:: Menu Segurança: Tickets
+
+----
+
+``inserir hyperlink``
+
+----
+
+.. centered:: Menu Segurança: Assessments > Auto Assessment
+
+----
+
+``inserir hyperlink``
+
+----
+
+.. centered:: Menu Segurança: Ethical Phishing > Acesso dos usuários: Gerente Admin e Utilizador
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+Este conjunto de funcionalidades descritas neste documento reafirmam o constante compromisso de evolução dos produtos da Ustore e o alinhamento às necessidades do mercado e clientes.
+
+
+----
+
+A norma ISO 9001, elaborada pela Organização Internacional de Normalização (no Brasil conhecida como ABNT NBR ISO 9001), define diretrizes de gestão da qualidade empresarial e torna os processos mais eficientes, auxiliando na garantia da qualidade dos produtos e serviços oferecidos. Seu foco principal é atender às necessidades dos clientes e exceder suas expectativas.
+
+.. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+Este release consolidado tem periodicidade semestral, divulga as novidades nos produtos da Ustore.
