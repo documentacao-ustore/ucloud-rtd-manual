@@ -11,8 +11,8 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 
    *  **Manuais** para consulta sobre a utilização dos softwares; 
    *  **Press-release** comunica as novas características dos produtos; 
-   *  **Release-note** consolida as diversas atualizações; 
-   *  **Suporte** disponível.
+   *  **Release-notes** consolida as diversas atualizações; 
+   *  **Suporte** informações sobre o serviço disponível.
 
 
 .. toctree::
@@ -73,7 +73,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    :hidden:
    :caption: Release-Note:
 
-   2023.06-12-ustore-geral
+   Release-Notes/2023.06-12-ustore-geral
    Release-Notes/release-ucloud-2022-jun-jul-ago
    Release-Notes/release-notes-ucloud-2022-07-01
    Release-Notes/release-notes-ucloud-2022-03-20
