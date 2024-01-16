@@ -23,9 +23,9 @@ Solucciones de tecnología de la información que permitem implementar una arqui
 Presentación
 ============
 
-Este documento tiene como objetivo explicar el uso de la plataforma “Mangue.io”, una plataforma de gestión de ambientes de múltiples orquestadores de *container*. En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto.
+Este documento tiene como objetivo explicar el uso de la plataforma “Mangue.io”, una plataforma de gestión de ambientes de múltiples orquestadores de *container*. 
 
-Apreciamos el *feedback* con su informe de experiencia de uso de nuestra aplicación, si tiene algo que sugerir, por favor enviar correo electrónico, la dirección se encuentra en la página anterior. 
+En este manual se presentan los conceptos, las pantallas, las funcionalidades y los comandos de uso de este producto. 
 
 
 ====
@@ -145,7 +145,7 @@ Los valores aquí mostrados se calculan en base al valor/hora de vCPU y Memoria 
 
 La plataforma Mangue.io almacena el consumo de recursos (CPU y Memoria) de las aplicaciones a cada minuto; al término de una hora (60 min), almacena el valor total del consumo en estos 60 minutos. Al final de cada día (24 horas) la plataforma Mangue.io almacena el valor referente al consumo de recursos computacionales, para mantener todas las aplicaciones activas en cada *container*.
 
-El precio de CPU y Memoria utilizado es el mismo precio de los recursos del contrato, el valor se establece a través de uCloud, el precio del contrato se puede ver en el mangue a través de la pantalla **Permisos / Contrato**:
+El precio de CPU y Memoria utilizado es el mismo precio de los recursos del contrato, el valor se establece a través del uCloud, el precio del contrato se puede ver en el mangue a través de la pantalla **Permisos / Contrato**:
 
 .. image:: /figuras/fig_mangue/005.1_mangue_formula.png
     :alt: Fórmula mangue.io
@@ -187,7 +187,7 @@ La barra de Menú del usuario se encuentra a la izquierda de la pantalla y se mu
     :align: center
 =====
 
-Algunas opciones de menú tienen un submenú, que se presentan cuando el usuario sitúa el ratón sobre la indicación (el signo: más pequeño que "<"). Al hacer clic en este icono |icone_sinal_menor|, la interfaz presenta al usuario el submenú de esta opción, detallado en la secuencia.
+Algunas opciones de menú tienen un submenú, que se presentan cuando el usuario sitúa el ratón sobre la indicación (el signo: más pequeño que “<”). Al hacer clic en este icono |icone_sinal_menor|, la interfaz presenta al usuario el submenú de esta opción, detallado en la secuencia.
 
 =====
 
@@ -253,9 +253,9 @@ En la tabla tenemos las siguientes columnas con sus respectivas informaciones:
 
       * El *status* **“!”** (signo de exclamación) identifica una alarma, en otras palabras, que un error sucedió con el *Deployment* y sus réplicas. Por ejemplo: la imagen de un *container* se pasa con una versión inexistente, por lo tanto, el *download* de este container no se produce;
 
-* **IP de acceso:** Si el *Deployment* tiene un servicio asociado, es en este campo donde la IP del equilibrador de carga puede ser un servicio de tipo *Load Balancer*; puerto para acceso al servicio si es un servicio externo (tipo *nodePort*) o la *string* “IP interna” si se trata de un servicio interno del *cluster* (tipo *ClusterIP*);
+* **IP de acceso:** Si el *Deployment* tiene un servicio asociado, es en este campo donde la IP del equilibrador de carga puede ser un servicio de tipo *loadbalancer*; puerto para acceso al servicio si es un servicio externo (tipo *nodePort*) o la *string* “IP interna” si se trata de un servicio interno del *cluster* (tipo *ClusterIP*);
 * **Imagen y Versión:** En caso de que tenga más de una imagen o versión de un *container* se enumeran uno debajo del otro, como en el ejemplo del 6º *Deployment* listado en la imagen de la tabla *Deployment.*
-* **Acciones:** La última columna presenta un *Dropdown* para el menú de acciones que se pueden realizar en los *deployments:* 
+* **Acciones:** La última columna presenta un *dropdown* para el menú de acciones que se pueden realizar en los *deployments:* 
 
 .. image:: /figuras/fig_mangue/015_mangue_dropdown_menu_acoes.png
     :alt: Dropdown Menu_Ações
@@ -371,7 +371,7 @@ Algunas informaciones no pueden ser editadas a través de los formularios de Man
 * Añadir una variable de ambiente;
 * Eliminar una variable de ambiente.
 
-En el cumplimiento de todas las demandas de edición para un Deployment, se puede editar directamente el YAML del Deployment en la plataforma Mangue.io.
+En el cumplimiento de todas las demandas de edición para un *Deployment*, se puede editar directamente el *YAML* del *Deployment* en la plataforma Mangue.io.
 
 Esta opción presenta como ejemplo la imagen: Editar *Deployment*. Su contenido representa el archivo.JSON con todas las configuraciones del *deployment* en Kubernetes, el usuario puede editar lo que sea necesario, confirmar presionando el botón  ``Editar`` y esperar el *feedback* de la acción por la plataforma Mangue.io.
 
@@ -392,7 +392,7 @@ La función de esta pantalla permite al usuario cambiar los *Tags* asociados a l
     :align: center
 =====
 
-.. important:: Para crear un *Tag* hay que especificar su clave y valor.
+.. important:: Para crear un *tag* hay que especificar su clave y valor.
 
 .. image:: /figuras/fig_mangue/019.2_mangue_criar_tag.png
     :alt: Criar Tag
@@ -409,7 +409,7 @@ La función de esta pantalla permite al usuario informar el número (entero) des
     :align: center
 =====
 
-Cabe destacar que se produce un aumento del consumo en el uso de la CPU y la memoria del *Cluster* para soportar la ejecución simultánea de las réplicas de esta aplicación en la infraestructura del *Cluster*.
+Cabe destacar que se produce un aumento del consumo en el uso de la CPU y la memoria del *cluster* para soportar la ejecución simultánea de las réplicas de esta aplicación en la infraestructura del *cluster*.
 
 ====
 
@@ -443,7 +443,7 @@ Este campo es alfanumérico y el usuario puede ingresar con la información dese
 
 Tras rellenar con la información deseada, el usuario debe pulsar el botón ``Enviar`` para confirmar la acción de crear la versión para el *deployment*.
 
-.. attention:: Estas nuevas versiones no están necesariamente relacionadas con cualquier versión del software que las compone, o cualquier software que se utilizó para componer la oferta, diferentes versiones se pueden encontrar fuera de la plataforma Mangue.io.
+.. attention:: Estas nuevas versiones no están necesariamente relacionadas con cualquier versión del *software* que las compone, o cualquier *software* que se utilizó para componer la oferta, diferentes versiones se pueden encontrar fuera de la plataforma Mangue.io.
 
 ====
 
@@ -457,7 +457,7 @@ Esta acción en particular no activa ninguna pantalla adicional de confirmación
 
 .. important:: Al seleccionar esta opción, la plataforma Mangue.io realiza la acción de reversión de la versión de forma inmediata, sin solicitar ningún tipo de confirmación por parte del usuario. 
 
-.. nota:: Es recomendable tener precaución y prestar atención, ya que esta acción crea algún tipo de bajo rendimiento al *deployment* en el que se está realizando la acción de *rollback*.
+.. note:: Es recomendable tener precaución y prestar atención, ya que esta acción crea algún tipo de bajo rendimiento al *deployment* en el que se está realizando la acción de *rollback*.
 
 ====
 
@@ -482,7 +482,7 @@ Esta sección muestra tres gráficos, dos de rendimiento y uno de valor:
 * Memoria;
 * Precio en los últimos 30 días.
 
-En ellos se muestra el rendimiento de la CPU (en milicores), la Memoria (en megabytes) y el Precio en los últimos 30 días, todo referido al *deployment* seleccionado por el usuario. La línea roja en el gráfico de precios indica la tendencia del gráfico.
+En ellos se muestra el rendimiento de la CPU (en *milicores*), la Memoria (en *megabytes*) y el Precio en los últimos 30 días, todo referido al *deployment* seleccionado por el usuario. La línea roja en el gráfico de precios indica la tendencia del gráfico.
 
 También es posible visualizar botones de interacción para el usuario, con los que se puede especificar el periodo de los gráficos de CPU y Memoria.
 
