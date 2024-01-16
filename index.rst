@@ -11,8 +11,8 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
 
    *  **Manuais** para consulta sobre a utilização dos softwares; 
    *  **Press-release** comunica as novas características dos produtos; 
-   *  **Release-note** consolida as diversas atualizações; 
-   *  **Suporte** disponível.
+   *  **Release-notes** consolida as diversas atualizações; 
+   *  **Suporte** informações sobre o serviço disponível.
 
 
 .. toctree::
