@@ -26,17 +26,17 @@ Ano 2023 - Período: Junho a Dezembro
 
 Apresentação
 
-Este release da  é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
+Este release é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
 
 Este release consolidado é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos fornecer o resultado registrado sobre o aprimoramento, melhorias e/ou correções. Noticiando assim, a visibilidade adequada ao processo de desenvolvimento deste produto.
 
 ----
 
-Plataforma Mangue.io
+**Plataforma Mangue.io**
 
 ----
 
-O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a Dezembro do ano 2023, desenvolveu  o total de 08 (oito) novas implementações descritas na sequência.
+O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a Dezembro do ano 2023, desenvolveu  08 (oito) implementações descritas na sequência.
 
 ----
 
@@ -52,20 +52,20 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |Objetivo                    |Monitorar, avaliar e sugerir a segurança e a conformidade dos ambientes Kubernetes      |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |A análise de saúde de um cluster kubernetes consiste em práticas que a comunidade vem   |
-|                            |chamando de KSPM (Kubernetes Security Posture Management), que tem a finalidade de      |
+|                            |chamando de KSPM (Kubernetes Security Posture Management), tem a finalidade de          |
 |                            |automatizar a segurança e a conformidade em clusters kubernetes.                        |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Realiza uma varredura no cluster kubernetes em busca de configurações incorretas ou     |
 |                            |situações específicas que podem prejudicar o funcionamento do cluster.                  |
 |                            |Atualmente são realizadas as seguintes verificações:                                    |
-|                            |* Ingresses redirecionando para services que não existem;                               | 
-|                            |* Services redirecionando para pods que não existem;                                    |
-|                            |* Namespaces não utilizados, sem qualquer pod;                                          |
-|                            |* Namespaces inativos, com erro no momento de deletar;                                  |
-|                            |* Deployment/Statefulset/Daemonset sem resources definido;                              |
-|                            |* Deployment/Statefulset/Daemonset sem resources limits definido;                       |
-|                            |* Pod sem probes/readiness/liveness definido;                                           |
-|                            |* Pod potencialmente com erros, devido a muitos restarts.                               |
+|                            |                                                                                        |                            |* Services redirecionando para pods que não existem;                                    |
+|                            |  * Ingresses redirecionando para services que não existem;                             | 
+|                            |  * Namespaces não utilizados, sem qualquer pod;                                        |
+|                            |  * Namespaces inativos, com erro no momento de deletar;                                |
+|                            |  * Deployment/Statefulset/Daemonset sem resources definido;                            |
+|                            |  * Deployment/Statefulset/Daemonset sem resources limits definido;                     |
+|                            |  * Pod sem probes/readiness/liveness definido;                                         |
+|                            |  * Pod potencialmente com erros, devido a muitos restarts.                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Cluster > Health                                                                        |
 +----------------------------+----------------------------------------------------------------------------------------+
@@ -115,7 +115,7 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Integração de cluster RKE (Rancher Kubernetes Engine)                                   |
 +============================+========================================================================================+
-|Objetivo                    |Garantir a perfeita integração e comunicação entre o mangue e um cluster RKE            |
+|Objetivo                    |Garantir a perfeita integração e comunicação entre o Mangue.io e um cluster RKE         |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Este processo engloba uma modificação abrangente em todo o portal existente.            |
 |                            |Busca otimizar a sua estrutura e lógica para harmonizar-se de maneira eficiente com as  |
@@ -126,6 +126,7 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |                            |do ambiente Kubernetes criado pelo Rancher.                                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 
+----
 
 ----
 
@@ -148,17 +149,17 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |                            |funcionalidades. Ao mesmo tempo em que consegue acompanhar os logs das aplicações       |
 |                            |selecionadas. Assim como existem ações que permitem modificar os parâmetros sobre a     | 
 |                            |visualização dos logs, são elas:                                                        |
-|                            |* Full screen: Exibir os logs em tela cheia;                                            |
-|                            |* Auto-refresh: Buscar novos logs a cada intervalo de tempo definido pelo usuário;      |
-|                            |* Auto-scroll: Acompanhar os logs mais recentes em tela;                                |
-|                            |* Limite de linhas: Limitar total de linhas de logs exibidas em tela.                   |
+|                            |  * Full screen: Exibir os logs em tela cheia;                                          |
+|                            |  * Auto-refresh: Buscar novos logs a cada intervalo de tempo definido pelo usuário;    |
+|                            |  * Auto-scroll: Acompanhar os logs mais recentes em tela;                              |
+|                            |  * Limite de linhas: Limitar total de linhas de logs exibidas em tela.                 |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Em todo o portal na parte inferior da tela.                                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Como utilizar               |Na parte inferior da tela são visualizados os seguintes ícones  ``^`` ``+``             |
-|                            |* Ao clicar no primeiro ícone é mostrado o espaço de exibição dos logs.                 |
-|                            |* O segundo ícone permite visualizar o log de algum recurso, solicitando as informações |
-|                            |demonstradas a seguir:
+|                            |  * Ao clicar no primeiro ícone é mostrado o espaço de exibição dos logs.               |
+|                            |  * O segundo ícone permite visualizar o log de algum recurso, solicitando as           |
+|                            |    informações demonstradas a seguir:                                                  |
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
@@ -182,7 +183,7 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |                            |memória.                                                                                |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de cpu e     |
-|                            |e memória do mesmo.                                                                     |
+|                            |memória do mesmo.                                                                       |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Financeiro > Recomendações                                                              |
 +----------------------------+----------------------------------------------------------------------------------------+
@@ -215,7 +216,7 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |                            |estratégica dos recursos disponíveis.                                                   |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Ao oferecer transparência instantânea sobre os recursos utilizados, qualifica o usuário |
-|                            |a otimizar eficientemente o desempenho do sistema                                       |
+|                            |a otimizar eficientemente o desempenho do sistema.                                      |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Overview                                                                                |
 +----------------------------+----------------------------------------------------------------------------------------+
@@ -267,8 +268,8 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 |                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
 |                            |e consistentes.                                                                         |
 +----------------------------+----------------------------------------------------------------------------------------+
-|Novo comportamento do portal|Editar em yaml para recursos como deployment, facilitando a forma de visualização e     |
-|                            |possibilitando a edição como json e yaml.                                               |
+|Novo comportamento do portal|Editar em yaml para recursos como deployment, facilita a forma de visualização e        |
+|                            |possibilita a edição em formato json e yaml.                                            |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Financeiro > Recomendações                                                              |
 +----------------------------+----------------------------------------------------------------------------------------+
@@ -283,12 +284,14 @@ O time de desenvolvimento da plataforma Mangue.io durante o período de Junho a 
 
 ----
 
-Plataforma uSavings
+**Plataforma uSavings**
 
 ----
 
 
-O time de desenvolvimento da plataforma uSavings durante o período de Junho a Dezembro do ano 2023, desenvolveu  13 (treze) novas implementações descritas na sequência.
+O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembro do ano 2023, desenvolveu 08 (oito) implementações descritas a seguir.
+
+----
 
 ----
 
@@ -347,17 +350,17 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 ----
 
 
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Feature                     |AWS EC2 - Elastic Comput Cloud                                                                  |
-+============================+================================================================================================+
-|Objetivo                    |Listar instâncias EC2 conjuntamente as recomendações de savings                                 |
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|Indica recomendações para as instâncias EC2 que estão no container em que foi gerado o relatório|
-|                            |Desta forma, pode apresentar gráficos com diversas maneiras de como gerar savings para uma conta|
-|                            |específica.                                                                                     |
-+----------------------------+------------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > EC2                                                                                       |
-+----------------------------+------------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------------+
+|Feature                     |AWS EC2 - Elastic Comput Cloud                                                                   |
++============================+=================================================================================================+
+|Objetivo                    |Listar instâncias EC2 conjuntamente às recomendações de savings                                  |
++----------------------------+-------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Indica recomendações para as instâncias EC2 que estão no container em que foi gerado o relatório.|
+|                            |Desta forma, pode apresentar gráficos com diversas maneiras de como gerar savings para uma conta |
+|                            |específica.                                                                                      |
++----------------------------+-------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > EC2                                                                                        |
++----------------------------+-------------------------------------------------------------------------------------------------+
 
 
 .. figure:: /figuras/fig_usavings/notas/010_ec2.png
@@ -379,15 +382,15 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 
 ----
 
-+----------------------------+---------------------------------------------------------------------------------------------------------------------+
-|Feature                     |VPC - Virtual Private Cloud                                                                                          |
-+============================+=====================================================================================================================+
-|Objetivo                    |Listar VPCs simultaneamente com as recomendações de savings                                                          |
-+----------------------------+---------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|Mostra a listagem de VPCs, NAT Gateways e VPC endpoints. Em conjunto com a recomendação de savings para esses objetos|
-|+---------------------------+---------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > VPC                                                                                                            |
-+----------------------------+---------------------------------------------------------------------------------------------------------------------+
++----------------------------+----------------------------------------------------------------------------------------------------------------------+
+|Feature                     |VPC - Virtual Private Cloud                                                                                           |
++============================+======================================================================================================================+
+|Objetivo                    |Listar VPCs simultaneamente com as recomendações de savings                                                           |
++----------------------------+----------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Mostra a listagem de VPCs, NAT Gateways e VPC endpoints. Em conjunto com a recomendação de savings para esses objetos.|
++----------------------------+----------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > VPC                                                                                                             |
++----------------------------+----------------------------------------------------------------------------------------------------------------------+
 
 
 .. figure:: /figuras/fig_usavings/notas/011_vpc.png
@@ -422,7 +425,7 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Demonstrar de forma clara e evidente se existem CloudTrails duplicados, apresenta em forma de gráficos os diferentes tipos de preço para este recurso, |
 |                            |como também mostra alguns dados sobre os CloudTrails criados.                                                                                          | 
-+----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |AWS > CloudTrail                                                                                                                                       |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -452,7 +455,7 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 +----------------------------+-----------------------------------------------------------------+
 |Novo comportamento no portal|Recomendação de troca do tier das tabelas existentes de acordo   |
 |                            |com o uso. Visualização dos preços das tabelas e do quanto pode  |
-|                            |ser economizado com a opção da troca do tier                     |
+|                            |ser economizado com a opção da troca do tier.                    |
 +----------------------------+-----------------------------------------------------------------+
 |Localização no portal       |AWS > Dynamo DB                                                  |
 +----------------------------+-----------------------------------------------------------------+
@@ -477,7 +480,7 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 |Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio                       |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Realiza uma sequência de análises no domínio, o que permite promover as recomendações em cima do disco, flavor e outras. |
-|                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações                          | 
+|                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações.                         | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |AWS > OpenSearch                                                                                                         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -501,17 +504,17 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 
 ----
 
-+----------------------------+----------------------------------------------------------------------------------------------+
-|Feature                     |ElasticCache                                                                                  |
-+============================+==============================================================================================+
-|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações.              |
-+----------------------------+----------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElasticCache. Como   |
-|                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada    |
-|                            |recomendação.                                                                                 |
-+----------------------------+----------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > ElastiCache                                                                             | 
-+--------------------------- +----------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |ElastiCache                                                                                |
++============================+===========================================================================================+
+|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações            |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElastiCache. Como |
+|                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada |
+|                            |recomendação.                                                                              |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > ElastiCache                                                                          | 
++----------------------------+-------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_usavings/notas/017_elasticache.png
    :alt: ElastiCache 
@@ -521,13 +524,17 @@ O time de desenvolvimento da plataforma uSavings durante o período de Junho a D
 
 ----
 
-Plataforma uCloud Billing
+**Plataforma uCloud Billing**
 
 ----
 
-O time de desenvolvimento da plataforma uCloud, durante o período de Junho a Dezembro do ano 2023, desenvolveu  xx (xxxx) novas implementações descritas na sequência.
+----
+
+O time de desenvolvimento da plataforma uCloud, durante o período de Junho a Dezembro do ano 2023, desenvolveu  13 (treze) novas implementações descritas na sequência.
 
 ----
+
+``inserir``
 
 ----
 
@@ -535,9 +542,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-----
-
-
+``inserir``
 
 ----
 
@@ -625,7 +630,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-----
+``inserir``
 
 
 ----
