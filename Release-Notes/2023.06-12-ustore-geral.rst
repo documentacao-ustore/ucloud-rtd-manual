@@ -24,7 +24,7 @@ Ano 2023 - Período: Junho a Dezembro
 
 ----
 
-Apresentação
+**Apresentação**
 
 Este release é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
 
@@ -32,11 +32,22 @@ Este release consolidado é um material informativo composto de conteúdo releva
 
 ----
 
-**Plataforma Mangue.io**
+.. centered:: **Plataforma Mangue.io**
 
 ----
 
-O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a Dezembro do ano 2023, desenvolveu  08 (oito) implementações descritas na sequência.
+O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a Dezembro do ano 2023, desenvolveu  08 (oito) implementações:
+
+   1. Cluster Health;
+   1. Cluster Score;
+   1. Integração de cluster RKE;
+   1. Coleta de logs distribuídos;
+   1. Recomendação de nodes;
+   1. Recursos alocados;
+   1. Workloads yaml;
+   1. Recomendação sem outliers;
+
+Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no portal.
 
 ----
 
@@ -159,8 +170,8 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 |Localização no portal       |Em todo o portal na parte inferior da tela.                                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Como utilizar               |Na parte inferior da tela são visualizados os seguintes ícones  ``^`` ``+``             |
-|                            |  * Ao clicar no primeiro ícone é mostrado o espaço de exibição dos logs.               |
-|                            |  * O segundo ícone permite visualizar o log de algum recurso, solicitando as           |
+|                            |  * Ao clicar no primeiro é mostrado o espaço de exibição dos logs.                     |
+|                            |  * O segundo permite visualizar o log de algum recurso, solicitando as informações     |
 |                            |    informações demonstradas a seguir:                                                  |
 +----------------------------+----------------------------------------------------------------------------------------+
 
@@ -181,10 +192,10 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recomendação de nodes                                                                   |
 +============================+========================================================================================+
-|Objetivo                    |Recomendar o tamanho ideal de cada node do cluster Kubernetes, com base no uso de cpu e |
+|Objetivo                    |Recomendar o tamanho ideal de cada node do cluster Kubernetes, com base no uso de CPU e |
 |                            |memória.                                                                                |
 +----------------------------+----------------------------------------------------------------------------------------+
-|Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de cpu e     |
+|Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de CPU e     |
 |                            |memória do mesmo.                                                                       |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Localização no portal       |Financeiro > Recomendações                                                              |
@@ -208,10 +219,10 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recursos alocados                                                                       |
 +============================+========================================================================================+
-|Objetivo                    |Visualizar cpu e memória alocadas para os workloads do cluster Kubernetes.              |
+|Objetivo                    |Visualizar CPU e memória alocadas para os workloads do cluster Kubernetes.              |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |A alocação de recursos no portal é introduzida para proporcionar aos usuários uma visão |
-|                            |imediata e clara do uso de cpu e memória nos workloads do cluster Kubernetes.           |
+|                            |imediata e clara do uso de CPU e memória nos workloads do cluster Kubernetes.           |
 |                            |Essa medida visa otimizar a eficiência operacional, permitindo ajustes dinâmicos para   |
 |                            |evitar gargalos de desempenho e garantir uma distribuição equilibrada de recursos.      |
 |                            |Essa transparência possibilita uma gestão mais eficaz, assegurando uma utilização       |
@@ -286,7 +297,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
 
 ----
 
-**Plataforma uSavings**
+.. CENTERED:: **Plataforma uSavings**
 
 ----
 
