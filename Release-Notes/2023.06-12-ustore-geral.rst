@@ -26,7 +26,7 @@ Ano 2023 - Período: Junho a Dezembro
 
 **Apresentação**
 
-Este release é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
+Esta publicação é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
 
 Este release consolidado é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos fornecer o resultado registrado sobre o aprimoramento, melhorias e/ou correções. Noticiando assim, a visibilidade adequada ao processo de desenvolvimento deste produto.
 
@@ -150,7 +150,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Coleta de logs distribuídos                                                             |
 +============================+========================================================================================+
-|Objetivo                    |Dar visibilidade de forma centralizada aos logs distribuídos de uma aplicação.          |
+|Objetivo                    |Dar visibilidade de forma centralizada aos logs distribuídos de uma aplicação           |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Em um ambiente Kubernetes é comum encontrar várias instâncias de uma mesma aplicação,   |
 |                            |com intuito de garantir disponibilidade. Entretanto, são necessárias abordagens         |
@@ -167,7 +167,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 |                            |  * Auto-scroll: Acompanhar os logs mais recentes em tela;                              |
 |                            |  * Limite de linhas: Limitar total de linhas de logs exibidas em tela.                 |
 +----------------------------+----------------------------------------------------------------------------------------+
-|Localização no portal       |Em todo o portal na parte inferior da tela.                                             |
+|Localização no portal       |Em todo o portal na parte inferior da tela                                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Como utilizar               |Na parte inferior da tela são visualizados os seguintes ícones  ``^`` ``+``             |
 |                            |  * Ao clicar no primeiro é mostrado o espaço de exibição dos logs.                     |
@@ -193,7 +193,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 |Feature                     |Recomendação de nodes                                                                   |
 +============================+========================================================================================+
 |Objetivo                    |Recomendar o tamanho ideal de cada node do cluster Kubernetes, com base no uso de CPU e |
-|                            |memória.                                                                                |
+|                            |memória                                                                                 |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de CPU e     |
 |                            |memória do mesmo.                                                                       |
@@ -219,7 +219,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recursos alocados                                                                       |
 +============================+========================================================================================+
-|Objetivo                    |Visualizar CPU e memória alocadas para os workloads do cluster Kubernetes.              |
+|Objetivo                    |Visualizar CPU e memória alocadas para os workloads do cluster Kubernetes               |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |A alocação de recursos no portal é introduzida para proporcionar aos usuários uma visão |
 |                            |imediata e clara do uso de CPU e memória nos workloads do cluster Kubernetes.           |
@@ -279,7 +279,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +============================+========================================================================================+
 |Descrição                   |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
 |                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
-|                            |e consistentes.                                                                         |
+|                            |e consistentes                                                                          |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Editar em yaml para recursos como deployment, facilita a forma de visualização e        |
 |                            |possibilita a edição em formato json e yaml.                                            |
@@ -464,7 +464,7 @@ O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembr
 +----------------------------+-----------------------------------------------------------------+
 |Feature                     |DynamoDB                                                         |
 +============================+=================================================================+
-|Objetivo                    |Listagem das tabelas no DynamoDB e recomendações para as mesmas. |
+|Objetivo                    |Listagem das tabelas no DynamoDB e recomendações para as mesmas  |
 +----------------------------+-----------------------------------------------------------------+
 |Novo comportamento no portal|Recomendação de troca do tier das tabelas existentes de acordo   |
 |                            |com o uso. Visualização dos preços das tabelas e do quanto pode  |
