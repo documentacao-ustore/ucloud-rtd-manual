@@ -2876,8 +2876,8 @@ Ao clicar no botão ``Ler os Termos de Responsabilidade``, localizado no lado es
     :align: center
 =====
 
-
 .. important:: O termo só precisa ser aceito uma vez, no primeiro acesso. 
+
 
 Na sequência, após a leitura e o aceite do termo de responsabilidade, o usuário pode visualizar o progresso no menu Tarefas.
 
@@ -2926,7 +2926,6 @@ Clicando no submenu Usuários, a tela exibida permite visualizar a listagem de t
     :alt: busca usuario
     :align: center
 =====
-
 
 Ao avistar o usuário desejado e selecioná-lo, a tela de informações deste é exibida conforme figura apresentada abaixo.
 

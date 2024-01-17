@@ -654,7 +654,24 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-``inserir hyperlink``
+
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                        |Termo de responsabilidade                                                                                                            |
++===============================+=====================================================================================================================================+
+|Objetivo                       |Proteger e informar aos usuários sobre o uso e tratamento de dados no portal uCloud                                                  |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal   |Permite fazer o upload de um arquivo em formato .pdf para o portal uCloud. O administrador do contrato pode habilitar a função para  |      
+|                               |apresentar o Termo de Responsabilidade ao usuário.                                                                                   |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal          |Menu Configuração > Submenu Geral                                                                                                    |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Link de acesso                 | https://bit.ly/47EceUH                                                                                                              |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+
+.. image:: /figuras/fig_termo_responsabilidade/003.1_config_geral_tela_recorte.png
+    :alt: Configuração geral
+    :align: center
+=====
 
 ----
 
