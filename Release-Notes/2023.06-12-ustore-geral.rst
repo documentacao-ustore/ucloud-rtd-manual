@@ -38,14 +38,14 @@ Este release consolidado é um material informativo composto de conteúdo releva
 
 O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a Dezembro do ano 2023, desenvolveu  08 (oito) implementações:
 
-   1. Cluster Health;
-   1. Cluster Score;
-   1. Integração de cluster RKE;
-   1. Coleta de logs distribuídos;
-   1. Recomendação de nodes;
-   1. Recursos alocados;
-   1. Workloads yaml;
-   1. Recomendação sem outliers;
+   * 1. Cluster Health;
+   * 2. Cluster Score;
+   * 3. Integração de cluster RKE;
+   * 4. Coleta de logs distribuídos;
+   * 5. Recomendação de nodes;
+   * 6. Recursos alocados;
+   * 7. Workloads yaml;
+   * 8. Recomendação sem outliers;
 
 Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no portal.
 
@@ -304,6 +304,17 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembro do ano 2023, desenvolveu 08 (oito) implementações descritas a seguir.
 
+   * 1. Tasks;
+   * 2. DBVM;
+   * 3. AWS - EC2;
+   * 4. VPC;
+   * 5. CloudTrail;
+   * 6. DynamoDB;
+   * 7. Open Search;
+   * 8. ElastiCache;
+
+Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no
+
 ----
 
 ----
@@ -513,7 +524,7 @@ O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembr
 
 ----
 
-.. centered:: ElasticCache
+.. centered:: ElastiCache
 
 ----
 
@@ -586,15 +597,6 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 ----
 
 .. centered:: Franquia
-
-----
-
-``inserir hyperlink``
-
-
-----
-
-.. centered:: Integração com o sistema financeiro EBT/ODIN
 
 ----
 
