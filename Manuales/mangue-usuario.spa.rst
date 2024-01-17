@@ -512,8 +512,8 @@ En esta parte, la plataforma la plataforma Mangue.io presenta las siguientes inf
 
 * **#**: Número secuencial de *replicaset* en esta lista.
 * **Nombre:** Esta columna muestra el nombre del *replicaset*, el usuario puede comprobar que el ambiente de Kubernetes, genera nombres únicos para cada *replicaset.*
-* **Pods Disponibles:** Esta columna muestra la cantidad de *pods* para este *replicaset*.
-* **Pods Totales:** Esta columna muestra la cantidad total de *pods*, configurados para este *replicaset*.
+* **Pods disponibles:** Esta columna muestra la cantidad de *pods* para este *replicaset*.
+* **Pods totales:** Esta columna muestra la cantidad total de *pods*, configurados para este *replicaset*.
 * **Imagen:** Esta columna muestra la información del archivo de imagen utilizada para crear este *deployment*.
 * **Duración:** Esta columna muestra el total de días que este *replicaset* existe desde el momento de su creación hasta el presente día en que el usuario visualiza esta lista.
 
@@ -544,9 +544,9 @@ En esta sección, la plataforma de Mangue.io presenta las siguientes informacion
 
       * **Pending** identifica algún estado de transición en el *deployment.* Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.
 
-      * **“!”** (signo de exclamación) identifica una alarma, es decir, que algo malo ha ocurrido con el *deployment* y sus réplicas. Por ejemplo: la imagen de un container es pasada con una versión inexistente de modo que el *download* no ocurre.
+      * **!** (signo de exclamación) indica que algo malo ha ocurrido con el *deployment* y sus réplicas. La imagen de un *container* es pasada con una versión inexistente de modo que el *download* no ocurre.
 
-* **Imagem:** Esta columna presenta la información de la imagen pública que fue utilizada para la creación de este *deployment.* Esta imagen se puede encontrar en sitios públicos que contienen información técnica relacionada con la aplicación en sí, un ejemplo es el Docker Hub_ 
+* **Imagem:** Esta columna presenta la información de la imagen pública que fue utilizada para la creación de este *deployment.* Esta imagen se puede encontrar en sitios públicos que contienen informaciones técnicas sobre la propia aplicación, un ejemplo es el Docker Hub_ 
 
 .. _Hub: https://hub.docker.com/
 
@@ -590,7 +590,7 @@ Cada una de las opciones de este submenú se detalla y se describe a continuaci�
 
 .. note:: Para habilitar esta función es necesario acceder al menú Integraciones y seguir los pasos correspondientes al *Container Execution*.
 
-En caso de que el *Pod* tenga más de un *container* en ejecución hay un *dropdown* donde es posible seleccionar qué *container* el usuario desea ejecutar los comandos, como se muestra en la siguiente imagen:
+En caso de que el *Pod* tenga más de un *container* en ejecución hay un *dropdown* donde es posible seleccionar qué *container* el usuario desea para ejecutar los comandos, como se muestra en la siguiente imagen:
 
 .. image:: /figuras/fig_mangue/031_mangue_comando_pod.png
     :alt: submenu Ações_Linha de Comando Outro POD
@@ -628,6 +628,7 @@ En esta sección se enumeran todos los eventos vinculados a un *deployment*. Est
 La plataforma  Mangue.io presenta la siguiente información en esta sección:
 
 * **#:** Número secuencial del evento en la lista presentada.
+* **Creado hace**: Presenta el número total de días, hasta la fecha actual, que han pasado desde que apareció el evento en la plataforma Mangue.io;
 * **Tipo:** Describe el tipo de evento ocurrido, y se pueden enumerar los siguientes tipos de eventos:
 
       * **Normal**;
@@ -802,13 +803,13 @@ Esta sección presenta todos los *Daemonsets* de un *cluster* en un determinado 
 * **Instancias**: Está representada por la cantidad de réplicas operacionales de un *Daemonsets*, y por la cantidad total de réplicas operacionales deseadas para este *Daemonsets*. Están divididos por una barra (“/”) donde los valores encontrados antes de la barra son las réplicas operacionales, y los valores después de la barra representan la cantidad esperada de réplicas operacionales.
 * **Status:** El *status* de un *Daemonsets* identifica su estado actual. Puede ser representados por *Running*, *Pending* o *“!”* (signo de exclamación):
 
-      * El *status* **Running** identifica que ningún error está sucediendo con el *Daemonsets*.
+      * **Running** identifica que ningún error está sucediendo con el *Daemonsets*.
 
-      * El *status* **Pending** identifica algún estado de transición en el *Daemonsets*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.
+      * **Pending** identifica algún estado de transición en el *Daemonsets*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.
 
-      * El status **“!”** (signo de exclamación) identifica una alarma, en otras palabras, que algo incorrecto ha sucedido con el *Daemonsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el *download* no ocurre.
+      * **“!”** (signo de exclamación) identifica una alarma, en otras palabras, que algo incorrecto ha sucedido con el *Daemonsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el *download* no ocurre.
 
-* **IP de acceso**: Si el *Daemonsets* tiene un servicio asociado, es en este campo donde la IP del balanceador de carga puede ser un servicio de tipo *loadbalancer*, puerto para acceder al servicio si es un servicio externo (tipo nodePort) o la *string* "IP interna" si es un servicio interno del *cluster* (tipo *clusterIP*).
+* **IP de acceso**: Si el *Daemonsets* tiene un servicio asociado, es en este campo donde la IP del balanceador de carga puede ser un servicio de tipo *loadbalancer*, puerto para acceder al servicio si es un servicio externo (tipo *nodePort*) o la *string* "IP interna" si es un servicio interno del *cluster* (tipo *clusterIP*).
 * **Imagen y versión**: En caso de que tenga más de una imagen o versión de un *container* se enumeran uno debajo del otro, como en el ejemplo del 6º *Daemonsets* listado en la imagen de la tabla de *Daemonsets*.
 * **Duración**: Presenta el tiempo de duración del *Daemonsets*.
 * **Acciones**: Esta columna muestra el botón ``Acción`` |icone_acao| al ser pulsado, muestra las siguientes opciones:
@@ -877,7 +878,7 @@ En el menú de "Acciones" del Autoescalador Horizontal existe la opción de elim
 
 Al hacer clic en el botón ``Eliminar``, el Autoescalador Horizontal es eliminado, y las reglas de escabilidad creadas dejan de ser obedecidas por el *Deployment*;
 
-.. attention:: Un *feedback* de alerta es creado en la esquina superior derecha de la pantalla informando del "éxito" o "error".
+.. attention:: Un *feedback* de alerta es creado en la esquina superior derecha de la pantalla informando del “éxito” o “error”.
 
 ====
 
@@ -921,10 +922,10 @@ La imagen de arriba muestra el listado de pods creados y, a continuación, la de
 
       * **Pending** identifica algún estado de transición en el *Deployment*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.
 
-      * **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Deployment* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, así el download de este *container* no ocurre;
+      * **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Deployment* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, así el *download* de este *container* no ocurre;
 
 * **Imagen:** Esta columna muestra la información de la imagen pública utilizada para la creación de este *Deployment*. Esta imagen se puede encontrar en sitios públicos que contienen informaciones técnicas relacionadas con la aplicación en sí, un ejemplo es el Docker Hub_.
-* **Duración:** Muestra el tiempo (en días) transcurrido desde la creación de este Deployment.
+* **Duración:** Muestra el tiempo (en días) transcurrido desde la creación de este *Deployment*.
 * **Acciones:** Esta columna muestra el botón de ``Acciónes`` |icone_acao|, al ser pulsado, muestra las acciones que se pueden realizar sobre cada *Pod* listado, como muestra la figura abajo.
 
 .. image:: /figuras/fig_mangue/027_mangue_submenu_pods.png
@@ -952,7 +953,7 @@ Cada una de las opciones de este submenú se describe a continuación:
 
       * **Log**: En la tercera opción, el usuario puede ver los *logs* de un determinado *Pod* de forma similar a lo que se consigue con una sesión de emulación de consola de terminal SSH. 
   
-        El usuario también puede filtrar el número de registros (líneas) que desea observar (las opciones son: 10, 20, 50, 100, 300, 500, 1000, all). Si el *Pod* tiene más de un *container* en ejecución existe un *dropdown* donde es posible seleccionar cual *container* el usuario desea visualizar los *logs*, como se muestra en la siguiente imagen:
+        El usuario también puede filtrar el número de registros (líneas) que desea observar (las opciones son: 10, 20, 50, 100, 300, 500, 1000, all). 
 
 .. image:: /figuras/fig_mangue/030_mangue_log_pods.png
     :alt: submenu Ações_log diversos pods
@@ -988,14 +989,14 @@ En esta funcionalidad la plataforma del Mangue presenta todos los *statefulsets*
 
 * **Nombre:** Es la representación del nombre del *Statefulsetss*.
 * **Labels:** Son los identificadores de los *Statefulsetss*, usados para ser el acoplamiento a un servicio. 
-* **Instancias:** Los valores mostrados aquí indican que la cantidad de réplicas de un *Statefulsets* están divididos por una barra ("/") donde los valores que se encuentran en el lado izquierdo de la barra es el valor de las réplicas activas y operativas, y los valores en el lado derecho de la barra representa la cantidad máxima de réplicas que pueden ser activadas para mantener el rendimiento deseado del *Statefulsets*;
-* **Status:** El status de un *Statefulsets* identifica el estado de cada *Statefulsets* listados. Puede ser presentado por **Running**, **Pending** o **“!”** (signo de exclamación).
+* **Instancias:** Los valores mostrados aquí indican que la cantidad de réplicas de un *Statefulsets* están divididos por una barra (“/”) donde los valores que se encuentran en el lado izquierdo de la barra es el valor de las réplicas activas y operativas, y los valores en el lado derecho de la barra representa la cantidad máxima de réplicas que pueden ser activadas para mantener el rendimiento deseado del *Statefulsets*;
+* **Status:** El status de un *Statefulsets* identifica el estado de cada *Statefulsets* listados. Puede ser presentado por **“Running”**, **“Pending”** o **“!”** (signo de exclamación).
 
-      * El status **Running** identifica que ningún error está sucediendo con el *Statefulsets*.
+      * **Running** identifica que ningún error está sucediendo con el *Statefulsets*.
 
-      * El status **Pending** identifica algún estado de transición en el *Statefulsets*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.		
+      * **Pending** identifica algún estado de transición en el *Statefulsets*. Ya sea por actualización, inicio del proceso del *container* o cualquier actividad que identifique un estado de transición.		
 
-      * El status **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Statefulsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el download de este *container* no ocurre;
+      * El status **“!”** (signo de exclamación) identifica una alarma, es decir, que algo incorrecto ha ocurrido con el *Statefulsets* y sus réplicas. Por ejemplo: la imagen de un *container* es pasada con una versión inexistente, de modo que el *download* de este *container* no ocurre;
 
 *  **IP:** En el caso de que el *Statefulsets* tenga un servicio asociado, es en este campo donde la IP del balanceador de carga puede ser un servicio de tipo *Loadbalancer*, puerto de acceso al servicio si es un servicio externo (tipo *nodePort*), o el *string* "IP interna" si es un servicio interno del *cluster* (tipo *ClusterIp*).
 * **Imagen y versión:** Si hay más de una imagen o versión de un *container*, se listan uno debajo del otro, como en el ejemplo del 6º *Statefulsets* listado en la imagen de la tabla *Statefulsets*.
