@@ -2753,10 +2753,72 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 Seção: *Upload* de Termo de Responsabilidade (novo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta funcionalidade foi desenvolvida com a finalidade de proteger e informar aos usuários sobre o uso e tratamento de dados no portal uCloud.
+
 ----
 
 Acessando
 """""""""""
+Esta nova característica está disponível no menu Configuração, disposto no menu lateral da plataforma, indicado na imagem abaixo.
+
+.. image:: /figuras/fig_termo_responsabilidade/001_config_menu.png
+    :alt: Menu Configurações
+    :align: center
+=====
+
+Ao clicar neste, um submenu é apresentado conforme a imagem a seguir, nele o usuário deve selecionar a opção Geral.
+
+.. image:: /figuras/fig_termo_responsabilidade/002_config_submenu.png
+    :alt: Submenu de configurações
+    :align: center
+=====
+
+
+Este submenu exibe a tela de configurações gerais, que apresenta quatro *cards*. Dentro do primeiro *card* o recorte evidencia a funcionalidade “Termo de responsabilidade”, enquanto no último *card* o recorte indica a operacionalização desta função.
+
+.. image:: /figuras/fig_termo_responsabilidade/003.1_config_geral_tela.png
+    :alt: Configuração geral
+    :align: center
+=====
+
+.. image:: /figuras/fig_termo_responsabilidade/003.2_config_geral_tela.png
+    :alt: Configuração geral
+    :align: center
+=====
+
+----
+
+**Recorte 1**
+
+----
+
+O primeiro recorte apresenta o campo “Termo de responsabilidade", onde é possível habilitar ou não a função, de acordo com o interesse do usuário. 
+
+A imagem abaixo mostra esta característica em destaque, ao exibir esta funcionalidade desativada que é representada pelo nome *OFF* tanto na *flag* como no campo de descrição.
+
+.. image:: /figuras/fig_termo_responsabilidade/003_config_geral.png
+    :alt: termo off
+    :align: center
+=====
+
+
+Para ativá-la, basta acionar a *flag* como exemplificado  a seguir. Esta ação é confirmada pela mudança de status para *ON*.
+
+.. image:: /figuras/fig_termo_responsabilidade/004_config_geral_on.png
+    :alt: termo on
+    :align: center
+=====
+
+
+Ao habilitar ou desabilitar esta função, uma mensagem é exibida no canto superior direito da tela, como mostrado na seguinte figura, independentemente do usuário ter importado ou não o arquivo.
+
+.. image:: /figuras/fig_termo_responsabilidade/005_config_feedback.png
+    :alt: feedback termo
+    :align: center
+=====
+
+
+Na sequência, o leitor pode visualizar como ocorre a operação de adicionar o termo de responsabilidade.
 
 ----
 
@@ -2765,13 +2827,132 @@ Adicionando
 
 ----
 
+**Recorte 2**
+
+----
+
+Para adicionar o termo, é necessário navegar ao fim desta página até encontrar na tela o último *card* nomeado como “*Upload* de Termo de Responsabilidade”, evidenciado no segundo recorte da imagem da tela de configuração geral.
+
+.. image:: /figuras/fig_termo_responsabilidade/006_config_upload.png
+    :alt: card termo de responsabilidade
+    :align: center
+=====
+
+
+Ao clicar no botão ``Upload``, que corresponde a ação de “Importar”, o usuário visualiza sua máquina pessoal que exibe os arquivos em formato PDF existentes, momento que pode selecionar o arquivo que deseja importar.
+
+.. image:: /figuras/fig_termo_responsabilidade/006.1_upload_tela.png
+    :alt: tela de upload
+    :align: center
+=====
+
+Em seguida é necessário selecionar o documento desejado a ser importado clicando no botão ``Abrir``, localizado no canto inferior direito da tela, e assim finalizar a ação. Próximo a este, é possível observar também o botão ``Cancelar``, caso seja de interesse do usuário desistir da operação. 
+
+.. attention:: Na condição da funcionalidade estar ativada sem o documento, os usuários podem acessar a plataforma normalmente. Contudo, se houver um arquivo inserido, o acesso só é autorizado após o aceite dos termos.
+
+----
+
 Detalhando
 """"""""""""
+
+Para que o usuário possa aceitar o termo, este deve encerrar sua sessão no portal uCloud e fazer o *login* novamente. Ao fazê-lo, a tela inicial é apresentada conforme figura exibida abaixo:
+
+.. image:: /figuras/fig_termo_responsabilidade/007_termo_aceite.png
+    :alt: aceitar termo
+    :align: center
+=====
+
+
+A figura acima apresenta três botões de fácil compreensão:
+
+* ``Ler Termos de Responsabilidade``
+* ``Aceito todos os Termos de Responsabilidade``
+* ``Não aceito os Termos de Responsabilidade``
+
+Ao clicar no botão ``Ler os Termos de Responsabilidade``, localizado no lado esquerdo, uma aba é aberta no seu navegador, ela permite ao usuário a leitura completa do documento.
+
+.. image:: /figuras/fig_termo_responsabilidade/007.1_termo_documento.png
+    :alt: termo completo
+    :align: center
+=====
+
+
+.. important:: O termo só precisa ser aceito uma vez, no primeiro acesso. 
+
+Na sequência, após a leitura e o aceite do termo de responsabilidade, o usuário pode visualizar o progresso no menu Tarefas.
+
+.. image:: /figuras/fig_termo_responsabilidade/005.1_config_tarefas.png
+    :alt: status tarefas
+    :align: center
+=====
+
+O administrador pode acessar o submenu Usuários no menu Administração, e ao clicar no usuário desejado ao rolar a página o penúltimo *card* apresenta as informações históricas do termo. 
 
 ----
 
 Listando
 """"""""
+
+Seguindo o fluxo é possível visualizar a listagem dos termos aceitos pelo usuário. Para isso, é necessário acessar o menu Administração.
+
+.. image:: /figuras/fig_termo_responsabilidade/008_admin_menu.png
+    :alt: menu administração
+    :align: center
+=====
+
+Ao clicar no menu Administração, o submenu Usuários é apresentado e deve ser selecionado.
+
+.. image:: /figuras/fig_termo_responsabilidade/009_admin_submenu.png
+    :alt: submenu de administração
+    :align: center
+=====
+
+
+Clicando no submenu Usuários, a tela exibida permite visualizar a listagem de todos os usuários previamente criados, assim como gerenciá-los.
+
+.. image:: /figuras/fig_termo_responsabilidade/010_admin_usuario.png
+    :alt: tela usuario
+    :align: center
+=====
+
+É necessário encontrar o usuário que aceitou os termos, para isto basta clicar diretamente sobre seu nome, ou usar as barras de pesquisa da página para auxiliar a busca deste. Essas ferramentas se referem aos campos disponíveis divididos em quatro colunas:
+
+* Login
+* Nome
+* Correio Eletrônico
+* Perfil
+
+.. image:: /figuras/fig_termo_responsabilidade/010.1_usuario_busca.png
+    :alt: busca usuario
+    :align: center
+=====
+
+
+Ao avistar o usuário desejado e selecioná-lo, a tela de informações deste é exibida conforme figura apresentada abaixo.
+
+.. image:: /figuras/fig_termo_responsabilidade/011.0_user_dados.png
+    :alt: detalhes usuario
+    :align: center
+=====
+
+.. image:: /figuras/fig_termo_responsabilidade/011.1_user_dados.png
+    :alt: detalhes usuario
+    :align: center
+=====
+
+.. image:: /figuras/fig_termo_responsabilidade/011.2_user_dados.png
+    :alt: detalhes usuario
+    :align: center
+=====
+
+Com auxílio da barra de rolagem na lateral direita, é necessário navegar na tela até localizar o penúltimo *card* nomeado “Termos de responsabilidade”, evidenciado na imagem acima.
+
+.. image:: /figuras/fig_termo_responsabilidade/012_card_termos.png
+    :alt: detalhes termo
+    :align: center
+=====
+
+Neste, é possível observar a listagem dos termos aceitos por este usuário, assim como o registro da data e hora dos aceites. 
 
 ----
 
