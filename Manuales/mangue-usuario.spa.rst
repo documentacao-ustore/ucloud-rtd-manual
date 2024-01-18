@@ -1045,9 +1045,9 @@ La imagen anterior muestra la lista de *updates* creados y, a continuación, la 
 
 * **Status:** Hay dos estados posibles, son:
 
-      * **UPDATED** Este estado corresponde a una actualización realizada;
+      * **UPDATED** - Este estado corresponde a una actualización realizada;
 
-      * **OUTDATED** Se refiere a un estado anterior o antiguo, que está esperando el evento de actualización a través de la plataforma Mangue;
+      * **OUTDATED** - Se refiere a un estado anterior o antiguo, que está esperando el evento de actualización a través de la plataforma Mangue;
 
 * **Namespace:** Corresponde al *Namespace* de la aplicación que se va a actualizar y está en ejecución;
 * **Nuevas imágenes:** Se refiere a las nuevas imágenes y versiones de los *containers* que son actualizados;
@@ -1060,7 +1060,7 @@ La imagen anterior muestra la lista de *updates* creados y, a continuación, la 
     :align: center
 =====
 
-      * **Actualizar:** Al seleccionar la opción de actualizar en el botón de Acciones de la tabla, la plataforma Mangue.io presenta una pantalla de confirmación para la operación:
+      * **Actualizar:** Al seleccionar la opción de actualizar, la plataforma Mangue.io presenta una pantalla de confirmación para la operación:
 
 .. image:: /figuras/fig_mangue/053_mangue_mensagem_atualizar.png
     :alt: mensagem atualizar 
@@ -1070,7 +1070,7 @@ La imagen anterior muestra la lista de *updates* creados y, a continuación, la 
 
 Al hacer clic en el botón ``Actualizar``, se dispara el evento de actualización para el *Deployment* correspondiente. 
 
-Se utilizan las imágenes y versiones de los *containers* que aparecen en el campo "Nuevas imágenes". Se crea un *feedback* de alerta en la esquina superior derecha de la pantalla informando del “Éxito” o del “Error”.
+Se utilizan las imágenes y versiones de los *containers* que aparecen en el campo “Nuevas imágenes”. Se crea un *feedback* de alerta en la esquina superior derecha de la pantalla informando del “Éxito” o del “Error”.
 
 Justo encima de la tabla, hay tres elementos con los que el usuario podrá actuar:
 
@@ -1090,17 +1090,17 @@ Justo encima de la tabla, hay tres elementos con los que el usuario podrá actua
 
 Sigue la descripción de los campos de esta pantalla:
 
-* **Token:** Este campo se rellena con un *string* de caracteres, después de que el usuario haga clic en el botón ``Generar Token``, en este momento el campo se rellena con el *string* de token que se informa para comunicación con la API del Mangue.io. Este token debe ser guardado y debe ser informado para autenticar las versiones del CI. Cuando se genera un token, éste debe ser enviado vía API al servidor del Mangue.io, ya que él es el responsable de garantizar la integridad de la solicitud enviada.
+* **Token:** Este campo se rellena con un *string* de caracteres, después de que el usuario haga clic en el botón ``Generar Token``, en este momento el campo se rellena con el *string* de *token* que se informa para comunicación con la API del Mangue.io. Este *token* debe ser guardado y debe ser informado para autenticar las versiones del CI. Cuando se genera un *token*, éste debe ser enviado vía API al servidor del Mangue.io, ya que él es el responsable de garantizar la integridad de la solicitud enviada.
 
-* **Namespace:** Al hacer clic en este campo se muestra una lista (dropdown) con todos los *Namespaces* existentes en el *cluster* seleccionado en la pestaña “Selección de Configuración”.
+* **Namespace:** Al hacer clic en este campo se muestra una lista (*dropdown*) con todos los *Namespaces* existentes en el *cluster* seleccionado en la pestaña “Selección de Configuración”.
 
-* **Deployment:** Al hacer clic en el campo se muestra una lista (dropdown) con todos los *Deployments* asociados al *namespace* seleccionado del espacio anterior.
+* **Deployment:** Al hacer clic en el campo se muestra una lista (*dropdown*) con todos los *Deployments* asociados al *namespace* seleccionado del espacio anterior.
 
 * **Crear:** Una vez que el usuario ha configurado todos los campos de esta pantalla, con los criterios correctos para añadir un evento de actualización (*update*), debe hacer clic en el botón ``Crear`` para añadir el evento de actualización en la plataforma Mangue.io. 
   
   Este nuevo evento se añade a la lista con el status *pending*. 
   
-  Al hacer clic en el botón "Crear", se genera el permiso para el usuario registrar las actualizaciones en la plataforma a través de llamadas a la API del Mangue. 
+  Al hacer clic en el botón ``Crear``, se genera el permiso para el usuario registrar las actualizaciones en la plataforma a través de llamadas a la API del Mangue. 
   
   Se crea un *feedback* de alerta en la esquina superior derecha de la pantalla informando del “Éxito” o del “Error”. 
 
@@ -1129,7 +1129,7 @@ A continuación se describen los dos formatos de creación de aplicaciones (*dep
 
 La primera es la forma simplificada, ocurre al guiar el usuario por las pantallas, que después de todo el llenado y confirmación del usuario, los datos informados son convertidos en un archivo con "sintaxis *YAML*", esta construcción (prácticamente sin errores) es utilizada para generar la aplicación.
 
-El objetivo de este primer enfoque es minimizar los posibles errores de sintaxis *YAML* en el ambiente Kubernetes, demanda un alto grado de especialización y conocimiento del desarrollador. La sintaxis correcta para el ambiente, debe tener todas las dependencias necesarias para la generación del resultado deseado de la manera correcta y lista para el uso en el ambiente Kubernetes (por ejemplo: una aplicación / *Deployment*).
+El objetivo de este primer enfoque es minimizar los posibles errores de sintaxis *YAML* en el ambiente *Kubernetes*, demanda un alto grado de especialización y conocimiento del desarrollador. La sintaxis correcta para el ambiente, debe tener todas las dependencias necesarias para la generación del resultado deseado de la manera correcta y lista para el uso en el ambiente *Kubernetes* (por ejemplo: una aplicación / *Deployment*).
 
 La otra forma es permitir al usuario hacer *upload* de un archivo de texto, cuyo contenido es la codificación de la aplicación en sintaxis *YAML*, ya adaptada y preparada para un ambiente Kubernetes. Si el desarrollador (usuario) tiene suficiente práctica para crear sus propios *scripts* en sintaxis *YAML*, puede utilizarlos y traer estos para la plataforma Mangue.io con la finalidad de conducir en que *Cluster, Pod, Node*, este código / *script* es ejecutado y gestionado.
 
@@ -1143,7 +1143,7 @@ Cuando el usuario acceder al menú Catálogo, la plataforma Mangue.io presenta l
 Nueva Aplicación
 ----------------
 
-Esta modalidad es la forma en que la plataforma Mangue.io conduce al usuario a través de pantallas, solicitando las informaciones en secuencia para que, posteriormente, la plataforma Mangue.io compile las informaciones generando la aplicación dentro del *Cluster* y Namespace seleccionados en la pestaña |icone_engrenagem| “Selección de Configuración”.
+Esta modalidad es la forma en que la plataforma Mangue.io conduce al usuario a través de pantallas, solicitando las informaciones en secuencia para que, posteriormente, la plataforma Mangue.io compile las informaciones generando la aplicación dentro del *Cluster* y *Namespace* seleccionados en la pestaña |icone_engrenagem| “Selección de Configuración”.
 
 A continuación se describen los pasos que se deben seguir para rellenar los formularios de las pantallas que guían al usuario. 
 
@@ -1164,7 +1164,7 @@ Para la creación de una nueva aplicación (*Deployment*) la plataforma Mangue.i
 
     Este número se asigna desde la infraestructura computacional para que el usuario obtenga la mejor experiencia de performance, y la plataforma Mangue.io se encarga de asignar estos recursos computacionales;
 
-* **Buscar imagen**: Este campo es obligatorio, una búsqueda de imagen de una aplicación se realiza en el servidor de registro de imágenes http://hub.docker.com. El usuario puede introducir una secuencia de caracteres (aunque sea parcial) de cualquier imagen catalogada en el *Hub Docker*, y la plataforma Mangue.io realiza la búsqueda y presenta una lista que contiene la secuencia de caracteres. Vea el ejemplo siguiente, con la búsqueda de la secuencia “wordp”, para buscar la imagen de la aplicación *Wordpress*:
+* **Buscar imagen**: Este campo es obligatorio, una búsqueda de imagen de una aplicación se realiza en el servidor de registro de imágenes http://hub.docker.com. El usuario puede introducir una secuencia de caracteres (aunque sea parcial) de cualquier imagen catalogada en el *Hub Docker*, y la plataforma Mangue.io realiza la búsqueda y presenta una lista que contiene la secuencia de caracteres. Vea el ejemplo siguiente, con la búsqueda de la secuencia *“wordp”*, para buscar la imagen de la aplicación *Wordpress*:
 
 .. image:: /figuras/fig_mangue/057_mangue_pesquisar_imagem.png
     :alt: Pesquisar imagem
@@ -1194,7 +1194,7 @@ Basta con que el usuario haga clic con el cursor del ratón en la línea de la i
 
       * **Máximo recurso a ser utilizado [Memoria en milicores]:** En este campo el usuario debe informar el máximo de recursos de memoria RAM que pueden ser asignados, en la infraestructura computacional del *Cluster* para proporcionar el máximo rendimiento a esta aplicación (*Deployment*). Esta cantidad debe ser introducida como un número entero para apoyar y ejecutar el (*Deployment*);
 
-      * **Mínimo Recurso a ser utilizado** [Memoria en milicolores]: En este campo el usuario debe informar el mínimo de recursos de memoria RAM que pueden ser asignados, en la infraestructura computacional del *Cluster* para ofrecer el desempeño mínimo aceptable para esta aplicación (*Deployment*). Esta cantidad debe ser informada con un número entero, para soportar y ejecutar la aplicación (*Deployment*).
+      * **Mínimo Recurso a ser utilizado [Memoria en milicolores]:** En este campo el usuario debe informar el mínimo de recursos de memoria RAM que pueden ser asignados, en la infraestructura computacional del *Cluster* para ofrecer el desempeño mínimo aceptable para esta aplicación (*Deployment*). Esta cantidad debe ser informada con un número entero, para soportar y ejecutar la aplicación (*Deployment*).
 
 * **Permitir ejecución privilegiada:** En este campo el usuario debe informar si el *container* tiene acceso a los recursos y capacidades *Kernel* de la máquina *Host*;
 
@@ -1202,7 +1202,7 @@ Basta con que el usuario haga clic con el cursor del ratón en la línea de la i
 
 * **Registry Secret:** En este campo el usuario debe introducir el nombre del *Secret* del servidor de imágenes asociado a esta imagen. Al hacer clic con el ratón sobre este campo, la plataforma Mangue.io presenta una lista de archivos de *Secrets* disponibles en el servidor de imagen privado. 
 
-* **Botón** ``Próximo``: Cuando el usuario hace clic en el botón ``Próximo`` la plataforma Mangue.io muestra la pantalla con campos respectivos de *Secrets* y Variables de ambiente del *container*. Vea la siguiente pantalla:
+* **Botón** ``Próximo``: Cuando el usuario hace clic en el botón ``Próximo`` la plataforma Mangue.io muestra la pantalla con campos respectivos de *Secrets* y Variables de Ambiente del *container*. Vea la siguiente pantalla:
 
 .. image:: /figuras/fig_mangue/059_mangue_secrets_e_variaveis.png
     :alt: Secrets e variáveis do ambiente container
@@ -1268,7 +1268,7 @@ La plataforma Mangue.io simplifica el proceso de configuración del PVC, ofrecie
 
           * **Tamaño / 1Gi, 5Gi, 10Gi:** El usuario puede seleccionar el tamaño del volumen simplemente haciendo clic con el cursor del ratón sobre el número deseado, seleccionando la mejor opción de tamaño para este PVC. Las opciones están expresadas en Gigabytes (1, 5, ou 10).
 
-          * **Tamaño / Personalizado:** Otra forma de crear un PVC con un volumen con un tamaño diferente de las opciones anteriores, la plataforma Mangue.io presenta una barra deslizante (*slide bar*) que permite al usuario seleccionar el tamaño deseado del PVC. Usando el cursor del ratón sobre el indicador naranja, el usuario puede mover este indicador (para izquierda o derecha) para establecer el tamaño final deseado. El tamaño mínimo es de 1 gigabyte y el máximo de 100 gigabytes.
+          * **Tamaño / Personalizado:** Otra forma de crear un PVC con un volumen con un tamaño diferente de las opciones anteriores, la plataforma Mangue.io presenta una barra deslizante (*slide bar*) que permite al usuario seleccionar el tamaño deseado del PVC. Usando el cursor del ratón sobre el indicador naranja, el usuario puede mover este indicador (para izquierda o derecha) para establecer el tamaño final deseado. El tamaño mínimo es de 1 Gigabyte y el máximo de 100 Gigabytes.
 
           * **Storage Class:** Este campo es una lista (*dropdown list*) compuesta solo por *NFS Servers* configurados en la plataforma Mangue.io. El usuario debe seleccionar el servidor *NFS* más adecuado para recibir el archivo de PVC.
 
@@ -1356,7 +1356,7 @@ La plataforma posibilita operacionalizar la selección de uno o más *Cluster(es
     :align: center
 =====
 
-* **Clusters disponibles:** Este campo cuando se seleccionado presenta la lista (*dropdown list*) con todos los *Clusters* configurados en la plataforma y basta al usuario seleccionar cuales desea lanzar y ejecutar a la aplicación de *Deployment* que se está creando.
+* **Clusters disponibles:** Este campo cuando seleccionado presenta la lista (*dropdown list*) con todos los *Clusters* configurados en la plataforma. Basta al usuario seleccionar cuales desea lanzar y ejecutar a la aplicación de *Deployment* que se está creando.
 **Botón** ``Siguiente``: El usuario debe hacer clic en este botón para iniciar el tercer y último paso para crear una nueva aplicación (*Deployment*).
 
 ====
@@ -1387,7 +1387,7 @@ El lector de este documento puede ver a continuación la descripción de las pr�
 
 * **MaxSurge:** En este campo el usuario debe introducir el número máximo de réplicas que quiere mantener activas en la plataforma Mangue.io. Durante un proceso de actualización de la versión de la aplicación (*Deployment*), este número es responsable de mantener un mínimo de réplicas para asegurar la experiencia del usuario durante un proceso de actualización.
 
-* **MaxUnavailable:** En este campo el usuario debe informar del número máximo de réplicas que desea mantener indisponibles en la plataforma Mangue.io, Durante un proceso de actualización de la versión de la aplicación (*Deployment*), este número indica al plataforma Mangue.io el número de réplicas que pueden ser actualizadas en paralelo.
+* **MaxUnavailable:** En este campo el usuario debe informar del número máximo de réplicas que desea mantener indisponibles en la plataforma Mangue.io, Durante un proceso de actualización de la versión de la aplicación (*Deployment*), este número indica al Mangue.io el número de réplicas que pueden ser actualizadas en paralelo.
 
 * **Container:** Se trata de un encabezado de sección que indica el nombre del *container* que se está creando para esta nueva aplicación (*Deployment*).
 
@@ -1427,7 +1427,7 @@ El lector de este documento puede ver a continuación la descripción de las pr�
 
 En este punto, la plataforma Mangue.io cierra las pantallas de creación de aplicación (*Deployment*) y el usuario puede encontrar su nueva aplicación listada en la pantalla del menú *Workloads/Deployments*.
 
-El usuario puede obtener más informaciones sobre su nueva aplicación en el menú “Informaciones de *Deployment*”.
+El usuario puede obtener más informaciones sobre su nueva aplicación en el menú “Informaciones del *Deployment*”.
 
 ====
 
