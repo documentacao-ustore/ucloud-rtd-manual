@@ -435,6 +435,122 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
    :align: center
 ----
 
+----
+
+.. centered:: ELB
+
+----
+
++----------------------------+------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |ELB                                                                                                                     |
++============================+========================================================================================================================+
+|Objetivo                    |Listar os balanceadores de carga em conjunto com as recomendações de otimização de custo                                |
++----------------------------+------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|A partir desta feature, ao listar as recomendações dos balanceadores de carga no container em que o relatório é criado. |
+|                            |Juntamente com os gráficos e a listagem de instâncias que possuem orientações e informações de uso.                     |
++----------------------------+------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > ELB                                                                                                               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------+
+
+``inserir imagem``
+
+
+----
+
+.. centered:: RDS
+
+----
+
++----------------------------+--------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |RDS                                                                                                                       |
++============================+==========================================================================================================================+
+|Objetivo                    |Listar as instâncias de Banco de Dados RDS e as recomendações de savings                                                  |
++----------------------------+--------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento do portal|A partir desta feature é possível visualizar as recomendações ao listar as recomendações tanto de troca quanto de resizing|
+|                            |de flavors, ou as sugestões de troca do processador baseado no tipo de instância do banco de dados RDS.                   |
+|                            |Assim como, as recomendações do desligamento das instâncias ociosas.                                                      |
++----------------------------+--------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > RDS                                                                                                                 |
++----------------------------+--------------------------------------------------------------------------------------------------------------------------+
+
+``inserir imagem``
+
+
+----
+
+.. centered:: Cloud Front
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |                                                                                                                         |
++============================+=========================================================================================================================+
+|Objetivo                    |                                                                                                                         |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                                                         |
+|                            |                                                                                                                         | 
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                                                         |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+
+----
+
+.. centered:: Open Search
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Feature                     |Open Search                                                                                                              |
++============================+=========================================================================================================================+
+|Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio                       |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Realiza uma sequência de análises no domínio, o que permite promover as recomendações em cima do disco, flavor e outras. |
+|                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações.                         | 
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > OpenSearch                                                                                                         |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. figure:: /figuras/fig_usavings/notas/015_opensearch.png
+   :alt: OpenSearch 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/016_opensearcha.png
+   :alt: OpenSearch 
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. centered:: ElastiCache
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |ElastiCache                                                                                |
++============================+===========================================================================================+
+|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações            |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElastiCache. Como |
+|                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada |
+|                            |recomendação.                                                                              |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > ElastiCache                                                                          | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. figure:: /figuras/fig_usavings/notas/017_elasticache.png
+   :alt: ElastiCache 
+   :scale: 100 %
+   :align: center
+----
+
+
 
 ----
 
@@ -494,63 +610,111 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Open Search
+.. centered:: Neptune
 
 ----
 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Feature                     |Open Search                                                                                                              |
+|Feature                     |                                                                                                                         |
 +============================+=========================================================================================================================+
-|Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio                       |
+|Objetivo                    |                                                                                                                         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|Realiza uma sequência de análises no domínio, o que permite promover as recomendações em cima do disco, flavor e outras. |
-|                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações.                         | 
+|Novo comportamento no portal|                                                                                                                         |
+|                            |                                                                                                                         | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > OpenSearch                                                                                                         |
+|Localização no portal       |                                                                                                                         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
-.. figure:: /figuras/fig_usavings/notas/015_opensearch.png
-   :alt: OpenSearch 
+.. .. figure:: /figuras/.png
+   :alt:  
    :scale: 100 %
    :align: center
-----
+.. ----
 
-.. figure:: /figuras/fig_usavings/notas/016_opensearcha.png
-   :alt: OpenSearch 
-   :scale: 100 %
-   :align: center
-----
 
 ----
 
-.. centered:: ElastiCache
+.. centered:: EFS
 
 ----
 
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     |ElastiCache                                                                                |
+|Feature                     |EFS                                                                                        |
 +============================+===========================================================================================+
-|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações            |
+|Objetivo                    |                                                                                           |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElastiCache. Como |
-|                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada |
-|                            |recomendação.                                                                              |
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > ElastiCache                                                                          | 
+|Localização no portal       |                                                                                           | 
 +----------------------------+-------------------------------------------------------------------------------------------+
 
-.. figure:: /figuras/fig_usavings/notas/017_elasticache.png
-   :alt: ElastiCache 
+.. .. figure:: /figuras/.png
+   :alt: 
    :scale: 100 %
    :align: center
-----
+.. ----
 
 ----
 
-**Plataforma uCloud Billing**
+.. centered:: S3
 
 ----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |S3                                                                                         |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
+.. ----
+
+----
+
+.. centered:: EBS
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |EBS                                                                                        |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
+.. ----
+
+
+
+----
+
+**Portal uCloud**
+
+----
+
+
+
 
 ----
 
@@ -562,7 +726,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered::uCloud Billing
+.. centered::uCloud Financeiro
 
 ----
 
@@ -626,8 +790,26 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-``inserir hyperlink``
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                        |Relatório de Gestão de Crédito da Fatura (RGCF)                                                                                      |
++===============================+=====================================================================================================================================+
+|Objetivo                       |Permite que o administrador do sistema possa realizar o controle individual de quais créditos o cliente recebe, ao mesmo tempo       |
+|                               |visualizar o total de créditos na nuvem e o total recebido pelo cliente.                                                             |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------|
+|Descrição                      |Relatório exclusivo para administrador do sistema                                                                                    |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------|
+|Novo comportamento do portal   |Apresenta quanto de crédito fica para o cliente em tempo real, pois o bloco informativo de créditos totais no portal é atualizado    |
+|                               |imediatamente após adicionar ou não o crédito à fatura do usuário.                                                                   |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal          |Menu Financeiro > Submenu Utilitários                                                                                                |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Link de acesso                 |https://bit.ly/rgcfucloudmu                                                                                                          |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
+.. figure:: /figuras/fig_rgcf/007_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+=====
 
 ----
 
@@ -641,7 +823,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: uCloud OPS
+.. centered:: uCloud Operação
 
 ----
 
@@ -673,9 +855,20 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
     :align: center
 =====
 
+
 ----
 
-.. centered:: Menu Segurança: Tickets
+.. centered:: uCloud Segurança
+
+----
+
+
+``inserir``
+
+
+----
+
+.. centered:: Tickets
 
 ----
 
@@ -683,7 +876,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Menu Segurança: Assessments > Auto Assessment
+.. centered:: Assessments > Auto Assessment
 
 ----
 
@@ -691,7 +884,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Menu Segurança: Ethical Phishing > Acesso dos usuários: Gerente Admin e Utilizador
+.. centered:: Ethical Phishing > Acesso dos usuários: Gerente Admin e Utilizador
 
 ----
 
