@@ -9535,7 +9535,7 @@ Pode-se verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 0
 ====
 
 
-Relatório Custo Relacional de Produto *CRP*
+Relatório Custo Relacional de Produto - *CRP*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este relatório permite visualizar o custo de cada serviço separadamente dentro de um contrato selecionado, nele é possível acompanhar a evolução (diária, semanal ou mensal) dos custos detalhados de consumo de cada *Product Name* e sua respectiva *Family Name* (sub-recursos). O grande benefício deste relatório é analisar a real composição de custos de um recurso em particular, apresentando detalhadamente os valores dos seus sub-recursos distribuídos no período selecionado.
@@ -9578,8 +9578,11 @@ Após selecionada esta opção, a tela inicial do relatório CRP é mostrada, pe
 Na figura acima é possível observar os seguintes campos de ação:
 
 * **Botão** ``Voltar``: o usuário pode retornar à tela anterior (Relatórios do menu financeiro) a qualquer momento;
-* * *Card* **Intervalo**: Este campo é do tipo *dropdown* e o usuário pode selecionar o período ideal para avaliar os dados de consumo. Ao clicar nessa opção a plataforma uCloud apresenta os seguintes intervalos:
-* * **MENSAL**: O cliente pode entender como o seu consumo evolui ao longo do tempo de forma abrangente. É possível escolher de um a todos os meses do ano. Para exemplificar, 3 meses são selecionados, conforme a imagem abaixo.
+  
+* *Card* **Intervalo**: Este campo é do tipo *dropdown* e o usuário pode selecionar o período ideal para avaliar os dados de consumo. Ao clicar nessa opção a plataforma uCloud apresenta os seguintes intervalos:
+  
+  
+* **MENSAL**: O cliente pode entender como o seu consumo evolui ao longo do tempo de forma abrangente. É possível escolher de um a todos os meses do ano. Para exemplificar, 3 meses são selecionados, conforme a imagem abaixo.
 
 
 .. image:: /figuras/fig_crp/004_custo_relacional_intervalo_mensal.PNG
@@ -9620,6 +9623,7 @@ Na figura acima é possível observar os seguintes campos de ação:
 ----
 
 * **Botão Lupa** |icone_lupa|: Este botão apresenta a mesma finalidade da funcionalidade “Contratos”. Se a credencial do usuário que está com uma sessão ativa estiver associada a mais de um contrato, ao clicar no ícone lupa a plataforma apresenta o modal com a lista de contratos disponíveis para a emissão do relatório.
+  
 
 * **Account provider**: Este campo é obrigatório, após selecionado o intervalo, o período e o contrato, a plataforma apresenta a relação de todos os *containers* provisionados aos quais o usuário está vinculado. Selecionado o *Account provider* o botão de pesquisa fica disponível para utilização.
 
@@ -9638,6 +9642,7 @@ Na figura acima é possível observar os seguintes campos de ação:
 ----
 
 * **Botão** ``Pesquisar``: Inicialmente esse botão aparece desabilitado, sendo ativado após selecionados o intervalo, o período, o contrato e o *Account provider*. O usuário deve clicar sobre este botão para seguir o fluxo de obtenção dos dados do relatório.
+  
 
 * **Linkeds**: Este campo é do tipo "*check mark*", após clicar no botão ``Pesquisar`` a plataforma apresenta a relação de todas as *Linkeds - Sub-Accounts* que fazem parte do(s) *Account provider(s)* que estão vinculados ao contrato. Neste momento o usuário deve selecionar uma (ou várias) *Linkeds*. Para facilitar a busca é possível digitar o nome da *Linked* no campo “Localizar”.
 
@@ -9647,7 +9652,9 @@ Na figura acima é possível observar os seguintes campos de ação:
    :align: center
 ----
 
+
 * **Botão** ``Próximo`` |icone_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para seguir ao próximo campo de filtragem de dados. Caso este botão esteja desativado significa inexistir seleção operacional para este campo de filtragem. Este botão também aparece no campo “Produto” apresentando a mesma funcionalidade. 
+
 
 * **Produto**: Este campo é do tipo "*radio button*", nele a plataforma uCloud apresenta a relação de todos *Product Name* que fazem parte do arquivo de *billing (CSV)* que está sincronizado com a base de dados interna. O usuário deve clicar sobre o produto desejado, logo é permitido clicar em apenas um *Product Name*. Para facilitar a busca é possível digitar o nome do “Produto” pretendido no campo “Localizar”. Neste campo também consta o botão |icone_proximo|, inicialmente ele aparece desabilitado, após selecionar o “Produto” ele é habilitado, o usuário deve clicar sobre ele para seguir ao terceiro e último campo de filtragem de dados.
 
@@ -9688,18 +9695,21 @@ Realizado todo esse caminho na qual o usuário informa os critérios necessário
 
 Na sequência a descrição dos elementos que compõem o relatório CRP:
 
+
 * **Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a plataforma uCloud apresenta os dados do relatório. Esta seção apresenta os dois tópicos:
+  
 
 * **Todas as Linkeds**: Uma das opções de exibição deste relatório, é a apresentação de um gráfico de barras do tipo *Datas x Custo*, com a representação da soma total dos valores de cada *Família do Produto*. Para facilitar a visualização e interpretação dos dados do relatório, a plataforma uCloud exibe a legenda do gráfico em cores distintas na parte superior.
-* 
+  
 
 .. image:: /figuras/fig_crp/015_custo_relacional_relatório_todas_linkeds.png
    :alt: Todas as Linkeds 
    :align: center
 ----
 
+
 * **Selecionar apenas uma Linked**: Também é uma das opções de exibição deste relatório. Ao clicar em uma das *Linkeds* apresentadas, igualmente a seção anterior, um gráfico de barra tipo *Datas x Custo* é exposto com a representação de cada *Família do Produto* para a *linked* específica. No exemplo abaixo exibe o gráfico no intervalo semanal. Nessa seção, a plataforma também apresenta a legenda do gráfico separado por cores distintas na parte superior.
-* 
+  
 
 .. image:: /figuras/fig_crp/016_custo_relacional_linked_selecionada.PNG
    :alt: Linked Selecionada
@@ -9899,8 +9909,6 @@ Este relatório tem uma grande valia na inteligência do negócio, pois pode aux
 .. Através deste relatório o usuário pode comparar os custos de *Família de Produtos* tanto dentro de uma (ou várias) *Linked Account*, bem como alternar para a visão da evolução dos custos de *Família de Produtos* dentro de um período selecionado (diário, semanal, mensal).
 
 .. Este relatório tem uma grande valia na inteligência de negócio, pois pode ajudar ao Administrador de Custos preparar visões Orcamentárias (*Previsto vs. Realizado*) que não estavam muito claras, devido a aomplexidade de análise dos arquivos de *billing (CSV)* do provedor de serviço de nuvem pública, quando existem diversas *Linked Accounts* no cenário de organização de contas.
-
-====
 
 Relatório Visualização de Recursos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16936,7 +16944,9 @@ Revisão 20/01/2023.
 
 .. |ícone_visualizar| image:: /figuras/fig_rcf/ícone_visualizar.png
 
-.. |icone_salvar_azul| image:: /figuras/ fig_rgcf/icone_salvar_azul.png
+.. |icone_salvar_azul| image:: /figuras/fig_rgcf/icone_salvar_azul.png
 
-.. |icone_cancelar_vermelho| image:: /figuras/fig_rgfc/icone_cancelar_vermelho.png
+.. |icone_cancelar_vermelho| image:: /figuras/fig_rgcf/icone_cancelar_vermelho.png
+
+.. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.png
    
