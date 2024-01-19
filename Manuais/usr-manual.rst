@@ -9535,176 +9535,370 @@ Pode-se verificar que a diferença de gastos é de $ - 49.999,73 entre os dias 0
 ====
 
 
-Relatório Custo Relacional de Produto
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Relatório Custo Relacional de Produto *CRP*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada ``Product Name`` e sua respectiva ``Family Name`` (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
+Este relatório permite visualizar o custo de cada serviço separadamente dentro de um contrato selecionado, nele é possível acompanhar a evolução (diária, semanal ou mensal) dos custos detalhados de consumo de cada *Product Name* e sua respectiva *Family Name* (sub-recursos). O grande benefício deste relatório é analisar a real composição de custos de um recurso em particular, apresentando detalhadamente os valores dos seus sub-recursos distribuídos no período selecionado.
 
-O grande benefício deste relatório é analisar a real composição de custos de um recurso ``Product Name``  em particular, com a apresentação detalhada dos valores dos seus sub-recursos ``Family Name`` distribuídos no período selecionado na preparação do relatório.
+.. attention:: |atencao| A plataforma uCloud **sincroniza e unifica** a fonte de dados original do provedor de serviço de nuvem em sua base - o arquivo de *billing* do provedor, de forma que este relatório possibilita a mesma visão, independentemente de como cada provedor de serviço de nuvem pública identifica (*nomeia*) seus produtos e os sub-produtos.
 
-Para os ambientes de multi-nuvem, cada provedor de serviço utiliza denominações e identificações específicas depara cada provedor de serviço de nuvem pública. A plataforma uCloud facilita, de forma muito prática, a análize da composição de custos de um produto.
+.. note:: |nota| Este relatório permite ao usuário analisar os custos individuais de cada *Family Name* de apenas um *Product Name* por vez.
 
-Lembre-se que a plataforma uCloud **sincroniza e unifica** a fonte de dados original do provedor de serviço de nuvem - o arquivo de *billing* do provedor (CSV, SQL, etc) - em suas bases de dados de forma que este relatório permite ter a mesma visão independentemente de como cada provedor de serviço de nuvem pública identifica (*nomeia*) seus produtos e os sub-produtos.
+Neste documento, visando a melhor experiência do usuário leitor, o Relatório Custo Relacional de Produto é mencionado a partir daqui como “CRP”.
 
-Em regra geral, todos os provedores de serviço de nuvem pública, possuem o conceito de:
 
-* **Total da Conta do Provedor de Serviço de Nuvem Pública é**:
+Acessando o Relatório CRP
+""""""""""""""""""""""""""""
 
-  * Account (uCloud: Container)
+Para acessar o CRP, o usuário deve selecionar o menu Financeiro localizado na parte lateral esquerda da plataforma, e logo após clicar em “Relatórios” ou “Relatórios New”. 
 
-    * Sub-Account (uCloud: Linked Account)
 
-      * Product Name (uCloud: Nome do Produto)
+.. image:: /figuras/fig_crp/001_custo_relacional_acesso.PNG
+   :alt: Acesso Relatório Custo Relacional de Produto 
+   :align: center
+----
 
-        * Family Name (uCloud: Família de Produto)
 
-          * Custo (Valor Final no período - diário, semanal, mensal)
+Quando o usuário seleciona esta opção, a plataforma uCloud apresenta uma tela dividida em dois grupos, "Painéis Baseados em Consumo" e "Painéis Baseados em Fatura", o relatório CRP encontra-se no primeiro grupo, para acessá-lo é necessário clicar na opção **Custo Relacional de Produto** (destacado na figura a seguir). 
 
-.. image:: /figuras/ucloud_menu_financeiro012a.png
+
+.. image:: /figuras/fig_crp/002_custo_relacional_menu_financeiro.PNG
+   :alt: Custo Relacional de Produto  
+   :align: center
+----
+
+Após selecionada esta opção, a tela inicial do relatório CRP é mostrada, permitindo ao usuário aprofundar sua análise na geração de dados detalhados dos gastos de recursos e sub-recursos. 
+
+
+.. image:: /figuras/fig_crp/003_custo_relacional_tela_inicial.PNG
+   :alt: Tela Inicial Relatório CRP 
+   :align: center
+----
+
+Na figura acima é possível observar os seguintes campos de ação:
+
+* **Botão** ``Voltar``: o usuário pode retornar à tela anterior (Relatórios do menu financeiro) a qualquer momento;
+* * *Card* **Intervalo**: Este campo é do tipo *dropdown* e o usuário pode selecionar o período ideal para avaliar os dados de consumo. Ao clicar nessa opção a plataforma uCloud apresenta os seguintes intervalos:
+* * **MENSAL**: O cliente pode entender como o seu consumo evolui ao longo do tempo de forma abrangente. É possível escolher de um a todos os meses do ano. Para exemplificar, 3 meses são selecionados, conforme a imagem abaixo.
+
+
+.. image:: /figuras/fig_crp/004_custo_relacional_intervalo_mensal.PNG
+   :alt: Intervalo Mensal 
+   :align: center
+----
+
+* **SEMANAL**: Este filtro permite ter uma visão granular do consumo, nele o usuário é capaz de entender e identificar comportamentos que geram picos de consumo em determinadas semanas ao longo dos meses. Importante ressaltar que no presente momento a plataforma uCloud trabalha apenas com o conceito de semanas fechadas do mês, e estas são numeradas sequencialmente de 1 a 52, apresentadas no lado esquerdo do calendário. Conforme imagem abaixo:
+
+
+.. image:: /figuras/fig_crp/005_custo_relacional_intervalo_semanal.PNG
+   :alt: Intervalo Semanal 
+   :align: center
+----
+
+* **DIÁRIO**: Permite ao usuário visualizar o consumo na menor granularidade de período possível, auxiliando no entendimento e identificação do comportamento que gera picos de gastos ao longo dos dias. A plataforma apresenta um círculo para marcar a data atual (no exemplo abaixo 18/10/2023).
+
+
+.. image:: /figuras/fig_crp/006_custo_relacional_intervalo_diário.PNG
+   :alt: Intervalo Diário 
+   :align: center
+----
+
+* **Período**: Após selecionado o intervalo e realizada a escolha das datas a serem filtradas, a plataforma exibe o período indicado pelo usuário para produção do relatório em questão. No exemplo abaixo, para um intervalo mensal, os meses selecionados são agosto, setembro e outubro.
+
+
+.. image:: /figuras/fig_crp/007_custo_relacional_período.PNG
+   :alt: Seleção de Período para Produção do Relatório 
+   :align: center
+----
+
+* **Contratos**: Ao clicar nesse campo, a plataforma exibe um modal com a lista de contratos associados a credencial logada na plataforma (no exemplo apresentado são 157 contratos disponíveis), cabendo ao usuário decidir qual deles será selecionado para a geração do relatório CRP. Este apresenta apenas as informações financeiras referente ao contrato selecionado. O usuário pode utilizar a barra de pesquisa que fica localizado na parte direita do modal quando necessário, ou utilizar o campo “Pesquisar”.
+
+
+.. image:: /figuras/fig_crp/008_custo_relacional_lista_de_contratos.PNG
+   :alt: Lista de Contratos
+   :align: center
+----
+
+* **Botão Lupa** |icone_lupa|: Este botão apresenta a mesma finalidade da funcionalidade “Contratos”. Se a credencial do usuário que está com uma sessão ativa estiver associada a mais de um contrato, ao clicar no ícone lupa a plataforma apresenta o modal com a lista de contratos disponíveis para a emissão do relatório.
+
+* **Account provider**: Este campo é obrigatório, após selecionado o intervalo, o período e o contrato, a plataforma apresenta a relação de todos os *containers* provisionados aos quais o usuário está vinculado. Selecionado o *Account provider* o botão de pesquisa fica disponível para utilização.
+
+
+.. image:: /figuras/fig_crp/009_custo_relacional_account_provider.PNG
+   :alt: Account Provider Custo Relacional 
+   :align: center
+----
+
+.. note:: |nota| A plataforma exibe as opções de *Account provider* mediante a existência de informações que já foram bilhetadas para o intervalo, período e/ou contrato correspondentes. Na inexistência de dados, a plataforma exibe uma mensagem de alerta na parte superior direita da tela, comunicando que não foi possível encontrar *Account provider* com consumo registrado para o período selecionado.
+
+
+.. image:: /figuras/fig_crp/010_custo_relacional_sem_consumo.png
+   :alt: Alerta de Nenhum Account Provider encontrado 
+   :align: center
+----
+
+* **Botão** ``Pesquisar``: Inicialmente esse botão aparece desabilitado, sendo ativado após selecionados o intervalo, o período, o contrato e o *Account provider*. O usuário deve clicar sobre este botão para seguir o fluxo de obtenção dos dados do relatório.
+
+* **Linkeds**: Este campo é do tipo "*check mark*", após clicar no botão ``Pesquisar`` a plataforma apresenta a relação de todas as *Linkeds - Sub-Accounts* que fazem parte do(s) *Account provider(s)* que estão vinculados ao contrato. Neste momento o usuário deve selecionar uma (ou várias) *Linkeds*. Para facilitar a busca é possível digitar o nome da *Linked* no campo “Localizar”.
+
+
+.. image:: /figuras/fig_crp/011_custo_relacional_linkeds.PNG
+   :alt: Linkeds 
+   :align: center
+----
+
+* **Botão** ``Próximo`` |icone_proximo|: O usuário deve clicar com o cursor do mouse sobre este botão para seguir ao próximo campo de filtragem de dados. Caso este botão esteja desativado significa inexistir seleção operacional para este campo de filtragem. Este botão também aparece no campo “Produto” apresentando a mesma funcionalidade. 
+
+* **Produto**: Este campo é do tipo "*radio button*", nele a plataforma uCloud apresenta a relação de todos *Product Name* que fazem parte do arquivo de *billing (CSV)* que está sincronizado com a base de dados interna. O usuário deve clicar sobre o produto desejado, logo é permitido clicar em apenas um *Product Name*. Para facilitar a busca é possível digitar o nome do “Produto” pretendido no campo “Localizar”. Neste campo também consta o botão |icone_proximo|, inicialmente ele aparece desabilitado, após selecionar o “Produto” ele é habilitado, o usuário deve clicar sobre ele para seguir ao terceiro e último campo de filtragem de dados.
+
+.. image:: /figuras/fig_crp/012_custo_relacional_produtos.PNG
+   :alt: Selecionando o Produto 
+   :align: center
+----
+
+* **Família do Produto**: Este campo é do tipo "*check mark*", a plataforma uCloud apresenta a relação de “Família do Produto” que estão vinculadas ao “Produto” selecionado no campo anterior. O usuário pode selecionar todos os itens apresentados ou apenas aquele(s) que seja(m) do seu interesse para obtenção do relatório (ver exemplo abaixo). 
+
+.. image:: /figuras/fig_crp/013_custo_relacional_familia_do_produto.PNG
+   :alt: Selecionando Família do Produto 
+   :align: center
+----
+
+Para facilitar a busca, é possível digitar o nome da “Família do Produto” pretendida no espaço “Localizar”. O campo “Família do Produto” apresenta os botões ``Fazer Busca`` e ``Limpar`` explicitados adiante.
+
+* **Botão** ``Limpar``: O usuário deve clicar sobre este botão quando necessitar redefinir os campos de filtragem. Este é o procedimento padrão indicado ao usuário quando necessita gerar o relatório com novos dados.
+
+* **Botão** ``Fazer Busca``: Após selecionadas as opções do campo “Família do Produto”, o usuário deve clicar sobre este botão e a plataforma uCloud realiza a geração do relatório. Inicialmente aparece desabilitado, ao clicar em ao menos uma das opções de “Família do Produto” o botão torna-se disponível. 
+
+
+Obtendo o Relatório CRP
+""""""""""""""""""""""""""""""""""""""""""""
+
+Conforme explicado anteriormente, para facilitar o entendimento do leitor/usuário, é reforçado que: para acessar o relatório CRP o usuário clica no menu financeiro da plataforma uCloud, escolhe os painéis baseados em consumo e opta pelo relatório **Custo Relacional de Produto**. Selecionado o intervalo, o período e o contrato, deve escolher o *Account provider*, para que sejam exibidas as *Linkeds*. Assim, o usuário precisa eleger o produto, logo após selecionar uma ou várias das opções reveladas no campo “Família do produto”. 
+
+Realizado todo esse caminho na qual o usuário informa os critérios necessários para a elaboração do relatório ele deve clicar no botão ``Fazer Busca``, como resultado a plataforma exibe um novo *board* com os dados do relatório CRP (exemplo abaixo).
+
+
+.. image:: /figuras/fig_crp/014_custo_relacional_relatório.PNG
+   :alt: Dados do Relatório CRP 
+   :align: center
+----
+
+.. note:: |nota| Esse relatório não permite a exportação de dados. Todas as informações são apresentadas dentro da plataforma.
+
+
+Na sequência a descrição dos elementos que compõem o relatório CRP:
+
+* **Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a plataforma uCloud apresenta os dados do relatório. Esta seção apresenta os dois tópicos:
+
+* **Todas as Linkeds**: Uma das opções de exibição deste relatório, é a apresentação de um gráfico de barras do tipo *Datas x Custo*, com a representação da soma total dos valores de cada *Família do Produto*. Para facilitar a visualização e interpretação dos dados do relatório, a plataforma uCloud exibe a legenda do gráfico em cores distintas na parte superior.
+* 
+
+.. image:: /figuras/fig_crp/015_custo_relacional_relatório_todas_linkeds.png
+   :alt: Todas as Linkeds 
+   :align: center
+----
+
+* **Selecionar apenas uma Linked**: Também é uma das opções de exibição deste relatório. Ao clicar em uma das *Linkeds* apresentadas, igualmente a seção anterior, um gráfico de barra tipo *Datas x Custo* é exposto com a representação de cada *Família do Produto* para a *linked* específica. No exemplo abaixo exibe o gráfico no intervalo semanal. Nessa seção, a plataforma também apresenta a legenda do gráfico separado por cores distintas na parte superior.
+* 
+
+.. image:: /figuras/fig_crp/016_custo_relacional_linked_selecionada.PNG
+   :alt: Linked Selecionada
+   :align: center
+----
+
+A última parte deste relatório diz respeito às tabelas de informações, que tem por objetivo auxiliar a visualização e interpretação dos dados. Embora pareçam semelhantes, se distinguem por pequenas diferenças em cada uma das tabelas, correspondente às seções *Todas as Linkeds* e *Selecionar apenas uma Linked*.
+
+* **Tabelas das seções “Todas as Linkeds” e “Selecionar apenas uma Linked”**: Conforme já mencionado, essas tabelas fazem parte do relatório CRP e são visíveis ao usuário depois da geração do relatório. Na tabela *Todas as Linkeds* (tabela superior) constam 4 colunas, são elas: *Linked*, Nome do Produto, Família do Produto e Valor. Na outra tabela *Selecionar apenas uma Linked* (tabela inferior) também constam 4 colunas: *Dates*, Nome do produto, Família do produto e Valor. Na sequência são detalhados os exemplos e a descrição de cada uma dessas colunas.
+  
+
+.. image:: /figuras/fig_crp/017_custo_relacional_tabelas.PNG
+   :alt: CRP Tabelas
+   :align: center
+----
+
+* **Linkeds**: Esta coluna exibe a lista de todas as *Linkeds* que foram selecionadas na elaboração do relatório, ela é apresentada apenas na tabela da seção *Todas as Linkeds*;
+
+* **Dates**: Esta coluna é exclusiva para a seção *Selecionar apenas uma Linked* e apresenta os valores específicos para cada *Família dos Produtos*, de acordo com o período selecionado e em suas respectivas datas. Incluídos no filtro uma ampla sequência de datas, como visualização padrão a plataforma apresenta a respectiva coluna de forma cronológica ascendente, o usuário pode modificar/inverter essa exibição clicando na coluna “Dates”;
+
+* **Nome do produto**: Nesta coluna a plataforma apresenta o *Nome do Produto* que foi selecionado no campo de filtragem; conforme o exemplo apresentado, esta coluna está presente em ambas seções;
+
+* **Família do Produto**: Esta coluna relaciona a(s) *Família do Produto* selecionada(s) no campo de filtragem, conforme o exemplo exposto, esta coluna está presente em ambas seções;
+
+* **Valor**: Nesta coluna a plataforma uCloud exibe a somatória dos custos referentes ao período selecionado.
+
+.. note:: |nota| Ao clicar na tabela sob a coluna *Valor* é possível ordenar do maior valor para o menor ou vice-versa; já ao clicar sob a coluna *Família do Produto* é possível verificar que as informações podem ser exibidas em ordem alfabética ou em ordem inversa.
+
+Este relatório tem uma grande valia na inteligência do negócio, pois pode auxiliar o usuário e/ou Gerenciador de Custos na interpretação dos dados, como também, na visualização das informações de forma detalhada. O relatório CRP auxilia na preparação de visões Orçamentárias (*Previsto vs. Realizado*) que não estavam muito claras, devido a complexidade de análise dos arquivos de *billing (CSV)* do provedor de serviço de nuvem pública, principalmente quando existem diversas *Linked Accounts* no cenário de organização de contas.
+
+==== 
+
+.. Este relatório permite ao administrador de custos acompanhar a evolução (mensal, semanal ou diária) dos custos detalhados de consumo de cada ``Product Name`` e sua respectiva ``Family Name`` (sub-recursos) por provedor de serviço (*Container*) e por sub-conta(s).
+
+.. O grande benefício deste relatório é analisar a real composição de custos de um recurso ``Product Name``  em particular, com a apresentação detalhada dos valores dos seus sub-recursos ``Family Name`` distribuídos no período selecionado na preparação do relatório.
+
+.. Para os ambientes de multi-nuvem, cada provedor de serviço utiliza denominações e identificações específicas depara cada provedor de serviço de nuvem pública. A plataforma uCloud facilita, de forma muito prática, a análize da composição de custos de um produto.
+
+.. Lembre-se que a plataforma uCloud **sincroniza e unifica** a fonte de dados original do provedor de serviço de nuvem - o arquivo de *billing* do provedor (CSV, SQL, etc) - em suas bases de dados de forma que este relatório permite ter a mesma visão independentemente de como cada provedor de serviço de nuvem pública identifica (*nomeia*) seus produtos e os sub-produtos.
+
+.. Em regra geral, todos os provedores de serviço de nuvem pública, possuem o conceito de:
+
+.. * **Total da Conta do Provedor de Serviço de Nuvem Pública é**:
+
+  .. * Account (uCloud: Container)
+
+    .. * Sub-Account (uCloud: Linked Account)
+
+      .. * Product Name (uCloud: Nome do Produto)
+
+        .. * Family Name (uCloud: Família de Produto)
+
+          .. * Custo (Valor Final no período - diário, semanal, mensal)
+
+.. .. image:: /figuras/ucloud_menu_financeiro012a.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 40 %
    :align: center
 
-----
+.. ----
 
-Na figura acima (meramente ilustrativa) pode-se visualizar os custos de cada item de um ``Family Name`` composto por valor do ``Product Name`` e a somatória destes custos, totaliza o valor do período consultado (diário, semanal, mensal).
+.. Na figura acima (meramente ilustrativa) pode-se visualizar os custos de cada item de um ``Family Name`` composto por valor do ``Product Name`` e a somatória destes custos, totaliza o valor do período consultado (diário, semanal, mensal).
 
-Este relatório permite ao usuário analizar os custos individuais de cada ``Family Name`` de apenas um ``Product Name`` por vez.
+.. Este relatório permite ao usuário analizar os custos individuais de cada ``Family Name`` de apenas um ``Product Name`` por vez.
 
-Neste relatório, é posível acompanhar a evolução do consumo de um ``Family Name`` dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
+.. Neste relatório, é posível acompanhar a evolução do consumo de um ``Family Name`` dentro de uma *Sub-Account* para o período selecionado, mesmo que este seja abrangente (vários dias, semanas, meses).
 
-Ao selecionar a opção do menu ``Custo relacional de produto`` solicita-se a escolha de um ``Contrato``, tipo de ``Intervalo``, ``Período``, ``Nuvem`` (*Container*) e ``Linked-Account`` (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada, conforme apresentado nas imagens abaixo.
+.. Ao selecionar a opção do menu ``Custo relacional de produto`` solicita-se a escolha de um ``Contrato``, tipo de ``Intervalo``, ``Período``, ``Nuvem`` (*Container*) e ``Linked-Account`` (sub-conta)*, através desse relatório é possível analisar os custos de forma detalhada, conforme apresentado nas imagens abaixo.
 
-Quando selecionado este relatório, a plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
+.. Quando selecionado este relatório, a plataforma uCloud apresenta a tela abaixo, onde o usuário deve informar ou selecionar apenas um único contrato:
 
-.. image:: /figuras/ucloud_menu_financeiro002.png
+.. .. image:: /figuras/ucloud_menu_financeiro002.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 40 %
    :align: center
 
-----
+.. ----
 
-Após selecionado o contrato a plataforma uCloud apresenta os campos a tela inicial do relatório com campos onde o usuário pode informar os critérios necessários para a apresentação do relatório, a figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+.. Após selecionado o contrato a plataforma uCloud apresenta os campos a tela inicial do relatório com campos onde o usuário pode informar os critérios necessários para a apresentação do relatório, a figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro012b.png
+.. .. image:: /figuras/ucloud_menu_financeiro012b.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 40 %
    :align: center
 
-----
+.. ----
 
-Na sequência a descrição dos campos apresentados na figura: 
+.. Na sequência a descrição dos campos apresentados na figura: 
 
-* **Contrato**: Este campo se apresenta preenchido com o contrato informado na tela anterior, e o relatório será apresentado somente com as informações financeiras referentes a este contrato.
+.. * **Contrato**: Este campo se apresenta preenchido com o contrato informado na tela anterior, e o relatório será apresentado somente com as informações financeiras referentes a este contrato.
 
-* **Botão Lupa** |icone_lupa|:  Se a credencial do usuário, que está com uma sessão ativa (*login*) está associado a mais de um contrato, este usuário poderá consultar outro contrato. 
+.. * **Botão Lupa** |icone_lupa|:  Se a credencial do usuário, que está com uma sessão ativa (*login*) está associado a mais de um contrato, este usuário poderá consultar outro contrato. 
      Para isto deve clicar com o cursor do mouse sobre o ícone da *lupa* para plataforma uCloud apresentar a tela para informar o nome de outro contrato para emissão do relatório.
 
-* **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando se faz uma análise comparativa mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a plataforma uCloud apresenta as opções:
+.. * **Intervalo**: Este campo é do tipo "dropdown" e o usuário pode selecionar o período ideal para avaliar os dados de consumo de sem ambiente. Quando se faz uma análise comparativa mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Quando clicar com o cursor do mouse a plataforma uCloud apresenta as opções:
   
-  * **MENSAL**: Ao selecionar a análise mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo é selecionado o campo ``Período`` então ``Mensal``, desta forma o calendário com os meses torna-se disponível para a seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, os últimos 3 meses são selecionados, conforme imagem abaixo.
+  .. * **MENSAL**: Ao selecionar a análise mensal o cliente pode entender como a sua fatura evolui ao longo do tempo, de acordo com o faturamento do provedor. Esta visão permite entender o consumo dos produtos de acordo com a fatura do cliente, no exemplo abaixo é selecionado o campo ``Período`` então ``Mensal``, desta forma o calendário com os meses torna-se disponível para a seleção. É possível escolher mínimo 1 mês e máximo todos os meses do ano. Para exemplificar, os últimos 3 meses são selecionados, conforme imagem abaixo.
 
-.. image:: /figuras/ucloud_menu_financeiro002c.png
+.. .. image:: /figuras/ucloud_menu_financeiro002c.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-  * **SEMANAL**: Este filtro permite ter uma visão mais granular do consumo, podendo entender e identificar picos de consumos em semanas aos longos dos meses. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinada semana e não em outra. Importante ressaltar que no presente momento a plataforma do uCloud trabalha apenas com o conceito de semanas fechadas do mês (domingo a sábado), e estas semanas são numeradas sequencialmente de 1 a 52 e apresentadas ao lado esquerdo do calendário apresentado. O campo ``Período`` mostra o calendário ``Semanal``. Conforme imagem abaixo:
+  .. * **SEMANAL**: Este filtro permite ter uma visão mais granular do consumo, podendo entender e identificar picos de consumos em semanas aos longos dos meses. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinada semana e não em outra. Importante ressaltar que no presente momento a plataforma do uCloud trabalha apenas com o conceito de semanas fechadas do mês (domingo a sábado), e estas semanas são numeradas sequencialmente de 1 a 52 e apresentadas ao lado esquerdo do calendário apresentado. O campo ``Período`` mostra o calendário ``Semanal``. Conforme imagem abaixo:
 
-.. image:: /figuras/ucloud_menu_financeiro002d.png
+.. .. image:: /figuras/ucloud_menu_financeiro002d.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-  * **DIÁRIO**: Este filtro permite ter uma visão na menor granularidade de período possível. Com esta granularidade é possível entender e identificar picos de consumos ao longo dos dias. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinado dia e não em outro. O campo ``Período`` mostra o calendário ``Diário``. Conforme imagem abaixo:
+  .. * **DIÁRIO**: Este filtro permite ter uma visão na menor granularidade de período possível. Com esta granularidade é possível entender e identificar picos de consumos ao longo dos dias. Neste caso pode trazer indicativos de aplicações ou comportamento que geram picos de consumo em uma determinado dia e não em outro. O campo ``Período`` mostra o calendário ``Diário``. Conforme imagem abaixo:
 
-.. image:: /figuras/ucloud_menu_financeiro002e.png
+.. .. image:: /figuras/ucloud_menu_financeiro002e.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-* **Período**: A plataforma uCloud altera este campo em após o usuário selecionar o período no campo anteritor. Este campo é obrigatório.
+.. * **Período**: A plataforma uCloud altera este campo em após o usuário selecionar o período no campo anteritor. Este campo é obrigatório.
 
-* **Container**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a plataforma uCloud apresenta relação de todos os containers provisionados aos quais o usuário está vinculado para uso.
+.. * **Container**: Este campo é obrigatório do tipo “drop down”, quando o usuário clica com o cursor do mouse a plataforma uCloud apresenta relação de todos os containers provisionados aos quais o usuário está vinculado para uso.
 
-* **Botão Pesquisar**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud permita que o usuário selecione os próximos campos para apresentação do relatório.
+.. * **Botão Pesquisar**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud permita que o usuário selecione os próximos campos para apresentação do relatório.
 
-* **Linked Account**: Este campo é do tipo "*check mark*" e a plataforma uCloud apresenta a relação de todas as *Linked Accounts - Sub-Accounts* que fazem parte do(s) container(s) que estão vinculados ao contrato do usuário cm uma sessão ativa (*login*). Neste momento o usuário deve selecionar uma (ou várias) *Linked Accounts* que serão objeto da emissão do reltório. Importante mencionar que esta seleção irá interagir com outro campo do relatório, desta forma o usuário poderá comparar o consumo de recursos entre diferentes *Linked Accounts* para o período selecionado.
+.. * **Linked Account**: Este campo é do tipo "*check mark*" e a plataforma uCloud apresenta a relação de todas as *Linked Accounts - Sub-Accounts* que fazem parte do(s) container(s) que estão vinculados ao contrato do usuário cm uma sessão ativa (*login*). Neste momento o usuário deve selecionar uma (ou várias) *Linked Accounts* que serão objeto da emissão do reltório. Importante mencionar que esta seleção irá interagir com outro campo do relatório, desta forma o usuário poderá comparar o consumo de recursos entre diferentes *Linked Accounts* para o período selecionado.
 
-* **Ícone Próximo** |icone_next_ativo|: O usuário deve clicar com o cursor do mouse sobre este ícone para a plataforma uCloud permitir seguir para o próximo campo de filtragem de dados. Caso este ícone esteja desativado |icone_next_off| significa que não existe seleção ativa para este campo de filtragem e a plataforma uCloud não está customizada para o próximo campo de filtragem.
+.. * **Ícone Próximo** |icone_next_ativo|: O usuário deve clicar com o cursor do mouse sobre este ícone para a plataforma uCloud permitir seguir para o próximo campo de filtragem de dados. Caso este ícone esteja desativado |icone_next_off| significa que não existe seleção ativa para este campo de filtragem e a plataforma uCloud não está customizada para o próximo campo de filtragem.
 
-* **Produto**: Este campo é do tipo "*radio button*" e a plataforma uCloud apresenta a relação de todos os *Product Name** que estão fazem parte do arquivo de *billing (CSV)* que está sincronizado com as bases de dados internas. O usuário deve clicar com o cursor do mouse sobre o produto desejado para apresentção do relatório - **apenas um Product Name é permitido**. Importante mencionar que serão listados todos os *Product Name* que estão no arquivo de *billing* que possuem (ou não) valores de custo para o período selecionado.
+.. * **Produto**: Este campo é do tipo "*radio button*" e a plataforma uCloud apresenta a relação de todos os *Product Name** que estão fazem parte do arquivo de *billing (CSV)* que está sincronizado com as bases de dados internas. O usuário deve clicar com o cursor do mouse sobre o produto desejado para apresentção do relatório - **apenas um Product Name é permitido**. Importante mencionar que serão listados todos os *Product Name* que estão no arquivo de *billing* que possuem (ou não) valores de custo para o período selecionado.
 
-* **Ícone Próximo** |icone_next_ativo|: O usuário deve clicar com o cursor do mouse sobre este ícone para a Plataforma uCloud permitir seguir para o próximo campo de filtragem de dados. Caso este ícone esteja desativado |icone_next_off| significa que não existe seleção ativa para este campo de filtragem e a plataforma uCloud não está customizada para o próximo campo de filtragem.
+.. * **Ícone Próximo** |icone_next_ativo|: O usuário deve clicar com o cursor do mouse sobre este ícone para a Plataforma uCloud permitir seguir para o próximo campo de filtragem de dados. Caso este ícone esteja desativado |icone_next_off| significa que não existe seleção ativa para este campo de filtragem e a plataforma uCloud não está customizada para o próximo campo de filtragem.
 
-* **Família do Produto**: Este campo é do tipo "*check mark*" e a plataforma uCloud apresenta a relação de todos as *Family Name** que estão fazem parte do *Product Name* selecionado no campo anterior. O usuário pode selecionar todos (ou apenas um) *Family Name*, basta clicar com o cursor do mouse sobre todos os *Family Name* desejados para apresentção do relatório.
+.. * **Família do Produto**: Este campo é do tipo "*check mark*" e a plataforma uCloud apresenta a relação de todos as *Family Name** que estão fazem parte do *Product Name* selecionado no campo anterior. O usuário pode selecionar todos (ou apenas um) *Family Name*, basta clicar com o cursor do mouse sobre todos os *Family Name* desejados para apresentção do relatório.
 
-* **Botão Limpar**: O usuário deve clicar com o cursor do mouse sobre este botão somente quando necessita redefinir todos os campos de filtragem para reiniciar a apresentação do relatório desde seu início. Este é o procedimento padrão quando o usuário necessita analizar o relatório com outros *Produtos* e outros *Família de Produtos*.
+.. * **Botão Limpar**: O usuário deve clicar com o cursor do mouse sobre este botão somente quando necessita redefinir todos os campos de filtragem para reiniciar a apresentação do relatório desde seu início. Este é o procedimento padrão quando o usuário necessita analizar o relatório com outros *Produtos* e outros *Família de Produtos*.
 
-* **Botão Fazer Busca**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresente o relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
+.. * **Botão Fazer Busca**: Após selecionados os campos de período, o usuário deve clicar com o cursor do mouse sobre este botão para a plataforma uCloud apresente o relatório. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro012c.png
+.. .. image:: /figuras/ucloud_menu_financeiro012c.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-A seguir a descrição dos quadros deste relatório:
+.. A seguir a descrição dos quadros deste relatório:
 
-* **Seção Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a platafrma uCloud apresenta o gráfico de barras ao lado confirme as opções abaixo:
+.. * **Seção Selecione uma Linked**: Neste quadro o usuário pode alternar a forma como a platafrma uCloud apresenta o gráfico de barras ao lado confirme as opções abaixo:
 
-  * **Selecione todas as Linkeds**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
+  .. * **Selecione todas as Linkeds**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
        Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico. A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro012d.png
+.. .. image:: /figuras/ucloud_menu_financeiro012d.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-  * **Selecionar SOMENTE UMA LINKED**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
+  .. * **Selecionar SOMENTE UMA LINKED**: Esta é a opção padrão de apresentação deste relatório, e a plataforma uCloud apresenta um gráfico de barra, com a pilha dos valores de cada *Family Name*. Cada barra representa uma *Linked Account* totalizada em somente uma barra. 
        Importante mencionar que a plataforma uCloud apresenta a legenda de cores na parte superior do gráfico e que as linkeds desativadas não possuem dados no intervalo de tempo selecionado, e podem apresentar valor ZERO (0). A figura abaixo é meramente ilustrativa e serve apenas como exemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro012e.png
+.. .. image:: /figuras/ucloud_menu_financeiro012e.png
    :alt: Menu Financeiro - Histórico de Serviço
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-A última parte deste relatório a plataforma uCloud apresenta a lista com as informações e valores que foram utilizados para a geração do gráfico acima. Esta listagem possui as seguintes colunas:
+.. A última parte deste relatório a plataforma uCloud apresenta a lista com as informações e valores que foram utilizados para a geração do gráfico acima. Esta listagem possui as seguintes colunas:
 
-* **Linkeds**: Esta primeira coluna apresenta a lista de todas as *Linked Accounts*, que foram selecionadas no campo de filtragem *Linked Account* acima, e somente quando o usuário seleciona a opção **Selecione todas as Linkeds** no quadro anterior. 
+.. * **Linkeds**: Esta primeira coluna apresenta a lista de todas as *Linked Accounts*, que foram selecionadas no campo de filtragem *Linked Account* acima, e somente quando o usuário seleciona a opção **Selecione todas as Linkeds** no quadro anterior. 
      Importante mencionar que esta coluna pode alternar para apresentar as **datas** do período selecionado. Como resultado desta seleção, a listagem da cluna *Família de Produto* apresenta a somatória de todas as incidências desta Família de Produto no período selecionado.
 
-* **Datas**: Esta primeira coluna apresenta a lista de todas as *Datas*, que foram selecionadas no campo de filtragem *Período* acima, e somente quando o usuário seleciona a opção **SOMENTE UMA LINKED** no quadro anterior. 
+.. * **Datas**: Esta primeira coluna apresenta a lista de todas as *Datas*, que foram selecionadas no campo de filtragem *Período* acima, e somente quando o usuário seleciona a opção **SOMENTE UMA LINKED** no quadro anterior. 
      Importante mencionar que esta coluna pode alternar para apresentar as **Linked Accounts** do período selecionado. Se a seleção do campo período incluir uma ampla sequencia de datas, a plataforma uCloud apresenta as datas de forma cronológica ascendente.
 
-* **Nome do produto**: Nesta coluna a plataforma uCloud apresenta somente o *Nome do Produto* que foi selecionado no campo de filtragem *Produto* acima.
+.. * **Nome do produto**: Nesta coluna a plataforma uCloud apresenta somente o *Nome do Produto* que foi selecionado no campo de filtragem *Produto* acima.
 
-* **Família do Produto**: Esta coluna a plataforma uCloud relaciona o *Nome do Produto* que foi selecionado no campo de filtragem *Produto* acima e pode alternar entre duas informações diferentes:
+.. * **Família do Produto**: Esta coluna a plataforma uCloud relaciona o *Nome do Produto* que foi selecionado no campo de filtragem *Produto* acima e pode alternar entre duas informações diferentes:
 
-  #. Caso o usuário tenha selecionado **Todas as Linkeds** na seção anterior, o resultado desta seleção é a somatória de todas as incidências desta *Família de Produto* no período selecionado.
+  .. #. Caso o usuário tenha selecionado **Todas as Linkeds** na seção anterior, o resultado desta seleção é a somatória de todas as incidências desta *Família de Produto* no período selecionado.
 
-  #. Caso o usuário tenha selecionado **SOMENTE UMA LINKED** na seção anterior, a plataforma uCloud pode apresentar diversas linhas com a mesma incidência da *Família de Produto*, e os seus respectivos valores em cada data relacionada na primeira coluna (*Datas*).
+  .. #. Caso o usuário tenha selecionado **SOMENTE UMA LINKED** na seção anterior, a plataforma uCloud pode apresentar diversas linhas com a mesma incidência da *Família de Produto*, e os seus respectivos valores em cada data relacionada na primeira coluna (*Datas*).
 
-* **Valor**: Nesta coluna a plataforma uCloud apresenta a somatória dos custos referente ao período selecionado.
+.. * **Valor**: Nesta coluna a plataforma uCloud apresenta a somatória dos custos referente ao período selecionado.
 
-----
+.. ----
 
-* **Resumo do Relatório Custo Relacional de Produto**
+.. * **Resumo do Relatório Custo Relacional de Produto**
 
-Através deste relatório o usuário pode comparar os custos de *Família de Produtos* tanto dentro de uma (ou várias) *Linked Account*, bem como alternar para a visão da evolução dos custos de *Família de Produtos* dentro de um período selecionado (diário, semanal, mensal).
+.. Através deste relatório o usuário pode comparar os custos de *Família de Produtos* tanto dentro de uma (ou várias) *Linked Account*, bem como alternar para a visão da evolução dos custos de *Família de Produtos* dentro de um período selecionado (diário, semanal, mensal).
 
-Este relatório tem uma grande valia na inteligência de negócio, pois pode ajudar ao Administrador de Custos preparar visões Orcamentárias (*Previsto vs. Realizado*) que não estavam muito claras, devido a aomplexidade de análise dos arquivos de *billing (CSV)* do provedor de serviço de nuvem pública, quando existem diversas *Linked Accounts* no cenário de organização de contas.
+.. Este relatório tem uma grande valia na inteligência de negócio, pois pode ajudar ao Administrador de Custos preparar visões Orcamentárias (*Previsto vs. Realizado*) que não estavam muito claras, devido a aomplexidade de análise dos arquivos de *billing (CSV)* do provedor de serviço de nuvem pública, quando existem diversas *Linked Accounts* no cenário de organização de contas.
 
 ====
 
