@@ -790,8 +790,26 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-``inserir hyperlink``
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                        |Relatório de Gestão de Crédito da Fatura (RGCF)                                                                                      |
++===============================+=====================================================================================================================================+
+|Objetivo                       |Permite que o administrador do sistema possa realizar o controle individual de quais créditos o cliente recebe, ao mesmo tempo       |
+|                               |visualizar o total de créditos na nuvem e o total recebido pelo cliente.                                                             |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------|
+|Descrição                      |Relatório exclusivo para administrador do sistema                                                                                    |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------|
+|Novo comportamento do portal   |Apresenta quanto de crédito fica para o cliente em tempo real, pois o bloco informativo de créditos totais no portal é atualizado    |
+|                               |imediatamente após adicionar ou não o crédito à fatura do usuário.                                                                   |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal          |Menu Financeiro > Submenu Utilitários                                                                                                |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|Link de acesso                 |https://bit.ly/rgcfucloudmu                                                                                                          |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
+.. figure:: /figuras/fig_rgcf/007_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+=====
 
 ----
 
