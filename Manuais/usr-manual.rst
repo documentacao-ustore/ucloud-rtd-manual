@@ -13144,9 +13144,9 @@ Para concluir a edição, basta o usuário clicar em um dos ícones de ação de
    :alt: icones ações
 ----
 
-Ícone "Cancelar alterações" |icone_cancelar_vermelho|, representado pelo botão de cor vermelha.
+Ícone "Cancelar alterações" |icone_cancelar_vermelho| , representado pelo botão de cor vermelha.
 
-Caso o usuário desista de cancelar os registros, é possível reiniciar as alterações sem a necessidade de sair da tela clicando no ícone |icone_cancelar_vermelho|. Em seguida, uma mensagem de alerta é exibida em tela para que o usuário confirme a ação.
+Caso o usuário desista de cancelar os registros, é possível reiniciar as alterações sem a necessidade de sair da tela clicando no ícone |icone_cancelar_vermelho| . Em seguida, uma mensagem de alerta é exibida em tela para que o usuário confirme a ação.
 
 .. figure:: /figuras/fig_rgcf/014_mensagem_alerta.png
    :align: center
@@ -13162,7 +13162,7 @@ Seguido a isso, uma mensagem é exibida no canto superior direito da tela, no en
    :alt: mensagem feedback
 ----
 
-Ícone "Salvar alterações" |icone_salvar_azul| , indicado pelo botão de cor azul.
+Ícone "Salvar alterações"|icone_salvar_azul| , indicado pelo botão de cor azul.
 
 
 Para confirmar que deseja realizar a edição dos créditos disponibilizados ao cliente, é necessário clicar no ícone |icone_salvar_azul| . Em seguida, uma mensagem informativa é apresentada, momento que o usuário pode acompanhar o progresso da atualização dos registros alterados.
@@ -16745,4 +16745,3 @@ Revisão 20/01/2023.
 .. |icone_salvar_azul| image:: /figuras/ fig_rgcf/icone_salvar_azul.png
 
 .. |icone_cancelar_vermelho| image:: /figuras/fig_rgfc/icone_cancelar_vermelho.png
-   
