@@ -2750,7 +2750,7 @@ Solicite acesso ao documento Manual do Administrador da plataforma uCloud, e voc
 
 ----
 
-Seção: *Upload* de Termo de Responsabilidade (novo)
+Seção: *Upload* do Termo de Responsabilidade (novo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta funcionalidade foi desenvolvida com a finalidade de proteger e informar aos usuários sobre o uso e tratamento de dados no portal uCloud.
@@ -2831,7 +2831,7 @@ Adicionando
 
 ----
 
-Para adicionar o termo, é necessário navegar ao fim desta página até encontrar na tela o último *card* nomeado como “*Upload* de Termo de Responsabilidade”, evidenciado no segundo recorte da imagem da tela de configuração geral.
+Para adicionar o termo, é necessário navegar ao fim desta página até encontrar na tela o último *card* nomeado como “*Upload* do Termo de Responsabilidade”, evidenciado no segundo recorte da imagem da tela de configuração geral.
 
 .. image:: /figuras/fig_termo_responsabilidade/006_config_upload.png
     :alt: card termo de responsabilidade
@@ -12970,6 +12970,219 @@ A plataforma uCloud sincroniza e recebe o conteúdo do arquivo de *billing* no f
 
 ====
 
+**Relatório de Gestão de Crédito da Fatura**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+O Relatório de Gestão de Crédito da Fatura, resumidamente chamado de RGCF, é um relatório utilitário do menu Financeiro no portal uCloud. 
+
+.. note:: Relatório exclusivo para administrador do sistema.
+
+Este, tem como finalidade permitir que o administrador do sistema possa realizar o controle individual de quais créditos o cliente recebe, ao mesmo tempo visualizar o total de créditos na nuvem e o total recebido pelo cliente.
+
+Ao adicionar o crédito à fatura do usuário, este é repassado para o cliente. No entanto, ao não adicioná-lo, o crédito não entra na fatura, consequentemente o cliente não recebe esse valor. 
+
+É possível acompanhar quanto de crédito fica para o cliente em tempo real, pois o bloco informativo de créditos totais no portal é atualizado imediatamente após a realização de qualquer uma das ações mencionadas acima.
+
+----
+
+Acessando
+""""""""""
+
+Para ter acesso a esta funcionalidade, o usuário deve selecionar o menu Financeiro localizado no menu lateral, conforme exibido abaixo.
+
+.. figure:: /figuras/fig_rgcf/10_ucloud_menu_billing.png
+   :align: center
+   :alt: menu financeiro
+----
+
+Ao selecioná-lo, os submenus "Relatório" e "Utilitários" são apresentados, o usuário deve clicar na opção “Utilitários”.
+
+.. figure:: /figuras/fig_rgcf/011_submenu_utilitarios.png
+   :align: center
+   :alt: submenu utilitários
+----
+
+Em seguida, a tela dos painéis de utilitários financeiros é apresentada, ela abriga seis relatórios.
+
+* Dimensão;
+* *Tags* Virtuais;
+* Levantamento de contas;
+* Gestão de créditos da fatura;
+* Integração PMC com Odin;
+* Centros de custo.
+
+.. figure:: /figuras/fig_rgcf/001_painel_crédito.png
+   :align: center
+   :alt: painel crédito
+----
+
+Para ter acesso ao RGCF, é necessário clicar no relatório “Gestão de créditos da fatura”, como evidenciado na figura a seguir.
+
+.. figure:: /figuras/fig_rgcf/002_crédito_opção.png
+   :align: center
+   :alt: crédito opção
+----
+
+Após selecionada esta opção, a tela inicial do RGCF é exibida, permitindo fazer a gestão de créditos.
+
+.. figure:: /figuras/fig_rgcf/003_tela_inicial_crédito.png
+   :align: center
+   :alt: tela inicial crédito
+----
+
+Na figura acima é possível observar as seguintes funções:
+
+* **Botão** ``Voltar``: o usuário pode retornar à tela anterior a qualquer momento;
+* **Período**: indica o calendário para escolha necessária;
+* **Contrato**: apresenta uma lista com todos os contratos existentes;
+* **Botão** ``Pesquisar``: recupera o resultado de uma busca.
+
+----
+
+Criando
+""""""""""
+
+Com o intuito de gerar um RGCF, é necessário selecionar o período desejado. Clicando nesta opção, um calendário é exibido.
+
+.. figure:: /figuras/fig_rgcf/004_periodo_calendario.png
+   :align: center
+   :alt: calendário
+----
+
+O calendário apresentado disponibiliza ano e meses, nele o usuário pode escolher o período desejado de acordo com a necessidade.
+
+O próximo campo apresenta uma lista do tipo *dropdown*, nesta é possível selecionar um ou mais contratos clicando no *checkbox* pretendido.
+
+.. figure:: /figuras/fig_rgcf/005_selecionar_contratos.png
+   :align: center
+   :alt: selecionar contrato
+----
+
+Ao finalizar esta etapa, é necessário pressionar o botão ``Pesquisar`` para que os créditos relacionados às informações selecionadas pelo usuário sejam apresentados.
+
+----
+
+Detalhando
+""""""""""
+
+Após a tela ser atualizada, os dados de créditos totais no portal e créditos totais na nuvem são carregados:
+
+.. figure:: /figuras/fig_rgcf/006_dados_creditos.png
+   :align: center
+   :alt: dados créditos
+----
+
+Desta forma, é possível comparar o valor total dos créditos repassados para o cliente e os créditos presentes na nuvem.
+
+O resultado referente ao período pesquisado é listado em seguida, conforme exibido na figura:
+
+.. figure:: /figuras/fig_rgcf/007_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+----
+
+.. figure:: /figuras/fig_rgcf/008_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+----
+
+Esta lista contém oito colunas e dois botões de ação, além dos bloco de linhas, cada um destes é descrito a seguir:
+
+* Contato;
+* Container;
+* Período de consumo;
+* Mês de faturamento;
+* Detalhe;
+* Tipo de recurso na nuvem;
+* Custo;
+* Ativo na fatura: operacionaliza a gestão ao acioná-lo ou não.
+
+
+.. important:: Para inserir um registro com maior facilidade, é possível filtrar os dados nas colunas de contrato, container, mês de faturamento, detalhe e tipo de recurso na nuvem. Esta ação é permitida através da caixa de texto logo abaixo do nome da coluna. 
+
+.. figure:: /figuras/fig_rgcf/009_listagem_filtragem.png
+   :align: center
+   :alt: listagem filtragem
+----
+
+É possível escolher o tipo de visualização da lista a partir do bloco de informações de 10, 25, 50 ou 100 linhas, localizado na parte inferior do *card*.
+
+.. note:: No exemplo acima, foi selecionado apenas um contrato, portanto, apenas os dados relacionados a este contrato são apresentados. O usuário poderia escolher mais de um e visualizá-los da mesma forma. 
+
+A edição de créditos permite ainda, ordenar os dados de forma crescente ou descrente, para isto é necessário clicar nos nomes das seguintes colunas:
+
+* Contrato;
+* Container;
+* Mês de faturamento;
+* Detalhe;
+* Tipo de recurso na nuvem;
+* Custo;
+* Ativo na fatura;
+
+-----
+
+Editando
+""""""""""
+
+A edição deste relatório acontece através da coluna de “Ativo na fatura”, onde é possível repassar ou retirar um crédito acionando, ou não, o *checkbox*. 
+
+.. figure:: /figuras/fig_rgcf/012_ativo_fatura.png
+   :align: center
+   :alt: ativo fatura
+----
+
+Quando habilitado, esse crédito é adicionado à fatura do usuário, portanto, repassado para o cliente. No entanto, se deixar de  acionar essa opção, o crédito não entra na fatura, consequentemente o cliente não recebe esse valor. 
+
+Após realizar qualquer uma dessas ações, é possível acompanhar o crédito do cliente em tempo real, uma vez que o bloco informativo de créditos totais no portal é atualizado imediatamente.
+
+Portanto, este relatório tem como finalidade permitir que o administrador do sistema possa realizar o controle individual de quais créditos o cliente recebe, ao mesmo tempo que visualiza o total de créditos na nuvem e o total recebido pelo cliente.
+
+Para concluir a edição, basta o usuário clicar em um dos ícones de ação descritos abaixo:
+
+.. figure:: /figuras/fig_rgcf/006.1_icones_açoes.png
+   :align: center
+   :alt: icones ações
+----
+
+Ícone "Cancelar alterações" |icone_cancelar_vermelho|, representado pelo botão de cor vermelha.
+
+Caso o usuário desista de cancelar os registros, é possível reiniciar as alterações sem a necessidade de sair da tela clicando no ícone |icone_cancelar_vermelho|. Em seguida, uma mensagem de alerta é exibida em tela para que o usuário confirme a ação.
+
+.. figure:: /figuras/fig_rgcf/014_mensagem_alerta.png
+   :align: center
+   :alt: mensagem alerta
+----
+
+Se o usuário quiser desistir da operação, basta clicar no botão ``Não, voltar``. Da mesma forma,se o usuário quiser confirmar a reversão desta alteração, pode clicar no botão ``Sim, pode reverter!``, os créditos retornam a forma inicial de quando a pesquisa foi realizada.
+
+Seguido a isso, uma mensagem é exibida no canto superior direito da tela, no entanto, não é apresentada no menu Tarefas.
+
+.. figure:: /figuras/fig_rgcf/013_mensagem_feedback.png
+   :align: center
+   :alt: mensagem feedback
+----
+
+Ícone "Salvar alterações" |icone_salvar_azul| , indicado pelo botão de cor azul.
+
+
+Para confirmar que deseja realizar a edição dos créditos disponibilizados ao cliente, é necessário clicar no ícone |icone_salvar_azul| . Em seguida, uma mensagem informativa é apresentada, momento que o usuário pode acompanhar o progresso da atualização dos registros alterados.
+
+.. figure:: /figuras/fig_rgcf/015_mensagem_progresso.png
+   :align: center
+   :alt: mensagem progresso
+----
+
+Quando esta mensagem informativa é visualizada pelo usuário, o mesmo pode confirmar a atualização dos registros clicando no botão ``Ok`` e, se quiser acompanhar o progresso basta pressionar o botão ``Ir para billing admin``. 
+
+.. important:: Ao adicionar ou retirar algum crédito do contrato é imprescindível bilhetá-lo novamente para que os valores sejam atualizados na fatura.
+
+----
+
+.. Visualizando
+.. """""""""""""
+
+.. .. attention:: ainda em produção
+
 .. Cost Threshold
 .. ~~~~~~~~~~~~~~
 
@@ -16529,3 +16742,7 @@ Revisão 20/01/2023.
 
 .. |ícone_visualizar| image:: /figuras/fig_rcf/ícone_visualizar.png
 
+.. |icone_salvar_azul| image:: /figuras/ fig_rgcf/icone_salvar_azul.png
+
+.. |icone_cancelar_vermelho| image:: /figuras/fig_rgfc/icone_cancelar_vermelho.png
+   
