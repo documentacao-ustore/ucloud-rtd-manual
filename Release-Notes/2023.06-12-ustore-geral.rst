@@ -47,7 +47,7 @@ O time de desenvolvimento da plataforma Mangue.io, durante o período de Junho a
    * 5. Recomendação de nodes;
    * 6. Recursos alocados;
    * 7. Workloads yaml;
-   * 8. Recomendação sem outliers;
+   * 8. Recomendação sem outliers.
 
 Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no portal.
 
@@ -279,7 +279,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recomendação sem outliers                                                               |
 +============================+========================================================================================+
-|Objetivo                    |Remover outiliers dos dados é crucial para assegurar a precisão e a confiabilidade das  |
+|Objetivo                    |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
 |                            |análises estatísticas, garantindo assim resultados e conclusões representativos e       |
 |                            |consistentes.                                                                           |
 +----------------------------+----------------------------------------------------------------------------------------+
@@ -303,8 +303,9 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Plataforma uSavings
-.. centered:: ~~~~~~~~~~~~~~~~~~~    
+Plataforma uSavings
+~~~~~~~~~~~~~~~~~~~
+
 
 ----
 
@@ -364,7 +365,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 ----
 
 +----------------------------+-------------------------------------------------------------------------------+
-|Feature                     |DBVM - Máquina Virtual de banco de dados                                       |
+|Feature                     |DBVM - Máquina Virtual de Banco de Dados                                       |
 +============================+===============================================================================+
 |Objetivo                    |Listar as DBVMs de um container e apresentar savings                           |
 +----------------------------+-------------------------------------------------------------------------------+
@@ -718,74 +719,66 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
    :alt: 
    :scale: 100 %
    :align: center
-.. ----
+----
 
+
+----
+
+Portal uCloud
+~~~~~~~~~~~~~
+
+----
+
+
+----
+
+O time de desenvolvimento do portal uCloud, durante o período de Junho a Dezembro do ano 2023, desenvolveu  14 (catorze) novas implementações descritas na sequência.
+
+   * **uCloud Financeiro**:
+   *  1. Alertas de Budget;
+   *  2. Budget;
+   *  3. Custo Relacional de Produto;
+   *  4. Franquia;
+   *  5. Regra de Faturamento;
+   *  6. Relatório Consolidado de Faturamento;
+   *  7. Relatório de Gestão de Crédito da Fatura;
+   *  8. Relatório para utilização da integração PMC com o sistema ODIN.
+   *  **uCloud Operação**:
+   *  9. Termo de Responsabilidade no menu Configuração;
+   * 10. Menu Recomendações;
+   * 11. Menu Orquestrador.
+   * **uCloud Segurança**:
+   * 12. Auto Assessment no menu Assessments;
+   * 13. Jornada do Gerente Admin no menu Ethical Phishing;
+   * 14. Jornada do Usuário Utilizador no menu Ethical Phishing.
+
+Na sequência cada uma destas novas caracterísitcas são detalhadas com: objetivo, descrição, novo comportamento, localização no portal e link de acesso ao manual de uso.
+
+----
+  
+
+----
+
+
+----
+
+.. centered:: uCloud Financeiro
+
+----
 
 
 
 ----
 
-**Portal uCloud**
-
-----
-
-
-
-
-----
-
-O time de desenvolvimento da plataforma uCloud, durante o período de Junho a Dezembro do ano 2023, desenvolveu  13 (treze) novas implementações descritas na sequência.
-
-----
-
-``inserir``
-
-----
-
-.. centered::uCloud Financeiro
-
-----
-
-``inserir``
-
-----
-
-.. centered:: Alertas de Budget
-
-----
-
-``inserir hyperlink``
-
-----
-
-.. centered:: Budget
-
-----
-
-``inserir hyperlink``
-
-
-----
-
-.. centered:: Custo Relacional de Produto
-
-----
-
-``inserir hyperlink``
-
-
-----
-
-.. centered:: Franquia
+.. centered:: 1. Alertas de Budget
 
 ----
 
 ``inserir hyperlink``
 
-
 ----
 
-.. centered:: Regra de Faturamento
+.. centered:: 2. Budget
 
 ----
 
@@ -794,7 +787,34 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Relatório Consolidado de Faturamento
+.. centered:: 3. Custo Relacional de Produto
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: 4. Franquia
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: 5. Regra de Faturamento
+
+----
+
+``inserir hyperlink``
+
+
+----
+
+.. centered:: 6. Relatório Consolidado de Faturamento
 
 ----
 
@@ -802,7 +822,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Relatório de Gestão de Crédito da Fatura
+.. centered:: 7. Relatório de Gestão de Crédito da Fatura
 
 ----
 
@@ -829,7 +849,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Relatório para Utilização da Integração PMC com o sistema financeiro EBT/ODIN
+.. centered:: 8. Relatório para Utilização da Integração PMC com o sistema ODIN
 
 ----
 
@@ -848,7 +868,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 ----
 
-.. centered:: Menu Configuração: Termo de Responsabilidade
+.. centered:: 9. Termo de Responsabilidade no menu Configuração
 
 ----
 
@@ -863,13 +883,61 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal          |Menu Configuração > Submenu Geral                                                                                                    |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|Link de acesso                 | https://bit.ly/trucloudmu                                                                                                              |
+|Link de acesso                 | https://bit.ly/trucloudmu                                                                                                           |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
 .. image:: /figuras/fig_termo_responsabilidade/003.1_config_geral_tela_recorte.png
     :alt: Configuração geral
     :align: center
 =====
+
+----
+
+.. centered:: 10. Menu Recomendações
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Recomendações                                                                              |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
+----
+
+----
+
+.. centered:: 11. Menu Orquestrador
+
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Orquestrador                                                                               |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
+----
 
 
 ----
@@ -879,29 +947,81 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 ----
 
 
-``inserir``
+----
 
+.. centered::  12. Auto Assessments no menu Assessments
 
 ----
 
-.. centered:: Tickets
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Auto Assessments                                                                           |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
 
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
 ----
 
 ``inserir hyperlink``
 
 ----
 
-.. centered:: Assessments > Auto Assessment
+.. centered::  13. Jornada do Gerente Admin no menu Ethical Phishing
 
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Jornada do Gerente Admin                                                                   |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
 ----
 
 ``inserir hyperlink``
 
+
 ----
 
-.. centered:: Ethical Phishing > Acesso dos usuários: Gerente Admin e Utilizador
+.. centered:: 14. Jornada do Usuário Utilizador no menu Ethical Phishing
 
+----
+
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Jornada do Usuário Utilizador                                                              |
++============================+===========================================================================================+
+|Objetivo                    |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|                                                                                           |
+|                            |                                                                                           |
+|                            |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       |                                                                                           | 
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. .. figure:: /figuras/.png
+   :alt: 
+   :scale: 100 %
+   :align: center
 ----
 
 ``inserir hyperlink``
