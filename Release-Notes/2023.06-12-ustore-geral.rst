@@ -167,7 +167,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 |                            |  * Auto-scroll: Acompanhar os logs mais recentes em tela;                              |
 |                            |  * Limite de linhas: Limitar total de linhas de logs exibidas em tela.                 |
 +----------------------------+----------------------------------------------------------------------------------------+
-|Localização no portal       |Em todo o portal na parte inferior da tela                                             |
+|Localização no portal       |Em todo o portal na parte inferior da tela                                              |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Como utilizar               |Na parte inferior da tela são visualizados os seguintes ícones  ``^`` ``+``             |
 |                            |  * Ao clicar no primeiro é mostrado o espaço de exibição dos logs.                     |
@@ -313,7 +313,7 @@ O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembr
    * 7. Open Search;
    * 8. ElastiCache;
 
-Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no
+Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no portal.
 
 ----
 
