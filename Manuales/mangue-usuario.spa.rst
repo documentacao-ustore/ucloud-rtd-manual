@@ -1497,7 +1497,7 @@ C. Browse
 
 Este botón permite al usuario cargar (*upload*) un archivo tipo texto no formateado (ASCII), con un código *YAML* previamente creado por el usuario. El usuario debe hacer clic sobre el botón ``Browse``, en esta acción la plataforma Mangue.io presenta la pantalla del “Explorador de Archivos” (*File Explorer*) de su ordenador, a continuación, debe seleccionar el *folder*/directorio donde se ubica el archivo de su código.
 
-La plataforma Mangue.io está configurada para identificar y mostrar todos los archivos con extensión "*.yaml y *.yml" presentes en el *folder*/directorio seleccionado. En caso de que el usuario haya guardado su código fuente en un archivo con extensión diferente, éste debe introducir el nombre completo del archivo en el campo "Nombre" o seleccionar la opción "Todos los archivos (*.*) / *All files* (*.*)" para localizar y seleccionar el archivo deseado.
+La plataforma Mangue.io está configurada para identificar y mostrar todos los archivos con extensión "*.yaml y *.yml* presentes en el *folder*/directorio seleccionado. En caso de que el usuario haya guardado su código fuente en un archivo con extensión diferente, éste debe introducir el nombre completo del archivo en el campo “Nombre” o seleccionar la opción "Todos los archivos (*.*) / *All files* (*.*)" para localizar y seleccionar el archivo deseado.
 
 .. image:: /figuras/fig_mangue/071_mangue_arquivo_yaml.png
     :alt: Localizar e selecionar arquivo
@@ -1531,9 +1531,9 @@ E. Server VsCode
     :align: center
 =====
 
-Para crear un Visual Studio Code es necesario hacer clic en el botón de |icone_adicionar| y rellenar los campos a continuación:
+Para crear un *Visual Studio Code* es necesario hacer clic en el botón de |icone_adicionar| y rellenar los campos a continuación:
 
-* **Nombre del Servidor VS Code**: Nombre del servidor Visual Studio Code a ser creado.
+* **Nombre del Servidor VS Code**: Nombre del servidor *Visual Studio Code* a ser creado.
 * **Tamaño del Servidor VS Code**: Tamaño del disco a la disposición del *Visual Studio Code*. La medida del tamaño se define en el campo “Tipo de tamaño”.
 * **Tipo de Servicio**: El usuario puede seleccionar el tipo de servicio que se asignará al *Deployment* del *Visual Studio Code*. Las opciones disponibles son: *Cluster IP, NodePort, Load Balancer* y *Ingress*.
 * **Puerto**: El usuario puede seleccionar el puerto que es utilizado en el servicio.
@@ -1548,13 +1548,13 @@ Para crear un Visual Studio Code es necesario hacer clic en el botón de |icone_
 ConfigMap
 =========
 
-En pocas palabras, se puede afirmar que *ConfigMap* es un conjunto de par de clave-valor destinado al almacenamiento de configuraciones, es almacenado dentro de los archivos que se pueden consumir a través de *pods*. Es muy similar con el *Secrets*, pero proporciona una manera de trabajar con *strings* que no tienen datos confidenciales, como contraseñas, claves, *tokens* y otros datos confidenciales.
+En pocas palabras, se puede afirmar que *configMap* es un conjunto de par de clave-valor destinado al almacenamiento de configuraciones, es almacenado dentro de los archivos que se pueden consumir a través de *pods*. Es muy similar con el *Secrets*, pero proporciona una manera de trabajar con *strings* que no tienen datos confidenciales, como contraseñas, claves, *tokens* y otros datos confidenciales.
 
 Los archivos de *configMap*, pueden ser tanto archivos complejos que tienen pocas reglas, como archivos en formato *JSON* complejos y llenos de reglas.
 
-Cabe destacar que un archivo de *configmap* puede contener, sí, el contenido complejo de un *JSON*, bastando al usuario llenar el contenido de este *configMap* obedeciendo la sintaxis correcta de un *JSON*.
+Cabe destacar que un archivo de *configMap* puede contener, sí, el contenido complejo de un *JSON*, bastando al usuario llenar el contenido de este *configMap* obedeciendo la sintaxis correcta de un *JSON*.
 
-Al seleccionar esta opción en la barra del menú, la plataforma Mangue.io presenta la siguiente pantalla, que contiene un listado de todos los *configmaps* registrados en la plataforma.
+Al seleccionar esta opción en la barra del menú, la plataforma Mangue.io presenta la siguiente pantalla, que contiene un listado de todos los *configMaps* registrados en la plataforma.
 
 .. image:: /figuras/fig_mangue/073_mangue_configmaps.png
     :alt: Configmaps
@@ -1569,7 +1569,7 @@ A continuación se describe cada columna de esta tabla:
 
     En este caso se presenta un icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los ítems indicados por el usuario con un solo comando.
 
-* **Nombre**: Esta columna es presentado el nombre del *configmap* añadido por el usuario. Al pulsar el ratón sobre el nombre, la plataforma Mangue.io muestra una pantalla con el (los) contenido(s) del (de los) archivos de *configmap*. 
+* **Nombre**: Esta columna es presentado el nombre del *configMap* añadido por el usuario. Al pulsar el ratón sobre el nombre, la plataforma Mangue.io muestra una pantalla con el (los) contenido(s) del (de los) archivos de *configMap*. 
 
 Por defecto, sólo se visualiza una línea del contenido del archivo. Si el contenido es más grande que el campo, el usuario puede posicionar el ratón en la esquina inferior derecha, hasta que el cursor del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|. De esta forma, permite al usuario redimensionar el espacio del contenido listado, y acomodar el tamaño que sea adecuado al usuario, para la mejor visualización del mismo.
 
@@ -1580,7 +1580,7 @@ Por defecto, sólo se visualiza una línea del contenido del archivo. Si el cont
 
 Importante resaltar que esta ventana no permite la edición del contenido listado.
 
-* **Duración**: En esta columna se muestra el tiempo (en días) desde el momento de la creación del *configmap*.
+* **Duración**: En esta columna se muestra el tiempo (en días) desde el momento de la creación del *configMap*.
 * **Acciones**: Esta columna muestra el botón de ``Acción`` |icone_acao|, al ser pulsado, presenta dos opciones, como en la figura siguiente:
 
 .. image:: /figuras/fig_mangue/075_mangue_acoes_configmap.png
@@ -1588,7 +1588,7 @@ Importante resaltar que esta ventana no permite la edición del contenido listad
     :align: center
 =====
 
-      * **Deletar Configmap**: Cuando el usuario seleccionar esta opción la plataforma Mangue.io presenta la pantalla abajo solicitando la confirmación de la opción de remoción del *configmap*.
+      * **Deletar configMap**: Cuando el usuario seleccionar esta opción la plataforma Mangue.io presenta la pantalla abajo solicitando la confirmación de la opción de remoción del *configMap*.
 
 .. image:: /figuras/fig_mangue/076_mangue_deletar_configmap.png
     :alt: Deletar configmap 
@@ -1596,11 +1596,11 @@ Importante resaltar que esta ventana no permite la edición del contenido listad
     :align: center
 =====
 
-.. note:: Es importante resaltar que esta acción es definitiva y elimina el archivo del sistema operativo, no siendo posible recuperarlo, ya que se borran todas las referencias de este *configmap* en la plataforma Mangue.io. Entonces es necesario recrear el archivo desde el principio.
+.. note:: Es importante resaltar que esta acción es definitiva y elimina el archivo del sistema operativo, no siendo posible recuperarlo, ya que se borran todas las referencias de este *configMap* en la plataforma Mangue.io. Entonces es necesario recrear el archivo desde el principio.
 
 ----
 
-      * **Editar Configmap**: Al seleccionar esta opción la plataforma Mangue.io presenta la siguiente pantalla ubicación en la que el usuario puede efectuar los cambios necesarios en el contenido del (los) archivo (s) de *configMap*:
+      * **Editar configMap**: Al seleccionar esta opción la plataforma Mangue.io presenta la siguiente pantalla ubicación en la que el usuario puede efectuar los cambios necesarios en el contenido del (los) archivo (s) de *configMap*:
 
 .. image:: /figuras/fig_mangue/077_mangue_add_configmap.png
     :alt: Adicionar configMap
@@ -1614,11 +1614,11 @@ La siguiente imagen es un recorte de los elementos posicionados encima de la tab
     :align: center
 ====
 
-* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es muy larga (ocupando más de una página), existe un campo donde es posible al usuario realizar una búsqueda por el nombre del *ConfigMap* deseado. Basta informar parte del nombre y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *ConfigMap* que contienen la palabra clave de la búsqueda.
+* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es muy larga (ocupando más de una página), existe un campo donde es posible al usuario realizar una búsqueda por el nombre del *configMap* deseado. Basta informar parte del nombre y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. Como resultado de esta búsqueda, sólo aparecen los *configMap* que contienen la palabra clave de la búsqueda.
 
-* **Acción de actualizar**: Basta hacer clic en el icono |icone_update| para que el Mangue.io actualice la interfaz con los valores más recientes de esta tabla de *ConfigMap*.
+* **Acción de actualizar**: Basta hacer clic en el icono |icone_update| para que el Mangue.io actualice la interfaz con los valores más recientes de esta tabla de *configMap*.
 
-* **Acción de añadir un configMap**: Basta hacer clic en el signo de adición |icone_adicionar| para que el usuario pueda registrar un nuevo ConfigMap. La plataforma Mangue.io presenta la siguiente pantalla al usuario: 
+* **Acción de añadir un configMap**: Basta hacer clic en el signo de adición |icone_adicionar| para que el usuario pueda registrar un nuevo configMap. La plataforma Mangue.io presenta la siguiente pantalla al usuario: 
 
 .. image:: /figuras/fig_mangue/079_mangue_add_configmap.png
     :alt: Adicionar configmap 
@@ -1628,9 +1628,9 @@ La siguiente imagen es un recorte de los elementos posicionados encima de la tab
 
 A continuación se describen los campos de la pantalla anterior:
 
-* **Nombre del configmap**: En este campo el usuario debe escribir el nombre del *configmap* deseado, a continuación pulsar sobre el icono del signo de suma |icone_adicionar|, lo que hace que la plataforma Mangue.io añada los siguientes campos.
+* **Nombre del configMap**: En este campo el usuario debe escribir el nombre del *configMap* deseado, a continuación pulsar sobre el icono del signo de suma |icone_adicionar|, lo que hace que la plataforma Mangue.io añada los siguientes campos.
 
-      * **Archivo “n”**: Cada vez que el usuario hace clic en el signo de adición |icone_adicionar| la plataforma Mangue.io inserta una línea gris con el número secuencial del archivo de *configMap*. Si el usuario necesita eliminar (borrar) el archivo configurado en el icono |icone_lixo_vermelho| sólo tiene que elegir eliminar el archivo "n" del *configMap*.
+      * **Archivo “n”**: Cada vez que el usuario hace clic en el signo de adición |icone_adicionar| la plataforma Mangue.io inserta una línea gris con el número secuencial del archivo de *configMap*. Si el usuario necesita eliminar (borrar) el archivo configurado en el icono papelera |icone_lixo_vermelho| sólo tiene que elegir eliminar el archivo **"n"** del *configMap*.
 
       * **Nombre del archivo**: En este espacio el usuario debe informar el nombre del archivo que se crea en el sistema operativo de destino que ofrece soporte a la ejecución del *deployment*. Es importante recordar que este nombre, y su extensión, deben seguir las reglas para nombrar archivos en el sistema operativo de destino, por lo que debe contener sólo caracteres ASCII estándar. 
 
@@ -1638,11 +1638,11 @@ A continuación se describen los campos de la pantalla anterior:
 
 ----
 
-      * **Contenido del archivo**: En este campo el usuario debe escribir el contenido del archivo nombrado, en el campo anterior; Contenido que debe ser informado según la necesidad técnica y el propósito de este *configmap*. 
+      * **Contenido del archivo**: En este campo el usuario debe escribir el contenido del archivo nombrado, en el campo anterior. Contenido que debe ser informado según la necesidad técnica y el propósito de este *configMap*. 
 
       Por defecto se presenta sólo la visualización de algunas líneas del contenido del archivo, en caso de que el contenido sea más grande que el campo, el usuario puede posicionar el ratón en la esquina inferior derecha, hasta que el cursor del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|. De esta forma, permite al usuario redimensionar el espacio del contenido listado y acomodar el tamaño que sea adecuado al usuario, para la mejor visualización del mismo.
 
-* **Botón** ``Añadir Configmap``: Después de que el usuario informe (el/los) archivo(s) de *configmap* necesario(s), el usuario debe hacer clic con el ratón en el botón ``Añadir Configmap``, para que la plataforma Mangue.io pueda crear el/los referido(s) archivo(s) en el ambiente del sistema operativo de destino. Tras esta acción sobre este botón la plataforma cierra esta ventana y vuelve a la pantalla donde se presenta la lista de *Configmaps*.
+* **Botón** ``Añadir configMap``: Después de que el usuario informe (el/los) archivo(s) de *configmap* necesario(s), el usuario debe hacer clic con el ratón en el botón ``Añadir configMap``, para que la plataforma Mangue.io pueda crear el/los referido(s) archivo(s) en el ambiente del sistema operativo de destino. Tras esta acción sobre este botón la plataforma cierra esta ventana y vuelve a la pantalla donde se presenta la lista de *configMaps*.
 
 ====
 
@@ -1717,7 +1717,7 @@ La siguiente imagen es un recorte de los elementos posicionados encima de la tab
     :align: center
 =====
 
-* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es demasiado larga (ocupando más de una página), existe un campo donde el usuario puede realizar una búsqueda por el nombre del *Deployment* deseado. 
+* **Acción de búsqueda**: Si la lista que se muestra en esta pantalla es demasiado larga (ocupando más de una página), existe un campo donde el usuario puede realizar una búsqueda por el nombre del *deployment* deseado. 
 
 Basta introducir parte del nombre del evento y pulsar ``Enter`` o hacer clic en el icono de "La lupa" |icone_lupa_verde|. 
 
@@ -1730,7 +1730,7 @@ Como resultado de esta búsqueda, aparecen únicamente los eventos que contienen
 Cron Jobs, Jobs
 ===============
 
-En esta opción del menú, el usuario puede observar dos funciones distintas de la plataforma Mangue.io, que son los *Jobs* y los *cron Jobs*. El usuario visualiza la lista de todos los *Jobs* y *cron Jobs*, la lista presenta lo que está programado para el contrato, *cluster* y *namespace* seleccionados en la pestaña |icone_engrenagem| "Selección de Configuración". 
+En esta opción del menú, el usuario puede observar dos funciones distintas de la plataforma Mangue.io, que son los *Jobs* y los *Cron Jobs*. El usuario visualiza la lista de todos los *Jobs* y *Cron Jobs*, la lista presenta lo que está programado para el contrato, *cluster* y *namespace* seleccionados en la pestaña |icone_engrenagem| "Selección de Configuración". 
 
 Con cada selección de contrato/*cluster*/*namespace*, la lista se actualiza automáticamente.
 
@@ -1754,7 +1754,7 @@ Abajo la descripción del contenido de cada columna de la lista presentada:
 * **Nombre**: Nombre del *Cron Job* que la plataforma Mangue.io genera para el *deployment*.
 * **Schedule**: Muestra la configuración de la programación (fecha y hora) prevista para ejecutar este *Cron Job*.
 * **Duración**: Muestra el tiempo de duración del *Cron Job*.
-* **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| cuando se pulsa, aparece la opción de eliminar el *CronJob*, como se muestra en la figura:
+* **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| cuando se pulsa, aparece la opción de eliminar el *Cron Job*, como se muestra en la figura:
 
 .. image:: /figuras/fig_mangue/083_mangue_deletar_cronjobs.png
     :alt: Deletar cron job 
@@ -1802,7 +1802,7 @@ Esta opción de la plataforma Mangue.io es un gran aliada para el Gobierno Finan
 
 El término *serverless* puede llevar a la falsa idea de que este ambiente no genera costos de infraestructura computacional, pero cualquier aplicación de *software* siempre necesita un recurso computacional (CPU, memoria, disco, sistema operativo - SO). 
 
-Para que este *software* funcione, cada ítem conlleva sus propios costos de uso, almacenamiento y licencia (SO y *softwares*) y debe ser calculado diariamente para que cumpla con los criterios y políticas de Gobernanza de Costos y Gobernanza Financiera.
+Para que este *software* funcione, cada ítem conlleva sus propios costos de uso, almacenamiento y licencia (sistema operacional y *softwares*) y debe ser calculado diariamente para que cumpla con los criterios y políticas de Gobernanza de Costos y Gobernanza Financiera.
 
 La plataforma Mangue.io dispone de una base de datos que acumula los valores de consumo de la infraestructura mes a mes, desde el momento de su instalación. Esta base de datos se calcula diariamente y acumula los valores de consumo, según la fórmula de cálculo presentada en el tópico “Cálculo del Valor de Consumo del Cluster”.
 
@@ -1834,7 +1834,7 @@ Al seleccionar un *cluster* las informaciones en la pantalla se recargan de acue
 
 Por norma, la consulta se realiza considerando todos los *namespaces* del *cluster*, pero el usuario puede filtrar por un *namespace* específico haciendo clic en ``Seleccionar un namespace``, las informaciones de la pantalla se recarga como en el ítem anterior, diferenciándose por volver los valores solamente del *namespace* seleccionado.
 
-También en esta pantalla se puede ver una lista de detalles sobre los costes de las aplicaciones, como se puede ver en la siguiente imagen:
+También en esta pantalla se puede ver una lista de detalles sobre los costos de las aplicaciones, como se puede ver en la siguiente imagen:
 
 .. image:: /figuras/fig_mangue/088_mangue_lista_aplicacoes.png
     :alt: Listando aplicação
@@ -1847,9 +1847,9 @@ También en esta pantalla se puede ver una lista de detalles sobre los costes de
 
 * **Namespace**: Esta columna presenta el *namespace* al que pertenece la aplicación.
 
-* **Precio de la CPU**: Esta columna muestra el coste por CPU de la aplicación correspondiente al mes seleccionado.
+* **Precio de la CPU**: Esta columna muestra el costo por CPU de la aplicación correspondiente al mes seleccionado.
 
-* **Precio de la memoria**: Esta columna muestra el coste por memoria de la aplicación correspondiente al mes seleccionado.
+* **Precio de la memoria**: Esta columna muestra el costo por memoria de la aplicación correspondiente al mes seleccionado.
 
 * **Precio total**: Esta columna presenta la suma del precio de la CPU y del precio de la memoria.
 
@@ -1867,7 +1867,7 @@ La evolución del consumo de los recursos de CPU y memoria del *cluster* se pres
     :align: center
 =====
 
-A. Historial de facturación mensual del Cluster
+A. Historial de Facturación Mensual del Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Esta sección muestra un gráfico con la evolución del valor de consumo de recursos de CPU y Memoria del *cluster*, para soportar y ejecutar todos los contenidos del *Workloads* (*Deployments*, *Statefulsets*, *Horizontal Autoscaler*, *Pods*).
@@ -1912,7 +1912,7 @@ Todas las situaciones enumeradas anteriormente son causas potenciales del aument
 
 ====
 
-B. Historial de facturación del Cluster 
+B. Historial de Facturación del Cluster 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Este gráfico presenta el consumo acumulado mes a mes de los últimos cuatro (04) meses del periodo en el que se encuentra el usuario.
