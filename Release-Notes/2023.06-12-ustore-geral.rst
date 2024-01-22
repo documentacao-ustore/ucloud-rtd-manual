@@ -279,9 +279,8 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recomendação sem outliers                                                               |
 +============================+========================================================================================+
-|Objetivo                    |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
-|                            |análises estatísticas, garantindo assim resultados e conclusões representativos e       |
-|                            |consistentes.                                                                           |
+|Objetivo                    |Remover dados dados atípicos para criar as recomendações de redimensionamento das       |
+|                            |aplicações.                                                                             |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
 |                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
@@ -467,7 +466,24 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 |Localização no portal       |AWS > ELB                                                                                                               |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------+
 
-``inserir imagem``
+.. figure:: /figuras/fig_usavings/notas/018_elb.png
+   :alt: ELB
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/018_elba.png
+   :alt: ELB
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/018_elbb.png
+   :alt: ELB
+   :scale: 100 %
+   :align: center
+----
+
 
 
 ----
@@ -481,14 +497,31 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +============================+==========================================================================================================================+
 |Objetivo                    |Listar as instâncias de Banco de Dados RDS e as recomendações de savings                                                  |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|A partir desta feature é possível visualizar as recomendações ao listar as recomendações tanto de troca quanto de resizing|
-|                            |de flavors, ou as sugestões de troca do processador baseado no tipo de instância do banco de dados RDS.                   |
-|                            |Assim como, as recomendações do desligamento das instâncias ociosas.                                                      |
+|Novo comportamento do portal|A partir desta feature é possível visualizar as recomendações ao listar tanto de troca quanto de resizing de flavors, ou  |
+|                            |as sugestões de troca do processador baseado no tipo de instância do banco de dados RDS. Assim como, as recomendações     |
+|                            |do desligamento das instâncias ociosas.                                                                                   |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |AWS > RDS                                                                                                                 |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
-``inserir imagem``
+.. figure:: /figuras/fig_usavings/notas/019_rds.png
+   :alt: RDS
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/019_rdsa.png
+   :alt: RDS
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/019_rdsb.png
+   :alt: RDS
+   :scale: 100 %
+   :align: center
+----
+
 
 
 ----
@@ -498,17 +531,27 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 ----
 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Feature                     |                                                                                                                         |
+|Feature                     |CloudFront                                                                                                               |
 +============================+=========================================================================================================================+
-|Objetivo                    |                                                                                                                         |
+|Objetivo                    |Apresentar as informações sobre distribuição do CloudFront baseado nos dados de billing do último mês                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                                                         |
-|                            |                                                                                                                         | 
+|Novo comportamento no portal|A partir desta feature o portal lista as informações das distribuições do CloudFront considerando os dados de bilhetagem |
+|                            |do último mês.                                                                                                           | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                                                         |
+|Localização no portal       |AWS > CloudFront                                                                                                                         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
+.. figure:: /figuras/fig_usavings/notas/020_cloudfront.png
+   :alt: CloudFront
+   :scale: 100 %
+   :align: center
+----
 
+.. figure:: /figuras/fig_usavings/notas/020_cloudfront.png
+   :alt: CloudFront
+   :scale: 100 %
+   :align: center
+----
 
 ----
 
@@ -753,9 +796,6 @@ O time de desenvolvimento do portal uCloud, durante o período de Junho a Dezemb
    * 14. Jornada do Usuário Utilizador no menu Ethical Phishing.
 
 Na sequência cada uma destas novas caracterísitcas são detalhadas com: objetivo, descrição, novo comportamento, localização no portal e link de acesso ao manual de uso.
-
-----
-  
 
 ----
 
@@ -1025,7 +1065,6 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 ----
 
 ``inserir hyperlink``
-
 
 ----
 
