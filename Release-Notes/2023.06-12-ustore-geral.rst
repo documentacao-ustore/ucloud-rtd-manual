@@ -32,7 +32,9 @@ Este release consolidado é um material informativo composto de conteúdo releva
 
 ----
 
-.. centered:: **Plataforma Mangue.io**
+Plataforma Mangue.io
+~~~~~~~~~~~~~~~~~~~~
+
 
 ----
 
@@ -53,7 +55,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Cluster Health
+.. centered:: 1. Cluster Health
 
 ----
 
@@ -92,7 +94,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Cluster Score
+.. centered:: 2. Cluster Score
 
 ----
 
@@ -121,7 +123,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Integração de cluster RKE
+.. centered:: 3. Integração de cluster RKE
 
 ----
 
@@ -143,7 +145,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Coleta de logs distribuídos
+.. centered:: 4. Coleta de logs distribuídos
 
 ----
 
@@ -185,7 +187,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Recomendação de nodes
+.. centered:: 5. Recomendação de nodes
 
 ----
 
@@ -212,7 +214,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Recursos alocados
+.. centered:: 6. Recursos alocados
 
 ----
 
@@ -245,7 +247,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Workloads yaml
+.. centered:: 7. Workloads yaml
 
 ----
 
@@ -270,13 +272,17 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Recomendação sem outliers
+.. centered:: 8. Recomendação sem outliers
 
 ----
 
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recomendação sem outliers                                                               |
 +============================+========================================================================================+
+|Objetivo                    |Remover outiliers dos dados é crucial para assegurar a precisão e a confiabilidade das  |
+|                            |análises estatísticas, garantindo assim resultados e conclusões representativos e       |
+|                            |consistentes.                                                                           |
++----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
 |                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
 |                            |e consistentes                                                                          |
@@ -297,29 +303,37 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. CENTERED:: **Plataforma uSavings**
+.. centered:: Plataforma uSavings
+.. centered:: ~~~~~~~~~~~~~~~~~~~    
 
 ----
 
 
-O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembro do ano 2023, desenvolveu 08 (oito) implementações descritas a seguir.
+O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembro do ano 2023, desenvolveu 15 (quinze) implementações descritas a seguir.
 
-   * 1. Tasks;
-   * 2. DBVM;
-   * 3. AWS - EC2;
-   * 4. VPC;
-   * 5. CloudTrail;
-   * 6. DynamoDB;
-   * 7. Open Search;
-   * 8. ElastiCache;
+   *  1. Tasks;
+   *  2. DBVM;
+   *  3. AWS - EC2;
+   *  4. VPC;
+   *  5. ELB;
+   *  6. RDS;
+   *  7. CloudFront;
+   *  8. Open Search;
+   *  9. ElastiCache;
+   * 10. CloudTrail;
+   * 11. DynamoDB;
+   * 12. Neptune;
+   * 13. EFS;
+   * 14. S3;
+   * 15. EBS.
 
-Na sequência cada uma destas são apresentadas com seu objetivo, descrição, novo comportamento e localização no portal.
+Na sequência cada uma destas novas caracterísitcas são detalhadas com: objetivo, descrição, novo comportamento e localização no portal.
 
 ----
 
 ----
 
-.. centered:: Tasks
+.. centered:: 1. Tasks
 
 ----
 
@@ -345,7 +359,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: DBVM
+.. centered:: 2. DBVM
 
 ----
 
@@ -369,7 +383,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: AWS - EC2
+.. centered:: 3. AWS - EC2
 
 ----
 
@@ -402,7 +416,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: VPC
+.. centered:: 4. VPC
 
 ----
 
@@ -437,7 +451,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: ELB
+.. centered:: 5. ELB
 
 ----
 
@@ -457,7 +471,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: RDS
+.. centered:: 6. RDS
 
 ----
 
@@ -478,7 +492,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Cloud Front
+.. centered:: 7. Cloud Front
 
 ----
 
@@ -497,7 +511,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Open Search
+.. centered:: 8. Open Search
 
 ----
 
@@ -528,7 +542,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: ElastiCache
+.. centered:: 9. ElastiCache
 
 ----
 
@@ -554,7 +568,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Cloud Trail
+.. centered:: 10. Cloud Trail
 
 ----
 
@@ -584,7 +598,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: DynamoDB
+.. centered:: 11. DynamoDB
 
 ----
 
@@ -610,7 +624,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: Neptune
+.. centered:: 12. Neptune
 
 ----
 
@@ -635,7 +649,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: EFS
+.. centered:: 13. EFS
 
 ----
 
@@ -659,7 +673,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 ----
 
-.. centered:: S3
+.. centered:: 14. S3
 
 ----
 
@@ -681,9 +695,10 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
    :align: center
 .. ----
 
+
 ----
 
-.. centered:: EBS
+.. centered:: 15. EBS
 
 ----
 
@@ -704,6 +719,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
    :scale: 100 %
    :align: center
 .. ----
+
 
 
 
@@ -838,7 +854,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 
 
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|Feature                        |Termo de responsabilidade                                                                                                            |
+|Feature                        |Termo de Responsabilidade                                                                                                            |
 +===============================+=====================================================================================================================================+
 |Objetivo                       |Proteger e informar aos usuários sobre o uso e tratamento de dados no portal uCloud                                                  |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
@@ -847,7 +863,7 @@ O time de desenvolvimento da plataforma uCloud, durante o período de Junho a De
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal          |Menu Configuração > Submenu Geral                                                                                                    |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|Link de acesso                 | https://bit.ly/47EceUH                                                                                                              |
+|Link de acesso                 | https://bit.ly/trucloudmu                                                                                                              |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 
 .. image:: /figuras/fig_termo_responsabilidade/003.1_config_geral_tela_recorte.png
