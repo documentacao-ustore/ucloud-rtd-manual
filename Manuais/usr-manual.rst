@@ -16951,3 +16951,5 @@ Revisão 20/01/2023.
 .. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.png
    
 .. |icone_cancelar_vermelho1| image:: /figuras/fig_rgcf/icone_cancelar_vermelho1.png
+
+.. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.PNG
