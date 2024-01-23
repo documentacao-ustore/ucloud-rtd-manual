@@ -2759,7 +2759,7 @@ Esta funcionalidade foi desenvolvida com a finalidade de proteger e informar aos
 
 Acessando
 """""""""""
-Esta nova característica está disponível no menu Configuração, disposto no menu lateral da plataforma, indicado na imagem abaixo.
+Esta nova característica do *upload* do termo de responsabilidade está disponível no menu Configuração, disposto no menu lateral da plataforma, indicado na imagem abaixo.
 
 .. image:: /figuras/fig_termo_responsabilidade/001_config_menu.png
     :alt: Menu Configurações
@@ -12132,6 +12132,471 @@ Ao clicar no botão uma tela de confirmação é exibida, cabendo ao usuário co
    :align: center
 ----
 
+Franquia
+~~~~~~~~
+
+.. important:: Esta funcionalidade está disponível apenas para clientes GOV.
+
+----
+
+Introdução
+"""""""""""
+
+Franquia corresponde a uma nova funcionalidade definida como uma configuração de cobrança diferente, tem como objetivo reproduzir uma nova fórmula de cálculo do faturamento dos clientes, baseado em consumo da franquia.
+
+----
+
+Acessando
+""""""""""
+
+Para criar uma franquia, o usuário deve selecionar o menu “Configuração”, localizado à esquerda da tela, abaixo é apresentado um recorte.
+
+.. image:: /figuras/fig_franquia/001_ucloud_menu_configuração.png
+   :alt:  menu configuração
+   :align: center
+----
+
+Ao clicar neste menu, o submenu é exibido, no qual é necessário optar na funcionalidade, nomeada “Geral”.
+
+.. image:: /figuras/fig_franquia/002_ucloud_submenu_configuração.png
+   :alt:  submenu configuração
+   :align: center
+----
+
+ Neste momento a tela “Geral” é apresentada com todas as configurações. 
+
+.. image:: /figuras/fig_franquia/003_ucloud_geral_config.png
+   :alt:  configuração geral
+   :align: center
+----
+
+É necessário utilizar o auxílio da barra de rolagem na lateral direita para buscar o *card* de “Franquia do sistema”, como observado na imagem abaixo.
+
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.png
+   :alt:  card franquia
+   :align: center
+----
+
+No primeiro acesso a este *card* a tela é exibida sem dados, pois nenhuma franquia do sistema foi criada. No canto direito o botão ``+Criar franquia`` permite realizar esta operação.
+ 
+Neste exemplo existem 6 franquias criadas com informações distribuídas em seis colunas, são elas:
+
+* Nome;
+
+* *Tag*;
+
+* Descrição;
+
+* Preço da franquia;
+
+* Preço extra da franquia;
+
+* Ações:
+
+    * Editar;
+
+    * Excluir.
+
+----
+
+Criando
+""""""""
+Para criar uma nova franquia, é necessário existir uma *tag* válida, criada previamente no *card* nomeado “Preço dos recursos”, localizado na parte inicial do submenu Geral, apresentado anteriormente, conforme recorte da tela abaixo:
+
+.. image:: /figuras/fig_franquia/007_ucloud_recursos.png
+   :alt:  recursos
+   :align: center
+----
+
+Em seguida, basta clicar no botão ``+ Criar franquia``, localizado no canto direito do *card*, evidenciado na seguinte figura.
+
+.. image:: /figuras/fig_franquia/005_ucloud_botao_franquia.png
+   :alt:  botao franquia
+   :align: center
+----
+
+Ao pressionar este botão, o modal “Criar franquia padrão do sistema” é exibido e está destinado à criação de uma franquia, por isto o usuário deve preencher todos os campos apresentados, conforme o exemplo desta imagem.
+
+.. image:: /figuras/fig_franquia/006_ucloud_modal_franquia.png
+   :alt:  modal franquia
+   :align: center
+----
+
+Na sequência são descritos os campos apresentados na tela.
+
+* **Nome**: Pode ser preenchido com números, letras maiúsculas e minúsculas.
+
+* **Nome da Tag**: A *tag* precisa ser válida, criada previamente no *card* nomeado “Preço dos recursos”.
+
+* **Descrição**: Espaço indicado para descrever a franquia padrão do sistema.
+
+* **Franquia**: Preencher informações detalhadas sobre a franquia, que neste submodal é visto como um pacote de desconto.
+ 
+     * **Custo da franquia**
+
+     * **Unidade da franquia**: refere-se a quantidade de consumo.
+
+         Por exemplo:
+
+		   O custo é 20 TB, para cada 10 unidades de consumo da franquia.
+
+    * **Descrição da franquia**
+
+* **Franquia adicional**: Neste segundo submodal, cada unidade extra de franquia tem um valor a mais.
+
+    * **Custo adicional da franquia**
+
+    * **Unidade adicional da franquia**: refere-se a quantidade de consumo extra.
+
+		Por exemplo: 
+
+      O custo adicional é 15 TB para cada unidade extra da franquia.
+
+    * **Descrição da franquia adicional**
+
+.. important:: A lógica das franquias normais e adicionais ocorre quando o pacote de custo da franquia normal é excedido, ou seja, um valor é cobrado em cima da unidade adicional da franquia, também determinado pelo usuário no modal de criação.  
+
+* **Botão** ``Cancelar``: Fica localizado no canto inferior esquerdo na cor azul. O usuário pode clicar neste em qualquer momento que desejar cancelar a criação.
+
+* **Botão** ``+ Criar``: Encontrado no canto inferior direito bloqueado para acionamento na coloração cinza, assim que preenchido todos os dados necessários para a criação da franquia, este botão é habilitado e disponibilizado na cor azul.
+
+.. warning:: Apenas administradores do sistema podem criar franquias do sistema. No entanto, é permitido ao administrador do contrato gerenciá-las. 
+
+.. important:: Em resumo, a nova funcionalidade franquia do sistema reproduz a fórmula do cálculo do faturamento baseado em consumo, por isto ao criá-la, além de ser necessário existir uma *tag* válida, a franquia do sistema deve ser associada a um Contrato.
+
+----
+
+Listando
+""""""""""
+Para que a franquia do sistema recém-criada apareça na listagem, basta atualizar a página. O *card* de Franquias do Sistema é organizado em seis categorias, como exibida abaixo.
+
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.png
+   :alt:  card franquia
+   :align: center
+----
+
+Neste exemplo existem 6 franquias criadas com informações distribuídas em seis colunas, são elas:
+
+* Nome;
+
+* *Tag*;
+
+* Descrição;
+
+* Preço da franquia;
+
+* Preço extra da franquia;
+
+* Ações:
+
+    * Editar;
+
+    * Excluir.
+
+-----
+
+Editando
+""""""""""
+
+A imagem anterior apresenta a última coluna da lista, na qual é possível identificar dois ícones: um bloco de notas, representando a ação de editar, e uma lata de lixo, indicando a ação de excluir a franquia.
+
+.. image:: /figuras/fig_franquia/008_ucloud_icones_franquia.png
+   :alt:  icones franquia
+   :align: center
+----
+
+Ao clicar no botão ``Editar``, o modal preenchido no momento de criação é exibido com os detalhes previamente informados, conforme o exemplo abaixo. 
+
+.. image:: /figuras/fig_franquia/009_ucloud_franquia_edit.png
+   :alt:  editar franquia
+   :align: center
+----
+
+Os campos preenchidos permitem ao usuário além da visualização das informações, a possibilidade de editar o que julgar necessário, e clicar no botão ``+ Atualizar``, localizado no canto inferior direito da tela, para salvar as alterações realizadas. 
+
+Caso desista da operação de edição pode clicar no botão ``Cancelar``, visto na parte inferior esquerda do modal e assim retornar ao *card* de franquia do sistema no submenu Geral, menu Configurações.
+
+----
+
+Associando a Franquia do Sistema ao Contrato
+"""""""""""""""""""""""""""""""""""""""""""
+
+Somente após a criação da franquia é que esta deve ser atrelada ao contrato desejado. Para dar início a esse processo, é necessário acessar o menu Administração, disposto na lateral esquerda da tela. 
+
+.. image:: /figuras/fig_franquia/010_ucloud_menu_adm.png
+   :alt:  menu administração
+   :align: center
+----
+
+Os submenus são apresentados e o usuário deve clicar na opção “Contratos”.
+
+.. image:: /figuras/fig_franquia/011_ucloud_adm_submenu.png
+   :alt:  submenu administração
+   :align: center
+----
+
+Em seguida, a tela apresentada na sequência permite ao usuário realizar diversas operações, acionadas pelos botões ``+ Criar contrato`` e ``Atualizar``. A lista de contratos está organizada em cinco colunas, são elas:
+
+* Nome;
+
+* Admin;
+
+* CPF/CNPJ;
+
+* Estado;
+
+* Ação:
+
+    * Copiar.
+
+.. image:: /figuras/fig_franquia/012_ucloud__tela_contratos.png
+   :alt:  tela contratos
+   :align: center
+----
+
+O usuário deve então clicar no contrato desejado, no caso de existir algum contrato, ou usar as ferramentas de busca presentes na tela, representadas por campos de pesquisa situado abaixo dos títulos das colunas de:
+
+* Nome; 
+
+* Admin;
+
+* CPF/CNPJ;
+
+É possível notar a paginação no fim da tela, assim como o bloco de informação agrupado em 10, 25, 50 ou 100 linhas.
+
+Quando o usuário selecionar o contrato de interesse, a tela de dados gerais é exibida.
+
+.. image:: /figuras/fig_franquia/013_ucloud_contrato.png
+   :alt:  contrato
+   :align: center
+----
+
+Com o auxílio da barra de rolagem situada na lateral direita, o usuário busca pelo *card* “Franquias do contrato”.
+
+.. image:: /figuras/fig_franquia/014_ucloud_franquia_card.png
+   :alt:  franquia card
+   :align: center
+----
+
+Neste, é possível visualizar informação sobre a franquia atrelada a este contrato, são elas:
+
+* Nome;
+
+* *Tag*;
+
+* Preço da franquia;
+
+* Preço extra da franquia;
+
+* Descrição.
+
+Como no exemplo acima existem informações a serem visualizadas, mas caso não existam, é necessário seguir o fluxo para associar uma franquia ao contrato.
+
+Para isto, é preciso clicar no botão ``Configurações`` representado pelo ícone |icone_configurações|.
+
+.. image:: /figuras/fig_franquia/014.1_ucloud_franquia_card.png
+   :alt:  franquia card
+   :align: center
+----
+
+Ao pressionar o ícone, o modal “Editar franquia do contrato” é exibido:
+
+.. image:: /figuras/fig_franquia/015_ucloud_franquia_contrato.png
+   :alt:  franquia contrato
+   :align: center
+----
+ 
+ Este é dividido em duas partes:
+
+* |icone_remover| **Remover franquia do contrato**: Representa a lista de franquias já inclusas no contrato.
+
+* |icone_adicionar| **Adicionar franquia ao contrato**: Indica as opções de franquias que podem ser atreladas ao contrato.
+
+Ambas partes apresentam as mesmas colunas:
+
+* Coluna acionável representada pelo *checkbox*;
+
+* Nome;
+
+* *Tag*.
+
+Caso deseje procurar por uma franquia ou *tag* específica, é possível utilizar as ferramentas de busca presentes na tela, representadas por campos de pesquisa situados abaixo dos títulos das colunas, como evidenciada na imagem abaixo.
+
+.. image:: /figuras/fig_franquia/015.1_ucloud_pesquisa_franquia.png
+   :alt:  pesquisar franquia
+   :align: center
+----
+
+Há a possibilidade do usuário escolher o modo de visualização das listas em blocos de informação em 10, 25, 50 ou 100 linhas. 
+
+----
+
+.. centered:: Removendo franquia do contrato
+
+----
+
+Para remover uma franquia, basta marcar o *checkbox* ao lado esquerdo do nome da franquia, e em seguida clicar no botão ``Aplicar``, localizado no canto inferior direito. 
+
+No lado oposto, o botão ``Cancelar`` permite ao usuário desistir da operação de associar uma franquia do sistema ao contrato em qualquer momento.
+
+----
+
+.. centered:: Adicionando franquia ao contrato
+
+----
+
+Se deseja adicionar uma franquia, basta seguir o mesmo fluxo descrito no parágrafo anterior. 
+
+Após realizar as ações de remoção e adição de franquias, mensagens de confirmação são apresentadas no canto superior direito da tela. 
+
+.. attention:: Essas ações não são exibidas no menu Tarefas.
+
+----
+
+Visualizando
+""""""""""
+
+Para esta etapa, é necessário acessar o menu Financeiro, localizado na barra lateral esquerda.
+
+.. image:: /figuras/fig_franquia/016_ucloud_menu_financeiro.png
+   :alt:  menu financeiro
+   :align: center
+----
+
+Feito isso, os submenus são expostos e o usuário deve clicar em “Relatórios *new* ”.
+
+.. image:: /figuras/fig_franquia/016.1_ucloud_submenu_financeiro.png
+   :alt:  submenu financeiro
+   :align: center
+----
+
+Ao selecionar esta opção, a seguinte tela é apresentada:
+
+.. image:: /figuras/fig_franquia/017_ucloud_financeiro.png
+   :alt:  financeiro
+   :align: center
+----
+
+É possível identificar o período (mês e ano) que mostra o resultado de acordo com a seleção do usuário, e os dois tipos de painéis:
+
+* Painéis baseados em consumo;
+
+* Painéis baseados em fatura.
+
+Para dar continuidade ao fluxo, o usuário deve clicar no “Relatório Consolidado de Faturamento”, que pertence ao painel baseado em fatura, evidenciado na figura abaixo.
+
+.. image:: /figuras/fig_franquia/018_ucloud_botão_relatório.png
+   :alt:  botão relatório
+   :align: center
+----
+
+O histórico de faturamento do relatório consolidado é exibido a partir da seleção de um período e um contrato.
+
+.. image:: /figuras/fig_franquia/019_ucloud_tela_financeiro.png
+   :alt:  tela financeiro
+   :align: center
+----
+
+Abaixo são listadas as ações da tela referentes à Franquia:
+
+* **Botão** ``Voltar``: o usuário pode retornar à tela anterior a qualquer momento;
+
+* **Período**: indica o calendário para escolha necessária;
+
+* **Selecione um ou vários contratos**: apresenta uma lista com todos os contratos existentes na qual é possível selecionar um ou mais;
+
+* **Filtrar**: permite facilitar a procura de forma objetiva;
+
+* **Botão** ``Pesquisar``: recupera o resultado de uma busca.
+
+O primeiro passo é selecionar o período desejado no campo da data, ao lado do botão ``Voltar``. 
+
+O calendário apresentado disponibiliza anos e meses, nele o usuário pode escolher o período desejado de acordo com a necessidade, em seguida clicar no botão ``Aplicar`` para confirmar, ou ``Cancelar`` para desistir da seleção.
+
+.. image:: /figuras/fig_franquia/020_ucloud_relatorio_data.png
+   :alt:  relatório data
+   :align: center
+----
+
+No campo de seleção de um ou vários contratos, é possível utilizar a barra de rolagem para auxiliar na procura ou digitar o nome do contrato no qual a franquia está incluída. 
+
+.. image:: /figuras/fig_franquia/020.1_ucloud_relatorio_contratos.png
+   :alt:  relatório contratos
+   :align: center
+----
+
+Ao encontrar o contrato que deseja, basta clicar no *checkbox* situado ao lado esquerdo do nome para selecioná-lo, e em seguida no botão ``Pesquisar`` para que a tela com o resultado seja apresentado.
+
+.. image:: /figuras/fig_franquia/021_ucloud_pesquisa.png
+   :alt:  pesquisa
+   :align: center
+----
+
+Nela, é possível observar o total da fatura em BRL e em USN, um botão para ``Exportar`` e o número de contratos encontrados.
+
+A lista de detalhamento do relatório do contrato é dividida em oito colunas, são elas:
+
+* Contrato;
+
+* Período de consumo;
+
+* Mês de faturamento;
+
+* Data de fechamento;
+
+* *Status*;
+
+* Preço;
+
+* Custo em USN;
+
+* Ações:
+
+    * Em tela;
+
+    * Ver detalhes;
+
+    * Baixar;
+
+    * Abrir Fatura;
+
+    * Fechar Fatura.
+
+.. image:: /figuras/fig_franquia/022__ucloud_botao_tela.png
+   :alt:  botão tela
+   :align: center
+----
+
+É possível o usuário escolher o modo de visualização das listas em blocos de informação em 10, 25, 50 ou 100 linhas. 
+
+Contudo no recorte acima, apenas uma ação está relacionada  à franquia. Na última coluna ações, o usuário deve clicar no primeiro botão representado por uma tela |icone_tela|. 
+
+Esta ação refere-se à visualização, sendo a única forma de acesso e visualização dos dados, unicamente na tela, ou seja, não é possível exportar as informações.
+
+Ao pressionar no ícone |icone_tela|, o modal de visualização da fatura resumida é apresentado:
+
+.. image:: /figuras/fig_franquia/023_ucloud_visualizar_franquia.png
+   :alt:  visualizar franquia
+   :align: center
+----
+
+Nesta tela é possível identificar o nome do contrato, o total da fatura em R$ e USN, assim como a possibilidade de filtrar por tipo de recurso, caso a *flag*  ``Recursivo`` esteja acionada, ou pela descrição do recurso, quando desativada. Os detalhes da fatura são categorizados em partes, são eles:
+
+* Descrição do serviço;
+
+* Preço unitário;
+
+* Quantidade consumida;
+
+* Total em R$;
+
+* Total em USN.
+
+.. important:: Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem.
+
+.. warning:: Caso não haja consumo, o valor a ser cobrado do cliente é o da franquia mínima do sistema.
+
+----
 
 Relatório Tendência de Faturamento (RTF)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16953,3 +17418,13 @@ Revisão 20/01/2023.
 .. |icone_cancelar_vermelho1| image:: /figuras/fig_rgcf/icone_cancelar_vermelho1.png
 
 .. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.PNG
+
+.. |icone_tela| image:: /figuras/fig_franquia/icone_tela.png
+
+.. |icone_configurações| image:: /figuras/fig_franquia/icone_configurações.png
+
+.. |icone_remover| image:: /figuras/fig_franquia/icone_remover.png
+
+.. |icone_adicionar| image:: /figuras/fig_franquia/icone_adicionar.png
+
+
