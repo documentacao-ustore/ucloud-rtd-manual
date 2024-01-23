@@ -677,7 +677,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +============================+=========================================================================================================================+
 |Objetivo                    |Exibir as métricas de desempenho e possíveis economias do cluster Neptune, baseado na performance do último mês          |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|Fornecer as recomendações de savings de clusters Neptune performados nos últimos 31 ou 30 dias (depende do mês corrente).|                                                                                                                         |
+|Novo comportamento no portal|Fornecer as recomendações de savings de clusters Neptune performados nos últimos 31 ou 30 dias (depende do mês corrente).|
 |                            |Para instâncias ociosas, a recomendação é embasada em instâncias ativas (que não estão ociosas).                         | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |AWS > Neptune                                                                                                            |
