@@ -538,7 +538,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 |Novo comportamento no portal|A partir desta feature o portal lista as informações das distribuições do CloudFront considerando os dados de bilhetagem |
 |                            |do último mês.                                                                                                           | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |AWS > CloudFront                                                                                                                         |
+|Localização no portal       |AWS > CloudFront                                                                                                         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_usavings/notas/020_cloudfront.png
@@ -673,22 +673,28 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 ----
 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Feature                     |                                                                                                                         |
+|Feature                     |Neptune                                                                                                                  |
 +============================+=========================================================================================================================+
-|Objetivo                    |                                                                                                                         |
+|Objetivo                    |Exibir as métricas de desempenho e possíveis economias do cluster Neptune, baseado na performance do último mês          |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                                                         |
-|                            |                                                                                                                         | 
+|Novo comportamento no portal|Fornecer as recomendações de savings de clusters Neptune performados nos últimos 31 ou 30 dias (depende do mês corrente).|                                                                                                                         |
+|                            |Para instâncias ociosas, a recomendação é embasada em instâncias ativas (que não estão ociosas).                         | 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                                                         |
+|Localização no portal       |AWS > Neptune                                                                                                            |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
-.. .. figure:: /figuras/.png
-   :alt:  
+.. figure:: /figuras/fig_usavings/notas/021_neptune.png
+   :alt: Neptune  
    :scale: 100 %
    :align: center
-.. ----
+----
+
+.. figure:: /figuras/fig_usavings/notas/021_neptunea.png
+   :alt: Neptune 
+   :scale: 100 %
+   :align: center
+----
 
 
 ----
@@ -697,23 +703,31 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     |EFS                                                                                        |
-+============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
-+----------------------------+-------------------------------------------------------------------------------------------+
++----------------------------+--------------------------------------------------------------------------------------------+
+|Feature                     |EFS                                                                                         |
++============================+============================================================================================+
+|Objetivo                    |Oferecer as recomendações de savings relacionadas a sistemas de arquivos elásticos          |
++----------------------------+--------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Apresentar as informações sobre EFS e exibir as recomendações baseadas nos padrões de uso.  |
+|                            |Por exemplo:                                                                                |
+|                            |Se está ocioso, se possui backup automático, se está encriptado ou possui encriptação KMS   |
+|                            |para a melhor performance de segurança.                                                     |
++----------------------------+--------------------------------------------------------------------------------------------+
+|Localização no portal       |AWS > EFS                                                                                   | 
++----------------------------+--------------------------------------------------------------------------------------------+
 
-.. .. figure:: /figuras/.png
-   :alt: 
+
+.. figure:: /figuras/fig_usavings/notas/022_efs.png
+   :alt: EFS 
    :scale: 100 %
    :align: center
-.. ----
+----
+
+.. figure:: /figuras/fig_usavings/notas/022_efsa.png
+   :alt: EFS 
+   :scale: 100 %
+   :align: center
+----
 
 ----
 
@@ -724,21 +738,31 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |S3                                                                                         |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    |Aprovisionar as recomendações da otimização de custos de buckets S3 na AWS                 |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Novo comportamento no portal|Exibição detalhada sobre os buckets S3 oferecendo as recomendações de economia de custos.  |
+|                            |A utilização total de armazenamento e a descrição dos buckets utilizados.                  |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Localização no portal       |AWS > S3                                                                                   | 
 +----------------------------+-------------------------------------------------------------------------------------------+
 
-.. .. figure:: /figuras/.png
-   :alt: 
+.. figure:: /figuras/fig_usavings/notas/023_s3.png
+   :alt: S3 
    :scale: 100 %
    :align: center
-.. ----
+----
 
+.. figure:: /figuras/fig_usavings/notas/023_s3a.png
+   :alt: S3 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/023_s3b.png
+   :alt: S3 
+   :scale: 100 %
+   :align: center
+----
 
 ----
 
@@ -749,17 +773,35 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |EBS                                                                                        |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    |Listar os volumes EBS, os dados de uso e as recomendações de savings destes volumes        |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Novo comportamento no portal|A partir desta feature, são feitas as recomendações para os volumes EBS em conjunto com as |
+|                            |métricas de uso, as recomendações de desativação ou arquivamento de snapshots antigos e    |
+|                            |mudanças de tipo de instância.                                                             |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Localização no portal       |AWS > EBS                                                                                  | 
 +----------------------------+-------------------------------------------------------------------------------------------+
 
-.. .. figure:: /figuras/.png
-   :alt: 
+.. figure:: /figuras/fig_usavings/notas/024_ebs.png
+   :alt: EBS 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/024_ebsa.png
+   :alt: EBS 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/024_ebsb.png
+   :alt: EBS 
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_usavings/notas/024_ebsc.png
+   :alt: EBS 
    :scale: 100 %
    :align: center
 ----
