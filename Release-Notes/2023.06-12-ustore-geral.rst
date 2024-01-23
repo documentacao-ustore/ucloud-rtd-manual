@@ -876,12 +876,12 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Relatório Custo Relacional de Produto (CRP)                                                |
 +============================+===========================================================================================+
-|Objetivo                    | Visualizar o custo de cada serviço separadamente dentro de um contrato selecionado        |
+|Objetivo                    | Visualizar o custo de cada serviço separadamente dentro de um contrato selecionado.       |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Descrição                   | Nele é possível acompanhar a evolução (diária, semanal ou mensal) dos custos detalhados   |                                                                         
+|Descrição                   | Nele é possível acompanhar a evolução (diária, semanal ou mensal) dos custos detalhados.  |                                                                         
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Novo comportamento no portal| Analisa a real composição de custos de um recurso em particular, apresentando             |
-|                            | detalhadamente os valores dos seus sub-recursos distribuídos em um período selecionado    |                
+|                            | detalhadamente os valores dos seus sub-recursos distribuídos em um período selecionado.   |                
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Localização no portal       | Menu Financeiro > Submenu Relatórios > Custo Relacional de Produto                        | 
 +----------------------------+-------------------------------------------------------------------------------------------+
@@ -976,12 +976,12 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     | Relatório para utilização da Integração PMC com o Odin                                    |
 +============================+===========================================================================================+
-|Objetivo                    | Reporta dados de consumo para a Embratel (Odin)                                           |
+|Objetivo                    | Reporta dados de consumo para a Embratel (Odin).                                          |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Descrição                   | Seção responsável pela integração, visualização e envio de dados de consumo para o        |
 |                            | serviço de faturamento da Embratel (Odin).                                                |                                             
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal| Sua principal função é o envio de dados para a plataforma da Embratel (Odin), nenhum      |                                                                             
+|Novo comportamento no portal| Sua principal função é o envio de dados para a plataforma da Embratel (Odin).             |                                                                             
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Localização no portal       | Menu Financeiro > Utilitários > Integração PMC com Odin                                   |
 +----------------------------+-------------------------------------------------------------------------------------------+
