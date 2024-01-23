@@ -873,6 +873,27 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     |Relatório Custo Relacional de Produto (CRP)                                                |
++============================+===========================================================================================+
+|Objetivo                    | Visualizar o custo de cada serviço separadamente dentro de um contrato selecionado        |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Descrição                   | Nele é possível acompanhar a evolução (diária, semanal ou mensal) dos custos detalhados   |                                                                         
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal| Analisa a real composição de custos de um recurso em particular, apresentando             |
+|                            | detalhadamente os valores dos seus sub-recursos distribuídos em um período selecionado    |                
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       | Menu Financeiro > Submenu Relatórios > Custo Relacional de Produto                        | 
++----------------------------+-------------------------------------------------------------------------------------------+
+|Link de acesso              |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+
+
+.. image:: /figuras/fig_crp/014_custo_relacional_relatório.PNG
+   :alt: Dados do Relatório CRP 
+   :align: center
+----
+
 ``inserir hyperlink``
 
 
@@ -952,6 +973,26 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
++----------------------------+-------------------------------------------------------------------------------------------+
+|Feature                     | Relatório para utilização da Integração PMC com o Odin                                    |
++============================+===========================================================================================+
+|Objetivo                    | Reporta dados de consumo para a Embratel (Odin)                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Descrição                   | Seção responsável pela integração, visualização e envio de dados de consumo para o        |
+|                            | serviço de faturamento da Embratel (Odin).                                                |                                             
++----------------------------+-------------------------------------------------------------------------------------------+
+|Novo comportamento no portal| Sua principal função é o envio de dados para a plataforma da Embratel (Odin), nenhum      |                                                                             
++----------------------------+-------------------------------------------------------------------------------------------+
+|Localização no portal       | Menu Financeiro > Utilitários > Integração PMC com Odin                                   |
++----------------------------+-------------------------------------------------------------------------------------------+
+|Link de acesso              |                                                                                           |
++----------------------------+-------------------------------------------------------------------------------------------+
+
+.. image:: /figuras/fig_pmc_odin/005_contrato_selecionado_tela.png
+   :alt: Tela Relatório PMC com Odin 
+   :align: center
+----
+
 ``inserir hyperlink``
 
 ----
@@ -984,6 +1025,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |Link de acesso                 | https://bit.ly/trucloudmu                                                                                                           |
 +-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+
 
 .. image:: /figuras/fig_termo_responsabilidade/003.1_config_geral_tela_recorte.png
     :alt: Configuração geral
@@ -1106,22 +1148,25 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 ----
 
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     |Jornada do Usuário Utilizador                                                              |
+|Feature                     | Jornada do Usuário Utilizador                                                             |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    | Sondar e identificar de maneira ética os potenciais usuários que necessitam de            |
+|                            | conscientização sobre os perigos dos ambientes virtuais                                   |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Descrição                   | Busca melhorar a segurança cibernética e reduzir os riscos associados ao ataque de        |
+|                            | *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários.     |                                            
+|Novo comportamento no portal| Proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar  |
+|                            | os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime.           |                                              
+|Localização no portal       | Segurança > Ethical Phishing                                                              |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Link de acesso              |                                                                                           |
 +----------------------------+-------------------------------------------------------------------------------------------+
 
-.. .. figure:: /figuras/.png
-   :alt: 
-   :scale: 100 %
+.. image:: /figuras/fig_segurança/005_meu_dashboard.png
+   :alt: dashboard usuário
    :align: center
 ----
+
 
 ``inserir hyperlink``
 
