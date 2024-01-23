@@ -996,7 +996,6 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
-``inserir``
 
 
 ----
@@ -1034,14 +1033,20 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Recomendações                                                                              |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    |Apresentar avaliação em diferentes áreas sobre ações necessárias na conta do usuário       |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Novo comportamento no portal|Prover informação sobre ações para otimizar os desvios em relação às práticas recomendadas:|
+|                            |  * Limites de serviço                                                                     |
+|                            |  * Segurança                                                                              |
+|                            |  * Otimização de custo                                                                    |
+|                            |  * Tolerância a falhas                                                                    |
+|                            |  * Performance                                                                            |
+|                            |  * Excelência Operacional                                                                 |
+|                            |  * Além de informações gerais                                                             |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Localização no portal       |Menu Recomendações                                                                         | 
 +----------------------------+-------------------------------------------------------------------------------------------+
+
 
 .. .. figure:: /figuras/.png
    :alt: 
@@ -1058,13 +1063,14 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Orquestrador                                                                               |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    |Coletar e processar dados brutos da nuvem quase em tempo real                              |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Novo comportamento no portal|É possível apresentar os dados estatísticos registrados e acessar as informações históricas|
+|                            |e obter o cenário sobre a performance dos clusters ou serviços.                            |
+|                            |Métricas de utilização de CPU, memória, rede, armazenamento.                               |
+|                            |Quantidade de instâncias de container, tarefas e serviços.                                 |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Localização no portal       |Menu Orquestrador                                                                          | 
 +----------------------------+-------------------------------------------------------------------------------------------+
 
 .. .. figure:: /figuras/.png
@@ -1090,11 +1096,11 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Auto Assessments                                                                           |
 +============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
+|Objetivo                    |Avaliar o estado de maturidade e o nível do entendimento relacionado a certo projeto       |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
+|Novo comportamento no portal|Permite aplicar questionário eletrônico de avaliação rápida e abrangente de um ponto-chave.|
+|                            |Gera relatório analítico que possiblita identificar o nível de maturidade relacionado a    |
+|                            |estado ou necessidade de determinada área ou projeto da empresa.                           |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Localização no portal       |                                                                                           | 
 +----------------------------+-------------------------------------------------------------------------------------------+
@@ -1105,7 +1111,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
    :align: center
 ----
 
-``inserir hyperlink``
+
 
 ----
 
@@ -1113,25 +1119,22 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     |Jornada do Gerente Admin                                                                   |
-+============================+===========================================================================================+
-|Objetivo                    |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|                                                                                           |
-|                            |                                                                                           |
-|                            |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
-+----------------------------+-------------------------------------------------------------------------------------------+
++----------------------------+--------------------------------------------------------------------------------------------------------------+
+|Feature                     |Jornada do Gerente Admin                                                                                      |
++============================+==============================================================================================================+
+|Objetivo                    |Realizar campanhas e sondar de maneira ética os usuários sobre segurança das informações em ambientes virtuais|
++----------------------------+--------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|Abordagem ética para melhorar a segurança cibernética sem prejudicar a privacidade das informações dos        |
+|                            |usuários. A partir dos indicadores de acompanhamento resultantes das simulações das campanhas de phishing.    |
++----------------------------+--------------------------------------------------------------------------------------------------------------+
+|Localização no portal       |https://bit.ly/epjgaucloudmu                                                                                                              | 
++----------------------------+--------------------------------------------------------------------------------------------------------------+
 
-.. .. figure:: /figuras/.png
-   :alt: 
+.. figure:: /figuras/fig_segurança/015_detalhes_campanha.png
+   :alt: Campanha
    :scale: 100 %
    :align: center
 ----
-
-``inserir hyperlink``
 
 
 ----
