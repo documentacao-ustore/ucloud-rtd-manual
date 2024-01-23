@@ -1813,9 +1813,9 @@ Al seleccionar esta opción del menú, la plataforma Mangue.io muestra la siguie
     :align: center
 =====
 
-La plataforma Mangue.io presenta los valores del *cluster* y  *namespace* seleccionados en la pestaña engranajes |icone_engrenagem| “Selección de la configuración". En cada selección de un nuevo contrato/*cluster*/*namespace*, los valores y los gráficos son actualizados automáticamente.
+La plataforma Mangue.io presenta los valores del *cluster* y  *namespace* seleccionados en la pestaña engranajes |icone_engrenagem| “Selección de la configuración". 
 
-Esta pantalla está dividida en dos secciones diferentes, a continuación se muestran los detalles de cada sección.
+En cada selección de un nuevo contrato/*cluster*/*namespace*, los valores y los gráficos son actualizados automáticamente. Esta pantalla está dividida en dos secciones diferentes, a continuación se muestran los detalles de cada sección.
 
 ====
 
@@ -1949,14 +1949,14 @@ La pantalla de facturación por *tags* está separada en dos secciones:
     :align: center
 ----
 
-En la sección Historial de Facturación Mensual por *tags*, el usuario debe seleccionar primero un *Cluster*, para que la plataforma pueda cargar los *tags* del *Cluster*. A continuación, el usuario puede seleccionar el periodo de facturación deseado y los *tags* que se mostrarán en el gráfico y en la sección Detalles de *tags*.
+En la sección Historial de Facturación Mensual por *tags*, el usuario debe seleccionar primero un *Cluster*, para que la plataforma pueda cargar los *tags* del *Cluster*. A continuación, el usuario puede seleccionar el periodo de facturación deseado y los *tags* que se mostrarán en el gráfico y en la sección "Detalles de *tags*".
 
 .. image:: /figuras/fig_mangue/095_mangue_detalhes_tag.png
     :alt: Detalhes tag
     :align: center
 =====
 
-En la sección Detalles de *tags*, se mostra una lista de todos los *tags* o de los *tags* seleccionados en la sección Historial de Facturación Mensual por *tags*. En el detallamiento del *tag* se mostra una lista de aplicaciones con el *tag* y un gráfico con la facturación del *tag* en los últimos 30 días.
+En la sección "Detalles de *tags*", se mostra una lista de todos los *tags* o de los *tags* seleccionados en la sección Historial de Facturación Mensual por *tags*. En el detallamiento del *tag* se mostra una lista de aplicaciones con el *tag* y un gráfico con la facturación del *tag* en los últimos 30 días.
 
 El usuario puede eliminar un *tag* pulsando el botón de "Papelera" |icone_lixo|, en el Detallamiento del *tag*.
 
@@ -1965,7 +1965,7 @@ El usuario puede eliminar un *tag* pulsando el botón de "Papelera" |icone_lixo|
 D. Alertas
 ~~~~~~~~~~
 
-A través de las alertas, es posible al usuario ser notificado cuando se alcanza el presupuesto establecido para un *deployment* o conjunto de *deployments*, cuando se agrupan en *tags*. Además de poder configurar las acciones que deben ejecutarse cuando el presupuesto de estos recursos es alcanzado. Esto permite al usuario tener más control sobre el coste de cada servicio. 
+A través de las alertas, es posible al usuario ser notificado cuando se alcanza el presupuesto establecido para un *deployment* o conjunto de *deployments*, cuando se agrupan en *tags*. Además de poder configurar las acciones que deben ejecutarse cuando el presupuesto de estos recursos es alcanzado. Esto permite al usuario tener más control sobre el costo de cada servicio. 
 
 Como se muestra en las siguientes imágenes, un card muestra "Alertas" y el otro "*Webhooks*", los detalles de cada un se describen a continuación: 
 
@@ -2026,12 +2026,12 @@ En esta sección de alertas es posible ver el ícono de añadir alerta, como en 
 
       * **Descripción**: Campo correspondiente a la descripción de la alerta; 
 
-      * **Tipo**: Hay dos valores posibles para el tipo, por *Tag* para seleccionar un conjunto de *deployments*, y por *Deployment* para seleccionar sólo un *deployment*. Al seleccionar el *Tag* o el *deployment* se realiza una búsqueda del valor del coste total correspondiente al *deployment* o el *Tag* seleccionado, este valor se muestra en el campo "Coste Actual" de la pantalla.
+      * **Tipo**: Hay dos valores posibles para el tipo, por *Tag* para seleccionar un conjunto de *deployments*, y por *Deployment* para seleccionar sólo un *deployment*. Al seleccionar el *Tag* o el *deployment* se realiza una búsqueda del valor del costo total correspondiente al *deployment* o el *Tag* seleccionado, este valor se muestra en el campo "Costo Actual" de la pantalla.
 
 * **Plazo**: En este campo se puede establecer un plazo para la ejecución de la alerta; las alertas con status *pending* no se ejecutan después del plazo establecido para la alerta.
-* **Presupuesto**:  En este campo es posible indicar el precio del presupuesto de la alerta, cuando el coste total de la suma de los *deployments* seleccionados alcance el valor indicado la alerta es ejecutada. 
+* **Presupuesto**:  En este campo es posible indicar el precio del presupuesto de la alerta, cuando el costo total de la suma de los *deployments* seleccionados alcance el valor indicado la alerta es ejecutada. 
 
-.. note:: El Valor del Presupuesto debe ser mayor que el valor del "Coste Actual".
+.. note:: El Valor del presupuesto debe ser mayor que el valor del "Costo Actual".
 
 .. image:: /figuras/fig_mangue/100_mangue_alerta_detalhes.png
     :alt: Alerta detalhes 
@@ -2055,7 +2055,7 @@ En esta sección de alertas es posible ver el ícono de añadir alerta, como en 
     :align: center
 =====
 
-* **Escalamiento de la aplicación**: Esta acción permite al usuario configurar el cambio de la cantidad de réplicas en ejecución de las aplicaciones seleccionadas. Una vez ejecutada la alerta, posibilita reducir/aumentar la cantidad de instancias de una aplicación, conforme al coste actual de la misma. Ejemplo en la siguiente imagen:
+* **Escalamiento de la aplicación**: Esta acción permite al usuario configurar el cambio de la cantidad de réplicas en ejecución de las aplicaciones seleccionadas. Una vez ejecutada la alerta, posibilita reducir/aumentar la cantidad de instancias de una aplicación, conforme al costo actual de la misma. Ejemplo en la siguiente imagen:
 
 .. image:: /figuras/fig_mangue/103_mangue_escalonamento_aplicacao.png
     :alt: Escalonamento aplicação 
@@ -2099,9 +2099,9 @@ En esta sección de alertas es posible ver el ícono de añadir alerta, como en 
 * **Método**: Esta columna presenta el método HTTP seleccionado al crear el *webhook*, con los siguientes valores: "*GET*", "*POST*", "*PUT*", "*DELETE*", "*PATCH*".
 * **Url**: Esta columna presenta la url de destino para el envío del mensaje.
 * **Body**: Esta columna muestra el cuerpo de la petición HTTP;
-* **Email**: Esta columna muestra el email de destino para el envío de un mensaje por email.
+* **Email**: Esta columna muestra el correo electrónico de destino para el envío de un mensaje.
 * **Alertas**: Esta columna presenta una lista de alertas relacionadas con el *Webhook* correspondiente. 
-* **Acciones**: Esta columna presenta el botón de ``Acción`` |icone_acao| al ser pulsado, presenta las opciones siguientes:
+* **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| al ser pulsado, presenta las opciones siguientes:
 
 .. image:: /figuras/fig_mangue/107_mangue_acoes_webhook.png
     :alt: Ações webhook
@@ -2117,7 +2117,7 @@ En esta sección de alertas es posible ver el ícono de añadir alerta, como en 
     :align: center
 =====
 
-      * **Editar Webhook**: Cuando el usuario selecciona esta acción la plataforma Mangue.io presenta el formulario presente en la imagen de abajo con las informaciones del webhook, para que el usuario pueda editarlas.
+      * **Editar Webhook**: Cuando el usuario selecciona esta acción la plataforma Mangue.io presenta el formulario presente en la imagen de abajo con las informaciones del *webhook*, para que el usuario pueda editarlas.
 
 .. image:: /figuras/fig_mangue/109_mangue_editar_webhook.png
     :alt: Editar webhook 
@@ -2130,11 +2130,11 @@ En esta sección de alertas es posible ver el ícono de añadir alerta, como en 
 * **URL**: Informa la url para la petición HTTP;
 * **Body**: Comunica el *body* para la petición HTTP;
 * **Email**: Indica la dirección de correo electrónico para el envío de mensajes;
-* **Mensaje**:  En este campo indicar el mensaje que es enviada al Email informado en el campo anterior.
+* **Mensaje**:  En este campo indicar el mensaje que es enviada al correo electrónico informado en el campo anterior.
 
 En esta sección de *webhooks* es posible ver el ícono de añadir *webhook*, como en el siguiente ejemplo |icone_adicionar|. 
 
-.. attention:: El formulario de adición del *webhook* es el mismo presentado para editar *webhook*.
+.. note:: El formulario de adición del *webhook* es el mismo presentado para editar *webhook*.
 
 ====
 
@@ -2147,9 +2147,9 @@ La plataforma Mangue.io puede realizar recomendaciones para optimizar el uso de 
 
     Ejemplo: una aplicación con *memory request* de 256 MB siempre tiene asignada esta cantidad de memoria, aunque la aplicación siempre utilice sólo 20 MB.
 
-* **Limit**: Si la aplicación necesita utilizar más recursos de los especificados en *Request*, el Kubernetes intenta asignar más recursos en el caso de que la máquina no tenga ninguno disponible. 
+* **Limit**: Si la aplicación necesita utilizar más recursos de los especificados en *Request*, el *Kubernetes* intenta asignar más recursos en el caso de que la máquina no tenga ninguno disponible. 
 
-    Es posible limitar la cantidad de recursos que el Kubernetes intenta asignar a la aplicación utilizando *Limit*. 
+    Es posible limitar la cantidad de recursos que el *Kubernetes* intenta asignar a la aplicación utilizando *Limit*. 
 
     Ejemplo: una aplicación con *request* de 256 MB y *limit* de 512 MB siempre tiene asignados 256 MB, si necesita más memoria se le pueden asignar hasta 512 MB y si no es suficiente la aplicación se queda sin memoria, lo que puede provocar lentitud o inestabilidad en la aplicación.
 
@@ -2185,7 +2185,7 @@ A continuación describimos la información presente en la tabla de tareas progr
 
 * **Descartar recomendación actual**: Al seleccionar la opción de descartar, la recomendación seleccionada es eliminada, y se mostra una recomendación anterior si la tiene.
 
-* **Botón** ``Más sugerencias``: Redirecciona a una página donde se mostra una lista con las recomendaciones generadas anteriormente.
+* **Botón** ``Más Sugerencias``: Redirecciona a una página donde se mostra una lista con las recomendaciones generadas anteriormente.
 
 .. image:: /figuras/fig_mangue/112_mangue_historico_recomendacao.png
     :alt: Histórico sugestão recomendação 
@@ -2209,7 +2209,7 @@ En las siguientes pantallas se describen cómo la interfaz de la plataforma pres
 Contrato
 --------
 
-A continuación se muestra la pantalla que presenta informaciones sobre el contrato seleccionado en el menú de configuración, se puede ver información sobre el contrato e informaciones sobre los usuarios del contrato.
+A continuación se muestra la pantalla que presenta informaciones sobre el contrato seleccionado en el menú de configuraciones, se puede ver informaciones sobre el contrato, como también sobre los usuarios del contrato.
 
 .. image:: /figuras/fig_mangue/113_mangue_informacoes_contrato_user.png
     :alt: Informações contrato user 
