@@ -12392,7 +12392,7 @@ Neste, é possível visualizar informação sobre a franquia atrelada a este con
 
 Como no exemplo acima existem informações a serem visualizadas, mas caso não existam, é necessário seguir o fluxo para associar uma franquia ao contrato.
 
-Para isto, é preciso clicar no botão ``Configurações`` representado pelo ícone |icone_configurações|.
+Para isto, é preciso clicar no botão ``Configurações`` representado pelo ícone |icone_configurações| .
 
 .. image:: /figuras/fig_franquia/014.1_ucloud_franquia_card.png
    :alt:  franquia card
