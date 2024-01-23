@@ -885,7 +885,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Localização no portal       | Menu Financeiro > Submenu Relatórios > Custo Relacional de Produto                        | 
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                           |
+|Link de acesso              | https://bit.ly/rcrpucloudmu                                                               |
 +----------------------------+-------------------------------------------------------------------------------------------+
 
 
@@ -893,8 +893,6 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
    :alt: Dados do Relatório CRP 
    :align: center
 ----
-
-``inserir hyperlink``
 
 
 ----
@@ -976,24 +974,19 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     | Relatório para utilização da Integração PMC com o Odin                                    |
 +============================+===========================================================================================+
-|Objetivo                    | Reporta dados de consumo para a Embratel (Odin).                                          |
+|Objetivo                    | Reportar dados de consumo.                                                                |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Descrição                   | Seção responsável pela integração, visualização e envio de dados de consumo para o        |
-|                            | serviço de faturamento da Embratel (Odin).                                                |                                             
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal| Sua principal função é o envio de dados para a plataforma da Embratel (Odin).             |                                                                             
+|Descrição                   | Seção responsável pela integração, visualização e envio de dados de consumo.              |                                                                                                                        
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Localização no portal       | Menu Financeiro > Utilitários > Integração PMC com Odin                                   |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
 
-.. image:: /figuras/fig_pmc_odin/005_contrato_selecionado_tela.png
+
+.. image:: /figuras/fig_pmc_odin/022_contrato_selecionado_tela.png
    :alt: Tela Relatório PMC com Odin 
    :align: center
 ----
-
-``inserir hyperlink``
+ 
 
 ----
 
@@ -1159,7 +1152,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       | Segurança > Ethical Phishing                                                                                                                                             |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                                                                                                          |
+|Link de acesso              | https://bit.ly/epjuucloudmu                                                                                                                                              |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. image:: /figuras/fig_segurança/005_meu_dashboard.png
@@ -1167,7 +1160,6 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
    :align: center
 ----
 
-``inserir hyperlink``
 
 ----
 
