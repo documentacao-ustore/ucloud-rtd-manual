@@ -1147,26 +1147,25 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     | Jornada do Usuário Utilizador                                                             |
-+============================+===========================================================================================+
-|Objetivo                    | Sondar e identificar de maneira ética os potenciais usuários que necessitam de            |
-|                            | conscientização sobre os perigos dos ambientes virtuais                                   |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Descrição                   | Busca melhorar a segurança cibernética e reduzir os riscos associados ao ataque de        |
-|                            | *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários.     |                                            
-|Novo comportamento no portal| Proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar  |
-|                            | os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime.           |                                              
-|Localização no portal       | Segurança > Ethical Phishing                                                              |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                           |
-+----------------------------+-------------------------------------------------------------------------------------------+
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Feature                     | Jornada do Usuário Utilizador                                                                                                                                            |
++============================+==========================================================================================================================================================================+
+|Objetivo                    | Sondar e identificar de maneira ética os potenciais usuários que necessitam de conscientização sobre os perigos dos ambientes virtuais.                                  |                               
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Descrição                   | Busca melhorar a segurança cibernética e reduzir os riscos associados ao ataque de                                                                                       |
+|                            | *phishing*, sem prejudicar a privacidade ou a segurança das informações dos usuários.                                                                                    |                                                                                        
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Novo comportamento no portal| Proporciona realizar campanhas éticas de envio de e-mails, com o objetivo de identificar os usuários que desconhecem os riscos e ameaças desta modalidade de cibercrime. |                                                                                           
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Localização no portal       | Segurança > Ethical Phishing                                                                                                                                             |
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Link de acesso              |                                                                                                                                                                          |
++----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. image:: /figuras/fig_segurança/005_meu_dashboard.png
    :alt: dashboard usuário
    :align: center
 ----
-
 
 ``inserir hyperlink``
 
