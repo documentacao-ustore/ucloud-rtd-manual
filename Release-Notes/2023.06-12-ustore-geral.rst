@@ -949,7 +949,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 |Link de acesso              |https://bit.ly/fucloudmu                                                                                              |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 
-.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.png
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia1.png
    :alt:  card franquia
    :align: center
 ----
