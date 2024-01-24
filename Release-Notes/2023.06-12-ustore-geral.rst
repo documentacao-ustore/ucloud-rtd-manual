@@ -922,7 +922,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 
 
-.. image:: /figuras/fig_crp/018_custo_relacional_produto_dia.PNG
+.. image:: /figuras/fig_crp/018_custo_relacional_produto_dia.png
    :alt: Dados do Relatório CRP por dia 
    :scale: 90 %
    :align: center
@@ -949,7 +949,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 |Link de acesso              |https://bit.ly/fucloudmu                                                                                              |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 
-.. image:: /figuras/fig_franquia/004_ucloud_card_franquia1.png
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.PNG
    :alt:  card franquia
    :align: center
 ----
