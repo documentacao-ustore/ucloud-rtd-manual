@@ -826,16 +826,15 @@ O time de desenvolvimento do portal uCloud, durante o período de Junho a Dezemb
    *  4. Franquia;
    *  5. Regra de Faturamento;
    *  6. Relatório Consolidado de Faturamento;
-   *  7. Relatório de Gestão de Crédito da Fatura;
-   *  8. Relatório para utilização da integração PMC com o sistema ODIN.
+   *  7. Relatório de Gestão de Crédito da Fatura.
    *  **uCloud Operação**:
-   *  9. Termo de Responsabilidade no menu Configuração;
-   * 10. Menu Recomendações;
-   * 11. Menu Orquestrador.
+   *  8. Termo de Responsabilidade no menu Configuração;
+   *  9. Menu Recomendações;
+   * 10. Menu Orquestrador.
    * **uCloud Segurança**:
-   * 12. Auto Assessment no menu Assessments;
-   * 13. Jornada do Gerente Admin no menu Ethical Phishing;
-   * 14. Jornada do Usuário Utilizador no menu Ethical Phishing.
+   * 11. Auto Assessment no menu Assessments;
+   * 12. Jornada do Gerente Admin no menu Ethical Phishing;
+   * 13. Jornada do Usuário Utilizador no menu Ethical Phishing.
 
 Na sequência cada uma destas novas características são detalhadas com: objetivo, descrição, novo comportamento, localização no portal e link de acesso ao manual de uso.
 
@@ -923,8 +922,9 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 
 
-.. image:: /figuras/fig_crp/014_custo_relacional_relatório.PNG
-   :alt: Dados do Relatório CRP 
+.. image:: /figuras/fig_crp/018_custo_relacional_produto_dia.PNG
+   :alt: Dados do Relatório CRP por dia 
+   :scale: 90 %
    :align: center
 ----
 
@@ -1034,28 +1034,6 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
    :alt: listagem créditos
 =====
 
-----
-
-.. centered:: 8. Relatório para Utilização da Integração PMC com o sistema ODIN
-
-----
-
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     | Relatório para utilização da Integração PMC com o Odin                                    |
-+============================+===========================================================================================+
-|Objetivo                    | Reportar dados de consumo.                                                                |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Descrição                   | Seção responsável pela integração, visualização e envio de dados de consumo.              |                                                                                                                        
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       | Menu Financeiro > Utilitários > Integração PMC com Odin                                   |
-+----------------------------+-------------------------------------------------------------------------------------------+
-
-
-.. image:: /figuras/fig_pmc_odin/022_contrato_selecionado_tela.png
-   :alt: Tela Relatório PMC com Odin 
-   :align: center
-----
- 
 
 ----
 
@@ -1069,7 +1047,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered:: 9. Termo de Responsabilidade no menu Configuração
+.. centered:: 8. Termo de Responsabilidade no menu Configuração
 
 ----
 
@@ -1095,7 +1073,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered:: 10. Menu Recomendações
+.. centered:: 9. Menu Recomendações
 
 ----
 
@@ -1125,7 +1103,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered:: 11. Menu Orquestrador
+.. centered:: 10. Menu Orquestrador
 
 ----
 
@@ -1158,7 +1136,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered::  12. Auto Assessments no menu Assessments
+.. centered::  11. Auto Assessments no menu Assessments
 
 ----
 
@@ -1184,7 +1162,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered::  13. Jornada do Gerente Admin no menu Ethical Phishing
+.. centered::  12. Jornada do Gerente Admin no menu Ethical Phishing
 
 ----
 
@@ -1208,7 +1186,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 
 ----
 
-.. centered:: 14. Jornada do Usuário Utilizador no menu Ethical Phishing
+.. centered:: 13. Jornada do Usuário Utilizador no menu Ethical Phishing
 
 ----
 
