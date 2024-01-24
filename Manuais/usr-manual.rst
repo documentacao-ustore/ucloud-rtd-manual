@@ -17425,4 +17425,8 @@ Revisão 20/01/2023.
 
 .. |icone_adicionar| image:: /figuras/fig_franquia/icone_adicionar.png
 
+.. |icone_adicionar_budget| image:: /figuras/fig_budget/icone_adicionar_budget.png
 
+.. |icone_alerta_off| image:: /figuras/fig_budget/icone_alerta_off.png
+
+.. |icone_alerta_on| image:: /figuras/fig_budget/icone_alerta_on.png

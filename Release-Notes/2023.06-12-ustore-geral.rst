@@ -861,15 +861,19 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 +============================+======================================================================================================================+
 |Objetivo                    |Monitorar o valor consumido em relação ao valor estimado do Budget.                                                   |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
-|Descrição                   |Este alerta é opcional, fica ao critério do usuário ativá-lo ou não.                                                  |
+|Descrição                   |Este alerta é opcional, fica a critério do usuário ativá-lo ou não.                                                   |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
-|Novo comportamento do portal|Comunica ao usuário através de um e-mail automático de que determinada porcentagem do Budget foi atingida e seu nível |
+|Novo comportamento do portal|Comunica ao usuário através de um e-mail automático de que determinada porcentagem do Budget foi atingida e seu nível.|
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Financeiro > Relatórios > Custos de budget > Modal de Criação > Flag Alerta de Rotina                            |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                                                      |
+|Link de acesso              |https://bit.ly/barucloudmu                                                                                            |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 
+.. figure:: /figuras/fig_budget/026_mensagem_email.png
+   :alt: mensagem email
+   :align: center
+----
 
 ----
 
@@ -888,7 +892,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Financeiro > Relatórios > Custos de budget                                                                       |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                                                      |
+|Link de acesso              |https://bit.ly/rcbucloumu                                                                                             |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_budget/018_detalhe_subbudget.png
