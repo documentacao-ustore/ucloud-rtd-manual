@@ -1933,6 +1933,13 @@ Um usuário, sem perfil de Administrador  de Contrato ou Grupo, pode visualizar 
 
 ----
 
+.. Relacionar *Budget* ao Contrato
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Para criar ou editar um *Budget* é necessário o usuário estar no menu Administração, em seguida clicar no submenu Contrato, a plataforma exibe a lista de todos os contratos existentes e nela o usuário pode clicar no contrato relacionado ao *Budget* que deseja editar.
+
+.. ----
+
 Visualizando Contrato
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -9831,7 +9838,7 @@ Abaixo são descritos os campos exibidos na figura acima:
 
 ----
 
-* **Nome do *Budget**
+* **Nome do Budget**
 * **Intervalo**: Menu do tipo *dropdown* que apresenta quatro opções:
 
 .. figure:: /figuras/fig_budget/005_intervalo.png 
@@ -9921,22 +9928,6 @@ Para acionar as funções mencionadas acima, basta clicar na *flag*. Esta, muda 
 Na figura acima é possível notar que ao acionar a *flag* de alerta de rotina, um campo para preenchimento de email é disposto ao lado. Caso seja necessário alertar mais de uma pessoa sobre o nível do *budget*, basta separar os correios eletrônicos por vírgula. 
 
 A inserção destes é crucial para que o usuário possa receber a notificação alertando sobre o *budget*.
-
-O comunicado é enviado para o(s) email(s) cadastrado(s) como uma mensagem automática, sem necessidade de resposta. Isso se deve ao fato de que o remetente é *“no reply”* (não responda, em inglês), como é possível visualizar na figura que se segue: 
-
-.. figure:: /figuras/fig_budget/025_alerta_email.png
-   :alt: alerta email
-   :align: center
-----
-
-Ao clicar no e-mail, a seguinte mensagem é exibida.
-
-.. figure:: /figuras/fig_budget/026_mensagem_email.png
-   :alt: mensagem email
-   :align: center
-----
-
-Vale ressaltar que apenas um email é enviado por cada nível que o *budget* atinge naquele mês.
 
 ----
 
@@ -10146,16 +10137,16 @@ Ao lado do nome de cada coluna é possível notar um par de setas, ao clicá-las
 
 Além disso, ao lado dos nomes de cada *budget* há três ícones:
 
-* |icone_adicionar_budget|: Ao clicar neste botão, os sub budgets são apresentados:
+* |icone_adicionar_budget| : Ao clicar neste botão, os sub budgets são apresentados:
 
 .. figure:: /figuras/fig_budget/018_detalhe_subbudget.png
    :alt: Detalhamento subbudget 
    :align: center 
 ----
 
-* |icone_alerta_on|: Indica se o *budget* possui alerta acionado.
+* |icone_alerta_on| : Indica se o *budget* possui alerta acionado.
 
-* |icone_alerta_off|: Informa que a *flag* para alertar sobre o consumo do *budget* não foi acionada.
+* |icone_alerta_off| : Informa que a *flag* para alertar sobre o consumo do *budget* não foi acionada.
 
 A interface entrega as informações necessárias para o entendimento do usuário sobre os custos dos *sub budgets*, que são:
 
@@ -10167,6 +10158,31 @@ A interface entrega as informações necessárias para o entendimento do usuári
 * Quantidade que o *sub budget* consome em porcentagem.
 
 .. important:: A barra de consumo sofre mudança de cor de acordo com a porcentagem consumida.
+
+.. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
+
+----
+
+Alerta de Rotina
+~~~~~~~~~~~~~~~~
+
+Esta feature, também conhecida como Alerta de *Budget*, pode ser acionada ou não ao clicar na *flag* presente no modal de criação de *budget* e *subbudget*, como mencionado anteriormente.
+
+O comunicado é enviado para o(s) email(s) cadastrado(s) como uma mensagem automática, sem necessidade de resposta. Isso se deve ao fato de que o remetente é *“no reply”* (não responda, em inglês), como é possível visualizar na figura que se segue: 
+
+.. figure:: /figuras/fig_budget/025_alerta_email.png
+   :alt: alerta email
+   :align: center
+----
+
+Ao clicar no e-mail, a seguinte mensagem é exibida.
+
+.. figure:: /figuras/fig_budget/026_mensagem_email.png
+   :alt: mensagem email
+   :align: center
+----
+
+Vale ressaltar que apenas um email é enviado por cada nível que o *budget* atinge naquele mês. Os níveis são:
 
 * **Normal**:
 
@@ -10192,12 +10208,13 @@ A interface entrega as informações necessárias para o entendimento do usuári
 
     * Representado pela cor vermelha no relatório custos do *budget*.
 
+
+.. figure:: /figuras/fig_budget/018_detalhe_subbudget.png
+   :alt: Detalhamento subbudget 
+   :align: center 
 ----
 
-.. note:: Ao escolher um *budget* que tenha um intervalo trimestral, semestral ou anual, a plataforma exibe apenas os *sub budgets* referentes ao período selecionado. Nesta opção, a plataforma entende que trata-se de um período incompleto desse *Budget*. Para exibir todos os meses, deve ser escolhido o período completo do orçamento.
-
 ----
-
 
 Relatório de Monitoramento de Consumo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
