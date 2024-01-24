@@ -62,7 +62,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Cluster Health                                                                          |
 +============================+========================================================================================+
-|Objetivo                    |Monitorar, avaliar e sugerir a segurança e a conformidade dos ambientes Kubernetes      |
+|Objetivo                    |Monitorar, avaliar e sugerir a segurança e a conformidade dos ambientes Kubernetes.     |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |A análise de saúde de um cluster kubernetes consiste em práticas que a comunidade vem   |
 |                            |chamando de KSPM (Kubernetes Security Posture Management), tem a finalidade de          |
@@ -87,7 +87,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/001_cluster_health.png
    :alt:  Cluster Health
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -101,7 +101,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Cluster Score                                                                           |
 +============================+========================================================================================+
-|Objetivo                    |Informar ao usuário como o cluster Kubernetes se encontra configurado                   |
+|Objetivo                    |Informar ao usuário como o cluster Kubernetes se encontra configurado.                  |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Alinhada a feature de cluster health, cada sugestão é classificada de acordo com o grau |
 |                            |de criticidade, sendo eles: health, information, warning e critical. Cada um destes     |
@@ -116,7 +116,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/002_cluster_score.png
    :alt: Cluster Score  
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -130,7 +130,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Integração de cluster RKE (Rancher Kubernetes Engine)                                   |
 +============================+========================================================================================+
-|Objetivo                    |Garantir a perfeita integração e comunicação entre o Mangue.io e um cluster RKE         |
+|Objetivo                    |Garantir a perfeita integração e comunicação entre o Mangue.io e um cluster RKE.        |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Este processo engloba uma modificação abrangente em todo o portal existente.            |
 |                            |Busca otimizar a sua estrutura e lógica para harmonizar-se de maneira eficiente com as  |
@@ -152,7 +152,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Coleta de logs distribuídos                                                             |
 +============================+========================================================================================+
-|Objetivo                    |Dar visibilidade de forma centralizada aos logs distribuídos de uma aplicação           |
+|Objetivo                    |Dar visibilidade de forma centralizada aos logs distribuídos de uma aplicação.          |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Em um ambiente Kubernetes é comum encontrar várias instâncias de uma mesma aplicação,   |
 |                            |com intuito de garantir disponibilidade. Entretanto, são necessárias abordagens         |
@@ -180,7 +180,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/003_coleta_logs_distribuídos.png
    :alt: Coleta logs distribuídos 
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -195,7 +195,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 |Feature                     |Recomendação de nodes                                                                   |
 +============================+========================================================================================+
 |Objetivo                    |Recomendar o tamanho ideal de cada node do cluster Kubernetes, com base no uso de CPU e |
-|                            |memória                                                                                 |
+|                            |memória.                                                                                |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Sugestão de flavor adequado para cada node do cluster, de acordo com o uso de CPU e     |
 |                            |memória do mesmo.                                                                       |
@@ -207,7 +207,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/004_recomendação_de_nodes.png
    :alt: Recomendação de nodes 
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -221,7 +221,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Recursos alocados                                                                       |
 +============================+========================================================================================+
-|Objetivo                    |Visualizar CPU e memória alocadas para os workloads do cluster Kubernetes               |
+|Objetivo                    |Visualizar CPU e memória alocadas para os workloads do cluster Kubernetes.              |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |A alocação de recursos no portal é introduzida para proporcionar aos usuários uma visão |
 |                            |imediata e clara do uso de CPU e memória nos workloads do cluster Kubernetes.           |
@@ -240,7 +240,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/005_recursos_alocados.png
    :alt: Recursos alocados  
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -254,7 +254,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Feature                     |Workloads yaml                                                                          |
 +============================+========================================================================================+
-|Objetivo                    |Editar workloads no formato yaml                                                        |
+|Objetivo                    |Editar workloads no formato yaml.                                                       |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Editar em yaml para os recursos como deployment, facilitando a forma de visualização ao |
 |                            |possibilitar a edição como json e yaml.                                                 |
@@ -265,7 +265,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/006_workloads_yaml.png
    :alt: Workloads yaml  
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -284,7 +284,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 +----------------------------+----------------------------------------------------------------------------------------+
 |Descrição                   |Remover outliers dos dados é crucial para assegurar a precisão e a confiabilidade das   |
 |                            |análises estatísticas, garantindo que resultados e conclusões sejam mais representativos|
-|                            |e consistentes                                                                          |
+|                            |e consistentes.                                                                         |
 +----------------------------+----------------------------------------------------------------------------------------+
 |Novo comportamento do portal|Editar em yaml para recursos como deployment, facilita a forma de visualização e        |
 |                            |possibilita a edição em formato json e yaml.                                            |
@@ -295,7 +295,7 @@ Na sequência cada uma destas são apresentadas com seu objetivo, descrição, n
 
 .. figure:: /figuras/fig_mangue/notas/007_recomendações_sem_outliers.png
    :alt: Recomendações sem outliers  
-   :scale: 100 %
+   :scale: 80 %
    :align: center
 ----
 
@@ -327,7 +327,7 @@ O time de desenvolvimento da plataforma uSavings, no período de Junho a Dezembr
    * 14. S3;
    * 15. EBS.
 
-Na sequência cada uma destas novas caracterísitcas são detalhadas com: objetivo, descrição, novo comportamento e localização no portal.
+Na sequência cada uma destas novas características são detalhadas com: objetivo, descrição, novo comportamento e localização no portal.
 
 ----
 
@@ -340,7 +340,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------+
 |Feature                     |Tasks                                                                          |
 +============================+===============================================================================+
-|Objetivo                    |Apresentar a listagem das ações executadas no portal                           |
+|Objetivo                    |Apresentar a listagem das ações executadas no portal.                          |
 +----------------------------+-------------------------------------------------------------------------------+
 |Novo comportamento do portal|Dentro da tela "Tasks" é possível visualizar as ações executadas na plataforma.|
 |                            |Diferenciadas por dois tipos de status:                                        |
@@ -366,7 +366,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------+
 |Feature                     |DBVM - Máquina Virtual de Banco de Dados                                       |
 +============================+===============================================================================+
-|Objetivo                    |Listar as DBVMs de um container e apresentar savings                           |
+|Objetivo                    |Listar as DBVMs de um container e apresentar savings.                          |
 +----------------------------+-------------------------------------------------------------------------------+
 |Novo comportamento no portal|Mostra a listagem das instâncias DBVM, exceto AWS Aurora. Exibe dados sobre    |
 |                            |a instância e recomendação de savings para a mesma.                            |
@@ -391,7 +391,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------------+
 |Feature                     |AWS EC2 - Elastic Comput Cloud                                                                   |
 +============================+=================================================================================================+
-|Objetivo                    |Listar instâncias EC2 conjuntamente às recomendações de savings                                  |
+|Objetivo                    |Listar instâncias EC2 conjuntamente às recomendações de savings.                                 |
 +----------------------------+-------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Indica recomendações para as instâncias EC2 que estão no container em que foi gerado o relatório.|
 |                            |Desta forma, pode apresentar gráficos com diversas maneiras de como gerar savings para uma conta |
@@ -423,7 +423,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 |Feature                     |VPC - Virtual Private Cloud                                                                                           |
 +============================+======================================================================================================================+
-|Objetivo                    |Listar VPCs simultaneamente com as recomendações de savings                                                           |
+|Objetivo                    |Listar VPCs simultaneamente com as recomendações de savings.                                                          |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Mostra a listagem de VPCs, NAT Gateways e VPC endpoints. Em conjunto com a recomendação de savings para esses objetos.|
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
@@ -458,7 +458,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |ELB                                                                                                                     |
 +============================+========================================================================================================================+
-|Objetivo                    |Listar os balanceadores de carga em conjunto com as recomendações de otimização de custo                                |
+|Objetivo                    |Listar os balanceadores de carga em conjunto com as recomendações de otimização de custo.                               |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento do portal|A partir desta feature, ao listar as recomendações dos balanceadores de carga no container em que o relatório é criado. |
 |                            |Juntamente com os gráficos e a listagem de instâncias que possuem orientações e informações de uso.                     |
@@ -468,19 +468,19 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/018_elb.png
    :alt: ELB
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/018_elba.png
    :alt: ELB
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/018_elbb.png
    :alt: ELB
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -495,7 +495,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |RDS                                                                                                                       |
 +============================+==========================================================================================================================+
-|Objetivo                    |Listar as instâncias de Banco de Dados RDS e as recomendações de savings                                                  |
+|Objetivo                    |Listar as instâncias de Banco de Dados RDS e as recomendações de savings.                                                 |
 +----------------------------+--------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento do portal|A partir desta feature é possível visualizar as recomendações ao listar tanto de troca quanto de resizing de flavors, ou  |
 |                            |as sugestões de troca do processador baseado no tipo de instância do banco de dados RDS. Assim como, as recomendações     |
@@ -506,19 +506,19 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/019_rds.png
    :alt: RDS
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/019_rdsa.png
    :alt: RDS
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/019_rdsb.png
    :alt: RDS
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -533,7 +533,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |CloudFront                                                                                                               |
 +============================+=========================================================================================================================+
-|Objetivo                    |Apresentar as informações sobre distribuição do CloudFront baseado nos dados de billing do último mês                    |
+|Objetivo                    |Apresentar as informações sobre distribuição do CloudFront baseado nos dados de billing do último mês.                   |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|A partir desta feature o portal lista as informações das distribuições do CloudFront considerando os dados de bilhetagem |
 |                            |do último mês.                                                                                                           | 
@@ -543,13 +543,13 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/020_cloudfront.png
    :alt: CloudFront
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/020_cloudfront.png
    :alt: CloudFront
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -562,7 +562,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |Open Search                                                                                                              |
 +============================+=========================================================================================================================+
-|Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio                       |
+|Objetivo                    |Apresentar a listagem dos domínios do Open Search, em conjunto com as recomendações para o domínio.                      |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Realiza uma sequência de análises no domínio, o que permite promover as recomendações em cima do disco, flavor e outras. |
 |                            |Inclusive existem gráficos que demonstram os preços do domínio em conjunto com as recomendações.                         | 
@@ -593,7 +593,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |ElastiCache                                                                                |
 +============================+===========================================================================================+
-|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações            |
+|Objetivo                    |Apresentar a listagem de clusters ElastiCache, em conjunto com as recomendações.           |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|A partir desta feature, são feitas as recomendações sobre os clusters do ElastiCache. Como |
 |                            |também apresenta cards com os gráficos e as representações de economia, de acordo com cada |
@@ -619,7 +619,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |CloudTrail                                                                                                                                             |
 +============================+=======================================================================================================================================================+
-|Objetivo                    |Mostrar a lista de CloudTrails e dados de billing para os CloudTrails do container                                                                     |
+|Objetivo                    |Mostrar a lista de CloudTrails e dados de billing para os CloudTrails do container.                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Demonstrar de forma clara e evidente se existem CloudTrails duplicados, apresenta em forma de gráficos os diferentes tipos de preço para este recurso, |
 |                            |como também mostra alguns dados sobre os CloudTrails criados.                                                                                          | 
@@ -649,7 +649,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-----------------------------------------------------------------+
 |Feature                     |DynamoDB                                                         |
 +============================+=================================================================+
-|Objetivo                    |Listagem das tabelas no DynamoDB e recomendações para as mesmas  |
+|Objetivo                    |Listagem das tabelas no DynamoDB e recomendações para as mesmas. |
 +----------------------------+-----------------------------------------------------------------+
 |Novo comportamento no portal|Recomendação de troca do tier das tabelas existentes de acordo   |
 |                            |com o uso. Visualização dos preços das tabelas e do quanto pode  |
@@ -675,7 +675,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Feature                     |Neptune                                                                                                                  |
 +============================+=========================================================================================================================+
-|Objetivo                    |Exibir as métricas de desempenho e possíveis economias do cluster Neptune, baseado na performance do último mês          |
+|Objetivo                    |Exibir as métricas de desempenho e possíveis economias do cluster Neptune, baseado na performance do último mês.         |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Fornecer as recomendações de savings de clusters Neptune performados nos últimos 31 ou 30 dias (depende do mês corrente).|
 |                            |Para instâncias ociosas, a recomendação é embasada em instâncias ativas (que não estão ociosas).                         | 
@@ -686,13 +686,13 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/021_neptune.png
    :alt: Neptune  
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/021_neptunea.png
    :alt: Neptune 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -706,7 +706,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+--------------------------------------------------------------------------------------------+
 |Feature                     |EFS                                                                                         |
 +============================+============================================================================================+
-|Objetivo                    |Oferecer as recomendações de savings relacionadas a sistemas de arquivos elásticos          |
+|Objetivo                    |Oferecer as recomendações de savings relacionadas a sistemas de arquivos elásticos.         |
 +----------------------------+--------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Apresentar as informações sobre EFS e exibir as recomendações baseadas nos padrões de uso.  |
 |                            |Por exemplo:                                                                                |
@@ -719,13 +719,13 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/022_efs.png
    :alt: EFS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/022_efsa.png
    :alt: EFS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -738,7 +738,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |S3                                                                                         |
 +============================+===========================================================================================+
-|Objetivo                    |Aprovisionar as recomendações da otimização de custos de buckets S3 na AWS                 |
+|Objetivo                    |Aprovisionar as recomendações da otimização de custos de buckets S3 na AWS.                |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Exibição detalhada sobre os buckets S3 oferecendo as recomendações de economia de custos.  |
 |                            |A utilização total de armazenamento e a descrição dos buckets utilizados.                  |
@@ -748,19 +748,19 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/023_s3.png
    :alt: S3 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/023_s3a.png
    :alt: S3 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/023_s3b.png
    :alt: S3 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -773,7 +773,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |EBS                                                                                        |
 +============================+===========================================================================================+
-|Objetivo                    |Listar os volumes EBS, os dados de uso e as recomendações de savings destes volumes        |
+|Objetivo                    |Listar os volumes EBS, os dados de uso e as recomendações de savings destes volumes.       |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|A partir desta feature, são feitas as recomendações para os volumes EBS em conjunto com as |
 |                            |métricas de uso, as recomendações de desativação ou arquivamento de snapshots antigos e    |
@@ -784,25 +784,25 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 .. figure:: /figuras/fig_usavings/notas/024_ebs.png
    :alt: EBS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/024_ebsa.png
    :alt: EBS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/024_ebsb.png
    :alt: EBS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
 .. figure:: /figuras/fig_usavings/notas/024_ebsc.png
    :alt: EBS 
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
@@ -837,7 +837,7 @@ O time de desenvolvimento do portal uCloud, durante o período de Junho a Dezemb
    * 13. Jornada do Gerente Admin no menu Ethical Phishing;
    * 14. Jornada do Usuário Utilizador no menu Ethical Phishing.
 
-Na sequência cada uma destas novas caracterísitcas são detalhadas com: objetivo, descrição, novo comportamento, localização no portal e link de acesso ao manual de uso.
+Na sequência cada uma destas novas características são detalhadas com: objetivo, descrição, novo comportamento, localização no portal e link de acesso ao manual de uso.
 
 ----
 
@@ -1098,9 +1098,9 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Recomendações                                                                              |
 +============================+===========================================================================================+
-|Objetivo                    |Apresentar avaliação em diferentes áreas sobre ações necessárias na conta do usuário       |
+|Objetivo                    |Apresentar avaliação em diferentes áreas sobre ações necessárias na conta do usuário.      |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|Prover informação sobre ações para otimizar os desvios em relação às práticas recomendadas:|
+|Nova classificação no portal|Prover informação sobre ações para otimizar os desvios em relação às práticas recomendadas:|
 |                            |  * Limites de serviço                                                                     |
 |                            |  * Segurança                                                                              |
 |                            |  * Otimização de custo                                                                    |
@@ -1125,18 +1125,18 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 
 ----
 
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Feature                     |Orquestrador                                                                               |
-+============================+===========================================================================================+
-|Objetivo                    |Coletar e processar dados brutos da nuvem quase em tempo real                              |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Novo comportamento no portal|É possível apresentar os dados estatísticos registrados e acessar as informações históricas|
-|                            |e obter o cenário sobre a performance dos clusters ou serviços.                            |
-|                            |Métricas de utilização de CPU, memória, rede, armazenamento.                               |
-|                            |Quantidade de instâncias de container, tarefas e serviços.                                 |
-+----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |Menu Orquestrador                                                                          | 
-+----------------------------+-------------------------------------------------------------------------------------------+
++----------------------------+--------------------------------------------------------------------------------------------+
+|Feature                     |Orquestrador                                                                                |
++============================+============================================================================================+
+|Objetivo                    |Coletar e processar dados brutos da nuvem quase em tempo real.                              |
++----------------------------+--------------------------------------------------------------------------------------------+
+|Novo comportamento no portal|É possível apresentar os dados estatísticos registrados e acessar as informações históricas,|
+|                            |além de obter o cenário sobre a performance dos clusters ou serviços.                       |
+|                            |  * Métricas de utilização de CPU, memória, rede, armazenamento.                            |
+|                            |  * Quantidade de instâncias de container, tarefas e serviços.                              |
++----------------------------+--------------------------------------------------------------------------------------------+
+|Localização no portal       |Menu Orquestrador                                                                           | 
++----------------------------+--------------------------------------------------------------------------------------------+
 
 .. .. figure:: /figuras/.png
    :alt: 
@@ -1161,7 +1161,7 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Feature                     |Auto Assessments                                                                           |
 +============================+===========================================================================================+
-|Objetivo                    |Avaliar o estado de maturidade e o nível do entendimento relacionado a certo projeto       |
+|Objetivo                    |Avaliar o estado de maturidade e o nível do entendimento relacionado a certo projeto.      |
 +----------------------------+-------------------------------------------------------------------------------------------+
 |Novo comportamento no portal|Permite aplicar questionário eletrônico de avaliação rápida e abrangente de um ponto-chave.|
 |                            |Gera relatório analítico que possiblita identificar o nível de maturidade relacionado a    |
@@ -1192,12 +1192,12 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 |Novo comportamento no portal|Abordagem ética para melhorar a segurança cibernética sem prejudicar a privacidade das informações dos        |
 |                            |usuários. A partir dos indicadores de acompanhamento resultantes das simulações das campanhas de phishing.    |
 +----------------------------+--------------------------------------------------------------------------------------------------------------+
-|Localização no portal       |https://bit.ly/epjgaucloudmu                                                                                                              | 
+|Localização no portal       |https://bit.ly/epjgaucloudmu                                                                                  | 
 +----------------------------+--------------------------------------------------------------------------------------------------------------+
 
 .. figure:: /figuras/fig_segurança/015_detalhes_campanha.png
    :alt: Campanha
-   :scale: 100 %
+   :scale: 90 %
    :align: center
 ----
 
