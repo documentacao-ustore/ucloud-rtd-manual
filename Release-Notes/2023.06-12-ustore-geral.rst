@@ -1167,7 +1167,7 @@ Na sequência cada uma destas novas características são detalhadas com: objeti
 |                            |Gera relatório analítico que possiblita identificar o nível de maturidade relacionado a    |
 |                            |estado ou necessidade de determinada área ou projeto da empresa.                           |
 +----------------------------+-------------------------------------------------------------------------------------------+
-|Localização no portal       |                                                                                           | 
+|Localização no portal       |https://bit.ly/aaucloudmu                                                                  | 
 +----------------------------+-------------------------------------------------------------------------------------------+
 
 .. .. figure:: /figuras/.png
