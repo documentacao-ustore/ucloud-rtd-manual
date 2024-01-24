@@ -942,8 +942,13 @@ Na sequência cada uma destas novas caracterísitcas são detalhadas com: objeti
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
 |Localização no portal       |Menu Configuração > Geral > Franquias do sistema.                                                                     |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
-|Link de acesso              |                                                                                                                      |
+|Link de acesso              |https://bit.ly/fucloudmu                                                                                              |
 +----------------------------+----------------------------------------------------------------------------------------------------------------------+
+
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.png
+   :alt:  card franquia
+   :align: center
+----
 
 
 ----
