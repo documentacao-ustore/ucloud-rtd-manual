@@ -9850,7 +9850,7 @@ Abaixo são descritos os campos exibidos na figura acima:
 
       Para o intervalo mensal, o relatório contempla o mês escolhido pelo usuário no campo seguinte.
 
-    	* Trimestral:
+     * Trimestral:
 
 .. figure:: /figuras/fig_budget/005_budget_trimestral.png
    :alt: Budget trimestral 
@@ -9940,8 +9940,8 @@ A inserção destes é crucial para que o usuário possa receber a notificação
     	* Por quantidade consumida
 
     	* Por custo
-
-      * Valor
+    	 
+    	* Valor
 
 ----
 
@@ -10212,8 +10212,6 @@ Vale ressaltar que apenas um email é enviado por cada nível que o *budget* ati
 .. figure:: /figuras/fig_budget/018_detalhe_subbudget.png
    :alt: Detalhamento subbudget 
    :align: center 
-----
-
 ----
 
 Relatório de Monitoramento de Consumo
@@ -12234,9 +12232,9 @@ Na sequência são descritos os campos apresentados na tela.
 
      * **Unidade da franquia**: refere-se a quantidade de consumo.
 
-         Por exemplo:
+      Por exemplo:
 
-		   O custo é 20 TB, para cada 10 unidades de consumo da franquia.
+	   O custo é 20 TB, para cada 10 unidades de consumo da franquia.
 
     * **Descrição da franquia**
 
@@ -12268,7 +12266,7 @@ Listando
 """"""""""
 Para que a franquia do sistema recém-criada apareça na listagem, basta atualizar a página. O *card* de Franquias do Sistema é organizado em seis categorias, como exibida abaixo.
 
-.. image:: /figuras/fig_franquia/004_ucloud_card_franquia1.png
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.PNG
    :alt:  card franquia
    :align: center
 ----
@@ -17419,7 +17417,7 @@ Revisão 20/01/2023.
 
 .. |icone_tela| image:: /figuras/fig_franquia/icone_tela.png
 
-.. |icone_configurações| image:: /figuras/fig_franquia/icone_configurações.png
+.. |icone_configurações| image:: /figuras/fig_franquia/icone_configurações.PNG
 
 .. |icone_remover| image:: /figuras/fig_franquia/icone_remover.png
 
