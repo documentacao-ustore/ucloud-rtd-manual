@@ -12170,7 +12170,7 @@ Ao clicar neste menu, o submenu é exibido, no qual é necessário optar na func
 
 É necessário utilizar o auxílio da barra de rolagem na lateral direita para buscar o *card* de “Franquia do sistema”, como observado na imagem abaixo.
 
-.. image:: /figuras/fig_franquia/004_ucloud_card_franquia1.png
+.. image:: /figuras/fig_franquia/004_ucloud_card_franquia.PNG
    :alt:  card franquia
    :align: center
 ----
@@ -12208,14 +12208,14 @@ Para criar uma nova franquia, é necessário existir uma *tag* válida, criada p
 
 Em seguida, basta clicar no botão ``+ Criar franquia``, localizado no canto direito do *card*, evidenciado na seguinte figura.
 
-.. image:: /figuras/fig_franquia/005_ucloud_botao_franquia1.png
+.. image:: /figuras/fig_franquia/005_ucloud_botao_franquia.PNG
    :alt:  botao franquia
    :align: center
 ----
 
 Ao pressionar este botão, o modal “Criar franquia padrão do sistema” é exibido e está destinado à criação de uma franquia, por isto o usuário deve preencher todos os campos apresentados, conforme o exemplo desta imagem.
 
-.. image:: /figuras/fig_franquia/006_ucloud_modal_franquia2.png
+.. image:: /figuras/fig_franquia/006_ucloud_modal_franquia.PNG
    :alt:  modal franquia
    :align: center
 ----
@@ -12298,7 +12298,7 @@ Editando
 
 A imagem anterior apresenta a última coluna da lista, na qual é possível identificar dois ícones: um bloco de notas, representando a ação de editar, e uma lata de lixo, indicando a ação de excluir a franquia.
 
-.. image:: /figuras/fig_franquia/008_ucloud_icones_franquia1.png
+.. image:: /figuras/fig_franquia/008_ucloud_icones_franquia.PNG
    :alt:  icones franquia
    :align: center
 ----
@@ -12371,7 +12371,7 @@ Quando o usuário selecionar o contrato de interesse, a tela de dados gerais é 
 
 Com o auxílio da barra de rolagem situada na lateral direita, o usuário busca pelo *card* “Franquias do contrato”.
 
-.. image:: /figuras/fig_franquia/014_ucloud_franquia_card1.png
+.. image:: /figuras/fig_franquia/014_ucloud_franquia_card.PNG
    :alt:  franquia card
    :align: center
 ----
@@ -12392,7 +12392,7 @@ Como no exemplo acima existem informações a serem visualizadas, mas caso não 
 
 Para isto, é preciso clicar no botão ``Configurações`` representado pelo ícone |icone_configurações| .
 
-.. image:: /figuras/fig_franquia/014.1_ucloud_franquia_card1.png
+.. image:: /figuras/fig_franquia/014.1_ucloud_franquia_card.PNG
    :alt:  franquia card
    :align: center
 ----
@@ -12470,7 +12470,7 @@ Feito isso, os submenus são expostos e o usuário deve clicar em “Relatórios
 
 Ao selecionar esta opção, a seguinte tela é apresentada:
 
-.. image:: /figuras/fig_franquia/017_ucloud_financeiro1.png
+.. image:: /figuras/fig_franquia/017_ucloud_financeiro.PNG
    :alt:  financeiro
    :align: center
 ----
@@ -12483,7 +12483,7 @@ Ao selecionar esta opção, a seguinte tela é apresentada:
 
 Para dar continuidade ao fluxo, o usuário deve clicar no “Relatório Consolidado de Faturamento”, que pertence ao painel baseado em fatura, evidenciado na figura abaixo.
 
-.. image:: /figuras/fig_franquia/018_ucloud_botão_relatório1.png
+.. image:: /figuras/fig_franquia/018_ucloud_botão_relatório.PNG
    :alt:  botão relatório
    :align: center
 ----
@@ -12511,7 +12511,7 @@ O primeiro passo é selecionar o período desejado no campo da data, ao lado do 
 
 O calendário apresentado disponibiliza anos e meses, nele o usuário pode escolher o período desejado de acordo com a necessidade, em seguida clicar no botão ``Aplicar`` para confirmar, ou ``Cancelar`` para desistir da seleção.
 
-.. image:: /figuras/fig_franquia/020_ucloud_relatorio_data1.png
+.. image:: /figuras/fig_franquia/020_ucloud_relatorio_data.PNG
    :alt:  relatório data
    :align: center
 ----
@@ -12525,7 +12525,7 @@ No campo de seleção de um ou vários contratos, é possível utilizar a barra 
 
 Ao encontrar o contrato que deseja, basta clicar no *checkbox* situado ao lado esquerdo do nome para selecioná-lo, e em seguida no botão ``Pesquisar`` para que a tela com o resultado seja apresentado.
 
-.. image:: /figuras/fig_franquia/021_ucloud_pesquisa1.png
+.. image:: /figuras/fig_franquia/021_ucloud_pesquisa.PNG
    :alt:  pesquisa
    :align: center
 ----
@@ -12573,7 +12573,7 @@ Esta ação refere-se à visualização, sendo a única forma de acesso e visual
 
 Ao pressionar no ícone |icone_tela|, o modal de visualização da fatura resumida é apresentado:
 
-.. image:: /figuras/fig_franquia/023_ucloud_visualizar_franquia1.png
+.. image:: /figuras/fig_franquia/023_ucloud_visualizar_franquia.PNG
    :alt:  visualizar franquia
    :align: center
 ----
