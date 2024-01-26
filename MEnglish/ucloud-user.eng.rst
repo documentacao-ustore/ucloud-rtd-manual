@@ -1051,6 +1051,18 @@ Public Businesses (USN)
 Corporate Environment
 ----------------------
 
+----
+
+**Billing Rules** 
+-------------------
+
+----
+
+Invoicing Rule
+~~~~~~~~~~~~~~
+
+----
+
 **Reports**
 -------------
 
@@ -1240,26 +1252,312 @@ Linked Accounts
 **Dimension**
 ~~~~~~~~~~~~
 
+
+Dimension is a new implementation of the uCloud platform, and was created to group tags of different nomenclature, but that are part of the same context, that are tagged in distinct clouds. That way, it avoids equal resources being tagged differently.
+
+For this, logical operations and a filter were elaborated, with the intention of identifying in Billing which resources belong to a certain dimension. To better understand the two points that build this concept, observe the following examples: 
+
+
+1. It unifies a set of Tags that are different, but have the same meaning/role.
+
+ * For example: 
+
+   * product: ETC
+   * Product: eTc
+   * producT: CTE
+
+It is noticeable that the Tags above express the same thing, although they differ in their written manners. It is important to remember that these can be **applied in different clouds**, but in the same resources, where they should behave equally.
+
+Thus, when unifying this group of Tags in a dimension, it is possible to identify all the resources that are within that context, and that way have a new way of visualizing the Reports, Budget and Forecast.
+
+1. Creates logical expressions.
+
+ * For example:
+ 
+   * product: EFG & department: IT
+
+In the example above, the expression represents that this dimension desires all resources to have the Tags: “product: EFG & department:IT”. This expression is considered simple, nonetheless, something more complex can be built from what has been implemented. 
+
+====
+
+
 Creating a Dimension
 ~~~~~~~~~~~~~~~~~~~~
 
-Creating a Tags grouping
+To create a dimension, the user must click on the ``Financial menu``, and then on the ``Utilities submenu``, that displays two options presented on the next image:
+
+1. **Dimension**; 
+2. Virtual Tags.
+
+.. image:: /figuras/fig_dimension_ing/01_dimension_billing_menu.png
+   :alt: dimension billing menu
+   :align: center
+----
+
+When selecting the “Dimension” option, the listing of dimensions generated previously is presented, as demonstrated in the figure below:
+  
+.. image:: /figuras/fig_dimension_ing/02_dimension_listing.png
+   :alt: billing dimension listing
+   :align: center
+----
+
+In case this is the first dimension to be created by the user, no list is displayed on the screen, as shown in the next image:
+
+.. image:: /figuras/fig_dimension_ing/03_dimension_empty_listing.png
+   :alt: billing dimension empty listing
+   :align: center
+----
+
+On the superior left side of the screen, the ``Create Dimension`` button  is presented, which the user must press to start the creation process.
+
+After clicking, the initial screen to create a “Dimension” is presented, as shown in the next figure:
+
+.. image:: /figuras/fig_dimension_ing/04_dimension_start.png
+   :alt: billing dimension start
+   :align: center
+----
+
+To better understand the function of each blank, observe the detailing of these below:
+
+* Dimension name: In this blank, the user must fill in the name of the dimension to be saved.
+
+* ``Structure +`` : This button presents two options that the user can apply in the structure of their “Dimension”.
+
+   * Tag Grouping;
+
+   * Tag. 
+
+.. attention:: |atencao| It is important to highlight that this structure must be a logical expression thought previously. Therefore, to group tags is necessary to put them in a group first.
+
+----
+
+* Structure: Corresponds to a block at the end of the screen, where the user has a better visualization of the structure that is being assembled.
+
+* ``Save`` button: After completing the data, the user must press on the ``Save`` button so they are not lost.
+
+====
+
+Creating a Tag grouping
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After filling in the “Dimension” name, the user must create a group for its structure. When hovering the mouse cursor over the “Tag Grouping” option, appears the following message:
+
+.. image:: /figuras/fig_dimension_ing/05_dimension_message_grouping_expanded.png
+   :alt: billing dimension message group expended
+   :align: center
+----
+
+When selected, the group creation modal is shown, where the name of the group of Tags must be filled in and then saved.
+
+.. image:: /figuras/fig_dimension_ing/06_dimension_create_grouping.png
+   :alt: billing dimension create grouping
+   :align: center
+----
+
+Once the action is performed, below the **”Structure +”** function, the name of the created group appears, and beside it there are two action buttons:
+
+* Plus symbol “+” to create other group(s) or add Tag(s);
+
+* Trash bin icon to delete the created group.
+
+Next to these icons, the following information appears :
+
+.. image:: /figuras/fig_dimension_ing/07_dimension_message_structure_expanded.png
+   :alt: billing dimension message structure expanded
+   :align: center
+----
+
+.. attention:: |atencao| It is important to note that in case the “Dimension” construction does not match the conditions presented in the message, the “Save” button is unavailable for activation. 
+
+----
+
+In the image below, it is also possible to notice that in the Structure function, at the bottom part of the screen, the group is represented by (   ).
+
+.. image:: /figuras/fig_dimension_ing/08_dimension_grouping_structure.png
+   :alt: billing dimension grouping structure
+   :align: center
+----
 
 Creating Tag
 ~~~~~~~~~~~~~
 
+By clicking on the plus icon ``+`` next to the created group and positioning the mouse cursor over the Tag option, the next message is shown:
+
+.. image:: /figuras/fig_dimension_ing/09_dimension_message_tag_expanded.png
+   :alt: billing dimension message tag expanded
+   :align: center
+----
+
+When clicking on Tag, the Tag creation modal is presented:
+
+.. image:: /figuras/fig_dimension_ing/10_dimension_modal_tag.png
+   :alt: billing dimension modal tag
+   :align: center
+----
+
+The first step for the user is to select one of the companies listed in the dropdown menu.
+
+.. image:: /figuras/fig_dimension_ing/11_dimension_list_company.png
+   :alt: billing dimension list company
+   :align: center
+----
+
+After selecting the desired company, the ``Filter`` button, next to the dropdown menu, is available for activation, as exemplified in the image below:
+
+.. image:: /figuras/fig_dimension_ing/12_dimension_filter.png
+   :alt: billing dimension filter
+   :align: center
+----
+
+In case the company already has existing Tags, a list of Tags with the keys and values of the last three months is exhibited. The screen displays the number of pages below the listing and the information retrieved in blocks of 10, 25, 50 or 100 lines.
+
+.. image:: /figuras/fig_ucloud_findimensao/13_dimensão_company_tag.png
+   :alt: Financeiro Dimensão_company_tag
+   :align: center
+----
+
+The user must select the desired Tag, shown in the list, and the Keys and Tag Value created are automatically displayed.
+
+.. image:: /figuras/fig_ucloud_findimensao/14_dimensão_company_tag_escolhida.png
+   :alt: Financeiro Dimensão_company_tag_escolhida
+   :align: center
+----
+
+When finishing filling the modal, the user must click on the ``Save`` button on the inferior right corner of the screen.
+
+.. image:: /figuras/fig_dimension_ing/15_dimension_modal_second_tag.png
+   :alt: billing dimension modal second tag
+   :align: center
+----
+
+If a company does not have Tags and the user wants to create them, just type the Key and Value on the last blanks, as demonstrated on the image above, leaving the central blanks empty.
+
+Once this is done, the “Dimension” screen creation should be displayed as follows: 
+
+.. image:: /figuras/fig_dimension_ing/16_dimension_group_and_tag.png
+   :alt: billing dimension group and tag
+   :align: center
+----
+
+It can be seen, from the image above, that the “Dimension” has a hierarchy system, where first there is a group inserted in the structure, and only after the creation of the group do the Tags follow.
+ 
+After the initialization of the process of creating a “Dimension”, it is necessary to add the other Tags of the same context to be part of the group.
+
+To do so, the user must click on the plus sign “+” next to the Structure, which shows two **logical operators** </> OR and </> AND.
+
+====
+
 Using the logical operator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Logical operators are a part of the programming language, and they are used for the purpose of creating true and false expressions. These are intended to join two divergent expressions and elaborate a more complex conditional expression. 
+
+.. image:: /figuras/fig_dimension_ing/17_dimension_logical_operators_closeup.png
+   :alt: billing dimension logical operators closeup
+   :align: center
+----
+
+To better understand their application, information about the two operators used in the creation of “Dimension” is detailed below.
+
+ * </> OR: In an expression, if only one of them is true, it is considered entirely true, and is executed. 
+
+ * </> AND: In an expression, if one of them is false, it is considered entirely false, and is not executed.
+
+To better understand its usage, the user must follow the creation process.
+
+Resting the mouse cursor on the operator option </> OR, the following message is displayed:
+
+.. image:: /figuras/fig_dimension_ing/18_dimension_operator_or_closeup.png
+   :alt: billing dimension logical operator or closeup
+   :align: center
+----
+
+That is, even if one of the Tags is non-existent, the action is still performed only with the existing Tag.
+
+When hovering the mouse over the </> AND operator, the following message is presented:
+
+.. image:: /figuras/fig_dimension_ing/19_dimension_operator_and_closeup.png
+   :alt: billing dimension operator and closeup
+   :align: center
+----
+
+That is, when searching for Tags, if only one of the Tags does not exist, the action is interrupted.
+
+In this example, the operator “AND” was selected and the confirmation of the action is presented when both structures are changed:
+
+.. image:: /figuras/fig_dimension_ing/20_dimension_operator_selected.png
+   :alt: billing dimension operator selected
+   :align: center
+----
+
+When finishing this first process of Tag creation, the user must create the second Tag, repeating the creation flow detailed above.
+
+At the end of this step, the final structure of a dimension is displayed, and to store it, simply click on the ``Save`` button, located in the lower right corner of the screen, as presented in the image below:
+
+.. image:: /figuras/fig_dimension_ing/21_dimension_structure_complete.png
+   :alt: billing dimension structure complete
+   :align: center
+----
+
+Upon completion of this action, the saved “Dimension” is shown in the dimension listing.
+
+====
 
 Listing Dimension
 ~~~~~~~~~~~~~~~~~
 
+To list a newly created “Dimension”, usually the screen exhibits the listing. When consulting the “Listing Dimension” screen, if it does not update automatically, the user must click on the ``Refresh`` button in the superior right corner of the screen. 
+
+Then, the screen shows a list that must present the created “Dimension”, as displayed on the figure below:
+
+.. image:: /figuras/fig_dimension_ing/22_dimension_final_listing.png
+   :alt: billing dimension final listing
+   :align: center
+----
+
+The screen above “List of Dimensions” shows the contract name superior, the symbol of the “Tasks” functionality and the name of the logged-in user in the superior right corner.
+
+On this screen, the user can opt between creating a new dimension, editing an existing dimension or deleting a created dimension. It presents the two buttons that allow to ``Create Dimension`` or ``Refresh`` the list of dimensions.
+
+In this list, the columns of “Name” and “Actions” are presented, the information can be personalized and retrieved by clicking on the blocks of 10, 25, 50 or 100 lines. The “Actions” column allows the ``Edit`` and ``Delete`` operations.
+
+====
+
 Editing a Dimension
 ~~~~~~~~~~~~~~~~~~~~~
 
+To edit a Dimension, the user simply clicks on the ``Edit`` button in the “Actions” column in the “Dimension” list, as detailed below:
+
+.. image:: /figuras/fig_dimension_ing/23_dimension_edit_button.png
+   :alt: billing dimension edit button
+   :align: center
+----
+
+Doing this, the screen with the assembled and finished structure is displayed, as exemplified below. This example, using a new dimension, contains Groups and multiple Tags. 
+
+.. image:: /figuras/fig_dimension_ing/24_dimension_structure_complete.png
+   :alt: billing dimension structure complete
+   :align: center
+----
+
+When looking at the figure above, observe the trash can icon. That is, the user has the possibility to create other groups and add more Tags, as well as delete them.
+
+It is also possible to realize that for each action performed, the Structure, located at the bottom of the page, is modified.
+
+For the alteration to be confirmed, it is necessary for the user to press the ``Save`` button, next to the Structure function, located in the lower right corner of the page.
+
+====
+
 Where the "Dimension" is used
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Currently, this implementation groups Tags and gathers them in the “Dimension” created, facilitating the categorized visualization in other functionalities of the platform.
+
+Furthermore, the “Dimension” is used in the modal “Create Budget” included in the card named “Sub Budget Details” in disambiguation_ .
+
+.. _disambiguation: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Release-Notes/release.ing-ucloud-2022-jun.jul.aug.html#creating-budget-and-sub-budget
+
+====
 
 **Virtual Tags**
 ~~~~~~~~~~~~~~~~~
