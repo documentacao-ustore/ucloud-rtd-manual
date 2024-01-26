@@ -8755,6 +8755,22 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
 ----
 
+**Regras do Financeiro**
+------------------------
+
+----
+
+Regra de Faturamento
+~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+----
 
 
 **Relatórios**
