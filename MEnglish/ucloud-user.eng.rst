@@ -1087,20 +1087,380 @@ Budgets Costs Report
 Consumption Monitoring Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The Consumption Monitoring Report (v1) is a new functionality of the uCloud portal, which deals with the invoicing tracking and complete spending detail, categorized by Clouds (for example: AWS and AZURE) Contracts and Resources.
+
+In this document, different types of indexes are generated, which can be tables, reports and graphs, for each type of class (Resource, Contract and Cloud). These are titled in topics as:
+
+  1. Invoicing History; 
+  2. Invoice per Contract/Project; 
+  3. Major Variations on this Invoice and 
+  4. Detailing TOP 3 Contract per Cloud.
+
+.. attention:: |atencao| Each of those categories is separated and organized from the highest to the lowest consumption. 
+
+----
+
+In addition, the **Consumption Monitoring Report (v1)**, briefly named **CMR.v1**, compares the expenses of the current month with the previous month, providing the company with the necessary information to be able to evaluate the disbursement and have an efficient control of possible drops or increase in consumption. 
+
+====
+
 Accessing CMR.v1
 """"""""""""""""
+
+To generate the Consumption Monitoring Report (v1) on the uCloud portal, the user must access the ``Billing menu``, identified in the lower left corner. And then, click on the ``Reports submenu``.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/1_Menu_Financeiro.png 
+   :alt: Menu_Financeiro
+   :align: center 
+----
+
+The screen below presents all the options related to accessing and managing invoices for groups or contracts that the user administers. 
+  
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/2_Financeiro_painéis.png 
+   :alt: Financeiro_painéis
+   :align: center 
+----
+
+When clicking on the ``Reports submenu``, the topic “Consumption-Based Panel” provides access to reports related to consumption for the current month typed on the search by the user.
+
+.. figure:: /figuras/fig_budget/17_painéis_consumo.png 
+   :alt: Painéis_baseados_consumo
+   :align: center 
+----
+
+It groups seven types of reports, one of them is the **Consumption Monitoring Report - CMR.v1**.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/4_Descrição.png 
+   :alt: Descrição
+   :align: center 
+----
+
+By clicking on this option, the user can generate the desired document. 
+
+====
 
 Creating CMR.v1
 """"""""""""""""
 
+After clicking on **Consumption Monitoring Reports (v1) - CMR.v1**, a new screen opens, in which the user can select the month and year they desire to visualize, in addition to filtering the intended contracts. 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/5_RMConsumo.png 
+   :alt: Relatório Monitoramento Consumo v1 
+   :align: center 
+----
+
+In this same modal, two buttons are displayed: 
+
+* ``GENERATE REPORT`` Remains available for activation when at least one contract is selected. 
+* ``SELECT ALL`` Refers to the contracts filter. There it is possible to note the scroll and search bar. 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/6_Seleção_mês_e_ano.png 
+   :alt: Seleção_mês_e_ano
+   :align: center 
+----
+
+The scroll bar, located on the right side, helps the user to navigate through the modal in search for the desired contract. The search bar facilitates the search, the user just needs to type the initial letters of the contract.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/7_Barras_rolagem_pesquisa.png 
+   :alt: Barras_rolagem_pesquisa
+   :align: center 
+----
+
+After clicking on Generate Report, a new screen opens, showing the month selected by the user and the ``DOWNLOAD`` and ``GENERATE NEW REPORT`` buttons. 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/8_Download_recorte_RMCv1.png 
+   :alt: Desbloquear_download
+   :align: center 
+----
+
+The ``DOWNLOAD`` button is only unlocked when the data is compiled on the platform and it makes available the report for the period and the selected contract. 
+
+In the example of the following screen, the platform informs that the “user does not have reports generated for the contracts and period selected” and asks the user to click on ``GENERATE NEW REPORT``.
+
+To download the file, the user just needs to click on the referred button.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/9_Gerar_relatório.png 
+   :alt: Gerar_relatório
+   :align: center 
+----
+
+In case there is no data, the reports become unavailable for the selected month, the ``DOWNLOAD`` button appears inactive (gray color) and the platform issues the message mentioned in the previous example and printed on the image above.
+
+When there is data to be published on the period selected by the user, the platform informs that the report is in process of compiling the data. 
+
+====
+
 Following the status on the Tasks menu
 """""""""""""""""""""""""""""""""""""""
+
+In the flow of creating the CMR.v1, the platform presents two types of situations, according to the user profile that is logged into the platform. The task status at the top of the screen differs, for each type of user, a procedure is described in the sequence:
+
+**Case 1:** 
+
+* **Admin user**: When opening the Tasks functionalities, it must be observed the “Pending Approvals” tab, which presents the columns: Operation, user, details, progress, start date, duration, status and actions.
+
+**Case 2:** 
+
+* **User user**: When creating the report, the user must request the administrator of their contract to carry out the approval of the requested task. 
+
+**Procedure:**
+
+In the “Actions” column located on the “Pending Approvals” tab **the admin user** of the contract must approve the action to “Generate Report”. In case of the “User user”, they must request the administrator of the contract to carry out or not the approval of the task.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/10_Tarefas.png 
+   :alt: Tarefas
+   :align: center 
+----
+
+Next, they must wait for the “Status” to be updated, that can be: ``Running``, ``Failed`` or ``Success``. 
+
+After successfully creating the new report, the data was compiled on the uCloud platform.
+
+====
 
 Enabling the CMR.v1’s download
 """""""""""""""""""""""""""""""""
 
+When creating a new report successfully, the user must repeat the flow to download it once the data is compiled on the uCloud platform. 
+
+In the sequence, it is necessary to select again, the same period and contracts that the user intends to search for previously created information. 
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/11_Fluxo.png
+   :alt: Fluxo_gerar_relatório
+   :align: center 
+----
+
+At this point, the user must observe if the ``GENERATE REPORT`` button is enabled (orange color), if so, it means that the flow to download the CMR.v1 continues, the data is previously prepared and can be extracted in the report format. 
+
+In the course of this procedure, the platform presents the unlocking of the ``DOWNLOAD`` button, displaying it in green, according to the following image.
+
+.. figure:: /figuras/fig_ucloud_fin_rmcv1/12_Relatório_gerado.png 
+   :alt: Relatório gerado
+   :align: center 
+----
+
+The user must check the message the platform presents: “Report generated for the contracts and selected period. They can download it or generate a new one with the same settings”. 
+
+At the end of this sequence of activities, to download the desired CMR.v1 file, the user must click on the ``DOWNLOAD`` button.
+
+====
+
 Viewing CMR.v1
 """""""""""""""
+
+After generating and downloading  the **Consumption Monitoring Reports (v1) - CMR.v1**, an example is presented and described: 
+
+**Front Cover**
+
+The document has a cover, which contains the following information:
+ 
+1. Name of the company; 
+2. Invoicing Date; 
+3. Standardized text on the invoicing of consumptions in the clouds.
+
+According to the picture shown below:
+
+.. figure:: /figuras/fig_rmcv1_ing/13_consumption_cover.PNG 
+   :alt: Consumption Cover
+   :align: center 
+----
+
+**1 - Executive Summary** 
+
+In the Executive Summary, an explicative text is presented, describing the variation of the values and the percentage that occurred in the current month’s invoice in comparison to the previous month, as shown in the example:
+
+.. figure:: /figuras/fig_rmcv1_ing/14_consumption_summary.PNG 
+   :alt: Consumption summary
+   :align: center
+----
+
+**1.1 - Invoicing History**
+
+Right after the executive summary, there is the Invoicing History, that presents a table with the period selected by the user, in which the value of the desired cloud in Reais (BRL) and Cloud Service Unit (Unidade de Serviço de Nuvem - USN -, in Portuguese) is shown , and the rate of change in percentage of the previous month as well as the current month.
+
+.. attention:: |atencao| Cloud Service Unit (USN), is a pricing model for cloud services, assigned to companies that are associated with the government spheres. 
+
+
+.. important:: |importante| USN aims to establish itself as a predictable, linear and flexible method to obtain a specific amount to be charged for cloud computational services.
+
+
+.. note:: |nota| The USN metric consists of establishing a specific reference value for each type of cloud service, according to the individual metric associated with the resource consumption.
+
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/15_consumption_clouds_history.PNG 
+   :alt: consumption clouds history
+   :align: center
+----
+
+According to the example above, the expenses of the current month are compared with the expenses of the previous month, showing if there was an increase or decrease in consumption for each specific contract, it also exhibits the percentage and possible variations from the previous month to the current month. 
+
+In addition, this part of the implementation exposes a basic rule: only the 5 biggest expenses are specified, that is, the contracts that had the highest consumption during the current month are disclosed, together with the values of each one separately. 
+
+This rule is intended to keep the document more compact, avoiding to extend it, according to the examples below:
+
+* First AWS cloud example:
+
+.. figure:: /figuras/fig_rmcv1_ing/16_consumption_aws_chart.PNG 
+   :alt: consumption aws chart
+   :align: center
+----
+
+For the sake of completeness and better visualization, this part of the document also generates a pie chart, containing the same information as the expenses of the table illustratively, separating the contracts by colors for better comprehension by the user.
+
+* Second example of AWS cloud pie chart:
+
+.. figure:: /figuras/fig_rmcv1_ing/17_consumption_aws_resources_chart.PNG 
+   :alt: consumption aws resources chart
+   :align: center
+----
+
+.. note:: |nota| In case of more than one cloud, the report follows the same pattern of presentation and information. 
+
+----
+
+* Third Azure cloud example:
+
+.. figure:: /figuras/fig_rmcv1_ing/18_consumption_azure_chart.PNG 
+   :alt: consumption azure chart
+   :align: center
+----
+
+**2 - Invoice per Contract/Project**
+
+In the Invoice per Contract/Project, the general expenses of the contracts of each cloud is first informed, as shown in the executive summary, with their values in BRL and USN.
+
+.. figure:: /figuras/fig_rmcv1_ing/19_consumption_invoice_contract_project.PNG 
+   :alt: consumption invoice contract project
+   :align: center 
+----
+
+Following the table, a graph is presented containing the proportion of these consumptions in percentages, as shown below:
+
+As in the Invoicing History, in the Invoicing per Contract/Project, a graph is also generated for complementation and better visualization of the user, containing the same information of the expanses of the table illustratively, demonstrating the proportion of expenses per cloud.
+
+.. figure:: /figuras/fig_rmcv1_ing/20_consumption_chart_proportions_among_clouds.png 
+   :alt: consumption chart proportions among clouds
+   :align: center
+----
+
+After the chart, the following image exposes and specifies **all** contracts for each cloud (in addition to the top five displayed in the invoicing history), with the most recent projects being highlighted.
+
+The example in the table below details the costs of the cloud, its contracts, and totals the value, presented in BRL and USN.
+
+.. figure:: /figuras/fig_rmcv1_ing/21_consumption_invoice_contract_project.PNG 
+   :alt: consumption invoice contract project
+   :align: center
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/22_consumption_invoice_contract_project.PNG 
+   :alt: consumption invoice contract project
+   :align: center 
+----
+
+.. note:: |nota| Note that in case of more than one cloud, the report follows the same pattern of presentation and information.
+
+----
+
+**3 - Major Variations in this Invoice**
+
+In the “Major Variations on this Invoice" are presented in a table, all the variations of the contracts of the month of each specific provider, comparing the value of the previous month with the value of the current month, showing the variation of its total value in percentage, thus, this part of the document is a complementation to the “Invoice per Contract/Project”.
+
+This table takes into account only the most relevant variations, with a cut containing, first, those greater than or equal to fifteen percent (>=15%), and therefore, those less than or equal to negative fifteen percent  (<= -15%). Here’s, the example:
+
+.. figure:: /figuras/fig_rmcv1_ing/23_consumption_positive_variations.PNG 
+   :alt: consumption positive variations
+   :align: center
+----
+
+**Positive variations** (>=15%) are highlighted in a **bluish tone**, in the same way that the **negative variations**  (<= -15%) are highlighted in a **reddish tone**.
+
+It is possible to notice that the greater the variation, the darker the tone.
+
+.. figure:: /figuras/fig_rmcv1_ing/24_consumption_negative_variations.PNG 
+   :alt: consumption positive variations
+   :align: center
+----
+
+Furthermore, the contract with the highest variation value is highlighted, and presents the information of its resources detailedly. This chart are contains **all the contract resources** and their expenses, informing the changes in their consumption and its use. The graph also shows which were the resources that spent the most in the month, as exemplified in the following image:
+
+.. figure:: /figuras/fig_rmcv1_ing/25_consumption_highest_aws.PNG 
+   :alt: consumption highest aws
+   :align: center
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/26_consumption_aws_total_amount.PNG 
+   :alt: consumption aws total amount
+   :align: center 
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/27_consumption_azure_highest.PNG 
+   :alt: consumption azure highest
+   :align: center
+----
+
+Right after the bar graph, a descriptive table is presented, with columns "Product" and "Total Amount" (BRL) of the quantities of each resource invested separately and specifically, from the highest number to the lowest.
+
+.. figure:: /figuras/fig_rmcv1_ing/28_consumption_azure_resources.PNG 
+   :alt: consumption azure resources
+   :align: center
+----
+
+.. note:: |nota| In case of more than one cloud, the report follows the same pattern of presentation and information.
+
+----
+
+**4 - Detailing TOP 3 Contract per Cloud**
+
+Finally, an index is exposed, containing the clipping of the three contracts that had the highest consumption in each cloud, and the resources that represent the greatest impact in each one of them. The report presets each of the clouds used by the company, the name of the contracts and their total values in BRL and USN, as presented on the next example:
+
+.. figure:: /figuras/fig_rmcv1_ing/29_consumption_aws_contracts.PNG 
+   :alt: consumption aws contracts
+   :align: center
+----
+
+Next, the summary of how much each product costs the contract is presented in more detail, specifying them and showing the percentage of the total expenses of each contract. Such information is displayed from a illustrative graph, according to the example below:
+
+.. figure:: /figuras/fig_rmcv1_ing/30_consumption_highest_aws_chart.PNG 
+   :alt: consumption highest aws chart
+   :align: center 
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/31_consumption_aws_table.PNG 
+   :alt: consumption aws table
+   :align: center 
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/32_consumption_aws_products_chart.PNG 
+   :alt: consumption aws products chart
+   :align: center
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/33_consumption_aws_products_table.PNG 
+   :alt: consumption aws products table
+   :align: center
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/34_consumption_highest_azure_chart.PNG 
+   :alt: consumption highest azure chart
+   :align: center
+----
+
+.. figure:: /figuras/fig_rmcv1_ing/35_consumption_azure_table.PNG 
+   :alt: consumption azure table
+   :align: center
+----
+
+.. attention:: |atencao| In case of more than one cloud, the report follows the same pattern of presentation and information.
+
+----
+
+Finally, is noticeable that the implementation **Consumption Monitoring Report (v1) CMR.v1**, helps to control the monthly expenses, presenting and comparing them with the previous month.
+
+This update has a vast index, containing tables, reports and graphs that range from the most general to the most specific, granting the company and, consequently, the user all the necessary information and tools that allow total control over their investments and projects.
+
+====
+
 
 Cost limit based-Reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
