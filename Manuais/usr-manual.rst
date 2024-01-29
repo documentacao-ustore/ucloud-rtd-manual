@@ -8960,7 +8960,7 @@ Encerrado o processo de criação, pode-se clicar no botão ``Atualizar`` locali
 ---- 
 
 
-Um dos botões de ação que podem ser operados é o de detalhes, representado pelo ícone  |icone-Detalhes|, e o de exclusão, representado pelo ícone  |icone-Eliminar|. Ao clicar na opção de detalhes um card é apresentado e nele constam todos os dados e os valores da regra de faturamento selecionada (faturamento gerais, faturamento de marketplace e faturamento de suporte).
+Um dos botões de ação que podem ser operados é o de detalhes, representado pelo ícone  |icone-Detalhes|, e o de exclusão, representado pelo ícone  |icone_Eliminar|. Ao clicar na opção de detalhes um card é apresentado e nele constam todos os dados e os valores da regra de faturamento selecionada (faturamento gerais, faturamento de marketplace e faturamento de suporte).
 
 .. image:: /figuras/fig_regra_fatura/016_detalhes_regras.png
    :alt: detalhes regras
