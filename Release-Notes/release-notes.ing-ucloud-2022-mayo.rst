@@ -259,18 +259,18 @@ With the creation of this functionality, the account administrator can manage th
 
 Additionally, the functionality “Accounts” makes it possible to use the control policies that establish the protection barrier of permission and visualization for users, depending on the characteristics of the type of user, group and contract to which it belongs. 
 
-By establishing these defaults of permission, access and resources visualization, it organizes and qualifies the privilege each user will have within the environment the public cloud providers in each contract/group/user belongs, creating that way, different and necessary permissions to create minuncious controls in each account.
+By establishing these defaults of permission, access and resources visualization, it organizes and qualifies the privilege each user will have within the environment the public cloud providers in each contract/group/user belongs, creating that way, different and necessary permissions to create thorough controls in each account.
 
 ----
 
 Description of Virtual TAGs 
 ===========================
 
-In a broad context, a TAG (a label) it’s a keyword that signs or identifies a particular computational resource (or service resulting from its existence) stored in a cloud provider, repository or database. The TAGs are a type of metadata, capable of providing information that describes the data, this facilitates automated search for information retrieval. A TAG is a label in which the user assigns a **Key** and a **Value** to a public cloud computacional resource.
+In a broad context, a TAG (a label) it’s a keyword that signs or identifies a particular computational resource (or service resulting from its existence) stored in a cloud provider, repository or database. The TAGs are a type of metadata, capable of providing information that describes the data, this facilitates automated search for information retrieval. A TAG is a label in which the user assigns a **Key** and a **Value** to a public cloud computing resource.
 
 In the scenario of any type of cloud, the data contained in TAGs is used together with other forms of tagging that the cloud providers use to classify information about their resources. Thus, the TAGs help the research, organization, identification, management and, finally, the filtering of used resources in any cloud provider, for example: AWS, Azure, Google, among others. 
 
-These TAGs (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. For example: the user or the organization, can define a set of TAGs for the Amazon EC2 instances, of their account, to help track the owner and/or clustering level (stack values) of each computacional resource of the public cloud consumed.
+These TAGs (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. For example: the user or the organization, can define a set of TAGs for the Amazon EC2 instances, of their account, to help track the owner and/or clustering level (stack values) of each computing resource of the public cloud consumed.
 
 .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-en-us.png
    :align: center
@@ -322,7 +322,7 @@ The organizations that use the automated processes to manage the infrastructure 
 
 ----
 
-Virtual TAGs Normalization
+Normalizing Virtual Tags
 --------------------------
 
 It’s important to mention the continuous existence of a cloud service provider resource, it generates new services or products resulting from the public cloud service provider resource existence/maintenance (ex.: snapshots).
