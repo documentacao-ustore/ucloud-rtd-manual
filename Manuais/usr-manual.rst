@@ -8763,11 +8763,221 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 Regra de Faturamento
 ~~~~~~~~~~~~~~~~~~~~
 
+Esta nova característica está relacionada às informações presentes nos relatórios de *Billing*, destacando o valor do uso gerado pelas nuvens e a(s) regra(s) de faturamento criadas no portal uCloud; tem o objetivo de registrar qualquer tipo de alteração realizada pelo usuário nas regras do setor financeiro, além de destacar a data de criação e vigência relativa às regras de faturamento.
+
+Outra finalidade é facilitar o acesso aos registros e às informações referentes ao histórico de modificações nos dados das regras de faturamento, o que em termos práticos facilita a consulta do usuário, imprimindo  eficiência e desenvolvimento ao processo de criação, edição ou exclusão das regras de faturamento.
+
+.. attention::  |atencao| Nesse processo de bilhetagem, a plataforma toma como base de referência o valor consumido pelo usuário na nuvem e a regra de faturamento definida. Não há um limite máximo para a quantidade das regras de faturamento que podem ser criadas em um contrato.
+
+As operações disponíveis para o usuário são as seguintes:
+
+ * Adicionar nova(s) regra(s) de Faturamento;
+ * Visualizar as configurações e detalhamento da(s) regra(s) de faturamento já criada(s);
+ * Excluir a(s) regras(s) de Faturamento criada(s);
+ * Atualizar a listagem de regras de Faturamento.
 
 
+Acessando a Regra de Faturamento
+""""""""""""""""""""""""""""""""""
+
+Para acessar o tópico Regra de Faturamento, o usuário deve clicar em “Administração”, localizado no menu de funcionalidades no lado esquerdo da tela, e logo após clicar em “Contratos”.
+
+.. image:: /figuras/fig_regra_fatura/001_acesso_regra_de_faturamento.png
+   :alt: acesso regra de faturamento
+   :scale: 90 %
+   :align: center
+----
+
+Quando o usuário seleciona esta opção, a plataforma uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/fig_regra_fatura/002_primeiros_passos.png
+   :alt: primeiros passos
+   :scale: 90 %
+   :align: center
+----  
+
+A plataforma exibe a lista de todos os contratos vinculados ao usuário que está logado, na listagem constam informações dos nomes dos contratos, os administradores, o número de CPF/CNPJ, o estado do contrato (ativo ou inativo), e uma coluna de ações que possibilita clonar às informações do contrato selecionado, também integram a tela os botões ``+Criar Contrato`` e ``Atualizar``. 
+
+Para facilitar a busca do usuário, este modal permite a pesquisa pelo nome do contrato, igualmente pode-se encontrar o contrato buscando os administradores ou o número do CPF/CNPJ, cabe ao usuário digitar os dados e aguardar alguns segundos.
+
+Ao encontrar o contrato desejado, basta clicar para que sejam expostas todas as informações pertinentes.
+
+.. image:: /figuras/fig_regra_fatura/003_informações_gerais.png
+   :alt: informações gerais
+   :scale: 90 %
+   :align: center
+----
+
+Deslizando a barra vertical à direita, encontra-se o card “Regras do Financeiro”, conforme imagem a seguir: 
+
+ .. image:: /figuras/fig_regra_fatura/004_regras_do_financeiro.png
+   :alt: regras do financeiro
+   :scale: 90 %
+   :align: center
+---- 
+
+No *Card* constam os seguintes itens:
+
+ * **Moeda**: o usuário pode selecionar uma moeda padrão, as seguintes opções estão disponíveis - *BRL*; *USD*; *MXN*; *EUR*; *COP*;
+ * **Formatação da data**: o usuário pode selecionar o formato da data, as seguintes opções estão disponíveis – (*MM/DD/YYYY*); (*DD/MM/YYYY*); (*YYYY/MM/DD*);
+ * **Quantidade de casas decimais**: o usuário pode definir o tamanho de casas decimais que aparecem nos valores dos relatórios; 
+ * **Dia da fatura**: o usuário pode determinar o dia de fechamento da fatura.
+  
+
+.. attention::  |atencao| Para clientes GOV e ETICE, além dos itens descritos acima, a plataforma também apresenta o item **Perfil de tagueamento**. Exclusiva para USN, essa funcionalidade permite ao usuário selecionar um *Tag Profile*, conforme um exemplo na imagem abaixo:
+
+.. image:: /figuras/fig_regra_fatura/005_perfil_de_tagueamento.png
+   :alt: perfil de tagueamento
+   :scale: 90 %
+   :align: center
+---- 
+
+.. attention::  |atencao| Unidade de Serviço de Nuvem (USN) é um modelo de precificação dos serviços de nuvem, designada às entidades e órgãos integrantes da esfera governamental brasileira. Visa estabelecer-se como método previsível, linear e flexível para obtenção de uma quantidade específica cobrada pelos serviços de computação em nuvem. 
+
+.. attention:: A métrica USN consiste no estabelecimento de um valor de referência específico para cada tipo de serviço de nuvem, conforme métrica individual associada ao consumo dos recursos.
 
 
+Criando Regra de Faturamento
+"""""""""""""""""""""""""""""""
 
+Para cadastrar uma nova regra de faturamento, basta clicar no botão ``+Adicionar`` e preencher os campos de configuração do modal “Criar regra de faturamento”:
+
+.. image:: /figuras/fig_regra_fatura/006_criar_regra_faturamento.png
+   :alt: criar regra faturamento
+   :scale: 90 %
+   :align: center
+---- 
+
+No modal constam os seguintes itens:
+
+ * **1 - Selecione o início de vigência**: o usuário pode definir a data em que a regra criada passa a ser válida; ao clicar no ícone  |icone-calendario| um calendário é exibido para que se possa realizar a seleção;
+ * **2 - Configuração de regras**: o usuário pode configurar as regras de faturamento a partir de suas necessidades, elas estão divididas em 04 tipos:
+
+     * **Regras de faturamento gerais**: se refere aos valores do contrato que aparecem nos relatórios de *Billing*;
+     * **Regras de faturamento de marketplace**: se refere às regras aplicadas sobre o marketplace;
+     * **Regras de faturamento de suporte**: se refere às regras associadas ao suporte;
+     * **Regras de faturamento por tag**: se refere às regras de adição de valores aos produtos que estão nas respectivas TAGs;
+
+
+* **Botão ``Criar``:** deve ser clicado para confirmar o processo de criação da regra de faturamento;
+* **Botão ``Cancelar``:** deve ser clicado caso o usuário desista da criação da regra de faturamento.
+
+.. attention::  |atencao| A lógica para a bilhetagem das regras de faturamento gerais, de marketplace e de suporte são as mesmas. Por padrão, todas vêm preenchidas com os campos de taxa de faturamento e cotação do dólar com o numeral 1. Caso o usuário deseje alterar esse valor, basta preencher o campo com o número pretendido.
+
+.. image:: /figuras/fig_regra_fatura/007_Taxa_e_cotação.png
+   :alt: Taxa e cotação
+   :scale: 90 %
+   :align: center
+---- 
+
+O valor final que aparece nos relatórios de *Billing* é obtido através dos custos consumidos pelo usuário na nuvem utilizada, multiplicado pelo valor da taxa de faturamento determinado no contrato. 
+
+Seguindo o fluxo  ao selecionar que a cotação é variável se faz necessário definir o dia, ao estabelecer que não é variável deve-se definir o valor.
+
+Nas “Regras de faturamento” (Gerais, Marketplace e Suporte), o dólar já vem habilitado como fixo, caso o usuário queira substituí-lo, deve clicar no botão ``Dólar variável`` deixando-o na opção “ON” (conforme imagem abaixo), neste momento um novo campo é exibido e possibilita o preenchimento com a data pretendida para a cotação do dólar. 
+
+.. image:: /figuras/fig_regra_fatura/008_dolar_variável.png
+   :alt: dólar variável
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Regras de faturamento por Tag
+""""""""""""""""""""""""""""""""
+
+No último campo nomeado “Regras de faturamento por tag” a plataforma exibe um modal que possibilita ao usuário incluir TAGs à(s) regra(s) de faturamento criada(s), cadastrando taxas financeiras fixas por Tag (Exemplo: Tag “A” com valor X; Tag “B” com valor Y).
+
+.. note::  Caso não exista nenhuma Tag cadastrada com valor específico, a plataforma utiliza o valor do histórico de faturamento normal, atrelado ao contrato.
+
+Ao selecionar o botão ``Adicionar nova Tag`` aparecem os campos:
+
+ * **Nome**: deve ser preenchido com o nome da TAG;
+ * **Valor**: deve ser preenchido com a chave/valor da TAG a ser adicionada;
+ * **Custo**: deve ser preenchido com o custo a ser inserido sobre a TAG que está sendo adicionada. Por padrão apresenta a quantia “1,0”, caso o usuário queira alterar o valor, basta digitar o número desejado no campo, ou utilizar as setas de auxílio para aumentar ou diminuir a quantia. 
+
+
+.. image:: /figuras/fig_regra_fatura/009_regra_faturamento_tag.png
+   :alt: regra faturamento tag
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Preenchidos os respectivos campos com as informações necessárias, deve-se clicar no botão ``Adicionar`` para que a plataforma possa exibir a listagem das TAGs adicionadas à regra de faturamento que está sendo criada.
+
+.. image:: /figuras/fig_regra_fatura/010_adicionar_tag.png
+   :alt: adicionar tag
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Além das informações correspondentes ao nome, valor e custo especificados anteriormente, é mostrada uma coluna de ações, onde o usuário pode deletar TAGs que estão presentes na lista, para isso basta clicar no botão de deleção  |icone_Eliminar|:
+
+.. image:: /figuras/fig_regra_fatura/011_eliminar_tag.png
+   :alt: eliminar tag
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Concluído o preenchimento de todas as informações, deve-se clicar no botão ``Criar`` (destacado na imagem seguinte): 
+
+.. image:: /figuras/fig_regra_fatura/012_conclusão_criação.png
+   :alt: conclusão criação
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Realizada esta ação, uma mensagem de alerta é exibida pela plataforma, recordando ao usuário que ao criar uma nova regra de faturamento são utilizadas as taxas cadastradas para realização dos cálculos dos registros a partir da data vigente. 
+
+.. image:: /figuras/fig_regra_fatura/013_alerta_criar_regra.png
+   :alt: alerta criar regra
+   :scale: 90 %
+   :align: center
+---- 
+
+Ao clicar em ``Sim, pode criar!``, uma mensagem de aviso aparece na parte superior direita da tela, nela consta que a criação da regra está sendo processada. 
+
+.. image:: /figuras/fig_regra_fatura/014_processamento_criação.png
+   :alt: processamento criação
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Atualização da listagem das Regras de Faturamento
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Encerrado o processo de criação, pode-se clicar no botão ``Atualizar`` localizado no modal “Regras do financeiro”, essa operação possibilita a renovação da listagem das regras de faturamento criadas para o contrato. No modal existem as colunas alusivas ao nome do usuário responsável pela criação da regra de faturamento, a data de criação, o início de vigência e uma coluna de ações com dois botões.
+
+.. image:: /figuras/fig_regra_fatura/015_atualizar_listagem.png
+   :alt: atualizar listagem
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Um dos botões de ação que podem ser operados é o de detalhes, representado pelo ícone  |icone-Detalhes|, e o de exclusão, representado pelo ícone  |icone-Eliminar|. Ao clicar na opção de detalhes um card é apresentado e nele constam todos os dados e os valores da regra de faturamento selecionada (faturamento gerais, faturamento de marketplace e faturamento de suporte).
+
+.. image:: /figuras/fig_regra_fatura/016_detalhes_regras.png
+   :alt: detalhes regras
+   :scale: 90 %
+   :align: center
+---- 
+
+Caso o usuário deseje deletar uma das regras de faturamento criadas, ao clicar no botão de exclusão uma mensagem de alerta é apresentada:
+
+.. image:: /figuras/fig_regra_fatura/017_eliminar_regra.png
+   :alt: eliminar regra
+   :scale: 90 %
+   :align: center
+---- 
+
+
+Por fim, a listagem de regras de faturamento criadas pode ser customizada e apresentar as informações recuperadas em blocos de 10, 20, 50 ou 100 linhas, segundo a necessidade de cada usuário.
 
 
 ----
