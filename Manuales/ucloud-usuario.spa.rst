@@ -2168,6 +2168,19 @@ Ambiente Corporativo
 
 ----
 
+
+**Reglas Financieras**
+------------------------
+
+----
+
+Regla de Facturación
+~~~~~~~~~~~~~~~~~~~~
+
+
+
+----
+
 **Informes**
 ----------------
 
