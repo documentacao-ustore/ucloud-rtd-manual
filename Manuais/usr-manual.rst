@@ -17654,3 +17654,11 @@ Revisão 20/01/2023.
 .. |icone_alerta_off| image:: /figuras/fig_budget/icone_alerta_off.png
 
 .. |icone_alerta_on| image:: /figuras/fig_budget/icone_alerta_on.png
+
+.. |icone-calendario| image:: /figuras/fig_regra_fatura/icone-calendario.png
+
+.. |icone_Eliminar| image:: /figuras/fig_regra_fatura/icone-Eliminar.png
+
+.. |icone-Detalhes| image:: /figuras/fig_regra_fatura/icone-Detalhes.png
+
+   
