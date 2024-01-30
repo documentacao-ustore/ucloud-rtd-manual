@@ -312,9 +312,9 @@ With the addition of this functionality on the uCloud platform, the behavior on 
 
 This new feature is located on the left side in the Administration menu, below Users, Group and Companies and will be described in detail throughout this document.
 
-.. image:: 002_ucloud_account/001_ucloud_adm_submenu.png
+.. image:: /figuras/fig_adm_ing/001_ucloud_adm_submenu.png
   :alt: administration submenu
-  :scale: 80%
+  :scale: 90%
   :align: center
 -----
 
@@ -326,7 +326,7 @@ In this example the image displays the Account feature, the user can view on the
 
 .. image:: /figuras/fig_adm_ing/002_ucloud_account.png
   :alt: administration submenu
-  :scale: 80%
+  :scale: 90%
   :align: center
 -----
 
@@ -337,7 +337,11 @@ Firstly, before starting the descriptive detail of the behavior and use of this 
 Introduction
 ~~~~~~~~~~~
 
-The uCloud Platform can be implanted in two different ways:
+The adoption of cloud as a solution to manage the environments of corporate organizations and the combination of private and public clouds is the great management challenge of these hybrid multi-cloud environments.
+
+As previously mentioned in this document, the uCloud platform is developed for this scenario of hybrid environments, independently of how many providers (public and/or private) there are.  The user can interact with its Infrastructure as a Service (IaaS), Platform as a Service (PaaS).
+
+In this context, the uCloud portal is positioned as a Cloud Service Broker - CSB platform that allows the management of multiple cloud service providers, as private as the public cloud providers. Consequently, the uCloud platform can be implanted in two different ways:
 
 \ A. \ Dedicated installation (on-premises)
 
@@ -2604,3 +2608,17 @@ Colors: Dark mode
 
 Registered themes
 ~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+.. |atencao| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-stop-o.png?raw=true
+
+.. |nota| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/hand-pointer-o.png?raw=true
+
+.. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
+
+.. |dica| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/asterisk.png?raw=true
