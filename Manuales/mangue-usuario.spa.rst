@@ -2323,7 +2323,7 @@ Esta opción abre una pantalla para editar el *role* usando la sintaxis del cód
     :align: center
 =====
 
-El usuario debe empezar haciendo clic con el ratón en la zona gris al lado del número de línea que desea editar, antes de empezar a digitar su código *YAML*. Para cada nueva línea deberá utilizar la tecla ``Enter`` para iniciar una nueva línea, utilizando su propia experiencia de desarrollo para estructurar la sintaxis de su código línea por línea. 
+El usuario debe empezar haciendo clic con el ratón en la zona gris al lado del número de línea que desea editar, antes de empezar a digitar su código *YAML*. Para cada nueva línea el usuario debe utilizar la tecla ``Enter`` para iniciar una nueva línea, utilizando su propia experiencia de desarrollo para estructurar la sintaxis de su código línea por línea. 
 
 A través de esta opción el usuario puede ingresar (o editar) un código *YAML* para crear, editar el *role* en la plataforma Mangue.io.
 
@@ -2353,7 +2353,7 @@ Un *RoleBinding* puede hacer referencia a cualquier papel en el mismo *namespace
 * **Nombre**: Esta columna muestra el nombre del *rolebinding* añadido por el usuario. Al pulsar con el ratón sobre el nombre del *configmap* la plataforma Mangue.io muestra una pantalla con el contenido del archivo(s) *configmap*. Por norma se presenta sólo la visualización de una línea del contenido del archivo, si el contenido es más grande que el campo, el usuario puede posicionar el ratón en el rincón inferior derecho, hasta que el trazo del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|, que permite al usuario redimensionar el tamaño del campo de contenido listado, para la mejor visualización de este campo.
 * **Labels**: *Labels* se utilizan para especificar la identificación de los atributos del objeto que son significativos y relevantes y están presentes en la sintaxis *YAML* del *role*.
 * **Duración**: Esta columna muestra el tiempo transcurrido en días desde el momento de la aplicación inicial de este *rolebinding*.
-* **Acciones**: Esta columna presenta el botón ``Acción``  |icone_acao| al ser pulsado, ofrece dos opciones:
+* **Acciones**: Esta columna presenta el botón ``Acción``  |icone_acao| que al ser pulsado, ofrece dos opciones:
 .. image:: /figuras/fig_mangue/122_mangue_acoes_bindings.png
     :alt: Ações Bindings 
     :scale: 100 %
@@ -2385,6 +2385,7 @@ Esta opción abre una pantalla para editar el *rolebinding* usando la sintaxis d
 El usuario debe iniciar haciendo clic con el ratón en el área gris al lado del número de la línea que desea editar, antes de comenzar a escribir su código *YAML*. 
 
 Para cada nueva línea el usuario debe utilizar la tecla ``Enter`` para iniciar una nueva línea. El usuario debe utilizar su propia experiencia de desarrollo para estructurar la sintaxis de su código línea por línea. 
+
 A través de esta opción el usuario puede ingresar (o editar) con un código *YAML* para crear y editar el *rolebinding* en la plataforma Mangue.io.
 
 Después de editar el *rolebinding*, el usuario debe hacer clic en el botón verde ``Enviar`` para que todo el código sea enviado y aplicado al *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración.
@@ -2419,7 +2420,9 @@ Cuando un usuario accede al *cluster*, es autentificado por el *APIServer* como 
     :align: center
 =====
 
-* **Eliminar ServiceAccount**: Cuando el usuario selecciona esta acción se elimina el *serviceaccount* del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración". Cabe recordar que esta acción es irreversible y definitiva. La plataforma Mangue.io solicita la confirmación del usuario para eliminar (borrar) el *serviceaccount* deseado de la base de datos de la plataforma:
+* **Eliminar ServiceAccount**: Cuando el usuario selecciona esta acción se elimina el *serviceaccount* del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración". 
+
+    Cabe recordar que esta acción es irreversible y definitiva. La plataforma Mangue.io solicita la confirmación del usuario para eliminar (borrar) el *serviceaccount* deseado de la base de datos de la plataforma Mangue:
 
 .. image:: /figuras/fig_mangue/126_mangue_aviso_service_account.png
     :alt: Aviso Service Account 
