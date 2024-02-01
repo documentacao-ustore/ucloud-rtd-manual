@@ -17420,24 +17420,207 @@ Sem Tag
 Menu Cores e Personalização (novo)
 ===========================
 
-Personalização de Interface Gráfica
------------------------------------
+O menu *Cores e Personalização* possibilita ao usuário personalizar o tema do ambiente uCloud e realizar modificações/edições na interface gráfica da plataforma. Essa tela permite alterar a imagem da logo e da favicon, customizar as cores (primária, secundária e de fundo do login, seja no modo claro ou escuro), e também, apresenta ao usuário uma lista com todos os temas que estão cadastrados na plataforma. Vejamos a seguir mais detalhes e informações.
+
+
+Acessando o menu Cores e Personalização
+--------------------------------------------------------------
+
+Para acessar o menu, o usuário deve clicar em “Cores e Personalização”, localizado ao lado esquerdo da tela e rolar a barra vertical até alcançar o último item do menu de funcionalidades.
+
+.. image:: /figuras/fig_cores/001_acessando_cores.png
+  :alt: acesso cores e personalização
+  :scale: 90 %
+  :align: center
+----
+
+Quando o usuário seleciona esta opção, a plataforma uCloud apresenta a seguinte tela:
+
+.. image:: /figuras/fig_cores/002_tela_inicial_cores.png
+  :alt: tela inicial
+  :scale: 90 % 
+  :align: center
+----
+
+Na tela inicial do menu “Cores e Personalização” constam quatro *cards*, são eles:
+
+* **Informações do tema**
+* **Identidade**
+* **Cores - Modo Claro/Modo Escuro**
+* **Temas Cadastrados**
+
+Os respectivos *cards* podem ser acessados a medida que o usuário utiliza a barra vertical situada à direita da tela. A seguir temos a descrição, características e especificações de cada um deles:
 
 Informações do tema
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+O tema se refere ao conjunto de configurações escolhidas pelo usuário, que são aplicadas para estabelecer uma aparência personalizada para a plataforma. Nesse *card* constam informações relacionadas às configurações do tema.
+
+.. image:: /figuras/fig_cores/003_informações_do_tema.png
+  :alt: tela inicial
+  :scale: 90 % 
+  :align: center
+----
+
+No *card* “Informações do Tema” se apresentam 04 elementos que devem ser definidos pelo usuário:
+
+**Alias do tema:**  Funciona como um identificador, o usuário pode indicar o sub-domínio (apelido) que aparece no endereço *url*. Também é possível deixar essa opção como “Padrão”, no sentido de não estabelecer um Alias vinculado a um subdomínio, para isso basta não preencher o respectivo campo, visto que ele não é obrigatório.
+
+.. note:: Deixar o campo “Alias do Tema” vazio significa que ele será definido como padrão para qualquer ambiente, a não ser que o usuário vincule o tema a um contrato em específico.
+
+.. important:: Devido a questão da ordem de prioridade, o tema pode não ser alterado, em caso de dúvidas ou problemas o usuário deve entrar em contato com a equipe de especialistas da uStore.
+
+**Vincular contrato:** Nessa opção, se apresentam todos os contratos que estão inseridos dentro da conta. Pode-se vincular o tema a um dos contratos cadastrados na plataforma ou deixá-lo como “padrão global”.
+
+.. image:: /figuras/fig_cores/004_definir_contrato.png
+  :alt: definir contrato
+  :scale: 90 % 
+  :align: center
+----
+
+.. note:: Todos os contratos que não possuem um tema específico vão utilizar o tema “Padrão global”.
+
+**Tom:** A plataforma apresenta quatro opções:
+
+.. image:: /figuras/fig_cores/005_definir_tom.png
+  :alt: definir contrato
+  :scale: 90 % 
+  :align: center
+----
+
+* *Light* - Modo claro;
+* *Dark* - Modo escuro;
+* *Automático por hora* - muda a depender do horário (*Light* das 00:00 hrs às 17:59 hrs e *Dark* das 18:00 hrs às 23:59). 
+* *Combinar com OS* - nessa opção o tema acompanha a opção configurada na máquina do usuário. Se o sistema operacional da máquina estiver configurado como *Light* a plataforma seleciona o tom *Light*, se o sistema operacional da máquina estiver configurado como *Dark* a plataforma seleciona o tom *Dark*. 
+
+**Descrição:** Espaço informativo e aberto para o usuário detalhar informações do tema.
 
 Identidade
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
-Cores: Modo claro 
-~~~~~~~~~~~~~~~~~
+Nesse card é possível definir as principais informações que ficam visíveis na aba do site: Título do site (*tag title*), Logo e Favicon. Vejamos com mais detalhes a seguir: 
 
-Cores: Modo escuro
-~~~~~~~~~~~~~~~~~~
+.. image:: /figuras/fig_cores/006_card_identidade.png
+  :alt: card identidade
+  :scale: 90 % 
+  :align: center
+----
+
+**Título do Site (*tag title*):** O usuário pode escolher um título para o site, o nome escolhido fica aparente na aba do site juntamente com o Favicon;
+
+**Logo:** Se refere a imagem do cabeçalho. Ao clicar na opção, a plataforma abre uma janela que permite ao usuário buscar na sua máquina a imagem desejada. As especificações métricas para o envio da Logo são: *300x150 pixels, em formato JPG ou PNG*. No exemplo abaixo a imagem selecionada é a Logo uCloud.
+
+.. image:: /figuras/fig_cores/007_logo.png
+  :alt: escolhendo a logo
+  :scale: 90 % 
+  :align: center
+----
+
+.. important:: Selecionar uma Logo é um item obrigatório para conclusão do processo de criação de um novo tema.
+
+**Favicon:** Se refere a imagem exibida na aba do navegador e/ou no histórico de navegação. Ao clicar na opção, a plataforma abre uma janela que permite ao usuário buscar na sua máquina a imagem desejada. As especificações métricas para o envio da Favicon são: *100x100 pixels, em formato PNG*.
+
+.. image:: /figuras/fig_cores/017_favicon.png
+  :alt: escolhendo favicon
+  :scale: 90 % 
+  :align: center
+----
+
+Cores: Modo claro/Modo escuro
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nesse *card* é possível selecionar um esquema de cores, permitindo personalizar a aparência da interface, está dividido em dois grupos (Modo Claro e Modo Escuro) e em três categorias (Cor Principal, Cor Secundária, Cor de Fundo Login).
+
+.. image:: /figuras/fig_cores/008_card_cores.png
+  :alt: card cores 
+  :scale: 90 %
+  :align: center
+----
+
+**Cor Principal:** Se refere a cor primária (dominante no sistema);
+
+**Cor Secundária:** Cor de complemento (presente em algumas áreas do sistema);
+
+**Cor de Fundo Login (modo claro) Cor de Fundo (modo escuro):** no modo claro se refere a coloração da tela de acesso, no modo escuro se refere a coloração de fundo de toda a plataforma.
+
+Seja no Modo Claro ou no Modo Escuro, a plataforma apresenta um quadro que possibilita ao usuário realizar a seleção para todas as categorias de cores.
+
+.. image:: /figuras/fig_cores/009_selecionando_cores.png
+  :alt: selecionando cores
+  :scale: 90 % 
+  :align: center
+----
+
+Dentro do referido quadro, se apresenta o ícone de setas   |icone_setas|, ao ser clicado a plataforma uCloud muda os parâmetros de colorimetria, a plataforma exibe três  padrões de medidas: *RGB*, *HSL* e *HEX*.
+
+.. image:: /figuras/fig_cores/010_padrões_cores.png
+  :alt: padrões cores 
+  :scale: 90 %
+  :align: center
+----
+
+.. important:: Na opção de Tom “Combinar com OS”, se a máquina do usuário estiver configurada no Modo Escuro, a plataforma desconsidera as cores escolhidas para o Modo Claro, o contrário também é válido, se a máquina estiver configurada no Modo Claro, a plataforma ignora as cores escolhidas para o Modo Escuro.
+
+Realizado o preenchimento das informações solicitadas nos *cards*: “Informações do Tema”, “Identidade” e “Cores - Modo Claro/Modo Escuro”, o usuário deve clicar no botão ``CRIAR NOVO TEMA`` para concluir o processo de criação.
+
+.. image:: /figuras/fig_cores/011_botão_criar_tema.png
+  :alt: botão criar novo tema
+  :scale: 90 % 
+  :align: center
+----
+
+A plataforma apresenta uma mensagem no canto inferior direito da tela confirmando que a configuração de estilo foi salva com sucesso. Realizada a criação, as informações sobre o tema são apresentadas no último *card* “Temas Cadastrados”.
+
+.. image:: /figuras/fig_cores/012_confirmação_tema.png
+  :alt: mensagem de confirmação
+  :scale: 90 % 
+  :align: center
+----
 
 Temas cadastrados
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
+O último *card* do menu “Cores e Personalização” tem a função de registrar e apresentar ao usuário uma listagem dos temas já criados, nele constam as seguintes informações:
+
+* **Nome do tema:** escolhido pelo usuário no processo de criação;
+           
+* **Contrato vinculado:** apresenta o contrato que está associado ao tema criado. A coluna fica sem informações caso nenhum contrato tenha sido selecionado e no processo de criação tenha sido escolhida a opção “Definir como padrão global”;
+     
+* **Descrição:** informações complementares sobre o tema cadastrado;
+  
+* **Tema:** se refere ao tom, podendo ser apresentado nas opções: *“Light”*, *“Dark”*, *“Time”* (Automático por hora), e *“OS”*.
+
+.. image:: /figuras/fig_cores/013_temas_cadastrados.png
+  :alt: temas cadastrados
+  :scale: 90 % 
+  :align: center
+----
+
+Também constam no *card* “Temas Cadastrados” dois botões de ação, um que tem a finalidade de eliminar da listagem o(s) tema(s) cadastrado(s) selecionado(s), representado pelo ícone |icone_lixo_vermelho|, o outro possibilita ao usuário editar o(s) tema(s) cadastrado(s) selecionado(s), representado pelo ícone |icone_editar_azul|.
+
+Ao clicar no botão de exclusão a plataforma elimina o tema selecionado da listagem e apresenta uma mensagem de confirmação no canto inferior direito da tela:
+
+.. image:: /figuras/fig_cores/014_tema_eliminado.png
+  :alt: eliminando tema
+  :scale: 90 % 
+  :align: center
+----
+
+Ao selecionar o botão de edição a plataforma abre todas as informações do tema cadastrado selecionado, também temos a substituição do botão ``CRIAR NOVO TEMA`` pelo botão ``ATUALIZAR TEMA``.
+
+.. image:: /figuras/fig_cores/015_atualizar_tema.png
+  :alt: atualizando tema 
+  :scale: 90 %
+  :align: center
+---- 
+
+Realizada as modificações desejadas, o usuário deve clicar no botão ``ATUALIZAR TEMA``, a plataforma apresenta uma mensagem de confirmação localizada no lado inferior direito da tela:
+
+.. image:: /figuras/fig_cores/016_confirmação_edição.png
+  :alt: atualizando tema
+  :scale: 90 % 
+  :align: center
+----
 
 ====
 
@@ -17661,4 +17844,12 @@ Revisão 20/01/2023.
 
 .. |icone-Detalhes| image:: /figuras/fig_regra_fatura/icone-Detalhes.png
 
+.. |icone_editar_azul| image:: /figuras/fig_cores/icone_editar_azul.png
+
+.. |icone_lixo_vermelho| image:: /figuras/fig_cores/icone_lixo_vermelho.png
+
+.. |icone_setas| image:: /figuras/fig_cores/icone_setas.png
+
    
+
+
