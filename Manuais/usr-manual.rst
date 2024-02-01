@@ -1559,6 +1559,200 @@ Desta forma, antes de iniciar a criação de um novo usuário, é importante ver
 
 ----
 
+*Card*: Minhas credenciais de repositórios remotos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para acessar esta funcionalidade é necessário selecionar o usuário desejado, e navegar na tela de Usuários com auxílio da barra de rolagem localizada na lateral direita até visualizar o *card* “Minhas credenciais de repositórios remotos”, como evidenciada na imagem abaixo.
+
+.. image:: /figuras/fig_usuario/001_tela_usuario.png
+  :alt: tela usuario 
+  :align: center
+----
+
+.. image:: /figuras/fig_usuario/002_cards_credenciais.png
+  :alt: card credencial
+  :align: center
+----
+
+A *tool tip* ao lado do nome apresenta uma mensagem importante:
+
+.. image:: /figuras/fig_usuario/003_tooltip_credencial.png
+  :alt: card credencial
+  :align: center
+----
+
+
+Este card dispõe de dois botões de ação:
+
+* ``+ Adicionar``
+* ``Atualizar``
+
+E de seis colunas, são elas:
+
+* Nome
+* Endereço
+* Repositório
+* Tipo
+* Data de criação
+* Ações
+
+
+.. image:: /figuras/fig_usuario/004_card_credencial.png
+  :alt: card credencial
+  :align: center
+----
+
+.. important:: Todo usuário pode ter suas credenciais importadas.
+
+.. warning:: Apesar de todos os usuários poderem importar suas credenciais, usuários do tipo *user* precisam de permissão de seu administrador para criar, editar e deletar.
+
+
+Adicionando uma credencial
+""""""""""""""""""""""""""""""""""""
+
+Para adicionar uma credencial à plataforma uCloud, é necessário clicar no botão ``+ Adicionar`` localizado na parte superior direita do card.
+
+Em seguida, o modal de criação é exibido.
+
+.. image:: /figuras/fig_usuario/005_card_add_credencial.png
+  :alt: card credencial
+  :align: center
+----
+
+Os campos apresentados são descritos a seguir:
+
+
+* **Nome:**
+* **Repositório:**
+   * Github
+   * Gitlab
+
+
+* **Tipo de ambiente**: 
+   * Públicas
+   * Privadas
+
+* **Token:** O token de acesso tem um fluxo diferente para cada Git, para mais detalhes, acessar a documentação do GitHub e/ou GitLab [inserir hyperlink].
+  
+* **Endereço:** Este campo é obrigatório apenas para ambientes privados.
+
+
+.. image:: /figuras/fig_usuario/006_tooltip_endereço.png
+  :alt: card credencial
+  :align: center
+----
+
+* **Botão** ``Cancelar``
+* **Botão** ``+ Criar``
+
+Caso o ambiente seja privado, o botão de ``+ Criar`` só é habilitado para acionamento ao preencher o campo referente ao endereço do repositório remoto.
+
+Após concluir o processo de criação, uma mensagem de feedback é exibida no canto inferior direito da tela.
+
+.. image:: /figuras/fig_usuario/007_msg_feedback.png
+  :alt: card credencial
+  :align: center
+----
+
+A partir desse momento, é possível também acompanhar o progresso no menu Tarefas.
+
+.. image:: /figuras/fig_usuario/008_add_tarefas.png
+  :alt: menu tarefas
+  :align: center
+----
+
+Listando
+""""""""""""
+
+Ao visualizar o *status* de “sucesso” no menu Tarefas, é necessário clicar no botão ``Atualizar`` localizado à direita do *card* para que a credencial recém-adicionada seja listada.
+
+.. image:: /figuras/fig_usuario/009_card_lista.png
+  :alt: card credencial
+  :align: center
+----
+
+Esta lista apresenta de forma resumida cada campo preenchido no modal de criação em seis colunas:
+
+* Nome
+* Endereço
+* Repositório
+* Tipo
+* Data de criação
+* Ações:
+   * Editar
+   * Deletar
+
+É possível notar a paginação no fim da tela, assim como o bloco de informação agrupado em 10, 25, 50 ou 100 linhas.
+
+
+Editando
+""""""""""""
+
+Ao clicar no ícone de edição, representado por um quadrado laranja e um lápis branco, localizado na coluna de ações, o modal de edição é apresentado.
+
+.. image:: /figuras/fig_usuario/010_modal_editar.png
+  :alt: card credencial
+  :align: center
+----
+
+Apenas o campo de preenchimento do nome é exibido, pois é o único item que permite edição. 
+
+
+Feita a alteração é imperativo clicar no botão ``Atualizar`` no canto inferior direito para que a mudança seja salva.
+
+
+Caso desista da operação, é necessário clicar no botão ``Cancelar`` disposto na parte inferior esquerda do modal para retornar à tela de usuários.
+
+
+Ao finalizar a edição, uma mensagem de retorno é exibida.
+
+.. image:: /figuras/fig_usuario/011_feedback_editar.png
+  :alt: card credencial
+  :align: center
+----
+
+Seguindo o fluxo orientado acima, o *status* é visualizado no menu Tarefas.
+
+.. image:: /figuras/fig_usuario/011_editar_tarefas.png
+  :alt: card credencial
+  :align: center
+---
+
+Deletando
+"""""""""""""
+
+Caso seja de interesse do usuário deletar a credencial, o ícone a ser acionado deve ser o da lata de lixo, localizado ao lado do ícone de edição.
+ 
+Ao ser acionado, a plataforma exige confirmação do usuário para que a exclusão seja realizada com a seguinte mensagem:
+
+.. image:: /figuras/fig_usuario/012_confirmação_excluir.png
+  :alt: mensagem deletar
+  :align: center
+----
+
+Se o usuário desistir da operação, basta clicar na opção para ``Cancelar``. Caso deseje prosseguir  é necessário confirmar a ação e acionar o botão ``Sim, pode excluir!”.
+
+Após seguir com a deleção da credencial, a seguinte mensagem é exibida:
+
+.. image:: /figuras/fig_usuario/013_feedback_excluir.png
+  :alt: mensagem deletar
+  :align: center
+----
+
+Seguido a este feedback, cabe ao usuário checar o *status* no menu Tarefas.
+
+.. image:: /figuras/fig_usuario/014_deletar_tarefa.png
+  :alt: mensagem deletar
+  :align: center
+----
+
+Onde é utilizada
+~~~~~~~~~~~~~~~~~~~~
+
+As credenciais importadas neste *card* são utilizadas no submenu Catálogo de Serviços e no menu *Workflow*. Para informações mais detalhadas, clicar aqui. (inserir hyperlink para catálogo de serviços)[a]
+[a]inserir para o workflow;
+
+
 Grupos
 ~~~~~~
 
@@ -17438,7 +17632,7 @@ Quando o usuário seleciona esta opção, a plataforma uCloud apresenta a seguin
 
 .. image:: /figuras/fig_cores/002_tela_inicial_cores.png
   :alt: tela inicial
-  :scale: 90 % 
+  :scale: 60 % 
   :align: center
 ----
 
@@ -17592,7 +17786,7 @@ O último *card* do menu “Cores e Personalização” tem a função de regist
 
 .. image:: /figuras/fig_cores/013_temas_cadastrados.png
   :alt: temas cadastrados
-  :scale: 90 % 
+  :scale: 70 % 
   :align: center
 ----
 
