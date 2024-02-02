@@ -1754,13 +1754,13 @@ As credenciais importadas neste *card* são utilizadas no submenu Catálogo de S
 
 
 Grupos
-~~~~~~
+------
 
 .. attention:: Este menu está em re-elaboração para atualização, após as melhorias e novas implementações ocorridas neste trimestre.
 
 .. Na Plataforma uCloud, o termo Grupo estabelece um conceito que permite alocar uma determinada quantidade de recursos computacionais, ou recursos financeiros, que poderão ser consumidos por todos os usuários que estão vinculados ao grupo, criando assim uma pequena ‘célula’ de governança financeira. A Plataforma uCloud pode conter diversos Grupos para que a governança financeira fique mais próxima do cenário real da organização.
 
-Importante ressaltar que o conceito de ""Grupos" existe somente para a plataforma uCloud e nada similar existe nos provedores de serviço de nuvem pública ou privada.
+Importante ressaltar que o conceito de "Grupos" existe somente para a plataforma uCloud e nada similar existe nos provedores de serviço de nuvem pública ou privada.
 
 Um Grupo de usuários pode ser um Departamento, uma Unidade de Negócio, um Centro de Custos, uma Filial. Quando se define um limite de quantidade de recursos computacionais ou um limite financeiro para um contrato que o grupo de usuários pertence, significa que a plataforma uCloud registra este limite .
 
@@ -17364,35 +17364,652 @@ Basta o usuário clicar sobre o botão **Criar** que a plataforma uCloud apresen
 Catálogo de Serviços
 --------------------
 
+O Catálogo de Serviços da plataforma uCloud promove uma relação de serviços e produtos. Este modelo de *marketplace* tem como finalidade simplificar compras para a organização, apresentando um modelo de compra flexível e soluções em nuvem de nível empresarial, além de poder gerenciar ofertas e produtos que podem ser disponibilizados a quaisquer níveis de usuários. 
+
+
+Acessando
+~~~~~~~~
+
+Para ter acesso a esta funcionalidade, é necessário clicar no menu Workflows.
+
+
+.. image:: /figuras/fig_catalogo_serviço/001_menu_workflow.png
+  :alt: menu workflow
+  :align: center
+----
+
+Em seguida, uma lista de submenus é exibida na qual o usuário deve selecionar a opção “Catálogo de Serviços”.
+
+
+.. image:: /figuras/fig_catalogo_serviço/002_submenu_catalogo.png
+  :alt: submenu catalogo
+  :align: center
+----
+
+A tela inicial é apresentada com o título de *Marketplace*.
+
+
+.. image:: /figuras/fig_catalogo_serviço/003_tela_catalog.png
+  :alt: tela catalogo
+  :align: center
+----
+
+Nesta página é possível visualizar a barra de pesquisa no topo para encontrar algum serviço de forma filtrada, o botão ``Meus pedidos anteriores``, serviços em destaque, área para criação e envio de novo serviço, espaço dedicado para todos os serviços e um botão do tipo flutuante que informa a situação do carrinho.
+
+----
+
+Criando um Serviço
+~~~~~~~~~~~~~~~~
+
+Para criar um serviço é necessário acessar a seção de recursos.
+
+
+.. image:: /figuras/fig_catalogo_serviço/004_add_recursos.png
+  :alt: aba recursos
+  :align: center
+----
+
+Nesta, é possível visualizar duas formas de criação:
+
+* ``Novo Serviço``
+* ``Enviar``
+
 ----
 
 Recursos: Novo Serviço
-~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""
+
+Ao selecionar a opção para criar um novo serviço, uma outra página é apresentada. A imagem da tela está dividida em números para uma melhor compreensão de cada área.
+
+
+.. image:: /figuras/fig_catalogo_serviço/005_marketplace_recortes.png
+  :alt: marketplace recortes
+  :align: center
+----
+
+-----
+.. centered:: Recorte 1
+-----
+
+.. image:: /figuras/fig_catalogo_serviço/006_serviço1.png
+  :alt: marketplace recortes
+  :align: center
+----
+
+Logo de início é possível visualizar quatro botões de ação:
+
+* **Voltar**: Caso o usuário deseje desistir da operação a qualquer momento.
+* **Exportar**: É possível exportar o serviço criado em arquivos JSON, XML ou YML. 
+* **Salvar novo serviço**: Este botão só é habilitado após o preenchimento dos campos obrigatórios.
+* **Enviar imagem**: Ação obrigatória, a foto deve ser em arquivo PNG e ter no máximo 500 KB.
+
+O primeiro passo a se fazer é escolher uma imagem para o serviço, ao clicar no botão, o usuário visualiza sua máquina pessoal que exibe os arquivos em formato PNG existentes, momento que pode selecionar o arquivo que deseja importar.
+
+.. image:: /figuras/fig_catalogo_serviço/007_tela_upload.png
+  :alt: tela upload
+  :align: center
+----
+
+Em seguida é necessário selecionar a imagem desejada a ser importada clicando no botão ``Abrir``, localizado no canto inferior direito da tela, e assim finalizar a ação. Próximo a este, é possível observar também o botão ``Cancelar``, caso seja de interesse do usuário desistir da operação.
+
+Após isso, é necessário preencher as informações solicitadas, são elas:
+
+* **Nome**: Cabe ao usuário nomear seu serviço ou produto.
+* **Resumo**: Refere-se à uma breve informação sobre o serviço/produto.
+* **Descrição**: Este campo é utilizado para descrever o serviço/produto com mais detalhes. 
+* **Tipo de oferta**: Ao clicar neste campo, uma lista de estilo *dropdown* é exibida com as seguintes opções:
+
+    * Serviço
+
+     * Produto
+
+* *Flag* de **Confirmação de recebimento**: Ao acionar esta *flag*, significa que quem comprou este serviço ou produto recebe um email como confirmação.
+* **Periodicidade da cobrança**: Refere-se a quantidade de meses em que a cobrança acontece.
+* *Flag* de **Ofertas Públicas**: Desativando esta *flag*, o usuário opta por sua oferta como privada.
+
+.. important:: Ofertas públicas ficam disponíveis para todos os usuários do ambiente, enquanto as ofertas privadas são disponibilizadas apenas para o grupo de usuários que tem acesso àquele contrato específico.
+
+------
+
+* *Tags*: Este campo é obrigatório, servindo para auxiliar a identificar características do serviço ou produto.
+* **Botão** ``Adicionar nova Tag +``
+
+-----
+.. centered:: Recorte 2
+-----
+
+.. image:: /figuras/fig_catalogo_serviço/008_serviço2.png
+  :alt: recursos serviço
+  :align: center
+----
+
+Este recorte tem como foco os recursos do uCloud, são eles:
+
+
+.. image:: /figuras/fig_catalogo_serviço/009_recursos1.png
+  :alt: recursos serviço
+  :align: center
+----
+
+* **Par de chave**
+
+    * Criar par de chave: Esta ação permite que o usuário crie um novo par de chaves, sem sair da área do catálogo de serviço. Para entender o fluxo de criação do par de chave é necessário acessar a seção do manual referente ao submenu Par de Chaves_.
+ 
+.. _Chaves: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#par-de-chaves.
+
+    * Listar par de chave: Ao selecionar esta opção, a área lateral de recursos exibe os seguintes campos a serem preenchidos em estilo *dropdown*.
+
+        * *Account provider*
+
+        * *Virtual Datacenter*
+
+        * Selecionar par de chave
+
+        * Botão ``Adicionar novo recurso +``
+
+.. image:: /figuras/fig_catalogo_serviço/010_par_chave.png
+  :alt: par de chaves
+  :align: center
+----
+
+* **Máquina virtual**
+
+    * Criar máquina virtual: Ao selecionar este botão, o usuário pode criar uma máquina virtual e permanecer no fluxo de catálogo de serviços. Para compreender o fluxo de criação, acessar a seção do manual referente ao menu Máquina Virtual_. 
+
+.. _Virtual: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-maquinas-virtuais.
+
+    * Assinaturas: Permite associar uma assinatura_. existente através de uma lista *dropdown*.
+
+.. _assinatura: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#assinaturas.
+
+.. image:: /figuras/fig_catalogo_serviço/011_assinatura_vm.png
+  :alt: modal assinatura
+  :align: center
+----
+
+* **Rede**:
+
+    * Criar Rede: Permite criar uma rede sem sair do fluxo, para compreender o processo de criação acessar a seção do manual referente ao menu Redes_. 
+
+.. _Redes:: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#redes.
+
+    * Listar Redes: Possibilita listar redes existentes. Ao clicar nesta opção, são apresentados os campos do tipo *dropdown*:
+
+        * *Account provider*
+
+        * *Virtual Datacenter*
+
+        * Redes
+
+        * Botão ``Adicionar novo recurso +``
+
+.. image:: /figuras/fig_catalogo_serviço/012_redes.png
+  :alt: redes
+  :align: center
+----
+
+.. note:: Para visualizar os recursos seguintes, é necessário utilizar a barra de rolagem na lateral da aba de recursos.
 
 ----
 
+.. image:: /figuras/fig_catalogo_serviço/013_recursos2.png
+  :alt: redes
+  :align: center
+----
+
+* **Grupo de Segurança**: 
+
+    * Criar Grupo de Segurança: É possível criar este recurso sem sair do fluxo, para entender este, basta acessar a seção do manual referente ao submenu Grupos de Segurança_.
+
+.. _Segurança: https:://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#grupos-de-seguranca-e-acls.
+
+    * Listar Grupos de Segurança: Permite selecionar um Grupo de Segurança existente. Ao selecionar esta opção, os seguintes campos são apresentados em estilo *dropdown*:
+
+        * *Account provider*
+
+        * *Virtual Datacenter*
+
+        * Grupos de Segurança
+
+        * Botão ``Adicionar novo recurso +``
+
+
+.. image:: /figuras/fig_catalogo_serviço/014_grupo_segurança.png
+  :alt: grupo de segurança
+  :align: center
+----
+
+* Ansible: Este campo exibe apenas uma opção, esta é para ``Criar Ansible`` e ao clicar neste o modal de criação de *tasks* associadas é exibido. 
+
+.. image:: /figuras/fig_catalogo_serviço/015_modal_ansible.png
+  :alt: modal ansible
+  :align: center
+----
+
+Segue abaixo os campos apresentados:
+
+    * Nome
+
+    * Tipo
+
+    * Prioridade
+
+    * Tipo de gerenciador de repositórios
+
+        * GitHub
+
+        * GitLab
+
+    * Credenciais
+
+.. attention:: Após a seleção do tipo de gerenciador de repositório um novo campo com o nome de “Repositório” aparece, assim como o ícone de uma lupa. 
+
+.. image:: /figuras/fig_catalogo_serviço/015.1_ansible_repositorio.png
+  :alt: modal ansible
+  :align: center
+----
+
+    * Repositório: Consta o dono do repositório e o nome do repositório. Enquanto digita no campo, a pesquisa é feita de forma automática. Logo abaixo deste uma lista de tipo *dropdown* é exibida para que o usuário selecione a opção desejada.
+
+    * Selecione um *account provider*
+
+    * *Virtual datacenters*
+
+    * Visualização de:
+
+        * *Name*
+
+        * *Path*
+
+        * *Type*
+
+    * Usuário
+
+    * Versão do *Python*
+
+    * Botão para importar ``SSH``
+
+        * Submodal de “Campos personalizados”
+
+          * *Label*
+
+          * Chave
+
+          * Valor padrão
+
+          * Pedir para preencher
+
+          * Obrigatório
+
+          * Botão ``+ Adicionar``
+
+        * Listagem com os detalhes dos campos personalizados
+
+    * Botão ``Cancelar``
+
+    * Botão ``Criar``
+
+* Terraform: Este campo exibe apenas uma opção, esta é para ``Criar Terraform`` e ao clicar neste o modal de criação de *tasks* associadas é exibido. 
+
+.. image:: /figuras/fig_catalogo_serviço/016_modal_terraform.png
+  :alt: modal terraform
+  :align: center
+----
+
+Os campos pertencentes a este modal são iguais aos mencionados anteriormente no modal de criação Ansible.
+
+
+.. important:: O campo de “credenciais” dos modais de criação de Ansible e Terraform são retirados do menu Usuários, *card* Minhas Credenciais._ de repositórios remotos
+
+.. _Credenciais: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#card-minhas-credenciais-de-repositorios-remotos.
+
+------
+
+* IP público: Neste campo o usuário deve criar um novo, para este fluxo é necessário acessar a seção do manual referente ao submenu de IPs Públicos._ 
+
+.. _Públicos: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#ips-publicos.
+
+* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores._ 
+
+.. _Balanceadores: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#balanceadores.
+
+.. important:: Apenas os recursos de par de chave, máquina virtual, rede e grupo de segurança tem duas formas de adicioná-los ao serviço: criando novos na mesma tela, ou associando a algum já existente.
+
+----
+
+Após preenchidos os recursos e clicar no botão ``Adicionar novo recurso +`` , este é exibido abaixo, onde é possível identificar uma lista dividida em três colunas:
+
+
+.. image:: /figuras/fig_catalogo_serviço/017_recurso_adicionado.png
+  :alt: recurso adicionado
+  :align: center
+----
+
+* Nome
+* Tipo
+* Valor
+ 
+Acima deste *board* é possível visualizar a mensagem que diz “*É obrigatório o nome e ao menos um recurso adicionado*”.
+
+Ao lado do campo do valor é possível visualizar o ícone referente à exclusão do recurso. Ao clicar nele, o item é imediatamente deletado, sem necessitar da confirmação do usuário.
+
+.. important:: O valor é determinado pelo criador da oferta.
+
+-----
+.. centered:: Recorte 3
+-----
+
+.. image:: /figuras/fig_catalogo_serviço/018_recorte3.png
+  :alt: card 
+  :align: center
+----
+
+Este terceiro recorte tem como destaque o *card* de venda.
+
+Ao preencher os dados mencionados anteriormente, este *card*, disposto à direita da tela, replica determinadas informações de forma automática. 
+
+É através deste que o usuário é apresentado ao serviço
+
+Acima do *card* é possível visualizar os botões de ``Exportar`` e ``Salvar novo serviço``.
+
+.. image:: /figuras/fig_catalogo_serviço/019_botoes_serviço.png
+  :alt: botoes serviço 
+  :align: center
+----
+
+No primeiro botão o usuário pode exportar o arquivo da oferta em arquivos do formato .json, .xlm ou .yml.
+
+.. image:: /figuras/fig_catalogo_serviço/020_botao_exportar.png
+  :alt: botao exportar
+  :align: center
+----
+
+O segundo só é desbloqueado após o preenchimento de todos os dados. 
+
+Ao clicar nele para finalizar o processo de criação de serviço, o usuário retorna à tela inicial de Catálogo de Serviços, e a plataforma exibe a seguinte mensagem:
+
+.. image:: /figuras/fig_catalogo_serviço/021_feedback_criar.png
+  :alt: feedback criação
+  :align: center
+----
+
+Além dessa mensagem, é possível acompanhar o progresso no menu Tarefas.
+
+.. image:: /figuras/fig_catalogo_serviço/022_tarefa_criar.png
+  :alt: tarefa criar
+  :align: center
+----
+
 Recursos: Enviar
+"""""""""""""""""
+
+Caso o usuário já tenha a oferta do serviço ou produto pronta, é possível importar o arquivo clicando no botão de ``Enviar``, localizado na tela inicial do Catálogo de Serviço.
+
+.. image:: /figuras/fig_catalogo_serviço/004_add_recursos.png
+  :alt: aba recursos
+  :align: center
+----
+
+Em seguida, o modal de importação é exibido:
+
+.. image:: /figuras/fig_catalogo_serviço/026_modal_enviar.png
+  :alt: modal enviar
+  :align: center
+----
+
+Após a seleção do arquivo JSON, XML ou YML, faz-se necessário clicar no botão ``Aplicar`` para finalizar o processo de importação.
+
+É possível acompanhar o progresso no menu Tarefas.
+
+.. image:: /figuras/fig_catalogo_serviço/022_tarefa_criar.png
+  :alt: tarefa criar
+  :align: center
+----
+
+Visualizando
+~~~~~~
+
+Para visualizar a oferta recém criada, é necessário navegar até a parte de “Todos os serviços” na tela inicial do *marketplace* e clicar no botão ``Atualizar``, localizado à direita da tela. 
+
+.. image:: /figuras/fig_catalogo_serviço/027_botao_atualizar.png
+  :alt: botao atualizar
+  :align: center
+----
+
+Para auxiliar a encontrar serviços de forma facilitada, é possível filtrá-los utilizando as opções de ``Ofertas públicas`` ou ``Ofertas não públicas``.
+
+.. image:: /figuras/fig_catalogo_serviço/028_todos_serviços.png
+  :alt: todos serviços
+  :align: center
+----
+
+Outra maneira de buscar serviços é através do campo de pesquisa e do ícone de filtro que permite localizar serviços através de tags, localizado no topo da página inicial.
+
+.. image:: /figuras/fig_catalogo_serviço/003.1_pesquisar_serviço.png
+  :alt: pesquisar serviços
+  :align: center
+----
+
+Nesta parte os *cards* de venda são exibidos.
+
+.. image:: /figuras/fig_catalogo_serviço/029_cards_venda.png
+  :alt: cards venda
+  :align: center
+----
+
+Estes apresentam:
+
+* Uma imagem
+* Nome do serviço
+* Tipo de oferta
+* Descrição do serviço
+* *Tags*
+* Preço
+
+Para visualizar em mais detalhes, clicar no *card* desejado.
+
+.. image:: /figuras/fig_catalogo_serviço/030_card_detalhe.png
+  :alt: cards detalhe
+  :align: center
+----
+
+Nesta nova tela, é possível visualizar o botão ``Voltar`` caso o usuário deseje voltar à tela anterior.
+
+Além das informações contidas no *card*, esta página informa:
+
+* Botão ``Contrato`` para adquirir o produto.
+* Periodicidade da cobrança abaixo do valor.
+* Termos de serviços e suporte
+* Recursos editáveis
+
+----
+
+Editando
+~~~~~~
+
+.. warning:: Para editar a oferta, o usuário deve ser o criador da oferta, ou do tipo *administrator*. Caso este seja do tipo *user* só é possível editar com a aprovação do administrador. 
+
+O botão ``Editar`` está localizado na tela detalhada do serviço.
+
+.. image:: /figuras/fig_catalogo_serviço/031_botao_editar.png
+  :alt: botao editar
+  :align: center
+----
+
+Em seguida, a tela de edição é exibida.
+
+.. image:: /figuras/fig_catalogo_serviço/032_tela_editar.png
+  :alt: tela editar
+  :align: center
+----
+
+Esta tem as mesmas informações que a tela de criação, com a exceção dos botões ``Apagar`` e ``Atualizar Oferta`` no topo da página.
+
+.. image:: /figuras/fig_catalogo_serviço/033_botoes_editar.png
+  :alt: botoes editar
+  :align: center
+----
+
+Todos os itens são editáveis.
+
+Após realizar as edições desejadas, é necessário clicar no botão ``Atualizar Oferta`` para que as mudanças sejam efetivadas.
+
+É possível acompanhar o progresso de edição no menu Tarefas.
+
+.. image:: /figuras/fig_catalogo_serviço/034_tarefa_editar.png
+  :alt: tarefa editar
+  :align: center
+----
+
+Caso o usuário desista do processo de edição, deve clicar no botão ``Voltar`` localizado no canto superior esquerdo da tela.
+
+----
+
+Deletando
+~~~~~~~~
+
+.. warning:: Para deletar a oferta, o usuário deve ser o criador da oferta, ou do tipo *administrator*. Caso este seja do tipo *user* só é possível deletar com a aprovação do administrador. 
+
+----
+
+Para deletar o serviço é necessário estar na tela de edição deste. 
+
+.. image:: /figuras/fig_catalogo_serviço/032_tela_editar.png
+  :alt: tela editar
+  :align: center
+----
+
+No canto superior direito da página é possível visualizar os botões ``Exportar``, ``Apagar`` e ``Atualizar Oferta``.
+
+.. image:: /figuras/fig_catalogo_serviço/033_botoes_editar.png
+  :alt: botoes editar
+  :align: center
+----
+
+Ao clicar em ``Apagar``, uma mensagem de confirmação é exibida.
+
+.. image:: /figuras/fig_catalogo_serviço/035_mensagem_excluir.png
+  :alt: mensagem excluir
+  :align: center
+----
+
+Caso deseje cancelar a deleção, basta clicar no botão ``Não, cancele!`` disposto à esquerda do modal. Para confirmar a exclusão, selecionar o botão ``Sim, pode excluir!``.
+
+Após a confirmação, o usuário é direcionado a tela inicial de catálogo de serviços, e no canto inferior direito da página uma mensagem de retorno é exibida.
+
+.. image:: /figuras/fig_catalogo_serviço/036_feedback_excluir.png
+  :alt: feedback excluir
+  :align: center
+----
+
+Além disso, também é possível acompanhar o *status* da deleção no menu Tarefas.
+
+.. image:: /figuras/fig_catalogo_serviço/037_tarefa_excluir.png
+  :alt: tarefa excluir
+  :align: center
+----
+
+Contratando o serviço
 ~~~~~~~~~~~~~~~~
 
 ----
 
-Meus serviços anteriores
+Meus pedidos anteriores
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+O botão de ``Meus pedidos anteriores`` é encontrado no topo da tela inicial do catálogo de serviços. Ao clicar neste, o usuário é redirecionado para a página *“Marketplace* - Histórico de Serviços contratados”
+
+.. image:: /figuras/fig_catalogo_serviço/054_meus_pedidos.png
+  :alt: botao meus pedidos
+  :align: center
 ----
 
 Marketplace: Histórico de serviços contratados
 """"""""""""""""""""""""""""""""""""""""""""""
+
+Esta tela é destinada às informações detalhadas sobre o histórico dos serviços contratados.
+
+
+.. image:: /figuras/fig_catalogo_serviço/055_pedidos_anteriores.png
+  :alt: pedidos anteriores
+  :align: center
+----
+
+A página apresenta duas listas:
+
+* Minhas ofertas contratadas;
+* Minhas ofertas cadastradas.
+
+E três botões de ação:
+
+* ``Voltar``
+* ``Filtrar``
+* ``Limpar filtro``.
 
 ----
 
 Minhas ofertas contratadas
 """"""""""""""""""""""""""
 
+A primeira lista refere-se às ofertas contratadas anteriormente. 
+
+.. image:: /figuras/fig_catalogo_serviço/056_ofertas_contratadas.png
+  :alt: ofertas contratadas
+  :align: center
+----
+
+Acima da lista é possível visualizar as ferramentas de pesquisa disponíveis.
+
+.. image:: /figuras/fig_catalogo_serviço/057_pesquisa_ofertas.png
+  :alt: ofertas pesquisa
+  :align: center
+----
+
+São elas:
+
+* Barra de pesquisa: Permite digitar o nome do serviço ou usuário com a finalidade de encontrar determinados serviços de forma mais rápida.
+* Intervalo de datas: Clicando neste campo, um calendário é apresentado onde o usuário pode selecionar mês e ano que deseja.
+* *Status*: Lista do tipo *dropdown* que exibe as seguintes opções:
+
+    * Todos
+
+    * Completo
+
+    * Falha
+
+    * Progresso
+
+Para visualizar o resultado da pesquisa é necessário clicar no botão de ``Filtrar``, caso deseje desfazer os filtros basta clicar no botão ``Limpar filtro``.
+
+A listagem de “Minhas ofertas contratadas” é detalhada em sete colunas:
+
+* Data
+* Serviço
+* *Status*
+* Valor
+* Cancelar
+* Recebido
+* Método de pagamento
+
+Para visualizar todas as ofertas, é possível navegar pela lista com o auxílio da barra de rolagem localizada à direita da lista.
+
 ----
 
 Minhas ofertas cadastradas
 """"""""""""""""""""""""""
+
+A segunda listagem refere-se às ofertas que o próprio usuário criou para ser oferecida. 
+
+.. image:: /figuras/fig_catalogo_serviço/058_ofertas_cadastradas.png
+  :alt: ofertas cadastradas
+  :align: center
+----
+
+Esta divide-se em três colunas:
+
+* Serviço
+* Data da compra
+* Valor.
 
 ----
 
