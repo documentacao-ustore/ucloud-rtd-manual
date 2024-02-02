@@ -17427,7 +17427,9 @@ Ao selecionar a opção para criar um novo serviço, uma outra página é aprese
 ----
 
 -----
+
 .. centered:: Recorte 1
+
 -----
 
 .. image:: /figuras/fig_catalogo_serviço/006_serviço1.png
@@ -17474,7 +17476,9 @@ Após isso, é necessário preencher as informações solicitadas, são elas:
 * **Botão** ``Adicionar nova Tag +``
 
 -----
+
 .. centered:: Recorte 2
+
 -----
 
 .. image:: /figuras/fig_catalogo_serviço/008_serviço2.png
@@ -17517,7 +17521,7 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
 .. _Virtual: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-maquinas-virtuais.
 
-    * Assinaturas: Permite associar uma assinatura_. existente através de uma lista *dropdown*.
+    * Assinaturas: Permite associar uma assinatura_ existente através de uma lista *dropdown*.
 
 .. _assinatura: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#assinaturas.
 
@@ -17558,7 +17562,7 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
 * **Grupo de Segurança**: 
 
-    * Criar Grupo de Segurança: É possível criar este recurso sem sair do fluxo, para entender este, basta acessar a seção do manual referente ao submenu Grupos de Segurança_.
+    * Criar Grupo de Segurança: É possível criar este recurso sem sair do fluxo, para entender este, basta acessar a seção do manual referente ao submenu Grupos de Segurança_ .
 
 .. _Segurança: https:://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#grupos-de-seguranca-e-acls.
 
@@ -17664,11 +17668,11 @@ Os campos pertencentes a este modal são iguais aos mencionados anteriormente no
 
 ------
 
-* IP público: Neste campo o usuário deve criar um novo, para este fluxo é necessário acessar a seção do manual referente ao submenu de IPs Públicos._ 
+* IP público: Neste campo o usuário deve criar um novo, para este fluxo é necessário acessar a seção do manual referente ao submenu de IPs Públicos_ . 
 
 .. _Públicos: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#ips-publicos.
 
-* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores._ 
+* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores_ .
 
 .. _Balanceadores: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#balanceadores.
 
@@ -17695,7 +17699,9 @@ Ao lado do campo do valor é possível visualizar o ícone referente à exclusã
 .. important:: O valor é determinado pelo criador da oferta.
 
 -----
+
 .. centered:: Recorte 3
+
 -----
 
 .. image:: /figuras/fig_catalogo_serviço/018_recorte3.png
@@ -17910,6 +17916,333 @@ Além disso, também é possível acompanhar o *status* da deleção no menu Tar
 
 Contratando o serviço
 ~~~~~~~~~~~~~~~~
+
+Para contratar o serviço desejado, o usuário deve selecionar o *card* desejado na área direcionada a todos os serviços na tela inicial do catálogo de serviços. 
+
+Nesta nova tela, é possível visualizar o botão ``Voltar`` caso o usuário deseje voltar à página anterior.
+
+Para cada oferta, as informações na tela para visualizar o serviço podem ser diversas, a depender dos recursos inclusos.
+
+Após cada contratação de oferta, o usuário é redirecionado à tela do carrinho, e uma mensagem de confirmação da inserção ao carrinho é exibida.
+
+
+.. image:: /figuras/fig_catalogo_serviço/039_mensagem_carrinho.png
+  :alt: mensagem carrinho
+  :align: center
+----
+
+Após esta confirmação, é possível retornar à tela inicial do catálogo de serviços para prosseguir com as compras.
+
+.. attention:: É possível adquirir mais de um serviço.
+
+-----
+
+Há uma mudança, na canto inferior direito da tela é possível visualizar o botão de tipo flutuante, que antes informava “Nenhum pedido”.
+
+
+.. image:: /figuras/fig_catalogo_serviço/040_botao_carrinho.png
+  :alt: carrinho vazio
+  :align: center
+----
+
+Após a inclusão do(s) serviço(s) no carrinho, o botão é exibido da seguinte forma:
+
+.. image:: /figuras/fig_catalogo_serviço/041_botao_finalizar.png
+  :alt: botao finalizar
+  :align: center
+----
+
+Oferta com Par de Chaves
+""""""""""""""""""""""""""""""""""""
+
+Ao visualizar um serviço que tem Par de Chaves como recurso, a seguinte tela é exibida:
+
+.. image:: /figuras/fig_catalogo_serviço/001_par_de_chave.png
+  :alt: tela par de chave
+  :align: center
+----
+
+É possível observar seguintes campos:
+
+* Botão ``Contrato``
+* Descrição
+* Lista de recursos:
+
+    * Exibe o *account provider* utilizado
+
+    * Apresenta o nome dado do Par de Chave
+* Valor
+
+    * Periodicidade da cobrança
+
+* Termos de serviços e suporte
+* Subcard de recursos
+
+    * Nome da conta responsável pela criação da oferta
+
+* Botão ``Editar``
+
+Ao confirmar a aquisição da oferta clicando no botão ``Contrato``, uma nova tela é apresentada.
+
+
+.. image:: /figuras/fig_catalogo_serviço/002_par_de_chave.png
+  :alt: tela detalhe par de chave
+  :align: center
+----
+
+Nesta, é possível editar o nome do recurso nomeado anteriormente.
+
+Para confirmar a aquisição do item, é necessário clicar no botão ``Contratar agora``. Em seguida, a oferta é adicionada ao carrinho.
+
+----
+
+Oferta com Máquina Virtual
+""""""""""""""""""""""""""""
+
+A tela referente a esta oferta exibe os campos referentes à associação da assinatura com a máquina virtual.
+
+.. image:: /figuras/fig_catalogo_serviço/003_contratar_serviço.png
+  :alt: oferta vm
+  :align: center
+----
+
+De acordo com a assinatura selecionada ao criar esta oferta, nesta tela é possível selecionar o *virtual datacenter* e máquina virtual para associar a assinatura através de listas em estilo *dropdown*.
+
+Além dos mencionados acima, é possível observar os seguintes campos:
+
+* Lista de recursos:
+
+* Valor
+
+    * Periodicidade da cobrança
+
+* Termos de serviços e suporte
+* Botão ``Contratar agora``.
+
+----
+
+Oferta com Rede
+""""""""""""""""""""
+
+Como mencionado anteriormente ao criar um serviço, a oferta que possui rede como recurso necessita também de uma sub-rede. Desta forma, a tela da oferta detalhada apresenta:
+
+.. image:: /figuras/fig_catalogo_serviço/008_contrato.png
+  :alt: oferta rede
+  :align: center
+----
+
+Os campos exibidos são:
+
+* Botão ``Contrato``
+* Descrição da oferta
+
+    * Lista de recursos
+
+    * Nome do account provider
+
+    * Nome da rede
+
+    * Nome da sub-rede
+
+* Valor
+
+    * Periodicidade da cobrança
+
+* Termos de serviços e suporte
+* Subcard de recursos
+
+    * Nome da conta responsável pela criação da oferta.
+
+Ao clicar no botão ``Contrato``, o usuário é direcionado para uma segunda página.
+
+.. image:: /figuras/fig_catalogo_serviço/009_informações.png
+  :alt: informações rede subrede
+  :align: center
+----
+
+Além das informações presentes na tela anterior, nesta também é possível editar os nomes dados anteriormente a rede e a sub-rede.
+
+Para finalizar o processo de aquisição, cabe ao usuário clicar no botão ``Contratar agora``.
+
+-----
+
+Oferta com Grupo de Segurança
+""""""""""""""""""""""""""""""""""""""""
+
+Neste caso os campos exibidos são:
+
+* Botão ``Contrato``
+* Descrição da oferta
+* Lista de recursos
+
+    * Nome do account provider
+
+    * Nome do grupo de segurança
+
+* Valor
+
+    * Periodicidade da cobrança
+
+* Termos de serviços e suporte
+* Subcard de recursos
+
+    * Nome da conta responsável pela criação da oferta.
+
+
+ .. image:: /figuras/fig_catalogo_serviço/011_recursos.png
+  :alt: contratar grupo segurança
+  :align: center
+----
+
+Ao selecionar a opção ``Contrato``, o usuário é direcionado para outra página.
+
+
+ .. image:: /figuras/fig_catalogo_serviço/011_recursos.png
+  :alt: editar grupo segurança
+  :align: center
+----
+
+Nesta, é possível editar o nome do grupo de segurança.
+
+Para finalizar a aquisição, é necessário clicar na opção ``Contratar agora``.
+
+----
+
+Oferta com IP Público
+""""""""""""""""""""""""""""""""""""""""
+
+-----
+
+Oferta com Balanceador
+""""""""""""""""""""""""""""""""""""""""
+
+----
+
+Configurações de pagamento
+~~~~~~~~~~~~~~~~~~~~~~
+
+Para decidir a forma de pagamento basta o usuário clicar em ``Finalizar o pedido`` do botão flutuante mencionado acima, em seguida uma nova tela é apresentada.
+
+.. image:: /figuras/fig_catalogo_serviço/042_tela_compra.png
+  :alt: tela compra
+  :align: center
+----
+
+Nela é possível observar o botão ``Voltar``, caso o usuário deseje desistir da operação.
+
+Abaixo deste botão é possível visualizar os itens no carrinho de compras de forma resumida, apenas o nome do item e seu valor. 
+
+Ao lado do valor, é possível observar dois ícones:
+
+* |icone_seta_baixo|: ao clicar nela, as informações sobre o item são expandidas. Para reduzir as informações exibidas, basta clicar novamente sobre o ícone, que agora será apresentado como |icone_seta_cima|.
+
+* |icone_x|: ao clicar neste, o item é removido do carrinho sem precisar de confirmação prévia do usuário.
+
+Disposto à direita das colunas dos itens, há um *card* que informa a quantidade dos itens e o valor total.
+
+.. image:: /figuras/fig_catalogo_serviço/043_descrição_valor.png
+  :alt: descrição valor
+  :align: center
+----
+
+Abaixo são exibidas as configurações de pagamento.
+
+.. image:: /figuras/fig_catalogo_serviço/044_pagamento.png
+  :alt: pagamento
+  :align: center
+----
+
+O plano de pagamento é exibido em uma lista do tipo *dropdown* onde as opções são:
+
+* Pós-pago
+* Pré-pago
+
+Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_ . 
+
+.. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
+
+Abaixo dessas informações existe uma lista *dropdown* para selecionar a modalidade de pagamento desejada
+
+
+.. image:: /figuras/fig_catalogo_serviço/045_pre_pago.png
+  :alt: pré pago
+  :align: center
+----
+
+As opções são exibidas abaixo:
+
+* Crédito à vista
+* Parcelado loja
+* Parcelado administradora
+* Débito online 
+* Débito online - Caixa
+
+Para finalizar a compra é necessário que o usuário confirme as *checkboxes* abaixo:
+
+.. image:: /figuras/fig_catalogo_serviço/046_checkbox_vazia.png
+  :alt: checkboxes vazias
+  :align: center
+----
+
+* Termos e condições acerca da contratação dos serviços escolhidos. Este termo está localizado na tela detalhada do *card* de serviço, no fluxo inicial para contratação do serviço.
+
+.. image:: /figuras/fig_catalogo_serviço/047_termos.png
+  :alt: termos e condições
+  :align: center
+----
+
+* Revisão dos dados dos serviços.
+
+Apenas após a seleção de ambas é que o botão ``Adquirir serviços`` é liberado.
+
+.. image:: /figuras/fig_catalogo_serviço/048_checkboxes.png
+  :alt: checkboxes
+  :align: center
+----
+
+Caso o usuário desista da compra, basta clicar no botão ``Limpar carrinho``.
+
+Após clicar em ``Adquirir serviços``, o modal para finalização do pedido é apresentado.
+
+.. image:: /figuras/fig_catalogo_serviço/049_finalizar_pedido.png
+  :alt: modal finalizar
+  :align: center
+----
+
+Neste, é possível agendar esta finalização apenas acionando a *flag*. 
+
+
+.. image:: /figuras/fig_catalogo_serviço/050_flag.png
+  :alt: flag
+  :align: center
+----
+
+Em seguida, é possível escolher dia, mês e hora que deseja.
+
+
+.. image:: /figuras/fig_catalogo_serviço/051_data_hora.png
+  :alt: data e hora
+  :align: center
+----
+
+Na parte inferior do modal é possível ver dois botões:
+
+* ``Cancelar``: caso deseje retornar para a tela do carrinho.
+* ``+ Finalizar``: este botão fica pronto para acionamento caso não deseje agendar. Caso contrário, só é liberado após definição de data e hora.
+
+Após confirmar a finalização da compra, a plataforma exibe uma mensagem na parte inferior da tela.
+
+.. image:: /figuras/fig_catalogo_serviço/052_mensagem_compra.png
+  :alt: mensagem de compra
+  :align: center
+----
+
+Também é possível acompanhar o *status* desta ação no menu Tarefas.
+
+.. image:: /figuras/fig_catalogo_serviço/053_tarefa_compra.png
+  :alt: tarefa compra
+  :align: center
+----
 
 ----
 
