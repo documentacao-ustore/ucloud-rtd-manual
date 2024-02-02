@@ -1610,7 +1610,7 @@ E de seis colunas, são elas:
 Adicionando uma credencial
 """"""""""""""""""""""""""""""""""""
 
-Para adicionar uma credencial à plataforma uCloud, é necessário clicar no botão ``+ Adicionar`` localizado na parte superior direita do card.
+Para adicionar uma credencial à plataforma uCloud, é necessário clicar no botão ``+ Adicionar`` localizado na parte superior direita do *card*.
 
 Em seguida, o modal de criação é exibido.
 
@@ -1730,7 +1730,7 @@ Ao ser acionado, a plataforma exige confirmação do usuário para que a exclus�
   :align: center
 ----
 
-Se o usuário desistir da operação, basta clicar na opção para ``Cancelar``. Caso deseje prosseguir  é necessário confirmar a ação e acionar o botão ``Sim, pode excluir!”.
+Se o usuário desistir da operação, basta clicar na opção ``Não, cancele!``. Caso deseje prosseguir  é necessário confirmar a ação e acionar o botão ``Sim, pode excluir!”.
 
 Após seguir com a deleção da credencial, a seguinte mensagem é exibida:
 
@@ -1749,8 +1749,7 @@ Seguido a este feedback, cabe ao usuário checar o *status* no menu Tarefas.
 Onde é utilizada
 ~~~~~~~~~~~~~~~~~~~~
 
-As credenciais importadas neste *card* são utilizadas no submenu Catálogo de Serviços e no menu *Workflow*. Para informações mais detalhadas, clicar aqui. (inserir hyperlink para catálogo de serviços)[a]
-[a]inserir para o workflow;
+As credenciais importadas neste *card* são utilizadas no submenu Catálogo de Serviços e no menu *Workflow*. Para informações mais detalhadas, clicar aqui. (inserir hyperlink para catálogo de serviços) (inserir para o workflow)
 
 
 Grupos
