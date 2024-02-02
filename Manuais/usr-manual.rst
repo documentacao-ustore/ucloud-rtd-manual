@@ -18255,17 +18255,17 @@ Quando o usuário seleciona esta opção, a plataforma uCloud apresenta a seguin
 
 Na tela inicial do menu “Cores e Personalização” constam quatro *cards*, são eles:
 
-* **Informações do tema**
+* **Informações do Tema**
 * **Identidade**
 * **Cores - Modo Claro/Modo Escuro**
 * **Temas Cadastrados**
 
 Os respectivos *cards* podem ser acessados a medida que o usuário utiliza a barra vertical situada à direita da tela. A seguir temos a descrição, características e especificações de cada um deles:
 
-Informações do tema
+Informações do Tema
 ~~~~~~~~~~~~~~~~~~~~~~
 
-O tema se refere ao conjunto de configurações escolhidas pelo usuário, que são aplicadas para estabelecer uma aparência personalizada para a plataforma. Nesse *card* constam informações relacionadas às configurações do tema.
+O tema se refere ao conjunto de configurações escolhidas pelo usuário, que são aplicadas para estabelecer uma aparência personalizada para a plataforma. 
 
 .. image:: /figuras/fig_cores/003_informações_do_tema.png
   :alt: tela inicial
@@ -18275,7 +18275,7 @@ O tema se refere ao conjunto de configurações escolhidas pelo usuário, que s�
 
 No *card* “Informações do Tema” se apresentam 04 elementos que devem ser definidos pelo usuário:
 
-**Alias do tema:**  Funciona como um identificador, o usuário pode indicar o sub-domínio (apelido) que aparece no endereço *url*. Também é possível deixar essa opção como “Padrão”, no sentido de não estabelecer um Alias vinculado a um subdomínio, para isso basta não preencher o respectivo campo, visto que ele não é obrigatório.
+**Alias do Tema:**  Funciona como um identificador, o usuário pode indicar o sub-domínio (apelido) que aparece no endereço *url*. Também é possível deixar essa opção como “Padrão”, no sentido de não estabelecer um Alias vinculado a um subdomínio, para isso basta não preencher o respectivo campo, visto que ele não é obrigatório.
 
 .. note:: Deixar o campo “Alias do Tema” vazio significa que ele será definido como padrão para qualquer ambiente, a não ser que o usuário vincule o tema a um contrato em específico.
 
@@ -18289,7 +18289,7 @@ No *card* “Informações do Tema” se apresentam 04 elementos que devem ser d
   :align: center
 ----
 
-.. note:: Todos os contratos que não possuem um tema específico vão utilizar o tema “Padrão global”.
+.. note:: Todos os contratos que não possuem um tema específico vão utilizar o tema “padrão global”.
 
 **Tom:** A plataforma apresenta quatro opções:
 
@@ -18301,8 +18301,8 @@ No *card* “Informações do Tema” se apresentam 04 elementos que devem ser d
 
 * *Light* - Modo claro;
 * *Dark* - Modo escuro;
-* *Automático por hora* - muda a depender do horário (*Light* das 00:00 hrs às 17:59 hrs e *Dark* das 18:00 hrs às 23:59). 
-* *Combinar com OS* - nessa opção o tema acompanha a opção configurada na máquina do usuário. Se o sistema operacional da máquina estiver configurado como *Light* a plataforma seleciona o tom *Light*, se o sistema operacional da máquina estiver configurado como *Dark* a plataforma seleciona o tom *Dark*. 
+* *Automático por hora* - Muda a depender do horário (*Light* das 00:00 hrs às 17:59 hrs e *Dark* das 18:00 hrs às 23:59). 
+* *Combinar com OS* - Nessa opção o tema acompanha a opção configurada na máquina do usuário. Se o sistema operacional da máquina estiver configurado como *Light* a plataforma seleciona o tom *Light*, se o sistema operacional da máquina estiver configurado como *Dark* a plataforma seleciona o tom *Dark*. 
 
 **Descrição:** Espaço informativo e aberto para o usuário detalhar informações do tema.
 
@@ -18317,13 +18317,13 @@ Nesse card é possível definir as principais informações que ficam visíveis 
   :align: center
 ----
 
-**Título do Site (*tag title*):** O usuário pode escolher um título para o site, o nome escolhido fica aparente na aba do site juntamente com o Favicon;
+**Título do Site** (*tag title*): O usuário pode escolher um título para o site, o nome escolhido fica aparente na aba do site juntamente com o Favicon;
 
 **Logo:** Se refere a imagem do cabeçalho. Ao clicar na opção, a plataforma abre uma janela que permite ao usuário buscar na sua máquina a imagem desejada. As especificações métricas para o envio da Logo são: *300x150 pixels, em formato JPG ou PNG*. No exemplo abaixo a imagem selecionada é a Logo uCloud.
 
 .. image:: /figuras/fig_cores/007_logo.png
   :alt: escolhendo a logo
-  :scale: 90 % 
+  :scale: 70 % 
   :align: center
 ----
 
@@ -18337,7 +18337,7 @@ Nesse card é possível definir as principais informações que ficam visíveis 
   :align: center
 ----
 
-Cores: Modo claro/Modo escuro
+Cores: Modo Claro/Modo Escuro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nesse *card* é possível selecionar um esquema de cores, permitindo personalizar a aparência da interface, está dividido em dois grupos (Modo Claro e Modo Escuro) e em três categorias (Cor Principal, Cor Secundária, Cor de Fundo Login).
@@ -18362,7 +18362,7 @@ Seja no Modo Claro ou no Modo Escuro, a plataforma apresenta um quadro que possi
   :align: center
 ----
 
-Dentro do referido quadro, se apresenta o ícone de setas   |icone_setas|, ao ser clicado a plataforma uCloud muda os parâmetros de colorimetria, a plataforma exibe três  padrões de medidas: *RGB*, *HSL* e *HEX*.
+Dentro do referido quadro, se apresenta o ícone de setas   |icone_setas|, ao ser clicado a plataforma uCloud muda os parâmetros de colorimetria, exibindo três  padrões de medidas: *RGB*, *HSL* e *HEX*.
 
 .. image:: /figuras/fig_cores/010_padrões_cores.png
   :alt: padrões cores 
@@ -18388,7 +18388,7 @@ A plataforma apresenta uma mensagem no canto inferior direito da tela confirmand
   :align: center
 ----
 
-Temas cadastrados
+Temas Cadastrados
 ~~~~~~~~~~~~~~~~~~~~~~
 
 O último *card* do menu “Cores e Personalização” tem a função de registrar e apresentar ao usuário uma listagem dos temas já criados, nele constam as seguintes informações:
