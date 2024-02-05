@@ -17776,7 +17776,7 @@ Visualizando
 
 Para visualizar a oferta recém criada, é necessário navegar até a parte de “Todos os serviços” na tela inicial do *marketplace* e clicar no botão ``Atualizar``, localizado à direita da tela. 
 
-.. image:: /figuras/fig_catalogo_serviço/027_botao_atualizar.png
+.. .. image:: /figuras/fig_catalogo_serviço/027_botao_atualizar.png
   :alt: botao atualizar
   :align: center
 ----
@@ -17813,7 +17813,7 @@ Estes apresentam:
 
 Para visualizar em mais detalhes, clicar no *card* desejado.
 
-.. image:: /figuras/fig_catalogo_serviço/030_card_detalhe.png
+.. .. image:: /figuras/fig_catalogo_serviço/030_card_detalhe.png
   :alt: cards detalhe
   :align: center
 ----
@@ -17836,7 +17836,7 @@ Editando
 
 O botão ``Editar`` está localizado na tela detalhada do serviço.
 
-.. image:: /figuras/fig_catalogo_serviço/031_botao_editar.png
+.. .. image:: /figuras/fig_catalogo_serviço/031_botao_editar.png
   :alt: botao editar
   :align: center
 ----
@@ -17940,7 +17940,7 @@ Após esta confirmação, é possível retornar à tela inicial do catálogo de 
 Há uma mudança, na canto inferior direito da tela é possível visualizar o botão de tipo flutuante, que antes informava “Nenhum pedido”.
 
 
-.. image:: /figuras/fig_catalogo_serviço/040_botao_carrinho.png
+.. .. image:: /figuras/fig_catalogo_serviço/040_botao_carrinho.png
   :alt: carrinho vazio
   :align: center
 ----
@@ -18186,7 +18186,7 @@ Para finalizar a compra é necessário que o usuário confirme as *checkboxes* a
 
 * Termos e condições acerca da contratação dos serviços escolhidos. Este termo está localizado na tela detalhada do *card* de serviço, no fluxo inicial para contratação do serviço.
 
-.. image:: /figuras/fig_catalogo_serviço/047_termos.png
+.. .. image:: /figuras/fig_catalogo_serviço/047_termos.png
   :alt: termos e condições
   :align: center
 ----
