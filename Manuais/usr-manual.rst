@@ -17519,11 +17519,11 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
     * Criar máquina virtual: Ao selecionar este botão, o usuário pode criar uma máquina virtual e permanecer no fluxo de catálogo de serviços. Para compreender o fluxo de criação, acessar a seção do manual referente ao menu Máquina Virtual_. 
 
-.. _Virtual: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-maquinas-virtuais.
+.. _Virtual: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#menu-maquinas-virtuais
 
     * Assinaturas: Permite associar uma assinatura_ existente através de uma lista *dropdown*.
 
-.. _assinatura: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#assinaturas.
+.. _assinatura: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#assinaturas
 
 .. image:: /figuras/fig_catalogo_serviço/011_assinatura_vm.png
   :alt: modal assinatura
@@ -17562,9 +17562,9 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
 * **Grupo de Segurança**: 
 
-    * Criar Grupo de Segurança: É possível criar este recurso sem sair do fluxo, para entender este, basta acessar a seção do manual referente ao submenu Grupos de Segurança_ .
+    * Criar Grupo de Segurança: É possível criar este recurso sem sair do fluxo, para entender este, basta acessar a seção do manual referente ao submenu Grupos de Segurança_.
 
-.. _Segurança: https:://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#grupos-de-seguranca-e-acls.
+.. _Segurança: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#grupos-de-seguranca-e-acls 
 
     * Listar Grupos de Segurança: Permite selecionar um Grupo de Segurança existente. Ao selecionar esta opção, os seguintes campos são apresentados em estilo *dropdown*:
 
@@ -17662,19 +17662,19 @@ Segue abaixo os campos apresentados:
 Os campos pertencentes a este modal são iguais aos mencionados anteriormente no modal de criação Ansible.
 
 
-.. important:: O campo de “credenciais” dos modais de criação de Ansible e Terraform são retirados do menu Usuários, *card* Minhas Credenciais._ de repositórios remotos
+.. important:: O campo de “credenciais” dos modais de criação de Ansible e Terraform são retirados do menu Usuários, *card* Minhas Credenciais_. de repositórios remotos
 
-.. _Credenciais: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#card-minhas-credenciais-de-repositorios-remotos.
+.. _Credenciais: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#card-minhas-credenciais-de-repositorios-remotos
 
 ------
 
-* IP público: Neste campo o usuário deve criar um novo, para este fluxo é necessário acessar a seção do manual referente ao submenu de IPs Públicos_ . 
+* IP público: Neste campo o usuário deve criar um novo, para este fluxo é necessário acessar a seção do manual referente ao submenu de IPs Públicos_. 
 
-.. _Públicos: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#ips-publicos.
+.. _Públicos: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#ips-publicos
 
-* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores_ .
+* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores_.
 
-.. _Balanceadores: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#balanceadores.
+.. _Balanceadores: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#balanceadores
 
 .. important:: Apenas os recursos de par de chave, máquina virtual, rede e grupo de segurança tem duas formas de adicioná-los ao serviço: criando novos na mesma tela, ou associando a algum já existente.
 
@@ -18993,6 +18993,10 @@ Revisão 20/01/2023.
 
 .. |icone_setas| image:: /figuras/fig_cores/icone_setas.png
 
-   
+.. |icone_seta_baixo| image:: /figuras/fig_catalogo_serviço/icone_seta_baixo.png
+
+.. |icone_seta_cima| image:: /figuras/fig_catalogo_serviço/icone_seta_cima.png
+
+.. |icone_x| image:: /figuras/fig_catalogo_serviço/icone_x.png
 
 
