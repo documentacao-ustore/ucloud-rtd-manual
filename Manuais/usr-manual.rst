@@ -1749,8 +1749,9 @@ Seguido a este feedback, cabe ao usuário checar o *status* no menu Tarefas.
 Onde é utilizada
 ~~~~~~~~~~~~~~~~~~~~
 
-As credenciais importadas neste *card* são utilizadas no submenu Catálogo de Serviços e no menu *Workflow*. Para informações mais detalhadas, clicar aqui. (inserir hyperlink para catálogo de serviços) (inserir para o workflow)
+As credenciais importadas neste *card* são utilizadas ao criar uma oferta_ no submenu Catálogo de Serviços, alocado no menu *Workflow*. 
 
+.. _oferta: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#catalogo-de-servicos
 
 Grupos
 ------
@@ -17369,7 +17370,7 @@ O Catálogo de Serviços da plataforma uCloud promove uma relação de serviços
 Acessando
 ~~~~~~~~
 
-Para ter acesso a esta funcionalidade, é necessário clicar no menu Workflows.
+Para ter acesso a esta funcionalidade, é necessário clicar no menu "Workflows".
 
 
 .. image:: /figuras/fig_catalogo_serviço/001_menu_workflow.png
@@ -17442,7 +17443,7 @@ Logo de início é possível visualizar quatro botões de ação:
 * **Voltar**: Caso o usuário deseje desistir da operação a qualquer momento.
 * **Exportar**: É possível exportar o serviço criado em arquivos JSON, XML ou YML. 
 * **Salvar novo serviço**: Este botão só é habilitado após o preenchimento dos campos obrigatórios.
-* **Enviar imagem**: Ação obrigatória, a foto deve ser em arquivo PNG e ter no máximo 500 KB.
+* **Enviar imagem**: Ação obrigatória, a foto deve ser enviada em arquivo PNG e ter no máximo 500 KB.
 
 O primeiro passo a se fazer é escolher uma imagem para o serviço, ao clicar no botão, o usuário visualiza sua máquina pessoal que exibe os arquivos em formato PNG existentes, momento que pode selecionar o arquivo que deseja importar.
 
@@ -17455,24 +17456,24 @@ Em seguida é necessário selecionar a imagem desejada a ser importada clicando 
 
 Após isso, é necessário preencher as informações solicitadas, são elas:
 
-* **Nome**: Cabe ao usuário nomear seu serviço ou produto.
-* **Resumo**: Refere-se à uma breve informação sobre o serviço/produto.
-* **Descrição**: Este campo é utilizado para descrever o serviço/produto com mais detalhes. 
+* **Nome**: Cabe ao usuário nomear seu serviço ou produto;
+* **Resumo**: Refere-se à uma breve informação sobre o serviço/produto;
+* **Descrição**: Este campo é utilizado para descrever o serviço/produto com mais detalhes;
 * **Tipo de oferta**: Ao clicar neste campo, uma lista de estilo *dropdown* é exibida com as seguintes opções:
 
     * Serviço
 
-     * Produto
+    * Produto
 
-* *Flag* de **Confirmação de recebimento**: Ao acionar esta *flag*, significa que quem comprou este serviço ou produto recebe um email como confirmação.
-* **Periodicidade da cobrança**: Refere-se a quantidade de meses em que a cobrança acontece.
+* *Flag* de **Confirmação de recebimento**: Ao acionar esta *flag*, significa que quem comprou este serviço ou produto recebe um email como confirmação;
+* **Periodicidade da cobrança**: Refere-se a quantidade de meses em que a cobrança acontece;
 * *Flag* de **Ofertas Públicas**: Desativando esta *flag*, o usuário opta por sua oferta como privada.
 
-.. important:: Ofertas públicas ficam disponíveis para todos os usuários do ambiente, enquanto as ofertas privadas são disponibilizadas apenas para o grupo de usuários que tem acesso àquele contrato específico.
+.. important:: Ofertas públicas ficam disponíveis para todos os usuários do ambiente, enquanto as ofertas privadas são disponibilizadas apenas para o grupo de usuários que têm acesso àquele contrato específico.
 
 ------
 
-* *Tags*: Este campo é obrigatório, servindo para auxiliar a identificar características do serviço ou produto.
+* *Tags*: Este campo é obrigatório, servindo para auxiliar a identificar características do serviço ou produto;
 * **Botão** ``Adicionar nova Tag +``
 
 -----
@@ -17498,7 +17499,7 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
     * Criar par de chave: Esta ação permite que o usuário crie um novo par de chaves, sem sair da área do catálogo de serviço. Para entender o fluxo de criação do par de chave é necessário acessar a seção do manual referente ao submenu Par de Chaves_.
  
-.. _Chaves: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#par-de-chaves.
+.. _Chaves: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#par-de-chaves
 
     * Listar par de chave: Ao selecionar esta opção, a área lateral de recursos exibe os seguintes campos a serem preenchidos em estilo *dropdown*.
 
@@ -17511,6 +17512,13 @@ Este recorte tem como foco os recursos do uCloud, são eles:
         * Botão ``Adicionar novo recurso +``
 
 .. image:: /figuras/fig_catalogo_serviço/010_par_chave.png
+  :alt: par de chaves
+  :align: center
+----
+
+Após a criação do par de chaves, a área destinada ao recurso adicionado no fim da tela é automaticamente preenchida, ou após clicar no botão ``+ Adicionar recurso`` em caso de selecionar um par de chaves existentes. É necessário apenas a definição do valor, que é determinado pelo criador da oferta. 
+
+.. image:: /figuras/fig_catalogo_serviço/001_preço_par_chaves.png
   :alt: par de chaves
   :align: center
 ----
@@ -17530,11 +17538,50 @@ Este recorte tem como foco os recursos do uCloud, são eles:
   :align: center
 ----
 
+Após selecionar a assinatura, o *board* de recursos é preenchido automaticamente.
+
+
+.. image:: /figuras/fig_catalogo_serviço/002_preço_assinaturas.png
+  :alt: preço assinatura
+  :align: center
+----
+
 * **Rede**:
 
-    * Criar Rede: Permite criar uma rede sem sair do fluxo, para compreender o processo de criação acessar a seção do manual referente ao menu Redes_. 
+    * Criar Rede: Permite criar uma rede sem sair do fluxo, para compreender o processo de criação acessar a seção do manual referente ao menu Redes_. O fluxo de criação nesta funcionalidade se diferencia por prosseguir com a criação de uma sub-rede logo em seguida.
 
 .. _Redes:: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#redes.
+
+O primeiro passo para essa criação é selecionar um *account provider* presente na lista de tipo *dropdown*.
+
+.. image:: /figuras/fig_catalogo_serviço/005_criar_rede.png
+  :alt: criar rede
+  :align: center
+----
+
+Apenas após selecionar o *account provider* desejado  que os demais campos necessários para a criação de rede são exibidos. 
+
+.. image:: /figuras/fig_catalogo_serviço/006_criar_rede.png
+  :alt: modal rede
+  :align: center
+----
+
+Estes são: 
+
+* *Account provider*
+* *Virtual datacenters* 
+* Nome
+* CIDR
+* Regiões
+* Botão ``Cancelar``
+* Botão ``+ Criar``
+
+Ao confirmar a criação da rede, o fluxo prossegue para a sub-rede.
+
+.. image:: /figuras/fig_catalogo_serviço/007_criar_sub_rede.png
+  :alt: criar sub-rede
+  :align: center
+----
 
     * Listar Redes: Possibilita listar redes existentes. Ao clicar nesta opção, são apresentados os campos do tipo *dropdown*:
 
@@ -17546,8 +17593,10 @@ Este recorte tem como foco os recursos do uCloud, são eles:
 
         * Botão ``Adicionar novo recurso +``
 
-.. image:: /figuras/fig_catalogo_serviço/012_redes.png
-  :alt: redes
+Ao confirmar a adição do recurso ou ao finalizar o processo de criação da rede e sub-rede, o *card* referente aos recursos adicionados é preenchida com os campos de rede e sub-rede, para que seus preços possam ser determinados.
+
+.. image:: /figuras/fig_catalogo_serviço/016_detalhes_redesubrede.png
+  :alt: listar rede e sub-rede
   :align: center
 ----
 
@@ -17582,6 +17631,13 @@ Este recorte tem como foco os recursos do uCloud, são eles:
   :align: center
 ----
 
+Após criar ou listar o grupo de segurança, o *card* de recursos adicionados apresenta o grupo de segurança escolhido ou recém criado listado, necessitando apenas da precificação para finalizar.
+
+.. image:: /figuras/fig_catalogo_serviço/016_detalhes_grupo_segurança.png
+  :alt: lista grupo de segurança
+  :align: center
+----
+
 * Ansible: Este campo exibe apenas uma opção, esta é para ``Criar Ansible`` e ao clicar neste o modal de criação de *tasks* associadas é exibido. 
 
 .. image:: /figuras/fig_catalogo_serviço/015_modal_ansible.png
@@ -17612,7 +17668,7 @@ Segue abaixo os campos apresentados:
   :align: center
 ----
 
-    * Repositório: Consta o dono do repositório e o nome do repositório. Enquanto digita no campo, a pesquisa é feita de forma automática. Logo abaixo deste uma lista de tipo *dropdown* é exibida para que o usuário selecione a opção desejada.
+    * Repositório: Consta o dono e nome do repositório. Enquanto digita no campo, a pesquisa é feita de forma automática. Logo abaixo deste uma lista de tipo *dropdown* é exibida para que o usuário selecione a opção desejada.
 
     * Selecione um *account provider*
 
@@ -17672,9 +17728,11 @@ Os campos pertencentes a este modal são iguais aos mencionados anteriormente no
 
 .. _Públicos: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#ips-publicos
 
-* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores_.
+* Balanceador: Este espaço não permite a listagem de um Balanceador existente, portanto é necessário criar um novo. Para seguir esta criação, acessar a seção do manual referente ao submenu Balanceadores_. 
 
 .. _Balanceadores: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#balanceadores
+
+Vale ressaltar que para criar o balanceador neste fluxo, é necessário a existência de uma rede e sub-rede.
 
 .. important:: Apenas os recursos de par de chave, máquina virtual, rede e grupo de segurança tem duas formas de adicioná-los ao serviço: criando novos na mesma tela, ou associando a algum já existente.
 
@@ -18111,10 +18169,78 @@ Para finalizar a aquisição, é necessário clicar na opção ``Contratar agora
 Oferta com IP Público
 """"""""""""""""""""""""""""""""""""""""
 
+Ao selecionar uma oferta com IP Público como recurso, a seguinte tela é exibida:
+
+.. image:: /figuras/fig_catalogo_serviço/015_contrato.png
+  :alt: contratar ip publico
+  :align: center
+----
+
+Nesta página os campos exibidos são:
+
+* Botão ``Contrato``
+* Descrição da oferta
+* Lista de recursos
+
+    * Nome do account provider
+
+    * Especificação do recurso
+* Valor
+
+    * Periodicidade da cobrança
+* Termos de serviços e suporte
+* Subcard de recursos
+
+    * Nome da conta responsável pela criação da oferta.
+
+Ao selecionar o botão ``Contrato`` em uma oferta contendo IP Público, o serviço é imediatamente adicionado ao carrinho.
+
 -----
 
 Oferta com Balanceador
 """"""""""""""""""""""""""""""""""""""""
+
+Contratando uma oferta com um balanceador, a seguinte tela é apresentada:
+
+
+ .. image:: /figuras/fig_catalogo_serviço/017_contrato.png
+  :alt: contratar balanceador
+  :align: center
+----
+
+Os itens apresentado na página são:
+
+* Botão ``Contrato``
+* Descrição da oferta
+* Lista de recursos
+
+    * Nome do account provider
+
+    * Nome da rede
+
+    * Nome da sub-rede
+
+    * Nome do balanceador
+
+* Valor
+
+    * Periodicidade da cobrança
+
+* Termos de serviços e suporte
+* Subcard de recursos
+
+    * Nome da conta responsável pela criação da oferta.
+
+Após selecionar o botão ``Contrato``, uma nova página é exibida:
+
+.. image:: /figuras/fig_catalogo_serviço/018_contrato.png
+  :alt: contratar balanceador
+  :align: center
+----
+
+Esta tela se diferencia da anterior por é possível editar os nomes dos recursos referentes à oferta com balanceador, neste caso são: rede, sub-rede e balanceador. 
+
+Para finalizar a adição da oferta ao carrinho basta clicar em ``Contratar agora``.
 
 ----
 
@@ -18157,7 +18283,7 @@ O plano de pagamento é exibido em uma lista do tipo *dropdown* onde as opções
 * Pós-pago
 * Pré-pago
 
-Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_ . 
+Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_. 
 
 .. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
 
