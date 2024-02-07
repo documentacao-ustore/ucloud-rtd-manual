@@ -17443,7 +17443,7 @@ Logo de início é possível visualizar quatro botões de ação:
 * **Voltar**: Caso o usuário deseje desistir da operação a qualquer momento.
 * **Exportar**: É possível exportar o serviço criado em arquivos JSON, XML ou YML. 
 * **Salvar novo serviço**: Este botão só é habilitado após o preenchimento dos campos obrigatórios.
-* **Enviar imagem**: Ação obrigatória, a foto deve ser enviada em arquivo PNG e ter no máximo 500 KB.
+* **Enviar imagem**: Ação obrigatória, a foto deve ser enviada em arquivo PNG e ter no máximo 350 KB.
 
 O primeiro passo a se fazer é escolher uma imagem para o serviço, ao clicar no botão, o usuário visualiza sua máquina pessoal que exibe os arquivos em formato PNG existentes, momento que pode selecionar o arquivo que deseja importar.
 
@@ -17718,7 +17718,7 @@ Segue abaixo os campos apresentados:
 Os campos pertencentes a este modal são iguais aos mencionados anteriormente no modal de criação Ansible.
 
 
-.. important:: O campo de “credenciais” dos modais de criação de Ansible e Terraform são retirados do menu Usuários, *card* Minhas Credenciais_. de repositórios remotos
+.. important:: O campo de “credenciais” dos modais de criação de Ansible e Terraform são retirados do menu Usuários, *card* Minhas Credenciais_ de repositórios remotos
 
 .. _Credenciais: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#card-minhas-credenciais-de-repositorios-remotos
 
@@ -18283,7 +18283,7 @@ O plano de pagamento é exibido em uma lista do tipo *dropdown* onde as opções
 * Pós-pago
 * Pré-pago
 
-Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_. 
+Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_ .
 
 .. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
 
