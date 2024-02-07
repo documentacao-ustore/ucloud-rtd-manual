@@ -18283,9 +18283,9 @@ O plano de pagamento é exibido em uma lista do tipo *dropdown* onde as opções
 * Pós-pago
 * Pré-pago
 
-Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no menu Usuários_ .
+Ao selecionar a segunda opção, o usuário precisa ter pré-cadastrado as informações de pagamento, endereço e telefone no submenu Usuário_, pertencente ao menu Adminsitração.
 
-.. _Usuários: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
+.. _Usuário: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#usuarios
 
 Abaixo dessas informações existe uma lista *dropdown* para selecionar a modalidade de pagamento desejada
 
