@@ -2351,7 +2351,7 @@ Un *RoleBinding* puede hacer referencia a cualquier papel en el mismo *namespace
     En este caso es mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
 
 * **Nombre**: Esta columna muestra el nombre del *rolebinding* añadido por el usuario. Al pulsar con el ratón sobre el nombre del *configmap* la plataforma Mangue.io muestra una pantalla con el contenido del archivo(s) *configmap*. Por norma se presenta sólo la visualización de una línea del contenido del archivo, si el contenido es más grande que el campo, el usuario puede posicionar el ratón en el rincón inferior derecho, hasta que el trazo del ratón cambie a una doble flecha diagonal |icone_seta_diagonal|, que permite al usuario redimensionar el tamaño del campo de contenido listado, para la mejor visualización de este campo.
-* **Labels**: *Labels* se utilizan para especificar la identificación de los atributos del objeto que son significativos y relevantes y están presentes en la sintaxis *YAML* del *role*.
+* **Labels**: *Labels* se utilizan para especificar la identificación de los atributos del objeto que son significativos, relevantes y están presentes en la sintaxis *YAML* del *role*.
 * **Duración**: Esta columna muestra el tiempo transcurrido en días desde el momento de la aplicación inicial de este *rolebinding*.
 * **Acciones**: Esta columna presenta el botón ``Acción``  |icone_acao| que al ser pulsado, ofrece dos opciones:
 .. image:: /figuras/fig_mangue/122_mangue_acoes_bindings.png
@@ -2360,7 +2360,7 @@ Un *RoleBinding* puede hacer referencia a cualquier papel en el mismo *namespace
     :align: center
 =====
 
-      * **Eliminar RoleBinding**: Cuando el usuario selecciona esta acción elimina el *rolebinding* del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración". Recuerda que esta acción es irreversible y definitiva. La plataforma Mangue.io solicita la confirmación del usuario para eliminar (borrar) el *rolebinding* deseado de la base de datos de la plataforma: 
+      * **Eliminar RoleBinding**: Cuando el usuario selecciona esta acción elimina el *rolebinding* del *cluster* que fue seleccionado en la pestaña de engranajes |icone_engrenagem| "Selección de configuración". Recuerda que esta acción es irreversible y definitiva. La plataforma Mangue.io solicita la confirmación del usuario para eliminar (borrar) el *rolebinding* deseado de la base de datos de la plataforma del mangue: 
 
 .. image:: /figuras/fig_mangue/123_mangue_aviso_bindings.png
     :alt: Aviso bindings
@@ -2407,7 +2407,7 @@ Cuando un usuario accede al *cluster*, es autentificado por el *APIServer* como 
 
     Cuando el usuario elige una fila, o varias, la plataforma Mangue.io presenta el (los) icono(s) encima de esta columna, que representan acciones al usuario para ser ejecutadas de una sola vez para todas las filas seleccionadas. 
 
-    En este caso es mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
+    En este caso es presentado el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
 
 * **Nombre**: Esta columna presenta el nombre del *serviceaccount* añadido por el usuario. 
 * **Namespace**: Informa el *namespace* donde el *serviceaccount*  fue creado.
@@ -2529,7 +2529,7 @@ En esta pantalla la plataforma Mangue.io presenta la lista de todos los *Cluster
     En este caso es mostra el icono de "Papelera" |icone_lixo_vermelho| que permite eliminar todos los elementos indicados por el usuario con un solo comando;
 
 * **Nombre**: Esta columna presenta el nombre del *Cluster Role Binding* añadido por el usuario.
-* **Labels**: *Labels* son utilizados para especificar la identificación de los atributos de los objetos que son significativos y relevantes y que están presentes en la sintaxis *YAML* del *role*.
+* **Labels**: *Labels* son utilizados para especificar la identificación de los atributos de los objetos que son significativos, relevantes y que están presentes en la sintaxis *YAML* del *role*.
 * **Duración**:  Esta columna presenta el tiempo transcurrido en días desde el momento de la aplicación inicial de este *Cluster Role Binding*.
 * **Acciones**: Esta columna presenta el botón ``Acción`` |icone_acao| al ser pulsado, muestra una única opción: 
 
