@@ -17394,7 +17394,7 @@ A tela inicial é apresentada com o título de *Marketplace*.
   :align: center
 ----
 
-Nesta página é possível visualizar a barra de pesquisa no topo para encontrar algum serviço de forma filtrada, o botão ``Meus pedidos anteriores``, serviços em destaque, área para criação e envio de novo serviço, espaço dedicado para todos os serviços e um botão do tipo flutuante que informa a situação do carrinho.
+Nesta página é possível visualizar a barra de pesquisa localizada no topo da tela, que possibilita ao usuário filtrar os serviços disponibilizados, também se apresenta o botão ``Meus pedidos anteriores``. Ao longo da página encontram-se os serviços em destaque, área para criação e envio de novo serviço, espaço dedicado para todos os serviços e um botão do tipo flutuante que informa a situação do carrinho.
 
 ----
 
@@ -17593,7 +17593,7 @@ Ao confirmar a criação da rede, o fluxo prossegue para a sub-rede.
 
         * Botão ``Adicionar novo recurso +``
 
-Ao confirmar a adição do recurso ou ao finalizar o processo de criação da rede e sub-rede, o *card* referente aos recursos adicionados é preenchida com os campos de rede e sub-rede, para que seus preços possam ser determinados.
+Ao confirmar a adição do recurso ou ao finalizar o processo de criação da rede e sub-rede, o *card* referente aos recursos adicionados é preenchido com os campos de rede e sub-rede, para que seus preços possam ser determinados.
 
 .. image:: /figuras/fig_catalogo_serviço/016_detalhes_redesubrede.png
   :alt: listar rede e sub-rede
@@ -17668,7 +17668,7 @@ Segue abaixo os campos apresentados:
   :align: center
 ----
 
-    * Repositório: Consta o dono e nome do repositório. Enquanto digita no campo, a pesquisa é feita de forma automática. Logo abaixo deste uma lista de tipo *dropdown* é exibida para que o usuário selecione a opção desejada.
+    * Repositório: Consta o dono e nome do repositório. Enquanto digita no campo, a pesquisa é feita de forma automática. Logo abaixo deste, uma lista de tipo *dropdown* é exibida para que o usuário selecione a opção desejada.
 
     * Selecione um *account provider*
 
@@ -17771,7 +17771,7 @@ Este terceiro recorte tem como destaque o *card* de venda.
 
 Ao preencher os dados mencionados anteriormente, este *card*, disposto à direita da tela, replica determinadas informações de forma automática. 
 
-É através deste que o usuário é apresentado ao serviço
+É através deste que o usuário é apresentado ao serviço.
 
 Acima do *card* é possível visualizar os botões de ``Exportar`` e ``Salvar novo serviço``.
 
@@ -18020,7 +18020,7 @@ Ao visualizar um serviço que tem Par de Chaves como recurso, a seguinte tela é
   :align: center
 ----
 
-É possível observar seguintes campos:
+É possível observar os seguintes campos:
 
 * Botão ``Contrato``
 * Descrição
@@ -18238,7 +18238,7 @@ Após selecionar o botão ``Contrato``, uma nova página é exibida:
   :align: center
 ----
 
-Esta tela se diferencia da anterior por é possível editar os nomes dos recursos referentes à oferta com balanceador, neste caso são: rede, sub-rede e balanceador. 
+Esta tela se diferencia da anterior pois é possível editar os nomes dos recursos referentes à oferta com balanceador, neste caso são: rede, sub-rede e balanceador. 
 
 Para finalizar a adição da oferta ao carrinho basta clicar em ``Contratar agora``.
 
