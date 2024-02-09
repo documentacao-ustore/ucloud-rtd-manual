@@ -343,25 +343,34 @@ As previously mentioned in this document, the uCloud platform is developed for t
 
 In this context, the uCloud portal is positioned as a Cloud Service Broker - CSB platform that allows the management of multiple cloud service providers, as private as the public cloud providers. Consequently, the uCloud platform can be implanted in two different ways:
 
-\ A. \ Dedicated installation (on-premises)
+* Dedicated installation (on-premises)
 
-For the dedicated installation scenario (on-premises) the Account functionality may not be applied, probably this installation only belongs to a single company, and this company will not share the uCloud Platform between other organizations. Still in this scenario, we will assume that the installation of the uCloud Platform will only be used in their own cloud(s) (public and/or private).
+For the dedicated installation scenario (on-premises) the **Account functionality** may not be applied, once the dedicated installation belongs to a single company, which does not share the uCloud platform between other organizations. Still in this scenario, it can be assumed that the uCloud platform installation will only be used in their own cloud(s), whether it is public or private.
 
-\ B. \ Installation shared as a service (SaaS - Software as a service)
+* Installation shared as a service (SaaS - Software as a service)
 
-The Account functionality was designed for the shared installation (SaaS) scenario, where the company (we will call it **organization**) aims to provide a Cloud Service Broker service with the uCloud Platform between its various operations (regional or international) and for its several final-customers.
+The **Account** functionality was designed for the shared installation (SaaS) scenario, where the company (named *organization*) aims to provide the “Cloud Service Broker service” with the uCloud platform, among its various operations (regional or international) for their final-customers (multiples).
 
-The scenario uCloud Platform SaaS described above is ideal to the connectivity/communication service provider (**organization**) which can share the uCloud Platform among its regional operations and, also, between its final customers that wish the benefits of an operation, financial governance and billing.
+The scenario describe above about the uCloud platform SaaS is ideal to the connectivity/communication service provider (*organization*) which can share the uCloud platform among its regional operations and, also, between its final customers that wish the benefits of operation, financial governance and billing.
 
-This functionality helps the management and the organization environment control, in a centralized manner, by its the business rule makes it possible to create the “Accounts” and allocate the Contracts, the Groups and its Users (elements belonging to the Switch Roles” universe). 
+It makes it possible to organize and share the resources between the created "Accounts" besides applying service control policies to the **users, groups and companies**, optimizing the governance.
 
-It makes it possible to organize and share the resources between the created “Accounts”, besides applying the service control policies to **contracts**, **groups** and **users**, optimizing the governance upgrade. This new model inserts the layer “Account” in the **Administration** menu which represents a new process to promote the alignment around the “Accounts” functionality and, that way, to conduct the organizations to obtain a greater control.
+This new model inserts the layer "Account" in the **Administration** menu. It represents a new process to promote the alignment around this functionality and, therefore, to conduct the organizations to obtain a greater control of the hybrid environment, in a centralized manner, by its the business rule makes it possible to create the **Accounts**, and allocate the Companies, the Groups and their Users. Elements belonging to the Switch Roles universe. 
 
-This functionality “**Accounts**” has the objective to provide to the organization the possibility of segmenting customers by size (Virtual Machines), by revenue volume (financial costs), makes it possible to understand the development by “Account” and filter its history by line of business.
+The **“Account”** functionality has as objective to deliver to the organization the viability of segmenting clients per size (virtual machine), per receipt volume (billing costs), assure the performance understanding per “Account” and filter its history by line of business.
 
-To exemplify a way to charge for the “service offering” of Centralized Cloud Management by the uCloud Platform, we will use the example of “consumption levels” of computing infrastructure based on the number of Virtual Machines Managed by the uCloud Platform, called "Tier". The Tiers represent the existing billing model in the “Accounts” functionality, the business rule created establishes the accounting of the resources obtained and generated by a given account.
+To exemplify a way to charge for the *“service offering”* of Centralized Cloud Management by the uCloud platform, the example of “consumption levels” of computing infrastructure based on the number of Virtual Machines Managed by the uCloud platform, or by the monthly value to be invested, what happens first.
 
-In the portal, the Tiers are categorized in levels from A to J (1 to 10) and calculated based on the rules established using two parameters: - certain numbers of Virtual Machines generates a determined maximum cost (number of machines versus cost/value). In case of a created account, upon reaching one of the parameters, the application immediately scales to the next level. The Tiers level follows below: 
+The Tiers represent the existing billing model in the **“Accounts”** functionality. The business rule created for this model establishes the accounting of the resources obtained and generated by a given account.
+
+In the portal, the Tiers are categorized in levels from A to J (1 to 10) and calculated based on the rules established using two parameters: 
+
+* Number of virtual machines **X** Determined monthly value
+* Number of machines *versus* Cost/value
+
+For example:
+
+* In case of a created account, upon reaching one of the parameters, it immediately scales to the next level. The Tiers level description follows below: 
 
 +-----------------------+--------+--------+--------+--------+--------+---------+---------+---------+---------+---------+
 | **Tier**              |  **A** |  **B** |  **C** |  **D** | **E**  |  **F**  |  **G**  |  **H**  |  **I**  |  **J**  |
@@ -377,52 +386,78 @@ In the portal, the Tiers are categorized in levels from A to J (1 to 10) and cal
 ----
 
 **Example Use Cases:** 
+"""""""""""""""""""""
 
 * Galaxy Company Contract (qty. VMs 20):
 
-Just for the purpose of exemplifying a scenario, we will describe the offer of services to use the uCloud Platform in the SaaS (Software as Service) modality to the Galaxy company, and in its “Account” there are 20 Virtual Machines (active and managed by uCloud Platform), it fits in the Tier level “A” - the monthly amount to be invested by the Galaxy Company will be R$1,500 reais or dollars (depends on which country the company will be established). An important observation, in case the account uses only 18 machines, it will still be classified in Tier “A”.
+   In the Galaxy company “Account” there are 20 virtual machines (active and managed by the uCloud platform), therefore it fits in the Tier level “A” - that represents the monthly amount up to 1,500. If it goes past it (and it can depending on the virtual machines and other resources consumptions), the account fits the next Tier.
+
+
+.. note:: In case the account only uses 18 machines, it keeps classified in the “A” Tier charging model - that in the example represents the lowest number or equal to 20 virtual machines and the monthly amount up to 1.500.* (applied according to the company’s established country).
 
 ----
 
 Account Types
 ~~~~~~~~~~~~
 
-There are two classes of “Accounts”, they are categorized into two types, the accounts in the **Integrator** type and the **Producer** type, detailed below:
+There are two classification of **“Accounts”**, the accounts in the **Integrator** type and the **Producer** type, detailed next:
 
-* \ A. \ **Integrator Account** This account is responsible for creating the profiles of  the integrator and producer accounts, when creating these profiles, it feeds the tiers and the packages, in addition to establishing, the producer account its usage rule. 
+* Integrator Account:
 
-   To exemplify:
+      This account is responsible for creating the profiles of  the integrator and producer accounts, when creating these profiles, it feeds the tiers and the packages, in addition to establishing, the producer account its usage rule. 
 
-  It works as a kind of cluster, agglomerating and categorizing other corporations.
-
-      For example: 
-
-    In case of a multinational corporation using an Integrator account, it can be considered an “Integrator Account” for the countries that comprise it: Mexico, Brazil, Chile and Colombia.
-
-    The corporation is responsible for creating other accounts and escalating the other users` permissions. Its particularity is the list of all the producer accounts, the list of all associated contracts and can apply business rules.
-
-* \ B. \ **Producer Account** This producer account belongs to the organization which consumes the resource, represents a minor clustering unit and can operate the entire portal.
+       It works as a kind of cluster, aggregating and categorizing other corporations.
 
       For example: 
 
-    Resuming the example above, this multinational corporation creates the “producer accounts” for the organizations that belong to it within a certain country listed above, in Brazil, the organization has companies A and B which administers the contracts a1 and b1.
+    An **Integrator** account adds the created accounts., it can be considered an “Integrator Account” for the countries that comprise it: Mexico, Brazil, Chile and Colombia.
 
-Below is an illustration that represents the complete concept of the scope of the "*Account*" functionality implemented in the uCloud Platform. The names and denominations used are merely illustrative.
+    The account is responsible for creating other accounts and escalating the other users`. Its has as particularity the list of all the Producer accounts, the companies are associated to the accounts and each one of them receives the same business rules (tiers and packages).
+
+* Producer Account:
+
+       This producer account belongs to the organization which consumes the resource, represents a minor clustering unit and can operate the entire portal.
+
+      For example: 
+
+    Resuming the example above, this multinational corporation creates the “producer accounts” for the organizations that belong to it within a certain country listed below.
+
+    In the case of this Producer Account A Country in Brazil:, the organization broadens the Company of the “A1 Brazil” Client.
+
+    In the example, the company uses the account provider/cloud provider AWS Brasil. 
+
+    The account provider has two (2) VDCs - DevOps Company A1 and NewApps Company A1.
+
+    The groups and users are contained in the company (see figure below).
+
+The following illustration is a representation of the **Account** functionality concept implemented in the uCloud platform. To describe this figure, it is notable the Integrator Account Country Brazil at the top.
+
+The integrator account is [Country Brasil] which englobes the three (3) **Producer** accounts that are the Brazil Producer accounts: A, B and C.
+
+In these producer accounts, their clients’ companies are allocated. Each company of the client has its virtual datacenter, Groups and Users.
 
   .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_arquitetura_conceitual003-us-en.png
    :align: center
    
 ----
 
-The Producer Accounts can have one or more administrators (in this level the profile of this user is one of System Administrator - ex.: root), the contracts stop being created when the corporate resource ends, the visualization profiles and permission obey the business rule applied by the integrator account. 
+.. attention:: All the terms, names, denomination shown in this image are exclusively illustrative, as example.
 
-The strategy of using the “Accounts”  functionality provides a better perception of value at the level of hierarchy that wants to organize the data within the context of organization, by facilitating its transit at the operational, managerial and executive levels.
+-----
 
-With the creation of this functionality, the account administrator can manage the visualization and the permission of each user within each **group**, contained in a given **contract**. In this way, the access is denied by default, being granted only when the permissions specify “allow”. 
+The accounts of the **Producer** type can have one or more administrators (in this level the profile of this user is one of System Administrator). The companies stop being created when the corporate resource ends, the viewing and permission profiles obey the business rule applied by the **Integrator Account**. 
 
-Additionally, the functionality “Accounts” makes it possible to use the control policies that establish the protection barrier of permission and visualization for users, depending on the characteristics of the type of user, group and contract to which it belongs. 
+The strategy of using the **Accounts**  functionality provides a better perception of value at the level of hierarchy, according to what wants to organize the data, within the context, by facilitating its transit at the operational, managerial and executive levels.
 
-By establishing these defaults of permission, access and resources visualization, it organizes and qualifies the privilege each user will have within the environment the public cloud providers in each contract/group/user belongs, creating that way, different and necessary permissions to create thorough controls in each account.
+With the creation of this functionality, the administrator can manage the viewing and the permission of each *user* in each *group*, contained in a given *company*. Therefore, the access is denied **by default**, being granted only when the permissions specify “allow”. 
+
+.. important:: The activities listed below are restricted only to the users credentials with the permissions of “platform Administrator” ‘role’ function. In case your user does not have this level of permission, please get in touch with your portal provider. By contacting them the authorized team can execute the needed customizations for your environment.
+
+-----
+
+Additionally, the **Accounts** functionality makes it possible to use the control policies that establish the protection barrier of permission and visualization to the users, depending on the characteristics of the type of user, group and company to which it belongs. 
+
+By establishing these default permissions, access and resources visualization, it organizes and qualifies the privilege each user will have within the environment it belongs, creating then permission groups, different and necessary to create thorough controls in each account.
 
 ----
 
