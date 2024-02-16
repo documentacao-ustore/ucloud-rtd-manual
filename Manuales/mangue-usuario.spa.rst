@@ -2584,9 +2584,9 @@ A continuación describimos las informaciones presentes en la tabla del *Pod Sec
 * **Nombre**: Nombre del *Pod Security Policy* especificado por el usuario durante la creación;
 * **Privilegiado**: Permite que las aplicaciones creadas utilicen los recursos y capacidades *Kernel* de la máquina *Host*;
 * **Permite escalada de privilegios**: Permite que la aplicación creada cambie su ID de usuario, permitiendo que los procesos hijos del *container* obtengan más privilegios que el proceso padre;
-* **ID de usuario**: Rango de ID de usuario que las aplicaciones creadas pueden utilizar en la ejecución;
-* **ID de grupo**: Rango de ID de grupo que las aplicaciones creadas utilizan en la ejecución;
-* **ID de archivo del sistema**: Rango de ID de archivo del sistema que las aplicaciones creadas utilizan en la ejecución;
+* **ID usuario**: Rango de ID de usuario que las aplicaciones creadas pueden utilizar en la ejecución;
+* **ID grupo**: Rango de ID de grupo que las aplicaciones creadas utilizan en la ejecución;
+* **ID archivo del sistema**: Rango de ID de archivo del sistema que las aplicaciones creadas utilizan en la ejecución;
 * **Acciones**: Esta columna presenta el botón de ``Acción`` |icone_acao| al ser pulsado, muestra dos opciones: 
 
 .. image:: /figuras/fig_mangue/134_mangue_acoes_security.png
@@ -2595,7 +2595,7 @@ A continuación describimos las informaciones presentes en la tabla del *Pod Sec
     :align: center
 =====
 
-      * **Crear Cluster Role**: Al seleccionar la opción de crear *cluster role*, se presenta la pantalla de abajo, a través de la cual el usuario puede crear un *Cluster Role* para *Pod Security Policy*.
+      * **Crear Cluster Role**: Al seleccionar la opción de crear *Cluster role*, se presenta la pantalla de abajo, a través de la cual el usuario puede crear un *Cluster Role* para *Pod Security Policy*;
 
       * **Eliminar Pod Security Policy**: Seleccionando la opción de eliminar, se elimina el *Pod Security Policy* del *Cluster*.
 
@@ -2621,7 +2621,7 @@ Los campos necesarios para la creación de *Pod Security Policy* son los siguien
 
 * **Permitir escalada de privilegios**: Permite que la aplicación creada cambie el ID de usuario, permitiendo que los procesos hijos del *container* obtengan más privilegios que el proceso padre.
 
-* **Limitar usuario**: En caso de ser seleccionado, se muestra una lista (*drop-down list*), con las opciones de: 
+* **Limitar usuario**: En caso de ser seleccionado, se muestra una lista (*dropdown list*), con las opciones de: 
 
       * **Prohibir Root**: Esta opción permite la creación de aplicación que utilice cualquier ID de usuario, con la excepción del ID de usuario *root*.
 
@@ -2636,11 +2636,11 @@ En la sección de *Cluster Role* y *Role Binding* de *Pod Security Policy* se mu
 
 A continuación se describe la información presente en la tabla de *Pod Security Policy*.
 
-* **#**: Número secuencial del *Cluster Role* registrado en la plataforma Mangue.io.
-* **Cluster Role**: Nombre del *Cluster Role* especificado por el usuario durante la creación.
-* **Pod Security Policy**: Nombre del *Pod Security Policy* asociado al *Cluster Role*.
-* **Permite escalada de privilegios**: Permite que la aplicación creada cambie el ID de usuario, permitiendo que los procesos hijos del *container* obtengan más privilegios que el proceso padre.
-* **Role Binding**: Nombre del *Role Binding* asociado al *Cluster Role*.
+* **#**: Número secuencial del *Cluster Role* registrado en la plataforma Mangue.io;
+* **Cluster Role**: Nombre del *Cluster Role* especificado por el usuario durante la creación;
+* **Pod Security Policy**: Nombre del *Pod Security Policy* asociado al *Cluster Role*;
+* **Permite escalada de privilegios**: Permite que la aplicación creada cambie el ID de usuario, permitiendo que los procesos hijos del *container* obtengan más privilegios que el proceso padre;
+* **Role Binding**: Nombre del *Role Binding* asociado al *Cluster Role*;
 * **Acciones**: Esta columna presenta el botón de ``Acción`` |icone_acao| al ser pulsado, presenta dos opciones: 
 
 .. image:: /figuras/fig_mangue/137_mangue_acoes_role.png
@@ -2763,7 +2763,8 @@ Para iniciar el proceso de Integrar un *Cluster* el usuario debe hacer clic con 
 
 * **Cluster Admin Token**: En este campo el usuario debe informar la cadena de caracteres (*string*) que fue generada por el proveedor público del *cluster* con el objetivo de verificar y autenticar la identidad (*token*) de la configuración con el *cluster*. Es importante consultar el proceso de generación de identificación (*token*) de cada proveedor, o de cada ambiente de gestión de *container*, específicamente.
 
-* **Botón** ``Integrar``: Al terminar de rellenar los campos de arriba, el usuario debe hacer clic con el ratón en el botón de ``Integrar`` para que la plataforma Mangue.io incluya este *cluster* en la lista presentada en esta pantalla.
+* **Botón** ``Integrar``: Al terminar de rellenar los campos de arriba, el usuario debe hacer clic con el ratón en el botón de "Integrar" para que la plataforma Mangue.io incluya este *cluster* en la lista presentada en esta pantalla.
+      
       * **Acción de actualización**: Si la interfaz de Mangue.io no muestra el *cluster* recientemente configurado, el usuario debe hacer clic en el icono  |icone_update| para que la aplicación muestre la lista actualizada de esta tabla de *clusters*.
 
 ====
@@ -2802,12 +2803,12 @@ A través del botón ``Crear Cluster`` es posible crear un *cluster on premise*,
 * **IP de la máquina**: Dirección IP de la máquina que interesa incluir en el momento de crear el *cluster*.
 * **Tipo da la máquina**: Determina el tipo de máquina, puede ser *worker* o *master*:
 
-      * **Worker**: Son máquinas responsables por recibir las tareas asignadas por por el *node master*, ejecutarlas y reportar el *status* de vuelta al *node master*, por lo tanto, son las máquinas que ejecutan los *containers* *docker* que contienen las aplicaciones.
+      * **Worker**: Son máquinas responsables por recibir las tareas asignadas por el *node master*, ejecutarlas y reportar el *status* de vuelta al *node master*, por lo tanto, son las máquinas que ejecutan los *containers* *docker* que contienen las aplicaciones.
 
       * **Master**: El *node master* es considerado el cerebro del *cluster* *kubernetes*, ya que es el responsable de gestionar y controlar los *nodes workers*, tomando decisiones sobre dónde y cómo ejecutar las aplicaciones.
 
 * **Usuario**: Usuario necesario para conectar a la máquina indicada en el campo IP.
-* **Contraseña**: Contraseña necesaria para acceder con el usuario e ip informados en los campos anteriores.
+* **Contraseña**: Contraseña necesaria para acceder con el usuario e IP informados en los campos anteriores.
 * **ETCD**: Este es un campo *checkbox* que si habilitado, la máquina también funciona como ETCD. Si ninguna de las máquinas indicadas tiene ETCD habilitado, entonces por norma la máquina de node master también funciona como ETCD.
 
 Es necesario disponer de al menos dos máquinas para crear un *cluster* con éxito. Las máquinas necesitan acceso a Internet. También se recomienda un mínimo de 2 CPU por nodo, 4 GB de memoria por nodo y 80 GB de almacenamiento por nodo.
@@ -2840,7 +2841,7 @@ En las pantallas siguientes aclaramos las características del formulario espec�
 A. Google Kubernetes Engine - GKE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para realizar una integración (a través de un formulario) con un gestor de *container* existente en el proveedor Google, el usuario debe hacer clic con el cursor del ratón en la zona gris debajo del logo de **Google Kubernetes Engine** y la plataforma Mangue.io presenta la pantalla de abajo con el formulario GKE:
+Para realizar una integración (a través de un formulario) con un gestor de *container* existente en el proveedor Google, el usuario debe hacer clic con el cursor del ratón en la zona gris debajo del logo de *Google Kubernetes Engine* y la plataforma Mangue.io presenta la pantalla de abajo con el formulario GKE:
 
 .. image:: /figuras/fig_mangue/148_mangue_google_info.png
     :alt: Google info
@@ -2851,9 +2852,9 @@ Para realizar una integración (a través de un formulario) con un gestor de *co
 * **Contrato**: El usuario selecciona el contrato para que la plataforma cargue las credenciales de este contrato.
 * **Nombre del Cluster**: El usuario debe rellenar con el nombre de identificación del *cluster* para la plataforma Mangue.io.
 * **Credenciales GKE**: El usuario debe seleccionar una de las credenciales de acceso registradas en la plataforma Mangue.io para confirmar su identidad con el ambiente contratado con *Google Cloud Platform*. Es importante tener en cuenta que se debe consultar la documentación específica de cada proveedor sobre cómo generar/crear estas credenciales con permiso del ambiente de gestión de *containers* del proveedor.
-* **Número de nodes (por zona)**: En este campo el usuario debe informar un número entero, que definirá la cantidad de nodos (*nodes*) deseados para este *cluster*.
-* **Región**: En este campo el usuario debe seleccionar de una lista (*dropdown*) las regiones disponibles en el proveedor específico. En este caso, sólo aparecerán las regiones globales específicas de *Google Cloud Platform*.
-* **Tipo de Máquina**: En este campo el usuario debe seleccionar de una lista (*drop-down*) el tipo de configuración de máquina (CPU, Memoria, Disco o *Template*) disponibles en el proveedor. En este caso, sólo aparecerán los *templates* específicos de *Google Cloud Platform*.
+* **Número de nodes (por zona)**: En este campo el usuario debe informar un número entero, que define la cantidad de nodos (*nodes*) deseados para este *cluster*.
+* **Región**: En este campo el usuario debe seleccionar de una lista (*dropdown*) las regiones disponibles en el proveedor específico. En este caso, sólo aparecen las regiones globales específicas de *Google Cloud Platform*.
+* **Tipo de Máquina**: En este campo el usuario debe seleccionar de una lista (*drop-down*) el tipo de configuración de máquina (CPU, Memoria, Disco o *Template*) disponibles en el proveedor. En este caso, sólo aparecen los *templates* específicos de *Google Cloud Platform*.
 * **Versión Principal**: En este campo el usuario selecciona la versión de *Kubernetes* disponible en el proveedor de la nube pública.
 * **Crear Cluster**: Basta el usuario hacer clic en el botón ``Crear Cluster``, cuando todas las configuraciones referidas a todos los nodos (*nodes*) hayan finalizado. Para que la plataforma Mangue.io pueda añadir un nuevo *cluster* a la infraestructura interna hay que inicializar este nuevo *cluster* al ambiente computacional que es ejecutado como otro ambiente de gestión de *containers* (*cluster*).
 
