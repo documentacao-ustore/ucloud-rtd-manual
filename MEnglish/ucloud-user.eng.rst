@@ -246,41 +246,67 @@ Access to the uCloud platform
 Dashboard
 ===========
 
+----
+
 Section: Company billing quota
 -------------------------------
+
+----
 
 Section: Shortcuts
 ------------------
 
+----
+
 **Virtual Machines**
 ~~~~~~~~~~~~~~~~~
+
+----
 
 **Virtual Datacenters**
 ~~~~~~~~~~~~~~~
 
+----
+
 **Billing**
 ~~~~~~~~
+
+----
 
 **Templates**
 ~~~~~~~~
 
+----
+
 Section: Recent tasks
 -----------------------
+
+----
 
 Section: Quota information about services
 ------------------------------------------
 
+----
+
 CPU usage
 ~~~~~~~~~
+
+----
 
 Memory usage
 ~~~~~~~~~~~~
 
+----
+
 Disk usage
 ~~~~~~~~~~
 
+----
+
 Public IPs quota
 ~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Virtual Machines quota
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -290,20 +316,32 @@ Virtual Machines quota
 Administration Menu 
 ==================
 
+----
+
 Switch Roles
 -------------
+
+----
 
 Switch Roles - Mock Scenario
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Mock Scenario (AWS):
 ~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Mock Scenario (AZURE and AWS):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Switch Roles - Using
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 *Account*
 ---------
@@ -464,8 +502,12 @@ By establishing these default permissions, access and resources visualization, i
 How to Access
 ~~~~~~~~~~~
 
+----
+
 Integrator and Producer accounts 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Account
 ----------
@@ -473,134 +515,222 @@ Account
 Main and Sub-Account
 ~~~~~~~~~~~~~~~~~
 
+----
+
 Creating Account 
 ~~~~~~~~~~~~~~~~~
+
+----
 
 Listing the Created Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Detailing the Account
 ~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Creating Sub-Account
 ~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 How to view the Accounts List:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Users
 -------
 
+----
+
 Viewing a User
 ~~~~~~~~~~~~~~
+
+----
 
 Creating New User
 ~~~~~~~~~~~~~~~~~
 
+----
+
 Groups
 ~~~~~~~
+
+----
 
 Viewing Group
 ~~~~~~~~~~~~~~
 
+----
+
 Creating New Group
 ~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Company
 --------
 
+----
+
 Financial Governance via Company
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Computing Resources Financial Isolation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Computing Resources Logical Isolation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Relate Budget to the Company 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Budget
 ~~~~~~~~
+
+----
 
 Accessing Budget
 ~~~~~~~~~~~~~~~~~
 
+----
+
 Creating Budget and Sub Budget
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Quarterly Period
 """""""""""""""
 
+----
+
 Semiannual Period
 """""""""""""""
+
+----
 
 Annual Period
 """""""""""""""
 
+----
+
 Monthly Period
 """""""""""""""
+
+----
 
 Editing Budget 
 ~~~~~~~~~~~~~~~
 
+----
+
 Viewing Budget Cost Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Viewing Company
 ~~~~~~~~~~~~~~~
 
+----
+
 Section: General
 """"""""""""""""
+
+----
 
 Section: Billing Rules
 """"""""""""""""""""""
 
+----
+
 Section: Price Categories
 """"""""""""""""""""""""""
+
+----
 
 Section: Alerts Policies
 """"""""""""""""""""""""""
 
+----
+
 Section: Resources Price - Company
 """""""""""""""""""""""""""""""""""
+
+----
 
 Section: Company Quota
 """"""""""""""""""""""""
 
+----
+
 Section: Primary Contact
 """"""""""""""""""""""""""
+
+----
 
 Section: Administrators
 """"""""""""""""""""""""""
 
+----
+
 Section: Business Data
 """"""""""""""""""""""""""
+
+----
 
 Section: Conceded Virtual Datacenters
 """"""""""""""""""""""""""""""""""""""""
 
+----
+
 Section: Users
 """""""""""""""
+
+----
 
 Section: Groups
 """"""""""""""""
 
+----
+
 Section: Billing Data
 """""""""""""""""""""
+
+----
 
 Section: Permission Profiles
 """"""""""""""""""""""""""""
 
+----
+
 Section: Products
 """""""""""""""""""
+
+----
 
 Section: Conceded Permissions
 """""""""""""""""""""""""""""""""
 
+----
+
 Section: Container Billing Profile
 """"""""""""""""""""""""""""""""""
+
+----
 
 Provisioning Company
 ~~~~~~~~~~~~~~~~~~~~
@@ -610,161 +740,267 @@ Provisioning Company
 Configuration Menu
 ===================
 
+----
+
 General
 --------
+
+----
 
 Section: General
 ~~~~~~~~~~~~~~~~
 
+----
+
 Card: Synchronize Active Directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Apply profiles
 """"""""""""""
 
+----
+
 Section: Resources Price
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Create default system cost
 """"""""""""""""""""""""""
 
+----
+
 Section: LDAP Server Users Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Agreement Term upload
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Console
 --------
+
+----
 
 Card: Console controllers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Create console controller
 """""""""""""""""""""""""
+
+----
 
 Network
 ---------
 
+----
+
 Section: Network Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Card: SDN Controllers
 ~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Creating a SDN controller
 """""""""""""""""""""""""
+
+----
 
 Public Subnets
 ---------------
 
+----
+
 Card: Public subnets
 ~~~~~~~~~~~~~~~~~~~~
-                                 
+
+----
+
 Update
 """""""
+
+----
 
 Add subnet
 """""""""""
 
+----
+
 Subscriptions
 -------------
+
+----
 
 Card: Subscriptions
 ~~~~~~~~~~~~~~~~~~
 
+----
+
 Creating subscription
 """""""""""""""""""""""
+
+----
 
 Flavor Billing Profile
 -----------------------
 
+----
+
 Creating Flavor Billing Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Permission Profiles
 --------------------
 
+----
+
 View and Edit Permission Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Creating a Permission Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Viewing Profiles
 ------------------
+
+----
 
 Creating Viewing Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Editing Viewing Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Billing Admin
 --------------
 
+----
+
 Billing Administration
 ~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Launch Accountant
 """"""""""""""""""
 
+----
+
 Manage caches
 """"""""""""""
+
+----
 
 Billing Admin LOG information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Billing Admin LOG
 ~~~~~~~~~~~~~~~~~~
+
+----
 
 USN Tagging Resources
 ----------------------
 
+----
+
 Creation of a USN Tagging Resource
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Accounts management (new)
 ---------------------------
 
+----
+
 Card: Tiers List
 ~~~~~~~~~~~~~~~
+
+----
 
 Create Tier
 """""""""""""""
 
+----
+
 Section: Bundle list
 ~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Create Bundle
 """""""""""""""
 
+----
+
 Card: Accounts list
 ~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Edit Bundle
 """""""""""
 
+----
+
 Add and remove Tiers
 """"""""""""""""""""
+
+----
 
 Environment settings (new)
 ---------------------------
 
+----
+
 Card: Environment settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Add setting
 """"""""""""
+
+----
 
 Section: Hidden elements
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Add setting
 """"""""""""
 
+----
+
 Card: Exhibition elements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Add setting
 """""""""""""
@@ -774,74 +1010,122 @@ Add setting
 Security Menu
 ==============
 
+----
+
 Tickets (new)
 -------------
-			
+
+----
+
 Processes tickets (new)
 ~~~~~~~~~~~~~~~~~~~
+
+----
 
 Button: Open ticket
 """""""""""""""""
 
+----
+
 Button: Calendar
 """"""""""""""
 
+----
+
 Button: Search
 """""""""""""
+
+----
 
 Card: Opened tickets - urgent
 """""""""""""""""""""""""""
 
+----
+
 Card: Opened tickets
 """"""""""""""""""""
+
+----
 
 Card: Closed tickets
 """""""""""""""""""""
 
+----
+
 Tickets report (new)
 ~~~~~~~~~~~~~~~~~
+
+----
 
 Support dashboard
 """""""""""""""""""""
 
+----
+
 Button: Calendar
 """"""""""""""
+
+----
 
 Button: Search
 """"""""""""""
 
+----
+
 Assessments (new)
 ------------------
+
+----
 
 Auto assessment (new)
 ~~~~~~~~~~~~~~~~~~~
 
+----
+
 Card: Templates
 """"""""""""""
+
+----
 
 Auto assessment Templates
 """"""""""""""""""""""""
 
+----
+
 Create new Template
 """"""""""""""
+
+----
 
 Card: Clients
 """"""""""""""
 
+----
+
 Create new Client
 """"""""""""""
+
+----
 
 Listing Client
 """""""""""""
 
+----
+
 Associating Template to the Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Auto assessment’s status forms
 """"""""""""""""""""""""""""""""""
 
+----
+
 Generating graphs for viewing
 """"""""""""""""""""""""""
+
+----
 
 .. CIS Control (new)
 .. ~~~~~~~~~~~~~
@@ -854,6 +1138,8 @@ Generating graphs for viewing
 
 Ethical Phishing
 -----------------
+
+----
 
 User access: Admin Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -963,62 +1249,102 @@ User access: User
 Virtual Machines Menu 
 ======================
 
+----
+
 Introduction
 ------------
+
+----
 
 Accessing a Virtual Machine
 -----------------------------
 
+----
+
 Managing a Virtual Machine
 ----------------------------
+
+----
 
 Section General: Virtual Machines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Instantaneous Performance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+
+----
+
 Section: Metrics (**AWS** exclusive)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Network Interfaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Disk
 ~~~~~~~~~~~~~
+
+----
 
 Section: Snapshots
 ~~~~~~~~~~~~~~~~
 
+----
+
 Section: Subscriptions (**Exclusive Azure and Google Cloud Platform**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Performance History (**Exclusive Azure and GCP**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Creating a Virtual Machine
 ---------------------------
+
+----
 
 Wizard Step 1 (Cloud Selection)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Wizard Step 2 (Virtual Machine basics information)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Wizard Step 3 (Virtual Machine basics information – cont.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Wizard Step 4a (Virtual Machine security information)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Wizard Step 4b (Security Information – Exclusive Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Wizard Step 5a (User data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Wizard Step 5b (**User data VMware**)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Wizard Step 6 (View the virtual machine configurations)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1028,8 +1354,12 @@ Wizard Step 6 (View the virtual machine configurations)
 Orchestrator Menu
 =====================
 
+----
+
 Cluster
 --------
+
+----
 
 Cluster Service
 ~~~~~~~~~~~~~~
@@ -1039,17 +1369,27 @@ Cluster Service
 Scaling Groups Menu
 ===================
 
+----
+
 Creating an AWS Scaling Group
 ------------------------------
+
+----
 
 Problems known with AWS Scaling Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Creating an Azure Scaling Group
 --------------------------------
 
+----
+
 Creating an Openstack Scaling 
 ------------------------------
+
+----
 
 Creating an vCloud Scaling 
 ---------------------------
@@ -1059,77 +1399,127 @@ Creating an vCloud Scaling
 Databases Menu
 ===================
 
+----
+
 Managing a Database
 ---------------------
+
+----
 
 Section General: Security Group 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Security Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Provisioning a Database 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Database creation (MySQL & AWS)
 ---------------------------------
+
+----
 
 Step 1 - Cloud Service Provider Selection (AWS) [level 4]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 2 - Database Selection (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+
+----
+
 Step 3 - Database Specification (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 4 - Database configurations access (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 5 - Network and Security Specifications (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 6 - Security Copy Parameter (MySQL & AWS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Database creation (MySQL & Azure)
 ----------------------------------
+
+----
 
 Step 1 - Cloud Service Provider Selection (Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 2 - Database Selection (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 3 - Database Specifications (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 4 - Database access configurations (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 5 - Network and Security Specifications (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 6 - Security Copy Parameter (MySQL & Azure)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Database creation (MySQL & GCP)
 --------------------------------
 
+----
+
 Step 1 - Cloud Service Provider Selection (GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 2 - Database Selection (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 3 - Database Specifications (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 4 - Database access configurations (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Step 5 - Network and Security Specifications (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Step 6 - Security Copy Parameter (MySQL & GCP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1139,47 +1529,77 @@ Step 6 - Security Copy Parameter (MySQL & GCP)
 Virtual Datacenters Menu 
 =====================
 
+----
+
 Managing Virtual Datacenters
 ------------------------------
 
+----
+
 Section: General (new)
 ~~~~~~~~~~~~~~~~~~~~~~~
-			
+
+----
+
 Section: Hosts (new)
 ~~~~~~~~~~~~~~~~~~~~~
-			
+
+----
+
 Section: Networks (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~
-			
+
+----
+
 Section: Key Pair (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Security Group (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Templates (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-			
+
+----
+
 Section: Flavors (new)
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Storages (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Catalog (new)
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Load balancers (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Section: Database (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Section: Virtual machines (new)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Editing a Virtual Datacenter
 ------------------------------
+
+----
 
 Creating a Virtual Datacenter
 -----------------------------
@@ -1189,11 +1609,17 @@ Creating a Virtual Datacenter
 Billing Menu 
 ==============
 
+----
+
 Private Businesses
 -------------------
 
+----
+
 Public Businesses (USN)
 -----------------------
+
+----
 
 Corporate Environment
 ----------------------
@@ -1213,23 +1639,37 @@ Invoicing Rule
 **Reports**
 -------------
 
+----
+
 Consumption-Based Panels
 -------------------------
+
+----
 
 Service History Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Cadenced Billing Report
 ~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Product Relational Cost Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Resource Viewing Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Budgets Costs Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Consumption Monitoring Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1612,8 +2052,12 @@ This update has a vast index, containing tables, reports and graphs that range f
 Cost limit based-Reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Defining the Reports
 """""""""""""""""""""
+
+----
 
 A. Cost Limit Reports
 """"""""""""""""""""""
@@ -1675,15 +2119,23 @@ B. Risk analysis
 
 3. **Generate risk analysis from the cost limit report**
 
-  
+
+----
+
 Invoice based-panels
 ---------------------
+
+----
 
 My invoice
 ~~~~~~~~~~~~
 
+----
+
 Billing
 ~~~~~~~~~
+
+----
 
 .. * **Virtual Machines**:
 
@@ -1705,57 +2157,93 @@ Billing
 Consolidated Invoicing Report (CIR)
 ------------------------------------
 
+----
+
 Accessing the CIR
 ~~~~~~~~~~~~~~~
+
+----
 
 Selecting the CIR
 ~~~~~~~~~~~~~~~~~~
 
+----
+
 Following the CIR search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+
+----
+
 Listing the CIR companies
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Detailing CIR actions
 ~~~~~~~~~~~~~~~~~~~~~~~
-   
+
+----
+
 Use case: 
 ~~~~~~~~~~~~
+
+----
 
 Billing Trend Report (BTR)
 ----------------------------
 
+----
+
 Accessing the BTR
 ~~~~~~~~~~~~~~~~~~~
+
+----
 
 Creating a BTR
 ~~~~~~~~~~~~~~
 
+----
+
 How to download the file 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+
+----
+
 Following the download on the Tasks Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+----
+
 Viewing the BTR
 ~~~~~~~~~~~~~~~
-   
+
+----
+
 Grouping by product name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
 
 Grouping by Tag
 ~~~~~~~~~~~~~~~~~~
 
+----
+
 Filtering by anomaly
 ~~~~~~~~~~~~~~~~~~
+
+----
 
 Linked Accounts
 ----------------
 
+----
+
 **Utilitaries**
 --------------
-   
+
+----
+
 **Dimension**
 ~~~~~~~~~~~~
 
@@ -2069,42 +2557,54 @@ Furthermore, the “Dimension” is used in the modal “Create Budget” includ
 **Virtual Tags**
 ~~~~~~~~~~~~~~~~~
 
-In a broad context, a TAG (a label) it’s a keyword that signs or identifies a particular computational resource (or service resulting from its existence) stored in a cloud provider, repository or database. The TAGs are a type of metadata, capable of providing information that describes the data, this facilitates automated search for information retrieval. A TAG is a label in which the user assigns a **Key** and a **Value** to a public cloud computing resource.
+In a broad context, a Tag (a label) it’s a keyword that signs or identifies a particular computing resource (or service resulting from its existence) stored in a cloud provider, repository or database. 
 
-In the scenario of any type of cloud, the data contained in TAGs is used together with other forms of tagging that the cloud providers use to classify information about their resources. Thus, the TAGs help the research, organization, identification, management and, finally, the filtering of used resources in any cloud provider, for example: AWS, Azure, Google, among others. 
+The Tags are a type of metadata, capable of providing information that describes the data, this facilitates automated search for information retrieval. 
 
-These TAGs (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. For example: the user or the organization, can define a set of TAGs for the Amazon EC2 instances, of their account, to help track the owner and/or clustering level (stack values) of each computing resource of the public cloud consumed.
+.. attention:: A Tag is a label in which the user assigns a **Key** and a **Value** to a public cloud computing resource.
+
+----
+
+In the scenario of any type of cloud, the data contained in Tags is used together with other forms of tagging that the cloud providers use to classify information about their resources. Thus, the Tags help the research, organization, identification, management and, finally, the filtering of used resources in any cloud provider, for example: AWS, Azure, Google, among others. 
+
+These Tags (labels) after linking to a resource are used to categorize these resources so they can be classified by: purpose, property, criteria or location. 
+
+For example: 
+
+* The user or the organization, can define a set of Tags for the Amazon EC2 instances of their account, to help track the owner and/or grouping level (stack values) of each computing resource of the public cloud consumed.
 
 .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-en-us.png
-   :scale: 80%
+   :scale: 60%
    :align: center
 ----
 
 .. note:: The picture above is an example and the information present is merely illustrative. 
 
-In the picture above we use two Virtual Machines as an example of how to illustrate the link between TAG and resources. A detail that is mentioned very little is that the public cloud service providers don’t allow linking TAGs to all their products and/or services (check the provider documentation to know which resources are likely to have a TAG linked to the resource).
+In the picture above, two virtual machines are used as an example of how to illustrate the link between Tag and resources. A detail that is mentioned very little is that the public cloud service providers don’t allow linking Tags to all their products and/or services (check the provider documentation to know which resources are likely to have a Tag linked to the resource).
 
-In the example above we link “two different TAGs” to the same resource (Virtual Machine) in this way we induce that the financial reports by TAG totaled the cost value of the TAG twice (the same value in each TAGs) and, for this example, in this situation double the cost within the same period.
+In the example above **two** different Tags are linked to the same resource (virtual machine) in this way we induce that the financial reports by Tag totaled the cost value of the Tag twice (the same value in each Tags) and, for this example, in this situation double the cost within the same period.
 
-But we must highlight that to the public cloud service provider’s environment, once a TAG is created, it will not automatically be linked to any resource (or services resulting from the resource existence). The user must first create the TAG(s) and then manually link the TAG(s) to the wished resource(s). Because it is a manual process and performed by a user at the cloud service provider console, the TAGs resources can be time consuming for the public cloud Cost Administrator. There may be too many rows in the billing/bucket file for the Cost Administrator to check. This verification and the TAGs linking process is continuous and manual.
+But we must highlight that to the public cloud service provider’s environment, once a TAG is created, it will not automatically be linked to any resource (or services resulting from the resource existence). The user must first create the Tag(s) and then manually link the Tag(s) to the desired resource(s). 
 
-.. important:: The fact that the TAGs are accessible to many services in cloud providers, it’s important to avoid adding private or confidential data to the Virtual TAGs, as for example: personal identification, confidential or sensitive information.
+Because it is a manual process and performed by a user at the cloud service provider console, the Tags resources can be time consuming for the public cloud Cost Administrator. There may be too many rows in the billing/bucket file for the Cost Administrator to check. This verification and the Tags linking process is continuous and manual.
 
-The uCloud Platform synchronizes and receives the content of the billing file (CSV) from the public cloud service provider and, consequently, receives all the TAGs existing in the provider.
+.. important:: The fact that the Tags are accessible to many services in cloud providers, it’s important to avoid adding private or confidential data to the Virtual Tags, as for example: personal identification, confidential or sensitive information.
+
+The uCloud platform synchronizes and receives the content of the billing file (CSV) from the public cloud service provider and, consequently, receives all the Tags existing in the provider.
 
 ----
 
 uCloud’s platform Virtual Tags
 """"""""""""""""""""""""""""""
 
-We mentioned above that the process of linking a TAGs to a resource is manual, time consuming and, above all, it is not automatically repeated for new services of a resource that already has a linked TAG.
+We mentioned above that the process of linking a Tags to a resource is manual, time consuming and, above all, it is not automatically repeated for new services of a resource that already has a linked Tag.
 
-The new uCloud Platform Virtual TAGs functionality creates an automation for the TAGs linking process to existing resources in the public cloud service provider’s environment.
-The uCloud Platform Virtual TAG process may automatically link a specific TAG to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. 
+The new uCloud platform Virtual Tags functionality creates an automation for the Tags linking process to existing resources in the public cloud service provider’s environment.
+The uCloud platform Virtual TAG process may automatically link a specific Tag to a resource to be selected based on Product Name and/or Product Family and/or Resource Identifier. 
 
-.. attention:: The conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
+It is worth mentioning that the conjunction “and/or” shows the high granularity degree the user can select to attend to their specific use of their need.
 
-See below how the new Virtual TAGs implementation allows to automate the TAGs link in resources.
+In the sequence below it is shown how the new Virtual Tags implementation allows to automate the Tags link in resources.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual002.png
    :align: center
@@ -2113,15 +2613,27 @@ See below how the new Virtual TAGs implementation allows to automate the TAGs li
 
 .. note:: The picture above is an example and the present information is merely illustrative.
 
-In the example above, every time the uCloud Platform performs the billing/bucket CSV file synchronization, the TAGs will be linked automatically to all resource records (rows) in the billing file in which the Product Name or Product Family or Resource Identifier correlation is found.
+In the example above, every time the uCloud platform performs the billing/bucket CSV file synchronization, the Tags will be **automatically** linked to all resource records (rows) in the billing file in which the Product Name or Product Family or Resource Identifier correlation is found.
 
-The Virtual TAGs are applied in cloud resources (for example: virtual machines, databases) so it’s possible to create classification by projects, divisions by cost center, among other types of groupings.These keys and TAG values may or may not be reflected in the billing reports available to consultation only through the public cloud provider’s console. Thus, the resources imported from the bucket/billing file existing in the public cloud providers that by any policy these providers fail to index the tag to the cloud service resource, may receive a “Virtual TAG”. But it’s very important to highlight that these “Virtual TAGs” only exist in the uCloud Platform database, not being written (or synchronized) to the bucket/billing that exists in the public cloud service provider’s environment.
+The Virtual Tags are applied in cloud resources (for example: virtual machines, databases) so it’s possible to create classification by projects, divisions by cost center, among other types of groupings.
 
-This is a unique service and it’s available with the new uCloud Platform implementation to facilitate the used resource classification in the **several clouds** through the “Virtual TAG”. The Virtual TAG must be created by the client organization, it can be based on the categorization profile, according to the used resource and the identification needed in the financial report, whether it is by purpose, property, criteria or location, among others. 
+These keys and Tag values may or may not be reflected in the billing reports available to consultation only through the public cloud provider’s console. 
 
-The Virtual TAG must be applied by the user client within the uCloud portal, in order to enable the resource automated identification that is no longer tagged by the several cloud providers with different rules and internal policies of each one of them. After the Virtual TAG application as a uCloud Platform resource and then, applying through the virtual-tag-applier Accountant, and their normalization, using the virtual-tag-normalizer Accountant. This way, the information visualization will be easier for the decision making, recorded in the financial reports, regarding the used resources provided by the several clouds that were not previously tagged by the cloud itself.
+Thus, the resources imported from the bucket/billing file existing in the public cloud providers that by any policy these providers fail to index the tag to the cloud service resource, may receive a “Virtual Tag”. 
 
-The organizations that use the automated processes to manage the infrastructure include the additional TAGs specific for automation, in general they create relevant grouping to organize the resources in technical, commercial and security dimensions.
+But it’s very important to highlight that these “Virtual Tags” only exist in the uCloud platform database, not being written (or synchronized) to the bucket/billing that exists in the public cloud service provider’s environment.
+
+This is a unique service and it’s available with the new uCloud platform implementation to facilitate the used resource classification in the **several clouds** through the “Virtual Tag”. 
+
+.. The Virtual TAG must be created by the client organization, it can be based on the categorization profile, according to the used resource and the identification needed in the financial report, whether it is by purpose, property, criteria or location, among others. 
+
+The Virtual Tag must be applied by the user client within the uCloud portal, in order to enable the resource automated identification that is no longer tagged by the several cloud providers with different rules and internal policies of each one of them. 
+
+After the Virtual Tag application as a uCloud platform resource and then, applying through the virtual-tag-applier Accountant, and their normalization, using the virtual-tag-normalizer Accountant. 
+
+Therefore, the information visualization will be easier for the decision making, recorded in the financial reports, regarding the used resources provided by the several clouds that were not previously tagged by the cloud itself.
+
+The organizations that use the automated processes to manage the infrastructure include the additional Tags specific for automation, in general they create relevant grouping to organize the resources in technical, commercial and security dimensions.
 
 ----
 
@@ -2130,11 +2642,11 @@ Normalizing Virtual Tags
 
 It’s important to mention the continuous existence of a cloud service provider resource, it generates new services or products resulting from the public cloud service provider resource existence/maintenance (ex.: snapshots).
 
-When a client requests a creation of a backup copy of the new disk image (snapshot) a new snapshot may, not necessarily, receive the link of a TAG in the Virtual TAGs process.
+When a client requests a creation of a backup copy of the new disk image (snapshot) a new snapshot may, not necessarily, receive the link of a Tag in the Virtual Tags process.
 
-To cover this gap there is a new **Virtual TAGs Normalization** functionality. 
+To cover this gap there is a new **Tags Normalization** functionality. 
 
-This process performs a comparison of each row of the billing file and when it finds a resource with “no Virtual TAG” but this row is a new service/product of a resource with a Virtual TAG, this process MAKES A COPY of the Virtual TAG from the main resource even if its ProductName, ProductFamily, Resource Identifier combination were not able to link the Virtual TAG.
+This process performs a comparison of each row of the billing file and when it finds a resource with **no** Virtual Tag but this row is a new service/product of a resource **with** a Virtual Tag, this process MAKES A COPY of the Virtual Tag from the main resource even if its ProductName, ProductFamily, Resource Identifier combination were not able to link the Virtual Tag.
 
 .. figure:: /figuras/ucloud_menu_configuracao_tag_virtual003.png
    :align: center
@@ -2144,37 +2656,39 @@ This process performs a comparison of each row of the billing file and when it f
 .. note:: The table above is an example and the present information is merely illustrative.
 
 
-This process may take a while, because it is performed with the string comparison of characters of each billing row individually.
+This process may take a while, because it is performed with the string comparison of characters of each **billing** row individually.
 
-With this process, the uCloud Platform complements the new Virtual TAGs functionality, but it must be executed only when the Cost Administrator user identifies that there are resources with no Virtual TAGs.
+With this process, the uCloud platform complements the new Virtual Tags functionality, but it must be executed only when the Cost Administrator user identifies that there are resources with no Virtual Tags.
 
 ----
 
 When to use
 """""""""""
 
-Based on this new implementation, aimed at classifying, normalization and visualization of obtained information from the public cloud several providers, the new functionality “Virtual TAGs” enables to ticket/tag, that is, mark the resources that by some rule or definition, were not possible to find registered in the billing of a certain cloud provider used by the organization or user customer. 
+Based on this new implementation, aimed at classifying, normalization and visualization of obtained information from the public cloud several providers, the new functionality “Virtual Tags” enables to bill/tag, that is, mark the resources that by some rule or definition, were not possible to find registered in the billing of a certain cloud provider used by the organization or user customer. 
 
-Once, each cloud presents different reports of used resources, the difficulty for the IT professional to be able to normalize and understand the presented classification in several clouds, or even the suppressed information by TAGs absence that group the relevant format, valuable information, whether they are quantitative, qualitative or financial, facilitating the organization and/or its user customer the possibility of an assertive decision making, when using this new implementation called “Virtual TAGs”. Developed by the Ustore as a solution to attend this absence, it claimed in the reports that it has a similar behavior in the several cloud providers, such as AWS, Azure, Google, among others. 
+Once each cloud presents different reports of used resources, the difficulty for the IT professional to be able to normalize the suppressed information by absence of Tags and understand the presented classification in several clouds, is a difficulty to be transposed.
 
-The uCloud portal generates the financial report, this report retrieves information by product name or by TAG. It’s the uCloud portal that offers this unique service of “Virtual TAGs” that enables and/or facilitates the management and the classification of certain resources that no longer receive TAGs in the cloud, as mentioned previously, by rules or internal policies established by the providers themselves. 
+Classify and group computing resources generated precious and valuable information, whether they are quantitative, qualitative or financial, besides facilitating the organization and/or its user customer the possibility of assertive decision making, when using this new implementation called “Virtual Tags”. Developed by the Ustore as a solution to attend this absence, it claimed in the reports that it has a similar behavior in the several cloud providers, such as AWS, Azure, Google, among others. 
 
-It is necessary to use this new implementation, when the organization and the user customer need to retrieve information by TAG or product name in a distinct way, in several clouds, once each cloud provider, like Google, AWS and Azure treat the billing record report differently. And each one of them uses its own nomenclatures for each type of offered resource.
+The uCloud portal generates the financial report, this report retrieves information by product name or by Tag. It’s the uCloud portal that offers this unique service of “Virtual Tags” that enables and/or facilitates the management and the classification of certain resources that no longer receive Tags in the cloud, as mentioned previously, by rules or internal policies established by the providers themselves. 
 
-By applying the “Virtual TAGs” to the cloud resources (e.g: database and virtual machines) it is possible to create classification by cost centers divisions, projects and other types of groupings.
+It is necessary to use this new implementation, when the organization and the user customer need to retrieve information by Tag or product name in a distinct way, in several clouds, once each cloud provider, like Google, AWS and Azure treat the billing record report differently. And each one of them uses its own nomenclatures for each type of offered resource.
+
+By applying the “Virtual Tags” to the cloud resources (e.g: database and virtual machines) it is possible to create classification by cost centers divisions, projects and other types of groupings.
 
 The new implementation from the uCloud portal enables users to present the information generated in the financial report according to what was classified or tagged by the user to group or identify information, whether it is by product name, purpose, property, criteria or location, among others.
 
-.. note:: The keys and TAGs values may or may not be reflected in the billing report of several clouds. The TAGs don’t save semantic meaning in the Amazon EC2, they are interpreted as a character sequence.
+.. note:: The keys and Tags values may or may not be reflected in the billing report of several clouds. The Tags don’t save semantic meaning in the Amazon EC2, they are interpreted as a character sequence.
 
-Thus, resources imported from the public cloud billing file that, by any policies of these providers, fail to index the tag to the cloud service resource, may receive a “Virtual TAG” within the portal.
+Thus, resources imported from the public cloud billing file that, by any policies of these providers, fail to index the tag to the cloud service resource, may receive a “Virtual Tag” within the portal.
 
 ----
 
 Tags restrictions
 """"""""""""""""""
 
-In case of the Virtual TAGs application, there are some tips and basic restrictions to be applied:
+In case of the Virtual Tags application, there are some tips and basic restrictions to be applied:
 
 * **Maximum number of TAGs by resource**: 50
 
@@ -2182,17 +2696,17 @@ In case of the Virtual TAGs application, there are some tips and basic restricti
 
 * **Maximum value size**: 256 characters
 
-* **Allowed characters**: 
-  
-  * The allowed characters are: letters (a-z, A-Z), numbers (0-9) and representable spaces, besides the following characters: + - = . _ : / @.
+* **Allowed characters**: The allowed characters are: letters (a-z, A-Z), numbers (0-9) and representable spaces, besides the following characters: + - = . _ : / @.
 
-  * To enable instance tags in metadata, the instance tags keys allow use of the letters (a-z, A-Z), numbers (0-9) and the following characters: + - = . ,  _ : @. Avoid spaces or / , and it can’t form only . (a dot), .. (two dots) or _index.
+  * To enable instance tags in metadata, the instance tags keys allow use of the letters (a-z, A-Z), numbers (0-9) and the following characters: + - = . ,  _ : @. 
+
+  * Avoid spaces or / , and it can’t form only . (a dot), .. (two dots) or _index.
 
 .. note:: For any resource, each key tag must be exclusive and can only have one value.
 
-.. important:: The keys and TAGs values are Case Sensitive, in other words, differentiate **UPPERCASE from lowercase**. 
+.. important:: The keys and Tags values are Case Sensitive, in other words, differentiate **UPPERCASE from lowercase**. 
 
-.. warning:: The **aws** prefix it’s reserved for the Amazon Web Service (AWS) use. It’s not possible to edit nor exclude the key or the value of a TAG when it has a key with this prefix. The TAGs with the aws prefix: don’t count to TAGs by resource limit.
+.. warning:: The **aws** prefix it’s reserved for the Amazon Web Service (AWS) use. It’s not possible to edit nor exclude the key or the value of a Tag when it has a key with this prefix. The Tags with the aws prefix: don’t count to Tags by resource limit.
 
 ----
 
@@ -2203,37 +2717,45 @@ This new implementation allows to tag the missing marking resources in the cloud
 
 There are some common marking strategies that help identify and manage resources in the cloud, to organize resources and to allocate costs, beyond several marking categories in the cloud, AWS for example: 
 
-* Techniques
+* **Techniques**
 
-* Automation
+* **Automation**
 
-* Commercials
+* **Commercials**
 
-* Safety
+* **Safety**
 
-The additional TAGs present better efficiency by creating groupings, TAGs techniques, TAGs for automation, commercial TAGs, safety TAGs. We can mention some among them: Name, Applicative ID, Applicative Function, Cluster, Environment, Version, Date/Time, Accept/Refuse/ Safety, Project. Owner, Cost Center/ Business Unit, Customer, Confidentiality and Conformity.
+The additional Tags present better efficiency by creating groupings, Tags techniques, Tags for automation, commercial Tags, safety Tags. We can mention some among them: Name, Applicative ID, Applicative Function, Cluster, Environment, Version, Date/Time, Accept/Refuse/ Safety, Project. Owner, Cost Center/ Business Unit, Customer, Confidentiality and Conformity.
 
-.. note:: The TAG behavior in the AWS cloud: the TAGs created by the system that start with aws: are reserved for the AWS use, it’s not possible to edit or exclude a TAG that starts with the aws prefix. Regarding the creation TAG limit, each resource can have a maximum of 50 TAGs created by the user.
+.. note:: The Tag behavior in the AWS cloud: the Tags created by the system that start with aws: are reserved for the AWS use, it’s not possible to edit or exclude a Tag that starts with the aws prefix. Regarding the creation Tag limit, each resource can have a maximum of 50 Tags created by the user.
 
-We can summarize the Virtual TAGs functionality use process in two distinct moments:
+We can summarize the Virtual Tags functionality use process in two distinct moments:
 
-#. **Creation and Automation in the Virtual TAGs use**;
+1. **Creation and Automation in the Virtual Tags use**;
 
-   \ a. \ Provision an identification name for a single Virtual TAGs profile with all the TAGs links based on the Product Name and/or Product Family and/or Resource Identifier combination.
+   \ a. \ Provision an identification name for **a single** Virtual Tags profile with all the Tags links based on the Product Name and/or Product Family and/or Resource Identifier combination.
 
-   \ b. \ Virtual TAGs Link Profile to the cloud identifier (container).
+   \ b. \ Virtual Tags Link Profile to the cloud identifier (account provider).
 
    \ c. \ Perform Billing/Bucket file processing and synchronization.
 
-   \ d. \ Visualization of Financial reports on the uCloud Platform using totalization by **TAGs**.
+   \ d. \ Visualization of Financial reports on the uCloud platform using totalization by **Tags**.
 
-   \ e. \ If its identified that there are still resources with NO TAGs (remember there are resources the public cloud service provider does not link to any TAG; or that the Product Name, Product Family, Resource Identifier combination was not enough to associate the totality of rows of the billing file), the uCloud Platform allows to address the TAGs absence with the next process.
+   \ e. \ If its identified that there are still resources with **no** Tags remember that:
+   
+   * There are resources the public cloud service provider does not link to any Tag
+   * or that 
+   * The Product Name, Product Family, Resource Identifier combination was not enough to associate the totality of rows of the billing file.
+
+   \ f. \ The uCloud platform allows to address the Tags absence with the next process.
 
 2. **Virtual TAGs normalization**;
 
-  \ a. \ This process should only be applied when the existing combination in the Virtual TAGs Profile cannot apply TAGs to all the resources.
+  \ a. \ This process should only be applied when the existing combination in the Virtual Tags Profile cannot apply Tags to all the resources.
   
-  \ b. \ This process must be executed ONLY ONCE a month as it demands a certain time to complete the normalization of all the billing rows in the current month period. This process must be started manually and normalizes the virtual TAGs just for a single period, it’s not recurring or automatic.
+  \ b. \ This process must be executed **only once** a month as it demands a certain time to complete the normalization of all the billing rows in the current month period. 
+  
+  .. attention:: This process must be started manually and normalizes the virtual Tags just for a single period, it’s not recurring or automatic.
 
 The picture below presents the new implementation in the uCloud portal:
 
@@ -2242,11 +2764,17 @@ The picture below presents the new implementation in the uCloud portal:
 
 ----
 
-With the addition of the new functionality in the portal and the possibility to use the Virtual TAGs to retrieve information previously tagged from the used resource in any cloud provider, uniquely, where the use can occur in two flows, detailed next:
+With the addition of the new functionality in the portal and the possibility to use the Virtual Tags to retrieve information previously tagged from the used resource in any cloud provider, uniquely, where the use can occur in two flows, detailed next:
 
-#. Linking  a TAG to a cloud resource through the specification of a character sequence that identifies a [**ProductName**], [**ProductFamily**] and/or [**Cloud Identifier**].
+1. Linking  a Tag to a cloud resource through the specification of a character sequence that identifies a [**ProductName**], [**ProductFamily**] and/or [**Cloud Identifier**].
 
-   \ a. \ For this flow, the user can specify, for example, that the resource belonging to the ProductName Amazon Elastic Compute Cloud, in the [ProductFamily] **Data Transfer**, linked to the cloud identifier i-0e85640d78d096974 has the TAGs specified  in the form, even if these TAGs are not provided by the cloud.
+   \ a. \ For this flow, the user can specify, for example, that the resource belonging to the:
+   
+   * **[ProductName]** Amazon Elastic Compute Cloud
+   * **[ProductFamily]** Data Transfer
+   * **[Cloud identifier]** i-0e85640d78d096974 
+
+Thus, every resource that has the characteristics of the example above, editing and specifying in the **Edit virtual tag profile** form illustrated below with the **Key** and **Value**, even if the tag is not provided by the cloud, this resource belongs to a virtual tag determined in the uCloud platform, configured in the Virtual Tags functionality
 
 .. figure:: /figuras/fig_release_note_maio_ing/ucloud_menu_configuração_tag_virtual_ing002.png
    :align: center
@@ -2258,22 +2786,22 @@ With the addition of the new functionality in the portal and the possibility to 
 
 ----
 
-   \ b. \ Virtual TAGs Link Profile created, to the cloud (container) provisioned on the uCloud Platform.
+   \ b. \ Link the Virtual Tags Profile created, to the cloud (account provider) provisioned on the uCloud platform.
 
 .. figure:: /figuras/fig_release_note_maio_ing/ucloud_menu_configuração_tag_virtual_ing004.png
    :align: center
 
 ----
 
-2. Normalization of TAGs for resources where TAGs are not returned by the cloud in the product family.
+2. Normalization of Tags for resources where Tags are not returned by the cloud in the product family.
 
-   \ a. \ For this flow, it will be possible to enable that in the act of the cloud ticketing data collection, the obtained resources do not come by default with the cloud provider TAG, they will be normalized with the TAGs that are associated with this resource.
+   \ a. \ For this flow, it will be possible to enable that in the act of the cloud ticketing data collection, the obtained resources do not come by default with the cloud provider Tag, they will be normalized with the Tags that are associated with this resource.
 
-  * If there already is a TAG with the same key on the other side, the TAG will not be overwritten. 
+  * If there already is a Tag with the same key on the other side, the Tag will not be overwritten. 
   
   * All the hyper Identifiers that belong to the same [productName].
 
-When exporting the billing report, the “Virtual TAGs” return to normal, according to the resources used in the TAGs.
+When exporting the billing report, the “Virtual Tags” return to normal, according to the resources used in the Tags.
 
 
 .. figure:: /figuras/fig_release_note_maio_ing/ucloud_menu_configuração_tag_virtual_ing005.png
@@ -2281,7 +2809,13 @@ When exporting the billing report, the “Virtual TAGs” return to normal, acco
 
 ----
 
-The picture above presents the Virtual TAGs application, by the virtual-tag-applier Accountant, and its normalization, using the virtual-tag-normalizer Accountant.
+The picture above presents the Virtual Tags application, by the virtual-tag-applier Accountant, and its normalization, using the virtual-tag-normalizer Accountant.
+
+Concluding, the Virtual Tag is a tag with a key and value attributed to the cloud computing resource, it helps the search, organization, management and filtering of resources used from any cloud provider, for example: AWS, Azure, Google among other providers. After the Tags are created they can be classified by purpose, property, criteria or location.
+
+.. important:: By the fact that the Tags are accessible to many services in the cloud providers, it is important to avoid adding private or confidential data to the Virtual Tags, as for example: personal identification, confidential or classified information.
+
+The uCloud platform synchronizes and receives the billing content file in the .csv format, proveninent from the public cloud service provider and, consequently, receives all the Tags existing in the provider.
 
 ----
 
