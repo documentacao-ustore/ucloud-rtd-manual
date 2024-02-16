@@ -2388,55 +2388,383 @@ Caso de uso:
 
 ----
 
+
+
 Informe Tendencia de Facturación (ITF)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El Informe Tendencia de Facturación, denominado abreviadamente ITF, se basa en facturas que hacen referencia a las informaciones de valores financieros sobre un periodo ya cerrado. Permite al usuario consultar informaciones relacionadas a la facturación de un contrato, y detalla la visualización a partir de un filtro mensual. 
+
+Este informe posibilita la detección de cualquier anomalía en el gasto, partiendo de determinados contratos analizados. Proporcionando una visión analítica y completa en dos formatos: - Nombre del producto y - *Tag*.
+
+A partir de los informes de facturación debe ser posible ejecutar las reglas de tendencia de facturación, pudiendo proyectar los gastos hasta con 6 meses de antelación.
+
+En la secuencia se detalla el flujo de consultas a las informaciones basadas en factura, que demuestran la aplicación de los filtros disponibles y la presentación de gráficos online, así como la posibilidad del *download* del archivo en formato .xlsx (Excel) para su uso posterior.    
 
 ----
 
 Accediendo el ITF
 """"""""""""""""""
 
+Para acceder al ITF, basta hacer clic en el menú Financiero y, a continuación, en el submenú Informes, como se muestra en la figura siguiente:
+
+
+.. image:: /figuras/fig_rtf_spa/01_submenu_informes.png
+   :alt: Informes de paneles basados en el consumo y la facturación 
+   :align: center
+----
+
+Esta pantalla se divide en dos grupos: "Paneles Basados en el Consumo" y "Paneles Basados en Facturas", el ITF se encuentra en el segundo tópico, destacado en la figura siguiente.
+
+.. image:: /figuras/fig_rtf_spa/02_paneles_consumo_base.png
+   :alt: Paneles basados en facturación 
+   :align: center
+----
+
 ----
 
 Creando un ITF
 """"""""""""""""""
+
+Al pulsar sobre el botón ``Tendencia de facturación``, la plataforma muestra la siguiente pantalla:
+
+.. image:: /figuras/fig_rtf_spa/03_financiero_contrato.png
+   :alt: Seleccionar contrato 
+   :align: center
+----
+
+En esta imagen se puede observar los contratos vinculados al usuario que está logueado. Este modal permite la búsqueda por el nombre del contrato con la ayuda de la barra de búsqueda, una vez encontrado el contrato deseado basta seleccionarlo y se presenta una nueva pantalla para continuar la consulta.  
+
+.. image:: /figuras/fig_rtf_spa/04_financeiro_pantalla_inicial_linked_accounts.png
+   :alt: Pantalla inicial
+   :align: center
+----
+
+En la imagen de arriba se puede observar las siguientes funcionalidades:
+
+
+* ``Volver`` 
+* ``Exportar informe`` 
+* ``Intervalo`` 
+* ``Agrupar por``
+* ``Buscar``
+* ``Seleccionar Linked Accounts``.
+
+.. important:: La funcionalidad Seleccionar Linked Accounts sólo estará disponible si el usuario tiene *Linked Accounts* en el contrato seleccionado.
+
+
+.. image:: /figuras/fig_rtf_spa/05_datos_financieros.png
+   :alt: Seleccionar fecha
+   :align: center
+----
+
+Para crear un ITF en esta pantalla, el usuario debe iniciar el procedimiento seleccionando el intervalo, donde es necesario elegir los meses en el calendario presentado, y hacer clic en el período inicial y final para obtener el informe deseado.
+
+.. image:: /figuras/fig_rtf_spa/06_datos_financieros_detallados.png
+   :alt: Seleccionar fecha
+   :align: center
+----
+
+Si el usuario desea seleccionar algún mes del año anterior o posterior, basta pulsar las flechas derecha o izquierda. En el ejemplo mostrado arriba, el intervalo seleccionado está comprendido entre NOV/2022 y Ene/2023.
+
+A continuación, en el menú desplegable situado al lado del campo referente al Intervalo, el usuario debe seleccionar el tipo de agrupación del informe: por **nombre del producto** o por **tag**, y hacer clic en el botón ``Buscar``.
+
+.. image:: /figuras/fig_rtf_spa/07_financiero_agrupación.png
+   :alt: Tipo de agrupación
+   :align: center
+----
+
+El siguiente ejemplo trata de una consulta por *tag* y la plataforma uCloud presenta una pantalla de alerta con el mensaje de atención, que se muestra a continuación. Para continuar la búsqueda el usuario debe hacer clic en el botón ``Ok``.
+
+.. image:: /figuras/fig_rtf_spa/08_financiero_alerta_tag.png
+   :alt: Mensaje de atención
+   :align: center
+----
+
+Para descargar los datos obtenidos, basta hacer clic en el botón ``Exportar informe``, de color verde, situado en la parte superior derecha de la pantalla.
+
+.. image:: /figuras/fig_rtf_spa/09_financiero_botón_exportar.png
+   :alt: Botón Exportar
+   :align: center
+----
+
+Un nuevo modal se presenta, y para que la exportación sea completada, es necesario rellenar todos los campos, como se muestra en la imagen de abajo.
+
+.. image:: /figuras/fig_rtf_spa/10_financiero_modal_exportar.png
+   :alt: Modal Exportar
+   :align: center
+----
+
+* **Intervalo**: Se divide en mensual, semanal y diario.
+* **Periodo**: Para seleccionar el periodo basta pulsar sobre el mes inicial y final. En caso del usuario necesitar un mes del año anterior o posterior, debe hacer clic en las flechas al lado del año mostrado para retroceder o avanzar, como se ha mencionado anteriormente.
+* **Tipo**: Presenta las opciones de *Recursos* y *Tags*.
+
+El último paso en este modal es hacer clic en el botón ``Exportar informe`` para que la pantalla ``Generando nuevo Informe`` sea presentada.
+
+.. image:: /figuras/fig_rtf_spa/11_financiero_modal_generando_nuevo_informe.png
+   :alt: Modal Exportar
+   :align: center
+----
+
+En este modal, si el usuario quiere ser notificado, debe rellenar el campo con el correo electrónico.
+
+Si el usuario desea programar el informe, sólo tiene que seleccionar la fecha y hacer clic en la opción: ``Programar informe``, que estará disponible para activación en el momento en que el campo de la fecha se haya rellenado. 
+
+En la condición de programación recurrente, sólo es necesario activar el botón situado debajo del campo de fecha.
+
+Si desea generar el informe por primera vez, basta hacer clic en ``Generar informe``. 
+
+Si el usuario tiene interés en descargar del último archivo generado, debe continuar el flujo descrito a continuación.
 
 ----
 
 Como descargar el archivo
 """"""""""""""""""""""""""
 
+Después de confirmar el éxito de la tarea, el usuario debe rehacer los pasos para volver a la página de Informes, así como el proceso para exportar los datos, hasta que aparezca el modal **Generando Nuevo Informe**.
+
+.. image:: /figuras/fig_rtf_spa/12_accion_descargar_nuevo_informe.png
+   :alt: acción descargar informe
+   :align: center
+---- 
+
+Para descargar el ITF en archivo formato .xlsx (Excel), el usuario debe hacer clic en el botón situado en la parte inferior del modal ``Último informe generado el`` acompañado de la fecha y hora en que la tarea se mostró como *successful* en el menú Tareas.
+
+
+.. note:: El botón para *download* queda disponible para activación sólo después de que la tarea presente el *status* de *successful*.
+
 ----
 
 Siguiendo el *download* en el Menú Tareas
 """"""""""""""""""""""""""""""""""""""""""
 
+Al solicitar la generación de un nuevo informe, es posible seguir la evolución de la *task* en el Menú Tareas, según la imagen de abajo.
+
+
+.. image:: /figuras/fig_rtf_spa/13_seguiendo_menú_tareas.png
+   :alt: Éxito
+   :align: center
 ----
+
+
+El archivo se descarga en formato .xlsx (Excel), como se muestra a continuación. 
+
+
+.. image:: /figuras/fig_rtf_spa/14_archivo_descargar.png
+   :alt: Planilla 
+   :align: center
+----
+
 
 Visualizando el ITF
 """""""""""""""""""""
+
+Como ya se ha mencionado, existen dos tipos de visualización en la exportación para obtener un análisis más completo del informe:
+
+1. Nombre del producto
+2. *Tag* (son los campos del archivo .csv detallado)
+
+
+El ITF tiene la posibilidad de filtrar tanto por producto como por *tag*. 
+
+A partir de este primer filtrado, deben aparecer todos los recursos del contrato elegido (sea dividido por nombre del producto o por *tag*), presentando informaciones específicas sobre cada uno de ellos, teniendo en cuenta cuatro métricas:
+
+1. Gasto promedio
+2. Tolerancia de los gastos
+3. Media móvil
+4. Costo
 
 ----
 
 Agrupación por nombre del producto
 """""""""""""""""""""""""""""""""""
 
+La primera pantalla del informe que se presenta son las informaciones generales sobre el contrato, donde a la izquierda se muestra un gráfico sobre el gasto total por mes. 
+
+.. image:: /figuras/fig_rtf_spa/15_costo_total_mes.png
+   :alt: Gráfico de contratos
+   :align: center
+----
+
+Para proyectar el costo, el usuario debe seleccionar el mes de proyección en la parte superior de la pantalla y hacer clic en el botón ``Proyectar Costo``. A continuación, se añade una nueva columna a los gráficos presentes en todo el informe.  
+
+.. image:: /figuras/fig_rtf_spa/16_costo_total_mes_proyectar_costo.png
+   :alt: Proyección de costos
+   :align: center
+----
+
+Si deseas eliminar la nueva barra, basta hacer clic en el botón ``Borrar`` que aparece al lado de ``Proyectar Costo``.
+
+
+Justo debajo, en el área de recursos del informe, se presenta la cantidad total de recursos presentes en el contrato elegido, y se muestran cuatro valores:
+
+1. Gasto Promedio Más Elevado
+2. Gasto Promedio Más Bajo
+3. Gasto Promedio General
+4. Valor Total
+
+
+En la parte derecha, el gráfico se presenta con la proyección de gastos para cada mes dentro del periodo seleccionado.
+
+
+.. image:: /figuras/fig_rtf_spa/17_recursos_del_informe.png
+   :alt: Informe por recurso
+   :align: center
+----
+
+Al abrir el informe es posible observar un botón de color naranja en la esquina derecha de la pantalla, representado por una flecha blanca que apunta hacia el lado izquierdo.  
+
+.. image:: /figuras/fig_rtf_spa/18_recursos_del_informe_flecha.png
+   :alt: Pestaña lateral
+   :align: center
+----
+
+Al pulsar este botón, una pestaña se expande con los nombres de los productos de este contrato. Con la ayuda de la barra de búsqueda, es posible rastrear un recurso específico, y al hacer clic el usuario es llevado directamente hasta su gráfico.
+
+.. image:: /figuras/fig_rtf_spa/19_pestanã_lateral.png
+   :alt: Pestaña lateral en Detalle
+   :align: center
+----
+
+
+Si el usuario ha seguido el flujo para la exportación del informe para visualización offline, el archivo se presenta de la siguiente manera:
+
+.. image:: /figuras/fig_rtf_spa/20_producto_offline.png
+   :alt: Planilla
+   :align: center
+----
+
+En este ejemplo de informe *offline*, hay nueve columnas:
+
+* *Created by*
+* *Product name*
+* *Product family*
+* *Usage type*
+* *Cloud identifier*
+* *Linked*
+* *2022-11*
+* *2022-12*
+* *2023-01*
+
+
+Las tres últimas columnas hacen referencia al año y mes del periodo seleccionado, en este ejemplo de Nov/2022 a Ene/2023.
+
 ----
 
 Agrupación por *Tag*
 """""""""""""""""""""""
+
+Cuando se agrupa por *tag*, un menú desplegable se presenta en el área del contrato con las siguientes opciones de filtrado:
+
+
+* Todos los *tags*
+* Métrica
+* Nombre
+
+
+.. image:: /figuras/fig_rtf_spa/21_agrupación_por_tag.png
+   :alt: Agrupación por Tag
+   :align: center
+----
+
+Si el usuario ha seguido el flujo para la exportación del informe y visualización *offline*, el archivo se presenta de la siguiente manera:
+
+.. image:: /figuras/fig_rtf_spa/22_agrupación_por_tag_offline.png
+   :alt: Agrupación por Tag
+   :align: center
+----
+  
+Este ejemplo de informe *offline* presenta diez columnas de informaciones, que son:
+
+* *Created by*
+* *Product name*
+* *Product family*
+* *Usage type*
+* *Cloud identifier*
+* *Linked*
+* *Tag*
+* *2022-12*
+* *2023-01*
+* *2023-02*
+
+
+Las tres últimas columnas hacen referencia al año y mes del periodo seleccionado, en este ejemplo de Dic/2022 a Feb/2023.
 
 ----
 
 Filtrado por anomalía
 """""""""""""""""""""""
 
+Permite al usuario realizar el filtrado por anomalía dentro del contrato, analizando todos los recursos. Para esto, dispone de una *flag* "Mostrar únicamente anomalías" con la opción de activarla o no. Al activarla, los recursos mostrados en pantalla son reducidos, mostrando exclusivamente aquellos que realmente tienen anomalías de gastos.
+
+
+.. image:: /figuras/fig_rtf_spa/23_unicamente_anomalias.png
+   :alt: Flag anomalia
+   :align: center
+----
+
+La representación de una anomalía se realiza mediante la superación del límite de gastos calculados en función de la regla de cálculo de los 3 cuartiles. Al hacer clic en el *tooltip* situado junto a la *flag* "Mostrar únicamente anomalías", aparece el siguiente mensaje:
+
+.. image:: /figuras/fig_rtf_spa/24_ecuaciones_utilizadas.png
+   :alt: Mensaje ecuaciones
+   :align: center
+----
+
+Si las anomalías son inexistentes, se muestra una advertencia en la pantalla de detalles del contrato del informe, como se muestra en la imagen siguiente.
+
+.. image:: /figuras/fig_rtf_spa/25_no_hay_anomalias_de_costos.png
+   :alt: Mensaje de anomalía
+   :align: center
+----
+
+Además de esta advertencia, ningún gráfico es presentado.
+
+Sin embargo, si hay anomalías de gastos, una columna de color distinto aparece junto a los gráficos, como se muestra en la imagen siguiente. 
+
+.. image:: /figuras/fig_rtf_spa/26_anomalias_grafico.png
+   :alt: Gráfico de anomalías
+   :align: center
+----
+
 ----
 
 Linked Accounts
 """""""""""""""""""""""
 
+Si el usuario no tiene cuentas asociadas al contrato, un mensaje aparece debajo de la fecha: "Este contrato no tiene *Linked Accounts*".
+
+
+.. image:: /figuras/fig_rtf_spa/27_contrato_no_tiene_linked_accounts.png
+   :alt: Linked Accounts
+   :align: center
 ----
+
+
+Sin embargo, si el usuario tiene cuentas asociadas al contrato, puede visualizarlas al activar la *flag* "Seleccionar *Linked Accounts*" según el ejemplo presentado.
+
+
+.. image:: /figuras/fig_rtf_spa/28_seleccionar_linked_accounts.png
+   :alt: Botón Linked Accounts
+   :align: center
+----
+
+Al activarlo, las cuentas asociadas al contrato son mostradas justo debajo de la *flag* que se mantiene de color naranja. Y las cuentas son liberadas para selección, como se muestra en la siguiente imagen.
+
+
+.. image:: /figuras/fig_rtf_spa/29_cuentas_seleccionadas.png
+   :alt: Linked account seleccionada
+   :align: center
+----
+
+
+Una vez seleccionada la cuenta deseada, los gráficos referidos a ésta se presentan de la misma forma que los mostrados anteriormente (Visualizando el ITF). También es posible optar por todas las cuentas presentadas, en este ejemplo hay dos *Linked Accounts*. 
+
+
+Si deseas olvidar la cuenta seleccionada, debes hacer clic en el botón ``Borrar`` que aparece al lado de las cuentas de la lista.
+
+Si el usuario está interesado en exportar los datos de las *Linked Accounts* para su máquina, sólo es necesario seguir los pasos descritos anteriormente en el tópico: Como descargar el archivo.
+
+====
 
 **Utilidades**
 ---------------
