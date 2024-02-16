@@ -1606,6 +1606,7 @@ E de seis colunas, são elas:
 
 .. warning:: Apesar de todos os usuários poderem importar suas credenciais, usuários do tipo *user* precisam de permissão de seu administrador para criar, editar e deletar.
 
+----
 
 Adicionando uma credencial
 """"""""""""""""""""""""""""""""""""
@@ -1684,6 +1685,7 @@ Esta lista apresenta de forma resumida cada campo preenchido no modal de criaç�
 
 É possível notar a paginação no fim da tela, assim como o bloco de informação agrupado em 10, 25, 50 ou 100 linhas.
 
+----
 
 Editando
 """"""""""""
@@ -1716,7 +1718,7 @@ Seguindo o fluxo orientado acima, o *status* é visualizado no menu Tarefas.
 .. image:: /figuras/fig_usuario/011_editar_tarefas.png
   :alt: card credencial
   :align: center
----
+----
 
 Deletando
 """""""""""""
@@ -1739,7 +1741,7 @@ Após seguir com a deleção da credencial, a seguinte mensagem é exibida:
   :align: center
 ----
 
-Seguido a este feedback, cabe ao usuário checar o *status* no menu Tarefas.
+Seguido a este *feedback*, cabe ao usuário checar o *status* no menu Tarefas.
 
 .. image:: /figuras/fig_usuario/014_deletar_tarefa.png
   :alt: mensagem deletar
@@ -1752,6 +1754,8 @@ Onde é utilizada
 As credenciais importadas neste *card* são utilizadas ao criar uma oferta_ no submenu Catálogo de Serviços, alocado no menu *Workflow*. 
 
 .. _oferta: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#catalogo-de-servicos
+
+----
 
 Grupos
 ------
@@ -14006,6 +14010,7 @@ Com a adição da nova funcionalidade no portal e a possibilidade de empregar as
 1. Vinculação de uma *Tag* para um recurso da nuvem, através da especificação de uma sequência de caracteres que identifica um **[ProductName]** e/ou **[ProductFamily]** e/ou **[Identificador da Nuvem]**.
 
   a. Para esse fluxo, por exemplo, o usuário pode especificar o recurso pertencente a:
+  
   * **[ProductName]** *Amazon Elastic Compute Cloud*;
   * **[ProductFamily]** *Data Transfer*;
   * **[Identificador da Nuvem]** *i-0e85640d78d096974*.
