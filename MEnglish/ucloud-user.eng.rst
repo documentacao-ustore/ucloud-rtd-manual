@@ -2066,81 +2066,491 @@ This update has a vast index, containing tables, reports and graphs that range f
 ====
 
 
-Cost limit based-Reports
+Cost limit-based Reports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. warning:: On some service cloud providers, the term used is “cost limit” in others is “cost threshold”. When mentioned in this manual, both mean the same feature.
+
+The cost limit reports are based on consumption, implemented with the objective to define a cost limit as reference point, so the user can monitor the expenses and, through projections, predict when the monthly total consumption exceeds this reference amount. 
+ 
+To have access to these new uCloud platform implementations, it is necessary for the application user click on the **“Billing”** menu and, then, on the **“Reports”** submenu. On the sequence, two categories of panels are displayed: Consumption and Invoice.
+
+.. image:: /figuras/fig_lc_ar/01_ucloud_finrel_con_limite_custo.png
+   :alt: Relatórios paineis baseados em consumo e fatura 
+   :scale: 80 %
+   :align: center
+----
+
+The access makes it possible to verify the reports regarding the current month, after the user types the desired period on the search blank. This view allows the user to keep themselves informed about the cost predictions, in detail.
+
+The first topic **“Consumption-based panels”** groups seven types of reports, they are:
+ 
+.. figure:: /figuras/fig_lc_ar/02_ucloud_finrel_con_sete_painéis.png
+   :alt: Painéis Baseados em Consumo 
+   :align: center
+----
+
+* Service History;
+* Cadenced Billing;
+* Product Relational Cost;
+* Resources Viewing;
+* Budgets Costs;
+* Consumption Monitoring Report;
+* **Cost-limit based reports.**
+
+.. attention:: |atencao| The number of reports displayed on the Billing menu, Reports submenu, “Panels based in Consumption and Invoice” topics may vary its amount of buttons, according to the client’s contract, it can be the maximum of seven and the minimum of one.
+
+This registry regards the access to the option of the button: **Reports based in cost limit**, by clicking on it two new reports for this modality are shown:
+
+1. Costs limit report and 
+2. Risk analysis.
+
+.. figure:: /figuras/fig_lc_ar/03_ucloud_finrel_con_limite_custo.png
+   :alt: Relatórios baseados em limite de custos e análise de risco
+   :align: center
 ----
 
 Defining the Reports
 """""""""""""""""""""
-
-----
+Next each cost lizmit-based report is described, along with a brief explanation of how to use it:
 
 A. Cost Limit Reports
 """"""""""""""""""""""
+
+The cost limit report allows the user to observe month to month the consumption made, making it possible to execute the monitoring of which months exceed the cost limit defined by themselves, and represented on screen through a dashed line. 
+
+On the image below it is possible to observe how this report is shown in a bar graph:
+
+.. figure:: /figuras/fig_lc_ar/04_ucloud_finrel_con_grafico.png
+   :alt: Gráfico colunas do RLC
+   :align: center
+----
    
 **New features:**
 
+The “Costs limit report” screen differs from the other reports, because on it it is possible to do all the operations, they are: create, edit, delete and execute. Therefore, it becomes simple for the user to do its actions.
+
+----
 
 **Step by step:**
 
+At this moment it is informed step by step to carry out these actions on the cost limit screen.
 
-1. **Executing without saving**
+----
 
+**1. Executing without saving**
+
+To run the report, without having a previously saved cost limit, it is necessary to click on the green-colored button, named ``Configure cost limit`` located on the inferior right side of the card, as evidenced on the image below:
+
+.. figure:: /figuras/fig_lc_ar/05_ucloud_finrel_con_limite_custos.png 
+   :alt: Configurar limite de custo  
+   :align: center
+----
+
+On this flow, the “Dynamic cost limit” modal is open, where the user can configure what desires to **generate** the **Cost Limit Report**. In the following image it is possible to note the blanks to be completed.
+
+.. figure:: /figuras/fig_lc_ar/06_ucloud_finrel_con_tipo_filtro.png
+   :alt: Limite de custo dinâmico
+   :align: center
+----
+
+Below is detailed each space of the modal above for the filling:
+
+----
 
 **Steps for Configuration:**
 
+1. The user must inform a name for the cost limit;
+2. Insert the period, it can be: monthly, quarterly, semiannual or annual;
+2. Inform the reference value;
+3. Chose the desired currency, it must be BRL (Real), USD (Dolar), MXN (Mexican Peso), EUR (Euro) and COP (Colombian Peso);
+4. Add the needed filters: Company, Cloud, Linked Accounts and/or Dimension.
+
+.. figure:: /figuras/fig_lc_ar/07_ucloud_finrel_con_num_limite_custos.png
+   :alt: Limite de custo dinâmico
+   :align: center
+----
+
+.. important:: The company, cloud and linked accounts filters can work together, however, Dimension must be used only with other Dimension filters.
+
+
+.. figure:: /figuras/fig_lc_ar/08_ucloud_finrel_con_nuvem.png 
+   :alt: Selecionar Nuvem
+   :align: center
+
+----
+
+The user can also add several filters at the same time through the checkbox, located on the dropdown menu. 
+
+----
 
 **Periods Details:**
 
+Each period automatically configures its start and end month. The table below describes the start and end month of each type:
+
+.. figure:: /figuras/fig_lc_ar/09_ucloud_finrel_con_tipo_intervalo.png 
+   :alt: Detalhes dos intervalos 
+   :align: center
+----
 
 **Post-configuration procedures:**
 
+After the configuration is done, the user must press the ``Execute`` green-colored button, located on the inferior right corner of the modal. Therefore, the process for the data loading is started on screen.
+
+With the loading complete, the user has on the center of the screen a graph with a cost limit line and the total cost of the month separated by product name (when using the Company and/or Cloud)  or by Dimension name (when using the Dimension filter).
+
+.. figure:: /figuras/fig_lc_ar/10_ucloud_finrel_con_filtrar_dados_tela.png
+   :alt: Filtrar Dados em tela
+   :align: center
+----
+
+Right below, three other information are shown:
+
+1. Total cost per month and currency;
+2. Cost by product name, separated by month;
+3. Summary of the configurations applied to generate the report.
+
+The user can observe the following image, to refine the viewing of the chart above:
+
+.. figure:: /figuras/fig_lc_ar/11_ucloud_finrel_con_informações_extras.png
+   :alt: Informações extras
+   :align: center
+
+----
+
+In the figure above, the third card “Applied Configurations”, makes it possible for the user to click on ``Edit``, the orange-colored button, located on the superior right corner. 
+
+When clicking on “Applied Configurations” an opportunity for the user to change one or some information is presented to run the report again. 
+
+----
 
 **Cases in which the data are presented differently:**
 
+* On the condition to insert the Dimension filter, the grouping is not done by product name, and yes by which Dimensions the cost meets.
 
-2. **Saving a cost limit configuration (Creation)**
+.. figure:: /figuras/fig_lc_ar/12_ucloud_finrel_con_filtro_dimensão.png
+   :alt: Filtro por Dimensão 
+   :align: center
+----
 
+* On the hypothesis of two Dimensions being added, and there is a cost that meets both. On the “Cost per Dimension” part this registry is inserted as “Dimensions consumptions per group”, that is, the amount of R$148,38… is present in the [google-bb] Dimension and [TipoUsn].
 
-3. **Executing from a saved configuration**
+.. figure:: /figuras/fig_lc_ar/13_ucloud_finrel_con_dimensões.png
+   :alt: Consumo de Dimensões por grupo 
+   :align: center
+----
 
+To make this understanding accessible to the user, a tooltip (context tip icon) was inserted in each type, which explains to the user how it works.
 
-4. **Editing a cost limit**
+.. figure:: /figuras/fig_lc_ar/14_ucloud_finrel_con_tool_tip.png
+   :alt: Tootip em Consumo de Dimensões  
+   :align: center
+----
 
+**2. Saving a cost limit configuration (Creation)**
 
-5. **Deleting a cost limit**
+To save a configuration, it is necessary to do the “Step by step 1”, shown previously.
 
+Then, the user must search the third card “Applied Configurations” and press “Save”. 
 
-6. **Filtering by period**
+Therefore, this configuration is kept saved for the report execution.
 
+----
 
-7. **Generating projection for the following months**
+**3. Executing from a saved configuration**
+
+After following the “Step by step 1 and 2”, the user must click on the ``Refresh`` action to reload the existing configurations list. The icon to update the screen is evidenced on the image below:
+
+.. figure:: /figuras/fig_lc_ar/15_ucloud_finrel_con_botão_refresh.png
+   :alt: Atualização da tela botão refresh
+   :align: center
+----
+
+In the sequence, the user must click on ``Select a cost limit`` and a screen is shown to select a saved configuration from its name.
+
+In this scenario, four other options of “Actions” are released for the user, according to the list and image followed:
+
+1. Execute;
+2. Edit;
+3. Filter by period;
+4. Delete.
+
+.. figure:: /figuras/fig_lc_ar/16_ucloud_finrel_con_botões_limite_custo.png
+   :alt: Botões de ações limite de custo
+   :align: center
+----
+
+**4. Editing a cost limit**
+
+To edit, the user needs to select a cost limit, and press on ``Edit``, third button located on the “Actions” part.
+
+.. figure:: /figuras/fig_lc_ar/17_ucloud_finrel_con_botão_editar.png
+   :alt: Editando limite de custo 
+   :align: center
+----
+
+In this flow, the “Cost limitEdition” is shown:
+
+.. figure:: /figuras/fig_lc_ar/18_ucloud_finrel_con_modal_edição.png 
+   :alt: Modal Edição
+   :align: center
+----
+
+On it, the user can change the cost limit configuration and save, pressing on the ``Edit``, green-colored button, located on the right inferior corner.
+
+----
+
+**5. Deleting a cost limit**
+
+After the user selects a cost limit, they must click on ``Delete``, fourth button on the “Actions” part:
+
+.. figure:: /figuras/fig_lc_ar/19_ucloud_finrel_con_botão_remover.png 
+   :alt: Botão Remover
+   :align: center
+----
+
+To finish, it is necessary to update the cost limit list to check if the information is no longer being displayed.
+
+----
+
+**6. Filtering by period**
+
+The user needs to select a cost limit, and then click on ``Filter by time period`` second button on the “Actions” part, represented by a magnifying glass.
+
+.. figure:: /figuras/fig_lc_ar/20_ucloud_finrel_con_botão_filtrar_intervalo.png 
+   :alt: Botão Filtrar Intervalo
+   :align: center
+
+----
+
+In the sequence the “Customized search by period” modal is presented:
+
+.. figure:: /figuras/fig_lc_ar/21_ucloud_finrel_con_modal_busca_personalizada.png 
+   :alt: Busca personalizada por período 
+   :align: center
+----
+
+On this modal, the user can observe the name and the selected cost limit period, being possible to change the start month of the period.
+
+.. figure:: /figuras/fig_lc_ar/22_ucloud_finrel_con_modal_busca_alterar_mes.png
+   :alt: Selecionar o período
+   :align: center
+----
+
+After making this change, the user can press ``Execute`` and process the selected cost limit, with the filters that are present in the cost limit. However, now in a different time period.
+
+Rules:
+
+1. The user can only go back until the month in which the cost limit was created.
+2. It is not possible to select the start month as being superior to the current month.
+
+----
+
+**7. Generating projection for the following months**
+
+In case the user selects a quarterly, semiannual or annual period, months ahead of this period are used, that way, a projection is made based on the last 6 (six) months of registries. 
+
+On the figure below, this projection period is presented on the “Dynamic cost threshold” modal:
+
+.. figure:: /figuras/fig_lc_ar/23_ucloud_finrel_con_modal_dinâmico_intervalo.png
+   :alt: Cost Threshold dinâmico
+   :align: center
+----
+
+After loading the information, it is possible for the user to note that, when generating a report, some months have an asterisk (*) next to it. 
+
+.. attention:: |atencao| This asterisk next to the month means: “Projection”. It is based on the information of the last 6 months. Therefore, the period that still occurs can be drawn from the use of past information. 
+
+.. note:: The base of the last 6 months projects the months ahead that are shown with an asterisk.   
+
+Beyond that, there is a subtitle on the graph that informs which consumption period used to generate the projection.
+
+.. figure:: /figuras/fig_lc_ar/24_ucloud_finrel_con_relatorio_legenda.png
+   :alt: Relatório legenda
+   :align: center
+  
+----
+
+And on the information of cost by product name or by dimension, the name “projection” is shown next to the months that were generated through this projection.
+
+.. figure:: /figuras/fig_lc_ar/25_ucloud_finrel_con_custo_produto.png
+   :alt: Custo por nome do produto
+   :align: center
+----
 
 ----
 
 .. centered:: Possible error messages:
 ----
 
+Below are listed some error messages that the user can receive when running the cost limit report:
+
+1. **There are no data that meet this filter**
+
+.. figure:: /figuras/fig_lc_ar/26_ucloud_finrel_con_erro_filtro.png 
+   :alt: Erro filtro
+   :align: center
+----
+
+It happens when the user builds a filter that does not have any registry that is suited for this configuration.
+
+2. **It is not possible to make this processing yet**
+
+.. figure:: /figuras/fig_lc_ar/27_ucloud_finrel_con_erro_processamento.png
+   :alt: Filtrar dados na tela  
+   :align: center
+----
+
+Occurs when the user “Filter by period” and informs a month after the current month.
+
+Tip to avoid this type of problem: just put the start month as a current or previous month.
+
+3. **Invalid cost limit**
+
+.. figure:: /figuras/fig_lc_ar/28_ucloud_finrel_con_erro_limite_custo.png
+   :alt: Limite de custo inválido 
+   :align: center
+----
+
+It happens when the user clicks on ``Delete`` and right after presses to ``Execute`` the same cost limit they deleted. The user does not need to worry, in 5 seconds the list is reloaded and removes the cost limit that was deleted.
+
+To avoid this problem occurring, press on the button referring to ``Refresh`` after deleting it.
+
+4. **It is not possible to generate the costs projection**
+
+
+    .. note:: |nota| It is necessary to have at least 6 months of data history.
+
+It occurs when the cost limit end date is superior to the current month, being necessary to generate the cost projection for the future month and at the processing moment it is verified that do not exist 6 months of previous data to get this projection to be generated.
+
+5. **Start date cannot be previous to creation date**
+
+.. figure:: /figuras/fig_lc_ar/29_ucloud_finrel_con_erro_data_criação.png
+   :alt: Erro data criação
+   :align: center
+----
+
+It happens when the user clicks on “Filter by period” and informs a start month previous to the cost limit creation date.
+
+-----
+
 B. Risk analysis
 """"""""""""""""
 
+The risk analysis report allows that from a saved cost limit, it is possible to make an analysis and display the current consumption on screen, the predicted consumption for the current month, and what is the risk of the consumption exceeding the cost limit previously defined.
+
+.. figure:: /figuras/fig_lc_ar/30_ucloud_finrel_con_limite_custo.png
+   :alt: Análise de risco
+   :align: center
+----
+
 **Step by step:**
 
+At this moment it is informed step by step to make these actions in the cost limit screen.
 
-1. **Executing a risk analysis**
-   
+**1. Executing a risk analysis**
 
-2. **Generate cost limit report from the risk analysis**
+To make the processing it is necessary for the user to create a cost limit on the “Cost limit report” screen, after that they can access the “Risk analysis” screen and on it are listed all the saved cost limits.
 
+From this moment, it is possible to select one or more options, to make the risk analysis processing based on the cost limit configuration, as shown on the image below:
 
-3. **Generate risk analysis from the cost limit report**
+.. figure:: /figuras/fig_lc_ar/31_ucloud_finrel_con_selecionar_limite.png 
+   :alt: Selecionar limite
+   :align: center
 
+----
+
+After making the processing, the user can view the:
+
+1. Current consumption;
+2. Current consumption prediction;
+3. Cost limit;
+4. Risk of the current consumption exceeding the cost limit.
+
+Beyond that, it is also presented on the scope of each cost limit, presented the company name in which it is inserted, the cloud and/or if there are linked accounts.
+
+When selecting the desired options, the green-colored button ``Run`` next to the drop down menu is available for clicking. In this example, the user selected the following cost limit options: annual, monthly, AnnualReport and Quarterly/Company. 
+
+Observe the image below for better view:
+
+.. figure:: /figuras/fig_lc_ar/32_ucloud_finrel_con_resultado_analise_risco.png
+   :alt: Resultado análise de risco 
+   :align: center
+----
+
+In the previous image it is possible to observe a scale containing the risk level. For a better comprehension of the risks, the user must click on the orange-colored button on the inferior right corner of the screen, represented by a white arrow pointing to the right side.
+
+When being pressed, a table is opened where the user can view the description of each type of risk that can be informed on screen. The risks can be presented as: 
+
+* Unavailable;
+* Very low;
+* Low;
+* Moderate;
+* High;
+* Very high and
+* Extreme.
+
+Next are images for better view:
+
+.. figure:: /figuras/fig_lc_ar/33_ucloud_finrel_con_legenda_risco.png
+   :alt: Legenda de risco
+   :align: center
+----
+
+.. figure:: /figuras/fig_lc_ar/34_ucloud_finrel_con_legenda_risco_expandida.png
+   :alt: Legenda de risco expandida
+   :align: center
+----
+
+It is noticeable that when going through one level to another, the colors change. The unavailable risk does not present any color, while the low and very low risks are represented by the color green. 
+
+The moderate and high risks are shown in yellow, and the very high and extreme are exposed in red.
+
+----
+
+**2. Generate cost limit report from the risk analysis**
+
+After the risk analysis process is done, the user can click on the graph icon, located on the superior right corner of the card, generated on the result. 
+
+.. figure:: /figuras/fig_lc_ar/35_ucloud_finrel_con_visualizar_limite.png
+   :alt: Visualizar limite
+   :align: center
+----
+
+Then, they are redirected to the cost limit report screen where the automatic cost limit processing in which was clicked.
+
+----
+
+**3. Generate risk analysis from the cost limit report**
+
+After the user runs a cost limit already saved, a new option is shown on the “Applied settings” part, where is redirected to the risk analysis screen, processing automatically from a processed cost limit.
+
+.. figure:: /figuras/fig_lc_ar/36_ucloud_finrel_con_visualizar_analise.png
+   :alt: Visualizar como análise de risco
+   :align: center
+----
 
 ----
 
 Invoice based-panels
 ---------------------
+
+The Invoice-based panels present billling value information uniquily regarding to a already closed period (previous month) for the payment in the next month. It is possible to compare the example of the "Credit Card" bill. In the bill there is only the consumption of the previous month, for the payment on the current one.
+
+The values presented in this menu option must take into consideration that the uCloud platform has three types of user identified as 'basic profiles', as described below:
+
+A. **System users**: they are the regular users that access the system to consume the resources.
+B. **Group Administrator users**: they are users that are associated to a user group, they can provision and change other users in the platform.
+3. **Company Administrator users**: they are users that are associated to a company and about this company they can define ticketing rules, provision and change other users in the platform.
+
+
+When a **System User** starts a session in the uCloud platform, if this user has permission to view the Billing menu and the My Invoice option, the values presented in the reports refer only to the computing resources this user is linked to, because it has permission to view the "Invoice" menu and its costs. This user does not have permission to view the Invoice values of another user or Group to which it belongs, nor the total value of the Company.
+
+When a **Group Administrator User** starts a session in the uCloud platform, the values presented in the reports refers to the computing resources values this user and all the users that are linked to this Group. This user does not have permission to view the total value of the Company.
+
+When a **Company Administrator User** starts a session in the uCloud platform, the values presented in the reports refer to the computing resources value of this user. This user has the profile to permit visualization of the total accumulated value of the Company(ies) to which its user was provisioned in the Administrator field. Consequently, this user can view the consumption in the groups that was (were) linked to the company(ies), and finally the values of all the users that are linked to the Groups.
+
+To illustrate this report and its values, it is used a credencial with the *Company Administrator User* level in this document. The images used are merelly illustrative and must only be viewed as example. 
 
 ----
 
@@ -2893,7 +3303,7 @@ For example:
 * The user or the organization, can define a set of Tags for the Amazon EC2 instances of their account, to help track the owner and/or grouping level (stack values) of each computing resource of the public cloud consumed.
 
 .. figure:: /figuras/figuras-release-notes-ingles-espanhol/ucloud_menu_configuracao_tags_virtual001-en-us.png
-   :scale: 60%
+   :alt: virtual tags
    :align: center
 ----
 
