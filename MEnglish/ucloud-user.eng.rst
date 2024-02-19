@@ -1639,10 +1639,27 @@ Invoicing Rule
 **Reports**
 -------------
 
+In this flow, the following image is presented to the user when the Reports submenu is accessed:
+
+.. image:: /figuras/tendencia_faturamento_eng/001_ibp_reports_submenu.png
+   :alt: Reports panels based in consumption and invoice 
+   :align: center
 ----
 
 Consumption-Based Panels
 -------------------------
+
+In this flow, the following image is presented to the user when the Reports submenu is accessed:
+
+As mentioned, this cost regards to the computing resources consumption accumulated values in the current month up to the current day or up to the last 'window' of values processing through the provider. It is presented a set of reports:
+
+* Service History
+* Cadenced Billing
+* Product Relational Cost
+* Resource Viewing
+* Budgets Costs
+* Consumption Monitoring
+* Cost-limit based
 
 ----
 
@@ -2192,55 +2209,357 @@ Use case:
 Billing Trend Report (BTR)
 ----------------------------
 
+The Billing Trend Report (BTR), briefly named as BTR, is based on invoices that refer to financial value information about a closed period. It allows the user to consult information related to a company's invoice, and details the visualization from a monthly filter.
+
+This report enables the detection of any spending anomaly, based on certain analyzed contracts. Proportioning an analytical and complete view in two formats: - Product name and - Tag.
+
+From the invoice reports it must be possible to execute the billing trend rules, it can project the expenses up to 6 months ahead. 
+
+On the sequence the consult flows to based-invoice information, that shows the application of available filters and the online graphics presentation, as well as the possibility of the file download in .xlsx (Excel) format for later use. 
+
 ----
 
 Accessing the BTR
 ~~~~~~~~~~~~~~~~~~~
 
+To access the BTR, the user just needs to click on the Billing menu and then on the Reports submenu, as shown in the figure below:
+
+.. image:: /figuras/tendencia_faturamento_eng/001_ibp_reports_submenu.png
+   :alt: Reports panels based in consumption and invoice 
+   :align: center
+----
+
+This screen is divided in two groups: "Consumption-based Panels" and "Invoice-based Panels", the BTR is found on the second topic, highlighted in the following picture.
+
+.. image:: /figuras/tendencia_faturamento_eng/002_consumption_based_panels.png
+   :alt: Panels based in invoice 
+   :align: center
 ----
 
 Creating a BTR
 ~~~~~~~~~~~~~~
+
+When clicking on the ``Billing trend`` button, the platform presents the following screen:
+
+ .. image:: /figuras/tendencia_faturamento_eng/003_billing_cir_company.png
+   :alt: Select company 
+   :align: center
+----
+
+In this image, it is possible to view the companies linked to the logged user. This modal allows the search by company name with help from the search bar, when finding what desires just select it and a new screen is presented to proceed with the consultation.
+
+ .. image:: /figuras/tendencia_faturamento_eng/004_billing_btr_home_screen_linked_accounts.png
+   :alt: Home screen 
+   :align: center
+----
+
+In the image above it is possible to see the following functionalities:
+
+* ``Back``
+* ``Export report``
+* ``Gap``
+* ``Group by``
+* ``Search``
+* ``Select Linked Accounts``
+
+
+.. important:: The ``Select Linked Accounts`` functionality is only made available if the user has Linked Accounts in the selected company.
+
+
+.. image:: /figuras/tendencia_faturamento_eng/005_billing_btr_date.png
+   :alt: Select date
+   :align: center
+----
+
+To create a BTR on this screen, the user must start the procedure by selecting the gap, where it is necessary to choose the months on the presented calendar, and click on the start and end period to obtain the desired report.
+
+.. image:: /figuras/tendencia_faturamento_eng/006_billing_btr_date_expanded.png
+   :alt: Select date
+   :align: center
+----
+
+If the user wants to select any month from the previous or after years, just click on the arrows to the right or left. In the example displayed above, the gap selected regards from Aug/2022 to Jan/2023.
+
+After that, the dropdown menu next to the blank regarding the Gap, the user must select the type of report grouping: by **product name** or by **tag**, and click on the ``Search`` button.
+
+.. image:: /figuras/tendencia_faturamento_eng/007_billing_btr_group_search.png
+   :alt: Grouping type
+   :align: center
+----
+
+The following example regards a consult by tag and the uCloud platform presents an alert screen with the warning message, as shown below. To continue the search the user must click on the ``Ok`` button.
+
+.. image:: /figuras/tendencia_faturamento_eng/008_billing_btr_warning_tag.png
+   :alt: Warning message
+   :align: center
+----
+
+To download the searched data, just click on the green-colored ``Export report`` button, located on the right corner of the screen.
+
+.. image:: /figuras/tendencia_faturamento_eng/009_billing_btr_button_export.png
+   :alt: Export report button
+   :align: center
+----
+
+A new modal is presented, and for the exportation to be concluded, it is necessary to fill out all the blanks, as shown below:
+
+* **Gap**: Divided into monthly, weekly and daily.
+* **Period**: To select a period, just click on the initial and end month. In case the user needs a month from the previous or later year, they must click on the arrows next to the year shown to go backwards and forwards, as mentioned previously.
+* **Type**: Presents the options of *Resources* and *Tag*.
+
+The last step of this modal is to click on the button ``Export report`` so the "Generating New Report" screen is presented.
+
+.. image:: /figuras/tendencia_faturamento_eng/010_billing_btr_modal_export.png
+   :alt: Export modal
+   :align: center
+----
+
+On this modal, in case the user wants to be notified, it is necessary to fill the blank with the email.
+
+If the user wishes to schedule the report, just select the date, and click on the option: ``Schedule report``, that is made available as soon as the date blank is filled.
+
+On the condition of recurring schedule, it is only needed to click on the button located right below the date blank.
+
+In case it is desired to generate the report for the first time, just click on ``Generate report``.
+
+If the user wants to download the last generated file, they must continue the flow described next.
 
 ----
 
 How to download the file 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+After confirming the task success, the user must retake the steps to return to the Reports page, as well as the process to export the data, after the modal **Generating New Report** is shown.
+
+.. image:: /figuras/tendencia_faturamento_eng/011_billing_btr_download_action.png
+   :alt: Modal new report
+   :align: center
+----
+
+To download the BTR file in .xlsx (Excel) format, the user must click on the button ``Last report generated in`` located on the inferior part of the modal, followed by the date and time in which the task was shown as successful on the Tasks menu.
+
+.. note:: The button for download is available only after the task presents the successful status.
+
 ----
 
 Following the download on the Tasks Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+When requesting the generation of a new report, it is possible to track the task evolution on the Tasks Menu, according to the image below.
+
+.. image:: /figuras/tendencia_faturamento_eng/012_billing_btr_successful.png
+   :alt: Successful status
+   :align: center
+----
+
+The file is downloaded in .xlsx (Excel) format, as presented next.
+
+.. image:: /figuras/tendencia_faturamento_eng/013_ibp_file_download.png
+   :alt: File download
+   :align: center
 ----
 
 Viewing the BTR
 ~~~~~~~~~~~~~~~
+
+As mentioned previously, there are two types of visualization on the exportation to obtain a complete analysis of the report:
+
+1. Product name
+2. Tag (.csv file blanks detailed)
+
+The BTR has the possibility of filtering by product as well as by tag.
+
+From this first filter, all the chosen companies resources must be displayed (whether it is divided by products name or by tags), showing specific information about each one of those, with four metrics:
+
+1. Average spending
+2. Spending tolerance
+3. Mobile average
+4. Cost
 
 ----
 
 Grouping by product name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The first report screen to be displayed is the general information about the company, where the left side is presented with a chart about the total expenses per month.
+
+.. image:: /figuras/tendencia_faturamento_eng/014_billing_btr_company.png
+   :alt: Company graphic
+   :align: center
+----
+
+To project the cost, the user must select the projection month on the superior part of the screen, and click on the ``Project cost`` button. Next, a new column is added on the charts presented throughout the report.
+
+.. image:: /figuras/tendencia_faturamento_eng/015_billing_btr_company_projection.png
+   :alt: Project cost
+   :align: center
+----
+
+If the user wants to remove the new bar, just click on the ``Clear`` button next to ``Project cost``.
+
+Right below, the resources report area, is displayed the total number of resources presented on the chosen company, and four values are shown:
+
+1. Highest Average Spending
+2. Lowest Average Spending
+3. General Average Spending
+4. Total value
+
+On the right side, the chart is presented with the spending projection of each month within the selected period.
+
+.. image:: /figuras/tendencia_faturamento_eng/016_billing_btr_resource.png
+   :alt: Report by resource
+   :align: center
+----
+
+When opening the report it is possible to notice an orange-colored button on the right corner of the screen, represented by a white arrow pointing to the left side.
+
+.. image:: /figuras/tendencia_faturamento_eng/017_billing_btr_side_tab.png
+   :alt: Side tab
+   :align: center
+----
+
+Clicking on this button, a tab is expanded with the products names of this company. With the search bar help, it is possible to look for a specific resource, and when clicking on it the user is taken directly to its chart.
+
+.. image:: /figuras/tendencia_faturamento_eng/018_billing_btr_tab_side_expanded.png
+   :alt: Side tab expanded
+   :align: center
+----
+
+In case the user has followed the flow for the report exportation for offline viewing, the file is presented the following way:
+
+.. image:: /figuras/tendencia_faturamento_eng/019_billing_btr_excel.png
+   :alt: Excel spreadsheet
+   :align: center
+----
+
+On this example of offline report, it is noticed nine columns, they are:
+
+ * Created by
+ * Product name
+ * Product family
+ * Usage type
+ * Cloud identifier
+ * Linked
+ * 2022-11
+ * 2022-12
+ * 2023-01
+
+The last three columns refer to the year and month of the selected period, in the case of this example from Nov/2022 to Jan/2023.
+
 ----
 
 Grouping by Tag
 ~~~~~~~~~~~~~~~~~~
+
+When grouping by tag, a dropdown menu is presented on the company area with the following filtering options:
+
+* All the tags
+* Metric
+* Name
+
+.. image:: /figuras/tendencia_faturamento_eng/020_billing_btr_company_tag.png
+   :alt: Grouping by tag
+   :align: center
+----
+
+In case the user has followed the flow for report exportation and offline viewing, the file is presented the following way:
+
+.. image:: /figuras/tendencia_faturamento_eng/021_billing_btr_tag_offline.png
+   :alt: Excel spreadsheet
+   :align: center
+----
+
+This example of offline report displays ten columns of information, listed next:
+
+ * Created by
+ * Product name
+ * Usage type
+ * Cloud identifier
+ * Linked
+ * Tag
+ * 2022-12
+ * 2023-01
+ * 2023-02
+
+The last three columns refer to the year and month of the selected period, in the case of this example from Dec/2022 to Fev/2023.
 
 ----
 
 Filtering by anomaly
 ~~~~~~~~~~~~~~~~~~
 
+It makes it possible for the user to filter by anomaly within the company analyzing all the resources. For that, there is a flag to "Show only anomalies" with the option to trigger it or not. By triggering it, the resources displayed on the screen are reduced, presenting only those that really have spending anomalies.
+
+.. image:: /figuras/tendencia_faturamento_eng/022_billing_btr_anomaly.png
+   :alt: Flag anomaly
+   :align: center
+----
+
+The representation of an anomaly is given through the limit overtaking the calculated spending based on the rule of the third quartile formula. When clicking on the tooltip next to the flag "Show only anomalies", the following message is displayed:
+
+.. image:: /figuras/tendencia_faturamento_eng/023_billing_btr_equations.png
+   :alt: Equations message
+   :align: center
+----
+
+In case the anomalies are inexistent, a warning is shown on the details screen of the report company, as shown in the image below.
+
+.. image:: /figuras/tendencia_faturamento_eng/024_billing_btr_message_anomaly.png
+   :alt: Anomaly message
+   :align: center
+----
+
+Besides this warning, no chart is presented.
+
+Although, in case there are spending anomalies, a column of distinct color shows on the charts, as presented on the following image:
+
+.. image:: /figuras/tendencia_faturamento_eng/025_billing_btr_anomaly_chart.png
+   :alt: Anomaly graphic
+   :align: center
 ----
 
 Linked Accounts
 ----------------
 
+In case the user does not have accounts associated with the company, a message is presented under the date: "This company does not have Linked Accounts".
+
+.. image:: /figuras/tendencia_faturamento_eng/026_billing_btr_linked_accounts.png
+   :alt: Linked Accounts
+   :align: center
 ----
 
-**Utilitaries**
+Although, if the user has accounts associated with the company, they can view it through the triggering of the flag "Select Linked Accounts" as the example presented.
+
+.. image:: /figuras/tendencia_faturamento_eng/027_billing_btr_linked_accounts_button.png
+   :alt: Button Linked Accounts
+   :align: center
+----
+
+When triggering it, the accounts associated with the company are displayed right below the flag that keeps the orange color. And the accounts are released for selection, as the following image.
+
+.. image:: /figuras/tendencia_faturamento_eng/028_billing_btr_linked_account_selected.png
+   :alt: Linked account selected
+   :align: center
+----
+
+After selecting a desired account, the charts regarding it are presented the same way as presented previously (Viewing the BTR). It is also possible to opt for all the presented accounts, in this example there are two linked accounts.
+
+In case it is desired to forget the selected account, the button ``Clear`` next to the listed accounts must be clicked.
+
+If it is of the user's interest to export the Linked Accounts data for their machine, it is only necessary to follow the steps described previously on the topic: How to download the file.
+
+----
+
+**Utilities**
 --------------
+
+Resuming the subject about the current corporate organizations adopt the cloud as a solution to manage their environments, sometimes, a combination of private and public clouds.
+
+The great challenge is the management of these hybrid multi-cloud environments, to reach a unified vision and obtain the financial costs, once each company has a type of necessity and faces different challenges.
+
+In this hybrid multi-cloud scenario, the computing resources need financial governance and the uCloud platform provides the management of these resources used in the environments. It is through the billing menu that the user can have access to several ways os viewing the evolution of costs regarding the computing resources consumption.
+
+The platform organizes the optimization of these costs by standardizing and placing billing limits as well as quantitative and qualitative from the computing resources obtained in the multiple cloud providers. Besides the existing panels, the Reports submenu innovates by enables the implementations: Dimension and Virtual Tags, utilities functionalities that favor the reports detailed next.
 
 ----
 
