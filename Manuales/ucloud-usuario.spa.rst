@@ -2465,16 +2465,16 @@ Para crear un ITF en esta pantalla, el usuario debe iniciar el procedimiento sel
    :align: center
 ----
 
-Si el usuario desea seleccionar algún mes del año anterior o posterior, basta pulsar las flechas derecha o izquierda. En el ejemplo mostrado arriba, el intervalo seleccionado está comprendido entre NOV/2022 y Ene/2023.
+Si el usuario desea seleccionar algún mes del año anterior o posterior, basta pulsar las flechas derecha o izquierda. En el ejemplo mostrado arriba, el intervalo seleccionado está comprendido entre NOV/2022 y ENE/2023.
 
-A continuación, en el menú desplegable situado al lado del campo referente al Intervalo, el usuario debe seleccionar el tipo de agrupación del informe: por **nombre del producto** o por **tag**, y hacer clic en el botón ``Buscar``.
+A continuación, en el menú desplegable situado al lado del campo referente al Intervalo, el usuario debe seleccionar el tipo de agrupación del informe: por **nombre del producto** o por **TAG**, y hacer clic en el botón ``Buscar``.
 
 .. image:: /figuras/fig_rtf_spa/07_financiero_agrupación.png
    :alt: Tipo de agrupación
    :align: center
 ----
 
-El siguiente ejemplo trata de una consulta por *tag* y la plataforma uCloud presenta una pantalla de alerta con el mensaje de atención, que se muestra a continuación. Para continuar la búsqueda el usuario debe hacer clic en el botón ``Ok``.
+El siguiente ejemplo trata de una consulta por *TAG* y la plataforma uCloud presenta una pantalla de alerta con el mensaje de atención, que se muestra a continuación. Para continuar la búsqueda el usuario debe hacer clic en el botón ``Ok``.
 
 .. image:: /figuras/fig_rtf_spa/08_financiero_alerta_tag.png
    :alt: Mensaje de atención
@@ -2612,7 +2612,7 @@ En la parte derecha, el gráfico se presenta con la proyección de gastos para c
    :align: center
 ----
 
-Al abrir el informe es posible observar un botón de color naranja en la esquina derecha de la pantalla, representado por una flecha blanca que apunta hacia el lado izquierdo.  
+Al abrir el informe, es posible observar un botón de color naranja en la esquina derecha de la pantalla, representado por una flecha blanca que apunta hacia el lado izquierdo.  
 
 .. image:: /figuras/fig_rtf_spa/18_recursos_del_informe_flecha.png
    :alt: Pestaña lateral
@@ -2657,7 +2657,7 @@ Agrupación por *Tag*
 Cuando se agrupa por *tag*, un menú desplegable se presenta en el área del contrato con las siguientes opciones de filtrado:
 
 
-* Todos los *tags*
+* Todos los *Tags*
 * Métrica
 * Nombre
 
@@ -2710,7 +2710,7 @@ La representación de una anomalía se realiza mediante la superación del lími
    :align: center
 ----
 
-Si las anomalías son inexistentes, se muestra una advertencia en la pantalla de detalles del contrato del informe, como se muestra en la imagen siguiente.
+Si las anomalías son inexistentes, se muestra una advertencia en la pantalla de detalles del contrato del informe, como se presenta en la imagen siguiente.
 
 .. image:: /figuras/fig_rtf_spa/25_no_hay_anomalias_de_costos.png
    :alt: Mensaje de anomalía
@@ -2762,7 +2762,7 @@ Una vez seleccionada la cuenta deseada, los gráficos referidos a ésta se prese
 
 Si deseas olvidar la cuenta seleccionada, debes hacer clic en el botón ``Borrar`` que aparece al lado de las cuentas de la lista.
 
-Si el usuario está interesado en exportar los datos de las *Linked Accounts* para su máquina, sólo es necesario seguir los pasos descritos anteriormente en el tópico: Como descargar el archivo.
+Si el usuario está interesado en exportar los datos de las *Linked Accounts* para su máquina, sólo es necesario seguir los pasos descritos anteriormente en el tópico: "Como descargar el archivo".
 
 ====
 
