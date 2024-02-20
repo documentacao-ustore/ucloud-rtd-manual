@@ -2356,38 +2356,372 @@ Financiero
 Informe Consolidado de Facturación (ICF)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Esta opción de submenú permite al usuario consultar informes de consumo, que posibilitan el gobierno de costos de los recursos computacionales de nube, de forma muy granular y con presentación de valores en Unidad de Servicio de Nube (USN).
+
+.. attention::  |atencao| Unidad de Servicio de Nube (USN) es un modelo de fijación de precios para servicios de nube, asignado a las entidades y agencias que integran la esfera gubernamental brasileña. Pretende establecerse como un método previsible, lineal y flexible para la obtención de un importe específico cobrado por los servicios de computación en nube.
+
 ----
 
 Accediendo al ICF
 """"""""""""""""""
+
+Para acceder al informe, el usuario debe hacer clic en “Financiero”, situado en el menú de funcionalidades de la parte izquierda de la pantalla, y después hacer clic en “Informes”.
+
+Cuando el usuario selecciona esta opción, la plataforma uCloud muestra la siguiente pantalla:
+
+.. image:: /figuras/fig_rcf/01_menu_financeiro.png
+   :alt: menu financeiro
+   :align: center
+----
+
+Como en el ejemplo anterior, observamos que el menú financiero está dividido en dos grupos: "Paneles Basados en el Consumo" y "Paneles Basados en la Facturación", el Informe Consolidado de Facturación se encuentra en el segundo grupo.
+
+.. image:: /figuras/fig_rcf/02_paineis_baseado_fatura.png
+   :alt: paineis baseados em fatura
+   :align: center
+----  
+
+Al hacer clic en el botón correspondiente, la plataforma uCloud presenta la siguiente pantalla:
+
+.. image:: /figuras/fig_rcf/03_tela_inicial.png
+   :alt: tela inicial
+   :align: center
+----
 
 ----
 
 Seleccionando el ICF
 """"""""""""""""""""
 
+El usuario puede seleccionar un periodo y un contrato para buscar el historial de facturas, al hacer clic en el campo de **inserción de fecha**, la plataforma uCloud entrega una pantalla con un calendario, para que se pueda seleccionar el periodo deseado (en este, es posible desplazarse por meses y años pasados), después de seleccionada la fecha, los botones disponibles para el usuario son: ``Cancelar`` y ``Aplicar``:
+----
+
+* Botón ``Cancelar``: Puede ser utilizado por el usuario, si quiere desistir de la selección.
+* Botón ``Aplicar``: Debe ser pulsado después de seleccionar el periodo de búsqueda.
+
+.. image:: /figuras/fig_rcf/04_calendário.png
+   :alt: selecionar data no calendário
+   :align: center
+----
+
+En el campo para buscar el contrato deseado, se muestran todos los contratos registrados en la plataforma. Según la demanda, se puede realizar una búsqueda completa pulsando la opción ``Seleccionar Todos`` o una búsqueda dirigida, donde el usuario simplemente elige los contratos de su interés.
+
+.. image:: /figuras/fig_rcf/05_selecionar_contrato.png
+   :alt: selecionar contrato
+   :align: center
+----
+
+El Informe Consolidado de Facturación dispone de 5 tipos de filtros, que pueden ser utilizados por el usuario, estos son:
+
+  1. ID de la Propuesta
+  2. CR
+  3. Número de Contrato
+  4. Número OC 
+  5. Producto
+
+.. image:: /figuras/fig_rcf/06_filtros_de_pesquisa.png
+   :alt: filtros de pesquisa
+   :align: center
+----
+
+Los filtros elegidos por el usuario permanecen rellenos en “naranja”, si no se selecciona ningún filtro, las opciones aparecen sin marcas. En el ejemplo siguiente, el usuario ha seleccionado los filtros *ID de la Propuesta* y *Número de Contrato*.
+
+.. image:: /figuras/fig_rcf/07_filtros_marcados.png
+   :alt: filtros marcados
+   :align: center
+----
+
+Una vez finalizada la selección de los datos para el Informe Consolidado de Facturación, se debe pulsar el botón ``Buscar``. 
+
+.. image:: /figuras/fig_rcf/08_pesquisar_apos_selecao.png
+   :alt: pesquisar após selecionar
+   :align: center
+----
+
+Si el usuario desea rehacer la búsqueda, sólo tiene que hacer clic en el botón ``Volver`` y reiniciar todo el proceso.
+
+.. attention:: |atencao| En la esquina superior derecha están los iconos de las opciones de abrir y cerrar facturas.
+
+En el recorte de la esquina superior derecha de la pantalla, la siguiente imagen muestra el icono accionado «Abrir todas las facturas».
+
+.. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
+   :alt: abrir todas faturas
+   :align: center
+----
+
+Estas opciones permiten al usuario determinar ambas acciones en el periodo deseado sobre todos los contratos existentes que pueden ser investigados, individualmente o en conjuntos específicos.
+
+Al habilitar la apertura de la factura, el modal es exhibido:
+
+.. image:: /figuras/fig_rcf/10_abrir_fatura.png
+   :alt: abrir fatura
+   :align: center
+----
+
+Después que el usuario selecciona los campos de acuerdo con lo deseado, el contrato y el mes, el botón ``Abrir Facturas`` se habilita y permanece en color verde para ser pulsado, así la operación es realizada.
+
+Al habilitar el cierre de la factura, el modal es presentado:
+
+.. image:: /figuras/fig_rcf/11_fechar_fatura.png
+   :alt: fechar fatura
+   :align: center
+----
+
+Una vez que el usuario selecciona los campos según el contrato y mes deseados, el botón ``Cerrar Facturas`` se habilita y presenta una coloración verde para ser pulsado, así se realiza la operación.
+
+En cualquier momento se puede pulsar el botón ``Cancelar``, en los dos casos detallados anteriormente.
+
 ----
 
 Siguiendo la consulta del ICF
 """"""""""""""""""""""""""""""
+
+Al hacer clic en buscar, el usuario debe esperar que la plataforma uCloud obtenga las informaciones solicitadas, esta acción puede tomar algunos minutos conforme al ejemplo siguiente.
+
+.. image:: /figuras/fig_rcf/12_aguardar_pesquisa.png
+   :alt: aguardar pesquisa
+   :align: center
+---- 
+
+Una vez finalizada la búsqueda, si no hay informaciones relacionadas con las selecciones de los filtros, la plataforma uCloud informa que no hay historial de facturación para el contrato en el período informado.
+
+.. image:: /figuras/fig_rcf/13_historico_inexistente.png
+   :alt: histórico inexistente
+   :align: center
+---- 
+
+En la existencia de informaciones, la plataforma uCloud evoluciona hacia dos tipos de escenario:
+
+1. En la evolución del filtrado y la búsqueda de datos, el número y el nombre de los contratos existentes que presentan un fallo en la búsqueda de los valores se muestran en la parte izquierda de la pantalla y aparecen en rojo, como en el ejemplo:
+
+.. image:: /figuras/fig_rcf/14_evoluir_filtragem.png
+   :alt: evoluir filtragem
+   :align: center
+----  
+
+.. attention:: |atencao| Usuario, si esto ocurre en tu búsqueda, por favor, póngase en contacto con el soporte de la plataforma uCloud.
+
+2. Siguiendo el flujo de búsqueda de datos, se listan los contratos encontrados.
+
+.. image:: /figuras/fig_rcf/15_pesquisa_contrato.png
+   :alt: pesquisa contrato
+   :align: center
+---- 
 
 ----
 
 Listado de contratos en el ICF
 """"""""""""""""""""""""""""""
 
+Tras cargar las informaciones, la plataforma muestra la lista de los contratos encontrados según la búsqueda realizada por el usuario, la pantalla exhibe ocho columnas:
+
+  * el nombre de dichos contratos;
+  * sus periodos de consumo;
+  * el mes de facturación;
+  * la fecha de cierre;
+  * su *status* (Cerrada o Abierta); 
+  * precio; 
+  * costo en USN 
+  * Acciones.
+
+Esta última columna: "Acciones", incluye los 4 botones listados a continuación, según la siguiente imagen:
+
+   * Ver detalles
+   * Descargar
+   * Abrir Factura 
+   * Cerrar Factura
+
+.. image:: /figuras/fig_rcf/15_botões_de_ação.png
+   :alt: botões de ação
+   :align: center
+----
+
+Si la lista de contratos es demasiado larga, la funcionalidad de la barra de desplazamiento permite al usuario navegar hacia arriba y hacia abajo a lo largo de toda la pantalla.
+
+.. image:: /figuras/fig_rcf/16_listando_contratos.png
+   :alt: listando contrato
+   :align: center
+----  
+
+A continuación se muestra las informaciones detalladas de esta pantalla:
+
+* **Total**: Valor total de la facturación de los contratos investigados. La plataforma uCloud convierte automáticamente los valores de USN a Real (R$), lo que permite al usuario evaluar el valor en moneda local.
+* **Botón** ``Exportar``: Este botón permite al usuario exportar las informaciones de todos los contratos filtrados, en formato de tabla MS-Excel (.xlsx). La plataforma uCloud descarga el archivo en la máquina del usuario y exporta las informaciones con el nombre “*invoices.xlsx*” en el directorio/*folder* configurado en las opciones del navegador que el usuario está utilizando.
+
+.. image:: /figuras/fig_rcf/17_botão_exportar.png
+   :alt: botão exportar
+   :align: center
+----  
+
+En este flujo se detallan las columnas de la pantalla "Listado de contratos":
+
+* **Contrato**: Presenta el(los) nombre(s) del(de los) contrato(s) filtrado(s) en la búsqueda.
+* **Período de Consumo**: Presenta la fecha de inicio y fin del mes para el que se contabiliza el valor financiero del contrato. También muestra la hora de inicio y fin de cada uno de los datos enumerados. El periodo de consumo es siempre anterior al mes de facturación. 
+* **Mes de Facturación**: Informa el mes en el que vence y debe pagarse la factura. Siempre es el mes siguiente al mes del periodo de consumo.
+* **Fecha de Cierre**: Esta columna indica al usuario si la factura está abierta o cerrada. Para los contratos que presentan el *status* "Abierta", se muestra el icono "tooltip", que llama la atención del lector sobre el mensaje: *“La fecha de cierre de su factura no ha sido registrada porque aún está abierta”*, (que se muestra en el siguiente ejemplo). Los contratos que presentan el *status* “Cerrada”, en cambio, muestran la fecha y hora de cierre de la factura.
+
+.. image:: /figuras/fig_rcf/18_detalhando_colunas.png
+   :alt: detalhando colunas
+   :align: center
+----
+
+* **Status**: Presenta el estado de la factura, hay dos tipos: Abierta o Cerrada.
+* **Precio**: Presenta el valor total de la factura del mes, puede mostrarse en Real o Dólar, según la política del contrato. En este ejemplo, el valor se expresa en moneda brasileña (Real - R$).
+* **Costo en USN**: Presenta el importe total de la factura del mes, expresado en Unidad de Servicio de Nube (USN).
+
+.. note:: |nota| Las cuatro columnas: contrato, mes de facturación, precio y costo en USN posibilitan la alternancia de los datos presentados.
+
 ----
 
 Detallando las acciones del ICF
 """"""""""""""""""""""""""""""
+
+La última columna de los contratos listados es la columna de acciones, tiene 4 botones: ``Ver Detalles``, ``Descargar``, ``Abrir Factura`` y ``Cerrar Factura``, la función de cada uno se detalla a continuación.
+
+* **Botón** ``Ver detalles``: Al hacer clic en esta opción, el usuario puede ver los detalles de la factura del contrato. Para las facturas con *status* “Cerrada”, la plataforma uCloud muestra la pantalla siguiente:
+
+.. image:: /figuras/fig_rcf/19_detalhes_status_fechada.png
+   :alt: detalhes status fechada
+   :align: center
+----
+
+En el primer *card* “Factura del contrato” es posible visualizar la cotización del dólar en la fecha que marca el inicio de la factura del contrato en cuestión, junto con el valor total del consumo en el mes anterior al de la factura seleccionada.
+
+Por ejemplo:
+
+Si la factura seleccionada corresponde al mes de noviembre, los valores de consumo mostrados corresponden al mes anterior, en este caso octubre.
+
+Siguiendo el flujo del análisis, el segundo *card* “Consumo de recursos durante el mes” exhibe un gráfico de barras.  Al lado, el “Gráfico de consumo por grupo” indica el consumo de recursos por grupo, mostrado en un gráfico circular, ambos gráficos representan un recurso visual que ayuda al usuario a comprender los datos del contrato seleccionado.
+
+El último card “Grupos” exhibe informaciones más específicas sobre los grupos que utilizan el contrato, el usuario puede hacer clic en “Detalles” y la plataforma entrega el nombre de los grupos y los costos que cada uno representa sobre el valor total del contrato.
+
+.. image:: /figuras/fig_rcf/19_detalhes_status_fechada.png
+   :alt: detalhes status fechada
+   :align: center
+----
+
+El botón ``Exportar``, situado en la parte superior derecha de esta pantalla, ofrece al usuario la posibilidad de realizar el *download* de los archivos en formato CSV y PDF.
+
+.. image:: /figuras/fig_rcf/20_exporta_csv_pdf.png
+   :alt: exportar csv e pdf
+   :align: center
+----
+
+En formato PDF, el archivo se descarga inmediatamente. Este fichero contiene las informaciones resumidas de los contratos, que son las mismas que se presentan en la opción “Detalles” explicada anteriormente.
+
+Veamos el ejemplo:
+
+.. image:: /figuras/fig_rcf/21_formato_pdf.png
+   :alt: formato pdf
+   :align: center
+----
+
+En el caso de que el usuario necesite un archivo con la totalidad de la lista de ítems de la factura, debe hacer clic en CSV para descargar un archivo tipo hoja de cálculo (MS-Excel). Una vez realizado esto, la plataforma uCloud presenta un modal llamado “Generando Nuevo Informe”.
+
+En él, se solicita un correo electrónico para que el usuario sea informado sobre la finalización de la producción del archivo y su disponibilidad para visualización, la adición del correo electrónico es opcional, si el usuario no desea ser informado basta dejar el campo sin rellenar.
+
+En la pantalla se puede aún programar la producción del informe para una fecha específica o si la producción sigue una fecha recurrente.
 
 ----
 
 Caso de uso:
 """"""""""""""
 
+**Obtener el informe en formato CSV**
+
+
+Para obtener el informe en formato CSV pueden darse dos tipos de situaciones: 
+
+1- Si aún no hay ningún informe generado por el sistema, la opción de *descargar el último archivo generado* no aparece habilitada. La creación del informe debe ser solicitada, haciendo clic en la opción ``Generar Informe``, conforme el ejemplo:
+
+.. image:: /figuras/fig_rcf/22_criar_relatório.png
+   :alt: criar relatório 
+   :align: center
 ----
 
+Una vez realizada la última acción, en el icono del menú Tareas, situado en la parte superior derecha, la plataforma uCloud muestra una alerta informando que se está generando un nuevo informe.
+
+.. note:: En esta etapa, el usuario puede seguir el progreso en el menú Tareas.
+
+.. image:: /figuras/fig_rcf/23_evolução_tarefa.png
+   :alt: evolução da tarefa 
+   :align: center
+----
+
+Al pulsar sobre el icono de tareas, la plataforma presenta una nueva pantalla según la imagen de abajo, informando sobre el estado de la acción, en este ejemplo, el archivo de facturación del contrato ha sido generado correctamente.
+
+.. image:: /figuras/fig_rcf/24_gerar_arquivo.png
+   :alt: gerar arquivo faturamento contrato 
+   :align: center 
+----
+
+Para obtener el informe, el usuario debe hacer clic de nuevo en el botón ``Exportar``, y al seleccionar la opción CSV, la pantalla muestra el botón habilitado en color naranja. En este ejemplo, el mensaje que aparece para descargar el archivo generado es “Último archivo generado el 2023/01/18 11:20:37”.
+
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+Al hacer clic en el botón, se realiza el *download* del archivo CSV y queda a disposición del usuario, conforme se muestra en el siguiente ejemplo.
+
+.. image:: /figuras/fig_rcf/26_formato_csv.png
+   :alt: formato csv
+   :align: center
+----
+
+2 - Si ya existe un informe generado, al pulsar sobre la opción de descargar el archivo en formato CSV, el botón aparece habilitado en color naranja, con la fecha y hora del momento de su creación. Corresponde al usuario decidir si los datos obtenidos en esa fecha son los más adecuados para su búsqueda o si son necesarios los datos actualizados.
+
+Para actualizar y producir un nuevo informe el usuario debe hacer clic en el botón ``Generar Informe`` y repetir el proceso del caso de uso, anteriormente presentado. Observe el siguiente ejemplo:
+
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+Para las facturas con *status* “Abierta”, la plataforma presenta la siguiente pantalla:
+
+.. image:: /figuras/fig_rcf/27_detalhes_status_aberta.png
+   :alt: detalhes status aberta
+   :align: center
+----
+
+En la pantalla aparecen las mismas informaciones exhibidas en la pantalla de *status* “Cerrada”, pero como la factura todavía está abierta el mensaje *“Los valores mostrados incluyen facturas que no están cerradas, y no pueden ser considerados válidos hasta que se cierren”* se visualiza destacado.
+
+.. note:: |nota| Todos los procedimientos descritos en el *status* “Cerrada” sobre la obtención de los archivos en formato PDF y CSV también se pueden realizar cuando el *status* de la factura está “Abierta”.
+
+* **Botón** ``Descargar`` |ícone_baixar| :  Si el usuario ya conoce las informaciones relacionadas con el contrato listado y desea descargar toda la lista de ítems de la factura en un archivo tipo hoja de cálculo (MS-Excel), basta hacer clic en el botón ``Descargar``, y se presenta el modal “Generando Nuevo Informe”. Para obtener el fichero CSV el usuario debe seguir el mismo procedimiento presentado en el Caso de Uso.
+
+.. _aqui: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#caso-de-uso
+
+.. image:: /figuras/fig_rcf/25_ação_baixar.png
+   :alt: ação baixar relatório
+   :align: center
+----
+
+* **Botón** ``Abrir Factura`` |ícone_abrir_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Cerrada”; abrir una factura cerrada significa que la empresa necesita alguna acción de corrección en los valores de la factura, que debe ser proporcionado antes del pago del valor presentado.
+
+Al pulsar el botón se muestra la siguiente pantalla, y corresponde al usuario confirmar o cancelar la acción.
+
+.. image:: /figuras/fig_rcf/28_ação_reabrir_fatura.png
+   :alt: ação reabrir fatura
+   :align: center
+----
+
+* **Botón** ``Cerrar Factura`` |ícone_fechar_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Abierta”; en la columna “Fecha de Cierre” en caso de que el usuario pase el cursor del ratón sobre el símbolo de atención, se muestra el mensaje: “La fecha de cierre de su factura no ha sido indicada porque aún está abierta”, tal y como se muestra en el siguiente ejemplo.
+
+.. image:: /figuras/fig_rcf/29_botão_fechar_fatura.png
+   :alt: botão fechar fatura 
+   :align: center
+----
+
+Al hacer clic en el botón se muestra una pantalla de confirmación, y corresponde al usuario confirmar o cancelar la acción.
+
+.. image:: /figuras/fig_rcf/30_ação_fechar_fatura.png
+   :alt: ação fechar fatura
+   :align: center
+----
+
+----
 
 
 Informe Tendencia de Facturación (ITF)
