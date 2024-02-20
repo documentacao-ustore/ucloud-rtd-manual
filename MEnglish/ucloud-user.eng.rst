@@ -1688,8 +1688,8 @@ Budgets Costs Report
 
 ----
 
-Consumption Monitoring Report
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Consumption Monitoring Report (CRM)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Consumption Monitoring Report (v1) is a new functionality of the uCloud portal, which deals with the invoicing tracking and complete spending detail, categorized by Clouds (for example: AWS and AZURE) Contracts and Resources.
 
@@ -2535,22 +2535,22 @@ After the user runs a cost limit already saved, a new option is shown on the “
 Invoice based-panels
 ---------------------
 
-The Invoice-based panels present billling value information uniquily regarding to a already closed period (previous month) for the payment in the next month. It is possible to compare the example of the "Credit Card" bill. In the bill there is only the consumption of the previous month, for the payment on the current one.
+The Invoice-based panels present billing value information uniquely regarding to an already closed period (previous month) for the payment in the next month. It is possible to compare the example of the "Credit Card" bill. In the bill there is only the consumption of the previous month, for the payment on the current one.
 
 The values presented in this menu option must take into consideration that the uCloud platform has three types of user identified as 'basic profiles', as described below:
 
 A. **System users**: they are the regular users that access the system to consume the resources.
-B. **Group Administrator users**: they are users that are associated to a user group, they can provision and change other users in the platform.
-3. **Company Administrator users**: they are users that are associated to a company and about this company they can define ticketing rules, provision and change other users in the platform.
+B. **Group Administrator users**: they are users that are associated with a user group, they can provision and change other users in the platform.
+C. **Company Administrator users**: they are users that are associated with a company and about this company they can define ticketing rules, provision and change other users in the platform.
 
 
 When a **System User** starts a session in the uCloud platform, if this user has permission to view the Billing menu and the My Invoice option, the values presented in the reports refer only to the computing resources this user is linked to, because it has permission to view the "Invoice" menu and its costs. This user does not have permission to view the Invoice values of another user or Group to which it belongs, nor the total value of the Company.
 
-When a **Group Administrator User** starts a session in the uCloud platform, the values presented in the reports refers to the computing resources values this user and all the users that are linked to this Group. This user does not have permission to view the total value of the Company.
+When a **Group Administrator User** starts a session in the uCloud platform, the values presented in the reports refers to the computing resources values of this user and all the users that are linked to this Group. This user does not have permission to view the total value of the Company.
 
 When a **Company Administrator User** starts a session in the uCloud platform, the values presented in the reports refer to the computing resources value of this user. This user has the profile to permit visualization of the total accumulated value of the Company(ies) to which its user was provisioned in the Administrator field. Consequently, this user can view the consumption in the groups that was (were) linked to the company(ies), and finally the values of all the users that are linked to the Groups.
 
-To illustrate this report and its values, it is used a credencial with the *Company Administrator User* level in this document. The images used are merelly illustrative and must only be viewed as example. 
+To illustrate this report and its values, it is used as a credential with the *Company Administrator User* level in this document. The images used are merely illustrative and must only be viewed as examples. 
 
 ----
 
@@ -2967,9 +2967,9 @@ Resuming the subject about the current corporate organizations adopt the cloud a
 
 The great challenge is the management of these hybrid multi-cloud environments, to reach a unified vision and obtain the financial costs, once each company has a type of necessity and faces different challenges.
 
-In this hybrid multi-cloud scenario, the computing resources need financial governance and the uCloud platform provides the management of these resources used in the environments. It is through the billing menu that the user can have access to several ways os viewing the evolution of costs regarding the computing resources consumption.
+In this hybrid multi-cloud scenario, the computing resources need financial governance and the uCloud platform provides the management of these resources used in the environments. It is through the billing menu that the user can have access to several ways of viewing the evolution of costs regarding the computing resources consumption.
 
-The platform organizes the optimization of these costs by standardizing and placing billing limits as well as quantitative and qualitative from the computing resources obtained in the multiple cloud providers. Besides the existing panels, the Reports submenu innovates by enables the implementations: Dimension and Virtual Tags, utilities functionalities that favor the reports detailed next.
+The platform organizes the optimization of these costs by standardizing and placing billing limits as well as quantitative and qualitative from the computing resources obtained in the multiple cloud providers. Besides the existing panels, the Reports submenu innovates by enabling the implementations: Dimension and Virtual Tags, utilities functionalities that favor the reports detailed next.
 
 ----
 
@@ -3061,7 +3061,7 @@ To better understand the function of each blank, observe the detailing of these 
 
 ====
 
-Creating a Tag grouping
+Creating a Tag Grouping
 """""""""""""""""""""""""
 
 After filling in the “Dimension” name, the user must create a group for its structure. When hovering the mouse cursor over the “Tag Grouping” option, appears the following message:
@@ -3272,7 +3272,7 @@ For the alteration to be confirmed, it is necessary for the user to press the ``
 
 ====
 
-Where the "Dimension" is used
+Where “Dimension” is used
 """"""""""""""""""""""""""""
 
 Currently, this implementation groups Tags and gathers them in the “Dimension” created, facilitating the categorized visualization in other functionalities of the platform.
