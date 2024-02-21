@@ -2574,8 +2574,8 @@ En este flujo se detallan las columnas de la pantalla "Listado de contratos":
 
 ----
 
-Listado de contratos en el ICF
-""""""""""""""""""""""""""""""
+Detallando las acciones del ICF
+"""""""""""""""""""""""""""""""""
 
 La última columna de los contratos listados es la columna de acciones, tiene 4 botones: ``Ver Detalles``, ``Descargar``, ``Abrir Factura`` y ``Cerrar Factura``, la función de cada uno se detalla a continuación.
 
@@ -3825,5 +3825,7 @@ Actualización 05/12/2023.
 .. |ícone_baixar| image:: /figuras/fig_rcf/ícone_baixar.png
 
 .. |ícone_abrir_fatura| image:: /figuras/fig_rcf/ícone_abrir_fatura.png
+
+.. |ícone_fechar_fatura| image:: /figuras/fig_rcf/ícone_fechar_fatura.png
 
 
