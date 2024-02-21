@@ -730,7 +730,7 @@ To better understand the function of each blank, observe the detailing of these 
 ====
 
 
-Creating a Group of Tags
+Creating a Tag Grouping
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -881,7 +881,7 @@ To do so, the user must click on the plus sign “+” next to the Structure, wh
 ====
 
 
-Using the Logical Operator
+Using the logical operator
 ~~~~~~~~~~~~~~~~~~~
   
 
@@ -1040,7 +1040,7 @@ For the alteration to be confirmed, it is necessary for the user to press the ``
 ====
 
 
-Where the “Dimension” is used
+Where “Dimension” is used
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -1084,7 +1084,7 @@ This new functionality optimizes a user’s permission process. In account-level
 ====
 
 
-7. **Consumption Monitoring Report (v1)** : 
+7. **Consumption Monitoring Report (CRM)** : 
 -------------------------------------------
 
 
@@ -1114,7 +1114,7 @@ In addition, the **Consumption Monitoring Report (v1)**, briefly named **CMR.v1*
 
 
 
-Accessing the CMR.v1
+Accessing CMR.v1
 ~~~~~~~~~~~~~~~~~
 
 
@@ -1175,7 +1175,7 @@ By clicking on this option, the user can generate the desired document.
 
 
 
-Creating the CMR.v1
+Creating CMR.v1
 ~~~~~~~~~~~~~~~~
 
 
@@ -1271,7 +1271,7 @@ When there is data to be published on the period selected by the user, the platf
 
 
 
-Monitoring the status on the Task Menu
+Following the status on the Task Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -1323,7 +1323,7 @@ After successfully creating the new report, the data was compiled on the uCloud 
 
 
 
-Enabling the download of the CMR.v1
+Enabling the CMR.v1’s download
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -1374,7 +1374,7 @@ At the end of this sequence of activities, to download the desired CMR.v1 file, 
 ====
 
 
-Visualizing the CMR.v1
+Viewing CMR.v1
 ~~~~~~~~~~~~~~~~~~
 
 
