@@ -2394,7 +2394,7 @@ Seleccionando el ICF
 """"""""""""""""""""
 
 El usuario puede seleccionar un periodo y un contrato para buscar el historial de facturas, al hacer clic en el campo de **inserción de fecha**, la plataforma uCloud entrega una pantalla con un calendario, para que se pueda seleccionar el periodo deseado (en este, es posible desplazarse por meses y años pasados), después de seleccionada la fecha, los botones disponibles para el usuario son: ``Cancelar`` y ``Aplicar``:
-----
+
 
 * Botón ``Cancelar``: Puede ser utilizado por el usuario, si quiere desistir de la selección.
 * Botón ``Aplicar``: Debe ser pulsado después de seleccionar el periodo de búsqueda.
@@ -2474,9 +2474,9 @@ En cualquier momento se puede pulsar el botón ``Cancelar``, en los dos casos de
 ----
 
 Siguiendo la consulta del ICF
-""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""
 
-Al hacer clic en buscar, el usuario debe esperar que la plataforma uCloud obtenga las informaciones solicitadas, esta acción puede tomar algunos minutos conforme al ejemplo siguiente.
+Al hacer clic en buscar, el usuario debe esperar que la plataforma uCloud obtenga las informaciones solicitadas, esta acción puede tomar algunos minutos conforme el ejemplo siguiente.
 
 .. image:: /figuras/fig_rcf/12_aguardar_pesquisa.png
    :alt: aguardar pesquisa
@@ -2510,8 +2510,9 @@ En la existencia de informaciones, la plataforma uCloud evoluciona hacia dos tip
 
 ----
 
+
 Listado de contratos en el ICF
-""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""
 
 Tras cargar las informaciones, la plataforma muestra la lista de los contratos encontrados según la búsqueda realizada por el usuario, la pantalla exhibe ocho columnas:
 
@@ -2573,7 +2574,7 @@ En este flujo se detallan las columnas de la pantalla "Listado de contratos":
 
 ----
 
-Detallando las acciones del ICF
+Listado de contratos en el ICF
 """"""""""""""""""""""""""""""
 
 La última columna de los contratos listados es la columna de acciones, tiene 4 botones: ``Ver Detalles``, ``Descargar``, ``Abrir Factura`` y ``Cerrar Factura``, la función de cada uno se detalla a continuación.
@@ -2625,7 +2626,7 @@ En la pantalla se puede aún programar la producción del informe para una fecha
 ----
 
 Caso de uso:
-""""""""""""""
+""""""""""""""""""""""""""""""
 
 **Obtener el informe en formato CSV**
 
@@ -3820,5 +3821,9 @@ Actualización 05/12/2023.
 .. |icone_next_off| image:: /figuras/ucloud_icone_next_off.png
 
 .. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
+
+.. |ícone_baixar| image:: /figuras/fig_rcf/ícone_baixar.png
+
+.. |ícone_abrir_fatura| image:: /figuras/fig_rcf/ícone_abrir_fatura.png
 
 
