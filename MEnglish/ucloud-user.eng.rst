@@ -1673,8 +1673,207 @@ Cadenced Billing Report
 
 ----
 
-Product Relational Cost Report
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Product Relational Cost Report - *PRC*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This report allows to view the cost of each service separately within a selected company, in it it is possible to follow the evolution (daily, weekly or monthly) of the consumption detailed costs of every Product Name and its respective Family Name (subresources). The great benefit of this report is to analyze the real cost composition of a certain resource, presenting with details the values of its subresources distributed in the selected period.
+
+.. attention:: |atencao| The uCloud platform **synchronizes and unifies** the data original source from the cloud provider service in its base - the billing file from the provider, then this report enables the same view, independently of how each public service provider identifies (names) their products and sub-products.
+
+.. note:: |nota| This report allows the user to analyze the individual cost of each Family Name of only a Product Name per time.
+
+This document, aiming for the best experience of the reader user, the Product Relational Cost Report is mentioned from here on now as “PRC”.
+
+----
+
+Accessing PRC Report
+""""""""""""""""""""""""""""
+
+To access the PRC, the user must select the Billing menu located on the left side of the platform, and then click on “Reports” or “Reports New”.
+
+
+.. image:: /figuras/fig_crp_eng/001_crp_billing_menu.png
+  :alt: billing menu
+  :align: center
+----
+
+
+When the user selects this option, the uCloud platform presents a screen divided into two groups, “Consumption-based Panel” and “Invoice-based Panel”, the PRC report is found in the first group, to access it it is necessary to click on the **Product Relational Cost** option (highlighted in the following image).
+
+
+
+.. image:: /figuras/fig_crp_eng/002_crp_consumption_panel.png
+  :alt: reports home screen
+  :align: center
+----
+
+
+After this option is selected, the initial screen of the PRC report is displayed, allowing the user to deepen their analysis in the detailed data generation of the expenses of resources and subresources.
+
+
+
+.. image:: /figuras/fig_crp_eng/003_crp_screen.png
+  :alt: relational cost products
+  :align: center
+----
+
+In the image above it is possible to observe the following action fields:
+
+* ``Back`` **button**: The user can return to the previous screen (Reports from billing menu) at any time;
+* **Frequency**: This is a drop-down field type and the user can select the ideal period to evaluate the consumption data. By clicking on this option the uCloud platform presents the following periods:
+
+	* **Monthly**: The client can understand as their consumption evolves throughout the time in a broad way. It is possible to choose from one to all of the months of the year. To exemplify, 3 months are selected, as shown below:
+
+
+.. image:: /figuras/fig_crp_eng/004_crp_month.png
+  :alt: month
+  :align: center
+----
+
+	* **Weekly**: This filter allows a granular view of the consumption, in which the user is capable of understanding and identifying behaviors that generate consumption peaks in certain weeks throughout the months. It is important to highlight that in the present moment the uCloud platform works only with the concept of month’s closed weeks, and these are numbered sequentially from 1 to 52, presented on the left side of the calendar. According o the figure below:
+
+
+.. image:: /figuras/fig_crp_eng/005_crp_weeks.png
+  :alt: weeks
+  :align: center
+----
+
+	* **Daily**: Allows the user to view the consumption in the lowest granularity of period possible, helping to understand and identify the behavior that generated consumption peaks throughout the days. The platform presents a circle to set as the current date (on the example below 02/22/2024).
+
+
+.. image:: /figuras/fig_crp_eng/006_crp_date.png
+  :alt: date
+  :align: center
+----
+
+* **Period**: After selecting the frequency and choosing the dates to be filtered, the platform displays the period indicated by the user for the production of the report at hand. In the example below, for a monthly frequency, the months selected are October and November.
+
+
+.. image:: /figuras/fig_crp_eng/007_crp_frequency_period.png
+  :alt: frequency and period
+  :align: center
+----
+
+* **Companies**: By clicking on this field, the platform shows a modal with the list of companies associated with the credential logged in the platform (in the example presented are 186 available companies), it is up to the user to decide which of them will be selected to generate the PRC report. It presents only the financial information regarding the selected company. The user can use the search bar located on the right part of the modal when necessary, or use the blank “Search”.
+
+
+.. image:: /figuras/fig_crp_eng/008_crp_companies.png
+  :alt: companies
+  :align: center
+----
+
+* **Magnifying glass button** |icone_lupa|: This button presents the same purpose of the “Companies” functionality. If the user credential has an active session associated with more than one company, when clicking on the magnifying glass icon the platform presents the modal with the list of available companies for the report emission.
+
+* **Account provider**: This field is mandatory, after the frequency, period and company are selected, the platform presents the list of all the account providers provisioned which the user is linked to. Once the account provider is selected the search button is available for using.
+
+
+.. image:: /figuras/fig_crp_eng/009_crp_company_account_provider.png
+  :alt: company and account provider
+  :align: center
+----
+
+
+.. note:: |nota| The platform shows the Account provider options according to the existence of information that has already been billed for the frequency, period and/or correspondent company. In the inexistence of data, the platform displays an alert message in the superior right side of the screen, communicating that it was not possible to find the account provider with consumption registered for the selected period.
+
+
+.. image:: /figuras/fig_crp_eng/010_crp_note.png
+  :alt: account provider note
+  :align: center
+----
+
+* ``Search`` **button**: Initially this button is displayed as disabled, only being enabled after the frequency, period, company and account provider are selected. The user must click on this button to follow the flow of data obtention for the report.
+
+* **Linkeds**: This field is a check mark type, after clicking on the ``Search`` button the platform presents the list of all the Linkeds - Sub accounts that are part of the account provider(s) that are linked to the company. At this moment the user must select one (or multiple) Linkeds. To facilitate the search it is possible to type the name of the Linked on the ``Find`` field.
+
+
+
+.. image:: /figuras/fig_crp_eng/011_crp_linkeds.png
+  :alt: linkeds
+  :align: center
+----
+
+* ``Next`` **button** |icone_proximo|: The user must click with the mouse cursor on this button to follow to the next blank of data filtering. In case this button is disabled it means that there is no operating selection for this filtering field. This button is also viewed in the “Product” blank presenting the same functionality. 
+
+* **Product**: This field is radio button type, on it the uCloud platform presents the list of all the Product Name that are part of the billing file (CSV) that is synchronized with the internal database. The user must click on the desired product, then it is allowed to click on only one Product Name. To facilitate the search it is possible to type the name of the intended “Product” in the blank “Find”. On this field there is also the button |icone_proximo|, initially it is displayed as disabled, after selecting the “Product” it is enabled, the user must click over it to follow to the third and last data filtering field.
+
+
+.. image:: /figuras/fig_crp_eng/012_crp_products.png
+  :alt: linkeds
+  :align: center
+----
+
+* **Product Family**: This field is check mark type, the uCloud platform presents the “Product Family” list that is linked to the “Product” selected in the previous blank. The user can select all the items presented or just those that are in your interest to obtain the report (see example below).
+
+.. image:: /figuras/fig_crp_eng/013_crp_family_product.png
+  :alt: family products
+  :align: center
+----
+
+To facilitate the search, it is possible to type the  intended“Product Family” name in the “Find” blank. The “Family Product” field presents two buttons ``Search`` and ``Clean`` explicit  next.
+
+* ``Clean`` **button**: The user must click on this button when they need to redefine the filtering fields. This is the default procedure indicated to the user when they need to generate the report with new data.
+*  ``Search`` **button**: After selecting the options from the “Family Product” field, the user must click on this button and the uCloud platform generates the report. Initially it shows as disabled, when clicking on at least one of the “Family Product” options the button is enabled.
+
+----
+
+Obtaining PRC Report
+"""""""""""""""""""""""""
+
+As explained previously, to facilitate the understanding of the user reader, it is reinforced that: to access the PCR report the user clicks on the billing menu on the uCloud platform, chooses the consumption-based panel and opts for the **Product Relational Cost** report. Once selected the frequency, period and company, the user must choose the account provider, so the Linkeds can be displayed. Therefore, the user needs to pick the product, right after selecting one or multiple of the options shown in the “Family Product” field.
+
+Doing all this flow in which the user informs the credits needed for the elaboration of the report they must click on the ``Search`` button, as result the platform presents a new board with all the PCR report data (example below).
+
+
+.. image:: /figuras/fig_crp_eng/014_crp_report.png
+  :alt: report
+  :align: center
+----
+
+
+.. note:: |nota| This report does not allow data exportation. All the information is presented on the platform.
+
+In the sequence the description of the elements that compose the PCR report:
+
+* **Select a Linked**: In this board the user can alternate the way of how the uCloud platform presents the report data. This section presents to topics:
+  
+    * **All Linkeds**: One of the display options of this report, is the presentation of a bar chart of the type *Dates x Cost*, with the representation of the total sum of the values of each Family Product. To facilitate the viewing and interpretation of the report data, the uCloud platform shows the subtitle of the graph in distinct colors in the superior part.
+
+.. image:: /figuras/fig_crp_eng/015_crp_all_linkeds.png
+  :alt: all linkeds
+  :align: center
+----	
+
+    * **Select only one Linked**: It is also one of the display options of this report. When clicking on one of the Linkeds presented, just like the previous section, a bar chart of the *Dates x Cost* type is shown with the representation of each Product Family for the specific linked. The example below displays the chart in the weekly frequency. In this section, the platform also presents the subtitle of the graph separated by different colors in the superior part.
+
+
+.. image:: /figuras/fig_crp_eng/016_crp_linked_selected.png
+  :alt: selected linkeds
+  :align: center
+----
+
+The last part of this report is about the information table, which has an objective to help view and interpret the data. Although they look similar, they are distinguished by small differences in each one of the tables, corresponding to the sections *All Linkeds* and *Select only one Linked*.
+
+* **Table of the sections “All Linkeds” and “Select only one Linked”.
+
+As aforementioned, these tables are part of the PCR report and are visible to the user after the report generation. On the *All Linkeds* table (superior table) there are 4 columns, they are: Linked, Product Name, Product Family and Value. On the other table *Select only one Linked* (inferior table) there are also 4 columns: Dates, Product Name, Product Family and Value. In the sequence are detailed examples and the descriptions of each of these columns.
+
+
+.. image:: /figuras/fig_crp_eng/017_crp_tables.png
+  :alt: crp tables
+  :align: center
+----
+
+	* **Linkeds**: This column shows a list of all the Linkeds that were selected in the report elaboration, it is presented only on the table of the section *All Linkeds*;
+	* **Dates**: This column is exclusive for the *Select only a Linked* section and presents the specific values for each Family Product, according to the selected period and their respective dates. Included in the filter a broad date sequence, as default visualization the platform presents the respective column in ascending chronological order, the user can modify/invert this display clicking on the “Dates” column;
+	* **Product Name**: On this column the platform presents the *Product Name* that was selected in the filtering field; according to the example presented, this column is present in both sections;
+	* **Product Family**: This column lists the *Product Family(ies)* selected in the filtering field, according to the exposed example, this column is present in both sections;
+   * **Value**: On this column the uCloud platform shows the sum of the costs regarding the selected period.
+
+.. note:: |nota| When clicking on the table on the *Value* column it is possible to order the highest value to the lowest or vise-versa; but when clicking on the *Product Family* column it is possible to verify that the information can be displayed in alphabetical order or inverted.
+
+----
+
+This report has great importance in business intelligence, because it can help the user and/or the Costs Manager in the data interpretation, as well as in the detailed viewing of information. The PCR report helps in the Budgets predictions (Predicted vs. Made) that were not very clarified, due to the complexity of the billing file (CSV) analysis from the public cloud provider, mainly when there are several Linked Accounts in the billing organization scenario.
 
 ----
 
@@ -3920,3 +4119,11 @@ Registered themes
 .. |importante| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/warning.png?raw=true
 
 .. |dica| image:: https://github.com/Rush/Font-Awesome-SVG-PNG/blob/master/black/png/22/asterisk.png?raw=true
+
+.. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.png
+   
+.. |icone_cancelar_vermelho1| image:: /figuras/fig_rgcf/icone_cancelar_vermelho1.png
+
+.. |icone_proximo| image:: /figuras/fig_crp/icone_proximo.PNG
+
+.. |icone_lupa| image:: /figuras/ucloud_icone_lupa.png
