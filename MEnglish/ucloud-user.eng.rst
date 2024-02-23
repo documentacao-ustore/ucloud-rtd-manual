@@ -1787,7 +1787,7 @@ In the image above it is possible to observe the following action fields:
 
 
 
-.. image:: /figuras/fig_crp_eng/011_crp_linkeds.png
+.. image:: /figuras/fig_crp_eng/011_crp_linkeds.PNG
   :alt: linkeds
   :align: center
 ----
@@ -1797,7 +1797,7 @@ In the image above it is possible to observe the following action fields:
 * **Product**: This field is radio button type, on it the uCloud platform presents the list of all the Product Name that are part of the billing file (CSV) that is synchronized with the internal database. The user must click on the desired product, then it is allowed to click on only one Product Name. To facilitate the search it is possible to type the name of the intended “Product” in the blank “Find”. On this field there is also the button |icone_proximo|, initially it is displayed as disabled, after selecting the “Product” it is enabled, the user must click over it to follow to the third and last data filtering field.
 
 
-.. image:: /figuras/fig_crp_eng/012_crp_products.png
+.. image:: /figuras/fig_crp_eng/012_crp_products.PNG
   :alt: linkeds
   :align: center
 ----
@@ -1824,7 +1824,7 @@ As explained previously, to facilitate the understanding of the user reader, it 
 Doing all this flow in which the user informs the credits needed for the elaboration of the report they must click on the ``Search`` button, as result the platform presents a new board with all the PCR report data (example below).
 
 
-.. image:: /figuras/fig_crp_eng/014_crp_report.png
+.. image:: /figuras/fig_crp_eng/014_crp_report.PNG
   :alt: report
   :align: center
 ----
@@ -1853,7 +1853,7 @@ In the sequence the description of the elements that compose the PCR report:
 
 The last part of this report is about the information table, which has an objective to help view and interpret the data. Although they look similar, they are distinguished by small differences in each one of the tables, corresponding to the sections *All Linkeds* and *Select only one Linked*.
 
-* **Table of the sections “All Linkeds” and “Select only one Linked”.
+* **Table of the sections “All Linkeds” and “Select only one Linked”**.
 
 As aforementioned, these tables are part of the PCR report and are visible to the user after the report generation. On the *All Linkeds* table (superior table) there are 4 columns, they are: Linked, Product Name, Product Family and Value. On the other table *Select only one Linked* (inferior table) there are also 4 columns: Dates, Product Name, Product Family and Value. In the sequence are detailed examples and the descriptions of each of these columns.
 
