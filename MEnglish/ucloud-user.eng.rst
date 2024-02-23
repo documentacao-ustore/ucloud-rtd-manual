@@ -1846,7 +1846,7 @@ In the sequence the description of the elements that compose the PCR report:
     * **Select only one Linked**: It is also one of the display options of this report. When clicking on one of the Linkeds presented, just like the previous section, a bar chart of the *Dates x Cost* type is shown with the representation of each Product Family for the specific linked. The example below displays the chart in the weekly frequency. In this section, the platform also presents the subtitle of the graph separated by different colors in the superior part.
 
 
-.. image:: /figuras/fig_crp_eng/016_crp_linked_selected.png
+.. image:: /figuras/fig_crp_eng/016_crp_linked_selected.PNG
   :alt: selected linkeds
   :align: center
 ----
@@ -1858,7 +1858,7 @@ The last part of this report is about the information table, which has an object
 As aforementioned, these tables are part of the PCR report and are visible to the user after the report generation. On the *All Linkeds* table (superior table) there are 4 columns, they are: Linked, Product Name, Product Family and Value. On the other table *Select only one Linked* (inferior table) there are also 4 columns: Dates, Product Name, Product Family and Value. In the sequence are detailed examples and the descriptions of each of these columns.
 
 
-.. image:: /figuras/fig_crp_eng/017_crp_tables.png
+.. image:: /figuras/fig_crp_eng/017_crp_tables.PNG
   :alt: crp tables
   :align: center
 ----
