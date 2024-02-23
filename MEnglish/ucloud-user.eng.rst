@@ -2780,7 +2780,7 @@ Billing
 .. * **Non-managed items**:
 
 
-Consolidated Invoicing Report (CIR)
+Consolidated Billing Report (CBR)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This submenu option allows the user to consult consumption reports that make the governance costs of cloud computing resources possible, in a very granular way and with the presentation of values in Cloud Service Unit (USN).
@@ -2789,22 +2789,27 @@ This submenu option allows the user to consult consumption reports that make the
 
 ----
 
-Accessing CIR
+Accessing CBR
 """"""""""""""""""
 
 To access the report, the user must click on “Billing”, located on the functionalities menu on the left side of the screen, and then click on “Reports”.
 
+.. image:: /figuras/fig_crp_eng/001_crp_billing_menu.png
+  :alt: billing menu
+  :align: center
+----
+
 When the user selects this option, the uCloud platform presents the following screen:
 
-.. image:: /figuras/fig_rcf/01_menu_financeiro.png
+.. image:: /figuras/fig_rcf_eng/001_billing_menu.png
    :alt: billing menu
    :align: center
 ----
 
 
-According to the example above, it is noticeable that the billing menu is divided into two groups: “Consumption-based Panels” and “Invoice-based Panels”, the Consolidated Invoicing Report is located in the second group.
+According to the example above, it is noticeable that the billing menu is divided into two groups: “Consumption-based Panels” and “Invoice-based Panels”, the Consolidated Billing Report is located in the second group.
 
-.. image:: /figuras/fig_rcf/02_paineis_baseado_fatura.png
+.. image:: /figuras/fig_rcf_eng/002_invoice_based_panels.png
    :alt: invoice-based panels
    :align: center
 ----
@@ -2812,12 +2817,12 @@ According to the example above, it is noticeable that the billing menu is divide
 
 By clicking on the corresponding button, the uCloud platform presents the following screen:
 
-.. image:: /figuras/fig_rcf/03_tela_inicial.png
+.. image:: /figuras/fig_rcf_eng/003_home_screen.png
    :alt: home screen
    :align: center
 ----
 
-Selecting CIR
+Selecting CBR
 """""""""""""""""
 
 The user can select a period and a company to search the invoice history, when clicking on the blank to **insert the date**, the uCloud platform delivers a screen with the calendar, so it is possible to select the desired period (in it, it is possible to run through the previous months and years), after the date is selected, the buttons available to the user are: ``Cancel`` and ``Apply``: 
@@ -2825,19 +2830,19 @@ The user can select a period and a company to search the invoice history, when c
 * ``Cancel`` **Button** : It can be used by the user, in case they want to quit the selection.
 * ``Apply`` **Button** : It must be pressed after selecting the search period.
 
-.. image:: /figuras/fig_rcf/04_calendário.png
+.. image:: /figuras/fig_rcf_eng/004_calendar.png
    :alt: select date calendar
    :align: center
 ----
 
 On the blank to search the intended company, all the companies registered on the platform are presented. According to the demand, a complete search can be done when clicking on the ``Select all`` option or a directed search, the user just needs to click on the companies of their interest. 
 
-.. image:: /figuras/fig_rcf/05_selecionar contrato.png
+.. image:: /figuras/fig_rcf_eng/005_select_company.png
    :alt: select company
    :align: center
 ----
 
-The Consolidated Invoicing Report makes 5 types of filters available, that can be used by the user, these are:
+The Consolidated Billing Report makes 5 types of filters available, that can be used by the user, these are:
 
 1. Proposal ID
 2. RC
@@ -2845,7 +2850,7 @@ The Consolidated Invoicing Report makes 5 types of filters available, that can b
 4. PO Number
 5. Product
 
-.. image:: /figuras/fig_rcf/06_filtros_de_pesquisa.png
+.. image:: /figuras/fig_rcf_eng/006_search_filters.png
    :alt: search filters
    :align: center
 ----
@@ -2853,15 +2858,15 @@ The Consolidated Invoicing Report makes 5 types of filters available, that can b
 
 The filters chosen by the user keep filled in orange, in case no filters are selected the option presents itself with no mark. On the example below the *Proposal ID* and *Company Number* filters were opted by the user. 
 
-.. image:: /figuras/fig_rcf/07_filtros_marcados.png
-   :alt: market filters
+.. image:: /figuras/fig_rcf_eng/007_marked_filters.png
+   :alt: marked filters
    :align: center
 ----
 
-Finished the Consolidated Invoicing Report data selection, the user must click on the ``Search`` button. 
+Finished the Consolidated Billing Report data selection, the user must click on the ``Search`` button. 
 
-.. image:: /figuras/fig_rcf/08_pesquisar_apos_selecao.png
-   :alt: search after select
+.. image:: /figuras/fig_rcf_eng/008_button_search.png
+   :alt: search button
    :align: center
 ----
 
@@ -2870,10 +2875,10 @@ In case the user wishes to redo the search, just click on the ``Back`` button an
 
 .. attention:: |atencao| On the top right corner are the icons of the options to open and close invoices.
 
-On the cut out of the superior right corner of the screen, the following image presents the icon “Open all invoices” turned on.
+On the cut out of the superior right corner of the screen, the following image presents the icon “Generate all invoices” turned on.
 
-.. image:: /figuras/fig_rcf/09_abrir_todas_faturas.png
-   :alt: open all invoices
+.. image:: /figuras/fig_rcf_eng/009_generate_all_invoices.png
+   :alt: generate all invoices
    :align: center
 ----
 
@@ -2881,16 +2886,16 @@ They allow the user to determine both actions on the desired period, about all t
 
 When enabling the invoice opening, the modal is presented: 
 
-.. image:: /figuras/fig_rcf/10_abrir_fatura.png
+.. image:: /figuras/fig_rcf_eng/010_open_invoice.png
    :alt: open invoice
    :align: center
 ----
 
-After the user selects the blanks according to the desired, the company and the month, the ``Open Invoices`` button is enabled and colored in green for it to be clicked, as soon as the operation is done.
+After the user selects the blanks according to the desired, the company and the month, the ``Open Invoices`` button is enabled for it to be clicked, as soon as the operation is done.
 
 When enabling the invoice closing, the modal is presented: 
 
-.. image:: /figuras/fig_rcf/11_fechar_fatura.png
+.. image:: /figuras/fig_rcf_eng/011_close_invoice.png
    :alt: close invoice
    :align: center
 ----
@@ -2900,12 +2905,12 @@ At any moment, the ``Cancel`` button can be pressed, in both cases detailed abov
 
 ----
 
-Tracking CIR search
+Tracking CBR search
 """"""""""""""""""""""""
 
 When clicking in search, the user must schedule the uCloud platform to search the requested information, the referred action can take a few minutes according to the following example.
 
-.. image:: /figuras/fig_rcf/12_aguardar_pesquisa.png
+.. image:: /figuras/fig_rcf_eng/012_wait_search.png
    :alt: wait search
    :align: center
 ----
@@ -2913,7 +2918,7 @@ When clicking in search, the user must schedule the uCloud platform to search th
 
 Done with the search, in case there is no information regarding the filters selections, the uCloud platform informs that there is no invoicing history for the company on the informed period.
 
-.. image:: /figuras/fig_rcf/13_historico_inexistente.png
+.. image:: /figuras/fig_rcf_eng/013_inexistent_history.png
    :alt: inexistent history
    :align: center
 ----
@@ -2922,8 +2927,8 @@ In the existence of information, the uCloud platform evolves for two types of sc
 
 1. On the filtering evolution and data search, the number and name of the existing companies that present failure on the search values are shown on the left side of the screen and displayed in red, according to the example: 
 
-.. image:: /figuras/fig_rcf/14_evoluir_filtragem.png
-   :alt: devolve filtering
+.. image:: /figuras/fig_rcf_eng/014_evolve_filtering.png
+   :alt: evolve filtering
    :align: center
 ----
 
@@ -2932,12 +2937,12 @@ In the existence of information, the uCloud platform evolves for two types of sc
 
 2. Following the data search flow, the companies found are listed: 
 
- .. image:: /figuras/fig_rcf/15_pesquisa_contrato.png
+ .. image:: /figuras/fig_rcf_eng/015_search_company.png
    :alt: search company
    :align: center
 ----
 
-Listing companies in the CIR
+Listing companies in the CBR
 """"""""""""""""""""""""""
 
 Done the information loading, the platform shows a list of the companies found according to the search done by the user, the screen shows eight columns:
@@ -2965,7 +2970,7 @@ This last column: “Actions”, includes the four buttons listed below, accordi
 
 In case the company's list is very long, the scrollbar functionality allows the user to browse in all the screen length, up and down. 
 
-.. image:: /figuras/fig_rcf/16_listando_contratos.png
+.. image:: /figuras/fig_rcf_eng/016_listing_companies.png
    :alt: listing company
    :align: center
 ----
@@ -2975,7 +2980,7 @@ Below there are detailed information of this screen:
 * **Total**: Total value of the searched companies invoicing. The uCloud platform automatically converts the values in USN to Real (BRL), which allows the user to evaluate the value in the currency.
 * ``Export`` **button** : This button allows the user to export the information of all the filtered companies, in MS-Excel (.xlsx) table format. The uCloud platform downloads the file in the user machine and exports the information with the name “invoices.xlsx” in the directory/folder configured on the browser options that the user is using.
 
-.. image:: /figuras/fig_rcf/17_botão exportar.png
+.. image:: /figuras/fig_rcf_eng/017_export_button.png
    :alt: button export
    :align: center
 ----
@@ -2988,7 +2993,7 @@ On this flow the columns of the “Listing companies” screen are detailed:
 * **Invoicing Month**: Shows the month in which the invoice expired and must have their payment made. This is always the month following the consumption period.
 * **Closing Date**: This column informs the user if the invoice is open or closed. For the companies that present the “Open” status, it is shown the tooltip icon, asking the reader’s attention for the message: *”The closing date of your invoice was not informed because it is still open”*, shown in the following example. While the companies that present the status “Closed”, expose the date and time of the invoice closing.
 
-.. image:: /figuras/fig_rcf/18_detalhando_colunas.png
+.. image:: /figuras/fig_rcf_eng/018_detailing_columns.png
   :alt: detailing columns
   :align: center
 ----
@@ -3003,14 +3008,14 @@ On this flow the columns of the “Listing companies” screen are detailed:
 
 ----
 
-Detailing CIR actions
+Detailing CBR actions
 """"""""""""""""""""""
 
 The last column of the listed companies is the actions one, it presents 4 buttons: ``View Details``, ``Download``, ``Open Invoice`` e ``Close Invoice``, the detailed function of each one follows next.   
 
 * ``View details`` **button**: When clicking on this option, the user can view the details of the invoice company. For the invoices with the “Closed” status the uCloud platform presents the screen below:
 
-.. image:: /figuras/fig_rcf/fig_rcf/19_detalhes_status_fechada.png
+.. image:: /figuras/fig_rcf/fig_rcf_eng/019_details_status_closed.png
    :alt: details status closed
    :align: center
 ----
@@ -3025,14 +3030,14 @@ Following the detailing flow, the second card “Resource consumption during the
 
 The last card “Groups” shows more specific information about the groups that use the company, the user can click on “Details” and the platform delivers the groups name and the costs that each one represents the total value of the company.  
 
-.. image:: /figuras/fig_rcf/19_detalhes_status_fechada.png
+.. image:: /figuras/fig_rcf_eng/019.1_details_status_closed.png
    :alt: details status closed
    :align: center
 ----
 
 The ``Export`` button, located on the top right side of this screen, offers the possibility of the user to download the files in the CSV and PDF formats.
 
-.. image:: /figuras/fig_rcf/20_exporta_csv_pdf.png
+.. image:: /figuras/fig_rcf_eng/020_export_csv_pdf.png
    :alt: export csv and pdf
    :align: center
 ----
