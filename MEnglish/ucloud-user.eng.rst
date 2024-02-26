@@ -2905,7 +2905,7 @@ At any moment, the ``Cancel`` button can be pressed, in both cases detailed abov
 
 ----
 
-Tracking CBR search
+Following CBR search
 """"""""""""""""""""""""
 
 When clicking in search, the user must schedule the uCloud platform to search the requested information, the referred action can take a few minutes according to the following example.
@@ -3015,7 +3015,7 @@ The last column of the listed companies is the actions one, it presents 4 button
 
 * ``View details`` **button**: When clicking on this option, the user can view the details of the invoice company. For the invoices with the “Closed” status the uCloud platform presents the screen below:
 
-.. image:: /figuras/fig_rcf/fig_rcf_eng/019_details_status_closed.png
+.. image:: /figuras/fig_rcf_eng/019_details_status_closed.png
    :alt: details status closed
    :align: center
 ----
