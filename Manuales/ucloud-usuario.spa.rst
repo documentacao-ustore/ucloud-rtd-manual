@@ -2374,7 +2374,7 @@ Cuando el usuario selecciona esta opción, la plataforma uCloud muestra la sigui
    :align: center
 ----
 
-Como en el ejemplo anterior, observamos que el menú financiero está dividido en dos grupos: "Paneles Basados en el Consumo" y "Paneles Basados en la Facturación", el Informe Consolidado de Facturación se encuentra en el segundo grupo.
+Como en el ejemplo anterior, observamos que el menú financiero está dividido en dos grupos: "Paneles Basados en el Consumo" y "Paneles Basados en Facturas", el Informe Consolidado de Facturación se encuentra en el segundo grupo.
 
 .. image:: /figuras/fig_icf_spa/002_icf_pantalla_inicial.png
    :alt: pantalla inicial menú financiero
@@ -2409,7 +2409,7 @@ El usuario puede seleccionar un periodo y un contrato para buscar el historial d
    :align: center
 ----
 
-En el campo para buscar el contrato deseado, se muestran todos los contratos registrados en la plataforma. Según la demanda, se puede realizar una búsqueda completa pulsando la opción ``Seleccionar Todos`` o una búsqueda dirigida, donde el usuario simplemente elige los contratos de su interés.
+En el campo para buscar el contrato deseado, se muestran todos los contratos registrados en la plataforma. Según la demanda, se puede realizar una búsqueda completa pulsando la opción ``Seleccionar todos`` o una búsqueda dirigida, donde el usuario simplemente elige los contratos de su interés.
 
 .. image:: /figuras/fig_icf_spa/006_icf_historial_listado.png
    :alt: seleccionar contrato
@@ -2420,7 +2420,7 @@ El Informe Consolidado de Facturación dispone de 5 tipos de filtros, que pueden
 
   1. ID de la Propuesta
   2. CR
-  3. Número de Contrato
+  3. Número de contrato
   4. Número OC 
   5. Producto
 
@@ -2429,7 +2429,7 @@ El Informe Consolidado de Facturación dispone de 5 tipos de filtros, que pueden
    :align: center
 ----
 
-Los filtros elegidos por el usuario permanecen rellenos en “naranja”, si no se selecciona ningún filtro, las opciones aparecen sin marcas. En el ejemplo siguiente, el usuario ha seleccionado los filtros *ID de la Propuesta* y *Número de Contrato*.
+Los filtros elegidos por el usuario permanecen rellenos en “naranja”, si no se selecciona ningún filtro, las opciones aparecen sin marcas. En el ejemplo siguiente, el usuario ha seleccionado los filtros *ID de la Propuesta* y *Número de contrato*.
 
 .. image:: /figuras/fig_icf_spa/008_icf_historial_filtros_selecionados.png
    :alt: filtros seleccionados
@@ -2463,7 +2463,7 @@ Al habilitar la apertura de la factura, el modal es exhibido:
    :align: center
 ----
 
-Después que el usuario selecciona los campos de acuerdo con lo deseado, el contrato y el mes, el botón ``Abrir Facturas`` se habilita y permanece en color verde para ser pulsado, así la operación es realizada.
+Después que el usuario selecciona los campos de acuerdo con lo deseado, el contrato y el mes, el botón ``Abrir Facturas`` se habilita para ser pulsado, así la operación es realizada.
 
 Al habilitar el cierre de la factura, el modal es presentado:
 
@@ -2472,7 +2472,7 @@ Al habilitar el cierre de la factura, el modal es presentado:
    :align: center
 ----
 
-Una vez que el usuario selecciona los campos según el contrato y mes deseados, el botón ``Cerrar Facturas`` se habilita y presenta una coloración verde para ser pulsado, así se realiza la operación.
+Una vez que el usuario selecciona los campos según el contrato y mes deseados, el botón ``Cerrar Facturas`` se habilita para ser pulsado, así se realiza la operación.
 
 En cualquier momento se puede pulsar el botón ``Cancelar``, en los dos casos detallados anteriormente.
 
@@ -2525,17 +2525,19 @@ Tras cargar las informaciones, la plataforma muestra la lista de los contratos e
   * sus periodos de consumo;
   * el mes de facturación;
   * la fecha de cierre;
-  * su *status* (Cerrada o Abierta); 
+  * su *status* (Cerrado o Abierto); 
   * precio; 
-  * costo en USN 
+  * Precio en dolar 
   * Acciones.
 
-Esta última columna: "Acciones", incluye los 4 botones listados a continuación, según la siguiente imagen:
+Esta última columna: "Acciones", incluye los 6 botones listados a continuación, según la siguiente imagen:
 
    * Ver detalles
-   * Descargar
+   * Bajar Velocloud
    * Abrir Factura 
    * Cerrar Factura
+   * En la pantalla
+   * Bajar
 
 .. image:: /figuras/fig_icf_spa/017_icf_botones.png
    :alt: botones de acción
@@ -2564,27 +2566,28 @@ En este flujo se detallan las columnas de la pantalla "Listado de contratos":
 * **Contrato**: Presenta el(los) nombre(s) del(de los) contrato(s) filtrado(s) en la búsqueda.
 * **Período de Consumo**: Presenta la fecha de inicio y fin del mes para el que se contabiliza el valor financiero del contrato. También muestra la hora de inicio y fin de cada uno de los datos enumerados. El periodo de consumo es siempre anterior al mes de facturación. 
 * **Mes de Facturación**: Informa el mes en el que vence y debe pagarse la factura. Siempre es el mes siguiente al mes del periodo de consumo.
-* **Fecha de Cierre**: Esta columna indica al usuario si la factura está abierta o cerrada. Para los contratos que presentan el *status* "Abierta", se muestra el icono "tooltip", que llama la atención del lector sobre el mensaje: *“La fecha de cierre de su factura no ha sido registrada porque aún está abierta”*, (que se muestra en el siguiente ejemplo). Los contratos que presentan el *status* “Cerrada”, en cambio, muestran la fecha y hora de cierre de la factura.
+* **Fecha de Cierre**: Esta columna indica al usuario si la factura está abierta o cerrada. Para los contratos que presentan el *status* "Abierto", se muestra el icono "tooltip", que llama la atención del lector sobre el mensaje: *“No se informó la fecha de cierre de su factura porque aún está abierta”*, (que se muestra en el siguiente ejemplo). Los contratos que presentan el *status* “Cerrado”, en cambio, muestran la fecha y hora de cierre de la factura.
 
 .. image:: /figuras/fig_icf_spa/020_icf_alerta.png
    :alt: mensaje alerta
    :align: center
 ----
 
-* **Status**: Presenta el estado de la factura, hay dos tipos: Abierta o Cerrada.
-* **Precio**: Presenta el valor total de la factura del mes, puede mostrarse en Real o Dólar, según la política del contrato. En este ejemplo, el valor se expresa en moneda brasileña (Real - R$).
-* **Costo en USN**: Presenta el importe total de la factura del mes, expresado en Unidad de Servicio de Nube (USN).
+* **Status**: Presenta el estado de la factura, hay dos tipos: Abierto o Cerrado.
+* **Precio**: Presenta el valor total de la factura del mes, según la política del contrato. En este ejemplo, el valor se expresa en moneda brasileña (Real - R$).
+* **Precio en dolar**: Presenta el importe total de la factura del mes, expresado en dolares.
 
-.. note:: |nota| Las cuatro columnas: contrato, mes de facturación, precio y costo en USN posibilitan la alternancia de los datos presentados.
+.. note:: |nota| Las cuatro columnas: contrato, mes de facturación, precio y precio en dolar posibilitan la alternancia de los datos presentados.
 
 ----
 
 Detallando las acciones del ICF
 """""""""""""""""""""""""""""""""
 
-La última columna de los contratos listados es la columna de acciones, tiene 4 botones: ``Ver Detalles``, ``Descargar``, ``Abrir Factura`` y ``Cerrar Factura``, la función de cada uno se detalla a continuación.
+La última columna de los contratos listados es la columna de acciones, tiene 6 botones: ``Ver Detalles``, ``Bajar Velocloud``, ``Abrir Factura`` y ``Cerrar Factura``, ``En la pantalla``, ``Bajar``, la función de cada uno se detalla a continuación.
 
-* **Botón** ``Ver detalles``: Al hacer clic en esta opción, el usuario puede ver los detalles de la factura del contrato. Para las facturas con *status* “Cerrada”, la plataforma uCloud muestra la pantalla siguiente:
+
+* **Botón** ``Ver detalles``: Al hacer clic en esta opción, el usuario puede ver los detalles de la factura del contrato. Para las facturas con *status* “Cerrado”, la plataforma uCloud muestra la pantalla siguiente:
 
 .. image:: /figuras/fig_icf_spa/021_icf_detalles_contrato.png
    :alt: detalhes factura
@@ -2661,7 +2664,7 @@ Al pulsar sobre el icono de tareas, la plataforma presenta una nueva pantalla se
    :align: center 
 ----
 
-Para obtener el informe, el usuario debe hacer clic de nuevo en el botón ``Exportar``, y al seleccionar la opción CSV, la pantalla muestra el botón habilitado en color naranja. En este ejemplo, el mensaje que aparece para descargar el archivo generado es “Último archivo generado el 2023/01/18 11:20:37”.
+Para obtener el informe, el usuario debe hacer clic de nuevo en el botón ``Exportar``, y al seleccionar la opción CSV, la pantalla muestra el botón habilitado en color naranja. En este ejemplo, el mensaje que aparece para descargar el archivo generado es “Último archivo generado el 2024/02/26 17:25:42”.
 
 .. image:: /figuras/fig_icf_spa/028_icf_ultimo_informe.png
    :alt: generando informe
@@ -2691,11 +2694,11 @@ Para las facturas con *status* “Abierta”, la plataforma presenta la siguient
    :align: center
 ----
 
-En la pantalla aparecen las mismas informaciones exhibidas en la pantalla de *status* “Cerrada”, pero como la factura todavía está abierta el mensaje *“Los valores mostrados incluyen facturas que no están cerradas, y no pueden ser considerados válidos hasta que se cierren”* se visualiza destacado.
+En la pantalla aparecen las mismas informaciones exhibidas en la pantalla de *status* “Cerrado”, pero como la factura todavía está abierta el mensaje *“Los montos mostrados incluyen facturas que aún no se han cerrado y no pueden considerarse válidas hasta que se cierren”* se visualiza destacado.
 
-.. note:: |nota| Todos los procedimientos descritos en el *status* “Cerrada” sobre la obtención de los archivos en formato PDF y CSV también se pueden realizar cuando el *status* de la factura está “Abierta”.
+.. note:: |nota| Todos los procedimientos descritos en el *status* “Cerrado” sobre la obtención de los archivos en formato PDF y CSV también se pueden realizar cuando el *status* de la factura está “Abierto”.
 
-* **Botón** ``Descargar`` |ícone_baixar| :  Si el usuario ya conoce las informaciones relacionadas con el contrato listado y desea descargar toda la lista de ítems de la factura en un archivo tipo hoja de cálculo (MS-Excel), basta hacer clic en el botón ``Descargar``, y se presenta el modal “Generando Nuevo Informe”. Para obtener el fichero CSV el usuario debe seguir el mismo procedimiento presentado en el Caso de Uso.
+* **Botón** ``Bajar`` |ícone_baixar| :  Si el usuario ya conoce las informaciones relacionadas con el contrato listado y desea descargar toda la lista de ítems de la factura en un archivo tipo hoja de cálculo (MS-Excel), basta hacer clic en el botón ``Bajar``, y se presenta el modal “Generando Nuevo Informe”. Para obtener el fichero CSV el usuario debe seguir el mismo procedimiento presentado en el Caso de Uso.
 
 .. _aqui: https://ustore-software-e-servicos-ltda-manuais.readthedocs-hosted.com/pt/latest/Manuais/usr-manual.html#caso-de-uso
 
@@ -2704,7 +2707,7 @@ En la pantalla aparecen las mismas informaciones exhibidas en la pantalla de *st
    :align: center
 ----
 
-* **Botón** ``Abrir Factura`` |ícone_abrir_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Cerrada”; abrir una factura cerrada significa que la empresa necesita alguna acción de corrección en los valores de la factura, que debe ser proporcionado antes del pago del valor presentado.
+* **Botón** ``Abrir Factura`` |ícone_abrir_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Cerrado”; abrir una factura cerrada significa que la empresa necesita alguna acción de corrección en los valores de la factura, que debe ser proporcionado antes del pago del valor presentado.
 
 Al pulsar el botón se muestra la siguiente pantalla, y corresponde al usuario confirmar o cancelar la acción.
 
@@ -2713,7 +2716,7 @@ Al pulsar el botón se muestra la siguiente pantalla, y corresponde al usuario c
    :align: center
 ----
 
-* **Botón** ``Cerrar Factura`` |ícone_fechar_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Abierta”; en la columna “Fecha de Cierre” en caso de que el usuario pase el cursor del ratón sobre el símbolo de atención, se muestra el mensaje: “La fecha de cierre de su factura no ha sido indicada porque aún está abierta”, tal y como se muestra en el siguiente ejemplo.
+* **Botón** ``Cerrar Factura`` |ícone_fechar_fatura| : Este botón sólo está disponible para las facturas en las que su *status* se encuentra con la información “Abierto”; en la columna “Fecha de Cierre” en caso de que el usuario pase el cursor del ratón sobre el símbolo de atención, se muestra el mensaje: “No se informó la fecha de cierre de su factura porque aún está abierta”, tal y como se muestra en el siguiente ejemplo.
 
 .. image:: /figuras/fig_icf_spa/034_icf_status_abierta.png
    :alt: mensaje cerrar factura 
