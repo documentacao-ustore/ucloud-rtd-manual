@@ -4092,6 +4092,219 @@ The uCloud platform synchronizes and receives the billing content file in the .c
 
 ----
 
+**Invoice Credit Management Report**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Invoice Credit Management Report, denominated briefly as ICMR, is a utility report from the uCloud Billing Menu.
+
+.. note:: Report exclusive for the system administrator.
+
+It has the objective to allow for the system administrator to make the individual control of which credits the client receives, at the same time views the total of credits on the cloud and the total received by the client.
+
+By adding the credit to the user’s invoice, it is passed on to the client. However, by not adding it, the credit does not go into the invoice, consequently the client does not receive this value.
+
+It is possible to follow how much of the credit stays for the client in real time, the informative board with the total credits on the portal is immediately updated after making any of the actions mentioned above.
+
+------
+
+Accessing
+""""""""""""""""""""
+
+To have access to this functionality, the user must select the Billing menu, located on the side menu, as shown below.
+
+.. figure:: /figuras/fig_rgcf/10_ucloud_menu_billing.png
+   :align: center
+   :alt: menu financeiro
+----
+
+When selecting it, the “Reports” and “Utilities” submenus are presented, the user must click on the “Utilities” option.
+
+.. figure:: /figuras/fig_rgcf/011_submenu_utilitarios.png
+   :align: center
+   :alt: submenu utilitários
+----
+
+Next, the screen of the billing utilities panels is shown, it presents six reports.
+
+* Dimension
+* Virtual Tags
+* Accounts Survey
+* Invoice Credit Management
+* PMC integration with Odin;
+* Costs Centers.
+
+.. figure:: /figuras/fig_rgcf/001_painel_crédito.png
+   :align: center
+   :alt: painel crédito
+----
+
+To have access to the ICMR, it is necessary to click on the “Invoice Credit Management”, as evidenced on the following image.
+
+.. figure:: /figuras/fig_rgcf/002_crédito_opção.png
+   :align: center
+   :alt: crédito opção
+----
+
+After selecting this option, the initial screen of the ICMR is displayed, allowing for credit management.
+
+.. figure:: /figuras/fig_rgcf/003_tela_inicial_crédito.png
+   :align: center
+   :alt: tela inicial crédito
+----
+
+In the image above it is possible to view the following functions:
+
+* ``Back`` **button**: the user can return to the previous screen at any moment;
+* **Period**: indicates the calendar for the needed choice;
+* **Company**: presents a list with all the existing companies;
+* ``Search`` **button**: recovers the result of a search.
+
+------
+
+Creating
+""""""""""
+
+With the objective of generating an ICMR, it is necessary to select the desired period. Clicking on this option, a calendar is shown.
+
+.. figure:: /figuras/fig_rgcf/004_periodo_calendario.png
+   :align: center
+   :alt: calendário
+----
+
+The calendar displays year and months, on which the user can choose the desired period according to the necessity.
+
+The next blank presents a list of the dropdown type, in it it is possible to select one or more companies clicking on the intended checkbox.
+
+.. figure:: /figuras/fig_rgcf/005_selecionar_contratos.png
+   :align: center
+   :alt: selecionar contrato
+----
+
+Finishing this step, it is necessary to press the ``Search`` button for the credits related to the information selected by the user are presented.
+
+------
+
+Detailing
+""""""""""
+
+After the screen is updated, the data of total credits on the portal and total credits in the cloud are loaded:
+
+.. figure:: /figuras/fig_rgcf/006_dados_creditos.png
+   :align: center
+   :alt: dados créditos
+----
+
+Thus, it is possible to compare the value of the total of credits passed for the client and the credits present in the cloud.
+
+The result regarding to the period searched is listed next, as shown in the figure below:
+
+.. figure:: /figuras/fig_rgcf/007_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+----
+
+.. figure:: /figuras/fig_rgcf/008_listagem_creditos.png
+   :align: center
+   :alt: listagem créditos
+----
+
+
+This list contains eight columns and two action buttons, besides the lines block, each one is described next:
+
+* Company;
+* Account provider;
+* Consumption period;
+* Billing month;
+* Detail;
+* Type of resource in the cloud;
+* Cost;
+* Active in the invoice: operationalizes the management by acting it or not.
+
+.. important:: To insert a registry with more ease, it is possible to filter the information in the columns of company, account provider, billing month, detail and type of resource in the cloud. This action is allowed through the text box right below the column name.
+
+.. figure:: /figuras/fig_rgcf/009_listagem_filtragem.png
+   :align: center
+   :alt: listagem filtragem
+----
+
+It is possible to choose the type of viewing of the list from the information block of 10, 25, 50 or 100 rows, located on the inferior part of the card.
+
+.. note:: In the example above, only one company was selected, therefore, only the information regarding this company is presented. The user could choose more than one and view them the same way.
+
+The credits edition also allows to order the information in ascending or descending, for that is necessary to click on the names of the following columns:
+
+* Company;
+* Account provider;
+* Billing month;
+* Detail;
+* Type of resource in the cloud;
+* Cost;
+* Active in the invoice.
+
+------
+
+Editing
+""""""""""
+
+The edition of this report occurs through the column “Active in the invoice”, where it is possible to repass or remove an added credit by clicking, or not, on the checkbox.
+
+.. figure:: /figuras/fig_rgcf/012_ativo_fatura.png
+   :align: center
+   :alt: ativo fatura
+----
+
+When enabled, this credit is added to the user’s invoice, therefore, repassing for the client. However, if not enabling this option, the credit does not go into the invoice, consequently the client does not receive this value.
+
+After making any of these actions, it is possible to follow the client’s credit in real time, once that informative board of total credits in the portal is updated immediately.
+
+Thus, this report has as finality to allow the system administrator to make the individual control of what credits the clients receives, at the same time as they view the total of credits in the cloud and the total received by the client.
+
+To conclude this edition, the user just needs to click on one of the action icons described below:
+
+.. figure:: /figuras/fig_rgcf/006.1_icones_açoes.png
+   :align: center
+   :alt: icones ações
+----
+
+The “Cancel alterations” icon |icone_cancelar_vermelho|, represented by the red-colored button. 
+
+In case the user gives up of the registries, it is possible to restart the alterations with no need to change the screen clicking on the icon |icone_cancelar_vermelho|. Then, an alert message is displayed on the screen for the user to confirm the action.
+
+.. figure:: /figuras/fig_rgcf/014_mensagem_alerta.png
+   :align: center
+   :alt: mensagem alerta
+----
+
+If the user wants to give up on the operation, click on the ``No, return``. The same way, if the user wants to confirm the reversion of this alteration, just click on the button ``Yes, revert``, the credits return to the initial form of when the search was made.
+
+After this, a message is shown on the superior right corner of the screen, however, it is not presented on the Tasks menu.
+
+.. figure:: /figuras/fig_rgcf/013_mensagem_feedback.png
+   :align: center
+   :alt: mensagem feedback
+----
+
+“Save alterations” icon |icone_salvar_azul|, indicated by the blue-colored button.
+
+To confirm the desire of making the edition of the credits made available to the client, it is necessary to click on the icon |icone_salvar_azul|. Then, an informative message is presentes, the moment that the user can follow the update progress of the altered register.
+
+.. figure:: /figuras/fig_rgcf/015_mensagem_progresso.png
+   :align: center
+   :alt: mensagem progresso
+----
+
+When this informative message is viewed by the user, they can confirm the registry update by clicking on the ``Ok`` button and , if they want to follow the progress, click on the ``Go to billing admin`` button.
+
+
+.. important:: By adding or removing any credit from the company it is essential to bill it again for the values to be updated in the invoice.
+
+------
+
+.. Visualizando
+.. """""""""""""
+
+.. .. attention:: ainda em produção
+
 .. Cost Threshold
 .. ~~~~~~~~~~~~~~
 
@@ -4478,3 +4691,8 @@ Registered themes
 .. |ícone_baixar| image:: /figuras/fig_rcf/ícone_baixar.png
 
 .. |ícone_fechar_fatura| image:: /figuras/fig_rcf/ícone_fechar_fatura.png
+
+.. |icone_salvar_azul| image:: /figuras/fig_rgcf/icone_salvar_azul.png
+
+.. |icone_cancelar_vermelho| image:: /figuras/fig_rgcf/icone_cancelar_vermelho.png
+
