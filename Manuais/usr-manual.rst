@@ -11667,7 +11667,7 @@ Abaixo são listadas algumas mensagens de erro que o usuário pode receber ao ex
 ----
 
 
-Acontece quando o usuário constrói um filtro que não possui nenhum registro que se adeque a essas configurações.
+Aparece quando o usuário constrói um filtro que não possui nenhum registro que se adeque a essas configurações.
 
 
 
@@ -11685,7 +11685,7 @@ Acontece quando o usuário constrói um filtro que não possui nenhum registro q
 Acontece quando o usuário “Filtrar por período” e informar um mês após o mês atual.
 
 
-Dica para evitar ocorrer este problema: basta colocar o mês inicial como mês atual ou anterior.
+Dica para evitar este problema: basta colocar o mês inicial como mês atual ou anterior.
 
 
 
@@ -11712,7 +11712,7 @@ Para evitar a ocorrência do problema, basta pressionar o botão referente ao �
 .. note:: |nota| É necessário no mínimo 6 meses de histórico de dados.
 
 
-Ocorre quando a data final do limite de custo for maior que o mês atual, sendo necessário gerar a projeção de custo para o mês futuro e no momento do processamento for verificado que não existem 6 meses de dados anteriores para conseguir gerar essa projeção.
+Surge quando a data final do limite de custo for maior que o mês atual, sendo necessário gerar a projeção de custo para o mês futuro e no momento do processamento for verificado que não existem 6 meses de dados anteriores para conseguir gerar essa projeção.
 
 
 
@@ -11726,9 +11726,6 @@ Acontece quando o usuário clicar em “Filtrar por período” e informar um m�
    :align: center
 
 ----
-
-
-Acontece quando o usuário clicar em “Filtrar por período” e informar um mês inicial anterior a data de criação do limite de custo.
 
 
 
