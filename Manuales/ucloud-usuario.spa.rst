@@ -2300,8 +2300,7 @@ Este registro trata del acceso al botón de opción: **Informes basados en lími
    :align: center
 
 ----
-  
-----
+
 
 Definiendo los Informes
 """""""""""""""""""""""""""""""""""""""""""
@@ -2326,7 +2325,6 @@ En la siguiente imagen se puede ver la visualización de este informe con un gr�
 
 ----
 
-----
 
 **Nuevas características:**
 
@@ -2370,8 +2368,6 @@ La siguiente imagen muestra los espacios que se deben completar.
 A continuación se detalla cada espacio del modal anterior para el relleno:
 
 
-----
-
 **Etapas para la Configuración:**
 
 
@@ -2403,8 +2399,6 @@ A continuación se detalla cada espacio del modal anterior para el relleno:
 El usuario también puede añadir varios filtros al mismo tiempo mediante el *checkbox* situado en el menú desplegable. 
 
 
-----
-
 **Detalles de los Intervalos:**
 
 
@@ -2414,8 +2408,6 @@ Cada intervalo configura automáticamente su mes inicial y final. La tabla sigui
 .. figure:: /figuras/fig_lc_ar/09_ucloud_finrel_con_tipo_intervalo.png 
    :alt: Detalhes dos intervalos 
    :align: center
-
-----
 
 ----
 
@@ -2460,8 +2452,6 @@ En la imagen de arriba, el *card* "Configuraciones Aplicadas", permite al usuari
 Al hacer clic en "Configuraciones aplicadas", se permite al usuario modificar una o varias informaciones para volver a ejecutar el informe.
 
 
-----
-
 **Casos en que los datos se presentan de formas diferentes:**
 
 
@@ -2495,7 +2485,6 @@ Para que este conocimiento sea accesible al usuario, se ha introducido un *toolt
 
 ----
 
-----
 
 **2. Guardando una configuración de límite de costo (Creación)**
 
@@ -2538,8 +2527,6 @@ En este escenario, se ofrecen al usuario otras cuatro opciones de "Acciones", qu
 .. figure:: /figuras/fig_lc_ar/16_ucloud_finrel_con_botões_limite_custo.png
    :alt: Botões de ações limite de custo
    :align: center
-
-----
 
 ----
 
@@ -2628,7 +2615,6 @@ Después de hacer esta modificación, el usuario puede pulsar ``Ejecutar`` y pro
 
 ----
 
-----
 
 **7. Generando proyecciones para los meses siguientes**
 
@@ -2671,8 +2657,6 @@ Y en las informaciones de costos por nombre de producto o por dimensión, el nom
 
 ----
 
-
-----
 
 .. centered:: Posibles mensajes de error:
 
@@ -2744,9 +2728,6 @@ Esto ocurre cuando el usuario hace clic en "Filtrar por periodo" e introduce un 
 ----
 
 
-====
-
-
 B. Análisis de Riesgos
 """""""""""""""""""""""
 
@@ -2759,7 +2740,6 @@ El informe de análisis de riesgos permite que a través de un límite de costo 
 
 ----
 
-----
 
 **Paso a paso:**
 
@@ -2862,8 +2842,6 @@ Después de que el usuario haya ejecutado un límite de costo ya guardado, apare
 .. figure:: /figuras/fig_lc_ar/36_ucloud_finrel_con_visualizar_analise.png
    :alt: Visualizar como análise de risco
    :align: center
-
-----
 
 ----
 
