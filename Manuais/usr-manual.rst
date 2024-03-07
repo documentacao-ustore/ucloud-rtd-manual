@@ -10143,7 +10143,7 @@ Quando traduzido do inglês para o português, *“budget”* refere-se à palav
 Acessando
 """"""""""
 
-Para visualizar o Relatório de Custo de *Budgets*, o usuário deve acessar o menu Financceiro, localizado na barra lateral esquerda da tela. 
+Para visualizar o Relatório de Custo de *Budgets*, o usuário deve acessar o menu Financeiro, localizado na barra lateral esquerda da tela. 
 
 .. image:: /figuras/fig_budget/010_ucloud_menu_billing.png
   :alt: menu financeiro
@@ -10196,14 +10196,14 @@ A tela acima exibe:
 
 * **Botão** ``Voltar``: Permite que o usuário retorne à página inicial de relatórios financeiros;
 
-* **Calendário**: Neste campo é possível selecionar o período desejado, podendo percorrer por meses e períodos precedentes.
+* **Calendário**: Neste campo é possível selecionar o período desejado, podendo percorrer por meses e anos precedentes.
 
 .. figure:: /figuras/fig_budget/016_detalhamento_período.png
    :alt: Detalhamento período 
    :align: center 
 ----
 
-* **Campo para escolha de contrato**: Esta área apresenta um modal para escolha do contrato de interesse, a busca é facilitada pelas barras de pesquisa e rolagem:
+* **Campo para escolha de contrato**: Esta área apresenta um modal para escolha do contrato de interesse, a busca é facilitada pelas barras de pesquisa e de rolagem:
 
 .. figure:: /figuras/fig_budget/015_selecionar_contrato.png
    :alt: Modal contrato 
@@ -10369,17 +10369,17 @@ A inserção destes é crucial para que o usuário possa receber a notificação
 
 ----
 
-.. centered:: **Configurações de SubBudget**
+.. centered:: **3. Configurações de SubBudget**
 
 ----
 
-Os campos desta aba são ocultados do usuário, apenas aparecendo quando este clica no ícone |icone_adicionar_budget| ao lado do submodal.
+Os campos desta aba são ocultados do usuário, apenas aparecendo quando este clica no ícone para mostrar mais|icone_adicionar_budget| ao lado do submodal.
 
 Os detalhes a serem preenchidos na área de *sub budgets* são descritos abaixo:
 
 * Desambiguação
 
-.. note:: A desambiguação é responsável pelo propósito do *sub budget*, assim, ao clicar no menu suspenso, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Container - CloudType - Dimension - Tag. 
+.. note:: A desambiguação é responsável pelo propósito do *sub budget*, assim, ao clicar no menu suspenso, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Account Provider - CloudType - Dimension - Tag. 
 
 ----
 
@@ -10493,11 +10493,11 @@ Nesta tela é possível alterar qualquer coisa que o usuário julgar necessário
 
 Os *sub budgets* criados não podem ser modificados. É necessário removê-los e adicionar um novo.
 
-.. attention:: Para remover um *sub budget* previamente criado, basta clicar no ícone da lixeira na coluna de ação, abaixo do sub modal de detalhes do *sub budget*. 
+.. attention:: Para remover um *sub budget* previamente criado, clicar no ícone da lixeira na coluna de ação, abaixo do sub modal de detalhes do *sub budget*. 
 
 ----
 
-Caso deseje cancelar a operação, basta clicar no botão de ``Cancelar``, ou após finalizar as edições, basta clicar em ``Editar``, ambas ações localizadas na parte inferior do modal.
+Caso deseje cancelar a operação, clicar no botão de ``Cancelar``, ou após finalizar as edições, pressionar o botão ``Editar``, ambas ações localizadas na parte inferior do modal.
 
 Diferente do fluxo de criação, ao tentar deletar um *sub budget* criado uma mensagem que necessita a confirmação do usuário é exibida em tela:
 
@@ -10506,7 +10506,7 @@ Diferente do fluxo de criação, ao tentar deletar um *sub budget* criado uma me
    :align: center
 ----
 
-Para desistir da operação, basta clicar no botão ``Não, cancele`` e o usuário é redirecionado ao modal de edição do *budget*.
+Para desistir da operação, clicar no botão ``Não, cancele`` e o usuário é redirecionado ao modal de edição do *budget*.
 
 Em caso afirmativo à deleção do *sub budget*, pressionar ``Sim, continuar``.
 
@@ -10519,8 +10519,8 @@ Ao confirmar esta ação, uma mensagem é exibida no canto superior direito da t
 
 Na sequência, esta operação pode ser acompanhada pelo menu Tarefas, como evidenciado na imagem que segue:
 
-.. figure:: /figuras/fig_budget/015_mensagem_edit.png
-   :alt: mensagem editar 
+.. figure:: /figuras/fig_budget/011_task_edição.png
+   :alt: editar menu tarefas
    :align: center
 ----
 
@@ -10561,16 +10561,16 @@ Ao lado do nome de cada coluna é possível notar um par de setas, ao clicá-las
 
 Além disso, ao lado dos nomes de cada *budget* há três ícones:
 
-* |icone_adicionar_budget| : Ao clicar neste botão, os sub budgets são apresentados:
+* Mostrar mais |icone_adicionar_budget| : Ao clicar neste botão, os sub budgets são apresentados:
 
 .. figure:: /figuras/fig_budget/018_detalhe_subbudget.png
    :alt: Detalhamento subbudget 
    :align: center 
 ----
 
-* |icone_alerta_on| : Indica se o *budget* possui alerta acionado.
+* Alerta *on* |icone_alerta_on| : Indica se o *budget* possui alerta acionado.
 
-* |icone_alerta_off| : Informa que a *flag* para alertar sobre o consumo do *budget* não foi acionada.
+* Alerta *off* |icone_alerta_off| : Informa que a *flag* para alertar sobre o consumo do *budget* não foi acionada.
 
 A interface entrega as informações necessárias para o entendimento do usuário sobre os custos dos *sub budgets*, que são:
 

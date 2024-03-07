@@ -592,55 +592,6 @@ Computing Resources Logical Isolation
 
 ----
 
-Relate Budget to the Company 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-----
-
-Budget
-~~~~~~~~
-
-----
-
-Accessing Budget
-~~~~~~~~~~~~~~~~~
-
-----
-
-Creating Budget and Sub Budget
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-----
-
-Quarterly Period
-"""""""""""""""
-
-----
-
-Semiannual Period
-"""""""""""""""
-
-----
-
-Annual Period
-"""""""""""""""
-
-----
-
-Monthly Period
-"""""""""""""""
-
-----
-
-Editing Budget 
-~~~~~~~~~~~~~~~
-
-----
-
-Viewing Budget Cost Report
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-----
 
 Viewing Company
 ~~~~~~~~~~~~~~~
@@ -1882,8 +1833,46 @@ Resource Viewing Report
 
 ----
 
-Budgets Costs Report
+Budgets Cost Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+
+Accessing
+""""""""""
+
+----
+
+Creating Budget and Sub Budget
+"""""""""""""""""""""""""""""""""
+
+
+----
+
+
+Listing 
+"""""""""
+
+
+----
+
+
+Editing
+"""""""""
+
+
+----
+
+
+Viewing the Budgets Costs Report
+"""""""""""""""""""""""""""""""""""""""""""""
+
+
+----
+
+
+Routine Alert
+~~~~~~~~~~~~~~~~
 
 ----
 
@@ -4696,3 +4685,8 @@ Registered themes
 
 .. |icone_cancelar_vermelho| image:: /figuras/fig_rgcf/icone_cancelar_vermelho.png
 
+.. |icone_adicionar_budget| image:: /figuras/fig_budget/icone_adicionar_budget.png
+
+.. |icone_alerta_off| image:: /figuras/fig_budget/icone_alerta_off.png
+
+.. |icone_alerta_on| image:: /figuras/fig_budget/icone_alerta_on.png
