@@ -1836,16 +1836,232 @@ Resource Viewing Report
 Budgets Cost Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The Budget is a report based on consumption created with the objective to define a total budget for a certain period (named as Frequency), whether it is monthly, quarterly, semiannual or annual. This consumption-based report, besides defining a total budget, allows viewing the Budgets costs in detail.
+
+It’s a new uCloud implementation, defined by a report based on consumptions that aims to fix the total budget for a period and enables cost predictions.
+
 ----
 
 Accessing
 """"""""""
+
+To view the Budgets Costs Report, the user must access the Billing Menu, located on the left side of the screen.
+
+[image]
+
+A list of submenus is displayed, and it is necessary to click on the ``Reports`` option, evidenced on the image below.
+
+[image]
+
+On this flow it is presented the Billing menu screen, where two classes of panels based on consumption and invoice are shown.
+
+[image]
+
+The first topic “Consumption-based panels” group different types of reports, they are:
+
+* Service History;
+* Cadenced Cost;
+* Product Relational Cost;
+* Cost limit;
+* Budget costs.
+
+[image]
+
+The budgets costs button presents a brief description of its function.
+
+[image]
+
+When clicked, it presents a “Budgets costs details” screen.
+
+[image]
+
+The screen above shows:
+
+* ``Back`` **button**: Allows the user to return to the billing reports home page;
+* **Calendar**: In this field it is possible to select the desired period, it is also possible to go through months and previous years.
+
+[image]
+
+* **Company choosing field**: This area presents a modal to pick the desired company, the search is facilitated by the search and roll bar:
+
+[image]
+
+* ``View report``: Searches the report regarding the period and company previously selected.
+
+When clicking on the button mentioned above, the screen with the budgets costs details is presented:
+
+[image] 
+
+It presents two types of listing:
+
+* Company;
+* Period;
+
+Displays two buttons:
+
+* Update icon;
+* ``Create budget``.
+
+And allows to execute two actions:
+
+* Edit;
+* Delete.
 
 ----
 
 Creating Budget and Sub Budget
 """""""""""""""""""""""""""""""""
 
+To start the creation process, the user must click on ``Create budget``.
+
+[image]
+
+Then, the creation modal is presented:
+
+[image]
+
+Below the blanks shown in the figure above are described:
+
+----
+.. centered:: **1. General information**
+----
+
+* **Budget name**
+* **Frequency**: Dropdown menu that shows four options:
+
+[image]
+
+	* Monthly:
+		For the monthly frequency, the report contemplates the chosen month by the user on the following field.
+
+----
+
+* Quarterly: 
+
+[image]
+
+By selecting this option, the interface presents a list of periods, located on the area below the SubBudget Configuration area.
+
+The application allows for the user to choose any quarter available within the period of one year.
+
+----
+
+* Semiannual: 
+[image]
+
+By selecting this frequency, two alternatives with the available semesters within the period of one year are presented.
+
+----
+
+* Annual: 
+
+ [image]
+
+By choosing this type of frequency, a list of all with all the months corresponding to the period of one year is presented.
+
+It is possible to create a sub budget for each month of the year, manually, or by checking the option “same for all the months”, evidenced in the image above.
+
+.. attention:: Creating sub budgets for all the months of the year, the sum must limitate to the total value of the budget.
+
+* **Select the month**
+
+After clicking on this field, a calendar is revealed.
+
+[image]
+
+In the case of a frequency different from monthly, it is allowed the selection of multiple months with only two clicks. If needed, it is possible to return to previous months and years.
+
+* Recurring budget
+
+By positioning the mouse above the tool tip, this message is presented:
+
+[image]
+
+* Routine alert
+
+Hovering the mouse above the tool tip, the following information is shown:
+
+[image]
+
+To enable the functions mentioned above, just click on the flag. Which changes color when enabled.
+
+[image]
+
+On the figure above it is possible to note that by actioning the routine alert flag, a field dedicated for the email is displayed next to it. In case it is necessary to alert more than one person regarding the budget level, separate the electronic mails with a comma.
+
+The insertion of these are crucial for the user to receive the notification alerting about the budget.
+
+----
+.. centered:: **2. Values**
+----
+
+* Form of charging
+	
+* By consumed quantity
+* By cost
+* Value
+
+----
+.. centered:: **3. SubBudget Configuration**
+----
+
+The fields of this tab are hidden from the user, only showing when they click on the icon to show more |icone| next to the submodal.
+
+The details to be filled out in the sub budgets area are described below:
+
+* Disambiguation
+
+.. note:: The disambiguation is responsible for the sub budget purpose, when clicking on the dropdown menu, the user views and can filter one of the five types of existing elements: Account Master - Account provider - CloudType - Dimension - Tag.
+
+ 	* Select an account provider
+
+.. attention:: This is a dropdown field, altered according to the option chosen in disambiguation:
+
+* In case the account provider is selected, the next field is designed to select one;
+* In the condition of the Account Master choosing, the dropdown menu next to it is to choose one. Besides that, an extra blank to choose the Linked Account is shown.
+* If the CloudType option is selected, the user must pick the desired cloud;
+* When the Dimension is selected as the desired disambiguation, a listing of the available dimensions is presented;
+* By selecting Tag, fields of key and value are displayed. These, must belong to a valid tag, that it, already inserted previously;
+
+-----
+
+Below this area, a card alerting about the remaining balance is shown.
+
+.. important:: The **remaining balance** corresponds to the value that indicates the balance left from the budget, equivalates to the value of the budget minus the sum of the value of all the sub budgets.
+
+* Value
+*  ``Include SubBudget``
+
+The button mentioned above is only unlocked to be clicked after the filling of the modal’s blank.
+
+Then, details of the sub budgets are presented and divided into five columns:
+
+* Title
+* Entity
+* Frequency
+* Total
+* Action
+
+.. attention:: This action corresponds to the deletion, represented by a trash can icon. By clicking on it, the just created sub budget is immediately deleted, being unnecessary the action confirmation by the user.
+
+In the inferior part of the modal two buttons are displayed:
+
+* ``Cancel``: it can be used in case the user gives up on doing the operation.
+* ``Create``: it must be clicked to save the budget.
+
+.. note:: It is possible to insert the sub budgets to the main Budget, limiting itself to the rule that its value has to be equal to the sum of the values of its sub budgets. In case the value represents a higher or lower number, the ``Create`` button stays disabled and the remaining balance is different from zero.
+
+ In the flow sequence, after finishing the information filling, it is necessary to click on the ``Create`` button, located on the inferior right corner of the modal for the budget to be saved.
+
+[image]
+
+Then, a message is displayed in the superior right corner of the screen confirming the action.
+
+[image]
+
+This activity of budget creation can be followed in the Tasks menu.
+
+[image]
 
 ----
 
@@ -1853,6 +2069,22 @@ Creating Budget and Sub Budget
 Listing 
 """""""""
 
+In case the just-created budget does not show at the listing, just click on the update icon, positioned next to the button ``Create budget``, as presented in the following image.
+
+[image]
+
+Regarding the budgets listing, this is separated into five categories:
+
+* Name
+* Frequency
+* Start date
+* Value
+* Action:
+
+	* Edit
+	* Delete
+
+In the inferior part of the board it is possible to note the information blocks that allow to view of this list in 10, 25, 50 or 100 lines.
 
 ----
 
@@ -1860,6 +2092,37 @@ Listing
 Editing
 """""""""
 
+To edit a Budget, the user has to click on the edition icon in the column regarding the actions from the card, as evidenced on the image in the sequence.
+
+[image]
+
+Then, the modal is presented with all the information previously filled.
+
+[image]
+
+On this screen it is possible to edit anything that the user finds necessary, except the frequency.
+
+The created sub budgets cannot be modified. It is necessary to remove them and create a new one.
+
+.. attention:: To remove a sub budget created previously, click on the trash can icon on the action column, below the sub budget details sub modal.
+
+In case the user wants to cancel the operation, click on the ``Cancel`` button, or after finishing the editions, press on the ``Edit`` button, both actions found on the superior part of the modal.
+
+Different from the creation flow, when trying to delete a created sub budget a message that needs the user confirmation is displayed on screen:
+
+[image]
+
+To give up on the operation, click on the button ``No, cancel`` and the user is redirected to the budget edition modal.
+
+If affirmative to the sub budget deletion, press ``Yes, continue``.
+
+By confirming this action, a message is shown on the superior right corner of the screen.
+
+[image]
+
+Sequently, this operation can be followed on the Tasks menu, as evidenced in the next image:
+
+[image]
 
 ----
 
@@ -1867,12 +2130,89 @@ Editing
 Viewing the Budgets Costs Report
 """""""""""""""""""""""""""""""""""""""""""""
 
+The viewing of this report can be accessed in the “Budget costs details” screen. It allows the user to be informed about the predictions and percentages of cost in detail.
+
+[image]
+
+The Budget cost detail allow the view clicking on the ``Period`` button, evidenced below:
+
+[image]
+
+To make the search for a specific budget easier, below the type of listing choosing field, there is a search bar where the user can type the desired name.
+
+[image]
+
+With the objective to make the budget cost details viewing easier, the listing is divided into five categories, they are:
+
+* Name;
+* Type;
+* Frequency;
+* Value;
+* Status.
+
+Next to the name of each column is possible to notice a pair of arrows, when clicking on them it is possible to change the presentation form to ascending order.
+
+Besides that, next to the names of each budget there are three icons:
+
+* **Show more** |icon|: When clicking on this icon, the sub budgets are presented
+
+[image]
+
+* **Alert on** |icon| Indicates if the budget has the alert enabled.
+* **Alert off** |icon| Informs that the flag to alert about the budget consumption is disabled.
+
+The interface delivers the necessary information for the user understanding about the sub budget costs, that are:
+
+* Company to which the budget and sub budget are linked to;
+* Type of disambiguation;
+* Frequency;
+* Total value of the budget stipulated on the creation moment;
+* Consumption bar;
+* Quantity which the sub budget consumed in percentage.
+
+.. important:: The consumption bar suffers color changes according to the consumed percentage.
+
+.. note:: By choosing a budget that has a quarterly, semiannual or annual, the platform displays only the sub budgets regarding the selected period. On this option, the platform understands that it is about the Budget’s incomplete period. To show all the months, the complete budget period must be chosen.
 
 ----
 
 
 Routine Alert
 ~~~~~~~~~~~~~~~~
+
+This feature, also known as Budget Alert, can be enabled or not when clicking on the flag present on the budget and sub budget creation modal, as mentioned previously.
+
+The notification is sent for the registered email(s) as an automatic message, with no need for a reply. This is due to the fact that the sender is “no reply”, as it is possible to be seen in the image below:
+
+[image]
+
+When clicking on the email, the following message is shown:
+
+[image]
+
+It is worth highlighting that just one email is sent for every level the budget reaches. The levels are:
+
+* **Normal**: 
+
+	* Corresponds to 0%-49% of the total consumption allocated for the budget.
+	* Represented by the green color in the budget costs report.
+
+* **Warning**:
+
+	* Corresponds to 50%-89% of the total consumption allocated for the budget.
+	* Represented by the yellow color in the budget costs report.
+
+* **Danger**:
+	
+	* Corresponds to 90%-99% of the total consumption allocated for the budget.
+	* Represented by the red color in the budget costs report.
+
+* **Over**:
+
+	* Corresponds to the above 100% of the total consumption allocated for the budget.
+	* Represented by the red color in the budget costs report.
+
+[image]
 
 ----
 
