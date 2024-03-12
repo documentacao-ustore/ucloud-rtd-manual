@@ -10379,7 +10379,7 @@ Os detalhes a serem preenchidos na área de *sub budgets* são descritos abaixo:
 
 * Desambiguação
 
-.. note:: A desambiguação é responsável pelo propósito do *sub budget*, assim, ao clicar no menu suspenso, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Account Provider - CloudType - Dimension - Tag. 
+.. note:: A desambiguação é responsável pelo propósito do *sub budget*, assim, ao clicar no menu suspenso, o usuário visualiza e pode filtrar um dos cinco tipos de elementos existentes: Account Master - Container - CloudType - Dimension - Tag. 
 
 ----
 
@@ -19103,7 +19103,7 @@ Revisão 20/01/2023.
 
 .. |icone_adicionar| image:: /figuras/fig_franquia/icone_adicionar.png
 
-.. |icone_adicionar_budget| image:: /figuras/fig_budget/icone_adicionar_budget.png
+.. |icone_mostrar_mais| image:: /figuras/fig_budget/icone_mostrar_mais.png
 
 .. |icone_alerta_off| image:: /figuras/fig_budget/icone_alerta_off.png
 
