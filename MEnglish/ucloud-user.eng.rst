@@ -1847,15 +1847,24 @@ Accessing
 
 To view the Budgets Costs Report, the user must access the Billing Menu, located on the left side of the screen.
 
-[image]
+.. image:: /figuras/fig_budget_ing/001_billing_menu.png
+   :alt: Billing menu
+   :align: center
+----
 
 A list of submenus is displayed, and it is necessary to click on the ``Reports`` option, evidenced on the image below.
 
-[image]
+.. image:: /figuras/fig_budget_ing/002_reports_submenu.png
+   :alt: reports submenu
+   :align: center
+----
 
 On this flow it is presented the Billing menu screen, where two classes of panels based on consumption and invoice are shown.
 
-[image]
+.. image:: /figuras/fig_rcf_eng/001_billing_menu.png
+   :alt: Billing screen
+   :align: center
+----
 
 The first topic “Consumption-based panels” group different types of reports, they are:
 
@@ -1865,32 +1874,50 @@ The first topic “Consumption-based panels” group different types of reports,
 * Cost limit;
 * Budget costs.
 
-[image]
+.. image:: /figuras/fig_budget_ing/003_budget_card.png
+   :alt: budget card
+   :align: center
+----
 
 The budgets costs button presents a brief description of its function.
 
-[image]
+.. image:: /figuras/fig_budget_ing/004_budget_card_expended.png
+   :alt: budget card expanded
+   :align: center
+----
 
 When clicked, it presents a “Budgets costs details” screen.
 
-[image]
+.. image:: /figuras/fig_budget_ing/005_budget_screen.png
+   :alt: budget screen
+   :align: center
+----
 
 The screen above shows:
 
 * ``Back`` **button**: Allows the user to return to the billing reports home page;
 * **Calendar**: In this field it is possible to select the desired period, it is also possible to go through months and previous years.
 
-[image]
+.. image:: /figuras/fig_rcf_eng/004_calendar.png
+   :alt: calendar
+   :align: center
+----
 
 * **Company choosing field**: This area presents a modal to pick the desired company, the search is facilitated by the search and roll bar:
 
-[image]
+.. image:: /figuras/fig_budget_ing/006_budget_companies.png
+   :alt: calendar
+   :align: center
+----
 
 * ``View report``: Searches the report regarding the period and company previously selected.
 
 When clicking on the button mentioned above, the screen with the budgets costs details is presented:
 
-[image] 
+.. image:: /figuras/fig_budget_ing/007_company_period.png
+   :alt: calendar
+   :align: center
+----
 
 It presents two types of listing:
 
@@ -1914,11 +1941,17 @@ Creating Budget and Sub Budget
 
 To start the creation process, the user must click on ``Create budget``.
 
-[image]
+.. image:: /figuras/fig_budget_ing/008_create_budget_button.png
+   :alt: create budget button
+   :align: center
+----
 
 Then, the creation modal is presented:
 
-[image]
+.. image:: /figuras/fig_budget_ing/009_budget_creation.png
+   :alt: create budget modal
+   :align: center
+----
 
 Below the blanks shown in the figure above are described:
 
@@ -1929,7 +1962,10 @@ Below the blanks shown in the figure above are described:
 * **Budget name**
 * **Frequency**: Dropdown menu that shows four options:
 
-[image]
+.. image:: /figuras/fig_budget_ing/010_budget_frequency.png
+   :alt: budget frequency
+   :align: center
+----
 
 	* Monthly:
 		For the monthly frequency, the report contemplates the chosen month by the user on the following field.
@@ -1938,7 +1974,10 @@ Below the blanks shown in the figure above are described:
 
 * Quarterly: 
 
-[image]
+.. image:: /figuras/fig_budget_ing/011_budget_quarterly.png
+   :alt: quarterly frequency
+   :align: center
+----
 
 By selecting this option, the interface presents a list of periods, located on the area below the SubBudget Configuration area.
 
@@ -1947,7 +1986,11 @@ The application allows for the user to choose any quarter available within the p
 ----
 
 * Semiannual: 
-[image]
+
+.. image:: /figuras/fig_budget_ing/012_budget_semiannual.png
+   :alt: semiannual frequency
+   :align: center
+----
 
 By selecting this frequency, two alternatives with the available semesters within the period of one year are presented.
 
@@ -1955,19 +1998,25 @@ By selecting this frequency, two alternatives with the available semesters withi
 
 * Annual: 
 
- [image]
+.. image:: /figuras/fig_budget_ing/013_budget_annual.png
+   :alt: annual frequency
+   :align: center
+----
 
 By choosing this type of frequency, a list of all with all the months corresponding to the period of one year is presented.
 
 It is possible to create a sub budget for each month of the year, manually, or by checking the option “same for all the months”, evidenced in the image above.
 
-.. attention:: Creating sub budgets for all the months of the year, the sum must limitate to the total value of the budget.
+.. attention:: Creating sub budgets for all the months of the year, the sum must limited to the total value of the budget.
 
 * **Select the month**
 
 After clicking on this field, a calendar is revealed.
 
-[image]
+.. image:: /figuras/fig_budget_ing/014_select_month.png
+   :alt: select month
+   :align: center
+----
 
 In the case of a frequency different from monthly, it is allowed the selection of multiple months with only two clicks. If needed, it is possible to return to previous months and years.
 
@@ -1975,19 +2024,28 @@ In the case of a frequency different from monthly, it is allowed the selection o
 
 By positioning the mouse above the tool tip, this message is presented:
 
-[image]
+.. image:: /figuras/fig_budget_ing/015_recurring_budget.png
+   :alt: recurring budget
+   :align: center
+----
 
 * Routine alert
 
 Hovering the mouse above the tool tip, the following information is shown:
 
-[image]
+.. image:: /figuras/fig_budget_ing/016_budget_alert.png
+   :alt: budget alert
+   :align: center
+----
 
 To enable the functions mentioned above, just click on the flag. Which changes color when enabled.
 
-[image]
+.. image:: /figuras/fig_budget_ing/017_flags_enabled.png
+   :alt: flags enabled
+   :align: center
+----
 
-On the figure above it is possible to note that by actioning the routine alert flag, a field dedicated for the email is displayed next to it. In case it is necessary to alert more than one person regarding the budget level, separate the electronic mails with a comma.
+On the figure above it is possible to note that by enabling the routine alert flag, a field dedicated for the email is displayed next to it. In case it is necessary to alert more than one person regarding the budget level, separate the electronic mails with a comma.
 
 The insertion of these are crucial for the user to receive the notification alerting about the budget.
 
@@ -1997,27 +2055,29 @@ The insertion of these are crucial for the user to receive the notification aler
 
 * Form of charging
 	
-* By consumed quantity
-* By cost
-* Value
+    * By consumed quantity
+
+    * By cost
+
+    * Value
 
 ----
 .. centered:: **3. SubBudget Configuration**
 ----
 
-The fields of this tab are hidden from the user, only showing when they click on the icon to show more |icone| next to the submodal.
+The fields of this tab are hidden from the user, only showing when they click on the icon to show more |icone_mostrar_mais| next to the submodal.
 
 The details to be filled out in the sub budgets area are described below:
 
 * Disambiguation
 
-.. note:: The disambiguation is responsible for the sub budget purpose, when clicking on the dropdown menu, the user views and can filter one of the five types of existing elements: Account Master - Account provider - CloudType - Dimension - Tag.
+.. note:: The disambiguation is responsible for the sub budget purpose, when clicking on the dropdown menu, the user views and can filter one of the five types of existing elements: Account Master - Container - CloudType - Dimension - Tag.
 
  	* Select an account provider
 
 .. attention:: This is a dropdown field, altered according to the option chosen in disambiguation:
 
-* In case the account provider is selected, the next field is designed to select one;
+* In case the container is selected, the next field is designed to select an account provider;
 * In the condition of the Account Master choosing, the dropdown menu next to it is to choose one. Besides that, an extra blank to choose the Linked Account is shown.
 * If the CloudType option is selected, the user must pick the desired cloud;
 * When the Dimension is selected as the desired disambiguation, a listing of the available dimensions is presented;
@@ -2027,7 +2087,7 @@ The details to be filled out in the sub budgets area are described below:
 
 Below this area, a card alerting about the remaining balance is shown.
 
-.. important:: The **remaining balance** corresponds to the value that indicates the balance left from the budget, equivalates to the value of the budget minus the sum of the value of all the sub budgets.
+.. important:: The **remaining balance** corresponds to the value that indicates the balance left from the budget, equivalent to the value of the budget minus the sum of the value of all the sub budgets.
 
 * Value
 *  ``Include SubBudget``
@@ -2053,16 +2113,23 @@ In the inferior part of the modal two buttons are displayed:
 
  In the flow sequence, after finishing the information filling, it is necessary to click on the ``Create`` button, located on the inferior right corner of the modal for the budget to be saved.
 
-[image]
+.. image:: /figuras/fig_budget_ing/018_create_budget_button.png
+   :alt: create button
+   :align: center
+----
 
 Then, a message is displayed in the superior right corner of the screen confirming the action.
 
-[image]
+.. image:: /figuras/fig_budget_ing/019_message_creation.png
+   :alt: create message
+   :align: center
+----
 
 This activity of budget creation can be followed in the Tasks menu.
 
-[image]
-
+.. image:: /figuras/fig_budget_ing/020_task_creation.png
+   :alt: create task
+   :align: center
 ----
 
 
@@ -2071,7 +2138,10 @@ Listing
 
 In case the just-created budget does not show at the listing, just click on the update icon, positioned next to the button ``Create budget``, as presented in the following image.
 
-[image]
+.. image:: /figuras/fig_budget_ing/021_update_button.png
+   :alt: update button
+   :align: center
+----
 
 Regarding the budgets listing, this is separated into five categories:
 
@@ -2094,11 +2164,17 @@ Editing
 
 To edit a Budget, the user has to click on the edition icon in the column regarding the actions from the card, as evidenced on the image in the sequence.
 
-[image]
+.. image:: /figuras/fig_budget_ing/022_edit_button.png
+   :alt: edit button
+   :align: center
+----
 
 Then, the modal is presented with all the information previously filled.
 
-[image]
+.. image:: /figuras/fig_budget_ing/023_edit_modal.png
+   :alt: edit modal
+   :align: center
+----
 
 On this screen it is possible to edit anything that the user finds necessary, except the frequency.
 
@@ -2110,7 +2186,10 @@ In case the user wants to cancel the operation, click on the ``Cancel`` button, 
 
 Different from the creation flow, when trying to delete a created sub budget a message that needs the user confirmation is displayed on screen:
 
-[image]
+.. image:: /figuras/fig_budget_ing/024_delete_subbudget.png
+   :alt: delete subbudget
+   :align: center
+----
 
 To give up on the operation, click on the button ``No, cancel`` and the user is redirected to the budget edition modal.
 
@@ -2118,12 +2197,16 @@ If affirmative to the sub budget deletion, press ``Yes, continue``.
 
 By confirming this action, a message is shown on the superior right corner of the screen.
 
-[image]
+.. image:: /figuras/fig_budget_ing/025_message_edit.png
+   :alt: edit budget message
+   :align: center
+----
 
 Sequently, this operation can be followed on the Tasks menu, as evidenced in the next image:
 
-[image]
-
+.. image:: /figuras/fig_budget_ing/026_task_edition.png
+   :alt: edit budget task
+   :align: center
 ----
 
 
@@ -2132,15 +2215,24 @@ Viewing the Budgets Costs Report
 
 The viewing of this report can be accessed in the “Budget costs details” screen. It allows the user to be informed about the predictions and percentages of cost in detail.
 
-[image]
+.. image:: /figuras/fig_budget_ing/007_company_period.png
+   :alt: view budget report
+   :align: center
+----
 
 The Budget cost detail allow the view clicking on the ``Period`` button, evidenced below:
 
-[image]
+.. image:: /figuras/fig_budget_ing/027_filter_period.png
+   :alt: filter period
+   :align: center
+----
 
 To make the search for a specific budget easier, below the type of listing choosing field, there is a search bar where the user can type the desired name.
 
-[image]
+.. image:: /figuras/fig_budget_ing/028_search_period.png
+   :alt: search period
+   :align: center
+----
 
 With the objective to make the budget cost details viewing easier, the listing is divided into five categories, they are:
 
@@ -2154,12 +2246,15 @@ Next to the name of each column is possible to notice a pair of arrows, when cli
 
 Besides that, next to the names of each budget there are three icons:
 
-* **Show more** |icon|: When clicking on this icon, the sub budgets are presented
+* **Show more** |icone_mostrar_mais|: When clicking on this icon, the sub budgets are presented
 
-[image]
+.. image:: /figuras/fig_budget_ing/029_detail_subbudget.png
+   :alt: subbudget detail
+   :align: center
+----
 
-* **Alert on** |icon| Indicates if the budget has the alert enabled.
-* **Alert off** |icon| Informs that the flag to alert about the budget consumption is disabled.
+* **Alert on** |icone_alerta_on| Indicates if the budget has the alert enabled.
+* **Alert off** |icone_alerta_off| Informs that the flag to alert about the budget consumption is disabled.
 
 The interface delivers the necessary information for the user understanding about the sub budget costs, that are:
 
@@ -2184,11 +2279,17 @@ This feature, also known as Budget Alert, can be enabled or not when clicking on
 
 The notification is sent for the registered email(s) as an automatic message, with no need for a reply. This is due to the fact that the sender is “no reply”, as it is possible to be seen in the image below:
 
-[image]
+.. image:: /figuras/fig_budget_ing/030_alert_email.png
+   :alt: alert email
+   :align: center
+----
 
 When clicking on the email, the following message is shown:
 
-[image]
+.. image:: /figuras/fig_budget_ing/031_message_email.png
+   :alt: message email
+   :align: center
+----
 
 It is worth highlighting that just one email is sent for every level the budget reaches. The levels are:
 
@@ -2212,8 +2313,9 @@ It is worth highlighting that just one email is sent for every level the budget 
 	* Corresponds to the above 100% of the total consumption allocated for the budget.
 	* Represented by the red color in the budget costs report.
 
-[image]
-
+.. image:: /figuras/fig_budget_ing/029_detail_subbudget.png
+   :alt: subbudget detail
+   :align: center
 ----
 
 Consumption Monitoring Report (CRM)
@@ -5025,7 +5127,7 @@ Registered themes
 
 .. |icone_cancelar_vermelho| image:: /figuras/fig_rgcf/icone_cancelar_vermelho.png
 
-.. |icone_adicionar_budget| image:: /figuras/fig_budget/icone_adicionar_budget.png
+.. |icone_mostrar_mais| image:: /figuras/fig_budget/icone_mostrar_mais.png
 
 .. |icone_alerta_off| image:: /figuras/fig_budget/icone_alerta_off.png
 
