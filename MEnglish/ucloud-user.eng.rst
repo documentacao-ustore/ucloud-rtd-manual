@@ -1956,7 +1956,9 @@ Then, the creation modal is presented:
 Below the blanks shown in the figure above are described:
 
 ----
+
 .. centered:: **1. General information**
+
 ----
 
 * **Budget name**
@@ -2050,7 +2052,9 @@ On the figure above it is possible to note that by enabling the routine alert fl
 The insertion of these are crucial for the user to receive the notification alerting about the budget.
 
 ----
+
 .. centered:: **2. Values**
+
 ----
 
 * Form of charging
@@ -2062,7 +2066,9 @@ The insertion of these are crucial for the user to receive the notification aler
     * Value
 
 ----
+
 .. centered:: **3. SubBudget Configuration**
+
 ----
 
 The fields of this tab are hidden from the user, only showing when they click on the icon to show more |icone_mostrar_mais| next to the submodal.
@@ -2073,15 +2079,17 @@ The details to be filled out in the sub budgets area are described below:
 
 .. note:: The disambiguation is responsible for the sub budget purpose, when clicking on the dropdown menu, the user views and can filter one of the five types of existing elements: Account Master - Container - CloudType - Dimension - Tag.
 
+----
+
  	* Select an account provider
 
 .. attention:: This is a dropdown field, altered according to the option chosen in disambiguation:
 
-* In case the container is selected, the next field is designed to select an account provider;
-* In the condition of the Account Master choosing, the dropdown menu next to it is to choose one. Besides that, an extra blank to choose the Linked Account is shown.
-* If the CloudType option is selected, the user must pick the desired cloud;
-* When the Dimension is selected as the desired disambiguation, a listing of the available dimensions is presented;
-* By selecting Tag, fields of key and value are displayed. These, must belong to a valid tag, that it, already inserted previously;
+  * In case the container is selected, the next field is designed to select an account provider;
+  * In the condition of the Account Master choosing, the dropdown menu next to it is to choose one. Besides that, an extra blank to choose the Linked Account is shown.
+  * If the CloudType option is selected, the user must pick the desired cloud;
+  * When the Dimension is selected as the desired disambiguation, a listing of the available dimensions is presented;
+  * By selecting Tag, fields of key and value are displayed. These, must belong to a valid tag, that it, already inserted previously.
 
 -----
 
@@ -2110,6 +2118,8 @@ In the inferior part of the modal two buttons are displayed:
 * ``Create``: it must be clicked to save the budget.
 
 .. note:: It is possible to insert the sub budgets to the main Budget, limiting itself to the rule that its value has to be equal to the sum of the values of its sub budgets. In case the value represents a higher or lower number, the ``Create`` button stays disabled and the remaining balance is different from zero.
+
+----
 
  In the flow sequence, after finishing the information filling, it is necessary to click on the ``Create`` button, located on the inferior right corner of the modal for the budget to be saved.
 
