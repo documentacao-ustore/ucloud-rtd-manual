@@ -2266,7 +2266,7 @@ Para acceder a estas nuevas implementaciones de la plataforma uCloud, el usuario
 El acceso permite consultar los informes correspondientes al mes en curso mediante la introducción del periodo deseado en el campo de búsqueda. Esta visualización permite al usuario mantenerse informado de las previsiones de costo en forma detallada.
 
 
-El primer tópico **"Paneles Basados en el Consumo"** agrupa siete tipos de informes:
+El primer tópico **"Paneles Basados en el Consumo"** agrupa los tipos de informes:
 
  
 .. figure:: /figuras/fig_lc_spa/002_límite_costos_paneles_consumo.png
@@ -2279,20 +2279,19 @@ El primer tópico **"Paneles Basados en el Consumo"** agrupa siete tipos de info
 1. Historial de Servicio;
 2. Costo Cadenciado;
 3. Costo Relacional de Producto;
-4. Visualización de Recursos;
-5. Costos de Budgets;
-6. Informe de Monitoreo de Consumo;
-7. **Informes Basados en Límites de Costos.**
+4. Costos de Budgets;
+5. **Informes Basados en Límites de Costos.**
 
 
-.. attention:: |atencao| El número de informes mostrados en el menú Financiero, submenú Informes, tópicos "Paneles basados en consumo y factura" puede variar su cantidad de botones de acuerdo al contrato del cliente, con un máximo de siete y un mínimo de uno.
+.. attention:: |atencao| El número de informes mostrados en el menú Financiero, submenú Informes, tópicos "Paneles basados en consumo y factura" puede variar su cantidad de botones de acuerdo al contrato del cliente.
 
 
-Este registro trata del acceso al botón de opción: **Informes basados en límites de costos**, al hacer clic sobre el mismo se muestran dos nuevos informes para esta modalidad:
+Este registro trata del acceso al botón de opción: **Informes basados en límites de costos**, al hacer clic sobre el mismo se muestran tres nuevos informes para esta modalidad:
 
 
-  *  A. Informe de Límites de Costos y  
-  *  B. Análisis de Riesgos.
+  *  A. Límite de Costo por contrato
+  *  B. Límite de Costos para Administradores y  
+  *  C. Análisis de Riesgos.
 
 
 .. figure:: /figuras/fig_lc_spa/003_límites_costos_opciones.png
@@ -2310,10 +2309,10 @@ A continuación se describe cada informe basado en el límite de costo, junto co
 
 ----
 
-A. Informe de Límite de Costos
+A. Límite de Costos para Administradores
 """""""""""""""""""""""""""""""""""""""""""
 
-El informe de límite de costos permite que el usuario observe el consumo realizado mes a mes, lo que hace posible ejecutar el monitoreo sobre qué meses se ha excedido el límite de costo definido y representado en la pantalla por una línea punteada.
+El informe de límite de costos para administradores permite que el usuario observe el consumo realizado mes a mes, lo que hace posible ejecutar el monitoreo sobre qué meses se ha excedido el límite de costo definido y representado en la pantalla por una línea punteada.
 
 
 En la siguiente imagen se puede ver la visualización de este informe con un gráfico de columnas:
@@ -2328,7 +2327,7 @@ En la siguiente imagen se puede ver la visualización de este informe con un gr�
 
 **Nuevas características:**
 
-La pantalla del "Informe de límites de costos" se diferencia de los demás informes, ya que es posible realizar todas las operaciones: crear, editar, eliminar y ejecutar. Esto facilita al usuario la realización de las acciones disponibles.
+La pantalla del "Informe de límites de costos para administradores" se diferencia de los demás informes, ya que es posible realizar todas las operaciones: crear, editar, eliminar y ejecutar. Esto facilita al usuario la realización de las acciones disponibles.
 
 ----
 
@@ -2341,7 +2340,7 @@ En este punto es informado el paso a paso para la realización de estas acciones
 **1. Ejecutando sin guardar**
 
 
-Para ejecutar el informe sin un límite de costos previamente guardado, presione el botón verde "Configurar límite de costos" situado en la esquina inferior derecha del *card*, como se muestra en la siguiente imagen:
+Para ejecutar el informe sin un límite de costos previamente guardado, presione el botón "Configurar límite de costos" situado en la esquina inferior derecha del *card*, como se muestra en la siguiente imagen:
 
 
   
@@ -2415,7 +2414,7 @@ Cada intervalo configura automáticamente su mes inicial y final. La tabla sigui
 **Procedimientos posteriores a la configuración:**
 
 
-Tras realizar la configuración, el usuario debe pulsar el botón verde "Ejecutar", situado en la esquina inferior derecha del modal. Esto inicia el proceso de carga de los datos en la pantalla.
+Tras realizar la configuración, el usuario debe pulsar el botón "Ejecutar", situado en la esquina inferior derecha del modal. Esto inicia el proceso de carga de los datos en la pantalla.
 
 
 Una vez finalizada la carga, el usuario dispone de un gráfico en el centro de la pantalla con la línea de límite de costo y el costo total del mes, separados por nombre del producto (cuando se utiliza el filtro Contrato y/o Nube) o por nombre de la Dimensión (cuando se utiliza el filtro Dimensión).
@@ -2466,7 +2465,7 @@ Al hacer clic en "Configuraciones aplicadas", se permite al usuario modificar un
 ----
   
 
-* En el caso de que se añaden dos Dimensiones, y haya un costo que abarca ambas. En la sección "Costo por Dimensión", este registro se ingresa como "Consumo de Dimensión por grupo", es decir, el valor de R$148,38... está presente dentro de la Dimensión [google-bb] y [TipoUsn].
+* En el caso de que se añaden dos Dimensiones, y haya un costo que abarca ambas. En la sección "Costo por Dimensión", este registro se ingresa como "Consumo de Dimensión por grupo".
 
 
 .. figure:: /figuras/fig_lc_spa/013_límite_costos_dos_dimensiones.png
@@ -2543,7 +2542,7 @@ Para realizar una edición, el usuario debe seleccionar un límite de costo y pu
 
 ----
 
-En este flujo, se muestra el modal "Edición de límite de costo":
+En este flujo, se muestra el modal "Edición de límite de costos":
 
 
 .. figure:: /figuras/fig_lc_spa/018_límite_costos_pantalla_edición.png 
@@ -2553,7 +2552,7 @@ En este flujo, se muestra el modal "Edición de límite de costo":
 ---- 
   
 
-En él, el usuario puede cambiar las configuraciones del límite de costo y guardarlas pulsando el botón verde "Editar" de la esquina inferior derecha.
+En él, el usuario puede cambiar las configuraciones del límite de costo y guardarlas pulsando el botón "Editar" de la esquina inferior derecha.
 
 ----
 
@@ -2774,7 +2773,7 @@ Una vez realizado el procesamiento, el usuario puede visualizar:
 Además, también se muestra el alcance de cada límite de costo, indicando el nombre del contrato al que pertenece, la nube y/o si existen cuentas vinculadas.
 
 
-Una vez seleccionadas las opciones deseadas, el botón de color verde ``Ejecutar`` situado junto al menú desplegable queda disponible para ser pulsado. En este ejemplo, el usuario ha seleccionado las siguientes opciones de límite de costos: anual, mensual, InformeAnual y Semestral/Contrato.
+Una vez seleccionadas las opciones deseadas, el botón ``Ejecutar`` situado junto al menú desplegable queda disponible para ser pulsado. En este ejemplo, el usuario ha seleccionado las siguientes opciones de límite de costos: anual, mensual, InformeAnual y Semestral/Contrato.
 
 
 Consulte la imagen de abajo para obtener una mejor visualización:
@@ -2786,14 +2785,14 @@ Consulte la imagen de abajo para obtener una mejor visualización:
 ----
  
 
-En la imagen anterior es posible observar una escala que contiene el nivel de riesgo. Para comprender mejor los riesgos, el usuario debe hacer clic en el botón de color naranja situado en la esquina inferior derecha de la pantalla, representado por una flecha blanca que apunta hacia la derecha.
+En la imagen anterior es posible observar una escala que contiene el nivel de riesgo. Para comprender mejor los riesgos, el usuario debe hacer clic en el botón situado en la esquina inferior derecha de la pantalla, representado por una flecha blanca que apunta hacia la derecha.
 
 Al pulsarlo, se abre una tabla donde el usuario puede visualizar la descripción de cada tipo de riesgo que puede ser presentado en pantalla. Los riesgos pueden presentarse como:
 
 
 * No disponible;
 * Muy bajo;
-* Baixo;
+* Bajo;
 * Moderado;
 * Alto;
 * Muy alto y
