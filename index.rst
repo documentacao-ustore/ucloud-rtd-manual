@@ -61,6 +61,7 @@ Este repositório disponibiliza as informações dos nossos produtos, categoriza
    :caption: Press Release:
    :titlesonly:
    
+   Press-Release/2024.03.15
    Press-Release/2023.06.23
    Press-Release/2023.06.16
    Press-Release/2023.06.09
