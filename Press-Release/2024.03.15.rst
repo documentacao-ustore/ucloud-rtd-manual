@@ -1,0 +1,128 @@
+.. figure:: /figuras/_ustore.png
+   :alt: Logo uStore
+   :scale: 50 %
+   :align: center
+   
+----
+
+.. .. centered:: Português      -     Español_    -     English_    
+
+
+.. .. _Español: 
+
+.. .. _English: 
+
+
+
+----
+
+2024.03.15
+==========
+
+Press release
+-------------
+Ano 2024 - Período: 01 a 15 de março
+
+----
+
+**Apresentação**
+
+Esta publicação é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
+
+Esta nota é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos registrar o resultado sobre o aprimoramento e as melhorias, além de dar acesso à informação sobre o aperfeiçoamento deste produto.
+
+Nesta edição o tema abordado é sobre **O impacto da integração da nuvem Oracle Cloud Enterprise no portal uCloud**.
+
+----
+
+Portal uCloud
+~~~~~~~~~~~~~
+
+Esta nota detalha de forma resumida e clara o impacto da última atualização no portal uCloud, em relação a integração da nuvem pública Oracle Cloud Enterprise.  
+
+Oracle Cloud é um serviço de computação em nuvem pública, que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de datacenters gerenciados pela Oracle Corporation.  
+
+O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da integração destes 15 (quinze) recursos descritos na sequência.
+
+   * **uCloud Operação**:
+   * 01. Importe de Account Provider;
+   * 02. Sincronização de Account Provider;
+   * 03. Virtual Datacenter;
+   * 04. Rede;
+   * 05. Grupo de Segurança;
+   * 06. Par de Chaves;
+   * 07. Storages;
+   * 08. Máquina Virtual;
+   * 09. IP Público;
+   * 10. Balanceador;
+   * 11. Scaling Group;
+   * 12. Banco de Dados;
+   * 13. Zona DNS;
+   * 14. Flavors;
+   * 15. Inventário de Recursos.
+
+A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos especificados a seguir.
+
+.. note:: 
+Operações escritas na cor preta estavam previamente integrados desde 2023, as novas integrações estão destacadas na cor azul.
+
+
+* Oracle Cloud Infrastructure 
+
+
+----
+
+.. centered:: Oracle Cloud Infrastructure 
+
+----
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle.png
+   :alt: novo quadro integração oracle
+   :scale: 100 %
+   :align: center
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. figure:: /figuras/fig_press/quadro_nuvens/006_oracle.png
+   :alt: quadro oracle parte 1
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_press/quadro_nuvens/007_oracle.png
+   :alt: quadro oracle parte 2
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_press/quadro_nuvens/008_oracle.png
+   :alt: quadro oracle parte 3
+   :scale: 100 %
+   :align: center
+----
+
+.. figure:: /figuras/fig_press/quadro_nuvens/009_oracle.png
+   :alt: quadro oracle parte 4
+   :scale: 100 %
+   :align: center
+----
+
+
+----
+
+.. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
+
+Este press release é uma ferramenta de divulgação das novidades nos produtos da Ustore, veiculadas neste ambiente virtual.
