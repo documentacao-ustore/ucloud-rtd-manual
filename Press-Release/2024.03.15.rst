@@ -63,11 +63,7 @@ O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da
 
 A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos especificados a seguir.
 
-.. note:: 
-Operações escritas na cor preta estavam previamente integrados desde 2023, as novas integrações estão destacadas na cor azul.
-
-
-* Oracle Cloud Infrastructure 
+.. important:: Operações escritas na cor preta estavam previamente integrados desde 2023, as novas integrações do ano 2024 estão destacadas na cor azul.
 
 
 ----
@@ -75,24 +71,6 @@ Operações escritas na cor preta estavam previamente integrados desde 2023, as 
 .. centered:: Oracle Cloud Infrastructure 
 
 ----
-
-
-.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle.png
-   :alt: novo quadro integração oracle
-   :scale: 100 %
-   :align: center
-----
-
-
-
-
-
-
-
-
-
-
-
 
 
 
