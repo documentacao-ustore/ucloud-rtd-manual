@@ -42,24 +42,23 @@ Esta nota detalha de forma resumida e clara o impacto da última atualização n
 
 Oracle Cloud é um serviço de computação em nuvem pública, que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de datacenters gerenciados pela Oracle Corporation.  
 
-O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da integração destes 15 (quinze) recursos descritos na sequência.
+O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da integração destes 14 (catorze) recursos descritos na sequência.
 
    * **uCloud Operação**:
-   * 01. Importe de Account Provider;
-   * 02. Sincronização de Account Provider;
-   * 03. Virtual Datacenter;
-   * 04. Rede;
-   * 05. Grupo de Segurança;
-   * 06. Par de Chaves;
-   * 07. Storages;
-   * 08. Máquina Virtual;
-   * 09. IP Público;
-   * 10. Balanceador;
-   * 11. Scaling Group;
-   * 12. Banco de Dados;
-   * 13. Zona DNS;
-   * 14. Flavors;
-   * 15. Inventário de Recursos.
+   * 01. Account Provider; 
+   * 02. Virtual Datacenter;
+   * 03. Rede;
+   * 04. Grupo de Segurança;
+   * 05. Par de Chaves;
+   * 06. Storages;
+   * 07. Máquina Virtual;
+   * 08. IP Público;
+   * 09. Balanceador;
+   * 10. Scaling Group;
+   * 11. Banco de Dados;
+   * 12. Zona DNS;
+   * 13. Flavors;
+   * 14. Inventário de Recursos.
 
 A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos especificados a seguir.
 
@@ -78,27 +77,21 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
    :alt: quadro oracle parte 1
    :scale: 100 %
    :align: center
-----
 
 .. figure:: /figuras/fig_press/quadro_nuvens/007_oracle.png
    :alt: quadro oracle parte 2
    :scale: 100 %
    :align: center
-----
 
 .. figure:: /figuras/fig_press/quadro_nuvens/008_oracle.png
    :alt: quadro oracle parte 3
    :scale: 100 %
    :align: center
-----
 
 .. figure:: /figuras/fig_press/quadro_nuvens/009_oracle.png
    :alt: quadro oracle parte 4
    :scale: 100 %
    :align: center
-----
-
-
 ----
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
