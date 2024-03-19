@@ -28,7 +28,7 @@ Año 2023 - Período: del 19 al 23 de Junio
 
 ====
 
-En esta comunicación, Ustore presenta los cuadros adecuados para la interacción con los proveedores de nube *AWS*, *Azure*, *GCP*, *IBM* e *Oracle* creados para presentar de forma sintética los recursos integrados y soportados por el portal uCloud. Puede ser información de consulta para las soluciones ofrecidas en los ambientes híbridos o multi-nube gestionados por uCloud.
+En esta comunicación, Ustore presenta los cuadros adecuados para la interacción con los proveedores de nube *AWS*, *Azure*, *GCP* e *IBM* creados para presentar de forma sintética los recursos integrados y soportados por el portal uCloud. Puede ser información de consulta para las soluciones ofrecidas en los ambientes híbridos o multi-nube gestionados por uCloud.
 
 
 ====
@@ -94,20 +94,20 @@ A *IBM Cloud* es una plataforma de computación en nube que ofrece servicios esc
    :align: center
 
 
-====
+.. ====
 
-.. centered:: Oracle Cloud
+.. .. centered:: Oracle Cloud
 
-====
+.. ====
 
-*Oracle Cloud* es un servicio de computación en nube que ofrece servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de *datacenters* gestionados por *Oracle Corporation*. En relación con la interacción del proveedor de servicios de nube pública *Oracle Cloud*, la plataforma uCloud ofrece soporte a la nube y proporciona los recursos que se enumeran a continuación: 
+.. *Oracle Cloud* es un servicio de computación en nube que ofrece servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de *datacenters* gestionados por *Oracle Corporation*. En relación con la interacción del proveedor de servicios de nube pública *Oracle Cloud*, la plataforma uCloud ofrece soporte a la nube y proporciona los recursos que se enumeran a continuación: 
 
 
-.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle_spa.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/005_oracle_spa.png
    :alt: cuadro oracle
    :scale: 100 %
    :align: center
-----
+.. ----
 
 El material detallado en este documento reafirma el constante compromiso de evolución de los productos Ustore y su alineación con las necesidades del mercado de almacenamiento en nube. 
 

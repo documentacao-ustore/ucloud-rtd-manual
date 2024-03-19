@@ -27,7 +27,7 @@ Year 2023 - Period: 19 - 23 June
 
 ====
 
-In this communication Ustore presents the appropriate tables to the interaction with the providers of the AWS, Azure, GCP, IBM and Oracle clouds created to show the synthetic form of integrated and supported resources by the uCloud portal. It can consult information for the solutions offered in the hybrid or multi-cloud environments managed by the uCloud.
+In this communication Ustore presents the appropriate tables to the interaction with the providers of the AWS, Azure, GCP and IBM clouds created to show the synthetic form of integrated and supported resources by the uCloud portal. It can consult information for the solutions offered in the hybrid or multi-cloud environments managed by the uCloud.
 
 ====
 
@@ -91,19 +91,19 @@ The IBM Cloud is a cloud computing platform that offers scalable services of inf
    :align: center
 
 
-====
+.. ====
 
-.. centered:: Oracle Cloud
+.. .. centered:: Oracle Cloud
 
-====
+.. ====
 
-Oracle Cloud is an offered cloud computing service which provides servers, storage, network, applications and service through a global network of data centers managed by the Oracle Corporation. Regarding the interaction with the Oracle Cloud public cloud service provider, the uCloud platform offers supports to the cloud and makes the resources listed next available:
+.. Oracle Cloud is an offered cloud computing service which provides servers, storage, network, applications and service through a global network of data centers managed by the Oracle Corporation. Regarding the interaction with the Oracle Cloud public cloud service provider, the uCloud platform offers supports to the cloud and makes the resources listed next available:
 
-.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle_eng.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/005_oracle_eng.png
    :alt: table oracle
    :scale: 100 %
    :align: center
-----
+.. ----
 
 The detailed material on this document reaffirms the constant commitment with Ustore’s products evolution and the alignment to the needs of the market and clients.
 

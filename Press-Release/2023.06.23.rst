@@ -26,7 +26,7 @@ Ano 2023 - Período: 19 a 23 de Junho
 
 ====
 
-Nesta comunicação a Ustore apresenta os quadros adequados à interação com os provedores das nuvens *AWS*, *Azure*, *GCP*, *IBM* e *Oracle* criados para mostrar de forma sintética os recursos integrados e suportados pelo portal uCloud. Pode ser informação de consulta para as soluções ofertadas nos ambientes híbridos ou multi-nuvem gerenciados pelo uCloud.
+Nesta comunicação a Ustore apresenta os quadros adequados à interação com os provedores das nuvens *AWS*, *Azure*, *GCP* e *IBM* criados para mostrar de forma sintética os recursos integrados e suportados pelo portal uCloud. Pode ser informação de consulta para as soluções ofertadas nos ambientes híbridos ou multi-nuvem gerenciados pelo uCloud.
 
 
 ====
@@ -92,20 +92,20 @@ A *IBM Cloud* é uma plataforma de computação em nuvem que oferece serviços e
    :align: center
 
 
-====
+.. ====
 
-.. centered:: Oracle Cloud
+.. .. centered:: Oracle Cloud
 
-====
+.. ====
 
-*Oracle Cloud* é um serviço de computação em nuvem que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de *datacenters* gerenciados pela *Oracle Corporation*. Relativo à interação do provedor de serviço de nuvem pública *Oracle Cloud*, a plataforma uCloud oferece suporte à nuvem e  disponibiliza os recursos listados a seguir: 
+.. *Oracle Cloud* é um serviço de computação em nuvem que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de *datacenters* gerenciados pela *Oracle Corporation*. Relativo à interação do provedor de serviço de nuvem pública *Oracle Cloud*, a plataforma uCloud oferece suporte à nuvem e  disponibiliza os recursos listados a seguir: 
 
 
-.. figure:: /figuras/fig_press/quadro_nuvens/005_oracle.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/005_oracle.png
    :alt: quadro oracle
    :scale: 100 %
    :align: center
-----
+.. ----
 
 
 
