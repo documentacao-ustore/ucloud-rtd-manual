@@ -62,9 +62,6 @@ O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da
 
 A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos especificados a seguir.
 
-.. important:: Operações escritas na cor preta estavam previamente integrados desde 2023, as novas integrações do ano 2024 estão destacadas na cor azul.
-
-
 ----
 
 .. centered:: Oracle Cloud Infrastructure 
@@ -72,23 +69,35 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
 ----
 
 
+.. figure:: /figuras/fig_press/quadro_nuvens/010_oracle.png
+   :alt: quadro oracle metade
+   :scale: 100 %
+   :align: center
+----
 
-.. figure:: /figuras/fig_press/quadro_nuvens/006_oracle.png
+.. figure:: /figuras/fig_press/quadro_nuvens/011_oracle.png
+   :alt: quadro oracle segunda metade
+   :scale: 100 %
+   :align: center
+----
+
+
+.. .. figure:: /figuras/fig_press/quadro_nuvens/006_oracle.png
    :alt: quadro oracle parte 1
    :scale: 100 %
    :align: center
 
-.. figure:: /figuras/fig_press/quadro_nuvens/007_oracle.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/007_oracle.png
    :alt: quadro oracle parte 2
    :scale: 100 %
    :align: center
 
-.. figure:: /figuras/fig_press/quadro_nuvens/008_oracle.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/008_oracle.png
    :alt: quadro oracle parte 3
    :scale: 100 %
    :align: center
 
-.. figure:: /figuras/fig_press/quadro_nuvens/009_oracle.png
+.. .. figure:: /figuras/fig_press/quadro_nuvens/009_oracle.png
    :alt: quadro oracle parte 4
    :scale: 100 %
    :align: center
