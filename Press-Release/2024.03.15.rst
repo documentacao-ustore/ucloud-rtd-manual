@@ -73,13 +73,12 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
    :alt: quadro oracle metade
    :scale: 100 %
    :align: center
-----
 
 .. figure:: /figuras/fig_press/quadro_nuvens/011_oracle.png
    :alt: quadro oracle segunda metade
    :scale: 100 %
    :align: center
-----
+
 
 
 .. .. figure:: /figuras/fig_press/quadro_nuvens/006_oracle.png
@@ -101,7 +100,7 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
    :alt: quadro oracle parte 4
    :scale: 100 %
    :align: center
-----
+
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
 
