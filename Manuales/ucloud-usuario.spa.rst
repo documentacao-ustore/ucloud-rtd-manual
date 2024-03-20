@@ -2241,7 +2241,7 @@ A continuación se describen los campos para la presentación de este informe:
 
 * **SEMANAL**: Este filtro permite obtener una visión más granular del consumo, permitiendo comprender e identificar picos de consumo en semanas a lo largo de los meses. En este caso, puede generar indicaciones de aplicaciones o comportamientos que generan picos de consumo en una semana determinada y no en otra. 
      
-     Es importante tener en cuenta que por el momento la plataforma uCloud sólo trabaja con el concepto de semanas cerradas del mes (de domingo a sábado). Estas semanas se numeran secuencialmente del 1 al 52 y se presentan en la parte izquierda del calendario. El campo ``Período'' muestra el calendario ``Semanal''. Como se muestra en la siguiente imagen:
+     Es importante tener en cuenta que por el momento la plataforma uCloud sólo trabaja con el concepto de semanas cerradas del mes (de domingo a sábado). Estas semanas se numeran secuencialmente del 1 al 52 y se presentan en la parte izquierda del calendario. El campo ``Período`` muestra el calendario ``Semanal``. Como se muestra en la siguiente imagen:
 
 .. image:: /figuras/ucloud_menu_financeiro002d.png
    :alt: Virtual Datacenter - Exemplo
