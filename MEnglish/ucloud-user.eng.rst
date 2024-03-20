@@ -1601,7 +1601,7 @@ The uCloud platform makes the synchronization of this file in its internal datab
 
 	* (fixed/variable);
 
-* **Day of the currency quotation:
+* **Day of the currency quotation**:
 
 	* (valid only for variable quotation);
 	
@@ -1655,11 +1655,11 @@ The prices of resources in USN are defined through tags on the Resources Price s
 
 	* The sum of the quantity used from the resource by the defined price is applied;
 	
-* In the case of virtual machines, the price is multiplied by the quantity of CPU or by the quantity of memory in GB;
+   * In the case of virtual machines, the price is multiplied by the quantity of CPU or by the quantity of memory in GB;
 
-* What defines if this calculation will be by CPU or by memory is the tag applied to the resources;
+   * What defines if this calculation will be by CPU or by memory is the tag applied to the resources;
 
-* In the case of the inexistence of the USN type tag in the resource, the calculation is not done.
+   * In the case of the inexistence of the USN type tag in the resource, the calculation is not done.
 
 
  In specific cases of resources with no tags, it takes on the value which comes informed int the Billing file (CSV) of the public cloud service provider.
@@ -1672,7 +1672,7 @@ On this environment, the uCloud platform after downloading the billing file (CSV
 
 	* (fixed/variable);
 
-* **Day of the currency quotation:
+* **Day of the currency quotation**:
 
 	* (valid only for variable quotation);
 	

@@ -8940,9 +8940,12 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
   Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento é o dia inicial do mês subsequente ao consumo. 
   
   Por exemplo:
+
     * Um contrato com data de faturamento e vencimento no dia 8:
-      * Fatura do mês de agosto é no dia 08 e refere-se aos valores consumidos/utilizados durante todo o mês anterior até esta data.
-      * No exemplo acima, período: 08 de julho até o dia 07 de agosto.
+  
+        * Fatura do mês de agosto é no dia 08 e refere-se aos valores consumidos/utilizados durante todo o mês anterior até esta data.
+
+        * No exemplo acima, período: 08 de julho até o dia 07 de agosto.
 
   Este conceito é o mesmo aplicado aos valores das contas de serviços de concessionárias de serviços, que cobra os valores de serviços fornecidos no mês anterior.
 
