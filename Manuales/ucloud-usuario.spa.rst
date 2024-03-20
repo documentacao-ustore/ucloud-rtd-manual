@@ -2194,6 +2194,145 @@ Paneles Basados en el Consumo
 Informe de Historial de Servicio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Este informe permite al administrador de costos seguir la evolución (mensual, semanal o diaria) de los costos de cada ``Product Name`` registrado en el proveedor de servicios de nube pública. Estos costos son separados en costos con y sin etiquetas (*tags*).
+
+El recurso de etiquetas (*tag*) es la forma más usual y la indicada por el proveedor de servicios de nube pública para que las empresas apliquen alguna identificación a los costos recurrentes de su infraestructura de nube pública. Cada proveedor posee sus características específicas sobre qué servicios o productos **no se permite** aplicar etiquetas (*tags*), es decir, no es posible etiquetar (*tag*) todos sus servicios y productos.
+
+La característica de *no permitir vincular etiquetas (tags)* en todos sus productos puede llevar las empresas a un error conceptual para la aplicación y distribución de costos por departamentos, centros de costos, proyectos o cualquier otra aplicación para las etiquetas (*tags*).
+
+Así, la plataforma uCloud presenta, especifica y segrega la suma de los valores de cada ``Product Name`` de los proveedores de servicios de nube pública, de forma que el administrador de costos de las empresas pueda identificar correctamente los totales con y sin etiquetas (*tags*).
+
+En un enfoque de trabajo de FinOps, todo empieza por identificar cuáles son los recursos que más consumen. En este caso, desde el menú del historial de servicios, el cliente puede visualizar el listado de los recursos que más se consumen en su factura. Están agrupados por ``ProductName`` y por ``Product Family``.
+
+Al seleccionar la opción del menú HISTORIAL DE SERVICIO, se solicita elegir un Contrato, en la secuencia el tipo de ``Intervalo`` y el ``Periodo``, a través de este informe es posible analizar los costos de forma detallada, como se muestra en las imágenes a continuación.
+
+Cuando se selecciona este informe, la plataforma uCloud presenta la pantalla siguiente, en la que el usuario debe introducir o seleccionar un único contrato:
+
+.. image:: /figuras/ucloud_menu_financeiro002.png
+   :alt: Menu Financeiro - Histórico de Serviço
+   :scale: 50 %
+   :align: center
+
+----
+
+* **Contrato**: La plataforma uCloud muestra una lista únicamente de los contratos a los que el usuario está vinculado, y el usuario debe introducir o seleccionar un único contrato a la vez. Al seleccionar el contrato deseado, la plataforma uCloud presenta la pantalla siguiente:
+
+.. image:: /figuras/ucloud_menu_financeiro002b.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+A continuación se describen los campos para la presentación de este informe:
+
+* **Intervalo**: Este campo es del tipo "dropdown" y el usuario puede seleccionar el periodo ideal para evaluar los datos de consumo de su ambiente. Al realizar un análisis comparativo mensual, el cliente puede comprender cómo evoluciona su factura a lo largo del tiempo, de acuerdo con la facturación del proveedor. Al hacer clic con el cursor del ratón en ``Intervalo``, la plataforma uCloud presenta las opciones:
+  
+  * **MENSUAL**: Cuando se selecciona el análisis mensual, el cliente puede comprender cómo evoluciona su factura a lo largo del tiempo, según la facturación del proveedor. Esta vista permite comprender el consumo de productos según la factura del cliente. 
+  
+     En el ejemplo siguiente, al seleccionar el campo ``Período`` y, a continuación, ``Mensual``, el calendario con los meses pasa a estar disponible para selección. Es posible seleccionar un mínimo de 1 mes y un máximo de todos los meses del año. Para ejemplificar, hemos seleccionado los 3 últimos meses, como se muestra en la siguiente imagen.
+
+.. image:: /figuras/ucloud_menu_financeiro002c.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **SEMANAL**: Este filtro permite obtener una visión más granular del consumo, permitiendo comprender e identificar picos de consumo en semanas a lo largo de los meses. En este caso, puede generar indicaciones de aplicaciones o comportamientos que generan picos de consumo en una semana determinada y no en otra. 
+     
+     Es importante tener en cuenta que por el momento la plataforma uCloud sólo trabaja con el concepto de semanas cerradas del mes (de domingo a sábado). Estas semanas se numeran secuencialmente del 1 al 52 y se presentan en la parte izquierda del calendario. El campo ``Período`` muestra el calendario ``Semanal``. Como se muestra en la siguiente imagen:
+
+.. image:: /figuras/ucloud_menu_financeiro002d.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **DIARIO**: Este filtro permite obtener una visión con la menor granularidad de periodo posible. Esto permite comprender e identificar los picos de consumo a lo largo de los días. En este caso, puede generar indicaciones de aplicaciones o comportamientos que muestran picos de consumo en un día determinado y no en otro. El campo ``Periodo`` muestra el calendario ``Diario``. Como se muestra en la siguiente imagen:
+
+
+.. image:: /figuras/ucloud_menu_financeiro002e.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Periodo**: Este es un campo obligatorio, la plataforma uCloud cambia este campo después de que el usuario seleccione el periodo en el campo anterior.
+
+* **Container**: Este es un campo obligatorio del tipo "dropdown”, cuando el usuario hace clic con el cursor del ratón, la plataforma uCloud muestra una lista de todos los containers aprovisionados a los que el usuario está vinculado para uso.
+
+* **Linked Account**: El término Containers en la plataforma uCloud se utiliza para representar un ambiente de nube, ya sea público y/o privado. Un container es una abstracción lógica para agrupar todos los recursos (máquinas virtuales, servidores, discos, storages) de un determinado tipo de hypervisor. Todos los proveedores adoptan una estructura organizacional **lógica** para crear su ambiente de totalización de costos. 
+    
+    Para la plataforma uCloud, se aprovisiona un **Container**, que puede ser la cuenta "**RAÍZ**" de la empresa. La plataforma uCloud denomina "**Sub Account**" a las subdivisiones de esta cuenta principal (Unidades Organizacionales o Cuentas Hijas, entre otras), ésta permite que las empresas puedan crear para asignar los costos de computación de nube para diferentes unidades o centros de costos. Este campo es del tipo "dropdown" y lista todas las *Sub Accounts* que han sido aprovisionadas para la cuenta raíz, como se muestra en la siguiente imagen:
+
+.. image:: /figuras/ucloud_menu_financeiro002f.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Botón Filtrar**: El usuario debe pulsar con el cursor del ratón sobre este botón ``Filtrar`` una vez rellenados todos los filtros deseados, en ese momento la plataforma uCloud procesa las informaciones almacenadas en sus bases de datos y presenta el informe en pantalla. A continuación se muestra una pantalla para ilustrar **como simple ejemplo** el resultado tras el procesamiento para la visualización del informe:
+
+.. image:: /figuras/ucloud_menu_financeiro002g.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 50 %
+   :align: center
+
+----
+
+Dentro del HISTORIAL DE SERVICIO se encuentra el cuadrante "Valor Total" que muestra el consumo de la nube para el mes seleccionado en los campos de filtro.
+
+Con esta información es posible tener una visión de cómo se comporta el ambiente, de modo que el usuario puede empezar a elaborar una estrategia para encontrar formas de optimización. 
+
+A continuación se analiza en profundidad cómo se distribuyen estos costos entre los productos de la nubes.
+
+* **Sección Gráficos Históricos de Costos por Categoría**:
+
+En el cuadrante "Historial de costos por categoría", el panel presenta un gráfico para cada mes seleccionado y la relación de todos los servicios de la nube, referido también como ``Product Name`` respectivo de cada proveedor de servicios de nube pública.
+
+Siguiendo el patrón de nomenclatura de cada una de las nubes, las barras muestran cuánto se gastó y cuánto el servicio representa en el consumo total de la factura. Al pasar el ratón por encima de las barras, el panel presenta el nombre del producto y sus respectivos gastos, como se muestra en la imagen siguiente:
+
+.. image:: /figuras/ucloud_menu_financeiro002k.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+La presentación estos gráficos por parte de la plataforma uCloud es un gráfico de barras superpuestas (*Stacked Columns*).
+
+* **Configuraciones del Gráfico**: es una pestaña ubicada en la parte inferior de la pantalla en la que el usuario puede personalizar la forma de presentación de estos gráficos. Basta con hacer clic con el cursor del ratón en la *pestaña* y la plataforma uCloud muestra las opciones de configuración:
+
+.. image:: /figuras/ucloud_menu_financeiro002h.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Sección Visualización de Datos por Costos**:
+
+En el cuadrante de visualización de datos por costo, el panel muestra los artículos de servicio (PRODUCT NAME) y junto a ellos los meses elegidos con sus respectivos gastos totales separados en dos categorías, COBROS DIRECTOS y COBROS INDIRECTOS, como se muestra en la pantalla de ejemplo a continuación:
+
+.. image:: /figuras/ucloud_menu_financeiro002i.png
+   :alt: Virtual Datacenter - Exemplo
+   :scale: 60 %
+   :align: center
+
+----
+
+* **Cobros Directos**: La categoría ``Directos`` es la suma de los valores de todos los productos y/o servicios a los que el proveedor de servicios de nube pública **permite SÍ vincular** alguna forma de identificación, o etiqueta (*tag*), que vinculada a los recursos computacionales por el propietario de los recursos es la forma más usual para la identificación y asignación de los valores recurrentes entre departamentos, centros de costos, proyectos, iniciativas.
+
+* **Cobros Indirectos**: La categoría ``Indirectos`` es la suma de los valores de todos los productos y servicios que los proveedores de servicios de la nube pública **NO PERMITEN/ACEPTAN** que sean marcados con cualquier tipo de etiqueta (*tag*) para ser vinculados a los recursos computacionales por el propietario del recurso (s). Cada proveedor de servicios en la nube pública tiene su especificación sobre qué productos y servicios no se pueden marcar.
+
+La información explícitamente segmentada y presentada en forma de este informe puede apoyar la toma de decisiones (*insights*) para alinear la distribución de costos internamente en la empresa (*charge back*). Esta presentación se apoya en las mejores prácticas de *FinOps* para identificar correctamente los costos recurrentes de los recursos de computación en nube pública.
+
+.. note:: |nota| El objetivo de este informe no es presentar las respectivas etiquetas (*tags*) en el cuerpo del informe, sino presentar al administrador de costos el total de los valores identificables por departamento, centro de costos y proyecto asignados mediante etiquetas (*tag*). La plataforma uCloud permite al administrador de costos consultar los valores por etiqueta (*tag*) en diversos otros informes financieros.
+
 ----
 
 Informe de Costos Cadenciados
