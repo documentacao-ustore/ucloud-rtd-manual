@@ -2208,18 +2208,16 @@ Al seleccionar la opción del menú HISTORIAL DE SERVICIO, se solicita elegir un
 
 Cuando se selecciona este informe, la plataforma uCloud presenta la pantalla siguiente, en la que el usuario debe introducir o seleccionar un único contrato:
 
-.. image:: /figuras/ucloud_menu_financeiro002.png
+.. image:: /figuras/fig_his_spa/001_historial_servicio_listato_contratos.png
    :alt: Menu Financeiro - Histórico de Serviço
-   :scale: 50 %
    :align: center
 
 ----
 
 * **Contrato**: La plataforma uCloud muestra una lista únicamente de los contratos a los que el usuario está vinculado, y el usuario debe introducir o seleccionar un único contrato a la vez. Al seleccionar el contrato deseado, la plataforma uCloud presenta la pantalla siguiente:
 
-.. image:: /figuras/ucloud_menu_financeiro002b.png
+.. image:: /figuras/fig_his_spa/002_historial_facturación_pantalla_inicial.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2232,9 +2230,8 @@ A continuación se describen los campos para la presentación de este informe:
   
      En el ejemplo siguiente, al seleccionar el campo ``Período`` y, a continuación, ``Mensual``, el calendario con los meses pasa a estar disponible para selección. Es posible seleccionar un mínimo de 1 mes y un máximo de todos los meses del año. Para ejemplificar, hemos seleccionado los 3 últimos meses, como se muestra en la siguiente imagen.
 
-.. image:: /figuras/ucloud_menu_financeiro002c.png
+.. image:: /figuras/fig_his_spa/003_historial_servicio_calendario_mensual.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2243,9 +2240,8 @@ A continuación se describen los campos para la presentación de este informe:
      
      Es importante tener en cuenta que por el momento la plataforma uCloud sólo trabaja con el concepto de semanas cerradas del mes (de domingo a sábado). Estas semanas se numeran secuencialmente del 1 al 52 y se presentan en la parte izquierda del calendario. El campo ``Período`` muestra el calendario ``Semanal``. Como se muestra en la siguiente imagen:
 
-.. image:: /figuras/ucloud_menu_financeiro002d.png
+.. image:: /figuras/fig_his_spa/004_historial_servicio_calendario_semanal.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2253,9 +2249,8 @@ A continuación se describen los campos para la presentación de este informe:
 * **DIARIO**: Este filtro permite obtener una visión con la menor granularidad de periodo posible. Esto permite comprender e identificar los picos de consumo a lo largo de los días. En este caso, puede generar indicaciones de aplicaciones o comportamientos que muestran picos de consumo en un día determinado y no en otro. El campo ``Periodo`` muestra el calendario ``Diario``. Como se muestra en la siguiente imagen:
 
 
-.. image:: /figuras/ucloud_menu_financeiro002e.png
+.. image:: /figuras/fig_his_spa/005_historial_servicio_calendario_diario.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2268,18 +2263,16 @@ A continuación se describen los campos para la presentación de este informe:
     
     Para la plataforma uCloud, se aprovisiona un **Container**, que puede ser la cuenta "**RAÍZ**" de la empresa. La plataforma uCloud denomina "**Sub Account**" a las subdivisiones de esta cuenta principal (Unidades Organizacionales o Cuentas Hijas, entre otras), ésta permite que las empresas puedan crear para asignar los costos de computación de nube para diferentes unidades o centros de costos. Este campo es del tipo "dropdown" y lista todas las *Sub Accounts* que han sido aprovisionadas para la cuenta raíz, como se muestra en la siguiente imagen:
 
-.. image:: /figuras/ucloud_menu_financeiro002f.png
+.. image:: /figuras/fig_his_spa/006_historial_servicio_linked.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
 
 * **Botón Filtrar**: El usuario debe pulsar con el cursor del ratón sobre este botón ``Filtrar`` una vez rellenados todos los filtros deseados, en ese momento la plataforma uCloud procesa las informaciones almacenadas en sus bases de datos y presenta el informe en pantalla. A continuación se muestra una pantalla para ilustrar **como simple ejemplo** el resultado tras el procesamiento para la visualización del informe:
 
-.. image:: /figuras/ucloud_menu_financeiro002g.png
+.. image:: /figuras/fig_his_spa/007_historial_servicio_filtro.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 50 %
    :align: center
 
 ----
@@ -2296,9 +2289,8 @@ En el cuadrante "Historial de costos por categoría", el panel presenta un gráf
 
 Siguiendo el patrón de nomenclatura de cada una de las nubes, las barras muestran cuánto se gastó y cuánto el servicio representa en el consumo total de la factura. Al pasar el ratón por encima de las barras, el panel presenta el nombre del producto y sus respectivos gastos, como se muestra en la imagen siguiente:
 
-.. image:: /figuras/ucloud_menu_financeiro002k.png
+.. image:: /figuras/fig_his_spa/008_historial_servicio_costos_categoria.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2307,9 +2299,8 @@ La presentación estos gráficos por parte de la plataforma uCloud es un gráfic
 
 * **Configuraciones del Gráfico**: es una pestaña ubicada en la parte inferior de la pantalla en la que el usuario puede personalizar la forma de presentación de estos gráficos. Basta con hacer clic con el cursor del ratón en la *pestaña* y la plataforma uCloud muestra las opciones de configuración:
 
-.. image:: /figuras/ucloud_menu_financeiro002h.png
+.. image:: /figuras/fig_his_spa/009_historial_servicio_configuración_gráfico.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
@@ -2318,9 +2309,8 @@ La presentación estos gráficos por parte de la plataforma uCloud es un gráfic
 
 En el cuadrante de visualización de datos por costo, el panel muestra los artículos de servicio (PRODUCT NAME) y junto a ellos los meses elegidos con sus respectivos gastos totales separados en dos categorías, COBROS DIRECTOS y COBROS INDIRECTOS, como se muestra en la pantalla de ejemplo a continuación:
 
-.. image:: /figuras/ucloud_menu_financeiro002i.png
+.. image:: /figuras/fig_his_spa/010_historial_servicio_cobros.png
    :alt: Virtual Datacenter - Exemplo
-   :scale: 60 %
    :align: center
 
 ----
