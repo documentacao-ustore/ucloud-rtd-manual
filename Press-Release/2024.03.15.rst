@@ -27,18 +27,19 @@ Ano 2024 - Período: 01 a 15 de março
 
 **Apresentação**
 
-Esta publicação é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
+Esta publicação é uma ferramenta de comunicação da área de produtos, fundamental ao trabalho de divulgação e difusão das novidades das inovações geradas na área de desenvolvimento.
 
-Esta nota é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos registrar o resultado sobre o aprimoramento e as melhorias, além de dar acesso à informação sobre o aperfeiçoamento de determinado produto.
+O tema abordado nesta edição é sobre o "Portal uCloud e sua integração com a nuvem Oracle Cloud Enterprise".
 
-Nesta edição o produto abordado é a portal uCloud e a **A integração da nuvem Oracle Cloud Enterprise**.
+
+
 
 ----
 
 Portal uCloud
 ~~~~~~~~~~~~~
 
-Esta nota detalha de forma resumida e clara o impacto da última atualização no portal uCloud, em relação a integração da nuvem pública Oracle Cloud Enterprise.  
+Esta nota detalha de forma resumida e clara o impacto da última atualização ocorrida no portal uCloud, em relação a integração da nuvem pública Oracle Cloud Enterprise.  
 
 Oracle Cloud é um serviço de computação em nuvem pública, que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de datacenters gerenciados pela Oracle Corporation.  
 
@@ -78,7 +79,7 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
    :alt: quadro oracle segunda metade
    :scale: 100 %
    :align: center
-
+----
 
 
 .. .. figure:: /figuras/fig_press/quadro_nuvens/006_oracle.png
@@ -101,6 +102,7 @@ A partir deste lançamento, o portal uCloud passa a dar suporte aos recursos esp
    :scale: 100 %
    :align: center
 
+Esta nota é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos registrar o resultado sobre o aprimoramento e as melhorias, além de dar acesso à informação sobre o aperfeiçoamento deste produto.
 
 .. note:: O acesso a estas novas funcionalidades é restrito ao contrato. Funcionalidades não contratadas pelo cliente não estão disponíveis no ambiente até a formalização e/ou negociação para adquirir os lançamentos.
 
