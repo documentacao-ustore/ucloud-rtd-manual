@@ -29,9 +29,9 @@ Ano 2024 - Período: 01 a 15 de março
 
 Esta publicação é uma ferramenta de comunicação fundamental ao trabalho de divulgação e difusão das novidades sobre o produto, evoluído com as inovações geradas na área de desenvolvimento do produto.
 
-Esta nota é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos registrar o resultado sobre o aprimoramento e as melhorias, além de dar acesso à informação sobre o aperfeiçoamento deste produto.
+Esta nota é um material informativo composto de conteúdo relevante sobre as entregas de um ou mais incrementos ocorridos na plataforma, tendo como um dos objetivos registrar o resultado sobre o aprimoramento e as melhorias, além de dar acesso à informação sobre o aperfeiçoamento de determinado produto.
 
-Nesta edição o tema abordado é sobre **O impacto da integração da nuvem Oracle Cloud Enterprise no portal uCloud**.
+Nesta edição o produto abordado é a portal uCloud e a **A integração da nuvem Oracle Cloud Enterprise**.
 
 ----
 
@@ -42,7 +42,7 @@ Esta nota detalha de forma resumida e clara o impacto da última atualização n
 
 Oracle Cloud é um serviço de computação em nuvem pública, que fornece servidores, armazenamento, rede, aplicativos e serviços por meio de uma rede global de datacenters gerenciados pela Oracle Corporation.  
 
-O time de desenvolvimento OPS do portal uCloud esteve trabalhando na melhoria da integração destes 14 (catorze) recursos descritos na sequência.
+O time de desenvolvimento OPS esteve trabalhando na integração dos 14 (catorze) recursos ao portal uCloud, descritos na sequência.
 
    * **uCloud Operação**:
    * 01. Account Provider; 
