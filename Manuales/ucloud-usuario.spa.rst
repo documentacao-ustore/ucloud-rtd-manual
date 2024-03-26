@@ -2328,7 +2328,163 @@ La información explícitamente segmentada y presentada en forma de este informe
 Informe de Costos Cadenciados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Este informe presenta la variación del valor de los recursos computacionales de cada servicio ``Product Name`` y muestra la variación de sus valores en el mes en curso comparado únicamente con los valores del mes anterior. La plataforma uCloud no permite cambiar la visualización a otros meses.
+
+Además, la plataforma uCloud muestra la variación de los valores de los recursos computacionales en dos cuadros diferentes:
+
+A. *Un primer cuadro* donde se muestra la variación de valores con el periodo que va desde el primer día del calendario (día 01) del mes en curso hasta el día en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos en las pantallas mostradas = día 22).
+
+B. *Un segundo cuadro* que muestra la suma del valor total del consumo de todo el mes anterior y la **previsión** para el cierre del mes en curso (aunque aún no haya valores en *billing o bucket* de este proveedor de servicios en la nube pública.
+
+  La información relativa a la variación de los valores del mes anterior *en comparación* con el mes en curso permite identificar y visualizar la variación de los valores financieros en comparación con el mes anterior y la **previsión** de los valores de cierre de las facturas para el mes en curso.
+
+  Es importante destacar que, aunque no existan datos de *billing o bucket* por parte del proveedor de servicios de nube pública, la plataforma uCloud utiliza un algoritmo que proyecta los valores (aunque estos no existan), basándose en el consumo medio de los últimos seis (06) meses almacenado en las bases de datos internas de la plataforma uCloud.
+
+La visualización de este informe permite identificar y visualizar los distintos tipos de costos -tanto los normalmente previstos así como los estacionales o imprevistos- para el cierre del mes. Este informe permite identificar y proyectar una mejor asignación del flujo de caja contable de la empresa.
+
+Es importante mencionar que en todas las pantallas de los informes presentados en este documento, los valores están siendo convertidos en moneda Real Brasileño (R$) - a pesar de que el proveedor almacene los valores en Dólares Americanos. El valor de la Tasa de Conversión Dólar <> Real está indicado en el Contrato en la sección *Reglas de Facturación*.
+
+* **Contrato**: La plataforma uCloud muestra una lista únicamente de los contratos a los que el usuario está vinculado; el usuario debe introducir o seleccionar un solo contrato a la vez. Cuando selecciona el contrato que desea, la plataforma uCloud muestra la pantalla siguiente:
+
+.. image:: /figuras/ucloud_menu_financeiro002.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
 ----
+
+En el momento en que se selecciona el contrato, la plataforma uCloud inicia el procesamiento y el cálculo de los valores almacenados en su base de datos interna y presenta la pantalla del informe. La figura siguiente es meramente ilustrativa y sirve solo como ejemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003b.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+A continuación se describen las secciones de este informe.
+
+* **Cuadros de Periodos**: En esta sección se muestran los dos cuadros con las cifras correspondientes al periodo y al mes:
+
+.. image:: /figuras/ucloud_menu_financeiro003d.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+  * **Cuadro Naranja**: Este *primer cuadro* muestra la suma de los costos de todos los recursos computacionales para el período que comienza el primer día de calendario del mes en curso (día 01) hasta el día actual en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos de las pantallas mostradas = día 22).
+     
+     En la parte superior de este cuadro, la plataforma uCloud muestra el valor total de los costos del periodo actual. En él se destaca un valor que se refiere al valor del mes en curso descontado (sustraído) de los valores del periodo del mes anterior. En la parte inferior de este cuadro, la plataforma uCloud muestra la suma de los costos de todos los recursos computacionales correspondientes al período del mes anterior.
+
+  * **Cuadro Blanco**: Este *segundo cuadro* muestra la *previsión* del valor para el cierre del mes de los costos de todos los recursos computacionales para el mes en curso (aunque aún no existan valores en *billing o bucket* de este proveedor de servicios de nube pública). Esta *previsión* se obtiene calculando la variación aritmética de los valores de los últimos seis (06) meses almacenados en la base de datos interna de la plataforma uCloud.
+  
+    Si el usuario está en "Visualizando este informe" en una fecha anterior a la fecha de cierre de la factura, éste se convierte en una previsión. Esta *previsión* puede ser muy concreta si el usuario visualiza este informe en una fecha cercana a la fecha de cierre de la factura (por ejemplo, el 29 del mes en curso). También en este cuadro, la plataforma uCloud destaca un valor que se refiere a los importes del mes en curso descontados (sustraídos) de los valores del mes anterior. En la parte inferior de este cuadro, la plataforma uCloud muestra la suma de los costos de todos los recursos computacionales del mes anterior.
+
+La plataforma uCloud utiliza un icono para indicar la tendencia de estos resultados:
+
+* **Icono de Flecha Arriba** |icone_seta_acima|: Este icono representa un resultado superior (tendencia ascendente) al del mes anterior.
+* **Icono de flecha abajo** |icone_seta_abaixo|: Este icono representa un resultado inferior (tendencia descendente) al del mes anterior.
+* **Icono Neutro** |icone_neutro|: Este icono representa un resultado igual (tendencia estable) al del mes anterior.
+
+En los casos en que una empresa utilice la plataforma uCloud por un período inferior a seis (06) meses, es posible que no haya suficientes datos de facturación almacenados para calcular estas variaciones - datos insuficientes ya sea en *billing/bucket* del proveedor o en las bases de datos internas. En estas situaciones, la plataforma uCloud puede presentar estos cuadros con valores cero (en blanco), como se muestra en el ejemplo siguiente:
+
+.. image:: /figuras/ucloud_menu_financeiro003m.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+.. attention:: |atencao| Esto **no es un error**, significa que: puede no existir valores y/o datos almacenados en las bases de datos internas; o la configuración de acceso al archivo de billing/bucket no está correctamente aprovisionada; o el proceso de cálculo de billing no ha sido realizado/iniciado hasta el momento. En este caso, póngase en contacto con el equipo de soporte de su contrato. Para ayudarle a monitorizar la correcta configuración de sus credenciales en el ambiente del proveedor de la nube pública.
+
+----
+
+* **Sección Top 15 Costo por Grupo**: 
+
+
+En esta sección, la plataforma uCloud presenta una lista de los quince (15) primeros Grupos que acumulan los mayores valores de costos de recursos computacionales. El número de Grupos presentados está directamente relacionado con la organización de los Grupos aprovisionados en el Contrato de su ambiente en la plataforma uCloud. Es importante tener en cuenta que aunque existan varios Grupos, sólo los quince (15) Grupos que acumulen los valores más altos serán listados en esta sección. La siguiente figura es meramente ilustrativa y sirve sólo como ejemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003e.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+A continuación se describen las columnas de esta sección:
+
+  * **Grupos**: Esta columna presenta el nombre del (de los) Grupo (s) tal y como ha(n) sido(s) aprovisionado(s) en la plataforma uCloud.
+  * **Mes Actual**: Esta columna muestra la suma de los valores de todos los recursos computacionales del proveedor de la nube pública para el mes en curso (actual), que están vinculados a todos los usuarios que forman parte de este Grupo - aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Último mes**: Esta columna presenta la suma de los valores de todos los recursos computacionales del proveedor de nube pública, del mes inmediatamente anterior al mes en curso (último mes), que están vinculados a todos los usuarios que forman parte de este Grupo - valores del cierre del mes anterior almacenados en las bases de datos internas.
+  * **Proyección**: Esta columna presenta la proyección del valor para el mes en curso de todos los recursos computacionales que están vinculados a todos los usuarios que forman parte de este Grupo - aunque este informe sea consultado en una fecha anterior a la fecha de cierre de la factura.
+  * **Proyección Δ**: Esta columna muestra la diferencia numérica en el valor financiero para el mes en curso, en comparación con el mes anterior, de todos los recursos computacionales que están vinculados a todos los usuarios que forman parte de este Grupo - aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Δ%**: Esta columna presenta la diferencia porcentual del valor financiero del mes en curso, con respecto al mes anterior, de todos los recursos computacionales que están vinculados a todos los usuarios que forman parte de este Grupo - aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Icono de Indicador de Tendencia**: Esta columna presenta un icono que representa la tendencia de la variación de los valores del mes en curso en comparación con el mes anterior.
+
+    * **Icono de Flecha Arriba** |icone_seta_acima|: Este icono representa un resultado superior (tendencia ascendente) al del mes anterior.
+    * **Icono de flecha Abajo** |icone_seta_abaixo|: Este icono representa un resultado inferior (tendencia descendente) al del mes anterior.
+    * **Icono Neutro** |icone_neutro|: Este icono representa un resultado igual (tendencia estable) al del mes anterior.
+
+----
+
+
+* **Sección Top 15 Costo por Servicio**: 
+
+
+En esta sección, la plataforma uCloud presenta la lista de los quince (15) mejores Servicios (*PRODUCT NAME*) del proveedor de servicios de nube pública que han acumulado los valores más altos en el mes en curso.
+
+La cantidad de servicios (*product name*) mostrada está directamente relacionada con la suma total de sus valores acumulados en el archivo *billing* y almacenados en las bases de datos internas de la plataforma uCloud.
+
+.. important:: Es importante mencionar que, aunque exista una amplia diversidad de otros servicios (*product name*), en este apartado sólo se enumeran los quince (15) con los valores más altos.
+   
+La figura siguiente es meramente ilustrativa y sirve sólo como ejemplo:
+
+.. image:: /figuras/ucloud_menu_financeiro003p.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+  * **Servicios**: Esta columna presenta el nombre de los Servicios (*product name*) tal y como se expresan en el archivo de *billing* del proveedor de servicios de nube pública.
+  * **Mes Actual**: Esta columna presenta la proyección de todas las incidencias de este Servicio (*product name*) del proveedor de la nube pública, para el mes en curso (actual) - aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Último mes**: Esta columna presenta la suma de los valores de Servicios (*product name*) en el proveedor de la nube pública, del mes inmediatamente anterior al mes en curso (último mes) - valores del cierre del mes anterior almacenados en las bases de datos internas.
+  * **Proyección**: Esta columna muestra la proyección del valor para el Servicio (*product name*) para el mes en curso - aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Proyección Δ**: Esta columna muestra la diferencia numérica (*delta*) del valor financiero del mes en curso con respecto al mes anterior, aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Δ%**: Esta columna presenta la diferencia porcentual (*delta*) del valor financiero del mes en curso con respecto al mes anterior, aunque este informe se consulte en una fecha anterior a la fecha de cierre de la factura.
+  * **Icono de Indicador de Tendencia**: Esta columna muestra un icono que representa la tendencia en la variación de los valores del mes actual en comparación con el mes anterior.
+
+
+    * **Icono de Flecha Arriba** |icone_seta_acima|: Este icono representa un resultado superior (tendencia ascendente) al del mes anterior.
+    * **Icono de flecha Abajo** |icone_seta_abaixo|: Este icono representa un resultado inferior (tendencia descendente) al del mes anterior.
+    * **Icono Neutro** |icone_neutro|: Este icono representa un resultado igual (tendencia estable) al del mes anterior.
+
+----
+
+* **Sección Exportar Informes**: 
+
+Esta sección, en la parte inferior de la pantalla, permite exportar informes en formato CSV de todos los servicios, consumos y gastos de forma detallada, permitiendo seleccionar intervalos ``Mensual``, ``Semanal`` y ``Diario``, a criterio del usuario.
+
+.. image:: /figuras/ucloud_menu_financeiro003c.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+  * **Botón**  ``Exportar con Detalle``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-DETAILED-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 8 columnas.
+
+  * **Botón** ``Exportar Servicios``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-SERVICES-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 5 columnas. 
+
+.. image:: /figuras/ucloud_menu_financeiro003c.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+  * **Botón** ``Exportar Informe Δ``: En esta opción, la plataforma uCloud crea un archivo CSV que muestra la diferencia de consumo de los ``Product Name`` y ``Family Name`` de los provedores con los datos del mes en curso, en comparación con el mes anterior. Con esta información, es posible visualizar cómo se está comportando cada uno de los servicios, pudiendo así tomar acciones de control y cálculo más efectivas y dirigidas al *PRODUCT NAME* de la nube.
+
+  En el archivo CSV, la columna VARIACIÓN MES ANTERIOR % muestra el porcentaje de la variación y la columna VARIACIÓN MES ANTERIOR $ muestra la variación en dólares. Como se muestra en las siguientes imágenes, Financiero/Costo Cadenciado/Intervalo/Periodo/Exportar Informe Detallado.
+
+  La exportación del informe delta se envía por correo electrónico. Si el usuario prefiere ver el informe en pantalla, puede encontrarlo en el cuadrante situado encima de la exportación de informes, que se muestra más arriba.
+
+  Para recibir el informe por correo electrónico, basta introducir una dirección de correo electrónico válida y hacer clic en enviar, como se muestra a continuación:
+
+.. image:: /figuras/ucloud_menu_financeiro003k.png
+   :alt: Menu Financeiro - Relatorio Custo Cadenciado
+   :align: center
+----
+
+  La plataforma uCloud puede tardar algún tiempo para seleccionar, calcular y enviar este archivo. Pero al final del procesamiento, envía el archivo CSV y confirma el envío con un mensaje pop-up al usuario.
+
+.. note:: En los casos en que el usuario no reciba ningún mensaje de correo electrónico, consulte la carpeta SPAM/Basura con la dirección de correo electrónico de origen *noreply@dominio.com.br*. Algunos sistemas de correo electrónico bloquean los mensajes con "noreply@...", o los reenvían automáticamente a la carpeta SPAM/Basura.
+
 
 Informe de Costo Relacional de Producto
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
