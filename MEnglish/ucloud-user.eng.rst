@@ -1766,7 +1766,7 @@ The available operation for the user are the following:
 ------
 
 Accessing the Invoice Rule
-~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""
 
 To access the Invoice Rule topic, the user must click on “Administration”, located on the functionalities menu on the left side of the screen, and right after click on “Companies”.
 
@@ -1783,9 +1783,9 @@ When the user selects this option, the uCloud platform presents the following sc
    :align: center
 ----
 
-The platform displays a list of all the companies linked to the user that is logged, on the listing there are information about companies names, the administrators, the SSN/EIN, the status of the company (active or inactive), and the actions column that makes possible to clone the information of the selected company, the buttons ``+ Create Company`` and ``Update`` are also shown on the screen.
+The platform displays a list of all the companies linked to the user that is logged, on the listing there are information about companies names, the administrators, the national identifier numbers (SSN/EIN), the status of the company (active or inactive), and the actions column that makes possible to clone the information of the selected company, the buttons ``+ Create Company`` and ``Refresh`` are also shown on the screen.
 
-To make the search for the user easier, this modal allows the search by the company name, the company can also be found by searching the administrators or the SSN/EIN numbers, it is up to the user to type the information and wait a few seconds.
+To make the search for the user easier, this modal allows the search by the company name, the company can also be found by searching the administrators or the national identifier numbers, it is up to the user to type the information and wait a few seconds.
 
 When finding the desired company, click on it for all the pertinent information to be displayed.
 
@@ -1822,14 +1822,14 @@ On the card there are the following items:
 ----
 
 Creating the Invoice Rule
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""
 
 To register a new invoice rule, just click on the button ``+ Add`` and fill out the settings fields of the “Create invoice rule” modal.
 
 .. image:: /figuras/fig_regra_fatura_eng/006_creation_modal.png
    :alt: creating modal
    :align: center
----- 
+----
 
 On the modal there are the following items:
 
@@ -1867,7 +1867,7 @@ On the “Invoice Rules” (General, Marketplace and Support), the dollar alread
 ----
 
 Invoice Rules by Tag
-~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 In the last blank named as “Invoice rules by tag” the platform shows a modal that makes it possible for the user to include Tags to the invoice rule(s) created, registering fixed billing rates by Tag (e.g.: Tag “A” with value X; Tag “B” with value Y).
 
@@ -1920,7 +1920,7 @@ By clicking on ``Yes, create``, a warning message is shown on the superior right
 ----
 
 List of Invoice Rules update
-~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""
 
 Once the creation process is done, click on the ``Refresh`` button located on the “Billing rules” modal, this operation allows the renovation of the list of invoice rules created for the company. In the modal there are columns allusive to the username responsible for the invoice rule creation, the creation date, the start of the validity and an action column with two buttons.
 
