@@ -8939,7 +8939,7 @@ A plataforma uCloud apresenta relatórios com base em dois conceitos financeiros
 
   Este custo se refere somente aos valores acumulados dos recursos computacionais consumidos no mês anterior ao faturamento, cuja respectiva data de faturamento é o dia inicial do mês subsequente ao consumo. 
   
-  Por exemplo:
+  **Por exemplo**:
 
     * Um contrato com data de faturamento e vencimento no dia 8:
   
@@ -9060,8 +9060,8 @@ No modal constam os seguintes itens:
      * **Regras de faturamento por tag**: se refere às regras de adição de valores aos produtos que estão nas respectivas TAGs;
 
 
-* **Botão ``Criar``:** deve ser clicado para confirmar o processo de criação da regra de faturamento;
-* **Botão ``Cancelar``:** deve ser clicado caso o usuário desista da criação da regra de faturamento.
+* **Botão** ``Criar``: deve ser clicado para confirmar o processo de criação da regra de faturamento;
+* **Botão** ``Cancelar``: deve ser clicado caso o usuário desista da criação da regra de faturamento.
 
 .. attention::  |atencao| A lógica para a bilhetagem das regras de faturamento gerais, de marketplace e de suporte são as mesmas. Por padrão, todas vêm preenchidas com os campos de taxa de faturamento e cotação do dólar com o numeral 1. Caso o usuário deseje alterar esse valor, basta preencher o campo com o número pretendido.
 
