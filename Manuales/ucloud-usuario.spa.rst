@@ -2346,14 +2346,14 @@ Es importante mencionar que en todas las pantallas de los informes presentados e
 
 * **Contrato**: La plataforma uCloud muestra una lista únicamente de los contratos a los que el usuario está vinculado; el usuario debe introducir o seleccionar un solo contrato a la vez. Cuando selecciona el contrato que desea, la plataforma uCloud muestra la pantalla siguiente:
 
-.. image:: /figuras/ucloud_menu_financeiro002.png
+.. image:: /figuras/fig_costos_cadenciados_spa/001_costos_cadenciados_listado.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
 
 En el momento en que se selecciona el contrato, la plataforma uCloud inicia el procesamiento y el cálculo de los valores almacenados en su base de datos interna y presenta la pantalla del informe. La figura siguiente es meramente ilustrativa y sirve solo como ejemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro003b.png
+.. image:: /figuras/fig_costos_cadenciados_spa/002_costos_cadenciados_pantalla_inicial.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2362,7 +2362,7 @@ A continuación se describen las secciones de este informe.
 
 * **Cuadros de Periodos**: En esta sección se muestran los dos cuadros con las cifras correspondientes al periodo y al mes:
 
-.. image:: /figuras/ucloud_menu_financeiro003d.png
+.. image:: /figuras/fig_costos_cadenciados_spa/003_costos_cadenciados_cuadro_general.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2383,7 +2383,7 @@ La plataforma uCloud utiliza un icono para indicar la tendencia de estos resulta
 
 En los casos en que una empresa utilice la plataforma uCloud por un período inferior a seis (06) meses, es posible que no haya suficientes datos de facturación almacenados para calcular estas variaciones - datos insuficientes ya sea en *billing/bucket* del proveedor o en las bases de datos internas. En estas situaciones, la plataforma uCloud puede presentar estos cuadros con valores cero (en blanco), como se muestra en el ejemplo siguiente:
 
-.. image:: /figuras/ucloud_menu_financeiro003m.png
+.. image:: /figuras/fig_costos_cadenciados_spa/004_costos_cadenciados_datos_cero.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2397,7 +2397,7 @@ En los casos en que una empresa utilice la plataforma uCloud por un período inf
 
 En esta sección, la plataforma uCloud presenta una lista de los quince (15) primeros Grupos que acumulan los mayores valores de costos de recursos computacionales. El número de Grupos presentados está directamente relacionado con la organización de los Grupos aprovisionados en el Contrato de su ambiente en la plataforma uCloud. Es importante tener en cuenta que aunque existan varios Grupos, sólo los quince (15) Grupos que acumulen los valores más altos serán listados en esta sección. La siguiente figura es meramente ilustrativa y sirve sólo como ejemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro003e.png
+.. image:: /figuras/fig_costos_cadenciados_spa/005_costos_cadenciados_top15_grupo.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2430,7 +2430,7 @@ La cantidad de servicios (*product name*) mostrada está directamente relacionad
    
 La figura siguiente es meramente ilustrativa y sirve sólo como ejemplo:
 
-.. image:: /figuras/ucloud_menu_financeiro003p.png
+.. image:: /figuras/fig_costos_cadenciados_spa/006_costos_cadenciados_top15_servicios.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2454,7 +2454,7 @@ La figura siguiente es meramente ilustrativa y sirve sólo como ejemplo:
 
 Esta sección, en la parte inferior de la pantalla, permite exportar informes en formato CSV de todos los servicios, consumos y gastos de forma detallada, permitiendo seleccionar intervalos ``Mensual``, ``Semanal`` y ``Diario``, a criterio del usuario.
 
-.. image:: /figuras/ucloud_menu_financeiro003c.png
+.. image:: /figuras/fig_costos_cadenciados_spa/007_costos_cadenciados_exportación.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2463,7 +2463,7 @@ Esta sección, en la parte inferior de la pantalla, permite exportar informes en
 
   * **Botón** ``Exportar Servicios``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-SERVICES-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 5 columnas. 
 
-.. image:: /figuras/ucloud_menu_financeiro003c.png
+.. image:: /figuras/fig_costos_cadenciados_spa/008_costos_cadenciados_informe_delta.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
@@ -2476,7 +2476,7 @@ Esta sección, en la parte inferior de la pantalla, permite exportar informes en
 
   Para recibir el informe por correo electrónico, basta introducir una dirección de correo electrónico válida y hacer clic en enviar, como se muestra a continuación:
 
-.. image:: /figuras/ucloud_menu_financeiro003k.png
+.. image:: /figuras/fig_costos_cadenciados_spa/009_costos_cadenciados_modal_delta.png
    :alt: Menu Financeiro - Relatorio Custo Cadenciado
    :align: center
 ----
