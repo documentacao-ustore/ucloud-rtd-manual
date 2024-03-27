@@ -2332,7 +2332,7 @@ Este informe presenta la variación del valor de los recursos computacionales de
 
 Además, la plataforma uCloud muestra la variación de los valores de los recursos computacionales en dos cuadros diferentes:
 
-A. *Un primer cuadro* donde se muestra la variación de valores con el periodo que va desde el primer día del calendario (día 01) del mes en curso hasta el día en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos en las pantallas mostradas = día 22).
+A. *Un primer cuadro* donde se muestra la variación de valores con el periodo que va desde el primer día del calendario (día 01) del mes en curso hasta el día en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos en las pantallas mostradas = día 26).
 
 B. *Un segundo cuadro* que muestra la suma del valor total del consumo de todo el mes anterior y la **previsión** para el cierre del mes en curso (aunque aún no haya valores en *billing o bucket* de este proveedor de servicios en la nube pública.
 
@@ -2367,7 +2367,7 @@ A continuación se describen las secciones de este informe.
    :align: center
 ----
 
-  * **Cuadro Naranja**: Este *primer cuadro* muestra la suma de los costos de todos los recursos computacionales para el período que comienza el primer día de calendario del mes en curso (día 01) hasta el día actual en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos de las pantallas mostradas = día 22).
+  * **Cuadro Naranja**: Este *primer cuadro* muestra la suma de los costos de todos los recursos computacionales para el período que comienza el primer día de calendario del mes en curso (día 01) hasta el día actual en que el usuario está consultando este informe en la plataforma uCloud (en los ejemplos ilustrativos de las pantallas mostradas = día 26).
      
      En la parte superior de este cuadro, la plataforma uCloud muestra el valor total de los costos del periodo actual. En él se destaca un valor que se refiere al valor del mes en curso descontado (sustraído) de los valores del periodo del mes anterior. En la parte inferior de este cuadro, la plataforma uCloud muestra la suma de los costos de todos los recursos computacionales correspondientes al período del mes anterior.
 
@@ -2459,7 +2459,7 @@ Esta sección, en la parte inferior de la pantalla, permite exportar informes en
    :align: center
 ----
 
-  * **Botón**  ``Exportar con Detalle``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-DETAILED-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 8 columnas.
+  * **Botón**  ``Exportación Detallada``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-DETAILED-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 8 columnas.
 
   * **Botón** ``Exportar Servicios``: En esta opción, la plataforma uCloud crea un archivo CSV con el nombre CADENCE-SERVICES-NOME_DO_CONTRATO-MES-ANO.CSV compuesto por 5 columnas. 
 
