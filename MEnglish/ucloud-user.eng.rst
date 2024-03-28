@@ -1641,9 +1641,9 @@ When the user has the uCloud platform connected to a Private Datacenter environm
 Public Businesses (USN)
 -----------------------
 
-Due to the constant variation of the exchange rate value (Dollar < > Real), the Brazilian Federal Government created a smart and facilitated formatation to control their budget limits for computing in public cloud, in a way to never fail to comply the limits of Budget Guidelines Law Bill (PLDO), with the objective to meet in its totality the Law nr. 8.666/93, of 21 June of 1993. For the hired service that institutes the auction - which is a applicable bidding modality to the acquisition of goods and common services - the legal base applied for the hirings of the Federal Public Administration, which must be followed strictly.
+Due to the constant variation of the exchange rate value (Dollar < > Real), the Brazilian Federal Government created a smart and facilitated formatation to control their budget limits for computing in public cloud, in a way to never fail to comply the limits of Budget Guidelines Law Bill (PLDO), with the objective to meet in its totality the Law nr. 8.666/93, of 21 June of 1993. For the hired service that institutes the auction - which is a applicable bidding modality to the acquisition of goods and common services - the legal base applied for the hiring of the Federal Public Administration, which must be followed strictly.
 
-It is important to highlight that, in these laws are established the classification criteria of the propositions for the determination of the bidding process winner and of each cloud service provider offers distincts services and commercialization, which makes that a challenge to be discussed; in the definition of the model, the criteria to be used to determine the most vantage proposal for the Federal Public Administration [1]_.
+It is important to highlight that, in these laws are established the classification criteria of the propositions for the determination of the bidding process winner and of each cloud service provider offers distinct services and commercialization, which makes that a challenge to be discussed; in the definition of the model, the criteria to be used to determine the most vantage proposal for the Federal Public Administration [1]_.
 
 This approach is unique and special, it allows any Brazilian Government agency (Federal, State or City) to consume computing resources in public cloud allowing that the value of the services in Cloud Service Unit (Unidade de Serviço em Nuvem - USN, in Portuguese) whether calculated using the price in commercial dollar on the auction day, fixed throughout the contract, added to the percentages of taxes, contributions, profit and costs of company divided by the USN value quoted in the auction.
 
@@ -5509,3 +5509,7 @@ Registered themes
 .. |icone_Eliminar| image:: /figuras/fig_regra_fatura/icone-Eliminar.png
 
 .. |icone-Detalhes| image:: /figuras/fig_regra_fatura/icone-Detalhes.png
+
+.. |icone_grafico_barra01| image:: /figuras/ucloud_icone_grafico01.png
+
+.. |icone_grafico_barra02| image:: /figuras/ucloud_icone_grafico02.png
