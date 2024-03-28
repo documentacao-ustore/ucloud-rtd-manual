@@ -2183,6 +2183,45 @@ La plataforma uCloud ha sido diseñada para servir tanto a un ambiente corporati
 Empresas Privadas
 -----------------
 
+Para el ambiente corporativo, la plataforma uCloud realiza el *download* de las líneas del archivo de *billing* (también conocido como *bucket*) del proveedor de servicios de la nube. Este archivo es un archivo de texto *ASCII* con datos separados por comas (formato de archivo .csv).
+
+La plataforma uCloud procede a la sincronización del contenido de este archivo en sus bases de datos internas y calcula la conversión de los valores del periodo, utilizándolos de acuerdo con la información indicada en los siguientes campos del Contrato:
+
+* Tasa de facturación;
+* Moneda;
+* Tipo de cotización :
+    * (fija/variable);
+* Día de cotización de la moneda :
+    * (válido sólo para la cotización variable); 
+    * (la plataforma uCloud obtiene el valor del `PTAX` del sitio web del Banco Central de Brasil).
+
+
+Básicamente, casi todos los proveedores de servicios de nube pública almacenan sus cifras relativas al consumo de recursos computacionales en dólares estadounidenses (US$).
+
+La secuencia siguiente muestra cómo la plataforma uCloud debe realizar la conversión a Real Brasileño:
+
++--------------------+--------------------------+---+------------------+---+-------------------+
+|**Valor Real (R$)** |Valor US$ Total de Consumo| x |Valor [Fijo] Dólar| x |Tasa de Facturación|
++--------------------+--------------------------+---+------------------+---+-------------------+
+|**Valor Real (R$)** |Valor US$ Total de Consumo| x |Valor [Día] PTAX  | x |Tasa de Facturación|
++--------------------+--------------------------+---+------------------+---+-------------------+
+
+Recientemente, algunas operaciones brasileñas de proveedores de servicios de nube están presentando los valores de consumo de recursos computacionales ya convertidos a la moneda Real, la conversión utiliza un valor de 1 (uno) para la tasa de conversión de Dólar <> Real estipulada por el proveedor de servicios de nube. De esta manera, las fórmulas se comportan como se indica a continuación:
+
++--------------------+-------------------------+---+-----------------+---+-------------------+
+|**Valor Real (R$)** |Valor R$ Total de Consumo| x |Valor [Fijo] 1,00| x |Tasa de Facturación|
++--------------------+-------------------------+---+-----------------+---+-------------------+
+
+.. note:: Es importante destacar que para el escenario de proveedores que almacenan sus valores en Reales, el usuario Administrador del Contrato debe cambiar el campo de valor de **Moneda** a 1.00 y **Tipo de Cotización** FIJA.
+
+Cuando el usuario tiene la plataforma uCloud conectada a un ambiente de Datacenter Privado (`on-premises`), el valor por hora de cada tipo de recurso computacional (CPU, Memoria, disco, entre otros) debe ser registrado individualmente en la sección Precio de los Recursos en el contrato. La propia empresa debe calcular estos valores e introducirlos en la plataforma uCloud, que sólo calcula el consumo mensual de los recursos computacionales que tienen su valor indicado.
+
++--------------------+-------------------------+---+-------------------+
+|**Valor Real  (R$)**|Valor R$ Total de Consumo| x |Tasa de Facturación|
++--------------------+-------------------------+---+-------------------+
+
+.. attention:: |atencao| El valor referente a las tasas de los impuestos para la emisión de facturas en el territorio brasileño no es presentado por ningún proveedor, ni es calculado por la plataforma uCloud. Los valores de las tasas y de los impuestos son calculados por el emisor del documento final de Nota Fiscal, la plataforma uCloud no es una aplicación emisora de documentos fiscales.
+
 ----
 
 Empresas Públicas (USN)
