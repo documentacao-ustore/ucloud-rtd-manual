@@ -2151,6 +2151,33 @@ Creando un Virtual Datacenter
 Menú Financiero
 ===============
 
+En el inicio de este manual, se describen los cinco puntos de actuación de la plataforma uCloud, el lector puede consultar los detalles de la gobernanza financiera, facturación de los servicios, monitorización de la infraestructura, inventario y operación de la infraestructura. 
+
+Esta sección está dedicada al tema "Financiero", por tanto, debe tenerse en cuenta que esta plataforma no crea ni genera valores de recursos computacionales, estos valores son generados por los proveedores de nubes públicas.
+
+La plataforma uCloud extrae del archivo de `billing` la facturación de estos proveedores de nube pública, descargando los importes generados por el uso de los recursos computacionales. A continuación, añade estas informaciones a sus bases de datos internas y luego, de acuerdo con los criterios comerciales del contrato, puede aplicar estos costos calculados y convertidos para moneda brasileña.
+
+De este modo, el usuario se mantiene informado de la evolución de los costos y puede monitorear si éstos se ajustan a los criterios de gobernanza financiera de la organización. Generalmente, estos costos se presentan en archivos de texto no estructurados (`Comma-Separated Values` CSV) generados a cada período (un promedio de 8 horas). La plataforma uCloud añade la información de este archivo en formato .csv a sus bases de datos internas, con el objetivo de agilizar y simplificar la presentación de estos valores al usuario.
+
+A través del menú Financiero, el usuario puede acceder a diversas formas de visualización sobre la evolución de los costos relativos al consumo de los recursos computacionales de los servicios de la red pública.
+
+La plataforma uCloud dispone de una interfaz de visualización de estos costos ya creada y finalizada. No es necesario que el usuario tenga que crear o personalizar cualquiera de las visualizaciones existentes en la plataforma uCloud, aparte de algunas excepciones en las que el informe permite personalizar el periodo y algunas informaciones detalladas sobre los recursos etiquetados. El concepto de informe que debe enviarse para imprimir en papel no existe. Todas las visualizaciones se presentan de forma dinámica en la pantalla de la plataforma uCloud.
+
+Algunas informaciones contenidas en las pantallas de los informes pueden ser exportadas a un archivo de texto no formateado y separado por comas (en formato .csv `Comma Separated Values`) y pueden ser utilizados como base de informaciones para cualquier software de hojas de cálculo (Excel, Google Sheet, entre otros).
+
+El menú Financiero puede ser visualizado por cualquier perfil de usuario. El ambiente permite a los usuarios verificar y consultar los valores monetarios relativos a su consumo y utilización de los recursos computacionales de la nube pública. A continuación se muestran los tipos de perfil de los distintos usuarios:
+
+* **Usuario Perfil Normal**: este perfil de usuario visualiza el consumo, tanto el propio como el de su contrato;
+  
+* **Usuario Perfil Administrador del Contrato**: este perfil de usuario visualiza las informaciones de todos los grupos vinculados al contrato y de todos los usuarios vinculados al contrato.
+  
+* **Usuario Perfil Administrador de Grupo**: este perfil de usuario visualiza las informaciones del (de los) grupo(s) a los que está vinculado y de todos los usuarios vinculados al grupo.
+
+Para obtener más informaciones sobre los perfiles de usuarios, consulte la opción de menú Administración / Usuarios.
+
+La plataforma uCloud ha sido diseñada para servir tanto a un ambiente corporativo como a un ambiente de Gobierno Federal, Estatal o Municipal brasileño, el cual tiene características propias de moneda y tarificación.
+
+
 ----
 
 Empresas Privadas
