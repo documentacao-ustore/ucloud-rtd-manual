@@ -9386,11 +9386,11 @@ Relatório Custo Cadenciado
 
 Este relatório apresenta a variação de valores dos recursos computacionais de cada serviço ``Product Name`` e demonstra a variação dos seus de valores no mês corrente (atual) comparado somente com os valores do mês anterior. A plataforma uCloud não permite mudar a visualização para outros meses.
 
-Adicionalmente, a plataforma uCloud demonstra a variação dos valores dos recuros computacionais em dois quadros diferentes:
+Adicionalmente, a plataforma uCloud demonstra a variação dos valores dos recursos computacionais em dois quadros diferentes:
 
 A. *Um primeiro quadro* que apresenta a variação de valores com o período iniciando no primeiro dia calendário (dia 01) do mês corrente até o dia que o usuário estiver consultando este relatório na plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22).
 
-B. *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública.
+B. *Um segundo quadro* que apresenta a somatória do valor total de consumo de todo o mes anterior e a **previsão** de fechamento do mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública).
 
   A informação referente a variação de valores do mês anterior *versus* mês atual permite identificar e visualizar variação dos valores financeiros comparado ao mês anterior e a **previsão** de valores de fechamento da fatura para o mês corrente.
 
@@ -9428,7 +9428,7 @@ Abaixo descrevemos as seções deste relatório.
 
   * **Quadro Laranja**: Este *primeiro quadro* apresenta a somatória dos custos de todos recursos computacionais referente ao período iniciando no primeiro dia calendário do mês corrente (dia 01) até o presente dia que o usuário estiver efetuando a consulta deste relatório na plataforma uCloud (nos exemplos ilustrativos nas telas apresentadas = dia 22). 
      
-     Na parte superior deste quadro a plataforma uCloud apresenta o valor total de custos referente ao período atual. Neleé exibido em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do período do mes anterior. Na parte inferior deste quadro, a plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do período do mês anterior.
+     Na parte superior deste quadro a plataforma uCloud apresenta o valor total de custos referente ao período atual. Nele é exibido em destaque um valor que se refere ao valor do mês atual descontado (subtraído) dos valores do período do mes anterior. Na parte inferior deste quadro, a plataforma uCloud apresenta a somatória de custos de todos os recursos computacionais do período do mês anterior.
 
   * **Quadro Branco**: Este *segundo quadro* apresenta a *previsão* do valor para o fechamento do mês dos custos de todos os recursos computacionais para o mês corrente (mesmo que ainda não existam valores no *billing ou bucket* deste provedor de serviço de nuvem pública). Esta *previsão* é obtida pela cálculo da variação aritmética dos valores dos seis (06) últimos meses armazenados na base de dados internas da plataforma uCloud. 
   
