@@ -1978,6 +1978,125 @@ As mentioned, this cost regards to the computing resources consumption accumulat
 Service History Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+This report allows the costs administrator to follow the evolution (monthly, weekly or daily) of the costs of each ``Product Name`` registered on the public cloud service provider. These costs are separated into costs with and without tags.
+
+The tag resource is the most usual and indicated way by the public cloud service provider so that the companies can apply some identification to their recurrent public cloud infrastructure costs. Each one of the providers have its specific characteristics of which services or products **are not amenable (it is not allowed)** to apply tags, in other words won’t be all their services and products that can get a tag.
+
+The characteristic of *not allowing to link tags* in all their products can take the companies to a conceptual mistake for the application and distribution of costs by department, costs centers, projects or any other application for the tags.
+
+Therefore, the uCloud platform presents, discriminates and segregates the sum of the values of each ``Product Name`` of the public cloud service providers, in a way that the businesses’ cost administrator can correctly identify the total with and without the tags.
+
+On a FinOps work approach it all starts by identifying which are the resources with more consumption. In that case, the service history menu, the client can view the list of the resources that are consumed the most in their invoice. They are grouped by ``Product Name`` and by ``Product Family``.
+
+When selecting the menu option SERVICE HISTORY it is requested to choose a Company, in the sequence of the type ``Frequency`` and ``Period``, through this report it is possible to analyze the costs in detail, as presented on the images below.
+
+By selecting this report, the uCloud platform presents the screen below, where the user must inform or select a single company:
+
+.. image:: /figuras/fig_historico_serviço_eng/001_service_history_company.png
+  :alt: company list
+  :align: center
+----
+
+* **Company**: The uCloud platform presents a list with only the companies which the user is linked to, they must inform or select only a single company per time. When selecting the desired company the uCloud platform presents the screen below:
+
+.. image:: /figuras/fig_historico_serviço_eng/002_service_history_screen.png
+  :alt: service history screen
+  :align: center
+----
+
+Below follows the description of the fields for this report presentation:
+
+* **Frequency**: This field is the dropdown type and the user can select the ideal period to evaluate the consumption data in their environment. When making a comparative monthly analysis the client can understand how their invoice evolves throughout the time, according to the provider’s invoicing. By clicking with the mouse cursor on ``Frequency`` the uCloud platform presents the options:
+	* **Monthly**: Once selected the monthly analysis, the client can understand how their invoice evolves throughout the time, according to the provider’s invoicing.This view allows them to understand the consumption of the products according to the client’s invoice.
+
+		In the example below, when selecting the ``Period`` blank and then ``Monthly``, that way, the calendar with the months becomes available for selection. It is possible to choose the minimum of 1 month and the maximum of all the months of the year. To exemplify, the last three months were selected according to the image below.
+
+.. image:: /figuras/fig_historico_serviço_eng/003_calendar_months.png
+  :alt: calendar months
+  :align: center
+----
+
+	* **Weekly**: This filter allows one to have a more granular view of the consumption, making possible the understanding and identifying consumption peaks in weeks throughout the months. In that case, it can generate indicators of applications or behavior that generate consumption peaks in a certain week and, not in another.
+
+		It is important to mention that in the present moment the uCloud platform works only with the concept of closed weeks of the month (Sunday to Saturday), these weeks are numbered sequentially from 1 to 52 and presented on the left side of the presented calendar. The blank ``Period`` shows the ``Weekly`` calendar. According to the image below:
+
+.. image:: /figuras/fig_historico_serviço_eng/004_calendar_weeks.png
+  :alt: calendar weeks
+  :align: center
+----
+
+	* **Daily**: This filter allows a view in a less granular period possible. Thus, it is possible to understand and identify consumption peaks throughout the days. In that case, it can generate indicators of applications or behavior that show consumption peaks in a certain day and not in another. The ``Period`` blank shows the calendar ``Daily``. As shown in the image below:
+
+.. image:: /figuras/fig_historico_serviço_eng/005_calendar_days.png
+  :alt: calendar days
+  :align: center
+----
+
+* **Period**: It is a mandatory field, the uCloud platform changes this blank, after the user selects the period on the previous space.
+
+* **Account provider**: This field is mandatory and dropdown type, when the user clicks with the mouse cursor the uCloud platform presents the list of all the provisioned containers, which the user is linked to use.
+
+* **Linked Account**: The term “Account provider” on the uCloud platform is used to represent a cloud environment, whether it is public and/or private. An account provider is a logical abstraction to group all the resources (virtual machine, servers, disks, storages) of a certain type of hypervisor. All the providers adopt a logical organizational structure to create their totalization costs environment.
+
+	For the uCloud platform, an **Account provider** is provisioned that can be the “**root**” of the business. The uCloud platform denominates a “**Sub Account**” the subdivisions of this main account (Organizational Units or Member Accounts, among others), allows the businesses to allocate cloud computing costs for different units or cost centers. This is a dropdown type of field and lists all the Sub Accounts that were provisioned for the root account, according to the following example, on the image below:
+
+.. image:: /figuras/fig_historico_serviço_eng/006_linked_accounts.png
+  :alt: linked accounts
+  :align: center
+----
+
+* ``Filter`` **button**: The user must click with the mouse cursor over this ``Filter`` button after the complete filling of all the desired filters, at this moment the uCloud platform processes the information stored in its databases and presents the reports on screen. Below is presented a screen to illustrate **as a simple example** the result after the processing to display the report:
+
+.. image:: /figuras/fig_historico_serviço_eng/007_history_report.png
+  :alt: history report
+  :align: center
+----
+
+In the Service History there is the quadrant “Total Value” that presents the cloud consumption on the month selected on the filters fields.
+
+With that information it is possible to have a visibility of how the environment is behaving, therefore, the user can start to put together a strategy to discover forms of optimization.
+
+In the sequence, a deep view of how these expenses are distributed among the cloud products.
+
+* **Section Charts Cost History by Category**:
+
+In the quadrant “Cost History by category” the panel displays a chart for every month selected and the list of all the cloud services, referring also as ``Product Name`` respective of each public cloud service provider.
+
+Following the pattern of nomenclature of each one of the clouds, the bars show how much was spent and how much the service represents the total consumption of the invoice. By passing the mouse over the bars the panel presents the name of the product and its respectives expenses, as shown on the image below:
+
+.. image:: /figuras/fig_historico_serviço_eng/008_graph_info.png
+  :alt: graph info
+  :align: center
+----
+
+The default presentation of these graphs by the uCloud platform is the stacked columns chart, with the value separated for each ``Product Name`` of the public cloud service provider. 
+
+* **Graphs Settings**: it is an existing tab on the inferior part of the screen which the user can customize the way of presenting these graphs. The user just needs to click with the mouse cursor over the *tab* that the uCloud platform presents the settings options:
+
+.. image:: /figuras/fig_historico_serviço_eng/009_graph_settings.png
+  :alt: graph settings
+  :align: center
+----
+
+On this tab the user can select if they desire to present or remove from the graphs any ``Product Name`` of the public cloud service provider.
+* **Section Viewing Data by Cost**:
+
+In the quadrant viewing data by cost, the panel presents the service items (PRODUCT NAME) and net to it the months chosen with their respective total expenses separated into two categories, DIRECT CHARGES and INDIRECT CHARGES, according to the illustrative example on the screen below:
+
+.. image:: /figuras/fig_historico_serviço_eng/010_types_charges.png
+  :alt: types of charges
+  :align: center
+----
+
+	* **Direct Charges**: The ``Direct`` category is the sum of the values of all the products and/or services which the public service provider **does allow to link** some form of identification, or tag, that when linked to the computing resources by the owner of the resource(s) it is the most usual way for identifying and allocating the recurrent values between departments, cost centers, projects, initiatives.
+
+	* **Indirect Charges**: The ``Indirect`` category is the sum of the values of all the products and services that the public cloud service providers **does not allow** that any type of tag to be used to link to the computing resources by the owner of the resource(s(. Each public cloud service provider has its specificity in which products and services the tags are not amendable of being linked.
+
+The explicitly segmented and presented information on the form of this report can support the decision making (insights) to align the distribution of the costs internally on the company (chargeback). This presentation is supported on the best FinOps practices for the correct identification of the recurrent costs of computing resources in the public cloud.
+
+.. note:: |dica| It is not the objective of this report to present the respective tags in the body of the report, but to present to the costs administrator the total of the values which will be possible to identify the department, costs center, project that are attributed through tags. The uCloud platform allows the cost administrator to consult the values by tag in several other billing reports.
+
+
 ----
 
 Cadenced Billing Report
@@ -5509,7 +5628,3 @@ Registered themes
 .. |icone_Eliminar| image:: /figuras/fig_regra_fatura/icone-Eliminar.png
 
 .. |icone-Detalhes| image:: /figuras/fig_regra_fatura/icone-Detalhes.png
-
-.. |icone_grafico_barra01| image:: /figuras/ucloud_icone_grafico01.png
-
-.. |icone_grafico_barra02| image:: /figuras/ucloud_icone_grafico02.png

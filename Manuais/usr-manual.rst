@@ -9326,7 +9326,9 @@ Seguindo o padrão de nomenclatura de cada uma das nuvens, as barras mostram o q
 
 ----
 
-A apresentação padrão destes gráficos pela plataforma uCloud é um gráfico de barras independentes, com o valor separado para cada ``Product Name`` do provedor de serviço de nuvem pública. A plataforma uCloud permite que o usuário alterne para apresentação de gráfico com barras sobrepostas (*Stacked Columns*).
+A apresentação padrão destes gráficos pela plataforma uCloud é um gráfico com barras sobrepostas (*Stacked Columns*), com o valor separado para cada ``Product Name`` do provedor de serviço de nuvem pública.
+
+.. A apresentação padrão destes gráficos pela plataforma uCloud é um gráfico de barras independentes, com o valor separado para cada ``Product Name`` do provedor de serviço de nuvem pública. A plataforma uCloud permite que o usuário alterne para apresentação de gráfico com barras sobrepostas (*Stacked Columns*).
 
 * **Configurações do Gráfico**: é uma aba existente na parte inferior da tela que o usuário pode personalizar a forma de apresentação destes gráficos. Basta o usuário clicar com o cursor do mouse sobre a *aba* que a plataforma uCloud apresenta as opções de configuração:
 
@@ -9339,21 +9341,21 @@ A apresentação padrão destes gráficos pela plataforma uCloud é um gráfico 
 
 Nesta aba o usuário pode selecionar se deseja apresentar ou remover dos gráficos algum ``Product Name`` do provedor de serviço de nuvem pública.
 
-No canto direito, desta aba, o usuário encontra um ícone que permite alternar entre o modo de apresentação das barras |icone_grafico_barra01| ou |icone_grafico_barra02|
+.. No canto direito, desta aba, o usuário encontra um ícone que permite alternar entre o modo de apresentação das barras |icone_grafico_barra01| ou |icone_grafico_barra02|
 
-.. image:: /figuras/ucloud_menu_financeiro002k.png
+.. .. image:: /figuras/ucloud_menu_financeiro002k.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
-.. image:: /figuras/ucloud_menu_financeiro002m.png
+.. .. image:: /figuras/ucloud_menu_financeiro002m.png
    :alt: Virtual Datacenter - Exemplo
    :scale: 60 %
    :align: center
 
-----
+.. ----
 
 * **Seção Visualização de Dados por Custo**:
 
