@@ -1966,7 +1966,7 @@ In this flow, the following image is presented to the user when the Reports subm
 As mentioned, this cost regards to the computing resources consumption accumulated values in the current month up to the current day or up to the last 'window' of values processing through the provider. It is presented a set of reports:
 
 * Service History
-* Cadenced Billing
+* Cadenced Cost
 * Product Relational Cost
 * Resource Viewing
 * Budgets Costs
@@ -2100,7 +2100,7 @@ The explicitly segmented and presented information on the form of this report ca
 
 ----
 
-Cadenced Billing Report
+Cadenced Cost Report
 ~~~~~~~~~~~~~~~~~~~~~~
 
 ----
@@ -3212,7 +3212,7 @@ The first topic **“Consumption-based panels”** groups seven types of reports
 ----
 
 * Service History;
-* Cadenced Billing;
+* Cadenced Cost;
 * Product Relational Cost;
 * Resources Viewing;
 * Budgets Costs;
