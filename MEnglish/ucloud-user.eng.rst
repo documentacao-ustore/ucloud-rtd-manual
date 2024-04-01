@@ -2062,7 +2062,7 @@ In the sequence, a deep view of how these expenses are distributed among the clo
 
 In the quadrant “Cost History by category” the panel displays a chart for every month selected and the list of all the cloud services, referring also as ``Product Name`` respective of each public cloud service provider.
 
-Following the pattern of nomenclature of each one of the clouds, the bars show how much was spent and how much the service represents the total consumption of the invoice. By passing the mouse over the bars the panel presents the name of the product and its respectives expenses, as shown on the image below:
+Following the pattern of nomenclature of each one of the clouds, the bars show how much was spent and how much the service represents the total consumption of the invoice. By passing the mouse over the bars the panel presents the name of the product and its respective expenses, as shown on the image below:
 
 .. image:: /figuras/fig_historico_serviço_eng/008_graph_info.png
   :alt: graph info
@@ -2079,6 +2079,7 @@ The default presentation of these graphs by the uCloud platform is the stacked c
 ----
 
 On this tab the user can select if they desire to present or remove from the graphs any ``Product Name`` of the public cloud service provider.
+
 * **Section Viewing Data by Cost**:
 
 In the quadrant viewing data by cost, the panel presents the service items (PRODUCT NAME) and net to it the months chosen with their respective total expenses separated into two categories, DIRECT CHARGES and INDIRECT CHARGES, according to the illustrative example on the screen below:
@@ -2090,7 +2091,7 @@ In the quadrant viewing data by cost, the panel presents the service items (PROD
 
 	* **Direct Charges**: The ``Direct`` category is the sum of the values of all the products and/or services which the public service provider **does allow to link** some form of identification, or tag, that when linked to the computing resources by the owner of the resource(s) it is the most usual way for identifying and allocating the recurrent values between departments, cost centers, projects, initiatives.
 
-	* **Indirect Charges**: The ``Indirect`` category is the sum of the values of all the products and services that the public cloud service providers **does not allow** that any type of tag to be used to link to the computing resources by the owner of the resource(s(. Each public cloud service provider has its specificity in which products and services the tags are not amendable of being linked.
+	* **Indirect Charges**: The ``Indirect`` category is the sum of the values of all the products and services that the public cloud service providers **does not allow** that any type of tag to be used to link to the computing resources by the owner of the resource(s). Each public cloud service provider has its specificity in which products and services the tags are not amendable of being linked.
 
 The explicitly segmented and presented information on the form of this report can support the decision making (insights) to align the distribution of the costs internally on the company (chargeback). This presentation is supported on the best FinOps practices for the correct identification of the recurrent costs of computing resources in the public cloud.
 
