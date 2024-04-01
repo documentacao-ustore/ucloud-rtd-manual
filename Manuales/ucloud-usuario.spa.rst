@@ -2227,6 +2227,48 @@ Cuando el usuario tiene la plataforma uCloud conectada a un ambiente de Datacent
 Empresas Públicas (USN)
 ------------------------
 
+Debido a la constante variación en el valor de la tasa de cambio (Dólar <> Real), el Gobierno Federal Brasileño ha creado un formato inteligente y fácil para controlar sus límites presupuestarios para la computación en nube pública, de modo que nunca se violen los límites de la Ley de Directrices Presupuestarias (LDO), con el fin de cumplir plenamente con la Ley 8.666/93, de 21 de junio de 1993. Para la contratación del servicio, se aplica el sistema de licitación pública - que es un tipo de licitación aplicable a la adquisición de bienes y servicios comunes - como base legal para las contrataciones de la Administración Pública Federal, que debe ser estrictamente seguido.
+
+Cabe señalar que estas leyes establecen los criterios de clasificación de las propuestas para determinar al ganador de la licitación y que cada proveedor de servicios en la nube ofrece servicios y comercialización diferentes, lo que convierte en un reto discutir, en la definición del modelo, los criterios que deben utilizarse para determinar la propuesta más ventajosa para la Administración Pública Federal. [1]_.
+
+Este abordaje único y especial permite que cualquier órgano del gobierno brasileño (Federal, Estatal o Municipal) consuma recursos de computación en nube pública permitiendo que el valor de los servicios en Unidad de Servicio en Nube (USN) sea calculado utilizando el precio en dólares comerciales en el día de la licitación, fijo durante todo el contrato, más los porcentajes de los impuestos, contribuciones, tasas, lucro y costos de la empresa divididos por el valor de la USN cotizado en la licitación.
+
+La definición de los valores de los recursos computacionales en nube puede individualizarse e incluirse en el cuerpo de cada convocatoria de licitación (de cada organismo interesado en contratar servicios de procesamiento en nube), este documento relacionado con la convocatoria de licitación debe ir acompañado de un "Adjunto", en el que el organismo define los valores específicos.
+
+Los precios de los recursos en USN se definen a través de `tags` en la sección **Precio de los Recursos** del Contrato en la plataforma uCloud, esta aplicación permite añadir/configurar `tags` que identifican cada recurso listado en el adjunto, con su valor en USN.
+
+* Cálculo del costo de los recursos en Unidad de Servicio en la Nube (USN):
+      * Se aplica la suma de la cantidad utilizada del recurso por el precio definido;
+      * En el caso de las máquinas virtuales, el precio se multiplica por la cantidad de CPU o la cantidad de memoria en GB;
+      * Lo que define si este cálculo es por CPU o por memoria es el *tag* aplicado a los recursos;
+      * Si no hay *tag* de tipo USN en el recurso, no se realiza el cálculo.
+
+En casos específicos de recursos sin *tag*, se asume el valor proporcionado en el archivo de Billing (.CSV) del proveedor de servicios de nube pública.
+
+En este ambiente, la plataforma uCloud, después de descargar el archivo de billing del proveedor de servicios en la nube (archivo .CSV), convierte los valores correspondientes al período, utilizando los valores introducidos en los siguientes campos del Contrato:
+
+* Precio del Recurso en USN por hora;
+* Tasa de facturación;
+* Tipo de cotización :
+     * (fija/variable);
+* Día de cotización de la moneda :
+    * (válido sólo para la cotización variable);  
+    * (la plataforma uCloud obtiene el valor del PTAX de la página web del Banco Central de Brasil).
+
+Por lo tanto, la fórmula para presentar los valores de los recursos computacionales de la nube pública expresados en USN es bastante diferente:
+
++-----------------------+--------------------+----+-------------------+----+-------------+----+----------------------+
+|| **Valor Reales(R$)** || Valor del Recurso ||   || Suma Mensual del ||   || Valor US$  ||   || Tasa de Facturación |
+||   Total Mensual      || en USN/h          || x || Consumo USN      || x || [Día] PTAX || x ||                     |
++-----------------------+--------------------+----+-------------------+----+-------------+----+----------------------+
+|| **Valor Reales(R$)** || Valor del Recurso ||   || Suma Mensual del ||   || Valor US$  ||   || Tasa de Facturación |
+||   Total Mensual      || en USN/h          || x || Consumo USN      || x || [Fija]     || x ||                     |
++-----------------------+--------------------+----+-------------------+----+-------------+----+----------------------+
+
+
+.. [1] Informaciones generales obtenidas de la monografía: *Desafíos de la contratación de servicios en la nube en el sector público*: criterios para contratación en el Senado Federal (Rubens Vasconcellos Terra Neto - 2019) - Instituto Legislativo Brasileño ILB - Senado Federal Brasileño.https://www2.senado.leg.br/bdsf/handle/id/569196.
+
+
 ----
 
 Ambiente Corporativo
